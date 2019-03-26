@@ -12,4 +12,4 @@ I&#8217;ve spent two days trying to figure out how to send an ATA command direct
 
 That&#8217;s nasty.
 
-By the way, C&#8217;T (an extremely technical German computer magazine, fortunately now with a Dutch edition as well) rules in more ways than one. If you&#8217;re looking for concrete information on how to abuse IOCTL\_IDE\_PASS_THROUGH, they&#8217;re the only guys who can help.
+By the way, C&#8217;T (an extremely technical German computer magazine, fortunately now with a Dutch edition as well) rules in more ways than one. If you&#8217;re looking for concrete information on how to abuse IOCTL_IDE_PASS_THROUGH, they&#8217;re the only guys who can help.

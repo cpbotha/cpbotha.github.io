@@ -42,15 +42,15 @@ On the topic of age and the inevitable mid-life crisis, it seems technology has 
 
 After a week of not-correcting-the-internet (good), lots of Python (good) and much face-palming at the South African Reserve Bank&#8217;s archaic view on intellectual property and exchange control (hopefully much more on that later), my weekend was of the fabulous middle-of-the-Cape-winter variety. 
 
-It started with some of this on Friday: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-jack\_black\_skeleton\_coast\_ipa.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
+It started with some of this on Friday: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-jack_black_skeleton_coast_ipa.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][1]</a><figcaption class="wp-caption-text">Skeleton Coast IPA, brewed by Jack Black in Cape Town. Highly recommended! Fire and wine not too bad either.</figcaption></figure> 
 
-On Saturday, a completely unplanned and somewhat impulsive turnoff from the R44 right before Stellenbosch brought us to the [vineyard Dornier][2]. Some of it looks like this: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier\_20140629.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl_caption="" title="">
+On Saturday, a completely unplanned and somewhat impulsive turnoff from the R44 right before Stellenbosch brought us to the [vineyard Dornier][2]. Some of it looks like this: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier_20140629.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![][3]</a><figcaption class="wp-caption-text">In the Cape, the summer is always trying to break through, even in the middle of winter.</figcaption></figure> 
 
-Having _arrived_ there, it doesn&#8217;t take much convincing to end up dining in restaurant Bodega, where the wine is **very** local (hey, it says Dornier on the bottles!) and is artfully paired with the delicious food. My lunch ended with these delectable cheeses, preserves and the [Dornier Donatus White][4]. I can&#8217;t remember the year, but it was a fabulous Chenin Blanc and Semillon blend which [the DWR][5] will hopefully soon be able to judge. I fortunately _just_ managed to snap this picture in the midst of a gorgonzola-induced mini pleasure seizure: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier\_20140629\_cheese.jpg" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title="">
+Having _arrived_ there, it doesn&#8217;t take much convincing to end up dining in restaurant Bodega, where the wine is **very** local (hey, it says Dornier on the bottles!) and is artfully paired with the delicious food. My lunch ended with these delectable cheeses, preserves and the [Dornier Donatus White][4]. I can&#8217;t remember the year, but it was a fabulous Chenin Blanc and Semillon blend which [the DWR][5] will hopefully soon be able to judge. I fortunately _just_ managed to snap this picture in the midst of a gorgonzola-induced mini pleasure seizure: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier_20140629_cheese.jpg" data-rel="lightbox-image-2" data-rl_title="" data-rl_caption="" title="">
 
 ![][6]</a><figcaption class="wp-caption-text">Gorgonzola is my kryptonite.</figcaption></figure> 
 

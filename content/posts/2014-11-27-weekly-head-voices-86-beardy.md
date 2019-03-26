@@ -17,7 +17,7 @@ tags:
 ---
 You could have set your watch by the appearance of this weekly blog post! Enjoy it while you can. 
 
-Here&#8217;s a random photo from my week: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/11/wpid-millhouse\_kitchen\_plank.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">![][1]</a><figcaption class="wp-caption-text">I finally figured out what planking is.</figcaption></figure> 
+Here&#8217;s a random photo from my week: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/11/wpid-millhouse_kitchen_plank.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![][1]</a><figcaption class="wp-caption-text">I finally figured out what planking is.</figcaption></figure> 
 
 <div id="outline-container-sec-1" class="outline-2">
   <h2 id="sec-1">

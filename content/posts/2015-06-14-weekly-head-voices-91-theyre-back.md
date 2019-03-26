@@ -14,7 +14,7 @@ tags:
   - three.js
 
 ---
-So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world. <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/06/wpid-afrikaburn-2015-sunset-cpbotha.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
+So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world. <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/06/wpid-afrikaburn-2015-sunset-cpbotha.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][1]</a><figcaption class="wp-caption-text">Sunset at AfrikaBurn 2015.</figcaption></figure> 
 

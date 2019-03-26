@@ -88,7 +88,7 @@ Andrew October
   
 Freelance Journalist :: IT, Technology, Gourmet & Entertainment.
   
-\___\___\___\___\___\___\___\___\___\___\___\___\___\___\____
+______________________________________________
   
 email :: REMOVED
   
@@ -100,7 +100,7 @@ website :: http://www.isoap.co.za
 
 _:: &#8220;Assume you&#8217;re a genius and you will be&#8221; ::
   
-\___\___\___\___\___\___\___\___\___\___\___\___\___\___\____
+______________________________________________
   
 * I am a FastChat user. Use andyo@fastchat.com to FastChat a short message to my Nokia 3650 phone.
   

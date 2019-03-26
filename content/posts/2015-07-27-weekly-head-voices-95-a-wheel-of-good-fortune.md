@@ -12,7 +12,7 @@ tags:
   - waterfront
 
 ---
-<figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-waterfront\_wheel.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl_caption="" title="">![waterfront_wheel.jpg][1]</a><figcaption class="wp-caption-text">The Cape Wheel with Table Mountain in the background.</figcaption></figure> 
+<figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-waterfront_wheel.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![waterfront_wheel.jpg][1]</a><figcaption class="wp-caption-text">The Cape Wheel with Table Mountain in the background.</figcaption></figure> 
 
 <ul class="org-ul">
   <li>

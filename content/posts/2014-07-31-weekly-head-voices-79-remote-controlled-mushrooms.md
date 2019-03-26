@@ -15,13 +15,13 @@ tags:
 ---
 WELL HELLO EVERYONE! 
 
-I&#8217;m a few days late, but I did bring you this free mind trip: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mushrooms\_on\_yer\_screen.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl_caption="" title="">
+I&#8217;m a few days late, but I did bring you this free mind trip: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mushrooms_on_yer_screen.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][1]</a><figcaption class="wp-caption-text">Click me for an even heavier trip!</figcaption></figure> 
 
 On Tuesday, I had an unexpected (I somehow read over a critical paragraph in an email) but brilliant lunch at _Rust en Vreede wine estate_ in the erudite company of [three][2] [bubbly][3] personalities. Having a bunch of vineyards like this within lunching distance is a perk of living in these parts; The superb company was just lovely serendipity. 
 
-Right next to Rust en Vreede is a vineyard that my inner nerd could not resist taking this photo of: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-haskell\_vineyards.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl_caption="" title="">
+Right next to Rust en Vreede is a vineyard that my inner nerd could not resist taking this photo of: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-haskell_vineyards.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![][4]</a><figcaption class="wp-caption-text">It might not be the prettiest, but it&#8217;s definitely functional!</figcaption></figure> 
 

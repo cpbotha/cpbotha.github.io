@@ -26,4 +26,4 @@ After sacrificing the prerequisite 5 hours to the Linux gods of Ultimate Non-Usa
      key <ae08> { [         8,  asterisk        ]       };<br />
 ` 
 
-Now make sure that your right-ALT generates ISO\_Level3\_Shift (also known as AltGr) by using xev. If your font and roughly 8000 other little settings support it, pressing right-alt-5 should make a pretty euro symbol.
+Now make sure that your right-ALT generates ISO_Level3_Shift (also known as AltGr) by using xev. If your font and roughly 8000 other little settings support it, pressing right-alt-5 should make a pretty euro symbol.

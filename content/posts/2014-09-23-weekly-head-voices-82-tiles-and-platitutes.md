@@ -23,7 +23,7 @@ I might currently be at peak Django people. Peak Django!
 
 With the time I save by not blogging _that_ regularly, I still get to hang out with friends, drink local craft beer, and scorch meat. Here&#8217;s a photo to prove it:
 
-<a href="http://cpbotha.net/wp-content/uploads/2014/09/wpid-arty\_bone\_crusher.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">![][1]</a>
+<a href="http://cpbotha.net/wp-content/uploads/2014/09/wpid-arty_bone_crusher.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![][1]</a>
 
 During a different pleasant encounter with a different old friend at Triggerfish Brewing, enjoying some super strong locally-brewed IPAs, abovementioned old friend somehow managed to convince me to try [i3][2]. i3 is a tiling window manager. This means that it forces you to think (mostly) in a single layer on the desktop, meaning no overlapping windows. After a false start (Unity does so many things _right_ out of the box) I&#8217;m now the happy but conflicted owner of a finely hand-tuned i3 configuration. Here&#8217;s a screenshot:
 

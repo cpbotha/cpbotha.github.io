@@ -39,11 +39,11 @@ During this past week, I wrote at least three blog posts (as far as I know):
   </li>
 </ul>
 
-I also had time to enjoy a large number of these home-made (grandparents&#8217; home that is) goodies: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-naartjies.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
+I also had time to enjoy a large number of these home-made (grandparents&#8217; home that is) goodies: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-naartjies.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][2]</a><figcaption class="wp-caption-text">Naartjes, aka mandarins, home-grown!</figcaption></figure> 
 
-as well as some of this: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-droëwors\_en\_biltong1.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title="">
+as well as some of this: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-droëwors_en_biltong1.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![][3]</a><figcaption class="wp-caption-text">Dried sausage (droëwors) and meat (biltong), home-made!</figcaption></figure> 
 

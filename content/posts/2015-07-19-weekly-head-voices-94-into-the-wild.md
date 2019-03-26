@@ -20,7 +20,7 @@ tags:
   <li>
     Last year <a href="http://cpbotha.net/2014/07/16/a-south-african-state-of-mindful/">I explained about the Kruger National Park, or KNP</a>. Well, we went again this year, and again it was lovely. It helps that in the <a href="https://en.wikipedia.org/wiki/Mpumalanga">Mpumalanga</a> and <a href="https://en.wikipedia.org/wiki/Limpopo">Limpopo</a> provinces, &#8220;winter&#8221; at this time of year seems to mean &#8220;lovely balmy days with temperatures between 25 and 30 degrees Celsius&#8221;. What completely and utterly seals the deal, is being surrounded by this particular permutation of natural vastness. You should go there to see for yourself, but here&#8217;s a taste:
   </li>
-</ul><figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-knp\_elephant\_scene\_2015.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl_caption="" title="">
+</ul><figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-knp_elephant_scene_2015.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![knp_elephant_scene_2015.jpg][1]</a><figcaption class="wp-caption-text">Elephants in some of the vastness that is KNP.</figcaption></figure> 
 
@@ -31,7 +31,7 @@ tags:
   <li>
     Here, have a photo of a stealthy leopard to recover:
   </li>
-</ul><figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-knp\_leopard\_2015.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title="">
+</ul><figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-knp_leopard_2015.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![knp_leopard_2015.jpg][2]</a><figcaption class="wp-caption-text">This leopard was stalking something, but then disappeared.</figcaption></figure> 
 
@@ -61,7 +61,7 @@ Very important discovery number 2: You _can_ (and should) deep-fry Oreos!
   </li>
 </ul>
 
-Right peeps, that&#8217;s it for this edition. I wish you a fantastic and especially meaningful week. If at any point you need a little pick-me-up, my baby giraffe is standing by: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-knp\_baby\_giraffe\_2015.jpg" data-rel="lightbox-image-4" data-rl\_title="" data-rl_caption="" title="">
+Right peeps, that&#8217;s it for this edition. I wish you a fantastic and especially meaningful week. If at any point you need a little pick-me-up, my baby giraffe is standing by: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/07/wpid-knp_baby_giraffe_2015.jpg" data-rel="lightbox-image-4" data-rl_title="" data-rl_caption="" title="">
 
 ![knp_baby_giraffe_2015.jpg][3]</a><figcaption class="wp-caption-text">A baby giraffe, because we all need one once in a while.</figcaption></figure>
 

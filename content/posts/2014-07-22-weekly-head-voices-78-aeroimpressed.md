@@ -19,7 +19,7 @@ tags:
   - Vint Cerf
 
 ---
-[Up in the North][1], temperatures were in the mid to high twenties every day (yes, it&#8217;s the middle of Winter, and that&#8217;s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that&#8217;s how we roll! <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire\_in\_the\_office.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl_caption="" title="">
+[Up in the North][1], temperatures were in the mid to high twenties every day (yes, it&#8217;s the middle of Winter, and that&#8217;s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that&#8217;s how we roll! <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire_in_the_office.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][2]</a><figcaption class="wp-caption-text">My office is on fire! Note the interrogation lamp.</figcaption></figure> 
 
@@ -33,13 +33,13 @@ It was awesome seeing Colbert interviewing Vint Cerf, co-father of the internet:
 
 (ARGH. Last Tuesday, this was <a href="https://www.youtube.com/watch?v=ann2q4VPiF8" data-rel="lightbox-video-0">a working YouTube video</a> &#8211; tonight it claims to have been removed by the user. Also, none of the videos available from [The Colbert Report&#8217;s website][7] are viewable here in SA. I briefly considered hosting the video here for both of my readers, but instead I&#8217;ll just post this [other more useful link][8] here.) 
 
-The bit at 17m50 in the full episode, or at 20 seconds into the part 2 video hosted on the Colbert site, where Colbert asks Cerf about his resemblance to The Architect (of The Matrix) is priceless. <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-colbert\_vint\_cerf\_architect.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl_caption="" title="">
+The bit at 17m50 in the full episode, or at 20 seconds into the part 2 video hosted on the Colbert site, where Colbert asks Cerf about his resemblance to The Architect (of The Matrix) is priceless. <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-colbert_vint_cerf_architect.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![][9]</a><figcaption class="wp-caption-text">Vint Cerf on the left, The Architect on the right. (I had to watch this via US VPN due to geographic rights restrictions. Kind of ironic!)</figcaption></figure> 
 
 Oh, it turns out that Al Gore **did** help to get NSFnet funded by the NSF, and so the running joke about him giving the world internet has a kernel of truth according to the gracious Vint Cerf. Here&#8217;s a cookie to feed to your trivia OCD: Vint Cerf and Robert Kahn started working on what would become the internet in 1973, and they switched it on in 1983. 
 
-GOU#1, all of 8 years old, is independently WhatsApping with her grandparents, from her own telephone. I find it really awesome that she&#8217;s making these connections with her extended family. I also find it awesome that she comes up with these kinds of constructions when we&#8217;re not in the mood to build a real fire: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-gou1\_simulates\_fire.jpg" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title="">
+GOU#1, all of 8 years old, is independently WhatsApping with her grandparents, from her own telephone. I find it really awesome that she&#8217;s making these connections with her extended family. I also find it awesome that she comes up with these kinds of constructions when we&#8217;re not in the mood to build a real fire: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-gou1_simulates_fire.jpg" data-rel="lightbox-image-2" data-rl_title="" data-rl_caption="" title="">
 
 ![][10]</a><figcaption class="wp-caption-text">Augmented reality, GOU#1 style.</figcaption></figure> 
 
@@ -51,7 +51,7 @@ On Sunday, we went to [Lourensford][11], a well-known wine farm and cellar just 
 
 Sitting on the shelf above all of the lovely coffee beans was a newly delivered consignment of [Aeropress coffee makers][14]. During a previous visit, I had managed to resist taking one, but this thing was now singing to the very warp core of my inner coffee nerd. 
 
-I could not resist its call anymore. <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-aeropress\_action2.jpg" data-rel="lightbox-image-3" data-rl\_title="" data-rl_caption="" title="">
+I could not resist its call anymore. <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-aeropress_action2.jpg" data-rel="lightbox-image-3" data-rl_title="" data-rl_caption="" title="">
 
 ![][15]</a><figcaption class="wp-caption-text">Giant coffee injection. Air-tight seal, column of air pushes water through coffee in 30 seconds. I haz it.</figcaption></figure> 
 

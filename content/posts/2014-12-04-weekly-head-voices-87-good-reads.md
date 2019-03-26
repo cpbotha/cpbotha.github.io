@@ -14,7 +14,7 @@ tags:
   - tudelft
 
 ---
-Two days ago, I received this in the mail: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/12/wpid-proefschriften\_peter\_kok\_stef\_busking.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
+Two days ago, I received this in the mail: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/12/wpid-proefschriften_peter_kok_stef_busking.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][1]</a><figcaption class="wp-caption-text">Visualization of Variation and Variability by Stef Busking & Integrative Visualization of Whole Body Molecular Imaging Data by Peter Kok</figcaption></figure> 
 

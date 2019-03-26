@@ -40,11 +40,11 @@ I had to wonder whether the [3:14][1] was intentional. We&#8217;re not much into
 
 
   
-\[\Delta M\_i^{-1} = -\alpha \sum\limits\_{n=1}^N D\_i [n] \left[\sum\limits\_{j \in C[i]} F\_{ji} [n-1] + Fext\_i [n^{-1}]\right]\]
+\[\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\]
 
 That&#8217;s the actual name of the track (#2 on the famous [Windowlicker EP][2]), although most people (plebs!) refer  to it as just _Function_ or _Equation_. I got sucked down that rabbit hole last night, but no-one on the internet seems to know the true meaning of the equation. Please ask RDJ if you ever run into him.
 
-Anyways, I have embedded \(\Delta M\_i^{-1} = -\alpha \sum\limits\_{n=1}^N D\_i [n] \left[\sum\limits\_{j \in C[i]} F\_{ji} [n-1] + Fext\_i [n^{-1}]\right]\) below for your listening and viewing pleasure. Aphex Twin&#8217;s face appears at 5:30.
+Anyways, I have embedded \(\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\) below for your listening and viewing pleasure. Aphex Twin&#8217;s face appears at 5:30.
 
 <div class="jetpack-video-wrapper">
   <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/M9xMuPWAZW8?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>

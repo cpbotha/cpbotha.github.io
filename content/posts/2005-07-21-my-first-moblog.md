@@ -12,6 +12,6 @@ Now I can bore you to death by sending these senseless MMSes directly from my ce
 
 Yes, I know moblogging was hip 3 years ago. I \*like\* being behind the times.
 
-<a href="http://visualisation.tudelft.nl/~cpbotha/moblog\_pics/2005721-026.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl_caption="" title="">![][1]</a>
+<a href="http://visualisation.tudelft.nl/~cpbotha/moblog_pics/2005721-026.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![][1]</a>
 
  [1]: http://visualisation.tudelft.nl/~cpbotha/moblog_pics/2005721-026-thumb.jpg

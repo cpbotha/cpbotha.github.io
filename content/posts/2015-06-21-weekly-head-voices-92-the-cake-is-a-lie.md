@@ -16,7 +16,7 @@ tags:
   - wkhtmltopdf
 
 ---
-<figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/06/wpid-del\_vera\_view.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">![][1]</a><figcaption class="wp-caption-text">A random winter&#8217;s day view from Del Vera, where father&#8217;s day was celebrated.</figcaption></figure> 
+<figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/06/wpid-del_vera_view.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![][1]</a><figcaption class="wp-caption-text">A random winter&#8217;s day view from Del Vera, where father&#8217;s day was celebrated.</figcaption></figure> 
 
 The week of Monday June 15 to Sunday June 21 in bullets: 
 

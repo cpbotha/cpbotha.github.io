@@ -34,6 +34,6 @@ In [12]: o2.someOtherVar = 3<br />
 AttributeError: 'newObject' object has no attribute 'someOtherVar'<br />
 ` 
 
-Neat huh? In short, deriving from the new Python class &#8216;object&#8217; means you have a &#8220;new-style&#8221; object. Amongs other things, this means that you can define a \_\_slots\_\_ list which will prevent the use of attributes not in that list. These objects are available from Python 2.2 onwards.
+Neat huh? In short, deriving from the new Python class &#8216;object&#8217; means you have a &#8220;new-style&#8221; object. Amongs other things, this means that you can define a __slots__ list which will prevent the use of attributes not in that list. These objects are available from Python 2.2 onwards.
 
 No, my books haven&#8217;t arrived yet. :)

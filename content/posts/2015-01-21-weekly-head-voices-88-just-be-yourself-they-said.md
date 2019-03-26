@@ -33,7 +33,7 @@ We had lunch and lots of good wine at Solms Delta in Franschoek. Beautiful place
   </p></p>
 </div>
 
-I practically used to live on Paarl Mountain. Here&#8217;s a view from Paarl Rock, taken after the wind did its absolute best to try and blow us from Britannica rock. <a href="http://cpbotha.net/wp-content/uploads/2015/01/wpid-view\_from\_paarl\_rock.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl_caption="" title="">
+I practically used to live on Paarl Mountain. Here&#8217;s a view from Paarl Rock, taken after the wind did its absolute best to try and blow us from Britannica rock. <a href="http://cpbotha.net/wp-content/uploads/2015/01/wpid-view_from_paarl_rock.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![][4]</a> 
 

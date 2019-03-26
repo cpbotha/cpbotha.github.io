@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-Just for clarity: no, I \_don&#8217;t\_ work for emusic, nor am I affiliated with them in any way. However, I would like the concept of affordable and legal on-line music to be proven viable.
+Just for clarity: no, I _don&#8217;t_ work for emusic, nor am I affiliated with them in any way. However, I would like the concept of affordable and legal on-line music to be proven viable.
 
 In anycase, if you have a taste for for the alternative/industrial (I hate to categorise), you should take a listen to the [Evil Mothers][1]. You could perhaps start with [Pitchforks and Perverts][2] or even [I Love Fur][3].
 

@@ -15,7 +15,7 @@ tags:
   - warp
 
 ---
-I think I might have forgotten to tell you that one of the many perks of working at the Stone Three offices is that there&#8217;s a micro-brewery within walking distance. [Triggerfish Brewing][1], as brewery in question is called, was the location of a midweek mini-get-together that ended up looking like this: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-triggerfish\_amber\_ale.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
+I think I might have forgotten to tell you that one of the many perks of working at the Stone Three offices is that there&#8217;s a micro-brewery within walking distance. [Triggerfish Brewing][1], as brewery in question is called, was the location of a midweek mini-get-together that ended up looking like this: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-triggerfish_amber_ale.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
 ![][2]</a><figcaption class="wp-caption-text">Triggerfish&#8217;s Roman Red Ale on a Winter&#8217;s day.</figcaption></figure> 
 
@@ -34,7 +34,7 @@ In between coffee, beer and meetings, I wrote two short nerdy posts at the vxlab
 
 It was pretty awesome to hear that [NASA is thinking pretty seriously about developing a warp drive][6], with which a ship would we able to traverse space at effectively faster than light speeds. It would do this without _locally_ exceeding the speed of light by warping space around the travelling ship, contracting spacetime before the moving ship and expanding it behind it. The ideas are based on a paper by Miguel Alcubierre from 1994 titled [_The warp drive: hyper-fast travel within general relativity_][7], and so this gets to be called the Alcubierre Drive! 
 
-Well now they&#8217;ve gone and [published artist&#8217;s impressions][8] of what such an Alcubierre Drive-equipped ship could look like, and it&#8217;s gorgeous! <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-alcubierre\_ship.jpg" data-rel="lightbox-image-1" data-rl\_title="" data-rl_caption="" title="">
+Well now they&#8217;ve gone and [published artist&#8217;s impressions][8] of what such an Alcubierre Drive-equipped ship could look like, and it&#8217;s gorgeous! <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-alcubierre_ship.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
 
 ![][9]</a><figcaption class="wp-caption-text">My favourite view of the ship. The rings on the outside are there to create the warp bubble which will BEND SPACETIME!</figcaption></figure> 
 

@@ -16,7 +16,7 @@ Week 31 of 2014, which was otherwise pretty uneventful except for bunches of har
 
 YES PEOPLE SPRING IS JUST AROUND THE CORNER! 
 
-I made you a photo of this ominous looking Portal To _Soooooomething_: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/08/wpid-gates\_to\_somewhere\_geelbek\_restaurant.jpg" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">![][1]</a><figcaption class="wp-caption-text">These look like the gates to some far-off fantasy plane. Instead, it&#8217;s the Geelbek Restaurant in the West Coast National Park, which does serve mysteriously delicious chocolate cake.</figcaption></figure> 
+I made you a photo of this ominous looking Portal To _Soooooomething_: <figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/08/wpid-gates_to_somewhere_geelbek_restaurant.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![][1]</a><figcaption class="wp-caption-text">These look like the gates to some far-off fantasy plane. Instead, it&#8217;s the Geelbek Restaurant in the West Coast National Park, which does serve mysteriously delicious chocolate cake.</figcaption></figure> 
 
 Just so you don&#8217;t think it was overcast and non-Springy everywhere, I can assure you that those funny clouds were _only_ over the respawning portal. Everywhere else it looked like this 360 degree photosphere I made for you (hey, we live in the future, I can show you 360 degree pannable photos; go on, pan and zoom with your mouse, or just wave your hands if you have your VR helmet on): 
 

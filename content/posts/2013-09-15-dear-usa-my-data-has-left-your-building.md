@@ -35,7 +35,7 @@ You can read more about this state of affairs in [The Guardian&#8217;s NSA files
 
 For me the final straw was when secure email service [lavabit][4] voluntarily shut itself down, when faced with the prospect of being forced to leak user information to the US government without being allowed to tell anyone. The message on the site is quite chilling, and concludes with the following:
 
-> This experience has taught me one very important lesson: without congressional action or a strong judicial precedent, I would \_strongly\_ recommend against anyone trusting their private data to a company with physical ties to the United States.
+> This experience has taught me one very important lesson: without congressional action or a strong judicial precedent, I would _strongly_ recommend against anyone trusting their private data to a company with physical ties to the United States.
 
 At this point, I was a super happy and pretty heavy user of a number of US-based services, including GMail (all my email, about 40000 conversations consisting of 60000 mails, that&#8217;s excluding my work email which I also hosted on GMail), Google+ Photos (all my photos, about 21000 of &#8217;em), Google Drive, Dropbox (50G of data spread out over 120000 files). _In all cases, I still consider these to be best of class services._ In putting my money where my mouth is, I was paying both Google and Dropbox for extra storage.
 
