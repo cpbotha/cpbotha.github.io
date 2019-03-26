@@ -1,0 +1,7 @@
+baseURL = "https://cpbotha.net/"
+languageCode = "en-us"
+title = "voices in my head"
+theme = "hugo-theme-minos"
+
+# we only need this for minos to get disqus going.
+disqusShortname = "cpbotha"
