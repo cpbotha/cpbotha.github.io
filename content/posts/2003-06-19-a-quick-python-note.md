@@ -10,16 +10,20 @@ categories:
 ---
 Have a look at this brief snippet:
   
-`<br />
-In [2]: a = range(10)<br />
-In [3]: 3 in a<br />
-Out[3]: 1<br />
-In [4]: 3 not in a<br />
-Out[4]: 0<br />
-In [5]: not (3 in a)<br />
-Out[5]: 0<br />
-` 
+```
+In [2]: a = range(10)
+In [3]: 3 in a
+Out[3]: 1
+In [4]: 3 not in a
+Out[4]: 0
+In [5]: not (3 in a)
+Out[5]: 0
+```
 
-Input/output 4 should strike you as a tad strange if you don&#8217;t know Python _that_ well but are familiar with similar constructs in other languages. At first glance, it almost seems like the sense of an operator can be negated with the `not` operator.
+Input/output 4 should strike you as a tad strange if you don't know Python
+_that_ well but are familiar with similar constructs in other languages. At
+first glance, it almost seems like the sense of an operator can be negated
+with the `not` operator.
 
-Fortunately, this is simply a case of the whole of `not in` being a single operator in Python. `e not in S` is equivalent to `not (e in S)`.
+Fortunately, this is simply a case of the whole of `not in` being a single
+operator in Python. `e not in S` is equivalent to `not (e in S)`.
