@@ -4,6 +4,10 @@ author: cpbotha
 type: page
 date: 2007-02-16T16:17:02+00:00
 layout: single
+menu:
+  main:
+    weight: 20
+
 
 ---
 I really love working on software. This page contains a list of the things that I&#8217;ve written over the years, some open source and some not, as well as some of the things I&#8217;ve contributed to. One day, when I&#8217;m grown-up, I&#8217;d really like to return to Writing Really Nice Software.

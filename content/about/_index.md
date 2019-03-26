@@ -4,6 +4,9 @@ author: cpbotha
 type: page
 date: 2007-02-16T15:00:17+00:00
 layout: single
+menu:
+  main:
+    weight: 10
 
 ---
 This site is all about me, me and me. To be more precise, the private, non-work me.  Sometimes, there&#8217;s a bit of cross-talk between work-me and private-me, but I try to keep these two apart as far as possible.  Hence the voices.  The voices!!
