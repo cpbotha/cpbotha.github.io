@@ -5,3 +5,6 @@ theme = "hugo-theme-minos"
 
 # we only need this for minos to get disqus going.
 disqusShortname = "cpbotha"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
