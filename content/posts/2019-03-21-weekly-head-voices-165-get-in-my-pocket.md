@@ -23,13 +23,13 @@ However, fear of yet another much-too-long WHV, along with my current preference
 
 This post consists of a really short life part, followed by a longer nerdy pro-tip for the storage and retrieval of your web references.
 
-## GOU#3 turns 3. {#orgf354338}
+## GOU#3 turns 3.
 
 It seems like [just the other day when Genetic Offspring Unit (GOU) #3 joined us][1] here in the warm and fuzzy Humanist Kingdom of WHV.
 
 Well, the &#8220;beautiful pink little not-yet-walking but rapidly expanding cellular mega-city&#8221; never stopped expanding, and is currently surprising us every day with the new ways in which her neural network processes and transforms the reality she finds herself in.
 
-## Replacing Pocket with Just a Bunch Of PDFs (JPOP). {#org9d808af}
+## Replacing Pocket with Just a Bunch Of PDFs (JPOP).
 
 I&#8217;ve been a happy user of Pocket Premium since October 23, 2016, when they cleverly offered me a locked discount on the annual plan.
 
@@ -49,7 +49,7 @@ This frustrating led me to find an alternative solution, which became… a big o
 
 In order to do this, we need a method of turning web-pages into readable PDFs, and some system for the storage and retrieval of said PDFs.
 
-### Use a browser with ad-blocking and Reader Mode {#org75e1932}
+### Use a browser with ad-blocking and Reader Mode
 
 The general idea is to use a browser with ad-blocking and some sort of reader mode, and then to print to PDF.
 
@@ -63,7 +63,7 @@ Unfortunately, Safari on iOS 12 does not currently add the source URL to its vir
 
 To print to PDF on iOS, simply print (swipe up, tap share, tap print), then do the zoom-in gesture to turn the print into a PDF, then share again to save out the PDF.
 
-### Store and name your PDFs so you can search them from everywhere {#orgf106e7e}
+### Store and name your PDFs so you can search them from everywhere
 
 I store all of these PDFs in year-named sub-directories of a directory called&nbsp;`refs`&nbsp;in my Dropbox.
 
@@ -75,7 +75,7 @@ If you are a Dropbox Pro subscriber, the mobile app provides full-text searching
 
 Google Drive will do this for cheaper, but [Google Drive might also end up eating your files][9]. ;)
 
-### Profit! {#org6819e0e}
+### Profit!
 
 Now all of your web references are in PDF format, arguably the typeset-document equivalent of plaintext in terms of accessibility and future proofing.
 
@@ -83,7 +83,7 @@ As you change around your syncing and storage systems in the coming years, your 
 
 As an added bonus, these PDFs can be annotated with your notes and text highlights.
 
-## This ending is only a pause. {#orgab32360}
+## This ending is only a pause.
 
 Thank you for sticking around for the warming up of the pipes.
 
