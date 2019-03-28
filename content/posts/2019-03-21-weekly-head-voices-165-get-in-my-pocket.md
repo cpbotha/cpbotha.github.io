@@ -15,79 +15,129 @@ tags:
   - safari
 
 ---
+
 This short WHV looks back at the week from Monday March 4 to Sunday March 10.
 
-In the week after that, I had actually decided not to publish this one, instead folding whatever I wanted to say into the next edition.
+In the week after that, I had actually decided not to publish this one,
+instead folding whatever I wanted to say into the next edition.
 
-However, fear of yet another much-too-long WHV, along with my current preference for a short warming-up of the writing pipes, have led me to change my mind, and so here we are!
+However, fear of yet another much-too-long WHV, along with my current
+preference for a short warming-up of the writing pipes, have led me to change
+my mind, and so here we are!
 
-This post consists of a really short life part, followed by a longer nerdy pro-tip for the storage and retrieval of your web references.
+This post consists of a really short life part, followed by a longer nerdy
+pro-tip for the storage and retrieval of your web references.
 
 ## GOU#3 turns 3.
 
-It seems like [just the other day when Genetic Offspring Unit (GOU) #3 joined us][1] here in the warm and fuzzy Humanist Kingdom of WHV.
+It seems like [just the other day when Genetic Offspring Unit (GOU) #3 joined
+us][1] here in the warm and fuzzy Humanist Kingdom of WHV.
 
-Well, the &#8220;beautiful pink little not-yet-walking but rapidly expanding cellular mega-city&#8221; never stopped expanding, and is currently surprising us every day with the new ways in which her neural network processes and transforms the reality she finds herself in.
+Well, the "beautiful pink little not-yet-walking but rapidly expanding
+cellular mega-city" never stopped expanding, and is currently surprising us
+every day with the new ways in which her neural network processes and
+transforms the reality she finds herself in.
 
-## Replacing Pocket with Just a Bunch Of PDFs (JPOP).
+## Replacing Pocket with Just a Bunch Of PDFs (JBOP).
 
-I&#8217;ve been a happy user of Pocket Premium since October 23, 2016, when they cleverly offered me a locked discount on the annual plan.
+I've been a happy user of Pocket Premium since October 23, 2016, when they
+cleverly offered me a locked discount on the annual plan.
 
-I&#8217;m a sucker for a deal, and I needed something with which to store archive versions of interesting blog posts and other web resources.
+I'm a sucker for a deal, and I needed something with which to store archive
+versions of interesting blog posts and other web resources.
 
-It served me well, as I frequently access and share especially research-related articles and blurbs, such as&nbsp;[this one][2]&nbsp;discussing the observation that aspartame (a sugar substitute found in popular fizzy drinks) interferes with some of your enzymes, possibly resulting in more weight gain that straight sugar!
+It served me well, as I frequently access and share especially
+research-related articles and blurbs, such as [this one][2] discussing the
+observation that aspartame (a sugar substitute found in popular fizzy drinks)
+interferes with some of your enzymes, possibly resulting in more weight gain
+that straight sugar!
 
-(For Real Academic Articles, i.e. RAA-RAA, I am still a huge fan of [Zotero][3]. If Zotero had better mobile access, I would have used it for these straight web references also.)
+(For Real Academic Articles, i.e. RAA-RAA, I am still a huge fan
+of [Zotero][3]. If Zotero had better mobile access, I would have used it for
+these straight web references also.)
 
-ANYWAYS, recently the new beta pocket interface was failing me horribly as I was trying to find the exact article mentioned up above.
+ANYWAYS, recently the new beta pocket interface was failing me horribly as I
+was trying to find the exact article mentioned up above.
 
-Typing &#8220;glu&#8221; or &#8220;glucose&#8221; was unsuccessful in finding another article &#8220;Artificial sweeteners induce glucose intolerance by altering the gut microbiota&#8221;, even although I could see that exact article in the overview screen. To add insult to injury, searching for &#8220;aspartame&#8221; also did not find that entry, although I had explicitly tagged it with &#8220;glucose&#8221;.
+Typing "glu" or "glucose" was unsuccessful in finding another article
+"Artificial sweeteners induce glucose intolerance by altering the gut
+microbiota", even although I could see that exact article in the overview
+screen. To add insult to injury, searching for "aspartame" also did not find
+that entry, although I had explicitly tagged it with "aspartame".
 
-It could very well be that this is just a (serious) glitch in the beta system, but it was a frustrating reminder that for something as important (to me) as my collection of references (aka &#8220;argument-winning potion&#8221;), I was at the mercy of someone else, with almost no other recourse.
+It could very well be that this is just a (serious) glitch in the beta system,
+but it was a frustrating reminder that for something as important (to me) as
+my collection of references (aka &#8220;argument-winning potion&#8221;), I was
+at the mercy of someone else, with almost no other recourse.
 
-This frustrating led me to find an alternative solution, which became… a big ol&#8217; bunch of PDFs! (call this JPOP, inspired by&nbsp;[JBOD][4])
+This frustrating led me to find an alternative solution, which became... a big
+ol' bunch of PDFs! (call this JPOP, inspired by [JBOD][4])
 
-In order to do this, we need a method of turning web-pages into readable PDFs, and some system for the storage and retrieval of said PDFs.
+In order to do this, we need a method of turning web-pages into readable PDFs,
+and some system for the storage and retrieval of said PDFs.
 
 ### Use a browser with ad-blocking and Reader Mode
 
-The general idea is to use a browser with ad-blocking and some sort of reader mode, and then to print to PDF.
+The general idea is to use a browser with ad-blocking and some sort of reader
+mode, and then to print to PDF.
 
-On desktop, I am using&nbsp;[Brave Browser][5]&nbsp;because of the great built-in ad-blocking, and because I strongly support the idea of micro-payments to long-form content producers instead of content-destroying ads in my face.
+On desktop, I am using&nbsp;[Brave Browser][5]&nbsp;because of the great
+built-in ad-blocking, and because I strongly support the idea of
+micro-payments to long-form content producers instead of content-destroying
+ads in my face.
 
-Because its built in reader mode, called&nbsp;[Speed Reader][6], has not shipped yet, I&#8217;m currently using the&nbsp;[Print Friendly & PDF extension][7].
+Because its built in reader mode, called&nbsp;[Speed Reader][6], has not
+shipped yet, I'm currently using the&nbsp;[Print Friendly & PDF extension][7].
 
-Safari on macOS and Firefox have built-in reader modes / views. I can recommend the&nbsp;[AdGuard ad-blocking extension][8]&nbsp;for Safari.
+Safari on macOS and Firefox have built-in reader modes / views. I can
+recommend the&nbsp;[AdGuard ad-blocking extension][8]&nbsp;for Safari.
 
-Unfortunately, Safari on iOS 12 does not currently add the source URL to its virtually printed PDFs, so I&#8217;m using Brave there also, although on iOS I generally prefer Safari, also with AdGuard.
+Unfortunately, Safari on iOS 12 does not currently add the source URL to its
+virtually printed PDFs, so I'm using Brave there also, although on iOS I
+generally prefer Safari, also with AdGuard.
 
-To print to PDF on iOS, simply print (swipe up, tap share, tap print), then do the zoom-in gesture to turn the print into a PDF, then share again to save out the PDF.
+To print to PDF on iOS, simply print (swipe up, tap share, tap print), then do
+the zoom-in gesture to turn the print into a PDF, then share again to save out
+the PDF.
 
 ### Store and name your PDFs so you can search them from everywhere
 
-I store all of these PDFs in year-named sub-directories of a directory called&nbsp;`refs`&nbsp;in my Dropbox.
+I store all of these PDFs in year-named sub-directories of a directory
+called&nbsp;`refs`&nbsp;in my Dropbox.
 
-Each PDF is named &#8220;publication-date &#8211; publisher &#8211; title / stub&#8221;, so the full path is e.g.&nbsp;`~/Dropbox/refs/2019/2019-03-09 - CBC Radio - Your brain may need sleep to repair DNA 'potholes'`.
+Each PDF is named "publication-date - publisher / author - title / stub", so
+the full path is e.g.&nbsp;`~/Dropbox/refs/2019/2019-03-09 - CBC Radio - Your
+brain may need sleep to repair DNA 'potholes'`.
 
-On macOS, all of these PDFs are indexed by Spotlight, so I can find the ones I want quite quickly. Your operating system of choice should have something similar.
+On macOS, all of these PDFs are indexed by Spotlight, so I can find the ones I
+want quite quickly. Your operating system of choice should have something
+similar.
 
-If you are a Dropbox Pro subscriber, the mobile app provides full-text searching to mobile spotlight also, so you can find any article lightning fast on your phone.
+If you are a Dropbox Pro subscriber, the mobile app provides full-text
+searching to mobile spotlight also, so you can find any article lightning fast
+on your phone.
 
-Google Drive will do this for cheaper, but [Google Drive might also end up eating your files][9]. ;)
+Google Drive will do this for cheaper, but [Google Drive might also end up
+eating your files][9]. ;)
 
 ### Profit!
 
-Now all of your web references are in PDF format, arguably the typeset-document equivalent of plaintext in terms of accessibility and future proofing.
+Now all of your web references are in PDF format, arguably the
+typeset-document equivalent of plaintext in terms of accessibility and future
+proofing.
 
-As you change around your syncing and storage systems in the coming years, your faithful directory of PDFs will follow you wherever you go.
+As you change around your syncing and storage systems in the coming years,
+your faithful directory of PDFs will follow you wherever you go.
 
-As an added bonus, these PDFs can be annotated with your notes and text highlights.
+As an added bonus, these PDFs can be annotated with your notes and text
+highlights.
 
 ## This ending is only a pause.
 
 Thank you for sticking around for the warming up of the pipes.
 
-I hope that they will not have cooled down too much before I find another bit of time to start on WHV #166.
+I hope that they will not have cooled down too much before I find another bit
+of time to start on WHV #166.
 
 There will be pretty pictures!
 
