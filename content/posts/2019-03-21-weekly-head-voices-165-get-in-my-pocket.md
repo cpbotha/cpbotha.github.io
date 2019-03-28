@@ -71,7 +71,7 @@ my collection of references (aka &#8220;argument-winning potion&#8221;), I was
 at the mercy of someone else, with almost no other recourse.
 
 This frustrating led me to find an alternative solution, which became... a big
-ol' bunch of PDFs! (call this JPOP, inspired by [JBOD][4])
+ol' bunch of PDFs! (call this JBOP, inspired by [JBOD][4])
 
 In order to do this, we need a method of turning web-pages into readable PDFs,
 and some system for the storage and retrieval of said PDFs.
