@@ -39,4 +39,9 @@
             }
         });
     </script>
+
+    <!-- cpbotha: pull in disqus comment count, this will rewrite disqus_thread href above!  -->
+    {{ if .Site.DisqusShortname }}
+    <script id="dsq-count-scr" src="//cpbotha.disqus.com/count.js" async></script>
+    {{ end }}
 </footer>
