@@ -16,7 +16,13 @@ tags:
   - wkhtmltopdf
 
 ---
-<figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2015/06/wpid-del_vera_view.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">![][1]</a><figcaption class="wp-caption-text">A random winter&#8217;s day view from Del Vera, where father&#8217;s day was celebrated.</figcaption></figure> 
+
+<a href="/wp-content/uploads/2015/06/wpid-del_vera_view.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
+<figure style="width: 100%" class="wp-caption alignnone">
+<img src="/wp-content/uploads/2015/06/wpid-del_vera_view-825x510.jpg" />
+<figcaption class="wp-caption-text">A random winter&#8217;s day view from Del Vera, where father&#8217;s day was celebrated.</figcaption>
+</figure>
+</a>
 
 The week of Monday June 15 to Sunday June 21 in bullets: 
 
@@ -39,15 +45,11 @@ The week of Monday June 15 to Sunday June 21 in bullets:
         <a href="http://cornellpsych.org/people/travis/materials/Carter-Gilovich-Material%20Experiential%20Identity-JPSP-2012.pdf"><i>I Am What I Do, Not What I Have: The Differential Centrality of Experiential and Material Purchases to the Self</i></a> (2012), Travis J. Carter and Thomas Gilovich.
       </li>
       <li>
-        <a href="http://phys.org/news/2010-03-study-shows-experiences-are-better.html">Study shows experiences are better than possessions</a> &#8211; summarising post on phys.org.
+        <a href="http://phys.org/news/2010-03-study-shows-experiences-are-better.html">Study shows experiences are better than possessions</a> -- summarising post on phys.org. Carter and Gilovich&#8217;s research (based on on a number of tests and questionnaires they did with a sample of Cornell students) demonstrated that experiences were more satisfying than possessions. Their results also support at least one explanatory mechanism: Experiences are more closely connected to the self. This makes sense: Anybody else can buy the same thing you bought, but, by definition, your experience of some event or adventure is quite unique to you. To my mind, the idea of focusing on the experience rather than the cake at the end is pleasingly complementary to the adage that <i>Life is a journey, not a destination</i>, which I have just learned is due to <a href="https://www.goodreads.com/quotes/24142-life-is-a-journey-not-a-destination">Ralph Waldo Emerson</a>.
+    </p>
       </li>
     </ul>
-    
-    <p>
-      Carter and Gilovich&#8217;s research (based on on a number of tests and questionnaires they did with a sample of Cornell students) demonstrated that experiences were more satisfying than possessions. Their results also support at least one explanatory mechanism: Experiences are more closely connected to the self. This makes sense: Anybody else can buy the same thing you bought, but, by definition, your experience of some event or adventure is quite unique to you. To my mind, the idea of focusing on the experience rather than the cake at the end is pleasingly complementary to the adage that <i>Life is a journey, not a destination</i>, which I have just learned is due to <a href="https://www.goodreads.com/quotes/24142-life-is-a-journey-not-a-destination">Ralph Waldo Emerson</a>.
-    </p>
   </li>
-  
   <li>
     I&#8217;m still terrible at bullets, I know.
   </li>

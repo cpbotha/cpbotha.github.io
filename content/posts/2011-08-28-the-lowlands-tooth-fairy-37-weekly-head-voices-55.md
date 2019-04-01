@@ -18,9 +18,14 @@ tags:
   - tooth fairy
 
 ---
-In this week&#8217;s Weekly Head Voices, looking back at weeks 33 and 34 of 2011, there are three important topics that I&#8217;d like to discuss. For your convenience, I&#8217;ve arranged them in order of increasing significance. This has the added advantage of guaranteeing that this post ends, at least technically speaking, with a sort of climax. Oh yes, the theme of today&#8217;s post is _dry_.<figure style="width: 980px" class="wp-caption alignnone">
+In this week&#8217;s Weekly Head Voices, looking back at weeks 33 and 34 of 2011, there are three important topics that I&#8217;d like to discuss. For your convenience, I&#8217;ve arranged them in order of increasing significance. This has the added advantage of guaranteeing that this post ends, at least technically speaking, with a sort of climax. Oh yes, the theme of today&#8217;s post is _dry_.
 
-[<img class=" " src="http://www.nrc.nl/inbeeld/files/2011/08/Lowlands_2011_Sfeer_39_Andreas_Terlaak-980x735.jpg" alt="" width="980" height="735" />][1]<figcaption class="wp-caption-text">Photo of the Bravo tent during Lowlands 2011, taken by Andreas Terlaak for NRC Handelsblad. I hope they don't mind me linking to their picture. You can see more of Terlaak's Lowlands 2011 work by clicking on the photo.</figcaption></figure> 
+<a href="http://www.nrc.nl/inbeeld/trefwoord/lowlands/">
+<figure class="wp-caption alignnone">
+<img src="http://www.nrc.nl/inbeeld/files/2011/08/Lowlands_2011_Sfeer_39_Andreas_Terlaak-980x735.jpg" />
+<figcaption class="wp-caption-text">Photo of the Bravo tent during Lowlands 2011, taken by Andreas Terlaak for NRC Handelsblad. I hope they don't mind me linking to their picture. You can see more of Terlaak's Lowlands 2011 work by clicking on the photo.</figcaption>
+</figure> 
+</a>
 
 ### One
 
@@ -40,7 +45,10 @@ Genetic Offspring #1 lost her first milk tooth and this is of course a major lif
 
 ### Conclusion
 
-That&#8217;s (almost) all I have to say kids. This is my fourth blog post of the weekend: I also wrote one on [Django testing with selenium][3], one on [getting a Windows console that doesn&#8217;t suck][4], and another pre-dated one [on my newest toy][5].
+That&#8217;s (almost) all I have to say kids. This is my fourth blog post of
+the weekend: I also wrote one on [Django testing with selenium][3], one on
+[getting a Windows console that doesn&#8217;t suck][4], and another pre-dated
+one [on my newest toy][5].
 
 I really liked writing them all, but I enjoyed this one the most.
 
