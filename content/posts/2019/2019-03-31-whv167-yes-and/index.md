@@ -1,9 +1,9 @@
 ---
 title: "Weekly Head Voices #167: Yes, and..."
 # we specify slug also, because hugo keeps the # in there, breaking routing
-slug: "weekly-head-voices-168-yes-and"
+slug: "weekly-head-voices-167-yes-and"
 author: cpbotha
-date: 2019-03-31T15:53:16+02:00
+date: 2019-04-01T09:00:00+02:00
 tags:
   - hugo
   - politics
@@ -17,9 +17,14 @@ categories:
 type: "post"
 ---
 
+_(I initially posted this blog with an incorrect slug, so I had no choice but
+to re-publish with the correct slug and URL. It is possible that you receive
+the email notification twice. I am really sorry about this! P.S. Yes, it's a
+dirtly little secret of the blogging industry that slugs are involved.)_
+
 <figure>
 <a href="strand_crystal_clear.jpg">
-{{< img src="strand_crystal_clear.jpg" alt="alt text" >}}
+{{< img src="strand_crystal_clear.jpg" alt="photo of strand beach at macassar rheinmetal fence" >}}
 </a>
 <figcaption>I have posted similar photos before, but this one is special,
 because it was a crystal clear and almost wind-free Friday afternoon, hosting
