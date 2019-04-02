@@ -877,6 +877,16 @@ blockquote :first-child {
   border: none;
   padding: 0;
 }
+
+/* cpbotha: add figcaption, stuff below is not used due to article-entry not being used */
+figcaption {
+  color: #686868;
+  font-style: italic;
+  line-height: 1.6153846154;
+  padding-top: 0.5384615385em;
+  /* text-align: left;     */
+}
+
 .article-entry .highlight figcaption {
   font-size: 0.85em;
   color: highlight-comment;
