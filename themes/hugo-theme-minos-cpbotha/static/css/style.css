@@ -834,10 +834,10 @@ blockquote :first-child {
   margin: 0;
   font-size: 14px;
   /* background: #23241f; */
-  background: #fdf6e3;
+  background: #fdf6e3; /* cpbotha: solarized light bg */
   padding: 15px 0;
   overflow: auto;
-  color: #fff;
+  color: #666; /* cpbotha: have to darken font for light background */
   line-height: 22.4px;
 }
 .article-entry .highlight .gutter pre,
