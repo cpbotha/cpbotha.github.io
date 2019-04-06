@@ -6,8 +6,10 @@ theme = ["hugo-theme-minos-cpbotha", "hugo-theme-minos"]
 # we only need this for minos to get disqus going.
 disqusShortname = "cpbotha"
 
+# we need email and name for this to appear in RSS feed
 [author]
-  name = "cpbotha"
+  email = "cpbotha@cpbotha.net"
+  name = "Charl P. Botha"
 
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
