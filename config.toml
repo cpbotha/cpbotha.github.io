@@ -2,7 +2,7 @@ baseURL = "https://cpbotha.net/"
 languageCode = "en-us"
 title = "voices in my head"
 theme = ["hugo-theme-minos-cpbotha", "hugo-theme-minos"]
-
+rssLimit = 20
 # we only need this for minos to get disqus going.
 disqusShortname = "cpbotha"
 
