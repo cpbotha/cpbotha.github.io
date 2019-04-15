@@ -7,12 +7,14 @@ author: cpbotha
 date: 2019-04-08T22:43:00+02:00
 tags:
   - focus
+  - fsharp
   - isso
   - glymphatic system
   - postcard cafe
   - jonkershoek
   - stellenbosch
   - mitch hedberg
+  - nim-lang
   - stark condé
   - wine
 categories:
@@ -95,7 +97,7 @@ re-implementing parts of Isso in [f#](https://fsharp.org/), my current hobby
 functional language.
 
 Setting aside the irony here, I learned after some time that getting f#, the
-impresive looking [SQLProvider](https://fsprojects.github.io/SQLProvider/) and
+impressive looking [SQLProvider](https://fsprojects.github.io/SQLProvider/) and
 sqlite (isso's database) all working together on Linux was ["probably the
 single most complicated thing that you can do with a F# project, when it comes
 to
