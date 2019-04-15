@@ -187,7 +187,7 @@ Evaluating rust by the list above, we award it a fractional 1 because expression
 
 I filed this one away under &#8220;re-evaluate whenever you reach for your trusty C++&#8221;. (also, [actix-web][18] looks amazing for super high performance microservices.)
 
-## f#
+## f\#
 
 You didn&#8217;t see this one coming, did you?
 
