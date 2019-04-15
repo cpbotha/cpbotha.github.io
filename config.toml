@@ -5,6 +5,9 @@ theme = ["hugo-theme-minos-cpbotha", "hugo-theme-minos"]
 rssLimit = 20
 # we only need this for minos to get disqus going.
 disqusShortname = "cpbotha"
+pygmentsCodeFences = true
+pygmentsStyle = "solarized-light"
+#pygmentsOptions = "linenos=table"
 
 # we need email and name for this to appear in RSS feed
 [author]
