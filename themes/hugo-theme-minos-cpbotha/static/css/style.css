@@ -834,7 +834,10 @@ blockquote :first-child {
   margin: 0;
   font-size: 14px;
   /* background: #23241f; */
-  background: #fdf6e3; /* cpbotha: solarized light bg */
+  /* cpbotha: solarized light bg OLD */
+  /* background: #fdf6e3; */
+  /* cpbotha change background to solarized light as per hugo's chroma: */
+  background: #eee8d5;
   padding: 15px 0;
   overflow: auto;
   color: #666; /* cpbotha: have to darken font for light background */
