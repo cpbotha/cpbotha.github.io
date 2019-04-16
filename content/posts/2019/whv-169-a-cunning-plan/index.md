@@ -11,8 +11,9 @@ tags:
   - jbop
   - vo2max
   - vaccination
+  - hpv
   - the matrix
-  - 
+  - derek sivers
 categories:
   - weekly head voices
 type: "post"
@@ -198,9 +199,10 @@ extinction](https://www.who.int/news-room/detail/29-11-2018-measles-cases-spike-
 
 Fortunately, there is also much to celebrate on the vaccination front.
 
-Scotland started with their human papilomavirus vaccination programme 10 years
-ago, administering the vaccine to girls when they are at around 12 years of
-age.
+Scotland started with their [human
+papillomavirus](https://www.womenshealth.gov/a-z-topics/human-papillomavirus)
+vaccination programme 10 years ago, administering the vaccine to girls when
+they are at around 12 years of age.
 
 Researchers now say that since then the HPV vaccine has ["nearly wiped out
 cases of cervical pre-cancer in young
