@@ -27,13 +27,9 @@ Because I would prefer that you perceive the time that you invest in reading the
 
 In other words, if you&#8217;re like me and your parallel parking performance could do with some improvement (mine oscillates between &#8220;I am the best parallel parker in the world, wheels perfectly aligned 5mm from the pavement&#8221; and &#8220;ABORT ABORT!! Oh well, we will find parking another day.&#8221;), the following animation might be of assistance:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="2g5Bzi9">
-  <p>
-    <a href="https://imgur.com/2g5Bzi9">Parallel Parking</a>
-  </p>
-</blockquote>
-
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="2g5Bzi9"><a
+href="//imgur.com/2g5Bzi9">Parallel Parking</a></blockquote><script async
+src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 # Yurp
 
@@ -93,11 +89,13 @@ On the topic of not being special, I recently stumbled upon this interview with 
 
 Also, we&#8217;re still not special. :)
 
-Try and make time for the first 3 to 4 minutes of the video. That&#8217;s what I did, because I&#8217;m not a millenial and I don&#8217;t like watching YouTube videos of what could have been blog posts, but then I just had to finish the whole 18 minutes:
+Try and make time for the first 3 to 4 minutes of the video. That&#8217;s what
+I did, because I&#8217;m not a millenial and I don&#8217;t like watching
+YouTube videos of what could have been blog posts, but then I just had to
+finish the whole 18 minutes (dangit youtube! video was pulled so I had to
+replace with 15 minute version on 2019-04-16:
 
-<div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/As8XkJNaHbs?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hER0Qp6QJNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It would be remiss of me not to mention Wait but Why&#8217;s brilliant and complementary exposition of [Why Generation Y Yuppies Are Unhappy][11].
 
