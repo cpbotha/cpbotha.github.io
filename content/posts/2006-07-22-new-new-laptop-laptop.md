@@ -5,7 +5,9 @@ type: post
 date: 2006-07-22T22:36:00+00:00
 url: /2006/07/22/new-new-laptop-laptop/
 categories:
-  - Uncategorized
+  - nerd
+tags:
+  - new computer
 
 ---
 Hi there mystery imaginary audience! I&#8217;m making this entry from my brand new HP NC 8430 Core Duo laptop! T2500 (sounds like a killer robot from the future, doesn&#8217;t it?) 2GHz dual core Yonah CPU, 2 GBytes 667 MHz DDR memory, 100 GB SATA 5400 RPM disk (budget budget), ATI Radeon X1600 with 256MB of video memory, gooorgeous 15.4&#8243; 1680&#215;1050 screen. Oh thank you kind and generous [TU Delft][1]!

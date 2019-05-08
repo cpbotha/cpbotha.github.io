@@ -5,7 +5,7 @@ type: post
 date: 2002-07-24T23:34:00+00:00
 url: /2002/07/24/laptop-causes-labour-of-love/
 categories:
-  - Uncategorized
+  - nerd
 
 ---
 I&#8217;ve [ported][1] the XFree86 Synaptics touchpad driver to GPM.
