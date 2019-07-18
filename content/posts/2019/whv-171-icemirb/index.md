@@ -6,6 +6,7 @@ date: 2019-05-22T22:38:00+02:00
 tags:
   - sleep
   - caffeine
+  - focus
   - icemirb
   - remarkjs
   - pybtex
@@ -284,7 +285,8 @@ cross-indexed block is how much time this could save you over 5 years.
 
 Besides the mostly defensible tricks mentioned in the previous section, I did
 also invest hours in attempting to update the mobile and email-based parts of
-my personal knowledge management strategy, but these hours led to a less than
+my personal knowledge management strategy (because
+[Windows](/2019/04/27/new-laptop-2019/)), but these hours led to a less than
 satisfactory solution.
 
 If I have to be honest, it feels like those hours were wasted, although it was
@@ -327,3 +329,22 @@ I imagine we will go all out in terms of the various forms of attendance and
 participation that we accommodate.
 
 Have a beautiful week folks, I hope to see you again soon!
+
+## P.S.
+
+@stefanvdwalt just reminded me that Mindfulness is to be the fourth main topic
+of the ICEMiRB.
+
+Because the acronym is already of substantial girth (yes, we know that
+Mindfulness and Minimal could co-habit the same part of the
+acronym. coincidence?!), we will try to settle for one of two conference
+taglines:
+
+> ICEMiRB - A Mindful(TM) Conference.
+
+or
+
+> ICEMiRB - The Mindfulness is silent.
+
+or not.
+
