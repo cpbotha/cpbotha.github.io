@@ -69,7 +69,16 @@ Ideally, someone working on Thunderbird will realise that the current implementa
 
 I fear that I may be one of the last people still sending plaintext emails, so it might be that nothing will come of this desperate call for help. :)
 
-&nbsp;
+# Update on 2019-07-16
+
+- The current GMail web-ui *ignores* format=flowed and renders such emails with
+  hard linebreaks everywhere. Thank you Google for violating yet more email
+  standards.
+- Apple's iOS Mail App does a **perfect** job of reflowing format=flowed
+  emails. This adds to [the list of
+  reasons](/2016/11/27/android-security-in-2016-is-a-mess/) I have for sticking
+  with their mobile devices.
+
 
  [1]: http://www.ietf.org/rfc/rfc3676.txt
  [2]: http://globs.org/download.php?lng=en
