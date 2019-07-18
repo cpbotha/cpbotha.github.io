@@ -5,6 +5,7 @@ type: post
 date: 2003-12-19T17:53:29+00:00
 url: /2003/12/19/the-visualisation-and-image-processing-platform-formerly-known-as-dscas3/
 tags:
+  - devide
   - dscas
 categories:
   - work
