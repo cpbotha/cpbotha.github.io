@@ -20,11 +20,24 @@ tags:
 ---
 _(This edition is about babies, textbook Ph.D. defences and mind-viruses in Snow Crash, all of which can mostly be filed under backyard-philosophy(ish).)_
 
-**On the theme of striving for** **[The Next Level][1]**, my not-quite-1-month-old bundle of joy laughed out loud today for the first time! I&#8217;m sure that it was not a false alarm, as I was being my usual _comedic genius self_ (I target the 1 to 3 month-old crowd), and the pattern of stimulus and reaction was just too well-coordinated and sustained to be coincidental.
+**On the theme of striving for** **[The Next Level][1]**, my
+not-quite-1-month-old bundle of joy laughed out loud today for the first time!
+I'm sure that it was not a false alarm, as I was being my usual _comedic
+genius self_ (I target the 1 to 3 month-old crowd), and the pattern of stimulus
+and reaction was just too well-coordinated and sustained to be coincidental.
 
-**On the theme of really cool events**, on Thursday I had the privilege of being part of the _Best Ph.D. Defence EVAR_. Seriously people, the day that my good friend Frans Steenbrink became my good friend Dr. Frans Steenbrink will pleasantly resonate in my mind for a long time to come.<figure id="attachment_924" aria-describedby="caption-attachment-924" style="width: 450px" class="wp-caption aligncenter"><a href="http://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
+**On the theme of really cool events**, on Thursday I had the privilege of being part of the _Best Ph.D. Defence EVAR_. Seriously people, the day that my good friend Frans Steenbrink became my good friend Dr. Frans Steenbrink will pleasantly resonate in my mind for a long time to come.
 
-<img data-attachment-id="924" data-permalink="https://cpbotha.net/2010/05/29/augmentation-weekly-head-voices-23/matrix_fight/" data-orig-file="https://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg" data-orig-size="450,302" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="matrix_fight" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2010/05/matrix_fight-300x201.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg" class="size-full wp-image-924" title="matrix_fight" src="http://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg" alt="" width="450" height="302" srcset="https://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg 450w, https://cpbotha.net/wp-content/uploads/2010/05/matrix_fight-300x201.jpg 300w" sizes="(max-width: 450px) 85vw, 450px" /></a><figcaption id="caption-attachment-924" class="wp-caption-text">A typical scene during an average Ph.D. defence. The candidate is in the middle, surrounded by committee members on both sides. At this very moment, he is investigating two possible lines of argument.</figcaption></figure> 
+<figure>
+<a href="http://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg">
+<img src="http://cpbotha.net/wp-content/uploads/2010/05/matrix_fight.jpg" alt="" />
+</a>
+<figcaption>
+A typical scene during an average Ph.D. defence. The candidate is in the
+middle, surrounded by committee members on both sides. At this very moment, he
+is investigating two possible lines of argument.
+</figcaption>
+</figure> 
 
 Here in NL, a Ph.D. defence is a fantastic affair: The candidate has to defend his work against the highly-experienced offensive mental manoeuvres of a committee consisting of around 7 wise men, most of them grizzled veteran professors who have eaten many a hapless candidate FOR BREAKFAST! As if that weren&#8217;t awe-inspiring enough, the defence usually takes place in some imposing building, preferably more than a few hundred years old (in this case, it was the [Academiegebouw in Leiden][2], almost 500 hundred years old), the committee are in full academic (read: battle) garb, and the whole affair is public, so the candidate is joined by a potentially sizeable audience. Believe me, this can be a nauseatingly stressful experience.
 

@@ -68,81 +68,39 @@ Finally, I was very lucky to catch this dramatic hippopotamus face-off. You knew
 
 Still with me?! Here are those two backyard philosophy(ish) thoughts I promised:
 
-<div id="outline-container-sec-1" class="outline-2">
-  <h2 id="sec-1">
-    You are turning into a cyborg.
-  </h2>
-  
-  <div id="text-1" class="outline-text-2">
-    <p>
-      We are all slowly turning into cyborgs.
-    </p>
-    
-    <p>
-      We have our always-connected smartphones, our tablets, our laptops, and soon we will have heads-up displays always in front of our eyes (<a href="http://cpbotha.net/2009/10/18/futuristic-betting-at-visweek-2009/">I called it in 2009</a>, I think Google read my blog post). Probably due to our foraging nature and the accompanying neuro-chemistry, we find it incredibly hard to resist the call of email, of facebook, of twitter. <i>What if something new and interesting appears?</i> There&#8217;s a lovely dopamine shot waiting right there.
-    </p>
-    
-    <p>
-      On top of this empire of connected technology, we build intricate systems to keep track of our time, our responsibilities and all of the odd bits of information that we come across. Heaven forbid that we forget anything! We open up as many pathways to capture as much as possible of our environment.
-    </p>
-    
-    <p>
-      What happens when we are able to switch all of this off temporarily? Well, initially nothing much. Internally, business continues as usual. There&#8217;s no more incoming information, but our brains keep on going.
-    </p>
-    
-    <p>
-      However, after a while things start calming down. All of the little thoughts fall away, leaving the big and important ones. Life starts coalescing, becoming more integrated again. Because all of the little stones are temporarily out of the way, it seems that one is able to move the really big rocks. It&#8217;s a strange and exhilarating experience.
-    </p>
-    
-    <p>
-      So, busy-you makes way for mindful-you. Loads of small thoughts and some big ones make way for a few big ones.
-    </p>
-    
-    <p>
-      With this, I&#8217;m not saying that we should fight the cyborgs that we are becoming. I think we should embrace our future. We <i>need</i> to be more knowledgeable and more connected to our fellow humans. We <i>need</i> to integrate with our technology. I do wonder how we can unite all this with being more mindful.
-    </p>
-    
-    <p>
-      Is it possible to learn how to switch digital you on and off on demand?
-    </p>
-  </div>
-</div>
+## You are turning into a cyborg.
 
-<div id="outline-container-sec-2" class="outline-2">
-  <h2 id="sec-2">
-    South Africa, you are the most interesting place in the world.
-  </h2>
-  
-  <div id="text-2" class="outline-text-2">
-    <p>
-      (to me)
-    </p>
-    
-    <p>
-      Before I left for Europe 14 years ago, I used to want South Africa to play more to its European influences, to <i>be</i> more European.
-    </p>
-    
-    <p>
-      In the years since then, I&#8217;ve had the pleasure to live in one of the prettiest little cities in The Netherlands, and to spend vacation time in Italy, in the south of Spain, in the south of France, in Greece and in Sardinia (technically Italy, but I mention it separately because it was that awesome). I&#8217;ve also had the pleasure to spend work time in Germany, Norway and Sweden. Altogether, this is a not too shabby sampling of Western Europe.
-    </p>
-    
-    <p>
-      What I&#8217;ve seen is beautiful, and it has been a superb growing experience making the connections between my European heritage and its various sources.
-    </p>
-    
-    <p>
-      Exploring these connections has also helped me to better understand the African influences that have partially formed me, and are the foundations of South Africa. Added to this, I&#8217;ve had the distinct privilege of being a tourist in my own country together with Dutch friends. This was perhaps the most acute eye opener. I&#8217;ve come to appreciate that Africanness of which I once thought that it should be moved slightly more to the background.
-    </p>
-    
-    <p>
-      So here I am now. SA is a fantastically interesting place. It&#8217;s a beautiful country, but, more relevantly, it&#8217;s currently in a huge state of flux. I&#8217;m happy to be able to play a small role in trying to redefine the strange little subculture that I belong to. I&#8217;m doing my best to connect more with fellow South Africans.
-    </p>
-    
-    <p>
-      I am optimistic that the country will be able to define its own voice; that it will integrate everyone, even its seemingly out of place European children, in a uniquely <i>South</i> African cocktail.
-    </p>
-  </div>
-</div>
+We are all slowly turning into cyborgs.
+
+We have our always-connected smartphones, our tablets, our laptops, and soon we will have heads-up displays always in front of our eyes (<a href="http://cpbotha.net/2009/10/18/futuristic-betting-at-visweek-2009/">I called it in 2009</a>, I think Google read my blog post). Probably due to our foraging nature and the accompanying neuro-chemistry, we find it incredibly hard to resist the call of email, of facebook, of twitter. <i>What if something new and interesting appears?</i> There&#8217;s a lovely dopamine shot waiting right there.
+
+On top of this empire of connected technology, we build intricate systems to keep track of our time, our responsibilities and all of the odd bits of information that we come across. Heaven forbid that we forget anything! We open up as many pathways to capture as much as possible of our environment.
+
+What happens when we are able to switch all of this off temporarily? Well, initially nothing much. Internally, business continues as usual. There&#8217;s no more incoming information, but our brains keep on going.
+
+However, after a while things start calming down. All of the little thoughts fall away, leaving the big and important ones. Life starts coalescing, becoming more integrated again. Because all of the little stones are temporarily out of the way, it seems that one is able to move the really big rocks. It&#8217;s a strange and exhilarating experience.
+
+So, busy-you makes way for mindful-you. Loads of small thoughts and some big ones make way for a few big ones.
+
+With this, I&#8217;m not saying that we should fight the cyborgs that we are becoming. I think we should embrace our future. We <i>need</i> to be more knowledgeable and more connected to our fellow humans. We <i>need</i> to integrate with our technology. I do wonder how we can unite all this with being more mindful.
+
+Is it possible to learn how to switch digital you on and off on demand?
+
+## South Africa, you are the most interesting place in the world.
+
+(to me)
+
+Before I left for Europe 14 years ago, I used to want South Africa to play more to its European influences, to <i>be</i> more European.
+
+In the years since then, I&#8217;ve had the pleasure to live in one of the prettiest little cities in The Netherlands, and to spend vacation time in Italy, in the south of Spain, in the south of France, in Greece and in Sardinia (technically Italy, but I mention it separately because it was that awesome). I&#8217;ve also had the pleasure to spend work time in Germany, Norway and Sweden. Altogether, this is a not too shabby sampling of Western Europe.
+
+What I&#8217;ve seen is beautiful, and it has been a superb growing experience making the connections between my European heritage and its various sources.
+
+Exploring these connections has also helped me to better understand the African influences that have partially formed me, and are the foundations of South Africa. Added to this, I&#8217;ve had the distinct privilege of being a tourist in my own country together with Dutch friends. This was perhaps the most acute eye opener. I&#8217;ve come to appreciate that Africanness of which I once thought that it should be moved slightly more to the background.
+
+So here I am now. SA is a fantastically interesting place. It&#8217;s a beautiful country, but, more relevantly, it&#8217;s currently in a huge state of flux. I&#8217;m happy to be able to play a small role in trying to redefine the strange little subculture that I belong to. I&#8217;m doing my best to connect more with fellow South Africans.
+
+I am optimistic that the country will be able to define its own voice; that it will integrate everyone, even its seemingly out of place European children, in a uniquely <i>South</i> African cocktail.
 
  [1]: http://www.sanparks.co.za/parks/kruger/
  [2]: http://en.wikipedia.org/wiki/Crocodile_River_(Mpumalanga)
