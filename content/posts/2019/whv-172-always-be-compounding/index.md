@@ -157,7 +157,7 @@ challenge is getting the GoodWe GW5048D-ES to successfully talk to the
 PylonTech US3000 battery cluster BMS), I'll write a post with more details
 about the system and its performance.
 
-Until thene, these are the specifications:
+Until then, these are the specifications:
 
 - Panels: 18 x [Canadian Solar KuMax high efficiency polycrystalline CS3U
   355Wp](./canadian_solar_cs3u_specs.pdf)

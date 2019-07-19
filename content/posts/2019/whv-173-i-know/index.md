@@ -184,7 +184,7 @@ visualization and image processing tool that started life somewhere in 2001,
 2003](/2003/12/19/the-visualisation-and-image-processing-platform-formerly-known-as-dscas3/),
 open-sourced in 2007 and had its last release in 2012.
 
-Although it did see some use of that, the project went into hibernation
+Although it did see some use after that, the project went into hibernation
 (weeeelll....) when I left academia.
 
 My point is that, for about 10 years, I had a single technical *artifact* with
