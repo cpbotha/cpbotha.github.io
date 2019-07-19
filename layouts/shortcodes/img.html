@@ -27,9 +27,8 @@
   {{ if ge $src.Width "1500" }}
     {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
   {{ end }}'
-  {{ if .Get $medium }}
-    src="{{ $medium.RelPermalink }}" 
-  {{ else }}
-    src="{{ $src.RelPermalink }}" 
-  {{ end }}
+
+  {{/* if no support for srcset, we load small (800px) -- hopefully better for RSS feed to mailchimp! */}}
+  src="{{ $small.RelPermalink }}" 
+
   {{ with .Get "alt" }}alt='{{.}}'{{ end }} />
