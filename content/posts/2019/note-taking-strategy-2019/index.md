@@ -24,7 +24,8 @@ to adapt to my changing environment, and the underlying "system" has co-evolved
 to support this.
 
 Although note-taking is at the core of the system, a more accurate description
-of its current purpose would be *personal knowledge management*.
+of its current purpose would be [*personal knowledge
+management*](https://en.wikipedia.org/wiki/Personal_knowledge_management).
 
 What you'll also find in this post, is the culmination of many years of lessons
 learned trying to ["keep a lab

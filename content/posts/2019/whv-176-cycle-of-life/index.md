@@ -73,7 +73,7 @@ moments.
 </figcaption>
 </figure>
 
-P.S. The [Weekly Head Voices was *born* in the afterglow of Lowlands
+P.S. The [Weekly Head Voices series was *born* in the afterglow of Lowlands
 2009](/2009/08/29/starting-today-head-voices-every-week/).
 
 # Celebration.

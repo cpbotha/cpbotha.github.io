@@ -1,9 +1,7 @@
 ---
 title: "Weekly Head Voices #168: Postcards from the edge."
-# we specify slug also, because hugo keeps the # in there, breaking routing
 slug: "weekly-head-voices-168-postcards-from-the-edge"
 author: cpbotha
-# REMEMBER TO CHANGE BEFORE PUBLISHING!
 date: 2019-04-08T22:43:00+02:00
 tags:
   - focus
