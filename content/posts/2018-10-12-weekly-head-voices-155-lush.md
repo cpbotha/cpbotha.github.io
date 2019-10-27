@@ -24,7 +24,7 @@ I did miss you!
 
 Fortunately, I am here now (that was Tuesday, it&#8217;s now Friday&#8230;) to babble a little bit about my subjective experience of the period of time from Monday September 17 to Sunday October 7. I did bring pictures!
 
-# GOUs go camping for their first time ever &#x2705;
+# GOUs go camping for their first time ever.
 
 BFS decided to have his birthday party at a camp site called Beaverlac, close to Porterville. Beaverlac is beautiful and offers the additional amazing perk of No Cellular Reception.
 
