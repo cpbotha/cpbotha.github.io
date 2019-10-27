@@ -13,6 +13,7 @@ tags:
   - dropbox
   - google
   - hodenpijl
+  - note-taking
   - prostate
   - sea bass
   - tiddlywiki
