@@ -75,7 +75,7 @@ This is my favourite quote from the Wired article:
 
 Another friend from work, who runs better and faster than I do (they all do),
 was explaining the other day that one had to make better use of one's *glutes*,
-or [https://en.wikipedia.org/wiki/Gluteal_muscles](gluteal muscles), while
+or [gluteal muscles](https://en.wikipedia.org/wiki/Gluteal_muscles), while
 running.
 
 This is not the first time that a superior running friend from work gave this
