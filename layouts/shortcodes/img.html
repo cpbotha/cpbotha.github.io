@@ -16,19 +16,24 @@
   {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 1200px, 100vw"{{ end }}
   srcset='
   {{ if ge $src.Width "480" }}
-    {{ with $tiny.RelPermalink }}{{.}} 480w{{ end }}
+    {{ with $tiny.Permalink }}{{.}} 480w{{ end }}
   {{ end }}
   {{ if ge $src.Width "800" }}
-    {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+    {{ with $small.Permalink }}, {{.}} 800w{{ end }}
   {{ end }}
   {{ if ge $src.Width "1200" }}
-    {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+    {{ with $medium.Permalink }}, {{.}} 1200w{{ end }}
   {{ end }}
   {{ if ge $src.Width "1500" }}
-    {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+    {{ with $large.Permalink }}, {{.}} 1500w {{ end }}
   {{ end }}'
 
   {{/* if no support for srcset, we load small (800px) -- hopefully better for RSS feed to mailchimp! */}}
-  src="{{ $small.RelPermalink }}" 
+
+  {{ if ge $src.Width "800" }}
+  src="{{ $small.Permalink }}"
+  {{ else }}
+  src="{{ $src.Permalink }}"
+  {{ end }}
 
   {{ with .Get "alt" }}alt='{{.}}'{{ end }} />
