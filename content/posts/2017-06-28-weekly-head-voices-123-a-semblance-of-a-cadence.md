@@ -12,6 +12,7 @@ tags:
   - c++
   - emacs
   - gtd
+  - habits
   - org2blog
   - orgmode
 
