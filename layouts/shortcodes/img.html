@@ -9,11 +9,14 @@
 {{ $medium := ($src.Resize "1200x") }}
 {{ $large := ($src.Resize "1500x") }}
 
-{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
 
-<img 
-  {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 1200px, 100vw"{{ end }}
+{{/* if link="" specified, link to high resolution src of image */}}
+{{ with .Get "link" }}<a href="{{ $src.Permalink }}">{{ end }}
+
+  <img
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+    {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 1200px, 100vw"{{ end }}
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}  
   srcset='
   {{ if ge $src.Width "480" }}
     {{ with $tiny.Permalink }}{{.}} 480w{{ end }}
@@ -28,8 +31,8 @@
     {{ with $large.Permalink }}, {{.}} 1500w {{ end }}
   {{ end }}'
 
-  {{/* if no support for srcset, we load small (800px) -- hopefully better for RSS feed to mailchimp! */}}
-
+{{/* if no support for srcset, we load small (800px) -- hopefully better for RSS feed to mailchimp! */}}
+{{/* if image smaller than 800, then load the image itself */}}
   {{ if ge $src.Width "800" }}
   src="{{ $small.Permalink }}"
   {{ else }}
@@ -37,3 +40,5 @@
   {{ end }}
 
   {{ with .Get "alt" }}alt='{{.}}'{{ end }} />
+
+{{ with .Get "link"}}</a>{{ end }}
