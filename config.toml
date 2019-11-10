@@ -4,7 +4,7 @@ title = "voices in my head"
 theme = ["hugo-theme-minos-cpbotha", "hugo-theme-minos"]
 rssLimit = 20
 # we only need this for minos to get disqus going.
-disqusShortname = "cpbotha"
+#disqusShortname = "cpbotha"
 pygmentsCodeFences = true
 pygmentsStyle = "solarized-light"
 #pygmentsOptions = "linenos=table"
