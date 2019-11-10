@@ -23,9 +23,7 @@ This edition of the WHV, #181, looks back at the period of time from Monday
 October 7 to Sunday October 13, 2019.
 
 <figure>
-<a href="gbay_running.jpg">
-{{< img src="gbay_running.jpg" >}}
-</a>
+{{< img src="gbay_running.jpg" link="true" >}}
 <figcaption>
 Compulsory running shot: Looking at Gordon's Bay from the Strand. This was on
 Thursday. I squeezed in another short run on Friday, which my legs definitely
@@ -80,9 +78,7 @@ pages](/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/#new-b
 As the tasting ceremony started, I was greeted by this portentous sign:
 
 <figure>
-<a href="warlord_bone_crusher_phear_me_rawr.jpg">
-{{< img src="warlord_bone_crusher_phear_me_rawr.jpg" >}}
-</a>
+{{< img src="warlord_bone_crusher_phear_me_rawr.jpg" link="true" >}}
 <figcaption>
 The name is BONECRUSHER, WARLORD BONECRUSHER.
 </figcaption>
@@ -96,9 +92,7 @@ re-opened Long Table restaurant at Haskell Winery.
 The view from one's lunch table looked something like this:
 
 <figure>
-<a href="long_table_lunch_view.jpg">
-{{< img src="long_table_lunch_view.jpg" >}}
-</a>
+{{< img src="long_table_lunch_view.jpg" link="true" >}}
 <figcaption>
 For a whole while before the guests arrived and before I took this photo I just
 sat there drinking in the view with my own eyes, like a crazy person.
@@ -146,9 +140,7 @@ solarized](/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr), this
 thing happened on Saturday morning at 7:18:
 
 <figure style="width: 400px;">
-<a href="solar24.png">
-{{< img src="solar24.png" >}}
-</a>
+{{< img src="solar24.png" link="true" >}}
 </figure>
 
 The house's batteries were still at 24%, but the sun was already high enough to
