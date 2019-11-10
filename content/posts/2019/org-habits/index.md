@@ -77,9 +77,7 @@ ago, I somehow kept on letting them slip.
 This morning, my org-agenda looked like this:
 
 <figure>
-<a href="org-habits-screenshot.png">
-{{< img src="org-habits-screenshot.png" >}}
-</a>
+{{< img src="org-habits-screenshot.png" link="true" >}}
 </figure>
 
 In the figure you can see that today, represented by the exclamation mark `!`,
