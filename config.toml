@@ -14,6 +14,12 @@ pygmentsStyle = "solarized-light"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    # default is 2, but set to 1 until we've converted all posts to start at 2
+    # 1 was the default before goldmark (i.e. with blackdown)
+    startLevel = 1
 
 # we need email and name for this to appear in RSS feed
 [author]
