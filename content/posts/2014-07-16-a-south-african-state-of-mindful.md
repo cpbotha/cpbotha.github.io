@@ -10,6 +10,7 @@ tags:
   - backyard philosophy
   - crocodile
   - cyborgs
+  - disconnecting
   - hippopotamus
   - kruger national park
   - lion
