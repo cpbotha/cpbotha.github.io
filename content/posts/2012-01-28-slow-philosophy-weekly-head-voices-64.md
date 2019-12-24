@@ -17,6 +17,7 @@ tags:
   - life directions
   - life goals
   - midlife crisis
+  - transition
 
 ---
 I&#8217;ve spent days writing this post in my head, and now it&#8217;s taken more than two weeks to get done. It&#8217;s not that I have something complicated or difficult to tell you, it&#8217;s just that I was privy to three absolutely awesome weeks of vacation in an undisclosed location to the very far south of my current coordinates, during which I attained ultimate levels of relaxation that caused my brain to shut-down large parts of itself. The only parts that managed to remain online were those dedicated to slow living, appreciation of people and surroundings and, finally, deep thought. My brain is currently taking its sweet time to come fully online again.
