@@ -53,7 +53,7 @@ helped me make the best decision.)
 In the rest of this post I describe the process of migrating the blog you see
 before you from Wordpress to Hugo.
 
-# Export data from Wordpress.
+## Export data from Wordpress.
 
 I used [SchumacherFM's
 wordpress-to-hugo-exporter](https://github.com/SchumacherFM/wordpress-to-hugo-exporter)
@@ -68,7 +68,7 @@ script with `php hugo-export-cli.php`.
 The end-result was a 600MB `/tmp/wp-hugo.zip` which I SCP'd down to my laptop
 and then unzipped into a directory called `hugo-export`.
 
-# Install hugo get site up and running.
+## Install hugo get site up and running.
 
 The main goal here was to get Hugo running with the exported wordpress data.
 
@@ -117,7 +117,7 @@ Note: The theme that you currently see on this site is a modified version of
 minos, implemented using Hugo's [Theme
 Components](https://gohugo.io/themes/theme-components/) mechanism.
 
-## Fire up Hugo in development mode!
+### Fire up Hugo in development mode!
 
 To see your site in all of its new static glory, you can start Hugo in
 development mode from the project's top-level directory:
@@ -131,13 +131,13 @@ By pointing your browser at `http://localhost:1313`, you'll be able to see a
 dynamic version of your site that automatically refreshes whenever you make
 changes to any of the underlying files.
 
-# Transfer comments to Disqus.
+## Transfer comments to Disqus.
 
 This blog's small but amazing group of commenters, and the comments they have
 written over the years, are super valuable to me. It was important to transfer
 them and their work over to the new blog without a hitch.
 
-## Motivation.
+### Motivation.
 I considered self-hosting comments using something like
 [Commento](https://github.com/adtac/commento), but the fact that I was able to
 get ad-free Disqus for free, as this site does not do advertising, and the
@@ -147,7 +147,7 @@ over.
 Furthermore, going from Wordpress to Commento often involves a quick stop at
 Disqus in any case. In other words, the option of self-hosting remains.
 
-## Procedure.
+### Procedure.
 
 The Disqus plugin for Wordpress has an automatic "import comments" mode which
 promises to transfer all of your wordpress comments to Disqus.
@@ -167,7 +167,7 @@ This seemed to have transferred all of my comments.
 In spite of multiple attempts at automatic import, followed by the manual
 import, Disqus was clever enough not to duplicate any comments.
 
-### Export domain name should be same as display domain name.
+#### Export domain name should be same as display domain name.
 
 It is important when you export your Wordpress comments, that the domain-name
 you export from is the same as the domain-name where you'll end up displaying
@@ -177,7 +177,7 @@ If this is not the case, you will have to edit the exported XML files to
 search and replaced all of the instances of export domain name to display
 domain name.
 
-# Build and upload the new static hotness.
+## Build and upload the new static hotness.
 
 My workflow now looks like this:
 
@@ -205,7 +205,7 @@ rsync -av --progress ~/Downloads/cpbotha.net/ \
 cpbotha@my.webhost.com:~/webapps/static_cpbothanet
 ```
 
-# Bonus level: Bundling and automatic resizing of images.
+## Bonus level: Bundling and automatic resizing of images.
 
 As each edition of [the WHV](categories/weekly-head-voices/) usually contains
 at least an image or two, an important piece of the puzzle was how to keep
@@ -246,7 +246,7 @@ Based on the `permalinks` setting in the `config.toml`, this post will be
 available at `/year/month/day/slug-in-frontmatter/`. The `index.md` can refer
 to images that are in the same directory using just their relative filenames.
 
-# Mailing lists.
+## Mailing lists.
 
 In addition to The Commenters mentioned above, I also treasure The Readers. :)
 
@@ -262,7 +262,7 @@ over to the Mailchimp daily email list.
 It was relatively straight-forward to export a CSV with subscriber address
 from Wordpress.com and then to import that into the Mailchimp list.
 
-# Wrapping up.
+## Wrapping up.
 
 Converting this blog from Wordpress to Hugo went significantly more smoothly
 than I expected. In fact, the first Hugo version was online after a single

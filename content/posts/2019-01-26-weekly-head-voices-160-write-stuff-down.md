@@ -30,7 +30,7 @@ I guess this would not be the WHV if we did not start off with some sort of awkw
 
 Because you are probably thirsty for your WHV now, I tried to write you a long and rambly edition, with pictures! (Because it&#8217;s so long and rambly, and because markdown, I have liberally sprinkled with headings and sub-headings, so that those of you with lives outside of blog reading can hop, skip and jump through like the professionals you are.)
 
-# The future is here: Long-form blog posts on the iPad.
+## The future is here: Long-form blog posts on the iPad.
 
 This also would not be the WHV if we did not have some little digital trick to reveal: Today&#8217;s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.
 
@@ -44,7 +44,7 @@ In contrast to the direct [orgmode to wordpress Emacs workflow][2] I normally us
 
 This means I can position and edit images using the WordPress interface, but author the text using Markdown. With [org2blog][3] the whole post, including images, has to go through life as an orgmode file, which is brilliant for my more technical posts, but not so much for prose-heavy blog posts such as this one.
 
-## BTW 1: Why I don&#8217;t (yet) like the new WordPress editor.
+### BTW 1: Why I don&#8217;t (yet) like the new WordPress editor.
 
 The old WordPress editor enabled me to focus on the content and just write.
 
@@ -58,7 +58,7 @@ WordPress-using readers, what do you think?
 
 (P.S. Another just-discovered issue: In Gutenberg, your biggest heading is H2. H1 is not available in the UI normally. When pasting in markdown, H1s do display, but do not show in the type-UI as anything. Here is [a confusing Gutenberg bug report][5].)
 
-## BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)
+### BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)
 
 The main reason I found and purchased Textastic, was that I ran into [Jez Cope&#8217;s github repo][6] with a TextMate Bundle (that&#8217;s an editor configuration) that was made for Textastic to support editing Emacs orgmode files.
 
@@ -66,7 +66,7 @@ As is the age-old open source way, there were a few small bugs which I [fixed in
 
 (There is no Emacs on iOS. This is in my view the greatest downside of iOS. It turns out that Apple generally does not allow apps with embedded interpreters on the app store. However, I am still trying to find out why there are no iOS-capable Emacs source code forks available.)
 
-## BTW 3: The iPad with keyboard is a shockingly good laptop replacement.
+### BTW 3: The iPad with keyboard is a shockingly good laptop replacement.
 
 I recently recommended to a privacy-conscious reader who was searching for an affordable Linux-running laptop in South Africa, that she instead consider buying an iPad with bluetooth keyboard.
 
@@ -80,7 +80,7 @@ For a large subset of laptop users, and for a large subset of workflows and task
 
 Please don&#8217;t worry (too much) yet, I am not planning one of those &#8220;I switched to an iPad as my main computing device&#8221; blog posts. I would not be able to survive without my development tools, and I would especially not be able to survive without my Emacs.
 
-# PV Solar installation progress
+## PV Solar installation progress
 
 As I excitedly [announced in WHV #159][8] (slightly more than a month ago), we had decided that it was time to get a photovoltaic solar power system installed at the house.
 
@@ -96,7 +96,7 @@ This was probably for the better: He can now continue doing well-practised insta
 
 Following are two noteworthy learnings:
 
-## Learning 1: You should almost always try to oversize the photovoltaic array
+### Learning 1: You should almost always try to oversize the photovoltaic array
 
 If the equipment states for example 4600kVA, then you are usually quite safe installing from 25% up to 30% more kWp of solar panels.
 
@@ -108,13 +108,13 @@ By the way, I emailed GoodWe (they make the hybrid inverters I have my eye on) w
 
 It is of course an interesting question what exactly is meant by oversizing. Do they support pumping 30% more power into the inverter for 5 minutes, or for 2 hours?
 
-## Learning 2: powerforum.co.za is a great source of information.
+### Learning 2: powerforum.co.za is a great source of information.
 
 [This forum][9] has a surprisingly high signal to noise ratio.
 
 There are a number of experts hanging around, including one of Victron&#8217;s super helpful and knowledgeable R&D engineers, and the archive posts are invaluable as you try to navigate [the quagmire][10] of often conflicting information.
 
-# Avocado baby progress: Very much touch and go.
+## Avocado baby progress: Very much touch and go.
 
 The baby avocado tree, in spite of being being watered almost every day (thank you rainwater harvest!) does not seem to be doing too well.
 
@@ -122,7 +122,7 @@ Because the summer sun down here can be quite vicious, the tree has its own litt
 
 The current plan is to feed it more compost, and, if that fails, to try to transplant it out of the big, wild garden and into a pot with softer, kinder earth.
 
-# How to explain complicated topics
+## How to explain complicated topics
 
 The international and yearly [Machine Learning Summer School took place in Stellenbosch this year][11], from Monday, January 7 to Friday, January 18.
 
@@ -154,7 +154,7 @@ It looks something like this:<figure class="wp-block-image"><a href="https://cpb
 
 By repeatedly diving deeper into the details, and then following the conceptual link back up to the higher-level constructs and especially your big idea, your listeners will start to see the beautiful fractal of understanding that you are guiding them through.
 
-# What will I be working on this year?
+## What will I be working on this year?
 
 At this moment, 2019 is shaping up to be pretty exciting work-wise.
 
@@ -166,7 +166,7 @@ This year I will also be spending more time on [TeleSensi, our FDA-certified tel
 
 (That being said, we do have plans to increase the level of rocket science significantly. I am not called the science officer for nothing… (well, that and also the fact that I got to choose my own title, and so I chose the same as Spock on the USS Enterprise).)
 
-# Do you write stuff down?
+## Do you write stuff down?
 
 You might remember from WHV #155 [my trick of starting the day with a checklist][13].
 
