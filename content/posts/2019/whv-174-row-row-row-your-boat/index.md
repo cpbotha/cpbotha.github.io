@@ -55,7 +55,7 @@ warmth.
 Anyways, the rest of this post exploded into a solid dollop of backyard
 philosophy, which I hope you enjoy.
 
-# Bullet List of Miscellany (BLoM).
+## Bullet List of Miscellany (BLoM).
 
 Before we dig in to the promised solid dollop, let's warm up with a BLoM.
 
@@ -78,7 +78,7 @@ Before we dig in to the promised solid dollop, let's warm up with a BLoM.
   reading again. (Also, the person who wrote that seems to be more advanced
   than I currently am. Life is circles.)
 
-# Life is but a dream.
+## Life is but a dream.
 
 I would like to take you on a little trip.
 
@@ -118,7 +118,7 @@ to yours.
 
 You start making *contact*.
 
-## Real-time reality synthesis.
+### Real-time reality synthesis.
 
 It's hard to tell this story without giving it away of course.
 
@@ -161,7 +161,7 @@ Thinking about it this way, it is not so surprising that we are apparently able
 to synthesise whole realities while we dream, including people, environments,
 conversations, relationships and experiences, all in apparent real-time.
 
-## P.S. It's the music.
+### P.S. It's the music.
 
 This whole story came up in a conversation I recently had with my partner.
 
@@ -190,6 +190,6 @@ one shifts more bandwidth to the incoming feeds.
 Then, when one's imagination takes flight, incoming feeds are turned down
 somewhat, enabling internal simulation to take over.
 
-# Row, row, row your boat.
+## Row, row, row your boat.
 
 I wish you an amazing week, and I look forward to when we meet again.

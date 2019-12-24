@@ -52,7 +52,7 @@ camping. Oh wait, [I did mention that in a previous blog
 post](/2018/10/12/weekly-head-voices-155-lush/#gous-go-camping-for-their-first-time-ever)!
 You should still ask me about it.)
 
-# Humans see.
+## Humans see.
 
 Close to the Stadsaal ("Town Hall") caves, you too should be able to find this
 wonderfully preserved San rock art:
@@ -72,7 +72,7 @@ reminded me strongly of the composition of a Star Wars poster:
 </a>
 </figure>
 
-# Humans taste.
+## Humans taste.
 
 On our way back from the Stadsaal caves, we took a turn-off and went down the
 mountain to visit [Cederberg Park](https://cederbergpark.com/) on the
@@ -113,7 +113,7 @@ Nel](https://www.cederbergbrewery.com/the-team/).
 WHV score: 11/10, getting worried about how and when I'll be able to acquire
 more of this.
 
-# Humans run.
+## Humans run.
 
 On the Friday morning, I did a short run(ish) up the mountain(ish).
 

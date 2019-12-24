@@ -36,7 +36,7 @@ on is so amazing?!)
 </figcaption>
 </figure>
 
-# I'm stubbornly doubling down on plaintext email.
+## I'm stubbornly doubling down on plaintext email.
 
 I spent a precious hour or two (or perhaps three, in which case I am ashamed)
 performing experiments to try and understand how GMail, fastmail web,
@@ -74,7 +74,7 @@ you'll know why.
 If you'd like join me, the new
 [useplaintext.email](https://useplaintext.email/) site is a good start!
 
-# Linux on the ThinkPad.
+## Linux on the ThinkPad.
 
 I *thought* that the NVIDIA GPU being hard-wired to the external display
 outputs on this [ThinkPad](/2019/04/27/new-laptop-2019/) meant that I would
@@ -96,7 +96,7 @@ If you're interested, see the [vxlabs blog
 post](https://vxlabs.com/2019/07/28/manjaro-bumblebee-thinkpad-x1-extreme-2019/)
 for all of the details.
 
-# We live in the future.
+## We live in the future.
 
 At the UMC Utrecht, two patients have received entirely patient-specific
 3D-printed titanium spinal implants.

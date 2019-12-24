@@ -48,7 +48,7 @@ It seems to have been a mix of more writing, but also just more doing.
 So, looking back at the two weeks from Monday July 1 to Sunday July 14, 2019, I
 would like to present the following notes.
 
-# Bullet List of Miscellany (BLoM).
+## Bullet List of Miscellany (BLoM).
 
 - GOU#1, age 13, is on a week-long school trip in a different time zone
   (GMT+8). I am super happy that she can have this experience, but durnit, one
@@ -79,7 +79,7 @@ would like to present the following notes.
   stream](https://twitter.com/EricTopol) is a shining example of how twitter
   could be used more constructively.
 
-# Would you like some more Emacs with that Email?
+## Would you like some more Emacs with that Email?
 
 During the past two weeks I published two blog posts on my nerd blog:
 
@@ -132,7 +132,7 @@ started in 2014.
 fact that it's back in my email workflow, combined with five years of
 compounded Emacs skills, has resulted in further increased efficiency.)
 
-## Sticking it to the Man (GMail) with FastMail.
+### Sticking it to the Man (GMail) with FastMail.
 
 Wrapping up that email workflow reconfiguration frenzy, I did spend some
 minutes doing a quick survey of fastmail alternatives which might have email
@@ -147,7 +147,7 @@ All of that, together with the fact that gmail's continued dominance is
 unhealthy for the world of email, convinced me to stick with fastmail for the
 conceivable future.
 
-# Stone Three Healthcare is now a thing.
+## Stone Three Healthcare is now a thing.
 
 [Stone Three Healthcare](http://www.stonethree.com/healthcare/), until recently
 a business unit within Stone Three Venture Technology, has now been officially
@@ -166,7 +166,7 @@ There are worse ways for a startup to start up.
 P.S. if you have any golden tips for startup dummies, I (and probably others)
 would be super grateful if you could let 'em loose in the comments!
 
-# Always Be Compounding: The side-project edition.
+## Always Be Compounding: The side-project edition.
 
 In the previous WHV, I [started going on about the principle of ABC, or Always Be
 Compounding](/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding).
@@ -217,7 +217,7 @@ Well, SURPRISE!
 I do have at least one side-project that ticks a number of these boxes, and
 could *potentially* serve as such a vehicle.
 
-## AIKNO
+### AIKNO
 
 The side-project in question is called AIKNO, which is pronounced "I know", but
 which somehow expands to *AI organizational knowledge base*. Magic!
@@ -257,7 +257,7 @@ I did learn a *tremendous* amount.
 
 Maybe *that* is the real reason for doing these things?
 
-# Always Be Learning.
+## Always Be Learning.
 
 Thanks for joining me on that trip folks.
 

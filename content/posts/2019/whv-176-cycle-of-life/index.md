@@ -28,7 +28,7 @@ This WHV covers the weeks from Monday July 29 to Sunday August 25.
 
 This period had more than its fair share of lows and highs.
 
-# Loss.
+## Loss.
 
 On Saturday, August 3 we lost one of our clan mothers, quite unexpectedly.
 
@@ -42,7 +42,7 @@ It was also a reminder of how much more deliberately and intently we should
 dive into and *merge* with the atoms of each and every moment that we get to
 spend with our fellow humans.
 
-# Reunion.
+## Reunion.
 
 This year I again had the exquisite pleasure of bringing a short summer visit
 to my Dutch family.
@@ -76,7 +76,7 @@ moments.
 P.S. The [Weekly Head Voices series was *born* in the afterglow of Lowlands
 2009](/2009/08/29/starting-today-head-voices-every-week/).
 
-# Celebration.
+## Celebration.
 
 Somewhere during the past three weeks I added another birthday to my scarily
 growing collection.

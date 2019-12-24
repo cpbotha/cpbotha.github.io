@@ -37,7 +37,7 @@ believe!
 This edition of the WHV looks back at the two weeks from Monday September 9 to
 Sunday September 22, 2019.
 
-# Miscellaneous bits.
+## Miscellaneous bits.
 
 I was finally able to finish and publish a fairly extensive blog post
 documenting [my current personal knowledge management
@@ -71,7 +71,7 @@ This is my favourite quote from the Wired article:
 > species, only cockroaches, termites and scarab beetles produce any methane at
 > all.
 
-# Cadence 180 REDUX!
+## Cadence 180 REDUX!
 
 Another friend from work, who runs better and faster than I do (they all do),
 was explaining the other day that one had to make better use of one's *glutes*,
@@ -125,7 +125,7 @@ Currently, a step rate of 180 mostly means that I am unable to keep my heart
 rate at 80% or lower. I am curious, and a little bit nervous, to find out if I
 am able to bring my 180 cadence heart rate down by a percentage point or two.
 
-# What's your yo-yo?
+## What's your yo-yo?
 
 Because GOU#2 had just acquired a new yo-yo, we were watching youtube videos of
 yo-yo champions performing their art.
@@ -163,7 +163,7 @@ What's *your* yo-yo?
 P.S. Thinking about it some more, Emacs is almost like some sort of yo-yo,
 isn't it?
 
-# Extrawelt ABC.
+## Extrawelt ABC.
 
 Some of you might have realised that the section above, ostensibly about
 yo-yos, is actually a thinly disguised page in my fairly recently started

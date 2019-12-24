@@ -13,6 +13,7 @@ tags:
   - orgmode
   - running
   - social media
+  - streaking
 categories:
   - weekly head voices
 type: "post"
@@ -29,7 +30,7 @@ challenging post-Sunday-lunch run.</figcaption>
 This edition of the WHV looks back at the two weeks from Monday August 26 to
 Sunday September 8, 2019.
 
-# On friendship, 25 years later.
+## On friendship, 25 years later.
 
 The birthday [mentioned
 previously](/2019/09/01/weekly-head-voices-176-cycle-of-life/#celebration),
@@ -56,9 +57,9 @@ undivided recognition of and attention to the other.
 This is certainly not reserved for 25+ year friendships, although this
 pre-requisite seems to facilitate the process to the point of effortlessness.
 
-# Nested Headings of Miscellany (NHoM-NHoM).
+## Nested Headings of Miscellany (NHoM-NHoM).
 
-## org-pdf-tools for constructing unifying notes.
+### org-pdf-tools for constructing unifying notes.
 
 Recently, I had to work through a stack of regulatory documents in PDF format.
 
@@ -85,7 +86,7 @@ detail.
 Being able to jump effortlessly from a central overview document to specific
 positions in reference PDFs is a huge boon to the research process.
 
-## Escalante!
+### Escalante!
 
 One friend of work pointed me at an online source of affordable Altras.
 
@@ -130,7 +131,7 @@ Anyways, in spite of the rest of me taking quite a beating on the second run, I
 can happily report that the shoes did a marvellous job of balancing support
 on the one hand and foot-freedom on the other.
 
-# Life optimisation tip #73: Streak more.
+## Life optimisation tip #73: Streak more.
 
 As I was scrolling aimlessly through my facebook feed during my last session
 before the Great Social Media Fast of September 2019 (see next section), I
@@ -164,7 +165,7 @@ more consistently, and for longer.
 
 What else could we streak folks?
 
-# The Great Social Media Fast of 2019.
+## The Great Social Media Fast of 2019.
 
 Twitter, Facebook, Reddit and friends... hot durnit.
 

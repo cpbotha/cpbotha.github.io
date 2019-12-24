@@ -31,7 +31,7 @@ What you'll also find in this post, is the culmination of many years of lessons
 learned trying to ["keep a lab
 journal"](/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three).
 
-# Highest level overview of note-taking system.
+## Highest level overview of note-taking system.
 
 My approach consists of four main components:
 
@@ -57,7 +57,7 @@ and for limited access to my notes database via a small subset of markdown
 files, PDFs and exported HTML, and I use the new WatchOS 6 voice notes if I'm
 not able to use my phone.
 
-## Other noteworthy characteristics.
+### Other noteworthy characteristics.
 
 Everything mentioned above lives on local drives, synced with Dropbox and also
 automatically and continuously backed-up to a removable disk at my office.
@@ -77,12 +77,12 @@ Even if I were ever to change tools, the current single source of truth is a
 collection of plaintext org files and PDF files which can easily be further
 processed and imported into some new system.
 
-# The components in slightly more detail.
+## The components in slightly more detail.
 
 In the following sections, I explain each of the four components in more detail
 than in the overview above.
 
-## Emacs Org mode.
+### Emacs Org mode.
 
 The heart of my knowledge management system, let's call it `pkb4000`, is [Emacs
 Org mode](https://orgmode.org/). Org mode, or "Your life in plaintext", is a
@@ -92,7 +92,7 @@ even authoring documents.
 Once you get used to the programmable flexibility it offers, you will find it
 hard to go back to any conventional system.
 
-### Monthly journal files.
+#### Monthly journal files.
 
 In my main Org mode directory, I have a subdirectory named `journals`, which
 contains a directory for each year.
@@ -156,7 +156,7 @@ index to my current high-level goals and focus items, my currently running work
 and personal projects, miscellaneous tasks, and my detailed daily journalling
 and habit tracking.
 
-#### Daily review.
+##### Daily review.
 
 When I start the day, I instantiate a new org-capture "day planning" template
 by pressing `C-c c p`.
@@ -174,7 +174,7 @@ I list tasks which should preferably be taken care of today under `Tasks for
 today`, whilst any really high-value high-satisfaction tasks go under `Tasks
 that will satisfy end-of-the-day Charl`.
 
-#### During the day.
+##### During the day.
 
 During the rest of the day, I'll write short diary-like notes under `Done list
 / thoughts / diary` and log pomodori (focus blocks) under, you guessed it,
@@ -185,7 +185,7 @@ I use additional custom org-capture templates, via keyboard shortcuts, to
 create more extensive timestamped journal entries (see the `is dropbox better
 ...` example) and to create new timestamped and logged Org mode `TODO` entries.
 
-#### Kill your darlings (during the monthly review).
+##### Kill your darlings (during the monthly review).
 
 I've mentioned this before, but it's just an important aspect of my "system"
 that I would like to mention it again.
@@ -211,7 +211,7 @@ With most of these task systems, regular reviews are of crucial importance. The
 monthly start-over is a great, almost enforced, opportunity for review, as is
 the morning routine when I instantiate the day planner template.
 
-#### What about email?!
+##### What about email?!
 
 An important part of knowledge and task management is one's emails.
 
@@ -238,7 +238,7 @@ work. In future, if I add a new mail client to the mix, I will still be able to
 jump to specific old emails, no matter where they find themselves inside of my
 FastMail mailboxes.
 
-### Core notes database.
+#### Core notes database.
 
 With `database` I of course refer to hundreds of org and markdown files, most
 of which find themselves in the top-level `pkb4000` directory, one level up
@@ -261,7 +261,7 @@ What I really like, is also being able to tell you on which day, and during
 which hour, I learned this or that, or experimented with something or the
 other.
 
-### Project files.
+#### Project files.
 
 Work and personal projects each get their own Org file. Some projects even get
 a whole directory to themselves, in cases where the project will have many more
@@ -283,7 +283,7 @@ journal file.
 
 When a project is completed, it is of course removed from `org-agenda-files`.
 
-## Web-pages and articles.
+### Web-pages and articles.
 
 As mentioned in the short system overview, I store all web-pages and articles I
 come across as date-stamped PDF files in a set of year-stamped directories.
@@ -307,7 +307,7 @@ my laptop in 30 seconds or less.
 cited above, I was disappointed by the super important search function. The
 advantages of having Just a Bunch of PDFs on your (synced) disc are many.)
 
-## Zotero.
+### Zotero.
 
 The `refs` directory hierarchy described above is great for quickly storing an
 article in the right place with a suitable name, ready for search-based
@@ -333,7 +333,7 @@ The reasons I prefer zotero are:
   occasion](https://vxlabs.com/tags/zotero/) I have been able to make small
   modifications to make it perform peculiar tricks I needed at that point.
 
-## Mobile.
+### Mobile.
 
 This has always been the weakest part of my whole knowledge management system.
 
@@ -401,7 +401,7 @@ files as plaintext files, much like what it already does for markdown .md
 files. As it stands, I keep a small subset of my notes as markdown, instead of
 the superior org, for mobile editing.
 
-# Limitations and points for improvement.
+## Limitations and points for improvement.
 
 The current system is great for capturing and search-based retrieval of
 personal knowledge.
