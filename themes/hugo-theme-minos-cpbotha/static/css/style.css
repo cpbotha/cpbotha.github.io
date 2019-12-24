@@ -888,6 +888,7 @@ figcaption {
   line-height: 1.6153846154;
   padding-top: 0.5384615385em;
   /* text-align: left;     */
+  word-wrap: break-word;
 }
 
 .article-entry .highlight figcaption {
