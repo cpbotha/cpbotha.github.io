@@ -9,6 +9,12 @@ pygmentsCodeFences = true
 pygmentsStyle = "solarized-light"
 #pygmentsOptions = "linenos=table"
 
+# see https://gohugo.io/news/0.60.0-relnotes/
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # we need email and name for this to appear in RSS feed
 [author]
   email = "cpbotha@cpbotha.net"
