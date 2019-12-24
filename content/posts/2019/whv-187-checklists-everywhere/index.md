@@ -28,7 +28,7 @@ Fiery sky in Betty's Bay.
 </figure>
 
 I'm not sure about the situation in the Northern hemisphere, but down here in
-the South it seesm as if just about everyone has disconnected for the Christmas
+the South it seems as if just about everyone has disconnected for the Christmas
 period.
 
 I decided that I would prefer at least trying to end the year with a few
