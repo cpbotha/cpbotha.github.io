@@ -21,11 +21,11 @@ In this, the 166th edition of the WHV, I attempt to peer back at the two weeks f
 
 If you like, you may imagine that this looks like somewhat like the photo above, although the photo above was in fact just me peering out over the sea, while I generally just sit hunched over some form of keyboard when writing these posts.
 
-## Blogosphere housekeeping. {#orga37aea6}
+## Blogosphere housekeeping.
 
 In my eternal quest to avoid the new Gutenberg editor in WordPress (now at version 5.1.1), this and the previous post were typed up in Orgmode, and then copy-pasted from the Emacs-exported HTML.
 
-## On being powerless. {#org602b18a}
+## On being powerless.
 
 Years of corruption, in most cases made possible by the current ruling party, the ANC, have left our electricity-producing monoply, Eskom, in shambles.
 
@@ -49,7 +49,7 @@ Although there are fundamental issues at Eskom that need to be addressed, such a
 
 I am less optimistic but still hopeful that this will result in deeper rectifications to both our power production strategy and, more acutely, the South African government.
 
-## On finding oneself in the most entirely wrong place for any sort of complaining. {#org82869c7}
+## On finding oneself in the most entirely wrong place for any sort of complaining.
 
 GOU #1 left us for a week-long, zero-communication canoeing trip, along with about 60 of her fellow pupils, down the Orange River.
 
