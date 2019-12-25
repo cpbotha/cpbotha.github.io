@@ -18,7 +18,7 @@ tags:
   - runalyze
   - running
   - spectrogram
-
+katex: true
 ---
 <div class="jetpack-video-wrapper">
   <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/SqayDnQ2wmw?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
@@ -37,14 +37,12 @@ Whether you&#8217;re a fan or not, I think it&#8217;s worth sitting through this
 Pro-tip: This is not one of those tracks where the whole thing can be more or less predicted by viewing the first minute. There&#8217;s a thing at 1:55 and a second thing at 3:14.
 
 I had to wonder whether the [3:14][1] was intentional. We&#8217;re not much into our biblical references over here as you might know, but you have to recall that Aphex Twin is the guy who, already back in 1999, hid his face in the spectrogram of a music track called:
-
-
   
-\[\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\]
+\\[\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\\]
 
-That&#8217;s the actual name of the track (#2 on the famous [Windowlicker EP][2]), although most people (plebs!) refer  to it as just _Function_ or _Equation_. I got sucked down that rabbit hole last night, but no-one on the internet seems to know the true meaning of the equation. Please ask RDJ if you ever run into him.
+That's the actual name of the track (#2 on the famous [Windowlicker EP][2]), although most people (plebs!) refer  to it as just _Function_ or _Equation_. I got sucked down that rabbit hole last night, but no-one on the internet seems to know the true meaning of the equation. Please ask RDJ if you ever run into him.
 
-Anyways, I have embedded \(\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\) below for your listening and viewing pleasure. Aphex Twin&#8217;s face appears at 5:30.
+Anyways, I have embedded \\(\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\\) below for your listening and viewing pleasure. Aphex Twin&#8217;s face appears at 5:30.
 
 <div class="jetpack-video-wrapper">
   <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/M9xMuPWAZW8?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
