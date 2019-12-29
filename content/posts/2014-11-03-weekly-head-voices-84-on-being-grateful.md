@@ -27,40 +27,19 @@ This past weekend we had the privilege of going to a weekend-long double birthda
 
 Of the many things I learnt this weekend, I would like to share these two with you: 
 
-<div id="outline-container-sec-1" class="outline-2">
-  <h2 id="sec-1">
-    Lesson 1 &#8211; Weekend parties are the best parties.
-  </h2>
-  
-  <div class="outline-text-2" id="text-1">
-    <p>
-      &#x2026; we should do even more of those! It seems like the Friday warm-up-party and the Saturday morning and afternoon socialising and more warm-up, combined with a willing group of party athletes, are good ingredients for a Saturday night awesomeness crescendo! (live band and copious amounts of beer not bad ideas either)
-    </p>
-  </div>
-</div>
+## Lesson 1 &#8211; Weekend parties are the best parties.
 
-<div id="outline-container-sec-2" class="outline-2">
-  <h2 id="sec-2">
-    Lesson 2 &#8211; On being grateful.
-  </h2>
-  
-  <div class="outline-text-2" id="text-2">
-    <p>
-      At one point I was chatting with one of the guests, a person who has done quite a bit of travelling, and who seems to have settled nicely into the role of <a href="http://cpbotha.net/2010/03/14/weekly-head-voices-17-the-eternal-foreigner/">eternal foreigner here in this strange country</a>. Their better living tip, based on much hard-won experience, was simply this: <i>Be grateful</i>.
-    </p>
-    
-    <p>
-      Their advice immediately made a great impression on me.
-    </p>
-    
-    <p>
-      Remembering to be explicitly grateful every day (go on, identify and articulate all of the things! if you are able to read this, chances are that you have much to be grateful for) is such an elegant yet practical path to <a href="http://cpbotha.net/2013/11/11/creative-process-stage-5-whv-67/">mindfulness</a>. To boot, it fits in very nicely with <a href="http://cpbotha.net/2014/09/09/weekly-head-voices-81-middle-aged-zen/">being kind</a>.
-    </p>
-    
-    <p>
-      (During looking up the <a href="http://www.etymonline.com/index.php?term=boot">etymology of &#8220;to boot&#8221;</a> on this worldwide network that interactively gives us access to just about the sum total of human knowledge whenever we want it, I <b>just</b> discovered that &#8220;botha&#8221; is a Gothic word meaning &#8220;advantage&#8221;. Sweet!)
-    </p>
-  </div>
-</div>
+&#x2026; we should do even more of those! It seems like the Friday warm-up-party and the Saturday morning and afternoon socialising and more warm-up, combined with a willing group of party athletes, are good ingredients for a Saturday night awesomeness crescendo! (live band and copious amounts of beer not bad ideas either)
+
+## Lesson 2 &#8211; On being grateful.
+
+At one point I was chatting with one of the guests, a person who has done quite a bit of travelling, and who seems to have settled nicely into the role of <a href="http://cpbotha.net/2010/03/14/weekly-head-voices-17-the-eternal-foreigner/">eternal foreigner here in this strange country</a>. Their better living tip, based on much hard-won experience, was simply this: <i>Be grateful</i>.
+
+Their advice immediately made a great impression on me.
+
+Remembering to be explicitly grateful every day (go on, identify and articulate all of the things! if you are able to read this, chances are that you have much to be grateful for) is such an elegant yet practical path to <a href="http://cpbotha.net/2013/11/11/creative-process-stage-5-whv-67/">mindfulness</a>. To boot, it fits in very nicely with <a href="http://cpbotha.net/2014/09/09/weekly-head-voices-81-middle-aged-zen/">being kind</a>.
+
+(During looking up the <a href="http://www.etymonline.com/index.php?term=boot">etymology of &#8220;to boot&#8221;</a> on this worldwide network that interactively gives us access to just about the sum total of human knowledge whenever we want it, I <b>just</b> discovered that &#8220;botha&#8221; is a Gothic word meaning &#8220;advantage&#8221;. Sweet!)
+
 
  [1]: http://osssa.org.za/
