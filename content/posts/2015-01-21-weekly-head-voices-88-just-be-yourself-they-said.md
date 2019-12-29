@@ -13,6 +13,7 @@ tags:
   - paarl mountain
   - paarl rock
   - solms delta
+  - transition
 
 ---
 I wish you all a zen-filled 2015! (I think zen trumps straight happiness, because zen means that you&#8217;re on your way to understanding and making peace with the mechanisms underneath the happiness, all the way down.) 
