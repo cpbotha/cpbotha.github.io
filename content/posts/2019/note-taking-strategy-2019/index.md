@@ -425,3 +425,56 @@ note-taking post](/2016/01/05/note-taking-strategy-early-2016/):
 > us to build note landscapes that are natively as non-linear as our thoughts.
 
 Let's see what happens over the next few years!
+
+## Appendix
+
+### Redacted Emacs Orgmode capture template
+
+``` emacs-lisp
+;; normally I construct current-journal-filename using mix of expand-file-name and concat
+(setq current-journal-filename "/full/path/to/current/month-journal/")
+;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline current-journal-filename "Tasks")
+         "* TODO %?\n:LOGBOOK:\n- Created \"TODO\" %U\n:END:\n%i\n%a\n\n" 
+         :empty-lines 1)
+        ("j" "Journal" entry (file+olp+datetree current-journal-filename)
+         "* %? %T\n"
+         :empty-lines 1)
+        ("p" "Day planning" entry (file+olp+datetree current-journal-filename)
+         "* Day planning %U
+
+** Done list / thoughts / diary
+
+- %?
+
+** Tasks for today [/]
+
+** Experiment: Articulate your directions / systems.
+
+** Tasks that will satisfy end-of-the-day Charl [/]
+
+** Focus blocks
+
+** Review [/]
+- [ ] [[*Vitals][Month vitals]]
+- [ ] Org sub-projects
+- [ ] Calendar
+- [ ] ...
+
+** Habits / important [/]
+- [ ] 7.5 hrs sleep last night
+- [ ] are you satisfied with number of pomodori? = 0 (v R)
+- [ ] did you write stuff down?
+- [ ] ...
+
+"
+         :empty-lines 1)))
+```
+
+## Updates
+
+### Sunday 2020-01-12
+
+- Add example of orgmode capture template configuration in appendix.
+
