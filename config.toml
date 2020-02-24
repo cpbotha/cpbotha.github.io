@@ -15,7 +15,8 @@ pygmentsStyle = "solarized-light"
     [markup.goldmark.renderer]
       unsafe = true
   [markup.tableOfContents]
-    endLevel = 3
+    # in my note-taking post, we go all the way down to 5!
+    endLevel = 5
     ordered = false
     # default is 2, but set to 1 until we've converted all posts to start at 2
     # 1 was the default before goldmark (i.e. with blackdown)
