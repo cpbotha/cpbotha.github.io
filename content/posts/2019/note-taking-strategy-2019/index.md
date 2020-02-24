@@ -401,6 +401,42 @@ files as plaintext files, much like what it already does for markdown .md
 files. As it stands, I keep a small subset of my notes as markdown, instead of
 the superior org, for mobile editing.
 
+#### Drawing with Apple Pencil on the iPad using Notability.
+
+Sometimes one does need to sketch.
+
+This could be a rough UI, an architecture diagram, a data flow chart, or just
+doodling.
+
+Since about the end of 2018, I've been using the [Notability
+app](https://apps.apple.com/za/app/notability/id360593530) along with an iPad
+6th gen (2018 entry-level, the first non-Pro to support the Pencil) to doodle
+electronically.
+
+Notability automatically syncs all of these drawings as fully vectorised PDFs
+to my Dropbox. All handwritten text is quite smartly OCRd, and the OCRd version
+is stored as correctly positioned metadata behind my ugly scribbles.
+
+I would have liked Notability even more if it supported arbitrary canvas sizes
+(as it stands, only standard paper size in protrait mode), and had an always
+visible overview minimap.
+
+#### Signal messaging app's brilliant "Note to Self" contact.
+
+The [Signal messaging app](https://signal.org/), which you should all be using,
+has a built-in contact called "Note to Self".
+
+As of late (since about December 2019) this has become my main *capturing tool*
+when I'm on the phone.
+
+You can share links, media, photos, voice notes or a plain old text message,
+all of which will be securely stored, neatly timestampted to boot, in your
+conversation with this silent but very useful "Note to Self" character.
+
+During the morning review, I go through each of the shared items, processing
+them, and then add the message "DONE =====>" to indicate that they have been
+completed.
+
 ## Limitations and points for improvement.
 
 The current system is great for capturing and search-based retrieval of
@@ -476,5 +512,10 @@ Let's see what happens over the next few years!
 
 ### Sunday 2020-01-12
 
-- Add example of orgmode capture template configuration in appendix.
+- Add [example of orgmode capture template
+  configuration](#redacted-emacs-orgmode-capture-template) in appendix.
+- Add [section about iPad, Notability and Apple
+  Pencil](#drawing-with-apple-pencil-on-the-ipad-using-notability).
+- Add [section about Signal's Note to Self
+  contact](#signal-messaging-apps-brilliant-note-to-self-contact).
 
