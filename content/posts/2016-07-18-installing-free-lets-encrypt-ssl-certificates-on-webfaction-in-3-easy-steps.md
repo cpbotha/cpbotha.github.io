@@ -17,6 +17,13 @@ tags:
   - webfaction
 
 ---
+
+**WARNING on 2020-02-24: webfaction has been bought by godaddy and will soon
+close down. [I have recently moved
+out](/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server)
+and am now keeping all of my Let's Encrypt certificates up to date with the
+official [certbot tool](https://certbot.eff.org/).**
+
 **WARNING: High levels of NERD ahead.** 
 
 I started using CloudFlare&#8217;s free tier on this blog, before Let&#8217;s Encrypt burst onto the scene, mostly for their [universal SSL][1]. However, as joepie91 [recently pointed out][2], this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case). Apart from this, CloudFlare is a bit of overkill for this low-traffic site. 
