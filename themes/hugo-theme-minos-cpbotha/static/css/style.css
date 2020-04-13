@@ -257,7 +257,6 @@ a.article-title:hover,
 .article-entry ol,
 .article-entry dl {
   margin: 0 20px;
-  line-height: 1.4em;
 }
 .article-entry ul ul,
 .article-entry ol ul,
@@ -293,7 +292,7 @@ a.article-title:hover,
   overflow: hidden;
 }
 #main-nav {
-  float: left;
+  float: right;
   margin-left: -15px;
 }
 .main-nav-link,
@@ -465,7 +464,6 @@ a.article-title:hover,
 }
 .article-entry p,
 .article-entry table {
-  line-height: 1.4em;
   margin: 1.4em 0;
 }
 .article-entry h1,
@@ -475,7 +473,6 @@ a.article-title:hover,
 .article-entry h5,
 .article-entry h6 {
   font-weight: 600;
-  line-height: 1.4em;
   margin: 1em 0;
 }
 .article-entry ul,
@@ -1146,13 +1143,18 @@ pre .php .xml {
 #isso-thread ol, #isso-thread ul {
   /* top right bottom left */
   margin: 20px;
-  line-height: 1.4em;    
+
+}
+
+#isso-thread {
+    line-height: 1.6em;
 }
 
 /* cpbotha: tuning style on 2020-04-13 using firefox inspector
    - colours: 3-class dark2 from colorbrewer2
    - georgia + roboto (webfont)
    - I have to use !important quite often to override stuff from the top
+   - changed #main-nav up top to float: right
 
 */
 
@@ -1164,8 +1166,11 @@ body {
 
 .article-entry {
     font-size: 18px;
-    line-height: 30px;
     color: #222 !important;
+}
+
+.article-entry {
+  line-height: 1.6em !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -1202,11 +1207,6 @@ h5 {
 
 .logo-text {
     font-weight: 500 !important;
-}
-
-#main-nav {
-    float: right;
-    display: inline;
 }
 
 .main-nav-link {
