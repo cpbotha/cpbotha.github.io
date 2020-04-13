@@ -32,7 +32,7 @@ think about and attempt to describe the thoughts I had about topics and events
 that might or might not have occurred in the period of time that this post is
 ostensibly looking back on.
 
-# TwiFRaF progress report.
+## TwiFRaF progress report.
 
 Almost a month ago, all the way back in [WHV
 #177](https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/#the-great-social-media-fast-of-2019),
@@ -64,7 +64,7 @@ to TwiFraF-Yo.
 For the past week, I have observed a further uptick in the quantity and quality
 of my focus.
 
-# The Describers.
+## The Describers.
 
 Thanks to an *excellent* recommendation by friend PK (he of [the introducing of
 the rider and the
@@ -121,7 +121,7 @@ At the very least, the hypothesis that taking the time to re-process and
 document one's thoughts, observations and reasoning could contribute positively
 to one's judgement seems eminently plausible to me.
 
-# EnsembleYou(tm).
+## EnsembleYou(tm).
 
 In machine learning, [ensemble
 methods](https://en.wikipedia.org/wiki/Ensemble_learning) combine multiple
@@ -152,7 +152,7 @@ faulty entity.
 I am calling this specific composite entity EnsembleCharl, but because I would
 like to give the *idea* to you, *that* will go through life as EnsembleYou(tm)!
 
-# Friendly Wishes.
+## Friendly Wishes.
 
 Friends(es), I wish you effortless connectivity, and great wisdom in your
 multiplicity.

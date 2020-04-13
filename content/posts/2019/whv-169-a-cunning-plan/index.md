@@ -41,7 +41,7 @@ Nonetheless, my mission at this moment is to try and give you something
 entertaining and/or educational, and for this [I have a cunning
 plan...](http://blackadderquotes.com/i-have-a-cunning-plan)
 
-# nimfatuation is now OVER.
+## nimfatuation is now OVER.
 
 ```common-lisp
 ;; consider reading this section if this line of code is clear to you
@@ -144,7 +144,7 @@ get my database support up and running.
 In terms of the learning journey, I have not even left my own village
 yet. However, F\# seems to be triggering all of the right receptors.
 
-# Someone is right on the internet.
+## Someone is right on the internet.
 
 *My* week might not have been the most blog-worthy, but, my goodness, the
 Wonderful World of Science has not been sitting still!
@@ -155,7 +155,7 @@ aka my growing collection of Really Interesting PDFs, and I hand-picked a few
 tidbits worthy of casually mentioning during the undoubtedly erudite
 discussion at your next cocktail party!
 
-## Each millilitre of VO<sub>2</sub> max reduces your risk of dying by 2.8%.
+### Each millilitre of VO<sub>2</sub> max reduces your risk of dying by 2.8%.
 
 If we've run (I see what I did there) into each other more than once, [I've
 probably
@@ -180,7 +180,7 @@ women is 20 millilitres or more.
 
 At 2.8% per millilitre, that certainly makes one think!
 
-## HPV vaccine linked to dramatic drop in cervical disease.
+### HPV vaccine linked to dramatic drop in cervical disease.
 
 Almost exactly 10 years ago, I wrote [a post on this blog titled "You must
 vaccinate"](/2009/05/21/you-must-vaccinate/) because friends and acquaintances
@@ -218,7 +218,7 @@ complained. I don't know if there were any refusers.)
 I am still hopeful that one day all of these victories will contribute to the
 attrition of the irresponsibly dangerous anti-vaxx movement.
 
-## How The Matrix Built A Bullet-Proof Legacy.
+### How The Matrix Built A Bullet-Proof Legacy.
 
 Surprise! This one is not from science, but it was such an amazing read that I
 have to share.
@@ -231,7 +231,7 @@ THE MATRIX BUILT A BULLET-PROOF
 LEGACY](https://www.wired.com/story/the-matrix-legacy-book-excerpt/)
 
 
-# You never write.
+## You never write.
 
 At Tuesday's edition of the Helderberg Software Developers and Entrepreneurs
 meetup, organised by [Wogan May](https://wogan.blog/) (pssst, he has a

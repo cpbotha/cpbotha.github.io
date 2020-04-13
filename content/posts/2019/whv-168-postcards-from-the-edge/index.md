@@ -41,7 +41,7 @@ on Monday, April 1 and ending on Sunday, April 7, 2019.
 I have to apologise for the extremely high nerd content. There will be wine at
 the end to make up for it!
 
-# Working late like it's 1998.
+## Working late like it's 1998.
 
 At the start of the week, I had resolved to get more sleep.
 
@@ -83,7 +83,7 @@ P.S. 1998 - first postgrad year in the DSP lab. All-nighters all the way down...
 <figcaption>DSP lab, somewhen between 97 - 99.</figcaption>
 </figure>
 
-# nim-surprise.
+## nim-surprise.
 
 I chose Isso because it's Python.
 
@@ -141,7 +141,7 @@ github, we are currently going through a sort of programming language Cambrian
 explosion. See this [Fledgling Languages List](http://fll.presidentbeef.com/)
 for example. Pony!
 
-# Decompression.
+## Decompression.
 
 On Sunday, we made the drive out to Jonkershoek in Stellenbosch.
 

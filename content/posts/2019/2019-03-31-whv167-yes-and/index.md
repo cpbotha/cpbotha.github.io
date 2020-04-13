@@ -44,7 +44,7 @@ I am looking forward.
 At this very moment however, I am also looking back, at the week from Monday
 March 25 to Sunday, March 31, 2019.
 
-# Fire and Motion.
+## Fire and Motion.
 
 I don't know how else to describe it, but the thought that came up most often
 last week was: What a silly day.
@@ -114,7 +114,7 @@ Everyone has these difficult days, and that's ok.
 
 The important thing is to keep on moving forward a little bit, every day.
 
-# Yes, and...
+## Yes, and...
 
 The extra mental cycles were fortunately not all in vain.
 
@@ -166,7 +166,7 @@ I think we should "Yes, and..." much more in real life.
 
 I'll start.
   
-# What stands in the way becomes the way.
+## What stands in the way becomes the way.
 
 The following was recently used _in anger_ (not actual anger, just in actual
 application) somewhere in my network:

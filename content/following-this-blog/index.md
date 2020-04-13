@@ -13,7 +13,7 @@ You can use any combination of the below options to follow this blog.
 If you're not sure, subscribe via email! (each email has an
 unsubscribe link at the bottom, so that's easy)
 
-# Subscribe via email
+## Subscribe via email
 
 If you would like to receive an email whenever a new post has been published on
 this blog (mostly about one email per week), enter your email address in the
@@ -39,12 +39,12 @@ box below, click the **subscribe** button, and then follow the instructions:
 
 <!--End mc_embed_signup-->
 
-# Twitter
+## Twitter
 
 You could also consider [following @cvoxel on twitter][2] (that's me). I tweet
 some, but not all, of the posts I make.
 
-# RSS / Atom
+## RSS / Atom
 
 You're a power user! You can add [this blog's atom feed](/posts/index.xml) to your reader.
 
