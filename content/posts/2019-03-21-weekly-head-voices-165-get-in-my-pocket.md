@@ -11,6 +11,7 @@ tags:
   - brave
   - dropbox
   - gou
+  - gou-3
   - pocket
   - safari
 

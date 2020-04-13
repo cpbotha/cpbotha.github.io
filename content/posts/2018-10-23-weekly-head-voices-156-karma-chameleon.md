@@ -12,6 +12,7 @@ tags:
   - heart rate
   - longevity
   - maf
+  - posterior tibial tendon
   - running
   - science
   - sleep

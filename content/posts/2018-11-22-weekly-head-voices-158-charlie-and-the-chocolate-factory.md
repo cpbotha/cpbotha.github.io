@@ -11,6 +11,7 @@ tags:
   - deep learning
   - luna
   - nvidia
+  - posterior tibial tendon
   - pytorch
   - running
   - telegram

@@ -15,6 +15,8 @@ tags:
   - changes
   - coffee
   - cvoxel
+  - gou
+  - gou-3
   - symbiosis
 
 ---

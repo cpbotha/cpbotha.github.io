@@ -8,6 +8,7 @@ categories:
   - weekly head voices
 tags:
   - gou
+  - gou-3
   - luna
   - running
   - side-projects
