@@ -70,9 +70,8 @@ body {
   color: #000;
   background: #fff;
 }
-ol,
-ul {
-  list-style: none;
+ol, ul {
+    list-style: none;
 }
 table {
   border-collapse: separate;
@@ -1132,4 +1131,20 @@ pre .php .xml {
   font-size: 16px;
   font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
+}
+
+
+/* cpbotha: original hugo-minos had list-style set to NONE at top-level, with .article
+   ol, ul setting it to something. why would anyone do that?! */
+#isso-thread ol {
+    list-style: decimal;
+}
+#isso-thread ul {
+  list-style: disc;
+}
+/* cpbotha: same here */
+#isso-thread ol, #isso-thread ul {
+  /* top right bottom left */
+  margin: 20px;
+  line-height: 1.4em;    
 }
