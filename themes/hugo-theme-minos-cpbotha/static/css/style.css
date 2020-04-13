@@ -113,7 +113,7 @@ body,
 }
 body {
   background: #fff;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  /* font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif; */
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -1147,4 +1147,78 @@ pre .php .xml {
   /* top right bottom left */
   margin: 20px;
   line-height: 1.4em;    
+}
+
+/* cpbotha: tuning style on 2020-04-13 using firefox inspector
+   - colours: 3-class dark2 from colorbrewer2
+   - georgia + roboto (webfont)
+   - I have to use !important quite often to override stuff from the top
+
+*/
+
+body {
+    color: #222;
+    font-family: Georgia, Times, Times New Roman, serif;
+
+}
+
+.article-entry {
+    font-size: 18px;
+    line-height: 30px;
+    color: #222 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Roboto, sans-serif;
+    line-height: 1.2em !important;
+}
+
+h2 {
+    color: #d95f02;
+    /* color: #1b9e77;*/
+}
+
+h3 {
+    font-size2: 18px !important;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-style: italic;
+}
+
+.article-meta {
+    font-family: Roboto, sans-serif;    
+}
+
+.article-entry a {
+    color: #7570b3 !important;
+    border-bottom: none !important;
+}
+
+.article-entry a:hover {
+    text-decoration: underline #7570b3 !important;
+}
+
+.logo-text {
+    font-weight: 500 !important;
+}
+
+#main-nav {
+    float: right;
+    display: inline;
+}
+
+.main-nav-link {
+    font-weight: 500 !important;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+/* this is on the blog listing page */
+.article-title {
+    font-size: 2em;
+    /* non-bold looks much better */
+    font-weight: 500;
+    line-height: 1.2em !important;
 }
