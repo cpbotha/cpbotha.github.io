@@ -42,7 +42,7 @@ This year I did not go to AfrikaBurn, because reasons (read on&#8230;). Fortunat
 
 My oldest sibling has started an adventure in Kiwi-land. His family will soon follow. I am happy for the adventurers, but I&#8217;m also sad to have them so far away.
 
-# A caffeine-infused mitochondrial interlude
+## A caffeine-infused mitochondrial interlude
 
 You probably remember that adenosine triphosphate, or ATP, is the most important form of energy that is produced for the largest part by the mitochondria in the nuclei of all of your cells. ATP is broken down when energy is required. ATP powers things like muscle contraction, cellular metabolism, signaling, and so on. Without it, you would be useless. Dead actually.
 
@@ -62,7 +62,7 @@ Yes children, you have your own precious DNA in your cell nucleus, but the mitoc
 
 Let us all take a few minutes to say hi to the beautiful little alien endo-symbionts embedded in our cell nuclei, without whom everything falls apart. We are all chaotic but somehow walking cellular mega-cities, and it&#8217;s just lovely.
 
-# My universe expanded
+## My universe expanded
 
 About those reasons&#8230;
 

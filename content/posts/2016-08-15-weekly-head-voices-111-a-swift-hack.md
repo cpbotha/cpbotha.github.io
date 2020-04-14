@@ -26,7 +26,7 @@ Well hello friends! In this here,the one hundred and eleventh edition of the Wee
 
 Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.
 
-# The HackerNews effect
+## The HackerNews effect
 
 When I submitted my [Moving 12 years of email from GMail to Fastmail blog post][1] to HackerNews last Monday, it was after some consideration, and with considerable trepidation. The previous time a similar post of mine was picked up by the HN frontpage (and reddit) in 2013, it resulted in a great number of fairly harsh insults flung my way (the harsh ones seem to hit much harder than the many more constructive ones can compensate for). The problem is not having your work criticised, it&#8217;s rather being ad hominem&#8217;ed into the ground.
 
@@ -38,7 +38,7 @@ As a Z-list (aka hobbyist) blogger, I already get quite excited when even two pe
 
 646 upvotes, 365 comments ([in the HN discussion][2]) and more than 50 thousand blog post views later (!!), my asbestos suit is still in storage, and the box of kleenex (for drying up my tears) is still unopened. I am very happy with the healthy and mostly happy discussion both on HN and here on the blog.
 
-<span style="font-size: 33px; font-weight: 900; line-height: 1.27273;">A taste of my secret beer notes</span>
+## A taste of my secret beer notes
 
 In my travels around the world (ok, maybe just in a few hundred kilometre radius of where I live) I taste many exotic and strange drinks (okay, maybe just the local craft beers). Here&#8217;s an excerpt from my top secret beer notes for your reading and hopefully soon tasting pleasure:<figure id="attachment_2493" aria-describedby="caption-attachment-2493" style="width: 190px" class="wp-caption alignnone"><a href="https://cpbotha.net/wp-content/uploads/2016/08/stellies_bosch_weiss.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
@@ -60,7 +60,7 @@ Not completely coincidentally, I also tasted the **Devil&#8217;s Peak Lager** th
 
 As I&#8217;ve mentioned before, it&#8217;s no coincidence that happiness and hoppiness look so similar. The **Devil&#8217;s Peak Pale Ale** was a superbly hoppy (about 239% more hoppy than the lager) and full flavoured conclusion to the weekend. In spite of its full body this Cape Town beer&#8217;s alcohol content is lower than I would have expected: Only 4%.
 
-# First impressions of Swift Playgrounds
+## First impressions of Swift Playgrounds
 
 I might or might not have acquired a new iPad Air 2 with the primary motivation of being able to test the new [Swift Playgrounds][5] on Genetic Offspring Unit #1 (now 10 years old). This is a new and attractive iPad-only app that has been designed by Apple to teach kids how to program in Swift. Note that you&#8217;ll have to upgrade to [iOS 10 Beta][6] to get the app, at least until [iOS 10 is officially released][7]. One of the exercises looks like this (image taken from the website):
 
@@ -72,7 +72,7 @@ On the first day, she was already writing functions and for loops in Swift in or
 
 I&#8217;m really crossing my fingers that GOU#1 will keep at it. If Swift Playgrounds helps to get her programming, I might just have to go full fanboy.
 
-# ∞♥
+## ∞♥
 
 This past Friday at the breakfast table, Genetic Offspring Unit #2 asked her mom how much she thought GOU#2 loved the baby GOU#3, upon which the mom asked &#8220;How much do you love GOU#3?&#8221;.
 
