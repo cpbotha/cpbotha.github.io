@@ -17,7 +17,8 @@
           .isso-comment .avatar img {max-width: 100%;}
           .isso-comment > div.text-wrapper > div.text p {margin-top: 1em;}
         </style>
-    <script data-isso="/isso/"
+            {{/* data-isso is so that javascript knows which endpoint to use. multisite here, hence isso/site/ */}}
+    <script data-isso="/isso/cpbotha.net/"
             {{/* users can subscribe to be emailed when new comments are made */}}
             data-isso-reply-notifications="true"
             data-isso-avatar="false"
@@ -27,7 +28,7 @@
             data-isso-max-comments-top="inf"
             data-isso-require-email="true"
             data-isso-vote="false"
-            src="/isso/js/embed.min.js"></script>
+            src="/isso/cpbotha.net/js/embed.min.js"></script>
 
     {{/* cpbotha: add space for isso thread */}}
     {{/* cpbotha: SUPER NB - without title isso fails finding title and can't send email */}}
