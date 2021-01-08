@@ -7,6 +7,7 @@ tags:
   - efficiency
   - focus
   - gou
+  - gou-1
   - neil degrasse tyson
   - pomodoro
   - pomodoro technique

@@ -7,6 +7,7 @@ url: /2019/01/26/weekly-head-voices-160-write-stuff-down/
 categories:
   - weekly head voices
 tags:
+  - 101 mind-tricks
   - avocado tree
   - gutenberg
   - ios

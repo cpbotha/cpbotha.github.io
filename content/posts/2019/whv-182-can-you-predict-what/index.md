@@ -8,6 +8,7 @@ tags:
   - mont marie
   - natural language processing
   - neural networks
+  - predicting brain
   - visweek
 categories:
   - weekly head voices

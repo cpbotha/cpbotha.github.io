@@ -11,7 +11,7 @@ tags:
   - gboard
   - homo deus
   - ios
-  - keyboard
+  - keyboards
   - yuval harari
 
 ---
@@ -21,19 +21,19 @@ The work part of the week flew by.
 
 (I think this is the reason for the shortness of this post. As is often the case, we start with journal stuff, then nerd stuff and, hidden at the end, some backyard philosophy stuff.)
 
-# Dear diary
+## Dear diary
 
 The weekend part on the other hand started with a welcome-back-braai (HI MOM!) on Friday, followed by a sublime oxtail potjie on Saturday and concluded today with a sublime long(ish, by my standards as always) run in the morning (showing a little solidarity with the [Comrades][1] participants whilst not completely busting my barefoot-style-acclimatising feet and ankles) plus Helderberg stroll and lunch, and is now ending with a WHV writing session.
 
 (Sundays which start with a run, have family stuff in between, and end with WHV are automatically awarded a 12/10-would-do-again rating according to my patented How Was Your Day Honey evaluation system.)
 
-# Nerdy Pro-tip
+## Nerdy Pro-tip
 
 Just in case you missed it, [Google&#8217;s Gboard keyboard for iOS][2] quietly shipped an update last week that includes as one of its new features support for Afrikaans. This brings the number of smart iOS keyboards (smart, as in AI-based) that support Afrikaans up to the total of two (2). The other is [SwiftKey][3], which has supported Afrikaans for some years now.
 
 (The lack of a mobile keyboard with native support for one&#8217;s language can really complicate effective communication. Preferring fully formed sentences, I&#8217;ve never really gotten the hang of SMS-speak.)
 
-# Homo Deus
+## Homo Deus
 
 After a slight detour with a number of other books that have featured on this blog, I have returned to [Yuval Harari&#8217;s Homo Deus][4].
 

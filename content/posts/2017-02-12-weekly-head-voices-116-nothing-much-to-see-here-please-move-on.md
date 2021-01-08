@@ -26,9 +26,7 @@ As with many other enjoyable things, there is a price to be paid for this enjoym
 
 That reminds me of one of my favourite electronic music productions of all time: Balance 014 by Joris Voorn. He [blew everyone&#8217;s minds][1] when he decided to paint these fantastic soundscapes by mixing together more than 100 tracks, often 5 or 6 at a time.
 
-<div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/videoseries?list=RDU-8UUlhT7O0&#038;hl=en_US' allowfullscreen='true' style='border:0;'></iframe></span>
-</div>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28875905&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ukacsukumokacsi" title="Ukacsuku Mokacsi" target="_blank" style="color: #cccccc; text-decoration: none;">Ukacsuku Mokacsi</a> · <a href="https://soundcloud.com/ukacsukumokacsi/joris-voorn-balance-014" title="Joris Voorn - Balance 014, Mizuiro Mix CD1" target="_blank" style="color: #cccccc; text-decoration: none;">Joris Voorn - Balance 014, Mizuiro Mix CD1</a></div>
 
 Right at this point, just after that not-quite non sequitur, I wrote a far too long section on the relative performance of Android and iPhone, with a big &#8220;nerd content ahead&#8221; warning on it. Fortunately for you, I came to my senses before publishing and copied it out into its own little blog post: [_Android vs iPhone performance: A quick note_][2].
 
