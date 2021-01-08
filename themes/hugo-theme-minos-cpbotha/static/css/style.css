@@ -1150,6 +1150,24 @@ pre .php .xml {
     line-height: 1.6em;
 }
 
+#isso-thread pre,
+#isso-thread code {
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋';
+}
+#isso-thread code {
+  background: #f2f2f2;
+  padding: 0 0.3em;
+}
+#isso-thread pre {
+  padding: 20px;
+}
+#isso-thread pre code {
+  background: none;
+  text-shadow: none;
+  padding: 0;
+}
+
+
 /* cpbotha: tuning style on 2020-04-13 using firefox inspector
    - colours: 3-class dark2 from colorbrewer2
    - georgia + roboto (webfont)
@@ -1221,4 +1239,9 @@ h5 {
     /* non-bold looks much better */
     font-weight: 500;
     line-height: 1.2em !important;
+}
+
+/* hugo figure shortcode puts p inside figcaption */
+figcaption > p {
+    margin: 0.1em !important;
 }
