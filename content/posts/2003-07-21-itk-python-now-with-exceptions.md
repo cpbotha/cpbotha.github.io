@@ -5,7 +5,12 @@ type: post
 date: 2003-07-21T00:18:35+00:00
 url: /2003/07/21/itk-python-now-with-exceptions/
 categories:
-  - Uncategorized
+  - news
+tags:
+  - cable
+  - itk
+  - python
+  - swig
 
 ---
 After far too many hours staring at [Cable][1] and [Swig][2] code, I can now catch [ITK][3] C++ exceptions as Python exceptions. Yes, of course the resultant patch is pitifully small. See [my posting][4].

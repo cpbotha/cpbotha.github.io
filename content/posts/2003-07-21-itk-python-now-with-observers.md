@@ -5,7 +5,11 @@ type: post
 date: 2003-07-21T23:52:43+00:00
 url: /2003/07/21/itk-python-now-with-observers/
 categories:
-  - Uncategorized
+  - news
+tags:
+  - itk
+  - python
+
 
 ---
 After some more hours pouring over the sources, [ITK][1] could have observers that are usable from Python. [Behold!][2]

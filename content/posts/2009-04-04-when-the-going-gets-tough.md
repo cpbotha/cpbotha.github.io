@@ -4,6 +4,8 @@ author: cpbotha
 type: post
 date: 2009-04-04T10:44:13+00:00
 url: /2009/04/04/when-the-going-gets-tough/
+tags:
+  - twitter
 categories:
   - life
 
