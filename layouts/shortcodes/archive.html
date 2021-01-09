@@ -1,3 +1,13 @@
+{{/*
+
+simple shortcode to display all posts in yearly sections on your archive page
+by Charl P. Botha
+
+this is a much simplified version of the yearly post archiving template at:
+https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
+
+*/}}
+
 {{ $prev := 3000}}
 {{range where .Site.RegularPages "Section" "posts"}}
 {{if .Date}}
