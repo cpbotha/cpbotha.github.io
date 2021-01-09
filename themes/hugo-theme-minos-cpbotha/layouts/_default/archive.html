@@ -15,18 +15,18 @@
   {{ $prev := 3000}}
   {{range where .Site.RegularPages "Section" "posts"}}
     {{if .Date}}
-    {{if gt $prev (.Date.Format "2006")}}
-    {{ if ne $prev 3000}}
-      </table>
-    {{ end }}
-    <h2 id="{{ .Date.Format "2006" }}">{{ .Date.Format "2006" }}</h2>
-    <table class="all-posts">
-    {{end}}
-    <tr>
-      <td>{{.Date.Format "02 Jan"}}</td>
-      <td><a class="no-underline" href="{{.Permalink}}">{{.Title}}</a></td>
-    </tr>
-    {{ $prev = .Date.Format "2006"}}
+      {{if gt $prev (.Date.Format "2006")}}
+        {{ if ne $prev 3000}}
+          </table>
+        {{ end }}
+        <h2 id="{{ .Date.Format "2006" }}">{{ .Date.Format "2006" }}</h2>
+        <table class="all-posts">
+      {{end}}
+      <tr>
+        <td>{{.Date.Format "02 Jan"}}</td>
+        <td><a class="no-underline" href="{{.Permalink}}">{{.Title}}</a></td>
+      </tr>
+      {{ $prev = .Date.Format "2006"}}
     {{end}}
   {{end}}
     </table>
