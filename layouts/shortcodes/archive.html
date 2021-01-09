@@ -1,0 +1,19 @@
+{{ $prev := 3000}}
+{{range where .Site.RegularPages "Section" "posts"}}
+  {{if .Date}}
+    {{if gt $prev (.Date.Format "2006")}}
+      {{ if ne $prev 3000}}
+        </ul>
+      {{ end }}
+      <h2 id="{{ .Date.Format "2006" }}">{{ .Date.Format "2006" }}</h2>
+      <ul>
+    {{end}}
+    <li>
+      {{.Date.Format "02 Jan"}} - 
+      <a class="no-underline" href="{{.Permalink}}">{{.Title}}</a>
+    </li>
+    {{ $prev = .Date.Format "2006"}}
+  {{end}}
+{{end}}
+  </ul>
+
