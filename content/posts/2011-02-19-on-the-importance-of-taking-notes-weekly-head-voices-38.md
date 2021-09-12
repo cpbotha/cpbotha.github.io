@@ -24,7 +24,7 @@ tags:
 ---
 _Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!_
 
-### One
+## One
 
 On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out.<figure id="attachment_1208" aria-describedby="caption-attachment-1208" style="width: 300px" class="wp-caption aligncenter"><a href="http://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
 
@@ -34,23 +34,31 @@ The joyous transition took place in the Evil School’s Academiegebouw in Leiden
 
 The Party was held in a secret cafe nearby. You will notice that I’ve capitalised Party, as it was not your average run of the mill Evil School graduation affair, but a social event of note. Here in Holland, the PhD defence and graduation are a combined affair, and so the whole day is dedicated to just one person. It is actually very special: People take time off from work, sometimes even temporarily put aside their differences, and travel from all over to attend the festivities. It’s like a wedding, except that there’s only one of you. I can only recommend it very highly. At the Party, everyone had clearly read the memo, and they were there with that singular goal in mind: Celebrate the freshly minted Evil Doctor. Presents were given, speeches were held, photos were shown, beer was imbibed and, flying in the face of all advice concerning the mixing of alcohol, cameras and social networking, the [best evil photographer in town][2], who’s coincidentally also in Evil School, took the most amazing photos that you should be able to see on Facebook if you’re one of the privileged few to belong to The Network, also known as _The Friends of the Axis of Evil_.
 
-### Two
+## Two
 
-On the good news front, you&#8217;ll see (or not) on the [list of EuroVis 2011 conditional accepts][3], that a paper by cool colleagues from far away, to which I contributed a small part, has been conditionally accepted, and hence has a significant chance of being presented at said event in Bergen, Norway (May 31 to June 3). We also have plans to submit a poster (or two), so there&#8217;s an even more significant chance that I will make an appearance at this fantastic conference! We&#8217;re also cooking up various odds and ends that will hopefully crystallise sufficiently by the end of March to be submissible for VisWeek 2011. Cross yer fingers.
+On the good news front, you'll see (or not) on the [list of EuroVis 2011 conditional accepts][3], that a paper by cool colleagues from far away, to which I contributed a small part, has been conditionally accepted, and hence has a significant chance of being presented at said event in Bergen, Norway (May 31 to June 3). We also have plans to submit a poster (or two), so there's an even more significant chance that I will make an appearance at this fantastic conference! We're also cooking up various odds and ends that will hopefully crystallise sufficiently by the end of March to be submissible for VisWeek 2011. Cross yer fingers.
 
-### Three
+## Three
 
-Today&#8217;s backyard time management section is in fact more about planning than it is about notes. However, my Pro-Tips involve combining them in an easy to implement productivity booster. When people start out in research, one of the first bits of advice they get is keeping some kind of lab journal. I think this advice applies to more than just research: If you do any kind of independent or project work, jotting down your activities, thoughts and results during the day is useful in helping to structure your thought processes, and also very helpful when you have to backtrack a complex multi-day procedure. During my Ph.D., I filled a number of real cardboard-and-paper books with notes. More recently, I&#8217;ve started using Google Documents for the same purpose. Besides all the other advantages, having to document explicitly your work output keeps you productive and on your toes.
+Today's backyard time management section is in fact more about planning than it is about notes. However, my Pro-Tips involve combining them in an easy to implement productivity booster. When people start out in research, one of the first bits of advice they get is keeping some kind of lab journal. I think this advice applies to more than just research: If you do any kind of independent or project work, jotting down your activities, thoughts and results during the day is useful in helping to structure your thought processes, and also very helpful when you have to backtrack a complex multi-day procedure. During my Ph.D., I filled a number of real cardboard-and-paper books with notes. More recently, I've started using Google Documents for the same purpose. Besides all the other advantages, having to document explicitly your work output keeps you productive and on your toes.
 
-_Pro Tip #1: Keep a lab journal, even if you don&#8217;t work in a lab._
+### Pro Tip #1
 
-I&#8217;ve [mentioned before][4] that my resolutions for 2011 included more concrete planning. This has manifested in a work-in-progress planning for the whole year, including milestones, awards won, and so forth, but much more practically, it has manifested in a little lab-journal-compatible trick. Every morning when I sit down to begin the day, I spend a few minutes thinking and then start the day&#8217;s journal entry by writing down, as concretely as possible, the tasks that I plan to complete by the end of the day. This also ensures that I spend effort on the _important_ things, and not only on the urgent things. So, that brings us to:
+_Keep a lab journal, even if you don't work in a lab._
 
-_Pro Tip #2: At the start of each day, write down in your lab journal exactly and concretely what you plan to accomplish by the end of that day._
+I've [mentioned before][4] that my resolutions for 2011 included more concrete planning. This has manifested in a work-in-progress planning for the whole year, including milestones, awards won, and so forth, but much more practically, it has manifested in a little lab-journal-compatible trick. Every morning when I sit down to begin the day, I spend a few minutes thinking and then start the day's journal entry by writing down, as concretely as possible, the tasks that I plan to complete by the end of the day. This also ensures that I spend effort on the _important_ things, and not only on the urgent things. So, that brings us to:
 
-These pro tips appear to be quite straight-forward, but together they help one to focus, and to keep tabs on one&#8217;s _effective_ productivity. In other words, just being terribly busy the whole day gets you nothing; the trick is being terribly busy in all the right directions.
+### Pro Tip #2
 
-### P.S.
+_At the start of each day, write down in your lab journal exactly and
+concretely what you plan to accomplish by the end of that day._
+
+These pro tips appear to be quite straight-forward, but together they help one
+to focus, and to keep tabs on one's _effective_ productivity. In other words,
+just being terribly busy the whole day gets you nothing; the trick is being
+terribly busy in all the right directions.
+
+## P.S.
 
 Somebody is clearly pushing the boundaries of awesomeness&#8230; cowboys AND aliens!
 
