@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-According to the UN HDR of 2004, the top five most developed countries in the world are: Norway, Sweden, Australia, Canada and the Netherlands (whoohoo!). Things have not changed much since the HDR of last year. South Africa is at position 119 (just above the UK &#8211; just joking!) and is classified as having &#8220;medium human development&#8221;.
+According to the UN HDR of 2004, the top five most developed countries in the world are: Norway, Sweden, Australia, Canada and the Netherlands (whoohoo!). Things have not changed much since the HDR of last year. South Africa is at position 119 (just above the UK – just joking!) and is classified as having “medium human development”.
 
 The HDR is based on various factors, including literacy, education, average life expectancy, per capita GDP, etc. and makes for interesting reading. You can start [here][1].
 

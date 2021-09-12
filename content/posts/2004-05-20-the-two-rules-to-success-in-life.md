@@ -12,6 +12,6 @@ I just saw this in a signature of a mailing list posting:
 
 _There are two rules to success in life.
   
-Rule one: Don&#8217;t tell people everything you know.
+Rule one: Don’t tell people everything you know.
   
 _

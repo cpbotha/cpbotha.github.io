@@ -8,8 +8,8 @@ categories:
   - Uncategorized
 
 ---
-Some prick has been sending out tons and tons of spam with my ieee.org email address spoofed as the from address. This means I have been getting tons and tons of &#8220;delivery failed&#8221; mails, as obviousy many of the addresses in the moron&#8217;s database are not valid.
+Some prick has been sending out tons and tons of spam with my ieee.org email address spoofed as the from address. This means I have been getting tons and tons of “delivery failed” mails, as obviousy many of the addresses in the moron’s database are not valid.
 
 I know that he/she has been spamming from a tiscali.it ADSL PPP address via a tiscali.it mail server, but mails to abuse@tiscali.it have had absolutely no effect.
 
-I really, really hope that this spammer dies a very slow and painful death due to some extremely evil genital disease. I&#8217;m willing to wait.
+I really, really hope that this spammer dies a very slow and painful death due to some extremely evil genital disease. I’m willing to wait.

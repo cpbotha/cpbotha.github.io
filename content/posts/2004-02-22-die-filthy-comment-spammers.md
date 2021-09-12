@@ -8,9 +8,9 @@ categories:
   - Uncategorized
 
 ---
-Spammers represent the lowest form of life, as we&#8217;ve established. They also seem to think it a good idea to paste meaningless comments on one&#8217;s weblog in order to promote some other website. This weekend, I deleted about 800 of these comments from my weblog. I wish these spammers all die from some extremely painful but slow-acting disease and that they also realise exactly why this is happening to them.
+Spammers represent the lowest form of life, as we’ve established. They also seem to think it a good idea to paste meaningless comments on one’s weblog in order to promote some other website. This weekend, I deleted about 800 of these comments from my weblog. I wish these spammers all die from some extremely painful but slow-acting disease and that they also realise exactly why this is happening to them.
 
-In anycase, whilst waiting for my wish to come true, I&#8217;ve also installed Jay Allen&#8217;s [MT-Blacklist content filter][1] for Movable Type. It should protect all blogs hosted on cpbotha.net/weblogs.
+In anycase, whilst waiting for my wish to come true, I’ve also installed Jay Allen’s [MT-Blacklist content filter][1] for Movable Type. It should protect all blogs hosted on cpbotha.net/weblogs.
 
 Cross yer fingers.
 

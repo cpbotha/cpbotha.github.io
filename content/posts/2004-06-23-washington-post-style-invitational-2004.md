@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-Each year the Washington Post&#8217;s Style Invitational asks readers to pick a word from the dictionary, to add, remove or change a single letter and then to submit a suitable new definition. Below are this year&#8217;s winners. Brilliant!
+Each year the Washington Post’s Style Invitational asks readers to pick a word from the dictionary, to add, remove or change a single letter and then to submit a suitable new definition. Below are this year’s winners. Brilliant!
 
 **Intaxication:** Euphoria at getting a tax refund, which lasts until you realise it was your money to start with.
   
@@ -22,7 +22,7 @@ Each year the Washington Post&#8217;s Style Invitational asks readers to pick a 
   
 **Giraffiti:** Vandalism spray painted very, very high.
   
-**Sarchasm:** The gulf between the author of sarcastic wit and the person who doesn&#8217;t get it.
+**Sarchasm:** The gulf between the author of sarcastic wit and the person who doesn’t get it.
   
 **Inoculatte:** To take coffee intravenously when you are running late.
   
@@ -30,7 +30,7 @@ Each year the Washington Post&#8217;s Style Invitational asks readers to pick a 
   
 **Osteopornosis:** A degenerate disease.
   
-**Karmageddon:** It&#8217;s like, when everybody is sending off all these really bad vibes, right? And then, like, the Earth explodes and it&#8217;s like, a serious bummer.
+**Karmageddon:** It’s like, when everybody is sending off all these really bad vibes, right? And then, like, the Earth explodes and it’s like, a serious bummer.
   
 **Decafalon (n.):** The gruelling event of getting through the day consuming only things that are good for you.
   
@@ -38,10 +38,10 @@ Each year the Washington Post&#8217;s Style Invitational asks readers to pick a 
   
 **Dopeler effect:** The tendency of stupid ideas to seem smarter when they come at you rapidly.
   
-**Arachnoleptic fit (n.):** The frantic dance performed just after you&#8217;ve accidentally walked through a spider web.
+**Arachnoleptic fit (n.):** The frantic dance performed just after you’ve accidentally walked through a spider web.
   
 **Beelzebug (n.):** Satan in the form of a mosquito that gets into your bedroom at three in the morning and cannot be cast out.
   
-**Caterpallor (n.):** The colour you turn after finding half a grub in the fruit you&#8217;re eating.
+**Caterpallor (n.):** The colour you turn after finding half a grub in the fruit you’re eating.
   
-**Ignoranus:** A person who&#8217;s both stupid and an a**hole.
+**Ignoranus:** A person who’s both stupid and an a**hole.

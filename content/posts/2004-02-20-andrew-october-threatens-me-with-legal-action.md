@@ -46,7 +46,7 @@ Date: Fri, 20 Feb 2004 15:51:07 +0000 (GMT)
 Please note that a comment placed at the link stated below will result in
 liable legal action being taken against you should you not remove it within
 twenty four hours (24hrs) as of Friday February 20th 2004 at 18H00 South
-African time.</p>
+African time.
 
 Please regard this as a polite warning and please act accordingly.
 
@@ -82,13 +82,13 @@ email :: REMOVED
 contact :: REMOVED
 website :: http://www.isoap.co.za
 
-_:: &#8220;Assume you&#8217;re a genius and you will be&#8221; ::
+_:: “Assume you’re a genius and you will be” ::
   
 ______________________________________________
   
 * I am a FastChat user. Use andyo@fastchat.com to FastChat a short message to my Nokia 3650 phone.
 * Got MSN Messenger? Join me on MSN (username: andyoza@yahoo.com).
-* View my Nokia 3650&#8217;s online MobiPics picture album: http://www.isoap.co.za/3650
+* View my Nokia 3650’s online MobiPics picture album: http://www.isoap.co.za/3650
 * View and download my online CV at http://www.isoap.co.za/cv
 ```
 

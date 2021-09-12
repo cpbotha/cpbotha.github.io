@@ -8,11 +8,11 @@ categories:
   - Uncategorized
 
 ---
-HARR HARR! I kicked it in the crotch when it wasn&#8217;t paying attention.
+HARR HARR! I kicked it in the crotch when it wasn’t paying attention.
 
 Yes ladies and jelly-beans, the draft of my PhD thesis is finally done. Not bad, if I might say so myself. My PhD contract ended on September 15, today is the 21st. 6 days overtime.
 
-Lest I forget: On September 16, I was officially appointed as PostDoc in the [Visualisation group][1] of the TU Delft. In other words, I&#8217;m staying just where I am, except that now I&#8217;m getting paid BUCKET LOADS of cash.
+Lest I forget: On September 16, I was officially appointed as PostDoc in the [Visualisation group][1] of the TU Delft. In other words, I’m staying just where I am, except that now I’m getting paid BUCKET LOADS of cash.
 
 ps. One statement in the paragraph above is not entirely true.
 

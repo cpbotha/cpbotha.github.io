@@ -10,7 +10,7 @@ categories:
 ---
 So, you want to export all your addresses from evolution (which I use at work) and to import those addresses into your Mozilla Mail (or Thunderbird) at home. Once again, the software really bites. Evolution is too damn retarded to export anything else than VCARD (VCF) files. Mozilla Mail can import CSV (comma-delimited) or LDIF files.
 
-Fortunately, there&#8217;s [vcf2ldif][1]. It&#8217;s far from perfect, but it&#8217;s miles better than nothing. Oh, BTW, this will probably segfault on your evolution VCARD file. I bashed its head in with my trusty gdb (a &#8220;debugger&#8221; to the less refined readers) and [this patch][2] is the result.
+Fortunately, there’s [vcf2ldif][1]. It’s far from perfect, but it’s miles better than nothing. Oh, BTW, this will probably segfault on your evolution VCARD file. I bashed its head in with my trusty gdb (a “debugger” to the less refined readers) and [this patch][2] is the result.
 
  [1]: http://www.linux.org.tw/~shchang/vcf2ldif/
  [2]: http://cpbotha.net/thingies/vcf2ldif-FNisNULL-fix.diff

@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-I [bought my Tungsten E last year (2003) in October][1]. This is a perfect little gadget and is still serving me well&#8230; however, Graffiti 2 really, REALLY sucks. Maybe the years of Graffiti 1 on my previous Palm IIIx are holding me back, but I just couldn&#8217;t get used to the new multi-stroke characters. Yech.
+I [bought my Tungsten E last year (2003) in October][1]. This is a perfect little gadget and is still serving me well… however, Graffiti 2 really, REALLY sucks. Maybe the years of Graffiti 1 on my previous Palm IIIx are holding me back, but I just couldn’t get used to the new multi-stroke characters. Yech.
 
 Today I finally gave in and downgraded to Graffiti 1 according to the included instructions and with the PRCs in [this zip-archive][2]. Bliss!
 

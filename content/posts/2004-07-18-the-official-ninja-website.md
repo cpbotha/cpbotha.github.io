@@ -18,7 +18,7 @@ Yes, boys and girls, this is the one and only official and authoritative Ninja w
 
 You can also [buy the book][2] through Amazon.
 
-Don&#8217;t forget to read the hate-mail linked from Real Ultimate Power. The amount of utter stupidity on the internet is frighteningly evident when browsing these mails, all written by functionally hydro-encephalitic cretins.
+Don’t forget to read the hate-mail linked from Real Ultimate Power. The amount of utter stupidity on the internet is frighteningly evident when browsing these mails, all written by functionally hydro-encephalitic cretins.
 
 Vote Robert Hamburger for President!
 

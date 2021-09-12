@@ -8,4 +8,4 @@ categories:
   - Uncategorized
 
 ---
-Go to <http://www.musicplasma.com/> and type in the name of your favourite band. Explore a bit!
+Go to <http: www.musicplasma.com=""></http:> and type in the name of your favourite band. Explore a bit!

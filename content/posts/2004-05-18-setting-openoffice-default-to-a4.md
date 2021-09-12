@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-This is how you can configure your OpenOffice installation to use A4 size (or any other size) by default for your page format and print paper size: <http://www.jca.umbc.edu/FAQ_Computing.html#1.3>.
+This is how you can configure your OpenOffice installation to use A4 size (or any other size) by default for your page format and print paper size: http://www.jca.umbc.edu/FAQ_Computing.html#1.3.
 
 In short, edit /path/to/OpenOffice/share/psprint/psprint.conf and change the value of PPD_PageSize.

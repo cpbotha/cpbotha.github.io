@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-You do remember that laptop that you were going to buy for me? I&#8217;ve changed my mind as to which laptop I want. I would rather fancy a fully-configured Samsung X10, thanks. That would be a 1.7GHz Centrino, 1G of RAM, 80G hard drive and the 8-hour (!) battery, all in a gloriously thin and light 1.8kg package.
+You do remember that laptop that you were going to buy for me? I’ve changed my mind as to which laptop I want. I would rather fancy a fully-configured Samsung X10, thanks. That would be a 1.7GHz Centrino, 1G of RAM, 80G hard drive and the 8-hour (!) battery, all in a gloriously thin and light 1.8kg package.
 
 Click [here][1] and drool.
 
