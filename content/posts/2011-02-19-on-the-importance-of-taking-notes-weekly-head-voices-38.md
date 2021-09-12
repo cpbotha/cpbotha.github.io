@@ -26,9 +26,8 @@ _Post summary: Part one is about friends graduating from Evil School, part two i
 
 ## One
 
-On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out.<figure id="attachment_1208" aria-describedby="caption-attachment-1208" style="width: 300px" class="wp-caption aligncenter"><a href="http://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
-
-<img data-attachment-id="1208" data-permalink="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/evil_school_by_fmalan/" data-orig-file="https://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg" data-orig-size="1024,685" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D80&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1297344296&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;11&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.01&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="evil_school_by_fmalan" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan-300x200.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg" class="size-medium wp-image-1208" title="evil_school_by_fmalan" src="http://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan-300x200.jpg" alt="" width="300" height="200" srcset="https://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan-300x200.jpg 300w, https://cpbotha.net/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg 1024w" sizes="(max-width: 300px) 85vw, 300px" /></a><figcaption id="caption-attachment-1208" class="wp-caption-text">Evil School. (Photo by the talented fpixel.wordpress.com.)</figcaption></figure> 
+On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out.
+{{< figure src="/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg" link="/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg" caption="Evil School. (Photo by the talented fpixel.wordpress.com.)">}} 
 
 The joyous transition took place in the Evil School’s Academiegebouw in Leiden, and this time yours truly (I’m referring to me in a round-about fashion) even had the great honour of playing a part in the formal proceedings. If you’re curious as to what exactly this ritual constitutes, see [this previous edition of the WHV][1] on the graduation of another terribly evil colleague. I believe that the bunch of us now constitute a bona fide Axis of Evil. No, the evil jokes can unfortunately not stop yet.
 
@@ -60,10 +59,10 @@ terribly busy in all the right directions.
 
 ## P.S.
 
-Somebody is clearly pushing the boundaries of awesomeness&#8230; cowboys AND aliens!
+Somebody is clearly pushing the boundaries of awesomeness… cowboys AND aliens!
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/In-m2RJw3hE?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/In-m2RJw3hE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
  [1]: /2010/05/29/augmentation-weekly-head-voices-23/ "previous edition of the WHV also on PhD defences in Leiden"

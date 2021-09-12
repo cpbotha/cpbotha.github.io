@@ -14,11 +14,11 @@ tags:
   - processing
 
 ---
-_Nerd warning: This post really belongs on my nerd blog [VXLabs.com][1], but as this blog has a rich tradition of popular [processing posts][2], I&#8217;m posting it here._
+_Nerd warning: This post really belongs on my nerd blog [VXLabs.com][1], but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here._
 
-[<img src="http://farm3.static.flickr.com/2676/4047355843_0fd2fa0036_m.jpg" alt="Debugging" width="240" height="180" />][3]
+[<img alt="Debugging" height="180" src="http://farm3.static.flickr.com/2676/4047355843_0fd2fa0036_m.jpg" width="240"/>][3]
 
-[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it&#8217;s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn&#8217;t last for very long before unceremoniously crashing the application. Error info and stack trace look something like the following (edited for brevity):
+[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it’s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn’t last for very long before unceremoniously crashing the application. Error info and stack trace look something like the following (edited for brevity):
 
 <pre class="brush: plain; title: ; notranslate" title=""># A fatal error has been detected by the Java Runtime Environment:
 #
@@ -46,9 +46,9 @@ j  CathetAR.draw()V+22
 
 Read more about it on this [forum thread][6].
 
-In any case, today I spent some hours I don&#8217;t really have and finally managed to crush it. Turns out, and some of you will probably not be surprised, that it was a threading problem. The capture event handler invokeEvent() and the read() call were being interleaved, and the buffer they were using is also not thread-safe. Doh. Some synchronization here and there, and an extra capture buffer, now I can&#8217;t get it to crash anymore.
+In any case, today I spent some hours I don’t really have and finally managed to crush it. Turns out, and some of you will probably not be surprised, that it was a threading problem. The capture event handler invokeEvent() and the read() call were being interleaved, and the buffer they were using is also not thread-safe. Doh. Some synchronization here and there, and an extra capture buffer, now I can’t get it to crash anymore.
 
-Get the [patch here][7], and a [patched GSVideo.jar][8] here. Both of these are for the GSVideo 20110203 test version. If you can&#8217;t patch and build it yourself, just copy my GSVideo.jar over the GSVideo.jar in your unpacked GSVideo 20110203 plugin directory (sub-directory library). **Update: See below, GSVideo 0.8 has been released and now contains my patch. Rather get the 0.8 download!**
+Get the [patch here][7], and a [patched GSVideo.jar][8] here. Both of these are for the GSVideo 20110203 test version. If you can’t patch and build it yourself, just copy my GSVideo.jar over the GSVideo.jar in your unpacked GSVideo 20110203 plugin directory (sub-directory library). **Update: See below, GSVideo 0.8 has been released and now contains my patch. Rather get the 0.8 download!**
 
 Leave me a comment if this helps!
 
