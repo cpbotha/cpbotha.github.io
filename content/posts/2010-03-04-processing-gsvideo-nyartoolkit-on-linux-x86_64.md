@@ -19,22 +19,22 @@ tags:
   - x86_64
 
 ---
-Every now and then, I blast out the cruft from my nerd gland&#8217;s exit duct by writing a terribly nerdy post.  This is just such a post, so if you don&#8217;t speak Nerd, i&#8217;d highly recommend that you go have some fun [elsewhere][1], at least until my next Weekly Head Voices of course!
+Every now and then, I blast out the cruft from my nerd gland’s exit duct by writing a terribly nerdy post.  This is just such a post, so if you don’t speak Nerd, i’d highly recommend that you go have some fun [elsewhere][1], at least until my next Weekly Head Voices of course!
 
-As mentioned around these parts, I&#8217;m currently playing with [Processing][2], a beautiful programming stack for making interactive visual, err, thingies. To be more specific, I&#8217;d like to use processing together with something like ARToolkit to do real-time 3D tracking of markers in live video, for augmented reality fun.  To see what this could look like, see this YouTube video:
+As mentioned around these parts, I’m currently playing with [Processing][2], a beautiful programming stack for making interactive visual, err, thingies. To be more specific, I’d like to use processing together with something like ARToolkit to do real-time 3D tracking of markers in live video, for augmented reality fun.  To see what this could look like, see this YouTube video:
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/uoncHfnYWHM?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/uoncHfnYWHM?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
-Today&#8217;s challenge is getting whole stack, including processing, the GSVideo video capture library for processing and the NyARToolkit augmented reality for processing going on Linux x86_64 (64bit).  On Linux x86 (32bit) this is much more straight-forward, but I wouldn&#8217;t write a blog post about straight-forward, now would I?
+Today’s challenge is getting whole stack, including processing, the GSVideo video capture library for processing and the NyARToolkit augmented reality for processing going on Linux x86_64 (64bit).  On Linux x86 (32bit) this is much more straight-forward, but I wouldn’t write a blog post about straight-forward, now would I?
 
 Here is the recipe:
 
-  1. Make sure you have the native 64bit Sun JDK installed for your system.  On this Ubuntu 9.10 machine it&#8217;s ﻿﻿﻿sun-java6-jdk 6-15-1, on Ubuntu 10.04 (also tested) it&#8217;s ﻿6.20dlj-1ubuntu3.
+  1. Make sure you have the native 64bit Sun JDK installed for your system.  On this Ubuntu 9.10 machine it’s ﻿﻿﻿sun-java6-jdk 6-15-1, on Ubuntu 10.04 (also tested) it’s ﻿6.20dlj-1ubuntu3.
   2. Also install the jogl libraries, on this machine called libjogl-java.
-  3. Make sure you have the whole of gstreamer installed. On ubuntu, all packages containing &#8220;gstreamer&#8221;.
-  4. Get and unpack the processing for Linux tarball (I&#8217;ve tested this whole procedure with processing 1.0.9, 1.1 and 1.2.1) from the processing [download site][3].
+  3. Make sure you have the whole of gstreamer installed. On ubuntu, all packages containing “gstreamer”.
+  4. Get and unpack the processing for Linux tarball (I’ve tested this whole procedure with processing 1.0.9, 1.1 and 1.2.1) from the processing [download site][3].
   5. In the unpacked processing directory, remove the whole java subdirectory. Now make a symlink pointing to your system java directory (the one containing bin, ext, jre, lib, etc.).  On my system, that was: <pre class="brush: bash; title: ; notranslate" title="">cd processing
 rm -rf java
 ln -s /usr/lib/jvm/java-6-sun-1.6.0.15﻿ java
@@ -72,7 +72,7 @@ cam=new GSCapture(this,width,height);
 
 The major trick in all of this is converting your Processing installation to use your system 64bit JDK instead of its own built-in 32bit JDK.
 
-Let me know in the comments if this worked (or didn&#8217;t) for you!
+Let me know in the comments if this worked (or didn’t) for you!
 
  [1]: http://chatroulette.com/ "fun random webcam site"
  [2]: http://processing.org/ "Processing website"

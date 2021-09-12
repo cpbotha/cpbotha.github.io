@@ -16,11 +16,11 @@ tags:
   - wordpress
 
 ---
-Hey man, I&#8217;m really busy at the moment, but it took me unnecessarily long to get those really hip facebook like, facebook share and retweet buttons everywhere on my blog, so I thought I&#8217;d try and save you some time by dropping a quick note on how I did it.
+Hey man, I’m really busy at the moment, but it took me unnecessarily long to get those really hip facebook like, facebook share and retweet buttons everywhere on my blog, so I thought I’d try and save you some time by dropping a quick note on how I did it.
 
-Adding the Facebook Like button functionality wasted the most time, because there are far too many plugins and howtos that claim to work and don&#8217;t quite. I ended up using the Like plugin ([official wordpress page][1] and [plugin website][2]), because it has the best documentation that includes details on [all the ways in which things can go wrong][3], and there are many.  I&#8217;m using the IFRAME option, also because that seems to work most of the time.  I had a hard time finding this plugin in the built-in directory, so I downloaded and installed it manually.
+Adding the Facebook Like button functionality wasted the most time, because there are far too many plugins and howtos that claim to work and don’t quite. I ended up using the Like plugin ([official wordpress page][1] and [plugin website][2]), because it has the best documentation that includes details on [all the ways in which things can go wrong][3], and there are many.  I’m using the IFRAME option, also because that seems to work most of the time.  I had a hard time finding this plugin in the built-in directory, so I downloaded and installed it manually.
 
-For the facebook share button, I use the [_Facebook Share (New) Button_ plugin][4], and for the retweet button, I&#8217;m using the [_Topsy Retweet Button_ plugin][5].  I installed both of them from the built-in &#8220;Plugins | Add New&#8221; directory.
+For the facebook share button, I use the [_Facebook Share (New) Button_ plugin][4], and for the retweet button, I’m using the [_Topsy Retweet Button_ plugin][5].  I installed both of them from the built-in “Plugins | Add New” directory.
 
 In all three cases, I made use of the plugin options to have the buttons placed all over my blog, instead of manually editing the theme.
 
