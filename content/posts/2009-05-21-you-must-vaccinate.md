@@ -23,25 +23,25 @@ tags:
 
 ---
 <figure>
-<img style="margin-left: 0px;" src="http://cpbotha.net/wp-content/uploads/2009/05/vaccine_autism_vaccinations.jpg" alt="" />
+<img alt="" src="http://cpbotha.net/wp-content/uploads/2009/05/vaccine_autism_vaccinations.jpg" style="margin-left: 0px;"/>
 <figcaption>Image courtesy of dbtechno.com.</figcaption>
 </figure> 
 
 I was mistakenly under the impression that, at least in my social circles, the
 whole vaccination issue had been put completely to rest, but based on the
-number of serious questions that I&#8217;ve been asked recently, this
+number of serious questions that I’ve been asked recently, this
 unfortunately does not seem to be the case.
 
-For those of you who don&#8217;t have time, I&#8217;ll cut to the chase immediately:
+For those of you who don’t have time, I’ll cut to the chase immediately:
 
 **Yes, you simply _must_ vaccinate your children.  This is the _best and
 safest_ choice, for both your child and your fellow humans.**
 
 **No, there is no link between vaccination and autism. No, spreading out the
 (MMR) vaccinations is not safer, it is in fact more dangerous.  Also, the
-&#8220;vaccine overload&#8221; hypothesis is flawed.**
+“vaccine overload” hypothesis is flawed.**
 
-For those of you with a bit more time or those of you who are not willing to take me on my word, I&#8217;ll go into some more detail on each of the points mentioned above.  Most of what I write here is based on articles in the Wikipedia.  I&#8217;ve deliberately done this, because these articles are accessible and readable to everyone, and they do link to the original scientific articles that they are based on.  Feel free to jump to any section.  Also, each section ends with a short summary of its contents to make it easier for you to skip.
+For those of you with a bit more time or those of you who are not willing to take me on my word, I’ll go into some more detail on each of the points mentioned above.  Most of what I write here is based on articles in the Wikipedia.  I’ve deliberately done this, because these articles are accessible and readable to everyone, and they do link to the original scientific articles that they are based on.  Feel free to jump to any section.  Also, each section ends with a short summary of its contents to make it easier for you to skip.
 
 # Recent history
 
@@ -58,14 +58,14 @@ that both of these claims were highly speculative.
 It later turned out that Wakefield had received 55000 (fifty-five thousand) UK
 pounds from Legal Aid Board solicitors who were gathering evidence to use in a
 case against vaccine manufacturers, and that a number of parents of the
-children taking part in Wakefield&#8217;s study were directly involved in the
+children taking part in Wakefield’s study were directly involved in the
 law-suit.  Wakefield did not mention any of this at the time of publication. 
 Ten of his 12 co-authors have since completely retracted their interpretation
 of the paper.
 
 In short, the author of the paper that started most of the modern vaccination-autism scare was completely corrupt, and his corruption directly affected this specific research.
 
-He did manage to cause such a scare in the UK, that measles (one of the diseases that MMR vaccinates against) is for the first time in decades at almost epidemic levels.   Since then, there have been cases of measles killing children, something which would most probably not have happened had the vaccination compliance not been at an all-time low.  Isn&#8217;t that absolutely crazy when one considers that measles was all but eradicated?
+He did manage to cause such a scare in the UK, that measles (one of the diseases that MMR vaccinates against) is for the first time in decades at almost epidemic levels.   Since then, there have been cases of measles killing children, something which would most probably not have happened had the vaccination compliance not been at an all-time low.  Isn’t that absolutely crazy when one considers that measles was all but eradicated?
 
 In the years between 1998 and the present, there have been numerous extremely well-designed and large studies, none of which have been able to find _any_ kind of link between vaccination and autism.
 
@@ -80,7 +80,7 @@ Controversy][2]._
 In some cases, parents opt for spreading out the vaccinations, because they
 mistakenly think that this is safer than not doing so.  The flawed idea that
 administering all these vaccines together could be dangerous is called the
-&#8220;vaccine overload hypothesis&#8221;.  It is flawed for the reasons:
+“vaccine overload hypothesis”.  It is flawed for the reasons:
 
   * Common childhood ilnesses represent a much heavier load on the infant immune system.
   * The vaccination cocktail given currently represents less than 10% of the immunological load of the vaccinations given to children in the 80s.
@@ -88,7 +88,7 @@ administering all these vaccines together could be dangerous is called the
 
 Importantly, if you spread out vaccines, you increase the time during which your child is susceptible to the diseases that are being vaccinated again, thus greatly increasing the health risk to your child and all other children it comes into contact with.  You are a bad parent if you do this.
 
-_To summarise this section:_ _Administering the vaccinations together does not damage your child&#8217;s immune system._ _Spreading out vaccines is dangerous for both your child and all children it comes into contact with._
+_To summarise this section:_ _Administering the vaccinations together does not damage your child’s immune system._ _Spreading out vaccines is dangerous for both your child and all children it comes into contact with._
 
 # Celebrities campaigning against vaccination
 
@@ -96,7 +96,7 @@ Recently, a number of celebrities, most prominent of which Jenny McCarthy and
 her partner Jim Carrey, supported by Oprah, have been campaigning against
 vaccination.  You have to remember that these are actors and entertainers,
 with almost ZERO medical or scientific background or training.   McCarthy
-dropped out of nursing school to become a Playboy Bunny: There&#8217;s nothing
+dropped out of nursing school to become a Playboy Bunny: There’s nothing
 wrong with that, but you really cannot base important medical decisions,
 concerning the health and survival of your child (!!), on the opinions of an
 erstwhile nude model!
@@ -109,12 +109,12 @@ even more so when it concerns life and death issues such as vaccination.
 
 To the best of our scientific knowledge, vaccinations as they are administered today are safe and do not cause autism.  In spite of this, research continues day and night to make sure of this observation.
 
-On the other hand, if you don&#8217;t vaccinate, the risk of your child
+On the other hand, if you don’t vaccinate, the risk of your child
 getting ill and dying is _significantly_ higher.  If a large enough number of
-you don&#8217;t vaccinate, we lose our herd immunity and then there is a very
+you don’t vaccinate, we lose our herd immunity and then there is a very
 real risk that _many_ more of our children will get ill and die due to your
 inaction.  Do you seriously want to take this very real risk with your _and_
-my children&#8217;s lives?
+my children’s lives?
 
 # Post scriptum
 
@@ -125,8 +125,8 @@ and so that I can improve this article.
 # Extra resources
 
   * [Brilliant comic][3] explaining how the corrupt Andrew Wakefield managed to cause this whole debacle.
-  * [Article in Slate][4] criticising Oprah&#8217;s support of Jenny McCarthy.
-  * Popular [article in the Guardian&#8217;s Observer][5] about spreading out vaccines.
+  * [Article in Slate][4] criticising Oprah’s support of Jenny McCarthy.
+  * Popular [article in the Guardian’s Observer][5] about spreading out vaccines.
   * [Clear statement by the NHS][6] on why there is no reason to offer MMR vaccine in a spaced / spread out fashion, and that spreading out is in fact dangerous.
 
 # Updates

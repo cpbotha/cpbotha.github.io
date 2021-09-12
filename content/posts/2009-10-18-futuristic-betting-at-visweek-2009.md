@@ -41,7 +41,7 @@ pretty much all the time, OR I will have at least one bionic eye._
 
 <figure>
 <a href="http://www.popsci.com/gear-amp-gadgets/article/2009-06/heads-display-embedded-glasses">
-<img style="margin: 0px;" src="https://cpbotha.net/wp-content/uploads/2009/10/interactive-data-eyeglasses.jpg" />
+<img src="https://cpbotha.net/wp-content/uploads/2009/10/interactive-data-eyeglasses.jpg" style="margin: 0px;"/>
 </a>
 <figcaption>Courtesy of Fraunhofer-Gesellschaft.</figcaption>
 </figure> 

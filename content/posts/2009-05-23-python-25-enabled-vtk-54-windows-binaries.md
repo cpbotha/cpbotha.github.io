@@ -14,11 +14,11 @@ tags:
   - windows
 
 ---
-<img class="alignnone" style="border: 0pt none;" src="http://vtk.org/opensourcelogos/vtk100.png" alt="" width="456" height="100" />
+<img alt="" class="alignnone" height="100" src="http://vtk.org/opensourcelogos/vtk100.png" style="border: 0pt none;" width="456"/>
 
 _You can always check my [Latest VTK Windows binaries page][1] to make sure you have the latest blog posting and hence the latest binaries._
 
-I&#8217;ve made available my home-baked VTK 5.4 (actually build from a CVS VTK-5-4-1 tag checkout) Windows binaries.  These have the [new-and-improved version of my python-exception-patches][2] integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!) and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going [here][3].  You want the binaries if you want to use VTK from Python.
+I’ve made available my home-baked VTK 5.4 (actually build from a CVS VTK-5-4-1 tag checkout) Windows binaries.  These have the [new-and-improved version of my python-exception-patches][2] integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!) and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going [here][3].  You want the binaries if you want to use VTK from Python.
 
 **IMPORTANT**: you might have to install the MS VS2005 [vcredist_x86][4] package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.
 
