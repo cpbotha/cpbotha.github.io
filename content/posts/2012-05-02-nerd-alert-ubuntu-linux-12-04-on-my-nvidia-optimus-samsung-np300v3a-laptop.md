@@ -21,7 +21,7 @@ tags:
   - vxlabs
 
 ---
-When I acquired my pre-ultrabook-era but still pretty [Samsung NP300V3A laptop some nine months ago][1], I lamented that I&#8217;d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+When I acquired my pre-ultrabook-era but still pretty [Samsung NP300V3A laptop some nine months ago][1], I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
 
 Well, yesterday I ate my hat.
 
