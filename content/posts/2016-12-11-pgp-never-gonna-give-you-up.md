@@ -18,7 +18,7 @@ tags:
 
 _(Summary: Cryptographically signing messages with my long-term PGP keys is
 too important to give up. Doing this on my Android telephone is easier than I
-thought. You should strengthen your secret key encryption if you&#8217;re also
+thought. You should strengthen your secret key encryption if you're also
 going to do this.)_
 
 Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare,
@@ -30,9 +30,9 @@ decrypt all past conversations, unlike for example Signal) and accessibility
 (how do you verify a message with a baby on your left arm and your telephone
 in your right?). More generally, it makes a great deal of sense to make your
 security a moving target, [as one of the Ars Technica commenters
-astutely summarised Filippo&#8217;s ideas][2].
+astutely summarised Filippo's ideas][2].
 
-# Cryptographic signatures FTW
+## Cryptographic signatures FTW
 
 However, in spite of these factors, I am not yet ready to give up my PGP long-term keys.
 
@@ -50,26 +50,26 @@ numbers.
 With all of these correspondents I have in the past either done some sort of
 in-person formal PGP signing procedure, or I make use of the web of trust, or
 I rely on <a href="https://keybase.io/">keybase</a>. My business cards even
-have my key fingerprint on them (yes, I&#8217;m one of those nerds).
+have my key fingerprint on them (yes, I'm one of those nerds).
 
 At their ends, the recipients of my messages are able to determine with an
 extremely high degree of confidence that _I_ wrote the exact message they
 opened.
 
-# Accessible PGP on your smartphone with OpenKeychain
+## Accessible PGP on your smartphone with OpenKeychain
 
 In terms of accessibility, the post did make me curious enough to experiment
-with a mobile PGP solution, as I also did have to agree that I&#8217;ve in the
+with a mobile PGP solution, as I also did have to agree that I've in the
 past often had to wait until I was behind one of my own laptops or
 workstations to PGP-verify a message.
 
 As my one friend explained on Signal:
 
-It&#8217;s tricky to verify a message with a baby in your left hand and a telephone in your right!
+It's tricky to verify a message with a baby in your left hand and a telephone in your right!
     
 <a href="https://www.openkeychain.org/">OpenKeychain</a> to the rescue!
 
-## Strengthen your secret key encryption
+### Strengthen your secret key encryption
 
 Seeing that I was planning on carrying my long-term private keys around on my
 telephone (BlackBerry PRIV, FDE encryption active FWIW), I had to double-check
@@ -132,7 +132,7 @@ from good</a>, so do as much as you can to keep your phone safe (keep up with
 OS updates, stay away from unofficial app markets, and so on).
 
 
-## Use your keys with OpenKeychain
+### Use your keys with OpenKeychain
 
 I was pleasantly surprised to learn that I could directly import both my
 <code>secring.pgp</code> and <code>pubring.gpg</code> files from my
@@ -176,7 +176,7 @@ So if I receive something like this via Signal:
     -----END PGP SIGNATURE-----
 
 I long-press, copy the message and then select &#8220;read from
-clipboard&#8221; from OpenKeychain&#8217;s Encrypt/Decrypt screen, which, if
+clipboard&#8221; from OpenKeychain's Encrypt/Decrypt screen, which, if
 everything checks out, shows me the following message:
     
 <p>
@@ -187,7 +187,7 @@ I can now rest assured that <a href="http://mentat.za.net/">this
 specific buddy of mine</a> is never gonna give me up and is never gonna let me
 down.
     
-Cryptographically signing a message is equally easy, except that you&#8217;ll
+Cryptographically signing a message is equally easy, except that you'll
 have to enter that long passphrase of yours. OpenKeychain will then make the
 signed and optionally encrypted text text available for sharing to any app, or
 for copying and pasting:
@@ -199,7 +199,7 @@ for copying and pasting:
     
 Easy peasy, and tested under all sorts of usually-PGP-unfriendly conditions!
     
-# Conclusion
+## Conclusion
 
 Maintaining PGP long-term keys certainly has its issues, but the possibility
 of cryptographically signing any message so that recipients can establish with
@@ -211,7 +211,7 @@ telephone.
 
 Granted, you are trading in some security for this convenience. However, given
 the choice between discarding my PGP keys completely, vs. taking these steps,
-I&#8217;ll hold on to my keys for a little while longer.
+I'll hold on to my keys for a little while longer.
 
 In order to mitigate the potential damage of one of my long-term keys being
 compromised, I have resolved to generate and start using a new private key as
