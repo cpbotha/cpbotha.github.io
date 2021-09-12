@@ -4,17 +4,6 @@ author: cpbotha
 type: post
 date: 2011-10-09T20:48:56+00:00
 url: /2011/10/09/hell-yeah-weekly-head-voices-59/
-ted_talk_1234:
-  - |
-    <object width="526" height="374">
-    <param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param>
-    <param name="allowFullScreen" value="true" />
-    <param name="allowScriptAccess" value="always"/>
-    <param name="wmode" value="transparent"></param>
-    <param name="bgColor" value="#ffffff"></param>
-    <param name="flashvars" value="vu=http://video.ted.com/talk/stream/2011G/Blank/BenGoldacre_2011G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/BenGoldacre_2011-embed.jpg&vw=512&vh=288&ap=0&ti=1234&lang=eng&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=ben_goldacre_battling_bad_science;year=2011;theme=a_taste_of_tedglobal_2011;theme=bold_predictions_stern_warnings;theme=food_matters;theme=new_on_ted_com;theme=medicine_without_borders;event=TEDGlobal+2011;tag=Science;tag=data;tag=health+care;tag=illness;tag=illusion;tag=medicine;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" />
-    <embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="526" height="374" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2011G/Blank/BenGoldacre_2011G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/BenGoldacre_2011-embed.jpg&vw=512&vh=288&ap=0&ti=1234&lang=eng&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=ben_goldacre_battling_bad_science;year=2011;theme=a_taste_of_tedglobal_2011;theme=bold_predictions_stern_warnings;theme=food_matters;theme=new_on_ted_com;theme=medicine_without_borders;event=TEDGlobal+2011;tag=Science;tag=data;tag=health+care;tag=illness;tag=illusion;tag=medicine;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;"></embed>
-    </object>
 topsy_short_url:
   - http://is.gd/b2heQO
 categories:
