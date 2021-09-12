@@ -8,18 +8,18 @@ categories:
   - tech
 
 ---
-You know that it&#8217;s a great conference when time flies like this. Today (**Thursday, November 1**) is the fifth and final day, but I would really have liked more.
+You know that it’s a great conference when time flies like this. Today (**Thursday, November 1**) is the fifth and final day, but I would really have liked more.
 
-The morning is mostly occupied with end-of-conference formalities, such as the official announcement of next year&#8217;s conference in Columbus, Ohio, now dubbed &#8220;VisWeek&#8221; and the best paper awards. As mentioned previously, VisTrails won best paper. Another one of my favourites (also from one of my favourite groups, hi there VRVis in Vienna!) won the best application paper award: [High-Quality Multimodal Volume Rendering for Preoperative Planning of Neurosurgical Interventions][1] by Johanna Beyer, Markus Hadwiger, Stefan Wolfsberger and Katja Bühler.
+The morning is mostly occupied with end-of-conference formalities, such as the official announcement of next year’s conference in Columbus, Ohio, now dubbed “VisWeek” and the best paper awards. As mentioned previously, VisTrails won best paper. Another one of my favourites (also from one of my favourite groups, hi there VRVis in Vienna!) won the best application paper award: [High-Quality Multimodal Volume Rendering for Preoperative Planning of Neurosurgical Interventions][1] by Johanna Beyer, Markus Hadwiger, Stefan Wolfsberger and Katja Bühler.
 
-These formalities were followed by [Chris Johnson&#8217;s][2] capstone talk. Prof. Johnson is really good at this, and gives an inspiring presentation about the important role visualisation has to play in science. Much of the practical examples are from his own group in Utah, but this is of course to be expected. He announces the new [VisSuccess wiki][3], where Visualisation success stories can be collected. Like the NIH/NSF Visualization Research Challenges report, this will become a great resource for when one is wiling away the time writing research grants.
+These formalities were followed by [Chris Johnson’s][2] capstone talk. Prof. Johnson is really good at this, and gives an inspiring presentation about the important role visualisation has to play in science. Much of the practical examples are from his own group in Utah, but this is of course to be expected. He announces the new [VisSuccess wiki][3], where Visualisation success stories can be collected. Like the NIH/NSF Visualization Research Challenges report, this will become a great resource for when one is wiling away the time writing research grants.
 
 The official Vis party unfortunately had to end. Afterwards, I did get to spend an exceptionally pleasant afternoon and evening wining and dining with friends from work and also from groups in Austria, Germany, Sweden and Norway. I love this job!!
 
 P.S. I got some cool Google swag (click on the picture for a movie of these neat led flashy thingies in action):
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/M1FvwMVyIdQ?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/M1FvwMVyIdQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
  [1]: http://medvis.vrvis.at/fileadmin/publications/TR-VRVis-2007-028.pdf "Link to High-Quality Multi-volume rendering paper PDF"

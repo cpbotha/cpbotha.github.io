@@ -8,10 +8,10 @@ categories:
   - Uncategorized
 
 ---
-Oh joyful day, it turns out my favourite younger brother has a weblog. He&#8217;s been very clever and hidden it behind all kinds of noms de plume and other mysterious things so that he can blab about whatever he wants without fear of damaging his good professional name. That is, once he manages to build up a good professional name.
+Oh joyful day, it turns out my favourite younger brother has a weblog. He’s been very clever and hidden it behind all kinds of noms de plume and other mysterious things so that he can blab about whatever he wants without fear of damaging his good professional name. That is, once he manages to build up a good professional name.
 
 Geez, I crack myself up.
 
-In anycase, go to [The Curtain][1] to read all about what floats my little brother&#8217;s boat (as well as his friends&#8217; boats, as far as I can see). As far as I can surmise, it&#8217;s mostly about sex, drugs and fast cars so far. Just my cup of tea, let&#8217;s see if I can score a poster account to do my part on the rock-&#8216;n-roll bits.
+In anycase, go to [The Curtain][1] to read all about what floats my little brother’s boat (as well as his friends’ boats, as far as I can see). As far as I can surmise, it’s mostly about sex, drugs and fast cars so far. Just my cup of tea, let’s see if I can score a poster account to do my part on the rock-‘n-roll bits.
 
  [1]: http://www.thecurtain.co.za/

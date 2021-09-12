@@ -10,4 +10,4 @@ tags:
   - gmail
 
 ---
-My webhoster secretly disabled catch-all email addresses for email. Coincidentally, this is how I was forwarding everything to my gmail account, which means that all mail to my domain bounced for at least a few days. If you left a comment on this blog, or somehow have the feeling that I&#8217;m ignoring you, please resend your mail.
+My webhoster secretly disabled catch-all email addresses for email. Coincidentally, this is how I was forwarding everything to my gmail account, which means that all mail to my domain bounced for at least a few days. If you left a comment on this blog, or somehow have the feeling that I’m ignoring you, please resend your mail.

@@ -14,12 +14,12 @@ My good friend, mentor and fellow alternative universe explorer (teehee) [Dave][
 [][2]
 
 <p style="text-align: center">
-  <a href="http://picasaweb.google.com/cpbotha/Misc/photo#5049675859212965682"><img src="http://lh6.google.com/image/cpbotha/RhQNcItBFzI/AAAAAAAAAcU/5544sjJWZjQ/s400/IMG_1950.JPG" /></a>
+<a href="http://picasaweb.google.com/cpbotha/Misc/photo#5049675859212965682"><img src="http://lh6.google.com/image/cpbotha/RhQNcItBFzI/AAAAAAAAAcU/5544sjJWZjQ/s400/IMG_1950.JPG"/></a>
 </p>
 
-This is beautiful stuff. Unfortunately, it&#8217;s very addictive, and I&#8217;ve almost exhausted my supply.
+This is beautiful stuff. Unfortunately, it’s very addictive, and I’ve almost exhausted my supply.
 
-We had a truly smashing time by the way&#8230; we should definitely do more of those.
+We had a truly smashing time by the way… we should definitely do more of those.
 
  [1]: http://stonethree.com/ "stone three website link, it's the only meaningful one for Dave at the moment"
  [2]: http://picasaweb.google.com/cpbotha/Misc/photo#5049675859212965682
