@@ -9,9 +9,9 @@ categories:
   - life
 
 ---
-While it&#8217;s true that Dutch cuisine is the brunt of far too many less-than-flattering jokes, it definitely has its highlights. [Ontbijtkoek][1] is a very typically Dutch spiced cake that is often eaten in the morning, whilst [Hagelslag][2] is the Dutch word for chocolate sprinkles, which people from around these parts like to use as a bread topping, also mostly in the mornings. By themselves, each of these is an interesting contribution, but probably not a culinary breakthrough.
+While it’s true that Dutch cuisine is the brunt of far too many less-than-flattering jokes, it definitely has its highlights. [Ontbijtkoek][1] is a very typically Dutch spiced cake that is often eaten in the morning, whilst [Hagelslag][2] is the Dutch word for chocolate sprinkles, which people from around these parts like to use as a bread topping, also mostly in the mornings. By themselves, each of these is an interesting contribution, but probably not a culinary breakthrough.
 
-However, when you combine them, it&#8217;s a completely different story. The spongy texture and spicy demeanour of the ontbijtkoek mingle sensually with the smooth brittleness of the hagelslag to result in nothing less than a taste and texture explosion!
+However, when you combine them, it’s a completely different story. The spongy texture and spicy demeanour of the ontbijtkoek mingle sensually with the smooth brittleness of the hagelslag to result in nothing less than a taste and texture explosion!
 
 Ladies and gentlemen, it was an exceptionally difficult judging process, but it pleases me greatly to present to you The Ultimate Dutch Snack! (*)
 

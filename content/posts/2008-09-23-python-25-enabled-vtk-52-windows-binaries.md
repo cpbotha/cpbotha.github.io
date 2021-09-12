@@ -10,7 +10,7 @@ categories:
 ---
 _You can always check my [Latest VTK Windows binaries page][1] to make sure you have the latest blog posting and hence the latest binaries._
 
-I&#8217;ve made available my home-baked VTK 5.2 Windows binaries.  These have my special [python-exception-patches][2] integrated and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going [here][3].  You want the binaries if you want to use VTK from Python.
+I’ve made available my home-baked VTK 5.2 Windows binaries.  These have my special [python-exception-patches][2] integrated and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going [here][3].  You want the binaries if you want to use VTK from Python.
 
 **IMPORTANT**: you might have to install the MS VS2005 [vcredist_x86][4] package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.
 

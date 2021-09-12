@@ -64,15 +64,11 @@ release. After capture, I transcoded the CamStudio screen capture codec AVI to
 XVID using [MediaCoder][5], and then uploaded to YouTube (play at your own
 risk!):
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iLfu6JXkWP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/iLfu6JXkWP4" width="560"></iframe>
 
 ## Update on 2010-02-21
 
-I've made <a title="Link to DRE screencast #1"
-href="http://www.youtube.com/watch?v=xEbYw73y3pM"
-data-rel="lightbox-video-0">two</a> <a title="Link to DRE screencast #2"
-href="http://www.youtube.com/watch?v=7FwPw9qlsms"
-data-rel="lightbox-video-1">more</a> screencasts and learnt some time-expensive
+I've made <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=xEbYw73y3pM" title="Link to DRE screencast #1">two</a> <a data-rel="lightbox-video-1" href="http://www.youtube.com/watch?v=7FwPw9qlsms" title="Link to DRE screencast #2">more</a> screencasts and learnt some time-expensive
 lessons:
 
 - DON'T encode with H.264, in spite of YouTube's recommendation. This screws up
@@ -106,8 +102,7 @@ Furthermore, you can upload camstudio-encoded movies directly to Google Picasa, 
 ## Update on 2013-02-13
 
 If CamStudio 2.7 complains about MSVCR100.dll being missing, you should install
-the <a title="MS Visual C++ redistributable 32bit"
-href="http://www.microsoft.com/en-us/download/details.aspx?id=5555">MS Visual
+the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=5555" title="MS Visual C++ redistributable 32bit">MS Visual
 C++ redistributable</a> (32bit, because CamStudio is 32bit).
 
 ## Update on 2020-06-25

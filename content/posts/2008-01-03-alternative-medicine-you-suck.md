@@ -12,13 +12,13 @@ My blood has cooled down enough for me to write this now, it was positively boil
 
 Those of you who understand Dutch can read [this compact summary][1].
 
-In short, sangomas (witch doctors) have a huge amount of sway with the local population. So when someone is infected with HIV and it manifests as AIDS, they go to the sangoma, who then coolly explains that they&#8217;re sick due to the interference of the spirits of their forefathers and claims that they know exactly how to remedy the problem (usually with some typically ineffective mystical ritual, also involving giving the patient lots of laxatives, thereby exacerbating the symptoms). The sangomas often actively discourage AIDS sufferers from going to the clinics where they would be treated with [proven][2] AIDS retardant drugs such as AZT.
+In short, sangomas (witch doctors) have a huge amount of sway with the local population. So when someone is infected with HIV and it manifests as AIDS, they go to the sangoma, who then coolly explains that they’re sick due to the interference of the spirits of their forefathers and claims that they know exactly how to remedy the problem (usually with some typically ineffective mystical ritual, also involving giving the patient lots of laxatives, thereby exacerbating the symptoms). The sangomas often actively discourage AIDS sufferers from going to the clinics where they would be treated with [proven][2] AIDS retardant drugs such as AZT.
 
-The clinics do their best to educate sufferers, but the sangomas have a great amount of status in the local communities and are very afraid of admitting that they really cannot successfully treat AIDS, as this will put their position in danger. Let me rephrase that: they&#8217;re selfish idiots and they&#8217;re killing people. They should be prosecuted for obstructing conventional medicine.
+The clinics do their best to educate sufferers, but the sangomas have a great amount of status in the local communities and are very afraid of admitting that they really cannot successfully treat AIDS, as this will put their position in danger. Let me rephrase that: they’re selfish idiots and they’re killing people. They should be prosecuted for obstructing conventional medicine.
 
 To put this in context: a quarter of the South African population is HIV positive. Our minister of health, Dr. Manto Tshabalala-Msimang, believes that AIDS can be cured by [eating garlic and beetroot][3]. To add insult to injury, she has pulled strings to jump to the start of the liver transplant queue because she screwed up her own with [alcohol abuse][4].
 
-Remember kids, if a treatment is not backed by evidence-based research, it&#8217;s probably bad for you, either directly, or due to effective inaction. The sangomas might be an extreme case, but in general, alternative medicine is to be handled with the greatest of suspicion.
+Remember kids, if a treatment is not backed by evidence-based research, it’s probably bad for you, either directly, or due to effective inaction. The sangomas might be an extreme case, but in general, alternative medicine is to be handled with the greatest of suspicion.
 
  [1]: http://www.netwerk.tv/archief/6147784/2040/De_geest_van_AIDS.html "Summary of Netwerk episode "
  [2]: http://www.niaid.nih.gov/publications/hivaids/23.htm "Link to AZT study"

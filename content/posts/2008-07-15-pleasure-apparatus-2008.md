@@ -12,7 +12,7 @@ tags:
 ---
 As I mentioned, no lamented on, in [this post][1], it was high time for a new computer in my life.  On Saturday June 14, 2008, I managed to acquire the necessary components to construct my latest computer machine.  For you viewing pleasure, I took the photo below of the various parts lasciviously arranged:
 
-[<img src="http://lh3.ggpht.com/cpbotha/SF0ivLJNzFI/AAAAAAAAC7k/d_gsNZKQfYU/s400/IMG_3724.JPG" alt="Components of the new machine" width="400" height="300" />][2]
+[<img alt="Components of the new machine" height="300" src="http://lh3.ggpht.com/cpbotha/SF0ivLJNzFI/AAAAAAAAC7k/d_gsNZKQfYU/s400/IMG_3724.JPG" width="400"/>][2]
 
 Niiiiice!
 
@@ -20,9 +20,9 @@ After a truly delectable BBQ with [Really Good Friends][3], I set about putting 
 
 Now I can do all sorts of sick things, like running Windows XP 64 bit in a virtual machine:
 
-[<img class="alignnone" src="http://lh5.ggpht.com/cpbotha/SF0jZiatG7I/AAAAAAAAC70/bGO7JFxBJkM/s400/xp64_on_hardy64_kvm.png" alt="thumbnail of xp64 in hardy heron x86_64 KVM" />][4]
+[<img alt="thumbnail of xp64 in hardy heron x86_64 KVM" class="alignnone" src="http://lh5.ggpht.com/cpbotha/SF0jZiatG7I/AAAAAAAAC70/bGO7JFxBJkM/s400/xp64_on_hardy64_kvm.png"/>][4]
 
-I&#8217;m the coolest nerd on my block!
+I’m the coolest nerd on my block!
 
  [1]: http://cpbotha.net/2008/01/08/lust/ "Posting detailing my lust for a new computer"
  [2]: http://picasaweb.google.com/cpbotha/Misc/photo#5214362137405541458 "photo of new machine at picasaweb"
