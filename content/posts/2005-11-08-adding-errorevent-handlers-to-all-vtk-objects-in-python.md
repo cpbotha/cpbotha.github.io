@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-I&#8217;ve constructed a Python example that shows how one can minimally-invasively change the behaviour of all classes in a module. The example illustrates how to add an ErrorEvent handler automatically to all Python VTK classes at run-time.
+I’ve constructed a Python example that shows how one can minimally-invasively change the behaviour of all classes in a module. The example illustrates how to add an ErrorEvent handler automatically to all Python VTK classes at run-time.
 
 See the VTK-users mailing list thread [here][1]
 

@@ -8,16 +8,16 @@ categories:
   - Uncategorized
 
 ---
-I don&#8217;t have the time to explain to you how much [SORBS][1] sucks and how I wish that their servers and their whole organisation would just disappear from the face of the internet, so I&#8217;ll point you at some other reports:
+I don’t have the time to explain to you how much [SORBS][1] sucks and how I wish that their servers and their whole organisation would just disappear from the face of the internet, so I’ll point you at some other reports:
 
   * [Why SORBS Sucks][2]
   * [SORBS Sucks][3]
   * [Why I agree that SORBS sucks!][4]
-  * [Google results for &#8220;sorbs sucks&#8221;][5]
+  * [Google results for “sorbs sucks”][5]
 
-One of the GMail MTAs (qmail.gmail.com) has been listed in the SORBS database (due to one jackass sending a mail to a SORBS spamtrap address) and now I haven&#8217;t been able to send mail to a number of my friends and family. Many GMail users will be terribly inconvenienced by this. If I want to have the IP delisted, I&#8217;m supposed to pay SORBS $50. That&#8217;s extortion!
+One of the GMail MTAs (qmail.gmail.com) has been listed in the SORBS database (due to one jackass sending a mail to a SORBS spamtrap address) and now I haven’t been able to send mail to a number of my friends and family. Many GMail users will be terribly inconvenienced by this. If I want to have the IP delisted, I’m supposed to pay SORBS $50. That’s extortion!
 
-I&#8217;ve reported this to Google, I hope that they are able to sort this out quickly. Experience teaches that SORBS is not very responsive though. That&#8217;s yet another reason to boycott them.
+I’ve reported this to Google, I hope that they are able to sort this out quickly. Experience teaches that SORBS is not very responsive though. That’s yet another reason to boycott them.
 
 If you are an ISP or some other SORBS-using instantiation, consider giving them the boot and using a more responsible service like the [Spamhaus DNSBL][6].
 

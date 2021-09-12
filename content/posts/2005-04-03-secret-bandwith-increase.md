@@ -8,4 +8,4 @@ categories:
   - Uncategorized
 
 ---
-Oh joy! My internet provider has secretly doubled my bandwidth, leaving me with a healthy 4Mbit/s down and 1Mbit/s up. I couldn&#8217;t help noticing the 440 Kbyte/s as I was apt-get installing j2re on my little CentOS server.
+Oh joy! My internet provider has secretly doubled my bandwidth, leaving me with a healthy 4Mbit/s down and 1Mbit/s up. I couldn’t help noticing the 440 Kbyte/s as I was apt-get installing j2re on my little CentOS server.

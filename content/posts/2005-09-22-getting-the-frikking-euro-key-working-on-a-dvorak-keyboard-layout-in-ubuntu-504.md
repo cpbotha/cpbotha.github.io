@@ -45,3 +45,4 @@ to your `/etc/X11/xkb/symbols/pc/dvorak` file:
 Now make sure that your right-ALT generates `ISO_Level3_Shift` (also known as
 `AltGr`) by using `xev`. If your font and roughly 8000 other little settings
 support it, pressing right-alt-5 should make a pretty euro symbol.
+</ae08></ae07></ae06></ae05></ae05></ae04></ae03></ae02>

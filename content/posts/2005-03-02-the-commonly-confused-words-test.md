@@ -8,15 +8,15 @@ categories:
   - Uncategorized
 
 ---
-I saw this on [MJ&#8217;s blog][1], so I had to take [the test][2]. Without consulting any external resources whatsoever, my results were:
+I saw this on [MJ’s blog][1], so I had to take [the test][2]. Without consulting any external resources whatsoever, my results were:
 
-&#8220;Advanced
+“Advanced
   
-You scored 100% Beginner, 93% Intermediate, 93% Advanced, and 72% Expert!&#8221;
+You scored 100% Beginner, 93% Intermediate, 93% Advanced, and 72% Expert!”
 
-What&#8217;s even more flattering, is the following:
+What’s even more flattering, is the following:
 
-&#8220;Compared to users who took the test and are and in your age group:
+“Compared to users who took the test and are and in your age group:
 
 * 100% had lower Beginner scores.
       
@@ -24,7 +24,7 @@ What&#8217;s even more flattering, is the following:
       
 * 100% had lower Advanced scores.
       
-* 100% had lower Expert scores.&#8221;
+* 100% had lower Expert scores.”
 
 This means that I rule, literally.
 

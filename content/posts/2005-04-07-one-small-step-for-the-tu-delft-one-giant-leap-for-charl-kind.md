@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-WHOOHOO! My [Ph.D. thesis][1] has been officially approved by my advisor and by my promotor. Now it just has to get through the 5 external examiners and then, if everything goes according to plan, I will be standing in that scary little room across the road in a few months trying not to get verbally ripped apart by the opposition. I really must remember to acquire a set of asbestos underwear for the occasion&#8230;
+WHOOHOO! My [Ph.D. thesis][1] has been officially approved by my advisor and by my promotor. Now it just has to get through the 5 external examiners and then, if everything goes according to plan, I will be standing in that scary little room across the road in a few months trying not to get verbally ripped apart by the opposition. I really must remember to acquire a set of asbestos underwear for the occasion…
 
  [1]: http://cpbotha.net/weblogs/cpbotha/archives/001457.html

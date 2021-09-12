@@ -10,7 +10,7 @@ tags:
   - gmail
 
 ---
-You will remember that a while back [I asked you to do me a favour][1] and ask GMail to add the possibility to change the &#8220;From:&#8221; address on outgoing mails. Well, boys and girls, it seems that they&#8217;ve gone and done this!
+You will remember that a while back [I asked you to do me a favour][1] and ask GMail to add the possibility to change the “From:” address on outgoing mails. Well, boys and girls, it seems that they’ve gone and done this!
 
 Read all about it [here][2].
 

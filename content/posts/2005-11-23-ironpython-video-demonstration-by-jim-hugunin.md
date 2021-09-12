@@ -10,7 +10,7 @@ categories:
 ---
 Start [here][1].
 
-Unfortunately, it seems you do need IE (Firefox won&#8217;t do) on Windows to view this video. I guess that&#8217;s an interesting hint of IronPython&#8217;s ideological problems as well.
+Unfortunately, it seems you do need IE (Firefox won’t do) on Windows to view this video. I guess that’s an interesting hint of IronPython’s ideological problems as well.
 
 That being said, the demo is pretty cool. The seamless sharing of .NET objects between for example C# and Python is impressive.
 
