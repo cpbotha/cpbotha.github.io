@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-So, we all agree that Python is The Best Thing Since Sliced Bread(tm), right? To add several levels of pleasure to your interactive Python experience (ribbed or studded), please try [IPython][1]. This is so flexible that one could even consider using it as full-time shell, instead of your bash, (t)csh, zsh or whatever. Hmmm&#8230;.
+So, we all agree that Python is The Best Thing Since Sliced Bread(tm), right? To add several levels of pleasure to your interactive Python experience (ribbed or studded), please try [IPython][1]. This is so flexible that one could even consider using it as full-time shell, instead of your bash, (t)csh, zsh or whatever. Hmmm….
 
  [1]: http://www-hep.colorado.edu/~fperez/ipython/

@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-[Mozilla 1.0][1] has been released! Nuke IE (unless you&#8217;re already using a real OS), install Mozilla and enjoy some compliance goodness.
+[Mozilla 1.0][1] has been released! Nuke IE (unless you’re already using a real OS), install Mozilla and enjoy some compliance goodness.
 
  [1]: http://www.mozillazine.org/

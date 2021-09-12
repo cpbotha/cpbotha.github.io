@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-We have a new friend on livejournal thanks to Paul&#8217;s thingy. Go and read all about [Ben][1]. Or maybe not all about him. In fact, he doesn&#8217;t have all that much there yet. Pity. Maybe you can go later.
+We have a new friend on livejournal thanks to Paul’s thingy. Go and read all about [Ben][1]. Or maybe not all about him. In fact, he doesn’t have all that much there yet. Pity. Maybe you can go later.
 
  [1]: http://www.livejournal.com/~bwright

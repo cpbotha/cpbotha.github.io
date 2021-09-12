@@ -10,7 +10,7 @@ categories:
 ---
 Damn it, when will these idiots learn that patents are evil?! This [article][1] (which might be Slashdotted at the moment) reports how a certain genetic test for breast cancer can not be performed by a British Columbia hospital anymore because the morons of [Myriad Genetics][2] have patented the _two genes that can signal whether a woman may develop hereditary breast cancer_ and have legally threatened the hospital.
 
-How the F*CK can one patent a gene? Nevermind the very apparent stupidity and lack of reason behind this (the gene was already there, the company merely discovered it &#8211; there&#8217;s NO creative innovation here!): just practically speaking, this is screwing the populace over. This test now costs three times as much, just because Myriad went to the trouble of taking out the patent at the even more idiotic patent office.
+How the F*CK can one patent a gene? Nevermind the very apparent stupidity and lack of reason behind this (the gene was already there, the company merely discovered it – there’s NO creative innovation here!): just practically speaking, this is screwing the populace over. This test now costs three times as much, just because Myriad went to the trouble of taking out the patent at the even more idiotic patent office.
 
 ARGH!
 

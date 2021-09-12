@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-[SpamAssassin][1] kicks ass. What to do with all this extra time&#8230;
+[SpamAssassin][1] kicks ass. What to do with all this extra time…
 
  [1]: http://www.spamassassin.org/

@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-Funny, I felt exactly like Rudolph on the AIDS and racist-rebound issues of today. See his comment [here][1]. I don&#8217;t know which of these two things makes me wonder the most.
+Funny, I felt exactly like Rudolph on the AIDS and racist-rebound issues of today. See his comment [here][1]. I don’t know which of these two things makes me wonder the most.
 
  [1]: http://www.livejournal.com/talkpost.bml?journal=rvdmerwe&itemid=3800

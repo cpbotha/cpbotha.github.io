@@ -8,4 +8,4 @@ categories:
   - Uncategorized
 
 ---
-Another day, another journal. LiveJournal looks a bit easier to manage (from the humble &#8220;blogger&#8221;&#8216;s perspective) and as an added bonus it doesn&#8217;t make use of all kinds of weird client-side scripting, meaning that there are many more choices w.r.t. the client that you can use.
+Another day, another journal. LiveJournal looks a bit easier to manage (from the humble “blogger”‘s perspective) and as an added bonus it doesn’t make use of all kinds of weird client-side scripting, meaning that there are many more choices w.r.t. the client that you can use.

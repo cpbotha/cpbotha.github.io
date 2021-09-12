@@ -10,4 +10,4 @@ categories:
 ---
 The man who is not a socialist at twenty has no heart, but if he is still a socialist at forty he has no head.
 
-&#8212; Aristide Briand (1862 &#8211; 1932)
+— Aristide Briand (1862 – 1932)

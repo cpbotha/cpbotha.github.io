@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-Too many beers last night&#8230;. ugh. Fortunately there&#8217;s [soma fm][1] for some soothing streaming music. I just can&#8217;t seem to decide between the Groove Salad and the Secret Agent (&#8220;The soundtrack for your stylish, mysterious, dangerous life&#8221;) streams, although my mysterious life does make me biased towards the latter.
+Too many beers last night…. ugh. Fortunately there’s [soma fm][1] for some soothing streaming music. I just can’t seem to decide between the Groove Salad and the Secret Agent (“The soundtrack for your stylish, mysterious, dangerous life”) streams, although my mysterious life does make me biased towards the latter.
 
 Soothing music + not moving too often or too suddenly == productivity. I think.
 

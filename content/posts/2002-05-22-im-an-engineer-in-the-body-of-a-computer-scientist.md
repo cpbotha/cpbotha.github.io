@@ -8,9 +8,9 @@ categories:
   - Uncategorized
 
 ---
-I&#8217;m in browser heaven. I bought [Codeweavers][1] Crossover 1.1.1 for a measly $24.95, so now my already hard-core [Mozilla][2] 1.0rc2 can also make use of all the winblows browser plugins, such as Quicktime, Windows Media Player 6.4 (ugh), Flash 6, Shockwave and so on. This is a great piece of software and it&#8217;s stable too!
+I’m in browser heaven. I bought [Codeweavers][1] Crossover 1.1.1 for a measly $24.95, so now my already hard-core [Mozilla][2] 1.0rc2 can also make use of all the winblows browser plugins, such as Quicktime, Windows Media Player 6.4 (ugh), Flash 6, Shockwave and so on. This is a great piece of software and it’s stable too!
 
-Did you know that &#8220;xam = reduce(operator.add, map(operator.mul, xa, xa)) ** .5&#8221; calculates the magnitude of n-element vector xa? I had to wipe away a tear when I wrote that. It&#8217;s fast too. To run an interesting python benchmark, download [this][3].
+Did you know that “xam = reduce(operator.add, map(operator.mul, xa, xa)) ** .5” calculates the magnitude of n-element vector xa? I had to wipe away a tear when I wrote that. It’s fast too. To run an interesting python benchmark, download [this][3].
 
  [1]: http://www.codeweavers.com/
  [2]: http://www.mozilla.org/
