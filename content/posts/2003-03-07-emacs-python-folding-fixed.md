@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-By making use of the outline minor mode of Emacs, one can do Python code folding. However, it seems [MOST of the available .emacs examples][1] illustrating this are broken, as you&#8217;ll find if you try to use them on any Python code longer than three lines.
+By making use of the outline minor mode of Emacs, one can do Python code folding. However, it seems [MOST of the available .emacs examples][1] illustrating this are broken, as you’ll find if you try to use them on any Python code longer than three lines.
 
 [Here][2] is a _correct_ example, thanks to me and goof.
 

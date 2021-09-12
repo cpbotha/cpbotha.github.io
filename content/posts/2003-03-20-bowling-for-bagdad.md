@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-Michael Moore, a brightly shining beacon in the American consciousness, has posted this scathing (yet justified) attack on Bush&#8217;s doings, in the form of [an earnest letter][1] on the eve of war.
+Michael Moore, a brightly shining beacon in the American consciousness, has posted this scathing (yet justified) attack on Bush’s doings, in the form of [an earnest letter][1] on the eve of war.
 
  [1]: http://www.michaelmoore.com/words/message/index.php?messageDate=2003-03-17

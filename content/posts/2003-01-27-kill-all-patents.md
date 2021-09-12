@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-But let&#8217;s start a tad smaller: Go add your name to [this petition][1] against software patents in Europe.
+But let’s start a tad smaller: Go add your name to [this petition][1] against software patents in Europe.
 
  [1]: http://petition.eurolinux.org/

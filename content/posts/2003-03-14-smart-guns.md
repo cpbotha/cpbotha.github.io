@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-I am against the use of firearms and also against the right of any civilian to own and use such a thing. However, there are more than enough people who aren&#8217;t and who&#8217;re willing to fight for this right.
+I am against the use of firearms and also against the right of any civilian to own and use such a thing. However, there are more than enough people who aren’t and who’re willing to fight for this right.
 
 In that case, maybe a compromise is in order, such as
   

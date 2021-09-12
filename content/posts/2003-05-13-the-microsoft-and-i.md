@@ -14,6 +14,6 @@ tags:
   - windows
 
 ---
-I&#8217;m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. [This][1] section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with _some_ standard. :)
+I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. [This][1] section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with _some_ standard. :)
 
  [1]: https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx

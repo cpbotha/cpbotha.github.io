@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-My [Meyers Briggs][1] personality type is ENTJ. I don&#8217;t know whether one should pay any attention to these kinds of things. Personally, I believe it&#8217;s mostly bullshit. :)
+My [Meyers Briggs][1] personality type is ENTJ. I don’t know whether one should pay any attention to these kinds of things. Personally, I believe it’s mostly bullshit. :)
 
  [1]: http://www.dfca.org/hum/mb.html

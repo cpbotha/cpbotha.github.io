@@ -20,5 +20,5 @@ sections for 3D reconstruction.
 See the screenshot below:
 
 <a href="/thingies/dscas3register2d20031209.png">
-    <img src="/thingies/dscas3register2d20031209.png" />
+<img src="/thingies/dscas3register2d20031209.png"/>
 </a>

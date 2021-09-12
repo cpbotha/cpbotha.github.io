@@ -8,12 +8,12 @@ categories:
   - Uncategorized
 
 ---
-Finding a single BTF (back-to-front) ordering for perspectively rendered volumes without sorting is more difficult than it sounds. See what happens when we make use of a traditional BTF (Frieder et al., 1985): <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/perspectiveBTF.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">it breaks badly.</a>
+Finding a single BTF (back-to-front) ordering for perspectively rendered volumes without sorting is more difficult than it sounds. See what happens when we make use of a traditional BTF (Frieder et al., 1985): <a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://visualisation.tudelft.nl/~cpbotha/thingies/perspectiveBTF.png" title="">it breaks badly.</a>
 
-Ed Swan came up with a super-elegant constructive proof for a perspective BTF ordering that works (Swan, 1998). However, his &#8220;PBTF&#8221; rendering and its proof assume that voxels are infinitesimally small. As is very often the case, voxels can have significant size, and volume resolution is often lower than screen resolution, which results in disturbing rendering artefacts. Ed&#8217;s algorithm is still a great improvement: <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/perspectivePBTF.png" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">see here, but note the artefact.</a>
+Ed Swan came up with a super-elegant constructive proof for a perspective BTF ordering that works (Swan, 1998). However, his “PBTF” rendering and its proof assume that voxels are infinitesimally small. As is very often the case, voxels can have significant size, and volume resolution is often lower than screen resolution, which results in disturbing rendering artefacts. Ed’s algorithm is still a great improvement: <a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://visualisation.tudelft.nl/~cpbotha/thingies/perspectivePBTF.png" title="">see here, but note the artefact.</a>
 
-This problem has been cooking in the back of my head for quite a while now. I think I might&#8217;ve solved it: <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/perspectiveIPPBTF.png" data-rel="lightbox-image-2" data-rl_title="" data-rl_caption="" title="">click here</a>.
+This problem has been cooking in the back of my head for quite a while now. I think I might’ve solved it: <a data-rel="lightbox-image-2" data-rl_caption="" data-rl_title="" href="http://visualisation.tudelft.nl/~cpbotha/thingies/perspectiveIPPBTF.png" title="">click here</a>.
 
 ADDENDUM:
   
-Some more samples: <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/faceonPBTF.png" data-rel="lightbox-image-3" data-rl_title="" data-rl_caption="" title="">before</a> and <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/faceonIPPBTF.png" data-rel="lightbox-image-4" data-rl_title="" data-rl_caption="" title="">after</a>.
+Some more samples: <a data-rel="lightbox-image-3" data-rl_caption="" data-rl_title="" href="http://visualisation.tudelft.nl/~cpbotha/thingies/faceonPBTF.png" title="">before</a> and <a data-rel="lightbox-image-4" data-rl_caption="" data-rl_title="" href="http://visualisation.tudelft.nl/~cpbotha/thingies/faceonIPPBTF.png" title="">after</a>.

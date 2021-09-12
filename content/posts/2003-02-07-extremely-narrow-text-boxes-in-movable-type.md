@@ -10,12 +10,13 @@ categories:
 ---
 It could be because I set something up incorrectly, but people have been seeing unusably narrow text entry boxes (TEXTAREA) in Movable Type 2.51 with Mozilla (1.0 and 1.2.1), Opera 7 and IE 6.0. So I ran:
   
-`<br />
-mkdir new && for i in *.tmpl; do cat $i | sed -e \<br />
-'s/<TMPL_IF NAME=AGENT_MOZILLA> cols=\"\"<\/TMPL_IF>/\<br />
-cols=\"80\"/g' > new/$i; done && cp new/* ./<br />
-` 
+``` shell
+mkdir new && for i in *.tmpl; do cat $i | sed -e \
+'s/<tmpl_if name="AGENT_MOZILLA"> cols=\"\"&lt;\/TMPL_IF&gt;/\
+cols=\"80\"/g' &gt; new/$i; done &amp;&amp; cp new/* ./
+```
   
 in the tmpl directory and it all seems to be usable now. This is probably not the Right Way(tm) but it makes the entry boxes usable.
 
 By the way, if you want to add code snippets to your Movable Type postings, just use <code> and </code> tags.
+

@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-Chris Venter, a good friend of mine who&#8217;s spending some time in Germany working for [Siemens][1], just told me that my [Radeon DRI resume][2] pages have been mentioned in an article in the April 2003 issue of [Linux Magazin][3]. The article, &#8220;Das Transmeta Crusoe-SDK im Kurztest&#8221;, doesn&#8217;t seem to be available online.
+Chris Venter, a good friend of mine who’s spending some time in Germany working for [Siemens][1], just told me that my [Radeon DRI resume][2] pages have been mentioned in an article in the April 2003 issue of [Linux Magazin][3]. The article, “Das Transmeta Crusoe-SDK im Kurztest”, doesn’t seem to be available online.
 
 This would also explain the sudden increase in hits and binary downloads from the resume pages. :)
 

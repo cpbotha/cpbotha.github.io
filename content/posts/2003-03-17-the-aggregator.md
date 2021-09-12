@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-I&#8217;ve installed [blagg][1], a simple Perl-based (yuck) RSS aggregator. If all is well, it should aggregate 4 times daily from various of my favourite weblogs and post the loot to [Charl&#8217;s Weblog and News Aggregator][2].
+I’ve installed [blagg][1], a simple Perl-based (yuck) RSS aggregator. If all is well, it should aggregate 4 times daily from various of my favourite weblogs and post the loot to [Charl’s Weblog and News Aggregator][2].
 
 Cross yer fingers.
 

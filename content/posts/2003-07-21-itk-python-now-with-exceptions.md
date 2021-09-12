@@ -15,7 +15,7 @@ tags:
 ---
 After far too many hours staring at [Cable][1] and [Swig][2] code, I can now catch [ITK][3] C++ exceptions as Python exceptions. Yes, of course the resultant patch is pitifully small. See [my posting][4].
 
-Once again I have come to the conclusion that a _good_ source-analysing code editor such as [Visual Slickedit][5] is invaluable when trying to understand other people&#8217;s complex projects.
+Once again I have come to the conclusion that a _good_ source-analysing code editor such as [Visual Slickedit][5] is invaluable when trying to understand other people’s complex projects.
 
  [1]: http://public.kitware.com/Cable/HTML/Index.html
  [2]: http://www.swig.org/

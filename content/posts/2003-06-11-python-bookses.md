@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-I broke down and ordered [Python in a Nutshell][1] by the Python guru Alex Martelli as well as [The Python Cookbook][2], edited by Alex Martelli and David Ascher. Amazon UK will now proceed to bend my credit card even further, but that&#8217;s okay. It&#8217;s really flexible.
+I broke down and ordered [Python in a Nutshell][1] by the Python guru Alex Martelli as well as [The Python Cookbook][2], edited by Alex Martelli and David Ascher. Amazon UK will now proceed to bend my credit card even further, but that’s okay. It’s really flexible.
 
 EET VILL INCREEEZE MY PYTHON POWERS 10-FOLD, UND ZEN I VILL TAKE OVER DE WORLD!
 

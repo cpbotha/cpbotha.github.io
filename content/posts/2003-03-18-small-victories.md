@@ -10,7 +10,7 @@ categories:
 ---
 Oh, this is SO sweet. This morning a SPAM managed to get past my [SpamAssassin][1] installation. I immediately reported it to the four networks involved in its delivery and at least one has taken immensely pleasing action:
 
-&#8220;Dear Charl,
+“Dear Charl,
 
 Thank you for using \****!
 
@@ -24,7 +24,7 @@ have.
 
 Sincerely,
 
-Basic Tech Support&#8221;
+Basic Tech Support”
 
 I _love_ it when that happens!
 

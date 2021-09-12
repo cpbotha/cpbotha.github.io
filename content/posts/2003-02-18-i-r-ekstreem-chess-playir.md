@@ -8,6 +8,6 @@ categories:
   - Uncategorized
 
 ---
-In order to try and improve my pitiful Chess abilities, I&#8217;ve started playing online chess-by-email games via [RedHotPawn][1]. If you would like an ego boost, get yourself an account and challenge me. It shouldn&#8217;t take you more than a few moves to take my king out. My login is, you guessed it, &#8220;cpbotha&#8221;.
+In order to try and improve my pitiful Chess abilities, I’ve started playing online chess-by-email games via [RedHotPawn][1]. If you would like an ego boost, get yourself an account and challenge me. It shouldn’t take you more than a few moves to take my king out. My login is, you guessed it, “cpbotha”.
 
  [1]: http://www.redhotpawn.com/

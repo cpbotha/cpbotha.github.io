@@ -13,8 +13,8 @@ tags:
   - xfree86
 
 ---
-I&#8217;ve made binary snapshots of my suspend/resume capable DRI Radeon drivers for XFree86 4.3.0 RC 1 (i.e. 4.2.99.901) available on the [dri resume][1] pages.
+I’ve made binary snapshots of my suspend/resume capable DRI Radeon drivers for XFree86 4.3.0 RC 1 (i.e. 4.2.99.901) available on the [dri resume][1] pages.
 
-My patches weren&#8217;t submitted early enough to be included in the looming XFree86 4.3.0 release, but will be merged with the XFree86 CVS shortly afterwards. Once more distribution vendors have standardised on 4.3.0 and things have settled down, my binary drivers should also be able to stabilise.
+My patches weren’t submitted early enough to be included in the looming XFree86 4.3.0 release, but will be merged with the XFree86 CVS shortly afterwards. Once more distribution vendors have standardised on 4.3.0 and things have settled down, my binary drivers should also be able to stabilise.
 
  [1]: /software/dri_resume/

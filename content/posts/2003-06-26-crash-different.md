@@ -21,12 +21,12 @@ categories:
 
 For your reference, I like Macs. \*pet pet\*[1]
 
-[1] I&#8217;m petting my virtual Mac.
+[1] I’m petting my virtual Mac.
 
 **Update September 13, 2010:** Charlette reported in the comments below that the clip linked to above has disappeared. Some searching seems to indicate that the below Youtube clip is the same:
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/oD6N-Gw4npw?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/oD6N-Gw4npw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
  [1]: http://www.mijnkopthee.nl/

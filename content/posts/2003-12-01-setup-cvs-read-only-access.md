@@ -8,7 +8,7 @@ categories:
   - Uncategorized
 
 ---
-I bet you&#8217;ve always wondered how to setup a CVS repository with read-only access. This is not quite as straightforward as you think. Ha!
+I bet you’ve always wondered how to setup a CVS repository with read-only access. This is not quite as straightforward as you think. Ha!
 
 Read [this][1].
 

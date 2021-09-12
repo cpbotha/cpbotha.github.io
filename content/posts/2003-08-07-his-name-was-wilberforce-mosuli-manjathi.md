@@ -16,7 +16,7 @@ die kind lig sy vuiste teen sy moeder
   
 wat Afrika skreeu skreeu die geur van vryheid en heide
   
-in die lokasies van die omsingelde hart</p> 
+in die lokasies van die omsingelde hart 
 
 Die kind lig sy vuiste teen sy vader
   
@@ -34,7 +34,7 @@ nóg by Orlando nóg by Sharpville
   
 nóg by die polisiestasie in Philippi
   
-waar hy lê met &#8216;n koeël deur sy kop
+waar hy lê met ‘n koeël deur sy kop
 
 Die kind is die skaduwee van die soldate
   
@@ -46,13 +46,13 @@ die kind loer deur die vensters van huise en in die harte van moeders
   
 die kind wat net wou speel in die son by Nyanga is orals
   
-die kind wat &#8216;n man geword het trek deur die ganse Afrika
+die kind wat ‘n man geword het trek deur die ganse Afrika
   
-die kind wat &#8216;n reus geword het reis deur die hele wêreld
+die kind wat ‘n reus geword het reis deur die hele wêreld
 
-Sonder &#8216;n pas
+Sonder ‘n pas
   
-</em>
+
 
 [Ingrid Jonker][1], March 1960
 

@@ -8,8 +8,8 @@ categories:
   - Uncategorized
 
 ---
-I hacked like a crazy man this weekend in Germany on my heavy-weight laptop (lovingly known as &#8220;stoeptegel&#8221; around these parts). It seems to have been [worth it][1] though.
+I hacked like a crazy man this weekend in Germany on my heavy-weight laptop (lovingly known as “stoeptegel” around these parts). It seems to have been [worth it][1] though.
 
-Now let&#8217;s wait for the flamage&#8230; :)
+Now let’s wait for the flamage… :)
 
  [1]: http://www.itk.org/pipermail/insight-users/2003-July/004388.html

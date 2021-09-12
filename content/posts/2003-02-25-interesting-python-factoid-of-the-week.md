@@ -8,36 +8,36 @@ categories:
   - Uncategorized
 
 ---
-`<br />
->>> def someFunc(someParam, someDict={}):<br />
-...    someDict[someParam] = someParam<br />
-...    print someDict<br />
-...<br />
->>> someFunc('hello1')<br />
-{'hello1': 'hello1'}<br />
->>> someFunc('hello2')<br />
-{'hello2': 'hello2', 'hello1': 'hello1'}<br />
->>> someFunc('hello3')<br />
-{'hello2': 'hello2', 'hello3': 'hello3', 'hello1': 'hello1'}<br />
->>><br />
-` 
+```
+>>> def someFunc(someParam, someDict={}):
+...    someDict[someParam] = someParam
+...    print someDict
+...
+>>> someFunc('hello1')
+{'hello1': 'hello1'}
+>>> someFunc('hello2')
+{'hello2': 'hello2', 'hello1': 'hello1'}
+>>> someFunc('hello3')
+{'hello2': 'hello2', 'hello3': 'hello3', 'hello1': 'hello1'}
+>>>
+```
 
 The moral of this story is: be careful when using default parameters for dictionaries, lists and such like. One could be forgiven for thinking that the default parameter gets initialised with every invocation, but that is clearly not the case.
 
-To emulate the &#8220;faulty&#8221; behaviour, do something like:
+To emulate the “faulty” behaviour, do something like:
   
-`<br />
->>> def someFunc(someParam, someDict=None):<br />
-...    if someDict is None:<br />
-...       someDict = {}<br />
-...    someDict[someParam] = someParam<br />
-...    print someDict<br />
-...<br />
->>> someFunc('hello1')<br />
-{'hello1': 'hello1'}<br />
->>> someFunc('hello2')<br />
-{'hello2': 'hello2'}<br />
->>><br />
-` 
+```
+>>> def someFunc(someParam, someDict=None):
+...    if someDict is None:
+...       someDict = {}
+...    someDict[someParam] = someParam
+...    print someDict
+...
+>>> someFunc('hello1')
+{'hello1': 'hello1'}
+>>> someFunc('hello2')
+{'hello2': 'hello2'}
+>>>
+```
 
-Remember kids, if you think Python is just a scripting language, you should take the time to have a much closer look. If, after your look, you still haven&#8217;t seen the light, natural selection poses a very serious threat to your continued existence.
+Remember kids, if you think Python is just a scripting language, you should take the time to have a much closer look. If, after your look, you still haven’t seen the light, natural selection poses a very serious threat to your continued existence.

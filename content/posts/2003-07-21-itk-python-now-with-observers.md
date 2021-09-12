@@ -14,7 +14,7 @@ tags:
 ---
 After some more hours pouring over the sources, [ITK][1] could have observers that are usable from Python. [Behold!][2]
 
-The previous patch was accepted, let&#8217;s hope this one gets in too.
+The previous patch was accepted, let’s hope this one gets in too.
 
  [1]: http://www.itk.org/
  [2]: http://www.itk.org/pipermail/insight-users/2003-July/004331.html

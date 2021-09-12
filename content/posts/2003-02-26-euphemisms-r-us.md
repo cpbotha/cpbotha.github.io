@@ -8,8 +8,8 @@ categories:
   - Uncategorized
 
 ---
-This is probably the most elegant euphemism I&#8217;ve heard in a very long time:
+This is probably the most elegant euphemism I’ve heard in a very long time:
   
-&#8220;Wat de geachte afgevaardigde daar zegt staat op gespannen voet met de werkelijkheid.&#8221; which is short for &#8220;Hij LIEGT!&#8221;.
+“Wat de geachte afgevaardigde daar zegt staat op gespannen voet met de werkelijkheid.” which is short for “Hij LIEGT!”.
 
-Vive l&#8217;Hollandais!
+Vive l’Hollandais!

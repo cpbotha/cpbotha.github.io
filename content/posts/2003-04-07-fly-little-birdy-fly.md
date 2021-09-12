@@ -13,6 +13,6 @@ tags:
   - xfree86
 
 ---
-My [Radeon DRI resume patch][1] has been integrated into XFree86 CVS by Kevin Martin. Yaaaaaay! Now it&#8217;s only a question of time before it&#8217;ll propagate into all other XFree86 branches and _eventually_ even into operating system distributions.
+My [Radeon DRI resume patch][1] has been integrated into XFree86 CVS by Kevin Martin. Yaaaaaay! Now it’s only a question of time before it’ll propagate into all other XFree86 branches and _eventually_ even into operating system distributions.
 
  [1]: /software/dri_resume/

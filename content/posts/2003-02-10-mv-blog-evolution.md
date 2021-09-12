@@ -8,8 +8,8 @@ categories:
   - Uncategorized
 
 ---
-[Paul][1] just pointed this out: In Ximian Evolution, open your &#8220;Summary&#8221; window, Select &#8220;Tools|Settings&#8221; from the menubar, select the &#8220;News Feeds&#8221; tab under &#8220;Summary Preferences&#8221;, click on the &#8220;Add news feed&#8221; button and add this URL: **http://cpbotha.net/weblogs/cpbotha/index.rdf** Now select this feed from the left hand list and click on the &#8220;Add&#8221; button in the middle.
+[Paul][1] just pointed this out: In Ximian Evolution, open your “Summary” window, Select “Tools|Settings” from the menubar, select the “News Feeds” tab under “Summary Preferences”, click on the “Add news feed” button and add this URL: **http://cpbotha.net/weblogs/cpbotha/index.rdf** Now select this feed from the left hand list and click on the “Add” button in the middle.
 
-Your Evolution summary window will now contain a live listing of my weblog. JOY! Get this URL from any Movable Type weblog by copying the &#8220;Syndicate this site (XML)&#8221; link.
+Your Evolution summary window will now contain a live listing of my weblog. JOY! Get this URL from any Movable Type weblog by copying the “Syndicate this site (XML)” link.
 
  [1]: http://cpbotha.net/weblogs/paul/

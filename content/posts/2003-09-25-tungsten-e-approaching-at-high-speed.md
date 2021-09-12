@@ -10,7 +10,7 @@ categories:
 ---
 Thank you, oh [Register][1] for all the fine rumours. This time, the Register boys report on a slip-up at a Palm reseller resulting in a slight leak of Palm Tungsten-E and T3 specifications ahead of the October 1 launch. See [here][2].
 
-That Tungsten-E is looking really attractive&#8230;
+That Tungsten-E is looking really attractive…
 
  [1]: http://www.theregister.co.uk/
  [2]: http://www.theregister.co.uk/content/68/33023.html

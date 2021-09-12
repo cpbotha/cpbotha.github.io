@@ -12,7 +12,7 @@ categories:
 
 [This article][3] (thanks to [Paul][4] for the URL) documents yet another list of examples showing how the US is able to use its dollars to garner support for its war plans.
 
-It&#8217;s a very silly kind of democracy.
+It’s a very silly kind of democracy.
 
  [1]: http://cpbotha.net/weblogs/chadwick/
  [2]: http://cpbotha.net/weblogs/chadwick/archives/000093.html

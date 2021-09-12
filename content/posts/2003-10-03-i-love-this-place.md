@@ -10,7 +10,7 @@ categories:
 ---
 Yesterday at 15:55 I placed my order for a [Palm Tungsten E][1] at [The PDA Shop][2]. This morning at about 10:00 the friendly TPG postman delivered it at my door. :)
 
-Specs in short: 320&#215;320 transreflective colour screen, 32MB memory, SDIO slot (for extra flash and peripherals), TI OMAP (ARM) 126MHz processor, a solid collection of software and oodles of prettiness.
+Specs in short: 320×320 transreflective colour screen, 32MB memory, SDIO slot (for extra flash and peripherals), TI OMAP (ARM) 126MHz processor, a solid collection of software and oodles of prettiness.
 
  [1]: http://www-5.palmone.com/nl/en/products/tungsten-e/index.html
  [2]: http://www.pdashop.nl/
