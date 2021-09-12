@@ -9,6 +9,7 @@ categories:
   - work
 tags:
   - conference
+  - new computer
   - visualisation
   - visualization
   - weekly head voices

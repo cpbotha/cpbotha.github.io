@@ -6,6 +6,8 @@ date: 2008-07-15T21:03:21+00:00
 url: /2008/07/15/pleasure-apparatus-2008/
 categories:
   - Uncategorized
+tags:
+  - new computer
 
 ---
 As I mentioned, no lamented on, in [this post][1], it was high time for a new computer in my life.  On Saturday June 14, 2008, I managed to acquire the necessary components to construct my latest computer machine.  For you viewing pleasure, I took the photo below of the various parts lasciviously arranged:

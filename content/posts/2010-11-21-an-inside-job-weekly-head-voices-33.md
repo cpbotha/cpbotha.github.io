@@ -14,6 +14,7 @@ categories:
 tags:
   - ideas
   - inception
+  - new computer
   - research
   - visualisation
   - weekly head voices

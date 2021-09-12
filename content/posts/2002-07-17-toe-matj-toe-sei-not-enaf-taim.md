@@ -6,6 +6,8 @@ date: 2002-07-17T20:05:00+00:00
 url: /2002/07/17/toe-matj-toe-sei-not-enaf-taim/
 categories:
   - Uncategorized
+tags:
+  - new computer
 
 ---
 The laptop has arrived. It&#8217;s big, it&#8217;s bad and it&#8217;s a bit cranky, which is why I&#8217;ve decided to call it Dr Evil. It racks up a pretty respectable 1700 to 1800 FPS with glxgears and the bleeding edge DRI tree Radeon drivers. There is still a (known) problem w.r.t. switching to a VT and back which I&#8217;ve documented [here][1]. I will let you know if/when this is resolved. I am planning to generate more documentation in the form of a mini-review and of course a Linux howto for this laptop: stay tuned. All in all, I&#8217;m very happy with my purchase.

@@ -7,6 +7,7 @@ url: /2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/
 categories:
   - weekly head voices
 tags:
+  - autumn
   - baboons
   - beer
   - cbc

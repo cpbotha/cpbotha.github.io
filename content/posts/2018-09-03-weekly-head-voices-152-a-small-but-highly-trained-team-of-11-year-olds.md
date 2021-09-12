@@ -12,7 +12,7 @@ tags:
   - bitbar
   - hammerspoon
   - netherlands
-  - side-project
+  - side-projects
   - spotify
   - spotify2applemusic
   - typescript

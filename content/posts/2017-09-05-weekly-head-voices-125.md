@@ -12,6 +12,7 @@ tags:
   - contentment
   - happiness
   - macbook pro
+  - new computer
   - millenials
   - parking
   - toggl

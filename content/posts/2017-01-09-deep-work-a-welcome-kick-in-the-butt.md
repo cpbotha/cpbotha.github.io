@@ -7,6 +7,7 @@ url: /2017/01/09/deep-work-a-welcome-kick-in-the-butt/
 categories:
   - review
 tags:
+  - book
   - cal newport
   - connectedness
   - deep work
@@ -20,37 +21,17 @@ tags:
 ---
 Based on this tweet by [Enrico Bertini][1]:
 
-<blockquote class="twitter-tweet" data-width="550">
-  <p lang="en" dir="ltr">
-    Little project I developed during the break looking back at 2016: "Quantifying and Visualizing “Deep Work”" <a href="https://t.co/s3d9Zn685Q">https://t.co/s3d9Zn685Q</a>
-  </p>
-  
-  <p>
-    &mdash; Enrico Bertini (@FILWD) <a href="https://twitter.com/FILWD/status/816374094212067328">January 3, 2017</a>
-  </p>
-</blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Little project I developed during the break looking back at 2016: &quot;Quantifying and Visualizing “Deep Work”&quot; <a href="https://t.co/s3d9Zn685Q">https://t.co/s3d9Zn685Q</a></p>&mdash; Enrico Bertini (@FILWD) <a href="https://twitter.com/FILWD/status/816374094212067328?ref_src=twsrc%5Etfw">January 3, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+... after having been successfully primed by this one some weeks ago (because locals!):
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I also recommend <a href="https://t.co/pILlM1OZpf">https://t.co/pILlM1OZpf</a>. I was skeptical, but it’s surprisingly good.</p>&mdash; Rian van der Merwe (@RianVDM) <a href="https://twitter.com/RianVDM/status/811955081201319936?ref_src=twsrc%5Etfw">December 22, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script
 
-&#8230; after having been successfully primed by this one some weeks ago (because locals!):
-
-<blockquote class="twitter-tweet" data-width="550">
-  <p lang="en" dir="ltr">
-    <a href="https://twitter.com/gvrooyen">@gvrooyen</a> <a href="https://twitter.com/simondlr">@simondlr</a> I also recommend <a href="https://t.co/pILlM1OZpf">https://t.co/pILlM1OZpf</a>. I was skeptical, but it’s surprisingly good.
-  </p>
-  
-  <p>
-    &mdash; Rian Van Der Merwe (@RianVDM) <a href="https://twitter.com/RianVDM/status/811955081201319936">December 22, 2016</a>
-  </p>
-</blockquote>
-
-
-
-&#8230;I bought and then devoured [Deep Work by Cal Newport][2] in two to three sessions.
+... I bought and then devoured [Deep Work by Cal Newport][2] in two to three sessions.
 
 As I munched through the book, I could almost physically sense the impact it was making on my thought patterns. I have since spent another Deep Work Pomodoro scanning through its pages again to make sure I did not miss anything.
 
-Deep Work is at its heart Cal Newport&#8217;s passionate argument for Deep Work in this extremely fragmented and highly connected information age. He defines Deep Work as:
+Deep Work is at its heart Cal Newport's passionate argument for Deep Work in this extremely fragmented and highly connected information age. He defines Deep Work as:
 
 > Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.
 
@@ -60,29 +41,29 @@ Although the book cites a number of studies, storytelling is its main persuasive
 
 I have resolved to put in a massive effort to get my Deep Work muscles back in top form.
 
-I _knew_ all of this stuff before. Heck, I&#8217;ve even written on this blog about [deprioritising communication to make room for important things][3], [minimising interruptions and maximising concentration][4] and more (use the search Luke).
+I _knew_ all of this stuff before. Heck, I've even written on this blog about [deprioritising communication to make room for important things][3], [minimising interruptions and maximising concentration][4] and more (use the search Luke).
 
-Somehow, maybe because of my transition to business, I&#8217;ve slipped back into the illusion that you have to be connected all the time. On an average workday, I have email, two instances of slack, one instance of mattermost and whatsapp all open on my desktop, just in case I need to be reached. (To be clear, there&#8217;s a great deal of messages that go through them every day, so it&#8217;s not just me sitting there waiting in vain for someone, anyone, to please send me a message.)
+Somehow, maybe because of my transition to business, I've slipped back into the illusion that you have to be connected all the time. On an average workday, I have email, two instances of slack, one instance of mattermost and whatsapp all open on my desktop, just in case I need to be reached. (To be clear, there's a great deal of messages that go through them every day, so it's not just me sitting there waiting in vain for someone, anyone, to please send me a message.)
 
-Contrary to what I&#8217;ve convinced myself of, these tools all detract significantly from my value production, both in terms of quality and throughput.
+Contrary to what I've convinced myself of, these tools all detract significantly from my value production, both in terms of quality and throughput.
 
-# Structure and summary of the book
+## Structure and summary of the book
 
 In Part 1, Newport tries to convince you of the value and necessity of Deep Work. The take-home message is that in order to excel at learning and at doing especially in the current interruption and distraction filled information age, we need unfragmented periods of distraction-free concentration, during which we push our cognition to the limit.
 
-When I say it like that, it seems pretty obvious, doesn&#8217;t it?
+When I say it like that, it seems pretty obvious, doesn't it?
 
-Phrased differently, the great fallacy of current times is that one can perform at one&#8217;s best whilst being hyper-connected.
+Phrased differently, the great fallacy of current times is that one can perform at one's best whilst being hyper-connected.
 
-One can&#8217;t.
+One can't.
 
-Even worse, if we continue doing it this way, we&#8217;ll start losing our ability to focus.
+Even worse, if we continue doing it this way, we'll start losing our ability to focus.
 
 In Part 2, Newport gives high-level advice towards implementing Deep Work, packaged as the four rules of Deep Work:
 
   1. Work deeply: More about this further down.
   2. Embrace boredom: Avoid busywork. That is, when you have a few minutes waiting in line somewhere, use the time to think instead of reaching for your smartphone.
-  3. Quit social media: EEEKE! Don&#8217;t worry, it&#8217;s slightly more complicated, but &#8220;manage social media&#8221; would not have had the same impact.)
+  3. Quit social media: EEEKE! Don't worry, it's slightly more complicated, but &#8220;manage social media&#8221; would not have had the same impact.)
   4. Drain the shallows: Squeeze out as much as possible shallow work from your schedule. Focus work should be the default, distractions (shallow work) the exception.
 
 In terms of scheduling, rule #1 can be implemented in at least four different ways: monastic (isolate yourself almost permanently), bimodal (isolate yourself some of the time, but for significant periods, e.g. a month sabbatical), rhythmic (integrate into your schedule at set times during the day every day), journalistic (cultivate the ability to work deeply whenever you get a moment).
@@ -96,13 +77,13 @@ More practically, rule #1 (&#8220;Work Deeply&#8221;, remember?!) can be impleme
   3. Keep a compelling scoreboard: Create some modality with which you can see clearly your daily deep work performance.
   4. Create a cadence of accountability: Your daily or weekly routine should ensure that you review your work, and your deep work performance via the scoreboard for example.
 
-# How I&#8217;m planning to apply Deep Work
+## How I'm planning to apply Deep Work
 
-In the book Newport reiterates an important observation: We humans have limited stores of will power. These can and will get depleted through the day if we&#8217;re not careful.
+In the book Newport reiterates an important observation: We humans have limited stores of will power. These can and will get depleted through the day if we're not careful.
 
 If it takes too much conscious effort to avoid distractions and to stay focused on the mentally taxing task at hand, our will power is depleted at some point and then our defences crumble.
 
-Before you know it, you&#8217;re stuck in that super satisfying (not) email, twitter, facebook, reddit, email, twitter, whatsapp, slack loop again.
+Before you know it, you're stuck in that super satisfying (not) email, twitter, facebook, reddit, email, twitter, whatsapp, slack loop again.
 
 An effective remedy for this is ritualization.
 
@@ -112,21 +93,21 @@ Fortunately, because of a choice I made in 2013, my work already involves spendi
 
 I will eliminate distractions by:
 
-  * Using the pomodoro method (as I&#8217;ve been doing all this time, just badly).
-  * Extending the length of the 25 minute pomodoro. If I&#8217;m in the deep work flow, I&#8217;ll continue past the 25 minute alarm. A longer break can be taken later.
-  * Activating my phone&#8217;s no distraction mode during pomodori. Only phone calls get through, nothing else.
+  * Using the pomodoro method (as I've been doing all this time, just badly).
+  * Extending the length of the 25 minute pomodoro. If I'm in the deep work flow, I'll continue past the 25 minute alarm. A longer break can be taken later.
+  * Activating my phone's no distraction mode during pomodori. Only phone calls get through, nothing else.
   * Killing my email app and all browser tabs that have to do with real-time communication (slack, mattermost, whatsapp, and so on).
-  * Just in case, pasting a list of time-wasting site hostnames into my uBlock Origin&#8217;s &#8220;My Filters&#8221; list.
+  * Just in case, pasting a list of time-wasting site hostnames into my uBlock Origin's &#8220;My Filters&#8221; list.
 
 Besides that, I am recording deep work by prepending one of D0, D1, &#8230; D5 to the mytomatoes.com pomodoro description, corresponding to the spectrum from shallow to most deep work.
 
 Thanks to [veronikach.com][5], I am using [focus@will][6] which helps tremendously with my concentration in the sometimes busy office.
 
-Newport explains that most people can manage a maximum of four hours per day of truly deep work. Furthermore, for many people, it is most effective to schedule creative and deep work for the morning, and shallow work (email, admin, meetings etc.) for the afternoon. For a longer time I have been following the guideline of scheduling meetings for the afternoon, so now I&#8217;ll strengthen that by trying to get my deep work done in the morning, leaving shallow work for the afternoon as far as possible.
+Newport explains that most people can manage a maximum of four hours per day of truly deep work. Furthermore, for many people, it is most effective to schedule creative and deep work for the morning, and shallow work (email, admin, meetings etc.) for the afternoon. For a longer time I have been following the guideline of scheduling meetings for the afternoon, so now I'll strengthen that by trying to get my deep work done in the morning, leaving shallow work for the afternoon as far as possible.
 
 Finally, I think that probably the most important advice here is to practise, practise and then practise some more.
 
-# Conclusion
+## Conclusion
 
 This could very well be due to my own bias, but if I had to describe Deep Work as compactly as possible, I would have to say that it comes down to &#8220;mindful action&#8221;.
 
