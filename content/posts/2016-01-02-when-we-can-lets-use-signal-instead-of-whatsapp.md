@@ -29,12 +29,14 @@ because I want to inter-operate with the rest of the world.
 
 However, WhatsApp belongs to Facebook.
 
-Although Facebook [has promised otherwise][1], the temptation to link all of
-your WhatsApp messages with Facebook logins (a straight-forward process, as
-they have the mobile phone numbers of a great number of their users) must be
-**quite** tempting to the people at Facebook. Imagine how well they would then
-be able to target their advertising, based on their access to both your
-Facebook profile and your private WhatsApp messages!
+Although Facebook [has promised otherwise][1] (fast-forward a few years: Yes,
+they did break that promise. See updates at the end of this post.), the
+temptation to link all of your WhatsApp messages with Facebook logins (a
+straight-forward process, as they have the mobile phone numbers of a great
+number of their users) must be **quite** tempting to the people at
+Facebook. Imagine how well they would then be able to target their advertising,
+based on their access to both your Facebook profile and your private WhatsApp
+messages!
 
 Fortunately, we now have an open source app, called [Signal][2] (available on
 [Android][3], [IOS][4] and the desktop), which performs end-to-end encryption
@@ -54,7 +56,7 @@ by default less secure than Signal). See here the results of my experiments:
 
 # Updates
 
-## January 7, 2021
+## January 8, 2021
 
 By now, if you use WhatsApp, the app will have forced you to accept the new
 privacy and data sharing agreement.
@@ -80,7 +82,7 @@ meaning that both parties will get a tremendous boost in what they know about
 you. I don't want to say I told you so, but I told you so. ;)
 
  [1]: http://www.huffingtonpost.com/2014/02/24/zuckerberg-facebook-whatsapp_n_4848205.html
- [2]: https://whispersystems.org/
+ [2]: https://signal.org/
  [3]: https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&hl=en
  [4]: https://itunes.apple.com/za/app/signal-private-messenger/id874139669?mt=8
  [5]: https://theintercept.com/2015/03/02/signal-iphones-encrypted-messaging-app-now-supports-text/
