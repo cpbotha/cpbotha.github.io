@@ -14,25 +14,21 @@ tags:
 ---
 _WARNING: **EXTREME** PC hardware-related nerdiness ahead. Read at your own risk._ 
 
-My most awesome employer to date (that&#8217;s [the vxlabs][1] of course!) decided to treat me with a brand new workstation. On Tuesday, February 10 of the year 2015 the new desktop PC arrived. (Around these parts, we have a long tradition of writing about new computer acquisitions, see for example [2002][2], [2004][3], [2006][4], [2008][5], [2009][6], [2010][7], [2011][8] or [2013][9].) 
+My most awesome employer to date (that’s [the vxlabs][1] of course!) decided to treat me with a brand new workstation. On Tuesday, February 10 of the year 2015 the new desktop PC arrived. (Around these parts, we have a long tradition of writing about new computer acquisitions, see for example [2002][2], [2004][3], [2006][4], [2008][5], [2009][6], [2010][7], [2011][8] or [2013][9].) 
 
 Because this event has sparked quite some interest amongst the various groups reading this blog, management has decided to present workstation-related information in a Q and A format. 
 
-<div class="figure">
-  <p>
-    <a href="http://cpbotha.net/wp-content/uploads/2015/02/wpid-meepz97_exposed.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img src="http://cpbotha.net/wp-content/uploads/2015/02/wpid-meepz97_exposed-249x300.jpg" /></a>
-  </p></p>
-</div>
+{{< figure src="/wp-content/uploads/2015/02/wpid-meepz97_exposed.jpg" link="/wp-content/uploads/2015/02/wpid-meepz97_exposed.jpg" >}}
 
 ## Say what?! A desktop PC and not a laptop??!
 
-Yes people, it&#8217;s an actual desktop PC, not a laptop. They&#8217;re big boxy things that eat laptops for breakfast and they really appeal to old-school nerds like me. Plus, when I go to work at the coffee shop around the corner with a ginormous black midtower PC under my arm instead of some far-too-easy-to-carry mac laptop, the other hipsters have no choice but to concede that <i>I</i> am their new king.
+Yes people, it’s an actual desktop PC, not a laptop. They’re big boxy things that eat laptops for breakfast and they really appeal to old-school nerds like me. Plus, when I go to work at the coffee shop around the corner with a ginormous black midtower PC under my arm instead of some far-too-easy-to-carry mac laptop, the other hipsters have no choice but to concede that <i>I</i> am their new king.
 
 (Beautiful and thin laptops have become completely mainstream. Even that erstwhile PC-toting bro with his suit supply suit and his excel spreadsheets and his outlook email now has one. Hehe.)
 
 ## What exactly do you have in that big black box?
 
-I&#8217;m so happy you asked. Sensitive readers might want to look away, because this is going to get fairly graphical. I hand-picked all components from the limited set available to us this far south on the African continent. This is what I came up with:
+I’m so happy you asked. Sensitive readers might want to look away, because this is going to get fairly graphical. I hand-picked all components from the limited set available to us this far south on the African continent. This is what I came up with:
 
 - One hundred and twenty rainbows.
 - Fifty growth-hormone boosted angry unicorns, with twenty spares.
@@ -62,15 +58,15 @@ Anandtech <a href="http://www.anandtech.com/show/8216/samsung-ssd-850-pro-128gb-
 > regardless of the angle you look at the drive from, it will still top the
 > charts.
 
-(My employer is still smarting a little bit from the cost angle however. I&#8217;ll work extra hard to compensate.)
+(My employer is still smarting a little bit from the cost angle however. I’ll work extra hard to compensate.)
 
 ## Are you disappointed that having to encrypt the SSD will slow it down?
 
 Fortunately, this drive also has hardware-based full disc encryption built right in. A further major improvement over my previously favourite drives which also have hardware support for encryption, the Intel 520 SSDs, is that the Samsung 850 PRO supports the TCG Opal 2.0 standard for the configuration and unlocking of the drive encryption.
 
-In short, all data that touches the drive is transparently encrypted, at over 500 megabytes / second (!!). When the PC boots up, it asks me for my decryption password. If I get it right, the drive unlocks itself; if I don&#8217;t it does not. If anyone (I&#8217;m not paranoid, they really ARE out to get me!) gets access to my PC by whichever means, they will most probably not be able see one bit of my or my client&#8217;s data.
+In short, all data that touches the drive is transparently encrypted, at over 500 megabytes / second (!!). When the PC boots up, it asks me for my decryption password. If I get it right, the drive unlocks itself; if I don’t it does not. If anyone (I’m not paranoid, they really ARE out to get me!) gets access to my PC by whichever means, they will most probably not be able see one bit of my or my client’s data.
 
-If you&#8217;re interested, you can find much more detail about how this works, and I how I configured it using open source tools, in <a href="http://vxlabs.com/2015/02/11/use-the-hardware-based-full-disk-encryption-your-tcg-opal-ssd-with-msed/">this other post I wrote over at vxlabs.com</a>.
+If you’re interested, you can find much more detail about how this works, and I how I configured it using open source tools, in <a href="http://vxlabs.com/2015/02/11/use-the-hardware-based-full-disk-encryption-your-tcg-opal-ssd-with-msed/">this other post I wrote over at vxlabs.com</a>.
 
 ## Are you happy now?
 

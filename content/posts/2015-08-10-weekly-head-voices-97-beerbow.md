@@ -21,37 +21,31 @@ tags:
 This, the ninety seventh edition of the WHV, looks back at the week of Monday August 3 to Sunday August 9, 2015. 
 
 <div class="figure">
-  <p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Brainbow_(Lichtman_2008).jpg" alt="Brainbow_(Lichtman_2008).jpg" />
-  </p></p>
+<p>
+<img alt="Brainbow_(Lichtman_2008).jpg" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Brainbow_(Lichtman_2008).jpg"/>
+</p>
 </div>
-
 <ul class="org-ul">
-  <li>
-    <a href="https://en.wikipedia.org/wiki/John_Scalzi">John Scalzi</a> (famous and successful SciFi author) describes how he works in <a href="http://lifehacker.com/im-john-scalzi-and-this-is-how-i-work-1720935145">this post on lifehacker</a>. What I found really interesting was that when he&#8217;s working on a book or other project, he switches off the internet between 8 and noon.
+<li>
+<a href="https://en.wikipedia.org/wiki/John_Scalzi">John Scalzi</a> (famous and successful SciFi author) describes how he works in <a href="http://lifehacker.com/im-john-scalzi-and-this-is-how-i-work-1720935145">this post on lifehacker</a>. What I found really interesting was that when he’s working on a book or other project, he switches off the internet between 8 and noon.
   </li>
-  <li>
-    I just discovered that <a href="https://en.wikipedia.org/wiki/Four_Tet">Four Tet&#8217;s</a> mom is South African-born.
+<li>
+    I just discovered that <a href="https://en.wikipedia.org/wiki/Four_Tet">Four Tet’s</a> mom is South African-born.
   </li>
-  <li>
-    This week my work time was divided between having to analyse someone else&#8217;s quite complex application and bits of their domain in order to implement new features on the one hand, and designing a new relational data representation for <a href="https://en.wikipedia.org/wiki/Provenance#Data_provenance">workflow provenance</a> on the other. I perceived both of these activities as challenging, and hence (I think) my work week as very satisfying.
+<li>
+    This week my work time was divided between having to analyse someone else’s quite complex application and bits of their domain in order to implement new features on the one hand, and designing a new relational data representation for <a href="https://en.wikipedia.org/wiki/Provenance#Data_provenance">workflow provenance</a> on the other. I perceived both of these activities as challenging, and hence (I think) my work week as very satisfying.
   </li>
-  <li>
-    After the whole day programming at work, I often relax at home in the evenings by programming some more. I&#8217;ve noticed that the after-dinner beer (or two) make architectural and design-level work more challenging.
+<li>
+    After the whole day programming at work, I often relax at home in the evenings by programming some more. I’ve noticed that the after-dinner beer (or two) make architectural and design-level work more challenging.
   </li>
-  <li>
-    On the topic of programming for relaxation, this weekend I had the feeling that my longest-running side-project was finally getting off the ground, at least technically. When it grows up, it really wants to be a non-linear graphical personal knowledge management tool &#x2013; the crazy and colourful glue linking together all of your digital stuff.
+<li>
+    On the topic of programming for relaxation, this weekend I had the feeling that my longest-running side-project was finally getting off the ground, at least technically. When it grows up, it really wants to be a non-linear graphical personal knowledge management tool – the crazy and colourful glue linking together all of your digital stuff.
   </li>
-  <li>
+<li>
     On the topic of beer, I made you a photo of my weekend craft beer (the <a href="http://www.jackblackbeer.com/#skeleton-coast">Skeleton Coast IPA by Jack Black</a>) <i>with a rainbow in the background</i>. I call it a <b>beerbow</b>:
   </li>
 </ul>
-
-<div class="figure">
-  <p>
-    <a href="http://cpbotha.net/wp-content/uploads/2015/08/wpid-skeleton_coast_ipa_rainbow.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img src="http://cpbotha.net/wp-content/uploads/2015/08/wpid-skeleton_coast_ipa_rainbow-169x300.jpg" alt="skeleton_coast_ipa_rainbow.jpg" /></a>
-  </p></p>
-</div>
+{{< figure src="/wp-content/uploads/2015/08/wpid-skeleton_coast_ipa_rainbow.jpg" link="/wp-content/uploads/2015/08/wpid-skeleton_coast_ipa_rainbow.jpg" >}}
 
 Have a great week everyone! 
 
