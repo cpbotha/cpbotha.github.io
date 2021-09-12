@@ -24,14 +24,14 @@ I thought that I had _nothing_ for the two weeks from Monday January 18 to Sund
 
 If you're like me, you stop two to three chips short of finishing the packet so that you can explain to your conscience that you didn't finish the _whole_ thing. However, once or twice in my life, I've been faced with the terrifying conundrum of a partially finished packet of chips, but no way to seal the packet for later utilisation. Readers, agonise no more! Learn from this animated demonstration:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="ZZwR7cQ"><a href="//imgur.com/ZZwR7cQ">How to seal a bag of chips without a clip</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" data-id="ZZwR7cQ" lang="en"><a href="//imgur.com/ZZwR7cQ">How to seal a bag of chips without a clip</a></blockquote><script async="" charset="utf-8" src="//s.imgur.com/min/embed.js"></script>
 
 ## Music
 
 A musically inclined colleague recently suggested I try out [In Colour][1], the 2015 studio album by [Jamie XX][2]. After multiple listens, I can only highly recommend that you too try this out on your favourite music source. I'm currently on Apple Music, because it is currently the best way for me and my whole family to get access to all the music we can eat. What a time to be alive! Below is one of my favourite tracks from the album:
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/cumIVrQN5QM?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/cumIVrQN5QM?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
 ## Irrelevant miscellany, for my OCD
@@ -42,7 +42,7 @@ For the Saff Efricans reading this: [When Afrihost announced that they were goin
 
 ## Backyard linguistics
 
-Millenials, or Generation Y, are humans that were born anywhere from the early 80s to the early 2000s. As a backyard anthropologist, one of my favourite articles about millenials is [&#8220;Why Generation Y Yuppies Are Unhappy&#8221; by Tim Urban][5] on the Wait but Why blog. However, I found this recent article by Jeff Guo titled [&#8220;The totes amazesh way millennials are changing the English language&#8221;][6] at the Washington Post even more fascinating.
+Millenials, or Generation Y, are humans that were born anywhere from the early 80s to the early 2000s. As a backyard anthropologist, one of my favourite articles about millenials is [“Why Generation Y Yuppies Are Unhappy” by Tim Urban][5] on the Wait but Why blog. However, I found this recent article by Jeff Guo titled [“The totes amazesh way millennials are changing the English language”][6] at the Washington Post even more fascinating.
 
 It turns out that millenials have introduced new forms like _totes delish_ (most delicious), _abbreviash_ (abbreviation), _appreesh_ (appreciate) and many more brilliant inventions into the English language. It's fantastic seeing a language evolve like this, especially now that the internet and the hyper-connected humans on it are acting as such a powerful catalyst, and simultaneously as an instrument of observation, or should I say _observash_?
 

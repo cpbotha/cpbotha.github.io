@@ -15,16 +15,16 @@ tags:
   - swift
 
 ---
-[Swift][1] is a new high-performance compiled language designed by Apple. I&#8217;ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux. 
+[Swift][1] is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux. 
 
-Some of you are probably able to appreciate the irony of me writing a blog post about Apple&#8217;s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple&#8217;s good work. 
+Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work. 
 
-In this post I&#8217;m going to chat about _closure expression syntax_, in the process showing you IBM&#8217;s Swift Sandbox, an online tool for experimenting with Swift. 
+In this post I’m going to chat about _closure expression syntax_, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift. 
 
-Let&#8217;s start with a simple example (slightly modified from [Apple&#8217;s documentation on Swift closures][2]) for sorting a list of strings in reverse alphabetical order: 
+Let’s start with a simple example (slightly modified from [Apple’s documentation on Swift closures][2]) for sorting a list of strings in reverse alphabetical order: 
 
 <div class="org-src-container">
-  <pre class="src src-swift"><span style="color: #7F9F7F;">// names will be constaint, so we use let and not var</span>
+<pre class="src src-swift"><span style="color: #7F9F7F;">// names will be constaint, so we use let and not var</span>
 <span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
 
 <span style="color: #7F9F7F;">// function taking two parameters and returning boolean</span>
@@ -38,9 +38,9 @@ print(<span style="color: #CC9393;">"Reversed alpha:"</span>, reversed)
 </pre>
 </div>
 
-That&#8217;s a complete compilable program in Swift, which you can run directly in your browser by clicking [here][3]. 
+That’s a complete compilable program in Swift, which you can run directly in your browser by clicking [here][3]. 
 
-We use `let` to define a list of strings. Swift is strongly-typed, but in this case it simply infers the type of the `names` variable from the value that&#8217;s assigned to it. MAGIC! 
+We use `let` to define a list of strings. Swift is strongly-typed, but in this case it simply infers the type of the `names` variable from the value that’s assigned to it. MAGIC! 
 
 If we were planning to change the value of the `names` list at some point, we would have had to use `var` (mutable) instead of `let` (immutable). 
 
@@ -48,12 +48,12 @@ We then define a function called `backwards` that takes two strings, and returns
 
 `sort()` can be seen as a higher order function that takes the `backwards()` function as one of its inputs, and uses it to do its work. 
 
-Since we&#8217;re only using the `backwards()` function once, it would have been pretty convenient if there were some way to define it more compactly and in-place. 
+Since we’re only using the `backwards()` function once, it would have been pretty convenient if there were some way to define it more compactly and in-place. 
 
-This is exactly what Swift&#8217;s `closure expression syntax` is for. Here&#8217;s the above code, with the `backwards()` function written as a closure expression: 
+This is exactly what Swift’s `closure expression syntax` is for. Here’s the above code, with the `backwards()` function written as a closure expression: 
 
 <div class="org-src-container">
-  <pre class="src src-swift"><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<pre class="src src-swift"><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
 
 <span style="color: #7F9F7F;">// closure expression syntax for inline anonymous function:</span>
 <span style="color: #7F9F7F;">// { (args) -&gt; returnType in statements }</span>
@@ -65,12 +65,12 @@ print(<span style="color: #CC9393;">"Reversed:"</span>, reversed)
 
 (You can run this Swift code in your browser by clicking [here][4].) 
 
-Instead of having to define and name a separate function, we can specify a function in the exact spot where it&#8217;s needed, using _closure expression syntax_ i.e.: `{ (parameters) -> returnType in statements }`. 
+Instead of having to define and name a separate function, we can specify a function in the exact spot where it’s needed, using _closure expression syntax_ i.e.: `{ (parameters) -> returnType in statements }`. 
 
 For you Python-heads out there (MY PEOPLE!), the above code can be written in Python as follows: 
 
 <div class="org-src-container">
-  <pre class="src src-python"><span style="color: #DFAF8F;">names</span> = [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<pre class="src src-python"><span style="color: #DFAF8F;">names</span> = [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
 
 <span style="color: #DCDCCC; font-weight: bold;">reversed</span> = <span style="color: #DCDCCC; font-weight: bold;">sorted</span>(
 <span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   names,
@@ -80,15 +80,11 @@ For you Python-heads out there (MY PEOPLE!), the above code can be written in Py
 </pre>
 </div>
 
-In Python, `lambda` is used to specify anonymous function objects (our closure expression syntax, in other words). The compare function is defined differently, which is why it&#8217;s somewhat more complicated, but the principle is the same. 
+In Python, `lambda` is used to specify anonymous function objects (our closure expression syntax, in other words). The compare function is defined differently, which is why it’s somewhat more complicated, but the principle is the same. 
 
 Whilst typing this blog, I downloaded Swift 2.2 from the [open source download site][5] and installed it on my Ubuntu 14.04 laptop (the internet is so slow over here, we have to multi-task to stay sane). After compiling both the examples using `swiftc whatever.swift`, the resulting binaries are about 21 Kbytes each (they are dynamically linked to a number of system libraries, and the 5M `libswiftCore.so`). 
 
-<div class="figure">
-  <p>
-    <a href="https://cpbotha.net/wp-content/uploads/2016/01/swift-sort-binaries.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img src="https://cpbotha.net/wp-content/uploads/2016/01/swift-sort-binaries-300x82.png" alt="swift-sort-binaries.png" /></a>
-  </p></p>
-</div>
+{{< figure src="/wp-content/uploads/2016/01/swift-sort-binaries.png" link="/wp-content/uploads/2016/01/swift-sort-binaries.png" >}}
 
 The Swift language is open source, is already available for Linux, has a number of really compelling modern language features of which closure expressions are just one example (other interesting examples include optional types and protocol extensions), is statically typed with good type inference, and has a good compiler. For these reasons, it should be strongly considered for a permanent spot in your compiled language toolbox! 
 

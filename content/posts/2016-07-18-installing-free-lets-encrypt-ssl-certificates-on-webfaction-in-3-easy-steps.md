@@ -26,23 +26,23 @@ official [certbot tool](https://certbot.eff.org/).**
 
 **WARNING: High levels of NERD ahead.** 
 
-I started using CloudFlare&#8217;s free tier on this blog, before Let&#8217;s Encrypt burst onto the scene, mostly for their [universal SSL][1]. However, as joepie91 [recently pointed out][2], this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case). Apart from this, CloudFlare is a bit of overkill for this low-traffic site. 
+I started using CloudFlare’s free tier on this blog, before Let’s Encrypt burst onto the scene, mostly for their [universal SSL][1]. However, as joepie91 [recently pointed out][2], this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case). Apart from this, CloudFlare is a bit of overkill for this low-traffic site. 
 
 <div class="figure">
-  <p>
-    <a href="https://letsencrypt.org/"><img src="https://letsencrypt.org/images/le-logo-standard.png" alt="le-logo-standard.png" /></a>
-  </p></p>
+<p>
+<a href="https://letsencrypt.org/"><img alt="le-logo-standard.png" src="https://letsencrypt.org/images/le-logo-standard.png"/></a>
+</p>
 </div>
 
-Because I don&#8217;t need much of an excuse to try out something new, I used this as my excuse to try out [Let&#8217;s Encrypt][3], a fantastic new(ish) service which issues free 90 day certificates to anyone who can verify their domains. 
+Because I don’t need much of an excuse to try out something new, I used this as my excuse to try out [Let’s Encrypt][3], a fantastic new(ish) service which issues free 90 day certificates to anyone who can verify their domains. 
 
-I was shocked with how easy this was on the webfaction shared (non root) hosting I&#8217;ve been using for years, and so I had to share. 
+I was shocked with how easy this was on the webfaction shared (non root) hosting I’ve been using for years, and so I had to share. 
 
 **WITNESS THE GREAT EASINESS:** 
 
 ## Step 1: Install acme.sh
 
-These two steps are to be performed whilst SSH&#8217;d in to your web host.
+These two steps are to be performed whilst SSH’d in to your web host.
 
 First we install <a href="https://github.com/Neilpang/acme.sh">the wonderful acme.sh</a> by following the one-liner on its website:
 
@@ -50,7 +50,7 @@ First we install <a href="https://github.com/Neilpang/acme.sh">the wonderful acm
 curl https://get.acme.sh | sh
 '''
 
-At this junction, as they say, it&#8217;s best to log out and in again, so that the acme.sh alias and environment variable can be setup.
+At this junction, as they say, it’s best to log out and in again, so that the acme.sh alias and environment variable can be setup.
 
 ## Step 2: Issue shiny new SSL certificate
 
@@ -60,7 +60,7 @@ We then get <code>acme.sh</code> to verify the website using the webroot method,
 acme.sh --issue -d cpbotha.net -d www.cpbotha.net -w ~/webapps/wp
 ```
 
-The argument following <code>-w</code> is the directory exposed by the website <code>http://cpbotha.net/</code>. Note that this is still <code>http</code>; Let&#8217;s Encrypt queries a special file left there by acme.sh to confirm that you actually manage the specified domain.
+The argument following <code>-w</code> is the directory exposed by the website <code>http://cpbotha.net/</code>. Note that this is still <code>http</code>; Let’s Encrypt queries a special file left there by acme.sh to confirm that you actually manage the specified domain.
 
 After a few seconds of progress output, I was left with a shiny certificate (as well as the CSR, key, and so forth) in <code>~/.acme.sh/cpbotha.net/</code>
 
@@ -69,7 +69,7 @@ After a few seconds of progress output, I was left with a shiny certificate (as 
 On Webfaction, one has to file a support ticket for this. My request was formulated thusly, and was correctly acted upon in about 5 minutes:
 
 
-> Could you please install the following SSL certificate for the website cpbotha_SSL &#8211; reachable at <a href="https://cpbotha.net/">https://cpbotha.net/</a>:
+> Could you please install the following SSL certificate for the website cpbotha_SSL – reachable at <a href="https://cpbotha.net/">https://cpbotha.net/</a>:
 >
 > - cert is in <code>/home/cpbotha/.acme.sh/cpbotha.net/cpbotha.net.cer</code>
 > - key is in <code>/home/cpbotha/.acme.sh/cpbotha.net/cpbotha.net.key</code>
@@ -83,7 +83,7 @@ On Webfaction, one has to file a support ticket for this. My request was formula
 
 It is now possible to install the new certs all by yourself using the webfaction panel or the API! Read the <a href="https://blog.webfaction.com/2016/09/manage-ssl-certificates-with-the-control-panel/">announcement blog post</a> for more information.
 
-## Bonus level: In 90 &#8211; k days, simply re-run acme.sh
+## Bonus level: In 90 – k days, simply re-run acme.sh
 
 At any point, you can request certificates for any other domains that you may be hosting on your webfaction.
 
@@ -105,7 +105,7 @@ Unbeknownst to be (I should have read the docs) acme.sh had cleverly installed a
 Now that I have my SSL setup, I would prefer for users who go to the HTTP site to be 301 forwarded to the HTTPS version. On Webfaction, I can do that with the following addition to the site <code>.htaccess</code> file:
 
 <div class="org-src-container">
-      <pre class="src src-html">&lt;<span style="color: #93E0E3;">IfModule</span> mod_rewrite.c&gt;
+<pre class="src src-html">&lt;<span style="color: #93E0E3;">IfModule</span> mod_rewrite.c&gt;
 RewriteEngine On
 # we're behind nginx ssl proxy, hence the non-standard check for no-SSL:
 RewriteCond %{HTTP:X-Forwarded-SSL} !on
@@ -113,7 +113,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 &lt;/<span style="color: #93E0E3;">IfModule</span>&gt;
 </pre>
 </div>
-
 <b>Important:</b> webfaction is using nginx as their SSL frontend, so we check for the X-Forwarded-SSL header.
 
  [1]: https://blog.cloudflare.com/introducing-universal-ssl/

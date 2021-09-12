@@ -21,7 +21,7 @@ tags:
 _(Post updated on January 8, 2021. See section at the end.)_
 
 <figure>
-<img src="https://whispersystems.org/blog/images/signal-new.jpg" alt="Screenshot of Signal." />
+<img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
 <figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
 
 The whole world is using WhatsApp to message each other. I often do too,
@@ -52,7 +52,7 @@ extremely important topic: Signal handles animated gifs better than WhatsApp,
 at least on Android. (Telegram supports them on both Android on IOS, but it is
 by default less secure than Signal). See here the results of my experiments:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Animated GIF support (most important feature in any messaging app): WhatsApp fail, Viber fail, Telegram pass, Signal pass on Android.</p>&mdash; Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/682942239463587841?ref_src=twsrc%5Etfw">January 1, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Animated GIF support (most important feature in any messaging app): WhatsApp fail, Viber fail, Telegram pass, Signal pass on Android.</p>— Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/682942239463587841?ref_src=twsrc%5Etfw">January 1, 2016</a></blockquote> <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
 
 # Updates
 
