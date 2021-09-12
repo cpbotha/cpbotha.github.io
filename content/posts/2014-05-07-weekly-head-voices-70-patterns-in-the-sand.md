@@ -23,9 +23,9 @@ I want you to read this quote by Richard Dawkins, taken from the God Delusion:
 
 > Think of an experience from your childhood. Something you remember clearly, something you can see, feel, maybe even smell, as if you were really there. After all you really were there at the time, weren’t you?
 > 
-> How else could you remember it? But here is the bombshell: you weren’t there. Not a single atom that is in your body today was there when that event took place &#8230;. Matter flows from place to place and momentarily comes together to be you. Whatever you are, therefore, you are not the stuff of which you are made. If that does not make the hair stand up on the back of your neck, read it again until it does, because it is important.
+> How else could you remember it? But here is the bombshell: you weren’t there. Not a single atom that is in your body today was there when that event took place …. Matter flows from place to place and momentarily comes together to be you. Whatever you are, therefore, you are not the stuff of which you are made. If that does not make the hair stand up on the back of your neck, read it again until it does, because it is important.
 
-Do read it again. It&#8217;s a pretty mind-expanding realization.
+Do read it again. It’s a pretty mind-expanding realization.
 
 However, reality is perhaps even more mind-bending than you might already think. I looked up the original work on this phenomenon by Aebersold, published in the [1953 Annual Report of the Smithsonian Institution][1]. On page 232 he wrote (emphasis mine):
 

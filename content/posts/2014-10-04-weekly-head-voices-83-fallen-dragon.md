@@ -21,8 +21,7 @@ I'm still trying to find my way home out of wild deadline country (WDC), so I ho
 ## Software babies out in the real world
 
 It's great when that software system you've been designing gets used by real
-people in the real world. Check out <a
-href="http://www.nhls.ac.za/?page=news&#038;id=4&#038;rid=398">this press
+people in the real world. Check out <a href="http://www.nhls.ac.za/?page=news&amp;id=4&amp;rid=398">this press
 release</a> by the <a href="http://www.nhls.ac.za/">National Health Laboratory
 Service (NHLS)</a>: Together with the <a href="http://www.csir.co.za/">Council
 for Scientific and Industrial Research (CSIR)</a> they are building a national
@@ -31,9 +30,7 @@ eh?!
 
 See the screenshot at the bottom of the press release:
 
-<figure>
-<a href="http://cpbotha.net/wp-content/uploads/2014/10/wpid-nhls_digital_morphology.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img src="http://cpbotha.net/wp-content/uploads/2014/10/wpid-nhls_digital_morphology-168x300.png" /></a>
-</figure>
+{{< figure src="/wp-content/uploads/2014/10/wpid-nhls_digital_morphology.png" link="/wp-content/uploads/2014/10/wpid-nhls_digital_morphology.png" >}}
     
 It's highly probable that the software you see running on the tablet and on the
 screen behind it was programmed by the very fingers typing this blog post, and
@@ -44,11 +41,9 @@ about soon. (By the way, PYTHON. :)
 
 ## Two science fiction recommendations
 
-I finished Peter Hamilton's <a
-href="http://en.wikipedia.org/wiki/Fallen_Dragon">Fallen Dragon</a>. I'm a
+I finished Peter Hamilton's <a href="http://en.wikipedia.org/wiki/Fallen_Dragon">Fallen Dragon</a>. I'm a
 sucker for space opera, and I thought that I'd already read everything that
-Hamilton wrote, but <a
-href="http://cpbotha.net/2014/08/07/weekly-head-voices-80-there-can-be-only-one/#comment-148198">regular
+Hamilton wrote, but <a href="http://cpbotha.net/2014/08/07/weekly-head-voices-80-there-can-be-only-one/#comment-148198">regular
 commenter and old friend R brought this one to my attention</a>. Some dollars
 exchanged hands (well, actually I authorized a credit card transaction to pay
 Amazon, but dollars changing hands sounds better) and I was off. It's a
@@ -63,8 +58,7 @@ space ship" story, by the end of which I had a slight eye-moisture
 problem to contend with. Highly recommended!
 
 Based on a random recommendation by <a href="http://twitter.com/xsyn">@xsyn</a>
-on FB, I picked up and absolutely could not put down <a
-href="http://en.wikipedia.org/wiki/Blindsight_(Watts_novel)">Blindsight</a> by
+on FB, I picked up and absolutely could not put down <a href="http://en.wikipedia.org/wiki/Blindsight_(Watts_novel)">Blindsight</a> by
 Peter Watts. Hard science fiction is awesome. I found this one intriguing
 initiallly due to the promised plot of a mysterious alien incursion, then the
 crazy mix of characters (narrator-protagonist with no emotion (more or less)
@@ -73,8 +67,7 @@ personalities, a biologist with lab equipment wired directly into his
 sensorium, an augmented soldier, and a vampire as a captain; in this book's
 universe, vampires are a hyper-intelligent human sub-species who indeed used to
 hunt humans), then aliens that are probbably ever more out there in terms of
-weirdness than that of <a
-href="http://en.wikipedia.org/wiki/Solaris_(novel)">Solaris</a> by Stanislaw
+weirdness than that of <a href="http://en.wikipedia.org/wiki/Solaris_(novel)">Solaris</a> by Stanislaw
 Lem, and finally a mind-bending discussion on the very nature of consciousness
 and sentience vs intelligence. The only little nitpick, is that at one point
 Chernoff faces are employed as a serious visualization technique, an episode
@@ -107,9 +100,9 @@ In <a href="http://www.markshuttleworth.com/archives/1409">the statement on his 
     
 ... and then further down:
 
-> The World Bank found that &#8216;remittance fees punish poor Africans'. South
+> The World Bank found that ‘remittance fees punish poor Africans'. South
 > Africa scores worst of all, and according to the Payments Association of South
-> Africa and the Reserve Bank, this is &#8216;..mostly related to the regulations
+> Africa and the Reserve Bank, this is ‘..mostly related to the regulations
 > that South African financial institutions needed to comply with, such as the
 > Financial Intelligence Centre Act (Fica) and exchange-control regulations.'
     

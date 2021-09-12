@@ -21,22 +21,21 @@ In week 23 of 2014 I nerded out by writing two Emacs-related blog posts over at
 the vxlabs, and hacking org2blog to support WordPress image thumbnails:
 
 <ul class="org-ul">
-  <li>
-    <a href="http://vxlabs.com/2014/06/04/modify-emacs-deft-for-recursive-directory-search/">Modify Emacs Deft for recursive directory search</a> -- this shows you how you can modify Emacs Deft mode, a Notational Velocity clone, to handle nested directories.
+<li>
+<a href="http://vxlabs.com/2014/06/04/modify-emacs-deft-for-recursive-directory-search/">Modify Emacs Deft for recursive directory search</a> -- this shows you how you can modify Emacs Deft mode, a Notational Velocity clone, to handle nested directories.
   </li>
-  <li>
-    <a href="http://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">Configuring Emacs mu4e with nullmailer, offlineimap and multiple identities</a> -- this post documents my complete Emacs-based mail client setup.
+<li>
+<a href="http://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">Configuring Emacs mu4e with nullmailer, offlineimap and multiple identities</a> -- this post documents my complete Emacs-based mail client setup.
   </li>
-  <li>
-    <a href="https://github.com/cpbotha/org2blog">org2blog image-thumbnail fork</a> on github -- this is my first significant Emacs package hack! Using this, you can configure org2blog to make use of the image thumbnails automatically created by WordPress on image upload. By default, it will insert the 300px thumbnail into your post and link to the full size image, instead of just inserting the full size version.
+<li>
+<a href="https://github.com/cpbotha/org2blog">org2blog image-thumbnail fork</a> on github -- this is my first significant Emacs package hack! Using this, you can configure org2blog to make use of the image thumbnails automatically created by WordPress on image upload. By default, it will insert the 300px thumbnail into your post and link to the full size image, instead of just inserting the full size version.
   </li>
 </ul>
 
 ## Conserving keystrokes
 
 Besides the general Emacs frenzy I'm going through at the moment, there is some
-method to my madness, especially the org2blog part. Through <a
-href="http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">Emacs
+method to my madness, especially the org2blog part. Through <a href="http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">Emacs
 and org2blog</a>, it has become significantly easier for me to publish a blog
 post. I'm in Emacs the whole day in any case (email and text notes database),
 so turning any piece of existing text into a blog post now takes no more than a
@@ -45,8 +44,7 @@ minute or two.
 Why is that interesting?
     
 Well, in 2007, Jon Udell (we'll forget for a while that he works for the enemy,
-because the man talks sense) wrote <a
-href="http://blog.jonudell.net/2007/04/10/too-busy-to-blog-count-your-keystrokes/">a
+because the man talks sense) wrote <a href="http://blog.jonudell.net/2007/04/10/too-busy-to-blog-count-your-keystrokes/">a
 blog post</a> urging his readers to count their keystrokes. Here are three
 selected paragraphs:
     
@@ -88,14 +86,14 @@ That's why I'm counting down the days until June 21 (sorry Northern Hemisphere f
 
 While me wait, there are sunsets like this one on Friday, at the Stone Three company braai:
 
-<figure style="width: 300px" class="wp-caption alignnone">
-<a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
-<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset-300x225.jpg" /></a><figcaption class="wp-caption-text">Sunset, seen from the Strand Yacht Club on Friday June 6, 2014.</figcaption></figure> 
+<figure class="wp-caption alignnone" style="width: 300px">
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset.jpg" title="">
+<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset-300x225.jpg"/></a><figcaption class="wp-caption-text">Sunset, seen from the Strand Yacht Club on Friday June 6, 2014.</figcaption></figure> 
     
 ... and lovely beers like this one:
 
-<figure style="width: 300px" class="wp-caption alignnone"><a href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold.jpg" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title="">
-<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold-300x225.jpg" /></a><figcaption class="wp-caption-text">Look how the sun sets ever so artfully on my Johnny Gold!</figcaption></figure> 
+<figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold.jpg" title="">
+<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold-300x225.jpg"/></a><figcaption class="wp-caption-text">Look how the sun sets ever so artfully on my Johnny Gold!</figcaption></figure> 
 
 ... to keep me busy.
 
