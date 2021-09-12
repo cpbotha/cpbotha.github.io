@@ -8,13 +8,13 @@ categories:
   - Uncategorized
 
 ---
-A man is rudely treated and fined 80 pounds by the London police for saying that the metal detector thingies used in the tube are a &#8220;piece of shit that wouldn&#8217;t stop anyone&#8221;. Sheesh.
+A man is rudely treated and fined 80 pounds by the London police for saying that the metal detector thingies used in the tube are a “piece of shit that wouldn’t stop anyone”. Sheesh.
 
 Read the article in the Londonist by clicking [here][1].
 
-(Found on [BoingBoing][2] &#8211; don&#8217;t go to this blog, you WILL waste time.)
+(Found on [BoingBoing][2] – don’t go to this blog, you WILL waste time.)
 
-(ps. Yes, I&#8217;m back. David Allen&#8217;s GTD does work.)
+(ps. Yes, I’m back. David Allen’s GTD does work.)
 
  [1]: http://www.londonist.com/archives/2006/07/opinion_freedom_1.php
  [2]: http://www.boingboing.net/

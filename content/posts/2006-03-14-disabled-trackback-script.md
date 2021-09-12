@@ -10,10 +10,10 @@ categories:
 ---
 In just 14 days, my Movable Type trackback script, mt-tb.cgi, has generated 500MB of traffic. Thank you, idiot trackback spammers!
 
-Since we don&#8217;t really use this feature (I think), I&#8217;ve disabled this script and added the following rewrite rule to my htaccess:
+Since we don’t really use this feature (I think), I’ve disabled this script and added the following rewrite rule to my htaccess:
   
-`<br />
-RewriteRule ^weblogs/mt-tb.cgi - [F]<br />
+`<br/>
+RewriteRule ^weblogs/mt-tb.cgi - [F]<br/>
 ` 
 
 This way the spam scripts get a 403 without being handled by the wiki.

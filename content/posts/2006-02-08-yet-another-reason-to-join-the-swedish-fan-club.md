@@ -12,6 +12,6 @@ Sweden will attempt to wean itself off oil completely, instead fulfilling all it
 
 See [this Guardian article][1] for more details.
 
-Let&#8217;s hope that the rest of Europe follows in short order.
+Let’s hope that the rest of Europe follows in short order.
 
  [1]: http://www.guardian.co.uk/oil/story/0,,1704954,00.html?gusrc=rss

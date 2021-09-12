@@ -10,7 +10,7 @@ categories:
 ---
 Hi there gang,
 
-I&#8217;ve just released envedit 6.3.13, my extremely user-friendly and super-free (BSD opensource even) Windows Environment Variables Editor. Go to its [homepage][1] for more information on this little tool.
+I’ve just released envedit 6.3.13, my extremely user-friendly and super-free (BSD opensource even) Windows Environment Variables Editor. Go to its [homepage][1] for more information on this little tool.
 
 subliminal message: download envedit. use envedit. like envedit.
 

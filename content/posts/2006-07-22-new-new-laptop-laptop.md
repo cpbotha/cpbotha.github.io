@@ -10,13 +10,13 @@ tags:
   - new computer
 
 ---
-Hi there mystery imaginary audience! I&#8217;m making this entry from my brand new HP NC 8430 Core Duo laptop! T2500 (sounds like a killer robot from the future, doesn&#8217;t it?) 2GHz dual core Yonah CPU, 2 GBytes 667 MHz DDR memory, 100 GB SATA 5400 RPM disk (budget budget), ATI Radeon X1600 with 256MB of video memory, gooorgeous 15.4&#8243; 1680&#215;1050 screen. Oh thank you kind and generous [TU Delft][1]!
+Hi there mystery imaginary audience! I’m making this entry from my brand new HP NC 8430 Core Duo laptop! T2500 (sounds like a killer robot from the future, doesn’t it?) 2GHz dual core Yonah CPU, 2 GBytes 667 MHz DDR memory, 100 GB SATA 5400 RPM disk (budget budget), ATI Radeon X1600 with 256MB of video memory, gooorgeous 15.4″ 1680×1050 screen. Oh thank you kind and generous [TU Delft][1]!
 
-After having zapped across gigabytes of data over gigabit ethernet from my trusty [HP NC6000][2], I&#8217;ve been setting things up. As part of this, I&#8217;ve been searching around for tools with which I can keep an eye on the CPU temperature (yeah, I&#8217;m one of those control freaks).
+After having zapped across gigabytes of data over gigabit ethernet from my trusty [HP NC6000][2], I’ve been setting things up. As part of this, I’ve been searching around for tools with which I can keep an eye on the CPU temperature (yeah, I’m one of those control freaks).
 
 Interestingly, it turns out that the Yonah has three temperature sensors on the CPU: one thermal diode for legacy support measuring the temperature of the CPU, and two high accuracy digital sensors, one for each core. Click [here][3] for more details.
 
-So far I&#8217;ve only found one free Windows program that can read the new digital sensors reliably: [Core Temp][4]. Yes, I know about Everest, but that&#8217;s shareware. If you have any other tips, I&#8217;d appreciate it!
+So far I’ve only found one free Windows program that can read the new digital sensors reliably: [Core Temp][4]. Yes, I know about Everest, but that’s shareware. If you have any other tips, I’d appreciate it!
 
  [1]: http://www.tudelft.nl/
  [2]: http://cpbotha.net/2004/05/26/laptop-no-2/ "Link to weblog posting concerning the previous laptop"

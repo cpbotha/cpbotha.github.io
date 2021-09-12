@@ -8,9 +8,9 @@ categories:
   - Uncategorized
 
 ---
-I \*should\* be working on an already-past-the-submission-deadline article like a crazy man, but hey, it&#8217;s saturday night and I need to relax.
+I \*should\* be working on an already-past-the-submission-deadline article like a crazy man, but hey, it’s saturday night and I need to relax.
 
-So, get the latest release of envedit, the friendlest and most flexible windows environment variables editor, while it&#8217;s still hot! Click [here][1] to go to its homepage and download the installer or the source code.
+So, get the latest release of envedit, the friendlest and most flexible windows environment variables editor, while it’s still hot! Click [here][1] to go to its homepage and download the installer or the source code.
 
 Night night.
 
