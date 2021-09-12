@@ -1,12 +1,13 @@
 +++
 title = "Weekly Head Voices #195: Pragmatic"
 date = 2020-05-20T23:06:00+02:00
-lastmod = 2020-05-21T12:06:46+02:00
+lastmod = 2021-06-26T12:57:05+02:00
 slug = "weekly-head-voices-195-pragmatic"
-tags = ["exocortex", "keyboards", "wsl", "xrdp", "context", "backyard-philosophy"]
+tags = ["book", "exocortex", "keyboards", "wsl", "xrdp", "context", "backyard-philosophy"]
 categories = ["weekly head voices"]
 draft = false
 ogimage = "nbh_mountain_walk_pano.jpg"
+org = true
 +++
 
 {{< figure src="nbh_mountain_walk_pano.jpg" caption="Figure 1: Photo from a walk with the fam jam up the mountain a little while out from our backyard, all within the sanctioned exercise hours between 6 and 9 in the mornings." link="nbh_mountain_walk_pano.jpg" >}}

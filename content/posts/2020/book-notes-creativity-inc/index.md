@@ -1,11 +1,13 @@
 +++
 title = "Notes on the book \"Creativity, Inc.\" by Ed Catmull with Amy Wallace"
 date = 2020-12-22T14:57:00+02:00
-lastmod = 2020-12-22T14:57:10+02:00
+lastmod = 2021-01-12T13:31:26+02:00
 slug = "book-notes-creativity-inc"
 tags = ["book", "Ed Catmull", "love", "notes", "science", "Steve Jobs"]
 categories = ["book notes"]
 draft = false
+author = "Charl P. Botha"
+ogimage = "creativity_inc_cover_amazon.jpg"
 org = true
 +++
 

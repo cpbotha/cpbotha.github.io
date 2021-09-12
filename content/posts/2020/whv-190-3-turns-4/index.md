@@ -84,7 +84,7 @@ After having read all of the internet regarding the different Altra trail
 shoes, I reluctantly came to the conclusion that none of them really knocked it
 out of the park.
 
-Anyways, one Sunday I walked into our local sport's super store (I'm sorry
+Anyways, one Sunday I walked into our local sports super store (I'm sorry my
 fellow nerds), and it so happened that they had a pair of Lone Peak 4.5s in my
 size: GINORMOUS CLOWN SHOE SIZE.
 
