@@ -25,7 +25,7 @@ tags:
   - xero
 
 ---
-<figure id="attachment_3217" aria-describedby="caption-attachment-3217" style="width: 840px" class="wp-caption alignnone"><a href="https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3217" data-permalink="https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/drakenstein_trail/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail.jpg" data-orig-size="7981,1882" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 7&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1531562172&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.99&quot;,&quot;iso&quot;:&quot;20&quot;,&quot;shutter_speed&quot;:&quot;0.00064683053040103&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="drakenstein_trail" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-300x71.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg" class="wp-image-3217 size-large" src="https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg" alt="" width="840" height="198" srcset="https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-300x71.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-768x181.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/07/drakenstein_trail-1200x283.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-3217" class="wp-caption-text">Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)</figcaption></figure> 
+{{< figure src="/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg" link="/wp-content/uploads/2018/07/drakenstein_trail.jpg" caption="Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)">}} 
 
 This post covers the week from Monday July 9 to Sunday July 15.
 
@@ -33,9 +33,9 @@ The business part of my week was unfairly dominated by far too much after-work o
 
 I will externalise some of these thoughts further down in this post.
 
-I&#8217;m starting with a weekend / running update, which should be reasonably safe for non-nerds to read. However, after that, the nerd dial will go up to 11 with stuff about tools and programming languages right up to the end of the post.
+I’m starting with a weekend / running update, which should be reasonably safe for non-nerds to read. However, after that, the nerd dial will go up to 11 with stuff about tools and programming languages right up to the end of the post.
 
-I would have wanted to use the adjective &#8220;face-melting&#8221;, but I&#8217;m not sure if any intensity of nerdery could ever reach that level.
+I would have wanted to use the adjective “face-melting”, but I’m not sure if any intensity of nerdery could ever reach that level.
 
 We can dream.
 
@@ -53,11 +53,11 @@ The latest victim seems to be one of Tom, Dick and Harry, the tendons running un
 
 They currently have to work extra hard to stabilise my feet while running, because, you know, no shoes.
 
-Because doing this thing was not hard enough already, and because the Lunas are perhaps still a bit too cushiony, and because my friend the Very Flat Cat forgot that I&#8217;m very suggestible after 11:00 in the morning when my prefrontal cortex takes the rest of the day off, I am now also the very shy owner of a pair of [Xero Genesis running sandals][3]:
+Because doing this thing was not hard enough already, and because the Lunas are perhaps still a bit too cushiony, and because my friend the Very Flat Cat forgot that I’m very suggestible after 11:00 in the morning when my prefrontal cortex takes the rest of the day off, I am now also the very shy owner of a pair of [Xero Genesis running sandals][3]:
 
 ![Image result for xero genesis][4]
 
-The soles are only 5mm thick, and quite hard, being [rated for a few thousand miles][5] and all. The upshot of this is that one&#8217;s feet have to work even harder than in the Lunas.
+The soles are only 5mm thick, and quite hard, being [rated for a few thousand miles][5] and all. The upshot of this is that one’s feet have to work even harder than in the Lunas.
 
 My first run in these was amazing: I could feel my feet reacting to every little pebble, and my running style having to adapt even more to the terrain.
 
@@ -77,13 +77,13 @@ At some point a few years back, I was so into ipython notebooks (what has now be
 
 However, in the meantime I had fallen slightly out of love with the computational notebook style of data programming, because I had begun to develop doubts about their role in the analysis pipeline.
 
-**interlude 1:** _jupyter notebooks are nice for initial data exploration, and they&#8217;re especially useful for remote computation with embedded graphics. However, that initial momentum of discovery risks devolving into an unwieldy monolith of code snippets, data transformations and experiments. There&#8217;s a fine line to be walked between flexible experimentation on the one hand, and version-controlled, time-stamped, permutational and scientific rigour on the other._
+**interlude 1:** _jupyter notebooks are nice for initial data exploration, and they’re especially useful for remote computation with embedded graphics. However, that initial momentum of discovery risks devolving into an unwieldy monolith of code snippets, data transformations and experiments. There’s a fine line to be walked between flexible experimentation on the one hand, and version-controlled, time-stamped, permutational and scientific rigour on the other._
 
-**interlude 2:** _I have to apologise for using the term &#8220;data science&#8221; in a non-comedic context. In spite of the inherent humour, it has turned into a usable blanket term for computational data understanding._
+**interlude 2:** _I have to apologise for using the term “data science” in a non-comedic context. In spite of the inherent humour, it has turned into a usable blanket term for computational data understanding._
 
 Due to my growing doubts in the order of Jupyter, and due to being occupied with less traditionally data sciencey work projects, I had unfortunately let my data science toolbox gather perhaps a bit too much dust.
 
-Slightly more worrying than falling out of love with the Jupyter Notebooks (I still like them, I&#8217;m just not that madly in love anymore), was the more specific issue that I&#8217;d even let the datavis parts get a bit dusty.
+Slightly more worrying than falling out of love with the Jupyter Notebooks (I still like them, I’m just not that madly in love anymore), was the more specific issue that I’d even let the datavis parts get a bit dusty.
 
 Anyways.
 
@@ -93,27 +93,27 @@ Although I should probably write a more complete post about this, here is the li
 
 This language, in spite of its shortcomings, _dominates_ the data science / machine learning world thanks to its STELLAR ecosystem.
 
-numpy, pandas, scipy, scikit-*, tensorflow, pytorch, keras, cython&#8230; this snowball has turned into a pretty sizeable planet.
+numpy, pandas, scipy, scikit-*, tensorflow, pytorch, keras, cython… this snowball has turned into a pretty sizeable planet.
 
 For this reason, it would be hard to justify any other choice for data science.
 
-However, since I&#8217;ve been seeing more of Lisp and the rest of the ever-expanding programming language landscape, I can see (Python&#8217;s shortcomings as a programming language) clearly now.
+However, since I’ve been seeing more of Lisp and the rest of the ever-expanding programming language landscape, I can see (Python’s shortcomings as a programming language) clearly now.
 
 In terms of interactive programming, Python beats the majority of practical programming languages, with Common Lisp being one notable exception.
 
-However, it&#8217;s not functional enough, which engenders unnecessarily imperative, side-effecting code.  More specifically, it&#8217;s not expression-oriented.
+However, it’s not functional enough, which engenders unnecessarily imperative, side-effecting code.  More specifically, it’s not expression-oriented.
 
 More about this slightly further down. Maybe.
 
-## Datavis: Anything, as long as it&#8217;s Vega or Vega-Lite.
+## Datavis: Anything, as long as it’s Vega or Vega-Lite.
 
 I spent a few years of my life wrangling [d3.js][7], down to INNARD-LEVEL.
 
-Mike Bostock&#8217;s idea of [data-element-joins][8] is genius, and internalising it was intellectually satisfying.
+Mike Bostock’s idea of [data-element-joins][8] is genius, and internalising it was intellectually satisfying.
 
-I thought that these d3 skillz would serve me well for decades (that&#8217;s WEEKS in javascript-time), but it turns out that there&#8217;s a new, even smarter kid in town.
+I thought that these d3 skillz would serve me well for decades (that’s WEEKS in javascript-time), but it turns out that there’s a new, even smarter kid in town.
 
-(if it&#8217;s any consolation, the new kid can be considered the grand-child of d3.js.)
+(if it’s any consolation, the new kid can be considered the grand-child of d3.js.)
 
 [vega and vega-lite][9] are so-called visualization grammars, or visualization DSLs (domain specific languages).
 
@@ -129,7 +129,7 @@ With [Altair][10], you can even send your pandas dataframes to vega and vega-lit
 
 You knew it was not going to be Jupyter Notebooks, but you probably expected it to be [Emacs][11].
 
-Well it&#8217;s not. Surprise!
+Well it’s not. Surprise!
 
 The remote interpreter support in PyCharm enables me to connect to a Python virtual environment anywhere on the planet, which I often do.
 
@@ -141,7 +141,7 @@ Two notable drawbacks are visualization and long-running jobs.
 
 For the long-running jobs I do tend to use Jupyter Notebooks or when at all possible [mosh][13], which is amazing. However, because the primary modality is not the notebook, my code is versioned and organised into separate libraries which I can call into from notebook or mosh.
 
-For visualization, it&#8217;s either connecting to the altair chart server via SSH pipe, dumping the chart to the unison-synced project, and/or a Jupyter Notebook.
+For visualization, it’s either connecting to the altair chart server via SSH pipe, dumping the chart to the unison-synced project, and/or a Jupyter Notebook.
 
 ## The rest.
 
@@ -157,20 +157,20 @@ I spend far too much obsessing over programming languages, old and new.
 
 For the past two weeks, I wasted even more precious time than usual reading up about programming languages.
 
-Because I would really like to spend more of my time on other, perhaps more valuable activities, I&#8217;ve been trying to better define what it is I&#8217;m actually looking for.
+Because I would really like to spend more of my time on other, perhaps more valuable activities, I’ve been trying to better define what it is I’m actually looking for.
 
 Of course there is no single best programming language, but a whole set of good languages that map in intricate ways to different problem domains.
 
 In spite of this, I have been pining for a language with, in order of importance:
 
-  1. A Functional Programming DNA, with which I&#8217;m referring to a) [expression-orientedness][15], b) a preference for [pure functions][16], and at a higher level, c) the modelling of reality as more or less explicit dataflows.
+  1. A Functional Programming DNA, with which I’m referring to a) [expression-orientedness][15], b) a preference for [pure functions][16], and at a higher level, c) the modelling of reality as more or less explicit dataflows.
   2. Interactive programming, with Common Lisp being the textbook example of this.
   3. Great tooling and IDEs, meaning first-class support by something from JetBrains, Microsoft or Emacs.
   4. Great concurrency and parallelism stories.
   5. A great library ecosystem.
   6. Modest memory use.
 
-Having just explicitly written this down for the first time (!! &#8211; it was consuming so much glucose just being kept amorphously swirling around in my brain) I can now mentally map some of my most recent language dalliances to these points.
+Having just explicitly written this down for the first time (!! – it was consuming so much glucose just being kept amorphously swirling around in my brain) I can now mentally map some of my most recent language dalliances to these points.
 
 ## go
 
@@ -178,31 +178,31 @@ This language is far too simple for my taste, but probably really great for team
 
 I did recently take a more serious look when [setting up a telegram bot using tbot][17] and being amazed at how simple it was building web services like these using goroutines and channels.
 
-Go satisfies points 3 to 6 from the list above. Makes sense that I decided to file this experiment away under &#8220;check when you need to put a webservice together REALLY QUICKLY&#8221;.
+Go satisfies points 3 to 6 from the list above. Makes sense that I decided to file this experiment away under “check when you need to put a webservice together REALLY QUICKLY”.
 
 ## rust
 
-When I saw up that rust, surprisingly, is an expression-oriented language, I flew through the O&#8217;Reilly Programming Rust book I had bought previously as part of a bundle.
+When I saw up that rust, surprisingly, is an expression-oriented language, I flew through the O’Reilly Programming Rust book I had bought previously as part of a bundle.
 
-Evaluating rust by the list above, we award it a fractional 1 because expression-oriented, 3 due to jetbrains plugin amongst others, 4(ish) &#8211; great memory safety, but compared to clojure, concurrency and parallelism stories still have much room to grow, a solid 5 thanks to cargo and a very strong 6.
+Evaluating rust by the list above, we award it a fractional 1 because expression-oriented, 3 due to jetbrains plugin amongst others, 4(ish) – great memory safety, but compared to clojure, concurrency and parallelism stories still have much room to grow, a solid 5 thanks to cargo and a very strong 6.
 
-I filed this one away under &#8220;re-evaluate whenever you reach for your trusty C++&#8221;. (also, [actix-web][18] looks amazing for super high performance microservices.)
+I filed this one away under “re-evaluate whenever you reach for your trusty C++”. (also, [actix-web][18] looks amazing for super high performance microservices.)
 
 ## f\#
 
-You didn&#8217;t see this one coming, did you?
+You didn’t see this one coming, did you?
 
 Very strong 1 to 5 and a solid 6.
 
 WAT?!
 
-I&#8217;m currently working my way through [Domain Modeling Made Functional][19] by Scott Wlaschin, who is also the author of the brilliant [f# for fun and profit][20] website.
+I’m currently working my way through [Domain Modeling Made Functional][19] by Scott Wlaschin, who is also the author of the brilliant [f# for fun and profit][20] website.
 
-In addition to f# hitting all 6 of my 2018 PL-requirements above, I&#8217;m slowly starting to see the advantages of having a real type system under the hood.
+In addition to f# hitting all 6 of my 2018 PL-requirements above, I’m slowly starting to see the advantages of having a real type system under the hood.
 
-f# is a member of the [ML-family][21] of functional languages, which have their origin in Lisp (some very naughty person removed all of the lovely parentheses I&#8217;m afraid&#8230;).
+f# is a member of the [ML-family][21] of functional languages, which have their origin in Lisp (some very naughty person removed all of the lovely parentheses I’m afraid…).
 
-I hope that at some point I&#8217;ll have the opportunity to use f# in anger, at which point I&#8217;ll be able to report more concretely as to its suitability.
+I hope that at some point I’ll have the opportunity to use f# in anger, at which point I’ll be able to report more concretely as to its suitability.
 
 # The End
 

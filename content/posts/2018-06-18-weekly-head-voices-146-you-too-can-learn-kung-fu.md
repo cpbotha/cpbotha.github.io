@@ -24,9 +24,8 @@ tags:
   - the matrix
 
 ---
-_This post covers the period Monday June 11 to Sunday June 17. Read it to become rich, yawn at Lisp and Emacs, yearn to run free on the wide open plains and to learn Kung Fu. Not ambitious at all._<figure id="attachment_3201" aria-describedby="caption-attachment-3201" style="width: 768px" class="wp-caption alignnone"><a href="https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title="">
-
-<img data-attachment-id="3201" data-permalink="https://cpbotha.net/2018/06/18/weekly-head-voices-146-you-too-can-learn-kung-fu/img_2004/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004.jpg" data-orig-size="3024,4032" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1529166785&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;40&quot;,&quot;shutter_speed&quot;:&quot;0.01&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_2004" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004-225x300.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004-768x1024.jpg" class="size-large wp-image-3201" src="https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004-768x1024.jpg" alt="" width="768" height="1024" srcset="https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004-768x1024.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004-225x300.jpg 225w, https://cpbotha.net/wp-content/uploads/2018/06/IMG_2004-1200x1600.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></a><figcaption id="caption-attachment-3201" class="wp-caption-text">Front door nearby De Waal Park, in Cape Town. Photo taken on Sunday by GOU#1, age 12.</figcaption></figure> 
+_This post covers the period Monday June 11 to Sunday June 17. Read it to become rich, yawn at Lisp and Emacs, yearn to run free on the wide open plains and to learn Kung Fu. Not ambitious at all._
+{{< figure src="/wp-content/uploads/2018/06/IMG_2004-768x1024.jpg" link="/wp-content/uploads/2018/06/IMG_2004.jpg" caption="Front door nearby De Waal Park, in Cape Town. Photo taken on Sunday by GOU#1, age 12.">}} 
 
 # Social Democracy FTW
 
@@ -35,7 +34,7 @@ It turns out that your chances of becoming rich are the greatest if you had the 
 The US trails these countries, at position 13, in terms of per capita individuals with net worth over $30 million.
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/A9UmdY0E8hU?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/A9UmdY0E8hU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
 Being a proponent of social democracy as the most humane form of currently practical human government, and often infuriating conservatives   by pointing out that many crucial aspects of social democracies can be described as socialistic, I really enjoyed the linked TEDx talk by Norwegian [Harald Eia][1].
@@ -44,9 +43,9 @@ This material will serve me well as the source of future mischief.
 
 # Paradigms of AI Programming in Common Lisp
 
-I am currently working my way through [&#8220;Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp&#8221;][2], Peter Norvig&#8217;s famous 1992 book an artificial intelligence. Although modern AI has been transformed almost unrecognisably since then (THANKS DEEP LEARNING! [Norvig&#8217;s PAIP retrospective][3]) the way in which Norvig uses Lisp to model and solve real-world problems is inspiring and quite foundational.
+I am currently working my way through [“Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp”][2], Peter Norvig’s famous 1992 book an artificial intelligence. Although modern AI has been transformed almost unrecognisably since then (THANKS DEEP LEARNING! [Norvig’s PAIP retrospective][3]) the way in which Norvig uses Lisp to model and solve real-world problems is inspiring and quite foundational.
 
-It&#8217;s not only that though.
+It’s not only that though.
 
 My inconvenient but uncontrollable infatuation with Common Lisp also seems to be pulling the strings. I should study a real language which is not 60 years old, like Rust or something.
 
@@ -68,7 +67,7 @@ On the topic of note-taking: This past week, on Friday June 15 (I made a note of
 
 # Ether as currency
 
-Although I acquired a small amount of the Ether cryptocurrency for the first time in July of 2016, I&#8217;ve never had the opportunity to actually transact with it.
+Although I acquired a small amount of the Ether cryptocurrency for the first time in July of 2016, I’ve never had the opportunity to actually transact with it.
 
 Up to now, it has functioned solely as a pretty volatile store of value.
 
@@ -88,16 +87,16 @@ That sounds pretty high for a normal person like me, but it turns out that when 
 
 As yet another random reddit expert (I wish I could find the post) quipped:
 
-> You can&#8217;t overthink proprioception.
+> You can’t overthink proprioception.
 
-(that&#8217;s a running nerd joke)
+(that’s a running nerd joke)
 
 # I know Kung Fu
 
 Do you remember this scene from The Matrix (1999)?
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/V8ZdGmgj0PQ?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/V8ZdGmgj0PQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
 The other day at the [Old People Reunion][6], friend T. Monster, a highly capable pragmatist but also backyard theoretician, talked about how often it happened these days that you had to deal with some DIY issue, tapped or spoke the question into youtube, watched a video or two, and then fixed the issue like a pro.
@@ -106,9 +105,9 @@ This, along with my recent pseudo-expert repair of a number of stripped cabinet 
 
 Some may take longer than a few minutes, but it still is pretty amazing how far YouTube has managed to democratise so many different forms of modern Kung Fu.
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
  [1]: https://en.wikipedia.org/wiki/Harald_Eia
  [2]: https://github.com/norvig/paip-lisp

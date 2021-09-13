@@ -31,11 +31,11 @@ Prepare yourself for a slightly stranger than usual post. I have: two short prog
 
 # Two random micro side-project ideas
 
-I would like to start with two hobby / maker ideas that popped up in my head this week. There&#8217;s a high probability I will not get around to them, but perhaps they help you to spawn a new set of hopefully more worthwhile ideas.
+I would like to start with two hobby / maker ideas that popped up in my head this week. There’s a high probability I will not get around to them, but perhaps they help you to spawn a new set of hopefully more worthwhile ideas.
 
 ## Chrome or Firefox plugin to convert Spotify playlists to Apple Music using the new MusicKit JS API
 
-I seem to see many more Spotify playlists shared than Apple Music playlists. For example, at this moment I&#8217;m listening to the official Lowlands 2018 playlist.
+I seem to see many more Spotify playlists shared than Apple Music playlists. For example, at this moment I’m listening to the official Lowlands 2018 playlist.
 
 This is not ideal, as I am an Apple Music subscriber, but not a Spotify subscriber.
 
@@ -45,7 +45,7 @@ However, it also turns out that Apple has a new thing (still in beta) called [Mu
 
 I briefly dissected the Spotify Playlist website.
 
-It would be straight-forward for a Chrome or Firefox plugin (WebExtension, so same code. I&#8217;ve done this before) to go through this playlist, search for each track using the MusicKit JS API, and then recreate the playlist in the user&#8217;s Apple Music account.
+It would be straight-forward for a Chrome or Firefox plugin (WebExtension, so same code. I’ve done this before) to go through this playlist, search for each track using the MusicKit JS API, and then recreate the playlist in the user’s Apple Music account.
 
 This solution would be much cleaner and simpler than the current app-based ones.
 
@@ -59,9 +59,9 @@ On that topic: The struggle for practically sustainable focus is real, and it ne
 
 # The Head Voices REVIEW(tm) the Optex HX-80 outdoor passive infrared security detector: AVOID AT ALL COSTS
 
-From the [Optex HX-80 outdoor passive infrared security detector&#8217;s web-page][3] we have the following:
+From the [Optex HX-80 outdoor passive infrared security detector’s web-page][3] we have the following:
 
-> **The most important element in reliable outdoor detector is accuracy to distinguish a human from a small animal**. &#8230; In addition, the HX-80N&#8217;s dual PIR&#8217;s and 20 detection zones utilize the &#8216;AND&#8217; detection pattern technology &#8230; **This technology helps to prevent false alarms caused by a pet or small animal.**
+> **The most important element in reliable outdoor detector is accuracy to distinguish a human from a small animal**. … In addition, the HX-80N’s dual PIR’s and 20 detection zones utilize the ‘AND’ detection pattern technology … **This technology helps to prevent false alarms caused by a pet or small animal.**
 
 Well, I had two of these installed by trained professionals.
 
@@ -70,20 +70,20 @@ Well, I had two of these installed by trained professionals.
 I can confirm that they excel at one fairly specific function: Triggering the alarm, and thus automatically calling my security company, at the most ungodly hours of the night, whenever a certain small grey cat, looking exceptionally unlike a human, decides to take a stroll outside of our house.
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/8ZXAmMroePI?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/8ZXAmMroePI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
 Oh yes, the cat is not even ours, but belongs to our neighbour.
 
-The installation and subsequent repeated fine-tuning of our Optex HX-80 have only had the result of me having to punch in an additional key-sequence every evening to bypass the two &#8216;AND&#8217;-detection-pattern-technology-equipped HX-80 devices.
+The installation and subsequent repeated fine-tuning of our Optex HX-80 have only had the result of me having to punch in an additional key-sequence every evening to bypass the two ‘AND’-detection-pattern-technology-equipped HX-80 devices.
 
 You will understand that the only reasonable Head Voices REVIEW(tm) of the Optex HX-80 is:
 
   * 100% NON-FUNCTIONING THROUGH INFERIOR DESIGN.
   * AVOID AT ALL COSTS.
-  * DON&#8217;T TRUST THE MARKETING.
+  * DON’T TRUST THE MARKETING.
   * THE TRUTH IS OUT THERE.
-  * JUST DON&#8217;T.
+  * JUST DON’T.
 
 ![Image result for just don't meme][4]
 
@@ -91,11 +91,11 @@ You will understand that the only reasonable Head Voices REVIEW(tm) of the Optex
 
 ## Google Colaboratory for Numerical Computation when all you have is a browser.
 
-I&#8217;m late to the party (again), but [Google Colab][5] is really great if you need a Jupyter Notebook with some GPU power behind it.
+I’m late to the party (again), but [Google Colab][5] is really great if you need a Jupyter Notebook with some GPU power behind it.
 
 It comes with tensorflow pre-installed (being Google and all), but getting the GPU-accelerated PyTorch 0.4.1 (latest version of the most amazing deep learning tool at the time of writing) going was a cinch.
 
-<a href="https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3247" data-permalink="https://cpbotha.net/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/google_colab_torch_0-4-1/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png" data-orig-size="808,836" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="google_colab_torch_0.4.1" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1-290x300.png" data-large-file="https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png" class="alignnone size-full wp-image-3247" src="https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png" alt="" width="808" height="836" srcset="https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png 808w, https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1-290x300.png 290w, https://cpbotha.net/wp-content/uploads/2018/08/google_colab_torch_0.4.1-768x795.png 768w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></a>
+{{< figure src="/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png" link="/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png" >}}
 
 To repeat this experiment, create new notebook with File | New Python 3 Notebook, then change Edit | Notebook Settings | Hardware accelerator to GPU.
 
@@ -109,7 +109,7 @@ What a time to be alive!
 
 P.S. Remember, [under normal (non-Colab) circumstances][6] we keep our Notebooks as empty as possible. Prefer as much as possible of your code in Python modules. The notebooks are only there to act as glue, for visualization and sometimes for long-running jobs.
 
-## Dan Luu&#8217;s computer and mobile device input latency research
+## Dan Luu’s computer and mobile device input latency research
 
 [This most amazing work][7] was recently brought to my attention by WHV reader [Matthew Brecher][8] in the comments under my [2017 Android vs iPhone performance post][9].
 
@@ -121,10 +121,10 @@ If you have any interest in this sort of technology and also in-depth technology
 
 I wanted to mention two interesting points:
 
-  1. The 1983 Apple 2e, with a CPU running at 1MHz, had significantly lower input latency (30ms between button press and character display) than any modern multi-GHz system. The comparison is of course not completely fair, but it&#8217;s still nice to see.
+  1. The 1983 Apple 2e, with a CPU running at 1MHz, had significantly lower input latency (30ms between button press and character display) than any modern multi-GHz system. The comparison is of course not completely fair, but it’s still nice to see.
   2. Amongst the mobile devices, Apple dominates the fast / low latency end of the spectrum. Their devices, in terms of input lag, are ALL faster than all of the Android devices tested, including for example the 2017 Google Pixel 2XL. 
       * Yes, this is me eating my hat, and some more of that yummy humble pie.
-      * Android 9, code-name Pie, has just been (will soon be&#8230; err) released and has an [amazing list of features][10]. I still hope they manage they also manage to catch up with regards to some of the basics like input latency.
+      * Android 9, code-name Pie, has just been (will soon be… err) released and has an [amazing list of features][10]. I still hope they manage they also manage to catch up with regards to some of the basics like input latency.
 
 ## Yet another reason to eat more fibre
 
@@ -142,11 +142,11 @@ Taking a few more steps back, thinking about the relationship between the 37 tri
 
 Who am I really? Who exactly is thinking this?
 
-I, or perhaps rather &#8220;we&#8221;, find this truly fascinating.
+I, or perhaps rather “we”, find this truly fascinating.
 
 What I was initially planning to mention before going off on this tangent, was a recent paper accepted for publication in the Journal of Physiology, with the title Short-Chain Fatty Acids: [Microbial Metabolites That Alleviate Stress-induced Brain-Gut Axis Alterations (click for PDF fulltext)][13].
 
-The Physiological Society press release is more digestibly (I had to) titled &#8220;[Eat high fibre foods to reduce effects of stress on gut and behaviour][14]&#8220;.
+The Physiological Society press release is more digestibly (I had to) titled “[Eat high fibre foods to reduce effects of stress on gut and behaviour][14]“.
 
 In short, fibre stimulates gut bacteria to produce short-chain fatty acids (SCFA), which, besides being the main source of nutrition for cells in this region of the body, also decrease levels of stress and anxiety, at the very least in mice.
 
@@ -156,9 +156,7 @@ Thank you for sticking around friends!
 
 I hope that you found something of value, even if not directly from this post.
 
-I&#8217;ll see you next time! Until then, remember to eat your vegetables.
-
-&nbsp;
+I’ll see you next time! Until then, remember to eat your vegetables.
 
  [1]: https://developer.apple.com/documentation/musickitjs
  [2]: https://www.rescuetime.com/apidoc

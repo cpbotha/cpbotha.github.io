@@ -18,15 +18,15 @@ tags:
   - xero
 
 ---
-<figure id="attachment_3237" aria-describedby="caption-attachment-3237" style="width: 768px" class="wp-caption alignnone"><a href="https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3237" data-permalink="https://cpbotha.net/2018/07/31/weekly-head-voices-150-the-road-not-taken/img_2740/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740.jpg" data-orig-size="3024,4032" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1532256401&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.00072780203784571&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_2740" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740-225x300.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740-768x1024.jpg" class="size-large wp-image-3237" src="https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740-768x1024.jpg" alt="" width="768" height="1024" srcset="https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740-768x1024.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740-225x300.jpg 225w, https://cpbotha.net/wp-content/uploads/2018/07/IMG_2740-1200x1600.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></a><figcaption id="caption-attachment-3237" class="wp-caption-text">Photo of a cotula lineariloba flower, taken by GOU#1, age 12.</figcaption></figure> 
+{{< figure src="/wp-content/uploads/2018/07/IMG_2740-768x1024.jpg" link="/wp-content/uploads/2018/07/IMG_2740.jpg" caption="Photo of a cotula lineariloba flower, taken by GOU#1, age 12.">}} 
 
 This edition of the WHV covers the week from Monday, July 23 up to and including Sunday, July 29.
 
 # Running update
 
-Strava says I&#8217;ve just passed the 300km threshold in my [Luna Mono 2 sandals][1].
+Strava says I’ve just passed the 300km threshold in my [Luna Mono 2 sandals][1].
 
-It also says I&#8217;ve done 27km in my [Xero Genesis sandals][2], or as I have begun to call them, _Xero Tolerance_.
+It also says I’ve done 27km in my [Xero Genesis sandals][2], or as I have begun to call them, _Xero Tolerance_.
 
 You make one mistake, and something will break. You do get to keep all the bloody pieces.
 
@@ -54,23 +54,23 @@ I was super surprised that I could easily decompress the ZIP file using Emacs Di
 
 I found [an SO answer with a piece of Emacs Lisp code][3] that someone had put together and integrated it with my Emacs.
 
-It worked, but it didn&#8217;t default to the opposite Dired file-list pane as all commander-style tools should do, and by default it re-created relative paths, which is the opposite of the default in most two-pane commanders I know.
+It worked, but it didn’t default to the opposite Dired file-list pane as all commander-style tools should do, and by default it re-created relative paths, which is the opposite of the default in most two-pane commanders I know.
 
 As is the wont of Emacs users, I reshaped the code ever so slightly to work like I thought it should.
 
 Shaping Emacs Lisp code has a pleasant fluid feeling to it. Code is data, code is configuration, data flows through code.
 
-I&#8217;m telling you this story, because it was a nice little reminder of one of the reasons I like this software so much.
+I’m telling you this story, because it was a nice little reminder of one of the reasons I like this software so much.
 
 You can find [my modified version of archive-extract-to-file.el as a github gist][4].
 
 # The Odd Bits of Interesting News Section
 
-<a href="https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59.png" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3240" data-permalink="https://cpbotha.net/2018/07/31/weekly-head-voices-150-the-road-not-taken/screen-shot-2018-07-31-at-22-22-59/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59.png" data-orig-size="1883,936" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen Shot 2018-07-31 at 22.22.59" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-300x149.png" data-large-file="https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1024x509.png" class="alignnone size-large wp-image-3240" src="https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1024x509.png" alt="" width="840" height="418" srcset="https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1024x509.png 1024w, https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-300x149.png 300w, https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-768x382.png 768w, https://cpbotha.net/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1200x596.png 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+{{< figure src="/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1024x509.png" link="/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59.png" >}}
 
-  * [Differentiable Image Parameterizations][5], a beautiful machine learning article on Distill that surveys and showcases different techniques for generating beautiful images with deep learning. These networks sort of learn to see in order to solve specific tasks, but you can tickle them in different ways to get them to show you the insides of their visual circuitry, and it&#8217;s quite beautiful.
-  * [The Prophylactic Extraction of Third Molars: A Public Health Hazard][6] is an article which was published all the way back in 2007. It makes the claim that at least two thirds of wisdom tooth extraction are unnecessary. One could say that their only function is to&#8230; _extract_ your money. BA DUM TSSSSS! To that I would like to add: WHY DENTISTRY WHY? HAVE YOU NOT HURT US ENOUGH?!
-  * A colleague at work emailed [this TechCrunch post about a 3D printed neural network][7] that diffracts light going through in order to do its trained inference work on incoming images. Although it&#8217;s a retro-futuro-mind-bending idea to do it with a whole neural network, and it smacks of hell-yeah-this-is-what-scifi-promised-me-that-AI-would-look-like, I could not help but recall a certain Very Flat Cat telling us about this sort of passive light-based computation almost 20 years ago.
+  * [Differentiable Image Parameterizations][5], a beautiful machine learning article on Distill that surveys and showcases different techniques for generating beautiful images with deep learning. These networks sort of learn to see in order to solve specific tasks, but you can tickle them in different ways to get them to show you the insides of their visual circuitry, and it’s quite beautiful.
+  * [The Prophylactic Extraction of Third Molars: A Public Health Hazard][6] is an article which was published all the way back in 2007. It makes the claim that at least two thirds of wisdom tooth extraction are unnecessary. One could say that their only function is to… _extract_ your money. BA DUM TSSSSS! To that I would like to add: WHY DENTISTRY WHY? HAVE YOU NOT HURT US ENOUGH?!
+  * A colleague at work emailed [this TechCrunch post about a 3D printed neural network][7] that diffracts light going through in order to do its trained inference work on incoming images. Although it’s a retro-futuro-mind-bending idea to do it with a whole neural network, and it smacks of hell-yeah-this-is-what-scifi-promised-me-that-AI-would-look-like, I could not help but recall a certain Very Flat Cat telling us about this sort of passive light-based computation almost 20 years ago.
 
 # The Poetry Section
 

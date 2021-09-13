@@ -16,11 +16,11 @@ tags:
   - vitamin-r
 
 ---
-<figure id="attachment_3329" aria-describedby="caption-attachment-3329" style="width: 840px" class="wp-caption alignnone"><a href="https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3329" data-permalink="https://cpbotha.net/2018/11/06/weekly-head-voices-157-melodramatic/vergelegen_entrance/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance.jpg" data-orig-size="4032,2136" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 8&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1541323298&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.99&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.00018698578908003&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="vergelegen_entrance" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-300x159.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-1024x542.jpg" class="wp-image-3329 size-large" src="https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-1024x542.jpg" alt="" width="840" height="445" srcset="https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-1024x542.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-300x159.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-768x407.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/11/vergelegen_entrance-1200x636.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-3329" class="wp-caption-text">Vergelegen, an important node on my Rome Glen &#8211; Vergelegen &#8211; Lourensford &#8211; Land en Zeezicht route.</figcaption></figure> 
+{{< figure src="/wp-content/uploads/2018/11/vergelegen_entrance-1024x542.jpg" link="/wp-content/uploads/2018/11/vergelegen_entrance.jpg" caption="Vergelegen, an important node on my Rome Glen – Vergelegen – Lourensford – Land en Zeezicht route.">}} 
 
 It's Monday evening around 22:31.
 
-The track <a href="https://youtu.be/liHjofQBAeM" data-rel="lightbox-video-0">&#8220;Still on Fire&#8221; by Trentemøller</a> is making my neurons fire in highly pleasant patterns while I try to gaze back through time at the days from Monday October 22 to Sunday November 4, and to gather my thoughts.
+The track <a data-rel="lightbox-video-0" href="https://youtu.be/liHjofQBAeM">“Still on Fire” by Trentemøller</a> is making my neurons fire in highly pleasant patterns while I try to gaze back through time at the days from Monday October 22 to Sunday November 4, and to gather my thoughts.
 
 I have come to a decision:
 
@@ -30,11 +30,11 @@ The rest of this blog will be less melodramatic. Instead, I shall focus my effor
 
 ## Productivity and Focus
 
-### Vitamin-R &#8211; tomatoes for apples!
+### Vitamin-R – tomatoes for apples!
 
 As a [quick search will tell you][1], we here at the WHV headquarters are big fans of [mytomatoes.com][2], an online pomodoro timer that keeps track of your pomodori in a truly low friction fashion.
 
-Bonus factoid: mytomatoes was built and is maintained by [Magnar Sveen][3], who is revered, at least in my circles, as a young Emacs god. Take a gander at his [jaw-dropping dexterity and raw nerd power][4]. The <a href="https://youtu.be/jNa3axo40qM" data-rel="lightbox-video-1">one where he uses Emacs to calculate the number of hours his videos have wasted</a> around the world is especially good.
+Bonus factoid: mytomatoes was built and is maintained by [Magnar Sveen][3], who is revered, at least in my circles, as a young Emacs god. Take a gander at his [jaw-dropping dexterity and raw nerd power][4]. The <a data-rel="lightbox-video-1" href="https://youtu.be/jNa3axo40qM">one where he uses Emacs to calculate the number of hours his videos have wasted</a> around the world is especially good.
 
 I digress.
 
@@ -48,7 +48,7 @@ I initially made a small misstep with Be Focused Pro. This does satisfy the requ
 
 I digress. Again.
 
-After 30 minutes of searching, I fortunately landed on [Vitamin-R][6]&nbsp;(the new version 3) on October 29. Since then, it has helped me to churn successfully through an impressive number of pomodori.
+After 30 minutes of searching, I fortunately landed on [Vitamin-R][6] (the new version 3) on October 29. Since then, it has helped me to churn successfully through an impressive number of pomodori.
 
 Why I'm probably going to buy this after the evaluation period:
 
@@ -86,8 +86,8 @@ In spite of neurons misfiring and muscle memory invoking key combinations, I hav
 
 Between this and the previous WHV, I wrote two other blog posts that I know of:
 
-  1. [Importing all of your orgmode notes into Apple Notes for mobile access][9] &#8211; This used to be a huge weakness of my otherwise amazing orgmode-based note-taking: I could not access any of my Orgmode notes from my phone. In the end, all I needed to do was to use Orgmode's built-in HTML site publishing function to get hundreds of org files, including images, math, source code and other wisdom, into my Apple Notes, ready to search and access on the phone.
-  2. [PyTorch 1.0 preview (Nov 4, 2018) packages with full CUDA 10 support for your Ubuntu 18.04 x86_64 systems][10] &#8211; The title says it all. The backstory (not in that post) is that I now have a private RTX 2070 With TensorCores(tm) !!!1!! at my disposal, with which I plan to do my part in bringing about the AI-pocalypse. (Actually, I just want the AIs to take away all of our driving licenses. Humans are truly crappy drivers.)
+  1. [Importing all of your orgmode notes into Apple Notes for mobile access][9] – This used to be a huge weakness of my otherwise amazing orgmode-based note-taking: I could not access any of my Orgmode notes from my phone. In the end, all I needed to do was to use Orgmode's built-in HTML site publishing function to get hundreds of org files, including images, math, source code and other wisdom, into my Apple Notes, ready to search and access on the phone.
+  2. [PyTorch 1.0 preview (Nov 4, 2018) packages with full CUDA 10 support for your Ubuntu 18.04 x86_64 systems][10] – The title says it all. The backstory (not in that post) is that I now have a private RTX 2070 With TensorCores(tm) !!!1!! at my disposal, with which I plan to do my part in bringing about the AI-pocalypse. (Actually, I just want the AIs to take away all of our driving licenses. Humans are truly crappy drivers.)
 
 ## GOU#2 discovers parts of Buddhism in the car on the way to school.
 
@@ -113,7 +113,6 @@ Me?
 
 I'm on _Desktop One_.
 
-&nbsp;
 
  [1]: https://cpbotha.net/?s=mytomatoes
  [2]: http://mytomatoes.com/

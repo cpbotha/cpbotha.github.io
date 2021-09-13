@@ -16,7 +16,8 @@ tags:
   - running
 
 ---
-<a href="https://cpbotha.net/wp-content/uploads/2018/06/fiery_ssw_sunset.jpg"><img src="https://cpbotha.net/wp-content/uploads/2018/06/fiery_ssw_sunset-1024x544.jpg" srcset="https://cpbotha.net/wp-content/uploads/2018/06/fiery_ssw_sunset-1024x544.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/06/fiery_ssw_sunset-300x159.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/06/fiery_ssw_sunset-768x408.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/06/fiery_ssw_sunset-1200x637.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+
+{{< figure src="/wp-content/uploads/2018/06/fiery_ssw_sunset-1200x637.jpg" link="/wp-content/uploads/2018/06/fiery_ssw_sunset.jpg" >}}
 
 Welcome back friends!
 
@@ -81,11 +82,11 @@ When senseis practise, they practise the same basic move over and over for many 
 
 From the [Wikipedia page on Buddhism][10]:
 
-> The Four Truths express the basic orientation of Buddhism: we crave and cling to impermanent states and things, which is dukkha, &#8220;incapable of satisfying&#8221; and painful. This keeps us caught in saṃsāra, the endless cycle of repeated rebirth, dukkha and dying again. But there is a way to liberation from this endless cycle **to the state of nirvana**, namely following the Noble Eightfold Path.
+> The Four Truths express the basic orientation of Buddhism: we crave and cling to impermanent states and things, which is dukkha, “incapable of satisfying” and painful. This keeps us caught in saṃsāra, the endless cycle of repeated rebirth, dukkha and dying again. But there is a way to liberation from this endless cycle **to the state of nirvana**, namely following the Noble Eightfold Path.
 
-&#8230; and then later:
+… and then later:
 
-> &#8230;. and finally passing through the gate of wishlessness (apranihita) – realizing that nirvana is the state of not even wishing for nirvana.
+> …. and finally passing through the gate of wishlessness (apranihita) – realizing that nirvana is the state of not even wishing for nirvana.
 
 I can work with this.
 
