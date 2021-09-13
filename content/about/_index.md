@@ -23,6 +23,15 @@ I much prefer if you leave a comment on the relevant blog post.
 
 _(This blog is so old, it even has a [history page][3].)_
 
+## GitHub mirror
+
+Starting in September of 2021, most of this blog's contents (hundreds of posts
+spread out over 20 years of life) should be mirrored on
+[github](https://github.com/cpbotha/cpbotha.net) in the source markdown format.
+
+You can read more about why and how in [WHV
+#232](/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/#this-blog-hopefully-immortalised-on-github).
+
  [1]: http://charlbotha.com/ "charlbotha.com"
  [2]: mailto:cpbotha@cpbotha.net "my personal non-work e-mail address."
  [3]: /about/history "cpbotha.net blog history page"
