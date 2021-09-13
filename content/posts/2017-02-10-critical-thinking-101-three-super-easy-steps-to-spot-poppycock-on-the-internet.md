@@ -37,43 +37,43 @@ Next time, break the cycle by quickly checking the address of the news link. Thi
 
 Here are some examples to get you started:
 
-**Poppycock:** naturalnews.com, worldunity.me, someconspiracy.wordpress.com, &#8230; (send me more)
+**Poppycock:** naturalnews.com, worldunity.me, someconspiracy.wordpress.com, … (send me more)
 
 **Legitimate:** [newscientist.com][2], [nytimes.com][3], [theguardian.com][4], [propublica.org][5]
 
-It doesn&#8217;t take much practice to spot the pattern.
+It doesn’t take much practice to spot the pattern.
 
-If the address looks like it could be a BS source, there&#8217;s a high probability it is. Remember, we live in the age of fake news, when any idiot can and will put up a website and fill it with misleading information.
+If the address looks like it could be a BS source, there’s a high probability it is. Remember, we live in the age of fake news, when any idiot can and will put up a website and fill it with misleading information.
 
-**Important:** Images with text on them shared on Facebook are instantly disqualified. Come on people, we can&#8217;t be that gullible!
+**Important:** Images with text on them shared on Facebook are instantly disqualified. Come on people, we can’t be that gullible!
 
-If you&#8217;re still in doubt, continue on to the next step:
+If you’re still in doubt, continue on to the next step:
 
 # 2. Search for the site and/or the article contents on Snopes and on Google
 
-[Snopes][6] is an absolute goldmine, and it&#8217;s free for you to use, so please do.
+[Snopes][6] is an absolute goldmine, and it’s free for you to use, so please do.
 
 You can search for any topic or any story, and it will immediately give you a judgement of its veracity and a complete facts-based motivation for its decision.
 
-If you can&#8217;t find anything on Snopes, googling the name of the site, or the contents of the story will often reward you with external sources to help you decide. Remember to apply rule 1 to the external sources you find.
+If you can’t find anything on Snopes, googling the name of the site, or the contents of the story will often reward you with external sources to help you decide. Remember to apply rule 1 to the external sources you find.
 
 # 3. Find more external LEGITIMATE sources confirming or denying the contents of the article
 
 If after applying steps 1 and 2 you still have some doubt, try to find more **external** sources, applying rule 1 to each of these of course, that confirm or deny the contents of the article.
 
-If you can&#8217;t find any legitimate external sources, that&#8217;s usually a sign that the article under study should be flatly ignored.
+If you can’t find any legitimate external sources, that’s usually a sign that the article under study should be flatly ignored.
 
 # PROFIT!
 
-Only when you&#8217;ve applied all three steps, and they all have helped you to make the call that the link under study is not poppycock, only then consider sharing it with your internet friends.
+Only when you’ve applied all three steps, and they all have helped you to make the call that the link under study is not poppycock, only then consider sharing it with your internet friends.
 
 Furthermore, if you see a suspicious looking article shared by any of your friends, please do gently point them at this post!
 
 # Updates
 
-  * 2017-02-11: [_Fake news is &#8220;killing people&#8217;s minds&#8221;, says Apple boss Tim Cook_][7] (The Guardian) &#8211;
+  * 2017-02-11: [_Fake news is “killing people’s minds”, says Apple boss Tim Cook_][7] (The Guardian) –
 
-&nbsp;
+ 
 
  [1]: http://quoteinvestigator.com/2014/07/13/truth/
  [2]: https://www.newscientist.com/

@@ -15,21 +15,21 @@ tags:
   - zuma
 
 ---
-_(Warning: Due to the momentous events of the past week, this post is 80% South African politics. If this is not your thing, eject right before the large warning further down! Maybe next week we&#8217;ll be back to our usual programming, all depending on how above-mentioned momentous events play out.)_
+_(Warning: Due to the momentous events of the past week, this post is 80% South African politics. If this is not your thing, eject right before the large warning further down! Maybe next week we’ll be back to our usual programming, all depending on how above-mentioned momentous events play out.)_
 
-Between all of the retinal excitement of the (gorgeous) new <a href="https://youtu.be/3cxixDgHUYw" data-rel="lightbox-video-0">Justice League trailer</a> and the release of the new Ghost in the Shell movie (pretty but soulless the reviews seem to be saying), you might have missed the new Valerian trailer.
+Between all of the retinal excitement of the (gorgeous) new <a data-rel="lightbox-video-0" href="https://youtu.be/3cxixDgHUYw">Justice League trailer</a> and the release of the new Ghost in the Shell movie (pretty but soulless the reviews seem to be saying), you might have missed the new Valerian trailer.
 
 This would be a shame, because it looks mind-expandingly stunning:
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/cPeqNTqZNN0?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/cPeqNTqZNN0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
 On Tuesday, March 28, 2017, when I arrived home and Genetic Offspring Unit #3 (GOU#3 for short) saw me, she all-matter-of-factly stood up and _walked_ towards me.
 
 My heart burst.
 
-# WARNING: What&#8217;s happening in SA politics at the moment, in 60 seconds.
+# WARNING: What’s happening in SA politics at the moment, in 60 seconds.
 
 One would think that one heart bursting per week is sufficient, but on Friday morning this happened again for unfortunately far less than positive reasons.
 
@@ -41,9 +41,9 @@ Amongst many other ramifications, this also means that the 1 trillion Rand nucle
 
 This was one of the many unhealthy projects blocked by Pravin Gordhan.
 
-Besides [crippling our economy and enriching Zuma, his patronage network, and the Gupta brothers][2] (they seem to be pulling many of the strings, including those of Zuma), we really don&#8217;t need these power plants.
+Besides [crippling our economy and enriching Zuma, his patronage network, and the Gupta brothers][2] (they seem to be pulling many of the strings, including those of Zuma), we really don’t need these power plants.
 
-Our country&#8217;s renewable energy programmes [will be able to supply all of our energy needs in a cost-effective way for decades to come][3], without any new nuclear plants in sight, thank you very much.
+Our country’s renewable energy programmes [will be able to supply all of our energy needs in a cost-effective way for decades to come][3], without any new nuclear plants in sight, thank you very much.
 
 Nuclear power certainly has its place, but under these circumstances definitely not.
 
@@ -59,7 +59,7 @@ I am hoping that they are right, and that these will be the _right_ sort of fi
 
 Keep your fingers crossed. I look forward to seeing you on the other side!
 
-&nbsp;
+ 
 
  [1]: https://www.theguardian.com/world/2017/mar/31/jacob-zuma-sacks-finance-minister-pravin-gordhan
  [2]: https://businesstech.co.za/news/government/124993/zuma-the-guptas-and-south-africas-r1-trillion-nuclear-plans/
