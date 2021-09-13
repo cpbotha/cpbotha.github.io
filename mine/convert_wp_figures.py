@@ -2,6 +2,7 @@
 import html
 from pathlib import Path
 import re
+import sys
 from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
@@ -22,6 +23,27 @@ if False:
 
 
 # %%
+def rewrite_to_figure_shortcode(orig_ifn, large_ifn, caption, f) -> bool:
+    handled = False
+    # we can only convert if we've found both data-orig-file / data-large-file
+    if orig_ifn and large_ifn:
+        cap_token = f'caption="{html.escape(caption)}"' if caption else ""
+        f.write(f'{{{{< figure src="{large_ifn}" link="{orig_ifn}" {cap_token}>}}}}')
+        handled = True
+
+        # we should remove images that are not orig or large
+        # relative_to('/') essentially removes leading / from orig_ifn
+        img_relpath = Path(orig_ifn).relative_to('/')
+        orig_path = static_path / img_relpath
+        img_subdir = orig_path.parent
+        for i in img_subdir.glob(f"{orig_path.stem}-*{orig_path.suffix}"):
+            if not (str(i).endswith(orig_ifn) or str(i).endswith(large_ifn)):
+                i.unlink()
+                print(f"DELETED {i}")
+
+    return handled
+
+
 def handle_post(filename: Path):
     print(filename)
 
@@ -38,7 +60,7 @@ def handle_post(filename: Path):
             fig_and_handled = False
             if c.name == 'figure':
                 # when we start with new figure, assume we have nothing
-                caption = orig_ifn = large_ifn = None
+                caption = orig_ifn = large_ifn = backup_ifn = None
 
                 # we use findAll, because img could be further nested, sometimes inside <a href=... />
                 imgs = c.findAll('img', recursive=True)
@@ -51,9 +73,16 @@ def handle_post(filename: Path):
                     orig_ifn = urlparse(img.get('data-orig-file', None)).path
                     large_ifn = urlparse(img.get('data-large-file', None)).path
 
+                    # if there are images in this element, we now go through all other elements
+                    # we are interested in the caption
                     for cc in c.contents:
                         if cc.name == 'figcaption':
                             caption = cc.text
+
+                        elif cc.name == 'a':
+                            href = cc.get('href', '')
+                            if href.find('cpbotha.net/wp-content/uploads') >= 0:
+                                backup_ifn = urlparse(href).path
 
                         elif cc.name in [None, 'img', 'a']:
                             pass
@@ -61,24 +90,37 @@ def handle_post(filename: Path):
                         else:
                             raise RuntimeError(f"unexpected figure subtag {cc.name}")
 
+                    # some figures DON'T have data-orig-file and friends
+                    if not orig_ifn:
+                        if backup_ifn:
+                            orig_ifn = large_ifn = backup_ifn
 
-                    # we can only convert if we've found both data-orig-file / data-large-file
-                    if orig_ifn and large_ifn:
-                        cap_token = f'caption="{html.escape(caption)}"' if caption else ""
-                        f.write(f'{{{{< figure src="{large_ifn}" link="{orig_ifn}" {cap_token}>}}}}')
-                        fig_and_handled = True
-
-                        # we should remove images that are not orig or large
-                        # relative_to('/') essentially removes leading / from orig_ifn
-                        img_relpath = Path(orig_ifn).relative_to('/')
-                        orig_path = static_path / img_relpath
-                        img_subdir = orig_path.parent
-                        for i in img_subdir.glob(f"{orig_path.stem}-*{orig_path.suffix}"):
-                            if not (str(i).endswith(orig_ifn) or str(i).endswith(large_ifn)):
-                                i.unlink()
-                                print(f"DELETED {i}")
+                    fig_and_handled = rewrite_to_figure_shortcode(orig_ifn, large_ifn, caption, f)
 
                 # end of len(imgs) > 0
+
+            elif c.name == 'div' and 'figure' in c.get('class', []): # same as "c.attrs['class']" ?
+                # div.figure -> p -> a -> img
+                # no captions that I could see
+                try:
+                    a = c.findAll('a')[0]
+                except IndexError:
+                    pass
+                else:
+                    href = a.attrs['href']
+                    if href.find('cpbotha.net/wp-content/uploads') >= 0:
+                        orig_ifn = large_ifn = urlparse(href).path
+                        fig_and_handled = rewrite_to_figure_shortcode(orig_ifn, large_ifn, "", f)
+
+            elif c.name == 'a' and c.get('data-rel', '').startswith('lightbox') and c.get('href').find('cpbotha.net/wp-content/uploads') >= 0:
+                try:
+                    img = c.findAll('img')[0]
+                except IndexError:
+                    pass
+                else:
+                    large_ifn = urlparse(img.get('data-large-file', None)).path
+                    orig_ifn = urlparse(img.get('data-orig-file', None)).path
+                    fig_and_handled = rewrite_to_figure_shortcode(orig_ifn, large_ifn, "", f)
 
             if not fig_and_handled:
                 # just output any unhandled figures, and everything else
@@ -87,7 +129,7 @@ def handle_post(filename: Path):
     
 def main():
     # iterate over every md file in posts_path
-    for fn in posts_path.glob('*.md'):
+    for fn in sys.argv[1:]:
         handle_post(fn)
 
     #handle_post(posts_path / "2014-07-31-weekly-head-voices-79-remote-controlled-mushrooms.md")
