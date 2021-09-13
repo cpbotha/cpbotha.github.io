@@ -21,17 +21,17 @@ tags:
   - time machine
 
 ---
-<figure class="wp-block-image"><img data-attachment-id="3465" data-permalink="https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/strand_running_route_2/" data-orig-file="https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.8&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 8&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1550565939&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.99&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.00014499057561259&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="strand_running_route_2" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-300x225.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-1024x768.jpg" src="https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-1024x768.jpg" alt="" class="wp-image-3465" srcset="https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-1024x768.jpg 1024w, https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-300x225.jpg 300w, https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-768x576.jpg 768w, https://cpbotha.net/wp-content/uploads/2019/02/strand_running_route_2-1200x900.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /><figcaption>Pre-work not-too-shabby running route.</figcaption></figure> 
+{{< figure src="/wp-content/uploads/2019/02/strand_running_route_2-1024x768.jpg" link="/wp-content/uploads/2019/02/strand_running_route_2.jpg" caption="Pre-work not-too-shabby running route.">}} 
 
 Welcome back friends! This WHV looks back at the two weeks from Monday February 18 to Sunday March 3, 2019. I was planning to release the edition of the WHV on time, but my need for a break was greater.
 
-Because I&#8217;ve given up on ever mastering the art of the bullet-list form of the weekly(ish) status update, I am going to double-down on the old-fashioned sectioned prose form that you see before you.
+Because I’ve given up on ever mastering the art of the bullet-list form of the weekly(ish) status update, I am going to double-down on the old-fashioned sectioned prose form that you see before you.
 
-Also, this post has again evolved into a long ramble. (It&#8217;s now Saturday March 9, time to start working on the next edition. I&#8217;m curious what form it will take.)
+Also, this post has again evolved into a long ramble. (It’s now Saturday March 9, time to start working on the next edition. I’m curious what form it will take.)
 
 ## GOU#1 is #2
 
-It feels like through these posts you&#8217;ve pretty much seen [GOU#1 grow up before your eyes][1], so I&#8217;ve given myself permission to mention this moment of parental pride, hopefully quite briefly though (I write this blog not only for you, but also for me in 20 years time!):
+It feels like through these posts you’ve pretty much seen [GOU#1 grow up before your eyes][1], so I’ve given myself permission to mention this moment of parental pride, hopefully quite briefly though (I write this blog not only for you, but also for me in 20 years time!):
 
 GOU #1 has been elected as [deputy head girl][2] of her 1600+ pupil primary school!
 
@@ -65,26 +65,26 @@ I am currently on the lookout for what is going to be my fourth candidate solar 
 
 Somewhere during the past two weeks, I lost, forever and ever, at least three evenings.
 
-Tipped off by a colleague at work, encouraged by my family&#8217;s mobile photos investment in Google Photos, and further tempted by the significant price difference and the family storage sharing option, I convinced myself that it was time to migrate my little empire of useless files (dropbox reports that I currently have just over 500000 (five hundred thousand) of them) out of Dropbox and into Google Drive.
+Tipped off by a colleague at work, encouraged by my family’s mobile photos investment in Google Photos, and further tempted by the significant price difference and the family storage sharing option, I convinced myself that it was time to migrate my little empire of useless files (dropbox reports that I currently have just over 500000 (five hundred thousand) of them) out of Dropbox and into Google Drive.
 
 This is how it looked on paper, i.e. in my head and in my Emacs notes:
 
   * I have about 70GB of photos taken with various family cameras of kids growing up, vacations everywhere and so on. These photos are currently not easily accessible by said family. If they were on Google Drive, they could be automatically exposed to Google Photos, which my family is already using!
-  * My 237G of Google Drive space, sufficient for everything, costs R39 / month (that&#8217;s about $2.75), whereas my Dropbox subscription costs $10 / month.
-  * The cheap subscription of Drive already enables one to do content searches. E.g. I could find scans of documents instantly by typing OCR&#8217;d words that occur in the documents. If you want the same with Dropbox, you have to go Pro (not Plus), and pay double, that is $19.99 per month.
+  * My 237G of Google Drive space, sufficient for everything, costs R39 / month (that’s about $2.75), whereas my Dropbox subscription costs $10 / month.
+  * The cheap subscription of Drive already enables one to do content searches. E.g. I could find scans of documents instantly by typing OCR’d words that occur in the documents. If you want the same with Dropbox, you have to go Pro (not Plus), and pay double, that is $19.99 per month.
   * Drive has a built-in facility to backup folders outside of the main sync folder.
-  * There&#8217;s a great tool called [rclone][5] with which nerds can sync files to Google Drive from the command-line!
+  * There’s a great tool called [rclone][5] with which nerds can sync files to Google Drive from the command-line!
 
 ### Four lessons learned uploading 500k files to Google Drive
 
   1. Google has servers down here in South Africa: With larger files, the upload could easily max out my 50Mbit/s upload. 
   2. However, in spite of allocating and configuring my own [`client_id`][6], I could not upload faster than about 3 files per second. Based on various threads on the rclone forums, this is a known issue.
-  3. Google Drive&#8217;s selective sync functionality does NOT (easily) allow you to maintain a local version of an excluded directory in the same way that Dropbox does. This is _especially_ annoying for those already quite annoying `node_modules` folders.
+  3. Google Drive’s selective sync functionality does NOT (easily) allow you to maintain a local version of an excluded directory in the same way that Dropbox does. This is _especially_ annoying for those already quite annoying `node_modules` folders.
   4. Google Drive and its API support identically named files and directories, located in the same parent directory.
 
 ### How did the wheels fall off then?
 
-I was alternating between the official Google Backup & Sync client and `rclone sync`. I did this to check if rclone with a private `client_id` would be able to upload faster (it couldn&#8217;t) and because rclone showed sync progress more clearly with an estimated time of completion (all of this turned out to be wildly incorrect and variable due to all of those small files).
+I was alternating between the official Google Backup & Sync client and `rclone sync`. I did this to check if rclone with a private `client_id` would be able to upload faster (it couldn’t) and because rclone showed sync progress more clearly with an estimated time of completion (all of this turned out to be wildly incorrect and variable due to all of those small files).
 
 My logic was that as long as the two tools were not running in parallel, sync logic and checksums should prevail right?!
 
@@ -96,11 +96,11 @@ Unbeknownst to me, it had created hundreds of identically-named directories ever
 
 At about halfway through this multi-day upload project, I switched back to the official Google tool, which finally, FINALLY managed to sync everything after about 5 days I would guess.
 
-I was briefly _quite_ happy with Google&#8217;s arrow-in-cloud you-are-fully-synced icon in the menubar.
+I was briefly _quite_ happy with Google’s arrow-in-cloud you-are-fully-synced icon in the menubar.
 
 However, because happiness is so inherently fleeting anyways, I decided that it was time for the next phase of the project: Add the first Linux workstation to the little sync family.
 
-Google Drive does NOT have a native client for Linux, although they&#8217;ve promised this since the start, and so I decided to try [Insync][7], which seems to be one of the best of the third party clients.
+Google Drive does NOT have a native client for Linux, although they’ve promised this since the start, and so I decided to try [Insync][7], which seems to be one of the best of the third party clients.
 
 I pre-seeded the sync directory on said Linux machine using rsync and then started the insync client. This is a use case which was often enough mentioned on the forums as being supported.
 
@@ -110,7 +110,7 @@ However, soon I saw whole directory hierarchies with thousands of files disappea
 
 STAAAAAAAAHP!!! JUST STAHP.
 
-A second, stubborn attempt, after having recovered files and synced everything up with Google&#8217;s tool, yielded similarly frustrating results.
+A second, stubborn attempt, after having recovered files and synced everything up with Google’s tool, yielded similarly frustrating results.
 
 Granted, the duplicate folders on Google Drive are a far from ideal test case, but deleting directories like that on both client and server is not defensible.
 
@@ -126,7 +126,7 @@ Defeated, I retreated to the expensive, but safe, embrace of Dropbox.
 
 On that last point: Juggling my 500k files between Dropbox, Google Drive, then going live on Google Drive with real work before jumping into the shady world of badly implemented sync clients made me realise (again) the importance of a separate set of incremental backups.
 
-Before my macOS phase (which started on May 6, 2015 when my employer bought me my first MacBook Pro and I wrote in my diary: &#8220;Bought 13.3 retina MacBook Pro early 2015, 128 GB SSD. I am doomed.&#8221;) I used to maintain a [dirvish][9] backup. 
+Before my macOS phase (which started on May 6, 2015 when my employer bought me my first MacBook Pro and I wrote in my diary: “Bought 13.3 retina MacBook Pro early 2015, 128 GB SSD. I am doomed.”) I used to maintain a [dirvish][9] backup. 
 
 (Dirvish is an amazing tool by the way.)
 

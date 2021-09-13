@@ -68,7 +68,7 @@ that entry, although I had explicitly tagged it with "aspartame".
 
 It could very well be that this is just a (serious) glitch in the beta system,
 but it was a frustrating reminder that for something as important (to me) as
-my collection of references (aka &#8220;argument-winning potion&#8221;), I was
+my collection of references (aka “argument-winning potion”), I was
 at the mercy of someone else, with almost no other recourse.
 
 This frustrating led me to find an alternative solution, which became... a big
@@ -82,16 +82,16 @@ and some system for the storage and retrieval of said PDFs.
 The general idea is to use a browser with ad-blocking and some sort of reader
 mode, and then to print to PDF.
 
-On desktop, I am using&nbsp;[Brave Browser][5]&nbsp;because of the great
+On desktop, I am using [Brave Browser][5] because of the great
 built-in ad-blocking, and because I strongly support the idea of
 micro-payments to long-form content producers instead of content-destroying
 ads in my face.
 
-Because its built in reader mode, called&nbsp;[Speed Reader][6], has not
-shipped yet, I'm currently using the&nbsp;[Print Friendly & PDF extension][7].
+Because its built in reader mode, called [Speed Reader][6], has not
+shipped yet, I'm currently using the [Print Friendly & PDF extension][7].
 
 Safari on macOS and Firefox have built-in reader modes / views. I can
-recommend the&nbsp;[AdGuard ad-blocking extension][8]&nbsp;for Safari.
+recommend the [AdGuard ad-blocking extension][8] for Safari.
 
 Unfortunately, Safari on iOS 12 does not currently add the source URL to its
 virtually printed PDFs, so I'm using Brave there also, although on iOS I
@@ -104,10 +104,10 @@ the PDF.
 ### Store and name your PDFs so you can search them from everywhere
 
 I store all of these PDFs in year-named sub-directories of a directory
-called&nbsp;`refs`&nbsp;in my Dropbox.
+called `refs` in my Dropbox.
 
 Each PDF is named "publication-date - publisher / author - title / stub", so
-the full path is e.g.&nbsp;`~/Dropbox/refs/2019/2019-03-09 - CBC Radio - Your
+the full path is e.g. `~/Dropbox/refs/2019/2019-03-09 - CBC Radio - Your
 brain may need sleep to repair DNA 'potholes'`.
 
 On macOS, all of these PDFs are indexed by Spotlight, so I can find the ones I
