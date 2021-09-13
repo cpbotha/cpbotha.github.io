@@ -21,6 +21,7 @@ tags:
   - pytorch
   - rescuetime
   - review
+  - side-projects
   - spotify
   - webextension
 

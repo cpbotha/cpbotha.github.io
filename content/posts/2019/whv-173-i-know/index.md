@@ -15,6 +15,7 @@ tags:
   - gou
   - gmail
   - mu4e
+  - side-projects
   - solar
 categories:
   - weekly head voices
