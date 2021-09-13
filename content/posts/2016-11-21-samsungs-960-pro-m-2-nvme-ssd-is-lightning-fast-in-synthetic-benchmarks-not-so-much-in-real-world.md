@@ -17,11 +17,12 @@ tags:
 format: aside
 
 ---
-Samsung&#8217;s 960 Pro M.2 NVME SSD is lust-worthy:<figure style="width: 980px" class="wp-caption alignnone">
+Samsung’s 960 Pro M.2 NVME SSD is lust-worthy:
 
-<img src="https://cdn.arstechnica.net/wp-content/uploads/2016/10/960proheader-980x551.jpg" width="980" height="551" /><figcaption class="wp-caption-text">Two Samsung 960 Pro M.2 NVME SSDs. Photo by Edward Chester at Ars Technica.</figcaption></figure> 
+<figure class="wp-caption alignnone" style="width: 980px">
+<img height="551" src="https://cdn.arstechnica.net/wp-content/uploads/2016/10/960proheader-980x551.jpg" width="980"/><figcaption class="wp-caption-text">Two Samsung 960 Pro M.2 NVME SSDs. Photo by Edward Chester at Ars Technica.</figcaption></figure> 
 
-In [Ars Technica&#8217;s benchmarks][1], the 512 GB model clocked in at over 3500 megabytes per second sequential read and 2000 megabytes per second sequential write. Those are jaw-dropping performance numbers.
+In [Ars Technica’s benchmarks][1], the 512 GB model clocked in at over 3500 megabytes per second sequential read and 2000 megabytes per second sequential write. Those are jaw-dropping performance numbers.
 
 What I find really interesting however, is that the 960 Pro does not perform much better than the previous generation 850 Pro SATA SSD in PCMark 7 and 8 real-world benchmarks. (Random IOPS performance of the drive is also really good.)
 

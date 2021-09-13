@@ -16,7 +16,7 @@ One of my three subscribers was understandably less than happy about receiving 
 
 Using [the Code Snippets plugin][1] and [the jetpack subscriptions exclude categories filter][2], I have now configured the blog so that in theory it should not mail subscribers when I post in the microblog category.
 
-In short: Email subscribers won&#8217;t receive any microblog post emails. I hope this helps!
+In short: Email subscribers won’t receive any microblog post emails. I hope this helps!
 
  [1]: https://wordpress.org/plugins/code-snippets/
  [2]: https://jetpack.com/support/subscriptions/

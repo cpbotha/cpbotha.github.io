@@ -14,7 +14,7 @@ tags:
 format: video
 
 ---
-The whole music video was shot with high-speed video in one single, glorious 4.2 second take, and then played back at &#8220;normal&#8221; speed to result in this mind-blowing end-product:
+The whole music video was shot with high-speed video in one single, glorious 4.2 second take, and then played back at “normal” speed to result in this mind-blowing end-product:
 
 <div class="fb-video" data-allowfullscreen="true" data-href="https://www.facebook.com/okgo/videos/10153836041340683/">
 </div>

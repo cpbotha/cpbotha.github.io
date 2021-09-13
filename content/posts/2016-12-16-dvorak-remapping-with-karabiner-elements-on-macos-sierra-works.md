@@ -15,25 +15,8 @@ tags:
 
 ---
 
-<figure>
-<a href="https://cpbotha.net/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png">
-<img
-src="https://cpbotha.net/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM-1024x646.png"
-srcset="https://cpbotha.net/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM-1024x646.png
-1024w,
-https://cpbotha.net/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM-300x189.png
-300w,
-https://cpbotha.net/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM-768x484.png
-768w,
-https://cpbotha.net/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM-1200x757.png
-1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width:
-1362px) 62vw, 840px" />
-</a>
-<figcaption>With some config file elbow grease,
-Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to
-Dvorak.
-</figcaption>
-</figure>
+{{< figure src="/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png" link="/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png"
+caption="With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.">}}
 
 I have been using [Karabiner][1] for a while now to remap my keyboard to
 Dvorak, as the OSX system Dvorak keyboard mapping exposes [a bug in many Java

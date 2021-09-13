@@ -82,8 +82,7 @@ symbols). Passphrase length and complexity is by far the most important factor
 determining the safety of your encrypted secret key.
 
 However, I had the default SHA-1 hash (ouch) with only 64k
-iterations. Iterating the hash is called <a
-href="https://en.wikipedia.org/wiki/Key_stretching">key stretching</a>: the
+iterations. Iterating the hash is called <a href="https://en.wikipedia.org/wiki/Key_stretching">key stretching</a>: the
 passphrase is hashed, that result is hashed, and so on, for very many times,
 so that the testing of each passphrase takes more time, complicating
 brute-force cracking approaches.
@@ -115,8 +114,7 @@ You can then check that this operation is successful by using the command <code>
     keyid: 384435C7E77A4564
       
 
-SHA-512 is the slowest hash which PGP offers (see <a
-href="http://thepasswordproject.com/oclhashcat_benchmarking">these oclHashcat
+SHA-512 is the slowest hash which PGP offers (see <a href="http://thepasswordproject.com/oclhashcat_benchmarking">these oclHashcat
 benchmarks for example</a>), which means that each iteration of a brute-force
 password cracking attempt will take a bit longer / eat more GPU watts, which
 is exactly what we want. You can increase the protect count for as long as the
@@ -126,8 +124,7 @@ However, remember that a stronger and longer passphrase is much better! (so we
 do both)
 
 
-Other than that, remember that <a
-href="/2016/11/27/android-security-in-2016-is-a-mess/">Android security is far
+Other than that, remember that <a href="/2016/11/27/android-security-in-2016-is-a-mess/">Android security is far
 from good</a>, so do as much as you can to keep your phone safe (keep up with
 OS updates, stay away from unofficial app markets, and so on).
 
@@ -139,9 +136,7 @@ I was pleasantly surprised to learn that I could directly import both my
 <code>~/.gnupg</code> directory. Right after selecting secring.pgp for import,
 the UI looked like this:
 
-<p>
-<a href="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007.png" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="2665" data-permalink="https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/screenshot_20161209-075007/" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007.png" data-orig-size="1440,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot_20161209-075007" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-169x300.png" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-576x1024.png" class="alignnone size-medium wp-image-2665" src="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-169x300.png" alt="" width="169" height="300" srcset="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-169x300.png 169w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-768x1365.png 768w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-576x1024.png 576w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007-1200x2133.png 1200w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161209-075007.png 1440w" sizes="(max-width: 169px) 85vw, 169px" /></a>
-</p>
+{{< figure src="/wp-content/uploads/2016/12/Screenshot_20161209-075007-576x1024.png" link="/wp-content/uploads/2016/12/Screenshot_20161209-075007.png" >}}
     
 You can see the old 1024 bit key I made in 2000 to use for my Debian
 activities, and the 4096 bit key I currently use.
@@ -150,9 +145,8 @@ After importing your secret and public keyring, you are able to encrypt,
 decrypt, sign and verify any files or clipboard contents on your Android
 phone:
 
-<p>
-<a href="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851.png" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="2666" data-permalink="https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/screenshot_20161211-170851/" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851.png" data-orig-size="1440,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot_20161211-170851" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-169x300.png" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-576x1024.png" class="alignnone size-medium wp-image-2666" src="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-169x300.png" alt="" width="169" height="300" srcset="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-169x300.png 169w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-768x1365.png 768w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-576x1024.png 576w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851-1200x2133.png 1200w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-170851.png 1440w" sizes="(max-width: 169px) 85vw, 169px" /></a>
-</p>
+{{< figure src="/wp-content/uploads/2016/12/Screenshot_20161211-170851-576x1024.png" link="/wp-content/uploads/2016/12/Screenshot_20161211-170851.png" >}}
+
     
 So if I receive something like this via Signal:
 
@@ -175,13 +169,12 @@ So if I receive something like this via Signal:
     =c7j9
     -----END PGP SIGNATURE-----
 
-I long-press, copy the message and then select &#8220;read from
-clipboard&#8221; from OpenKeychain's Encrypt/Decrypt screen, which, if
+I long-press, copy the message and then select “read from
+clipboard” from OpenKeychain's Encrypt/Decrypt screen, which, if
 everything checks out, shows me the following message:
     
-<p>
-<a href="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817.png" data-rel="lightbox-image-2" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="2673" data-permalink="https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/screenshot_20161211-202817/" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817.png" data-orig-size="1440,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot_20161211-202817" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-169x300.png" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-576x1024.png" class="alignnone wp-image-2673 size-medium" src="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-169x300.png" width="169" height="300" srcset="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-169x300.png 169w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-768x1365.png 768w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-576x1024.png 576w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817-1200x2133.png 1200w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-202817.png 1440w" sizes="(max-width: 169px) 85vw, 169px" /></a>
-</p>
+{{< figure src="/wp-content/uploads/2016/12/Screenshot_20161211-202817-576x1024.png" link="/wp-content/uploads/2016/12/Screenshot_20161211-202817.png" >}}
+
     
 I can now rest assured that <a href="http://mentat.za.net/">this
 specific buddy of mine</a> is never gonna give me up and is never gonna let me
@@ -193,9 +186,8 @@ signed and optionally encrypted text text available for sharing to any app, or
 for copying and pasting:
 
     
-<p>
-<a href="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458.png" data-rel="lightbox-image-3" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="2670" data-permalink="https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/screenshot_20161211-174458/" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458.png" data-orig-size="1440,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot_20161211-174458" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-169x300.png" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-576x1024.png" class="alignnone size-medium wp-image-2670" src="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-169x300.png" alt="" width="169" height="300" srcset="https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-169x300.png 169w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-768x1365.png 768w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-576x1024.png 576w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458-1200x2133.png 1200w, https://cpbotha.net/wp-content/uploads/2016/12/Screenshot_20161211-174458.png 1440w" sizes="(max-width: 169px) 85vw, 169px" /></a>
-</p>
+{{< figure src="/wp-content/uploads/2016/12/Screenshot_20161211-174458-576x1024.png" link="/wp-content/uploads/2016/12/Screenshot_20161211-174458.png" >}}
+
     
 Easy peasy, and tested under all sorts of usually-PGP-unfriendly conditions!
     
