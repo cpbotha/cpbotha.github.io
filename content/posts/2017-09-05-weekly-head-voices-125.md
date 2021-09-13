@@ -26,11 +26,9 @@ Monday, July 30 to Sunday, September 3, 2017.
 
 Because I would prefer that you perceive the time that you invest in reading these posts as time also usefully spent, allow me to start with a visual exposition of the pleasantly straight-forward **geometry of parallel parking**.
 
-In other words, if you're like me and your parallel parking performance could do with some improvement (mine oscillates between &#8220;I am the best parallel parker in the world, wheels perfectly aligned 5mm from the pavement&#8221; and &#8220;ABORT ABORT!! Oh well, we will find parking another day.&#8221;), the following animation might be of assistance:
+In other words, if you're like me and your parallel parking performance could do with some improvement (mine oscillates between “I am the best parallel parker in the world, wheels perfectly aligned 5mm from the pavement” and “ABORT ABORT!! Oh well, we will find parking another day.”), the following animation might be of assistance:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="2g5Bzi9"><a
-href="//imgur.com/2g5Bzi9">Parallel Parking</a></blockquote><script async
-src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" data-id="2g5Bzi9" lang="en"><a href="//imgur.com/2g5Bzi9">Parallel Parking</a></blockquote><script async="" charset="utf-8" src="//s.imgur.com/min/embed.js"></script>
 
 ## Yurp
 
@@ -44,7 +42,7 @@ Back home, it was time for me to add another life year to my steadily growing co
 
 My [gracious employer][1] thought that the big day was an as good moment as any to equip me with a **brand new work machine**.
 
-Up to then, I had been working on all of three different machines: [Linux-running i7 desktop][2] (acquired in Feb of 2015), [early 2015 13&#8243; retina MacBook Pro][3] (acquired in June of 2015) and my [trusty old klunky i7 Acer Linux-running laptop][4] (acquired around March 2013).
+Up to then, I had been working on all of three different machines: [Linux-running i7 desktop][2] (acquired in Feb of 2015), [early 2015 13″ retina MacBook Pro][3] (acquired in June of 2015) and my [trusty old klunky i7 Acer Linux-running laptop][4] (acquired around March 2013).
 
 Data is kept in sync, but context switching between different projects with different development environments on different machines at home and at work does seem to take up more time than I would care to admit.
 
@@ -72,7 +70,7 @@ What was interesting, was that the act of having to specify and record each bloc
 
 All of a sudden, even goofing off could only happen if I explicitly spent time deciding that goofing off was really justified. Furthermore, the fact that I knew exactly how many minutes I was goofing off, tended to keep these distractions short.
 
-The problem with this experiment quite unsurprisingly turned out to be the overhead of mechanically having to record every minute. That being said, I think the availability of a practical, highly private and practical mechanism (unlike the one I tried) for the real-time and aggregated measurement and reporting of &#8220;time value&#8221; could be a substantial help in the continuous optimisation of one's days.
+The problem with this experiment quite unsurprisingly turned out to be the overhead of mechanically having to record every minute. That being said, I think the availability of a practical, highly private and practical mechanism (unlike the one I tried) for the real-time and aggregated measurement and reporting of “time value” could be a substantial help in the continuous optimisation of one's days.
 
 ## Happy not happy
 
@@ -84,7 +82,7 @@ Whatever the case may be, I think the message is an important one, especially fo
 
 > The opposite of every other book. Don’t try. Give up. Be wrong. Lower your standards. Stop believing in yourself. Follow the pain. Each point is profoundly true, useful, and more powerful than the usual positivity. Succinct but surprisingly deep, I read it in one night.
 
-(Interestingly, the first of the four noble truths of **Buddhism** is that **life is suffering**. &#8220;Human beings are subject to desires and cravings, but even when we are able to satisfy these desires, the satisfaction is only temporary. Pleasure does not last; or if it does, it becomes monotonous.&#8221; see [this BBC entry][10] for more happy thoughts about Buddhism. In fact-checking my summary up above, I just saw in Manson's book that he does in fact explicitly tell the story of Buddha, in chapter 2 already. Doh.)
+(Interestingly, the first of the four noble truths of **Buddhism** is that **life is suffering**. “Human beings are subject to desires and cravings, but even when we are able to satisfy these desires, the satisfaction is only temporary. Pleasure does not last; or if it does, it becomes monotonous.” see [this BBC entry][10] for more happy thoughts about Buddhism. In fact-checking my summary up above, I just saw in Manson's book that he does in fact explicitly tell the story of Buddha, in chapter 2 already. Doh.)
 
 On the topic of not being special, I recently stumbled upon this interview with Simon Sinek. It's all about the phenomenon of millenials in the workplace. Many of us around here (hey, we read long form blogs, this means we're probably old-school) don't classify as millenials, but the points Sinek makes about the role of old-school patience and focus in the work-place as opposed to the millenial-era instant gratification attention economy resonated with me.
 
@@ -96,7 +94,7 @@ YouTube videos of what could have been blog posts, but then I just had to
 finish the whole 18 minutes (dangit youtube! video was pulled so I had to
 replace with 15 minute version on 2019-04-16:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hER0Qp6QJNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hER0Qp6QJNU" width="560"></iframe>
 
 It would be remiss of me not to mention Wait but Why's brilliant and complementary exposition of [Why Generation Y Yuppies Are Unhappy][11].
 
@@ -112,7 +110,8 @@ P.P.S. During the night I started worrying that readers, especially my mom (hi m
 
 P.P.P.S. Statistically, [humans hit happiness rock bottom][12] at around about 50, see the u-shaped graph below (thanks [FM][13] for sending). A number of us are hiding here in the we've-made-our-peace-thanks-for-all-the-fish long tails of the distribution, where we plan to ride this one out. Join us!
 
-[<img data-attachment-id="2941" data-permalink="https://cpbotha.net/2017/09/05/weekly-head-voices-125/wapo-happy-graph/" data-orig-file="https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph.jpg" data-orig-size="2300,1920" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="wapo-happy-graph" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-300x250.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-1024x855.jpg" class="alignnone size-large wp-image-2941" src="https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-1024x855.jpg" alt="" width="840" height="701" srcset="https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-1024x855.jpg 1024w, https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-300x250.jpg 300w, https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-768x641.jpg 768w, https://cpbotha.net/wp-content/uploads/2017/09/wapo-happy-graph-1200x1002.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />][12]
+{{< figure src="/wp-content/uploads/2017/09/wapo-happy-graph.jpg" link="https://www.washingtonpost.com/news/wonk/wp/2017/08/24/under-50-you-still-havent-hit-rock-bottom-happiness-wise/" >}}
+
 
  [1]: https://vxlabs.com/
  [2]: /2015/02/15/meepz97-i-haz-a-new-computar-machine/
