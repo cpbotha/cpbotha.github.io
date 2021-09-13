@@ -16,9 +16,7 @@ tags:
   - unicorns
 
 ---
-<figure>
-<a href="https://cpbotha.net/wp-content/uploads/2018/03/rainbow_unicorn_2.jpg">
-<img alt="" width="840" height="630" srcset="https://cpbotha.net/wp-content/uploads/2018/03/rainbow_unicorn_2-1024x768.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/03/rainbow_unicorn_2-300x225.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/03/rainbow_unicorn_2-768x576.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/03/rainbow_unicorn_2-1200x900.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-3092" class="wp-caption-text">This rainbow unicorn, floating serenely on a cloudy background, is winking right at you. Down below, we are celebrating GOU #3&#8217;s second birthday. Photo taken with the expert assistance of GOU#1, age 11 going on 32.</figcaption></figure> 
+{{< figure src="/wp-content/uploads/2018/03/rainbow_unicorn_2.jpg" link="/wp-content/uploads/2018/03/rainbow_unicorn_2.jpg" caption="This rainbow unicorn, floating serenely on a cloudy background, is winking right at you. Down below, we are celebrating GOU #3’s second birthday. Photo taken with the expert assistance of GOU#1, age 11 going on 32.">}} 
 
 Hi there friends, welcome back to the weekly (!!!) head voices! I missed you.
 
@@ -28,17 +26,17 @@ Releasing desktop software, even for a small group of people, can get tricky qui
 
 Yes, people still write desktop software, and we do love doing it. However, compared to web-apps, there are some additional challenges.
 
-One can&#8217;t easily roll-out an incremental fix while no-one is watching, because every release is a significant event where users have to go to the effort of downloading and installing your baby.
+One can’t easily roll-out an incremental fix while no-one is watching, because every release is a significant event where users have to go to the effort of downloading and installing your baby.
 
-It&#8217;s a fairly new product, so our release process is still being refined. Long story short, we caught a bug on the release platform (we develop cross-platform, but deploy for a single platform) shortly before release and so we really had to scramble to fix. This, together with the fact that the preparations for the release were already generally intense, left me quite frazzled by Wednesday evening after dinner.
+It’s a fairly new product, so our release process is still being refined. Long story short, we caught a bug on the release platform (we develop cross-platform, but deploy for a single platform) shortly before release and so we really had to scramble to fix. This, together with the fact that the preparations for the release were already generally intense, left me quite frazzled by Wednesday evening after dinner.
 
-Lesson learned: In a cross-platform development, don&#8217;t allow _any_ dependency version discrepancies between platforms, no matter if it causes developer inconvenience.
+Lesson learned: In a cross-platform development, don’t allow _any_ dependency version discrepancies between platforms, no matter if it causes developer inconvenience.
 
 # Unicorns and rainbows
 
 GOU #3 turned 2 on Thursday.
 
-The littlest genetic offspring unit seems to be verbally well developed. She&#8217;s already using words like &#8220;eintlik&#8221; (&#8220;eigenlijk&#8221; in Dutch, &#8220;actually&#8221; in English) in fairly well-structured sentences. I have taught her to say phrases like &#8220;universiteit&#8221; and &#8220;lekker internet&#8221;, which she does with a smile.
+The littlest genetic offspring unit seems to be verbally well developed. She’s already using words like “eintlik” (“eigenlijk” in Dutch, “actually” in English) in fairly well-structured sentences. I have taught her to say phrases like “universiteit” and “lekker internet”, which she does with a smile.
 
 She is able to express her wants and needs at a level which exceeds that of some 30 year olds.
 
@@ -46,7 +44,7 @@ Anyways, yesterday we held a birthday party for her.
 
 It was a fabulously enjoyable affair with far too many delectable delicacies, and more than sufficient amounts of craft beer and good wine (expensive local Chardonnay is my current preference, if you must know).
 
-It was beautiful to see so much of the family together in one place, all connecting like we humans should be doing as often as we can, but often don&#8217;t.
+It was beautiful to see so much of the family together in one place, all connecting like we humans should be doing as often as we can, but often don’t.
 
 Thank you little GOU #3, for everything.
 
@@ -72,7 +70,7 @@ One of the co-authors of the study, 82-year old Prof Norman Lazarus (who himself
 
 ## The Carmack Productivity Method (CPM)
 
-[John Carmack][5] is the modern-day genius who was the lead programmer of genre- and era-defining games like [Wolfenstein 3D][6], [DOOM][7] (&#8220;one of the most significant and influential titles in video game history&#8221;) and [Quake][8]. During working on these projects, he invented a number of important computer graphics techniques.
+[John Carmack][5] is the modern-day genius who was the lead programmer of genre- and era-defining games like [Wolfenstein 3D][6], [DOOM][7] (“one of the most significant and influential titles in video game history”) and [Quake][8]. During working on these projects, he invented a number of important computer graphics techniques.
 
 It turns out that Carmack is not only a genius, but a productivity and focus _monster_.
 
@@ -86,7 +84,7 @@ Would you be able to implement something like this for your work?
 
 # À bientôt
 
-Thank you very much for stopping by! Have a productive week, and don&#8217;t forget to exercise.
+Thank you very much for stopping by! Have a productive week, and don’t forget to exercise.
 
 I look forward to our next meeting.
 

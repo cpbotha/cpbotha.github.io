@@ -16,7 +16,7 @@ tags:
   - tracker
 
 ---
-<a href="https://cpbotha.net/wp-content/uploads/2018/04/mystery_place.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3129" data-permalink="https://cpbotha.net/2018/04/02/weekly-head-voices-138-born-to-run/mystery_place/" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/04/mystery_place.jpg" data-orig-size="3024,1697" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1522574546&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.00055897149245388&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="mystery_place" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-300x168.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-1024x575.jpg" class="alignnone size-large wp-image-3129" src="https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-1024x575.jpg" alt="" width="840" height="472" srcset="https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-1024x575.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-300x168.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-768x431.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/04/mystery_place-1200x673.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+{{< figure src="/wp-content/uploads/2018/04/mystery_place-1024x575.jpg" link="/wp-content/uploads/2018/04/mystery_place.jpg" >}}
 
 I am currently in a place with no to extremely little internet. Just getting the photo above uploaded was an adventure.
 
@@ -28,17 +28,17 @@ Anyways, I might have no internet, but the scenery here is phenomenal.
 
 # Sometimes focus falls and slips into Emacs
 
-During the past week I had a fairly difficult technical puzzle to deal with. It&#8217;s one of those puzzles that can only be solved with multiple days of research and concerted focus.
+During the past week I had a fairly difficult technical puzzle to deal with. It’s one of those puzzles that can only be solved with multiple days of research and concerted focus.
 
-It&#8217;s funny how my mind manages to sort of slip away when faced with these sorts of puzzles where the solution, if it even exists (this is probably the main reason for the continual slippage), seems to be weeks away, instead of a few hours or days.
+It’s funny how my mind manages to sort of slip away when faced with these sorts of puzzles where the solution, if it even exists (this is probably the main reason for the continual slippage), seems to be weeks away, instead of a few hours or days.
 
-It&#8217;s like a usually sharp(ish) knife which simply refuses to bite into the thing that I so desperately want to cut with it.
+It’s like a usually sharp(ish) knife which simply refuses to bite into the thing that I so desperately want to cut with it.
 
 In my specific case, especially later in the afternoons when prefrontal cortex is long-gone, mindlessly drinking its beer while staring into space somewhere, or even later in the evenings when everyone else is also drinking beer while staring into space, I wake up to find myself working on some obscure Emacs hack.
 
 This week, primary thought slippage resulted in:
 
-  * Hooking up my emacs, via [helm-for-files][1] with mdfind (the command-line interface to spotlight) on macOS and the tracker file indexer on Linux. This means that with a simple press of the `C-x c o` keys, I can instantly open any file in Emacs which is already open somewhere, which I&#8217;ve recently worked on, whose filename faintly resembles what I&#8217;m typing, whose contents (or tags) faintly resembles what I&#8217;m typing, no matter where that file is hiding in the hundreds of gigabytes on my SSD.
+  * Hooking up my emacs, via [helm-for-files][1] with mdfind (the command-line interface to spotlight) on macOS and the tracker file indexer on Linux. This means that with a simple press of the `C-x c o` keys, I can instantly open any file in Emacs which is already open somewhere, which I’ve recently worked on, whose filename faintly resembles what I’m typing, whose contents (or tags) faintly resembles what I’m typing, no matter where that file is hiding in the hundreds of gigabytes on my SSD.
   * My efforts getting the above working for Linux are [now part of helm][2], via the wonderful system of github pull requests.
   * Setting up [Emacs dired][3] to do rsync-based network copying in the background, which culminated in [a github contribution][4] which will hopefully also find its way into the main repository soon. (I do most of my **serious** file management in Emacs dired. You should try it.)
 
@@ -61,10 +61,10 @@ This is what homo sapiens did for millions of years for food. [_Homo neanderthal
 McDougall connects with a number of scientists and sports trainers to flesh out this part of the story. Below is an interesting (and related) video about Prof Daniel Liebermann and his work on the evolutionary biology and biomechanics of barefoot running:
 
 <div class="jetpack-video-wrapper">
-  <span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='840' height='473' src='https://www.youtube.com/embed/7jrnj-7YKZE?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7jrnj-7YKZE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 
-(Being internet-deprived, I&#8217;m not currently able to find one of the cited Nature papers discussing other elements of our biology underlining our running heritage. Remind me in the comments so I can update this later.)
+(Being internet-deprived, I’m not currently able to find one of the cited Nature papers discussing other elements of our biology underlining our running heritage. Remind me in the comments so I can update this later.)
 
 Another strand of the story is about the [Tarahumara of Mexico, also
   
@@ -72,7 +72,7 @@ known as Rarámuri][7], or The Running People, a legendary tribe of natural supe
 
 _Even more intriguing than their home-made sandals, is that they run throughout their healthy lives with joy and exuberance._
 
-The final strand I want to mention here, is McDougall&#8217;s personal journey from injury-prone runner all the way to finally taking part in the very first edition of a gruelling 50 mile trail race (the centre-piece of the story I would argue), together with the world&#8217;s best ultra marathoners and the Taramuhara in the Copper Canyons of Mexico.
+The final strand I want to mention here, is McDougall’s personal journey from injury-prone runner all the way to finally taking part in the very first edition of a gruelling 50 mile trail race (the centre-piece of the story I would argue), together with the world’s best ultra marathoners and the Taramuhara in the Copper Canyons of Mexico.
 
 For a large part of this journey, he and a number of other key actors are propelled along by [Caballo Blanco][8], the White Horse, a supernaturally gifted runner who lived off the land in the Copper Canyons, and one of the few foreigners who seemed to be completely accepted by the Taramuhara.
 
@@ -88,7 +88,7 @@ up the mountain-side and in the valley over here. On the balls of my feet as the
 
 I could not help but smile for most of the way.
 
-&nbsp;
+ 
 
  [1]: http://pragmaticemacs.com/emacs/find-and-open-files-from-anywhere-with-helm-for-files/
  [2]: https://github.com/emacs-helm/helm/pull/2005

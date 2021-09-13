@@ -15,29 +15,29 @@ tags:
   - type hinting
 
 ---
-<figure id="attachment_3025" aria-describedby="caption-attachment-3025" style="width: 840px" class="wp-caption alignnone"><a href="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1.jpg" data-rel="lightbox-image-0" data-rl_title="" data-rl_caption="" title=""><img data-attachment-id="3025" data-permalink="https://cpbotha.net/?attachment_id=3025" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1.jpg" data-orig-size="4017,2261" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 6s&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1517680248&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.15&quot;,&quot;iso&quot;:&quot;25&quot;,&quot;shutter_speed&quot;:&quot;0.00065019505851756&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_3174" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-300x169.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-1024x576.jpg" class="wp-image-3025 size-large" src="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-1024x576.jpg" alt="" width="840" height="473" srcset="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-1024x576.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-300x169.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-768x432.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3174-1-1200x675.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a><figcaption id="caption-attachment-3025" class="wp-caption-text">Photogenic and non-camera-shy dragonfly I met in Paarl over the weekend.</figcaption></figure> 
+{{< figure src="/wp-content/uploads/2018/02/IMG_3174-1-1024x576.jpg" link="/wp-content/uploads/2018/02/IMG_3174-1.jpg" caption="Photogenic and non-camera-shy dragonfly I met in Paarl over the weekend.">}} 
 
-As I went through my notes to extract material for this week&#8217;s post, I noticed a small discrepancy between the task description for the previous post and the published version: #129 in my notes versus [#130 in the published post][1]!
+As I went through my notes to extract material for this week’s post, I noticed a small discrepancy between the task description for the previous post and the published version: #129 in my notes versus [#130 in the published post][1]!
 
-It&#8217;s too late now to rename #130, so in this reality I&#8217;m just going to have to deal with the fact that WHV #129 will never exist. I have decided to name this edition #130-2 so that eventually (well, in about a week), we will be back to uninflated post numbers. Nobody likes inflation. Except perhaps tyres. And balloons.
+It’s too late now to rename #130, so in this reality I’m just going to have to deal with the fact that WHV #129 will never exist. I have decided to name this edition #130-2 so that eventually (well, in about a week), we will be back to uninflated post numbers. Nobody likes inflation. Except perhaps tyres. And balloons.
 
 # Your brain at work part 2: Dopamine and more mindfulness
 
-Ironically, the incorrectly numbered post #130 dealt with [the many ways in which our brains fail us every day][2]. (Now that I&#8217;ve finally gotten around to installing the [WP Anchor Header plugin][3], we can link directly down to any heading in any post, as demonstrated in the previous sentence.)
+Ironically, the incorrectly numbered post #130 dealt with [the many ways in which our brains fail us every day][2]. (Now that I’ve finally gotten around to installing the [WP Anchor Header plugin][3], we can link directly down to any heading in any post, as demonstrated in the previous sentence.)
 
 At least some clouds do seem to have a silver lining.
 
-Your Brain at Work, [the book I mentioned last week][2], has turned out to be a veritable treasure trove of practical human neuroscience, and I still have about 30% to go. My attempt at meteorological humour above was inspired by part of the book&#8217;s treatment of the important role of dopamine in your daily life.
+Your Brain at Work, [the book I mentioned last week][2], has turned out to be a veritable treasure trove of practical human neuroscience, and I still have about 30% to go. My attempt at meteorological humour above was inspired by part of the book’s treatment of the important role of dopamine in your daily life.
 
-For optimal results, one is supposed to remain mildly optimistic about expected future rewards, but not too much, which will result in a sharp dopamine drop when those rewards don&#8217;t crystallise, and a greater increase when they do. For optimal results, one should try to remain in a perpetual state of mildly optimistic expectations, but also in a state of being continually pleasantly surprised when those expectations are slightly exceeded.
+For optimal results, one is supposed to remain mildly optimistic about expected future rewards, but not too much, which will result in a sharp dopamine drop when those rewards don’t crystallise, and a greater increase when they do. For optimal results, one should try to remain in a perpetual state of mildly optimistic expectations, but also in a state of being continually pleasantly surprised when those expectations are slightly exceeded.
 
-More generally, the book deals really well with the intricacies of trying to keep one&#8217;s various neural subsystems happy and in balance. Too much stress, and the [limbic system][4] starts taking over (you want to run away, more or less), blocking your ability to think and make new connections, which in this modern life could very well be your only ticket out of Stress Town.
+More generally, the book deals really well with the intricacies of trying to keep one’s various neural subsystems happy and in balance. Too much stress, and the [limbic system][4] starts taking over (you want to run away, more or less), blocking your ability to think and make new connections, which in this modern life could very well be your only ticket out of Stress Town.
 
-To my pleasant surprise (argh, I&#8217;ll stop), [mindfulness][5] made its appearance at about 40% into the book, shortly after I had published last week&#8217;s WHV.  In my favourite mindfulness book, [Mindfulness: A Practical Guide to Peace in a Frantic World][6] by [Mark Williams][7] and Danny Penman, two of the major brain states are called _doing,_ the planning and execution mode we find ourselves in most of the time, also in the middle of the night when we&#8217;re worrying about things we can do nothing about at that point, and _being_, the mode of pure, unjudgemental observation the activation and cultivation of which is practised in mindfulness.
+To my pleasant surprise (argh, I’ll stop), [mindfulness][5] made its appearance at about 40% into the book, shortly after I had published last week’s WHV.  In my favourite mindfulness book, [Mindfulness: A Practical Guide to Peace in a Frantic World][6] by [Mark Williams][7] and Danny Penman, two of the major brain states are called _doing,_ the planning and execution mode we find ourselves in most of the time, also in the middle of the night when we’re worrying about things we can do nothing about at that point, and _being_, the mode of pure, unjudgemental observation the activation and cultivation of which is practised in mindfulness.
 
-In David Rock&#8217;s book, these two states are described as being actual brain networks, and they have different but complementary names: The _narrative network_ corresponds to the doing mode, and the _direct experience network_ corresponds to the being mode.
+In David Rock’s book, these two states are described as being actual brain networks, and they have different but complementary names: The _narrative network_ corresponds to the doing mode, and the _direct experience network_ corresponds to the being mode.
 
-The narrative network processes all incoming sensory information through various filters, moulding it to fit into one&#8217;s existing mental model of the world. David Rock describes it in the book and in [this HuffPost piece][8] as follows:
+The narrative network processes all incoming sensory information through various filters, moulding it to fit into one’s existing mental model of the world. David Rock describes it in the book and in [this HuffPost piece][8] as follows:
 
 > When you experience the world using this narrative network, you take in information from the outside world, process it through a filter of what everything means, and add your interpretations. Sitting on the dock with your narrative circuit active, a cool breeze isn’t a cool breeze, it’s a sign than summer will be over soon, which starts you thinking about where to go skiing, and whether your ski suit needs a dry clean.
 
@@ -47,15 +47,15 @@ The much-more attractively named _direct experience network_ is active when you 
 
 > When this direct experience network is activated, you are not thinking intently about the past or future, other people, or yourself, or considering much at all. Rather, you are experiencing information coming into your senses in real time. Sitting on the jetty, your attention is on the warmth of the sun on your skin, the cool breeze in your hair, and the cold beer in your hand.
 
-Again, these two systems are on opposite sides of a neurophysiological see-saw. When you are worrying and planning, no zen for you! On the other hand, when you&#8217;re feeling the breeze flowing and and through each individual hair on your arms and the sun rays seemingly feeding energy directly into your cells, your stress is soon forgotten.
+Again, these two systems are on opposite sides of a neurophysiological see-saw. When you are worrying and planning, no zen for you! On the other hand, when you’re feeling the breeze flowing and and through each individual hair on your arms and the sun rays seemingly feeding energy directly into your cells, your stress is soon forgotten.
 
-Fortunately, mindfulness gives us practical tools to distinguish more easily when we&#8217;re on which path, and, more importantly, to switch mental modes at will.
+Fortunately, mindfulness gives us practical tools to distinguish more easily when we’re on which path, and, more importantly, to switch mental modes at will.
 
-I hope you don&#8217;t mind me concluding this piece by recursively quoting David Rock quoting John Teasdale, one of the three academic founders of [Mindfulness Based Cognitive Therapy (MBCT)][9]:
+I hope you don’t mind me concluding this piece by recursively quoting David Rock quoting John Teasdale, one of the three academic founders of [Mindfulness Based Cognitive Therapy (MBCT)][9]:
 
-> Mindfulness is a habit, it’s something the more one does, the more likely one is to be in that mode with less and less effort&#8230; it’s a skill that can be learned. It’s accessing something we already have. Mindfulness isn’t difficult. What’s difficult is to remember to be mindful.
+> Mindfulness is a habit, it’s something the more one does, the more likely one is to be in that mode with less and less effort… it’s a skill that can be learned. It’s accessing something we already have. Mindfulness isn’t difficult. What’s difficult is to remember to be mindful.
 
-(If the book has any more interesting surprises, I&#8217;ll be sure to report on them in future WHV editions.)
+(If the book has any more interesting surprises, I’ll be sure to report on them in future WHV editions.)
 
 # Miscellany at the end of week 5 of 2018
 
@@ -63,12 +63,13 @@ I hope you don&#8217;t mind me concluding this piece by recursively quoting Davi
   * I ran 95km in January, which is nicely on target for my modest 2018 goal. Although January was a long month, and Winter Is Coming (And Then We Run Much Less Often), I am mildly optimistic that I might be able to keep it up.
   * [Python type hinting][10] is brilliant. I have started using it much more often, but I only recently discovered how to specify a type which can have a value or None, an often-occurring pattern:
 
+
 <pre class="src src-python"><span style="color: #0000ff;">from</span> typing <span style="color: #0000ff;">import</span> Optional, Tuple
 <span style="color: #0000ff;">def</span> <span style="color: #006699;">get_preview_filename</span><span style="color: #707183;">(</span>attachment: Attachment<span style="color: #707183;">)</span> -&gt; Tuple<span style="color: #707183;">[</span>Optional<span style="color: #7388d6;">[</span><span style="color: #006fe0;">str</span><span style="color: #7388d6;">]</span>, Optional<span style="color: #7388d6;">[</span><span style="color: #006fe0;">str</span><span style="color: #7388d6;">]</span><span style="color: #707183;">]</span>:
     <span style="color: #0000ff;">pass</span>
 </pre>
 
-  * On Wednesday, January 31, GOU #3 had her first real (play) school day, that is, without any of us present at least for a while. We&#8217;re taking it as gradually as possible, but it must be pretty intense when you&#8217;re that young (but old enough to talk, more or less) and all of a sudden you notice that you&#8217;re all alone with all those other little human beings, none of which are the family members you&#8217;re usually surrounded with.
+  * On Wednesday, January 31, GOU #3 had her first real (play) school day, that is, without any of us present at least for a while. We’re taking it as gradually as possible, but it must be pretty intense when you’re that young (but old enough to talk, more or less) and all of a sudden you notice that you’re all alone with all those other little human beings, none of which are the family members you’re usually surrounded with.
 
 # The End
 
@@ -76,7 +77,7 @@ Thank you dear reader for coming to visit me over here, I really do enjoy it whe
 
 I hope to see you next again next week, same time, same place.
 
-&nbsp;
+ 
 
  [1]: /2018/01/28/weekly-head-voices-130-ttaggg/
  [2]: /2018/01/28/weekly-head-voices-130-ttaggg/#your-brain-not-at-work
