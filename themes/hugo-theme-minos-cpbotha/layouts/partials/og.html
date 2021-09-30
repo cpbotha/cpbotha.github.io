@@ -1,6 +1,10 @@
-{{/* cpbotha: expand ogimage base name to 800px resized version of resource image URL!  */}}
-    <meta property="og:title" content="{{ if .Params.ogtitle }}{{ .Params.ogtitle }}{{ else }}{{ .Title }}{{ end }}" />
-    <meta property="og:description" content="{{ if .Params.ogdescription }}{{ .Params.ogdescription }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+{{/* cpbotha:
+- expand ogimage base name to 800px resized version of resource image URL!
+- change .Params.ogdescription to .Params.description
+*/}}
+
+<meta property="og:title" content="{{ if .Params.ogtitle }}{{ .Params.ogtitle }}{{ else }}{{ .Title }}{{ end }}" />
+    <meta property="og:description" content="{{ .Summary }}" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="{{ .Permalink }}" />
