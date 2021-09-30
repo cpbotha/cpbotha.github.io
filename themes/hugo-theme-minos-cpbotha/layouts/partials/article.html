@@ -27,10 +27,12 @@
                 <a href="{{ .RelPermalink }}#disqus_thread" class="article-comment-link">Comments</a>
             </div>
             {{ end }}
+            {{ if and .IsPage (ne .Params.comment false) -}}
             {{/* cpbotha is using isso comments here */}}
             <div class="article-comment-link-wrap">
               <a href="{{ .RelPermalink }}#isso-thread" class="article-comment-link">Comments</a>
-            </div>              
+            </div>
+            {{- end }}
         </div>
         <div class="article-entry" itemprop="articleBody">
             {{ .Content }}
@@ -38,10 +40,13 @@
 
         {{ if not .Params.notoc }}
         {{ if .TableOfContents }}
+        {{/* cpbotha: add to check for NO elements in the ToC */}}
+        {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
         <div class="article-toc" {{ if .Site.Params.SmartToc }}style="display:none;"{{ end }}>
             <h3>Contents</h3>
             {{ .TableOfContents }}
         </div>
+        {{ end }}
         {{ end }}
         {{ end }}
 
