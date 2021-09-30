@@ -22,7 +22,9 @@ pygmentsStyle = "solarized-light"
     # 1 was the default before goldmark (i.e. with blackdown)
     startLevel = 1
 
-# we need email and name for this to appear in RSS feed
+# we need email and name for this to appear in the standard RSS feed
+# however, in https://gohugo.io/variables/site/#example-siteparams I see both Site.author AND
+# Site.Params.author
 [author]
   email = "cpbotha@cpbotha.net"
   name = "Charl P. Botha"
