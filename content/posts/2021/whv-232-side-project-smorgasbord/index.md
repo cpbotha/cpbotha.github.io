@@ -1,7 +1,7 @@
 +++
 title = "Weekly Head Voices #232: Side-project Smorgasbord"
 date = 2021-09-13T21:38:00+02:00
-lastmod = 2021-09-13T21:39:04+02:00
+lastmod = 2021-09-14T17:15:10+02:00
 slug = "weekly-head-voices-232-side-project-smorgasbord"
 tags = ["compounding", "covid19", "github", "mrna", "side-projects"]
 categories = ["weekly head voices"]
@@ -22,8 +22,8 @@ August 30 to Sunday September 13, both fortunately in the year 2021.
 I'm happy to report that I got my second Pfizer shot at the start of this
 month, at the Somerset West Town Hall.
 
-The whole procedure took 30 minutes, from when I entered the frontdoor, until I
-exited after the 15 minute wait in the side-effect area with friend LM, at
+The whole procedure took 30 minutes, from when I entered the front door, until
+I exited after the 15 minute wait in the side-effect area with friend LM, at
 which point I unfortunately jammed my shoulder on an inconveniently positioned
 aloe branch, an event that under normal circumstances would not even have been
 worth a mention, were it not for the fact that I was wearing my fortunately
@@ -54,7 +54,7 @@ Hetzner bill (at this moment, [these pages are served by a Hetzner VPS in
 Nuremburg](/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server)), they will pull the plug.
 
 Even if they don't do so immediately, cpbotha.net's domain registrar will for
-related reasons unplug the domain as it work, rendering this site unreachable.
+related reasons unplug the domain as it were, rendering this site unreachable.
 
 Now that I think about this some more, the shadowy company paying for all of
 this has been setup in a pretty robust fashion. It's not quite [Accelerando](https://en.wikipedia.org/wiki/Accelerando)
