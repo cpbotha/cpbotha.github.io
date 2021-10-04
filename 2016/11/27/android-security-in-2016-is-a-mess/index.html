@@ -1,0 +1,249 @@
+<!doctype html><html>
+<head>
+<title>Android security in 2016 is a mess. // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Android security in 2016 is a mess.">
+<meta property="og:description" content="Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Android security in 2016 is a mess.</h1>
+</header>
+<div class=article-meta>
+<a href=/2016/11/27/android-security-in-2016-is-a-mess/ class=article-date>
+<time datetime=2016-11-27T11:41:36.000+00:00 itemprop=datePublished>2016-11-27</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2016/11/27/android-security-in-2016-is-a-mess/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<h1 id=summary>Summary</h1>
+<p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
+<p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
+<p>Read on for more.
+<figure><a href=/wp-content/uploads/2016/11/google_android_active_base.png>
+<img src=/wp-content/uploads/2016/11/google_android_active_base.png alt="Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source."> </a><figcaption>
+<p>Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source.</p>
+</figcaption>
+</figure>
+</p>
+<h1 id=an-illustration-mediatek--blu-phones-are-uploading-your-data>An illustration: MediaTek / BLU phones are uploading your data.</h1>
+<p>You might recently have read about <a href="https://web.archive.org/web/20161117073724/https://hackernoon.com/no-one-cares-about-the-security-of-your-unlocked-android-phone-cd8ad4aae4c5?gi=e0e2979fddb">the incident with the popular BLU phones sold by Amazon in the US</a> (interestingly, the author deleted their article from both hackernoon.com and from medium; I now link to the Wayback Machine&rsquo;s stored copy). It turned out that these phones were regularly sending bunches of personal information to servers in China: text messages, call logs, contact lists and so forth. After more investigation, it came to light that this was happening via a low-level piece of software called ADUPS.</p>
+<p>When Google had previously updated its systems to check for ADUPS, MediaTek (they make the chipset in millions of low-end phones) simply modified their system software to evade Google&rsquo;s checks. Nice one MediaTek!</p>
+<p>This is a painful example of the fact that the software on your phone, although based on Google&rsquo;s software, is customised by the phone vendor. The further frustrating effect of this is that when Google releases security patches to Android (<a href=https://source.android.com/security/bulletin/index.html>which they do regularly</a>), there is very little incentive for the phone vendor to spend money on updating phones they have already sold.</p>
+<h1 id=what-about-a-list-phone-makers>What about A-list phone makers?</h1>
+<p>I bought my LG G3 in 2014 here in South Africa. It was LG&rsquo;s flagship in that year, and sold extremely well. LG is a well-known smartphone OEM.</p>
+<p>However, only because I took steps to flash the official KDZ image (V30a-ZAF-XX), which consumers would normally not do, am I now running Android 6. However, my security patch level is 2016-03, meaning there are 6 months of security updates I don&rsquo;t have. (You can check your <strong>Android security patch level</strong> by going to <em>Settings | General | About Phone | Software info</em>.)</p>
+<p>Before you think six months lag is not too bad, here&rsquo;s a nice example vulnerability from <a href=https://source.android.com/security/bulletin/2016-11-01.html>the November 1 Android security bulletin</a>:</p>
+<blockquote>
+<p>The most severe of these issues is a Critical security vulnerability that could enable remote code execution on an affected device through multiple methods such as email, web browsing, and MMS when processing media files.</p>
+</blockquote>
+<p>In short, your phone could be hacked wide open from afar through a single innocent-looking email, MMS or web-page.</p>
+<p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
+<p>(<a href=https://lgsecurity.lge.com/security_updates.html>LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
+<h2 id=a-scary-little-aside>A scary little aside</h2>
+<p>I just tried Check Point Labs' <a href=https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/>QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+<figure><a href=/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12.png>
+<img src=/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12-576x1024.png alt="LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter."> </a><figcaption>
+<p>LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter.</p>
+</figcaption>
+</figure>
+</p>
+<p>So my manually updated LG G3 is still very much vulnerable to QuadRooter. In theory, my phone could be (or already has been) <a href=http://www.techradar.com/news/phone-and-communications/mobile-phones/android-quadrooter-vulnerability-should-you-be-worried-1326286>rooted and pillaged by any old innocent-looking app</a>, although I keep mostly to the official Play Market, so the risk is slightly mitigated.</p>
+<p>At this stage, even as a relatively knowledgeable user, there&rsquo;s not much I can do to patch my phone against this vulnerability.</p>
+<h1 id=googles-leniency-cuts-both-ways-more-than-a-billion-android-users-but-most-of-them-vulnerable>Google&rsquo;s leniency cuts both ways: More than a billion Android users, but most of them vulnerable.</h1>
+<p>It&rsquo;s fantastic that Google&rsquo;s openness and leniency with Android has helped to make smartphone technology accessible to more than a billion users (probably closer to 2 billion taking into account Chinese Android phones not connected to Google services, see <a href=http://ben-evans.com/benedictevans/2016/7/25/platform-wars-final-score>Ben Evans&rsquo;s post</a>). However, this same leniency allows manufacturers to be irresponsible about keeping their customers safe.</p>
+<p>The fundamental problem here is that there are a great deal of Android phone vendors who make phones from absolute entry-level to top-of-the-line flagships, who have very little incentive to spend money on post-sale security updates.</p>
+<p>Once you&rsquo;ve paid for the phone, you&rsquo;re not important enough anymore to have a secure(ish) telephone.</p>
+<h1 id=what-can-we-do>What can we do?</h1>
+<h2 id=buy-an-iphone-no-really>Buy an iPhone. No really.</h2>
+<p>I&rsquo;ve been using Android since the HTC Desire Z. I love Android, because I love Linux which I have been using since 1993.</p>
+<p>However, if money is no object, my only sound advice can be to <strong>buy an iPhone</strong>. Apple is still shipping security updates, albeit on iOS 9, for the iPhone 4s which was released in 2011 (5 years ago). The iPhone 5 is still being kept up to date with iOS 10.</p>
+<p>Furthermore, in terms of phone encryption, <a href=https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/>iOS 4, released 6 years ago, was already more advanced than than Android 7 Nougat</a>, released in August of this year. In short, already then Apple made better choices in how exactly different files are encrypted, whilst Android implemented full disk encryption, which for the smartphone usecase is not the right choice. In Nougat, Android has finally also changed to file-based, but they&rsquo;re missing important parts of the puzzle. <a href=https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/>The phone encryption blog post</a> I link to is insightful, please take a look.</p>
+<h2 id=stick-with-android-pixel-or-nexus>Stick with Android Pixel or Nexus.</h2>
+<p>If you prefer sticking with Android, the best choice is getting an official Google device, which means either a Nexus or a new Pixel. <a href=https://support.google.com/pixelphone/answer/4457705#pixel_phones&nexus_devices>Google&rsquo;s policy for Pixel and Nexus security</a> states that they will ship security updates either for three years after device introduction, or for 1.5 years after the device was last officially sold from the Google Store, whichever is longer.</p>
+<p>Unfortunately, iPhones are really expensive, and Google&rsquo;s new Pixel devices are also aiming for the higher-end market. The previous generation Nexus phones offer a more mid-range but very temporary reprieve.</p>
+<p>In other words, most normal consumers on a budget, i.e. the largest part of the Android user base, actually of the smartphone-using world, are stuck with insecure, vulnerable phones. This is not cool.</p>
+<h2 id=consider-installing-a-custom-rom>Consider installing a custom ROM.</h2>
+<p>Installing a custom ROM such as Cyanogenmod brings with it another set of issues with regard to the phone being rooted, and with regard to driver-level support of proprietary hardware. In any case, this is not something your average consumer will have access to, but Android gurus can certainly apply.</p>
+<p>Efforts like <a href=https://copperhead.co/android/>CopperheadOS</a> (hardened Android) are certainly promising, but it will be quite a while before they are accessible to the largest group of Android users.</p>
+<p><strong>Update:</strong> David Metcalfe pointed out in the comments that you can buy a secure Android phone from Copperhead.  If you are in the US or Canada, and you have some budget, you could buy the <a href=https://copperhead.co/android/buy>LG Nexus 5x or the Huawei Nexus 6P with CopperheadOS pre-installed</a>. It&rsquo;s great that this is available, but due to price and geography not really accessible to most Android users.</p>
+<h2 id=keep-manufacturers-honest>Keep manufacturers honest.</h2>
+<p>Ideally, Google starts taking a much harder line with manufacturers who put Android on their phones. They could for example maintain and publish a list of phone models that are kept up to date with the latest security fixes, and a list of those that aren&rsquo;t.</p>
+<p>I was happy to see that at least <a href=http://news.softpedia.com/news/huawei-is-the-best-oem-at-applying-android-security-updates-505767.shtml>Huawei has a pretty good record</a> in terms of keeping their Android phones up to date (although the results were probably skewed as they counted the Huawei-produced Nexus 6P phones, and these formed the majority of the test set, doh). This factor will play a role in the next smartphone that I buy.</p>
+<p>Do you know of any (other) manufacturers of more affordable Android phones who are committed to keeping their users safe? Please let me know in the comments!</p>
+<h1 id=addendum-android-phones-with-acceptable-security-update-records>Addendum: Android phones with acceptable security update records</h1>
+<h2 id=blackberry-priv-dtek50-and-dtek60>Blackberry PRIV, DTEK50 and DTEK60</h2>
+<p>lobste.rs user jabberwock <a href=https://lobste.rs/s/8g2nkz/android_security_2016_is_mess/comments/4p7rwr#c_4p7rwr>tipped me off to the fact that Blackberry&rsquo;s Android phones get monthly security updates</a>. Read more at <a href=http://crackberry.com/blackberry-priv-dtek50-and-dtek60-november-updates-now-available>CrackBerry</a> and here in the <a href="http://support.blackberry.com/kb/articleDetail?articleNumber=000038666">BlackBerry Android security bulletin for November</a>: It looks like these phones receive monthly updates (<strong>when not blocked by the carrier, <em>sigh</em></strong>)** **and have already received the November 2016 update.</p>
+<p>Here is <a href=http://blogs.blackberry.com/2015/11/managing-android-security-patching-for-priv/>the original blog post where BlackBerry explained their security patching policies for the PRIV</a>.</p>
+<h1 id=updates>Updates.</h1>
+<h2 id=wednesday-2020-02-26>Wednesday 2020-02-26.</h2>
+<p>I wanted to post some relevant updates, so here goes (okay just one):</p>
+<ul>
+<li><a href=https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/>Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
+</ul>
+</div>
+<div class=article-toc>
+<h3>Contents</h3>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#summary>Summary</a></li>
+<li><a href=#an-illustration-mediatek--blu-phones-are-uploading-your-data>An illustration: MediaTek / BLU phones are uploading your data.</a></li>
+<li><a href=#what-about-a-list-phone-makers>What about A-list phone makers?</a>
+<ul>
+<li><a href=#a-scary-little-aside>A scary little aside</a></li>
+</ul>
+</li>
+<li><a href=#googles-leniency-cuts-both-ways-more-than-a-billion-android-users-but-most-of-them-vulnerable>Google&rsquo;s leniency cuts both ways: More than a billion Android users, but most of them vulnerable.</a></li>
+<li><a href=#what-can-we-do>What can we do?</a>
+<ul>
+<li><a href=#buy-an-iphone-no-really>Buy an iPhone. No really.</a></li>
+<li><a href=#stick-with-android-pixel-or-nexus>Stick with Android Pixel or Nexus.</a></li>
+<li><a href=#consider-installing-a-custom-rom>Consider installing a custom ROM.</a></li>
+<li><a href=#keep-manufacturers-honest>Keep manufacturers honest.</a></li>
+</ul>
+</li>
+<li><a href=#addendum-android-phones-with-acceptable-security-update-records>Addendum: Android phones with acceptable security update records</a>
+<ul>
+<li><a href=#blackberry-priv-dtek50-and-dtek60>Blackberry PRIV, DTEK50 and DTEK60</a></li>
+</ul>
+</li>
+<li><a href=#updates>Updates.</a>
+<ul>
+<li><a href=#wednesday-2020-02-26>Wednesday 2020-02-26.</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/android>android
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/blu>blu
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/google>google
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/ios>ios
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/mediatek>mediatek
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/nexus>nexus
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/nougat>nougat
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/pixel>pixel
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/privacy>privacy
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/security>security
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/2016/12/02/nvpy-1-0-0-has-been-released/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+nvpy 1.0.0 has been released!
+</div>
+</a>
+<a href=/following-this-blog/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Following this blog&nbsp;<span>></span></div>
+</a>
+</nav>
+<div class=article-footer>
+Related posts:
+<a href=/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/>🌤 When we can, let’s use Signal instead of WhatsApp.</a>
+<a href=/2013/09/15/dear-usa-my-data-has-left-your-building/>🌤 Dear USA, my data has left your building.</a>
+<a href=/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/>🌤 Google’s 0-shot neural machine translation system shows intriguing evidence of an interlingua</a>
+</div>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Android security in 2016 is a mess." id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html><html>
+<head>
+<title>Closure expressions in Swift // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Closure expressions in Swift">
+<meta property="og:description" content="Swift is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.
+Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.
+In this post I’m going to chat about closure expression syntax, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2016/01/07/closure-expressions-in-swift/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Closure expressions in Swift</h1>
+</header>
+<div class=article-meta>
+<a href=/2016/01/07/closure-expressions-in-swift/ class=article-date>
+<time datetime=2016-01-07T20:01:00.000+00:00 itemprop=datePublished>2016-01-07</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2016/01/07/closure-expressions-in-swift/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p><a href=https://swift.org/>Swift</a> is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.</p>
+<p>Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.</p>
+<p>In this post I’m going to chat about <em>closure expression syntax</em>, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</p>
+<p>Let’s start with a simple example (slightly modified from <a href=https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID95>Apple’s documentation on Swift closures</a>) for sorting a list of strings in reverse alphabetical order:</p>
+<div class=org-src-container>
+<pre class="src src-swift"><span style=color:#7f9f7f>// names will be constaint, so we use let and not var</span>
+<span style=color:#f0dfaf;font-weight:700>let</span> <span style=color:#dfaf8f>names </span>= [<span style=color:#cc9393>"Chris"</span>, <span style=color:#cc9393>"Alex"</span>, <span style=color:#cc9393>"Ewa"</span>, <span style=color:#cc9393>"Barry"</span>, <span style=color:#cc9393>"Daniella"</span>]
+<p><span style=color:#7f9f7f>// function taking two parameters and returning boolean</span>
+<span style=color:#f0dfaf;font-weight:700>func</span> <span style=color:#93e0e3>backwards</span>(s1: <span style=color:#7cb8bb>String</span>, <span style=color:#f0dfaf;font-weight:700>_</span> s2: <span style=color:#7cb8bb>String</span>) -&gt; <span style=color:#7cb8bb>Bool</span> {
+<span style=color:#f0dfaf;font-weight:700>return</span> s1 &gt; s2
+}</p>
+<p><span style=color:#f0dfaf;font-weight:700>let</span> <span style=color:#dfaf8f>reversed </span>= names.sort(backwards)</p>
+<p>print(<span style=color:#cc9393>&ldquo;Reversed alpha:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>That’s a complete compilable program in Swift, which you can run directly in your browser by clicking <a href=http://swiftlang.ng.bluemix.net/#/repl/6ab18271be682adc2a39c45988978ee92826c41faf70ed4420664fce1cd42bc8>here</a>.</p>
+<p>We use <code>let</code> to define a list of strings. Swift is strongly-typed, but in this case it simply infers the type of the <code>names</code> variable from the value that’s assigned to it. MAGIC!</p>
+<p>If we were planning to change the value of the <code>names</code> list at some point, we would have had to use <code>var</code> (mutable) instead of <code>let</code> (immutable).</p>
+<p>We then define a function called <code>backwards</code> that takes two strings, and returns the true value if the first is larger than the second. In the final let statement, we call the <code>sort()</code> method on the names list, but we pass it the <code>backwards()</code> function, which it will use to compare elements during sorting. Because we have flipped the <code>s1</code> and <code>s2</code> variables, we get our list back in reverse alphabetical order.</p>
+<p><code>sort()</code> can be seen as a higher order function that takes the <code>backwards()</code> function as one of its inputs, and uses it to do its work.</p>
+<p>Since we’re only using the <code>backwards()</code> function once, it would have been pretty convenient if there were some way to define it more compactly and in-place.</p>
+<p>This is exactly what Swift’s <code>closure expression syntax</code> is for. Here’s the above code, with the <code>backwards()</code> function written as a closure expression:</p>
+<div class=org-src-container>
+<pre class="src src-swift"><span style=color:#f0dfaf;font-weight:700>let</span> <span style=color:#dfaf8f>names </span>= [<span style=color:#cc9393>"Chris"</span>, <span style=color:#cc9393>"Alex"</span>, <span style=color:#cc9393>"Ewa"</span>, <span style=color:#cc9393>"Barry"</span>, <span style=color:#cc9393>"Daniella"</span>]
+<p><span style=color:#7f9f7f>// closure expression syntax for inline anonymous function:</span>
+<span style=color:#7f9f7f>// { (args) -&gt; returnType in statements }</span>
+<span style=color:#f0dfaf;font-weight:700>var</span> <span style=color:#dfaf8f>reversed </span>= names.sort({ (s1: <span style=color:#7cb8bb>String</span>, s2: <span style=color:#7cb8bb>String</span>) -&gt; <span style=color:#7cb8bb>Bool</span> <span style=color:#f0dfaf;font-weight:700>in</span> <span style=color:#f0dfaf;font-weight:700>return</span> s1 &gt; s2})</p>
+<p>print(<span style=color:#cc9393>&ldquo;Reversed:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>(You can run this Swift code in your browser by clicking <a href=http://swiftlang.ng.bluemix.net/#/repl/0dbcdef74dfef00da5c7f21878cb5ed42739796116a6fd232ab20f05d6040a81>here</a>.)</p>
+<p>Instead of having to define and name a separate function, we can specify a function in the exact spot where it’s needed, using <em>closure expression syntax</em> i.e.: <code>{ (parameters) -> returnType in statements }</code>.</p>
+<p>For you Python-heads out there (MY PEOPLE!), the above code can be written in Python as follows:</p>
+<div class=org-src-container>
+<pre class="src src-python"><span style=color:#dfaf8f>names</span> = [<span style=color:#cc9393>"Chris"</span>, <span style=color:#cc9393>"Alex"</span>, <span style=color:#cc9393>"Ewa"</span>, <span style=color:#cc9393>"Barry"</span>, <span style=color:#cc9393>"Daniella"</span>]
+<p><span style=color:#dcdccc;font-weight:700>reversed</span> = <span style=color:#dcdccc;font-weight:700>sorted</span>(
+<span style=color:#dcdccc;background-color:#4f4f4f> </span>   names,
+<span style=color:#dcdccc;background-color:#4f4f4f> </span>   <span style=color:#dcdccc;font-weight:700>cmp</span>=<span style=color:#f0dfaf;font-weight:700>lambda</span> s1, s2: 0 <span style=color:#f0dfaf;font-weight:700>if</span> s1 == s2 <span style=color:#f0dfaf;font-weight:700>else</span> (-1 <span style=color:#f0dfaf;font-weight:700>if</span> s1 &gt; s2 <span style=color:#f0dfaf;font-weight:700>else</span> 1))</p>
+<p><span style=color:#f0dfaf;font-weight:700>print</span>(<span style=color:#dcdccc;font-weight:700>reversed</span>)
+</pre></p>
+</div>
+<p>In Python, <code>lambda</code> is used to specify anonymous function objects (our closure expression syntax, in other words). The compare function is defined differently, which is why it’s somewhat more complicated, but the principle is the same.</p>
+<p>Whilst typing this blog, I downloaded Swift 2.2 from the <a href=https://swift.org/download/#latest-development-snapshots>open source download site</a> and installed it on my Ubuntu 14.04 laptop (the internet is so slow over here, we have to multi-task to stay sane). After compiling both the examples using <code>swiftc whatever.swift</code>, the resulting binaries are about 21 Kbytes each (they are dynamically linked to a number of system libraries, and the 5M <code>libswiftCore.so</code>).</p>
+<figure><a href=/wp-content/uploads/2016/01/swift-sort-binaries.png>
+<img src=/wp-content/uploads/2016/01/swift-sort-binaries.png> </a>
+</figure>
+<p>The Swift language is open source, is already available for Linux, has a number of really compelling modern language features of which closure expressions are just one example (other interesting examples include optional types and protocol extensions), is statically typed with good type inference, and has a good compiler. For these reasons, it should be strongly considered for a permanent spot in your compiled language toolbox!</p>
+<p>P.S. Yes, I do know that C++ has <code>lambda</code> and <code>auto</code>. I like them too!</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/anonymous-functions>anonymous functions
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/apple>apple
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/closure-expressions>closure expressions
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/lambda>lambda
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/python>python
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/swift>swift
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/2016/01/11/weekly-head-voices-101-welcome-to-the-centre-of-the-universe/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Weekly Head Voices #101: Welcome to the centre of the universe!
+</div>
+</a>
+<a href=/2016/01/06/user-interface-boo-boo-1-disabled-controls/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>User interface boo-boo #1: Disabled controls without explanations!&nbsp;<span>></span></div>
+</a>
+</nav>
+<div class=article-footer>
+Related posts:
+<a href=/2016/01/03/weekly-head-voices-100-happy-2016/>🌤 Weekly Head Voices #100: Happy 2016!</a>
+<a href=/2015/06/14/weekly-head-voices-91-theyre-back/>🌤 Weekly Head Voices #91: They’re back.</a>
+<a href=/2009/08/13/python-2-6-enabled-vtk-5-4-windows-binaries/>🌤 Python 2.6 enabled VTK 5.4 Windows binaries</a>
+</div>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Closure expressions in Swift" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

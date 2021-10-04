@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vaccination on voices in my head</title><link>https://cpbotha.net/tags/vaccination/</link><description>Recent content in vaccination on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 15 Apr 2019 22:12:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/vaccination/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #169: A cunning plan.</title><link>https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/</link><pubDate>Mon, 15 Apr 2019 22:12:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/</guid><description> Beautiful evening skies above my house. I just went through my notes.
+As far as I can see now, the week from Monday April 8 to Sunday April 14 2019, although otherwise quite solid in terms of productivity and of The Important Stuff(tm), did not fare too well on the blog-worthiness scale.
+About the exact implications of this discrepancy, I am also not entirely sure.</description><content:encoded><![CDATA[ <figure>
+<a href="pretty_clouds_above_home.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/pretty_clouds_above_home_hu4312bfdcd43b2079e55aafe4c2ba7609_2403668_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/pretty_clouds_above_home_hu4312bfdcd43b2079e55aafe4c2ba7609_2403668_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/pretty_clouds_above_home_hu4312bfdcd43b2079e55aafe4c2ba7609_2403668_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/pretty_clouds_above_home_hu4312bfdcd43b2079e55aafe4c2ba7609_2403668_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/pretty_clouds_above_home_hu4312bfdcd43b2079e55aafe4c2ba7609_2403668_800x0_resize_q75_box.jpg"
+  
+
+  alt='pretty evening clouds above my home' />
+
+
+
+</a>
+<figcaption>
+Beautiful evening skies above my house.
+</figcaption>
+</figure>
+<p>I just went through my notes.</p>
+<p>As far as I can see now, the week from Monday April 8 to Sunday April 14 2019,
+although otherwise quite solid in terms of productivity and of The Important
+Stuff(tm), did not fare too well on the blog-worthiness scale.</p>
+<p>About the exact implications of this discrepancy, <a href="https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest">I am also not entirely
+sure</a>.</p>
+<p>Nonetheless, my mission at this moment is to try and give you something
+entertaining and/or educational, and for this <a href="http://blackadderquotes.com/i-have-a-cunning-plan">I have a cunning
+plan&hellip;</a></p>
+<h2 id="nimfatuation-is-now-over">nimfatuation is now OVER.</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-common-lisp" data-lang="common-lisp"><span style="color:#93a1a1;font-style:italic">;; consider reading this section if this line of code is clear to you</span>
+(<span style="color:#859900">if</span> (<span style="color:#268bd2">not</span> (<span style="color:#268bd2">are-nerd</span> <span style="color:#268bd2">you</span>)) (<span style="color:#268bd2">skip-this-section</span>))
+</code></pre></div><p>Last week, <a href="/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/#nim-surprise">I had happily started diving into the nim language and its
+ecosystem</a>.</p>
+<p>I was quite happy to hear that in addition to the enjoyment it had given me,
+the spark had jumped over to at least one other peep (O HAI THERE S!) via
+these writings.</p>
+<p>However, after getting deeper into <a href="https://github.com/dom96/jester/issues/194">jester&rsquo;s multi-threading
+intricacies</a> and discovering that
+I could not get run-time confirmation that my requests were being handled by
+separate threads, I returned to my initial target language for this experiment of
+rewriting, namely f#!</p>
+<p>nim is really a great little experiment: It consists of higher level
+abstractions that compile down to C, and it&rsquo;s quite amazing to see what this
+enables one to do.</p>
+<p>However, I require something richer and more functional for my language
+learning slot.</p>
+<p>As I have written previously, <a href="/2018/07/17/weekly-head-voices-148-data-stylist/#f">f# hits all six of my 2018
+PL-requirements</a>.</p>
+<p>In addition to the qualities of the language itself, <a href="https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-3/">dotnet core 3, currently
+at preview
+3</a>, is
+showing great progress, also in terms of memory efficiency and raw
+performance.</p>
+<p>I spent some time during the past week to re-re-implement my
+nim-re-implementation of parts of isso, again purely for learning purposes.</p>
+<p>(As an aside, it&rsquo;s interesting how close such a real-world example enables one
+to get to using a tool or language <em>in anger</em>.)</p>
+<p>Here&rsquo;s a fragment from my learning experiment, because if you&rsquo;re like me
+you&rsquo;ll want to see what f# looks like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fsharp" data-lang="fsharp"><span style="color:#859900">let</span> <span style="color:#268bd2">getCommentsHandler</span> : <span style="color:#268bd2">HttpHandler</span> =
+    <span style="color:#859900">fun</span> (<span style="color:#268bd2">next</span> : <span style="color:#268bd2">HttpFunc</span>) (<span style="color:#268bd2">ctx</span> : <span style="color:#268bd2">HttpContext</span>) -&gt;
+        <span style="color:#268bd2">task</span> {
+            <span style="color:#93a1a1;font-style:italic">// going from normal str -&gt; Result to str -&gt; Task&lt;Result&gt;,
+</span><span style="color:#93a1a1;font-style:italic"></span>            <span style="color:#93a1a1;font-style:italic">// so unfortunately no railway OP here.
+</span><span style="color:#93a1a1;font-style:italic"></span>            <span style="color:#859900">match</span> <span style="color:#268bd2">ctx</span>.<span style="color:#268bd2">GetQueryStringValue</span> <span style="color:#2aa198">&#34;uri&#34;</span> <span style="color:#859900">with</span>
+            | <span style="color:#268bd2">Error</span> _ -&gt; <span style="color:#859900">return</span>! <span style="color:#268bd2">setStatusCode</span> <span style="color:#268bd2">404</span> <span style="color:#268bd2">next</span> <span style="color:#268bd2">ctx</span>
+            | <span style="color:#268bd2">Ok</span> <span style="color:#268bd2">uri</span> -&gt;
+                <span style="color:#859900">match</span>! <span style="color:#268bd2">getThreadForUriAsync</span> <span style="color:#268bd2">uri</span> <span style="color:#859900">with</span>
+                | <span style="color:#268bd2">Ok</span> <span style="color:#268bd2">thread</span> -&gt;
+                    <span style="color:#859900">match</span>! <span style="color:#268bd2">getCommentsForThreadId</span> <span style="color:#268bd2">thread</span>.<span style="color:#268bd2">id</span> <span style="color:#859900">with</span>
+                    | <span style="color:#268bd2">Ok</span> <span style="color:#268bd2">comments</span> -&gt; <span style="color:#859900">return</span>! <span style="color:#268bd2">json</span> <span style="color:#268bd2">comments</span> <span style="color:#268bd2">next</span> <span style="color:#268bd2">ctx</span>
+                    | <span style="color:#268bd2">Error</span> <span style="color:#268bd2">msg</span> -&gt; <span style="color:#859900">return</span>! (<span style="color:#268bd2">setStatusCode</span> <span style="color:#268bd2">404</span> &gt;=&gt; <span style="color:#268bd2">text</span> <span style="color:#268bd2">msg</span>) <span style="color:#268bd2">next</span> <span style="color:#268bd2">ctx</span>
+                | <span style="color:#268bd2">Error</span> <span style="color:#268bd2">msg</span> -&gt; <span style="color:#859900">return</span>! (<span style="color:#268bd2">setStatusCode</span> <span style="color:#268bd2">404</span> &gt;=&gt; <span style="color:#268bd2">text</span> <span style="color:#268bd2">msg</span>) <span style="color:#268bd2">next</span> <span style="color:#268bd2">ctx</span>
+        }
+</code></pre></div><p>This is a <a href="https://github.com/giraffe-fsharp/Giraffe">Giraffe</a> handler that
+handles a request with a <code>uri</code> query parameter. First it looks up the comment
+thread in the isso database. If it finds a thread, it looks up the comments
+and returns the whole list as JSON.</p>
+<p>As you can see, there is error handling at every level.</p>
+<p>F# code is expressive, but it is also fully typed. In this case it is
+executed asynchronously (that&rsquo;s what the <code>task {}</code> and the <code>!</code>s are for), with
+the asynchronous tasks distributed over threads.</p>
+<p>In other words, we have a compiled functional language with Python-level
+expressivity with really strong (and easy!) concurrency support.</p>
+<p>If there had been no need for asynchrony, the code above could have been
+rewritten following the <a href="https://swlaschin.gitbooks.io/fsharpforfunandprofit/content/posts/recipe-part2.html">railway-oriented
+programming</a>
+idea (from memory, not tested, as one does!):</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fsharp" data-lang="fsharp"><span style="color:#93a1a1;font-style:italic">// create chain of input -&gt; Result calls using the railway operator
+</span><span style="color:#93a1a1;font-style:italic">// an Error anywhere will exit from the chain and can be handled by caller
+</span><span style="color:#93a1a1;font-style:italic"></span><span style="color:#859900">let</span> <span style="color:#268bd2">getCommentsForRequest</span> (<span style="color:#268bd2">ctx</span>: <span style="color:#268bd2">HttpContext</span>) =
+    <span style="color:#268bd2">ctx</span>.<span style="color:#268bd2">GetQueryStringValue</span> <span style="color:#2aa198">&#34;uri&#34;</span>
+    &gt;&gt;= <span style="color:#268bd2">getThreadIdForUri</span>
+    &gt;&gt;= <span style="color:#268bd2">getCommentsForThreadId</span>    
+
+<span style="color:#859900">fun</span> (<span style="color:#268bd2">next</span> : <span style="color:#268bd2">HttpFunc</span>) (<span style="color:#268bd2">ctx</span> : <span style="color:#268bd2">HttpContext</span>) -&gt;
+    <span style="color:#859900">match</span> <span style="color:#268bd2">getCommentsForRequest</span> <span style="color:#268bd2">ctx</span> <span style="color:#859900">with</span>
+    | <span style="color:#268bd2">Ok</span> <span style="color:#268bd2">comments</span> -&gt; <span style="color:#859900">return</span>! <span style="color:#268bd2">json</span> <span style="color:#268bd2">comments</span> <span style="color:#268bd2">next</span> <span style="color:#268bd2">ctx</span>
+    | <span style="color:#268bd2">Error</span> <span style="color:#268bd2">msg</span> -&gt; <span style="color:#859900">return</span>! (<span style="color:#268bd2">setStatusCode</span> <span style="color:#268bd2">404</span> &gt;=&gt; <span style="color:#268bd2">text</span> <span style="color:#268bd2">msg</span>) <span style="color:#268bd2">next</span> <span style="color:#268bd2">ctx</span>
+</code></pre></div><p>During this exercise, I found F# Interactive (the built-in repl) super useful
+to select and execute blocks of code from my source, Lisp-style, in order to
+get my database support up and running.</p>
+<p>In terms of the learning journey, I have not even left my own village
+yet. However, F# seems to be triggering all of the right receptors.</p>
+<h2 id="someone-is-right-on-the-internet">Someone is right on the internet.</h2>
+<p><em>My</em> week might not have been the most blog-worthy, but, my goodness, the
+Wonderful World of Science has not been sitting still!</p>
+<p>You see, in desperation I went rummaging through the recent additions to
+<a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>,
+aka my growing collection of Really Interesting PDFs, and I hand-picked a few
+tidbits worthy of casually mentioning during the undoubtedly erudite
+discussion at your next cocktail party!</p>
+<h3 id="each-millilitre-of-vosub2sub-max-reduces-your-risk-of-dying-by-28">Each millilitre of VO<sub>2</sub> max reduces your risk of dying by 2.8%.</h3>
+<p>If we&rsquo;ve run (I see what I did there) into each other more than once, <a href="/2018/10/23/weekly-head-voices-156-karma-chameleon/#grab-bag-of-thought-and-or-debate-provoking-pieces">I&rsquo;ve
+probably
+mentioned</a>
+last year&rsquo;s publication of the Cleveland treadmill study where they put 122000
+people on a treadmill (the study took 20 years) to show that being unfit on a
+treadmill is at least as risky (in terms of you dying) as being a smoker.</p>
+<p>Well, last week the result of an even larger Swedish study, with 316137
+participants, <a href="https://www.eurekalert.org/pub_releases/2019-04/esoc-mmt040819.php">were reported at EuroPrevent
+2019</a>.</p>
+<p>With each additional millilitre of oxygen per kilogram of body mass per minute
+(<a href="https://en.wikipedia.org/wiki/VO2_max">VO<sub>2</sub> max, a cardiorespiratory fitness
+measure</a>), the risk of all-cause
+mortality fell by 2.8%, and the risk of cardiovascular events fell by 3.2%.</p>
+<p>According to at least <a href="https://www.topendsports.com/testing/norms/vo2max.htm">one
+source</a>, the range
+between poor and excellent VO<sub>2</sub> max in most age segments for men and
+women is 20 millilitres or more.</p>
+<p>At 2.8% per millilitre, that certainly makes one think!</p>
+<h3 id="hpv-vaccine-linked-to-dramatic-drop-in-cervical-disease">HPV vaccine linked to dramatic drop in cervical disease.</h3>
+<p>Almost exactly 10 years ago, I wrote <a href="/2009/05/21/you-must-vaccinate/">a post on this blog titled &ldquo;You must
+vaccinate&rdquo;</a> because friends and acquaintances
+were asking questions which I found surprising on the one hand and quite
+alarming on the other.</p>
+<p>At that point I thought that even the slowest among us would have caught up to
+the fact that there are an extremely large number of good reasons to
+vaccinate, and almost none not to.</p>
+<p>It seems that I over-estimated the capabilities and size of the slow group&hellip;</p>
+<p>It is now 10 years later, and the anti-vaxxers have managed to <a href="https://www.who.int/news-room/detail/29-11-2018-measles-cases-spike-globally-due-to-gaps-in-vaccination-coverage">bring measles
+(and some friends) back from
+extinction</a>.</p>
+<p>Fortunately, there is also much to celebrate on the vaccination front.</p>
+<p>Scotland started with their <a href="https://www.womenshealth.gov/a-z-topics/human-papillomavirus">human
+papillomavirus</a>
+vaccination programme 10 years ago, administering the vaccine to girls when
+they are at around 12 years of age.</p>
+<p>Researchers now say that since then the HPV vaccine has <a href="https://www.bbc.com/news/uk-scotland-47803975">&ldquo;nearly wiped out
+cases of cervical pre-cancer in young
+women&rdquo;</a>.</p>
+<p>What&rsquo;s also heartening is that unvaccinated women also showed a reduction in
+disease, implying that the immunisation programme is protecting even more
+humans from the disease due to the herd effect.</p>
+<p>(GOU#1 had her HPV shot at school last year. There were parents who
+complained. I don&rsquo;t know if there were any refusers.)</p>
+<p>I am still hopeful that one day all of these victories will contribute to the
+attrition of the irresponsibly dangerous anti-vaxx movement.</p>
+<h3 id="how-the-matrix-built-a-bullet-proof-legacy">How The Matrix Built A Bullet-Proof Legacy.</h3>
+<p>Surprise! This one is not from science, but it was such an amazing read that I
+have to share.</p>
+<p>If, like me, you saw The Matrix more times than you can count, you will also
+enjoy this write-up of how the whole project came together:</p>
+<p>Extract from the book <em>How 1999 blew up the Big Screen</em> by Brian Raftery: <a href="https://www.wired.com/story/the-matrix-legacy-book-excerpt/">HOW
+THE MATRIX BUILT A BULLET-PROOF
+LEGACY</a></p>
+<h2 id="you-never-write">You never write.</h2>
+<p>At Tuesday&rsquo;s edition of the Helderberg Software Developers and Entrepreneurs
+meetup, organised by <a href="https://wogan.blog/">Wogan May</a> (pssst, he has a
+personal blog with mostly weekly updates!) and myself, <a href="http://johan.beyers.co.za/">Johan
+Beyers</a> talked about the personal resolution of
+doing a given amount of (personal) writing every day.</p>
+<p>I try to do it once weekly with the WHV, and I mostly manage to make a few
+bullet points detailing my exploits every day, but the idea of additionally
+writing a few more prose-like paragraphs of thoughts every day really
+resonates with me.</p>
+<p>Derek Sivers (he was a famous startup-person even before the whole startup
+boom, thanks <a href="https://twitter.com/gerwindehaan">Gerwin de Haan</a> for that book
+so many years ago!) <a href="https://sivers.org/dj">makes a good case for writing a few diary-like sentences
+every evening</a>.</p>
+<p>What&rsquo;s even more intriguing, is his suggestion to maintain separate &ldquo;Thoughts
+On&rdquo; journals for various topics that you think about often. In my case, these
+could be for example &ldquo;Thoughts on Programming Languages&rdquo;, or &ldquo;Thoughts on
+mindfulness for children&rdquo;, or &ldquo;Thoughts on the WHV rules for a contented
+life&rdquo;, and so on.</p>
+<p>I think it would be a cunning plan to give both of these additional writing
+practices a good go.</p>
+<p>Let me know in the comments what you think!</p>
+<figure>
+<a href="strand_running_clouds_on_mountains.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/strand_running_clouds_on_mountains_hu38426c04232e1444bb0c0608208a1e21_2519865_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/strand_running_clouds_on_mountains_hu38426c04232e1444bb0c0608208a1e21_2519865_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/strand_running_clouds_on_mountains_hu38426c04232e1444bb0c0608208a1e21_2519865_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/strand_running_clouds_on_mountains_hu38426c04232e1444bb0c0608208a1e21_2519865_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/15/weekly-head-voices-169-a-cunning-plan/strand_running_clouds_on_mountains_hu38426c04232e1444bb0c0608208a1e21_2519865_800x0_resize_q75_box.jpg"
+  
+
+  alt='photo taken at postcard cafe' />
+
+
+
+</a>
+<figcaption> 
+You've seen photos like these before, but on this very day, I really liked how the clouds
+were creating patterns of light and dark created on the mountains in the distance.
+</figcaption>
+</figure>
+]]></content:encoded></item><item><title>Science: Really not just for scientists.</title><link>https://cpbotha.net/2015/05/24/science-really-not-just-for-scientists/</link><pubDate>Sun, 24 May 2015 16:23:34 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/05/24/science-really-not-just-for-scientists/</guid><description> The public’s unwillingness to learn basic scientific concepts and scientists’ inability to communicate those concepts lead the public to reject promising research (such as genetic modification), ignore serious problems (such as global warming) and embrace dangerous nonsense (such as anti-vaccination rhetoric).
+— Proposition from the Ph.D. thesis of Dr Wynand Winterbach, via Francois Malan on Facebook.
+(This important message was brought to you by cpbotha.net, trawling facebook for interesting tidbits so you don’t have to!</description><content:encoded><![CDATA[ <blockquote>
+<p>The public’s unwillingness to learn basic scientific concepts and scientists’ inability to communicate those concepts lead the public to reject promising research (such as genetic modification), ignore serious problems (such as global warming) and embrace dangerous nonsense (such as anti-vaccination rhetoric).</p>
+</blockquote>
+<p>— Proposition from the <a href="http://dx.doi.org/10.4233/uuid:863253bb-a341-4445-96fd-4e83dc31baca">Ph.D. thesis</a> of Dr Wynand Winterbach, via <a href="http://francoismalan.com/">Francois Malan</a> on Facebook.</p>
+<p>(This important message was brought to you by cpbotha.net, trawling facebook for interesting tidbits so you don’t have to!)</p>
+]]></content:encoded></item><item><title>You must vaccinate</title><link>https://cpbotha.net/2009/05/21/you-must-vaccinate/</link><pubDate>Thu, 21 May 2009 09:02:02 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/05/21/you-must-vaccinate/</guid><description> Image courtesy of dbtechno.com. I was mistakenly under the impression that, at least in my social circles, the whole vaccination issue had been put completely to rest, but based on the number of serious questions that I’ve been asked recently, this unfortunately does not seem to be the case.
+For those of you who don’t have time, I’ll cut to the chase immediately:
+Yes, you simply must vaccinate your children.</description><content:encoded><![CDATA[ <figure>
+<img alt="" src="http://cpbotha.net/wp-content/uploads/2009/05/vaccine_autism_vaccinations.jpg" style="margin-left: 0px;"/>
+<figcaption>Image courtesy of dbtechno.com.</figcaption>
+</figure> 
+<p>I was mistakenly under the impression that, at least in my social circles, the
+whole vaccination issue had been put completely to rest, but based on the
+number of serious questions that I’ve been asked recently, this
+unfortunately does not seem to be the case.</p>
+<p>For those of you who don’t have time, I’ll cut to the chase immediately:</p>
+<p><strong>Yes, you simply <em>must</em> vaccinate your children.  This is the <em>best and
+safest</em> choice, for both your child and your fellow humans.</strong></p>
+<p><strong>No, there is no link between vaccination and autism. No, spreading out the
+(MMR) vaccinations is not safer, it is in fact more dangerous.  Also, the
+“vaccine overload” hypothesis is flawed.</strong></p>
+<p>For those of you with a bit more time or those of you who are not willing to take me on my word, I’ll go into some more detail on each of the points mentioned above.  Most of what I write here is based on articles in the Wikipedia.  I’ve deliberately done this, because these articles are accessible and readable to everyone, and they do link to the original scientific articles that they are based on.  Feel free to jump to any section.  Also, each section ends with a short summary of its contents to make it easier for you to skip.</p>
+<h1 id="recent-history">Recent history</h1>
+<p><em>This section is based on the <a href="http://en.wikipedia.org/wiki/MMR_vaccine_controversy" title="Wikipedia article on MMR vaccine controversy">Wikipedia article on the MMR vaccine
+controversy</a>.</em></p>
+<p>In 1998, Andre Wakefield and co-authors published a paper in the Lancet where,
+based on 12 case reports, they speculated on a possible link between the MMR
+vaccination and autism, and also speculated that it might be better to space
+out the vaccinations.  Of course the press and media picked this up and went
+completely wild, causing a health scare in the UK.  It is important to note
+that both of these claims were highly speculative.</p>
+<p>It later turned out that Wakefield had received 55000 (fifty-five thousand) UK
+pounds from Legal Aid Board solicitors who were gathering evidence to use in a
+case against vaccine manufacturers, and that a number of parents of the
+children taking part in Wakefield’s study were directly involved in the
+law-suit.  Wakefield did not mention any of this at the time of publication. 
+Ten of his 12 co-authors have since completely retracted their interpretation
+of the paper.</p>
+<p>In short, the author of the paper that started most of the modern vaccination-autism scare was completely corrupt, and his corruption directly affected this specific research.</p>
+<p>He did manage to cause such a scare in the UK, that measles (one of the diseases that MMR vaccinates against) is for the first time in decades at almost epidemic levels.   Since then, there have been cases of measles killing children, something which would most probably not have happened had the vaccination compliance not been at an all-time low.  Isn’t that absolutely crazy when one considers that measles was all but eradicated?</p>
+<p>In the years between 1998 and the present, there have been numerous extremely well-designed and large studies, none of which have been able to find <em>any</em> kind of link between vaccination and autism.</p>
+<p><em>To summarise this section: The research that the vaccination scare is based
+on, was deeply flawed and based on corruption, not science.</em></p>
+<h1 id="spreading-out-of-vaccines">Spreading out of vaccines</h1>
+<p><em>This section is based on the <a href="http://en.wikipedia.org/wiki/Vaccine_controversy#Vaccine_overload" title="Wikipedia article on Vaccine controversy.">Wikipedia article on the general Vaccine
+Controversy</a>.</em></p>
+<p>In some cases, parents opt for spreading out the vaccinations, because they
+mistakenly think that this is safer than not doing so.  The flawed idea that
+administering all these vaccines together could be dangerous is called the
+“vaccine overload hypothesis”.  It is flawed for the reasons:</p>
+<ul>
+<li>Common childhood ilnesses represent a much heavier load on the infant immune system.</li>
+<li>The vaccination cocktail given currently represents less than 10% of the immunological load of the vaccinations given to children in the 80s.</li>
+<li>Numerous studies have shown that the combination of vaccinations does NOT damage the infant immune system.</li>
+</ul>
+<p>Importantly, if you spread out vaccines, you increase the time during which your child is susceptible to the diseases that are being vaccinated again, thus greatly increasing the health risk to your child and all other children it comes into contact with.  You are a bad parent if you do this.</p>
+<p><em>To summarise this section:</em> <em>Administering the vaccinations together does not damage your child’s immune system.</em> <em>Spreading out vaccines is dangerous for both your child and all children it comes into contact with.</em></p>
+<h1 id="celebrities-campaigning-against-vaccination">Celebrities campaigning against vaccination</h1>
+<p>Recently, a number of celebrities, most prominent of which Jenny McCarthy and
+her partner Jim Carrey, supported by Oprah, have been campaigning against
+vaccination.  You have to remember that these are actors and entertainers,
+with almost ZERO medical or scientific background or training.   McCarthy
+dropped out of nursing school to become a Playboy Bunny: There’s nothing
+wrong with that, but you really cannot base important medical decisions,
+concerning the health and survival of your child (!!), on the opinions of an
+erstwhile nude model!</p>
+<p>_To summarise: Think carefully about the scientific and medical backgrounds of
+actors telling you how to care for the health and well-being of your child,
+even more so when it concerns life and death issues such as vaccination.</p>
+<h1 id="the-logical-conclusion">The logical conclusion</h1>
+<p>To the best of our scientific knowledge, vaccinations as they are administered today are safe and do not cause autism.  In spite of this, research continues day and night to make sure of this observation.</p>
+<p>On the other hand, if you don’t vaccinate, the risk of your child
+getting ill and dying is <em>significantly</em> higher.  If a large enough number of
+you don’t vaccinate, we lose our herd immunity and then there is a very
+real risk that <em>many</em> more of our children will get ill and die due to your
+inaction.  Do you seriously want to take this very real risk with your <em>and</em>
+my children’s lives?</p>
+<h1 id="post-scriptum">Post scriptum</h1>
+<p>I hope that this has helped.  If there are any issues that are not clear, or
+missing, or you are not convinced, please let me know so that we can discuss
+and so that I can improve this article.</p>
+<h1 id="extra-resources">Extra resources</h1>
+<ul>
+<li><a href="http://tallguywrites.livejournal.com/148012.html" title="Andrew Wakefield comic">Brilliant comic</a> explaining how the corrupt Andrew Wakefield managed to cause this whole debacle.</li>
+<li><a href="http://www.slate.com/id/2217798/" title="aritcle in slate criticising oprah for supporting mccarthy">Article in Slate</a> criticising Oprah’s support of Jenny McCarthy.</li>
+<li>Popular <a href="http://www.guardian.co.uk/society/2006/feb/12/health.medicineandhealth" title="Observer article about medical backlash over vaccine scare">article in the Guardian’s Observer</a> about spreading out vaccines.</li>
+<li><a href="http://www.nhs.uk/chq/Pages/1034.aspx?CategoryID=68&amp;SubCategoryID=154" title="statement on the NHS on why separate vaccinations are not necessary.">Clear statement by the NHS</a> on why there is no reason to offer MMR vaccine in a spaced / spread out fashion, and that spreading out is in fact dangerous.</li>
+</ul>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>July 25, 2012: <a href="http://io9.com/5928722/this-graph-of-whooping-cough-cases-in-washington-state-should-scare-the-crap-out-of-you" title="io9 article with increasing incidence of whooping cough in Washington State in 2012">Whooping Cough incidence in Washington State is up by 1300% in 2012</a> relative to 2011, most probably due to the anti-vaccination movement.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

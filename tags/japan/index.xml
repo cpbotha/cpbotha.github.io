@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>japan on voices in my head</title><link>https://cpbotha.net/tags/japan/</link><description>Recent content in japan on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 18 Mar 2018 20:53:28 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/japan/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #136: Slightly more than nothing much.</title><link>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</link><pubDate>Sun, 18 Mar 2018 20:53:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</guid><description> The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.
+Welcome back peeps! Make yourselves at home.
+It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.
+vimium Pro-tip of the week: Install vimium. It’s a chrome extension which enables you to SURF THE INFORMATION HIGHWAY with just a bunch of keyboard shortcuts.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/IMG_3359.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/IMG_3359-1024x768.jpg"
+        
+            alt="The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it."/> </a><figcaption>
+            <p>The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back peeps! Make yourselves at home.</p>
+<p>It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.</p>
+<h1 id="vimium">vimium</h1>
+<p>Pro-tip of the week: Install <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en">vimium</a>. It’s a chrome extension which enables you to SURF THE INFORMATION HIGHWAY with just a bunch of keyboard shortcuts.</p>
+<p>I avoided this for the longest time because it has the word “vim” in its name, but I was wrong.</p>
+<p>I can now waste time on reddit, twitch and youtube 73% more efficiently, every day.</p>
+<h1 id="nerd-works">nerd works</h1>
+<p>As far as I can remember, my work week was pretty straight-forward.</p>
+<p>I started implementing PDF reports again, but for a different application. <a href="https://wkhtmltopdf.org/">wkhtmltopdf</a> is now magically broken in different ways from <a href="/2015/06/21/weekly-head-voices-92-the-cake-is-a-lie/">the previous time</a>. Compared to bundling and maintaining a stripped-down <a href="https://www.tug.org/texlive/">TeXLive</a>, or paying the $995 license for <a href="https://www.pdflabs.com/tools/pdftk-server/">pdftk</a> with which PDF forms can be programmatically filled in, this is the best choice at the moment.</p>
+<p>Remember, <a href="/2016/02/02/weekly-head-voices-103-chips/#inspiring-quotes-that-you-can-repost-if-you-want">there are no answers, only choices</a>, even when baking PDFs.</p>
+<p>For Most Major Sideproject (MMS) I unfortunately had to do some front-end programming. I say unfortunately, because the back-end is all machine learning and cleverness, and then I smash my little programming clown car into the idiot brick wall that is web frontends. At least react makes the crash slightly less painful, and this time <a href="https://github.com/ReactTraining/react-router">react-router</a> helped me to get my URLs synchronised with app state fairly easily.</p>
+<p>Ok maybe it’s not <em>that</em> bad.</p>
+<p>My new <a href="https://robotdyn.com/samd21-m0.html">Robotdyn Arduino SAMD21 M0</a> boards arrived! This is arduino, but with a 32bit ARM Cortex M0+ instead of the Atmel 328p on the UNO boards. After some more hours of struggling to get Arduinos talking to each other via XBEE radios, I now know much more about programming these gadgets than I ever wanted to.</p>
+<p>Mostly due to the very-badly-documented-and-seemingly-unsupported <a href="https://www.itead.cc/wiki/XBee_Shield">itead arduino-xbee interface boards</a> I’m using, I am closer but have not yet received any cigars. (pro-tip: That extra top 3.3V jumper does more than just control level shifting. It also connects A0, RTS and DIN together. If you think you’re going to use A0 for RTS, your xbee will mysteriously hardware reset every 5 seconds. However, if you disconnect the jumper, your board will hardware reset every 5 seconds no matter what you do. Pro-tip: Don’t buy itead.)</p>
+<h1 id="new-beer-warlord">new beer warlord</h1>
+<p>On Wednesday I tasted a new craft beer (this does not happen very often anymore, as I’ve had almost all of them) during a Top Secret Business Meeting. It’s the War Lord IPA by Darling Brew:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/warlord_beer_cutout.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/warlord_beer_cutout-441x1024.png"
+        /> </a>
+</figure>
+
+<p>This might even be more metal than their <a href="/2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/">Bone Crusher</a> &lt;INSERT HEAVY METAL GUITAR RIFF HERE&gt;, which is extremely high praise. As IPAs go, I will definitely make this choice again, perhaps  even in the very near future.</p>
+<h1 id="part-of-the-weekend-never-dies">part of the weekend never dies</h1>
+<p>On Saturday and Sunday morning (overnight parties are the BEST parties) we had long-time friends over for a dinner party.</p>
+<p>Something like 25 years ago we did the <a href="https://www.sa-venues.com/things-to-do/limpopo/magoebaskloof-hiking-trail/">Magoebaskloof hiking trail</a> together. There’s nothing like sharing meals of dried soya (just add water, INDISTINGUISHABLE from meat the packet said), dried mash (“smash” I believe) and dried vegetables during days of hiking through the forest for getting to know each other better.</p>
+<p>Besides the hiking, and many student parties, there was also the little matter of me meeting my life partner through this connection. Not unimportant.</p>
+<p>Anyways, craft beer (<a href="https://www.devilspeakbrewing.co.za/kings-blockhouse-ipa/">King’s Blockhouse IPA</a>, nice and strong), great local wine (a Chardonnay-Pinot Noir blend which more or less satisfies my “expensive Chardonnay” criterion) and brilliant food (chicken, extremely slow over the fire) acted as the culinary backdrop for naturally flowing and energising conversation.</p>
+<p>Thank you long-time friends!</p>
+<p>Late morning Sunday we left for a family lunch at Bodega, restaurant at Dornier vineyard. This restaurant has made previous appearances in <a href="/2014/07/01/weekly-head-voices-76-someone-is-wrong-on-the-internet/">WHV #76 (July 1, 2014)</a> and <a href="/2016/01/20/weekly-head-voices-102-high-on-life/">WHV #102 (January 20, 2016)</a>.</p>
+<p>Again I can do nothing other than award it the WHV three thumbs up award! Wine-food-scenery-climate combinations really are amazing.</p>
+<p>(I just noticed that the wine which was paired with my Mauritian (no, no Martian fish yet) seabass, and blew me away, also blew me away in 2014. It’s the Donatus White, Semillon-Chenin Blanc blend. External memories FTW.)</p>
+<h1 id="let-us-ponder-wa">let us ponder: wa</h1>
+<p>Westerners are often very individualistic.</p>
+<p>We are brought up with the mission to “be yourself”.</p>
+<p>In Japan, there is “wa” (和) which <a href="https://en.wikipedia.org/wiki/Wa_(Japanese_culture)">wikipedia describes as</a>: <em>… harmony. It implies a peaceful unity and conformity within a social group, in which members prefer the continuation of a harmonious community <strong>over their personal interests</strong></em>. (emphasis mine)</p>
+<p>I understand that this has a different set of downsides to our individualism, but group harmony sure sounds nice. Perhaps in the future society we are going to start building soon, we could somehow combine “wa” with a deep respect for the scientific method, and in this way finally transform into the Star Trek Federation that we were promised.</p>
+<h1 id="bises">bises</h1>
+<p>Have a productive but especially harmonious week kids! I hope to see you again soon.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

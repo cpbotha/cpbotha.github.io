@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>c++ on voices in my head</title><link>https://cpbotha.net/tags/c++/</link><description>Recent content in c++ on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 04 Mar 2018 20:47:46 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
+I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.
+The WHV visual element lives to fight another day!
+The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/untitled_by_sylvia_20180304.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/untitled_by_sylvia_20180304-1024x492.png"
+        
+            alt="Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child."/> </a><figcaption>
+            <p>Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.</p>
+        </figcaption>
+</figure>
+
+<p>I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.</p>
+<p>The WHV visual element lives to fight another day!</p>
+<p>The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists. Feel free to pick and choose!</p>
+<h1 id="c-quo-vadis">C++ quo vadis?</h1>
+<p>This week, we spent more than a day chasing an elusive memory-related access violation (big words for “crash”) in the software we recently released.</p>
+<p>In the end, the bug was only really reproducible on Windows 7 (not on Linux, not on macOS, and only with great difficulty and infinite patience on Windows 10). It turned out to be hidden deep in a well-tested, industry-backed open source C++ library.</p>
+<p>This and the specific nature of this bug again demonstrated to me that C++, although I love it dearly, simply has too many well-disguised flaws (let’s call them foot-guns) which will eventually lead to even the most experienced and sharp programmer making mistakes.</p>
+<p>In spite of the recent language renaissance (C++11, 14, 17 with 20 imminent) and a slew of improvements, it’s still too easy to write unsafe code.</p>
+<p>With contenders like rust (<a href="https://www.rust-lang.org/en-US/">rustlang</a> AJ, rustlang!) which enable programmers to write programmes which have C++-level performance but are by default safe, could C++’s days be counted?</p>
+<h1 id="run">Run</h1>
+<p>It was time to retire my trusty pair of Asics Cumulus 18 shoes.</p>
+<p>They had clocked just over 900km, which is perhaps a little too much. By the end, I could feel the bones in my big toe’s main joint (apparently also known as the big-toe’s MTP or metatarsophalangeal joint) crunching down with each strike.</p>
+<p>Normally not prone to these types of visits, I had no choice but to pop out to the <a href="https://www.runspecialiststore.com/">Run Specialist Store</a> in Edward street on Thursday to get a new pair of activity-proof foot covers.</p>
+<p>They let me run on a treadmill (whoohooo running!) with a high-speed video camera. In the footage, we could see that indeed my conversion to forefoot running had been successful (which was good to hear, because it had cost me about 100km of pain), but that I tended to land on the outsides of my forefeet.</p>
+<p>The minimal shoes I had had in mind were not (yet) to be.</p>
+<p>Instead the run doctor prescribed a pair of <a href="https://www.solereview.com/saucony-kinvara-8-review/">Saucony Kinvara 8s</a>, which make my old Asics look like previous generation gardening shoes. I’ve since taken these out on two runs. They are super light, and super springy (everun FTW?), but I have to say that I have my doubts about the durability of the outsole. I’ll report back.</p>
+<p>In February, I’m pretty happy that I managed to squeeze in just over 110km of running, which is not too shabby (by my standards, as always!) for the short month.</p>
+<h1 id="scarf">SCARF</h1>
+<p>Yes, winter is coming, but this, although also quite useful, is not that type of SCARF.</p>
+<p>I am still reading <a href="https://your-brain-at-work.com/">David Rock’s book Your Brain at Work</a>, and SCARF is his mnemonic for Status, Certainty, Autonomy, Relatedness and Fairness.</p>
+<p>These are five social needs, the threat or confirmation of which can have profound effects on humans.</p>
+<p>If you feel that you are being unfairly treated, for example, this triggers a low-level threat response which fundamentally complicates dealing rationally with a situation.</p>
+<p>Conversely, if for example an interaction grants you more certainty or even better autonomy, you are magically able to contribute significantly more cognitive capacity and creativity to that interaction.</p>
+<p>Both the fundamental threat and reward responses go for all five of these qualities. Once you know what to look for, it’s easy to go through some of your memories and to see where one or more of the SCARF needs played a role.</p>
+<p>Although one (hopefully) mostly intuitively integrates this in one’s daily dealings, I think it’s super useful being able to enumerate the SCARF social needs like this. It helps when managing oneself in any situation (especially when your prefrontal cortex is exhausted, which is just about always), and it certainly helps when you might find yourself in position where you are able to contribute to another human’s well-being.</p>
+<h1 id="the-end">The end</h1>
+<p>Have a great week friends, I hope to see you again soon!</p>
+<p>P.S. if there are any arduino uno -&gt; hardware serial -&gt; xbee experts in the audience, I would like to have a word. (<a href="https://www.sparkfun.com/products/12847">sparkfun shield</a>. with software serial can talk to xbee. with hardware serial, and sparkfun switch in the right position, xbee won’t respond. <a href="https://medium.com/@phurl/robotdyn-uno-vs-arduino-genuino-uno-a9ac3b17a96f">uno is a robotdyn clone</a>.)</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0321-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0321-PANO-1024x598.jpg"
+        
+            alt="Yes, we ended up in the mountains again."/> </a><figcaption>
+            <p>Yes, we ended up in the mountains again.</p>
+        </figcaption>
+</figure>
+
+<p>In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.</p>
+<p>One more of my <a href="https://github.com/org2blog/org2blog/pull/226">org2blog pull requests</a> was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</p>
+<p>Anyways.</p>
+<h1 id="aspnet-core-surprise">ASP.NET Core SURPRISE!</h1>
+<p>For a work project I was <em>encouraged</em> to explore Microsoft’s brand new <a href="https://docs.microsoft.com/en-us/aspnet/core/">ASP.NET Core</a>. While on the one hand I remain wary of Microsoft (IE6 anyone?), I am an absolute sucker for new technology on the other.</p>
+<p>You may colour me impressed.</p>
+<p>If I had to describe it in one sentence, I would have to describe ASP.NET Core as Django done in C#. You can develop and deploy this on Windows, Mac or Linux. You model and query your data using Entity Framework Core and LINQ for example, or Dapper if you prefer performance and don’t mind the SQL (I don’t), or both. You write controller classes and view templates using the Razor templating language.</p>
+<p>C# 7.0 looks like it could be a high development velocity language. It has modern features such as lambdas with what looks like real closures (unlike C++ variable capturing), as well as the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator">null coalescing operator (??)</a> and the <a href="http://geekswithblogs.net/BlackRabbitCoder/archive/2015/06/05/c.net-little-wonders-null-conditional-operator-in-c-6.aspx">null conditional operator (?.)</a>, the latter of which looks superbly useful. Between Visual Studio on Windows and the Mac, or the new Intellij Rider IDE (all platforms) or Visual Studio Code (all platforms), the tooling is top notch.</p>
+<p>Time will have to tell how it compares to Python with respect to development velocity, a competition that Python traditionally fares extremely well at.</p>
+<p>Where ASP.NET Core wins hands down is in the memory usage department: By default you deploy using the Kestrel web server, which runs your C# code using <em>multiple</em> libuv (yeah, of lightning fast node.js event loop fame) event loops, all in threads.</p>
+<p>With Django I usually deploy as many processes as I can behind uwsgi, itself behind nginx. The problem is that with Python’s garbage collector, these processes end up sharing very little memory, and so one has to take into account memory limits as well as CPU count on servers when considering concurrency.</p>
+<p>The long and the short of this is that one will probably be able to process many more requests in parallel with ASP.NET Core than with Django. With uwsgi and Django I have experimented with gevent in uwsgi and monkey patching, but this does not work as well as it does in ASP.NET Core, which has been designed with this concurrency model in mind from the get go. My first memory usage and performance experiments have shown compelling results.</p>
+<p>Hopefully more later!</p>
+<h1 id="a-cadence-of-accountability">A cadence of accountability</h1>
+<p>Lately my <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work habits</a> have taken a bit of a hit. At first I could not understand how to address this, until I remembered mention of a <em>cadence of accountability</em> in <a href="http://calnewport.com/books/deep-work/">The Book</a><em>.</em></p>
+<p>Taking a quick look at <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">that post</a>, I understood what I had forgotten to integrate with my habits. Besides just doing the deep work, it’s important to “keep a compelling scoreboard” and to “create a cadence of accountability”.</p>
+<p>Although I was tracking my deep work time using the <a href="http://orgmode.org/manual/Clocking-commands.html">orgmode clocking commands</a> (when I start “deep working” on anything, I make an orgmode heading for it in my journal and clock in; when I’m done I clock out; orgmode remembers all durations) I was not regularly reviewing my performance.</p>
+<p>With orgmode’s <code>org-clock-report</code> command (<code>C-c C-x C-r</code>), I can easily create or update a little table, embedded in my monthly journal orgfile, with all of my deep work clocked time tallied by day. This “compelling scoreboard” gives me instant insight into my weekly and monthly performance, and gives me either a mental kick in the behind or pat on the shoulder, depending on how many deep work hours I’ve been able to squeeze in that day and the days before it.</p>
+<p>The moment I started doing this at regular intervals, “creating a cadence of accountability” in other words, I was able to swat distractions out of the way and get my zone back.</p>
+<p>This is an interesting similarity with <a href="/tag/gtd/">GTD</a> (which I don’t do so much anymore because focus is far more important to me than taking care of sometimes arbitrary and fragmentary tasks) in that GTD has the <a href="https://zenhabits.net/weekly-review-key-to-gtd-and-achieving/">regular review</a> as a core principle.</p>
+<p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
+<p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #108: Gaga.</title><link>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</link><pubDate>Fri, 24 Jun 2016 21:55:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</guid><description> I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)
+Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</description><content:encoded><![CDATA[ <p>I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/06/IMG-20160526-WA0000.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/06/IMG-20160526-WA0000.jpg"
+        /> </a>
+</figure>
+
+<p>Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</p>
+<p>Genetic Offspring Unit (GOU) #3, the rapidly glowing cellular mega-city that first made contact with extra-wombular (I made that up) light slightly more than three months ago, suddenly started babbling a few weeks ago. To be honest, I thought that she was going to be really quiet to compensate for the immense amount of continuous talking in my house. It turns out that her reaction has instead been one of taking this bull by the horns. SHE WILL BE HEARD. (GOU#1 and #2 are able to produce speech with an intensity that is to be heard to be believed. I have no idea where they got that from.)</p>
+<p>Speaking of babbling, I sometimes make videos of me trying to explain nerdy programming-related tricks, and then I upload them to YouTube. My most recent creation is about using the conan.io C++ package manager to get a small SFML-based GLSL example going (that’s GPU programming). It has a soundless explosion at the end!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/RFjvz_Ppbv8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I came across a really interesting bit of research performed at the Vienna University of Economics and Business (WU) on how really small, seemingly inconsequential rewards, can actually ignite people’s intrinsic motivation. This is interesting exactly because it has long been thought that extrinsic rewards diminish intrinsic motivation, a phenomenon called the <a href="https://en.wikipedia.org/wiki/Overjustification_effect">overjustification effect</a>.</p>
+<p>In <a href="https://hbr.org/2016/06/even-tiny-rewards-can-motivate-people-to-go-the-extra-mile">the recent study by researchers at the WU</a>, students were encouraged to do extra homework assignments. However, this was done by allocating an amount of extra credit which was perceived by the students as being trivial (this was measured in a separate study). Lo and behold, this perceived trivial extra credit still jump-started that group’s extra assignment submissions, and the students in that group then showed evidence of autonomously (intrinsically) motivated behaviour.</p>
+<p>The researchers hypothesise that this could be due to the fact that the students being jump-started could not internally explain their behaviour on the basis of the negligible reward, and hence automatically came up with more intrinsically-oriented motivations, such as personal importance, interest or enjoyment).</p>
+<p>South Africa is a really strange and wonderful place. I don’t write about it that much, because in that respect it is my <em>place</em> to be quiet here in the background. However, sometimes someone else writes something that, if you’re interested in the perspective of South Africans who’ve lived abroad for a significant amount of time, and have then returned, somewhat the wiser, because the country in their blood called them back, you really should read. Disco Pants, or rather her blog, helped me a whole lot when we had to decide whether we would be coming back or not. She has a new post out titled <a href="https://discopantsblog.com/2016/06/06/on-surviving-the-madness-of-south-africa/">“On Surviving the Madness of South Africa”, and it’s a beaut</a>.</p>
+<p>On the topic of beauty, <a href="http://www.flumemusic.com/">Flume</a> has new album out. It’s called <em>Skin</em>, and it gets the highly coveted but completely unknown Weekly Head Voices Album of Right Now award! Here’s the first track to whet your appetite (or not):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7HKVvcNOQb0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Have a fun week listeners!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description> Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
+About 4 seconds after posting previous edition WHV #104 to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:
+So much truth. I have been put back in my place. Sorry vegans. Sorry MBA students. Not sorry Ayn Randers.</description><content:encoded><![CDATA[ <p>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!</p>
+<p>About 4 seconds after posting previous edition <a href="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/">WHV #104</a> to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/02/12651073_10153234132252035_804640390912092906_n.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/02/12651073_10153234132252035_804640390912092906_n.jpg"
+        /> </a>
+</figure>
+
+<p>So much truth. I have been put back in my place. Sorry vegans. Sorry MBA students. Not sorry Ayn Randers.</p>
+<p>This is currently my favourite lager ever (at least until next week):</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/02/jack_black_lager.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/02/jack_black_lager-576x1024.jpg"
+        /> </a>
+</figure>
+
+<p>It is indeed a craft beer. If we’ve ever chatted more than 10 minutes in the past (or in the future), you’ll know everything about my braai, and you probably also know that I find craft beer to be one of the greatest inventions ever, along with fire, and the internet.</p>
+<p>Here’s a another beer which I recently had the pleasure of enjoying, at a secret networking meeting (yes, we have secret meetings where we in fact do manage a large number of aspects of your daily life, and where we also orchestrate it so you’ll never suspect that we are behind everything, subtly manipulating reality) where, when the beer arrived at the table, everyone who looked vaguely hipster-like claimed vocally not in fact to be even remotely hipster-like:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/02/tears_of_the_hipster.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/02/tears_of_the_hipster-576x1024.jpg"
+        /> </a>
+</figure>
+
+<p>META-HIPSTER CRAFT BEER! At first I was confused, but then I realised it was just another case of <strong>WHAT A TIME TO BE ALIVE!</strong></p>
+<p>(By the way, I stripped the EXIF GPS data from the Jack Black photo, because privacy, but I left it hidden in the tears of the hipster. First one who tells me in the comments where the secret meeting was held gets a free craft beer!)</p>
+<p><em>Nerd tip of the week</em>: It’s somehow not prominent enough on their site, but GitLab, the open source GitHub alternative, also <a href="https://about.gitlab.com/gitlab-com/">offer free hosting of an unlimited number of private repositories with an unlimited number of private collaborators</a>. In other words, if you’re on a budget, you can host your commercial and proprietary project git repositories (and bug tracking and wikis) there at <em>no cost</em>. This is cheaper than github ($7 for the smallest subscription for 5 private repos) and better than bitbucket (private repos for free, but if you have more than 5 team members you have to pay). I pay quite gladly for the online services I use, but in this particular case, such a level of free is hard not to like.</p>
+<p><em>Nerd tip #2 of the week:</em> The <a href="http://clang-analyzer.llvm.org/">Clang static C++ analyser</a> is brilliant. If you program in C++, and you need to up your game, integrating this into your workflow is a solid step in the right direction. I’ve been using this via the <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build method</a>. Let me know in the comments if you’d like to know more about this!</p>
+<p>After some <a href="http://www.pcservices.co.za/">professional</a> ethernet cabling down to the sort-of basement of our new house, I have checked off another item from my non-existent bucket list: <em>We now have a lab at our house.</em> So far there are computers, all kinds of DIY supplies and art stuff for the genetic offspring units, and all of this to <em>create</em>. I spent some of the best times of my life in labs of some sort of another. It’s really great bringing some of that back home to my clan.</p>
+<p>Have a great week kids, see you on the other side!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #104: Let me update you.</title><link>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</link><pubDate>Mon, 08 Feb 2016 20:59:23 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</guid><description> This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.
+I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!</description><content:encoded><![CDATA[ <p>This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.</p>
+<p>I dug up an email I wrote to <a href="https://en.wikipedia.org/wiki/Alexander_Stepanov">Alex Stepanov</a> and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!), <em>that he had never found much use for inheritance</em>. In those days, nerd celebrities mailed you back. Also, poor old C++ inheritance…</p>
+<p>A few years later, but still back in the day, <a href="https://twitter.com/gerwindehaan">@gerwindehaan</a> and I wrote a time management web-app which could automatically schedule all of your tasks. In other words, it would decide exactly <em>what</em> you needed to do <em>when</em> in order to hit all of your deadlines, your appointments and your priorities. It had an ugly UI (story of my life), but it worked (story of my life?). That whole adventure marked the start of our downward spiral away from academia and into the sea of money and debauchery we currently find ourselves in. In any case, I resurrected the old TimeScapers website and wrote a <a href="http://timescapers.com/2016/02/07/timescapers-and-timerank-retrospective/">short little retrospective blog post</a> if you’re interested.</p>
+<p>I got tired of waiting for the OTA (over the air) update to Marshmallow (that’s Android 6.0) for my LG G3, so I booted into Windows 10 (yes, I have a partition with that also), and used <a href="http://forum.xda-developers.com/g4/help/lgup-install-kdz-mm-lp-t3249803">LGUP</a> with the <a href="http://forum.xda-developers.com/lg-g3/help/downgrade-mm-to-lp-using-lg-t3283912/post64597779#post64597779">8974 DLL</a>  (very important to use this and NOT the 8994, else you WILL FAIL) and the official <a href="http://csmgdl.lgmobile.com/dn/downloader.dev?fileKey=FW4DYI8332GOAME9EB45Q8B/D85530B_00_1217.kdz">LG G3 Marshmallow KDZ</a> (1.3GB md5sum 711d91254f5e3e02536395b35e1d534f) to upgrade the phone. After one day I can say the following: Looks mildly prettier and feels slightly smoother, but battery life has improved phenomenally. Let me know in the comments if you need help with doing this on your own phone.</p>
+<p>The graphical warning below is why I’m not ready to shave my beard quite yet (click for imgur source):</p>
+<p><a href="https://imgur.com/gallery/4KjqlTh" rel="attachment wp-att-2362"><img alt="what happens when you shave" class="alignnone size-large wp-image-2362" data-attachment-id="2362" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="what happens when you shave" data-large-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-300x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur.jpg" data-orig-size="1936,1936" data-permalink="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/my-husband-shaved-his-awesome-beard-turned-into-a-little-girl-imgur/" height="660" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" src="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-150x150.jpg 150w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-300x300.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-768x768.jpg 768w" width="660"/></a></p>
+<p>As you might or might not have heard, our currency has recently taken quite a serious knock. Fortunately, it’s still extremely good for exchanging for meaty pleasures, such as the almost 2.5kg of rib-eye and t-bone you see in the photo below. Prepared and enjoyed with good friends, this was as beautiful as it looks. The hand you see in the picture belongs to my friend, who is a giant.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/02/ribeye_tbone_yum.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/02/ribeye_tbone_yum-1024x576.jpg"
+        /> </a>
+</figure>
+
+<p>Don’t worry, I don’t eat that much meat every day. Also, when I grow up, I want to be a vegan:</p>
+<p><a href="http://imgur.com/gallery/bmyBQBE" rel="attachment wp-att-2365"><img alt="bmyBQBE - Imgur" class="alignnone size-full wp-image-2365" data-attachment-id="2365" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="bmyBQBE – Imgur" data-large-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur-224x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" data-orig-size="500,671" data-permalink="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/bmybqbe-imgur/" height="671" sizes="(max-width: 500px) 85vw, 500px" src="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg 500w, https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur-224x300.jpg 224w" width="500"/></a></p>
+<p>(It’s almost just like when someone is doing their MBA! Have I offended enough people yet? I was also planning to insult people who manage to take <a href="http://www.cracked.com/funny-304-ayn-rand/">Ayn Rand</a> seriously, but <a href="http://www.alternet.org/story/150680/the_truth_about_gop_hero_ayn_rand">they’re not very good</a> with multi-syllabic words, or reading in general. Furthermore, my beef with vegans (I’m on the roll here) and with MBA students is actually just good-natured teasing, a tone I would prefer to maintain. For now.)</p>
+<p>Have a great week kids, I hope to see you on the other side!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #102: High on life.</title><link>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</link><pubDate>Wed, 20 Jan 2016 07:21:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</guid><description> The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a business lunch at Bodega, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:
+… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar.</description><content:encoded><![CDATA[ <p>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a <em>business</em> lunch at <a href="http://www.dornier.co.za/restaurant">Bodega</a>, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/view_from_bodega.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/view_from_bodega-1024x576.jpg"
+        /> </a>
+</figure>
+
+<p>… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar. The company might be different every time, but so far its level of awesomeness has been <em>quite</em> consistent.)</p>
+<p>The rest of the (work) week was consumed by extreme nerdery, which is of course the way I love it. Besides more GPU shader fine-tuning (at least once I exclaimed on the <a href="http://www.stonethree.com/">Stone Three</a> HipChat, hopefully soon the Stone Three <a href="http://www.mattermost.org/">Mattermost</a>,  <em>WITNESS THE POWER OF MATH!</em>, before showing a rendering that was marginally better than the one where the POWER OF MATH had not yet been invoked a sufficient number of times), there was Javascript, <a href="http://d3js.org/">d3.js</a> (d3 is another fantastic example of what you can do with vectorised thinking and computation) and Python.</p>
+<p>In break time I finally took a closer look at <a href="https://en.wikipedia.org/wiki/C%2B%2B14">C++14</a> and beyond and came away super impressed. There’s a blog post in the pipeline on generic lambda expressions, because I think they’re brilliant. I don’t know why I love different programming languages so much, but I do.</p>
+<p>On Saturday,  I got really high with one of my besties, a superb gentleman who also goes by the name of A Very Flat Cat. We reached this altered state by the old-fashioned but extremely reliable (and cheap!) method of physically increasing our altitude via ambulation up the west peak of the <a href="https://en.wikipedia.org/wiki/Helderberg">Helderberg</a>. The walk (a few hours in 35 degrees Celsius…) was exhilarating, and the view from the top awe-inspiring. Check it (click for high-res):</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/20160116_100314-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/20160116_100314-PANO-1024x137.jpg"
+        /> </a>
+</figure>
+
+<p>I’ve often wondered about the effect of one’s surroundings on one’s mindfulness. This was one of those cases where mother nature, without asking for permission or anything like that, simply brute-forced the <em>being</em> switch with her astonishing beauty. Very grateful I was.</p>
+<p>Have a great week friends, see you on the other side!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #78: Aeroimpressed.</title><link>https://cpbotha.net/2014/07/22/weekly-head-voices-78-aeroimpressed/</link><pubDate>Tue, 22 Jul 2014 19:53:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/07/22/weekly-head-voices-78-aeroimpressed/</guid><description> Up in the North, temperatures were in the mid to high twenties every day (yes, it’s the middle of Winter, and that’s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that’s how we roll!</description><content:encoded><![CDATA[ <p><a href="http://cpbotha.net/2014/07/16/a-south-african-state-of-mindful/">Up in the North</a>, temperatures were in the mid to high twenties every day (yes, it’s the middle of Winter, and that’s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that’s how we roll! <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire_in_the_office.jpg" title=""></p>
+<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire_in_the_office-300x186.jpg" alt=""></a><figcaption class="wp-caption-text">My office is on fire! Note the interrogation lamp.</figcaption></figure></p>
+<p>(don’t worry, our friendly electrician managed to get the underfloor heating working and now I don’t have to make fire in the office anymore. you can send donations towards my electricity bill via paypal.)</p>
+<p>On Tuesday evening (after the fire), I decided to go to my <a href="http://www.meetup.com/Helderberg-Software-Developers-and-Entrepeneurs/events/191133432/">first MeetUp</a>. Although my main goal was to meet fellow software developers and entrepreneurs from my neighbourhood, I had a super enjoyable evening meeting said people, and learning about <a href="https://en.wikipedia.org/wiki/Construct_(game_engine)">Construct 2</a> (the topic of the presentation). Now while I’m not into gaming at all, this did lead to evenings of reading about the various mobile game development libraries; there’s a whole universe of interesting cross-platform code out there! My search finally ended with <a href="http://getmoai.com/">Moai SDK</a>, an open source C++ engine with Lua bindings (Lua is awesome, before Moai I integrated it with my secret hobby project; for 200kBytes you get a whole super fast dynamic language in your C++ application!) that can be used to write 2D games for all of the desktop platforms, as well as for iOS and for Android.</p>
+<p>I have too many hobby projects going, but the idea of writing a mobile app that’s actually enjoyed by a few people does sound like fun. (I do have an embarrassing app in the store. It’s been downloaded more than 10000 times, and many of the reviewers (more than 200 at last count) have turned superlative reviewing for the useless app into an art. (<a href="http://www.fastcompany.com/1779632/10-best-amazon-reviews-ever">Writing over the top funny reviews</a> is a thing, but you knew that.))</p>
+<p>It was awesome seeing Colbert interviewing Vint Cerf, co-father of the internet:</p>
+<p>(ARGH. Last Tuesday, this was <a data-rel="lightbox-video-0" href="https://www.youtube.com/watch?v=ann2q4VPiF8">a working YouTube video</a> – tonight it claims to have been removed by the user. Also, none of the videos available from <a href="http://thecolbertreport.cc.com/videos/x9hnxr/vint-cerf-pt--2">The Colbert Report’s website</a> are viewable here in SA. I briefly considered hosting the video here for both of my readers, but instead I’ll just post this <a href="http://kickass.to/the-colbert-report-2014-07-15-vint-cerf-hdtv-x264-lmao-eztv-t9336913.html">other more useful link</a> here.)</p>
+<p>The bit at 17m50 in the full episode, or at 20 seconds into the part 2 video hosted on the Colbert site, where Colbert asks Cerf about his resemblance to The Architect (of The Matrix) is priceless. <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-colbert_vint_cerf_architect.jpg" title=""></p>
+<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-colbert_vint_cerf_architect-300x223.jpg" alt=""></a><figcaption class="wp-caption-text">Vint Cerf on the left, The Architect on the right. (I had to watch this via US VPN due to geographic rights restrictions. Kind of ironic!)</figcaption></figure></p>
+<p>Oh, it turns out that Al Gore <strong>did</strong> help to get NSFnet funded by the NSF, and so the running joke about him giving the world internet has a kernel of truth according to the gracious Vint Cerf. Here’s a cookie to feed to your trivia OCD: Vint Cerf and Robert Kahn started working on what would become the internet in 1973, and they switched it on in 1983.</p>
+<p>GOU#1, all of 8 years old, is independently WhatsApping with her grandparents, from her own telephone. I find it really awesome that she’s making these connections with her extended family. I also find it awesome that she comes up with these kinds of constructions when we’re not in the mood to build a real fire: <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-2" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-gou1_simulates_fire.jpg" title=""></p>
+<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-gou1_simulates_fire-300x268.jpg" alt=""></a><figcaption class="wp-caption-text">Augmented reality, GOU#1 style.</figcaption></figure></p>
+<p>(Now she just has to let me teach her to code.)</p>
+<p>(I thought that this was going to be a really short post, but this time my notes had other ideas. We’re almost done…)</p>
+<p>On Sunday, we went to <a href="http://lourensford.co.za/">Lourensford</a>, a well-known wine farm and cellar just down the road from me, and also the location of the <a href="http://www.coffeecompany.co.za/">Coffee Company roastery</a>, to acquire a supply of freshly roasted coffee beans to feed the <a href="http://cpbotha.net/2007/04/08/infinite-espressos/">a voracious bean-to-cup machine</a> which lives in my kitchen.</p>
+<p>Sitting on the shelf above all of the lovely coffee beans was a newly delivered consignment of <a href="http://boingboing.net/2014/04/19/profile-of-aeropress-and-aerob.html">Aeropress coffee makers</a>. During a previous visit, I had managed to resist taking one, but this thing was now singing to the very warp core of my inner coffee nerd.</p>
+<p>I could not resist its call anymore. <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-3" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-aeropress_action2.jpg" title=""></p>
+<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-aeropress_action2-184x300.jpg" alt=""></a><figcaption class="wp-caption-text">Giant coffee injection. Air-tight seal, column of air pushes water through coffee in 30 seconds. I haz it.</figcaption></figure></p>
+<p>I can now report that with freshly ground Bugisu Arabica coffee, the liquid black gold emerging from this wondrous device is indeed some of the purest and best coffee that I’ve ever had. If you’re into coffee, get one of these. You can thank me at the next hipster meetup.</p>
+]]></content:encoded></item></channel></rss>

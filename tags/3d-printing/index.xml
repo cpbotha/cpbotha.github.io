@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3D printing on voices in my head</title><link>https://cpbotha.net/tags/3d-printing/</link><description>Recent content in 3D printing on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 30 Jul 2019 09:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/3d-printing/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #175: Plaintext me.</title><link>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</link><pubDate>Tue, 30 Jul 2019 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</guid><description> Good evening fellow humans.
+This is Head Voice #37 reporting for duty. I have been instructed to perform retrospection on the period of time from Monday July 22 to Sunday July 28.
+Due to the ongoing hibernation and consequent lack of interesting events to talk about, this should be short.
+This delectable Fred &amp; Max Flat White was one of a quite few more enjoyed during life-affirming breakfast with a Very Flat Cat.</description><content:encoded><![CDATA[ <p>Good evening fellow humans.</p>
+<p>This is Head Voice #37 reporting for duty. I have been instructed to perform
+retrospection on the period of time from Monday July 22 to Sunday July 28.</p>
+<p>Due to the ongoing hibernation and consequent lack of interesting events to
+talk about, this should be short.</p>
+<figure>
+<a href="fred_max_flatwhite_veryflatcat.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+This delectable Fred & Max Flat White was one of a quite few more enjoyed
+during life-affirming breakfast with a Very Flat Cat. (By the way, why didn't
+any of you tell me that fried egg yolk slowly drenching the quinoa bed it lies
+on is so amazing?!)
+</figcaption>
+</figure>
+<h2 id="im-stubbornly-doubling-down-on-plaintext-email">I&rsquo;m stubbornly doubling down on plaintext email.</h2>
+<p>I spent a precious hour or two (or perhaps three, in which case I am ashamed)
+performing experiments to try and understand how GMail, fastmail web,
+thunderbird and the iOS mail.app encode quoting in HTML email replies.</p>
+<p>The answer is that they all do it in subtly different ways&hellip;</p>
+<p>The even more shocking answer is that since HTML email took over, people have
+really just been winging it, and quite badly so.</p>
+<p>To give you an idea, gmail adds explicit inline CSS <em>styling</em> to display the
+vertical reply bar on the left, like some kind of <em>barbarian</em>.</p>
+<p>WAT?!</p>
+<p>Back when plaintext email was the only game in town, there were <a href="https://en.wikipedia.org/wiki/Posting_style">fairly strict
+but effective guidelines</a> that
+determined exactly how one could quote previous emails, up to any depth, when
+crafting that thoughtful reply.</p>
+<p>However, it seems that, thanks to Outlook and perhaps far more insidiously
+Google&rsquo;s GMail, <em>many</em> people currently have no idea that a thing such as email
+quoting with inline replies used to be a solved problem.</p>
+<p>That is, until users mistakenly thought that badly chosen fonts with even more
+badly chosen colours were more important than, you know, effective and
+efficient written communication.</p>
+<p>Although this battle is lost, this has only encouraged me to stick it to the
+(HTML email) man, and double-down on my old-school plaintext emails.</p>
+<p>If you receive a simple-looking email from me which sometimes wraps strangely,
+you&rsquo;ll know why.</p>
+<p>If you&rsquo;d like join me, the new
+<a href="https://useplaintext.email/">useplaintext.email</a> site is a good start!</p>
+<h2 id="linux-on-the-thinkpad">Linux on the ThinkPad.</h2>
+<p>I <em>thought</em> that the NVIDIA GPU being hard-wired to the external display
+outputs on this <a href="/2019/04/27/new-laptop-2019/">ThinkPad</a> meant that I would
+never be able to run Linux with <em>dynamic</em> display connection.</p>
+<p>Well it turns out I was wrong.</p>
+<p>I slipped this weekend, and now the Linux partition is configured with Manjaro
+Linux (a surprise to me too).</p>
+<p>In short, ThinkPad consumes just over 5W at idle, because NVIDIA is only
+switched on when necessary. I can switch it on for CUDA (for example to work
+with neural networks that fit into the 4GB of VRAM), and I can switch it on
+when I need to connect an external display.</p>
+<p>All of this without having to reboot or even logout and back in again.</p>
+<p>If you&rsquo;re interested, see the <a href="https://vxlabs.com/2019/07/28/manjaro-bumblebee-thinkpad-x1-extreme-2019/">vxlabs blog
+post</a>
+for all of the details.</p>
+<h2 id="we-live-in-the-future">We live in the future.</h2>
+<p>At the UMC Utrecht, two patients have received entirely patient-specific
+3D-printed titanium spinal implants.</p>
+<p>Thanks to this, the patients, one of whose spine had previously collapsed, are
+still able to walk.</p>
+<p>Read more in <a href="https://www.dutchnews.nl/news/2019/07/teenager-can-walk-again-thanks-to-dutch-3d-printed-spinal-implant/">this DutchNews
+summary</a>,
+or preferably <a href="https://www.volkskrant.nl/wetenschap/implantaten-uit-de-3d-printer-laten-utrechtse-patient-weer-lopen~bab3372e/">this Volkskrant
+article</a>
+if you can follow Dutch.</p>
+<p>I&rsquo;ve embedded the Lancet video abstract for your convenience:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/3gxiDo3ac0k" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p>This used to be the stuff of science fiction folks!</p>
+]]></content:encoded></item></channel></rss>

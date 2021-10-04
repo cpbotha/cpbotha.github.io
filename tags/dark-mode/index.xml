@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dark mode on voices in my head</title><link>https://cpbotha.net/tags/dark-mode/</link><description>Recent content in dark mode on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 20 Aug 2021 09:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/dark-mode/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #230: Follow your blisters</title><link>https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/</link><pubDate>Fri, 20 Aug 2021 09:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/</guid><description><![CDATA[ Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &ldquo;I just did a photography course and now I have to make photos like this&rdquo; (I didn&rsquo;t and I don&rsquo;t). My friends have assured me that it does not look like that (too much).]]></description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="van_breda_cottage_angles.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&amp;rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &amp;ldquo;I just did a photography course and now I have to make photos like this&amp;rdquo; (I didn&amp;rsquo;t and I don&amp;rsquo;t). My friends have assured me that it does not look like that (too much)."/> </a><figcaption>
+            <p>Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &ldquo;I just did a photography course and now I have to make photos like this&rdquo; (I didn&rsquo;t and I don&rsquo;t). My friends have assured me that it does not look like that (too much).</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV covers the three weeks from Monday July 26 to Sunday August 15.</p>
+<h2 id="why-i-don-t-like-dark-mode-anymore">Why I don&rsquo;t like dark mode anymore</h2>
+<p>As you might know, I spent most of my working (and sometimes hobby, we&rsquo;ll get
+back to that further down) hours in front of this screen or some other screen.</p>
+<p>Up to now, I was really convinced that I preferred dark mode everywhere, until
+recently two events transpired:</p>
+<p>I started noticing more eye-strain than usual, even on my 27&quot; screen, something
+which had a perceptible effect on my productivity. This I resignedly ascribed
+to my advancing age, although I did find the suddenness quite surprising,
+especially since I recently had my glasses updated.</p>
+<p>Then, after years with only the admittedly brilliant <a href="https://github.com/bbatsov/zenburn-emacs">zenburn</a> and <a href="https://github.com/fniessen/emacs-leuven-theme">Leuven (dark)</a>
+Emacs themes checking all of the boxes for me, I finally ran into a really
+interesting and usable theme called <a href="https://github.com/kunalb/poet">Poet</a>.</p>
+<p>It&rsquo;s interesting, because it uses variable pitched fonts for everything but
+code, tables and elements of the fixed width domain, where most Emacs fonts
+stick to the traditional all-fixed-width approach.</p>
+<p>It looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="20210822-poet-theme-screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>You can probably understand that for someone who uses Emacs almost primarily
+for technical notes and other writing, this book-like appearance could work
+really well.</p>
+<p>The theme was even more interesting for me personally, as it suddenly became
+clear as day that I experienced almost no eye-strain when using Emacs with this
+lighter theme than when I used any of my other usually dark-themed tools!</p>
+<p>It became obvious that poet-theme&rsquo;s lighter background was much easier on my
+eyes than dark mode in vscode. (No, this specific advantage can&rsquo;t be ascribed
+to Emacs itself I&rsquo;m afraid.)</p>
+<p>Reading pages such as <a href="https://www.allaboutvision.com/digital-eye-strain/is-dark-mode-better-for-eyes/">this</a> explains that dark mode leads to pupils having to
+dilate more to let in more light, which there is less of with dark themes.</p>
+<p>This leads to, just like with cameras and any other optics with lenses and
+apertures, a shortened depth of field, and hence more difficulty focusing on
+the screen!</p>
+<p><a href="https://www.nngroup.com/articles/dark-mode/">This article by the well-known Nielsen Norman Group</a> nicely summarises research
+on this topic. In short:</p>
+<blockquote>
+<p>In people with normal vision (or corrected-to-normal vision), visual
+performance tends to be better with light mode, whereas some people with
+cataract and related disorders may perform better with dark mode.</p>
+</blockquote>
+<p>Up until recently, I did not experience a qualitative difference in vision
+between dark and light, but I sit here relieved that my eye-strain issue has
+been resolved by an Emacs theme!</p>
+<h2 id="know-how-to-put-down-your-work">Know how to put down your work</h2>
+<p>The following take from <a href="https://twitter.com/brandsrock/status/1426163442256330753">a recent tweet by mike joubert</a> struck me
+(tweet-take-strike! words are funny&hellip;):</p>
+<blockquote>
+<p>The truly valuable skill isn&rsquo;t the capacity to push yourself harder, but to
+stop and recuperate despite the discomfort of knowing that work remains
+unfinished, emails unanswered, other people&rsquo;s demands unfulfilled.</p>
+</blockquote>
+<p>The <a href="https://www.oliverburkeman.com/fourhours">article, titled <em>The three-or-four-hours rule for getting creative work
+done</em></a>, is itself a good read about the observation that creative types (amongst
+which I count engineers) have at their best three to four hours of focus time
+per day &mdash; so it is crucially important that their days are structured such
+that there is an <strong>uninterrupted</strong> block of three to four hours inside of which
+that lovely focus has the possibility of appearing.</p>
+<p>The tweet-extract focuses on the similarly important but more subtle art of
+being able to put one&rsquo;s work down, completely, when that block of time is over,
+even when it feels like the work is far from complete.</p>
+<p>I especially like that it also explicitly mentions the illusions created by
+one&rsquo;s perception of &ldquo;other people&rsquo;s demands&rdquo;, something that ironically becomes
+even harder to walk away from when one is more tired at the end of the work
+day.</p>
+<p>For me, becoming better at putting work down has pleasant echoes of running
+slower to run faster, of emptiness in art and more broadly, <a href="https://zenhabits.net/work-less/">choosing fewer f*cks
+to give</a>.</p>
+<h2 id="follow-your-blisters">Follow your blisters</h2>
+<p>On the topic of choosing your ducks&hellip;</p>
+<p>I initially did not like <a href="https://hbr.org/2020/11/what-you-should-follow-instead-of-your-passion">this HBR</a> post when it first crossed my stream, because
+it smacks a bit too much of the current social media style of &ldquo;wisdom&rdquo;, namely
+&ldquo;everything you need to know in 280 characters&rdquo;, or &ldquo;this 1 minute tiktok video
+will change your life&rdquo;.</p>
+<p>As if that was not enough, the title is pretty clickbaity: <em>What You Should
+Follow Instead of Your Passion</em>.</p>
+<p>However, the core message of the post, which I could not help reading, did
+stick with me, and after a few days I realised that I would have to go find the
+article again in order to talk about it here.</p>
+<p>The core message is to replace <em>find your passion</em> with <strong><em>Find your blisters.</em></strong></p>
+<p>The author&rsquo;s point is that folks often get the wrong idea with <em>passion</em> as
+something that is simply always delightful, whilst the thing you should
+actually be looking for, is that activity that you simply are unable to stop
+doing, even when you try, and especially even when you don&rsquo;t directly derive
+pleasure from it, for example because you feel that you&rsquo;re not that good at it.</p>
+<p>They give the personal example of writing.</p>
+<p>Although they&rsquo;ve been at it for years, it&rsquo;s still a difficult and laborious
+process, and they are often not happy with the results.</p>
+<p>However, they have been unable to stop from returning to writing projects again
+and again over the years.</p>
+<p>Ironically, even although they find that they are still bad at it, they have in
+fact become really good, simply because they have been pushing through and
+practising more than almost anyone else over the years.</p>
+<p>I really like this down-to-earth view.</p>
+<p>One can indeed source almost unlimited amounts of energy from one&rsquo;s &ldquo;blisters&rdquo;,
+but true benefits will for a large part be brought about by a <a href="/tags/practice/">lifetime of often
+challenging practice</a>.</p>
+
+
+
+
+
+
+
+
+<figure><a href="flowers_everywhere.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: A scene from our incredibly fortunately timed (thanks partner!) &amp;ldquo;blommetjieskyk&amp;rdquo; trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo."/> </a><figcaption>
+            <p>Figure 2: A scene from our incredibly fortunately timed (thanks partner!) &ldquo;blommetjieskyk&rdquo; trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item></channel></rss>

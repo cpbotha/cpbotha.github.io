@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>south africa on voices in my head</title><link>https://cpbotha.net/tags/south-africa/</link><description>Recent content in south africa on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 18 Feb 2018 20:45:08 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/south-africa/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #132: Potato deadline.</title><link>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</link><pubDate>Sun, 18 Feb 2018 20:45:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</guid><description> Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.
+We have a serious deadline coming up on Tuesday, so I’m going to make these few WHV minutes count.
+BULLET LIST TO THE RESCUE!
+Day zero has again been postponed, this time to June 4. We continue with our water saving efforts.
+That unexpected side-project I mentioned in last week’s post did end up going live that very night.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3247.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3247-1024x930.jpg"
+        
+            alt="Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x."/> </a><figcaption>
+            <p>Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.</p>
+        </figcaption>
+</figure>
+
+<p>We have a serious deadline coming up on Tuesday, so I’m going to make these few WHV minutes count.</p>
+<p>BULLET LIST TO THE RESCUE!</p>
+<ul>
+<li>
+<p>Day zero has again been <a href="https://mg.co.za/article/2018-02-13-day-zero-pushed-back-to-june-as-drought-declared-a-national-disaster/">postponed, this time to June 4</a>. We continue with our water saving efforts.</p>
+</li>
+<li>
+<p>That <a href="/2018/02/11/weekly-head-voices-131-function-over-form/#tool-belts-for-humanity">unexpected side-project I mentioned in last week’s post</a> did end up going live that very night. Armed with the Django Rest Framework and plenty of battle scars, it took about 17 hours from idea to fully deployed REST API, a large part of which was debugging the paper’s math and spreadsheets.</p>
+<ul>
+<li>Django might be a slow runner relative to some of the other kids on the block (go with any of its web frameworks, nginx with openresty (lua right in your web server!), even apistar with uvicorn), but the completeness and maturity of Django and its ginormous ecosystem are hard to beat when it comes to development velocity.</li>
+</ul>
+</li>
+<li>
+<p>There’s a <a href="http://takingnotenow.blogspot.co.za/">whole blog on the nature of note-taking</a>. I arrived there via <a href="https://github.com/rudolfochrist/interleave">interleave</a> and <a href="https://github.com/weirdNox/org-noter">org-noter</a>, both emacs packages for keeping text (orgmode) notes synchronised with PDFs, both found via <a href="http://irreal.org/blog/?p=6954">irreal</a>, a great Emacs blog.</p>
+</li>
+<li>
+<p>In the extra lessons I have with GOU#1, we studied electrical current from basic (atomic) principles. As I was getting all excited about the outer electrons being passed on from copper atom to copper atom (Khan Academy and I tag team these lessons), GOU#1 had to laugh at the goose flesh on my arms.</p>
+<ul>
+<li>The Khan Academy lecture seemed to imply that Benjamin Franklin started us down the not-quite-correct path of conventional current (from positive to negative), whereas the electrons being passed on imply current flow from negative to positive, aka electron current. However, <a href="https://physics.stackexchange.com/a/17131">this physics StackOverflow answer</a> more completely explains that current is defined as <em>the flow of electric charge</em>, with electron flow being one example, and hence both directions are correct.</li>
+</ul>
+</li>
+<li>
+<p>To be honest, I became ever so slightly irritated with an episode of one of my favourite podcasts, CPPCast, as the guest said “like” so often that I had trouble following what he was <em>actually</em> like trying to say. This like led me to using Google’s machine-learning-based speech to text API one night to like transcribe the audio of the podcast to speech so that I could like count the number of like utterances. There were not as many as I thought, but still a whole lot. If you’re curious as to the stats, I wrote everything up in <a href="https://vxlabs.com/2018/02/15/use-the-google-cloud-speech-api-to-transcribe-a-podcast/">this nerdy vxlabs blog post</a>.</p>
+<ul>
+<li>On the topic of note-taking: Because I make lab notes of everything in my Emacs, including late night speech recognition experiments, publishing a blog post is a question of some copy pasting, and then telling Emacs to publish to the blog.</li>
+</ul>
+</li>
+<li>
+<p>On Thursday, some dudes came to my house and, after somehow switching seamlessly from pick-axe to optic fibre splicer and back several times, left me with this (and more):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3241.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3241-1024x819.jpg"
+        
+            alt="Two fibre strands into my house. They tell me one is for backup."/> </a><figcaption>
+            <p>Two fibre strands into my house. They tell me one is for backup.</p>
+        </figcaption>
+</figure>
+</p>
+</li>
+<li>
+<p>These are strange Gibson-esque times when there’s now permanently a laser transmitting all of these packets to you via the network of glass strands encircling the Earth, whilst many of us are still struggling to grasp the difference between fact and fiction.</p>
+<ul>
+<li>“The future is already here — it’s just not very evenly distributed”, William Gibson, probably ’93.</li>
+</ul>
+</li>
+<li>
+<p>We have a new president: President <a href="https://en.wikipedia.org/wiki/Cyril_Ramaphosa">Cyril Ramaphosa!</a> He was Mandela’s choice to become president of this country, but it was Thabo’s turn, and then things went pear-shaped with Zuma. Years later, the situation is quite dire, but so far there are many indications that Ramaphosa has the makings of a great leader (I have become convinced that we humans, all of us, need great leaders to advance as humanity; I hope to write a post about that some day). After Friday’s state of the nation (SONA) address by present Ramaphosa, I, along with many fellow South Africans, are hopeful for our future.</p>
+</li>
+</ul>
+<p>Ok peeps, have a wonderful week! I’ll see you NEXT TIME!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #120: May you live in interesting times.</title><link>https://cpbotha.net/2017/04/02/weekly-head-voices-120-may-you-live-in-interesting-times/</link><pubDate>Sun, 02 Apr 2017 19:46:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/04/02/weekly-head-voices-120-may-you-live-in-interesting-times/</guid><description> (Warning: Due to the momentous events of the past week, this post is 80% South African politics. If this is not your thing, eject right before the large warning further down! Maybe next week we’ll be back to our usual programming, all depending on how above-mentioned momentous events play out.)
+Between all of the retinal excitement of the (gorgeous) new Justice League trailer and the release of the new Ghost in the Shell movie (pretty but soulless the reviews seem to be saying), you might have missed the new Valerian trailer.</description><content:encoded><![CDATA[ <p><em>(Warning: Due to the momentous events of the past week, this post is 80% South African politics. If this is not your thing, eject right before the large warning further down! Maybe next week we’ll be back to our usual programming, all depending on how above-mentioned momentous events play out.)</em></p>
+<p>Between all of the retinal excitement of the (gorgeous) new <a data-rel="lightbox-video-0" href="https://youtu.be/3cxixDgHUYw">Justice League trailer</a> and the release of the new Ghost in the Shell movie (pretty but soulless the reviews seem to be saying), you might have missed the new Valerian trailer.</p>
+<p>This would be a shame, because it looks mind-expandingly stunning:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/cPeqNTqZNN0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>On Tuesday, March 28, 2017, when I arrived home and Genetic Offspring Unit #3 (GOU#3 for short) saw me, she all-matter-of-factly stood up and <em>walked</em> towards me.</p>
+<p>My heart burst.</p>
+<h1 id="warning-whats-happening-in-sa-politics-at-the-moment-in-60-seconds">WARNING: What’s happening in SA politics at the moment, in 60 seconds.</h1>
+<p>One would think that one heart bursting per week is sufficient, but on Friday morning this happened again for unfortunately far less than positive reasons.</p>
+<p>We woke up to the news that our president <a href="https://www.theguardian.com/world/2017/mar/31/jacob-zuma-sacks-finance-minister-pravin-gordhan">Jacob Zuma had fired 9 ministers shortly before midnight</a>.</p>
+<p>Capable ministers, especially so Pravin Gordhan, the minister of finances (who was doing a great job trying to steer our fragile economy in the right direction, often opposing deals that were bad for the economy but great for the pockets of Zuma and his bosses, the Gupta brothers) were replaced with ministers who <em>might</em> indeed be capable, but have clearly been selected not for that but rather for their loyalty to the Zuma network.</p>
+<p>Amongst many other ramifications, this also means that the 1 trillion Rand nuclear deal with Russia is officially back on the table!</p>
+<p>This was one of the many unhealthy projects blocked by Pravin Gordhan.</p>
+<p>Besides <a href="https://businesstech.co.za/news/government/124993/zuma-the-guptas-and-south-africas-r1-trillion-nuclear-plans/">crippling our economy and enriching Zuma, his patronage network, and the Gupta brothers</a> (they seem to be pulling many of the strings, including those of Zuma), we really don’t need these power plants.</p>
+<p>Our country’s renewable energy programmes <a href="http://theconversation.com/zumas-cabinet-reshuffle-opens-the-door-for-nuclear-deal-in-south-africa-75553">will be able to supply all of our energy needs in a cost-effective way for decades to come</a>, without any new nuclear plants in sight, thank you very much.</p>
+<p>Nuclear power certainly has its place, but under these circumstances definitely not.</p>
+<p>This cabinet reshuffle is the most recent in a long line of increasingly destructive moves by president Zuma and his supporters. The country is still reeling from the billions of Rands that have been and are still being extorted from the poorest of citizens by a foreign company, <a href="https://www.dailymaverick.co.za/article/2017-03-16-amabhungane-social-grants-payment-crisis-everything-you-need-to-know-but-were-afraid-to-ask/">all right under the nose of minister Bathabile Dlamini</a>.</p>
+<p>Guess who did NOT get fired on Friday?</p>
+<p>Loyalty seems to be sufficient to cancel out any amount of malice, greed and/or incompetence.</p>
+<p>However, people in the know <a href="http://www.news24.com/Columnists/Mondli-Makhanya/how-zuma-fell-into-his-own-web-20170401">expect serious fireworks the coming weeks</a>.</p>
+<p>I am hoping that they are right, and that these will be the <em>right</em> sort of fireworks. With a bit of luck and the willingness of many good-hearted and talented people who have <a href="http://www.huffingtonpost.co.za/2017/04/01/kathrada-memorial-zuma-must-go-demands-crowds_a_22021430/">started speaking out and coming into action</a>, our country could soon find itself with the kind of leadership that it desperately needs.</p>
+<p>Keep your fingers crossed. I look forward to seeing you on the other side!</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #108: Gaga.</title><link>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</link><pubDate>Fri, 24 Jun 2016 21:55:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</guid><description> I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)
+Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</description><content:encoded><![CDATA[ <p>I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/06/IMG-20160526-WA0000.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/06/IMG-20160526-WA0000.jpg"
+        /> </a>
+</figure>
+
+<p>Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</p>
+<p>Genetic Offspring Unit (GOU) #3, the rapidly glowing cellular mega-city that first made contact with extra-wombular (I made that up) light slightly more than three months ago, suddenly started babbling a few weeks ago. To be honest, I thought that she was going to be really quiet to compensate for the immense amount of continuous talking in my house. It turns out that her reaction has instead been one of taking this bull by the horns. SHE WILL BE HEARD. (GOU#1 and #2 are able to produce speech with an intensity that is to be heard to be believed. I have no idea where they got that from.)</p>
+<p>Speaking of babbling, I sometimes make videos of me trying to explain nerdy programming-related tricks, and then I upload them to YouTube. My most recent creation is about using the conan.io C++ package manager to get a small SFML-based GLSL example going (that’s GPU programming). It has a soundless explosion at the end!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/RFjvz_Ppbv8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I came across a really interesting bit of research performed at the Vienna University of Economics and Business (WU) on how really small, seemingly inconsequential rewards, can actually ignite people’s intrinsic motivation. This is interesting exactly because it has long been thought that extrinsic rewards diminish intrinsic motivation, a phenomenon called the <a href="https://en.wikipedia.org/wiki/Overjustification_effect">overjustification effect</a>.</p>
+<p>In <a href="https://hbr.org/2016/06/even-tiny-rewards-can-motivate-people-to-go-the-extra-mile">the recent study by researchers at the WU</a>, students were encouraged to do extra homework assignments. However, this was done by allocating an amount of extra credit which was perceived by the students as being trivial (this was measured in a separate study). Lo and behold, this perceived trivial extra credit still jump-started that group’s extra assignment submissions, and the students in that group then showed evidence of autonomously (intrinsically) motivated behaviour.</p>
+<p>The researchers hypothesise that this could be due to the fact that the students being jump-started could not internally explain their behaviour on the basis of the negligible reward, and hence automatically came up with more intrinsically-oriented motivations, such as personal importance, interest or enjoyment).</p>
+<p>South Africa is a really strange and wonderful place. I don’t write about it that much, because in that respect it is my <em>place</em> to be quiet here in the background. However, sometimes someone else writes something that, if you’re interested in the perspective of South Africans who’ve lived abroad for a significant amount of time, and have then returned, somewhat the wiser, because the country in their blood called them back, you really should read. Disco Pants, or rather her blog, helped me a whole lot when we had to decide whether we would be coming back or not. She has a new post out titled <a href="https://discopantsblog.com/2016/06/06/on-surviving-the-madness-of-south-africa/">“On Surviving the Madness of South Africa”, and it’s a beaut</a>.</p>
+<p>On the topic of beauty, <a href="http://www.flumemusic.com/">Flume</a> has new album out. It’s called <em>Skin</em>, and it gets the highly coveted but completely unknown Weekly Head Voices Album of Right Now award! Here’s the first track to whet your appetite (or not):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7HKVvcNOQb0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Have a fun week listeners!</p>
+]]></content:encoded></item><item><title>What a country!</title><link>https://cpbotha.net/2015/05/23/what-a-country/</link><pubDate>Sat, 23 May 2015 13:35:29 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/05/23/what-a-country/</guid><description> Exactly ten minutes after having made a single discreet phone call, a truck arrives at one’s house with thousands of pieces of lovingly chopped braai wood. The amount of one’s choosing is then lovingly yet efficiently stacked right by the holy altar of meat scorching, after which the truck leaves on its next mission.
+(P.S. The wood is rooikrans.)</description><content:encoded><![CDATA[ <p>Exactly ten minutes after having made a single discreet phone call, a truck arrives at one’s house with thousands of pieces of lovingly chopped braai wood. The amount of one’s choosing is then lovingly yet efficiently stacked right by the holy altar of meat scorching, after which the truck leaves on its next mission.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/05/pretty_rooikrans_braai_wood.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/05/pretty_rooikrans_braai_wood-1024x576.jpg"
+        /> </a>
+</figure>
+
+<p>(P.S. The wood is <a href="http://www.wildcard.co.za/blog.htm?action=view-post&amp;id=2945">rooikrans</a>.)</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #77: A South African state of Mindful.</title><link>https://cpbotha.net/2014/07/16/a-south-african-state-of-mindful/</link><pubDate>Wed, 16 Jul 2014 17:57:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/07/16/a-south-african-state-of-mindful/</guid><description> I deliberately skipped a week, because it was one of those extremely taxing pre-vacation weeks during which I had several near-foetal-position-thumb-in-mouth-moments. Instead I’ll be writing about my vacation, with pictures, and a little bit of backyard philosophy.
+This post is being written in a speeding Toyota Quantum 10-seater minibus (yes, it looks exactly like a taxi, we are currently the king of the road). Don’t worry, my co-driver has taken over.</description><content:encoded><![CDATA[ <p>I deliberately skipped a week, because it was one of those extremely <em>taxing</em> pre-vacation weeks during which I had several near-foetal-position-thumb-in-mouth-moments. Instead I’ll be writing about my vacation, with pictures, and a little bit of backyard philosophy.</p>
+<p>This post is being written in a speeding Toyota Quantum 10-seater minibus (yes, it looks exactly like a taxi, we are currently the king of the road). Don’t worry, my co-driver has taken over. I’m not yet ready to attempt blogging whilst driving. (I do aspire.)</p>
+<p>In any case, the week started with us flying from Cape Town to Johannesburg, and then making our way in this same speeding minibus to the Skukuza gate of the <a href="http://www.sanparks.co.za/parks/kruger/">Kruger National Park</a>, henceforth KNP. (This park is about 19500 square kilometres, almost half the size of The Netherlands!)</p>
+<p>Due to a wrong turn-off (we blame the GPS), we spent an hour or two navigating pothole-riddled roads in pitch dark conditions in perhaps not the safest regions of my beloved country. It was one of those stressful but life-affirming experiences for which one is thankful but would prefer never having to repeat.</p>
+<p>We spent the rest of the week more or less in the wild, mostly at a game lodge directly adjacent to the KNP. It’s quite amazing what being surrounded by the bush and all kinds of wild animals does to one’s state of mind. One by one, all of the incoming streams of information and internal lines of busy-thought are put firmly in their place, in some cases switched off with resounding clicks, eventually turning really-really-busy-you into mindful you.</p>
+<p>Mindful you has time to think, and to focus. Related to this phenomenon, and partly due to it, there are two thoughts I would like to mention.</p>
+<p>However, first those promised pictures! I tried to make a representative selection from the few hundred photos that I took.</p>
+<div class="figure">
+<p>
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_elephant.jpg" title=""><img alt="" src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_elephant-300x225.jpg"/></a>
+</p>
+</div>
+<div class="figure">
+<p>
+<a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_rhino.jpg" title=""><img alt="" src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_rhino-300x225.jpg"/></a>
+</p>
+</div>
+<p>I guess there’s a reason they call it the <a href="http://en.wikipedia.org/wiki/Crocodile_River_(Mpumalanga)">Crocodile River</a>:</p>
+<div class="figure">
+<p>
+<a data-rel="lightbox-image-2" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_crocodiles1.jpg" title=""><img alt="" src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_crocodiles1-300x225.jpg"/></a>
+</p>
+</div>
+<p>After days of searching for them, we finally ran into five young male lions during an early morning drive. Much excitement between the rangers and in our car, with the lions just outside of touching distance. The ranger told us that they see the car as a non-threatening animal, and that somehow us pink and soft humans sitting inside are not interesting, in spite of the large (about lion-sized) open windows:</p>
+<div class="figure">
+<p>
+<a data-rel="lightbox-image-3" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_lion.jpg" title=""><img alt="" src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-mjejane_lion-300x225.jpg"/></a>
+</p>
+</div>
+<p>Finally, I was very lucky to catch this dramatic hippopotamus face-off. You knew they were huge, but did you know they could move this fast? Watch them chase each other and then face off, concurrently marking territory by, uhm, spraying faeces around with their little wagging tails. Fascinating!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/snrHHa7vnfU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Still with me?! Here are those two backyard philosophy(ish) thoughts I promised:</p>
+<h2 id="you-are-turning-into-a-cyborg">You are turning into a cyborg.</h2>
+<p>We are all slowly turning into cyborgs.</p>
+<p>We have our always-connected smartphones, our tablets, our laptops, and soon we will have heads-up displays always in front of our eyes (<a href="http://cpbotha.net/2009/10/18/futuristic-betting-at-visweek-2009/">I called it in 2009</a>, I think Google read my blog post). Probably due to our foraging nature and the accompanying neuro-chemistry, we find it incredibly hard to resist the call of email, of facebook, of twitter. <i>What if something new and interesting appears?</i> There’s a lovely dopamine shot waiting right there.</p>
+<p>On top of this empire of connected technology, we build intricate systems to keep track of our time, our responsibilities and all of the odd bits of information that we come across. Heaven forbid that we forget anything! We open up as many pathways to capture as much as possible of our environment.</p>
+<p>What happens when we are able to switch all of this off temporarily? Well, initially nothing much. Internally, business continues as usual. There’s no more incoming information, but our brains keep on going.</p>
+<p>However, after a while things start calming down. All of the little thoughts fall away, leaving the big and important ones. Life starts coalescing, becoming more integrated again. Because all of the little stones are temporarily out of the way, it seems that one is able to move the really big rocks. It’s a strange and exhilarating experience.</p>
+<p>So, busy-you makes way for mindful-you. Loads of small thoughts and some big ones make way for a few big ones.</p>
+<p>With this, I’m not saying that we should fight the cyborgs that we are becoming. I think we should embrace our future. We <i>need</i> to be more knowledgeable and more connected to our fellow humans. We <i>need</i> to integrate with our technology. I do wonder how we can unite all this with being more mindful.</p>
+<p>Is it possible to learn how to switch digital you on and off on demand?</p>
+<h2 id="south-africa-you-are-the-most-interesting-place-in-the-world">South Africa, you are the most interesting place in the world.</h2>
+<p>(to me)</p>
+<p>Before I left for Europe 14 years ago, I used to want South Africa to play more to its European influences, to <i>be</i> more European.</p>
+<p>In the years since then, I’ve had the pleasure to live in one of the prettiest little cities in The Netherlands, and to spend vacation time in Italy, in the south of Spain, in the south of France, in Greece and in Sardinia (technically Italy, but I mention it separately because it was that awesome). I’ve also had the pleasure to spend work time in Germany, Norway and Sweden. Altogether, this is a not too shabby sampling of Western Europe.</p>
+<p>What I’ve seen is beautiful, and it has been a superb growing experience making the connections between my European heritage and its various sources.</p>
+<p>Exploring these connections has also helped me to better understand the African influences that have partially formed me, and are the foundations of South Africa. Added to this, I’ve had the distinct privilege of being a tourist in my own country together with Dutch friends. This was perhaps the most acute eye opener. I’ve come to appreciate that Africanness of which I once thought that it should be moved slightly more to the background.</p>
+<p>So here I am now. SA is a fantastically interesting place. It’s a beautiful country, but, more relevantly, it’s currently in a huge state of flux. I’m happy to be able to play a small role in trying to redefine the strange little subculture that I belong to. I’m doing my best to connect more with fellow South Africans.</p>
+<p>I am optimistic that the country will be able to define its own voice; that it will integrate everyone, even its seemingly out of place European children, in a uniquely <i>South</i> African cocktail.</p>
+]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
+Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
+This seemed like an opportune moment to get something off my chest.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+<p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404-1024x576.jpg"
+        
+            alt="Ubuntu means “humanity to others”. It also means pretty desktop!"/> </a><figcaption>
+            <p>Ubuntu means “humanity to others”. It also means pretty desktop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</p>
+<h2 id="cost-to-the-national-economy">Cost to the national economy</h2>
+<p>Every year, I and a few million other South Africans pay a boat load of income and other taxes. Because in SA not everyone is able to pay tax, it is <i>especially</i> important that this money is used for the common good, for issues such as health-care, education and job creation.</p>
+<p>However, instead of using my hard-earned tax to stimulate local industry, the South African government is sending millions of rands, each and every year, to Microsoft, a fantastically rich company in the USA, a fantastically rich country in comparison to South Africa.</p>
+<p>The majority of government workstations absolutely don’t need MS Windows, MS Office or Outlook. The majority of government employees would be able to do their job (email, reports, spreadsheets, forms, use of web-apps) better and more securely using Linux.</p>
+<p>Furthermore, the use of Linux and open source software encourages the use of open standards for public documentation. In 2007, the SA government <a href="http://en.wikipedia.org/wiki/OpenDocument_adoption#South_Africa">officially standardised on the OpenDocument format</a>. However, MS Office use is still rife, and encourages people to use Microsoft’s own XML formats. Although MS standardised these in a bid to stay in the global government game, OpenDocument should be preferred, as it’s better supported by more free and open packages that are available to all citizens, not just those with money for MS Windows and MS Office.</p>
+<p>As an added but very important advantage, some of the considerable funds that would have been sent to the USA for MS licensing and support would then be injected into the local Linux support economy, stimulating local skills and creating more high-tech jobs.</p>
+<p>Don’t you find it strange that South Africa, a developing country, is sending that much money to the USA when better solutions exist? Don’t you too think that it would be great to have a thriving and more independent Linux-based operating system and application industry right here in SA?</p>
+<h2 id="personal-cost">Personal cost</h2>
+<p>I <a href="http://mygaming.co.za/news/news/46487-windows-8-versions-sa-pricing-detailed.html">just</a> checked, it looks like the cost for an OEM license of Windows 8 in SA is R1000. We want as many as possible South Africans to have access to computers and to have access to internet. You can get a cheap PC for R3000 to R4000. It really makes absolutely no sense to spend R1000 on Windows, when Linux would work perfectly well on that same PC hardware.</p>
+<p>It gets even more silly when you add in the price of MS Office. For 95% of personal users, packages like OpenOffice or LibreOffice, completely free and even open source, or Google Docs, not open but free, are more than sufficient.</p>
+<p>A part of the problem here is simply momentum. Because everyone is still using Microsoft products, everyone thinks that that’s what you need to have. Imagine that the government standardised on Linux, it would not take long before people would then evaluate this as a serious choice when acquiring a new PC.</p>
+<h2 id="security">Security</h2>
+<p>For the largest part due to Edward Snowden’s actions, and great journalism by The Guardian, it is now widely known (and much has been corroborated), that the NSA and other intelligence agencies around the world have been eavesdropping on everyone and everything.</p>
+<p>An important part of this practice, is the working relationships that these intelligence agencies have built up with software vendors around the world. When you run MS Windows or Mac OSX, or any other prioprietary software, you have absolutely no way of knowing, or checking, what your computer is doing with your information. It sounds like something from a spy movie, but <a href="http://arstechnica.com/security/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">the NSA works closely with Microsoft to be able to hack into computers running Windows</a>.</p>
+<p>In the case of personal use, this may not be such a problem, but in the case of the South African government and the whole corporate world, it’s slightly crazy that everyone is willing to take the risk that all of their information is being snooped on by cooperating intelligence agencies.</p>
+<p>With open source systems one can’t be 100% sure either, but one is able to check and modify and part of the system, at the source code level, that one is working on. Based on this openness, I have personally in the past programmed kernel drivers to support new hardware, and fixed low-level driver bugs. This was possible only because I have access to the source code of everything on my system.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
+<p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
+]]></content:encoded></item><item><title>On leaving the Netherlands</title><link>https://cpbotha.net/2013/12/14/on-leaving-the-netherlands/</link><pubDate>Sat, 14 Dec 2013 11:31:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/12/14/on-leaving-the-netherlands/</guid><description> Moving consists of leaving one place and going to another. This post is about the first part. It’s really not easy to write, but I would like for people to understand that the leaving part of this decision is one of the more difficult things I have ever had to do.
+So after 13 beautiful years in this great little country, we are leaving the Netherlands.
+Our life here has been exceptionally happy and fulfilling.</description><content:encoded><![CDATA[ <p><span style="line-height: 1.6;">Moving consists of </span><em style="line-height: 1.6;">leaving</em> <span style="line-height: 1.6;">one place and </span><em style="line-height: 1.6;">going to</em> <span style="line-height: 1.6;">another. This post is about the first part. It’s really not easy to write, but I would like for people to understand that the </span><em style="line-height: 1.6;">leaving</em> <span style="line-height: 1.6;">part of this decision is one of the more difficult things I have ever had to do.</span></p>
+<p>So after 13 beautiful years in this great little country, we are leaving the Netherlands.</p>
+<p>Our life here has been exceptionally happy and fulfilling. We’ve made many great friends, and even some best friends. Our children are super happy in their little lives. Hey, we made a little family!</p>
+<p>The single downside of the beautiful life that we’ve had here, is that <em>leaving</em> is complicated, and even a little painful.</p>
+<p>It’s complicated, because that’s the way it is when one has to move a whole household and wrap up 13 years of accumulated <em>stuff.</em> It’s complicated, because we’re moving in the wrong direction, away from our adopted country. We can’t leave a trace behind.</p>
+<p>It hurts, because we would love to stay with our friends here, but we have now made the choice to live far away.</p>
+<p>We actually have no good reasons to leave, while there are many reasons to stay. The thing is, our reasons for moving are all in the <em>going to</em> part.</p>
+<p>I think this might be a healthy perspective on moving. Unfortunately, but not unexpectedly, it’s just not the easiest.</p>
+<p><em>Dearest friends, thank you for the parties, for the laughter, for the warmth and for making us feel so at home. Thank you for being the kind of human beings that never stop striving to be more human.</em></p>
+<p><em>I would love to see you on the other side.</em></p>
+]]></content:encoded></item><item><title>Teaching InfoVis in Stellenbosch</title><link>https://cpbotha.net/2010/11/21/teaching-infovis-in-stellenbosch/</link><pubDate>Sun, 21 Nov 2010 11:42:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/11/21/teaching-infovis-in-stellenbosch/</guid><description> In week 40 (that’s Monday October 4 to Friday October 8 for those of you not so much into week numbers) I had the privilege of giving a week-long Information Visualisation course to a group of post-graduate students (a mix of B.A. Honours in either Socio-informatics or in Decision-making and Values Studies) at the Centre for KDD of the University of Stellenbosch in the building previously-known-as “The BJ”.
+With this post, I want to summarise, extremely compactly, my impressions:</description><content:encoded><![CDATA[ <p>In week 40 (that’s Monday October 4 to Friday October 8 for those of you not so much into week numbers) I had the privilege of giving a week-long Information Visualisation course to a group of post-graduate students (a mix of B.A. Honours in either Socio-informatics or in Decision-making and Values Studies) at the <a href="http://www.informatics.sun.ac.za/" title="Centre for KDD website">Centre for KDD</a> of the University of Stellenbosch in the building previously-known-as “The BJ”.</p>
+<p>With this post, I want to summarise, extremely compactly, my impressions:</p>
+<ul>
+<li>In spite of the odd publication at an InfoVis venue, and in spite of putting significant effort into broadening my horizons also into InfoVis, I’m strictly speaking still a Scientific Visualisation (SciVis) guy. In this context, developing and giving an InfoVis course was a fantastically educational experience. I aspire to be equally fluent in SciVis and InfoVis when I grow up.</li>
+<li>I designed a course based on a mix of lecturing, paper reading and discussion and hands-on exercises. I can now highly recommend this combination. Next time I will put more effort into involving everyone more actively in the discussion. What also seemed to work well was the course website that students could add their work to during class.</li>
+<li>I sourced almost all of my material from generous InfoVis colleagues, primarily Dr. Tamara Munzner, but also Dr. John Stasko, Prof.dr. Jarke van Wijk and Dr. Maneesh Agrawala. Thank you!</li>
+<li>Having spent 7 years at the Stellenbosch Engineering Faculty (1500 guys all wearing t-shirts in jeans; furthermore, social skills are frowned upon) and the past 10 years at the TU Delft, a kind of Ultra-Engineering-Faculty, spending the week at The BJ interacting with socially adept and skilled communicators was a truly interesting experience.</li>
+<li>I was otherwise also impressed with the level of cooperation between the students and their willingness to work hard (and long).</li>
+<li>Laptop-use during lectures in a relatively small class: It’s an interesting phenomenon, having to deal with your own little <a href="http://mariandoerk.de/visualbackchannel/" title="visual backchannel paper at infovis 2010">communication backchannel</a>. Banning laptop use is obviously not an option as there are too many possible advantages, but I’m not sure yet what a good solution would be towards making sure that the laptops are being used to augment learning.</li>
+<li>Most students chose <a href="http://vis.stanford.edu/protovis/" title="ProtoVis website">ProtoVis</a> (from <a href="http://stbvis2010.medvis.org/syllabus/p-infovis-design" title="list of software toolkits stbvis2010 students could use">a list of 8 possibilities</a>, and they were free to use anything else too) to implement their final mini-projects with. This was probably due to their previous web-programming experience, and also that ProtoVis requires more or less zero setup.</li>
+</ul>
+<p>Conclusion: Much learned, hopefully the students did too. :) All in all a positive and energising experience!</p>
+]]></content:encoded></item></channel></rss>

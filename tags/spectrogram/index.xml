@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>spectrogram on voices in my head</title><link>https://cpbotha.net/tags/spectrogram/</link><description>Recent content in spectrogram on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 11 Sep 2018 20:17:27 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/spectrogram/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #153: pH &lt; 7 dreams.</title><link>https://cpbotha.net/2018/09/11/weekly-head-voices-153/</link><pubDate>Tue, 11 Sep 2018 20:17:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/09/11/weekly-head-voices-153/</guid><description> Looking back at the week from Monday September 3 to Sunday September 9, I present to you the following memories and after-effects.
+Aphex Twin never left us I serendipitously ran into T69 Collapse, the brand new track and video by Aphex Twin.
+In the grand tradition of WHV intro art, I have embedded the video above.
+Whether you’re a fan or not, I think it’s worth sitting through this one, preferably with the headphones and the video in full screen.</description><content:encoded><![CDATA[ <div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/SqayDnQ2wmw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Looking back at the week from Monday September 3 to Sunday September 9, I present to you the following memories and after-effects.</p>
+<h1 id="aphex-twin-never-left-us">Aphex Twin never left us</h1>
+<p>I serendipitously ran into T69 Collapse, the brand new track and video by Aphex Twin.</p>
+<p>In the grand tradition of WHV intro art, I have embedded the video above.</p>
+<p>Whether you’re a fan or not, I think it’s worth sitting through this one, preferably with the headphones and the video in full screen.</p>
+<p>Pro-tip: This is not one of those tracks where the whole thing can be more or less predicted by viewing the first minute. There’s a thing at 1:55 and a second thing at 3:14.</p>
+<p>I had to wonder whether the <a href="https://en.wikipedia.org/wiki/Matthew_3:14">3:14</a> was intentional. We’re not much into our biblical references over here as you might know, but you have to recall that Aphex Twin is the guy who, already back in 1999, hid his face in the spectrogram of a music track called:</p>
+<p>\[\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\]</p>
+<p>That&rsquo;s the actual name of the track (#2 on the famous <a href="https://en.wikipedia.org/wiki/Windowlicker">Windowlicker EP</a>), although most people (plebs!) refer  to it as just <em>Function</em> or <em>Equation</em>. I got sucked down that rabbit hole last night, but no-one on the internet seems to know the true meaning of the equation. Please ask RDJ if you ever run into him.</p>
+<p>Anyways, I have embedded \(\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\) below for your listening and viewing pleasure. Aphex Twin’s face appears at 5:30.</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/M9xMuPWAZW8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<h1 id="apfs-encryption-vs-samsung-hardware-encryption-effective-ssd-speed">APFS encryption vs Samsung hardware encryption effective SSD speed</h1>
+<p>I ran benchmarks on my external Samsung T3 SSD comparing the speed of encrypted APFS to unencrypted APFS with Samsung’s hardware-based full disk encryption.</p>
+<p>I used <a href="http://www.katsurashareware.com/pgs/adm.html">AmorphousDiskMark</a>, <a href="https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12">BlackMagic Disk Speed Test</a> and plain old iostat whilst copying 30GB of files to and from the disk.</p>
+<p>There will probably soon be a detailed blog post over on vxlabs.com about this, but I’ll give you the skinny here:</p>
+<ul>
+<li>It’s hard to get benchmarks right. BlackMagic gave wildly varying results depending on how many times I let it run its benchmark for example.</li>
+<li>APFS’s software encryption looks like it causes a performance hit ranging from 5 to about 10%, with outliers in both directions.</li>
+<li>Emacs can calculate over columns of data, for example from iostat’s standard out, using a simple <code>M-x calc-grab-from-rectangle</code> and <code>M-x calc-vector-mean</code>.</li>
+</ul>
+<h1 id="brave-browser-and-the-basic-attention-token-bat-this-could-be-big-or-not-its-at-least-interesting">Brave browser and the Basic Attention Token (BAT): This could be big. Or not. It’s at least interesting.</h1>
+<p><a href="https://brave.com">Brave</a> is a new(ish) browser also based on the Chrome engine.</p>
+<p>I knew they were doing something with cryptocurrency, and paying or getting paid for the consumption of content and/or advertising, but I was, as you can see, quite vague on the details.</p>
+<p>What I learned last week taking it for a quick spin is the following:</p>
+<p>Brave out of the box is massively privacy-focused. Without installing any plugins, it blocks every single advertisement and tracking cookie known to humankind. It also automatically switches to secure SSL wherever that’s possible.</p>
+<p>More interestingly, in Brave you can opt in to “<a href="https://brave.com/publishers/">Brave Payments</a>“, which looks like it might soon be renamed to Brave Rewards, but don’t quote me on that.</p>
+<p>One part of this system, is that you as a user contribute a set amount of BAT tokens (these are tokens on the ethereum chain) per month. At the end of each month, Brave will pay out your tokens to the websites that you visited, based on the amount of time you spend on each site.</p>
+<p>In this way, publishers can get recompensed for their content in hard cash, without having to resort to advertising. (It does look like Brave also supports the model where advertisers can pay, in BAT tokens of course, for your eyeball time.)</p>
+<p>Brave already has 4 million monthly active users (MAU).</p>
+<p>If they’re able to grow this user base, and get a significant portion to participate in the payment system, this could be a game changer. Imagine being able to pay your favourite content creators in this seamless way, and being able to switch off ads in  the process!</p>
+<h1 id="runalyze-where-have-you-been-all-my-life">RunAlyze where have you been all my life?</h1>
+<p>I publish my runs to Strava, as I have a bunch of friends there, and I like the idea of a social network where you have pay with a bucket of sweat before you’re allowed to say <em>anything</em>.</p>
+<p>However, I was also relying on Strava to keep track of my shoe mileage. Recently, it started losing the miles I put on my Xero Genesis sandals (the most unforgiving shoes in the universe), and I was not able to coax the system into correctly tracking those terrible, terrible kilometres.</p>
+<p>Because I use HealthFit to push my data to Strava, I took a look at some of its other endpoints and then, again extremely serendipitously, ran into:</p>
+<p><a href="https://blog.runalyze.com">RUNALYZE</a></p>
+<p>It’s a site made by two running nerds (and it <strong>really</strong> shows) from Germany.</p>
+<p>It keeps track of my shoes (the goal of this… <em>exercise</em>, bad pun, sorry) but the authors have also implemented a bunch of metrics from academic papers, some metrics of their own, and they show tables of your data sliced and diced in many different ways ON ALL FOUR WALLS of their website.</p>
+<p>&lt;Dr Evil voice&gt;It’s breathtaking.&lt;/Dr Evil voice&gt;</p>
+<p>Anyways, if you’re a running nerd too, you should probably take a peek.</p>
+<h1 id="fin">Fin</h1>
+<p>See you soon brothers and sisters. I am grateful for our time together.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

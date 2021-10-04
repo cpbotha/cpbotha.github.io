@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>happiness on voices in my head</title><link>https://cpbotha.net/tags/happiness/</link><description>Recent content in happiness on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 27 Jul 2021 21:26:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/happiness/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #229: Staycation PERMA-Station</title><link>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</link><pubDate>Tue, 27 Jul 2021 21:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</guid><description> Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)
+This edition of the WHV looks back at the week from Monday July 19 to Sunday July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving of the hallowed title of&amp;hellip; STAYCATION!
+Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at home or close to it.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="bettys_jocks.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)"/> </a><figcaption>
+            <p>Figure 1: A scene from a short but surprisingly balmy weekend in Betty&rsquo;s Bay (In Winter, a large part of Betty&rsquo;s remains permanently in the shadow of the mountain.)</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV looks back at the week from Monday July 19 to Sunday
+July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving
+of the hallowed title of&hellip; <em>STAYCATION!</em></p>
+<p>Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at
+home or close to it.</p>
+<p>We spent time together, took care of hobby- and side-projects, and even had
+time to daydream and come up with some wacky ideas which should probably never
+see the light of day, but which one day just might.</p>
+<h2 id="lazar-focus-1-dot-3-released">Lazar Focus 1.3 released</h2>
+<p>On the evening of Tuesday, July 20, after a flurry of programming and testing,
+<a href="https://lazarfocused.com/2021/07/21/lazar-focus-1.3.0-released-real-time-focus-feedback/">Lazar Focus 1.3 was released</a>.</p>
+<p>Noteworthy is its new ability to measure and give real-time feedback on your
+current focus, as an easy to interpret percentage.</p>
+<p>The more you resist distractions, the higher the focus percentage.</p>
+<p>When developing this feature, I ended up selecting a 5 minute rolling window,
+after I was initially planning a pomodoro length. Five minutes seem to be a
+sort of sweet spot in terms of seeing one&rsquo;s distractions affect one&rsquo;s score,
+but not having it immediately distroyed, so that there&rsquo;s still time to recover.</p>
+<p>I wanted to mention here the interesting disconnect between the programming I
+do for this completely disconnected hobby project in a language (Pascal-ish)
+that I don&rsquo;t particularly prefer but don&rsquo;t mind on the one hand, and my day
+job, for which I sometimes still get to program, on the other.</p>
+<h2 id="perma-the-five-building-blocks-of-well-being">PERMA: The five building blocks of well-being</h2>
+<p>So yeah, there&rsquo;s a pretty interesting disconnect&hellip;</p>
+<p>Writing code for LF, in this case perhaps perhaps noteworthy the real-time
+focus tracking data-structure, namely a run-length encoded series of (no)focus
+time durations that automatically get truncated, lengthened and pruned as time
+progresses, was 100% fun and relaxation.</p>
+<p>This is not the most tricky thing to implement, but the process of first
+cooking it up in my brain, and then later sitting down to implement it, and
+seeing it work, was just challenging enough to result in several periods of
+complete immersion in, or engagement with, the task.</p>
+<p>In <a href="https://www.amazon.com/Flourish-Visionary-Understanding-Happiness-Well-being/dp/1439190763/ref=sr%5F1%5F6?dchild=1&amp;qid=1627409990&amp;refinements=p%5F27%3AMartin+Seligman&amp;s=books&amp;sr=1-6">Martin Seligman&rsquo;s book titled <em>Flourish</em></a>, which I&rsquo;m slowly working through
+at the moment (he is a great and impactful psychologist, but perhaps not the
+world&rsquo;s greatest story teller, sorry Prof Seligman), he explains that human
+<a href="https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops">well-being, or flourishing, consists of five building blocks, namely</a>:</p>
+<ol>
+<li>Positive Emotion: gratitude, savouring the present, hope and optimism,</li>
+<li>Engagement: Lose oneself in a challenging (err) task,</li>
+<li>Relationships: Love and be loved by friends and family,</li>
+<li>Meaning: belonging to and serving some cause greater than oneself and</li>
+<li>Accomplishment: Pursuing achievement and mastery for its own sake.</li>
+</ol>
+<p>My little LF programming exercise was <em>exactly</em> right for triggering a bit of
+item number 2, namely engagement.</p>
+<p>I am happy that I could slip a little PERMA in here on the back of Lazar Focus,
+a little tool that is also proving useful in ways that I did not expect. ;)
+Although the book is not the easiest going, it makes some valuable points if
+you too are a fan of well-being.</p>
+<h2 id="pfizer-jab-1-in-da-pocket">Pfizer jab #1 IN DA POCKET</h2>
+<p>I really loves me some cutting edge science.</p>
+<p>I know that the mRNA vaccines have been in development for decades now, but
+they still represent such an amazing technological flex.</p>
+<p>How fantastic is it that some of our cleverest humans have designed and tested
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html">this vaccine that consists of usually unstable mRNA</a>, to be injected into human
+cells where our the cellular machinery in our bodies will dutifully follow the
+mRNA instructions to frikking synthesise and display a piece of spike protein
+that looks enough like the COVID-19 spike protein so that our immune system
+will notice and immediately start creating antibodies, all without us actually
+getting infected.</p>
+<p>As if that&rsquo;s not enough, the introduced mRNA is broken down ASAP after
+synthesis.</p>
+<p>HOT DAMN we live in the future and it&rsquo;s pretty awesome up here!</p>
+<p>I AM EXCITE</p>
+<p>I am also really happy with the super efficient walk-in vaccination procedure at the Town Hall here in Somerset West.</p>
+<p>I would have been in and out in 30 minutes with Pfizer jab #1 had I not run
+into and started chatting with friends in the side-effect waiting area.</p>
+<p>Kudos to the Western Cape for running this like the Star Trek medical bay.</p>
+<p>Still friends, how strange are the days that we find ourselves in?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #141: Albert was Burning really hard.</title><link>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</link><pubDate>Wed, 09 May 2018 21:11:35 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</guid><description> Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz.
+As we were walking back from the ice truck to the BURNIVERSITY, our home away from home, one of our newly-made Canadian friends said:
+Albert is burning really hard.
+Albert (name subtly changed to protect the innocent), who by that time had presented his first improv theater workshop at our camp, had struck me as a brilliant and already open-minded human being.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/afrikaburn2018-clan-orb.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/afrikaburn2018-clan-orb-1024x636.jpg"
+        
+            alt="Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz."/> </a><figcaption>
+            <p>Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz.</p>
+        </figcaption>
+</figure>
+
+<p>As we were walking back from the ice truck to the BURNIVERSITY, our home away from home, one of our newly-made Canadian friends said:</p>
+<blockquote>
+<p>Albert is burning <strong>really</strong> hard.</p>
+</blockquote>
+<p>Albert (name subtly changed to protect the innocent), who by that time had presented his first improv theater workshop at our camp, had struck me as a brilliant and already open-minded human being.</p>
+<p>To me it was surprising that he required any burning, let alone burning of that intensity.</p>
+<p>The last week of April was overflowing with more lessons.</p>
+<p>I learned that even when I try my best because I am at the Burn, I am unable to take part in a kundalini awakening. I am sorry. Science has seeped too far into my atoms.</p>
+<p>I learned that running in the desert is even more amazing than my wildest expectations.</p>
+<p>I spent the whole week in my sandals. Besides the “official” runs, I broke into spontaneous running multiple times per day.</p>
+<p>We ran a lot.</p>
+<p>We learned (again) that people respond superbly to being encouraged to learn together in the desert. The BURNIVERSITY saw many burners pass through its hallowed halls, both as students and as teachers.</p>
+<p>I learned (again) that modern humans yearn for disconnection and focus now and then. I could see their eyes light up as they realised the implications of successfully eating an expensive chocolate with mindful attention, direct experience mode fully activated.</p>
+<p>We learned that people yearn even more to <em>understand</em> happiness. It was clear that BFAM’s workshop on the (neuro-)scientific basis of happiness hit home, quite hard, in spite of its unavoidable information density.</p>
+<p>I learned that our yoga teacher was in fact able to radiate even more serenity than she already did last year. Students leaving her class every morning <em>glowed</em>. Yes, <em>glowed</em>.</p>
+<p>We learned that you can come back more healthy from the burn than when you started. Eat like royalty (thank you D and H, it was amazing to see you create together), do yoga, meditation and exercise every day, <em>connect</em> with other humans and get your sleep every night. The eternal party is just one of the many facets of the Burn, and should be treated as such.</p>
+<p>Maintain balance.</p>
+<p>We learned that it is indeed possible to squeeze so much disconnected experience into a single week that it starts feeling like a micro-lifetime.</p>
+<p>Thank you friends for making all of this happen.</p>
+<h1 id="footnotes">Footnotes</h1>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/ab2018_footnote.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/ab2018_footnote-1024x498.jpg"
+        /> </a>
+</figure>
+
+]]></content:encoded></item><item><title>Weekly Head Voices #125: Buddy.</title><link>https://cpbotha.net/2017/09/05/weekly-head-voices-125/</link><pubDate>Tue, 05 Sep 2017 20:45:58 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/09/05/weekly-head-voices-125/</guid><description> Monday, July 30 to Sunday, September 3, 2017.
+(This post has turned into a huge ramble. It starts with parking, makes a quick visit to Yurp, buys a new laptop, compulsively measures time to try and increase quality of life, and then bounces like a hyperactive pinball between a book, a video and a blog post, all three about either not being special, not being happy or both. ENJOY!)
+Parking Because I would prefer that you perceive the time that you invest in reading these posts as time also usefully spent, allow me to start with a visual exposition of the pleasantly straight-forward geometry of parallel parking.</description><content:encoded><![CDATA[ <p>Monday, July 30 to Sunday, September 3, 2017.</p>
+<p>(This post has turned into a huge ramble. It starts with parking, makes a quick visit to Yurp, buys a new laptop, compulsively measures time to try and increase quality of life, and then bounces like a hyperactive pinball between a book, a video and a blog post, all three about either not being special, not being happy or both. ENJOY!)</p>
+<h2 id="parking">Parking</h2>
+<p>Because I would prefer that you perceive the time that you invest in reading these posts as time also usefully spent, allow me to start with a visual exposition of the pleasantly straight-forward <strong>geometry of parallel parking</strong>.</p>
+<p>In other words, if you&rsquo;re like me and your parallel parking performance could do with some improvement (mine oscillates between “I am the best parallel parker in the world, wheels perfectly aligned 5mm from the pavement” and “ABORT ABORT!! Oh well, we will find parking another day.”), the following animation might be of assistance:</p>
+<blockquote class="imgur-embed-pub" data-id="2g5Bzi9" lang="en"><a href="//imgur.com/2g5Bzi9">Parallel Parking</a></blockquote><script async="" charset="utf-8" src="//s.imgur.com/min/embed.js"></script>
+<h2 id="yurp">Yurp</h2>
+<p>In an astonishingly fortunate confluence of events, I ended up again in <strong>my other home country</strong>. Although time was short, business was executed, and a great deal of highly concentrated joy was artfully squeezed from every minute.</p>
+<p>Thank you Dutch family. I hope to see you again soon!</p>
+<h2 id="new-laptop">New laptop</h2>
+<p>Back home, it was time for me to add another life year to my steadily growing collection.</p>
+<p>My <a href="https://vxlabs.com/">gracious employer</a> thought that the big day was an as good moment as any to equip me with a <strong>brand new work machine</strong>.</p>
+<p>Up to then, I had been working on all of three different machines: <a href="/2015/02/15/meepz97-i-haz-a-new-computar-machine/">Linux-running i7 desktop</a> (acquired in Feb of 2015), <a href="/2015/06/14/weekly-head-voices-91-theyre-back/">early 2015 13″ retina MacBook Pro</a> (acquired in June of 2015) and my <a href="https://vxlabs.com/2013/03/24/acer-v3-571g-fullhd-ips-superb-priceperformance-linux-development-laptop/">trusty old klunky i7 Acer Linux-running laptop</a> (acquired around March 2013).</p>
+<p>Data is kept in sync, but context switching between different projects with different development environments on different machines at home and at work does seem to take up more time than I would care to admit.</p>
+<p>Having everything on a single <em>powerful</em>-enough laptop would indeed make the most sense from a time-efficiency perspective.</p>
+<p>I&rsquo;m typing on the thing now. The keyboard&rsquo;s second-generation butterfly switches do take a little getting used to, but I believe I may have been converted.</p>
+<p>Importantly, I&rsquo;ve already started seeing the advantages of always having all my work (and all my computer-based hobby-related toys) with me. No more context-switching means more time available for what happens between the switches.</p>
+<p>(My more nerdily inclined readers, you can probably guess exactly which laptop this is. Ask me in the comments why this and not the alternatives!)</p>
+<h2 id="measure-all-the-things">Measure all the things</h2>
+<p>On the topic of <strong>time efficiency</strong>, in an attempt to better understand what I was doing with my free time, and how exactly I was spending time at work, I put in some extra effort <strong>to record more accurately every minute of my time awake</strong>. I dream about being able to squeeze out more value from each day by being able to measure and review.</p>
+<p>This is an extension to establishing a <a href="/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/">cadence of accountability for deep work</a>, where one looks not only at deep work performed, but general value contributed and derived.</p>
+<p>Watching SNL or College Humor clips on YouTube is fun, but can&rsquo;t really be considered high value. In terms of R&amp;R, reading a book, writing a blog post, learning something new and spending time with your family are all of high value.</p>
+<p>Recording time like this does seem ever so slightly OCDish, but it was really for science, and mostly for evolution (see <a href="/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/">rule #3 of <em>WHV’s Two Rules for Achieving Great Success in Life, or Just Surviving, Whichever Comes First</em></a>).</p>
+<p>I did only manage to keep it up for slightly over two weeks.</p>
+<p>What was interesting, was that the act of having to specify and record each block of time forced me to be much more <em>deliberate</em> about everything I did.</p>
+<p>All of a sudden, even goofing off could only happen if I explicitly spent time deciding that goofing off was really justified. Furthermore, the fact that I knew exactly how many minutes I was goofing off, tended to keep these distractions short.</p>
+<p>The problem with this experiment quite unsurprisingly turned out to be the overhead of mechanically having to record every minute. That being said, I think the availability of a practical, highly private and practical mechanism (unlike the one I tried) for the real-time and aggregated measurement and reporting of “time value” could be a substantial help in the continuous optimisation of one&rsquo;s days.</p>
+<h2 id="happy-not-happy">Happy not happy</h2>
+<p>On the topic of quality of life, I recently read <a href="https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713"><em>The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life</em> by Mark Manson</a>. I was involuntarily eye-rolling quite regularly through the first 3/4 of the book, but by that time either Manson had just worn me down, or his writing had in fact greatly improved.</p>
+<p>Whatever the case may be, I think the message is an important one, especially for young(er) people: You&rsquo;re not special, so make peace with that as soon as you can. Accept that life is really just a series of problems that you have to solve, so at least pick the interesting ones. <strong>You probably won&rsquo;t ever be happy or content for more than a few moments</strong> (<a href="/2011/04/07/happinessexception-weekly-head-voices-44/">sounds familiar, doesn&rsquo;t it?</a>) because that&rsquo;s quite logically been evolved out of us. Pick the few things that you really care about, and commit to them.</p>
+<p><a href="https://sivers.org">Derek Sivers</a>, himself no slouch when it comes to modern survival, summarises the book with:</p>
+<blockquote>
+<p>The opposite of every other book. Don’t try. Give up. Be wrong. Lower your standards. Stop believing in yourself. Follow the pain. Each point is profoundly true, useful, and more powerful than the usual positivity. Succinct but surprisingly deep, I read it in one night.</p>
+</blockquote>
+<p>(Interestingly, the first of the four noble truths of <strong>Buddhism</strong> is that <strong>life is suffering</strong>. “Human beings are subject to desires and cravings, but even when we are able to satisfy these desires, the satisfaction is only temporary. Pleasure does not last; or if it does, it becomes monotonous.” see <a href="http://www.bbc.co.uk/religion/religions/buddhism/beliefs/fournobletruths_1.shtml">this BBC entry</a> for more happy thoughts about Buddhism. In fact-checking my summary up above, I just saw in Manson&rsquo;s book that he does in fact explicitly tell the story of Buddha, in chapter 2 already. Doh.)</p>
+<p>On the topic of not being special, I recently stumbled upon this interview with Simon Sinek. It&rsquo;s all about the phenomenon of millenials in the workplace. Many of us around here (hey, we read long form blogs, this means we&rsquo;re probably old-school) don&rsquo;t classify as millenials, but the points Sinek makes about the role of old-school patience and focus in the work-place as opposed to the millenial-era instant gratification attention economy resonated with me.</p>
+<p>Also, we&rsquo;re still not special. :)</p>
+<p>Try and make time for the first 3 to 4 minutes of the video. That&rsquo;s what
+I did, because I&rsquo;m not a millenial and I don&rsquo;t like watching
+YouTube videos of what could have been blog posts, but then I just had to
+finish the whole 18 minutes (dangit youtube! video was pulled so I had to
+replace with 15 minute version on 2019-04-16:</p>
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/hER0Qp6QJNU" width="560"></iframe>
+<p>It would be remiss of me not to mention Wait but Why&rsquo;s brilliant and complementary exposition of <a href="https://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html">Why Generation Y Yuppies Are Unhappy</a>.</p>
+<p>Whatever shall we do with this information?</p>
+<p>We&rsquo;re not special (phew, that&rsquo;s a weight off one&rsquo;s shoulders!), and we can&rsquo;t ever attain more than fleeting happiness or contentment.</p>
+<p>What we <em>can</em> do is to make peace, and to savour with wide open senses the fractal infinity hidden in the moments that we are blessed with.</p>
+<p>P.S. Buddha also had a <a href="http://www.bbc.co.uk/religion/religions/buddhism/beliefs/fournobletruths_1.shtml">number of great tips</a>.</p>
+<p>P.P.S. During the night I started worrying that readers, especially my mom (hi mom!), might think that I&rsquo;m unhappy, and that this post is a cry for help. I would like to assure you all that I&rsquo;m currently enjoying life more than ever before, at least as far as my failing old memory is concerned. I can personally vouch for the making-peace-and-savouring-moments approach.</p>
+<p>P.P.P.S. Statistically, <a href="https://www.washingtonpost.com/news/wonk/wp/2017/08/24/under-50-you-still-havent-hit-rock-bottom-happiness-wise/">humans hit happiness rock bottom</a> at around about 50, see the u-shaped graph below (thanks <a href="http://francoismalan.com">FM</a> for sending). A number of us are hiding here in the we&rsquo;ve-made-our-peace-thanks-for-all-the-fish long tails of the distribution, where we plan to ride this one out. Join us!</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://www.washingtonpost.com/news/wonk/wp/2017/08/24/under-50-you-still-havent-hit-rock-bottom-happiness-wise/">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/09/wapo-happy-graph.jpg"
+        /> </a>
+</figure>
+
+]]></content:encoded></item><item><title>Weekly Head Voices #124: Ceci n’est pas d’ennui.</title><link>https://cpbotha.net/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/</link><pubDate>Sun, 30 Jul 2017 12:16:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/</guid><description> This edition of the Weekly Head Voices is a retrospective of the period from Monday June 26 to Sunday July 30, where with weekly I mean regular(ish), which is still better than absent. :)
+We spent the first week of July about 100km to the south of Durban.
+It was an epic winter break-away with the conditions so summery that we forgot that it’s technically speaking the middle of winter. Down to the beach every day, balmy evenings spent outside, brilliant runs through the KwaZulu-Natal hills and a holiday destination that has mastered the arts of happy-children-happy-parental-units all contributed to a brilliant week.</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices is a retrospective of the period from Monday June 26 to Sunday July 30, where with <em>weekly</em> I mean <em>regular(ish)</em>, which is still better than <em>absent</em>. :)</p>
+<p>We spent the first week of July about 100km to the south of Durban.</p>
+<p>It was an epic winter break-away with the conditions so summery that we forgot that it’s technically speaking the middle of winter. Down to the beach every day, balmy evenings spent outside, brilliant runs through the KwaZulu-Natal hills and a holiday destination that has mastered the arts of happy-children-happy-parental-units all contributed to a brilliant week.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/07/IMG_0476.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/07/IMG_0476-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>On the way back to the airport, we squeezed in a visit to uShaka Marine World, where we visited the dolphins, the aquarium and I joined the two oldest genetic offspring units <a href="https://www.chimpandzee.co.za/ushaka/">zip-lining all over the water park</a>.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/07/IMG_0720.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/07/IMG_0720-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>The week after it was off to The Hague for mostly work and a few maximally cromulent social sessions with my besties.</p>
+<p>Plans were made. Philosophical discussions were had. Fortunately, no planes were missed.</p>
+<p>During all of this, <a href="http://openserve.co.za/open/">OpenServe’s elves</a> were busy digging up my neighbourhood installing these magical green <a href="https://en.wikipedia.org/wiki/Series_of_tubes">tubes</a> everywhere. They’re magical because soon they will be filled with super thin glass fiber, and then lit up with lovely lovely internet.</p>
+<p>I really can’t wait.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/07/IMG_0821-2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/07/IMG_0821-2-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>On the evening before taking chances but not missing my flight home, the conversation spent a good amount of time on the topics of happiness, contentment and life goals.</p>
+<p>As a reader of this blog, you will know by now that we’re not big fans of happiness. See the last bit of <a href="/2011/04/07/happinessexception-weekly-head-voices-44/">Weekly Head Voices #44</a> (6+ years ago…) which has what I think is a good summary of why we are not.</p>
+<p>On the other hand, we have always thought that <em>contentment</em> is perhaps a more practical state to try and work towards.</p>
+<p>There are however those who <a href="https://www.theguardian.com/commentisfree/2016/aug/17/psychology-happiness-contentment-humans-aspire-goals-accomplish-evolution">make the logical argument</a> that contentment has been evolved out of us a long time ago, and that we are thus doomed never to find contentment for more than a few moments.</p>
+<p>In <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">WHV #64</a>, following an old tradition of hiding backyard philosophy in arb blog posts, I suggested side-stepping the issue by not focusing on life goals, which are in essence a sort of end point which will invariably lead to post-achievement ennui, but instead focusing on setting and following a certain direction.</p>
+<p>Life directions don’t have to have endpoints, but they can have waypoints. The difference is that you know that these are waypoints, and you accept that the journey continues until it finally stops forever.</p>
+<p>Whatever the case may be, the conversation motivated me to start a new search for more scientifically-oriented literature on the topics of human happiness, contentment, life goals and so forth.</p>
+<p>Up to now my search has not turned up very much. In a surprising turn of events, it seems that there is no shortage of people who are willing to sell you the literature-equivalent of snake-oil, in some cases knowingly but in most cases utterly oblivious.</p>
+<p>Somewhere else during this same evening (it was a productive night), we provisionally added a third rule to the <em>WHV’s Two Rules for Achieving Great Success in Life, or Just Surviving, Whichever Comes First</em>.</p>
+<p>The rules are now: 1. Be useful. 2. Be likeable. 3. Evolve.</p>
+<p>I have been using rules 1 and 2 of the hitherto bi-ruled WHV’s TRAGSL-JS-WCF (pronounced TRAGSL-JS-WCF) as a central component in my GOUs education.</p>
+<p>Rule 3 should be understood as actively and continuously upgrading oneself based on continuous introspection and retrospection.</p>
+<p>I was initially hesitant to add a third rule to the previously perfect two-rule combo, but wise friend made good arguments for reminding system users of the important of deliberate and continuous self-improvement.</p>
+<p>In 25 years I hope to be able to report back on the efficacy of this system based on a smallish but long-term study with N=3.</p>
+<p>What do you think?</p>
+]]></content:encoded></item><item><title>5 months as an independent engineer: lessons learnt.</title><link>https://cpbotha.net/2013/08/03/5-months-as-an-independent-engineer-lessons-learnt/</link><pubDate>Sat, 03 Aug 2013 11:22:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/08/03/5-months-as-an-independent-engineer-lessons-learnt/</guid><description> In February of this year, I left academia (read more about my reasons in the accompanying blog post) to start a new life as an independent engineer, or simply freelancer, if you will. In this post, I would like to summarise the lessons I&amp;rsquo;ve learnt so far. Also, because of my strong nerdtastic tendencies, I will write a separate post talking about the various tools of the trade, software and hardware, that I&amp;rsquo;ve found useful.</description><content:encoded><![CDATA[ <p>In February of this year, I left academia (read more about my reasons in <a href="http://cpbotha.net/2013/03/09/dear-academia-i-hope-we-can-still-be-friends/" title="Dear Academia, I hope we can still be friends.">the
+accompanying blog post</a>) to start a new life as an independent engineer, or
+simply freelancer, if you will. In this post, I would like to summarise the
+lessons I&rsquo;ve learnt so far. Also, because of my strong nerdtastic
+tendencies, I will write a separate post talking about the various tools of the
+trade, software and hardware, that I&rsquo;ve found useful.</p>
+<h2 id="the-perception-of-independence">The perception of independence</h2>
+<p>First of all: <strong>Having the illusion of being independent is exhilarating.</strong> I
+still get up early in the mornings, sometimes even before the rest of the
+family to put some extra time into side-projects, and I start the rest of my
+work program, fully dressed, at a more or less normal time. I still work the
+whole day, and I still spend some evenings and weekends tinkering. Sometimes I
+even experience deadline stress. However, the perception that I&rsquo;m doing all of
+this directly for the people that find my work useful enough to pay for it, and
+that in theory I can choose for whom I do this and how I do it, is awesome.</p>
+<p>The little things also make a difference. When there&rsquo;s someone interesting in
+town, or slightly out of town, a breakfast or lunch is absolutely justified. If
+I feel like going to work in a cafe somewhere, I do so. I&rsquo;m making good
+progress on getting rid of those deeply-ingrained employer-directed guilt
+pangs. Knowing that I always end up doing the time (or rather generating the
+value) helps much.</p>
+<p>Oh yes, I also get to buy toys. For my business.</p>
+<h2 id="pricing">Pricing</h2>
+<p><strong>One of the most challenging exercises when starting out as an independent
+contractor / consultant is setting your price.</strong> I think I must have scanned
+the whole internet when doing research on this. Talking to other similarly
+skilled engineers helped the most. (ping me privately if you need advice with
+hard figures) Part of the problem is that each freelancer has different
+value-generating capabilities, and has a different estimation of their value
+generating potential. My short time in industry working with some kick-ass
+engineers, followed by more than a decade in an application-oriented scientific
+setting (and one that&rsquo;s all about dealing with data!) working with some really
+clever people (and a bit of industry), together with genetically advanced
+verbal circuits, means I can build theoretically advanced software systems that
+solve practical problems in a robust fashion, and, importantly, that I can
+explain how and why they&rsquo;re valuable. (See what I did there? :)</p>
+<p>There are two practical tips that I would like to give here:</p>
+<ol>
+<li>Quote and charge per day. For any worth-while project, you&rsquo;re going to be
+putting full-time days into it, not hours.</li>
+<li>More importantly: You can easily give special discount on your rates, but
+clients don&rsquo;t like it if you become more expensive all of a sudden.</li>
+</ol>
+<p>I&rsquo;m currently running two longer term projects that fill up all of my time. In
+both cases I have arranged with my clients that I do my best to spend N days
+per week. If I spend fewer than that (for example due to vacation), I charge
+them <em>pro rata</em> less. If I manage to spend more, that&rsquo;s their free bonus.</p>
+<h2 id="underpromise-overdeliver">Underpromise. Overdeliver.</h2>
+<p>This leads me to my next tip, which is something that I learnt from <a href="https://twitter.com/veryflatcat" title="veryflatcat's twitter profile">A Very
+Flat Cat</a>, a very special mentor and friend of mine.</p>
+<blockquote>
+<p><strong>Underpromise. Overdeliver.</strong></p>
+</blockquote>
+<p>It&rsquo;s one of those guidelines that one has to strive for. The first one helps to
+compensate for <a href="https://en.wikipedia.org/wiki/Planning_fallacy" title="wikipedia page on the planning fallacy">the planning fallacy</a>, the cognitive bias that makes us all
+underestimate the time we need to complete a task. Importantly, it helps with
+the second part: Deliver your project either slightly ahead of time or over
+specification. In other words, try to surprise your client with even more value
+than they thought they were going to get.</p>
+<h2 id="long-term-vision-as-an-independent-contractor">Long-term vision as an independent contractor</h2>
+<p>It&rsquo;s only been 5 months, but one has to start thinking about <strong>one&rsquo;s long term
+vision</strong> as an independent. Working on client projects is huge fun, and it even
+pays the bills, but these same techniques could be used to work on one&rsquo;s own
+product or service. <strong>Ideally, one is able to come up with a product or service
+that is found useful by a large enough group of people so that a sustainable
+business can be built around that product or service.</strong> Fortunately, the
+internet / software engineering / data universe is exploding with
+possibilities, and is set to continue doing so for the coming decades.</p>
+<h2 id="create-the-meaning-in-your-work">Create the meaning in your work</h2>
+<p><a href="http://cpbotha.net/2012/07/24/startups-vs-academic-research-groups-fight/" title="Startups vs. Academic Research Groups: FIGHT!">I&rsquo;ve mentioned before</a> the importance of <strong>doing something meaningful</strong>. If
+your goal is to be sustainably happy, this is still just as important. When
+wrapping up your work for the day, or the night, it&rsquo;s important to have the
+feeling that what you&rsquo;ve done has the potential to make a positive impact on
+the world around you. My advice here also is not to be too ambitious. (Oh wait,
+I <a href="http://cpbotha.net/2013/06/16/dont-dream-big/" title="Don’t dream big.">have a post about that too</a>!) Even if your work, or your open source side
+project, has a positive effect on only one other person, you&rsquo;ve done a good
+job. Besides selecting one&rsquo;s projects based on this, the meaningfulness of
+one&rsquo;s activities can be further increased by putting effort into open source,
+or into educational activities.</p>
+<h2 id="fin">Fin</h2>
+<p>That&rsquo;s it for this chapter of <em>Freelancing for Dummies</em>! Let me know in the
+comments if there&rsquo;s anything else you&rsquo;d like to discuss.</p>
+<p>(I seem to have forgotten everything I read in <em>Writing Blog Post Conclusions
+for Dummies</em>.)</p>
+]]></content:encoded></item><item><title>HappinessException [Weekly Head Voices #44]</title><link>https://cpbotha.net/2011/04/07/happinessexception-weekly-head-voices-44/</link><pubDate>Thu, 07 Apr 2011 20:30:41 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/04/07/happinessexception-weekly-head-voices-44/</guid><description> Just slightly before this week is over, here’s a super quick WHV looking back on last week, #13 of the year 2011. Let’s start the show with this delightful body-motion-art music video, brought to my attention by the intriguing TNR:
+The most noteworthy items of my week were the following:
+The VisWeek 2011 deadline, together with EuroVis our most important yearly paper deadline, smashed through our lives on Thursday.</description><content:encoded><![CDATA[ <p>Just slightly before <em>this</em> week is over, here’s a super quick WHV looking back on last week, #13 of the year 2011. Let’s start the show with this delightful body-motion-art music video, brought to my attention by the intriguing <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">TNR</a>:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/r-qhj3sJ5qs?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>The most noteworthy items of my week were the following:</p>
+<ul>
+<li>The VisWeek 2011 deadline, together with EuroVis our most important yearly paper deadline, smashed through our lives on Thursday. I had the distinct privilege of participating in two excellent submissions, and once again came to the realisation that I absolutely love writing papers, even when chasing deadlines as serious as this. As I’ve mentioned before, it’s quite the kick crafting that perfect gooseflesh-inducing sentence. Now cross yer fingers that both of these get accepted!</li>
+<li>I attended the early retirement party of one of my group’s professors. He gave a superbly humorous talk, amongst other topics on the changing culture at my employer (issue #1: Too Much Management and related to that issue #2: Research Institute Thinks it Should Act Like a Commercial Entity and Predictably Does So Embarrassingly Badly). This, as well as his compressed review of 30 years of academia, constituted serious food for thought.</li>
+<li>On Saturday I had the privilege of giving a talk, in Dutch (!!), to an audience of more than 200 clinical physicists at the yearly conference of the <a href="http://nvkf.nl/" title="NVKF website">Dutch Society of Clinical Physics</a>.  I presented an overview of our surgical planning and guidance research, including the absolute latest results of the <a href="http://viscas.medvis.org/" title="VisCAS website">VisCAS</a> survey that we’re working on (when I say “we”, I of course mean that <a href="http://graphics.tudelft.nl/People/ThomasKroes" title="Thomas Kroes website">one of my MedVis Ninjas</a> is doing most of the hard work). If you’re also lucky enough to find yourself in Bergen, Norway for EuroVis 2011 in May/June, you’ll even be able to come and admire our poster on the topic!</li>
+</ul>
+<p>For my truly backyard philosophical conclusion, I’d like to refer to an interesting piece in this weekend’s Volkskrant on Pascal Bruckner, a real-deal non-backyard philosopher, and his refreshing view on our eternal quest for happiness. Bruckner makes the point that happiness used to be the exception, implying that then it was already quite an achievement just being able to survive.</p>
+<p>These days, because we have access to infinite amounts of fat and sugar, and other important foodstuffs such as beer, and our survival has become almost a given, we have come to believe that it is our duty to be happy. Even worse than that, we have come to expect it of each other, finding it strange when someone is temporarily not in the throes of passion or happiness. Paradoxically, or maybe not, this expectation leads to much unhappiness, or as Bruckner puts it, the more we have, the more discontent we get.</p>
+<p>Being French <em>and</em> a philosopher, he makes use of his unique prerogative by concluding with a quote by Voltaire from Candide:</p>
+<blockquote>
+<p>l’homme est né pour vivre dans les convulsions de l’inquiétude ou dans la lethargie de l’ennui.</p>
+</blockquote>
+<p>(go look it up on Google Translate, you have-it-all human! don’t forget to leave a comment on this blog.)</p>
+]]></content:encoded></item><item><title>Postmodern creativity. [Weekly Head Voices #37]</title><link>https://cpbotha.net/2011/02/05/postmodern-creativity-weekly-head-voices-37/</link><pubDate>Sat, 05 Feb 2011 19:21:34 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/02/05/postmodern-creativity-weekly-head-voices-37/</guid><description> Post summary: Review humour, WhatsApp, SPA3102 gadget, hiking boots, happiness in the blue zones.
+So there are people on the internets who have chosen as their creative outlet the writing of superbly entertaining fictitious reviews of real products on real e-commerce sites. See for example this customer review of a tub of uranium ore that was once available on Amazon: You used to be able to buy uranium ore on amazon.</description><content:encoded><![CDATA[ <p><em>Post summary: Review humour, WhatsApp, SPA3102 gadget, hiking boots, happiness in the blue zones.</em></p>
+<p>So there are people on the internets who have chosen as their creative outlet the writing of superbly entertaining fictitious reviews of real products on real e-commerce sites. See for example this customer review of a tub of uranium ore that was once available on Amazon:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/02/frikkin_uranium_2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/02/frikkin_uranium_2.jpg"
+        
+            alt="You used to be able to buy uranium ore on amazon. You can still read the awesome reviews: http://www.amazon.com/Images-SI-Inc-Uranium-Ore/dp/B000796XXM/"/> </a><figcaption>
+            <p>You used to be able to buy uranium ore on amazon. You can still read the awesome reviews: <a href="http://www.amazon.com/Images-SI-Inc-Uranium-Ore/dp/B000796XXM/">http://www.amazon.com/Images-SI-Inc-Uranium-Ore/dp/B000796XXM/</a></p>
+        </figcaption>
+</figure>
+</p>
+<blockquote>
+<p>I purchased this product 4.47 Billion Years ago and when I opened it today, it was half empty. — reviewer Patrick J. McGovern</p>
+</blockquote>
+<p>For more examples, please do see <a href="http://www.cracked.com/article_18939_8-stupid-amazon-products-with-impressively-sarcastic-reviews.html" title="cracked.com article on funny amazon reviews">this article on Cracked.com</a>. What a fantastic creative medium! One day, when I grow up, I too shall spend time honing my review writing skills.</p>
+<p>Because I’ve <em>just</em> realised that this post was never going to be more than a mishmash of odd but hopefully interesting tidbits, I shall now switch to bullet-list mode:</p>
+<ul>
+<li>I’ve slowly started developing principles against sending texts (SMS), purely because I think the telephone companies are charging way too much for these 160 character micro-messages. Even if you do have a great big SMS bundle, usually when you text overseas, you still get whacked. <a href="http://www.whatsapp.com/" title="WhatsApp website"><strong>WhatsApp</strong></a> does a pretty good job at being a texting substitute: It runs in the background on Nokia, Android, iPhone or Blackberry smartphones, and allows one to <strong>send and receive unlimited SMS-like messages</strong> via one’s dataplan to other WhatsApp users. Just like texting, it only requires telephone numbers, so directly after installation, one sees a list of all one’s WhatsApp-running contacts (from the phone’s database). Big advantage over for example BlackBerry BBM (ping) is that WhatsApp runs on many more telephones. In short: Try it, you might like it!</li>
+<li>On the theme of sticking it to the man (and when I say “man” I mean “telephone company”), I recently acquired a <a href="http://www.cisco.com/en/US/products/ps10027/index.html" title="Cisco SPA3102"><strong>Cisco SPA3102 Voice Gateway</strong></a> (used to be Sipura, then Linksys). It’s a tiny little box that sits in-between your broadband connection (ADSL or cable modem) and house telephone and, if configured correctly, routes all telephone calls via SIP (voice-over-ip) providers. In short: Seriously cheap phone calls via internet, telephone company never even sees you and hence can’t really bill you. The only problem is that this little box has the most complex configuration interface I’ve ever seen. There must be at least a few hundred configuration settings, and if you get any one of them wrong, your phone system simply stops working. I’ve written up what you need to know at my <a href="http://vxlabs.com/2011/02/05/sipura-linksys-cisco-spa3102-voice-gateway-in-the-netherlands/" title="SPA3102 netherlands setup guide at vxlabs.com">Even Nerdier Blog</a>.</li>
+<li>What’s the deal with <strong>hiking boots and engineers</strong>? Hiking boots are great for hiking, but wearing them to work (or far worse, to a social event) must be <em>the</em> most extreme way of showing your asymptotic support of function over form. I have to admit that I myself have sinned before, but usually I have a good excuse, such as that storm outside. There are some people however (and the matching hiking boots worn by in-love engineers / nerds are the absolute worst) that don’t seem to understand that form and function do need to be in some form of balance for the world to function and for me to maintain my non-nauseous state.</li>
+<li>It is important to note that Timberland boots strike this balance just perfectly, as you can see below:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/09/timberland.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/09/timberland.jpg"
+        
+            alt="This is what form and function look like when they&#39;re in perfect balance."/> </a><figcaption>
+            <p>This is what form and function look like when they're in perfect balance.</p>
+        </figcaption>
+</figure>
+</li>
+</ul>
+<p>To conclude this post, I’d like to summarise a <a href="http://lifehacker.com/5751875/five-traits-low+stress-happy-work-cultures-have-in-common" title="lifehacker summary of Buettner's book">lifehacker summary</a> of Dan Buettner’s <a href="http://www.amazon.com/Thrive-Finding-Happiness-Blue-Zones/dp/1426205155/" title="amazon link to buettner's book">book</a> on the factors that play a role in the happiness of people living in the world’s “blue zones” (countries / regions where people live long and contented lives): 1. work less, 2. keep your commute as short as possible, 3. have regular vacations, 4. socialise with your colleagues and finally, 5. make sure you work for a good boss.</p>
+<p>No big surprises there, but sometimes it’s nice being reminded of the stuff we should never have forgotten in the first place.</p>
+]]></content:encoded></item></channel></rss>

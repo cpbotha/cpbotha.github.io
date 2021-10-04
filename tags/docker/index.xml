@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>docker on voices in my head</title><link>https://cpbotha.net/tags/docker/</link><description>Recent content in docker on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 28 Jun 2015 11:31:00 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #93: A thank you note.</title><link>https://cpbotha.net/2015/06/28/weekly-head-voices-93-a-thank-you-note/</link><pubDate>Sun, 28 Jun 2015 11:31:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/06/28/weekly-head-voices-93-a-thank-you-note/</guid><description> The week of Monday June 21 to Sunday June 28 as seen through bullets:
+On Monday I received a super sweet email from an ex-student of one of my DataVis courses at the TU Delft. My course got a “one of the best” rating, but more importantly, the gentleman in question explained that it had inspired him to make a career in DataVis (and judging by his work record up to now, he’s doing a really good job of it!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/06/wpid-pompen_en_pimpen1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/06/wpid-pompen_en_pimpen1.jpg"
+        /> </a>
+</figure>
+
+<p>The week of Monday June 21 to Sunday June 28 as seen through bullets:</p>
+<ul class="org-ul">
+<li>
+    On Monday I received a super sweet email from an ex-student of one of my DataVis courses at the TU Delft. My course got a “one of the best” rating, but more importantly, the gentleman in question explained that it had inspired him to make a career in DataVis (and judging by his work record up to now, he’s doing a really good job of it!). It’s hard to explain how much good such a thank you mail does to my heart.
+  </li>
+<li>
+    This reminded me accutely of the concluding life advice the American author <a href="https://nl.wikipedia.org/wiki/David_Sedaris">David Sedaris</a> gave to the guests attending his edition of the Dutch <a href="https://nl.wikipedia.org/wiki/College_Tour">College Tour</a>. The advice was:
+  </li>
+</ul>
+<blockquote>
+<p>Write thank you notes.</p>
+</blockquote>
+<p>He made it patently clear that “thanks in advance” was absolutely not good enough, but that a dedicated thank you email or letter after the fact was an art that he recommended we all practise. I shall try harder to remember to do this more often!</p>
+<ul class="org-ul">
+<li>
+    I wrote a really nerdy bullet in this post about trying out docker. <i>Then</i> I wrote this bullet to warn you about the nerdiness of the subsequent one.
+  </li>
+<li>
+    I finally got to try out <a href="https://www.docker.com/">docker</a>. It gave me great pleasure to do this in exactly the way that would probably cause any docker expert to pass out due to the sheer magnitude of rules and guidelines I alternatively <a href="http://blog.docker.com/2014/06/why-you-dont-need-to-run-sshd-in-docker/">broke and bent</a>. I’m only using docker as a convenient way to bring up development-only light(er)-weight isolated virtual environments on my macbook using boot2docker. On Linux I would probably just use <a href="https://linuxcontainers.org/lxd/introduction/">LXD/LXC</a>, but there’s no boot2lxd (yet?) and I like to have my development tools consistent everywhere. I can report that even when you’re doing it wrong, docker works pretty well. The upshot is that I now have a docker image, based on <a href="https://registry.hub.docker.com/_/ubuntu-upstart/">ubuntu-upstart</a>, with postgres, solr, redis and a whole bunch of Python to start containers from and work on one of our products that requires that stack. I use IntelliJ’s remote interpreter support for the IDE parts of this solution.
+  </li>
+<li>
+    This week, I <i>really</i> missed my AfrikaBurn family. I guess we should start thinking seriously about our next appearance in Tankwa Town. This has also made me think a little more about <i>nostalgia</i>, and especially the fact that it’s directed at a point in space-time. We <i>can</i> travel through relevant space more or less at will. However, through time we can only move in one direction, and as if that wasn’t bad enough, we have to move at the same speed as everyone else. If we wish to reach back through space-time to that exact point of nostalgic origin, our only choice is to learn how to warp reality by sculpting with perception.
+  </li>
+</ul>
+<p>Have a great week, and remember to write that thank you note! Thank <em>you</em> very much for reading <em>this</em>!</p>
+]]></content:encoded></item></channel></rss>

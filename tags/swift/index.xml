@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift on voices in my head</title><link>https://cpbotha.net/tags/swift/</link><description>Recent content in swift on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 07 Jan 2016 20:01:00 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/swift/index.xml" rel="self" type="application/rss+xml"/><item><title>Closure expressions in Swift</title><link>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</link><pubDate>Thu, 07 Jan 2016 20:01:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</guid><description> Swift is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.
+Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.
+In this post I’m going to chat about closure expression syntax, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</description><content:encoded><![CDATA[ <p><a href="https://swift.org/">Swift</a> is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.</p>
+<p>Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.</p>
+<p>In this post I’m going to chat about <em>closure expression syntax</em>, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</p>
+<p>Let’s start with a simple example (slightly modified from <a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID95">Apple’s documentation on Swift closures</a>) for sorting a list of strings in reverse alphabetical order:</p>
+<div class="org-src-container">
+<pre class="src src-swift"><span style="color: #7F9F7F;">// names will be constaint, so we use let and not var</span>
+<span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #7F9F7F;">// function taking two parameters and returning boolean</span>
+<span style="color: #F0DFAF; font-weight: bold;">func</span> <span style="color: #93E0E3;">backwards</span>(s1: <span style="color: #7CB8BB;">String</span>, <span style="color: #F0DFAF; font-weight: bold;">_</span> s2: <span style="color: #7CB8BB;">String</span>) -&gt; <span style="color: #7CB8BB;">Bool</span> {
+<span style="color: #F0DFAF; font-weight: bold;">return</span> s1 &gt; s2
+}</p>
+<p><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">reversed </span>= names.sort(backwards)</p>
+<p>print(<span style="color: #CC9393;">&ldquo;Reversed alpha:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>That’s a complete compilable program in Swift, which you can run directly in your browser by clicking <a href="http://swiftlang.ng.bluemix.net/#/repl/6ab18271be682adc2a39c45988978ee92826c41faf70ed4420664fce1cd42bc8">here</a>.</p>
+<p>We use <code>let</code> to define a list of strings. Swift is strongly-typed, but in this case it simply infers the type of the <code>names</code> variable from the value that’s assigned to it. MAGIC!</p>
+<p>If we were planning to change the value of the <code>names</code> list at some point, we would have had to use <code>var</code> (mutable) instead of <code>let</code> (immutable).</p>
+<p>We then define a function called <code>backwards</code> that takes two strings, and returns the true value if the first is larger than the second. In the final let statement, we call the <code>sort()</code> method on the names list, but we pass it the <code>backwards()</code> function, which it will use to compare elements during sorting. Because we have flipped the <code>s1</code> and <code>s2</code> variables, we get our list back in reverse alphabetical order.</p>
+<p><code>sort()</code> can be seen as a higher order function that takes the <code>backwards()</code> function as one of its inputs, and uses it to do its work.</p>
+<p>Since we’re only using the <code>backwards()</code> function once, it would have been pretty convenient if there were some way to define it more compactly and in-place.</p>
+<p>This is exactly what Swift’s <code>closure expression syntax</code> is for. Here’s the above code, with the <code>backwards()</code> function written as a closure expression:</p>
+<div class="org-src-container">
+<pre class="src src-swift"><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #7F9F7F;">// closure expression syntax for inline anonymous function:</span>
+<span style="color: #7F9F7F;">// { (args) -&gt; returnType in statements }</span>
+<span style="color: #F0DFAF; font-weight: bold;">var</span> <span style="color: #DFAF8F;">reversed </span>= names.sort({ (s1: <span style="color: #7CB8BB;">String</span>, s2: <span style="color: #7CB8BB;">String</span>) -&gt; <span style="color: #7CB8BB;">Bool</span> <span style="color: #F0DFAF; font-weight: bold;">in</span> <span style="color: #F0DFAF; font-weight: bold;">return</span> s1 &gt; s2})</p>
+<p>print(<span style="color: #CC9393;">&ldquo;Reversed:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>(You can run this Swift code in your browser by clicking <a href="http://swiftlang.ng.bluemix.net/#/repl/0dbcdef74dfef00da5c7f21878cb5ed42739796116a6fd232ab20f05d6040a81">here</a>.)</p>
+<p>Instead of having to define and name a separate function, we can specify a function in the exact spot where it’s needed, using <em>closure expression syntax</em> i.e.: <code>{ (parameters) -&gt; returnType in statements }</code>.</p>
+<p>For you Python-heads out there (MY PEOPLE!), the above code can be written in Python as follows:</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #DFAF8F;">names</span> = [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #DCDCCC; font-weight: bold;">reversed</span> = <span style="color: #DCDCCC; font-weight: bold;">sorted</span>(
+<span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   names,
+<span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   <span style="color: #DCDCCC; font-weight: bold;">cmp</span>=<span style="color: #F0DFAF; font-weight: bold;">lambda</span> s1, s2: 0 <span style="color: #F0DFAF; font-weight: bold;">if</span> s1 == s2 <span style="color: #F0DFAF; font-weight: bold;">else</span> (-1 <span style="color: #F0DFAF; font-weight: bold;">if</span> s1 &gt; s2 <span style="color: #F0DFAF; font-weight: bold;">else</span> 1))</p>
+<p><span style="color: #F0DFAF; font-weight: bold;">print</span>(<span style="color: #DCDCCC; font-weight: bold;">reversed</span>)
+</pre></p>
+</div>
+<p>In Python, <code>lambda</code> is used to specify anonymous function objects (our closure expression syntax, in other words). The compare function is defined differently, which is why it’s somewhat more complicated, but the principle is the same.</p>
+<p>Whilst typing this blog, I downloaded Swift 2.2 from the <a href="https://swift.org/download/#latest-development-snapshots">open source download site</a> and installed it on my Ubuntu 14.04 laptop (the internet is so slow over here, we have to multi-task to stay sane). After compiling both the examples using <code>swiftc whatever.swift</code>, the resulting binaries are about 21 Kbytes each (they are dynamically linked to a number of system libraries, and the 5M <code>libswiftCore.so</code>).</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/swift-sort-binaries.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/swift-sort-binaries.png"
+        /> </a>
+</figure>
+
+<p>The Swift language is open source, is already available for Linux, has a number of really compelling modern language features of which closure expressions are just one example (other interesting examples include optional types and protocol extensions), is statically typed with good type inference, and has a good compiler. For these reasons, it should be strongly considered for a permanent spot in your compiled language toolbox!</p>
+<p>P.S. Yes, I do know that C++ has <code>lambda</code> and <code>auto</code>. I like them too!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #100: Happy 2016!</title><link>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</link><pubDate>Sun, 03 Jan 2016 09:20:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</guid><description> Cape Town photographed from the top of Table Mountain. Click for high-res.
+I wish you a truly happy 2016, filled with learning and helping other people! Neil deGrasse Tyson, exemplary human, said it best:
+For me, I am driven by two main philosophies, know more today about the world than I knew yesterday. And along the way, lessen the suffering of others. You’d be surprised how far that gets you.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/table_mountain_view.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/table_mountain_view.jpg"
+        
+            alt="Cape Town photographed from the top of Table Mountain. Click for high-res."/> </a><figcaption>
+            <p>Cape Town photographed from the top of Table Mountain. Click for high-res.</p>
+        </figcaption>
+</figure>
+
+<p>I wish you a truly happy 2016, filled with learning and helping other people! Neil deGrasse Tyson, exemplary human, <a href="https://www.reddit.com/r/IAmA/comments/qccer/i_am_neil_degrasse_tyson_ask_me_anything/c3wgffy">said it best</a>:</p>
+<blockquote>
+<p>For me, I am driven by two main philosophies, know more today about the world than I knew yesterday. And along the way, lessen the suffering of others. You’d be surprised how far that gets you.</p>
+</blockquote>
+<p>Time is fun when you&rsquo;re having flies! I can&rsquo;t believe that four months have flown by since <a href="https://cpbotha.net/2015/08/23/weekly-head-voices-99-no-lands/">the previous WHV</a>. Since then, quite a bunch has happened. Some highlights for me:</p>
+<ul>
+<li>I spent a week in The Netherlands, my other home, taking part in a second hackathon with the Evalueserve peeps (the previous one was in Gurgaon in India). This was again loads of fun, and we managed to build a significant new shippable feature (measurable value!) almost from scratch.</li>
+<li>In October, I went back to The Netherlands (it&rsquo;s my other home, remember) for 2.5 days to take part in the Doctorification of <a href="http://francoismalan.com/">a friend</a>. Besides the doctorification process (I&rsquo;ve been out of academia for a while, so my terminology might not be 100%) which went swimmingly, I had so many high-intensity interactions with some of my favourite people that I literally almost missed my flight back. Just picture me waking up in Delft at 8:30 with a flight leaving from Amsterdam at 10:00…</li>
+<li>For a work project,  I started programming in <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Apple&rsquo;s Swift</a>. As compiled high-performance languages go, this one has a number of modern language features which make it a truly interesting addition to one&rsquo;s programming toolbox.</li>
+<li>Further on the nerd-front, I&rsquo;m trying to get more of us to <a href="https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">use Signal instead of WhatsApp</a> whenever possible.</li>
+<li>We spent so many weekends and the Christmas vacation doing fun outdoorsy stuff (living at the southern tip of Africa has serious perks), not least of which was a trip up Table Mountain for the first time in 15 years. See the photo up top for an impression.</li>
+</ul>
+<p>I have some fun changes in mind for this blog in 2016, but you&rsquo;re going to have to stick around to find out what they are, so… see you later peeps!</p>
+]]></content:encoded></item></channel></rss>

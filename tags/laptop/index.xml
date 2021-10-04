@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>laptop on voices in my head</title><link>https://cpbotha.net/tags/laptop/</link><description>Recent content in laptop on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 07 May 2019 22:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/laptop/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #170: Yeet.</title><link>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</link><pubDate>Tue, 07 May 2019 22:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</guid><description> Hello there friends!
+This edition of the WHV, number 170, is how I choose look back at the three weeks from Monday April 15 to Sunday May 5, 2019.
+This period was host to whooshing-by-deadline-induced stress, one amazing and thought-provoking wedding, the birthdays of two of my GOUs, and, a bit strangely part of this list, the acquisition of a new computing device.
+At least we were able to pause everything for a sublime afternoon at a favourite vineyard close to my backyard:</description><content:encoded><![CDATA[ <p>Hello there friends!</p>
+<p>This edition of the WHV, number 170, is how I choose look back at the three
+weeks from Monday April 15 to Sunday May 5, 2019.</p>
+<p>This period was host to whooshing-by-deadline-induced stress, one amazing and
+thought-provoking wedding, the birthdays of two of my GOUs, and, a bit
+strangely part of this list, the acquisition of a new computing device.</p>
+<p>At least we were able to pause everything for a sublime afternoon at a
+favourite vineyard close to my backyard:</p>
+<figure>
+<a href="lourensford_cellar_skies.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+I ended the three week WHV-hiatus in this place, together with my
+fam jam<sup>*</sup>. It was lit.
+</figcaption>
+</figure>
+<h1 id="a-brief-but-educational-interlude-how-to-speak-gen-z">A brief but educational interlude: HOW TO SPEAK GEN Z.</h1>
+<p>I too did not know what &ldquo;fam jam&rdquo; meant until I viewed the educational video
+below.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YtrxVWf91Jo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>I feel like I understand my budding teenager (GOU#1) a little better now.</p>
+<p>On a related note: GOU#1 and I went to watch End Game together, on her 13th
+birthday.</p>
+<p>This is the first time I&rsquo;ve been in a cinema since forever, as I usually find
+it hard to justify the time expense.</p>
+<p>In this case however, the film, but far more importantly my company and the
+special occasion, made it doubly worth it.</p>
+<p>P.S. Dumbledore doesn&rsquo;t make it. 😢</p>
+<p>P.P.S. That emoji comes straight from my Emacs! (It comes as a bit of a
+surprise to me that I am quite excited by how our systems of written
+communication are evolving.)</p>
+<p>P.P.P.S. If you too want your Emacs to do this, add the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
+(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
+  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
+  <span style="color:#cb4b16">:config</span>
+  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
+  (<span style="color:#268bd2">global-emojify-mode</span>)
+  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
+</code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
+<p>Perhaps unbeknownst to you, I was not completely quiet on the blogging front.</p>
+<p>I produced the following four posts, the latter three of which will have to
+live on the nerdy sister blog:</p>
+<ul>
+<li><a href="/2019/04/27/new-laptop-2019/">meepx1e: I haz new laptop!</a> - The traditional
+welcome-new-computer-to-my-household post on this blog.</li>
+<li><a href="https://vxlabs.com/2019/04/16/dotnet-fsi-in-vscode/">Using the new dotnet fsi from .NET Core 3 Preview 3 in Visual Studio
+Code</a> - A modest trick
+for an improved F# repl.</li>
+<li><a href="https://vxlabs.com/2019/04/19/django-typescript-docker-compose-windows/">PyCharm and Docker Compose for Django and TypeScript development on Windows
+10</a> -
+You can run your Linux inside of Microsoft-supported Docker containers on
+your Windows laptop. How times have changed&hellip;</li>
+<li><a href="https://vxlabs.com/2019/04/20/link-thunderbird-emails-from-emacs-orgmode/">Link directly to emails from Emacs Orgmode using Thunderbird and
+Thunderlink</a> -
+This is a core part of my task management workflows. On macOS it worked more
+or less out of the box, on Windows and Linux you have to get your hands
+dirty.</li>
+</ul>
+<h1 id="the-easiest-but-most-high-impact-measure-you-can-take-to-not-die-too-soon-go-to-bed-on-time">The easiest but most high impact measure you can take to not die too soon: Go to bed on time.</h1>
+<p><a href="/2017/12/29/the-2017-to-2018-transition-post/">I&rsquo;ve mentioned Matthew Walker, the increasingly world-renowned Professor of
+Sleep Science, on this blog
+before</a>.</p>
+<p>I&rsquo;m currently working through a three-part podcast between <a href="https://peterattiamd.com">Dr Peter Attia
+MD</a>, life optimisation expert with the
+hyper-analytical accent(tm), and Prof. Walker, and it is absolutely
+<em>fascinating</em>.</p>
+<p>Several times now, points discussed by the two gentleman have made me go
+&ldquo;OH. MY. GOODNESS.&rdquo; in the car between home, the daily school-run and work.</p>
+<p>The long and the short of it is that although we so easily trade away sleep for
+an extra hour of work, or even worse to assuage pangs of guilt at not working
+enough during the day, that sleep is one of the most crucial components of
+one&rsquo;s health.</p>
+<p>Looking at it from a different angle, and one which Walker is not scared to
+take, probably because it is so critical, lack of sleep has terrifyingly
+deleterious effects on human health.</p>
+<p>Anyways, if you&rsquo;re looking for a thought-provoking conversation, you could
+easily do worse than this.</p>
+<ul>
+<li>Part 1: <a href="https://peterattiamd.com/matthewwalker1/">https://peterattiamd.com/matthewwalker1/</a></li>
+<li>Part 2: <a href="https://peterattiamd.com/matthewwalker2/">https://peterattiamd.com/matthewwalker2/</a></li>
+<li>Part 3: <a href="https://peterattiamd.com/matthewwalker3/">https://peterattiamd.com/matthewwalker3/</a></li>
+</ul>
+<p>If you don&rsquo;t have the opportunity to listen to the podcast, perhaps because you
+need to catch up on your sleep, <a href="https://www.theguardian.com/lifeandstyle/2017/sep/24/why-lack-of-sleep-health-worst-enemy-matthew-walker-why-we-sleep">this 2017 article in The
+Guardian</a>
+is a great summary.</p>
+<h1 id="the-edge-of-humanity">The Edge of Humanity.</h1>
+<p>(Not interested in hearing about sleep? How about existential risks that
+threaten the continued existence of our species? Here at the WHV we like to
+keep the issues light and light-hearted!)</p>
+<p><em>Homo Deus</em> by Yuval Harari is one of those books I really think <em>everyone</em>
+should read. This is such a fantastic and broad treatise on where we came from,
+and where we might be going.</p>
+<p>I am happy that we have the privilege of Harari as the superbly articulate
+thinker that he is.</p>
+<p>This discussion between Yuval Harari and Sam Harris, available as <a href="https://samharris.org/podcasts/138-edge-humanity/">podcast #138
+on Sam Harris&rsquo;s website</a>, is
+both valuable and highly entertaining.</p>
+<p>Besides the moment at about 32 minutes in when Harari made the case that all of
+the large scale media manipulation and user data mining demonstrate that the
+human mind is now indeed hackable (!!), I wanted to mention the
+thought-provoking topic of how comically out of their depth our political
+leaders are.</p>
+<p>They don&rsquo;t seem to be able to do much more than <em>react</em> to short-term fears and
+impulses (which they also play to), and as if that was not bad enough, they do
+so with an horizon of not much more than about four years.</p>
+<p>How many of our leaders would be able to field convincingly the question of
+what their plans were, what their <em>vision</em> is for humanity, for the coming 40
+years?</p>
+<p>What <em>is</em> our 40 year grand plan for energy, for the environment, for poverty,
+and for preventing another world war?</p>
+<p>Please give your answers in the comments.</p>
+<h1 id="a-strange-thing-happened-this-weekend">A strange thing happened this weekend.</h1>
+<p>During my time at the TU Delft, I made and maintained a software tool called
+DeVIDE, or the <em>Delft Visualisation and Image Processing Development
+Environment</em>, or <em>Not Responding</em> as it was called by <em>some</em> of its users.</p>
+<p>Development started in 2002, the first open source release was in 2007 and the
+last release was in 2012.</p>
+<p>(You can still download working binaries of the 2012 release from the
+<a href="https://github.com/cpbotha/devide/wiki/Downloads">downloads page</a>. It was
+pretty strong on loading chaotic collections of DICOM images, and it was pretty
+strong on enabling users to talk to almost any part of it in Python, at
+runtime. Frits Post and I published a <a href="https://www.semanticscholar.org/paper/Hybrid-Scheduling-in-the-DeVIDE-Dataflow-Botha-Post/a96cc2530609d46d9a39f5884d8a9f8192991114">paper in 2008 which nicely summarised
+the interesting parts of the
+software</a>.)</p>
+<p>When <a href="/2013/03/09/dear-academia-i-hope-we-can-still-be-friends/">I left the TU and
+academia</a>, my work
+positively careened off in a different direction and it became more or less
+impossible for me to justify continuing to maintain DeVIDE.</p>
+<p>Fast forward a few years, and due to Project Z I&rsquo;m again all up in the
+<a href="https://www.dicomlibrary.com/dicom/">DICOMs</a>.</p>
+<p>More acutely however, I feel the need for creatively implemented projective
+geometry.</p>
+<p>Well, my weekend brain got behind the steering wheel, and before I knew it I
+was staring at the DeVIDE UI, all prettied up with Python 3 and VTK 8.2:</p>
+<figure>
+<a href="devide2019-screenshot-20190505.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_1200x0_resize_box_3.png 1200w
+  
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_800x0_resize_box_3.png"
+  
+
+   />
+
+
+
+</a>
+</figure>
+<p>At this moment it&rsquo;s only a limping shadow of its previous self, but it still
+managed to bring back so many warm memories.</p>
+<p>With a few hours more of work, it could start becoming useful again.</p>
+<p>I&rsquo;m not entirely sure where weekend-brain wanted to go with this. We&rsquo;ll have to
+wait until he gets back to see.</p>
+<h1 id="heading">🙏🙏🙏</h1>
+<p>Friends, thank you for connecting with me here in these words and symbols.</p>
+<p>I am already looking forward to the next time that we meet!</p>
+]]></content:encoded></item><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description> WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
+Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.
+Some examples from the past include:
+Hacking Radeon suspend / resume support into the Linux kernel and the X-Server in 2002, so that my cheap clone laptop could too.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
+<figure>
+<a href="x1_skulking_in_bush.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>Just the new laptop, skulking in the bush.
+</figure>
+<p>It is tradition around these parts that the welcoming of new computer machines
+is celebrated by, amongst many other rituals, a sometimes incomprehensible
+amount of customisation-related labour and a mention (or two) in these pages.</p>
+<p>Some examples from the past include:</p>
+<ul>
+<li><a href="/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/">Hacking Radeon suspend / resume support into the Linux kernel and the
+X-Server in 2002</a>,
+so that my cheap clone laptop could too.</li>
+<li><a href="/2004/05/26/laptop-no-2/">Acquiring my first name-brand laptop (HP NC6000) in
+2004</a>, with a whole gigabyte of RAM.</li>
+<li><a href="/2006/07/22/new-new-laptop-laptop/">My first dual-core laptop in 2006</a>.</li>
+<li><a href="/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/">Reviewing Ubuntu Feisty on above-mentioned
+laptop</a>
+led to, as far as I can remember, my first really popular post, with about
+50k visitors in a few days.</li>
+<li>Relatively low-key announcements during my macOS phase, starting with the <a href="/2015/06/14/weekly-head-voices-91-theyre-back/">2015
+MacBook Pro</a> and then later
+the <a href="/2017/09/05/weekly-head-voices-125/">2017 MacBook Pro</a> on my birthday in
+2017.</li>
+</ul>
+<p>Well folks, this post exists because on Tuesday, April 17, 2019 I became the
+new owner of a Lenovo ThinkPad X1 Extreme.</p>
+<p>This new device, just like all the previous ones, took up a considerable amount
+of mental cycles before, during and after its acquisition.</p>
+<p>This does make sense: It&rsquo;s the technical artefact I use for a large part of the
+day to interface with and shape the universe around me. This shaping is how I
+try to create value, so the main physical tool I used for this should be as
+sharp as possible.</p>
+<h1 id="so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">So, tell me, why did your somewhat stylish MacBook phase have to come to an end?</h1>
+<p>It seems like <a href="https://cpbotha.net/2017/09/05/weekly-head-voices-125/#new-laptop">just the other day when my mysterous employer bought me that
+shiny 2017 top-of-the-line(ish) MacBook
+Pro</a>.</p>
+<p>They grow up so fast!</p>
+<p>&hellip; at which point they summarily have to be replaced by a slightly different
+and hopefully more effective new thing.</p>
+<p>The virtual machines I have to use for some of my projects caused the <a href="https://support.apple.com/kb/SP756?locale=en_US">16GB
+2.9GHz 2017 MacBook Pro</a> to
+grind to a halt once too often.</p>
+<p>I evaluated upgrading to the <a href="https://support.apple.com/kb/SP776?locale=en_US">2018 model with 32GB RAM and the 8th generation
+i7</a>, but the disappointing
+keyboards on the current MacBook Pro range made it even trickier than usual to
+justify the substantial price of the upgrade.</p>
+<p>The MacBooks are stellar machines, but only if you can look past the keyboard.</p>
+<p>To add to that, after five years of macOS, it was time to check that I was
+still able to work just as efficiently with The Other desktop operating
+systems.</p>
+<h1 id="why-did-you-decide-to-get-the-thinkpad-x1-extreme">Why did you decide to get the ThinkPad X1 Extreme?</h1>
+<p>When you go searching for laptop workstations that are in the same class as the
+15&quot; MacBook Pros, one of the main candidates is the <a href="https://www.lenovo.com/za/en/laptops/thinkpad/x-series/ThinkPad-X1-Extreme/p/22TP2TXX1E1">ThinkPad X1
+Extreme</a>,
+which, to my delight, was straight-forward to obtain from my favourite local
+supplier!</p>
+<figure>
+<a href="x1e_180.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>Can your workstation do this? (The keyboard is definitely an
+improvement. I'm reserving judgement until a few months in. I'm still getting
+used to that red mouse nub. In theory, this should be ideal for mostly keyboard
+use with Emacs for example.) </figcaption>
+</figure>
+<p>(Interestingly, the price down here in ZAR is better than the dollar price on
+Amazon directly converted to ZAR. This is usually the other way round.)</p>
+<p>I made a deliberate choice for the version with the FullHD screen, and <em>not</em>
+the 4k multi-touch panel.</p>
+<p>&ldquo;WHAT? ARE WE BACK IN THE 1990s?!!&rdquo; you might ask, tapping away on your
+high-resolution touch device with its beautiful screen and superb battery life.</p>
+<p>During the 1.5+ years of using the 15&quot; MacBook Pro, with one of the most
+beautiful screens in the business, I very rarely used that screen. Furthermore,
+when mobile, the significantly longer battery life of the FHD version, along
+with the slightly reduced weight, are more important.</p>
+<p>Along with the 6-core 8750H i7 CPU, 16GB of RAM and 512GB of SSD ThinkPad, I
+ordered an additional 1TB Samsung EVO Plus 970 NVMe SSD and an additional 16GB
+RAM module.</p>
+<p>One simply unscrews the bottom panel to reveal two accessible DIMM slots, and
+two accessible M.2 SSD slots. I added the extra drive and extra RAM, put the
+panel back, and booted up to a pretty sweet upgrade.</p>
+<p>(Both drives are in the gigabytes per second read and write class. The built-in
+WDC PC SN720 SDAQNTW-512G-1001 is only slightly slower than the Samsung 970.)</p>
+<p>It&rsquo;s good to know that I will be able to upgrade the RAM to 64GB, and the
+storage to multiple terabytes of SSD, should that become necessary, or should I
+be able to fabricate some or other good reason for this in the future.</p>
+<h2 id="pro-tip-beware-duplicate-volume-ids-when-you-clone-a-drive">Pro-tip: Beware duplicate volume IDs when you clone a drive.</h2>
+<p>I used the free <a href="https://www.samsung.com/semiconductor/minisite/ssd/download/tools/">Samsung Drive Migration Software for Consumer SSD
+tool</a> to
+image the factory-install of Windows to the new 1TB Samsung SSD.</p>
+<p>After this, I simply changed the boot order in the BIOS (which also swaps C:
+and D:, oh Windows!, and Bob was my uncle.</p>
+<p>OR WAS HE?!</p>
+<p>Only later when diagnosing why the Windows indexer was not picking up any new
+files from my drive, did I figure out that the duplicate volume IDs on the
+drives was confusing it.</p>
+<p>Even later, after I had almost forgotten about the volume IDs, I had huge fun
+fighting with the Windows boot loader simply giving up after an Ubuntu install.</p>
+<p>You won&rsquo;t guess what the issue was, or will you?</p>
+<h1 id="what-are-your-first-impressions">What are your first impressions?</h1>
+<p>Although it feels lighter than the MBP, the laptop is thicker and slightly
+bigger than the MBP. Due to the shape of the chassis, and especially the
+ventilation rib on the bottom, it feels good in the hand.</p>
+<p>The fans do come on quite easily in Windows, which can be disturbing. There are
+fortunately a number of configuration options to ameliorate this issue.</p>
+<p>The Linux support for this laptop is quite good. After a few hours of Manjaro
+(I&rsquo;ve always wanted to see what an Arch-derivative was like), I installed
+Ubuntu 19.04.</p>
+<p>With minimal tuning, I can get the idle power consumption (with Emacs running
+of course) down to about 7W.</p>
+<p>This would in theory give me 10 hours of staring at Emacs, which is epic.</p>
+<p>(Shortly after getting the laptop, I had to invest a not inconsiderable number
+of hours into fine-tuning my Emacs configuration for Windows. Although Emacs on
+Linux is still the ultimate experience, Emacs on Windows comes close
+enough. For now.)</p>
+<p>Probably due to the reduced weight and due to the laptop being able to keep
+itself cool much more easily, the laptop fares significantly better than the
+15&quot; MacBook Pro in the official Working in Bed and also Flipping Out Your
+Laptop To Do Something Real Quick tests.</p>
+<p>Other than that, features like the way the BIOS unlocks both hardware-encrypted
+SSDs at boot using my fingerprint, are really quite neat.</p>
+<h1 id="do-you-have-anything-else-to-say">Do you have anything else to say?</h1>
+<p>No.</p>
+]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+Well, yesterday I ate my hat.
+If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
+<p>Well, yesterday I ate my hat.</p>
+<p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
+]]></content:encoded></item><item><title>New Samsung NP300V3A laptop is welcomed into the family!</title><link>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</link><pubDate>Tue, 16 Aug 2011 11:03:53 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</guid><description> It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In July of 2002 it was Dr. Evil, more a brick than a laptop, in May of 2004 it was my beloved 14″ HP NC6000 laptop, in July of 2006 I met my 15.4″ HP NC8430 (employer-supplied, thank you employer!), which in turn led to this Ubuntu-critical blog post of mine that attracted 50000 (yes, fifty thousand) readers over 2 days, in July of 2008 I splurged on a lovely quad core desktop machine, in September of 2009 I acquired an Asus 1005HA-H netbook, and in November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop.</description><content:encoded><![CDATA[ <p>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/" title="dr evil laptop">July of 2002 it was Dr. Evil</a>, more a brick than a laptop, in <a href="http://cpbotha.net/2004/05/26/laptop-no-2/" title="NC6000 post">May of 2004 it was my beloved 14″ HP NC6000 laptop</a>, in <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/" title="nc8430 post">July of 2006 I met my 15.4″ HP NC8430</a> (employer-supplied, thank you employer!), which in turn led to <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="15 seconds of blog fame">this Ubuntu-critical blog post of mine</a> that attracted 50000 (yes, fifty thousand) readers over 2 days, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="bees blog post">in July of 2008 I splurged on a lovely quad core desktop machine</a>, in <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/" title="asus 1005HA-H netbook">September of 2009 I acquired an Asus 1005HA-H netbook</a>, and in <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/" title="dell e6410 post">November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop</a>.</p>
+<p>Today I welcomed the latest and probably prettiest laptop so far into the family:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/08/samsung_np300v3a.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/08/samsung_np300v3a.jpg"
+        
+            alt="Pretty Samsung NP300V3A-S01NL laptop!"/> </a><figcaption>
+            <p>Pretty Samsung NP300V3A-S01NL laptop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>Behold the <a href="http://tweakers.net/pricewatch/286118/samsung-np300v3a-s01nl.html" title="tweakers pricewatch page for the Samsung NP300V3A-S01NL">Samsung NP300V3A-S01NL (Series 3)</a>. It has an absolutely gorgeous-to-type-on chiclet keyboard, a 13.3″ matte (!) display, NVIDIA GT520m graphics with Optimus, second-gen Core i5 2410m, 4G RAM and 500G disc, all for a terribly reasonable price, which is important, as this one is not employer-bought. A man needs a laptop like this for his top-secret personal biznizz, yes?</p>
+<p>It’s running Windows Home Premium, so I have to use Truecrypt instead of EFS for encrypting my biznizz, which is stored mostly in my Dropbox pro account. The battery life is quite impressive probably due in part to Optimus switching. The drawback of this is that I probably won’t be putting Linux on here anytime soon. These days you can use both the graphics adapters in Linux, but both of them stay active all the time, so it kills the battery really quickly.</p>
+<p>We learn at least two more things from this post:</p>
+<ol>
+<li>I do seem to exhibit a certain obsessive compulsive behaviour when it comes to keeping track of the arrival dates of the various computers in my life.</li>
+<li>When spring comes around, hide my credit card.</li>
+</ol>
+<p><em>Update on May 2, 2012:</em> I have just eaten my hat. Ubuntu Linux 12.04 with Bumblebee runs just wonderfully on this laptop. Read all about it in <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="vxlabs blog post reviewing ubuntu 12.04 on the samsung np300v3a">my VXLabs blog post</a>.</p>
+]]></content:encoded></item><item><title>New work laptop</title><link>https://cpbotha.net/2008/04/27/new-work-laptop/</link><pubDate>Sun, 27 Apr 2008 10:53:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/04/27/new-work-laptop/</guid><description> I think I just might have found my next work laptop. Imagine the surprised and definitely jealous expressions as you plonk down your new Hello Kitty laptop at that next power meeting or important research discussion. Marvelous!
+Click on the image for the accompanying site (found via engadget.com).</description><content:encoded><![CDATA[ <p>I think I just might have found my next work laptop. Imagine the surprised and definitely jealous expressions as you plonk down your new Hello Kitty laptop at that next power meeting or important research discussion. Marvelous!</p>
+
+
+
+
+
+
+
+
+<figure><a href="http://translate.google.com/translate?u=http%3A%2F%2Fwww.sanrio.co.jp%2Fcorporate%2Frelease%2F2008%2F0424.html&amp;langpair=ja%7Cen&amp;hl=en&amp;ie=UTF-8">
+    <img
+        
+            
+            src="/wp-content/uploads/2008/04/kittylap1.jpg"
+        /> </a>
+</figure>
+
+<p>Click on the image for the accompanying site (found via <a href="http://engadget.com/" title="Engadget Website">engadget.com</a>).</p>
+]]></content:encoded></item><item><title>a critical look at ubuntu feisty beta on an hp nc8430 laptop</title><link>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</link><pubDate>Tue, 10 Apr 2007 14:37:41 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</guid><description> I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.
+So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, good power management, full support for modern GPUs, etc) is a different story.</description><content:encoded><![CDATA[ <p>I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.</p>
+<p>So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, <strong>good</strong> power management, full support for modern GPUs, etc) is a different story.</p>
+<p>Because XP is getting more scary by the day (WGA things, licensing issues) and Vista promises to be even more scary (binding itself to your motherboard) and because I’ve been hearing many good things about Ubuntu Feisty (the soon-to-be-released 7.04), I decided to give this a shot on my HP NC8430 laptop (Core Duo 2GHz, ATI X1600, 2G RAM, etc.). Initially I was determined to do this like a “normal” user, i.e. no tweaking config files and especially no script writing. I wanted to see how far your average user could get with a state of the art Linux installation on a laptop.</p>
+<p><strong>Installation</strong></p>
+<p>This was quite impressive: I defragmented my NTFS filesystem, booted from the Ubuntu Feisty live CD and did the install. Without getting all cocky about it, the installer resized my NTFS partition, created a new EXT3 partition and installed itself. Colour me impressed.</p>
+<p><strong>General configuration</strong></p>
+<p>After the first boot, I was greeted with a VESA-driven x.org and an incorrect resolution. My laptop screen supports 1680 x 1050. The Gnome Preferences | Screen Resolution applet couldn’t go higher than 1280 x 1024. I had to break my first rule and edit the x.org configuration file to add the higher resolution. Why is this still necessary? A novice user shouldn’t need to have to do this!</p>
+<p>I also installed the Ubuntu packaged fglrx ATI drivers with the Synaptic package management software, as I depend on good 3D graphics support for my work. The new Restricted Driver Manager helps one to complete this configuration in a user-friendly fashion.</p>
+<p>By running “aticonfig –set-powerstate 1”, the GPU can be set to a lower-power mode, leading to a cooler-running laptop, meaning the fans don’t spin up as often. This command can be added to the gnome startup by adding it to System | Preferences | Sessions. With “aticonfig –lsp” one can query the available powerstates. One can only change the powerstate if a single display is active.</p>
+<p>I removed “quiet” (but left “splash”) from the GRUB config for the default kernel in order to be able to see boot-up messages. These are helpful, especially when things take longer than they should.</p>
+<p><strong>Wireless networking support</strong></p>
+<p>This is the part that really impressed me: With Ubuntu 6.10 (Edgy Eft), I had to jump through all kinds of very user-unfriendly hoops to connect to my WPA wireless network. Feisty Beta simply popped up a pretty dialog box showing me the detected wireless networks and prompted me for the network key when I selected my WPA access point. I was online… colour me even more impressed!</p>
+<p><strong>Power management</strong></p>
+<p>This is when my jaw dropped ever so slightly (I’ll get to the “critical” part of this look a bit later): I selected suspend to RAM, which the laptop promptly did. When I pressed the power button to resume, I expected the typical black-screen-crashed-laptop syndrome. Instead, my desktop came back and I could continue working. This is a quantum leap in user-friendly Linux!</p>
+<p>However, I soon saw that at every third resume (on average) all my <em>keyboards would be dead</em>.</p>
+<p>It turns out something similar to <a href="https://launchpad.net/ubuntu/+source/linux-source-2.6.20/+bug/23497" title="link to ubuntu feisty bug where keyboard is dead after resume">this bug</a> applies to my laptop. By adding the necessary suspend/resume hooks as documented in the bug report (so that the i8042 module is removed before suspend and re-installed after resume), the problem seems to have been solved.</p>
+<p>Often after resume, my laptop gets stuck in the text console. I have to switch manually to X with Alt-F7. Another suspend/resume glitch is that the CPU Frequency Scaling Monitor gnome applet is stuck on 2GHz for my second core, although the core is running at half that most of the time. In general, things get a bit flaky after resume; often I need to restart X to get back to normal. I could potentially deal with this.</p>
+<p>Another disappointing issue is the terrible battery life under Ubuntu Feisty. On Windows, I get more than 4 hours of battery life with average use (wireless network, web browsing, text editing). With Feisty, even after enabling LAPTOP_MODE in /etc/default/acpi-support and putting the GPU in low-power mode as explained above, I get only 2 hours and 40 minutes. This is almost a show stopper.</p>
+<p>Out of the box ACPI monitoring support is well-done. With just a few clicks, I could various temperatures and fan speeds on my panel. See the panel at the top of the screen in the screenshot below:</p>
+<p> </p>
+<p style="text-align: center;">
+<a href="http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926946"><img alt="" src="http://lh6.google.com/image/cpbotha/Rhugv5cDdGI/AAAAAAAAAc0/mT09SLVTKkA/s288/cpb_ubuntu_feisty_beta_20070408.jpg"/></a>
+</p>
+<p>This also shows the Deskbar applet in action.</p>
+<p><strong>Dynamic multi-monitor support SUCKS</strong></p>
+<p>My laptop has a docking station with an external LCD monitor, resolution 1280 x 1024. The laptop is 1680 x 1050, as I’ve mentioned. With Windows, (hot) docking / undocking always Just Works. It automatically activates the correct resolution without me having to configure anything. So whenever I resume, I have a working display.</p>
+<p>Feisty does not quite get this yet. In fact, Feisty needs some serious clue-bat-based attention… When I dock or undock and then resume, I have no display, and no way of getting my display back, besides power-cycling the laptop at every dock / undock. I ended up writing <a href="http://graphics.tudelft.nl/~cpbotha/thingies/aticonfig_switch.py" title="Python script to switch to NEXT display with aticonfig">this Python script</a> and binding it to Alt-F5 (for example) so that I would always have a way of activating the <em>next</em> display in the list of connected displays. Oh jeez, even assigning an arbitrary shell command to a global hot key in Gnome is not straight-forward. You have to use gconf as explained on <a href="http://www.captain.at/howto-gnome-custom-hotkey-keyboard-shortcut.php" title="binding arbitrary shell commands to global hotkeys in Gnome">this page</a>. You can query connected and enabled displays with “aticonfig –query-monitor” and activate any subset with “aticonfig –enable-monitor=name1,name2,…,nameN”.</p>
+<p><strong>Desktop effects with XGL and Beryl</strong></p>
+<p>Wobbly Windows, you know, these are immensely useful and result in a more productive computing experience. NOT!</p>
+<p>They are really very nice though. Most of the desktop effects are more nice to look at than actually useful, except for one: The ExposÃ©-like functionality, called “Scale” by Beryl, scales and fits all windows on the current screen so that one can select the window that one wants to select easily.</p>
+<p>Because fglrx doesn’t support the XComposite extension, I could not install AIGLX (Ubuntu default) and had to go for XGL and Beryl. After following <a href="http://lhansen.blogspot.com/2006/10/3d-desktop-beryl-and-xgl-on-ubuntu-edgy.html" title="beryl + xgl on ubuntu and fglrx">this guide</a> and making sure to use the external Beryl package repository as explained <a href="http://ubuntuforums.org/showthread.php?t=393678" title="More tips on beryl + xgl">here</a> (the Ubuntu packages won’t work in this case, they don’t have XGL support), I got the whole shebang to work. MAN this is pretty! Check out the screenshot below for Scale in action (there are non-desktop-effect ways of doing this, e.g. kompose or skippy, but none of them are as slick as the desktop effects version):</p>
+<p> </p>
+<p style="text-align: center;">
+<a href="http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926962"><img alt="" src="http://lh6.google.com/image/cpbotha/Rhugv5cDdHI/AAAAAAAAAc8/DMNDclhbAyk/s288/cpb_ubuntu_feisty_beta_scale_20070410b.jpg"/></a>
+</p>
+<p>As with most other things in Ubuntu, this functionality is not without its caveats. This is even more flaky with suspending and resuming: after resuming, logging out and in will give you a garbled display. I have to restart X at the GDM login screen to get XGL to work again. There are also some focus issues, especially with the Gnome Deskbar (very useful utility, by the way): pressing the hotkey activates the deskbar, but you can’t begin to type, as the current window still has the focus. I managed to fix this by setting the Beryl “Level of Focus Stealing Prevention” (under general settings) to None. Changing to a higher resolution with the “Display Resolution” applet whilst running XGL+Beryl, results in only part of the screen being usable.</p>
+<p><strong>Miscellaneous issues</strong></p>
+<ul>
+<li>Palm Pilot synchronisation seems to work out of the box with my Tungsten C, but hangs forever on ToDo synchronisation. Seems it’s due to <a href="https://bugs.launchpad.net/ubuntu/+source/gnome-pilot-conduits/+bug/81170" title="feisty pilot todo syncing bug">this bug</a>.</li>
+<li>The built-in Texas Instruments SD card reader works out of the box, but does not automount like other removable media. This is either due to the fact that it’s not seen as removable, or that the driver forgets to assign its parent bus. See <a href="http://www.nabble.com/SD-card-automounting-t2870318.html" title="mail thread wrt SD card not automounting">this mail thread</a>. I ended up applying <a href="http://www.dau-sicher.de/pmwiki/Main/CardreaderWithUdev" title="workaround for SD card thingy">this workaround</a>, involving adding rules to the udev system to pmount the SD card.</li>
+<li>Gimp doesn’t understand SMB: URIs, whereas the Gnome Image Viewer does, and gthumb pretends to but doesn’t.</li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<p>All in all, I’m positive but not quite convinced yet. The Ubuntu people have done a marvellous job, but Feisty Beta (up to date as of 2007-04-10) doesn’t quite Just Work(tm) on the HP NC8430. I had to break my rule of editing config files or writing scripts more than once to get it to work to my satisfaction, and still there are problems that would make it difficult to work in Ubuntu full-time: the miserable battery life, the flaky suspend/resume and the really bad dynamic multi-monitor support. That being said, things like the user-friendly WPA support and the flawless install on an NTFS partition are going in the right direction.</p>
+<p><strong>Updates</strong></p>
+<ul>
+<li>This post has been linked by OSNews! You can also follow some of the discussion <a href="http://osnews.com/comment.php?news_id=17663" title="Link to this post at OSNews.com.">over there</a>.</li>
+<li>It’s also on digg (should I say that it’s been dugg?).Â  See <a href="http://digg.com/linux_unix/A_critical_look_at_Ubuntu_Feisty_beta" title="digg dugg">here</a>.</li>
+<li>Fixed aticonfig lsp/lsb typo, thanks lampshade!</li>
+<li>My domain has been migrated to a more stable server, some comments may have been lost in the process. If your comment has not appeared yet, <em>please</em> re-submit it.</li>
+</ul>
+<p><strong>PS</strong></p>
+<p>Please comment away, but keep it civilised. I’ll update the post as we go along, and give credit where credit’s due.</p>
+]]></content:encoded></item><item><title>Whoohooo, XFree86 + DRI hacked to suspend/resume</title><link>https://cpbotha.net/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/</link><pubDate>Fri, 26 Jul 2002 04:57:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/</guid><description> Yes, dear reader(s), I have hacked the radeon drivers so that I can suspend from and resume to an XFree86 server running with active DRI. You can read the low-down here. There is probably going to be some resistance from the developers, as this is still a kludge. It’s quite a good kludge though, don’t you think?
+By the way, please read the posting carefully. Some people haven’t and got the wrong idea…</description><content:encoded><![CDATA[ <p>Yes, dear reader(s), I have hacked the radeon drivers so that I can suspend from and resume to an XFree86 server running with active DRI. You can read the low-down <a href="http://sourceforge.net/mailarchive/message.php?msg_id=1874234">here</a>. There is probably going to be some resistance from the developers, as this is still a kludge. It’s quite a good kludge though, don’t you think?</p>
+<p>By the way, please read the posting carefully. Some people haven’t and got the wrong idea…</p>
+]]></content:encoded></item></channel></rss>

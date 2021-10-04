@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>android on voices in my head</title><link>https://cpbotha.net/tags/android/</link><description>Recent content in android on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 22 Aug 2018 20:34:14 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>You’ll know if your iPhone is listening. Vice should consider toning down the sensationalism.</title><link>https://cpbotha.net/2018/08/22/youll-know-if-your-iphone-is-listening-vice-should-consider-toning-down-the-sensationalism/</link><pubDate>Wed, 22 Aug 2018 20:34:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/08/22/youll-know-if-your-iphone-is-listening-vice-should-consider-toning-down-the-sensationalism/</guid><description> A Vice article titled Your Phone Is Listening and it’s Not Paranoia has been doing the rounds. In it, the author explains how they did an “experiment” demonstrating that topics they discussed verbally were later reflected in Facebook ads.
+Whilst it’s prudent to be careful with modern technology around one’s privacy, Vice is being a tad sensationalist. This blog post, which will optimistically be read by three to four people, tries to fill some of the holes they left.</description><content:encoded><![CDATA[ <p>A Vice article titled <a href="https://www.vice.com/en_uk/article/wjbzzy/your-phone-is-listening-and-its-not-paranoia">Your Phone Is Listening and it’s Not Paranoia</a> has been doing the rounds. In it, the author explains how they did an “experiment” demonstrating that topics they discussed verbally were later reflected in Facebook ads.</p>
+<p>Whilst it’s prudent to be careful with modern technology around one’s privacy, Vice is being a tad sensationalist. This blog post, which will optimistically be read by three to four people, tries to fill some of the holes they left.</p>
+<p>We already know that we can’t trust Facebook in any way, so we are dependent on the telephone’s operating system to take our privacy seriously: That’s usually Android or iOS.</p>
+<p>Android does in theory <em>enable</em> background recording up to and including Android O, but <a href="https://www.theverge.com/platform/amp/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background">starting from Android P</a> it will disable this. Unfortunately, it shouldn’t be more than about 10 years before all phones are on Android P or later.</p>
+<p>(<a href="/2016/11/27/android-security-in-2016-is-a-mess/">I have previously indicated that I’m not the biggest fan of Android’s security story</a>. I am happy to see that they are making such progress, but the tardiness or even worse refusal of OEMs in upgrading their devices diminishes most of that.)</p>
+<p>In iOS on the other hand, there are at least three mechanisms that protect users against this background recording abuse:</p>
+<ol>
+<li>The app has to ask the user explicitly for microphone permission, which the user can easily revoke at any time (Settings | App’s name | Microphone; see screenshot below for an example).</li>
+<li>The developer has to indicate explicitly and statically in their app that they intend to use background audio. Apple’s review process is quite strict and will reject outright an app that does not have a legitimate reason to make use of this function.</li>
+<li>Even when an app has been able to convince Apple’s review process that it should be allowed to record audio in the background, there are two more privacy mechanisms in place:
+<ol>
+<li>An app can only record in the background, if it started to record audio whilst on the foreground. When the recording stops, <a href="https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW26">the app will be suspended</a>.</li>
+<li>When any app is recording, the system will display a big red bar at the top of the iOS display, much like the blue bar which displays when a location-based app such as Google Maps or Waze is active in the background. <a href="https://stackoverflow.com/a/39963079/532513">This red bar can’t be hidden</a>.</li>
+</ol>
+</li>
+</ol>
+<p>To see this in action (another “experiment” !!), download an app like <a href="https://itunes.apple.com/us/app/awesome-voice-recorder/id892208399?mt=8">Awesome Voice Recorder</a> which advertises background recording, start a recording, and then switch anywhere else. The red bar looks like this (I’ve switched the app permissions screen in iOS settings, so you can also see where to disable the microphone permissions):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/08/IMG_EBA399A01B16-1.jpeg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/08/IMG_EBA399A01B16-1.jpeg"
+        
+            alt="AVR is recording in the background, so iOS shows this red bar at the top. If you tap on the red bar, it will switch to the app which is recording. This is related to the blue bar for location, and the green bar for ongoing phone calls."/> </a><figcaption>
+            <p>AVR is recording in the background, so iOS shows this red bar at the top. If you tap on the red bar, it will switch to the app which is recording. This is related to the blue bar for location, and the green bar for ongoing phone calls.</p>
+        </figcaption>
+</figure>
+</p>
+<p>With the above measures in place, it would be fairly tricky for an iOS app to perform background recording without your knowledge.</p>
+<p>For some extra peace of mind, you can disable the app’s (a totally random example being Facebook) microphone permissions. If the app ever really needs to record, iOS will have to ask your permission again.</p>
+<p>P.S. In iOS, under Settings | Privacy | Microphone you can find a handy list of all apps that have successfully requested microphone permissions. From here, you can also easily remove any of these permissions.</p>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>2018-08-23: It seems <a href="https://www.zdnet.com/article/want-google-to-track-you-less-get-an-iphone-ditch-the-android/">Androids phone home much more often than iPhones</a>.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Head Voices #122: Thanks Pythagoras.</title><link>https://cpbotha.net/2017/06/11/weekly-head-voices-122/</link><pubDate>Sun, 11 Jun 2017 13:14:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/11/weekly-head-voices-122/</guid><description> Pink sunset, as they do here in my backyard.
+Welcome back everyone!
+During a brilliant breakfast chat with friends who are visiting from afar, friend S (now 16.67% name-dropped) admitted that the WHV, strange unfocused mishmash of thoughts that it is, contributed positively to his information diet.
+In spite of this admission adding to my already considerable posting anxiety, I am enormously grateful for the encouragement. I often worry about this mishmash, as I also aspire to enter the fabled halls of A-list bloggers one day.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/swest_pink_sunset.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/swest_pink_sunset-1024x768.jpg"
+        
+            alt="Pink sunset, as they do here in my backyard."/> </a><figcaption>
+            <p>Pink sunset, as they do here in my backyard.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back everyone!</p>
+<p>During a brilliant breakfast chat with friends who are visiting from afar, friend S (now 16.67% name-dropped) admitted that the WHV, strange unfocused mishmash of thoughts that it is, contributed positively to his information diet.</p>
+<p>In spite of this admission adding to my already considerable posting anxiety, I am enormously grateful for the encouragement. I often worry about this mishmash, as I also aspire to enter the fabled halls of A-list bloggers one day.</p>
+<p>Perhaps I should just embrace the mishmash. Again.</p>
+<p>In this edition of the mishmash, I extremely sparsely review the weeks from Monday May 8 to Sunday June 11.</p>
+<p>During our weekly extra math, science and philosophy lessons, GOU#1 (now 11 years old) and I arrived through serendipity at the topic of Pythagoras. Her mind almost visibly expanded when she discovered the relationship between the 9, 16 and 25 square adjacent squares I drew for her on the 3-4-5 example triangle. Her eyes went wide when I explained that this works for <em>any</em> right-angled triangle.</p>
+<p>She was soon happily squaring, adding (long-form on paper of course) and square-rooting away on geometry problems.</p>
+<p>Seeing your own child discover the beauty that is math is brilliant.</p>
+<p>After complaining about <a href="/2016/11/27/android-security-in-2016-is-a-mess/">subpar android security</a> and <a href="/2017/02/12/android-vs-iphone-performance-a-quick-note/">dismal android performance</a> on this blog, I finally decided to bite the bullet and acquired a second-hand iPhone 6S 64GB on May 10, 2017. The phone is in mint condition, and the price was excellent.</p>
+<p>So far, the performance is substantially better than any of my previous Androids. In fact, so far I’ve never had to wait for anything on this phone, which was my main issue with the Androids. (Google Maps anyone?!) Besides that, when Apple pushes a software update, all phones immediately get that update, without interference from any third parties, including carriers.</p>
+<p>(A word to the wise: There is no official way to transfer your complete WhatsApp message history from Android to iPhone, which was a huge disappointment. There are unofficial, closed-sourced, solutions that require one to connect one’s Android phone in USB debugging mode to the PC. That risk is a bit too great for me.)</p>
+<p>After a period of rest, <a href="http://visible-orbit.org/">the Visible Orbit website</a>, including the <a href="http://visible-orbit.org/the-collection/high-res-section-stacks/">high-resolution microscopic slice data and viewer</a>, is online again! It was quite satisfying getting all of the backed-up data back on the interwebs again.</p>
+<p>Since the previous WHV (well actually mainly during the last week), I’ve published five posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2017/06/03/bitcoin-and-the-blockchain-in-10-minutes/">Bitcoin and the blockchain in 10 minutes</a> – I extracted this from <a href="/2016/07/25/weekly-head-voices-110-satoshi/">WHV #110</a>, because I’ve been spending way too much time on various blockchains (read: cryptocurrencies) and was planning more nerdy blog posts over here.</li>
+<li><a href="https://vxlabs.com/2017/06/03/querying-restful-webservices-into-emacs-orgmode-tables/">Querying RESTful webservices into Emacs orgmode tables</a> – Here I combined two of my obsessions, one old (Emacs) and the other new (cryptocurrencies) to show how you could pull live ticker data (prices) into your Emacs.</li>
+<li><a href="https://vxlabs.com/2017/06/06/setting-up-fastcgi-apps-on-webfaction/">Setting up FastCGI apps on WebFaction</a> – I love it when work leads to spin-off blog posts! In this case, to get the visible-orbit high-res slice viewer working on WebFaction, I had to jump some hoops. This post shows you how to jump them too.</li>
+<li><a href="https://vxlabs.com/2017/06/07/adding-page-sidebar-to-wordpress-twenty-seventeen-theme/">Adding page sidebar to WordPress Twenty Seventeen theme</a> – Intellectually the least interesting, but still a visible-orbit spin-off that might help at least one other person. I’m crossing my fingers.</li>
+<li><a href="https://vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/">Extracting the Jaxx 12-word wallet backup phrase</a> – After a few hours of analysis on Saturday (yesterday), I discovered a serious vulnerability in a popular multi-cryptocurrency wallet. The post has been picked up by a number of other blogs, and has caused good discussion on the various social media outlets.</li>
+</ul>
+<p>Three of those five posts have to do with cryptocurrency, which is to a certain extent a reflection of my free-time mental cycles at the moment. Looking at how technology such as <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> and its Smart Contracts (a Smart Contract blog post is currently forming in the back of my head…) seem to be breaking through, I can’t help but be reminded of stories such as those by Charlie Stross in <a href="https://en.wikipedia.org/wiki/Accelerando">Accelerando</a> (at least the first bits).</p>
+<p>Do we find ourselves at the start of something truly significant, or is this just an extremely elegant and high-tech dead-end?</p>
+<p>What a time to be alive!</p>
+<p>P.S. Here, have another outdoorsy photo on the house!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0109.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0109-1024x768.jpg"
+        
+            alt="I tricked GOU#1 and GOU#2 to join me on a sneakily long mountain walk. They did a sterling job."/> </a><figcaption>
+            <p>I tricked GOU#1 and GOU#2 to join me on a sneakily long mountain walk. They did a sterling job.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item><item><title>Android vs iPhone performance: A quick note.</title><link>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</link><pubDate>Sun, 12 Feb 2017 13:40:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</guid><description> I&amp;rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&amp;rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.
+I would still like to leave you with some interesting reading material. Hence this quick note.
+From this discussion post (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</description><content:encoded><![CDATA[ <p>I&rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.</p>
+<p>I would still like to leave you with some interesting reading material. Hence this quick note.</p>
+<p>From <a href="https://discuss.emberjs.com/t/why-is-ember-3x-5x-slower-on-android/6577/60">this discussion post</a> (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</p>
+<blockquote>
+<p>Some Android users report up to about 29 score on very new late 2016 Android
+devices, depending on the vagaries of the browser used. Still below the 2013
+iPhone 5s which can be purchased used for about $150 these days.</p>
+</blockquote>
+<p>That&rsquo;s pretty amazing: Based on the <a href="http://browserbench.org/Speedometer/">browserbench speedtest</a>, which is supposed to reflect quite realistically real-world web-browsing performance, <strong>the 2013 iPhone 5s outperforms 2016 Android flagships</strong>. Ouch.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/snapdragon808-browserbench.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/snapdragon808-browserbench-1024x823.png"
+        
+            alt="My Snapdragon 808 does a measly 14.7 on browserbench. The iPhone 5s which is a year or two older does more than double that."/> </a><figcaption>
+            <p>My Snapdragon 808 does a measly 14.7 on browserbench. The iPhone 5s which is a year or two older does more than double that.</p>
+        </figcaption>
+</figure>
+
+<p>There are more sites where this discussion / flamewar is being continued. Google is your friend.</p>
+<p>The core argument is that Apple long ago made the call that fewer, more high performance CPU cores would give the best <strong>subjective</strong> performance. In other words, to a user the phone would feel more responsive.</p>
+<p>This does make sense: As a user, when I tap a button, I would like to see an instantaneous response. A single really fast core is going to help more with this than a higher number of slower cores.</p>
+<p>Furthermore, programming single-threaded apps is significantly easier than programming robust and efficient multi-threaded apps. You can guess what the apps in the various stores look like in this regard.</p>
+<p>The iPhone 6s had only two cores, whereas most mid- to high-range Androids had 6 or more cores when the 6s was released.</p>
+<p>The iPhone 7 A10 chip has finally made the jump to 4 cores, two of which are lower power cores. Still, it turns out this chip again <a href="http://bgr.com/2016/10/21/iphone-7-specs-a10-fusion-processor/">crushes all of its Android (read: Qualcomm) competition</a>.</p>
+<p>Here&rsquo;s another <a data-rel="lightbox-video-0" href="https://youtu.be/k_PK_6F_Bhk">relevant demo on YouTube </a>where the same set of apps are started up in the same sequence, which is repeated, on both the iPhone 7 and the Samsung S7. All in all, the iPhone manages to get through the exercise more than twice as fast as the S7. This is definitely some indication of how users will perceive the responsivity of these devices.</p>
+<p>The argument that multi-core was not a good choice for Android is weakened to an extent by <a href="http://www.anandtech.com/show/9518/the-mobile-cpu-corecount-debate">this recent AnandTech analysis</a> showing that these phones are actually pretty good at utilising all of their cores:</p>
+<blockquote>
+<p>In the end what we should take away from this analysis is that Android
+devices can make much better use of multi-threading than initially
+expected. There&rsquo;s very solid evidence that not only are 4.4 big.LITTLE
+designs validated, but we also find practical benefits of using 8-core
+&ldquo;little&rdquo; designs over similar single-cluster 4-core SoCs.</p>
+</blockquote>
+<p>My personal experience with the Snapdragon 808 (6 core big.LITTLE) in my <a href="http://www.gsmarena.com/blackberry_priv-7587.php">BlackBerry PRIV</a> (late 2015 flagship) has been less than stellar. I love the phone for its screen, physical keyboard and other little idiosyncrasies, but the fact that I often have to wait more than a second after tapping an icon or a button before it responds, combined with <a href="/2016/11/27/android-security-in-2016-is-a-mess/">the terrible Android security story</a> (where the PRIV paradoxically does quite well), makes me wonder about the future smartphone landscape for Android enthusiasts.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #115: So much Dutch.</title><link>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</link><pubDate>Fri, 03 Feb 2017 07:07:05 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</guid><description> Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:
+On Saturday, January 21, we had the privilege of seeing Herman van Veen perform live at the Oude Libertas Theatre. The previous time was a magical night many years ago in the Royal Theatre Carré in Amsterdam.
+Herman van Veen is a living, extremely active and up to date legend. To most Dutch people you’ll ever meet he is a formidable part of their rich cultural landscape.</description><content:encoded><![CDATA[ <p>Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:</p>
+<p>On Saturday, January 21, we had the privilege of seeing Herman van Veen perform live at the Oude Libertas Theatre. The previous time was a magical night many years ago in the <a href="https://en.wikipedia.org/wiki/Carr%C3%A9_Theatre">Royal Theatre Carré in Amsterdam</a>.</p>
+<p>Herman van Veen is a living, extremely active and up to date <em>legend</em>. To most Dutch people you’ll ever meet he is a formidable part of their rich cultural landscape.</p>
+<p>That evening, we heard so much Dutch spoken in the audience around us, it was easy to imagine that we had been teleported to a strange midsummer night’s performance, all the way back in The Netherlands.</p>
+<p>Whatever the case may be, at 72 this artist and superb human being seems to have energy and magic flowing from every limb.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170121_2151270.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170121_2151270-1024x768.jpg"
+        /> </a>
+</figure>
+
+<h1 id="things-which-running-nerds-might-find-interesting">Things which running nerds might find interesting</h1>
+<h2 id="the-dutch-watch">The Dutch Watch</h2>
+<p>I had to start facing facts.</p>
+<p>The <a href="/tag/samsung-gear-fit-2/">Samsung Gear Fit 2</a> and I were not going to make a success of our relationship. The GF2 (haha) is great if you’re looking for a hybrid smart-fitness-watch. However, I was using it primarily for running, and then one tends to run (I’m on a roll here) into its limitations.</p>
+<p>My inner engineer, the same guy who has a thing for hiking shoes, as they are the couture epitome of function over form, made the call and selected the <a href="https://www.wareable.com/gps-running-watch/tomtom-spark-3-review">TomTom Runner 3 Cardio+Music</a> watch (the Runner 3 and the Spark 3 are identical except for styling) to replace my GF2.</p>
+<p>Hidden in the name, there’s a <em>subtle</em> hint as to the focus of this wearable.</p>
+<p>It has a less pretty monochrome display that manages to be highly visible even in direct sunlight. It does not have a touch screen, instead opting for a less pretty directional control beneath the screen that always manages to select the correct menu option. The menu options remind me of the first TomTom car navigation we bought years ago: Not pretty, but with exactly the right functions, in this case for runs and hikes.</p>
+<p>Most importantly, the watch has an explicit function for syncing so-called QuickGPSFix data, so that when you want to start running, it is able to acquire a GPS lock almost immediately. Importantly, the device keeps you informed of its progress via the ugly user interface.</p>
+<p>Also, I am now able to pre-load GPX routes. Below you can see me navigating my local mountain like a pro with a sense of direction, when in reality I am an amateur with pathological absence of sense of direction:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170128_1626242.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170128_1626242-1024x768.jpg"
+        
+            alt="That’s me in the corner, losing my Re-Samsung."/> </a><figcaption>
+            <p>That’s me in the corner, losing my Re-Samsung.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Anyways, after being initially quite happy with the GF2, I am now more careful with my first judgement of the Runner 3. What I can say is that the first 40km with it on my arm has been a delight of function-over-form.</p>
+<p>P.S. Well done Dutchies. The optical heart rate sensor in the previous Spark was based on technology by South African company LifeQ. I have not been able to find a good reference for the situation in the Spark 3 / Runner 3.</p>
+<h2 id="experiment-alcohol-zero-early-results-not-what-i-was-hoping">Experiment Alcohol Zero early results: Not what  I was hoping</h2>
+<p>The completely subjective Experiment Alcohol Zero (EAZ) I announced in <a href="/2017/01/05/the-2016-to-2017-transition-post/">my 2016 to 2017 transition post</a> has almost run (err… too soon?) to completion.</p>
+<p>November of 2016 was my best running month of that year: I clocked in at 80km.</p>
+<p>EAZ started on January 4 and will conclude probably on Friday February 3.</p>
+<p>Although I was a much more boring person in January of 2017, I did manage to run 110 km. The runs were all longer and substantially faster than my best runs of 2016.</p>
+<p>Subjectively, there was just always energy (and the will) available to go running, and subjectively there was more energy available during the runs. This is probably for a large part due to the vicious upward spiral of better glucose processing, better sleep, hence better exercise, rinse, repeat.</p>
+<p>I am planning to use some of this extra energy to sweep these results right under the proverbial carpet in order to try and limit the suffering that it might lead to.</p>
+<p>(Seriously speaking, I will have to apply these findings to my pre-EAZ habits in a <em>reasonable</em> fashion. :)</p>
+<h1 id="things-which-linux-nerds-might-find-interesting">Things which Linux nerds might find interesting</h1>
+<p>My whole web-empire, including this blog, my <a href="https://vxlabs.com/">serious nerd business blog</a>, and a number of websites I host for friends and family, has been migrated by the wonderful webfaction support to a new much faster shared server in London.</p>
+<p>The new server sports 32 Intel Xeon cores, is SSD based and has a newer Linux distribution, so I was able to move over all of my wordpress instances to PHP 7.</p>
+<p>Upshot: This blog might feel microscopically quicker! (I am a bit worried with my empire now being stuck in the heart of Article 50. I worry slightly more about a great deal of my data that lives on servers in the USA however. Probably more about that in a future post.)</p>
+<p>On the topic of going around the bend, I now have emacs running on my phone, and I’m able to access all of my orgmode notes from there. It looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/Screenshot_20170116-151204.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/Screenshot_20170116-151204-576x1024.png"
+        /> </a>
+</figure>
+
+<p>One might now ask a pertinent question like: “So Charl, how often do you make use of this wonderful functionality?”</p>
+<p>To which I would currently have to answer: “Including showing the screenshot on my blog? Once.”</p>
+<p>I’m convinced that it’s going to come in handy at some point.</p>
+<h1 id="things-which-backyard-philosophy-nerds-might-find-interesting">Things which backyard philosophy nerds might find interesting</h1>
+<p>With what’s happening in the US at the moment, which is actually just one nasty infestation of the political climate around the globe, I really appreciate coming across more positive messages with advice on how we can move forward as a human race in spite of the efforts of the (libertarian) right.</p>
+<p>The World Economic Forum’s <a href="http://wef.ch/igd17">Inclusive Growth and Development Report 2017</a> is one such message. As summarised in <a href="https://www.weforum.org/agenda/2017/01/these-are-the-most-inclusive-advanced-economies-in-the-world">this WEF blog post</a>, it tries to answer the question:</p>
+<blockquote>
+<p>How can we increase not just GDP but the extent to which this top-line performance of a country cascades down to benefit society as a whole?</p>
+</blockquote>
+<p>In other words, they present approaches for making our economies more inclusive, thus helping to mitigate the huge gap between rich and poor.</p>
+<p>According to the report, the answer entails that national and international economic policies should focus primarily on people and living standards. In order to do this, each country will have to work on a different mix of education, infrastructure, ethics, investment, entrepreneurship and social protection.</p>
+<p>The countries that are currently doing the best in terms of having inclusive economies, and are generally shining examples of socialism working extremely well thank you very much, are Norway, Luxembourg, Switzerland, Iceland, Denmark, Sweden, Netherlands, Australia, New Zealand and Austria. See <a href="https://www.weforum.org/agenda/2017/01/these-are-the-most-inclusive-advanced-economies-in-the-world">the blog post</a> for the specific different factors helping each of these countries to perform so well on the Inclusive Development Index (IDI).</p>
+<p>Although the countries in the top 10 list all still have room for improvement, it’s great to see that it is actually quite a great idea to combine socialism (which is actually just another word for being further along the human development dimension) with economic survival and even success in today’s world.</p>
+<p>(I am still hopeful that one day Gene Roddenberry’s dream of the <a href="https://en.wikipedia.org/wiki/United_Federation_of_Planets">United Federation of Planets</a> will be realised.</p>
+<p>LLAP!)</p>
+<p> </p>
+]]></content:encoded></item><item><title>PGP Never Gonna Give You Up</title><link>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</link><pubDate>Sun, 11 Dec 2016 15:34:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</guid><description> (Summary: Cryptographically signing messages with my long-term PGP keys is too important to give up. Doing this on my Android telephone is easier than I thought. You should strengthen your secret key encryption if you&amp;rsquo;re also going to do this.)
+Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare, wrote that he was giving up on PGP, or at least on long term PGP keys.
+I agree with many of his points, especially the complexity of managing those keys, lack of forward secrecy (if someone were to steal my keys, they could decrypt all past conversations, unlike for example Signal) and accessibility (how do you verify a message with a baby on your left arm and your telephone in your right?</description><content:encoded><![CDATA[ <p><em>(Summary: Cryptographically signing messages with my long-term PGP keys is
+too important to give up. Doing this on my Android telephone is easier than I
+thought. You should strengthen your secret key encryption if you&rsquo;re also
+going to do this.)</em></p>
+<p>Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare,
+<a href="https://blog.filippo.io/giving-up-on-long-term-pgp/">wrote that he was giving up on PGP, or at least on long term PGP keys</a>.</p>
+<p>I agree with many of his points, especially the complexity of managing those
+keys, lack of forward secrecy (if someone were to steal my keys, they could
+decrypt all past conversations, unlike for example Signal) and accessibility
+(how do you verify a message with a baby on your left arm and your telephone
+in your right?). More generally, it makes a great deal of sense to make your
+security a moving target, <a href="https://twitter.com/FiloSottile/status/807612248223051776">as one of the Ars Technica commenters
+astutely summarised Filippo&rsquo;s ideas</a>.</p>
+<h2 id="cryptographic-signatures-ftw">Cryptographic signatures FTW</h2>
+<p>However, in spite of these factors, I am not yet ready to give up my PGP long-term keys.</p>
+<p>Why is that?</p>
+<p><em>Well, one of the most important uses of my long-term PGP keys is to
+cryptographically sign messages that can be verified by people in my network
+as having come from my hands.</em></p>
+<p>For example, when I change my phone or re-flash its firmware (this has
+happened 3 or 4 times over the past two months because Android), I send
+PGP-signed messages to my main Signal correspondents with our new safety
+numbers.</p>
+<p>With all of these correspondents I have in the past either done some sort of
+in-person formal PGP signing procedure, or I make use of the web of trust, or
+I rely on <a href="https://keybase.io/">keybase</a>. My business cards even
+have my key fingerprint on them (yes, I&rsquo;m one of those nerds).</p>
+<p>At their ends, the recipients of my messages are able to determine with an
+extremely high degree of confidence that <em>I</em> wrote the exact message they
+opened.</p>
+<h2 id="accessible-pgp-on-your-smartphone-with-openkeychain">Accessible PGP on your smartphone with OpenKeychain</h2>
+<p>In terms of accessibility, the post did make me curious enough to experiment
+with a mobile PGP solution, as I also did have to agree that I&rsquo;ve in the
+past often had to wait until I was behind one of my own laptops or
+workstations to PGP-verify a message.</p>
+<p>As my one friend explained on Signal:</p>
+<p>It&rsquo;s tricky to verify a message with a baby in your left hand and a telephone in your right!</p>
+<p><a href="https://www.openkeychain.org/">OpenKeychain</a> to the rescue!</p>
+<h3 id="strengthen-your-secret-key-encryption">Strengthen your secret key encryption</h3>
+<p>Seeing that I was planning on carrying my long-term private keys around on my
+telephone (BlackBerry PRIV, FDE encryption active FWIW), I had to double-check
+the security of the secret key encryption.</p>
+<p>It turns out that PGP encrypts each of your secret keys with a hash of the
+passphrase you supply. My passphrase is significantly longer than the average,
+and consists of random characters (uppercase, lowercase, numbers,
+symbols). Passphrase length and complexity is by far the most important factor
+determining the safety of your encrypted secret key.</p>
+<p>However, I had the default SHA-1 hash (ouch) with only 64k
+iterations. Iterating the hash is called <a href="https://en.wikipedia.org/wiki/Key_stretching">key stretching</a>: the
+passphrase is hashed, that result is hashed, and so on, for very many times,
+so that the testing of each passphrase takes more time, complicating
+brute-force cracking approaches.</p>
+<p>Inspired by <a href="http://nullprogram.com/blog/2012/06/24/">the writings of
+Chris Wellons</a> who keeps his encrypted secret keys on a public website
+(!!!), I reconfigured my private key encryption to use 1 million iterations of
+the SHA-512 hash, and to use AES-256 for the encryption itself:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
+</code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
+follow the prompts. You will have to enter your passphrase, and then enter
+your new passphrase twice.</p>
+<p>You can then check that this operation is successful by using the command <code>gpg &ndash;list-packets secring.gpg</code>. My output looks as follows. Most important is that algo is 9 (AES-256), hash is 10 (SHA-512) and protect count in my case is just over 1 million.</p>
+<pre><code>:secret key packet:
+version 4, algo 1, created 1376407300, expires 0
+skey[0]: [4096 bits]
+skey[1]: [17 bits]
+iter+salt S2K, algo: 9, SHA1 protection, hash: 10, salt: blabla
+protect count: 1015808 (
+protect IV:
+encrypted stuff follows
+keyid: 384435C7E77A4564
+</code></pre>
+<p>SHA-512 is the slowest hash which PGP offers (see <a href="http://thepasswordproject.com/oclhashcat_benchmarking">these oclHashcat
+benchmarks for example</a>), which means that each iteration of a brute-force
+password cracking attempt will take a bit longer / eat more GPU watts, which
+is exactly what we want. You can increase the protect count for as long as the
+delay on your smartphone is still tolerable.</p>
+<p>However, remember that a stronger and longer passphrase is much better! (so we
+do both)</p>
+<p>Other than that, remember that <a href="/2016/11/27/android-security-in-2016-is-a-mess/">Android security is far
+from good</a>, so do as much as you can to keep your phone safe (keep up with
+OS updates, stay away from unofficial app markets, and so on).</p>
+<h3 id="use-your-keys-with-openkeychain">Use your keys with OpenKeychain</h3>
+<p>I was pleasantly surprised to learn that I could directly import both my
+<code>secring.pgp</code> and <code>pubring.gpg</code> files from my
+<code>~/.gnupg</code> directory. Right after selecting secring.pgp for import,
+the UI looked like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161209-075007.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161209-075007-576x1024.png"
+        /> </a>
+</figure>
+
+<p>You can see the old 1024 bit key I made in 2000 to use for my Debian
+activities, and the 4096 bit key I currently use.</p>
+<p>After importing your secret and public keyring, you are able to encrypt,
+decrypt, sign and verify any files or clipboard contents on your Android
+phone:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-170851.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161211-170851-576x1024.png"
+        /> </a>
+</figure>
+
+<p>So if I receive something like this via Signal:</p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Never gonna give you up, never gonna let you down
+Never gonna run around and desert you
+Never gonna make you cry, never gonna say goodbye
+Never gonna tell a lie and hurt you
+-----BEGIN PGP SIGNATURE-----
+
+iQFEBAEBCgAuJxxTdGVmYW4gdmFuIGRlciBXYWx0IDxzdGVmYW5Ac3VuLmFjLnph
+PgUCWE2aUQAKCRDl/rykoDTdZZgvB/9Yi76C9o7xIgQ/d85WbnKDjNosp5uXzgHm
+A2y+cxZDLVNLTMrlCTXOMRulaJMvb3Ocsvi+/gQVUF49fT74EXlZpZvvdTzhQfa2
+VvQPjZmf/9PNzB3pgUtEDBwyLC21C6dqU+y7mPk91Aw1m8cKBQUSHmQxa7F/dCFc
+DCuWOcXjNt5vLQ2Q8mQBMpHaG9J5+4/0k/GEHAVcm55fzb7o2hJyEVb3EoYy8Pls
+khIwJpZVdwyY4FPoLXW3iJYanC5qoOoS81YLCyLEyin0jH56ve05uHbF0XcaNY4h
+NupkN2D+Dt4X2m2FXieM27eG/Ty9hVx7n7B3pT4P9KqeFDX8hQ/q
+=c7j9
+-----END PGP SIGNATURE-----
+</code></pre>
+<p>I long-press, copy the message and then select “read from
+clipboard” from OpenKeychain&rsquo;s Encrypt/Decrypt screen, which, if
+everything checks out, shows me the following message:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-202817.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161211-202817-576x1024.png"
+        /> </a>
+</figure>
+
+<p>I can now rest assured that <a href="http://mentat.za.net/">this
+specific buddy of mine</a> is never gonna give me up and is never gonna let me
+down.</p>
+<p>Cryptographically signing a message is equally easy, except that you&rsquo;ll
+have to enter that long passphrase of yours. OpenKeychain will then make the
+signed and optionally encrypted text text available for sharing to any app, or
+for copying and pasting:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-174458.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161211-174458-576x1024.png"
+        /> </a>
+</figure>
+
+<p>Easy peasy, and tested under all sorts of usually-PGP-unfriendly conditions!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Maintaining PGP long-term keys certainly has its issues, but the possibility
+of cryptographically signing any message so that recipients can establish with
+high confidence that it originated from you is too important to give up.</p>
+<p>With an app like OpenKeychain and sufficiently strong passphrase hashing and
+secret key encryption, you are able to use your keys with ease from your
+telephone.</p>
+<p>Granted, you are trading in some security for this convenience. However, given
+the choice between discarding my PGP keys completely, vs. taking these steps,
+I&rsquo;ll hold on to my keys for a little while longer.</p>
+<p>In order to mitigate the potential damage of one of my long-term keys being
+compromised, I have resolved to generate and start using a new private key as
+soon as I run through my current batch of business cards, and to continue
+rotating like this in the future.</p>
+<p>Let me know in the comments what you think. Do you know of a better
+alternative for remotely verifying the identity and messages of your
+correspondents?</p>
+]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
+<p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
+<p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
+<p>Read on for more.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/google_android_active_base.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/google_android_active_base.png"
+        
+            alt="Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source."/> </a><figcaption>
+            <p>Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="an-illustration-mediatek--blu-phones-are-uploading-your-data">An illustration: MediaTek / BLU phones are uploading your data.</h1>
+<p>You might recently have read about <a href="https://web.archive.org/web/20161117073724/https://hackernoon.com/no-one-cares-about-the-security-of-your-unlocked-android-phone-cd8ad4aae4c5?gi=e0e2979fddb">the incident with the popular BLU phones sold by Amazon in the US</a> (interestingly, the author deleted their article from both hackernoon.com and from medium; I now link to the Wayback Machine&rsquo;s stored copy). It turned out that these phones were regularly sending bunches of personal information to servers in China: text messages, call logs, contact lists and so forth. After more investigation, it came to light that this was happening via a low-level piece of software called ADUPS.</p>
+<p>When Google had previously updated its systems to check for ADUPS, MediaTek (they make the chipset in millions of low-end phones) simply modified their system software to evade Google&rsquo;s checks. Nice one MediaTek!</p>
+<p>This is a painful example of the fact that the software on your phone, although based on Google&rsquo;s software, is customised by the phone vendor. The further frustrating effect of this is that when Google releases security patches to Android (<a href="https://source.android.com/security/bulletin/index.html">which they do regularly</a>), there is very little incentive for the phone vendor to spend money on updating phones they have already sold.</p>
+<h1 id="what-about-a-list-phone-makers">What about A-list phone makers?</h1>
+<p>I bought my LG G3 in 2014 here in South Africa. It was LG&rsquo;s flagship in that year, and sold extremely well. LG is a well-known smartphone OEM.</p>
+<p>However, only because I took steps to flash the official KDZ image (V30a-ZAF-XX), which consumers would normally not do, am I now running Android 6. However, my security patch level is 2016-03, meaning there are 6 months of security updates I don&rsquo;t have. (You can check your <strong>Android security patch level</strong> by going to <em>Settings | General | About Phone | Software info</em>.)</p>
+<p>Before you think six months lag is not too bad, here&rsquo;s a nice example vulnerability from <a href="https://source.android.com/security/bulletin/2016-11-01.html">the November 1 Android security bulletin</a>:</p>
+<blockquote>
+<p>The most severe of these issues is a Critical security vulnerability that could enable remote code execution on an affected device through multiple methods such as email, web browsing, and MMS when processing media files.</p>
+</blockquote>
+<p>In short, your phone could be hacked wide open from afar through a single innocent-looking email, MMS or web-page.</p>
+<p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
+<p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
+<h2 id="a-scary-little-aside">A scary little aside</h2>
+<p>I just tried Check Point Labs' <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12-576x1024.png"
+        
+            alt="LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter."/> </a><figcaption>
+            <p>LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter.</p>
+        </figcaption>
+</figure>
+</p>
+<p>So my manually updated LG G3 is still very much vulnerable to QuadRooter. In theory, my phone could be (or already has been) <a href="http://www.techradar.com/news/phone-and-communications/mobile-phones/android-quadrooter-vulnerability-should-you-be-worried-1326286">rooted and pillaged by any old innocent-looking app</a>, although I keep mostly to the official Play Market, so the risk is slightly mitigated.</p>
+<p>At this stage, even as a relatively knowledgeable user, there&rsquo;s not much I can do to patch my phone against this vulnerability.</p>
+<h1 id="googles-leniency-cuts-both-ways-more-than-a-billion-android-users-but-most-of-them-vulnerable">Google&rsquo;s leniency cuts both ways: More than a billion Android users, but most of them vulnerable.</h1>
+<p>It&rsquo;s fantastic that Google&rsquo;s openness and leniency with Android has helped to make smartphone technology accessible to more than a billion users (probably closer to 2 billion taking into account Chinese Android phones not connected to Google services, see <a href="http://ben-evans.com/benedictevans/2016/7/25/platform-wars-final-score">Ben Evans&rsquo;s post</a>). However, this same leniency allows manufacturers to be irresponsible about keeping their customers safe.</p>
+<p>The fundamental problem here is that there are a great deal of Android phone vendors who make phones from absolute entry-level to top-of-the-line flagships, who have very little incentive to spend money on post-sale security updates.</p>
+<p>Once you&rsquo;ve paid for the phone, you&rsquo;re not important enough anymore to have a secure(ish) telephone.</p>
+<h1 id="what-can-we-do">What can we do?</h1>
+<h2 id="buy-an-iphone-no-really">Buy an iPhone. No really.</h2>
+<p>I&rsquo;ve been using Android since the HTC Desire Z. I love Android, because I love Linux which I have been using since 1993.</p>
+<p>However, if money is no object, my only sound advice can be to <strong>buy an iPhone</strong>. Apple is still shipping security updates, albeit on iOS 9, for the iPhone 4s which was released in 2011 (5 years ago). The iPhone 5 is still being kept up to date with iOS 10.</p>
+<p>Furthermore, in terms of phone encryption, <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">iOS 4, released 6 years ago, was already more advanced than than Android 7 Nougat</a>, released in August of this year. In short, already then Apple made better choices in how exactly different files are encrypted, whilst Android implemented full disk encryption, which for the smartphone usecase is not the right choice. In Nougat, Android has finally also changed to file-based, but they&rsquo;re missing important parts of the puzzle. <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">The phone encryption blog post</a> I link to is insightful, please take a look.</p>
+<h2 id="stick-with-android-pixel-or-nexus">Stick with Android Pixel or Nexus.</h2>
+<p>If you prefer sticking with Android, the best choice is getting an official Google device, which means either a Nexus or a new Pixel. <a href="https://support.google.com/pixelphone/answer/4457705#pixel_phones&amp;nexus_devices">Google&rsquo;s policy for Pixel and Nexus security</a> states that they will ship security updates either for three years after device introduction, or for 1.5 years after the device was last officially sold from the Google Store, whichever is longer.</p>
+<p>Unfortunately, iPhones are really expensive, and Google&rsquo;s new Pixel devices are also aiming for the higher-end market. The previous generation Nexus phones offer a more mid-range but very temporary reprieve.</p>
+<p>In other words, most normal consumers on a budget, i.e. the largest part of the Android user base, actually of the smartphone-using world, are stuck with insecure, vulnerable phones. This is not cool.</p>
+<h2 id="consider-installing-a-custom-rom">Consider installing a custom ROM.</h2>
+<p>Installing a custom ROM such as Cyanogenmod brings with it another set of issues with regard to the phone being rooted, and with regard to driver-level support of proprietary hardware. In any case, this is not something your average consumer will have access to, but Android gurus can certainly apply.</p>
+<p>Efforts like <a href="https://copperhead.co/android/">CopperheadOS</a> (hardened Android) are certainly promising, but it will be quite a while before they are accessible to the largest group of Android users.</p>
+<p><strong>Update:</strong> David Metcalfe pointed out in the comments that you can buy a secure Android phone from Copperhead.  If you are in the US or Canada, and you have some budget, you could buy the <a href="https://copperhead.co/android/buy">LG Nexus 5x or the Huawei Nexus 6P with CopperheadOS pre-installed</a>. It&rsquo;s great that this is available, but due to price and geography not really accessible to most Android users.</p>
+<h2 id="keep-manufacturers-honest">Keep manufacturers honest.</h2>
+<p>Ideally, Google starts taking a much harder line with manufacturers who put Android on their phones. They could for example maintain and publish a list of phone models that are kept up to date with the latest security fixes, and a list of those that aren&rsquo;t.</p>
+<p>I was happy to see that at least <a href="http://news.softpedia.com/news/huawei-is-the-best-oem-at-applying-android-security-updates-505767.shtml">Huawei has a pretty good record</a> in terms of keeping their Android phones up to date (although the results were probably skewed as they counted the Huawei-produced Nexus 6P phones, and these formed the majority of the test set, doh). This factor will play a role in the next smartphone that I buy.</p>
+<p>Do you know of any (other) manufacturers of more affordable Android phones who are committed to keeping their users safe? Please let me know in the comments!</p>
+<h1 id="addendum-android-phones-with-acceptable-security-update-records">Addendum: Android phones with acceptable security update records</h1>
+<h2 id="blackberry-priv-dtek50-and-dtek60">Blackberry PRIV, DTEK50 and DTEK60</h2>
+<p>lobste.rs user jabberwock <a href="https://lobste.rs/s/8g2nkz/android_security_2016_is_mess/comments/4p7rwr#c_4p7rwr">tipped me off to the fact that Blackberry&rsquo;s Android phones get monthly security updates</a>. Read more at <a href="http://crackberry.com/blackberry-priv-dtek50-and-dtek60-november-updates-now-available">CrackBerry</a> and here in the <a href="http://support.blackberry.com/kb/articleDetail?articleNumber=000038666">BlackBerry Android security bulletin for November</a>: It looks like these phones receive monthly updates (<strong>when not blocked by the carrier, <em>sigh</em></strong>)** **and have already received the November 2016 update.</p>
+<p>Here is <a href="http://blogs.blackberry.com/2015/11/managing-android-security-patching-for-priv/">the original blog post where BlackBerry explained their security patching policies for the PRIV</a>.</p>
+<h1 id="updates">Updates.</h1>
+<h2 id="wednesday-2020-02-26">Wednesday 2020-02-26.</h2>
+<p>I wanted to post some relevant updates, so here goes (okay just one):</p>
+<ul>
+<li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
+</ul>
+]]></content:encoded></item><item><title>Z Launcher: A breath of fresh air in the world of Android.</title><link>https://cpbotha.net/2016/01/04/z-launcher-a-breath-of-fresh-air-in-the-world-of-android/</link><pubDate>Mon, 04 Jan 2016 12:42:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/04/z-launcher-a-breath-of-fresh-air-in-the-world-of-android/</guid><description> Most Android launchers are small variations on the same concept: One or more screens of widgets and icons (sometimes grouped) which can be used to start various different apps. It’s usually up to the user to place these icons on the screen, much like we’ve been doing for ages on our computer desktops.
+If you too are in the mood for a more innovative take on the launcher, you could do much worse than installing Nokia’s (yes, they live!</description><content:encoded><![CDATA[ <p>Most Android launchers are  small variations on the same concept: One or more screens of widgets and icons (sometimes grouped) which can be used to start various different apps. It’s usually up to the user to place these icons on the screen, much like we’ve been doing for ages on our computer desktops.</p>
+<p>If you too are in the mood for a more innovative take on the launcher, you could do much worse than installing Nokia’s (yes, they live!) free <a href="https://play.google.com/store/apps/details?id=com.nokia.z">Z Launcher app</a>.</p>
+<p>It looks and works like this:</p>
+<div class="gallery galleryid-2296 gallery-columns-3 gallery-size-medium" data-carousel-extra='{"blog_id":1,"permalink":"https:\/\/cpbotha.net\/2016\/01\/04\/z-launcher-a-breath-of-fresh-air-in-the-world-of-android\/"}' id="gallery-2">
+<figure class="gallery-item">
+<div class="gallery-icon portrait">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-2" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="2297" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}' data-image-title="zlauncher_start_screenie" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie-576x1024.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie-169x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie.jpg" data-orig-size="720,1280" data-permalink="https://cpbotha.net/2016/01/04/z-launcher-a-breath-of-fresh-air-in-the-world-of-android/zlauncher_start_screenie/" height="300" sizes="(max-width: 169px) 85vw, 169px" src="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie-169x300.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie-169x300.jpg 169w, https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie-576x1024.jpg 576w, https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_start_screenie.jpg 720w" width="169"/></a>
+</div></figure><figure class="gallery-item">
+<div class="gallery-icon portrait">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-2" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="2299" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="zlauncher_scribble" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble-166x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble.jpg" data-orig-size="322,583" data-permalink="https://cpbotha.net/2016/01/04/z-launcher-a-breath-of-fresh-air-in-the-world-of-android/zlauncher_scribble/" height="300" sizes="(max-width: 166px) 85vw, 166px" src="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble-166x300.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble-166x300.jpg 166w, https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_scribble.jpg 322w" width="166"/></a>
+</div></figure><figure class="gallery-item">
+<div class="gallery-icon portrait">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-2" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="2298" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}' data-image-title="zlauncher_refine_screenie" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie-576x1024.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie-169x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie.jpg" data-orig-size="720,1280" data-permalink="https://cpbotha.net/2016/01/04/z-launcher-a-breath-of-fresh-air-in-the-world-of-android/zlauncher_refine_screenie/" height="300" sizes="(max-width: 169px) 85vw, 169px" src="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie-169x300.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie-169x300.jpg 169w, https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie-576x1024.jpg 576w, https://cpbotha.net/wp-content/uploads/2016/01/zlauncher_refine_screenie.jpg 720w" width="169"/></a>
+</div></figure>
+</div>
+<p>On the left is the default start screen. It shows a list of the apps I’ve most recently started, with the most used ones at the top (you can see that I was quite busy <a href="https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">using Signal</a> at that point).</p>
+<p>If you would like to start some other app which is not on the current short list, or view or call a contact, simply scribble the first letter of the app or contact on the screen! In my case, I scribbled a “g” (the “p” screenshot is from the Z Launcher play store page, because I was not able to screenshot it on my own phone), at which point it listed apps and contacts with the letter “g”. Again all of the “g” apps are listed in order of how much I’d interacted with them at that point.</p>
+<p>Swiping to the right gives you a traditional widget area (here I have a weather (<a href="https://play.google.com/store/apps/details?id=no.nrk.yr">yr.no</a> is the best, even here in South Africa) and a calendar widget), and swiping to the right gives you a traditional searchable list of all of your apps.</p>
+<p>Z Launcher continuously learns about the apps and other items you interact with the most, and will always show you the ones that you interact with the most at the top. Over the past week of testing, this has saved me a significant amount of time finding and starting the phone functions I was looking for.</p>
+<p>For saving me time, and doing it in an aesthetically pleasing way: <strong>5 stars for you Z Launcher!</strong></p>
+]]></content:encoded></item><item><title>The Next Level. [Weekly Head Voices #22]</title><link>https://cpbotha.net/2010/05/13/the-next-level-weekly-head-voices-22/</link><pubDate>Thu, 13 May 2010 20:07:33 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/05/13/the-next-level-weekly-head-voices-22/</guid><description> Due to the sleep- and concentration disrupting side-effects of a recent fantastic and life-changing event, I have skipped two editions of the Weekly Head Voices. You’re going to have to bear with me, as it might happen again more than once in the coming months, whilst the ramification of aforementioned event matures some more and finally decides that those funny hairy creatures often occupying the same spaces that she does do deserve some rest.</description><content:encoded><![CDATA[ <p>Due to the sleep- and concentration disrupting side-effects of a recent fantastic and life-changing event, I have skipped two editions of the Weekly Head Voices.  You’re going to have to bear with me, as it might happen again more than once in the coming months, whilst the ramification of aforementioned event matures some more and finally decides that those funny hairy creatures often occupying the same spaces that she does do deserve some rest.  Sometimes.</p>
+<p>This edition of the Weekly Head Voices is almost 100% backyard philosophy, and more specifically is concerned with the meta-physical state <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=vx1cYUb-0f4" title="YouTube clip of Die Antwoord describing Zef, Full Flex and The Next Level. Watch at your own risk.">some</a> (language NSFW), in a brilliant exercise in post-modernistic satire, call The Next Level.  Let’s take a gentle start.</p>
+<p>First have a look at this mobile phone:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/ylFb4pqAUd8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>The phone is not only glaring at a Rubik’s Cube, but IT’S PHYSICALLY SOLVING THE THING without even breaking a sweat, or begging for a battery recharge.  This phone has clearly reached the Next Level (of phones).</p>
+<p>Then check out this robot:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/bI06lujiD7E?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Yes people, the robot is able to move by HAPPILY BALANCING ON A BALL, even recovering from a shove by its future human slave. That’s pure robot hardcore, and definitely a robot that’s reached the Next Level.</p>
+<p>Humans have a next level too. Because we currently seem to be by far the dominant life-form on our sensory horizons, striving for this is a slightly more complex endeavour than being able to balance on a ball like that robot.  So how can we strive for the next level?</p>
+<p>For a start, take a look at this <a href="http://en.wikipedia.org/wiki/List_of_cognitive_biases" title="List of cognitive biases on wikipedia.">list of cognitive biases on wikipedia</a>. In essence, most humans are basically walking meat bags filled with misunderstandings, and convinced that they’re not. Related to this, and funny in a tragic kind of way, is the <a href="http://www.boingboing.net/2010/05/12/confident-dumb-peopl.html" title="Dunning-Kruger effect on boingboing">Dunning-Kruger effect</a>, which boils down to the fact that people who are incompetent, are by nature even less capable of recognising their own incompetence (vaccine / main-stream health denialists and climate change denialists are textbook cases of this). In any case, one would be taking a really big step up the ladder to the next level if one were to memorise the list of cognitive biases above, and were to work really hard every day at trying to compensate for some of these effects in oneself.</p>
+<p>Generalising this idea, I think a really great life philosophy is simply to strive every day to be better at something than you were the day before: Cycle a bit faster, remember better, think and see more clearly, be kinder. If one were to keep this up throughout one’s life, one will probably end up in a Very Good Place (philosophically that is).</p>
+<p>Something else that one can try to practise in one’s journey to the mythical next level is meditation.  A friend recently posted the following Google TechTalk by Philippe Goldin on the neuroscience behind mindfulness meditation.  It’s 50 minutes long, so feel free to watch it after you finish reading this post:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/sf6Q0G1iHBI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I wasn’t aware that what I was doing in essence comes down to mindfulness meditation.  In contrast to concentration meditation, where the goal is focusing on the same thing (a mantra, an object) the whole time, mindfulness is about opening the mind and letting <em>the now</em> flow in, appreciating and mentally tasting it without judging.  Although alternative health sites already claim the world (as with all things alternative health, you should ignore these without hesitation), science is <a href="http://www.skepsis.nl/mindfulness.html" title="skepsis article">cautiously optimistic</a> about the effects of mindfulness, in spite of the sub-standard quality of many of the studies.  There do seem to be definite personal benefits, and personally I am of the opinion that any form of regular meditation or focused self-reflection is an important catalyst in striving for the next level.</p>
+<p>The same phenomenon currently disrupting my sleep and concentration, is very much related to this whole discussion, and probably caused it. Whilst it has justifiably been remarked that the act of procreation certainly doesn’t require a rocket scientist (on the contrary, sometimes), helping to sculpt the initial result into a potentially <em>next level human being</em> is an exquisite form of art that requires decennia for the completion of a single piece.</p>
+<p>Thank you for stopping by to hear me ramble on, and please turn this into a real discussion by leaving a comment!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #6: Heroic Wave, Brainy Mice, Don’t shoot the Messenger.</title><link>https://cpbotha.net/2009/10/05/weekly-head-voices-6-heroic-wave-brainy-mice-dont-shoot-the-messenger/</link><pubDate>Mon, 05 Oct 2009 16:34:47 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/10/05/weekly-head-voices-6-heroic-wave-brainy-mice-dont-shoot-the-messenger/</guid><description> Week 40 of 2009 brought with it the following noteworthy tidbits:
+Gadgets:
+Public opinion concerning the HTC Hero is generally quite positive, although the extent to which the most recent firmware update has remedied the often-reported laggy touch-screen response leaves me suspicious:
+It does have a capacitative touch screen (the best kind), but is apparently still not as responsive as the iphone. It’s almost as if the finger swiping is seen as a suggestion instead of an actual command.</description><content:encoded><![CDATA[ <p>Week 40 of 2009 brought with it the following noteworthy tidbits:</p>
+<p><strong>Gadgets:</strong></p>
+<p>Public opinion concerning the <strong>HTC Hero</strong> is generally quite positive, although the extent to which the most recent firmware update has remedied the often-reported laggy touch-screen response leaves me suspicious:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/GYV9NNoI8Hc?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>It does have a <a href="http://en.wikipedia.org/wiki/Touchscreen" title="Wikipedia article on touch screens">capacitative touch screen</a> (the best kind), but is apparently still not as responsive as the iphone.  It’s almost as if the finger swiping is seen as a suggestion instead of an actual command.  Now before all you fanboys go “I told you so”, please remember that Android devices actually multi-task an arbitrary number of processes, whilst Apple has determined that fanboys are only allowed one at a time, with some recent small exceptions. I think I might just wait this one out. At least until next week.</p>
+<p>When I first heard about <strong>Google Wave</strong>, I was considering to let this one fad pass me by, so I didn’t go to any effort to get in on the invite frenzy. However, after seeing this short (7 minute) explanatory video:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/p6pgxLaDdQw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>… I am now regretting my laissez faire attitude. What completely convinced me, was the part where they show how you can organize BBQs using this fantastic new technology. WHY DIDN’T THEY SAY SO IN THE FIRST PLACE!</p>
+<p>Slightly more seriously, Wave enables you to combine multiple different forms of internet communication in one stream, called a wave (doh), that can be played back and forth in time and to which other Wave users can be added as subscribers, thus enabling them to take part in the stream by adding more emails, comments on other emails, real-time chats, documents, and anything else one might fancy throwing into the conversation. One is also able to link the wave bi-directionally to other information sources such as blogs, so that for example comments on a linked blog are automatically added to the wave, at the correct point in time.</p>
+<p>It’s pretty exciting to see where all of this is going.</p>
+<p><strong>Science:</strong></p>
+<p>On Wednesday I opposed an M.Sc. thesis that explored the <strong>relationship between DTI-based and resting state fMRI-based neural connectivity</strong>. DTI, or diffusion tensor imaging, is an MRI-based technique that is able to image neural fibre bundles in the human brain: Very loosely put, this is in fact imaging the brain’s connective wiring, i.e. the <em>structural</em> connectivity. With resting state fMRI, it is hypothesised that one can derive <em>functional</em> connectivity, i.e. fish out the regions that show such high time-activity correlation that there is a high probability that they are working together and hence are probably connectivity. Of course one would like to see these two being in agreement.</p>
+<p>In recent literature this has been demonstrated, but in this M.Sc. project no correlation was found. Unfortunately in science, it’s far harder to convince someone of the latter than of the former. Whatever the case may be, this raises interesting questions: Is there no correlation? Are the techniques not sensitive enough? Also in the back of my head throughout the very solid defense was the recent work on <a href="http://www.wired.com/wiredscience/2009/09/fmrisalmon/" title="Link to wired article on dead salmon fMRI.">finding fMRI activity in the brain of a dead salmon</a>. :)</p>
+<p>On Thursday, I was involved in a meeting with <strong>hardcore scientists</strong>. How do I know they were hardcore? Well, they do things with mice. Over the past years I have seen a terribly high correlation between scientific hardcoreness, judging by number of publications in journals such as Science and Nature, and Doing Stuff With Mice, Especially <strong>Genetically Modified Mice</strong>. Although correlation of course does not imply causation, I have decided to acquire some of above-mentioned mice. Perhaps their running around in my office with electrodes sticking out everwhere will also lead to Great Things.</p>
+<p><strong>Retail therapy:</strong></p>
+<p>Even when you don’t really need it, retail therapy is just fantastic. On my way to get coffee beans for the espresso machine at work, I, completely by chance of course, ran into <a href="http://www.amazon.de/Samsonite-Freeminder-Messenger-Kuriertasche-Notebookfach/dp/B001S03AN0/ref=sr_1_11?ie=UTF8&amp;s=sports&amp;qid=1254757634&amp;sr=8-11" title="Link to amazon.de page with messenger bag">this lovely little Samsonite messenger bag</a> (in black of course) and just had to get it for my baby netbook. It’s going to Atlantic City next week after all!</p>
+<p>Which reminds me, I will probably liveblog (haha I used it in a sentence) from <a href="http://vis.computer.org/VisWeek2009/" title="Link to VisWeek 2009 website">IEEE Visualization 2010</a> next week, which means that I am <em>optionally</em> excused from Weekly Head Voices duty. Ok?</p>
+]]></content:encoded></item></channel></rss>

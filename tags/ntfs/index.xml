@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ntfs on voices in my head</title><link>https://cpbotha.net/tags/ntfs/</link><description>Recent content in ntfs on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 22 Nov 2019 09:39:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/ntfs/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #184: The tai chi of you.</title><link>https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/</link><pubDate>Fri, 22 Nov 2019 09:39:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/</guid><description><![CDATA[ Welcome travellers of the great and beautiful information universe!
+(That universe was what we were promised. Thanks to the inherent and fundamental difficulties of our meat-based reality, we have ended up with something&hellip; different. I remain hopeful.)
+Here in this little corner, I&rsquo;ll be reminiscing about the minuscule thread of personal time stretched taut between Monday, November 11 and Sunday, November 18.
+pling
+(that&rsquo;s me plucking the thread. meat-space issues&hellip;)]]></description><content:encoded><![CDATA[ <p>Welcome travellers of the great and beautiful information universe!</p>
+<p>(That universe was what we were promised. Thanks to the inherent and
+fundamental difficulties of our meat-based reality, we have ended up with
+something&hellip; <em>different</em>. I remain hopeful.)</p>
+<p>Here in this little corner, I&rsquo;ll be reminiscing about the minuscule thread of
+personal time stretched taut between Monday, November 11 and Sunday, November
+18.</p>
+<p><em>pling</em></p>
+<p>(that&rsquo;s me plucking the thread. meat-space <em>issues</em>&hellip;)</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/gate_torso.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/gate_torso_huc1eb6320ccd545abffb0c9035b0ff0bf_2901377_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/gate_torso_huc1eb6320ccd545abffb0c9035b0ff0bf_2901377_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/gate_torso_huc1eb6320ccd545abffb0c9035b0ff0bf_2901377_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/gate_torso_huc1eb6320ccd545abffb0c9035b0ff0bf_2901377_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/gate_torso_huc1eb6320ccd545abffb0c9035b0ff0bf_2901377_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+One of the views at Gåte, Quoin Rock.
+</figcaption>
+</figure>
+<h2 id="intermezzo-for-computer-nerds-wsl2">Intermezzo for computer nerds: WSL2.</h2>
+<p>Microsoft released <a href="https://blogs.windows.com/windowsexperience/2019/11/11/releasing-windows-10-insider-preview-build-19013-into-the-slow-ring/">Windows build 19013 onto the Windows Insider Preview slow
+ring</a>, along with the shiny new WSL2.</p>
+<p>WSL is a truly interesting development in the evolution of Windows that enables
+users to run arbitrary Linux binaries with full Windows integration.</p>
+<p>I run a true-blue Linux installation of Emacs on WSL, displaying to X410 on the
+Windows side, manipulating files on the native Windows NTFS filesystem.</p>
+<p>This is substantially faster for some or other reason than running native
+Windows Emacs.</p>
+<p>Anyways, WSL2 is the next significant jump for WSL where Microsoft is now
+shipping a native Linux kernel together with Windows and exposing this kernel
+via a light-weight Hyper-V utility VM with dynamic host memory allocation.</p>
+<p>I was planning to wait until it got released on stable, but when MS announced
+that it was available on the slow ring of the Windows Insider Previews, the
+temptation was too great.</p>
+<p><a href="/2019/04/27/new-laptop-2019/">The ThinkPad, my main development machine</a>, is
+now running this hopefully relatively safe Windows preview.</p>
+<p>At this point, I can report that WSL2&rsquo;s IO on its own local filesystem is
+indeed much faster than WSL&rsquo;s. However, IO on the host NTFS filesystem is three
+to four times slower&hellip;</p>
+<p>This is indeed <em>quite</em> disappointing, as my work use-cases all involve
+accessing files on the NTFS side in some or other way.</p>
+<p>An unexpected bonus of WSL2 however, is the Docker integration.</p>
+<p>Docker for Windows Edge is able to use WSL2 as a backend, meaning much, much
+faster starting and general usage of docker containers on Windows.</p>
+<p>I really hope that MS is able to improve the 9p-based NTFS IO performance of
+WSL2 to at least that of WSL.</p>
+<p>Far more unrealistically, I hope that MS finally retires NTFS and replaces it
+with something better.</p>
+<p>Windows really has been making great strides over the past
+years. Unfortunately, NTFS is a gigantic ball and chain that is currently doing
+a great job of holding the whole of Windows back.</p>
+<h2 id="running">Running.</h2>
+<p>At the start of 2019, I wrote that I had an <a href="/2019/01/06/the-2018-to-2019-transition-post/#looking-forward-1">&ldquo;additional concrete (but very
+humble) running-related resolution for 2019, but I have decided to keep that
+quiet until it’s in the
+pocket&rdquo;</a>.</p>
+<p>Well, it&rsquo;s in the pocket and now I can talk about it.</p>
+<p>On Saturday morning I went out for my usual longer weekend run (longer is
+anything greater than 10km).</p>
+<p>It was cool for this time of the year, and there was almost no
+wind.</p>
+<p>Importantly, I had had a solid night of sleep.</p>
+<p>As I was going out, Morning-Voice whispered in my head: &ldquo;It&rsquo;s highly probably
+now, or never again in 2019&rdquo;.</p>
+<p>I nodded in agreement.</p>
+<p>My longer weekend run proceeded to morph successfully into the casual 20km run
+that I had envisioned as my most concrete 2019 running goal.</p>
+<p>Achievement unlocked!</p>
+<p>Although I had indeed formulated the goal as &ldquo;doing a casual 20km run&rdquo;, the
+<em>actual</em> goal was being fit enough to be able to do so more or less on a whim.</p>
+<p>For my next trick, I&rsquo;ll try my best not to let it slip back too far.</p>
+<p>OH HAI THERE LOOMING HOLIDAY SEASON!</p>
+<h2 id="things-are-not-always-what-they-seem">Things are not always what they seem.</h2>
+<p>After the morning run, we met with multi-decade close friends for lunch at the
+restaurant Gåte at Quoin Rock.</p>
+<p>That alternative &ldquo;å&rdquo;, <a href="https://en.wikipedia.org/wiki/%C3%85">also known as the
+a-ring</a>, should give the first clue that
+this place is hipper even than any of <a href="https://en.wikipedia.org/wiki/Stefon">Stefon&rsquo;s
+recommendations</a>.</p>
+<p>I found the whole experience to be quite magical.</p>
+<p>The 25 year old genius chef, Nicole Loubser, together with her team, has
+constructed the most amazing culinary experience.</p>
+<p>See the airport coffee and cigar below for example:</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/nothing_is_what_it_seems.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/nothing_is_what_it_seems_hufdda112e6330d1b97d80a5ecc0677b56_3423634_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/nothing_is_what_it_seems_hufdda112e6330d1b97d80a5ecc0677b56_3423634_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/nothing_is_what_it_seems_hufdda112e6330d1b97d80a5ecc0677b56_3423634_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/nothing_is_what_it_seems_hufdda112e6330d1b97d80a5ecc0677b56_3423634_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/nothing_is_what_it_seems_hufdda112e6330d1b97d80a5ecc0677b56_3423634_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+The first of the 7 course lunch menu at Gåte. The macchiato is in fact tomato
+soup with a pumpkin espuma on top, the ashtray is a paprika espuma with
+maltodextrin on top, and the cigar is potato bread.
+</figcaption>
+</figure>
+<p>Our company, together with the beautiful surroundings and the party that had
+entered via my mouth into my sensory system, made for a truly sublime
+afternoon.</p>
+<h2 id="electro-backyard-philosophy">Electro-backyard-philosophy.</h2>
+<p>TPN recently and very fortunately pointed out that <a href="https://jorisvoorn.com/">Joris
+Voorn</a>, probably my favourite electro artist, has a
+new album out.</p>
+<p>The album is of course called \\\\.</p>
+<p>Below is an excerpt from the lyrics of track 8, <em>This City (feat. Lazarusman)</em>:</p>
+<blockquote>
+<p>You are not alone.</p>
+<p>When you have yourself.</p>
+<p>How can you be alone<br>
+How can you be alone when you have yourself?<br>
+When you have you?</p>
+<p>it is you mastering the art, the tai chi, of you</p>
+<p>it is you realising that these fleeting moments are all for you</p>
+<p>you have yourself<br>
+you are not alone</p>
+</blockquote>
+<p>To my mind, these words contain echoes of both mindfulness and of
+transcendental idealism, all on the background of an über hip electro beat.</p>
+<p>At the almost 2 hour mark, these echoes contributed much pleasure to the mental
+aspects of my run.</p>
+<p>Now when I listen to it in a different state of mind, it is clear that the
+music made the impact that it did due to the specific set of circumstances at
+that moment.</p>
+<p>This is a good demonstration of how dependent an experience can be, and how
+fickle and unpredictable one&rsquo;s preferences.</p>
+<p>(How do we <em>ever</em> make good choices?)</p>
+<p>Whatever the case may be, I have chosen to keep hold of the lessons,
+irrespective of the subjective ephemerality of their container.</p>
+]]></content:encoded></item></channel></rss>

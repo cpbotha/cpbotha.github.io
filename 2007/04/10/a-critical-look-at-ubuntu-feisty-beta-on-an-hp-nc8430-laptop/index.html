@@ -1,0 +1,195 @@
+<!doctype html><html>
+<head>
+<title>a critical look at ubuntu feisty beta on an hp nc8430 laptop // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="a critical look at ubuntu feisty beta on an hp nc8430 laptop">
+<meta property="og:description" content="I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.
+So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, good power management, full support for modern GPUs, etc) is a different story.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>a critical look at ubuntu feisty beta on an hp nc8430 laptop</h1>
+</header>
+<div class=article-meta>
+<a href=/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/ class=article-date>
+<time datetime=2007-04-10T14:37:41.000+00:00 itemprop=datePublished>2007-04-10</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/nerd>nerd</a>
+<span>></span>
+<a class=article-category-link href=https://cpbotha.net//categories/review>review</a>
+<span>></span>
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.</p>
+<p>So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, <strong>good</strong> power management, full support for modern GPUs, etc) is a different story.</p>
+<p>Because XP is getting more scary by the day (WGA things, licensing issues) and Vista promises to be even more scary (binding itself to your motherboard) and because I’ve been hearing many good things about Ubuntu Feisty (the soon-to-be-released 7.04), I decided to give this a shot on my HP NC8430 laptop (Core Duo 2GHz, ATI X1600, 2G RAM, etc.). Initially I was determined to do this like a “normal” user, i.e. no tweaking config files and especially no script writing. I wanted to see how far your average user could get with a state of the art Linux installation on a laptop.</p>
+<p><strong>Installation</strong></p>
+<p>This was quite impressive: I defragmented my NTFS filesystem, booted from the Ubuntu Feisty live CD and did the install. Without getting all cocky about it, the installer resized my NTFS partition, created a new EXT3 partition and installed itself. Colour me impressed.</p>
+<p><strong>General configuration</strong></p>
+<p>After the first boot, I was greeted with a VESA-driven x.org and an incorrect resolution. My laptop screen supports 1680 x 1050. The Gnome Preferences | Screen Resolution applet couldn’t go higher than 1280 x 1024. I had to break my first rule and edit the x.org configuration file to add the higher resolution. Why is this still necessary? A novice user shouldn’t need to have to do this!</p>
+<p>I also installed the Ubuntu packaged fglrx ATI drivers with the Synaptic package management software, as I depend on good 3D graphics support for my work. The new Restricted Driver Manager helps one to complete this configuration in a user-friendly fashion.</p>
+<p>By running “aticonfig –set-powerstate 1”, the GPU can be set to a lower-power mode, leading to a cooler-running laptop, meaning the fans don’t spin up as often. This command can be added to the gnome startup by adding it to System | Preferences | Sessions. With “aticonfig –lsp” one can query the available powerstates. One can only change the powerstate if a single display is active.</p>
+<p>I removed “quiet” (but left “splash”) from the GRUB config for the default kernel in order to be able to see boot-up messages. These are helpful, especially when things take longer than they should.</p>
+<p><strong>Wireless networking support</strong></p>
+<p>This is the part that really impressed me: With Ubuntu 6.10 (Edgy Eft), I had to jump through all kinds of very user-unfriendly hoops to connect to my WPA wireless network. Feisty Beta simply popped up a pretty dialog box showing me the detected wireless networks and prompted me for the network key when I selected my WPA access point. I was online… colour me even more impressed!</p>
+<p><strong>Power management</strong></p>
+<p>This is when my jaw dropped ever so slightly (I’ll get to the “critical” part of this look a bit later): I selected suspend to RAM, which the laptop promptly did. When I pressed the power button to resume, I expected the typical black-screen-crashed-laptop syndrome. Instead, my desktop came back and I could continue working. This is a quantum leap in user-friendly Linux!</p>
+<p>However, I soon saw that at every third resume (on average) all my <em>keyboards would be dead</em>.</p>
+<p>It turns out something similar to <a href=https://launchpad.net/ubuntu/+source/linux-source-2.6.20/+bug/23497 title="link to ubuntu feisty bug where keyboard is dead after resume">this bug</a> applies to my laptop. By adding the necessary suspend/resume hooks as documented in the bug report (so that the i8042 module is removed before suspend and re-installed after resume), the problem seems to have been solved.</p>
+<p>Often after resume, my laptop gets stuck in the text console. I have to switch manually to X with Alt-F7. Another suspend/resume glitch is that the CPU Frequency Scaling Monitor gnome applet is stuck on 2GHz for my second core, although the core is running at half that most of the time. In general, things get a bit flaky after resume; often I need to restart X to get back to normal. I could potentially deal with this.</p>
+<p>Another disappointing issue is the terrible battery life under Ubuntu Feisty. On Windows, I get more than 4 hours of battery life with average use (wireless network, web browsing, text editing). With Feisty, even after enabling LAPTOP_MODE in /etc/default/acpi-support and putting the GPU in low-power mode as explained above, I get only 2 hours and 40 minutes. This is almost a show stopper.</p>
+<p>Out of the box ACPI monitoring support is well-done. With just a few clicks, I could various temperatures and fan speeds on my panel. See the panel at the top of the screen in the screenshot below:</p>
+<p> </p>
+<p style=text-align:center>
+<a href=http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926946><img alt src=http://lh6.google.com/image/cpbotha/Rhugv5cDdGI/AAAAAAAAAc0/mT09SLVTKkA/s288/cpb_ubuntu_feisty_beta_20070408.jpg></a>
+</p>
+<p>This also shows the Deskbar applet in action.</p>
+<p><strong>Dynamic multi-monitor support SUCKS</strong></p>
+<p>My laptop has a docking station with an external LCD monitor, resolution 1280 x 1024. The laptop is 1680 x 1050, as I’ve mentioned. With Windows, (hot) docking / undocking always Just Works. It automatically activates the correct resolution without me having to configure anything. So whenever I resume, I have a working display.</p>
+<p>Feisty does not quite get this yet. In fact, Feisty needs some serious clue-bat-based attention… When I dock or undock and then resume, I have no display, and no way of getting my display back, besides power-cycling the laptop at every dock / undock. I ended up writing <a href=http://graphics.tudelft.nl/~cpbotha/thingies/aticonfig_switch.py title="Python script to switch to NEXT display with aticonfig">this Python script</a> and binding it to Alt-F5 (for example) so that I would always have a way of activating the <em>next</em> display in the list of connected displays. Oh jeez, even assigning an arbitrary shell command to a global hot key in Gnome is not straight-forward. You have to use gconf as explained on <a href=http://www.captain.at/howto-gnome-custom-hotkey-keyboard-shortcut.php title="binding arbitrary shell commands to global hotkeys in Gnome">this page</a>. You can query connected and enabled displays with “aticonfig –query-monitor” and activate any subset with “aticonfig –enable-monitor=name1,name2,…,nameN”.</p>
+<p><strong>Desktop effects with XGL and Beryl</strong></p>
+<p>Wobbly Windows, you know, these are immensely useful and result in a more productive computing experience. NOT!</p>
+<p>They are really very nice though. Most of the desktop effects are more nice to look at than actually useful, except for one: The ExposÃ©-like functionality, called “Scale” by Beryl, scales and fits all windows on the current screen so that one can select the window that one wants to select easily.</p>
+<p>Because fglrx doesn’t support the XComposite extension, I could not install AIGLX (Ubuntu default) and had to go for XGL and Beryl. After following <a href=http://lhansen.blogspot.com/2006/10/3d-desktop-beryl-and-xgl-on-ubuntu-edgy.html title="beryl + xgl on ubuntu and fglrx">this guide</a> and making sure to use the external Beryl package repository as explained <a href="http://ubuntuforums.org/showthread.php?t=393678" title="More tips on beryl + xgl">here</a> (the Ubuntu packages won’t work in this case, they don’t have XGL support), I got the whole shebang to work. MAN this is pretty! Check out the screenshot below for Scale in action (there are non-desktop-effect ways of doing this, e.g. kompose or skippy, but none of them are as slick as the desktop effects version):</p>
+<p> </p>
+<p style=text-align:center>
+<a href=http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926962><img alt src=http://lh6.google.com/image/cpbotha/Rhugv5cDdHI/AAAAAAAAAc8/DMNDclhbAyk/s288/cpb_ubuntu_feisty_beta_scale_20070410b.jpg></a>
+</p>
+<p>As with most other things in Ubuntu, this functionality is not without its caveats. This is even more flaky with suspending and resuming: after resuming, logging out and in will give you a garbled display. I have to restart X at the GDM login screen to get XGL to work again. There are also some focus issues, especially with the Gnome Deskbar (very useful utility, by the way): pressing the hotkey activates the deskbar, but you can’t begin to type, as the current window still has the focus. I managed to fix this by setting the Beryl “Level of Focus Stealing Prevention” (under general settings) to None. Changing to a higher resolution with the “Display Resolution” applet whilst running XGL+Beryl, results in only part of the screen being usable.</p>
+<p><strong>Miscellaneous issues</strong></p>
+<ul>
+<li>Palm Pilot synchronisation seems to work out of the box with my Tungsten C, but hangs forever on ToDo synchronisation. Seems it’s due to <a href=https://bugs.launchpad.net/ubuntu/+source/gnome-pilot-conduits/+bug/81170 title="feisty pilot todo syncing bug">this bug</a>.</li>
+<li>The built-in Texas Instruments SD card reader works out of the box, but does not automount like other removable media. This is either due to the fact that it’s not seen as removable, or that the driver forgets to assign its parent bus. See <a href=http://www.nabble.com/SD-card-automounting-t2870318.html title="mail thread wrt SD card not automounting">this mail thread</a>. I ended up applying <a href=http://www.dau-sicher.de/pmwiki/Main/CardreaderWithUdev title="workaround for SD card thingy">this workaround</a>, involving adding rules to the udev system to pmount the SD card.</li>
+<li>Gimp doesn’t understand SMB: URIs, whereas the Gnome Image Viewer does, and gthumb pretends to but doesn’t.</li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<p>All in all, I’m positive but not quite convinced yet. The Ubuntu people have done a marvellous job, but Feisty Beta (up to date as of 2007-04-10) doesn’t quite Just Work(tm) on the HP NC8430. I had to break my rule of editing config files or writing scripts more than once to get it to work to my satisfaction, and still there are problems that would make it difficult to work in Ubuntu full-time: the miserable battery life, the flaky suspend/resume and the really bad dynamic multi-monitor support. That being said, things like the user-friendly WPA support and the flawless install on an NTFS partition are going in the right direction.</p>
+<p><strong>Updates</strong></p>
+<ul>
+<li>This post has been linked by OSNews! You can also follow some of the discussion <a href="http://osnews.com/comment.php?news_id=17663" title="Link to this post at OSNews.com.">over there</a>.</li>
+<li>It’s also on digg (should I say that it’s been dugg?).Â  See <a href=http://digg.com/linux_unix/A_critical_look_at_Ubuntu_Feisty_beta title="digg dugg">here</a>.</li>
+<li>Fixed aticonfig lsp/lsb typo, thanks lampshade!</li>
+<li>My domain has been migrated to a more stable server, some comments may have been lost in the process. If your comment has not appeared yet, <em>please</em> re-submit it.</li>
+</ul>
+<p><strong>PS</strong></p>
+<p>Please comment away, but keep it civilised. I’ll update the post as we go along, and give credit where credit’s due.</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/7.04>7.04
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/laptop>laptop
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/linux>linux
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/nc8430>nc8430
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/radeon>radeon
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/review>review
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/ubuntu>ubuntu
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/software/dri_reinit/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+dri_reinit
+</div>
+</a>
+<a href=/2007/04/08/infinite-espressos/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>infinite espressos!&nbsp;<span>></span></div>
+</a>
+</nav>
+<div class=article-footer>
+Related posts:
+<a href=/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/>🌤 Whoohooo, XFree86 + DRI hacked to suspend/resume</a>
+<a href=/2005/09/22/getting-the-frikking-euro-key-working-on-a-dvorak-keyboard-layout-in-ubuntu-504/>🌤 Getting the FRIKKING euro key working on a Dvorak keyboard layout in Ubuntu 5.04</a>
+</div>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="a critical look at ubuntu feisty beta on an hp nc8430 laptop" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

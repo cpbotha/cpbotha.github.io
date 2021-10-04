@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>advertising on voices in my head</title><link>https://cpbotha.net/tags/advertising/</link><description>Recent content in advertising on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 22 Aug 2018 20:34:14 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/advertising/index.xml" rel="self" type="application/rss+xml"/><item><title>You’ll know if your iPhone is listening. Vice should consider toning down the sensationalism.</title><link>https://cpbotha.net/2018/08/22/youll-know-if-your-iphone-is-listening-vice-should-consider-toning-down-the-sensationalism/</link><pubDate>Wed, 22 Aug 2018 20:34:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/08/22/youll-know-if-your-iphone-is-listening-vice-should-consider-toning-down-the-sensationalism/</guid><description> A Vice article titled Your Phone Is Listening and it’s Not Paranoia has been doing the rounds. In it, the author explains how they did an “experiment” demonstrating that topics they discussed verbally were later reflected in Facebook ads.
+Whilst it’s prudent to be careful with modern technology around one’s privacy, Vice is being a tad sensationalist. This blog post, which will optimistically be read by three to four people, tries to fill some of the holes they left.</description><content:encoded><![CDATA[ <p>A Vice article titled <a href="https://www.vice.com/en_uk/article/wjbzzy/your-phone-is-listening-and-its-not-paranoia">Your Phone Is Listening and it’s Not Paranoia</a> has been doing the rounds. In it, the author explains how they did an “experiment” demonstrating that topics they discussed verbally were later reflected in Facebook ads.</p>
+<p>Whilst it’s prudent to be careful with modern technology around one’s privacy, Vice is being a tad sensationalist. This blog post, which will optimistically be read by three to four people, tries to fill some of the holes they left.</p>
+<p>We already know that we can’t trust Facebook in any way, so we are dependent on the telephone’s operating system to take our privacy seriously: That’s usually Android or iOS.</p>
+<p>Android does in theory <em>enable</em> background recording up to and including Android O, but <a href="https://www.theverge.com/platform/amp/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background">starting from Android P</a> it will disable this. Unfortunately, it shouldn’t be more than about 10 years before all phones are on Android P or later.</p>
+<p>(<a href="/2016/11/27/android-security-in-2016-is-a-mess/">I have previously indicated that I’m not the biggest fan of Android’s security story</a>. I am happy to see that they are making such progress, but the tardiness or even worse refusal of OEMs in upgrading their devices diminishes most of that.)</p>
+<p>In iOS on the other hand, there are at least three mechanisms that protect users against this background recording abuse:</p>
+<ol>
+<li>The app has to ask the user explicitly for microphone permission, which the user can easily revoke at any time (Settings | App’s name | Microphone; see screenshot below for an example).</li>
+<li>The developer has to indicate explicitly and statically in their app that they intend to use background audio. Apple’s review process is quite strict and will reject outright an app that does not have a legitimate reason to make use of this function.</li>
+<li>Even when an app has been able to convince Apple’s review process that it should be allowed to record audio in the background, there are two more privacy mechanisms in place:
+<ol>
+<li>An app can only record in the background, if it started to record audio whilst on the foreground. When the recording stops, <a href="https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW26">the app will be suspended</a>.</li>
+<li>When any app is recording, the system will display a big red bar at the top of the iOS display, much like the blue bar which displays when a location-based app such as Google Maps or Waze is active in the background. <a href="https://stackoverflow.com/a/39963079/532513">This red bar can’t be hidden</a>.</li>
+</ol>
+</li>
+</ol>
+<p>To see this in action (another “experiment” !!), download an app like <a href="https://itunes.apple.com/us/app/awesome-voice-recorder/id892208399?mt=8">Awesome Voice Recorder</a> which advertises background recording, start a recording, and then switch anywhere else. The red bar looks like this (I’ve switched the app permissions screen in iOS settings, so you can also see where to disable the microphone permissions):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/08/IMG_EBA399A01B16-1.jpeg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/08/IMG_EBA399A01B16-1.jpeg"
+        
+            alt="AVR is recording in the background, so iOS shows this red bar at the top. If you tap on the red bar, it will switch to the app which is recording. This is related to the blue bar for location, and the green bar for ongoing phone calls."/> </a><figcaption>
+            <p>AVR is recording in the background, so iOS shows this red bar at the top. If you tap on the red bar, it will switch to the app which is recording. This is related to the blue bar for location, and the green bar for ongoing phone calls.</p>
+        </figcaption>
+</figure>
+</p>
+<p>With the above measures in place, it would be fairly tricky for an iOS app to perform background recording without your knowledge.</p>
+<p>For some extra peace of mind, you can disable the app’s (a totally random example being Facebook) microphone permissions. If the app ever really needs to record, iOS will have to ask your permission again.</p>
+<p>P.S. In iOS, under Settings | Privacy | Microphone you can find a handy list of all apps that have successfully requested microphone permissions. From here, you can also easily remove any of these permissions.</p>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>2018-08-23: It seems <a href="https://www.zdnet.com/article/want-google-to-track-you-less-get-an-iphone-ditch-the-android/">Androids phone home much more often than iPhones</a>.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

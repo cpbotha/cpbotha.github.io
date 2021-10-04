@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>work on voices in my head</title><link>https://cpbotha.net/categories/work/</link><description>Recent content in work on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 16 Jan 2021 18:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/work/index.xml" rel="self" type="application/rss+xml"/><item><title>An introduction to Asynchronous Communication for the workplace</title><link>https://cpbotha.net/2021/01/16/intro-asynchronous-communication/</link><pubDate>Sat, 16 Jan 2021 18:10:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/16/intro-asynchronous-communication/</guid><description> Thanks to COVID-19, many organizations and their their workers have had to fast-track their previously hypothetical plans and dreams to adopt remote working.
+Where this was once a long-running debate with a handful of more progressive companies actually executing, all of a sudden many of us found ourselves working from home, including spending significant parts of our day in video meetings.
+Less commuting, less polluting and much more flexibility in how one achieves work-life balance are amazing benefits.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure>
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/01/16/intro-asynchronous-communication/undraw_working_from_anywhere_ub67_hu61004db2dd9bc9ffba05fd7d949668a3_39797_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2021/01/16/intro-asynchronous-communication/undraw_working_from_anywhere_ub67_hu61004db2dd9bc9ffba05fd7d949668a3_39797_800x0_resize_box_3.png 800w,
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/01/16/intro-asynchronous-communication/undraw_working_from_anywhere_ub67_hu61004db2dd9bc9ffba05fd7d949668a3_39797_800x0_resize_box_3.png"
+            
+
+        
+            alt="Working from anywhere image from undraw.co"/> 
+</figure>
+
+<p>Thanks to COVID-19, many organizations and their their workers have had to
+fast-track their previously hypothetical plans and dreams to adopt remote
+working.</p>
+<p>Where this was once a long-running debate with a handful of more progressive
+companies actually executing, all of a sudden many of us found ourselves
+working from home, including spending significant parts of our day in video
+meetings.</p>
+<p>Less commuting, less polluting and much more flexibility in how one achieves
+work-life balance are amazing benefits.</p>
+<p>However, it almost feels like we have to meet, albeit virtually, more than ever
+before. Add to that the constantly busy office chat (Teams, Slack, Mattermost,
+and many more offerings) with its groups and private chats, and the day can be
+quite exhausting even before doing the actual work that is discussed in all of
+these meetings.</p>
+<p>Now just imagine that there was a way to skip most of those meetings, and to
+keep the office chat only for social reasons.</p>
+<p>Wouldn&rsquo;t that be great?</p>
+<p>Well, it turns out that there is an important missing ingredient to making
+exactly that happen.</p>
+<p>The missing ingredient is called <em>asynchronous communication</em>.</p>
+<p>With a bit of discipline and some good expectation setting, the application of
+<em>real-time sometimes, asynchronous most of the time</em> will lead to a
+more efficient, better documented and, importantly, a far less stressful remote
+workplace.</p>
+<p>To be clear, <em>real-time sometimes, asynchronous most of the time</em> makes a great
+deal of sense also in non-remote work settings.</p>
+<h2 id="what-is-asynchronous-communication">What is asynchronous communication?</h2>
+<p>The following is an extended version of the definitions from the company
+<a href="https://blog.doist.com/asynchronous-communication/">Doist&rsquo;s blog post on the topic</a>.</p>
+<h3 id="synchronous">Synchronous</h3>
+<p>Synchronous communication is sending a message and <em>expecting</em> the recipient to
+process the information and respond <em>immediately</em>.</p>
+<p>A meeting is a pretty intensive form of this.</p>
+<p>You say something, and I usually have to respond on the spot.</p>
+<p>In many cases, email is also treated as synchronous communication.</p>
+<p>You hear that notification ping, so you stop whatever you&rsquo;re doing and you
+check the email.</p>
+<p>Whether you answer immediately or not, you have succeeded in losing
+concentration on your main task.</p>
+<h3 id="asynchronous">Asynchronous</h3>
+<p>Asynchronous communication is sending a message without <em>expecting</em> an
+immediate response.</p>
+<p>For example, you send me an email, and because our workplace policy sets these
+expectations, I can respond thoughtfully and in depth, in a few hours, during
+the following day or even later.</p>
+<p>A more modern asynchronous communication tool would be the company discussion
+forum, or online project management system, where thoughtful and usually longer
+form messages can be <em>contextually</em> posted, that is, close to the project or
+task they pertain to.</p>
+<p>These messages can be read by all relevant colleagues, and discussed in the
+comments.</p>
+<p>A key idea here is that all communication happens asynchronously, with each
+colleague taking time to think and to respond when it best fits their schedule.</p>
+<p>Please see <a href="#gitlab-async-mindset-test">Gitlab&rsquo;s anynchronous mindset test</a> below.</p>
+<p>An additional advantage of this method is that all of these discussions and
+decisions are by default perfectly documented, can be shared with future
+colleagues, and can even be surfaced later via intranet search.</p>
+<h2 id="what-are-the-disadvantages-of-a-synchronous-communication-environment">What are the disadvantages of a synchronous communication environment?</h2>
+<p>The following four problems that occur due to a synchronous communication
+environment are paraphrased from the <a href="https://blog.doist.com/asynchronous-communication/">Doist post</a>:</p>
+<dl>
+<dt>Constant interruptions</dt>
+<dd>Each notification of each incoming message breaks
+concentration to such an extent that people will have a hard time making
+progress on the sort of valuable work that requires blocks of focus. Apart
+from the immediate break, there is also the aggregate effect of all of the
+day&rsquo;s interruptions which cause a great deal of unnecessary mental cycles
+that could have been spent on deep work.</dd>
+<dt>It becomes more important to be connected than to be productive</dt>
+<dd>In such
+environments, it becomes a priority to be available when someone pings
+you. All energy is now diverted from valuable work into being available and
+reactive.</dd>
+<dt>More stress</dt>
+<dd>Instead of setting their own schedules, and determining how
+most of their day can be productively spent, workers spend their days
+reacting to incoming messages, hence losing control of their schedules.</dd>
+<dt>Lower quality discussions and sub-optimal solutions</dt>
+<dd>An immediate response
+is expected, especially during a meeting, so there&rsquo;s no time to come up with
+a thoughtful and in-depth response.</dd>
+</dl>
+<p>In addition to these, there is the issue that synchronous communication further
+complicates good organizational documentation and knowledge management.</p>
+<p>When meetings are minuted, those minutes are brief notes of a third party who
+does their best to capture the gist of the meeting.</p>
+<p>However, when the &ldquo;meeting&rdquo; takes place in writing in the first place, the
+documentation is by construction the most canonical description.</p>
+<p>Group chat messages can be stored and indexed, but due to the nature of the
+medium, namely large collections of many short messages most of which are
+understandably chatter, this is a not a great way to have in depth discussions
+or document decisions.</p>
+<h2 id="what-are-the-advantages-of-an-asynchronous-communication-environment">What are the advantages of an asynchronous communication environment?</h2>
+<p>The following is paraphrased from <a href="https://blog.doist.com/asynchronous-communication/">Doist</a>:</p>
+<dl>
+<dt>Workers schedule their workday</dt>
+<dd>With fewer to no meetings or other
+synchronous communication expected, workers have full control over when they
+do their work, which leads to greater work satisfaction and higher quality
+work. Furthermore, struggling to find a meeting time that in the packed
+agendas of all participants is a problem of the past.</dd>
+<dt>High quality communication vs knee-jerk responses</dt>
+<dd>By default, people can
+spend more time thinking and drafting their messages and
+responses. Communication becomes more thoughtful and in-depth. As a bonus,
+there are built-in cool-down periods between every message.</dd>
+<dt>Less stress thanks to better planning</dt>
+<dd>When people can&rsquo;t rely on instant
+communication (requests) anymore, they learn to plan ahead more carefully.</dd>
+<dt>Deep work becomes the default</dt>
+<dd>Because there is no expectation of being
+connected and always available, people start their day with a block of deep
+work. Again because of the change in expectation, workers can check async
+messages a few time a day, when it suits them, and especially when it doesn&rsquo;t
+interrupt a block of deep work!</dd>
+<dt>Automatic documentation and greater transparency</dt>
+<dd>As mentioned in the
+previous section, because good asynchronous communication happens through
+thoughtful writing and written discussion, all decisions are automatically
+documented. Furthermore, it is straight-forward to make discussions available
+to any group of people, now and in the future.</dd>
+<dt>Time zone equality</dt>
+<dd>For organizations that are spread out over multiple
+timezones, asynchronous communication means that everyone participates on the
+same platform with the same opportunities.</dd>
+</dl>
+<h2 id="the-solution-real-time-sometimes-asynchronous-most-of-the-time">The solution: Real-time sometimes, asynchronous most of the time</h2>
+<p>Sometimes synchronous communication is justified.</p>
+<p><a href="https://buffer.com/resources/asynchronous-communication/amp/">Buffer</a> lists the following reasons for synchronous, real-time communication,
+such as a video meeting or a distanced face-to-face meeting:</p>
+<ul>
+<li>Casual hangouts, catch-ups, and celebrations</li>
+<li>Urgent situations</li>
+<li>Relationship-building (one-on-ones, masterminds, etc.)</li>
+</ul>
+<p>In their <a href="https://about.gitlab.com/company/culture/all-remote/asynchronous/">extensive asynchronous communication guide, Gitlab</a> has a longer list
+of occasions that merit starting with synchronous communication:</p>
+<ul>
+<li>A sales engagement</li>
+<li>First-time meetings with external parties</li>
+<li>First-time meetings with team members who have not previously worked together</li>
+<li>One-way door decisions (e.g. when stakes are high and decisions are difficult to reverse)</li>
+<li>Complex initializations (e.g. defining a corporate narrative, a major overhaul to scope, etc.)</li>
+<li>Emotionally sensitive topics (e.g. discussing personal issues, career path/promotion, difficult feedback, etc.)</li>
+<li>Supporting and unblocking your direct reports (e.g. a regular 1:1)</li>
+<li>Celebrations and retrospectives (it feels good to celebrate wins with a
+group, and lightweight retrospectives can serve as kickoff points for future
+sprints)</li>
+</ul>
+<p>If asynchronous is to be preferred, but we do sometimes need to use
+synchronous, what would be the best way to approach this?</p>
+<p>Fortunately, <a href="https://basecamp.com/guides/group-chat-problems#whattodo">Basecamp has a great perfect-world rule of thumb</a>:</p>
+<blockquote>
+<p>real-time sometimes, asynchronous most of the time</p>
+</blockquote>
+<p>In other words, prefer and default to asynchronous.</p>
+<p>If you opt for synchronous communication such as a meeting or a phone call, you
+should have a really good reason to do so.</p>
+<p>By making asynchronous the default, with synchronous the exception, your
+organization will be able to reap all of the benefits listed in previous
+sections.</p>
+<h2 id="conclusion-just-do-it">Conclusion: Just do it</h2>
+<p>It&rsquo;s clear that applying the <em>real-time sometimes, asynchronous most of the
+time</em> communication strategy can contribute greatly to an organization&rsquo;s
+performance.</p>
+<p>More thoughtful communication, better decision-making, more focused work,
+automatic documentation and increased work satisfaction constitute an offer
+that really should not be refused.</p>
+<p>Applying this in your organization starts with ensuring that:</p>
+<ol>
+<li>everyone understands and applies the asynchronous mindset (see <a href="#gitlab-async-mindset-test">gitlab&rsquo;s
+async mindset test</a> for an example),</li>
+<li>your async practices and expectations are documented, and</li>
+<li>you have the necessary tools available to apply asynchronous communication
+effectively.</li>
+</ol>
+<h2 id="further-reading">Further reading</h2>
+<p>If you read one other piece, <a href="https://blog.doist.com/asynchronous-communication/"><strong><strong>Doist</strong></strong>&rsquo;s post</a> would be my recommendation. It
+contains a complete description of asynchronous communication, with interesting
+statistics, and it also contains a short guide on how to apply this in your
+organization.</p>
+<p>As part of their Virtual First Toolkit, <strong><strong>Dropbox</strong></strong> has also made available their
+guide <a href="https://blog.dropbox.com/topics/work-culture/-virtual-first-toolkit--how-to-communicate-effectively">&ldquo;How to communicate effectively&rdquo;</a>. This has practical tips on writing,
+tools that can be used for different forms of communication and tips for
+effective meeting.</p>
+<p><strong><strong>Basecamp</strong></strong> have been making the case for remote work and for asynchronous
+communication long before most others.</p>
+<p>In their post <a href="https://basecamp.com/guides/group-chat-problems">&ldquo;Group Chat: The Best Way to Totally Stress Out Your Team&rdquo;</a> they
+discuss the disadvantages of group chat, and how you can go about addressing
+them.</p>
+<p>I first wrote about that post of theirs in <a href="/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/#the-future-of-work-episode-23">WHV #205</a>.</p>
+<p>Their piece <a href="https://basecamp.com/guides/how-we-communicate">&ldquo;The Basecamp Guide to Internal Communication&rdquo;</a> contains 30 general
+principles and rules of thumb for communication, followed by a compact and
+practical description of the tools and procedures that they apply.</p>
+<p><strong><strong>Gitlab</strong></strong> wins the extensiveness competition with their detailed manual titled
+<a href="https://about.gitlab.com/company/culture/all-remote/asynchronous/">&ldquo;Embracing asynchronous communication&rdquo;</a>. This contains low-level and detailed
+sections on how async is used within the gitlab organization, <a href="https://about.gitlab.com/company/culture/all-remote/asynchronous/#how-to-implement-asynchronous-workflows">how to implement
+asynchronous workflows</a>, <a href="https://about.gitlab.com/company/culture/all-remote/asynchronous/#benefits-of-asynchronous-workflows">benefits of asynchronous</a>, and finally limitations and
+challenges of async.</p>
+<h3 id="gitlab-async-mindset-test">Gitlab asynchronous mindset test</h3>
+<p>Their rule of thumb to enter an asynchronous mindset is worth quoting here:</p>
+<blockquote>
+<p>The easiest way to enter into an asynchronous mindset is to ask this question:
+&ldquo;How would I deliver this message, present this work, or move this project
+forward right now if no one else on my team (or in my company) were awake?&rdquo;</p>
+<p>This removes the temptation to take shortcuts, or to call a meeting to simply
+gather input. (After all, every meeting should be a review of a concrete
+proposal, and only called when it will lead to a more efficient outcome than
+would be possible asynchronously.)</p>
+</blockquote>
+]]></content:encoded></item><item><title>5 months as an independent engineer: lessons learnt.</title><link>https://cpbotha.net/2013/08/03/5-months-as-an-independent-engineer-lessons-learnt/</link><pubDate>Sat, 03 Aug 2013 11:22:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/08/03/5-months-as-an-independent-engineer-lessons-learnt/</guid><description> In February of this year, I left academia (read more about my reasons in the accompanying blog post) to start a new life as an independent engineer, or simply freelancer, if you will. In this post, I would like to summarise the lessons I&amp;rsquo;ve learnt so far. Also, because of my strong nerdtastic tendencies, I will write a separate post talking about the various tools of the trade, software and hardware, that I&amp;rsquo;ve found useful.</description><content:encoded><![CDATA[ <p>In February of this year, I left academia (read more about my reasons in <a href="http://cpbotha.net/2013/03/09/dear-academia-i-hope-we-can-still-be-friends/" title="Dear Academia, I hope we can still be friends.">the
+accompanying blog post</a>) to start a new life as an independent engineer, or
+simply freelancer, if you will. In this post, I would like to summarise the
+lessons I&rsquo;ve learnt so far. Also, because of my strong nerdtastic
+tendencies, I will write a separate post talking about the various tools of the
+trade, software and hardware, that I&rsquo;ve found useful.</p>
+<h2 id="the-perception-of-independence">The perception of independence</h2>
+<p>First of all: <strong>Having the illusion of being independent is exhilarating.</strong> I
+still get up early in the mornings, sometimes even before the rest of the
+family to put some extra time into side-projects, and I start the rest of my
+work program, fully dressed, at a more or less normal time. I still work the
+whole day, and I still spend some evenings and weekends tinkering. Sometimes I
+even experience deadline stress. However, the perception that I&rsquo;m doing all of
+this directly for the people that find my work useful enough to pay for it, and
+that in theory I can choose for whom I do this and how I do it, is awesome.</p>
+<p>The little things also make a difference. When there&rsquo;s someone interesting in
+town, or slightly out of town, a breakfast or lunch is absolutely justified. If
+I feel like going to work in a cafe somewhere, I do so. I&rsquo;m making good
+progress on getting rid of those deeply-ingrained employer-directed guilt
+pangs. Knowing that I always end up doing the time (or rather generating the
+value) helps much.</p>
+<p>Oh yes, I also get to buy toys. For my business.</p>
+<h2 id="pricing">Pricing</h2>
+<p><strong>One of the most challenging exercises when starting out as an independent
+contractor / consultant is setting your price.</strong> I think I must have scanned
+the whole internet when doing research on this. Talking to other similarly
+skilled engineers helped the most. (ping me privately if you need advice with
+hard figures) Part of the problem is that each freelancer has different
+value-generating capabilities, and has a different estimation of their value
+generating potential. My short time in industry working with some kick-ass
+engineers, followed by more than a decade in an application-oriented scientific
+setting (and one that&rsquo;s all about dealing with data!) working with some really
+clever people (and a bit of industry), together with genetically advanced
+verbal circuits, means I can build theoretically advanced software systems that
+solve practical problems in a robust fashion, and, importantly, that I can
+explain how and why they&rsquo;re valuable. (See what I did there? :)</p>
+<p>There are two practical tips that I would like to give here:</p>
+<ol>
+<li>Quote and charge per day. For any worth-while project, you&rsquo;re going to be
+putting full-time days into it, not hours.</li>
+<li>More importantly: You can easily give special discount on your rates, but
+clients don&rsquo;t like it if you become more expensive all of a sudden.</li>
+</ol>
+<p>I&rsquo;m currently running two longer term projects that fill up all of my time. In
+both cases I have arranged with my clients that I do my best to spend N days
+per week. If I spend fewer than that (for example due to vacation), I charge
+them <em>pro rata</em> less. If I manage to spend more, that&rsquo;s their free bonus.</p>
+<h2 id="underpromise-overdeliver">Underpromise. Overdeliver.</h2>
+<p>This leads me to my next tip, which is something that I learnt from <a href="https://twitter.com/veryflatcat" title="veryflatcat's twitter profile">A Very
+Flat Cat</a>, a very special mentor and friend of mine.</p>
+<blockquote>
+<p><strong>Underpromise. Overdeliver.</strong></p>
+</blockquote>
+<p>It&rsquo;s one of those guidelines that one has to strive for. The first one helps to
+compensate for <a href="https://en.wikipedia.org/wiki/Planning_fallacy" title="wikipedia page on the planning fallacy">the planning fallacy</a>, the cognitive bias that makes us all
+underestimate the time we need to complete a task. Importantly, it helps with
+the second part: Deliver your project either slightly ahead of time or over
+specification. In other words, try to surprise your client with even more value
+than they thought they were going to get.</p>
+<h2 id="long-term-vision-as-an-independent-contractor">Long-term vision as an independent contractor</h2>
+<p>It&rsquo;s only been 5 months, but one has to start thinking about <strong>one&rsquo;s long term
+vision</strong> as an independent. Working on client projects is huge fun, and it even
+pays the bills, but these same techniques could be used to work on one&rsquo;s own
+product or service. <strong>Ideally, one is able to come up with a product or service
+that is found useful by a large enough group of people so that a sustainable
+business can be built around that product or service.</strong> Fortunately, the
+internet / software engineering / data universe is exploding with
+possibilities, and is set to continue doing so for the coming decades.</p>
+<h2 id="create-the-meaning-in-your-work">Create the meaning in your work</h2>
+<p><a href="http://cpbotha.net/2012/07/24/startups-vs-academic-research-groups-fight/" title="Startups vs. Academic Research Groups: FIGHT!">I&rsquo;ve mentioned before</a> the importance of <strong>doing something meaningful</strong>. If
+your goal is to be sustainably happy, this is still just as important. When
+wrapping up your work for the day, or the night, it&rsquo;s important to have the
+feeling that what you&rsquo;ve done has the potential to make a positive impact on
+the world around you. My advice here also is not to be too ambitious. (Oh wait,
+I <a href="http://cpbotha.net/2013/06/16/dont-dream-big/" title="Don’t dream big.">have a post about that too</a>!) Even if your work, or your open source side
+project, has a positive effect on only one other person, you&rsquo;ve done a good
+job. Besides selecting one&rsquo;s projects based on this, the meaningfulness of
+one&rsquo;s activities can be further increased by putting effort into open source,
+or into educational activities.</p>
+<h2 id="fin">Fin</h2>
+<p>That&rsquo;s it for this chapter of <em>Freelancing for Dummies</em>! Let me know in the
+comments if there&rsquo;s anything else you&rsquo;d like to discuss.</p>
+<p>(I seem to have forgotten everything I read in <em>Writing Blog Post Conclusions
+for Dummies</em>.)</p>
+]]></content:encoded></item><item><title>Startups vs. Academic Research Groups: FIGHT!</title><link>https://cpbotha.net/2012/07/24/startups-vs-academic-research-groups-fight/</link><pubDate>Tue, 24 Jul 2012 21:34:55 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/07/24/startups-vs-academic-research-groups-fight/</guid><description> There are many similarities between startups, defined here as (relatively) young and agile companies with a few bright people trying to change the world by working on some cool idea(s), and academic research groups, defined here as (relatively) young and agile units within academic institutes with a few bright people trying to change the world by working on some cool idea(s). Err, yes.
+Fortunately there are also many differences, so I have something to write about here.</description><content:encoded><![CDATA[ <p>There are many similarities between startups, defined here as (relatively) young and agile companies with a few bright people trying to change the world by working on some cool idea(s), and academic research groups, defined here as (relatively) young and agile units within academic institutes with a few bright people trying to change the world by working on some cool idea(s). Err, yes.</p>
+<p>Fortunately there are also many differences, so I have something to write about here. For some years now I’ve been running the <a href="http://graphics.tudelft.nl/MedVis" title="TU Delft MedVis Group">TU Delft Medical Visualization research group</a>, an experience that shall serve as the primary source of information for this piece. I’ve also had <em>some</em> experience of startup culture, first as one of two (and later three) engineers in a new business unit of Crusader Systems (now <a href="http://www.csensesystems.com/cms/tiki-index.php" title="CSense website">CSense</a>) designing an embedded image processing product called FrothMaster, then at <a href="http://www.stonethree.com/" title="Stone Three website">Stone Three</a> as employee #1, then later at <a href="http://www.treparel.com/" title="Treparel Website">Treparel</a> as a co-founder and architect, and more recently as scientific advisor to <a href="http://www.clinicalgraphics.com/" title="Clinical Graphics website">Clinical Graphics</a> and co-founder of <a href="http://timescapers.com/" title="TimeScapers website">TimeScapers</a>. In spite of this healthy dose of exposure, I’ve never actually run a startup as my main activity, so I will have to extrapolate and sometimes revert to wild guesses. I am trusting that some of the startup-involved readers will pipe up in the comments!</p>
+<p>An academic research group works more or less as follows: Someone, usually a member of faculty (in this case me) at some university has a number of (crackpot) research ideas. Said someone pours buckets of sweat into further developing these ideas into over-detailed research proposals, which are then all rejected by the national and international research funding agencies that they are sent to. Somehow, said someone manages to keep going at this, resulting in proposals that describe projects that have nothing to do any more with the original research ideas, but are works of buzz-word art.</p>
+<p>At some point, to the complete surprise of said someone, a number of proposals get approved. This means that buckets of money are handed over to the hosting university. Doh. Faculty member can now put in official requests to make use of these funds to employ a number of bright Ph.D. candidates for 4 years each, to buy toys for said candidates and to pay for visits to parties, I mean conferences, all around the world. Ph.D. candidates work on research project, supervised by faculty member, and each publishes on average 4 good research papers, followed by a thesis, at which case they usually have to be kicked out.</p>
+<p>Some of the freshly-minted doctors decide to stay in academia, eventually breaking out of their postdoc cocoons as beautiful faculty members themselves, most often at other academic institutes. Some of the rest even decide to start startups!</p>
+<p>At a startup, the main goal is to develop a new product or service, and then sell so much of it that the company turns a huge and sustainable profit. Alternatively, the startup’s product or service and/or people are so sexy that a much larger company decides to buy the whole thing up for a very large bundle of cash, instantly making the founders quite rich. This is called an “exit”. Initial funding strategies vary greatly. Startups can have any mix of bootstrapping (generating little bits of income to feed itself hopefully leading to more income), self financing, venture capital or angel investment. A startup is “<a href="http://www.paulgraham.com/ramenprofitable.html" title="link to Paul Graham's ramen profitability definition">ramen profitable</a>” when it is just able to pay for the founders’ living expenses.</p>
+<p><strong>Financing:</strong> Here we see the first significant difference. In academia, a competition upfront determines whether you get financing or not for a particular research idea. Only when you have sufficient financing to appoint people and buy equipment for the duration of the project (generally 2 to 4 years), the relevant project is allowed to start. Faculty salaries are paid by the hosting institute. A startup can start whenever at least one founder is able to get by on their own resources for a few months. The startup is able to get by on very little, but does need to generate income throughout its lifetime, and that income ideally needs to increase steadily so that the company can grow.</p>
+<p><strong>Risk:</strong> The second big difference is related to this. At a startup, all the rewards go to the startup, for a largest part to its founders and to a lesser extent to its employees. People work their behinds off, because the payoff could be huge and your chunk is considerable. If your idea happens to change the world (see Dropbox), also the non-monetary kick can be life-changing. However, the risk is also all yours. If your idea bombs and your company blows up into a million pieces, you get to keep each and every piece! Even worse, you actually have to deal with the fallout in some or other fashion. In practice, this could mean bankruptcy of the company, but it could even go as far as directly impacting on the financial status of the founders.</p>
+<p>In academia, there is certainly some risk in exploring in new territory, but it is accepted that not all ideas pan out equally well. You’re allowed to fail now and then, as long as you do OK on average. If you fail all the time of course, you’ll probably have a harder time finding new grants and collaborators to continue with your research, but you’ll still have the job. On the other hand, your reward in case of a successful project is that the relevant publications get mentioned by other researchers in their articles. You now have made what is called “impact”, and your <a href="http://en.wikipedia.org/wiki/H-index" title="wikipedia page on h-index">h-index</a> will hopefully start reflecting this soon, making it ever so slightly easier for you to get that next research grant. On a less cynical note, you sometimes are privy to the real kick of scientific discovery, where you’ve managed to cook up something that other scientists (and maybe in 20 years some real people) get really excited about. This latter aspect is in my opinion the actual driver, and the aspect that can make the science business so addictive.</p>
+<p><strong>Focus:</strong> A startup needs to have laser sharp focus. You need to pick one thing, service, expertise, product or concept, and become the absolute best at that. This seems to be a recurring theme looking at successful startups. If you do decide to go do something else, you have to call it a “<a href="http://www.readwriteweb.com/start/2012/05/the-pivot-the-moment-where-startups-change-or-die.php" title="readwriteweb explaining the pivot">pivot</a>“, but you cant’t do too many of those, else people think you don’t know what you’re doing. In academia, you should definitely also have a research focus, but the requirements are far less stringent.</p>
+<p>Research groups usually have a number of independent research projects, all more or less exploring some general research avenue, but a good devil’s advocate could claim that having different projects constitutes a lack of real focus. In my group for example, I currently have 6 major projects, ranging from surgical planning, through anatomical modelling and neuro-imaging to population imaging, as well as a small number of less major projects. This range is both a blessing and a curse. I have the luxury of exploring and finding cross-links between related but discrete research lines. Also, we have a higher chance of striking gold and a lower risk of striking out with this spread. However, sometimes I think that picking one idea and working on that for a few years would help us to build up more expertise concentration.</p>
+<p><strong>Overheads:</strong> Usually an academic research group is embedded within a hosting university. This grants certain advantages, such as infrastructure, and thousands of highly skilled colleagues, but it also means extra overhead. One of the most time-consuming components of this is teaching, an activity with which I have a love-hate relationship. Students who put in the minimum of effort  drain a huge deal of energy per each of their completely useless kilograms. Dedicated students  on the other hand are energising and in some cases decide to join the research group, further bolstering its capabilities.</p>
+<p>In a startup, there is usually no hosting institution, and hence no such kind of overhead. I think this generally contributes significantly to the work satisfaction experienced by startuppers, as the level of self-determination is perceived to be much greater due to the lack of any externally imposed constraints. The impression I get from colleagues at my academic institute, is that the constraints or parameters imposed by the hosting institute, including administration, politics and in some cases teaching, can negatively impact on work satisfaction.</p>
+<p><strong>Goals:</strong> This one is interesting to think about. I think in both cases the idealistic goal is to discover or create something big that changes the world for the better. Taking a more cynical look at the day to day activities, one could think that the major goal of a research group is to setup larger and larger research programmes involving more and more people and more ambitious research goals, until finally the people at the top lose touch with the work on the ground. The cynical startup founder wants to get rich, either via a fabulous exit or market success, and then do it all again, perhaps at a larger scale.</p>
+<p>I think it’s even more important to look past both lofty idealism and cynicism, and instead focus on something that can sustain you indefinitely: <em>Doing something meaningful</em>. Even if that world-changing breakthrough (startup or academia) is not yet in sight, and the bags of cash or the 50-person research group are a really long way off, coming home after work with the conviction that what you’ve done today in some way positively impacts the little world around you will definitely help to keep that spring in your step.</p>
+]]></content:encoded></item><item><title>You have beautiful ize. [Weekly Head Voices #62]</title><link>https://cpbotha.net/2011/11/19/you-have-beautiful-ize-weekly-head-voices-62/</link><pubDate>Sat, 19 Nov 2011 21:29:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/11/19/you-have-beautiful-ize-weekly-head-voices-62/</guid><description> I completely lack the genes that usually cause human males to have a thing for cars, but I do love Top Gear. This trailer for a fictional 60s detective show, made by Jeremy Clarkson, James May and Richard Hammond, encapsulates many of the reasons why:
+Moustaches, guns, girls, cars and Hammond karate-chopping the porter at Playboy Club London for absolutely no reason whatsoever at 41 seconds can be nothing but 100% pure AWESOME.</description><content:encoded><![CDATA[ <p>I completely lack the genes that usually cause human males to have a thing for cars, but I do love Top Gear. This trailer for a fictional 60s detective show, made by Jeremy Clarkson, James May and Richard Hammond, encapsulates many of the reasons why:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/qLp4FhDAfQk?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Moustaches, guns, girls, cars and Hammond karate-chopping the porter at Playboy Club London for absolutely no reason whatsoever at 41 seconds can be nothing but 100% pure AWESOME.</p>
+<p>It’s crazily busy at the moment, for a large part due to the extra load of having to teach and revamp, AT THE SAME TIME, the <a href="http://graphics.tudelft.nl/Courses/in4086" title="TU Delt DataVis course">TU Delft’s postgraduate Data Visualization course</a>. I’ve chucked out the written exam and the structured lab work, and exchanged it for paper reading, class discussion and four independent projects, inspired by positive experience with my <a href="http://graphics.tudelft.nl/Courses/in4307" title="TU Delft postgraduate MedVis course">Medical Visualization Ninja Training Course</a> (third year in the running, Ninjas all over the place!), the <a href="/2010/11/21/teaching-infovis-in-stellenbosch/" title="infovis in stellenbosch">postgraduate InfoVis course I gave at Stellenbosch</a> and of course the teaching materials of esteemed colleagues at UBC, Harvard, Berkeley and Stanford. With a bit of luck, we will soon deliver a whole class of new-style DataVis Ninjas.</p>
+<p>At a recent conference, I ran into an erudite half-British colleague from the far North, who in a few minutes almost managed to turn my world into rubble. You see, I’ve always proudly promoted the use of the -ise forms of certain words, such as visualise, realise, colonise and so forth, these being examples of British English. (Obviously, I adapt when American English is required.)</p>
+<p>It turns out that, as is the case with life in general, it’s unfortunately not as simple as that.</p>
+<p><a href="http://en.wikipedia.org/wiki/American_and_British_English_spelling_differences#-ise.2C_-ize_.28-isation.2C_-ization.29" title="wikipedia article on britsh vs english spelling">It turns out</a> that many of the -ise words are originally from the Greek or the Latin with “-ize” endings, and therefore the Oxford spelling prefers their use, although it accepts the “-ise” forms as well. On the other hand, the Cambridge University Press, as well as the mainstream media and most of the public in Britain and the former colonies, has a strong preference for the “-ise” forms. Certain other words like for example advertise, advise and surprise always take the “-ise” form in British English.</p>
+<p>So now I’m faced with this conundrum. It would otherwise not have been such an issue, but the words “visualise” and “visualisation” come up quite often during my work day. Sticking to “-ise” is easier and still correct when in British English mode, but “-ize” for those few words of Greek  and Latin origin could perhaps be considered more correct, and has the great advantage of allowing me to standardise on “visualize” as the canonical form of that important term. However, then I would run the risk of confusing the “-ize” and the true “-ise” words in Oxford English, potentially leading to painful embarrassment at the many cocktail parties that I frequent.</p>
+<p>So you see, the Universe is just full of mysteries. Another mystery that has plagued humankind for decades, is what would happen if Stephen Hawking and Albert Einstein got involved in a rap battle. Well humankind, wonder no more:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/zn7-fVtT16k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Ok kids, thank you for tuning in again. Have a great week, I hope to see you again soon!</p>
+]]></content:encoded></item><item><title>Happiness slingshot. [Weekly Head Voices #61]</title><link>https://cpbotha.net/2011/11/05/happiness-slingshot-weekly-head-voices-61/</link><pubDate>Sat, 05 Nov 2011 21:11:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/11/05/happiness-slingshot-weekly-head-voices-61/</guid><description> Make sure you won’t be disturbed for the next 2 minutes and 57 seconds, and then focus your full attention on this marvelous YouTube clip:
+Yes people, there are apparently some brilliant human beings, the pinnacle of our society you might say, who took the time to construct a giant slingshot with which they then proceeded to shoot each other through the blue summer sky. This is the sign that we, the human race, must be doing something right.</description><content:encoded><![CDATA[ <p>Make sure you won’t be disturbed for the next 2 minutes and 57 seconds, and then focus your full attention on this marvelous YouTube clip:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/y_wkQBDDgvI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Yes people, there are apparently some brilliant human beings, the pinnacle of our society you might say, who took the time to construct a giant slingshot with which they then proceeded to shoot each other through the blue summer sky. This is the sign that we, the human race, <em>must be doing something right</em>.</p>
+<p>Because I need all the time that I can get to play may part in being a good human, I will now switch to Bullet Time(tm):</p>
+<ul>
+<li>IEEE VisWeek 2011, Mind-Blowingly Awesome Visualization Conference, took place in week 43. For the first time in years, I was NOT there. The <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">TNR</a> went and came back inspired. My fearless and revered ex-leader Frits Post received the IEEE VGTC Visualization Career Award, which is yet another official recognition of his awesomeness. I hope he still has some space on the mantelpiece next to the Eurographics Honorary Fellow award.</li>
+<li>Through the <a href="https://twitter.com/#!/search?q=%23visweek" title="#visweek twitter stream">#visweek conference twitter stream</a> and some of the blogging that was going on, I was able to follow the conference at a distance. There was a Blogging about Visualization BoF (birds of a feather, a kind of informal meeting to discuss some topic of interest; also read <a href="http://bowr.de/blog/?p=291" title="Dominikus Baur's report on the visweek blogging BoF">Dominikus Baur’s blog report</a>), which motivated me to revive <a href="http://medvis.org/" title="medvis.org blog">the MedVis.org webblog</a>! We even have a <a href="https://twitter.com/#!/medvisorg" title="medvis.org twitter account">twitter account now</a>. If you have even a mild interest in medical visualisation or imaging, please subscribe via email, your RSS reader or <a href="https://twitter.com/#!/medvisorg" title="medvis.org twitter account">the twitter account</a>.</li>
+<li>This blog won one of <a href="http://www.swimgeek.com/blog/2011/10/26/sa-blog-awards-2011/" title="Joe's official SA blog awards">Joe’s official SA Blog Awards</a>! Buy me a beer when you see me.</li>
+<li>A real Italian explained to me that putting sugar in your espresso is entirely acceptable and even desirable. Herewith I’m going to stop feeling ashamed about my sugar-in-espresso habit. I’m not sure what I was thinking that combining two of the best substances known to humans was a sin.</li>
+<li>After spending some serious quality time with <a href="http://emailga.me/" title="The Email Game">The Email Game</a>, I wrestled both of my overgrown inboxes to the ground. Lessons learnt: 1) Even the thin layer of gamification offered by The Email Game was sufficient to motivate me to start and finish a task I’ve been dreading for weeks. 2) Inbox Zero actually is more important than I’ve recently come to think. The trick is deciding when exactly you’re going to empty it.</li>
+<li>Here’s a picture of a hedgehog after a bath:</li>
+</ul>
+<div>
+<figure class="wp-caption alignnone" style="width: 333px"><a href="http://www.flickr.com/photos/justinandelise/4234874994/"><img alt="" height="500" src="http://farm3.static.flickr.com/2759/4234874994_9cbf4fbf35.jpg" title="Hedgehog after a bath, found on BoingBoing." width="333"/></a><figcaption class="wp-caption-text">It's a hedgehog. After a bath!</figcaption></figure>
+</div>
+<p>So recently I was having a conversation with someone in a bar. Soon the question came up: <em>What are you striving for in your work?</em></p>
+<p>Imagine my surprise when I didn’t have an answer ready. I was surprised, because I usually spend a significant amount of time on introspection, pondering the usual questions:</p>
+<ol>
+<li>What makes me happy?</li>
+<li>Why are we here?</li>
+<li>What should I strive for?</li>
+</ol>
+<p>I mostly have answers to all of these and more, often involving coffee drinking in some form, along with a healthy dose of perspective, and harmony. However, due to general work-related business the past few months, my moments of introspection have been few and far between. As is the case with these types of philosophical guidelines, one does need to spend time regularly pondering them, else they sink quickly deeper below the surface of everyday life.</p>
+<p>So I spent some time trying to remember what it was that I was striving for in work. Fortunately, not that far below the surface, I found it again:</p>
+<blockquote>
+<p>Create value.</p>
+</blockquote>
+<p>That’s really all there is, but it works for me.</p>
+]]></content:encoded></item><item><title>Rebecca Black is OK! [Weekly Head Voices #56]</title><link>https://cpbotha.net/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/</link><pubDate>Wed, 14 Sep 2011 21:35:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/</guid><description> Probably the most brainless song on the whole of YouTube must be “Friday” (don’t click that link, please) by Rebecca Black. At one stage, she’s seriously singing about leaving home and going to the bus stop on Friday. As if that’s not mentally taxing enough for her, her friends arrive in a car, and, wait for it, SHE HAS TO DECIDE IN WHICH SEAT TO SIT. Heavens. Talk about broody teenager angst.</description><content:encoded><![CDATA[ <p>Probably the most brainless song on the whole of YouTube must be <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=_BI0szjpxJs" title="link to the original Friday video. DO NOT CLICK!">“Friday”</a> (don’t click that link, please) by Rebecca Black. At one stage, she’s seriously singing about leaving home and going to the bus stop on Friday. As if that’s not mentally taxing enough for her, her friends arrive in a car, and, wait for it, SHE HAS TO DECIDE IN WHICH SEAT TO SIT. Heavens. Talk about broody teenager angst. DANGIT I MISS GRUNGE!</p>
+<p>In any case, I was convinced that Rebecca Black was a portent of the end of the world as we know it, probably due to an unstoppable tsunami of vacuous stupidity crashing through the whole of civilization (you have to admit, there are signs. what signs? well mostly politicians and managers). However, due to a recent instance of such blinding brilliance that I had to don my mental steampunk goggles of total darkness (yes, the ones I’ll be wearing to Burning Man when I go there), I have to revise my opinion of Rebecca. You see, her musical atrocity has acted as a catalyst for the creation of the musical masterpiece that is Braaiday! Seat yourself comfortably, and experience it:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/gLyLvCXYKUg?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Yes? Yes. Hang on while I listen to it one more time. No I don’t need YouTube anymore, the whole thing is engraved in my brain. By the way, September 24 is National Braai day in South Africa. You know what to do…</p>
+<p>As if Braaiday wasn’t enough to make my year, <a href="/about/weekly-head-voices-abbreviations/" title="Weekly Head Voices abbreviations page">TNR</a>, friend and business partner, underwent two significant life events:</p>
+<ol>
+<li>He turned a year older.</li>
+<li>The day after his birthday (doh), TNR was offered an assistant professorship in our section!</li>
+</ol>
+<p>We’ll leave the consequences of life event #1 for a later, more philosophical, occasion. The consequence of #2, together with the fact that we’ve somehow managed to attract a handful of Truly Kickass people (you know who you are, kickass people!), is that there’s now an absolutely fabulous vibe in our research group. I’ve had the privilege of experiencing this specific vibe in other places before. You can’t engineer it, it simply has to happen. The best you can do, is to put the right people together and cross your fingers. When it does decide to appear, it’s epic!</p>
+<p>On a different topic: The reason why I’ve been ignoring all of your email the past weeks, and why I generally haven’t even been able to pay attention to the beautiful wooshing sound all of my passing deadlines made as they flew by, is because I was first preparing for and then running, together with a whole team of ninjas, the TU Delft CS first year introductory project. I designed this brand-new module last year, and severely honed it this year. 130+ first years worked together in 26 small groups designing and implementing augmented reality music instruments with real-time video analysis, 3D graphics and sound loop mixing. CACOPHONY with a capital C!</p>
+<p>I’ve uploaded to YouTube some video impressions of the top teams demonstrating their projects in the concluding session. Click <a href="http://www.youtube.com/results?search_query=ti1100a&amp;search=tag" title="YouTube videos tagged with ti100a">here</a> to view these and any other clips that other peeps have tagged with “ti100a” (the course code).</p>
+<p>OK people. That was it for weeks 35 and 36 (this post was 100% produced within moving trains!), the week 37 blog post will hopefully appear this weekend sometime. I’m still Way Too Busy (do you hear that wooshing sound in the distance too?), but managing to keep myself quite happy by:</p>
+<ol>
+<li>ensuring that most of the time I spend, I spend creating value;</li>
+<li>ensuring that the people I interact with are primarily of the ass-kicking variety;</li>
+<li>making many bullet lists like this one.</li>
+</ol>
+<p>See you on the other side!</p>
+<p>P.S. Have you heard about batmanning? Apparently it’s the new planking:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/50xynq4xmCw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Barbarossa Town [Weekly Head Voices #51]</title><link>https://cpbotha.net/2011/07/11/barbarossa-town-weekly-head-voices-51/</link><pubDate>Mon, 11 Jul 2011 19:31:55 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/07/11/barbarossa-town-weekly-head-voices-51/</guid><description> Here’s a photo: Some train at the Rotterdam Station. I spent lots of time in these the past week.
+… and here are four things, most of which happened last week:
+I was honoured to be invited by the International Research Training Group (IRTG) of the University of Kaiserslautern to visit their institute and give a presentation on medical visualisation (my field of research, for those of you joining very late).</description><content:encoded><![CDATA[ <p>Here’s a photo:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/07/train_rotterdam.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/07/train_rotterdam-1024x608.jpg"
+        
+            alt="Some train at the Rotterdam Station. I spent lots of time in these the past week."/> </a><figcaption>
+            <p>Some train at the Rotterdam Station. I spent lots of time in these the past week.</p>
+        </figcaption>
+</figure>
+</p>
+<p>… and here are four things, most of which happened last week:</p>
+<ul>
+<li>I was honoured to be invited by the <a href="http://www.irtg.uni-kl.de/" title="IRTG website">International Research Training Group (IRTG)</a> of the University of Kaiserslautern to visit their institute and give a presentation on medical visualisation (my field of research, for those of you joining <em>very</em> late). Unfortunately, I was only able to stay an evening and a morning, flanked by two 7 hour train rides. In spite of my short stay, the exceptionally friendly Kaiserslautern peeps managed to put together an enjoyable and especially very efficient program with dinner, a morning of research discussion  and of course my talk, which was only 45 minutes over time, and a delectable lunch outside. It was interspersed with questions and discussions, which I do like, and most of the audience managed to stay awake (!), but I still do have to take a more serious look into accurately timing interactive talks like this. Thank you very much IRTG, it was a perfect visit!</li>
+<li>The Delft – Kaiserslautern trip is just so that taking the train seems to make more sense than flying. The total trip time is greater, but the difference is small enough to be justified by the great deal of work one can do on these long train rides.</li>
+<li>I tried out T-Mobile’s new pre-paid Internet “abroad” option, called <a href="http://www.t-mobile.nl/service-en-contact/buitenland/internet-in-het-buitenland" title="travel&amp;surf website">Travel &amp; Surf</a>. One pays EUR 4.95 for 50 MB over 24 hours, or EUR 14.95 for 100 MB (which they call “unlimited”, HAHA) over 7 days. Without this active, my mobile internet works abroad, but in the zone 1 countries (Germany, Norway, etc.) costs me EUR 2 / MB up to a maximum of EUR 60 per month, so it’s definitely nice being able to pre-pay and control the possibly nasty surprises. However, an Android telephone sucks down 50 MB of data without even thinking, unless you remember to deactivate syncing and background data, which does help to quite an extent. This is certainly a good development, but T-Mobile and all other mobile providers are probably still making an absolute killing by acting like it’s really complicated providing internet just over the Dutch border.</li>
+<li>On the really good news front, Francois Malan’s paper on measuring femoral lesions despite CT metal artifacts has been accepted for publication in Skeletal Radiology! The full citation (so far, it’s online first) is:  Malan DF, Botha CP, Kraaij G, Joemai RM, van der Heide HJ, Nelissen RG, Valstar ER., <em><a href="http://www.ncbi.nlm.nih.gov/pubmed/21732221" title="pubmed link to Malan 2011">Measuring femoral lesions despite CT metal artefacts: a cadaveric study</a>,</em> <strong>Skeletal Radiology</strong>, 2011. Cite it sesame!</li>
+</ul>
+<p>Here’s my final thing, a youtube clip that, to my surprise, I don’t think I’ve shown on this blog before. Pay attention, it’s full of <a href="http://en.wikipedia.org/wiki/Braai" title="wikipedia page on braai">braai</a>-related culture and wisdom:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/vq2SOmwzjUU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>May your week be full of awesome!</p>
+]]></content:encoded></item><item><title>EuroVis 2011</title><link>https://cpbotha.net/2011/06/26/eurovis-2011/</link><pubDate>Sun, 26 Jun 2011 11:25:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/06/26/eurovis-2011/</guid><description> I’ve written before about EuroVis, the most important European scientific conference on visualisation. In 2009, it took place in Berlin, in 2010 it was in Bordeaux, and, an a surprise non-twist of alliteration, the 2011 edition was held in Bergen, Norway. With 216 attendees and a practically perfect organization, this year’s edition has been described as the biggest and the best EuroVis ever. In a bid to save some time (I still owe you a mega-edition of the Weekly (actually Monthly) Head Voices), I’m going to give my biased account in bullet-list form:</description><content:encoded><![CDATA[ <p>I’ve written before about EuroVis, the most important European scientific conference on visualisation. In <a href="/2009/06/14/eurovis-2009/" title="blog post on eurovis 2009">2009, it took place in Berlin</a>, in <a href="/2010/06/19/eurovis-2010-weekly-head-voices-24/" title="blog coverage of eurovis 2010">2010 it was in Bordeaux</a>, and, an a surprise non-twist of alliteration, the <strong>2011 edition was held in Bergen, Norway.</strong> With 216 attendees and a practically perfect organization, this year’s edition has been described as the biggest and the best EuroVis ever. In a bid to save some time (I still owe you a mega-edition of the Weekly (actually Monthly) Head Voices), I’m going to give my biased account in bullet-list form:</p>
+<ul>
+<li>
+<p>On Tuesday evening, we were welcomed by the very charismatic vice mayor of Bergen in the Tårnsalen of the Lysverket building of the Bergen Art Museum. It seems the photo I took of the inside of the art deco tower, built in 1938, is quite a popular shot. The food was divine, thank you very much.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/06/tarnsalen.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/06/tarnsalen-1024x612.jpg"
+        
+            alt="Art Deco tower from the inside in the Tårnsalen, Lysverket."/> </a><figcaption>
+            <p>Art Deco tower from the inside in the Tårnsalen, Lysverket.</p>
+        </figcaption>
+</figure>
+</p>
+</li>
+<li>
+<p>The next morning, during the conference opening, the following Bergen (rainiest city in Europe) joke was told: <em>A visitor asks a local boy in exasperation “Does it rain like this all the time?” and the little boy answers “I don’t know, I’m only 12 years old!”</em>.</p>
+</li>
+<li>
+<p>The <a href="http://www.uib.no/eurovis2011/speakers.php#mcCloud" title="conference keynote page">conference keynote</a> was given by <a href="http://en.wikipedia.org/wiki/Scott_McCloud" title="Wikipedia page on Scott McCloud">Scott McCloud</a>, American cartoonist and comic theorist, on aspects of visual communication. This was most probably the best presentation I’ve ever had the privilege of experiencing. Besides brilliant oratorship, his slides are somehow more a visual stream of consciousness affair than discrete quanta of information. When I grow up, I’m going to present like that.</p>
+</li>
+</ul>
+<p>As per usual, I get to award the <strong>Weekly Head Voices Best Paper awards</strong>, and they go to the following papers:</p>
+<ul>
+<li><a href="http://www.mevis-research.de/~crieder/pdf/EuroVis2011_paper175.pdf" title="fulltext of Rieder 2011 eurovis paper">A Shader Framework for Rapid Prototyping of GPU-Based Volume Rendering</a> by Christian Rieder, Stephan Palmer, Florian Link and Horst K. Hahn. Rieder and his colleagues have constructed a full GPU-based volume rendering pipeline in MeVisLab of which the various shader based components are modifiable at runtime. This means that you can prototype your GPU-based volume rendering ideas in no time flat!</li>
+<li><a href="http://www.ii.uib.no/vis/publications/publication/2011/lampe11curveDensity" title="curve density estimates website">Curve Density Estimates</a> by Ove Daae Lampe and Helwig Hauser. Back to basics and really important work on the effective visualisation of complex curves at any resolution, with smooth scaling between levels.</li>
+<li><a href="http://vgl.serc.iisc.ernet.in/pdf/pub/MultifieldComparisonMeasureEUROVIS2011.pdf" title="fulltext gradient-based comparison metric paper">A Gradient-Based Comparison Measure for Visual Analysis of Multifield Data</a> by Suthambhara Nagaraj, Vijay Natarajan and Ravi S. Nanjundiah. Another back-to-basics paper in which the authors show how to find the agreement between hundreds of scalar fields and visualise this agreement, thus enabling comparison.</li>
+</ul>
+<p>The slightly less prestigious EuroVis 2011 Best Paper awards went to:</p>
+<ol>
+<li>Uncertainty-Aware Exploration of Continuous Parameter Spaces Using Multivariate Prediction  by Wolfgang Berger, Harald Piringer, Peter Filzmoser, Eduard Gröller. I was unfortunately in the other session, but was told by numerous colleagues that this was indeed an award-winning presentation as well.</li>
+<li><a href="http://www.sci.utah.edu/publications/anderson11/Anderson_eurovis2011.pdf" title="fulltext of Anderson's paper">A User Study of Visualization Effectiveness Using EEG and Cognitive Load</a> by Erik Anderson, Kristin Potter, Laura Matzen, Jason Shepherd, Gilbert Preston, Claudio Silva. This was presented in the Evaluation session which I had the privilege of chairing. It is indeed a very compelling idea to measure the effectiveness of a visualisation through cognitive load and this paper documents the first very important steps in this direction.</li>
+<li>A Gradient-Based Comparison Measure for Visual Analysis of Multifield Data by Suthambhara Nagaraj, Vijay Natarajan and Ravi S. Nanjundiah. This was also amongst the more prestigious WHV best paper award winners, see above!</li>
+</ol>
+<p>The rest of the conference featured the following bullets:</p>
+<ul>
+<li>During the social event on Thursday evening, Frits Post (my boss), was elevated to the rank of Eurographics Honorary Fellow, recognizing his service to and standing in the visualisation community. Including this newest addition, there are only <a href="http://www.eg.org/index.php?option=com_content&amp;view=article&amp;id=90&amp;Itemid=52" title="list of EG honorary fellows">five (5!) EG Honorary Fellows</a> in the world today. I am very proud!</li>
+<li>During the first session of the morning after the social event, I had the exquisite privilege of presenting the work of my Brazilian colleagues: <a href="http://www.lcad.icmc.usp.br/~nonato/pubs/plp.pdf" title="fulltext PLP paper">Piecewise Laplacian-based Projection for Interactive Data Exploration and Organization</a> by Fernando V. Paulovich, Danilo M. Eler, Jorge Poco, Charl P. Botha, Rosane Minghim, Luis G. Nonato. I really do like presenting at events like these, and it’s been a while. Do read and cite the paper, it documents a practical way of reducing any set of high-dimensional data points to the visual space, and enabling interaction with those points on the visual space!</li>
+<li>The <a href="http://www.uib.no/eurovis2011/speakers.php#groller" title="capstone page">capstone of the conference</a> was presented by the legendary Prof. E. Gröller, also known by the whole community as <em>Meister</em>. In typical style, the title of his talk was only announced during the talk itself. The title was <em>The Haunted Swamps of Heuristics</em>. In this philosophical and visionary contribution, it was argued that algorithms and parameters are too deeply intertwined to focus only on the former, but that it was more important to study, in detail, the exact behaviour of the latter. More broadly speaking, we need to accept the fact that there is a great deal of uncertainty also in the parameter spaces of our algorithms, but that this uncertainty can and should be dealt with correctly.</li>
+</ul>
+<p>That thought-provoking capstone and this blog post will share the same concluding quote:</p>
+<blockquote>
+<p>Doubt is not a pleasant condition, but certainty is absurd. — Voltaire / Gröller</p>
+</blockquote>
+<p>I hope to see you in the comments below! You could also opt to click on my shiny new +1 button, or my slightly older but no less shiny retweet or facebook share buttons.</p>
+]]></content:encoded></item><item><title>Schloss Dagstuhl: Computer Scientist Heaven</title><link>https://cpbotha.net/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/</link><pubDate>Sun, 19 Jun 2011 19:56:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/</guid><description> Somewhere in a remote but picturesque location in southern Germany, there’s a special castle called Schloss Dagstuhl. Every week, the castle fills up with a smallish group of Exceptionally Privileged Computer Scientists, who can only go there Because They Have Been Invited. Every week hosts a different field; In my case this was the Scientific Visualization seminar, one of the oldest participating groups. Everything has been setup just so to guarantee a perfect computer sciencey week for all guests.</description><content:encoded><![CDATA[ <p>Somewhere in a remote but picturesque location in southern Germany, there’s a special castle called Schloss Dagstuhl. Every week, the castle fills up with a smallish group of Exceptionally Privileged Computer Scientists, who can only go there Because They Have Been Invited. Every week hosts a different field; In my case this was the Scientific Visualization seminar, one of the oldest participating groups. Everything has been setup <em>just so</em> to guarantee a perfect computer sciencey week for all guests. Because I’ve already been boring too many people with this story in person, I thought it prudent to write it up. Let’s hope it’s not a first (and second!) rule of Fight Club situation, in which case posting frequency over here might drop <em>quite</em> drastically.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/06/Dagstuhl_DSC02285.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/06/Dagstuhl_DSC02285-1024x768.jpg"
+        
+            alt="Schloss Dagstuhl, picture courtesy of Wikipedia."/> </a><figcaption>
+            <p>Schloss Dagstuhl, picture courtesy of Wikipedia.</p>
+        </figcaption>
+</figure>
+</p>
+<p>To begin with, the meals are exquisite, three times a day, every day. As we all know, the path to a computer scientist’s heart is through buying them new gadgets, but feeding them well is a great backup plan. Another very nice touch is the fact that seating is deliberately randomised, meaning that your introvert self is forced to sit at the table with a different group of guests during each lunch and dinner, in turn meaning that even if you try otherwise, you will probably get to have a good conversation with every one of the fifty attendees.</p>
+<p>In the case of our seminar, the working day consists of presentations in blocks of three or four, followed by a longer block of discussion on all the preceding presentations, panel style. Attendees were all asked not just to give a standard scientific presentation, but to discuss open problems and future challenges in their respective sub-fields. I (and many others, judging by the aggregated post-meeting feedback) really enjoyed this format. The presentations made one think, and the discussion blocks were long enough to really get into the details. You can check out abstracts and slides on <a href="http://www.dagstuhl.de/mat/index.en.phtml?11231" title="site with Dagstuhl SciVis 2011 materials">the seminar website</a>.</p>
+<p>After a full day of quite intensive discussion, there were breakout sessions during which four subgroups started working on the various chapters of a new Springer book that should appear sometime early in next year. The book will deal with multi-field, uncertainty, biomedical and scalable visualization, and it has the makings of being a keeper.</p>
+<p>The other extremely important magic bit about this castle is the abundance of real coffee machines (ones that grind coffee beans for every cup), snack corners and, uhm, beer fridges. You can’t really go anywhere, as you’re in the middle of nowhere, so after dinner the conversations tend to continue till late in the night, conversant stamina enhanced by said coffee and beer facilities. Evil science plans were made, good old-fashioned deep conversations were had and the early next morning consequences were flatly ignored. I haven’t laughed quite so much in a long time, but <em>that</em> part of the programme prefers, and has the right, to remain completely silent.</p>
+<p>If you ever get <em>the</em> invitation, don’t hesitate for a second to accept: You shall return an exhausted but terribly happy computer nerd.</p>
+]]></content:encoded></item><item><title>I like nano-sabbaticals. [Weekly Head Voices #39]</title><link>https://cpbotha.net/2011/02/26/i-like-nano-sabbaticals-weekly-head-voices-39/</link><pubDate>Sat, 26 Feb 2011 17:27:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/02/26/i-like-nano-sabbaticals-weekly-head-voices-39/</guid><description> This past week I was away from work, doing a nano-sabbatical in my secret lair. Example of some random evil lair. Mine is exactly the same, except that it's not in a hollowed-out volcano, doesn't have my face on the outside and is not near the sea.
+I thought I was being original by dubbing my week-long self-imposed working isolation a nano-sabbatical, but [google knows better][1]. It turns out other people call their week-long sabbaticals nano too.</description><content:encoded><![CDATA[ <p>This past week I was away from work, doing a nano-sabbatical in my secret lair.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/02/evil_lair_landscape.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/02/evil_lair_landscape.png"
+        
+            alt="Example of some random evil lair. Mine is exactly the same, except that it&#39;s not in a hollowed-out volcano, doesn&#39;t have my face on the outside and is not near the sea."/> </a><figcaption>
+            <p>Example of some random evil lair. Mine is exactly the same, except that it's not in a hollowed-out volcano, doesn't have my face on the outside and is not near the sea.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I thought I was being original by dubbing my week-long self-imposed working isolation a nano-sabbatical, but [google knows better][1]. It turns out other people call their week-long sabbaticals <em>nano</em> too.  Durn. In any case, as you will recall I also went away on a [month-long micro-sabbatical in 2009][2], but this time I wanted to experiment with spending almost a whole work-week focusing on a single task, trying to finish a [survey article][3] I’ve been working on for almost two years. The week is now over and the article is not ready for submission yet, but it <em>has</em> become a completely different and much improved animal during the past week. I’m a happier person too!</p>
+<p>I would like to share with you some of the high-level conclusions I’ve drawn from this experiment:</p>
+<ul>
+<li>Over the past years, I’ve had to get used to multi-tasking. Switching to focus mode was quite a challenge, as my reflex is to switch, switch and switch. Judicious application of [pomodori][4], killing of browser windows and general self talkings-to mostly helped. I have it mostly under control, but I’m sure I could push up my effectivity further with more practice.</li>
+<li>I did manage to work quite efficiently from day one, but only by the end of the second day did I find myself in the right <em>frame of mind</em> for writing this kind of paper. It’s one of those cases where you can work really hard, but if you’re not in the right frame of mind, you’re not being effective.</li>
+<li>At the beginning of the week, I had configured a vacation email auto-reply, keeping the exact reason for my absence vague. The idea is that I would act as if I were on vacation, that is not responding to email and not taking care of any other work-related issues. Still, I couldn’t help taking care of the bare minimum of important matters, which acted as an extra distraction. I think for any sabbatical, nano to mega, it’s important where exactly you draw the line. During my 2009 sabbatical, I had the strict rule that I could only do normal work-related things during the evenings, which worked quite well.</li>
+<li>By the end of the week I was completely embroiled in interesting article-related issues, with very little else interrupting my concentration. It was refreshing having almost all thought-processes dealing with one topic, instead of bouncing between too many concurrent projects.</li>
+<li>I truly love the process of writing, even if it is scientific writing, which requires a different attitude regarding the structuring of one’s text and the willingness to rewrite a piece of text as many times as it’s required to get it <em>exactly</em> right. There’s nothing like looking at a single short sentence that concisely communicates the thought <em>just so</em>.</li>
+</ul>
+<p><em>On the nerd front (skip to the next paragraph if you’re feeling non-nerdy): eclipse, texlipse, mercurial, jabref and dropbox make for a beautiful LaTeX editing workflow, on Linux and Windows machines. There’s nothing like continuous LaTeX builds for the gainful utilisation of the idle and overpowered CPUs in your workstation or laptop.</em></p>
+<p>There will definitely be more weeks like this one just past, and perhaps even a real sabbatical in the not-too-distant future. It is unfortunate that multi-tasking has become so <em>de rigueur</em> in modern life. There is a whole lot to be said for the zen of pouring oneself into just that one important thing.</p>
+<p>[1]: <a href="http://www.google.nl/search?sourceid=chrome&amp;ie=UTF-8&amp;q=nano-sabbatical#sclient=psy&amp;hl=en&amp;source=hp&amp;q=%22nano-sabbatical%22&amp;aq=f&amp;aqi=&amp;aql=&amp;oq=&amp;pbx=1&amp;fp=368f0808b1fe00fa">http://www.google.nl/search?sourceid=chrome&amp;ie=UTF-8&amp;q=nano-sabbatical#sclient=psy&amp;hl=en&amp;source=hp&amp;q=%22nano-sabbatical%22&amp;aq=f&amp;aqi=&amp;aql=&amp;oq=&amp;pbx=1&amp;fp=368f0808b1fe00fa</a> &ldquo;link to google search for &ldquo;nano-sabbatical&rdquo;&rdquo;
+[2]: /2009/04/25/my-first-sabbatical/ &ldquo;My First Sabbatical&rdquo;
+[3]: <a href="http://en.wikipedia.org/wiki/Survey_article">http://en.wikipedia.org/wiki/Survey_article</a> &ldquo;wikipedia definition of survey article&rdquo;
+[4]: /2010/09/20/an-indecent-proposal-weekly-head-voices-31/ &ldquo;one of my pomodori posts&rdquo;</p>
+]]></content:encoded></item></channel></rss>

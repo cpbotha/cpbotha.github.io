@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>caffeine on voices in my head</title><link>https://cpbotha.net/tags/caffeine/</link><description>Recent content in caffeine on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 22 May 2019 22:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/caffeine/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #171: ICEMiRB.</title><link>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</link><pubDate>Wed, 22 May 2019 22:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</guid><description> Down here, you never know what sort of fantastic beasts you could run into. I met this particular fullmetal creature right about here.
+Dear friends,
+In this post, I do a particularly lossy review of my trip through time, from Monday May 6 to Sunday May 19, 2019.
+First we talk about sleep, then a long part on technical tricks, then a slightly more backyard philosophical piece on human tool sharpening, and finally the announcement of a new academic event somewhere in the far or near or medium term future.</description><content:encoded><![CDATA[ <figure>
+<a href="fullmetal_baboon.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+<p>Down here, you never know what sort of fantastic beasts you could run into. I
+met this particular fullmetal creature <a
+href="https://goo.gl/maps/KpcQGa6hEcbd87mF7">right about here</a>.</p>
+</figcaption>
+</figure>
+<p>Dear friends,</p>
+<p>In this post, I do a particularly lossy review of my trip through time, from
+Monday May 6 to Sunday May 19, 2019.</p>
+<p>First we talk about sleep, then a long part on technical tricks, then a
+slightly more backyard philosophical piece on human tool sharpening, and
+finally the announcement of a new academic event somewhere in the far or near
+or medium term future.</p>
+<h1 id="sleep">Sleep.</h1>
+<p>If you were one of the people who found themselves in my company for more than
+about 10 nanoseconds during the past weeks, I probably tried to get you to
+listen to <a href="/2019/05/07/weekly-head-voices-170-yeet/#the-easiest-but-most-high-impact-measure-you-can-take-to-not-die-too-soon-go-to-bed-on-time">the 6-hour long podcast between Peter Attia and Matthew Walker on
+the topic of
+sleep</a>.</p>
+<p>Usually I&rsquo;m able to get something sufficiently out of my system by writing
+about here. I do this quite deliberately to try and spare my innocent
+bystanders.</p>
+<p>This time, either it didn&rsquo;t really help, or I underestimate how much I would
+have blabbed about it had I not let off some of the sleep steam here.</p>
+<p>IN ANY CASE&hellip;</p>
+<p>During the past weeks I have been paying more attention than usual to sleep, in
+terms of quality, quantity and consistency.</p>
+<p>Because I also decided to take more notes than usual during the day, I could
+see quite acutely the effects of good sleep vs bad sleep on my performance and
+energy levels the next day.</p>
+<p>If sleep was good the night before, my exercise the next day seemed to take
+much less effort, I still seemed to have more than enough energy at the end of
+the afternoon, and, most importantly, I had almost no trouble with that
+ever-important f-word:</p>
+<blockquote>
+<p>FOCUS.</p>
+</blockquote>
+<p>Conversely, if I let sleep-onset slip by as little as half an hour, my brain
+would be in three thousand pieces by three &lsquo;o clock the next afternoon.</p>
+<p>It is starting to dawn on me that all of those evenings where I tried to borrow
+an hour or even two from my sleep had a far greater cost the day after than I
+ever realised.</p>
+<p><strong>I can only conclude, that to experience the highest quality and intensity
+waking hours, one simply has no choice but to pay the full 33% sleep tax.</strong></p>
+<h2 id="damnit-coffee">Damnit coffee.</h2>
+<p>Caffeine has a quarter life of 12 hours.</p>
+<p>If you&rsquo;re positively buzzing at 1PM, 25% of that caffeine is still active in
+your system at 1AM and absolutely will interfere with your sleep quality.</p>
+<p>I have compromised by having my last shot before lunch, or in extreme cases
+right after.</p>
+<h1 id="til-things-i-learned">TIL: Things I learned.</h1>
+<p>This WHV is one week late, because it seemed like nothing happened in the first week.</p>
+<p>However, it seems I did learn quite few new technical tricks. In the
+subsections below, I share a selection of these with you.</p>
+<h2 id="remarkjs-is-great-for-quickly-building-technical-presentations">remarkjs is great for quickly building technical presentations.</h2>
+<p>At <a href="https://www.meetup.com/Helderberg-Software-Developers-and-Entrepreneurs/">my favourite local
+meetup</a>,
+I was planning to give a talk on <a href="https://gohugo.io/">Hugo</a>, the static website
+generator which is powering this site, and which I&rsquo;m increasingly using instead
+of wordpress.</p>
+<p>Because every new project is an opportunity to check and perhaps upgrade one&rsquo;s
+tools (see below for how this can also sometimes backfire), I set aside the
+trusty <a href="https://revealjs.com/">reveal.js</a> and <a href="https://github.com/yjwen/org-reveal">ox-reveal Emacs orgmode
+interface</a> I usually bust out, and paddled
+out onto rough internet seas, on the lookout for an alternative solution.</p>
+<p>(Now that I think back, I had no good reason to search for an alternative,
+except that my pre-configured reveal.js style and formatting never made me
+really happy.)</p>
+<p>Fortunately, after not too long I ran into <a href="https://remarkjs.com">remark</a>, an
+HTML- and markdown-based presentation tool that seems simpler than reveal, but
+still quite attractive, as you&rsquo;ll be able to see on the demo site above.</p>
+<p>At this point, I was pleasantly surprised that this distraction had not cost
+more than about 30 minutes.</p>
+<p>At least, that <em>was</em> the case until I ran into <a href="https://github.com/torgeir/remark-mode.el">remark-mode for
+Emacs</a>!</p>
+<p>As you can see from the screenshot, this enables a pretty smooth
+generate-as-you-type workflow.</p>
+<p>Also noteworthy, is the great built-in presenter mode. Press <code>C</code> to clone the
+window into a new linked presentation which you can move off to the external
+display, and then press <code>P</code> to switch to presenter mode where you can see all
+of the comments you have left in the markdown.</p>
+<p>I made two small fixes in <a href="https://github.com/cpbotha/remark-mode.el">my own
+fork</a> to enable seeding with your
+own HTML template, and to enable the generate-as-you-type to work also on
+straight <code>.md</code> files. I prefer keeping my presentations as <code>.md</code> (vs <code>.remark</code>)
+as most of the search logic I have built in Emacs assumes <code>.org</code> and <code>.md</code>
+files for my notes.</p>
+<p>By choosing remarkjs instead of my existing revealjs workflow I did manage to
+exhaust the short block of time I had allocated to prepare for the talk, and so
+the talk morphed into a more spontaneous affair, dealing with orgmode, remarkjs
+and in the end, also a bit of hugo.</p>
+<h2 id="pybtex-is-a-pure-python-bibtex-parser-and-renderer">pybtex is a pure-Python bibtex parser and renderer.</h2>
+<p>One of the sites getting the wordpress-to-hugo upgrade treatment was my
+internet persona placeholder, the almost completely unknown
+<a href="https://charlbotha.com/">charlbotha.com</a>.</p>
+<p>The upgrade of this tiny site would have gone quite easily, were it not for the
+fact that I was using the wordpress papercite plugin to publish a list of all
+of the publications, including fulltexts in most cases, that I&rsquo;ve had the
+pleasure to be involved in over the years.</p>
+<p>I could not find any tool which could give me exactly the sort of publication
+lists that papercite was able to.</p>
+<p>To me it was clear that yet another tool was required. (&ldquo;my god, it&rsquo;s full of biases!&quot;)</p>
+<p>Fortunately, <a href="https://mentat.za.net">@stefanvdwalt</a> very quickly pointed me at
+the Python package <a href="https://pybtex.org">pybtex</a> when he saw that I was
+careening off into the dark side with <a href="https://citation.js.org">citation.js</a>.</p>
+<p>A few hours later I had built a script which was able to eat my
+Zotero-generated bibtex file and spit out different lists of publications with
+linked PDFs straight into a Hugo-edible markdown file.</p>
+<p>See <a href="https://charlbotha.com/publications/">charlbotha.com/publications</a> for the
+result.</p>
+<p>P.S. Making it available to a broader audience is on my todo-list.</p>
+<h2 id="asciidoc-is-one-of-your-best-choices-to-write-software-manuals">asciidoc is one of your best choices to write software manuals.</h2>
+<p>We are currently working hard towards the release of version 2.0 of our
+flagship FDA-certified cardiology product,
+<a href="https://www.telesensi.com">TeleSensi</a>.</p>
+<p>Because updating the user manual with every release is not as fun as it could
+be, I had the idea to convert the doc-format source file to some text-based
+document authoring system.</p>
+<p>Again, in spite of past positive experience writing manuals with
+<a href="http://docutils.sourceforge.net">reStructuredText</a> and LaTeX, I made use of
+the opportunity to try out
+<a href="https://asciidoctor.org/docs/what-is-asciidoc/">asciidoc</a>.</p>
+<p>In <em>this</em> case, I am happy to report that the choice of asciidoc ended up
+beating all of the alternatives by a mile.</p>
+<p>I started by <a href="https://pandoc.org">pandoc</a>-ing the docx to asciidoc, and then
+manually (ha ha, it&rsquo;s a joke we writers tell) fine-tuned the document until, in
+a few hours, the new manual looked significantly better than the original.</p>
+<p>Long story short, our manual is now part of the software source repository and
+hence version-locked, it can be automatically built for new releases, and parts
+of the manual can be linked programmatically to form parts of our compliance
+documentation.</p>
+<p>With the manual now essentially being a software construct, there are many more
+tricks we can do (and already do, but I&rsquo;m not allowed to say much more).</p>
+<h2 id="you-can-build-self-contained-installers-with-legacy-non-modular-apps-and-recent-modular-java">You can build self-contained installers with legacy non-modular apps and recent modular Java.</h2>
+<p>In a rather surprising (to me) turn of events, I had to convert some legacy
+(read: non-modular) Java code from a product component to a self-contained
+installer on Windows and macOS so that our users never even have to <em>think</em>
+about JREs.</p>
+<p>It&rsquo;s possible that the following magical recipe could help you, should you ever
+find yourself in a similar predicament:</p>
+<ul>
+<li>Install <a href="https://adoptopenjdk.net">AdoptOpenJDK</a> 11 (LTS)</li>
+<li>Retrieve and extract this <a href="https://mail.openjdk.java.net/pipermail/openjfx-dev/2018-September/022500.html">backport of the new
+javapackager</a>
+from the yet to be released Java 13 into your OpenJDK 11.</li>
+<li>Build your legacy <a href="https://imagej.net/Uber-JAR">uber-JAR</a> with the freshly
+installed OpenJDK11.</li>
+<li>Use <code>jdeps</code> to determine the list of modular dependencies of your uber-JAR.</li>
+<li>Armed with this knowledge, build a mini java-runtime using <code>jlink</code>.</li>
+<li>Now feed your uber-jar and the freshly created java-runtime to <code>jpackager</code> in
+order to construct a fully self-contained executable or platform-specific
+installation package.</li>
+</ul>
+<p>Much, but not all, of that comes from <a href="https://medium.com/@adam_carroll/java-packager-with-jdk11-31b3d620f4a8">this blog
+post</a>.</p>
+<h2 id="you-can-easily-dired-jump-to-the-currently-ivy-readd-file-in-emacs">You can easily dired-jump to the currently ivy-read&rsquo;d file in Emacs.</h2>
+<p>I mix and match <a href="https://github.com/abo-abo/swiper">ivy</a> and
+<a href="https://github.com/emacs-helm/helm">helm</a> in my Emacs.</p>
+<p>When you&rsquo;re helming for a file, you can usually press <code>F5</code> to open dired
+(Emacs&rsquo;s built-in filemanager) on that file&rsquo;s directory.</p>
+<p>This is quite convenient, and something I was missing in ivy, which I use for
+example as part of <code>find-file-in-project</code>.</p>
+<p>Weeeeell, by adding the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; for any ivy-read, press M-o to get action menu,</span>
+<span style="color:#93a1a1;font-style:italic">;; then &#39;d&#39; to start dired with that file selected</span>
+(<span style="color:#268bd2">ivy-add-actions</span>
+ <span style="color:#268bd2">t</span> <span style="color:#93a1a1;font-style:italic">;; add for all types</span>
+ <span style="color:#93a1a1;font-style:italic">;; (cdr x) gets the full filename, not just relative</span>
+ `((<span style="color:#2aa198">&#34;d&#34;</span> ,(<span style="color:#cb4b16">lambda</span> (<span style="color:#268bd2">x</span>) (<span style="color:#268bd2">dired-jump</span> <span style="color:#268bd2">nil</span> (<span style="color:#268bd2">cdr</span> <span style="color:#268bd2">x</span>))) <span style="color:#2aa198">&#34;dired&#34;</span>)
+   ))
+</code></pre></div><p>&hellip; you get to select <code>d</code> from the <code>M-o</code> action menu to <code>dired-jump</code> (a
+wonderful command by itself, usually bound to <code>C-x C-j</code>) to the currently
+focused file.</p>
+<h1 id="sharpening-these-rocks">Sharpening these rocks.</h1>
+<p>All of that brings us to this.</p>
+<p>I spent quite a few hours last week performing meta-work: That is, not doing
+the work itself, but rather sharpening the tools required to do that work.</p>
+<p>As with all important matters, there&rsquo;s an XKCD comic about this topic too:</p>
+<figure>
+<a href="https://xkcd.com/1205/">
+<img src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" alt="xkcd on
+tool sharpening">
+</a>
+<figcaption>
+Incredibly useful visualization by XKCD: How much time will your tool
+sharpening save per event, and how frequently does that event occur? The
+cross-indexed block is how much time this could save you over 5 years.
+</figure>
+<p>Besides the mostly defensible tricks mentioned in the previous section, I did
+also invest hours in attempting to update the mobile and email-based parts of
+my personal knowledge management strategy (because
+<a href="/2019/04/27/new-laptop-2019/">Windows</a>), but these hours led to a less than
+satisfactory solution.</p>
+<p>If I have to be honest, it feels like those hours were wasted, although it was
+impossible to say beforehand that the effort to outcome ratio was going to be
+that bad.</p>
+<p>(To make it all a bit more interesting, a few days later some of the dead-ends
+explored during those wasted hours led to coincidental improvements of other
+frequently occurring (on the order of 5 times per day) components of my
+workflow.)</p>
+<p>Some folks double down on their workflows, rather taking the small hits and
+spending the time doing their actual work.</p>
+<p>I find it difficult to resist an opportunity for streamlining.</p>
+<p>Sometimes this pays off, not in the least because of the compounding effects of
+frequently applicable optimisations, and other times I fall down the rabbit
+hole.</p>
+<p>In my dreams, I am able to reach a sort of workflow optimisation pinnacle,
+where all inefficiencies have been excised from the system. In reality, goal
+posts like to move it move it, and so the scramble never ends.</p>
+<p>How do you approach this?</p>
+<h1 id="icemirb">ICEMiRB</h1>
+<p><em>The International Conference on Emacs, Minimal Running and Blogging</em>, or
+ICEMiRB, is a new meeting of minds and legs that the aforementioned and
+indomitable <a href="https://mentat.za.net">@stefanvdwalt</a> and I are currently bouncing
+around.</p>
+<p>I actually just want the t-shirt, but the more I think about this, the more I
+think it&rsquo;s something that one day really has to happen.</p>
+<p>Please let me know in the comments if you would be interested in taking part.</p>
+<p>I imagine we will go all out in terms of the various forms of attendance and
+participation that we accommodate.</p>
+<p>Have a beautiful week folks, I hope to see you again soon!</p>
+<h2 id="ps">P.S.</h2>
+<p>@stefanvdwalt just reminded me that Mindfulness is to be the fourth main topic
+of the ICEMiRB.</p>
+<p>Because the acronym is already of substantial girth (yes, we know that
+Mindfulness and Minimal could co-habit the same part of the
+acronym. coincidence?!), we will try to settle for one of two conference
+taglines:</p>
+<blockquote>
+<p>ICEMiRB - A Mindful(TM) Conference.</p>
+</blockquote>
+<p>or</p>
+<blockquote>
+<p>ICEMiRB - The Mindfulness is silent.</p>
+</blockquote>
+<p>or not.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</title><link>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</link><pubDate>Thu, 05 May 2016 21:19:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</guid><description> From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
+Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.
+I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/05/view_from_paarl_rock.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/05/view_from_paarl_rock-1024x166.jpg"
+        
+            alt="From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together."/> </a><figcaption>
+            <p>From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.</p>
+        </figcaption>
+</figure>
+
+<p>Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.</p>
+<p>I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore. I think this specific seed of discontent was planted when I joined someone’s <a href="https://www.livecoding.tv/livestreams/">livecoding.tv</a> stream, only to have them mangle the in hindsight unpronounceable pronunciation of cpbotha (ku-pu-byooothuh).</p>
+<p>CURSES.</p>
+<p>Nobody told me about this additional requirement in ’99! I will ask for my money back.</p>
+<p>In any case, after some fancy twitter footwork, I now have an additional handle: <a href="https://twitter.com/cvoxel">cvoxel</a>. I realise this is only interesting to me and maybe one or two other nerds, but here we are. There might be some personality fragmentation behind all of this. I’ll have a chat with me later.</p>
+<p>Friends in more advanced countries, when I show them the sun and the beer and the beaches and the mountains and the WILD BEASTS over here, usually simply point at my miserably slow internet connection, thereby restoring their faith in the balance that exists in our world. Due to another recent change, I can now offer this as a retort:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/05/speedtest.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/05/speedtest.png"
+        /> </a>
+</figure>
+
+<p>This kind of bandwidth is pretty respectable for the balmy southern tip of the African continent. (plus that those internet packets are flying about 1km through the air, which is pretty cool!)</p>
+<p>This year I did not go to AfrikaBurn, because reasons (read on…). Fortunately the photos only started showing up after the week (no internets for the burners of course!), but they did cause some really acute feels of nostalgia. It’s strange how <a href="/2015/06/14/weekly-head-voices-91-theyre-back/">last year’s experience</a>, our first (Pompen en Pimpen forever!), has managed to become so deeply ingrained. I really hope to see you there next year.</p>
+<p>My oldest sibling has started an adventure in Kiwi-land. His family will soon follow. I am happy for the adventurers, but I’m also sad to have them so far away.</p>
+<h2 id="a-caffeine-infused-mitochondrial-interlude">A caffeine-infused mitochondrial interlude</h2>
+<p>You probably remember that adenosine triphosphate, or ATP, is the most important form of energy that is produced for the largest part by the mitochondria in the nuclei of all of your cells. ATP is broken down when energy is required. ATP powers things like muscle contraction, cellular metabolism, signaling, and so on. Without it, you would be useless. Dead actually.</p>
+<p>I just learnt from the <a href="https://en.wikipedia.org/wiki/Adenosine_triphosphate">wikipedia article</a> that your body turns over its own weight (!!!) in ATP every day, which is pretty awesome.</p>
+<p>The first factoid I wanted to mention, is the curious link caffeine has with ATP. So as you’re going through the day expending all that energy, ATP gets broken down into its constituents, one of which is of course adenosine. This adenosine binds to the adenosine receptors in your brain. When a certain threshold of adenosine receptors are bound, your body decides that it’s time to rest, so you get sleepy. During sleep, the adenosine is cleared as your body builds up new energy stores.</p>
+<p>Caffeine is, besides being magical, a sort of adenosine impostor. When you drink coffee for example, the caffeine in your tasty drink will go and bind with your adenosine receptors, hence making it impossible for real adenosine to bind, but it will do so without actually activating those receptors. The end result is that your brain does not realise that it should be feeling sleepy, and so you don’t feel so tired.</p>
+<p>I find it interesting that caffeine in fact interferes so fundamentally with this important physiological process.</p>
+<p>What I found slightly more mind-blowing than that however, is the fact that the <a href="https://en.wikipedia.org/wiki/Mitochondrion">mitochondria</a>, the little organelles where most of this ATP production takes place, and which are embedded right in all of your cell nucei, actually contain <em>foreign</em> DNA.</p>
+<p>TUN-TUN-DUUUUUUUUUN!!!</p>
+<p>Yes children, you have your own precious DNA in your cell nucleus, but the mitochondrion, the cell’s powerhouse, has its own separate genome. Long ago, we seem to have started a symbiotic relationship with a bacterial organism. Actually, we flat-out went and merged with them at an extremely intimate level.</p>
+<p>Let us all take a few minutes to say hi to the beautiful little alien endo-symbionts embedded in our cell nuclei, without whom everything falls apart. We are all chaotic but somehow walking cellular mega-cities, and it’s just lovely.</p>
+<h2 id="my-universe-expanded">My universe expanded</h2>
+<p>About those reasons…</p>
+<p>Well, GOU#3 was born a few weeks ago.</p>
+<p>She’s a beautiful pink little not-yet-walking but rapidly expanding cellular mega-city. I and the other more developed cellular mega-cities in this neck of the woods and all of our billions of cells are truly happy to have her with us.</p>
+<p>May your neurotransmitters rejoice.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Astropsychonaut. [Weekly Head Voices #63]</title><link>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</link><pubDate>Sat, 03 Dec 2011 21:41:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</guid><description> I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):
+Watching this, my nostalgia flared up. You see, I’ve been addicted to science fiction ever since I can remember. It started with Buck Rogers, and the original Star Trek, and only got much worse when I discovered Arthur C. Clarke, Ray Bradbury, Isaac Asimov and Douglas Hill.</description><content:encoded><![CDATA[ <p>I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):</p>
+<div class="jetpack-video-wrapper">
+<div class="embed-vimeo" style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="473" mozallowfullscreen="" src="https://player.vimeo.com/video/32001208" webkitallowfullscreen="" width="840"></iframe>
+</div>
+</div>
+<p>Watching this, my nostalgia flared up. You see, I’ve been addicted to science fiction ever since I can remember. It started with Buck Rogers, and the original Star Trek, and only got much worse when I discovered Arthur C. Clarke, Ray Bradbury, Isaac Asimov and Douglas Hill. I find Kubrick’s 2001 and even the sequel movie 2010 beautiful.</p>
+<p>For the longest time, I wanted to be an astronaut. I think I still do.</p>
+<p>I believe I might have thought that my career plans would be seen as childish when I wrote this short piece for school detailing my life plans when I was 7 or 8 (late eighties, not saying anymore):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/12/cpbotha_life_plans.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/12/cpbotha_life_plans.jpg"
+        
+            alt="My life plans as a 7 or 8 year old. My brother found this somewhere and put it on facebook. I wonder what it would be like to go back in time and explain that concept to myself."/> </a><figcaption>
+            <p>My life plans as a 7 or 8 year old. My brother found this somewhere and put it on facebook. I wonder what it would be like to go back in time and explain that concept to myself.</p>
+        </figcaption>
+</figure>
+</p>
+<p>For those of you without the required Afrikaans background, here is a short translation, as true as possible to the original:</p>
+<blockquote>
+<p>When I gow up, I’d like to work with computers, because then I’ll become really smart and I’ll know more about the outdoors and nature. As I grow older, I’ll become a professor, because perhaps I’ll find a cure for leprosy and after that I’m going to study to be a millionaire, because then I’ll go abroad or around the world.</p>
+</blockquote>
+<p>Not a bad plan for a 7 or 8 year old, if you don’t mind me saying so myself. This note has in fact reminded me that there’s still more than enough decisions to be made and work to do, so I’ll have to postpone becoming an astronaut for a little while longer. At least by the end I’m going to end up a rich traveller, which is probably not a bad deal.</p>
+<p>In other news this week:</p>
+<ul>
+<li>It seems like just the other day that I made my <a href="/2011/05/22/just-one-thing-weekly-head-voices-49/" title="400th connection on LinkedIn connection post">400th connection on LinkedIn</a>. I’m happy to report that I broke the 500 barrier two weeks ago, and now I have that fancy looking “500+” next to my name. I finetuned my headline to celebrate the occasion, after which I promptly got approached by a head hunter.</li>
+<li>Jonathan Dyer is the guru of facial hair. Check out <a href="http://www.dyers.org/blog/beards/beard-types/" title="dyers' beard types">all the beard types and accompanying facial expressions</a> that he has mastered. Yes, that’s a hint of jealousy that you detect in my writing.</li>
+<li>More reasons to love the coffee: Giving rats the equivalent of what a human gets after two cups of coffee, the caffeine caused nerve cells in a certain region of the hippocampus to show a significantly bigger burst of activity. These strengthened synapses might have a role in learning and memory. Read <a href="http://boingboing.net/2011/11/21/caffeines-boosts-signals-in-th.html" title="coffee good for hippocampus activity (boingbonig)">this summary on boingboing</a> and <a href="http://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.2962.html" title="nature neuroscience article on effect of coffee on activty in CA2 of hippocampus">the article on Nature Neuroscience</a>.</li>
+<li>In an exceptionally disappointing move, <a href="http://www.telegraph.co.uk/news/worldnews/africaandindianocean/southafrica/8907057/South-Africa-passes-secrecy-bill.html" title="south african secrecy bill in the telegraph">South African parliament has passed a new secrecy bill</a> that gives members of government the power to declare information a state secret, thus deterring honest-keeping journalists and other whistle-blowers with a 25 year jail sentence. Desmond Tutu sums it up nicely when he says that this makes the State answerable only to the State.</li>
+</ul>
+<div>
+<p>
+<span class="Apple-style-span" style="font-size: 14px; line-height: 23px;">If this new bill manages to make it through the constitutional court as well, the country is going to take a giant step backwards. At least we’ll have <a href="http://drinkfacedrink.com/">facedrink</a> to cheer us up again!<a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" title=""><img alt="" class="aligncenter size-medium wp-image-1579" data-attachment-id="1579" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="facedrink1" data-large-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" data-orig-size="152,400" data-permalink="https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/facedrink1/" height="300" sizes="(max-width: 114px) 85vw, 114px" src="http://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg" srcset="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg 114w, https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg 152w" title="facedrink1" width="114"/></a></span>
+</p>
+</div>
+]]></content:encoded></item><item><title>Coffee addiction potpourri. [Weekly Head Voices #57]</title><link>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</link><pubDate>Sun, 18 Sep 2011 12:38:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</guid><description> Yes boys and girls, I was keeping back writing that Rebecca Black post, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</description><content:encoded><![CDATA[ <p>Yes boys and girls, I was keeping back writing <a href="/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/" title="Rebecca Black post">that Rebecca Black post</a>, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</p>
+<p>Let’s get today’s life lessons started with Mitch Hedberg, Comic Genius (note the captital C, and the capital G):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/u6xaj2fC1jI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Hedberg’s genius unfortunately could not save him from drug addiction and his overdose-related death in 2005.</p>
+<p>On the topic of addiction, <a href="http://fpixel.wordpress.com/" title="fpixel website">fpixel</a> forwarded <a href="http://www.dutchdailynews.com/drinking-coffee-genes/">these new findings that coffee drinking is genetic</a>, both in terms of capacity and perhaps also in terms of addiction. Even my atoms are addicted to coffee, so that feels about right. What’s really interesting however, is that the documented study found that the genes involved in the metabolism of coffee (CYPIA1 and NRCAM, if I understand correctly) are also related to the onset of Parkinson’s disease. You see, coffee drinkers are less prone to Parkinson’s disease (<a href="/2011/07/02/the-monthly-weekly-head-voices-50/" title="a previous WHV including some coffee health tidbits">as well as a whole list of other diseases</a> including prostate cancer, type 2 diabetes and liver cancer). However, past studies of course show correlation and not causation, i.e. coffee drinking and low risk of disease X appear together, but that does not tell us anything about what causes what. This new study has made the first steps towards understanding the mechanism that actually links Parkinson’s disease and coffee drinking.</p>
+<p>On the topic of coffee <em>and</em> addiction, <a href="/about/weekly-head-voices-abbreviations/" title="abbreviations page">TNR</a> and I spent the Monday morning working (like animals) on our new parallel startup (there, I said it) at the <a href="http://www.coffeecompany.nl/" title="Coffee Company website">Coffee Company</a> in Delft. Two things:</p>
+<ol>
+<li>The Coffee Company makes a killer cappuccino. The milk is steamed to perfection, but it’s got the perfect espresso bomb exploding through all that milky goodness at just the right moment. BAM! HELLO THERE! Highly recommended. With every purchase, you get WiFi access for one hour, so no surprises or misunderstandings.</li>
+<li>It’s amazing what such a change of working environment does for one’s creativity.</li>
+</ol>
+<p>On the topic of startups, Dr Jorik Blaas, ex PhDer, full-time genius and friend, is now the director of research and development at <a href="http://synerscope.com/" title="synerscope website">Synerscope</a> (probably no relation with sinister, but my subconscious is just not behaving today), a high-potential startup that makes visualisation-based tools for fraud detection in big data (big money, IOW). Synerscope has brought together some of the top visualisation brains in the country. Personally, I can’t help but imagine it like this:
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/09/Dr_Evil.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/09/Dr_Evil.jpg"
+        
+            alt="Are you in there somewhere?"/> </a><figcaption>
+            <p>Are you in there somewhere?</p>
+        </figcaption>
+</figure>
+</p>
+<p>On Tuesday and Wednesday, we made a quick train trip (*cough* 9 hours there due to delay thank you NS, 7+ hours back) to Magdeburg for the <a href="http://www.fg-medvis.de/" title="link to German MedVis group site">bi-annual German MedVis meeting</a>. You’ll recall that I spent <a href="/2009/04/25/my-first-sabbatical/" title="my magdeburg sabbatical">my first micro-sabbatical there</a>. The city almost feels like home, and it was really great seeing many of the Magdeburg peeps again. The meeting itself was of high quality, with a number of VisWeek contributions being presented. Thomas Kroes (should I start using fictitious names and acronyms again?) presented his <a href="http://exposure-render.googlecode.com/" title="exposure render website">interactive photo-realistic volume renderer</a> too! By the way, download it, use it (it makes fantastically beautiful renderings), spread it, and do cite the soon-to-appear article.</p>
+<p>On Saturday, it rained (again, or still, I forget), so I decided to flip Mother Nature the bird by BBQing four juicy rib-eye steaks outside. Take that Mother Nature! The steaks were delicious, thank you. Mother Nature is not all bad though… Check this out: The Southern Lights. FROM SPACE!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/09/aurora.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/09/aurora.jpg"
+        
+            alt="Aurora Australis (thanks Bart!) FROM SPACE, taken by Ron Garan. Click on the photo to go to the original."/> </a><figcaption>
+            <p>Aurora Australis (thanks Bart!) FROM SPACE, taken by Ron Garan. Click on the photo to go to the original.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I’m going to wind down this post with two backyard philosophy-themed bits. The first is a quote by mathematician Alfred North Whitehead from this article on “The Skill that Matters Most” (found via <a href="http://www.swimgeek.com/blog/" title="joe's blog">Joe Botha</a>, serial entrepreneur, currently changing the world with <a href="https://www.trustfabric.com/">Trust Fabric</a>):</p>
+<blockquote>
+<p>Civilization advances by extending the number of important operations which we can perform without thinking about them.</p>
+</blockquote>
+<p>I haven’t thought about it that way before, but it does make complete sense. The more things we humans do well in a routine fashion, the better.  Otherwise, our inconsistency is prone to lead to problems. By the way, the mentioned skill is <em>self-control</em>.</p>
+<p>Finally, <a href="http://www.flipangle.org/" title="AJ's site">AJ</a> forwarded this video called Disconnect to Connect. I’ll just let you watch and think about it for a while:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/GnwNGNOv19A?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I’ll be off now. Please do have an epic week, and think of me when your level of enjoyment is at a local maximum. At these points, you might also consider jumping around randomly.</p>
+]]></content:encoded></item></channel></rss>

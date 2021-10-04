@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>john carmack on voices in my head</title><link>https://cpbotha.net/tags/john-carmack/</link><description>Recent content in john carmack on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 01 Jul 2020 10:23:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/john-carmack/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #199: I have to be a bit stubborn</title><link>https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/</link><pubDate>Wed, 01 Jul 2020 10:23:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/</guid><description> Figure 1: A truly magical scene captured on a mountain walk by my inner circle peeps.
+Dear friends,
+I looked through my notes of the two weeks from Monday June 15 to Sunday June 28, 2020, and found almost nothing but work, work, and then, in a dusty, dark corner right at the bottom of my Emacs&amp;hellip; more work.
+A totally unexpected ramble on cycles, patterns and teleportation Life seems to consist of the superposition of so many cycles over so many domains, each at a different frequency and phase.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="s_n_i_hike_magic.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/s_n_i_hike_magic_hub18a9d4384de7f7e700f7c756d90d91e_2169764_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/s_n_i_hike_magic_hub18a9d4384de7f7e700f7c756d90d91e_2169764_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/s_n_i_hike_magic_hub18a9d4384de7f7e700f7c756d90d91e_2169764_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/s_n_i_hike_magic_hub18a9d4384de7f7e700f7c756d90d91e_2169764_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/07/01/weekly-head-voices-199-a-bit-stubborn/s_n_i_hike_magic_hub18a9d4384de7f7e700f7c756d90d91e_2169764_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A truly magical scene captured on a mountain walk by my inner circle peeps."/> </a><figcaption>
+            <p>Figure 1: A truly magical scene captured on a mountain walk by my inner circle peeps.</p>
+        </figcaption>
+</figure>
+
+<p>Dear friends,</p>
+<p>I looked through my notes of the two weeks from Monday June 15 to Sunday June
+28, 2020, and found almost nothing but work, work, and then, in a dusty, dark
+corner right at the bottom of my Emacs&hellip; more work.</p>
+<h2 id="a-totally-unexpected-ramble-on-cycles-patterns-and-teleportation">A totally unexpected ramble on cycles, patterns and teleportation</h2>
+<p>Life seems to consist of the superposition of so many cycles over so many
+domains, each at a different frequency and phase.</p>
+<p>At this moment, my backyard philosophy cycle seems to have taken a backseat,
+whilst my over-use of vehicle metaphors cycle can&rsquo;t believe its luck.</p>
+<p>On the topic of cycles, and of not doing backyard philosophy, do you remember
+my old <a href="/2014/05/07/weekly-head-voices-70-patterns-in-the-sand/">patterns in the sand post</a>, which I recently also mentioned in <a href="/2020/04/13/weekly-head-voices-191-covid-19-part-2/">WHV #191</a>?</p>
+<p>That was the one where I talked about 98% of your atoms being recycled every
+year, which helps to understand why the concept of a single consistent &ldquo;I&rdquo;
+going through life is mostly an illusion.</p>
+<p>Well, I mention this again right now, because these cycles do seem to be
+related, or maybe they are a contrasting idea.</p>
+<p>On the one hand, maybe the I sitting here typing this has only 75% overlap with
+the I of 6 months ago.</p>
+<p>Maybe the 25% that has now been &ldquo;cycled&rdquo; in (haha) has different priorities,
+and maybe over the coming months those priorities will shift the whole even
+more in a different direction.</p>
+<p>In my ever-changing mind, all of this also casts interesting light on one of
+the favourite philosophical paradoxes of Star Trek nerds the world over: <a href="https://en.wikipedia.org/wiki/Teletransportation%5Fparadox">The
+Teletransportation paradox</a>.</p>
+<p>You might be surprised to know that Trekkies have bee wondering about this as
+far back as 1775! (see the linked Wikipedia article above)</p>
+<p>In short (oh who am I kidding), this asks the question:</p>
+<p>If it were possible to reconstruct you, atom-by-atom, in a different place
+(this is essentially what the Star Trek transporters do, with the one
+qualification that they mostly disassemble the departing you before assembling
+the arriving you), the you on the other side would have your thoughts and your
+feelings, but would it really be you?</p>
+<p>If one were not inclined to thinking about matters such as these for
+entertainment, one might easily write it off as far too abstract.</p>
+<p>However, how long do you think before we are able to copy (parts of) a human
+neural network to a different substrate that is able to run it?</p>
+<p>In other words, how long do you think before we are able to upload a copy of a
+human brain to a sufficiently powerful computer?</p>
+<p><a href="https://en.wikipedia.org/wiki/Artificial%5Fgeneral%5Fintelligence">AGI</a> (Artificial General Intelligence) is certainly quite far off, but the
+discussions about it are quite serious already.</p>
+<p>Parts of the technology required for AGI are at least in the same ballpark as
+some of the parts that are required for uploading.</p>
+<p>(I&rsquo;m reading another one of <a href="https://en.wikipedia.org/wiki/Neal%5FAsher">Neal Asher&rsquo;s</a> books at the moment. You couldn&rsquo;t
+tell, could you?)</p>
+<p>On the other hand (you&rsquo;re going to have to scroll back to find the first
+hand. sorry), it could just be 100% boring human rhythm.</p>
+<p>Just the other day, I got to bed far too late thanks to a coding session
+getting out of hand, followed by the above-mentioned book pulling me in
+again. Matthew Walker, I&rsquo;m sorry.</p>
+<p>The next day was hugely productive, with will-power to spare and my brain
+running on turbo mode until late in the afternoon.</p>
+<p>On other occasions I pay close attention to sleep, diet, exercise, prayer
+beads, crystals, pyramids and aliens, and then the next day is a total wash:
+Brain checking out middle morning, and will-power calling in early to take the
+day off to play old Flash games online.</p>
+<p>I called it human rhythm above, but I suspect an extremely influential part of
+that is <em>mood</em>.</p>
+<p>Looking after the physical components (sleep, exercise, diet, pyramids) remains
+crucial, and does form the basis of one&rsquo;s performance, but one&rsquo;s mood can cause
+massive course changes regardless.</p>
+<p>Trying to be a good human can be tough.</p>
+<h2 id="what-i-was-actually-planning-to-write">What I was actually planning to write</h2>
+<p>With the being &ldquo;a bit stubborn&rdquo; mentioned in the title, I meant that I was
+<em>planning</em> a perfunctory blog check-in <em>despite</em> not finding anything in my
+notes to write about.</p>
+<p>(I consoled myself with the fact that at least I had the great photo above,
+contributed by occasional readers from right within my inner circle.)</p>
+<p>As has happened a few times before, the ritual of sitting down (well lying in
+bed with laptop, sorry again Matthew Walker) to write a few sentences drew out
+the ramble above from the thoughts that just five minutes prior had indicated
+quite sternly that they had absolutely nothing to say.</p>
+<p>Besides the photo above, I did want to mention the following two gems I ran
+into during the previous weeks:</p>
+<h3 id="siren">SIREN</h3>
+<p><a href="https://vsitzmann.github.io/siren/"><em>Implicit Neural Representations with Periodic Activation Functions</em></a>, a
+technique also known as SIREN for &ldquo;sinusoidal representation networks&rdquo;, uses
+sinusoidal activation functions instead of the ubiquitous <a href="https://en.wikipedia.org/wiki/Rectifier%5F(neural%5Fnetworks)">ReLU</a> to model images,
+sound, video and even signed distance fields.</p>
+<p>This is a great example of implicit representation learning with neural
+networks, something that has been fascinating me for a while now.</p>
+<p>In this case, they even demonstrate the neural network learning to predict a
+signed distance field (SDF) based on a point cloud with normals.</p>
+<p>(At some point in the past, it looked like my new middle name was going to be
+&ldquo;distance field&rdquo;, based on the sheer number of times that it came up as the
+answer to any problem that we were trying to solve.)</p>
+<p>The video by the authors is a great 10 minute summary of what you could do with
+SIREN:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/Q2fLWGBeaiI" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<h3 id="more-about-john-carmack-programming-god">More about John Carmack, programming god</h3>
+<p>I&rsquo;ve <a href="/2018/03/11/weekly-head-voices-135-its-all-rainbows-and-unicorns-no-really/#the-carmack-productivity-method-cpm">written previously about the Carmack Productivity Method</a>, named after a
+story about John Carmack using a CD Player as a tool to boost his already
+prodigious productivity and focus.</p>
+<p>More recently, I really enjoyed reading the following write-up of the history
+of <em>id software</em>, including much more about John Carmack:</p>
+<ul>
+<li><a href="https://www.filfre.net/2020/05/the-shareware-scene-part-3-the-id-boys/">The Shareware Scene, Part 3: The id Boys</a></li>
+<li><a href="https://www.filfre.net/2020/06/the-shareware-scene-part-4-doom/">The Shareware Scene, Part 4: DOOM</a></li>
+</ul>
+<p>When he joined the group of young people who would later come to be known as
+<em>id software</em>, he was just 19 years old, but the programming genius within was
+already strong.</p>
+<p>With Carmack at the core, <em>id software</em> would go on to write game programming
+history.</p>
+<h2 id="the-end">The end</h2>
+<p>Thank you for reading any of this my peeps, I am truly grateful for the
+connection.</p>
+<p>Please feel free to leave a comment, consider a <em>nom de plume</em> if you like!</p>
+]]></content:encoded></item></channel></rss>

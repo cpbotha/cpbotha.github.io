@@ -1,0 +1,226 @@
+<!doctype html><html>
+<head>
+<title>Installing free Let’s Encrypt SSL certificates on webfaction in 3 easy steps // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Installing free Let’s Encrypt SSL certificates on webfaction in 3 easy steps">
+<meta property="og:description" content="WARNING on 2020-02-24: webfaction has been bought by godaddy and will soon close down. I have recently moved out and am now keeping all of my Let&rsquo;s Encrypt certificates up to date with the official certbot tool.
+WARNING: High levels of NERD ahead.
+I started using CloudFlare’s free tier on this blog, before Let’s Encrypt burst onto the scene, mostly for their universal SSL. However, as joepie91 recently pointed out, this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case).">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Installing free Let’s Encrypt SSL certificates on webfaction in 3 easy steps</h1>
+</header>
+<div class=article-meta>
+<a href=/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/ class=article-date>
+<time datetime=2016-07-18T19:31:00.000+00:00 itemprop=datePublished>2016-07-18</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p><strong>WARNING on 2020-02-24: webfaction has been bought by godaddy and will soon
+close down. <a href=/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server>I have recently moved
+out</a>
+and am now keeping all of my Let&rsquo;s Encrypt certificates up to date with the
+official <a href=https://certbot.eff.org/>certbot tool</a>.</strong></p>
+<p><strong>WARNING: High levels of NERD ahead.</strong></p>
+<p>I started using CloudFlare’s free tier on this blog, before Let’s Encrypt burst onto the scene, mostly for their <a href=https://blog.cloudflare.com/introducing-universal-ssl/>universal SSL</a>. However, as joepie91 <a href=http://cryto.net/~joepie91/blog/2016/07/14/cloudflare-we-have-a-problem/>recently pointed out</a>, this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case). Apart from this, CloudFlare is a bit of overkill for this low-traffic site.</p>
+<div class=figure>
+<p>
+<a href=https://letsencrypt.org/><img alt=le-logo-standard.png src=https://letsencrypt.org/images/le-logo-standard.png></a>
+</p>
+</div>
+<p>Because I don’t need much of an excuse to try out something new, I used this as my excuse to try out <a href=https://letsencrypt.org/>Let’s Encrypt</a>, a fantastic new(ish) service which issues free 90 day certificates to anyone who can verify their domains.</p>
+<p>I was shocked with how easy this was on the webfaction shared (non root) hosting I’ve been using for years, and so I had to share.</p>
+<p><strong>WITNESS THE GREAT EASINESS:</strong></p>
+<h2 id=step-1-install-acmesh>Step 1: Install acme.sh</h2>
+<p>These two steps are to be performed whilst SSH’d in to your web host.</p>
+<p>First we install <a href=https://github.com/Neilpang/acme.sh>the wonderful acme.sh</a> by following the one-liner on its website:</p>
+<p>&lsquo;&lsquo;&lsquo;shell
+curl <a href=https://get.acme.sh>https://get.acme.sh</a> | sh
+'&rsquo;&rsquo;</p>
+<p>At this junction, as they say, it’s best to log out and in again, so that the acme.sh alias and environment variable can be setup.</p>
+<h2 id=step-2-issue-shiny-new-ssl-certificate>Step 2: Issue shiny new SSL certificate</h2>
+<p>We then get <code>acme.sh</code> to verify the website using the webroot method, and to request a certificate for the two domains <code>cpbotha.net</code> and <code><a href=http://www.cbbotha.net>www.cbbotha.net</a></code>:</p>
+<div class=highlight><pre tabindex=0 style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>acme.sh --issue -d cpbotha.net -d www.cpbotha.net -w ~/webapps/wp
+</code></pre></div><p>The argument following <code>-w</code> is the directory exposed by the website <code><a href=http://cpbotha.net/>http://cpbotha.net/</a></code>. Note that this is still <code>http</code>; Let’s Encrypt queries a special file left there by acme.sh to confirm that you actually manage the specified domain.</p>
+<p>After a few seconds of progress output, I was left with a shiny certificate (as well as the CSR, key, and so forth) in <code>~/.acme.sh/cpbotha.net/</code></p>
+<h2 id=step-3-install-shiny-new-ssl-certificate>Step 3: Install shiny new SSL certificate</h2>
+<p>On Webfaction, one has to file a support ticket for this. My request was formulated thusly, and was correctly acted upon in about 5 minutes:</p>
+<blockquote>
+<p>Could you please install the following SSL certificate for the website cpbotha_SSL – reachable at <a href=https://cpbotha.net/><a href=https://cpbotha.net/>https://cpbotha.net/</a></a>:</p>
+<ul>
+<li>cert is in <code>/home/cpbotha/.acme.sh/cpbotha.net/cpbotha.net.cer</code></li>
+<li>key is in <code>/home/cpbotha/.acme.sh/cpbotha.net/cpbotha.net.key</code></li>
+<li>intermediate CA cert is in <code>/home/cpbotha/.acme.sh/cpbotha.net/ca.cer</code></li>
+<li>full chain certs is there: <code>/home/cpbotha/.acme.sh/cpbotha.net/fullchain.cer</code></li>
+</ul>
+<p>Thanks!</p>
+</blockquote>
+<h3 id=update-on-2016-10-25>Update on 2016-10-25</h3>
+<p>It is now possible to install the new certs all by yourself using the webfaction panel or the API! Read the <a href=https://blog.webfaction.com/2016/09/manage-ssl-certificates-with-the-control-panel/>announcement blog post</a> for more information.</p>
+<h2 id=bonus-level-in-90--k-days-simply-re-run-acmesh>Bonus level: In 90 – k days, simply re-run acme.sh</h2>
+<p>At any point, you can request certificates for any other domains that you may be hosting on your webfaction.</p>
+<p>At regular intervals, or in slightly fewer than 90 days, simply run:</p>
+<div class=highlight><pre tabindex=0 style=color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>acme.sh --renewAll
+</code></pre></div><p>To have acme.sh renew any of your certificates that are up for renewal. Just remember to create a new support ticket to have the renewed certificates installed for the relevant domains.</p>
+<h3 id=acmesh-cronjob>acme.sh cronjob</h3>
+<p>Unbeknownst to be (I should have read the docs) acme.sh had cleverly installed a user cronjob to check for renewals. When I attempted to renew two of my certs, I saw that it had already done so automatically, so I only had to install the updated versions.</p>
+<h2 id=boss-level-htaccess-based-redirect-from-http-to-https>Boss level: htaccess-based redirect from HTTP to HTTPS</h2>
+<p>Now that I have my SSL setup, I would prefer for users who go to the HTTP site to be 301 forwarded to the HTTPS version. On Webfaction, I can do that with the following addition to the site <code>.htaccess</code> file:</p>
+<div class=org-src-container>
+<pre class="src src-html">&lt;<span style=color:#93e0e3>IfModule</span> mod_rewrite.c&gt;
+RewriteEngine On
+# we're behind nginx ssl proxy, hence the non-standard check for no-SSL:
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+&lt;/<span style=color:#93e0e3>IfModule</span>&gt;
+</pre>
+</div>
+<b>Important:</b> webfaction is using nginx as their SSL frontend, so we check for the X-Forwarded-SSL header.
+</div>
+<div class=article-toc>
+<h3>Contents</h3>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#step-1-install-acmesh>Step 1: Install acme.sh</a></li>
+<li><a href=#step-2-issue-shiny-new-ssl-certificate>Step 2: Issue shiny new SSL certificate</a></li>
+<li><a href=#step-3-install-shiny-new-ssl-certificate>Step 3: Install shiny new SSL certificate</a>
+<ul>
+<li><a href=#update-on-2016-10-25>Update on 2016-10-25</a></li>
+</ul>
+</li>
+<li><a href=#bonus-level-in-90--k-days-simply-re-run-acmesh>Bonus level: In 90 – k days, simply re-run acme.sh</a>
+<ul>
+<li><a href=#acmesh-cronjob>acme.sh cronjob</a></li>
+</ul>
+</li>
+<li><a href=#boss-level-htaccess-based-redirect-from-http-to-https>Boss level: htaccess-based redirect from HTTP to HTTPS</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/301>301
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/cloudflare>cloudflare
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/encryption>encryption
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/htaccess>htaccess
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/nerdery>nerdery
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/redirect>redirect
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/ssl>ssl
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/webfaction>webfaction
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/2016/07/19/weekly-head-voices-109-gaba/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Weekly Head Voices #109: GABA
+</div>
+</a>
+<a href=/2016/06/24/weekly-head-voices-108-gaga/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Weekly Head Voices #108: Gaga.&nbsp;<span>></span></div>
+</a>
+</nav>
+<div class=article-footer>
+Related posts:
+<a href=/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/>🌤 When we can, let’s use Signal instead of WhatsApp.</a>
+</div>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Installing free Let’s Encrypt SSL certificates on webfaction in 3 easy steps" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

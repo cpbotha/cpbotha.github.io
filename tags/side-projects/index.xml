@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>side-projects on voices in my head</title><link>https://cpbotha.net/tags/side-projects/</link><description>Recent content in side-projects on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 13 Sep 2021 21:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/side-projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #232: Side-project Smorgasbord</title><link>https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/</link><pubDate>Mon, 13 Sep 2021 21:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/</guid><description> Figure 1: View from a park not too far from my house.
+Welcome back friends to WHV #232, looking back at the two weeks from Monday August 30 to Sunday September 13, both fortunately in the year 2021.
+Give me some more of that mRNA I&amp;rsquo;m happy to report that I got my second Pfizer shot at the start of this month, at the Somerset West Town Hall.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="view_from_park.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: View from a park not too far from my house."/> </a><figcaption>
+            <p>Figure 1: View from a park not too far from my house.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back friends to WHV #232, looking back at the two weeks from Monday
+August 30 to Sunday September 13, both fortunately in the year 2021.</p>
+<h2 id="give-me-some-more-of-that-mrna">Give me some more of that mRNA</h2>
+<p>I&rsquo;m happy to report that I got my second Pfizer shot at the start of this
+month, at the Somerset West Town Hall.</p>
+<p>The whole procedure took 30 minutes, from when I entered the front door, until
+I exited after the 15 minute wait in the side-effect area with friend LM, at
+which point I unfortunately jammed my shoulder on an inconveniently positioned
+aloe branch, an event that under normal circumstances would not even have been
+worth a mention, were it not for the fact that I was wearing my fortunately
+entry-level puffer jacket, which now sports a gash with stuffing peeking out.</p>
+<p>I believe that I digressed ever so slightly there.</p>
+<p>Anyways&hellip;</p>
+<p>I&rsquo;m super happy that all of the adults in my close family unit have now been
+vaccinated, and grateful for the superbly efficient way in which this could
+come to pass.</p>
+<h2 id="this-blog-hopefully-immortalised-on-github">This blog hopefully immortalised on github</h2>
+<p>(aka you can never escape)</p>
+<p>At a recent meetup, I brought up the cheerful topic of what happens to one&rsquo;s
+website(s) when one invariably gets to kick the proverbial bucket.</p>
+<p>This is probably a pretty abstract concept to many folks, but as I&rsquo;m now
+getting within spitting distance of my half century, it is something that I do
+think about now and then.</p>
+<p>The thing is, when my credit card finally decides to stop paying the monthly
+Hetzner bill (at this moment, <a href="/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server">these pages are served by a Hetzner VPS in
+Nuremburg</a>), they will pull the plug.</p>
+<p>Even if they don&rsquo;t do so immediately, cpbotha.net&rsquo;s domain registrar will for
+related reasons unplug the domain as it were, rendering this site unreachable.</p>
+<p>Now that I think about this some more, the shadowy company paying for all of
+this has been setup in a pretty robust fashion. It&rsquo;s not quite <a href="https://en.wikipedia.org/wiki/Accelerando">Accelerando</a>
+levels of indirection, but it could remain standing and paying for hosting and
+domains somewhat longer than expected.</p>
+<p>In spite of that, for the one or two people who might want to read some of this
+content after I&rsquo;m gone (close family members, I&rsquo;m looking right at you!), I
+really wanted to have some sort of more long-term backup plan in place, in
+addition to what <a href="https://web.archive.org/web/*/cpbotha.net">the wonderful Wayback Machine is already doing</a>.</p>
+<p>The solution I decided upon was to spend a great many hours going through 20
+years of cpbotha.net posts, mostly to fix all of the badly linked legacy
+wordpress figure sections, so that the whole thing could be pushed
+to&hellip; <a href="https://github.com/cpbotha/cpbotha.net">github</a>!</p>
+<p>Yep, you heard me right&hellip;</p>
+<p>I&rsquo;ve taken care of the bulk of rewriting, mostly through putting together <a href="https://github.com/cpbotha/cpbotha.net/blob/main/mine/convert%5Fwp%5Ffigures.py">this
+horrible script</a>, and manually reviewing the diffs, sometimes applying fixes, to
+over 600 files.</p>
+<p><a href="https://www.crummy.com/software/BeautifulSoup/">Beautifulsoup 4</a> is amazing by the way. Wordpress on the other hand, or rather
+wordpress plugins, just made so many random changes to figure markup over the
+years that I&rsquo;m not really sure what to think anymore.</p>
+<p>Anyways, most of the markdown content, which has been thankfully simplified, is
+now on the github and should remain available for significantly longer in the
+hopefully far future event of my demise.</p>
+<p>I&rsquo;m planning to spend some more hours to get the whole thing also buildable on
+github so that there&rsquo;s a browsable version in addition to just the markdown
+sources.</p>
+<p>Whatever the case may be, I hope that I can keep this site alive, and maybe even
+kicking, for at least twenty more years!</p>
+<h2 id="on-always-maintaining-a-menu-of-tasty-side-projects">On always maintaining a menu of tasty side-projects</h2>
+<p>Oh <a href="/tags/side-projects/">side-projects</a>&hellip;</p>
+<p>As I&rsquo;ve mentioned before, we side-project for learning and for relaxation.</p>
+<p>In addition to that, we also often lament the apparent cost of these
+side-projects, with some of us even having whole side-project graveyards to
+show for our sins.</p>
+<p>On the basis of what I just said, one might think it prudent to try and avoid
+these clearly nefarious side-projects, or maybe just to try and reduce their
+impact as much as possible, but of course we&rsquo;ll do nothing of the sort.</p>
+<p>Instead, we&rsquo;re going to double down.</p>
+<p>You see, the other day I figured out that my problem with side-projects was
+clearly that I didn&rsquo;t have enough of them.</p>
+<p>Ideally, one has a whole menu of tasty side-projects lined up, each one a
+different mix of activity types and learnings.</p>
+<p>Whenever you have a bit of free time (<a href="https://www.theguardian.com/science/2021/sep/09/study-links-too-much-free-time-to-lower-sense-of-wellbeing">not too much though!</a>), you can <em>quite</em>
+simply select the most suitable side-project from your list and hammer away for
+a bit.</p>
+<p>Of course you will need a substantial amount of willpower, as well as the
+presence of mind to actually initiate this selection action&hellip;</p>
+<p>Somewhat more seriously though, always having a creative and fitting project
+closely at hand that you can <a href="/tags/compounding/">compound</a> upon sounds like a solid strategy.</p>
+<p>(err, a solid strategy for what exactly? well that&rsquo;s a topic for a future post&hellip;)</p>
+<p>In the meantime:</p>
+<p>LONG LIVE  YOUR GROWING MULTITUDE OF SIDE-PROJECTS!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #220: An uncomfortable brainstorm</title><link>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</link><pubDate>Thu, 15 Apr 2021 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</guid><description> Welcome to Weekly Head Voices number Two Twenny!
+This edition covers the week from Monday April 5 to Sunday April 11, of which thankfully only 57.1% of the days (vs the usual 71.4%) were officially dedicated to work!
+Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful.
+The work week was indeed shorter (thanks week!) but perhaps just a bit too high intensity.</description><content:encoded><![CDATA[ <p>Welcome to Weekly Head Voices number Two Twenny!</p>
+<p>This edition covers the week from Monday April 5 to Sunday April 11, of which
+thankfully only 57.1% of the days (vs the usual 71.4%) were officially
+dedicated to work!</p>
+
+
+
+
+
+
+
+
+<figure><a href="mont-marie-pano-20210411.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful."/> </a><figcaption>
+            <p>Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in <a href="/2019/11/04/weekly-head-voices-182-can-you-predict-what/">WHV #182</a>. Still beautiful.</p>
+        </figcaption>
+</figure>
+
+<p>The work week was indeed shorter (thanks week!) but perhaps just a bit too high
+intensity.</p>
+<h2 id="why-does-there-have-to-a-discomfort-stage">Why does there have to a discomfort stage?</h2>
+<p>You see, we had previously made an important technical improvement to a product
+that was supposed to be released two weeks ago.</p>
+<p>Fortunately, during pre-release testing on the staging server (this is
+completely separate from production), some of our customers discovered issues
+that have been there for longer, but were now exacerbated, or rather made more
+apparent, by the improvement we had made.</p>
+<p>Now that is an interesting tension!</p>
+<p>One&rsquo;s first-order reaction is to want to roll-back the improvement, because
+we&rsquo;re humans, and we are compelled by our nature to do almost anything to
+resolve the discomfort we feel when our fellow humans are not as happy as they
+should be using the thing that we have built for them.</p>
+<p>That little person in your head is shouting: Go back, go back! You should have
+stayed where you were!</p>
+<p>However, this is one of those sometimes uncomfortable cases when the
+first-order reaction has to be resisted, because you really have to do The
+Right Thing.</p>
+<p>We started by measuring all the things, in order to understand the whole
+problem better.</p>
+<p>After that we started chipping away at some of the newly emphasised
+issues. Chip chip.</p>
+<p>Writing this up now, we are in a much better place than last week, having
+seemingly cleared that darned hump in the middle, and we are hopefully on our
+way to <em>the other side</em>.</p>
+<p>(This situation is quite reminiscent of the <a href="/2013/11/11/creative-process-stage-5-whv-67/">five stages of the creative process
+I&rsquo;ve mentioned before on this blog</a>.)</p>
+<h2 id="instant-switch-off">Instant switch-off</h2>
+<p>With the days as short as they are now, I often go for a mid-afternoon work-day
+run.</p>
+<p>These have been amazing in terms of switching off, and returning to work
+afterwards, refreshed and in a substantially more zen mood.</p>
+<p>In addition to this, family time in the evenings, also preceded by a pretty
+effective disconnect, made a perceptible difference to stress levels.</p>
+<h2 id="microsoft-has-a-pretty-good-password-manager-going-on">Microsoft has a pretty good password manager going on</h2>
+<p>TL;DR: If you&rsquo;re more on Windows and Linux than on Mac, you could consider
+using <a href="https://blogs.windows.com/windowsexperience/2021/02/05/simplify-and-secure-your-life-with-microsofts-autofill-solution-for-passwords/">Microsoft&rsquo;s password manager</a>.</p>
+<p>Some time before Lastpass changed their generous free tier, causing many folks
+to migrate away or to start paying, I decided to move all of my online password
+management to Dropbox Passwords.</p>
+<p>This was because I had been using LastPass for years (their free tier really
+was too generous. I usually do pay for services, but here there was no
+incentive), and thought that I should either start paying or move to a paid
+service, which Dropbox Passwords is in my case.</p>
+<p>Anyways, this experiment started on Saturday, October 3, 2020 and concluded on
+Saturday, April 10, 2021 after I finally made peace with the fact that the
+Dropbox Passwords app was indeed too klunky (PK you were right), and especially
+when I saw that Microsoft had secretly been putting together a pretty
+respectable <a href="https://blogs.windows.com/windowsexperience/2021/02/05/simplify-and-secure-your-life-with-microsofts-autofill-solution-for-passwords/">password management ecosystem</a>.</p>
+<p>You see, I&rsquo;ve been using the new Microsoft Edge browser (aka Edgium) for a
+while now, even on <a href="/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/">the shiny new M1 MacBook Air</a>, where the native M1 build is
+great for running the web-app versions of apps that don&rsquo;t have native M1
+versions yet.</p>
+<p>In addition to that, I&rsquo;m also already using <a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458">Microsoft&rsquo;s Authenticator app</a> for
+2FA on my home and work Microsoft accounts.</p>
+<p>Between the Edge browser (there&rsquo;s also <a href="https://chrome.google.com/webstore/detail/microsoft-autofill/fiedbfgcleddlbcmgdigjgdfcggjcion?hl=en">a Chrome plugin</a>) and the Authenticator
+app&rsquo;s autofill function, you can haz your passwords on desktop and mobile, with
+a similar level of integration as you might see when using icloud with Safari.</p>
+<h2 id="brainstorm-yourself">Brainstorm yourself</h2>
+<p><a href="/tags/side-projects/">Side-projects</a> folks!</p>
+<p>They&rsquo;re mostly great, but they have this unfortunate side-effect that they&rsquo;re
+always multiplying, seemingly even more so when there&rsquo;s a full graveyard of
+incomplete previous side-projects to function as fertile breeding ground.</p>
+<p>In playing my part in this specific force of nature, I spent some time this
+weekend brainstorming new side-project ideas with myself.</p>
+<p>(It is not lost on me that &ldquo;brainstorming&rdquo; project ideas in your own time, and
+not only that, but doing it by yourself, does not fall under &ldquo;standard weekend
+activities&rdquo; for many people. I have made my peace.)</p>
+<p>This time I was quite happy to be using a <a href="/2018/05/13/weekly-head-voices-142-theory-of-mind/#sketchnote-your-life">sketchnote-inspired</a> technique, trying
+to map out the landscape of &ldquo;skills&rdquo;, &ldquo;learning&rdquo;, &ldquo;my pain&rdquo; (not hurting here,
+this just refers to the need that the artifact should address) and &ldquo;market
+pain&rdquo; in order to find that One Final Side-Project that would satisfy all of
+those requirements and allow me to rest. Finally.</p>
+<p>After an hour or two, an idea that seemed to satisfy many of the map points did
+actually pop out!</p>
+<p><em>Narrator: It was not a very good idea.</em></p>
+<p>The idea that popped out fit the whole map too easily, in retrospect.</p>
+<p>One could say it was a bit like glibness as opposed to intelligence in that
+regard.</p>
+<p>The idea was to build a document / information retrieval tool for Windows that
+was at least as good as Spotlight on macOS.</p>
+<p>You&rsquo;ll remember from my <a href="/2019/09/21/note-taking-strategy-2019/">Note-taking strategy 2019</a> post, that my knowledge-base
+has files all over the show. A large part of using this thing effectively, is
+being able to call up that relevant article from 5 years ago in a fraction of a
+second.</p>
+<p>Windows Search is, in spite of years of work and update, still not even in the
+same ballpark as Spotlight in terms of retrieval accuracy and speed, so there
+is a technical opportunity there.</p>
+<p>As these things go, on Saturday evening I had my trusty new Orgmode notes file
+for this new project (<code>WorkingWindowsSearch</code>, sorry I&rsquo;m not marketer), and I
+was slapping together a C# WPF tool with <a href="https://lucenenet.apache.org/">Lucene.net</a> (after a bit of a false
+start with xapian, which I use for my email on Linux) and <a href="https://uglytoad.github.io/PdfPig/">PDFPig</a>, and had got
+it to start indexing a part of my <a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP collection of PDF references</a>.</p>
+<p>Fortunately, bed-time arrived sooner rather than later, terminating this
+(apparent) fecklessness, and the next morning I woke up with that awkward
+morning-after feeling.</p>
+<p>&ldquo;Uh, what was I thinking?!&rdquo;</p>
+<p>During the day, the gears in my head kept on turning by themselves, and the
+notes kept on accumulating.</p>
+<p>I had arrived at the conclusion that local file search was not going to cut
+it.</p>
+<p>One would need integration with different cloud services.</p>
+<p>This thought further developed into the idea that the side-project could be
+merely be &ldquo;sort of a retrieval hub&rdquo; that simply talks to all of the relevant
+APIs and showing results together.</p>
+<p>I had also arrived at the conclusion that I should probably stop right
+there.</p>
+<p>It had been an entertaining and educational dalliance with a list of
+technological artifacts that were new to me, but the longer-term energy did not
+seem to be there.</p>
+<p>It was back to the drawing board (or rather sketchnotes) for me, as soon as a
+sufficient amount of time again become available.</p>
+<h3 id="death-of-a-side-project-epilogue">Death of a side-project: Epilogue</h3>
+<p>On the Tuesday after the weekend (looking into the WHV future here), I ran into
+<a href="https://raycast.com/">Raycast</a>, a tool for macOS that combines Spotlight-like file search with a whole
+bunch of productivity plugins enabling power-users to perform their tasks from
+a single keyboard-driven app.</p>
+<p>With a $2.7 million seed round of capital led by Accel, it seems there are at
+least some people who think that this has market potential, even on a platform
+where the search part is already catered for.</p>
+<h2 id="read-here-for-possibly-life-changing-advice">Read here for possibly life-changing advice</h2>
+<p>I had this scheduled for the next WHV, but this one is in dire need of a
+conclusion, so sorry next WHV!</p>
+<p>I really enjoyed reading through <a href="https://waitbutwhy.com/2021/04/mailbag-2.html">Wait But Why&rsquo;s Mailbag #2 post</a>. (Tim Urban is
+such a human treasure.)</p>
+<p>The piece I would like to highlight now, is Tim Urban&rsquo;s reply to the question
+&ldquo;What is the best piece of advice you have ever received?&quot;:</p>
+<blockquote>
+<p>I met Chris Anderson, the head of TED, in 2015. He had read a few WBW posts and
+offered me the opportunity to give a TED Talk at the 2016 conference (which was
+six months away). Immediately full of both gratitude/excitement and
+dread/anxiety, I asked him if it might be better to wait a couple years until I
+had some more speaking experience. He paused thoughtfully for a few seconds
+before saying, <strong><strong>&ldquo;There&rsquo;s no time like the present.&quot;</strong></strong> I took his advice. Since
+then, his voice saying those words has popped into my head again and again
+during hard decisions, and I&rsquo;m yet to regret following them.</p>
+<p>Great advice is sometimes great because it&rsquo;s totally original or framed in an
+original way. But, as in my story, a well-known platitude, at the perfect
+moment, can also make a huge impact. What makes Chris&rsquo;s advice so valuable to
+me wasn&rsquo;t that it was something new—it was that the lesson I learned from
+taking the advice in that particular moment turned a cliché into a mantra.</p>
+</blockquote>
+<p>Exactly as he describes, it hit me too when I read it.</p>
+<p>Folks, I can&rsquo;t think of a better way to wrap up this post, than just planting
+the hopefully well-timed advice above in your head.</p>
+<p>Here it is again, for easier eye-ball insertion: <strong><strong>There&rsquo;s no time like the present.</strong></strong></p>
+]]></content:encoded></item><item><title>Weekly Head Voices #197: How to ship side-projects</title><link>https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/</link><pubDate>Thu, 11 Jun 2020 22:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/</guid><description> Hello friends!
+Weekly Head Voices #197 looks back at the week from Monday June 1 to Sunday June 7.
+Figure 1: Weekend morning runs are generally great, but this Saturday morning run was particularly perfect.
+Work-work is quite high intensity at the moment.
+I really would not mind a bit of respite any time soon now.
+In the meantime, let me look back, and by the crazy laws of metaphysics also inwards, at the previous week:</description><content:encoded><![CDATA[ <p>Hello friends!</p>
+<p>Weekly Head Voices #197 looks back at the week from Monday June 1 to Sunday June 7.</p>
+
+
+
+
+
+
+
+
+<figure><a href="morgenster.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Weekend morning runs are generally great, but this Saturday morning run was particularly perfect."/> </a><figcaption>
+            <p>Figure 1: Weekend morning runs are generally great, but this Saturday morning run was particularly perfect.</p>
+        </figcaption>
+</figure>
+
+<p>Work-work is quite high intensity at the moment.</p>
+<p>I really would not mind a bit of respite any time soon now.</p>
+<p>In the meantime, let me look back, and by the crazy laws of metaphysics
+also inwards, at the previous week:</p>
+<h2 id="on-slipping-and-shipping-a-side-project">On slipping and shipping a side-project</h2>
+<p>I have <a href="/2018/05/13/weekly-head-voices-142-theory-of-mind/#the-side-project-dilemma">written</a> <a href="/2018/09/03/weekly-head-voices-152-a-small-but-highly-trained-team-of-11-year-olds/#au-revoir">before</a> about nerds and their side-projects.</p>
+<p>You might recall that I said that they mostly don&rsquo;t ever see the light of day,
+although they still have indirect benefits.</p>
+<p>In any case, the two I linked to above both failed, so at least that&rsquo;s nice for
+consistency.</p>
+<p>However, on Friday I went and bucked the trend ever so slightly by
+soft-launching the Lazar Focus app and website distraction blocker for Windows.</p>
+<p>I <a href="/2020/05/31/weekly-head-voices-196-get-focused/#lazar-focus-the-super-tiny-windows-app-and-website-distraction-blocker-that-you-ve-always-wanted">mentioned LF last week</a>, but it now has a website, called <a href="https://lazarfocused.com/">lazarfocused.com</a>,
+and it has a <a href="https://gumroad.com/l/yExQgr">product page on gumroad</a>.</p>
+<p>It has a <em>substantially</em> smaller number of bugs thanks to brilliant beta
+testing by multi-modal medical visualization expert and productivity app
+<em>connoisseuse</em> <a href="http://noeskasmit.com/">Noeska</a>.</p>
+<p>If you&rsquo;re on Windows, this is exactly the little app you need to block
+distractions, only when you say so of course, so that you can focus on all of
+The Important Stuff™ you undoubtedly would rather get done, so that you
+can get back to goofing off.</p>
+<p>AMIRITE?!</p>
+<p>If you&rsquo;re one of those people who don&rsquo;t need any help to help focusing and to
+stay in the zone, but you work with people who might, the <a href="https://lazarfocused.com/2020/06/06/the-philosophy-behind-lazar-focus/">philosophy behind
+Lazar Focus</a> blog post is a good introduction to share with them. (Also, could I
+interview you? :)</p>
+<h2 id="dry-january-finally-ends--or-maybe-not--with-rochefort">Dry January finally ends (or maybe not) with Rochefort</h2>
+<p>This year, I <a href="/2020/01/12/the-2019-to-2020-transition-post/#plans-and-life-directions-for-2020">started Experiment Alcohol Zero (EAZ) on January 6</a>.</p>
+<p>I&rsquo;m happy to report that this was interrupted only once for a superb glass of
+my favourite Chardonnay (that&rsquo;s the Haskell Anvil, see <a href="/2019/10/17/weekly-head-voices-181-the-slow-ones/#what-i-did-in-week-41">WHV #181</a> for the first
+encounter) with besties, right at the source.</p>
+<p>Other than that, I remained in EAZ until Saturday, June 6, when the St
+Bernhardus Abt 12 and the Trappistes Rochefort #8 and #10 that a friend had
+brought for me all the way from The Netherlands and that had been waiting
+patiently for me in the cupboard, had just been sitting there waiting for long
+enough.</p>
+<p>(By the way, the St Bernhardus Abt 12 is a taste clone of the Westvleteren, the
+pretty expensive king of the Trappist beers, as a drunk gentleman once
+explained to me in the Doerak in Delft late one evening. He was right, as my
+companion and I subsequently confirmed when we acquired both beers for a
+comparative tasting on the spot.)</p>
+<p>The time, but far more pertinently the opportunity, had come to end (or was it
+merely to interrupt&hellip;) EAZ 2020.</p>
+<p>Friends, that Rochefort is simply packed with a multitude of sweet, warm
+memories of days and evenings in my other home, with my other family.</p>
+
+
+
+
+
+
+
+
+<figure><a href="rochefort_8_action_shot.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Just in case you needed reminding, the Rochefort 8 looks like this. Memories of a lifetime not pictured."/> </a><figcaption>
+            <p>Figure 2: Just in case you needed reminding, the Rochefort 8 looks like this. Memories of a lifetime not pictured.</p>
+        </figcaption>
+</figure>
+
+<p>(Going even further back, I have <a href="/2016/07/19/weekly-head-voices-109-gaba/">mentioned before</a> that this blog contains <a href="/2003/04/21/an-eventful-weekend/">a
+written record of my very first encounter with Rochefort</a>, all the way back in
+2003, right in the town of La Roche-en-Ardenna, about 30 minutes away from
+Rochefort itself. Reading that post now, it really was a sort of WHV avant la
+lettre!)</p>
+<h2 id="the-last-bit">The last bit</h2>
+<p>Ok folks, it is now 22:17 on Thursday evening, and I&rsquo;m at that super difficult
+&ldquo;HOW IN THOR&rsquo;S NAME DO I CONCLUDE THIS THING?!&quot;-stage, a problem which I seem
+to be solving with the &ldquo;I KNOW LET&rsquo;S BREAK THE FOURTH WALL / SIMPLY TALK
+ABOUT HOW WE DON&rsquo;T KNOW HOW TO END THIS THING&rdquo;-manoeuvre.</p>
+<p>On the bright side, I think we did <em>just</em> make the deadline with this edition
+of the WHV, narrowly avoiding postponement and a larger-than-normal next post.</p>
+<p>Have a brilliant rest of the week and weekend. I look forward to seeing you
+again, here and anywhere!</p>
+<p>P.S. I still don&rsquo;t know how to ship side-projects.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #173: I know.</title><link>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</link><pubDate>Wed, 17 Jul 2019 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</guid><description> Taken on a run in the mountain, on a trail quite aptly called the protea. By the way, although I have become slightly less terrible at running up hills, I'm still quite bad. Let&amp;rsquo;s go for a slightly less anxious start than the previous edition did:
+Well hello there folks!
+A week ago, I made a deliberate decision not to post a WHV, as I really did not have much to report on.</description><content:encoded><![CDATA[ <figure>
+<a href="helderberg_protea.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+Taken on a run in the mountain, on a trail quite aptly called the protea. By
+the way, although I have become slightly less terrible at running up hills, I'm
+still quite bad.
+</figcaption>
+</figure>
+<p>Let&rsquo;s go for a slightly less anxious start than the previous edition did:</p>
+<p>Well hello there folks!</p>
+<p>A week ago, I made a deliberate decision not to post a WHV, as I really did not
+have much to report on.</p>
+<p>However, it&rsquo;s funny how these things go. One week nothing&hellip; Then it&rsquo;s just a
+single week later and there&rsquo;s almost a bit too much that I would like to talk
+about.</p>
+<p>It seems to have been a mix of more writing, but also just more doing.</p>
+<p>So, looking back at the two weeks from Monday July 1 to Sunday July 14, 2019, I
+would like to present the following notes.</p>
+<h2 id="bullet-list-of-miscellany-blom">Bullet List of Miscellany (BLoM).</h2>
+<ul>
+<li>GOU#1, age 13, is on a week-long school trip in a different time zone
+(GMT+8). I am super happy that she can have this experience, but durnit, one
+misses one&rsquo;s genetic offspring units dearly!</li>
+<li>Remember that I told you about our <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">solar inverter not talking to the
+battery&rsquo;s BMS</a>?
+Well, one small recommended firmware upgrade later, from 151507 to 151508,
+and the whole system is completely down. Please cross your fingers, because
+we&rsquo;ve tried <strong>everything</strong> else.</li>
+<li>I regularly get accosted by off-leash dogs whilst running. There are
+incredibly clear by-laws down here which absolutely forbid any dog ever being
+off-leash in any public space which is not a designated off-leash zone. I
+recently made the mistake (twice) of trying to explain this to the relevant
+dog-owners. Well, dog-owners seem to be quite sadly under-endowed in the area
+of introspective capability, but at least I&rsquo;m getting a lot better at
+unprepared debates in public spaces. (Psychologists in the audience, help me
+out here with any tips please!)</li>
+<li>I really enjoyed <a href="https://samharris.org/podcasts/162-medical-intelligence/">this Sam Harris podcast with Eric
+Topol</a>. <a href="https://www.scripps.edu/faculty/topol/">Eric
+Topol</a> is a cardiologist and the
+founder and director of the Scripps Research Translational Institute in the
+US. Apart from the main topic of the discussion, namely Topol&rsquo;s
+well-developed and articulated view of AI in medicine (well, his books on
+this topic are quite influential, so there&rsquo;s that), I was struck and inspired
+by the humble gentleness of this impressive intellect. Furthermore, although
+we are not supposed to use twitter anymore (in some circles, it has been
+dubbed &ldquo;road rage of the internet&rdquo;), <a href="https://twitter.com/EricTopol">Prof Topol&rsquo;s tweet
+stream</a> is a shining example of how twitter
+could be used more constructively.</li>
+</ul>
+<h2 id="would-you-like-some-more-emacs-with-that-email">Would you like some more Emacs with that Email?</h2>
+<p>During the past two weeks I published two blog posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2019/07/03/send-queued-mails-in-background-with-mu4e/">Sending queued mails in the background with
+mu4e.</a></li>
+<li><a href="https://vxlabs.com/2019/07/05/mbsync-vs-offlineimap-speed/">Is mbsync really faster than offlineimap? A
+measurement.</a></li>
+</ul>
+<p>Based on these, you might come to the conclusion that I&rsquo;m processing email
+inside of Emacs
+<a href="/2014/05/24/weekly-head-voices-71-vote-for-the-future/">again</a>.</p>
+<p>I can confirm that this is indeed the case.</p>
+<p>Probably for a large part due to the popularity of google&rsquo;s gmail, the growth
+of the rest of the email ecosystem seems to have been stunted to a significant
+degree.</p>
+<p>In this specific case, I am referring to the dearth of really good email
+clients for Windows.</p>
+<p>(By the way, Thunderbird, still my fallback, usually makes the top of any
+Windows email client lists. However, if it weren&rsquo;t for GMail, Thunderbird
+would probably also be miles better than it is today.)</p>
+<p>After losing more hours than I could afford trying to find that perfect email
+client (I would have settled for &ldquo;still has all of its own teeth&rdquo;), I realised
+that I would just have to buckle down and get <a href="/tags/mu4e/">mu4e</a>, my favourite
+Emacs email client, working well enough on Windows, which I currently <em>prefer</em>
+(DID I JUST SAY THAT?!) due to my <a href="/2019/04/27/new-laptop-2019/">ThinkPad X1E
+baby</a>.</p>
+<p>That was of course a whole different wormhole to get sucked into.</p>
+<p>Well, more of those precious hours later, I have a Frankensteined concoction
+consisting of Emacs running on the Windows Subsystem for Linux (WSL),
+displaying to the Windows desktop via <a href="https://token2shell.com/x410/">X410</a>,
+and opening email and orgmode attachments, and dired files, using the native
+Windows handlers via an
+<a href="https://wiki.archlinux.org/index.php/Xdg-utils#xdg-open">xdg-open</a> work-alike
+I coded up in Python.</p>
+<p>(I am planning to release my xdg-open clone along with a more detailed howto
+blog post. Let me know if you would like advanced access.)</p>
+<p>Soooo&hellip;. after all of that effort I am now back more or less to where I
+started in 2014.</p>
+<p>(To be honest, Emacs is near the top of my list of compounding activities. The
+fact that it&rsquo;s back in my email workflow, combined with five years of
+compounded Emacs skills, has resulted in further increased efficiency.)</p>
+<h3 id="sticking-it-to-the-man-gmail-with-fastmail">Sticking it to the Man (GMail) with FastMail.</h3>
+<p>Wrapping up that email workflow reconfiguration frenzy, I did spend some
+minutes doing a quick survey of fastmail alternatives which might have email
+servers somewhat closer to the Southern tip of Africa and hence shave off a few
+seconds of latency.</p>
+<p>I found nothing that came close in terms of features and price. Except for one
+outage, <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">I&rsquo;ve been a really happy fastmail camper for the last three
+years</a>.</p>
+<p>All of that, together with the fact that gmail&rsquo;s continued dominance is
+unhealthy for the world of email, convinced me to stick with fastmail for the
+conceivable future.</p>
+<h2 id="stone-three-healthcare-is-now-a-thing">Stone Three Healthcare is now a thing.</h2>
+<p><a href="http://www.stonethree.com/healthcare/">Stone Three Healthcare</a>, until recently
+a business unit within Stone Three Venture Technology, has now been officially
+spun out.</p>
+<p>In other words, S3HC is now a more-or-less independent company that will
+henceforth have to create its own success.</p>
+<p>As some of you know, this project has been cooking for a few years now.</p>
+<p>We have a really great team, products with customers and a market, and a
+respectable patch of runway.</p>
+<p>There are worse ways for a startup to start up.</p>
+<p>P.S. if you have any golden tips for startup dummies, I (and probably others)
+would be super grateful if you could let &lsquo;em loose in the comments!</p>
+<h2 id="always-be-compounding-the-side-project-edition">Always Be Compounding: The side-project edition.</h2>
+<p>In the previous WHV, I <a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">started going on about the principle of ABC, or Always Be
+Compounding</a>.</p>
+<p>Since then, I&rsquo;ve been spending a great deal of mental cycles on finding more
+ways to ABC.</p>
+<p>Besides the more general examples I mentioned there, another method is to
+design some long-running project that can function as a container for all of
+the work that you&rsquo;ll have to do in any case.</p>
+<p>A perhaps slightly flawed personal example is DeVIDE, an open source
+visualization and image processing tool that started life somewhere in 2001,
+<a href="/2003/12/19/the-visualisation-and-image-processing-platform-formerly-known-as-dscas3/">was renamed to DeVIDE at the end of
+2003</a>,
+open-sourced in 2007 and had its last release in 2012.</p>
+<p>Although it did see some use after that, the project went into hibernation
+(weeeelll&hellip;.) when I left academia.</p>
+<p>My point is that, for about 10 years, I had a single technical <em>artifact</em> with
+a name that became slowly better known (even if it was often by its alias &ldquo;Not
+Responding&rdquo;), into which I could integrate all the other new work I was doing.</p>
+<p>This enabled me to enjoy some of the advantages of compounding effort, in the
+shape of DeVIDE, even although the work I was doing over the years necessarily
+had to change.</p>
+<p>(A really nice additional benefit was that some students sometimes found the
+software useful! I do wish that that part could have continued for a little
+longer.)</p>
+<p>Setting aside my
+<a href="/2019/05/07/weekly-head-voices-170-yeet/#a-strange-thing-happened-this-weekend">DeVIDE-nostalgia</a>
+(and a bit of sadness) for a moment, I would like to apply some of this
+learning to my current (and perhaps your) situation.</p>
+<p>My idea would be to define a new side-project that can act as the slightly
+longer-lived container for some of the smaller side-projects and learnings I
+sometimes manage to spend time on.</p>
+<p>It would have to be a technology / thematic fit for many of my other
+side-projects. It would of course constitute a double-whammy if this
+side-project had commercial potential.</p>
+<p>Well, SURPRISE!</p>
+<p>I do have at least one side-project that ticks a number of these boxes, and
+could <em>potentially</em> serve as such a vehicle.</p>
+<h3 id="aikno">AIKNO</h3>
+<p>The side-project in question is called AIKNO, which is pronounced &ldquo;I know&rdquo;, but
+which somehow expands to <em>AI organizational knowledge base</em>. Magic!</p>
+<p>It eats all of your organization&rsquo;s emails for breakfast, and then uses
+different methods, both algorithmic and crowd/team-sourced, to sort and
+organize those emails and all of their attachments, and then makes those easily
+and attractively (hey, data visualization!) accessible by that organization.</p>
+<p>Think of it as an almost zero-effort always-up-to-date organizational knowledge
+base.</p>
+<p>Besides having slots for various machine learning and visualization techniques,
+it fits nicely into my overgrown knowledge management hobby.</p>
+<p>The first commit in the AIKNO repo was in November of 2017. Oof. The prototype
+is able to import emails and attachments into its structured database, and
+already does funky stuff with similarity searches and whatnot.</p>
+<p>Unfortunately, it has also suffered from my regular technology stack
+changes, and it&rsquo;s currently languishing while I write blog posts.</p>
+<p>My previous failed side-project was called <em>TableTops</em>, or <em>Paradigm Desktop</em> by
+the same people who dubbed DeVIDE &ldquo;Not Responding&rdquo;.</p>
+<p>It was a free-form canvas / whiteboard tool for the free-form storage and
+linking of <em>anything</em>. For example, it had relational data structures for
+linking specific coordinates or regions in photos to centralised concepts, and
+other interesting things that will probably never see the light of day.</p>
+<p>It went through seven tech-stack-change-induced rewrites before being obsoleted
+by <a href="https://vxlabs.com/tags/orgmode/">my growing Emacs Orgmode powers</a>. (first
+commit October 2013, last commit August 2017, now on the backest back
+burner. the one that&rsquo;s not burning.)</p>
+<p>I did learn a <em>tremendous</em> amount.</p>
+<p>Maybe <em>that</em> is the real reason for doing these things?</p>
+<h2 id="always-be-learning">Always Be Learning.</h2>
+<p>Thanks for joining me on that trip folks.</p>
+<p>I hope to see you soon. Until then, make an amazing time!</p>
+<figure>
+<a href="coffee_company_belgian_brownie.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+100% amazing Belgian brownie and delectable flat white at the
+Coffee Company on Lourensford this past weekend.
+</figcaption>
+</figure>
+]]></content:encoded></item><item><title>Weekly Head Voices #152: A small but highly trained team of 11 year olds.</title><link>https://cpbotha.net/2018/09/03/weekly-head-voices-152-a-small-but-highly-trained-team-of-11-year-olds/</link><pubDate>Mon, 03 Sep 2018 21:07:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/09/03/weekly-head-voices-152-a-small-but-highly-trained-team-of-11-year-olds/</guid><description> GOU#2, age 8, made this for the blog, super special.
+This edition of the Weekly Head Voices covers the period from Monday August 6 to Sunday September 2.
+Somewhere during this period, I experienced my 44th birthday.
+More than once since then, my partner has had to endure my brand-new joke / half-truth that I’m now as clever as a team of four smart 11-year olds. (Hey, it took a team of four smart 11-year olds to come up with that joke!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/09/sylvia_henna.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/09/sylvia_henna-1024x719.jpg"
+        
+            alt="GOU#2, age 8, made this for the blog, super special."/> </a><figcaption>
+            <p>GOU#2, age 8, made this for the blog, super special.</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the Weekly Head Voices covers the period from Monday August 6 to Sunday September 2.</p>
+<p>Somewhere during this period, I experienced my 44th birthday.</p>
+<p>More than once since then, my partner has had to endure my brand-new joke / half-truth that I’m now as clever as a team of four smart 11-year olds. (Hey, it took a team of four smart 11-year olds to come up with that joke!)</p>
+<p>On the big (for me) day, I cooked for a super tiny group of friends. I experienced the ritual of preparing dinner for friends to be an honest one, and filled with human warmth. 12/10 – Would do again.</p>
+<p>The next morning, ever-so-slightly in recovery mode, I was surprised by my little brother and my little sister (in-law). MY FAMILY HAD CONSPIRED AGAINST ME WITH SUCH SUCCESS!</p>
+<p>Somewhere during this period, I also had the fantastic privilege of going back to my other home (the one with the cheese, and the clogs, and the social democracy FTW) and spending time with my family there.</p>
+<p>So much celebration. So much warmth.</p>
+<p>(There is also some bitter-sweetness, but that’s the price one has to pay for having roots in different hemispheres.)</p>
+<p>I would have liked to say more, but this is one of those WHAMPSAMP* situations.</p>
+<p>(As part of a deal I made at AfrikaBurn with a brother, I went fully vegetarian from the Friday to the Monday. It was actually really good!)</p>
+<p>(* WHAMPSAMP = What Happens At Mysterious Place Stays At Mysterious Place.)</p>
+<h1 id="music-nerd-andor-plain-nerd-section">Music (nerd) and/or plain nerd section.</h1>
+<p>Somewhere during that period, Evil Charl went ahead and implemented that <a href="https://chrome.google.com/webstore/detail/spotify2applemusic/gehbfaolompeeapflihekomijnhgccbk">Spotify2AppleMusic chrome plugin</a> that Responsible Charl mentioned in a <a href="/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/#chrome-or-firefox-plugin-to-convert-spotify-playlists-to-apple-music-using-the-new-musickit-js-api">previous edition of the WHV</a> with the explicit purpose of getting it out of our system.</p>
+<p>It’s out there now, and it’s free, so you might as well try it the next time that you need to convert any public (or private in your account) Spotify playlist to the corresponding Apple Music playlist.</p>
+<p>I wrote this one in TypeScript where the type interfaces were a fantastic help in writing correct code for the parsing of the various APIs that this plugin has to inter-operate with.</p>
+<h1 id="nerd-section-bitbar-with-lua-hammerspoon-nerd-motivations">Nerd section: BitBar with Lua, Hammerspoon, nerd motivations.</h1>
+<p>Also somewhere during that period, but in a slightly more surprising twist, I <a href="https://github.com/matryer/bitbar-plugins/pull/1084">added lua support to the open-source macOS utility called bitbar</a>, purely because I wanted to write a network bandwidth plugin that consumed less memory and was faster than the built in shell + awk versions.</p>
+<p>That means I’m now also an <a href="https://getbitbar.com/contributors/cpbotha">official bitbar plugin author</a>, which I find strangely satisfying.</p>
+<p>Well, maybe it’s not so strange. I do have a thing with producing artifacts that other people (might) use in some way. There’s even more vagueness on this topic at the bottom of this post.</p>
+<p>(BTW, the Python version of the same plugin consumed 8 times as much memory as the lua version, which itself consumed about 30% less memory than the shell+awk version.)</p>
+<p>(BTW, if you’re on a Mac, and you know a little bit of lua, <a href="https://www.hammerspoon.org">Hammerspoon</a> is an amazing tool for automating your desktop via its lua bindings to the mac desktop API. In a few lines of code, I was able to throw out <a href="https://www.spectacleapp.com">Spectacle</a>, which itself is a great app, but Hammerspoon, the successor of Mjolnir, scores highly on the nerd street-cred scale and has MOAR FUNCTION.)</p>
+<h1 id="au-revoir">Au revoir</h1>
+<p>I am grateful that you are here reading this, thank you!</p>
+<p>I have recently acquired a new side-project (Evil Charl: “HELL YEAH!” BRRRAAAAAAAAMMMM &lt;— crashes straight through office wall to the great outdoors on big motorbike. Responsible Charl: “sigh.”) which is currently sucking up a great deal of my creative output.</p>
+<p>We all know what usually happens to side-projects. I guess the high probability of failure may even add to their attractiveness.</p>
+<p>In either case, high or low probability outcome, I’ll eventually spill the beans over here. Suffice to say that I do seem to have a thing for <a href="/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/">setting things up and then calling them universities</a>, and in this case it’s even allowing me to produce reasonably sized packets of usefulness that might just magically add up to a valuable whole.</p>
+<p>I am ever-so-slightly excited.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #151: We are pleased to meet you.</title><link>https://cpbotha.net/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/</link><pubDate>Wed, 08 Aug 2018 06:34:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/</guid><description> The Weekly Head Voices number 151 are trying to tell you something about the week from Monday July 30 to Sunday August 5.
+Prepare yourself for a slightly stranger than usual post. I have: two short programming ideas, a bad review of an outdoor security passive infrared sensor, using Jupyter Notebook for (GPU-accelerated) numerical computation when you only have a browser, computing device input latency, and an utterly unexpected bit of backyard philosophy from the gut.</description><content:encoded><![CDATA[ <p>The Weekly Head Voices number 151 are trying to tell you something about the week from Monday July 30 to Sunday August 5.</p>
+<p>Prepare yourself for a slightly stranger than usual post. I have: two short programming ideas, a bad review of an outdoor security passive infrared sensor, using Jupyter Notebook for (GPU-accelerated) numerical computation when you only have a browser, computing device input latency, and an utterly unexpected bit of backyard philosophy from the gut.</p>
+<h1 id="two-random-micro-side-project-ideas">Two random micro side-project ideas</h1>
+<p>I would like to start with two hobby / maker ideas that popped up in my head this week. There’s a high probability I will not get around to them, but perhaps they help you to spawn a new set of hopefully more worthwhile ideas.</p>
+<h2 id="chrome-or-firefox-plugin-to-convert-spotify-playlists-to-apple-music-using-the-new-musickit-js-api">Chrome or Firefox plugin to convert Spotify playlists to Apple Music using the new MusicKit JS API</h2>
+<p>I seem to see many more Spotify playlists shared than Apple Music playlists. For example, at this moment I’m listening to the official Lowlands 2018 playlist.</p>
+<p>This is not ideal, as I am an Apple Music subscriber, but not a Spotify subscriber.</p>
+<p>It turns out there are paid apps to convert Spotify playlists to Apple music playlists.</p>
+<p>However, it also turns out that Apple has a new thing (still in beta) called <a href="https://developer.apple.com/documentation/musickitjs">MusicKit JS</a>.</p>
+<p>I briefly dissected the Spotify Playlist website.</p>
+<p>It would be straight-forward for a Chrome or Firefox plugin (WebExtension, so same code. I’ve done this before) to go through this playlist, search for each track using the MusicKit JS API, and then recreate the playlist in the user’s Apple Music account.</p>
+<p>This solution would be much cleaner and simpler than the current app-based ones.</p>
+<h2 id="an-emacs-package-for-displaying-your-rescuetime-productivity-metric-right-on-the-mode-line">An Emacs package for displaying your RescueTime productivity metric right on the mode line</h2>
+<p>I scanned the <a href="https://www.rescuetime.com/apidoc">RescueTime API documentation</a>.</p>
+<p>I was just about to start working on it, when I came up with the bright idea to name the package ironic.el, and so I stopped.</p>
+<p>On that topic: The struggle for practically sustainable focus is real, and it never seems to stop.</p>
+<h1 id="the-head-voices-reviewtm-the-optex-hx-80-outdoor-passive-infrared-security-detector-avoid-at-all-costs">The Head Voices REVIEW(tm) the Optex HX-80 outdoor passive infrared security detector: AVOID AT ALL COSTS</h1>
+<p>From the <a href="https://www.optexamerica.com/security-products/hx-80n">Optex HX-80 outdoor passive infrared security detector’s web-page</a> we have the following:</p>
+<blockquote>
+<p><strong>The most important element in reliable outdoor detector is accuracy to distinguish a human from a small animal</strong>. … In addition, the HX-80N’s dual PIR’s and 20 detection zones utilize the ‘AND’ detection pattern technology … <strong>This technology helps to prevent false alarms caused by a pet or small animal.</strong></p>
+</blockquote>
+<p>Well, I had two of these installed by trained professionals.</p>
+<p>(There are of course interesting discussions to be had about the necessity of devices such as the HX-80, or its mythical actually working counterpart, down here.)</p>
+<p>I can confirm that they excel at one fairly specific function: Triggering the alarm, and thus automatically calling my security company, at the most ungodly hours of the night, whenever a certain small grey cat, looking exceptionally unlike a human, decides to take a stroll outside of our house.</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/8ZXAmMroePI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Oh yes, the cat is not even ours, but belongs to our neighbour.</p>
+<p>The installation and subsequent repeated fine-tuning of our Optex HX-80 have only had the result of me having to punch in an additional key-sequence every evening to bypass the two ‘AND’-detection-pattern-technology-equipped HX-80 devices.</p>
+<p>You will understand that the only reasonable Head Voices REVIEW(tm) of the Optex HX-80 is:</p>
+<ul>
+<li>100% NON-FUNCTIONING THROUGH INFERIOR DESIGN.</li>
+<li>AVOID AT ALL COSTS.</li>
+<li>DON’T TRUST THE MARKETING.</li>
+<li>THE TRUTH IS OUT THERE.</li>
+<li>JUST DON’T.</li>
+</ul>
+<p><img src="data:image/jpeg;base64,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" alt="Image result for just don&rsquo;t meme"></p>
+<h1 id="some-more-odd-but-perhaps-useful-bits">Some more odd but perhaps useful bits</h1>
+<h2 id="google-colaboratory-for-numerical-computation-when-all-you-have-is-a-browser">Google Colaboratory for Numerical Computation when all you have is a browser.</h2>
+<p>I’m late to the party (again), but <a href="https://colab.research.google.com/notebooks/welcome.ipynb">Google Colab</a> is really great if you need a Jupyter Notebook with some GPU power behind it.</p>
+<p>It comes with tensorflow pre-installed (being Google and all), but getting the GPU-accelerated PyTorch 0.4.1 (latest version of the most amazing deep learning tool at the time of writing) going was a cinch.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png"
+        /> </a>
+</figure>
+
+<p>To repeat this experiment, create new notebook with File | New Python 3 Notebook, then change Edit | Notebook Settings | Hardware accelerator to GPU.</p>
+<p>You can then install the correct version of PyTorch by executing</p>
+<pre>!pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-linux_x86_64.whl</pre>
+<p>in a notebook cell.</p>
+<p>What a time to be alive!</p>
+<p>P.S. Remember, <a href="/2018/07/17/weekly-head-voices-148-data-stylist/#development-environment-pycharm">under normal (non-Colab) circumstances</a> we keep our Notebooks as empty as possible. Prefer as much as possible of your code in Python modules. The notebooks are only there to act as glue, for visualization and sometimes for long-running jobs.</p>
+<h2 id="dan-luus-computer-and-mobile-device-input-latency-research">Dan Luu’s computer and mobile device input latency research</h2>
+<p><a href="https://danluu.com/input-lag/">This most amazing work</a> was recently brought to my attention by WHV reader <a href="https://matthewbrecher.com/">Matthew Brecher</a> in the comments under my <a href="/2017/02/12/android-vs-iphone-performance-a-quick-note/">2017 Android vs iPhone performance post</a>.</p>
+<p>In it, Dan Luu measured the input latency of various devices, using the 240fps camera on his iPhone SE, or with the 1000 fps  Sony RX100 V camera if the device was too fast.</p>
+<p>For the computers in his study, input latency was defined as the time between keypress and character appearing on the display. For the mobile devices, it was defined as the time between finger movement and display scrolling starting.</p>
+<p>If you have any interest in this sort of technology and also in-depth technology journalism, <a href="https://danluu.com/input-lag/">the full article</a> is definitely worth your time.</p>
+<p>I wanted to mention two interesting points:</p>
+<ol>
+<li>The 1983 Apple 2e, with a CPU running at 1MHz, had significantly lower input latency (30ms between button press and character display) than any modern multi-GHz system. The comparison is of course not completely fair, but it’s still nice to see.</li>
+<li>Amongst the mobile devices, Apple dominates the fast / low latency end of the spectrum. Their devices, in terms of input lag, are ALL faster than all of the Android devices tested, including for example the 2017 Google Pixel 2XL.
+<ul>
+<li>Yes, this is me eating my hat, and some more of that yummy humble pie.</li>
+<li>Android 9, code-name Pie, has just been (will soon be… err) released and has an <a href="https://www.theguardian.com/technology/2018/aug/07/android-9-pie-google-new-mobile-os-everything-you-need-to-know">amazing list of features</a>. I still hope they manage they also manage to catch up with regards to some of the basics like input latency.</li>
+</ul>
+</li>
+</ol>
+<h2 id="yet-another-reason-to-eat-more-fibre">Yet another reason to eat more fibre</h2>
+<p>There are an <a href="https://en.wikipedia.org/wiki/Human_microbiota">estimated 100 trillion (10 to the power of 14; 100 with 12 zeroes) bacterial cells</a> housed in each of our bodies.</p>
+<p>Each adult human consists of on average only 37 trillion human cells, meaning there are on average almost 3 alien cells for every 1 of your own cells.</p>
+<p>I find this a beautiful realisation: All aspects of our lives depend on this multitude of foreign visitors.</p>
+<p>They help us digest our food, and, as it has been turning out more recently, they play a crucial role in our mood,  our behaviour and our thinking.</p>
+<p>We (or at least the clever people) now talk about the <a href="https://en.wikipedia.org/wiki/Gut%E2%80%93brain_axis">microbiome-gut-brain axis</a>, further underlining the importance that our bacterial visitors play in our lives.</p>
+<p>Taking a few more steps back, thinking about the relationship between the 37 trillion human cells, and the 100 trillion visiting cells,  I ask the question:</p>
+<p>Who am I really? Who exactly is thinking this?</p>
+<p>I, or perhaps rather “we”, find this truly fascinating.</p>
+<p>What I was initially planning to mention before going off on this tangent, was a recent paper accepted for publication in the Journal of Physiology, with the title Short-Chain Fatty Acids: <a href="https://physoc.onlinelibrary.wiley.com/doi/epdf/10.1113/JP276431">Microbial Metabolites That Alleviate Stress-induced Brain-Gut Axis Alterations (click for PDF fulltext)</a>.</p>
+<p>The Physiological Society press release is more digestibly (I had to) titled “<a href="http://www.physoc.org/press-release/2018/eat-high-fibre-foods-reduce-effects-stress-gut-and-behaviour">Eat high fibre foods to reduce effects of stress on gut and behaviour</a>“.</p>
+<p>In short, fibre stimulates gut bacteria to produce short-chain fatty acids (SCFA), which, besides being the main source of nutrition for cells in this region of the body, also decrease levels of stress and anxiety, at the very least in mice.</p>
+<h1 id="the-end">The end</h1>
+<p>Thank you for sticking around friends!</p>
+<p>I hope that you found something of value, even if not directly from this post.</p>
+<p>I’ll see you next time! Until then, remember to eat your vegetables.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #142: Theory of mind.</title><link>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</link><pubDate>Sun, 13 May 2018 20:27:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</guid><description> Autumn is really pretty down here.
+We’re getting back on track with the WHVs friends!
+In the hardly started tradition of writing blog posts in music-backed focus blocks, I have my “upbeat thinking” playlist teed up and ready to go. The outline of this post formed itself as a Real Bullet List(tm) in my Emacs about an hour ago.
+Let’s go.
+They grow up so fast Theory of Mind, or ToM, is an important mental capability that we use to model and predict the thoughts and desires of fellow humans.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/img_0007.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/img_0007-1024x661.jpg"
+        
+            alt="Autumn is really pretty down here."/> </a><figcaption>
+            <p>Autumn is really pretty down here.</p>
+        </figcaption>
+</figure>
+
+<p>We’re getting back on track with the WHVs friends!</p>
+<p>In the hardly started tradition of <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">writing blog posts in music-backed focus blocks</a>, I have my “upbeat thinking” playlist teed up and ready to go. The outline of this post formed itself as a Real Bullet List(tm) in my Emacs about an hour ago.</p>
+<p>Let’s go.</p>
+<h1 id="they-grow-up-so-fast">They grow up so fast</h1>
+<p><a href="https://en.wikipedia.org/wiki/Theory_of_mind">Theory of Mind, or ToM</a>, is an important mental capability that we use to model and predict the thoughts and desires of fellow humans.</p>
+<p>Just the other day, as we were going through our school morning ritual of the offspring units eating breakfast together and the adults self-administering the correct number of espressos required for normal functioning, GOU#3 calmly informed me from her mother’s lap:</p>
+<blockquote>
+<p>Daddy, mommy would like another biscuit with her coffee.</p>
+</blockquote>
+<p>Genetic Offspring Unit #3 only very recently turned 2.</p>
+<p>With this request, she demonstrated surprising levels of ToM and planning ability. She inferred, entirely correctly,  what her parental unit required at that moment, and performed exactly the correct action (delegation, yikes!) to satisfy that requirement.</p>
+<p>I am still suitably impressed.</p>
+<h1 id="sketchnote-your-life">Sketchnote your life</h1>
+<p><a href="http://rohdesign.com/sketchnotes/">Sketchotes</a> refer to a type of hand-written notes that employs both writing and drawing techniques. Here’s an example by Emacs guru and famous internet person <a href="http://sachachua.com/blog/">Sacha Chua</a>:</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://www.flickr.com/photos/sachac/9040714189">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/9040714189_4c88f63bb3_z.jpg"
+        /> </a>
+</figure>
+
+<p>I’m trying to spend more time dedicated to thinking and so-called conceptualising. Sketchnotes seems like a good tool to use during these thinking sessions, so last week this formed the ideal excuse to go out and acquire a new large Moleskine with blank pages (I used to use Moleskines for all my note-taking before going digital), and a whole bunch of sketchnote-recommended pens (Pilot Hi-TecPoint 0.5 which I already had one of; Pilot G-TEC-C4 for super fine drawing, pen also turned out to have best handling of the lot despite its simplicity; Pentel Energel 0.7mm).</p>
+<p>My first session was spent sketching out my current life landscape (thank you KvG for this tip years ago), including work, side-projects and a bunch of developing and potential opportunities, as well as the links between them.</p>
+<p>I can report that drawing like this is a great trick to keep one’s attention glued to the page, and hence to the chosen focus, whilst at the same time maintaining sufficient mental distance to process the more substantial  thoughts and all of their interactions.</p>
+<h1 id="telegram-has-the-public-group-chat-market-cornered">Telegram has the public group chat market cornered</h1>
+<p>For private messaging, I have a <a href="/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">strong preference for Signal</a>, especially over WhatsApp.</p>
+<p>Besides the dubious future of WhatsApp’s privacy (Founder #1 Jan Koum is planning to leave while Founder #2 Brian Acton recently donated 50 million dollars to Signal), the WhatsApp web-app is more irritation than it’s worth. The fact that I have to keep my phone awake and connected to the network is a silly constraint which even the far more secure Signal desktop app does not require.</p>
+<p>Anyways, I digress.</p>
+<p>This section is about <a href="https://telegram.org/">Telegram</a>, another messaging app with dubious security that at least does not belong to Facebook.</p>
+<p>Besides all of its stickers, animated gifs, and (non-)useful bots everywhere, Telegram has two additional features which are quiet compelling:</p>
+<p>Although it requires a telephone number to be setup, you can configure a username which you can give out to people instead of your telephone number to have them contact you. This adds an extra layer of privacy which is sometimes useful.</p>
+<p>More interestingly, Telegram has the concept of “supergroups”. These are public groups which can be joined by anyone if they have the name, and <a href="https://telegram.org/blog/admin-revolution">support up to 10000 (yes ten thousand) users</a>.</p>
+<p>This is ideal for easily starting special interest groups, and can be seen as a modern and mobile-first form of IRC. The mobile apps are generally really fast and full featured.</p>
+<p>Anyways, on a lark we created one such group, called <a href="https://t.me/zatechlight">ZA Tech Light</a>, for tech people (aka nerds) in ZA. If you are such a person, or you just like chatting with nerds in ZA, feel free to <a href="https://t.me/zatechlight">drop in at @zatechlight</a>. Although primarily lark-based, this could be seen as a sort of splinter group of the much larger (because older) Slack group called <a href="https://zatech.slack.com/">ZA Tech</a>.</p>
+<h1 id="running-update">Running update</h1>
+<p>Yesterday, I did my second 10km+ run in the <a href="https://cpbotha.net/2018/04/08/weekly-head-voices-139-luna/">Lunas</a>, bringing total sandal running distance to 107km.</p>
+<p>I am now back up to my pre-sandal standard running route distance.</p>
+<p>That being said, my calf muscles are still complaining quite loudly after every run. The recovery perioud seems to be shortening however, and the calf muscle complaints are less convincing every time.</p>
+<p>All of THAT being said, running barefoot- aka primitive-style feels amazing, so much so that although one does keep an eye on things, one does not perceive the above-mentioned muscle discomfort as an issue at all.</p>
+<p>Furthermore, the patella strap I previously had to wear during running, to prevent knee pain, has been lying in my cupboard, unused for the past 107km.</p>
+<h1 id="the-side-project-dilemma">The side-project dilemma</h1>
+<p>Most nerds I know have side-projects.</p>
+<p>It’s how we learn new things and keep ourselves constructively entertained.</p>
+<p>Up to now, I’ve usually chosen my side-projects not only on the basis of learning, but also based on their business potential. Some of them have indirectly led to revenue, partially through the business-relevance check, but so far never directly. That is, I’ve never brought a side-project to market.</p>
+<p>This weekend I had an idea for a pretty obscure side-project. In terms of creativity and learning, and of passion and brain-fit, it scores highly, but in terms of direct business potential quite the opposite.</p>
+<p>I’m probably at least going to start, because it’s too much fun not to.</p>
+<p>What is your approach in situations like this? Do side-projects have to satisfy any kind of utility requirement? Which criteria do you use to select your next side-project?</p>
+<h1 id="bhayi-bhayi">Bhayi bhayi</h1>
+<p>Thanks for reading this far peeps! I hope you have a beautiful week, and that we might meet again at the end.</p>
+]]></content:encoded></item></channel></rss>

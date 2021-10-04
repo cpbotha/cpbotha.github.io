@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>passion on voices in my head</title><link>https://cpbotha.net/tags/passion/</link><description>Recent content in passion on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 20 Aug 2021 09:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/passion/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #230: Follow your blisters</title><link>https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/</link><pubDate>Fri, 20 Aug 2021 09:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/</guid><description><![CDATA[ Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &ldquo;I just did a photography course and now I have to make photos like this&rdquo; (I didn&rsquo;t and I don&rsquo;t). My friends have assured me that it does not look like that (too much).]]></description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="van_breda_cottage_angles.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&amp;rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &amp;ldquo;I just did a photography course and now I have to make photos like this&amp;rdquo; (I didn&amp;rsquo;t and I don&amp;rsquo;t). My friends have assured me that it does not look like that (too much)."/> </a><figcaption>
+            <p>Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &ldquo;I just did a photography course and now I have to make photos like this&rdquo; (I didn&rsquo;t and I don&rsquo;t). My friends have assured me that it does not look like that (too much).</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV covers the three weeks from Monday July 26 to Sunday August 15.</p>
+<h2 id="why-i-don-t-like-dark-mode-anymore">Why I don&rsquo;t like dark mode anymore</h2>
+<p>As you might know, I spent most of my working (and sometimes hobby, we&rsquo;ll get
+back to that further down) hours in front of this screen or some other screen.</p>
+<p>Up to now, I was really convinced that I preferred dark mode everywhere, until
+recently two events transpired:</p>
+<p>I started noticing more eye-strain than usual, even on my 27&quot; screen, something
+which had a perceptible effect on my productivity. This I resignedly ascribed
+to my advancing age, although I did find the suddenness quite surprising,
+especially since I recently had my glasses updated.</p>
+<p>Then, after years with only the admittedly brilliant <a href="https://github.com/bbatsov/zenburn-emacs">zenburn</a> and <a href="https://github.com/fniessen/emacs-leuven-theme">Leuven (dark)</a>
+Emacs themes checking all of the boxes for me, I finally ran into a really
+interesting and usable theme called <a href="https://github.com/kunalb/poet">Poet</a>.</p>
+<p>It&rsquo;s interesting, because it uses variable pitched fonts for everything but
+code, tables and elements of the fixed width domain, where most Emacs fonts
+stick to the traditional all-fixed-width approach.</p>
+<p>It looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="20210822-poet-theme-screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>You can probably understand that for someone who uses Emacs almost primarily
+for technical notes and other writing, this book-like appearance could work
+really well.</p>
+<p>The theme was even more interesting for me personally, as it suddenly became
+clear as day that I experienced almost no eye-strain when using Emacs with this
+lighter theme than when I used any of my other usually dark-themed tools!</p>
+<p>It became obvious that poet-theme&rsquo;s lighter background was much easier on my
+eyes than dark mode in vscode. (No, this specific advantage can&rsquo;t be ascribed
+to Emacs itself I&rsquo;m afraid.)</p>
+<p>Reading pages such as <a href="https://www.allaboutvision.com/digital-eye-strain/is-dark-mode-better-for-eyes/">this</a> explains that dark mode leads to pupils having to
+dilate more to let in more light, which there is less of with dark themes.</p>
+<p>This leads to, just like with cameras and any other optics with lenses and
+apertures, a shortened depth of field, and hence more difficulty focusing on
+the screen!</p>
+<p><a href="https://www.nngroup.com/articles/dark-mode/">This article by the well-known Nielsen Norman Group</a> nicely summarises research
+on this topic. In short:</p>
+<blockquote>
+<p>In people with normal vision (or corrected-to-normal vision), visual
+performance tends to be better with light mode, whereas some people with
+cataract and related disorders may perform better with dark mode.</p>
+</blockquote>
+<p>Up until recently, I did not experience a qualitative difference in vision
+between dark and light, but I sit here relieved that my eye-strain issue has
+been resolved by an Emacs theme!</p>
+<h2 id="know-how-to-put-down-your-work">Know how to put down your work</h2>
+<p>The following take from <a href="https://twitter.com/brandsrock/status/1426163442256330753">a recent tweet by mike joubert</a> struck me
+(tweet-take-strike! words are funny&hellip;):</p>
+<blockquote>
+<p>The truly valuable skill isn&rsquo;t the capacity to push yourself harder, but to
+stop and recuperate despite the discomfort of knowing that work remains
+unfinished, emails unanswered, other people&rsquo;s demands unfulfilled.</p>
+</blockquote>
+<p>The <a href="https://www.oliverburkeman.com/fourhours">article, titled <em>The three-or-four-hours rule for getting creative work
+done</em></a>, is itself a good read about the observation that creative types (amongst
+which I count engineers) have at their best three to four hours of focus time
+per day &mdash; so it is crucially important that their days are structured such
+that there is an <strong>uninterrupted</strong> block of three to four hours inside of which
+that lovely focus has the possibility of appearing.</p>
+<p>The tweet-extract focuses on the similarly important but more subtle art of
+being able to put one&rsquo;s work down, completely, when that block of time is over,
+even when it feels like the work is far from complete.</p>
+<p>I especially like that it also explicitly mentions the illusions created by
+one&rsquo;s perception of &ldquo;other people&rsquo;s demands&rdquo;, something that ironically becomes
+even harder to walk away from when one is more tired at the end of the work
+day.</p>
+<p>For me, becoming better at putting work down has pleasant echoes of running
+slower to run faster, of emptiness in art and more broadly, <a href="https://zenhabits.net/work-less/">choosing fewer f*cks
+to give</a>.</p>
+<h2 id="follow-your-blisters">Follow your blisters</h2>
+<p>On the topic of choosing your ducks&hellip;</p>
+<p>I initially did not like <a href="https://hbr.org/2020/11/what-you-should-follow-instead-of-your-passion">this HBR</a> post when it first crossed my stream, because
+it smacks a bit too much of the current social media style of &ldquo;wisdom&rdquo;, namely
+&ldquo;everything you need to know in 280 characters&rdquo;, or &ldquo;this 1 minute tiktok video
+will change your life&rdquo;.</p>
+<p>As if that was not enough, the title is pretty clickbaity: <em>What You Should
+Follow Instead of Your Passion</em>.</p>
+<p>However, the core message of the post, which I could not help reading, did
+stick with me, and after a few days I realised that I would have to go find the
+article again in order to talk about it here.</p>
+<p>The core message is to replace <em>find your passion</em> with <strong><em>Find your blisters.</em></strong></p>
+<p>The author&rsquo;s point is that folks often get the wrong idea with <em>passion</em> as
+something that is simply always delightful, whilst the thing you should
+actually be looking for, is that activity that you simply are unable to stop
+doing, even when you try, and especially even when you don&rsquo;t directly derive
+pleasure from it, for example because you feel that you&rsquo;re not that good at it.</p>
+<p>They give the personal example of writing.</p>
+<p>Although they&rsquo;ve been at it for years, it&rsquo;s still a difficult and laborious
+process, and they are often not happy with the results.</p>
+<p>However, they have been unable to stop from returning to writing projects again
+and again over the years.</p>
+<p>Ironically, even although they find that they are still bad at it, they have in
+fact become really good, simply because they have been pushing through and
+practising more than almost anyone else over the years.</p>
+<p>I really like this down-to-earth view.</p>
+<p>One can indeed source almost unlimited amounts of energy from one&rsquo;s &ldquo;blisters&rdquo;,
+but true benefits will for a large part be brought about by a <a href="/tags/practice/">lifetime of often
+challenging practice</a>.</p>
+
+
+
+
+
+
+
+
+<figure><a href="flowers_everywhere.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: A scene from our incredibly fortunately timed (thanks partner!) &amp;ldquo;blommetjieskyk&amp;rdquo; trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo."/> </a><figcaption>
+            <p>Figure 2: A scene from our incredibly fortunately timed (thanks partner!) &ldquo;blommetjieskyk&rdquo; trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item><item><title>Workin’ 9 to 5? [Weekly Head Voices #28]</title><link>https://cpbotha.net/2010/08/08/workin-9-to-5-weekly-head-voices-28/</link><pubDate>Sun, 08 Aug 2010 11:57:53 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/08/08/workin-9-to-5-weekly-head-voices-28/</guid><description> (This post touches on one noteworthy good news tidbit from my last week, then secretly waxes nostalgic over Dolly Parton, showcases some cheeky parkour and then, after complaining about my overloaded schedule, raises backyard sociological questions as to the most suitable work approach: Time-driven 9 to 5 or output-driven? Oh yes, its WHV Nerd Index is a reassuring 0/5, so it’s safe for everyone!)
+I couldn’t come up with a catchy title involving Dolly, so you’re going to have to make do with what I have.</description><content:encoded><![CDATA[ <p><em>(This post touches on one noteworthy good news tidbit from my last week, then secretly waxes nostalgic over Dolly Parton, showcases some cheeky parkour and then, after complaining about my overloaded schedule, raises backyard sociological questions as to the most suitable work approach: Time-driven 9 to 5 or output-driven? Oh yes, its WHV Nerd Index is a reassuring 0/5, so it’s safe for everyone!)</em></p>
+<p>I couldn’t come up with a catchy title involving Dolly, so you’re going to have to make do with what I have.  When I say Dolly, I’m not referring to the cloned sheep, but to her Country singer namesake Dolly Parton.  Google seems to think that Dolly Parton (3 million hits) is more famous than Dolly the cloned sheep (1.25 million hits), so now you know. In any case, Dolly (Parton, for those of you with really short attention spans) once starred in a movie called <a href="http://www.imdb.com/title/tt0080319/" title="Link to IMDB page on Nine to Five">Nine to Five</a> and, being a famous Country singer, also performed the theme song, called, in a completely unexpected turn of events, <a href="http://www.dollyon-line.com/archives/lyrics/9to5.shtml" title="9 to 5 lyrics on Dolly's site.">9 to 5</a>. And yes, I do remember seeing the movie more or less when it came out, and I <em>vividly</em> remember Dolly Parton: She was on our television a whole lot, plus that her unique appearance would make it hard not to.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/08/nine-to-five.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/08/nine-to-five.jpg"
+        
+            alt="Dolly Parton with Lily Tomlin and Jane Fonda at the left and right respectively: The leading Nine to Five cast. Those were the days!"/> </a><figcaption>
+            <p>Dolly Parton with Lily Tomlin and Jane Fonda at the left and right respectively: The leading Nine to Five cast. Those were the days!</p>
+        </figcaption>
+</figure>
+</p>
+<p>Perhaps as a kind of unicorn chaser, or, if you’re secretly a Parton fan, just as an entertaining interlude, I’d like to show you this wonderful YouTube clip of two British parkour gentlemen, who obviously have a great deal of pleasure in their chosen careers:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/voB6WiP83NU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>On the good news front, our Articulated Planar Reformation (APR: remember it, use it, spread it) paper will be presented at IEEE Visualization 2010 in Salt Lake City, Utah!  The citation is as follows:</p>
+<blockquote>
+<p>﻿P. Kok, M. Baiker, E.A. Hendriks, F.H. Post, J. Dijkstra, C.W. Löwik, B.P. Lelieveldt, and C.P. Botha, <a href="http://graphics.tudelft.nl/Publications/Kok2010" title="Link to APR paper">“Articulated Planar Reformation for Change Visualization in Small Animal Imaging,”</a> <em>IEEE Transactions on Visualization and Computer Graphics</em>, 2010.</p>
+</blockquote>
+<p>It’s called a citation, because you should cite it. Often. :)</p>
+<p>On the being-busy front, I, Captain Obvious, have recently realised that the reason I’m so busy at the moment, probably has to do with the fact that I have perhaps a few too many projects on my list! Looming and very serious deadlines are August 16,  August 27, August 30, September 15, September 16 and October 2.  These include papers and research proposals as well as the development and running of completely new undergrad and postgrad courses. Continuously feeling like a mole that has been tasked with digging a multi-lane highway through a mountain-range, I have been spending some time (not much, don’t worry) thinking about my method of working.  Once again, the most significant optimisation I could employ was minimising interruptions (facebook, twitter, email, damn email!!) and maximising periods of concentrated work. One measure that really helps is using an <a href="http://en.wikipedia.org/wiki/Egg_timer" title="wikipedia on the egg timer">egg timer</a>, real or virtual. Whilst the egg timer is counting down, you’re not allowed to touch or think about anything else besides the activity you’ve set for those 30 to 45 minutes. Once the timer goes, you have to spend 5 to 10 minutes goofing off, preferably away from the computer. If you sometimes wake up in a daze and notice that you’ve been facebooking away through the pre-lunch half-hour (20 new friends! yay! who are these people?!), the egg timer is for you!</p>
+<p>This leads nicely to our final bit of backyard sociology, an issue that recently came up in discussions with my SO, TNR and TPN (see <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">here</a> for abbreviations): <em>Which do you find the most suitable work approach, time-driven or output-driven?</em></p>
+<p>In the <strong>time-driven</strong> approach, one goes to and leaves work at agreed-upon times, performing work up to some agreed-upon standard. However, when the day or the week ends, work really does too. One leaves the office, and, besides the normal mental after-effects, there is no expectation that one is going to spend time doing more work. In the <strong>output-driven</strong> approach, there is much less (or no) expectation as to the hours one will spend working.  In fact, in many cases, one is allowed to plan one’s work day as one pleases, even integrating brief stints at the beach if one’s schedule of meetings and other required physical presence so allows. However, one’s work output is measured, in terms of cases handled, papers written, students supervised, products delivered, and so forth. Even in cases where one has not taken any liberties, this often leads to work in the evenings and on the weekends.</p>
+<p>Where I work, output-driven is the norm amongst the research staff members. It sounds like a really good deal, as one could in theory do all kinds of neat things in what is normally considered to be work-time.  In practice however, meetings, deadlines and achievement pressure all conspire to complicate capitalising on the perceived perks. In the end, days are full and evenings and weekends too. Mostly this is fine, as the type of work I do mostly overlaps with what I would consider my hobbies in any case and I can get all passionate about most of the projects I’m involved in. Also, the freedom can be exhilarating. Sometimes, however, I wonder what it would be like to leave the office on Friday and <em>completely switch off the work part of my brain</em>. Sometimes I wonder what it’s like to spend a whole weekend thinking exclusively thoughts that have to do with family, friends and sun. Perhaps it’s got nothing to do with my job, and everything with my brain.</p>
+<p>What do you think, time-driven or output-driven? Start-up people, what do you think about being able to switch off? Time-driven fans, care to chime in? You can let it all hang out in the comments!</p>
+]]></content:encoded></item></channel></rss>

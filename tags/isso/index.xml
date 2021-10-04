@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>isso on voices in my head</title><link>https://cpbotha.net/tags/isso/</link><description>Recent content in isso on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 10 Nov 2019 16:28:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/isso/index.xml" rel="self" type="application/rss+xml"/><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description> As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
+TL;DR: Comments on this blog are now managed by self-hosted, open-source isso that I control. Commenting should be much faster and more fun, so have at it!
+Why I recommend strongly against Disqus. You might recall, or you could just check the relevant blog post, that I ported all comments from wordpress to disqus (grrr&amp;hellip;) in March of this year, when I upgraded to the Hugo static site generator.</description><content:encoded><![CDATA[ <p>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+
+of the comments on this site to isso, an open-source self-hosted commenting
+system.</p>
+<p>TL;DR: Comments on this blog are now managed by self-hosted, open-source isso
+that I control. Commenting should be much faster and more fun, so have at it!</p>
+<h2 id="why-i-recommend-strongly-against-disqus">Why I recommend strongly against Disqus.</h2>
+<p>You might recall, or you could just check <a href="/2019/03/31/wordpress-to-hugo/#transfer-comments-to-disqus">the relevant blog
+post</a>, that I
+ported all comments from wordpress to disqus (grrr&hellip;) in March of this year,
+when I upgraded to the Hugo static site generator.</p>
+<p>At that point, I had already poured quite some time into the Hugo migration,
+and so I thought that trying out Disqus for a while, on a personal site without
+any ads whatsoever, couldn&rsquo;t hurt.</p>
+<p>I could always at a later stage simply export my comments from there, right?</p>
+<p>Wrong.</p>
+<p>I triggered the built-in export-functionality in the Disqus admin interface.</p>
+<p>The site then shows a message that it will email you when the export is ready.</p>
+<p>Well, it&rsquo;s now 24 hours later and that email never came&hellip;</p>
+<p>(I retried at least 3 times. I even <a href="https://twitter.com/cvoxel/status/1193181451002482690">tweeted at
+them</a>, because there&rsquo;s
+no other way to contact support.)</p>
+<p>When you read the fineprint on <a href="https://help.disqus.com/en/articles/1717199-importing-exporting#exporting-from-disqus">the relevant help
+page</a>,
+you see the following (emphasis mine):</p>
+<blockquote>
+<p>Please note: exports <strong>may not be available for all sites</strong>, particularly
+those of a large size. If you&rsquo;ve requested an export file more than twice and
+still have not received a download link from us, it&rsquo;s likely that an export
+for your site is <strong>currently unavailable</strong>.</p>
+</blockquote>
+<p>So that&rsquo;s pretty reassuring! You <em>might</em> get an export. It depends&hellip; Whatever
+the case may be, you <em>won&rsquo;t</em> get any sort of feedback however.</p>
+<p>I guess this is an issue with any hosted solution.</p>
+<p>However, one would expect from any such service that advertises the possibility
+to export one&rsquo;s <em>own data</em>, even on the free tier, that one is in fact
+<em>allowed</em> to export one&rsquo;s own data.</p>
+<p>NOT IN DISQUS WORLD!</p>
+<p>Anyways, I was not going to let this highly disappointing performance stop my
+migration efforts.</p>
+<h2 id="enter-isso">Enter isso!</h2>
+<p>After discovering that the open-source self-hosted <a href="https://gitlab.com/commento/commento">commento
+software</a> requires at least Postgres 9.5
+but webfaction (my webhoster for years and years now, unfortunately our ways
+will probably have to part thanks to the godaddy acquisition) is stuck at
+Postgres 9.4, I decided to configure isso, the same <a href="https://vxlabs.com/2019/04/06/isso-on-webfaction/">commenting system I have
+running on vxlabs</a>.</p>
+<h3 id="new-feature-auto-approve-previously-approved-authors">New feature: Auto-approve previously approved authors.</h3>
+<p>However, to make it a little more interesting, I decided to implement an
+auto-moderation feature in isso that I used to use in all my wordpress
+installations:</p>
+<p><em>Auto-approve authors who have had comments approved in the past N months</em>.</p>
+<p>Long story short, you can find my work in <a href="https://github.com/cpbotha/isso/commits/cpbotha-auto-moderate-known-authors">this github fork of
+isso</a>.</p>
+<p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
+<p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
+the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#859900">[moderation]</span>
+<span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
+<span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+</code></pre></div><p>When someone leaves a comment, and their email address has had a comment
+approved within the last 6 months, the new comment will be automatically
+activated.</p>
+<p>The advantage of this feature is that comment-conversations can happen much
+more fluidly, without me having to approve each and every comment that comes
+in.</p>
+<h3 id="migrating-comments-in-spite-of-disqus">Migrating comments in spite of Disqus.</h3>
+<p>In NormalWorld, I would have exported an XML from Disqus, and just imported
+that into isso using the built-in functionality.</p>
+<p>However, in DisqusWorld, the user has to suffer.</p>
+<p>Fortunately I could import the bulk of the old comments (up to March of this
+year) using the old Wordpress site export and isso&rsquo;s great import function.</p>
+<p>For the remaining 25 comments, I manually copied each and every one of them,
+along with author name, email (if I knew it) and exact date, and then inserted
+them manually into the isso sqlite database, using the amazing
+<a href="https://sqlitebrowser.org/">sqlitebrowser</a>.</p>
+<p>I discovered three possibly useful facts:</p>
+<ul>
+<li>If the <code>parent</code> column in a <code>comment</code> record is not set explicitly to <code>NULL</code>
+in the case of no parent, the comment does not show up.</li>
+<li>Isso supports only one level of nesting in the database. This means the
+<code>parent</code> column has to point to a root, i.e. parent-less, comment.</li>
+<li>Isso stores timestamps as seconds since epoch. You can use the following SQL
+to convert a timestring to seconds since epoch:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
+</code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<p>That is how much I love this blog and its people. :D</p>
+<h2 id="conclusions">Conclusions.</h2>
+<p>I am happy that all of your comments are now self-hosted on this server using
+open-source software that I have a good grasp of.</p>
+<p>I am happy that your valuable thoughts are backed up each and every night.</p>
+<p>You should also notice that pages load much faster (disqus is quite slow).</p>
+<p>(Also: MARKDOWN!)</p>
+<p>Ok folks, I hope this further diminishes any barriers that there might have
+been to you leaving us a message now and then!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #168: Postcards from the edge.</title><link>https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/</link><pubDate>Mon, 08 Apr 2019 22:43:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/</guid><description><![CDATA[ Sometimes it feels like the place is falling apart, and sometimes you find yourself in a heavenly corner like this. Postcard Café, Jonkershoek, Stellenbosch.    My friend showed me a photo and said &ldquo;Here&rsquo;s a picture of me when I was younger&rdquo;. Every picture is of you when you were younger. &ndash; Mitch Hedberg (RIP)
+ In this edition of the WHV, I cast my now older eyes back on the week starting on Monday, April 1 and ending on Sunday, April 7, 2019.]]></description><content:encoded><![CDATA[ <figure>
+<a href="postcard_cafe_view.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/postcard_cafe_view_hu03250394b5533205db249a2d1d0cc394_2490609_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/postcard_cafe_view_hu03250394b5533205db249a2d1d0cc394_2490609_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/postcard_cafe_view_hu03250394b5533205db249a2d1d0cc394_2490609_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/postcard_cafe_view_hu03250394b5533205db249a2d1d0cc394_2490609_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/postcard_cafe_view_hu03250394b5533205db249a2d1d0cc394_2490609_800x0_resize_q75_box.jpg"
+  
+
+  alt='photo taken at postcard cafe' />
+
+
+
+</a>
+<figcaption> 
+Sometimes it feels like the place is falling apart, and sometimes
+you find yourself in a heavenly corner like this. Postcard Café, Jonkershoek,
+Stellenbosch.
+</figcaption>
+</figure>
+<blockquote>
+<p>My friend showed me a photo and said &ldquo;Here&rsquo;s a picture of me when I was
+younger&rdquo;. Every picture is of you when you were younger.
+&ndash; Mitch Hedberg (RIP)</p>
+</blockquote>
+<p>In this edition of the WHV, I cast my now older eyes back on the week starting
+on Monday, April 1 and ending on Sunday, April 7, 2019.</p>
+<p>I have to apologise for the extremely high nerd content. There will be wine at
+the end to make up for it!</p>
+<h2 id="working-late-like-its-1998">Working late like it&rsquo;s 1998.</h2>
+<p>At the start of the week, I had resolved to get more sleep.</p>
+<p>It seems that when I have a good night&rsquo;s sleep, really working that
+<a href="https://en.wikipedia.org/wiki/Glymphatic_system">glymphatic system</a> (I&rsquo;m
+currently fascinated by the glymphatic system, I hope you like it too),
+amongst other nightly repair activities, there is a greater probability that I
+am able to hold my focus the next day.</p>
+<p>This was going swimmingly.</p>
+<p>At least that was the case until Wednesday, when I decided that the time had
+come to port <a href="https://vxlabs.com/">vxlabs</a>, the far more nerdy sister of this
+blog, from <a href="https://cpbotha.net/2019/03/31/wordpress-to-hugo/">wordpress to hugo as
+well</a>.</p>
+<p>One thing led to another, and by 1:00AM (on a school night no less!) I was
+busy wrapping up the isso commenting system configuration.</p>
+<p>(We&rsquo;re able to use free and ad-free disqus over here because this is a
+personal blog. vxlabs on the other hand is strictly speaking a commercial
+site, even although it&rsquo;s filled with non-commercial blog posts.)</p>
+<p>One of the many funny things about being a nerd, is that it&rsquo;s almost
+impossible to go to bed before a technical thing like this has been
+convincingly put to bed.</p>
+<p>Fortunately this late night indiscretion yielded a working self-hosted
+commenting system, and, far more importantly, a <a href="/2019/04/06/isso-on-webfaction/">rather attractively styled
+post, thanks to the Hugo-port, detailing the whole
+installation</a>.</p>
+<p>In entirely predictable fashion, the next day was not the best focus-wise.</p>
+<p>P.S. 1998 - first postgrad year in the DSP lab. All-nighters all the way down&hellip;</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/dsp_lab_photo4_hu9ee58e4bdba0ae214d7d56f78a627136_96292_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/dsp_lab_photo4_hu9ee58e4bdba0ae214d7d56f78a627136_96292_800x0_resize_q75_box.jpg 800w
+  
+  
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/08/weekly-head-voices-168-postcards-from-the-edge/dsp_lab_photo4_hu9ee58e4bdba0ae214d7d56f78a627136_96292_800x0_resize_q75_box.jpg"
+  
+
+  alt='photo taken at postcard cafe' />
+
+
+
+<figcaption>DSP lab, somewhen between 97 - 99.</figcaption>
+</figure>
+<h2 id="nim-surprise">nim-surprise.</h2>
+<p>I chose Isso because it&rsquo;s Python.</p>
+<p>DayJob(tm) is all about Python, so this was a great choice in terms of time
+savings.</p>
+<p>With all of the time I had saved, I decided that I would experiment with
+re-implementing parts of Isso in <a href="https://fsharp.org/">f#</a>, my current hobby
+functional language.</p>
+<p>Setting aside the irony here, I learned after some time that getting f#, the
+impressive looking <a href="https://fsprojects.github.io/SQLProvider/">SQLProvider</a> and
+sqlite (isso&rsquo;s database) all working together on Linux was <a href="https://www.reddit.com/r/fsharp/comments/8ufvzz/how_can_i_add_sqlprovider_to_my_existing_project/e1idy1o/">&ldquo;probably the
+single most complicated thing that you can do with a F# project, when it comes
+to
+tooling&rdquo;</a>.</p>
+<p>In this case, I was thankfully able to switch gears and did a brief review of
+possible candidates for a functional(ish), memory efficient, fast(ish)
+compilation languages that could be used to implement an Isso web-service
+replacement.</p>
+<p>Somehow I ended up with <a href="https://nim-lang.org/">nim</a>.</p>
+<p>This has been on my radar for a while now, but there were always shinier
+things to try.</p>
+<p>I think what might have put me off was the similarity to Python.</p>
+<p>So, with the rest of the time I had saved choosing Isso, I got up to
+speed(ish) with nim by starting to implement a replacement for parts of the
+isso commenting system.</p>
+<p>I was quite positively surprised by the following:</p>
+<ul>
+<li>Compilation speed: The nim compiler transforms my webservice code into C and
+then compiles that in about 1.2 seconds.</li>
+<li>Performance and memory size of resultant binary: This is not a fair
+comparison to Python, but the multi-threaded nim service consumes a few
+megabytes in total.</li>
+<li>Availability of packages especially for building a web service like this:
+Using the nimble package manager, I could install
+<a href="https://github.com/dom96/jester">jester</a> and had my first running
+web-service in a few minutes.</li>
+<li>Built-in sqlite support.</li>
+<li>Real macros: I used the list comprehension one in the <code>sugar</code> module.</li>
+</ul>
+<p>This was really just an exercise (for now), but I have a new tool for whenever
+I need to write a fast and compact compiled web-service again!</p>
+<p>P.S. Learning new programming languages is one of my favourite things.</p>
+<p>P.P.S. Thanks to the internet and open source, and especially tools like
+github, we are currently going through a sort of programming language Cambrian
+explosion. See this <a href="http://fll.presidentbeef.com/">Fledgling Languages List</a>
+for example. Pony!</p>
+<h2 id="decompression">Decompression.</h2>
+<p>On Sunday, we made the drive out to Jonkershoek in Stellenbosch.</p>
+<p>Even although it&rsquo;s only 40 minutes away, I haven&rsquo;t been there in far too
+long. It&rsquo;s a truly beautiful corner of the planet.</p>
+<p>At the Postcard Café, after some internal deliberation, I made the decision
+that the moment was special enough to interrupt LAZ
+(lifestyle-alcohol-zero(tm)) with an all the more special glass of the
+<a href="https://winemag.co.za/stark-conde-the-field-blend-2014/">Stark-Condé Field Blend white
+wine</a>.</p>
+<p>This is a hyper-local blend of Chenin Blanc, Rousanne, Verdelho and Viognier,
+all four varietals which grow on the mountain-side right across from the
+Café&rsquo;s veranda.</p>
+<p>It really was divine.</p>
+]]></content:encoded></item></channel></rss>

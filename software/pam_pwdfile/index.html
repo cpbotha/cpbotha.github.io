@@ -1,0 +1,110 @@
+<!doctype html><html>
+<head>
+<title>pam_pwdfile // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="pam_pwdfile">
+<meta property="og:description" content="Timo Weingärtner has graciously offered to take over the maintenance of pam_pwdfile. Its development will henceforth be hosted at https://github.com/tiwe-de/libpam-pwdfile.
+Old page contents follows PAM, or pluggable authentication modules, is a very effective method by which applications can abstract the way that they authenticate and authorize users. Using PAM for example, a whole system can be switched from normal /etc/passwd to shadow passwords without recompiling a single binary, as was the case with older *ix systems.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/software/pam_pwdfile/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>pam_pwdfile</h1>
+</header>
+<div class=article-meta>
+<a href=/software/pam_pwdfile/ class=article-date>
+<time datetime=2007-04-10T22:13:40.000+00:00 itemprop=datePublished>2007-04-10</time>
+</a>
+<div class=article-comment-link-wrap>
+<a href=/software/pam_pwdfile/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>Timo Weingärtner has graciously offered to take over the maintenance of pam_pwdfile. Its development will henceforth be hosted at <a href=https://github.com/tiwe-de/libpam-pwdfile title="pam-pwdfile github">https://github.com/tiwe-de/libpam-pwdfile</a>.</p>
+<h1 id=old-page-contents-follows>Old page contents follows</h1>
+<p>PAM, or pluggable authentication modules, is a very effective method by which applications can abstract the way that they authenticate and authorize users. Using PAM for example, a whole system can be switched from normal /etc/passwd to shadow passwords without recompiling a single binary, as was the case with older *ix systems. Linux being my OS of choice, I have had most contact with Linux-PAM, as maintained by Andrew Morgan. Please see the Linux PAM pages at <a href=http://www.us.kernel.org/pub/linux/libs/pam/>http://www.us.kernel.org/pub/linux/libs/pam/</a>.</p>
+<p>We required a Linux PAM module for authenticating using arbitrary password files containing username:crypted_password pairs, and this was not yet available for Linux PAM. As is the way with nicely open operating systems, I was able to put one together quickly, and you can get the source here. Since then, patches for extending functionality have also been contributed and integrated with pam_pwdfile. You can use this module to have different sets of passwords for each of the PAM-based services on your systems.</p>
+<p>This module is available as part of Debian, where it is known as <a href=http://packages.debian.org/unstable/admin/libpam-pwdfile.html>libpam-pwdfile</a>{.external}. It also exists in the FreeBSD ports collection.</p>
+<p>Warwick Duncan has written a very useful utility (command-line and CGI) to manage password files that can be used by pam_pwdfile. You can read all about chpwdfile and download it from the <a href=http://eclipse.che.uct.ac.za/chpwdfile/>chpwdfile homepage</a>{.external}! (Hmmm, it seems that the chpwdfile site has dropped off the edge of the internet. I’ve mirrored the source tarball of chpwdfile <a href=http://cpbotha.net/files/mirror/chpwdfile-0.24.tar.gz>here</a>{.external}. Remember that you can also use the apache htpasswd utility to manage your password files from the command line.)</p>
+</div>
+<div class=article-toc>
+<h3>Contents</h3>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#old-page-contents-follows>Old page contents follows</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<nav id=article-nav>
+<a href=/2007/04/17/im-sorry-dave-im-afraid-i-cant-do-that/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+I’m sorry Dave, I’m afraid I can’t do that
+</div>
+</a>
+<a href=/software/dri_resume/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>dri_resume&nbsp;<span>></span></div>
+</a>
+</nav>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title=pam_pwdfile id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

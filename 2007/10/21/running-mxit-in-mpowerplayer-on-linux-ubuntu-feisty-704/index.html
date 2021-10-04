@@ -1,0 +1,107 @@
+<!doctype html><html>
+<head>
+<title>Running mxit in mpowerplayer on Linux (Ubuntu 7.04) // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Running mxit in mpowerplayer on Linux (Ubuntu 7.04)">
+<meta property="og:description" content="I’m peppering this with enough keywords so that other idiots will be able to find this easily. MXit is a mobile-phone based chat system that’s very popular in South Africa (Rugby World Cup champions 2007, thank you very much; want to wine about Cueto’s “try”, then first click here). It is possible to run the MXit Java midlet on a J2ME emulator (am I saying this right?) such as mpowerplayer or microemulator.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2007/10/21/running-mxit-in-mpowerplayer-on-linux-ubuntu-feisty-704/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Running mxit in mpowerplayer on Linux (Ubuntu 7.04)</h1>
+</header>
+<div class=article-meta>
+<a href=/2007/10/21/running-mxit-in-mpowerplayer-on-linux-ubuntu-feisty-704/ class=article-date>
+<time datetime=2007-10-21T08:41:03.000+00:00 itemprop=datePublished>2007-10-21</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2007/10/21/running-mxit-in-mpowerplayer-on-linux-ubuntu-feisty-704/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>I’m peppering this with enough keywords so that other idiots will be able to find this easily. <a href=http://www.mxit.co.za/ title="Link to the MXit website.">MXit</a> is a mobile-phone based chat system that’s very popular in South Africa (<a href=http://en.wikipedia.org/wiki/2007_Rugby_World_Cup title="Wikipedia article documenting 2007 Rugby World Cup">Rugby World Cup champions 2007</a>, thank you very much; want to wine about Cueto’s “try”, then first click <a href=http://pienkzuit.wordpress.com/2007/10/21/the-proof/ title="No, it was not a try.">here</a>). It is possible to run the MXit Java midlet on a J2ME emulator (am I saying this right?) such as <a href=http://mpowerplayer.com/ title="mpowerplayer website">mpowerplayer</a> or <a href=http://microemu.org/ title="MicroEmulator website">microemulator</a>. Of course this works on Windows, even the average 12 year-old MXit user can successfully follow the many guides available online and then brag about his technical prowess online to his “friends”.</p>
+<p>Obviously, I had to get this working on Ubuntu Feisty Fawn (7.04), you really don’t have to ask why. And obviously, it Just Didn’t Work(TM). MXit, both versions 3.0.5 and 5.2.x, hang forever at “Registering” or “Logging in”. After much swearing and trying The Usual Solutions(TM), I dusted off my <a href=http://www.wireshark.org/ title="WireShark protocol analyzer website">ethereal / wireshark</a>, and also my trusty old tcpdump and set out analysing TCP packet dumps.</p>
+<p>I really hate packet analysis, it’s such a <strong>pleb</strong> thing to do. Oh well, one does one’s best to forget one’s breeding. Temporarily.</p>
+<p>It turns out that if you set the maximum TCP receive buffer to 170K (instead of the default 1M on Feisty), everything starts working again. My current hypothesis is that some of the other auto-tuned TCP parameters than rely on the max receive buffer setting, now better accommodate the small MXit packets. For those of you who still don’t understand what all of this means, run the following as root to get MXit working on Feisty:</p>
+<p><em>echo “4096 87380 174760” > /proc/sys/net/ipv4/tcp_rmem</em></p>
+<p>To make this permanent across boots, check the man page for sysctl.conf or add the line above to your /etc/rc.local.</p>
+<p>Let me know in the comments if this is useful. I optimistically estimate that there has to be at least one (1) other person that will run into this problem. Ever.</p>
+</div>
+</div>
+<nav id=article-nav>
+<a href=/2007/10/29/first-day-of-ieee-visualization-2007/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+First day of IEEE Visualization 2007
+</div>
+</a>
+<a href=/2007/10/13/parallel-python/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Parallel Python&nbsp;<span>></span></div>
+</a>
+</nav>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Running mxit in mpowerplayer on Linux (Ubuntu 7.04)" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

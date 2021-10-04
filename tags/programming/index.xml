@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>programming on voices in my head</title><link>https://cpbotha.net/tags/programming/</link><description>Recent content in programming on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 27 Jul 2021 21:26:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #229: Staycation PERMA-Station</title><link>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</link><pubDate>Tue, 27 Jul 2021 21:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</guid><description> Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)
+This edition of the WHV looks back at the week from Monday July 19 to Sunday July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving of the hallowed title of&amp;hellip; STAYCATION!
+Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at home or close to it.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="bettys_jocks.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)"/> </a><figcaption>
+            <p>Figure 1: A scene from a short but surprisingly balmy weekend in Betty&rsquo;s Bay (In Winter, a large part of Betty&rsquo;s remains permanently in the shadow of the mountain.)</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV looks back at the week from Monday July 19 to Sunday
+July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving
+of the hallowed title of&hellip; <em>STAYCATION!</em></p>
+<p>Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at
+home or close to it.</p>
+<p>We spent time together, took care of hobby- and side-projects, and even had
+time to daydream and come up with some wacky ideas which should probably never
+see the light of day, but which one day just might.</p>
+<h2 id="lazar-focus-1-dot-3-released">Lazar Focus 1.3 released</h2>
+<p>On the evening of Tuesday, July 20, after a flurry of programming and testing,
+<a href="https://lazarfocused.com/2021/07/21/lazar-focus-1.3.0-released-real-time-focus-feedback/">Lazar Focus 1.3 was released</a>.</p>
+<p>Noteworthy is its new ability to measure and give real-time feedback on your
+current focus, as an easy to interpret percentage.</p>
+<p>The more you resist distractions, the higher the focus percentage.</p>
+<p>When developing this feature, I ended up selecting a 5 minute rolling window,
+after I was initially planning a pomodoro length. Five minutes seem to be a
+sort of sweet spot in terms of seeing one&rsquo;s distractions affect one&rsquo;s score,
+but not having it immediately distroyed, so that there&rsquo;s still time to recover.</p>
+<p>I wanted to mention here the interesting disconnect between the programming I
+do for this completely disconnected hobby project in a language (Pascal-ish)
+that I don&rsquo;t particularly prefer but don&rsquo;t mind on the one hand, and my day
+job, for which I sometimes still get to program, on the other.</p>
+<h2 id="perma-the-five-building-blocks-of-well-being">PERMA: The five building blocks of well-being</h2>
+<p>So yeah, there&rsquo;s a pretty interesting disconnect&hellip;</p>
+<p>Writing code for LF, in this case perhaps perhaps noteworthy the real-time
+focus tracking data-structure, namely a run-length encoded series of (no)focus
+time durations that automatically get truncated, lengthened and pruned as time
+progresses, was 100% fun and relaxation.</p>
+<p>This is not the most tricky thing to implement, but the process of first
+cooking it up in my brain, and then later sitting down to implement it, and
+seeing it work, was just challenging enough to result in several periods of
+complete immersion in, or engagement with, the task.</p>
+<p>In <a href="https://www.amazon.com/Flourish-Visionary-Understanding-Happiness-Well-being/dp/1439190763/ref=sr%5F1%5F6?dchild=1&amp;qid=1627409990&amp;refinements=p%5F27%3AMartin+Seligman&amp;s=books&amp;sr=1-6">Martin Seligman&rsquo;s book titled <em>Flourish</em></a>, which I&rsquo;m slowly working through
+at the moment (he is a great and impactful psychologist, but perhaps not the
+world&rsquo;s greatest story teller, sorry Prof Seligman), he explains that human
+<a href="https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops">well-being, or flourishing, consists of five building blocks, namely</a>:</p>
+<ol>
+<li>Positive Emotion: gratitude, savouring the present, hope and optimism,</li>
+<li>Engagement: Lose oneself in a challenging (err) task,</li>
+<li>Relationships: Love and be loved by friends and family,</li>
+<li>Meaning: belonging to and serving some cause greater than oneself and</li>
+<li>Accomplishment: Pursuing achievement and mastery for its own sake.</li>
+</ol>
+<p>My little LF programming exercise was <em>exactly</em> right for triggering a bit of
+item number 2, namely engagement.</p>
+<p>I am happy that I could slip a little PERMA in here on the back of Lazar Focus,
+a little tool that is also proving useful in ways that I did not expect. ;)
+Although the book is not the easiest going, it makes some valuable points if
+you too are a fan of well-being.</p>
+<h2 id="pfizer-jab-1-in-da-pocket">Pfizer jab #1 IN DA POCKET</h2>
+<p>I really loves me some cutting edge science.</p>
+<p>I know that the mRNA vaccines have been in development for decades now, but
+they still represent such an amazing technological flex.</p>
+<p>How fantastic is it that some of our cleverest humans have designed and tested
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html">this vaccine that consists of usually unstable mRNA</a>, to be injected into human
+cells where our the cellular machinery in our bodies will dutifully follow the
+mRNA instructions to frikking synthesise and display a piece of spike protein
+that looks enough like the COVID-19 spike protein so that our immune system
+will notice and immediately start creating antibodies, all without us actually
+getting infected.</p>
+<p>As if that&rsquo;s not enough, the introduced mRNA is broken down ASAP after
+synthesis.</p>
+<p>HOT DAMN we live in the future and it&rsquo;s pretty awesome up here!</p>
+<p>I AM EXCITE</p>
+<p>I am also really happy with the super efficient walk-in vaccination procedure at the Town Hall here in Somerset West.</p>
+<p>I would have been in and out in 30 minutes with Pfizer jab #1 had I not run
+into and started chatting with friends in the side-effect waiting area.</p>
+<p>Kudos to the Western Cape for running this like the Star Trek medical bay.</p>
+<p>Still friends, how strange are the days that we find ourselves in?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #218: Back to the future</title><link>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</link><pubDate>Mon, 29 Mar 2021 21:41:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</guid><description> WELL HELLO DERE FRIENDS!
+Welcome to the Weekly Head Voices #218, looking back at the week from Monday March 22 to Sunday March 28 of the year 2021.
+Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine.
+Two worlds collide! On the one hand I do worry about the number of hours I spent on this, but on the other hand it&amp;rsquo;s one of those time investments that should pay off handsomely over the coming years.</description><content:encoded><![CDATA[ <p>WELL HELLO DERE FRIENDS!</p>
+<p>Welcome to the Weekly Head Voices #218, looking back at the week from Monday
+March 22 to Sunday March 28 of the year 2021.</p>
+
+
+
+
+
+
+
+
+<figure><a href="vergelegen_somewhere.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine."/> </a><figcaption>
+            <p>Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine.</p>
+        </figcaption>
+</figure>
+
+<h2 id="two-worlds-collide">Two worlds collide!</h2>
+<p>On the one hand I do worry about the number of hours I spent on this, but on
+the other hand it&rsquo;s one of those time investments that should pay off
+handsomely over the coming years.</p>
+<p>My dream is that one day we&rsquo;ll have an organizational knowledge management
+system in place that will enable the almost effortless creation, maintenance
+and especially the effective retrieval of relevant documentation.</p>
+<p>Because the organization in question lives in the Microsoft ecosystem, the
+first laborious steps I have been taking were figuring out the various ways of
+getting technical documentation from the hands of engineers all the way into
+the company SharePoint.</p>
+<p>(I hope you can forgive me, Charl of the past&hellip; I do have my reasons.)</p>
+<p>Here I would like to share just one of the many dirty tricks I&rsquo;ve learned so
+far: The easiest way to host a static (Hugo) web site on SharePoint, and hence
+having it fully indexed by Microsoft Search, is simply to dump the whole thing
+into any modern site&rsquo;s <code>Site Assets</code> library, but only after renaming all html
+files to aspx.</p>
+<p>As soon as I can get <a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps">PnP PowerShell</a> to push updates to full sites a bit more
+quickly, I&rsquo;ll hopefully be able to hook it up to <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines">Azure pipelines</a>.</p>
+<p>Engineers write markdown, documentation magically appear on company SharePoint!</p>
+<h2 id="let-s-keep-it-compact">Let&rsquo;s keep it compact</h2>
+<p>On Thursday November 14, 2019 at 17:48 I made a mental note, where by &ldquo;mental&rdquo;
+I mean &ldquo;in my Emacs&rdquo;, to prefer <a href="https://en.wikipedia.org/wiki/Zstandard">Zstandard (or zstd) compression</a> for everything,
+based on a number of posts I had read when I was actually intending to look
+into when xz should be preferred over bz2.</p>
+<p>In the meantime, zstd&rsquo;s compression ratios, along with its multi-threaded
+compression speed and especially its decompression speed, have helped me more
+than once, which is why I&rsquo;m mentioning it here.</p>
+<p>Here&rsquo;s the 2 second guide:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#93a1a1;font-style:italic"># compress using as many threads as there are CPU cores</span>
+tar cf - giant_directory | zstd -T0 -o giant_directory.tar.zst
+<span style="color:#93a1a1;font-style:italic"># decompress REALLY TERRIBLY QUICKLY</span>
+zstd -dc giant_directory.tar.zst | tar x
+</code></pre></div><p>You can even get zstd to train on your type of data in order to build up a
+domain-specific compression dictionary!</p>
+<h2 id="can-type-systems-catch-bugs-science-says-yes">Can type systems catch bugs? Science says yes!</h2>
+<p>Thanks to <a href="https://forum.nim-lang.org/t/7705#48894">this forum post by Araq, the creator of the Nim programming language</a>,
+I read <a href="https://earlbarr.com/publications/typestudy.pdf">this conference paper</a> describing this really neat research project where
+the researchers retroactively type-annotated a random selection of publically
+available bugs in un-typed JavaScript code, and then showed that about 15% of
+of those bugs would have been caught.</p>
+<p>In their words:</p>
+<blockquote>
+<p>Evaluating static type systems against public bugs, which have survived testing
+and review, is conservative: it understates their effectiveness at detecting
+bugs during private development, not to mention their other benefits such as
+facilitating code search/completion and serving as documentation. Despite this
+uneven playing field, our central finding is that both static type systems find
+an important percentage of public bugs: both Flow 0.30 and TypeScript 2.0
+successfully detect 15%!</p>
+</blockquote>
+<p>I found the simple but quite solid experimental methodology in the paper
+delightful, over and above the fact that this is a great one to have in my
+database for arguments about the utility of type systems.</p>
+<p>(This would possibly have made dynamic-type-slinging Charl from the past go red
+in the face.)</p>
+<h2 id="science-doesn-t-give-a-s-t-about-my-beliefs-either">Science doesn&rsquo;t give a s***t about my beliefs either</h2>
+<p>That makes for two (2) points in this short blog post that would have caused
+Charl from the past to get <em>quite</em> unhappy.</p>
+<p>That&rsquo;s science for you folks: Reality develops, or it just stands there, really
+really still, and/or observations yield new data, and then all of your models
+have to be updated!</p>
+
+
+
+
+
+
+
+
+<figure><a href="science_and_your_beliefs.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/science_and_your_beliefs.jpg"
+            
+
+        /> </a>
+</figure>
+
+<h2 id="forerunner-hot-takes">Forerunner hot takes</h2>
+<p>The more-or-less free <a href="/2018/07/24/weekly-head-voices-149/#the-apple-watch-vitality-and-you">Apple Watch 3 that I acquired in July of 2018</a> has served
+me really well over the years, but for mysterious reasons that I can&rsquo;t explain,
+the time had come to upgrade to a <em>real</em> running watch.</p>
+<p>After weeks of reading reviews, creating little comparison tables and
+complaining to friend LM about the utterly devious way in which Garmin has
+segmented their market into tiny little pieces with frustrating borders, I
+finally settled on <a href="https://www.dcrainmaker.com/2019/04/garmin-forerunner-245-music-gps-watch-in-depth-review.html">the Garmin Forerunner 245 (without music)</a>.</p>
+<p>I made sure that the watch would be delivered this past Friday so that I could
+take it for a spin or two over the weekend.</p>
+<p>My first observations are:</p>
+<ul>
+<li>One really notices all of the Apple polish when you have to give it up. It&rsquo;s
+clear that the Forerunner is a robust tool for running, but heck is it
+klunky. Every time I push one of the four physical buttons, I imagine the
+watch going &ldquo;hooooonk!&rdquo;.</li>
+<li>The device includes a whole bunch of advanced-looking new-to-me metrics by
+<a href="https://www.firstbeat.com/">FirstBeat</a> (recently acquired by Garmin) like Stress measurement, the Body
+Battery (taking into account sleep and stress to predict how much energy you
+should have), advanced recovery time (this is pretty useful: how many hours
+before my next run, based on how hard the previous one was, stress levels and
+also on sleep quality in the meantime) and so on.
+<ul>
+<li>I knew about FirstBeat because the <a href="/2017/02/03/weekly-head-voices-115/#the-dutch-watch">TomTom Runner 3</a> I had before the Apple
+Watch 3 used <a href="https://www.firstbeat.com/en/science-and-physiology/fitness-level/">their VO2 max estimation algorithm</a>. However, what I <strong>just</strong>
+learned was that specifically <a href="https://www.firstbeat.com/en/blog/what-is-heart-rate-variability-hrv/">heart rate variability (HRV)</a> seems to play an
+important role in much of FirstBeat&rsquo;s work.</li>
+</ul>
+</li>
+<li>I now have an optical <a href="https://www8.garmin.com/manuals/webhelp/forerunner245/EN-US/GUID-2EE28BB8-91F1-4BCE-AE13-6CAEF50AD5C4.html">pulse oximeter</a> on my arm, which, although far from
+accurate, does give at least some estimate of my blood oxygen. This is
+important to me especially to ensure that that aspect of my sleep is also
+going as it should.</li>
+<li>About that sleep tracking&hellip; the sleep onset detection must be a bit of an
+embarrassment for at least some of the folks at Garmin. For example, last
+night the watch detected onset of sleep while it was lying on the bedside
+table during my pre-bedtime shower. Surely with that HR and PulseOx sensor,
+the watch should know that it&rsquo;s not even on my arm? Apple Watch 3 does this
+with 100% accuracy with only its HR sensor. (To add insult to injury, the
+Garmin detected that onset an hour before my configured bedtime.)</li>
+<li>On the other hand, the battery life on this thing is, as is to be expected
+from a Garmin, quite phenomenal. (this is probably partly due to all of the
+half-implemented algorithms haha)</li>
+<li>More generally speaking, I&rsquo;ve disabled most of the notification features, so
+that the thing on my arm is more like an old-fashioned, mild-mannered watch
+that transforms into super-watch when running-related activities have to be
+undertaken. That in itself is an improvement that is not to be sneezed at.</li>
+<li>In summary: Acknowledging the multitude of biases at play, I am really
+enjoying the new device. In addition, my Apple Watch 3 could hereby enter the
+family pool, freeing up another AW3 which now lives on the proud arm of my
+first running GOU.</li>
+</ul>
+<h2 id="pompiedom">Pompiedom</h2>
+<p>Thank you folks for reading these words, and especially for reconstituting
+thoughts that are probably similar to the ones that happened at my end before
+and during the production of said words.</p>
+<p>You&rsquo;re more than welcome to add some words of your own in the comments section
+below. (I literally installed and configured it for you. No pressure
+though. You know me.)</p>
+<p>On that note (specifically the note of adding your own words): A part of my
+brain has been entertaining the idea of setting up a <a href="https://www.businessinsider.com/what-is-discord?IR=T">discord server</a> called <em>The
+Church of Love and Science and/or Friends of Charl</em>.</p>
+<p>The brain part in question claims that it would be a place for friends, and for
+any other fans of Love and Science, to hang out and sometimes make interesting
+new connections, and to enjoy the existing ones.</p>
+<p>What do you think?</p>
+<p>Err, let me know in the comments, or via Signal, or via discord?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #148: Data stylist.</title><link>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</link><pubDate>Tue, 17 Jul 2018 07:22:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</guid><description> Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)
+This post covers the week from Monday July 9 to Sunday July 15.
+The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/drakenstein_trail.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg"
+        
+            alt="Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)"/> </a><figcaption>
+            <p>Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)</p>
+        </figcaption>
+</figure>
+
+<p>This post covers the week from Monday July 9 to Sunday July 15.</p>
+<p>The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</p>
+<p>I will externalise some of these thoughts further down in this post.</p>
+<p>I’m starting with a weekend / running update, which should be reasonably safe for non-nerds to read. However, after that, the nerd dial will go up to 11 with stuff about tools and programming languages right up to the end of the post.</p>
+<p>I would have wanted to use the adjective “face-melting”, but I’m not sure if any intensity of nerdery could ever reach that level.</p>
+<p>We can dream.</p>
+<h1 id="weekend-running-update">Weekend running update</h1>
+<p>Most fortunately the weekend had other plans and supplied us with at least 2.5 parties, the first of which even culminated in a <em>ridiculously</em> fun trail run in the mountains on the winter morning after.</p>
+<p>The winter morning sun was just perfect, the company was great, and I had forgotten all forms of performance tracking devices at home.</p>
+<p>Readers with bionic eyes might notice the Lunas on my feet.</p>
+<p>I have now ran just over 260km in them, but, in a surprise twist to the regular readers of this blog, my biological equipment has still not yet completely adjusted to the new style of locomotion.</p>
+<p>The latest victim seems to be one of Tom, Dick and Harry, the tendons running under the medial <a href="https://en.wikipedia.org/wiki/Malleolus">malleolus</a> of my left foot, also known as that big knob on your inside ankle. Tom (the primary suspect in this case according to Trail Friend #1 who is knowledgable with regard to these matters, being a running foot surgeon and all), Dick and Harry <a href="https://radiopaedia.org/articles/posterior-ankle-tendons-mnemonic">are also known as the *T*ibialis posterior, flexor *D*igitorum longus and the flexor *H*allucis longus</a>.</p>
+<p>They currently have to work extra hard to stabilise my feet while running, because, you know, no shoes.</p>
+<p>Because doing this thing was not hard enough already, and because the Lunas are perhaps still a bit too cushiony, and because my friend the Very Flat Cat forgot that I’m very suggestible after 11:00 in the morning when my prefrontal cortex takes the rest of the day off, I am now also the very shy owner of a pair of <a href="https://xeroshoes.com/shop/genesis/genesis-men/">Xero Genesis running sandals</a>:</p>
+<p><img src="https://xeroshoes.com/wp-content/uploads/2018/03/Genesis_Limeade-3-4-770x500.jpg" alt="Image result for xero genesis"></p>
+<p>The soles are only 5mm thick, and quite hard, being <a href="https://xeroshoes.com/warranty/">rated for a few thousand miles</a> and all. The upshot of this is that one’s feet have to work even harder than in the Lunas.</p>
+<p>My first run in these was amazing: I could feel my feet reacting to every little pebble, and my running style having to adapt even more to the terrain.</p>
+<p>However, there was a price to pay for all of that additional terrain feel (and the fact that I took a much longer maiden run than I should have): The next day, the tendons in my feet felt even more (ab)used than usual.</p>
+<p>WITH GREAT POWER COMES GREAT RESPONSIBILITY, it seems.</p>
+<p>Due to these shoes being so powerful, I have had to resign to introducing Xero running far more gradually than I had initially thought.</p>
+<h1 id="vacation-based-thinking-driven-tool-sharpening-aka-the-wvv-2018-data-science-toolboxtm">Vacation-based-thinking-driven tool sharpening aka The WVV 2018 Data Science Toolbox(tm).</h1>
+<p>During the <a href="/2018/07/10/weekly-head-voices-147-the-yearly-post-mpumalanga-post/">previously blogged-about</a> Mpumalanga vacation, the lack of alarms, devices, and other work accoutrements, resulted in there being ample time for staring-into-space-grade thinking sessions.</p>
+<p>During one of these thinking sessions, I realised that I had somehow neglected my data science toolbox for a while.</p>
+<p>At some point a few years back, I was so into ipython notebooks (what has now become jupyter) that I used them as my main work lab notes modality.</p>
+<p>However, in the meantime I had fallen slightly out of love with the computational notebook style of data programming, because I had begun to develop doubts about their role in the analysis pipeline.</p>
+<p><strong>interlude 1:</strong> <em>jupyter notebooks are nice for initial data exploration, and they’re especially useful for remote computation with embedded graphics. However, that initial momentum of discovery risks devolving into an unwieldy monolith of code snippets, data transformations and experiments. There’s a fine line to be walked between flexible experimentation on the one hand, and version-controlled, time-stamped, permutational and scientific rigour on the other.</em></p>
+<p><strong>interlude 2:</strong> <em>I have to apologise for using the term “data science” in a non-comedic context. In spite of the inherent humour, it has turned into a usable blanket term for computational data understanding.</em></p>
+<p>Due to my growing doubts in the order of Jupyter, and due to being occupied with less traditionally data sciencey work projects, I had unfortunately let my data science toolbox gather perhaps a bit too much dust.</p>
+<p>Slightly more worrying than falling out of love with the Jupyter Notebooks (I still like them, I’m just not that madly in love anymore), was the more specific issue that I’d even let the datavis parts get a bit dusty.</p>
+<p>Anyways.</p>
+<p>Although I should probably write a more complete post about this, here is the list of ingredients of the official <em><strong>2018 WHV Data Science Toolbox(tm)</strong></em>:</p>
+<h2 id="programming-language-and-library-ecosystem-python">Programming language and library ecosystem: Python.</h2>
+<p>This language, in spite of its shortcomings, <em>dominates</em> the data science / machine learning world thanks to its STELLAR ecosystem.</p>
+<p>numpy, pandas, scipy, scikit-*, tensorflow, pytorch, keras, cython… this snowball has turned into a pretty sizeable planet.</p>
+<p>For this reason, it would be hard to justify any other choice for data science.</p>
+<p>However, since I’ve been seeing more of Lisp and the rest of the ever-expanding programming language landscape, I can see (Python’s shortcomings as a programming language) clearly now.</p>
+<p>In terms of interactive programming, Python beats the majority of practical programming languages, with Common Lisp being one notable exception.</p>
+<p>However, it’s not functional enough, which engenders unnecessarily imperative, side-effecting code.  More specifically, it’s not expression-oriented.</p>
+<p>More about this slightly further down. Maybe.</p>
+<h2 id="datavis-anything-as-long-as-its-vega-or-vega-lite">Datavis: Anything, as long as it’s Vega or Vega-Lite.</h2>
+<p>I spent a few years of my life wrangling <a href="https://d3js.org/">d3.js</a>, down to INNARD-LEVEL.</p>
+<p>Mike Bostock’s idea of <a href="https://bost.ocks.org/mike/join/">data-element-joins</a> is genius, and internalising it was intellectually satisfying.</p>
+<p>I thought that these d3 skillz would serve me well for decades (that’s WEEKS in javascript-time), but it turns out that there’s a new, even smarter kid in town.</p>
+<p>(if it’s any consolation, the new kid can be considered the grand-child of d3.js.)</p>
+<p><a href="https://vega.github.io/">vega and vega-lite</a> are so-called visualization grammars, or visualization DSLs (domain specific languages).</p>
+<p>The upshot is that one codes up a chart, or a whole set of linked charts and their interactive behaviour, using a language that was designed for this purpose.</p>
+<p>This chart code can be easily shared, or converted into interactive visual representations that can be embedded in applications, online or in print quality documents.</p>
+<p>Genius!</p>
+<p>With <a href="https://altair-viz.github.io/">Altair</a>, you can even send your pandas dataframes to vega and vega-lite charts all from the comfort of your slightly defective Python armchair.</p>
+<h2 id="development-environment-pycharm">Development Environment: PyCharm.</h2>
+<p>You knew it was not going to be Jupyter Notebooks, but you probably expected it to be <a href="https://vxlabs.com/tag/emacs/">Emacs</a>.</p>
+<p>Well it’s not. Surprise!</p>
+<p>The remote interpreter support in PyCharm enables me to connect to a Python virtual environment anywhere on the planet, which I often do.</p>
+<p>The JetBrains wizards have optimised the remote communication of code intelligence, so completion, documentation and general code understanding is almost indistinguishable from that on a completely local project.</p>
+<p>Being able to step through a <a href="https://vxlabs.com/2017/12/08/variational-autoencoder-in-pytorch-commented-and-annotated/"><em>remote</em> PyTorch neural network training iteration with the PyCharm debugger</a> or any other remote Python algorithmics is insightful.</p>
+<p>Two notable drawbacks are visualization and long-running jobs.</p>
+<p>For the long-running jobs I do tend to use Jupyter Notebooks or when at all possible <a href="https://mosh.org/">mosh</a>, which is amazing. However, because the primary modality is not the notebook, my code is versioned and organised into separate libraries which I can call into from notebook or mosh.</p>
+<p>For visualization, it’s either connecting to the altair chart server via SSH pipe, dumping the chart to the unison-synced project, and/or a Jupyter Notebook.</p>
+<h2 id="the-rest">The rest.</h2>
+<p>Of course you use Postgres on an SSD for your data, and of course you know enough SQL to make short work of most of the heavy-weight transformations often required at the start your data crunching pipeline.</p>
+<p>For all of my lab notes, reports, books, papers and blog posts, I use <a href="https://vxlabs.com/tag/orgmode/">Emacs Org mode</a>.</p>
+<p>LaTeX math with live preview, live code snippets, SVG graphics, bibtex references, export to anything. This is one of the best ways to document your science.</p>
+<h1 id="programming-language-addiction-update">Programming language addiction update.</h1>
+<p>I spend far too much obsessing over programming languages, old and new.</p>
+<p>For the past two weeks, I wasted even more precious time than usual reading up about programming languages.</p>
+<p>Because I would really like to spend more of my time on other, perhaps more valuable activities, I’ve been trying to better define what it is I’m actually looking for.</p>
+<p>Of course there is no single best programming language, but a whole set of good languages that map in intricate ways to different problem domains.</p>
+<p>In spite of this, I have been pining for a language with, in order of importance:</p>
+<ol>
+<li>A Functional Programming DNA, with which I’m referring to a) <a href="https://en.wikipedia.org/wiki/Expression-oriented_programming_language">expression-orientedness</a>, b) a preference for <a href="https://en.wikipedia.org/wiki/Pure_function">pure functions</a>, and at a higher level, c) the modelling of reality as more or less explicit dataflows.</li>
+<li>Interactive programming, with Common Lisp being the textbook example of this.</li>
+<li>Great tooling and IDEs, meaning first-class support by something from JetBrains, Microsoft or Emacs.</li>
+<li>Great concurrency and parallelism stories.</li>
+<li>A great library ecosystem.</li>
+<li>Modest memory use.</li>
+</ol>
+<p>Having just explicitly written this down for the first time (!! – it was consuming so much glucose just being kept amorphously swirling around in my brain) I can now mentally map some of my most recent language dalliances to these points.</p>
+<h2 id="go">go</h2>
+<p>This language is far too simple for my taste, but probably really great for teams.</p>
+<p>I did recently take a more serious look when <a href="https://tutorials.botsfloor.com/develop-your-own-telegram-bot-with-golang-and-tbot-de726883b83c">setting up a telegram bot using tbot</a> and being amazed at how simple it was building web services like these using goroutines and channels.</p>
+<p>Go satisfies points 3 to 6 from the list above. Makes sense that I decided to file this experiment away under “check when you need to put a webservice together REALLY QUICKLY”.</p>
+<h2 id="rust">rust</h2>
+<p>When I saw up that rust, surprisingly, is an expression-oriented language, I flew through the O’Reilly Programming Rust book I had bought previously as part of a bundle.</p>
+<p>Evaluating rust by the list above, we award it a fractional 1 because expression-oriented, 3 due to jetbrains plugin amongst others, 4(ish) – great memory safety, but compared to clojure, concurrency and parallelism stories still have much room to grow, a solid 5 thanks to cargo and a very strong 6.</p>
+<p>I filed this one away under “re-evaluate whenever you reach for your trusty C++”. (also, <a href="https://github.com/actix/actix-web">actix-web</a> looks amazing for super high performance microservices.)</p>
+<h2 id="f">f#</h2>
+<p>You didn’t see this one coming, did you?</p>
+<p>Very strong 1 to 5 and a solid 6.</p>
+<p>WAT?!</p>
+<p>I’m currently working my way through <a href="https://pragprog.com/book/swdddf/domain-modeling-made-functional">Domain Modeling Made Functional</a> by Scott Wlaschin, who is also the author of the brilliant <a href="https://fsharpforfunandprofit.com/">f# for fun and profit</a> website.</p>
+<p>In addition to f# hitting all 6 of my 2018 PL-requirements above, I’m slowly starting to see the advantages of having a real type system under the hood.</p>
+<p>f# is a member of the <a href="https://en.wikipedia.org/wiki/ML_(programming_language)">ML-family</a> of functional languages, which have their origin in Lisp (some very naughty person removed all of the lovely parentheses I’m afraid…).</p>
+<p>I hope that at some point I’ll have the opportunity to use f# in anger, at which point I’ll be able to report more concretely as to its suitability.</p>
+<h1 id="the-end">The End</h1>
+<p>Let me know in the comments what you think about any of this, or anything else.</p>
+<p>I hope to meet you again in a few days, here or elsewhere.</p>
+]]></content:encoded></item><item><title>(more) music for programming</title><link>https://cpbotha.net/2015/05/19/more-music-for-programming/</link><pubDate>Tue, 19 May 2015 12:38:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/05/19/more-music-for-programming/</guid><description> Currently listening to Chris Sneddon’s mix on musicForProgramming();
+For this last hour it has been exactly the right levels of everything to drown out distractions from my surroundings whilst not acting as a distraction in itself.
+(Yes, I’m doing small status updates here now. It’s an experiment.)</description><content:encoded><![CDATA[ <p>Currently listening to <a href="http://datashat.net/music_for_programming_32-chris_seddon.mp3">Chris Sneddon’s mix</a> on <a href="http://musicforprogramming.net/">musicForProgramming();</a></p>
+<p>For this last hour it has been exactly the right levels of everything to drown out distractions from my surroundings whilst not acting as a distraction in itself.</p>
+<p>(Yes, I’m doing small status updates here now. It’s an experiment.)</p>
+]]></content:encoded></item><item><title>Swapping variables without a temporary</title><link>https://cpbotha.net/2003/06/19/swapping-variables-without-a-temporary/</link><pubDate>Thu, 19 Jun 2003 18:00:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/06/19/swapping-variables-without-a-temporary/</guid><description> This is from the first recipe in my brand-new Python cookbook. It&amp;rsquo;s quite obvious, but it hasn&amp;rsquo;t really struck me before. Well doh.
+In most languages, swapping the values in two variables means using an intermediate temporary variable, e.g.:
+int a = 1; int b = 2; int temp; temp = a; a = b; b = temp; With the tuple packing and unpacking in Python however, we don&amp;rsquo;t need no steenking temporary variables!</description><content:encoded><![CDATA[ <p>This is from the first recipe in my brand-new Python cookbook. It&rsquo;s quite
+obvious, but it hasn&rsquo;t really struck me before. Well doh.</p>
+<p>In most languages, swapping the values in two variables means using an
+intermediate temporary variable, e.g.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#859900;font-weight:bold">int</span> <span style="color:#268bd2">a</span> = <span style="color:#2aa198;font-weight:bold">1</span>;
+<span style="color:#859900;font-weight:bold">int</span> <span style="color:#268bd2">b</span> = <span style="color:#2aa198;font-weight:bold">2</span>;
+<span style="color:#859900;font-weight:bold">int</span> <span style="color:#268bd2">temp</span>;
+<span style="color:#268bd2">temp</span> = <span style="color:#268bd2">a</span>;
+<span style="color:#268bd2">a</span> = <span style="color:#268bd2">b</span>;
+<span style="color:#268bd2">b</span> = <span style="color:#268bd2">temp</span>;
+</code></pre></div><p>With the tuple packing and unpacking in Python however, we don&rsquo;t need no steenking temporary variables!</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#268bd2">a</span> = <span style="color:#2aa198;font-weight:bold">1</span>
+<span style="color:#268bd2">b</span> = <span style="color:#2aa198;font-weight:bold">2</span>
+<span style="color:#268bd2">b</span>, <span style="color:#268bd2">a</span> = <span style="color:#268bd2">a</span>, <span style="color:#268bd2">b</span>
+</code></pre></div><p>Obviously this principle scales to any number of variables, e.g.:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#268bd2">a</span>, <span style="color:#268bd2">b</span>, <span style="color:#268bd2">c</span>, <span style="color:#268bd2">d</span> = <span style="color:#268bd2">d</span>, <span style="color:#268bd2">c</span>, <span style="color:#268bd2">b</span>, <span style="color:#268bd2">a</span>
+</code></pre></div><p>*sniff* That&rsquo;s just so sweet.</p>
+]]></content:encoded></item><item><title>Python new-style objects and __slots__</title><link>https://cpbotha.net/2003/06/16/python-new-style-objects-and-__slots__/</link><pubDate>Mon, 16 Jun 2003 17:37:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/06/16/python-new-style-objects-and-__slots__/</guid><description> This should be very useful:
+In [5]: class oldObject: ...: ....def __init__(self): ...: ........self.someVar = 1 ...: In [6]: o1 = oldObject() In [7]: o1.someVar = 2 In [8]: o1.someOtherVar = 3 This is of course expected behaviour. Have a look at this though:
+In [9]: class newObject(object): ...: ....__slots__ = ['someVar'] ...: ....def __init__(self): ...: ........self.someVar = 1 ...: In [10]: o2 = newObject() In [11]: o2.someVar = 2 In [12]: o2.</description><content:encoded><![CDATA[ <p>This should be very useful:</p>
+<pre tabindex="0"><code>In [5]: class oldObject:
+   ...: ....def __init__(self):
+   ...: ........self.someVar = 1
+   ...:
+In [6]: o1 = oldObject()
+In [7]: o1.someVar = 2
+In [8]: o1.someOtherVar = 3
+</code></pre><p>This is of course expected behaviour. Have a look at this though:</p>
+<pre tabindex="0"><code>In [9]: class newObject(object):
+   ...: ....__slots__ = ['someVar']
+   ...: ....def __init__(self):
+   ...: ........self.someVar = 1
+   ...:
+In [10]: o2 = newObject()
+In [11]: o2.someVar = 2
+In [12]: o2.someOtherVar = 3
+AttributeError: 'newObject' object has no attribute 'someOtherVar'
+</code></pre><p>Neat huh? In short, deriving from the new Python class <code>object</code> means you have
+a &ldquo;new-style&rdquo; object. Amongs other things, this means that you can define a
+<code>__slots__</code> list which will prevent the use of attributes not in that
+list. These objects are available from Python 2.2 onwards.</p>
+<p>No, my books haven&rsquo;t arrived yet. :)</p>
+]]></content:encoded></item></channel></rss>

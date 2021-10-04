@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>advent of code on voices in my head</title><link>https://cpbotha.net/tags/advent-of-code/</link><description>Recent content in advent of code on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 23 Dec 2020 10:57:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/advent-of-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #212: Use it, or lose it</title><link>https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/</link><pubDate>Wed, 23 Dec 2020 10:57:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/</guid><description> Well hello there folks, and welcome to the 212th edition of the Weekly Head Voices!
+This one covers the two weeks from Monday December 7 to Sunday December 20, 2020. My end-of-year vacation started at some point during the period under investigation, so there&amp;rsquo;s not all that much to report here, except perhaps for a small philosophy message brought to you by the world of science.
+Figure 1: View of the bridge over the mouth of the Steenbras River, taken from our anniversary hike up Steenbras Gorge to the Crystal Pools and back.</description><content:encoded><![CDATA[ <p>Well hello there folks, and welcome to the 212th edition of the Weekly Head Voices!</p>
+<p>This one covers the two weeks from Monday December 7 to Sunday December
+20, 2020. My end-of-year vacation started at some point during the period under
+investigation, so there&rsquo;s not all that much to report here, except perhaps for
+a small philosophy message brought to you by the world of science.</p>
+
+
+
+
+
+
+
+
+<figure><a href="bridge_steenbras_gorge.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/bridge_steenbras_gorge_hu5c74236a4b331276fc52fb72c11f4c2b_2185026_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/bridge_steenbras_gorge_hu5c74236a4b331276fc52fb72c11f4c2b_2185026_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/bridge_steenbras_gorge_hu5c74236a4b331276fc52fb72c11f4c2b_2185026_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/bridge_steenbras_gorge_hu5c74236a4b331276fc52fb72c11f4c2b_2185026_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/bridge_steenbras_gorge_hu5c74236a4b331276fc52fb72c11f4c2b_2185026_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: View of the bridge over the mouth of the Steenbras River, taken from our anniversary hike up Steenbras Gorge to the Crystal Pools and back."/> </a><figcaption>
+            <p>Figure 1: View of the bridge over the mouth of the Steenbras River, taken from our anniversary hike up Steenbras Gorge to the Crystal Pools and back.</p>
+        </figcaption>
+</figure>
+
+<h2 id="my-advent-of-code-comes-to-an-end">My Advent of Code comes to an end</h2>
+<p>You might remember from <a href="/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/#advent-of-code-2020">WHV #211 that I was really enjoying the Advent of Code 2020</a>.</p>
+<p>As I hinted there, I was happy to reach my modest goal of the double digits (i.e. day 10).</p>
+<p>On day 20 however (which is of course December 20), the puzzle took up so much
+of my time that I decided, with significant difficulty (remember these puzzles
+are like cat nip for nerds), to drop out.</p>
+<p>It&rsquo;s been great fun, and I learned so much <a href="https://nim-lang.org/">nim</a> in such a short period, but at
+some point one has to make the call whether the time cost is justified by the
+fun and the learning.</p>
+<p>P.S. It took about two days to finally let go. :)</p>
+<h2 id="use-it-or-lose-it">Use it, or lose it</h2>
+<p>I am currently reading the fascinating book <a href="https://www.goodreads.com/book/show/51778153-livewired"><em>Livewired: The Inside Story of the
+Ever-Changing Brain</em></a> by neuro-scientist <a href="https://en.wikipedia.org/wiki/David%5FEagleman">David Eagleman</a>.</p>
+<p>As you can probably deduce from the title, this book is about how the brain
+never stops rewiring itself.</p>
+<p>Even now as you&rsquo;re reading these words, your brain is making and breaking
+connections, and changing chemical balances, as it crunches through and
+sometimes integrates the ideas that are invoked by this weird trick we humans
+do, called <em>speech</em>, and the even weirder trick, called <em>writing</em>.</p>
+<p>(Writing: Your retinae count the photons coming from the screen on which you&rsquo;re
+reading this, construct patterns of darkness and light, convert those patterns
+to words, and then string together those words into living, breathing
+simulations of reality in your giant neural network.)</p>
+<p>Besides functioning as an awe-inspiring exploration of the inner workings of
+the brain and the nervous system, also for me with a little bit of existing
+background, the book explains the phenomenon that inside the brain there is a
+never-ending struggle between brain regions, between neurons and between the
+thoughts that they store.</p>
+<p>If you are blindfolded for a few days, your audio cortex will start annexing
+parts of your visual cortex. If you&rsquo;re blindfolded for long enough (don&rsquo;t do
+this), your visual cortex could be repurposed completely.</p>
+<p>Neurons compete for incoming data, memories compete for neurons; it&rsquo;s a
+continual fight for existence.</p>
+<p>When a new, more important or more stressful memory arrives, it can push out,
+into eternal oblivion, an older, less interesting memory.</p>
+<p>If an input data stream like sight or hearing stops, another strong input
+stream will take over those neurons. When you stop practising long division, or
+algebraic simplification, you&rsquo;ll first start to get slower, and then later lose
+that ability.</p>
+<p>Those neurons have been repurposed.</p>
+<p>(The book posits a really interesting hypothesis for why humans dream so
+visually: Your eyes are closed for a large part of the day. Your visual cortex
+would take a beating every night, i.e. be taken over by other parts of your
+brain, if you didn&rsquo;t use it so actively during dreaming every night.)</p>
+<p>You can probably see where this is going.</p>
+<p>In the brain, just like in the rest of your human physiology, efficiency is
+everything.</p>
+<p>The moment you stop practising a certain function, like math, or absorbing
+technical documents, or programming, or driving, or running, or being kind,
+your system will start to try to repurpose as much as possible of the required
+subsystems for other functions that you <em>are</em> actively deploying.</p>
+<p>In short: <em>Use it, or lose it.</em></p>
+<p>You&rsquo;re going to have to keep on practising all of the things you find important
+until the day all of it stops for the last time.</p>
+<p>This may seem quite harsh, but man, does it keep us honest.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #211: Table Mountain Run(ish)</title><link>https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/</link><pubDate>Sat, 12 Dec 2020 15:04:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/</guid><description> Welcome back to the Weekly Head Voices friends!
+These ones, the two hundred and eleventh (haha, remember at school you always wondered if anyone would ever really need to be able to write out numbers&amp;hellip; IT WAS ALL FOR ME) edition, will hopefully be talking more or less coherently about events that took place during the two weeks from Monday November 23 to Sunday December 6 of the year 2020.</description><content:encoded><![CDATA[ <p>Welcome back to the Weekly Head Voices friends!</p>
+<p>These ones, the two hundred and eleventh (haha, remember at school you always
+wondered if anyone would ever really need to be able to write out numbers&hellip; IT
+WAS ALL FOR ME) edition, will hopefully be talking more or less coherently
+about events that took place during the two weeks from Monday November 23 to
+Sunday December 6 of the year 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="table-mountain-20201204-pano.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/table-mountain-20201204-pano_huce60cc94a24f6cf5ce5bfc6ff21aad43_2042658_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/table-mountain-20201204-pano_huce60cc94a24f6cf5ce5bfc6ff21aad43_2042658_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/table-mountain-20201204-pano_huce60cc94a24f6cf5ce5bfc6ff21aad43_2042658_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/table-mountain-20201204-pano_huce60cc94a24f6cf5ce5bfc6ff21aad43_2042658_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/table-mountain-20201204-pano_huce60cc94a24f6cf5ce5bfc6ff21aad43_2042658_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Not the worst spot to eat one&amp;rsquo;s peanut butter sandwiches"/> </a><figcaption>
+            <p>Figure 1: Not the worst spot to eat one&rsquo;s peanut butter sandwiches</p>
+        </figcaption>
+</figure>
+
+<h2 id="wetware-checklist-to-bootstrap-your-software-checklist">Wetware checklist to bootstrap your software checklist</h2>
+<p>My <a href="/2019/09/21/note-taking-strategy-2019/#daily-review">daily review</a> routine has been taking quite a beating.</p>
+<p>The busier it gets, the more easily I somehow skip my whole daily review in the
+morning thinking that I can better invest that time into just jumping on the
+most urgent things first.</p>
+<p>This is of course one of the stupidest things I can do at that point.</p>
+<p>It doesn&rsquo;t help that the daily review contains quite a number of points I have
+to take care of every morning.</p>
+<p>So, what does one do to help sticking to your morning daily review habit?</p>
+<p>Logically, one creates yet another, but this time smaller and hopefully more
+robust, habit that triggers the larger habit!</p>
+<p>(In the end, it&rsquo;s turtles all the way down in any case.)</p>
+<p>The one redeeming factor in my morning routine has been the increasing
+regularity of meditation exercise. (Thanks PK for putting me back on that
+horse, or should I say <a href="/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/#shorter-focus-blocks-work-better">elephant</a>, and thanks to Sam Harris and his Waking Up
+app.)</p>
+<p>What I&rsquo;ve now added to my system is a smaller checklist with three items on it:</p>
+<ol>
+<li><input checked="" disabled="" type="checkbox"> meditation</li>
+<li><input checked="" disabled="" type="checkbox"> deep reading</li>
+<li><input checked="" disabled="" type="checkbox"> planning: review + task setting</li>
+</ol>
+<p>The difference is that this checkpoint now lives in my brain, and is much
+harder to side-step. Also, because of the firmly embedded meditation kernel,
+there&rsquo;s a bit of momentum to help me move on to items 2 and 3.</p>
+<p>I sneaked in item 2, because reading is basically cheap but really powerful
+cybernetic upgrades for normal humans, and I found that it nicely completes
+this 30 minutes (or so) of quite time in the morning before I start with work.</p>
+<p>So far, this small addition to my firmware has made quite a positive impact,
+although I have to admit that AoC (see further down) is temporarily interfering
+with items 2 and/or 3.</p>
+<p>Oh well, one just has to keep on keeping on.</p>
+<h2 id="someone-is-wrong-on-the-internet-part-972387">Someone is wrong on the internet, part 972387</h2>
+<p>Some of you (does 2 out of my total of 5 readers qualify as &ldquo;some of you&rdquo;,
+relatively speaking?) will remember that I sometimes have a fraught
+relationship with people being wrong on the internet, or you could just look up
+<a href="/2014/07/01/weekly-head-voices-76-someone-is-wrong-on-the-internet/">WHV #76 to read about a previous episode</a>.</p>
+<p>Most recently, I was again trying spectacularly unsuccessfully to avoid
+twitter, when I ran into a thread where people were arguing about wearing
+facemasks or not in these times.</p>
+<p>My plan was to pull myself away from my phone, then throw the phone into the
+fire, and then start the BBQ, but unfortunately one of the persons who was
+arguing on the wrong side carries the same name as I do.</p>
+<p>Although I am the <strong>one true Charl Botha</strong>, as is confirmed by the world&rsquo;s
+premier reference on everything Charl Botha, namely the website <a href="https://charlbotha.com/">charlbotha.com</a>,
+I was still worried that someone somewhere might confuse me with the third-rate
+Charl Botha who was putting his lack of humanity on display.</p>
+<p>My initial reaction was to go in there with all of my verbal guns blazing in
+order to correct the poor sod, and to ensure that people would see there were
+more Charls, some of which were not <em>as</em> bad, but fortunately some of the
+psychology I have been absorbing from the literature kicked in on time and I
+managed to limit my reply tweet to the fact that 1) I was in fact the real
+Charl Botha (the one with a brain), and 2) that I thought one should wear a
+mask because it&rsquo;s kind to other humans.</p>
+<p>This made me think about the observation that mask deniers would always believe
+that there were holes in the science of mask-wearing, when the most important
+consideration comes down to the fact that even if mask-wearing helped your
+fellow humans possibly only a little bit, it&rsquo;s already the kind thing to do.</p>
+<p>After that, I made the following tweet to summarise my thinking on this topic:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Folks, remember that
+of the 14 mask types tested in <a
+href="https://t.co/BrQ6cpCnkk">https://t.co/BrQ6cpCnkk</a> (sensitive to
+droplet size all the way down to 0.5um), 13 of them reduced droplet
+transmission relative to no mask. SO: Be kind. Wear a multi-layer mask, reduce
+droplets, help your fellow humans. <a
+href="https://t.co/COyrdksV9K">pic.twitter.com/COyrdksV9K</a></p>&mdash; Charl
+Botha 😷 #Masks4All (@cvoxel) <a
+href="https://twitter.com/cvoxel/status/1332014932481732608?ref_src=twsrc%5Etfw">November
+26, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>What I learned from this would-be altercation, is that it&rsquo;s better for me to
+focus my someone-is-wrong-on-the-internet rage into something that&rsquo;s more
+constructive:</p>
+<p>Strip the issue down as far as you can. Inject information. Combine that with
+the desire that many humans share for a society where we can all just get
+along.</p>
+<p>It&rsquo;s probably still not going to work, but just maybe, it&rsquo;ll cause less trouble
+and result in a little bit more goodwill, and who knows where that may lead?</p>
+<p>P.S. On the topic of mask-wearing: Even if there were no COVID-19, don&rsquo;t you
+think we&rsquo;d all be a little better of if the wearing of good masks became the
+norm?</p>
+<p>There are indications that <a href="https://www.scientificamerican.com/article/flu-season-never-came-to-the-southern-hemisphere1/">mask-wearing and physical distancing basically
+stopped flu season in the Southern Hemisphere</a>.</p>
+<blockquote>
+<p>Never in my 40-year career have we ever seen rates &hellip; so low</p>
+<p>&ndash; Greg Poland, influenza expert at the Mayo Clinic</p>
+</blockquote>
+<h2 id="advent-of-code-2020">Advent of Code 2020</h2>
+<p>Thanks to this tweet by <a href="https://twitter.com/RameezKhanSA">@RameezKhanSA</a>:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My pledge this year is
+to do the <a
+href="https://twitter.com/hashtag/AdventOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#AdventOfCode</a>
+in <a
+href="https://twitter.com/hashtag/Clojure?src=hash&amp;ref_src=twsrc%5Etfw">#Clojure</a>. Looking
+forward to it. Already started doing some of last years challenges. Want to
+keep it simple. No Leiningen just a plain deps.edn.</p>&mdash; Rameez
+(@RameezKhanSA) <a
+href="https://twitter.com/RameezKhanSA/status/1332692669190074370?ref_src=twsrc%5Etfw">November
+28, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>&hellip; I am taking part, for the first time, in <a href="https://adventofcode.com/">the Advent of Code</a>!</p>
+<p>Nerds from the world over get a new two-part programming puzzle every day at 5
+AM UTC, from December 1 to December 25, for a total of 50 puzzles.</p>
+<p>The idea is that said nerds use any programming language, or combination of
+programming languages, to solve the puzzles and enter the answers on the AoC
+website.</p>
+<p>The quickest nerds, the ones who manage to solve these puzzles in an amazing
+minute or three, earn a highly-coveted place on the <a href="https://adventofcode.com/2020/leaderboard">leaderboard</a>.</p>
+<p>Just like Rameez, I wanted to use the AoC to get to know a programming language
+better, although in my case that language is Nim.</p>
+<p>So far, this has been a great deal of fun!</p>
+<p>To my non-programmer friends: Solving puzzles is like concentrated cat nip to
+programmers. In the case of AoC, you get unadulterated puzzle solving, and none
+of the other complications of writing production software.</p>
+<p>Besides the fun, Nim <em>really</em> shines at this. As I mentioned in <a href="/2020/11/29/weekly-head-voices-210-miniburn-2020/#save-image-from-clipboard">the previous
+WHV</a>, Nim somehow manages to combine the expressivity and development velocity
+of Python, with a great dollop of Python&rsquo;s famed batteries-included, with close
+to the metal performance.</p>
+<p>(My brain is currently spending background cycles figuring out if I could
+somehow use this in a product.)</p>
+<p>I am sort of expecting to drop out eventually, because, based on past years,
+it&rsquo;s going to take up an increasing amount of time.</p>
+<p>However, although I&rsquo;m already happy with what I have (day 6&rsquo;s puzzles completed
+on Sunday December 6, ostensibly the end of this WHV&rsquo;s window of reality), I
+would be really chuffed reaching the double digits!</p>
+<p><em>Narrator: He ended up reaching the double digits.</em></p>
+<h2 id="table-mountain-run--ish--2020">Table Mountain Run(ish) 2020</h2>
+<p>We thought we were going to do a trail run up Skeleton Gorge.</p>
+<p>Well, if one is us, one does not simply run up Skeleton Gorge. Instead, one
+huffs and one puffs, for about a kilometre of ascent. It is a substantial
+amount of huffing and puffing.</p>
+<p>We did get to run on top of the mountain, from the beach at the top of Skeleton
+Gorge (yes, there&rsquo;s a beach), to <a href="https://en.wikipedia.org/wiki/Maclear%27s%5FBeacon">Maclear&rsquo;s Beacon</a>, which I&rsquo;ve now learned was
+used in the calculation of the curvature of he Earth, to the old cable station,
+past the reservoirs to end up walking really slowly back down Nursery Gorge.</p>
+<p>It was an interesting observation that although I found parts of the route hard
+and sometimes maybe even a little unpleasant (coming down Nursery Gorge&hellip;)
+whilst in the thick of things, the whole memory of the experience started
+transmogrifying into <em>wonderful</em> verging on <em>magical</em> extremely soon after we
+had reached the finish.</p>
+<p>12/10 would do again, but next time a more gradual descent please!</p>
+<h2 id="hi-mom">Hi mom</h2>
+<p>My mom has now seen three quarters of a century.</p>
+<p>I am happy to report that she is as fit as a fiddle. Genetics and some really
+great habits are a really solid combination.</p>
+<p>Importantly, we are truly fortunate to count her as an integral part of our
+household.</p>
+<p>(Them is some big words for: We have so much fun together! Our GOUs, who are
+also her GOUs, will probably never forget these stories with their Oma.)</p>
+<p>Here&rsquo;s to the next quarter century!</p>
+<p>I&rsquo;ve convinced her of the great business opportunity of publishing a book at
+100 with tips and tricks for other (aspirant) centenarians, so she really needs
+to remain as sharp and as fit as she is today!</p>
+]]></content:encoded></item></channel></rss>

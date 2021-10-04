@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>windows on voices in my head</title><link>https://cpbotha.net/tags/windows/</link><description>Recent content in windows on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 27 Apr 2019 14:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description> WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
+Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.
+Some examples from the past include:
+Hacking Radeon suspend / resume support into the Linux kernel and the X-Server in 2002, so that my cheap clone laptop could too.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
+<figure>
+<a href="x1_skulking_in_bush.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>Just the new laptop, skulking in the bush.
+</figure>
+<p>It is tradition around these parts that the welcoming of new computer machines
+is celebrated by, amongst many other rituals, a sometimes incomprehensible
+amount of customisation-related labour and a mention (or two) in these pages.</p>
+<p>Some examples from the past include:</p>
+<ul>
+<li><a href="/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/">Hacking Radeon suspend / resume support into the Linux kernel and the
+X-Server in 2002</a>,
+so that my cheap clone laptop could too.</li>
+<li><a href="/2004/05/26/laptop-no-2/">Acquiring my first name-brand laptop (HP NC6000) in
+2004</a>, with a whole gigabyte of RAM.</li>
+<li><a href="/2006/07/22/new-new-laptop-laptop/">My first dual-core laptop in 2006</a>.</li>
+<li><a href="/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/">Reviewing Ubuntu Feisty on above-mentioned
+laptop</a>
+led to, as far as I can remember, my first really popular post, with about
+50k visitors in a few days.</li>
+<li>Relatively low-key announcements during my macOS phase, starting with the <a href="/2015/06/14/weekly-head-voices-91-theyre-back/">2015
+MacBook Pro</a> and then later
+the <a href="/2017/09/05/weekly-head-voices-125/">2017 MacBook Pro</a> on my birthday in
+2017.</li>
+</ul>
+<p>Well folks, this post exists because on Tuesday, April 17, 2019 I became the
+new owner of a Lenovo ThinkPad X1 Extreme.</p>
+<p>This new device, just like all the previous ones, took up a considerable amount
+of mental cycles before, during and after its acquisition.</p>
+<p>This does make sense: It&rsquo;s the technical artefact I use for a large part of the
+day to interface with and shape the universe around me. This shaping is how I
+try to create value, so the main physical tool I used for this should be as
+sharp as possible.</p>
+<h1 id="so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">So, tell me, why did your somewhat stylish MacBook phase have to come to an end?</h1>
+<p>It seems like <a href="https://cpbotha.net/2017/09/05/weekly-head-voices-125/#new-laptop">just the other day when my mysterous employer bought me that
+shiny 2017 top-of-the-line(ish) MacBook
+Pro</a>.</p>
+<p>They grow up so fast!</p>
+<p>&hellip; at which point they summarily have to be replaced by a slightly different
+and hopefully more effective new thing.</p>
+<p>The virtual machines I have to use for some of my projects caused the <a href="https://support.apple.com/kb/SP756?locale=en_US">16GB
+2.9GHz 2017 MacBook Pro</a> to
+grind to a halt once too often.</p>
+<p>I evaluated upgrading to the <a href="https://support.apple.com/kb/SP776?locale=en_US">2018 model with 32GB RAM and the 8th generation
+i7</a>, but the disappointing
+keyboards on the current MacBook Pro range made it even trickier than usual to
+justify the substantial price of the upgrade.</p>
+<p>The MacBooks are stellar machines, but only if you can look past the keyboard.</p>
+<p>To add to that, after five years of macOS, it was time to check that I was
+still able to work just as efficiently with The Other desktop operating
+systems.</p>
+<h1 id="why-did-you-decide-to-get-the-thinkpad-x1-extreme">Why did you decide to get the ThinkPad X1 Extreme?</h1>
+<p>When you go searching for laptop workstations that are in the same class as the
+15&quot; MacBook Pros, one of the main candidates is the <a href="https://www.lenovo.com/za/en/laptops/thinkpad/x-series/ThinkPad-X1-Extreme/p/22TP2TXX1E1">ThinkPad X1
+Extreme</a>,
+which, to my delight, was straight-forward to obtain from my favourite local
+supplier!</p>
+<figure>
+<a href="x1e_180.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>Can your workstation do this? (The keyboard is definitely an
+improvement. I'm reserving judgement until a few months in. I'm still getting
+used to that red mouse nub. In theory, this should be ideal for mostly keyboard
+use with Emacs for example.) </figcaption>
+</figure>
+<p>(Interestingly, the price down here in ZAR is better than the dollar price on
+Amazon directly converted to ZAR. This is usually the other way round.)</p>
+<p>I made a deliberate choice for the version with the FullHD screen, and <em>not</em>
+the 4k multi-touch panel.</p>
+<p>&ldquo;WHAT? ARE WE BACK IN THE 1990s?!!&rdquo; you might ask, tapping away on your
+high-resolution touch device with its beautiful screen and superb battery life.</p>
+<p>During the 1.5+ years of using the 15&quot; MacBook Pro, with one of the most
+beautiful screens in the business, I very rarely used that screen. Furthermore,
+when mobile, the significantly longer battery life of the FHD version, along
+with the slightly reduced weight, are more important.</p>
+<p>Along with the 6-core 8750H i7 CPU, 16GB of RAM and 512GB of SSD ThinkPad, I
+ordered an additional 1TB Samsung EVO Plus 970 NVMe SSD and an additional 16GB
+RAM module.</p>
+<p>One simply unscrews the bottom panel to reveal two accessible DIMM slots, and
+two accessible M.2 SSD slots. I added the extra drive and extra RAM, put the
+panel back, and booted up to a pretty sweet upgrade.</p>
+<p>(Both drives are in the gigabytes per second read and write class. The built-in
+WDC PC SN720 SDAQNTW-512G-1001 is only slightly slower than the Samsung 970.)</p>
+<p>It&rsquo;s good to know that I will be able to upgrade the RAM to 64GB, and the
+storage to multiple terabytes of SSD, should that become necessary, or should I
+be able to fabricate some or other good reason for this in the future.</p>
+<h2 id="pro-tip-beware-duplicate-volume-ids-when-you-clone-a-drive">Pro-tip: Beware duplicate volume IDs when you clone a drive.</h2>
+<p>I used the free <a href="https://www.samsung.com/semiconductor/minisite/ssd/download/tools/">Samsung Drive Migration Software for Consumer SSD
+tool</a> to
+image the factory-install of Windows to the new 1TB Samsung SSD.</p>
+<p>After this, I simply changed the boot order in the BIOS (which also swaps C:
+and D:, oh Windows!, and Bob was my uncle.</p>
+<p>OR WAS HE?!</p>
+<p>Only later when diagnosing why the Windows indexer was not picking up any new
+files from my drive, did I figure out that the duplicate volume IDs on the
+drives was confusing it.</p>
+<p>Even later, after I had almost forgotten about the volume IDs, I had huge fun
+fighting with the Windows boot loader simply giving up after an Ubuntu install.</p>
+<p>You won&rsquo;t guess what the issue was, or will you?</p>
+<h1 id="what-are-your-first-impressions">What are your first impressions?</h1>
+<p>Although it feels lighter than the MBP, the laptop is thicker and slightly
+bigger than the MBP. Due to the shape of the chassis, and especially the
+ventilation rib on the bottom, it feels good in the hand.</p>
+<p>The fans do come on quite easily in Windows, which can be disturbing. There are
+fortunately a number of configuration options to ameliorate this issue.</p>
+<p>The Linux support for this laptop is quite good. After a few hours of Manjaro
+(I&rsquo;ve always wanted to see what an Arch-derivative was like), I installed
+Ubuntu 19.04.</p>
+<p>With minimal tuning, I can get the idle power consumption (with Emacs running
+of course) down to about 7W.</p>
+<p>This would in theory give me 10 hours of staring at Emacs, which is epic.</p>
+<p>(Shortly after getting the laptop, I had to invest a not inconsiderable number
+of hours into fine-tuning my Emacs configuration for Windows. Although Emacs on
+Linux is still the ultimate experience, Emacs on Windows comes close
+enough. For now.)</p>
+<p>Probably due to the reduced weight and due to the laptop being able to keep
+itself cool much more easily, the laptop fares significantly better than the
+15&quot; MacBook Pro in the official Working in Bed and also Flipping Out Your
+Laptop To Do Something Real Quick tests.</p>
+<p>Other than that, features like the way the BIOS unlocks both hardware-encrypted
+SSDs at boot using my fingerprint, are really quite neat.</p>
+<h1 id="do-you-have-anything-else-to-say">Do you have anything else to say?</h1>
+<p>No.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #133: Onder in my Whiskeyglas.</title><link>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</link><pubDate>Sun, 25 Feb 2018 21:15:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</guid><description> The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.
+What a week.
+It was beautiful to see the whole team step up to the plate and engineer at about 110% throughput (software gets complicated quickly, and there&amp;rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3288.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3288.jpg"
+        
+            alt="The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week."/> </a><figcaption>
+            <p>The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.</p>
+        </figcaption>
+</figure>
+
+<p>What a week.</p>
+<p>It was beautiful to see the whole team step up to the plate and <em>engineer</em> at about 110% throughput (software gets complicated quickly, and there&rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</p>
+<h2 id="pro-tip-special">Pro-tip Special</h2>
+<p>I was of course the lucky winner of the manual-writing sub-project. I love writing code, but there&rsquo;s also something quite satisfying about writing documentation for a technical product. Anyways, there are five tiny but hopefully useful lessons I extracted from this exercise which I would like to present here:</p>
+<ol>
+<li><a href="https://vxlabs.com/2011/08/28/a-windows-console-that-does-not-suck/">I&rsquo;ve lamented the sorry state of the Windows console before</a> (in 2011 to be exact). In a surprise twist, the Windows console still sucks almost 7 years later. At least it&rsquo;s reliable. Anyways, <a href="http://cmder.net/">cmder is a great console replacement</a> which makes some of the stupid go away, somewhat.</li>
+<li>The Windows 10 built-in screenshot facility … wait for it… sucks. When you&rsquo;re writing documentation you need a tool that fits into your workflow. Keyboard shortcut – window or region – image ends up in a directory of your choice. <a href="http://getgreenshot.org/">Greenshot is an open source screenshotting tool</a> that does this with aplomb.</li>
+<li>You need to show a CHM (Windows Help) file to the user of your wxPython application when they hit F1. How hard could it be? Well, you could spend a number of hours trying to come up with a wx-y cross-platform solution, or you could use that time for something else worth your while and just use the <a href="http://docs.activestate.com/activepython/3.3/pywin32/win32help__HtmlHelp_meth.html">Python win32 package to call into the official Windows help API</a>. (cross-platform does work, it&rsquo;s just really ugly)</li>
+<li><a href="http://www.sphinx-doc.org/en/master/">Sphinx</a> is a much better tool to write technical manuals than is Markdown and related tools. I briefly considered Markdown because I always have to look up reStructuredText syntax, but fortunately ran into enough other places <a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/">warning against using Markdown for documentation</a>. For the record, I prefer orgmode over all of these puny formats in most other cases, but the documentation story of Sphinx with reStructuredText is admittedly much better.</li>
+<li>Start writing the manual as early as possible. It was amazing to see how this helped me to see the software we are designing at a more integrated (user) level. This knowledge was useful in driving more valuable improvements. If you can&rsquo;t explain the flow of some procedure in a manual, that&rsquo;s a good sign the procedure might need some refinement.</li>
+</ol>
+<h2 id="humble-book-bundle-and-rust">Humble Book Bundle and Rust</h2>
+<p>I bought the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle of (O&rsquo;Reilly) Functional Programming Books</a> for a super affordable $15. I was primarily interested in the <a href="http://shop.oreilly.com/product/0636920040385.do">Programming Rust book by Blandy and Orendorff</a>, but the other titles on Scala, Clojure, Erlang, Elixir, Haskell, Javascript and general functional programming are welcome additions to my library. Speaking of which, I emailed O&rsquo;Reilly to ask if the books in the bundle could be added to my member library, which they promptly did!</p>
+<p>I have avoided Rust up to now due to natural hype suppression circuitry, and because I grew up with C++, but its zero-overhead memory safety and trustworthy concurrency story makes it hard to ignore any longer. Even although <a href="https://www.quora.com/Which-language-has-the-brightest-future-in-replacement-of-C-between-D-Go-and-Rust-And-Why/answer/Andrei-Alexandrescu">Andrei Alexandrescu once called Rust the language that skips leg day</a>, it&rsquo;s certainly interesting seeing the constructs the language designers have come up to build a really fast compiled language with the lowest number of foot-guns per line of code.</p>
+<p>Anyways, when this blog gets published, you should still have about 22 hours to make use of the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle deal</a> if you too see something that you like.</p>
+<h2 id="life-is-continuous-practice">Life is continuous practice</h2>
+<p>I wanted to conclude with something that I&rsquo;ve been thinking about recently. It has to do with explicitly treating one&rsquo;s life as <em>continuous practice</em>. As I&rsquo;ve mentioned before on this blog and people much smarter than me have been pointing out since forever, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">goals are no good</a> and (lasting) <a href="/Weekly-Head-Voices-125/#Happy-Not-Happy">happiness is probably not attainable</a>.</p>
+<p>Discarding as many as possible of these sorts of fetters is liberating (you Buddhist), but can seem to leave holes in one&rsquo;s  life narrative. However, treating your life as a super long practice session is an interesting perspective.</p>
+<p>There is also no end point, and no real life goal.</p>
+<p>The only point of the whole exercise (yes, I see what I did there) is to try to improve continuously. Every day, we try to become a little better at our jobs, or at running, or at being a good human, or a partner, or a parent.</p>
+<p>Practice means that you have good days and bad days. It means that you sometimes look back and think that you were a better person then than you are now. Practice means that when you pick one activity, another will temporarily languish until you can make time for it again.</p>
+<p>All of this is ok, because tomorrow you have a whole new day to try again.</p>
+]]></content:encoded></item><item><title>Python 2.6 enabled VTK 5.4 Windows binaries</title><link>https://cpbotha.net/2009/08/13/python-2-6-enabled-vtk-5-4-windows-binaries/</link><pubDate>Thu, 13 Aug 2009 21:37:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/08/13/python-2-6-enabled-vtk-5-4-windows-binaries/</guid><description> You can always check my Latest VTK Windows binaries page to make sure you have the latest blog posting and hence the latest binaries. It also links to the “old” Python 2.5 VTK 5.4.1 binaries. I’ve made available my home-baked VTK 5.4.2 Windows binaries. These have the new-and-improved version of my python-exception-patches integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!</description><content:encoded><![CDATA[ <p><a href="http://www.vtk.org/"><img alt="" border="0" class="alignnone" height="100" src="http://vtk.org/opensourcelogos/vtk100.png" style="border: 0pt none;" width="456"/></a></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+<em>You can always check my <a href="http://cpbotha.net/software/latest-vtk-windows-binaries/" style="color: #0060ff; text-decoration: underline; padding: 0px; margin: 0px;" title="Latest VTK Windows binaries page.">Latest VTK Windows binaries page</a> to make sure you have the latest blog posting and hence the latest binaries.  It also links to the “old” Python 2.5 VTK 5.4.1 binaries.</em>
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  I’ve made available my home-baked VTK 5.4.2 Windows binaries.  These have the <a href="http://code.google.com/p/devide/source/detail?spec=svn3800&amp;r=3732" title="Link to new and improved Python exceptions patch.">new-and-improved version of my python-exception-patches</a> integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!) and have been built with Visual Studio 2008 (9.0) SP1 on Windows XP SP3 with full Python 2.6 support.  Get the binaries (or my patched source) from the two links below.  You want the binaries if you want to use VTK from Python.
+</p>
+<ul>
+<li>Binaries: <a href="http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.4/VTK-5-4-2-Py26-VS9sp1-win32-cpbotha.net.zip" title="Link to vtk 5.4.2 python 2.6 win32 binaries">VTK-5-4-2-Py26-VS9sp1-win32-cpbotha.net.zip</a></li>
+<li>Source: <a href="http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.4/VTK-5-4-2-source-cpbotha.net.zip" title="Link to patched VTK 5.4.2 source I used to bulid this.">VTK-5-4-2-source-cpbotha.net.zip</a></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+<strong>IMPORTANT</strong>: you might have to install the MS VS2008 SP1 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&amp;displaylang=en" title="Link to MS VS2008 SP redistributable">vcredist_x86</a> package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+<strong>P</strong><strong>lease leave a comment on this blog posting if you use these or just hate them</strong>. It’s almost like postcard-ware, but with blog comments. Please also link to this page and not directly to the download location, thanks!
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  To use this from Python, you need to add the following to your PATH:
+</p>
+<ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 40px; list-style-type: square; padding: 0px;">
+<li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding: 0px;">
+    d:\opt\VTK\bin
+  </li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  You also need to add <strong>all of the above</strong> to PYTHONPATH, as well as the following:
+</p>
+<ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 40px; list-style-type: square; padding: 0px;">
+<li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding: 0px;">
+    d:\opt\VTK\lib\site-packages
+  </li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  … where d:\opt is the drive and directory where you unpacked the ZIP file.
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  Once you’ve done this and logged out and in again, “import vtk” should work at the Python prompt. Shameless plug: you can use my free <a href="../software/envedit" style="color: #0060ff; text-decoration: underline; padding: 0px; margin: 0px;" title="envedit homepage">envedit</a> software to do the environment editing. It beats the default XP editing thingy.
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+</p>]]></content:encoded></item><item><title>Python 2.5 enabled VTK 5.4 Windows binaries</title><link>https://cpbotha.net/2009/05/23/python-25-enabled-vtk-54-windows-binaries/</link><pubDate>Sat, 23 May 2009 19:27:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/05/23/python-25-enabled-vtk-54-windows-binaries/</guid><description> You can always check my Latest VTK Windows binaries page to make sure you have the latest blog posting and hence the latest binaries.
+I’ve made available my home-baked VTK 5.4 (actually build from a CVS VTK-5-4-1 tag checkout) Windows binaries. These have the new-and-improved version of my python-exception-patches integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!</description><content:encoded><![CDATA[ <img alt="" class="alignnone" height="100" src="http://vtk.org/opensourcelogos/vtk100.png" style="border: 0pt none;" width="456"/>
+<p><em>You can always check my <a href="http://cpbotha.net/software/latest-vtk-windows-binaries/" title="Latest VTK Windows binaries page.">Latest VTK Windows binaries page</a> to make sure you have the latest blog posting and hence the latest binaries.</em></p>
+<p>I’ve made available my home-baked VTK 5.4 (actually build from a CVS VTK-5-4-1 tag checkout) Windows binaries.  These have the <a href="http://code.google.com/p/devide/source/browse/trunk/johannes/patches/pyvtk_tryexcept_and_pyexceptions_20090519_vtk-5-4-1.diff" title="link to new and improved pyexceptions patch">new-and-improved version of my python-exception-patches</a> integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!) and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going <a href="http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.4/" title="Link to VTK 5.4 binaries download directory">here</a>.  You want the binaries if you want to use VTK from Python.</p>
+<p><strong>IMPORTANT</strong>: you might have to install the MS VS2005 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=32BC1BEE-A3F9-4C13-9C99-220B62A191EE&amp;displaylang=en" title="link to vcredist_x86.exe">vcredist_x86</a> package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.</p>
+<p><strong>P****lease leave a comment on this blog posting if you use these or just hate them</strong>. It’s almost like postcard-ware, but with blog comments. Please also link to this page and not directly to the download location, thanks!</p>
+<p>To use this from Python, you need to add the following to your PATH:</p>
+<ul>
+<li>d:\opt\VTK\bin</li>
+</ul>
+<p>You also need to add <strong>all of the above</strong> to PYTHONPATH, as well as the following:</p>
+<ul>
+<li>d:\opt\VTK\lib\site-packages</li>
+</ul>
+<p>… where d:\opt is the drive and directory where you unpacked the ZIP file.</p>
+<p>Once you’ve done this and logged out and in again, “import vtk” should work at the Python prompt. Shameless plug: you can use my free <a href="../software/envedit" title="envedit homepage">envedit</a> software to do the environment editing. It beats the default XP editing thingy.</p>
+]]></content:encoded></item><item><title>What I did this, err, summer</title><link>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</link><pubDate>Mon, 17 Nov 2008 21:20:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</guid><description> Taking a hint from Joe, aka Swimgeek, here’s a summary of my life since the previous time we spoke:
+The VCBM 2008 workshop, my first attempt at playing the organising conference chair, went swimmingly. Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends. I stopped stressing during the conference dinner. I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats.</description><content:encoded><![CDATA[ <p>Taking a hint from Joe, aka <a href="http://www.swimgeek.com/blog/" title="Link to Swimgeek's blog">Swimgeek</a>, here’s a summary of my life since the previous time we spoke:</p>
+<ul>
+<li>The <a href="http://vcbm.org/2008" title="Link to VCBM 2008 website">VCBM 2008 workshop</a>, my first attempt at playing the organising conference chair, went swimmingly.  Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends.  I stopped stressing during the conference dinner.</li>
+<li>I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats.  Can’t find the stats?  Go figure out how to copy and paste, then get back to me. :) ) and acquired a Nokia E71.  <em>Best. Gadget. EVAR.</em></li>
+<li>Had a fan-tas-tic holiday in South Africa.  Had profound conversations and the most raucous get-togethers with best friends and family.  Realised again how extremely lucky I am with people I’m this close with, on two different continents.  Linked up with my dad for the first time in too many years, which was cool.</li>
+<li>Migrated my extremely complex todo system (I’m a foaming-at-the-mouth <a href="http://en.wikipedia.org/wiki/Getting_Things_Done" title="Link to Wikipedia article on GTD">GTD</a> follower) from <a href="http://todoist.com/" title="Link to Todoist">todoist</a> to a local installation of the open-source RoR-based <a href="http://www.rousette.org.uk/projects/" title="Link to Tracks website.">Tracks</a> software.  Todoist is really cool, but it’s very much deadline-oriented, whilst in the GTD world deadlines are just so passé.  DAMN I’m with it.</li>
+<li>My laptop was sort of stolen and then returned 5 minutes later.  Besides the acute trauma that this caused, it got me wondering about the security of the Windows XP Encrypted File System thingy that I use to encrypt some of the more sensitive, err, documents on my laptop.  On Windows 2000, the fact that on a local install the administrator was the default data recovery agent (DRA), made it possible to decrypt a user’s files without having to crack that user’s password.  On a local install of XP, this is fortunately NOT the case.  I repeat, <a href="http://support.microsoft.com/kb/887414" title="Link to MS KB article concerning DRA on XP."><strong>on a local install of XP there is no default recovery policy</strong></a>.  In other words, a laptop thief needs to <strong>crack your password to decrypt your EFS encryption</strong>.  You can double check this by <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=9c70306d-0ef3-4b0c-ab61-81da208f5c47&amp;displaylang=en" title="Link to efsinfo">downloading efsinfo</a> and running it on your files with “efsinfo /u /r your_files”.  It should confirm that there’s no recovery agent.  You should also check the strength of your Windows passwords with <a href="http://ophcrack.sourceforge.net/" title="Link to ophcrack.">ophcrack</a>.  Your EFS is only as strong as the user password protecting it.  After my little episode, I’ve deleted most of those sensitive, err, documents from my laptop (they’re duplicated on a server at home) and encrypted even larger parts of my laptop hard drive, just in case.</li>
+</ul>
+<p>Now I’m supposed to conclude this blow-by-blow with something profound.  I know, I’ll end with a quote attributed to Plato that I first saw in the PhD thesis of a friendly colleague.  At the time it made quite an impression on me:</p>
+<blockquote>
+<p><span class="huge">Be kind, for everyone you meet is fighting a hard battle.</span></p>
+</blockquote>
+<p>Heck, it still does.</p>
+]]></content:encoded></item><item><title>The Microsoft and I</title><link>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</link><pubDate>Tue, 13 May 2003 14:22:34 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</guid><description> I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. This section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with some standard. :)</description><content:encoded><![CDATA[ <p>I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">This</a> section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with <em>some</em> standard. :)</p>
+]]></content:encoded></item><item><title>Where should that dang button go?</title><link>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</link><pubDate>Sun, 04 May 2003 14:59:54 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</guid><description> So, here we have the Aqua Human Interface Guidelines (i.e. the MacOS-X user interface guidelines), the GNOME Human Interface Guidelines, the KDE User Interface Guidelines and of course the Microsoft Windows Official Guidelines for User Interface Developers and Designers (I came back in January of 2018 to fix this link — also interesting is the section on margins and spacing).
+Apple says that “The default button for dismissing a dialog should go in the lower-right corner.</description><content:encoded><![CDATA[ <p>So, here we have the <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/index.html">Aqua Human Interface Guidelines</a> (i.e. the MacOS-X user interface guidelines), the <a href="http://developer.gnome.org/projects/gup/hig/">GNOME Human Interface Guidelines</a>, the <a href="http://developer.kde.org/documentation/standards/kde/style/basics/index.html">KDE User Interface Guidelines</a> and of course the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn688964(v=vs.85).aspx">Microsoft Windows Official Guidelines for User Interface Developers and Designers</a> (I came back in January of 2018 to fix this link — also interesting is the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">section on margins and spacing</a>).</p>
+<p>Apple <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/AHIGLayout/chapter_8_section_2.html">says</a> that “The default button for dismissing a dialog should go in the lower-right corner. If there’s a Cancel button, it should be to the left of the default button.”. Gnome <a href="http://developer.gnome.org/projects/gup/hig/1.0/windows.html#alert-button-order">seems to imply</a> that the default button should be on the bottom right, with other buttons to its left, which is more or less consistent with the Apple guidelines.</p>
+<p>Microsoft <a href="http://msdn.microsoft.com/library/default.asp?url=https://cpbotha.net/library/en-us/dnwue/html/ch09d.asp">says</a>: “Lay out the major command buttons either stacked along the upper right border of the dialog box or lined up across the bottom of the dialog box. Position the most important button — typically the default command — as the first button in the set.” The KDE User Interface Guidelines don’t seem to set specific constraints on this kind of button placement, but judging by many of the standard KDE 3.1 applications, the dialogs seem to follow the Windows convention.</p>
+<p>more</p>
+<p>So, amongst these major user interfaces, it seems there are two camps: the “default-button-first-in-the-group” camp and the “default-button-in-the-bottom-right-corner” camp, which leaves us with a major headache if we’re trying to develop cross-platform software. No matter what convention you choose for, there are going to be clashes between the dialog boxes you’ve designed for your application and the OS-specific common dialogs (e.g. colour selection, font selection, etc.) that you’re bound to use.</p>
+<p>I’m afraid that I’m going to have to opt for the Windows/KDE convention. Linux users have learnt to live with the inconsistency (KDE vs Gnome conventions in this case) and will probably not notice. Windows users on the other hand, are quite used to the relative position of their buttons. I confirmed this by conducting a survey amongst a large group consisting of one novice Windows user. How’s that for solid research?</p>
+<p>Seriously though, the application in question will mostly be used by two kinds of users: Doctors or non-geek professionals using Windows and Super-Geeks Using Linux. The former group will probably be significantly larger than the latter group.</p>
+<p>What do you think?</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>orgmode on voices in my head</title><link>https://cpbotha.net/tags/orgmode/</link><description>Recent content in orgmode on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 24 Mar 2020 21:37:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/orgmode/index.xml" rel="self" type="application/rss+xml"/><item><title>The Morgan McGuire Markdeep project Management Method: MMMMM.</title><link>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</link><pubDate>Tue, 24 Mar 2020 21:37:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</guid><description> This weekend, Morgan McGuire, graphics and game programming god, tweeted a thread about his text journal based method of software development project management.
+Here I single out three of the tweets, but you should really read the whole thread:
+When coding, I always maintain a journal in the repo (I happen to use Markdeep for this now) with a TODO list.
+Tasks are at the level of one hour for &amp;ldquo;today&amp;rdquo; stuff, one day for next week, and then week- or longer level tasks.</description><content:encoded><![CDATA[ <p>This weekend, Morgan McGuire, graphics and game programming god, <a href="https://twitter.com/CasualEffects/status/1241329539902570498">tweeted a
+thread about his text journal based method of software development project
+management</a>.</p>
+<p>Here I single out three of the tweets, but you should really read the whole
+thread:</p>
+<blockquote>
+<p>When coding, I always maintain a journal in the repo (I happen to use Markdeep
+for this now) with a TODO list.</p>
+<p>Tasks are at the level of one hour for &ldquo;today&rdquo; stuff, one day for next week,
+and then week- or longer level tasks.</p>
+<p>I expand the details for the next week on Friday.</p>
+</blockquote>
+<p>Tweet 3:</p>
+<blockquote>
+<p>When I start working on the top, ~1-hour item, on the list, I immediately
+expand it recursively until the subtasks are completely braindead to
+implement.</p>
+<p>I do all of the hard part of programming here, in the TODO list, figuring out
+the library calls, designing the APIs, etc.</p>
+</blockquote>
+<p>Tweet 4:</p>
+<blockquote>
+<p>When I get into the actual source code, I&rsquo;m just working from my own
+walk-through on the TODO list, and I only need to think about syntax and code
+cleanup. I can focus on programming legibly in the small instead of worrying
+about the big picture.</p>
+</blockquote>
+<p>He shows the following screenshot as an example:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<p>This is such a brilliant way of doing the highest level &ldquo;programming&rdquo; in an
+outlining tool, and then working one&rsquo;s way down until it&rsquo;s eventually time to
+jump into the code.</p>
+<p>I can also immediately see how well this would work in a team context.</p>
+<p>During the planning session, the outline could be collaboratively fleshed
+out. Furthermore, as McGuire states, it can be fleshed out differently
+depending on the experience level of the team member.</p>
+<p>This makes me wonder how much we as engineers <em>really</em> need the Jiras and the
+YouTracks and the DevOpses of the world?</p>
+<p>(Just joking folks, I know we need it, but perhaps we could do with a little
+more MMMMM in our lives?)</p>
+<h2 id="markdeep">Markdeep.</h2>
+<p>Almost in passing McGuire mentions markdeep, the system he designed for
+extremely agile technical documentation.</p>
+<p>A friend from work introduced me to this years ago (thanks HB!), but then I
+somehow missed its genius.</p>
+<p>One of the core ideas that makes markdeep so interesting and useful, is that
+the markdeep plaintext markup (it&rsquo;s like supercharged markdown) is embedded in
+an extremely thin layer of HTML which invokes the markdeep.js renderer on
+itself.</p>
+<p>In other words, you edit the self-contained <code>.md.html</code> file with your favourite
+text editor, but when you open this file in your browser, a single line of HTML
+at the end pulls in <code>markdeep.min.js</code> from a CDN or from your local disc, and
+renders the beautifully typeset version of the document.</p>
+<p>As if that was not enough, markdeep has extensive support for the SVG rendering
+of ascii art.</p>
+<p>See the following pages for more information:</p>
+<ul>
+<li><a href="https://casual-effects.com/markdeep/">The Markdeep website</a>.</li>
+<li><a href="https://casual-effects.com/markdeep/features.md.html">The extensive Markdeep demo
+document</a> - especially
+the <a href="https://casual-effects.com/markdeep/features.md.html#diagramexamples">diagram
+examples</a>
+are impressive!</li>
+</ul>
+<p>For my own notes I am sticking to <a href="https://orgmode.org/">Orgmode</a> (if you&rsquo;re an
+emacs user, it&rsquo;s more powerful), but there will surely be situations where the
+self-contained Markdeep makes more sense.</p>
+<h2 id="the-graphics-codex">The Graphics Codex.</h2>
+<p>Markdeep has been used to author a number of books, but <a href="http://graphicscodex.com/">The Graphics
+Codex</a> must be one of the more amazing examples, in
+terms of its interactivity and just general prettiness.</p>
+<p>The iPhone app version looks like this:</p>
+<a href="http://graphicscodex.com/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png"
+  
+
+   />
+
+
+
+</a>
+<p>I bought the web version not because I currently need a graphics reference, but
+rather because it is a thing of beauty, and because I wanted to be able to see
+better how it all works.</p>
+]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
+The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
+<p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
+context for the development of other ideas for habit tracking tricks and tools.</p>
+<h2 id="the-importance-of-habits">The importance of habits.</h2>
+<p>If you have some experience being, you know, alive, and perhaps even trying to
+get just that little bit better at it every day, you will have realised by now
+that being able to form and maintain good habits is almost a super power.</p>
+<p>(Other real-life super powers: Kindness. Peace. Focus. I digress&hellip; haha.)</p>
+<p>All of those promises we make to ourselves to read more, to eat better, to
+exercise more, to meditate regularly, and so on: The key to making all of these
+happen is forming and then maintaining habits.</p>
+<p>First the habit has to be created out of nothing, and once it&rsquo;s up and running,
+the idea is to keep going at it for as long as possible.</p>
+<p><a href="/2019/09/09/weekly-head-voices-177-streakers/#life-optimisation-tip-73-streak-more">Streaking</a>,
+that is trying to continue for as long as possible without any interruption, is
+a fun and effective trick to keep at it.</p>
+<p>However, it is just as important being able to restart a new streak once the
+previous one has been broken for whatever reason.</p>
+<h2 id="what-the-orgmode-habit-tracker-does">What the Orgmode habit tracker does.</h2>
+<p>Up to now, I mostly used <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">daily checklists to keep track of healthy
+habits</a>, but for
+some habits, especially ones with a non-daily frequency, this does not work so
+well.</p>
+<p>A significant step up from daily checklists, the <a href="https://orgmode.org/manual/Tracking-your-habits.html">Emacs Orgmode habits
+function</a> enables you:</p>
+<ul>
+<li>to specify any number of habits, each with different, sometimes less regular
+frequencies;</li>
+<li>to track when you perform a habit and when you should next perform it and finally</li>
+<li>to visualize if you are performing according to the specifications you have
+set.</li>
+</ul>
+<p>For example: I would like to run at least three times a week. There should be
+at least one rest day after a running day (I&rsquo;m not a spring chicken
+anymore). There should be a maximum of three rest days allowed (this usually
+happens after a longer weekend run).</p>
+<p>Although I enjoy running enough to keep this habit up by myself, I chose it as
+a first test of the Orgmode habits function.</p>
+<p>So far I have setup two other simpler examples:</p>
+<ul>
+<li>A core exercise which I call &ldquo;The Wheel&rdquo; (of pain). This has to happen every
+second day, usually in between running days.</li>
+<li>&ldquo;Deep reading&rdquo;, which is meant to describe a session of focused reading of
+long-form, i.e. mostly books. This has to happen every day.</li>
+</ul>
+<p>Before starting tracking of these latter two habits slightly more than a week
+ago, I somehow kept on letting them slip.</p>
+<p>This morning, my org-agenda looked like this:</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot.png">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>In the figure you can see that today, represented by the exclamation mark <code>!</code>,
+I will have to schedule in a session of deep reading (indicated by the yellow
+colouring), and a session of &ldquo;the wheel&rdquo;.</p>
+<p>The running habit graph  is showing that I still have three days, including
+today, on which I do not have to run.</p>
+<p>By default it would not have displayed today, because I ran yesterday, as shown
+by the asterisk <code>*</code>, and I specified that minimum of one rest day. However, I
+temporarily configured it to show today for the sake of this exposition.</p>
+<p>To summarise: These habit graphs show up as part of your org-agenda view and
+show you at a glance when you should perform which habits, and, quite
+importantly, how long you have been streaking a particular habit.</p>
+<h2 id="how-to-setup-orgmode-habits">How to setup Orgmode habits.</h2>
+<h3 id="global-configuration">Global configuration.</h3>
+<p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
+the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp">(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
+state logging for the task <code>DONE</code> state:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
+<span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
+      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
+<span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
+<span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
+<p>Then, start creating the special habit nodes as explained in the following:</p>
+<p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
+journal file</a>:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #BFEBBF; background-color: #3F3F3F;">** </span><span style="color: #CC9393; font-weight: bold;">TODO</span><span style="color: #BFEBBF; background-color: #3F3F3F;"> Running</span>
+<span style="color: #7F9F7F;">SCHEDULED:</span> <span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-11-03 Sun .+2d/4d&gt;</span>
+<span style="color: #7F9F7F;">:PROPERTIES:</span>
+<span style="color: #7F9F7F;">:STYLE:</span>    habit
+<span style="color: #7F9F7F;">:LAST_REPEAT:</span> <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+<span style="color: #7F9F7F;">:END:</span>
+<span style="color: #7F9F7F;">:LOGBOOK:</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-30 Wed 15:41]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-26 Sat 14:14]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-24 Thu 19:11]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-22 Tue 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-20 Sun 10:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-16 Wed 08:13]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-13 Sun 10:00]</span>
+- Created "TODO" <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-23 Wed 09:53]</span>
+<span style="color: #7F9F7F;">:END:</span>
+</pre>
+<p>The <a href="https://orgmode.org/manual/Tracking-your-habits.html">orgmode habits
+documentation</a> explains
+that a habit is a special sort of <code>TODO</code> node with the following additional
+properties, which can all be seen in the above example:</p>
+<ul>
+<li>The node has a <code>:STYLE:</code> property of <code>habit</code>. Configure with =M-x
+org-set-property=.</li>
+<li>The node has a <code>SCHEDULED</code> date in the future on the next date when this
+habit should take place, along with a frequency / time constraint
+specification, in this case <code>.+2d/4d</code>, meaning that at the most every second
+day, and at the least every fourth day.</li>
+</ul>
+<p>Furthermore, with <code>DONE</code> state logging configured as explained above, you&rsquo;ll
+get the <code>LOGBOOK</code> with the required state changes used by the habit graphs.</p>
+<h3 id="in-use">In use.</h3>
+<p>Whenever you&rsquo;ve completed a habit, fire up Emacs (I&rsquo;m joking of course: Emacs
+is always running) and then toggle the state of the habit to <code>DONE</code>.</p>
+<p>You&rsquo;ll see that it briefly toggles to <code>DONE</code>, and then automatically switches
+back to <code>TODO</code>.</p>
+<p>(There&rsquo;s some philosophical lesson to be learned from that&hellip;)</p>
+<p>When this happens, the <code>:LAST_REPEAT:</code> timestamp will be automatically updated
+to the current time, and, more importantly, the <code>SCHEDULED</code> date will be
+automatically updated to the next earliest date when this habit should be
+exercised.</p>
+<p>In the case of the running example above, that will be tomorrow, as today is a
+rest day.</p>
+<p>Whenever you activate org-agenda, you&rsquo;ll see the habit graphs right at the top,
+by default only on the days when they are actually scheduled. In the running
+example, that habit will not appear on rest days. (This can naturally be
+configured, see <code>M-x describe-variable RET org-habit-show-all-today</code>).</p>
+<h2 id="conclusion">Conclusion.</h2>
+<ul>
+<li>Being able to forming and maintain habits can form an important component of
+better living.</li>
+<li><em>Habit streaking</em> is a fun psychological trick to keep you going.</li>
+<li>However, don&rsquo;t be disheartened by a broken streak. Get back on that horse and
+try again.</li>
+<li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
+maintain habits, especially non-daily ones.</li>
+</ul>
+]]></content:encoded></item><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
+What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+then</a>.</p>
+<p>In the intervening three and a half years, my note-taking has further evolved
+to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
+to support this.</p>
+<p>Although note-taking is at the core of the system, a more accurate description
+of its current purpose would be <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management"><em>personal knowledge
+management</em></a>.</p>
+<p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
+learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
+journal&rdquo;</a>.</p>
+<h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
+<p>My approach consists of four main components:</p>
+<p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
+<p>As you might know, Org mode is infinitely flexible. This is where all of my
+projects and tasks are tracked. This is also where I keep my daily personal and
+work journals.</p>
+<p>I describe the specific directory structure and orgfile setup in the sections
+below.</p>
+<p>I continually and actively search for and find interesting <strong>2. Web-pages and
+Articles</strong>, both academic and less so, which I convert to PDF and store in a
+year-stamped directory inside of my
+<a href="https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>.</p>
+<p><strong>3. Academic articles</strong> that I plan to refer to in my own writings graduate into my
+Zotero bibliographic database, which is synced together with everything else.</p>
+<p>On <strong>4. Mobile</strong> (phone and watch, oh my!), I use the Dropbox app for capturing
+and for limited access to my notes database via a small subset of markdown
+files, PDFs and exported HTML, and I use the new WatchOS 6 voice notes if I&rsquo;m
+not able to use my phone.</p>
+<h3 id="other-noteworthy-characteristics">Other noteworthy characteristics.</h3>
+<p>Everything mentioned above lives on local drives, synced with Dropbox and also
+automatically and continuously backed-up to a removable disk at my office.</p>
+<p>The Org mode part of the system has been in use since 2014. I have also
+imported a few years of Simplenote text notes into Org mode, so its memory
+stretches a bit further back still.</p>
+<p>The longer the system lasts, the more valuable it gets.</p>
+<p>It has now happened more than once that I could help someone with the same
+advice I helped someone else with 4 years ago, simply because the real-time
+text search found the relevant snippet of code or attachment in my Org mode
+database.</p>
+<p>Even if I were ever to change tools, the current single source of truth is a
+collection of plaintext org files and PDF files which can easily be further
+processed and imported into some new system.</p>
+<h2 id="the-components-in-slightly-more-detail">The components in slightly more detail.</h2>
+<p>In the following sections, I explain each of the four components in more detail
+than in the overview above.</p>
+<h3 id="emacs-org-mode">Emacs Org mode.</h3>
+<p>The heart of my knowledge management system, let&rsquo;s call it <code>pkb4000</code>, is <a href="https://orgmode.org/">Emacs
+Org mode</a>. Org mode, or &ldquo;Your life in plaintext&rdquo;, is a
+powerful text-file-based system for managing notes, task lists, projects and
+even authoring documents.</p>
+<p>Once you get used to the programmable flexibility it offers, you will find it
+hard to go back to any conventional system.</p>
+<h4 id="monthly-journal-files">Monthly journal files.</h4>
+<p>In my main Org mode directory, I have a subdirectory named <code>journals</code>, which
+contains a directory for each year.</p>
+<p>Each of these year directories contains an <code>.org</code> file for each month, so we would have for example
+<code>journals/2019/2019-09-Sep.org</code>.</p>
+<p>Each month file follows the structure showed in the following redacted version
+of my current journal file:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #b3b3b3;">#+TITLE:</span> <span style="color: #8CD0D3; background-color: #3F3F3F; font-weight: bold;">2019-09 September month journal
+</span>
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Vitals</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Focus items</span>
+Topics and reminders I would like to spend a few minutes on during every
+morning review: High value time, always be compounding, always be in a focus
+block, etc.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Tired list</span>
+A general list of valuable activities for when I have some time, but brain too
+tired to come up with anything.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Planning / overview / major done list</span>
+Check lists with books, courses, etc.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Projects</span>
+A list of current major projects, with links to each project's dedicated org
+file.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Tasks</span>
+A list of Org mode tasks that are not associated with specific projects. This
+list is reviewed at the start of every month, as I have to manually copy across
+those tasks that are still relevant and important.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* 2019</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* 2019-09 September</span>
+<span style="color: #3F3F3F;">**</span><span style="color: #7CB8BB; background-color: #3F3F3F;">* 2019-09-19 Thursday (example day)</span>
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* Day planning </span><span style="color: #8CD0D3; text-decoration: underline;">[2019-09-19 Thu 09:17]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Done list / thoughts / diary</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks for today </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks that will satisfy end-of-the-day Charl </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Focus blocks</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Sleep</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Review </span><span style="color: #CC9393; font-weight: bold;">[3/8]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="*Vitals">Month vitals</a></span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> Calendar
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> Org tasks
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="file:~/Dropbox/notes/mobile/inbox/">dropbox mobile inbox</a></span>
+      - ...
+
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Habits / important </span><span style="color: #CC9393; font-weight: bold;">[7/12]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> 7.5 hrs sleep last night
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> are you satisfied with number of pomodori? = 0 (v R)
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> did you write stuff down?
+      - ...
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* is dropbox better than evernote for mobile capturing? </span><span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-09-19 Thu 22:16&gt;</span>
+
+     in ios, with any page in safari, I can do "save to dropbox" and get a PDF
+     version of the page for the <span style="color: #b3b3b3;">=notes/mobile/inbox=</span>.
+</pre>
+<p>As you can see from the example above, the monthly journal file is the main
+index to my current high-level goals and focus items, my currently running work
+and personal projects, miscellaneous tasks, and my detailed daily journalling
+and habit tracking.</p>
+<h5 id="daily-review">Daily review.</h5>
+<p>When I start the day, I instantiate a new org-capture &ldquo;day planning&rdquo; template
+by pressing <code>C-c c p</code>.</p>
+<p>This creates the <code>Day planning</code> subsection with all of its subsections and
+checklists. As you will see, this guides me through the morning review, which
+in turn has me check each of those additional sources of incoming information
+and tasks.</p>
+<p>New bits of information are filed into their correct place, whilst the task
+review shows me a list of tasks, extracted from the month file and the list of
+current project files, so that I can decide which ones should be taken on.</p>
+<p>I list tasks which should preferably be taken care of today under <code>Tasks for today</code>, whilst any really high-value high-satisfaction tasks go under <code>Tasks that will satisfy end-of-the-day Charl</code>.</p>
+<h5 id="during-the-day">During the day.</h5>
+<p>During the rest of the day, I&rsquo;ll write short diary-like notes under <code>Done list / thoughts / diary</code> and log pomodori (focus blocks) under, you guessed it,
+<code>Focus blocks</code>, either using the <code>org-pomodoro</code> package, or plain Org mode
+clocking in and out functions.</p>
+<p>I use additional custom org-capture templates, via keyboard shortcuts, to
+create more extensive timestamped journal entries (see the <code>is dropbox better ...</code> example) and to create new timestamped and logged Org mode <code>TODO</code> entries.</p>
+<h5 id="kill-your-darlings-during-the-monthly-review">Kill your darlings (during the monthly review).</h5>
+<p>I&rsquo;ve mentioned this before, but it&rsquo;s just an important aspect of my &ldquo;system&rdquo;
+that I would like to mention it again.</p>
+<p>When I still used primitive task management systems such as <em>everything else</em>
+that&rsquo;s not Org mode, the collection of more mature tasks would soon grow out of
+control.</p>
+<p>However, because I create a new Org mode file for every month, I have to copy
+across manually any tasks that have not been completed yet.</p>
+<p>&ldquo;WHY IS THAT NOT AUTOMATED YET?!&rdquo; you are probably thinking.</p>
+<p>Well, the advantage of having to copy each task over manually is that it is the
+ideal opportunity to evaluate the task and ask some hard questions as to its
+continued relevance&hellip;</p>
+<p>When a task gets too old, I will often make the decision to change its status
+to <code>CANC</code> (for cancelled), sometimes with the reason for the cancellation
+explained in the task body, and then just leave it there in the old month file.</p>
+<p>With most of these task systems, regular reviews are of crucial importance. The
+monthly start-over is a great, almost enforced, opportunity for review, as is
+the morning routine when I instantiate the day planner template.</p>
+<h5 id="what-about-email">What about email?!</h5>
+<p>An important part of knowledge and task management is one&rsquo;s emails.</p>
+<p>Although I currently prefer processing my email using
+<a href="/2019/07/17/weekly-head-voices-173-i-know/#would-you-like-some-more-emacs-with-that-email"><code>mu4e</code></a>,
+an email client which lives inside of Emacs, I have used other tools in the
+past, and will probably use new tools in the future.</p>
+<p>Also, even at this moment I alternate between <code>mu4e</code> and the
+<a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">FastMail</a>
+web-interface.</p>
+<p>Long story short, I have it setup so that I can easily convert any email in
+<code>mu4e</code> into a universal <code>message://message-id</code> link to be integrated with a
+new task or note entry.</p>
+<p>When I later open that link using a shortcut, I have programmed it so that
+<code>mu4e</code> will open the relevant email if it is active, or the <code>FastMail</code> webmail
+when it is not. From here I can either review the email to see what the
+associated task requires, or respond to it, if the task has been completed.</p>
+<p>Some of these <code>message://</code> links were created using macOS mail and they still
+work. In future, if I add a new mail client to the mix, I will still be able to
+jump to specific old emails, no matter where they find themselves inside of my
+FastMail mailboxes.</p>
+<h4 id="core-notes-database">Core notes database.</h4>
+<p>With <code>database</code> I of course refer to hundreds of org and markdown files, most
+of which find themselves in the top-level <code>pkb4000</code> directory, one level up
+from the <code>journals</code> directory containing all of the monthly journal files.</p>
+<p>There are files on various <code>rsync</code> or <code>ffmpeg</code> invocations, files on
+programming languages, software tools, note-taking strategies, personal
+information on each of my kids, and much more.</p>
+<p>Org mode enables me to combine document structure, math, vector and bitmap
+images and executable source code in many different languages.</p>
+<p>I have configured my Emacs (where by &ldquo;configured&rdquo; I mean &ldquo;coded up the emacs
+lisp for&rdquo;) to invoke ripgrep on different subsets of my notes database, and to
+proffer up the results in different ways.</p>
+<p>I can usually find anything that went in to this database at any point.</p>
+<p>What I really like, is also being able to tell you on which day, and during
+which hour, I learned this or that, or experimented with something or the
+other.</p>
+<h4 id="project-files">Project files.</h4>
+<p>Work and personal projects each get their own Org file. Some projects even get
+a whole directory to themselves, in cases where the project will have many more
+files than just the main Org file.</p>
+<p>In all cases, the project org file will live somewhere below a year-stamped
+directory, e.g. <code>work/projects/2019/project-name/</code>.</p>
+<p>Some projects go over year boundaries, but their files and directories remain
+in the year that they started in. The project org also has <code>Tasks</code> and a
+datetree section, similar to the month journal.</p>
+<p>All current project files, along with my the current month file, are configured
+to be part of the <code>org-agenda-files</code> variable.</p>
+<p>This means that when I activate the <code>org-agenda</code> view, I see a unified list of
+all tasks as extracted from all current project files and the current monthly
+journal file.</p>
+<p>When a project is completed, it is of course removed from <code>org-agenda-files</code>.</p>
+<h3 id="web-pages-and-articles">Web-pages and articles.</h3>
+<p>As mentioned in the short system overview, I store all web-pages and articles I
+come across as date-stamped PDF files in a set of year-stamped directories.</p>
+<p>For more detail, please refer to the
+<a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>
+section of WHV#165 on this blog.</p>
+<p>In short, I use good ad-blocking and <em>mostly</em> the <a href="https://www.printfriendly.com/">printfriendly browser
+extension</a> in Brave or Chromium to convert any
+interesting web-pages to PDF. PDF articles from journals and other reputable
+sources obviously don&rsquo;t have to be converted.</p>
+<p>I name and save these PDFs into my <code>refs</code> hierarchy, for example
+<code>Dropbox/refs/2019/20190518 Measles and Immune Amnesia - asm.pdf</code>.</p>
+<p>Usually, to win any argument, I can find the pertinent reference on my phone or
+my laptop in 30 seconds or less.</p>
+<p>(I used to be a paying Pocket subscriber. However, as you will read in WHV#165
+cited above, I was disappointed by the super important search function. The
+advantages of having Just a Bunch of PDFs on your (synced) disc are many.)</p>
+<h3 id="zotero">Zotero.</h3>
+<p>The <code>refs</code> directory hierarchy described above is great for quickly storing an
+article in the right place with a suitable name, ready for search-based
+retrieval later.</p>
+<p>However, in cases where one needs to cite any academics works, having these
+articles in a good reference manager is important.</p>
+<p>Zotero is in my view one of the best reference managers out there, and it&rsquo;s open
+source!</p>
+<p>The reasons I prefer zotero are:</p>
+<ul>
+<li>You can make use of their synchronisation service, or you can do it
+yourself. I have about 2.3GB of additional articles in zotero, so this is
+great.</li>
+<li>Zotero uses your browser to retrieve fulltexts automatically when you import
+any web-page with bibliographic information using the browser extension. This
+is great when you have access via your institution. Competing cloud services
+would historically use <em>their</em> servers to retrieve the fulltext, which would
+often not work.</li>
+<li>Zotero is open source. To me this is important, <a href="https://vxlabs.com/tags/zotero/">because on more than one
+occasion</a> I have been able to make small
+modifications to make it perform peculiar tricks I needed at that point.</li>
+</ul>
+<h3 id="mobile">Mobile.</h3>
+<p>This has always been the weakest part of my whole knowledge management system.</p>
+<p>Ideally, I would have easy access to my complete org database and any related
+files. Ideally, it would be possible to store any interesting tidbits I come
+across whilst browsing using my phone.</p>
+<p>So far I have invested time in the following apps and ecosystems:</p>
+<ul>
+<li>iCloud Notes: This was great, until <a href="/2019/04/27/new-laptop-2019/#so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">I sold my
+MacBook</a>. iCloud
+Notes web-access is terribly slow and more or less unusable. Whatever I have
+on mobile, needs to interoperate smoothly with desktop.</li>
+<li>Google Keep: This worked pretty well on mobile and via the web, but it&rsquo;s a
+closed off ecosystem. You can
+<a href="https://takeout.google.com/settings/takeout">&ldquo;takeout&rdquo;</a> your data, but you
+end up with ginormous HTML files (images are base64-encoded and included)
+that are not straight-forward to work with.</li>
+<li>OneNote: This has SO MUCH potential (free-form note-taking, drawing with
+Apple Pencil, apps for so many platforms, great organization, etc. etc.) but
+is just so frustratingly unusable due to syncing issues everywhere, even on
+my true-blue Windows 10 laptop with the true-blue official gold star
+Microsoft OneNote application. Microsoft is doing fantastic work in some
+domains (Visual Studio Code, .net core, WSL, etc. etc.) but in some others
+not so much it seems.</li>
+<li>Evernote: I recently just gave up and bought a premium subscription for the
+year, because Evernote is the industry standard and it had Apple Watch voice
+notes even before WatchOS 6 was released. In any case, although initially
+promising, Evernote is unfortunately quite slow at unpredictable moments
+(sharing web-page with evernote mobile app for storage can sometimes take 20
+second or more&hellip;) so I&rsquo;ve had to ditch it. Again.</li>
+</ul>
+<p>During all of this experimentation, I started storing mobile discoveries in a
+new section called &ldquo;inbox&rdquo; in the relevant note-taking app&rsquo;s organizational
+structure. During morning review, I go through the relevant inbox, and
+re-convert the relevant page into PDF for my more permanent archive.</p>
+<p>It dawned on me that this approach could also be applied with just the Dropbox
+app! It would be klunky, but at least not disappointing.</p>
+<p>So, when I want to store something from the phone, I either print to PDF or
+make use of the &ldquo;Save to Dropbox&rdquo; app extension, and then store the resultant
+PDF in <code>Dropbox/notes/inbox</code>. During morning review, PDFs in this directory are
+re-converted if required, and then stored in their more permanent home.</p>
+<p>Using the Dropbox app, I can also create markdown text files in the <code>inbox</code>
+directory.</p>
+<p>If I have something a little more extensive, I have the option of using the
+&ldquo;Voice Memos&rdquo; app, either on the phone, or even via the Apple Watch.</p>
+<p>In <code>Dropbox/notes/mobile</code> I keep items I often need to access from the phone:
+Think loyalty cards, markdown files with IP numbers and configuration of my
+home network, and so on. This directory is marked as &ldquo;available offline&rdquo;, so I
+can access its contents even when there&rsquo;s no data connection.</p>
+<p>Other than that, I do an export of my whole org database to HTML now and then,
+following a procedure similar to the one I used <a href="https://vxlabs.com/2018/10/29/importing-orgmode-notes-into-apple-notes/">to use for exporting Org mode
+to iCloud
+Notes</a>. The
+HTML versions are searchable on the phone.</p>
+<p>What would be better, is if the Dropbox iOS app would start recognising .org
+files as plaintext files, much like what it already does for markdown .md
+files. As it stands, I keep a small subset of my notes as markdown, instead of
+the superior org, for mobile editing.</p>
+<h4 id="drawing-with-apple-pencil-on-the-ipad-using-notability">Drawing with Apple Pencil on the iPad using Notability.</h4>
+<p>Sometimes one does need to sketch.</p>
+<p>This could be a rough UI, an architecture diagram, a data flow chart, or just
+doodling.</p>
+<p>Since about the end of 2018, I&rsquo;ve been using the <a href="https://apps.apple.com/za/app/notability/id360593530">Notability
+app</a> along with an iPad
+6th gen (2018 entry-level, the first non-Pro to support the Pencil) to doodle
+electronically.</p>
+<p>Notability automatically syncs all of these drawings as fully vectorised PDFs
+to my Dropbox. All handwritten text is quite smartly OCRd, and the OCRd version
+is stored as correctly positioned metadata behind my ugly scribbles.</p>
+<p>I would have liked Notability even more if it supported arbitrary canvas sizes
+(as it stands, only standard paper size in protrait mode), and had an always
+visible overview minimap.</p>
+<h4 id="signal-messaging-apps-brilliant-note-to-self-contact">Signal messaging app&rsquo;s brilliant &ldquo;Note to Self&rdquo; contact.</h4>
+<p>The <a href="https://signal.org/">Signal messaging app</a>, which you should all be using,
+has a built-in contact called &ldquo;Note to Self&rdquo;.</p>
+<p>As of late (since about December 2019) this has become my main <em>capturing tool</em>
+when I&rsquo;m on the phone.</p>
+<p>You can share links, media, photos, voice notes or a plain old text message,
+all of which will be securely stored, neatly timestampted to boot, in your
+conversation with this silent but very useful &ldquo;Note to Self&rdquo; character.</p>
+<p>During the morning review, I go through each of the shared items, processing
+them, and then add the message &ldquo;DONE =====&gt;&rdquo; to indicate that they have been
+completed.</p>
+<h2 id="limitations-and-points-for-improvement">Limitations and points for improvement.</h2>
+<p>The current system is great for capturing and search-based retrieval of
+personal knowledge.</p>
+<p>However, I miss functionality for making some of the higher-level patterns and
+networks more <em>discoverable</em>.</p>
+<p>For example, as I create a new orgmode entry, the system could show me related,
+older nodes (that is something I could implement&hellip;).</p>
+<p>Furthermore, it would have been great to see some form of visual representation
+of the associations between nodes, and of how they fit into higher-level
+concepts. This bit is slightly far-fetched.</p>
+<p>Interestingly, I just ran into the following paragraph at the end of <a href="/2016/01/05/note-taking-strategy-early-2016/">my 2016
+note-taking post</a>:</p>
+<blockquote>
+<p>However, I think that there might be room for a fourth type of tool that is
+more visual, supports rich and graphical linking between data items and even
+between sub-components of such items and, perhaps most importantly, enables
+us to build note landscapes that are natively as non-linear as our thoughts.</p>
+</blockquote>
+<p>Let&rsquo;s see what happens over the next few years!</p>
+<h2 id="appendix">Appendix</h2>
+<h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* Day planning %U
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Done list / thoughts / diary
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">- %?
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks for today [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Focus blocks
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Review [/]
+</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span><span style="color:#2aa198">- [ ] Org sub-projects
+</span><span style="color:#2aa198">- [ ] Calendar
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Habits / important [/]
+</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</code></pre></div><h2 id="updates">Updates</h2>
+<h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
+<ul>
+<li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
+configuration</a> in appendix.</li>
+<li>Add <a href="#drawing-with-apple-pencil-on-the-ipad-using-notability">section about iPad, Notability and Apple
+Pencil</a>.</li>
+<li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
+contact</a>.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Head Voices #177: Streakers.</title><link>https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/</link><pubDate>Mon, 09 Sep 2019 22:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/</guid><description> A piece of the Lourensriver, captured for you during a particularly challenging post-Sunday-lunch run. This edition of the WHV looks back at the two weeks from Monday August 26 to Sunday September 8, 2019.
+On friendship, 25 years later. The birthday mentioned previously, along with the portentous visit of a good friend from afar, led to at least two small celebrations (that I know of) with a bunch of us that have been friends for more than 25 years now.</description><content:encoded><![CDATA[ <figure>
+<a href="lourensriver_at_vergelegen.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>A piece of the Lourensriver, captured for you during a particularly
+challenging post-Sunday-lunch run.</figcaption>
+</figure>
+<p>This edition of the WHV looks back at the two weeks from Monday August 26 to
+Sunday September 8, 2019.</p>
+<h2 id="on-friendship-25-years-later">On friendship, 25 years later.</h2>
+<p>The birthday <a href="/2019/09/01/weekly-head-voices-176-cycle-of-life/#celebration">mentioned
+previously</a>,
+along with the portentous visit of a good friend from afar, led to at least two
+small celebrations (that I know of) with a bunch of us that have been friends
+for more than 25 years now.</p>
+<p>In the bigger scheme of things, it&rsquo;s not <em>that</em> long, but what I would like to
+mention here is how much such friendships can grow into the most honest of
+human connections.</p>
+<p>It is as if with the passing years, one is able to shed all of the unnecessary
+baggage one tends to carry around as a beginner human.</p>
+<p>What is left, is pure human warmth, unconditional support and, perhaps most
+significantly, the effortless loss of self.</p>
+<p><em>You</em> fade away, quite happily so, when one of your friends gets up in the
+light to tell a story.</p>
+<p>For a while at least, one&rsquo;s only representative in the conversation is one&rsquo;s
+undivided recognition of and attention to the other.</p>
+<p>This is certainly not reserved for 25+ year friendships, although this
+pre-requisite seems to facilitate the process to the point of effortlessness.</p>
+<h2 id="nested-headings-of-miscellany-nhom-nhom">Nested Headings of Miscellany (NHoM-NHoM).</h2>
+<h3 id="org-pdf-tools-for-constructing-unifying-notes">org-pdf-tools for constructing unifying notes.</h3>
+<p>Recently, I had to work through a stack of regulatory documents in PDF format.</p>
+<p>The challenge was that the documents described different aspects of a single,
+complicated procedure, but were severely lacking in overview-engendering
+outlines or, even better, diagrams.</p>
+<p>I did what I mostly do when faced with any research-related complexity: BUST
+OUT SOME MORE OF THAT EMACS!</p>
+<p>I found the Emacs package
+<a href="https://github.com/fuxialexander/org-pdftools/">org-pdftools</a>, which I then
+<a href="https://github.com/fuxialexander/org-pdftools/pull/4">PRd to work on my newer
+Orgmode</a> (github makes
+this sort of collaboration so easy!) and then integrated into my workflow.</p>
+<p>org-pdftools enables one to link to specific annotated extracts, created
+on-demand inside Emacs, from one&rsquo;s orgmode notes.</p>
+<p>I used this to synthesise an overview document explaining the whole process,
+linking to different parts of multiple PDFs explaining each aspect in more
+detail.</p>
+<p>Being able to jump effortlessly from a central overview document to specific
+positions in reference PDFs is a huge boon to the research process.</p>
+<h3 id="escalante">Escalante!</h3>
+<p>One friend of work pointed me at an online source of affordable Altras.</p>
+<p>I have secretly been pining for a pair of these shoes.</p>
+<p>I was planning to use them for the longer runs when I can feel that my feet
+need a little more support than my sandals are able to provide.</p>
+<p>However, my feet have really gotten used to the wide open spaces of sandals, or
+even better, of going barefoot.</p>
+<p>Altras are zero-drop shoes, with <em>ginormous</em> toe boxes. Their motto is &ldquo;Embrace
+the Space&rdquo;.</p>
+<p>It seems like I have found some shoes with the right motto&hellip;</p>
+<figure>
+<a href="https://altrarunning.com/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+  
+  
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/altra-foot-space.jpg"
+  
+
+   />
+
+
+
+</a>
+</figure>
+<p>Friend #1&rsquo;s recommendation had shoes that were semi-affordable, contrary to my
+expectation.</p>
+<p>When I pointed friend #2 from work at friend #1&rsquo;s recommendation, he pointed me
+at an even <em>more</em> affordable source.</p>
+<p>I <em>could</em> have continued with this iterative process, but I was unable to delay
+this purchase any longer.</p>
+<p>My new pair of Altra Escalante 1.0s arrived the next day.</p>
+<p>(Yes, I know, 1.5 and 2.0 are available. However, <a href="https://runrepeat.com/altra-escalante">the stellar reviews of
+1.0</a> have not changed, and did I say
+&ldquo;affordable&rdquo;?!)</p>
+<p>On Friday I broke them in, and on Sunday I made a slightly longer than normal
+run (see in-progress photo above) to see how they did.</p>
+<p>Anyways, in spite of the rest of me taking quite a beating on the second run, I
+can happily report that the shoes did a marvellous job of balancing support
+on the one hand and foot-freedom on the other.</p>
+<h2 id="life-optimisation-tip-73-streak-more">Life optimisation tip #73: Streak more.</h2>
+<p>As I was scrolling aimlessly through my facebook feed during my last session
+before the Great Social Media Fast of September 2019 (see next section), I
+quite ironically ran into a truly interesting post by a Swedish visualization
+colleague (SVC).</p>
+<p>In this post, he talked about his hobby and progress as a <em>run streaker</em>.</p>
+<p>It turns out that there are runners with the <em>excellent</em> additional hobby of
+<em>streaking</em>, which in <em>this</em> context refers to the act of running every single
+day of their lives, and trying to do these daily runs for the longest
+continuous streak possible.</p>
+<p>The streakers know of each other, almost like Highlander, and are in a friendly
+competition, very much unlike Highlander.</p>
+<p>SVC now has a single uninterrupted streak, spanning multiple years, of daily
+running behind him. He has friends in his city who have also been streaking for
+multiple years now.</p>
+<p>I find this fantastic, both specifically as a running and fitness feat, and
+more generally as a brilliant human optimisation trick.</p>
+<p>The longer your streak, the harder it&rsquo;s going to become to break that
+streak. Add in the friendly competition element, and you have become an
+accomplishment machine.</p>
+<p>I see great potential here in the context of
+<a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">compounding</a>
+more consistently, and for longer.</p>
+<p>What else could we streak folks?</p>
+<h2 id="the-great-social-media-fast-of-2019">The Great Social Media Fast of 2019.</h2>
+<p>Twitter, Facebook, Reddit and friends&hellip; hot durnit.</p>
+<p>Because I recently re-acquired the habit of checking reddit and twitter
+multiple times during the day, I again examined the mechanisms driving this
+undesirable behaviour.</p>
+<p>The insidiousness, at least for me, lies in the fact that TwiFRaF (twitter,
+facebook, reddit and friends) always has something looking like new information
+on tap, where with tap, I mean firehose.</p>
+<p>At any given moment during the day, when brain desires new input, or is just
+tired and would like to take a break, TwiFRaF firehoses are ready to spew
+something that appears to be new information but is only a very convincing
+analogue.</p>
+<p>Brain thinks it&rsquo;s getting what it wanted, plus a tiny and uninspired spurt of
+discovery-dopamine here and there, which helps to keep up the illusion.</p>
+<p>Any chance of real curiousity taking its natural course is cancelled.</p>
+<p>Instead of pondering a question, and then going out on a slow and deliberate
+search for information and later enlightenment, the firehose is opened, because
+it&rsquo;s easier.</p>
+<p>Furthermore, brain is unnecessarily exhausted trawling through a mix of mostly
+generic rubbish with, granted, an interesting nugget every blue moon.</p>
+<p>Hot durnit.</p>
+<p>Fortunately, I like experiments, and Cold Turkey is my middle name!</p>
+<p>So, on Saturday I decided to cut out TwiFRaF completely.</p>
+<p>Initially I thought it would be an experiment until the end of September, but
+now I&rsquo;m thinking that streaking might be an even better option.</p>
+<p>We&rsquo;ll see.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #166: Morgan Bay</title><link>https://cpbotha.net/2019/03/24/weekly-head-voices-166-morgan-bay/</link><pubDate>Sun, 24 Mar 2019 20:29:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/24/weekly-head-voices-166-morgan-bay/</guid><description> Amazing view from a rather precariously installed bench on the hills above Morgan Bay.
+In this, the 166th edition of the WHV, I attempt to peer back at the two weeks from Sunday March 11 to Sunday March 24, 2019.
+If you like, you may imagine that this looks like somewhat like the photo above, although the photo above was in fact just me peering out over the sea, while I generally just sit hunched over some form of keyboard when writing these posts.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/03/c_looking_out_for_you.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/03/c_looking_out_for_you-1024x768.jpg"
+        
+            alt="Amazing view from a rather precariously installed bench on the hills above Morgan Bay."/> </a><figcaption>
+            <p>Amazing view from a rather precariously installed bench on the hills above Morgan Bay.</p>
+        </figcaption>
+</figure>
+
+<p>In this, the 166th edition of the WHV, I attempt to peer back at the two weeks from Sunday March 11 to Sunday March 24, 2019.</p>
+<p>If you like, you may imagine that this looks like somewhat like the photo above, although the photo above was in fact just me peering out over the sea, while I generally just sit hunched over some form of keyboard when writing these posts.</p>
+<h2 id="blogosphere-housekeeping">Blogosphere housekeeping.</h2>
+<p>In my eternal quest to avoid the new Gutenberg editor in WordPress (now at version 5.1.1), this and the previous post were typed up in Orgmode, and then copy-pasted from the Emacs-exported HTML.</p>
+<h2 id="on-being-powerless">On being powerless.</h2>
+<p>Years of corruption, in most cases made possible by the current ruling party, the ANC, have left our electricity-producing monoply, Eskom, in shambles.</p>
+<p>Billions of rands disappeared into the pockets of dishonest types, instead of being invested into the maintenance and upgrades of our power generation and distribution network.</p>
+<p>The result of all of this, is that the country currently has to deal with stage 4 load shedding, which means that electricity is completely shut off for 2.5 hours, three times a day.</p>
+<p>This has to be done in order to prevent a total grid shutdown, which would result in a two to three week national electricity outage whilst the grid has to be started back up again.</p>
+<p>You can read more about the details in <a href="https://www.businessinsider.co.za/6-quick-fixes-that-can-save-south-africa-from-more-load-shedding-2019-3">this Business Insider article</a>.</p>
+<p>Anyways, although there are many worse problems than this in the world today, these 7.5 powerless hours every day are a fairly visceral reminder of the utterly disappointing lack of integrity and leadership in our government.</p>
+<p>At a more microscopic level, I am again spending far more time than usual on twitter, as this is where news about the electricity crisis plays out first.</p>
+<p>Unfortunately Twitter, or <em>Road Rage of the Internet</em> as it has been called, does not contribute positively to one’s karma, which is the exact opposite of what is required here.</p>
+<p>On the bright(ish) side, it does seem as if the whole drama is being adequately documented and analysed in the media.</p>
+<p>Although there are fundamental issues at Eskom that need to be addressed, such as the fact that a state-owned entity has the monopoly over electricity production, I am optimistic that there are enough capable folks at Eskom, <em>with</em> spines, to band-aid the system back into operation.</p>
+<p>I am less optimistic but still hopeful that this will result in deeper rectifications to both our power production strategy and, more acutely, the South African government.</p>
+<h2 id="on-finding-oneself-in-the-most-entirely-wrong-place-for-any-sort-of-complaining">On finding oneself in the most entirely wrong place for any sort of complaining.</h2>
+<p>GOU #1 left us for a week-long, zero-communication canoeing trip, along with about 60 of her fellow pupils, down the Orange River.</p>
+<p>Although quite a challenge for our parental hearts, we did expect that this would be quite a valuable adventure for a 12 year old.</p>
+<p>We were not wrong, but it sounds as if above-mentioned teenager experienced the adventure more like a week-long party with canoeing breaks thrown in for good measure.</p>
+<p>While she was away, the rest of us spent the week on the East coast, in a beautiful coastal village called Morgan Bay.</p>
+<p>To be more specific, we stayed at the Morgan Bay Hotel, a brilliant little family-run hotel at the core of the village.</p>
+<p>The view from our room was not too shabby. In fact, it looked a little bit like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/03/view_from_mbh_room.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/03/view_from_mbh_room-1024x768.jpg"
+        /> </a>
+</figure>
+</p>
+<p>Morning runs, on barefoot, often looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/03/morgan_bay_morning_run.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/03/morgan_bay_morning_run-1024x768.jpg"
+        /> </a>
+</figure>
+</p>
+<p>… and sometimes the World’s Worst Trail Runner (me), took on trails, in wet sandals, which were perhaps a tad too technical. See the following beaut for example:
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/03/morgan_bay_run_too_technical.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/03/morgan_bay_run_too_technical-1024x768.jpg"
+        /> </a>
+</figure>
+</p>
+<h3 id="experiment-alcohol-zero-2-is-briefly-interrupted">Experiment Alcohol Zero #2 is briefly interrupted.</h3>
+<p>Under immense beer peer pressure, and in the presence of locally brewed craft beer on tap, I finally broke my 2.5 month long alcohol fast with an Emerald Vale Amber Ale.</p>
+<p>The beer was tasty, and the moment was suitably bittersweet.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/03/emerald_vale_amber_ale.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/03/emerald_vale_amber_ale-768x1024.jpg"
+        
+            alt="This is the pose one strikes when one is having mixed feelings about interrupting a great health streak with a potentially super tasty beverage."/> </a><figcaption>
+            <p>This is the pose one strikes when one is having mixed feelings about interrupting a great health streak with a potentially super tasty beverage.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I was happy to find after 10 weeks of zero alcohol that I could drink craft beer like a normal person, without any acclimatisation or noticeable ill effects.</p>
+<p>However, thanks to consistently great sleep and subjectively more overall acuity, I will probably continue with zero (or very little) alcohol for a while longer.</p>
+<p>If you’re interested in this (or anything else), pipe up in the comments!</p>
+<h2 id="the-end">The End.</h2>
+<p>I am happy that we ended up with family in Betty’s Bay this weekend.</p>
+<p>The recent fires have stripped away so much vegetation that I was easily able to reach a spot I had never been able to navigate to before.</p>
+<p>I made a panorama in which you can hopefully appreciate some of the devastation caused by the blaze:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/03/bettys_burnt_pano.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/03/bettys_burnt_pano-1024x308.jpg"
+        /> </a>
+</figure>
+</p>
+<p>Friends, I wish you a week filled with deep gratification!</p>
+<p>As for me, I am planning to start my Monday with some project-related stress, but after that I will attempt to move smoothly into further evolving <a href="/2019/01/06/the-2018-to-2019-transition-post/#evolve-the-system">The System</a>, with the specific goal of counteracting my current anger- and dopamine-driven twitter phase with deeper and longer inputs and thoughts.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"></p>
+<div class="wp-block-embed__wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/brZ_WBEzw6E?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div></figure>
+]]></content:encoded></item><item><title>Weekly Head Voices #130: TTAGGG.</title><link>https://cpbotha.net/2018/01/28/weekly-head-voices-130-ttaggg/</link><pubDate>Sun, 28 Jan 2018 20:52:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/28/weekly-head-voices-130-ttaggg/</guid><description> Lovely summer’s day. Not much rain.
+Water On the water front (I see what I did there): Day Zero, that is the day on which the whole of Cape Town’s municipal water will be cut off, has been brought further forward to to April 12. Citizens will be able to fetch drinking water every day from 200 collection points. Judging by how quickly shelves of bottled water are currently disappearing from the shops and by panicky facebook posts, people are stocking up in advance.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/IMG_3107.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/IMG_3107-1024x576.png"
+        
+            alt="Lovely summer’s day. Not much rain."/> </a><figcaption>
+            <p>Lovely summer’s day. Not much rain.</p>
+        </figcaption>
+</figure>
+
+<h1 id="water">Water</h1>
+<p>On the water front (I see what I did there): Day Zero, that is the day on which the whole of Cape Town’s municipal water will be cut off, has been brought further forward to to April 12. Citizens will be able to fetch drinking water every day from 200 collection points. Judging by how quickly shelves of bottled water are currently disappearing from the shops and by panicky facebook posts, people are stocking up in advance.</p>
+<h1 id="the-immortality-of-lobsters">The immortality of lobsters</h1>
+<p>Continuing with our watery theme, this past week I learned the very surprising fact that lobsters are <a href="https://www.smithsonianmag.com/science-nature/dont-listen-to-the-buzz-lobsters-arent-actually-immortal-88450872/"><em>sort of</em> biologically immortal</a>. In short, lobsters produce more of the enzyme telomerase than humans and other animals, which rejuvenates their <a href="https://en.wikipedia.org/wiki/Telomere">telomeres</a>, which means that their cells can in theory keep on dividing forever.</p>
+<p>The telomeres are the genetic bits (feeling quite punny today; nucleotides TTAGGG in vertebrates, apparently) protecting the ends of your chromosomes. Every time cells divide, the child cells have slightly shortened telomeres. At some point, the telomere becomes too short, and that line of cells can’t divide anymore.</p>
+<p>This is a large part of how most animals finally die: Our cells can only divide so many times, and then the telomere ends, and then someone switches on the bright lights, and then the whole party is over.</p>
+<p>However, the enzyme telomerase is able to repair telomeres, thus extending the lifetime of the organism.</p>
+<p>Lobsters naturally produce so much telomerase, that their cells can keep on dividing forever. In practice, lobsters apparently only grow in size, strength and reproductive ability as they age.</p>
+<p>Unfortunately, their party also eventually ends. As they grow, they have to molt their suddenly too small exoskeleton. As they get bigger, this process takes more and more energy, until the day comes that they have grown so large (<a href="https://www.smithsonianmag.com/science-nature/dont-listen-to-the-buzz-lobsters-arent-actually-immortal-88450872/">12 kg in one instance</a>) so that the attempted molting, due to disease, is a fatal process.</p>
+<p>Intriguingly, <a href="https://www.ucsf.edu/news/2013/09/108886/lifestyle-changes-may-lengthen-telomeres-measure-cell-aging">a 2013 study</a> showed that lifestyle changes such as diet, exercise, stress reduction (including meditation) and social support, boosted telomerase activity and significantly increased telomere length in human subjects.</p>
+<h1 id="your-brain-not-at-work">Your brain (not) at work</h1>
+<p>On the recommendation of a colleague who is most versed in these things, I am currently reading the book <a href="https://www.amazon.com/Your-Brain-Work-Strategies-Distraction-ebook/dp/B002Q1YE3K/ref=sr_1_1?ie=UTF8&amp;qid=1517170057&amp;sr=8-1&amp;keywords=your+brain+at+work">“Your Brain at Work: Strategies for Overcoming Distraction, Regaining Focus, and Working Smarter All Day Long”</a> by David Rock.</p>
+<p>While the author clearly has not yet read any books on Coming Up With Shorter Book Titles, he has put together a compelling piece on the extreme limitations of the human <a href="https://en.wikipedia.org/wiki/Prefrontal_cortex">prefrontal cortex</a>. These are the bits that we use for important thoughts and for solving tricky technical puzzles.</p>
+<p>I thought that I just naturally had the attention span of a <a href="https://en.wikipedia.org/wiki/Budgerigar">budgie</a> (which I continuously try my best to compensate for by the gnashing of teeth, will power, and <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">various other tricks</a>), but it turns out it’s a basic human limitation.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/Melopsittacus_undulatus_-Fort_Worth_Zoo-8a-4c.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/Melopsittacus_undulatus_-Fort_Worth_Zoo-8a-4c-1024x1024.jpg"
+        
+            alt="A pretty budgie which will probably distract you from the contents of this post. FOCUS!"/> </a><figcaption>
+            <p>A pretty budgie which will probably distract you from the contents of this post. FOCUS!</p>
+        </figcaption>
+</figure>
+</p>
+<p>If all of the neuroscientists he has interviewed can be believed, we are severely limited both in terms of the number of thoughts / ideas we can handle at any one time, and, to me far more frighteningly, in terms of the total time we have available for this sort of complex work.</p>
+<p>The prefrontal cortex is relatively-speaking quite inefficient, and gets exhausted really quickly. Remember the last time you spent the evening trying to figure out how to get all of your children to their various activities during the week, and how unexpectedly difficult that was? (if no children, please replace this example with something more familiar to you :) Your prefrontal cortex was probably already exhausted by 15:00 in the afternoon (if not earlier), and you were in effect beating a dead neural horse.</p>
+<p>Sometimes you wake up the next morning, and you solve that exact same puzzle in 3 minutes, at which point you might have already exhausted your cognition quota, and might as well stay at home for the rest of the day.</p>
+<p>Because the capacity and bandwidth of the prefrontal cortex can’t (yet?) be significantly improved, the book recommends that one carefully monitors oneself, taking breaks when necessary, single-tasking, and practising any often-occurring tasks until they become automatic, at which point the much more efficient <a href="https://en.wikipedia.org/wiki/Basal_ganglia">basal ganglia</a> take over.</p>
+<p>Apart from this, the prefrontal cortex works at its best when you are slightly stressed, but not too much, and when you are slightly happy (with novelty and dopamine), but not too much. Too stressed, and it freezes up like a deer in the headlights of a rapidly approaching car. Too happy, and it just hangs around enjoying the vibes, not really producing anything.</p>
+<p>I still have to finish the book, but it has already motivated me to continue on my quest to automate and script as much of my life and work as possible. For example, for the daily goals list mentioned in <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">pro-tip #1 of WHV #126</a> I have a keyboard shortcut in Emacs which creates the relevant section in the correct part of my journal, correctly timestamped, and pre-filled with one or two habits I am trying to form, ready to accept the rest of the goals for the day. I used to think examples like this were perhaps going a little too far, but I now keep my eyes open for any task or activity that can be partially or fully automated. (Some even refer to <a href="http://irreal.org/blog/?p=6641">Emacs Orgmode</a> as their exocortex.)</p>
+<p>On the topic of lists, the book mentions prioritisation as one of the more cognitively taxing activities we can engage in, so it makes even more sense to take care of it first thing in the morning, and to do this as efficiently as possible.</p>
+<p>More broadly speaking, I think having <em>instant</em> access to documented and <em>executable</em> conventions for most of one’s tasks and projects would help greatly to free up the precious little prefrontal quality time we are allotted.</p>
+<p>Even more broadly speaking, it seems we need to practise how to <em>listen</em> more carefully to our brain so that we are able to guide it through the treacherous waters of exhaustion, stress and happiness.</p>
+<h1 id="the-part-where-i-wish-you-a-good-journey">The part where I wish you a good journey</h1>
+<p>Thank you very much for reading this post. I hope you have a week filled with learning, challenges surmounted and a solid dose of contentment.</p>
+<p>See you next time!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #126: Fleur-de-lis.</title><link>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</link><pubDate>Sun, 07 Jan 2018 13:39:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</guid><description> Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme.
+Happy new year everyone, and welcome to the first Weekly (truly?! will this be the year?) Head Voices of 2018! I ended 2017 with a longish (by my standards) run in the morning, followed by a laid-back mini-party and finally by struggling really hard to stay awake until midnight. In contrast, returning to the office on January 2 was a pretty good way to ease gradually into work in 2018.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/bettys_crepuscular_rays-2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/bettys_crepuscular_rays-2-1024x462.jpg"
+        
+            alt="Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme."/> </a><figcaption>
+            <p>Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme.</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Happy new year everyone, and welcome to the first <em>Weekly</em> (truly?! will this be the year?) Head Voices of 2018!</li>
+<li>I ended 2017 with a longish (by my standards) run in the morning, followed by a laid-back mini-party and finally by struggling really hard to stay awake until midnight.</li>
+<li>In contrast, returning to the office on January 2 was a pretty good way to ease gradually into work in 2018. Many colleagues were still on vacation, so the week felt a bit like work with training wheels.</li>
+<li>Pro-tip #1 for the new year: In the last few weeks of 2017 I started (again…) explicitly making quiet time at the start of the day to think about what I want to take care of. These take the form of a small number of <a href="https://orgmode.org/">Org mode</a> “<code>- [ ] Do this thing</code>” checklist items that are usually related to but separate from my main tasks. I find it amazing to which extent these few minutes are able to shape my day. (In my org mode monthly journal, I also usually start by listing out manually the tasks I want to complete during that month, as well as the ideas / thoughts / principles I want to keep in my sights.)</li>
+<li>Pro-tip #2 for the new year: After years of resisting these types of software tools due to my belief that I should simply apply more grit and will power to squeeze out more focus hours, I finally broke down and purchased the <a href="https://heyfocus.com/">macOS app called Focus</a>. You click its pretty icon, and then your computer goes into focus mode: The Mail application and a bunch of other non-focus-related apps all get killed, and a bunch of websites (reddit, youtube, work chat, etc) are blocked for a user-configurable block of time. I rationalised this purchase with the following reasoning: <em>It usually takes a single moment of weakness for a distraction to terminate a valuable block of focus. It takes a single moment of strength for this tool to start a valuable block of focus.</em></li>
+<li>Although I’m having fun, I really don’t think I’m supposed to use bullets like this.</li>
+<li>Thank you very much for spending time here with me. I wish you a week of value and focus, followed by a visit to the next WHV!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/huguenot_monument_franschhoek.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/huguenot_monument_franschhoek-1024x653.jpg"
+        
+            alt="The Huguenot Monument in Franschhoek, where we found ourselves an hour or two ago. Immediacy FTW."/> </a><figcaption>
+            <p>The Huguenot Monument in Franschhoek, where we found ourselves an hour or two ago. Immediacy FTW.</p>
+        </figcaption>
+</figure>
+</li>
+</ul>
+<p>P.S. This post was finished during a 30 minute FocusApp block. Background music: <a href="https://www.residentadvisor.net/reviews/5988">Balance 014</a> by Joris Voorn, one of my favourite music creations ever.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0321-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0321-PANO-1024x598.jpg"
+        
+            alt="Yes, we ended up in the mountains again."/> </a><figcaption>
+            <p>Yes, we ended up in the mountains again.</p>
+        </figcaption>
+</figure>
+
+<p>In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.</p>
+<p>One more of my <a href="https://github.com/org2blog/org2blog/pull/226">org2blog pull requests</a> was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</p>
+<p>Anyways.</p>
+<h1 id="aspnet-core-surprise">ASP.NET Core SURPRISE!</h1>
+<p>For a work project I was <em>encouraged</em> to explore Microsoft’s brand new <a href="https://docs.microsoft.com/en-us/aspnet/core/">ASP.NET Core</a>. While on the one hand I remain wary of Microsoft (IE6 anyone?), I am an absolute sucker for new technology on the other.</p>
+<p>You may colour me impressed.</p>
+<p>If I had to describe it in one sentence, I would have to describe ASP.NET Core as Django done in C#. You can develop and deploy this on Windows, Mac or Linux. You model and query your data using Entity Framework Core and LINQ for example, or Dapper if you prefer performance and don’t mind the SQL (I don’t), or both. You write controller classes and view templates using the Razor templating language.</p>
+<p>C# 7.0 looks like it could be a high development velocity language. It has modern features such as lambdas with what looks like real closures (unlike C++ variable capturing), as well as the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator">null coalescing operator (??)</a> and the <a href="http://geekswithblogs.net/BlackRabbitCoder/archive/2015/06/05/c.net-little-wonders-null-conditional-operator-in-c-6.aspx">null conditional operator (?.)</a>, the latter of which looks superbly useful. Between Visual Studio on Windows and the Mac, or the new Intellij Rider IDE (all platforms) or Visual Studio Code (all platforms), the tooling is top notch.</p>
+<p>Time will have to tell how it compares to Python with respect to development velocity, a competition that Python traditionally fares extremely well at.</p>
+<p>Where ASP.NET Core wins hands down is in the memory usage department: By default you deploy using the Kestrel web server, which runs your C# code using <em>multiple</em> libuv (yeah, of lightning fast node.js event loop fame) event loops, all in threads.</p>
+<p>With Django I usually deploy as many processes as I can behind uwsgi, itself behind nginx. The problem is that with Python’s garbage collector, these processes end up sharing very little memory, and so one has to take into account memory limits as well as CPU count on servers when considering concurrency.</p>
+<p>The long and the short of this is that one will probably be able to process many more requests in parallel with ASP.NET Core than with Django. With uwsgi and Django I have experimented with gevent in uwsgi and monkey patching, but this does not work as well as it does in ASP.NET Core, which has been designed with this concurrency model in mind from the get go. My first memory usage and performance experiments have shown compelling results.</p>
+<p>Hopefully more later!</p>
+<h1 id="a-cadence-of-accountability">A cadence of accountability</h1>
+<p>Lately my <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work habits</a> have taken a bit of a hit. At first I could not understand how to address this, until I remembered mention of a <em>cadence of accountability</em> in <a href="http://calnewport.com/books/deep-work/">The Book</a><em>.</em></p>
+<p>Taking a quick look at <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">that post</a>, I understood what I had forgotten to integrate with my habits. Besides just doing the deep work, it’s important to “keep a compelling scoreboard” and to “create a cadence of accountability”.</p>
+<p>Although I was tracking my deep work time using the <a href="http://orgmode.org/manual/Clocking-commands.html">orgmode clocking commands</a> (when I start “deep working” on anything, I make an orgmode heading for it in my journal and clock in; when I’m done I clock out; orgmode remembers all durations) I was not regularly reviewing my performance.</p>
+<p>With orgmode’s <code>org-clock-report</code> command (<code>C-c C-x C-r</code>), I can easily create or update a little table, embedded in my monthly journal orgfile, with all of my deep work clocked time tallied by day. This “compelling scoreboard” gives me instant insight into my weekly and monthly performance, and gives me either a mental kick in the behind or pat on the shoulder, depending on how many deep work hours I’ve been able to squeeze in that day and the days before it.</p>
+<p>The moment I started doing this at regular intervals, “creating a cadence of accountability” in other words, I was able to swat distractions out of the way and get my zone back.</p>
+<p>This is an interesting similarity with <a href="/tag/gtd/">GTD</a> (which I don’t do so much anymore because focus is far more important to me than taking care of sometimes arbitrary and fragmentary tasks) in that GTD has the <a href="https://zenhabits.net/weekly-review-key-to-gtd-and-achieving/">regular review</a> as a core principle.</p>
+<p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
+<p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>eric topol on voices in my head</title><link>https://cpbotha.net/tags/eric-topol/</link><description>Recent content in eric topol on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 10 Aug 2020 22:16:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/eric-topol/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #202: I don't even have to miss Dr Topol!</title><link>https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/</link><pubDate>Mon, 10 Aug 2020 22:16:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/</guid><description> Welcome everyone to this, the two hundred and second edition of the Weekly Head Voices, looking back at the two weeks from Monday July 27 to Sunday August 9 of the year of our simulation-running overlords 2020.
+Figure 1: Photo of multiple instances of an important local flower, taken by GOU #1.
+Shape Up: Stop Running in Circles and Ship Work that Matters After it having spent a few quality months in my to-do list, I finally got around to reading the Shape Up book by Ryan Singer.</description><content:encoded><![CDATA[ <p>Welcome everyone to this, the two hundred and second edition of the Weekly Head
+Voices, looking back at the two weeks from Monday July 27 to Sunday August 9 of
+the year of our simulation-running overlords 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="closeup_prot.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Photo of multiple instances of an important local flower, taken by GOU #1."/> </a><figcaption>
+            <p>Figure 1: Photo of multiple instances of an important local flower, taken by GOU #1.</p>
+        </figcaption>
+</figure>
+
+<h2 id="shape-up-stop-running-in-circles-and-ship-work-that-matters">Shape Up: Stop Running in Circles and Ship Work that Matters</h2>
+<p>After it having spent a few quality months in my to-do list, I finally got
+around to reading <a href="https://basecamp.com/shapeup">the Shape Up book by Ryan Singer</a>.</p>
+<p>(You can too, by clicking on that link, it&rsquo;s free!)</p>
+<p>This book documents the development methodology that the folks over at
+37signals, also the original makers of <a href="https://rubyonrails.org/">Ruby on Rails</a>, <a href="https://basecamp.com/">Basecamp</a>, and most
+recently the new email re-imagining <a href="https://hey.com/">HEY</a>, have evolved over the years.</p>
+<p>I&rsquo;m not currently using any of those artifacts, but RoR has made (and is
+probably still making) a significant impact on the technology landscape, and
+the other products are truly impressive in their own right.</p>
+<p>My point is, the 37signals company ships high-impact products like it&rsquo;s
+nobody&rsquo;s business, so one should probably pay attention if they are willing to
+explain to the rest of us how they are able to perform this feat so
+consistently.</p>
+<p>If you&rsquo;re involved in software development, or are interested, then this
+compact book is worth your time.</p>
+<p>However, until you can get around to it, I present to you the book&rsquo;s own
+bullet-list summary (you&rsquo;ll find it in the conclusions chapter), where I&rsquo;ve
+embellished each bullet with my from-memory explanation.</p>
+<dl>
+<dt>Shaped versus unshaped work</dt>
+<dd>In Shape Up, each project is a user-visible
+feature that can be done in 6 weeks or less. Senior devs in the company
+<em>shape</em> the work, which means that they derisk and write down enough to
+delineate the work, to specify the parameters, but not so much that it has
+been pinned down. The team that gets the project assigned is given free reign
+as to <em>how</em> exactly they fill in the space delineated by the shaping.</dd>
+<dt>Setting appetites instead of estimates</dt>
+<dd>Instead of specifying a feature,
+and then estimating how much time it will take (feature first, number
+second), Shape Up suggests rather determining at management level how much
+appetite / motivation there is for a feature, up to a maximum of 6 weeks,
+knowing that the feature will be <em>hammered</em> down to fit into the appetite for
+it (number first, feature second).</dd>
+<dt>Designing at the right level of abstraction</dt>
+<dd>As mentioned above, the
+shaping process has to reach the Goldilocks level somewhere between abstract
+and concrete. Enough detail so there are no surprises that could risk the
+success of the project, but little enough so that the team has the freedom to
+construct a solution independently and in a more data-driven fashion.</dd>
+<dt>Concepting with breadboards and fat marker sketches</dt>
+<dd>These are practical
+tricks to keep the detail level under control. For example, during shaping, a
+<strong>fat marker</strong> is used to draw UI ideas to prevent the shapers from inking in
+too much detail.</dd>
+<dt>Making bets with a capped downside (the circuit breaker) and honoring uninterrupted time</dt>
+<dd>This
+is pretty hardcore. If a project runs over its time (e.g. 6 weeks), it is
+cancelled, that is, moth-balled. End of story. As a corollary, teams are not
+to be interrupted during their project cycle.</dd>
+<dt>Choosing the right cycle length (six weeks)</dt>
+<dd>Six weeks is the maximum time
+a team will get to finish a feature. This seems to be the sweet spot for
+features that are significant enough to be interesting, but don&rsquo;t get too big
+to manage.</dd>
+<dt>A cool-down period between cycles</dt>
+<dd>After every six week cycle, all teams
+get two weeks of cool-down time. This is to be used for fixing bugs, writing
+tests, doing spikes, and just generally recovering from the feature
+development cycle.</dd>
+<dt>Breaking projects apart into scopes</dt>
+<dd>As a team works on a certain feature,
+the sub-tasks that they formulate as they work, can be naturally grouped into
+thematic scopes. It&rsquo;s important that these emergent groupings are closely
+monitored and updated. They are useful for understanding the feature, and for
+reporting on progress.</dd>
+<dt>Downhill versus uphill work and communicating about unknowns</dt>
+<dd>The team
+gives <em>asynchronous</em> feedback on project progress by plotting each scope on a
+<a href="https://basecamp.com/features/hill-charts">hill chart</a>. To me this is yet another interesting and useful concept from the
+book. If a scope is somewhere on the uphill part, there are still unknowns
+that have to be investigated. Once the team thinks there are no more
+unknowns, a scope can be moved past the top and somewhere onto the downhill
+section.</dd>
+<dt>Scope hammering to separate must-haves from nice-to-haves</dt>
+<dd>In this case,
+scope is used in the more traditional software development sense, and scope
+hammering refers to the action of whittling down features until a project
+fits into the time allotted to it.</dd>
+</dl>
+<p>At work, we are currently experimenting with elements of this methodology for a
+new product we&rsquo;re working on. I&rsquo;m curious to see how much of this will work in
+our setup. It sure looks good on paper!</p>
+<p>(The book impressed me further with its chapter containing practical advice on
+how to implement various levels of Shape Up in organizations of various types
+and sizes. Super pragmatic!)</p>
+<h2 id="the-pygmalion-effect">The Pygmalion Effect</h2>
+<p>I&rsquo;m currently reading the organizational psychologist Adam Grant&rsquo;s book <a href="https://www.adamgrant.net/give-and-take">Give
+and Take</a>.</p>
+<p>In this book he describes the classic study led by Harvard psychologist Robert
+Rosenthal, where he told the teachers of 18 different classrooms that 20
+percent of their children had scored high on a Harvard aptitude test, when in
+fact they had been randomly chosen.</p>
+<p>In spite of being <em>randomly chosen</em>, those children showed consistently higher
+performance than their peers, even when they were measured years later.</p>
+<p>From Grant&rsquo;s book:</p>
+<blockquote>
+<p>The Harvard test was discerning: when the students took the cognitive ability
+test a year later, the bloomers [the randomly selected kids, ed.] improved more
+than the rest of the students. The bloomers gained an average of twelve IQ
+points, compared with average gains of only eight points for their
+classmates. The bloomers outgained their peers by roughly fifteen IQ points in
+first grade and ten IQ points in second grade. Two years later, the bloomers
+were still outgaining their classmates. The intelligence test was successful in
+identifying high-potential students: the bloomers got smarter &ndash; and at a faster
+rate than their classmates</p>
+</blockquote>
+<p>and then a paragraph or two later:</p>
+<blockquote>
+<p>Teachers' beliefs created self-fulfilling prophecies. When teachers believed
+their students were bloomers, they set high expectations for their success. As
+a result, the teachers engaged in more supportive behaviors that boosted the
+students' confidence and enhanced their learning and development. Teachers
+communicated more warmly to the bloomers, gave them more challenging
+assignments, called on them more often, and provided them with more
+feedback. Many experiments have replicated these effects, showing that teacher
+expectations are especially important for improving the grades and intelligence
+test scores of low-achieving students and members of stigmatized minority
+groups.</p>
+</blockquote>
+<p>Just to reiterate: These kids were randomly selected, but just because their
+teachers <em>thought</em> that they had scored higher on an aptitude test and hence
+treated them differently, they started and then kept out-performing their peers
+for years.</p>
+<p>Grant writes that similar experiments have been successfully performed in different
+learning contexts, and the results were always the same.</p>
+<p>This really blows my mind folks. I hope I can keep this knowledge close.</p>
+<h2 id="yet-another-social-media-fast-because-you-have-to-keep-on-doing-them">Yet another social media fast because you have to keep on doing them</h2>
+<p><a href="/2019/09/09/weekly-head-voices-177-streakers/#the-great-social-media-fast-of-2019">The Great Social Media Fast of 2019</a> really was great when it started, but it
+unfortunately fizzled out a few months later, probably when the end-of-the-year
+vacation started.</p>
+<p>When COVID-19 hit, I had such a need for up-to-the-minute news that my phone
+soon had twitter almost permanently on position #1 of the app suggestions you
+get when you swipe down.</p>
+<p>Fast-forward another few months, and I was again stuck in TwiFRaF-Yo like it
+was nobody&rsquo;s business.</p>
+<p>Anyways, this weekend I had some serious discussions with myself, during which
+I <em>again</em> had to convince myself that the select few jewels of Twitter (Dr
+Topol, I salute you) and the rest of TwiFRaF-Yo did not even come close to
+justifying the amount of mental cycles I was spending.</p>
+<p>Fortunately I won that debate, and so now I&rsquo;m again officially on a social
+media fast, during which I have resolved to read more books, blogs and other
+long-form content, and to write more notes and blogs.</p>
+<p>My brain already feels substantially more roomy and relaxed than it did a mere
+day ago.</p>
+<p>I would be remiss if I didn&rsquo;t mention one of my favourite College Humor skits
+in this context:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/md4kM9AKjHs" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<h3 id="a-not-quite-satisfactory-solution-for-not-having-to-miss-dr-topol">A not quite satisfactory solution for not having to miss Dr Topol</h3>
+<p>Dr Topol did briefly complicate my temporary exit.</p>
+<p>How was I going to keep up to date with his twitter stream without using the
+twitter app and getting sucked in?</p>
+<p>Unfortunately, my inoreader &ldquo;supporter&rdquo; subscription does not include its
+social media subscription function that does exactly what I need, and the
+upgrade is $50 per year instead of my current $20.</p>
+<p>While I think about this, I&rsquo;ve activated <a href="https://ifttt.com/applets/xcHFiVvR-get-an-email-when-there-s-a-new-tweet-from-a-specific-username">the IFTTT twitter to email thingy</a>.</p>
+<p>This sends me an email for <em>each</em> tweet, which constitutes a whole new problem
+in itself.</p>
+<h3 id="inoreader-satisfaction-with-a-side-of-retail-therapy">Inoreader satisfaction with a side of retail therapy</h3>
+<p><em>&hellip; 8 hours pass after this post was published &hellip;</em></p>
+<p>Narrator: <em>It became a whole new problem in itself.</em></p>
+<p>Dr Topol can&rsquo;t stop tweeting admittedly truly interesting health- and
+covid-related research, but the format of one email per tweet is indeed not
+going to cut it.</p>
+<p>I have deactivated that IFTTT thingy, and upgraded my inoreader subscription to
+pro.</p>
+<p>This is where I read all my blog subscriptions when I make time for that, so
+having Dr Topol&rsquo;s feed there as well makes a great deal more sense.</p>
+<h2 id="an-ai-to-fall-in-love--with">An AI to fall in love (with)</h2>
+<p><a href="https://lexfridman.com/">Lex Fridman</a> is another of the internet&rsquo;s jewels, who is fortunately accessible
+via long-form podcast.</p>
+<p>In <a href="https://lexfridman.com/matt-botvinick/">episode #106</a>, he talks with <a href="https://hai.stanford.edu/people/matthew-botvinick">Prof. Matt Botvinick</a>, a brilliant
+neuro-scientist who also employs AI in his research, and clearly likes to think
+deeply about deep questions.</p>
+<p>One of the things I (and apparently many of his interviewees) love about Dr
+Fridman, is the left-field questions he often poses.</p>
+<p>He does this with Botvinick:</p>
+<blockquote>
+<p>But let me ask the over-romanticized question: Do you think we&rsquo;ll ever engineer
+an AGI system that we humans would be able to love and that would love us back?
+So have that level and depth of connection?</p>
+</blockquote>
+<p>Goodness, so many layers.</p>
+<p>What do you think?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #188: Exercise Canary.</title><link>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</link><pubDate>Sun, 29 Dec 2019 20:29:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</guid><description> As I mentioned in the last WHV, I am in the midst of trying to end this year on a strong and especially regular note.
+So, more on time than the rest of the rest of the year, you are now reading the 188th edition of the Weekly Head Voices. This will most probably be the last WHV of the year 2019, looking back at the week from Monday December 23 to Sunday December 29.</description><content:encoded><![CDATA[ <p>As <a href="/2019/12/23/weekly-head-voices-187-checklists-everywhere/">I mentioned in the last
+WHV</a>, I am in the
+midst of trying to end this year on a strong and especially <em>regular</em> note.</p>
+<p>So, more on time than the rest of the rest of the year, you are now reading the
+188th edition of the Weekly Head Voices. This will most probably be the last
+WHV of the year 2019, looking back at the week from Monday December 23 to
+Sunday December 29.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+Vacation oscillates between lazing and running.
+</figcaption>
+</figure>
+<h2 id="topol-tweetstrade-for-your-vacation">Topol-Tweets™ for your vacation.</h2>
+<p><a href="/2019/07/17/weekly-head-voices-173-i-know/#bullet-list-of-miscellany-blom">I may have implied before that Prof. Eric Topol&rsquo;s twitter stream is
+brilliant</a>.</p>
+<p>During the past few days he posted two high impact (meta-)analyses on topics
+that I currently find interesting.</p>
+<h3 id="time-restricted-eating">Time-restricted eating.</h3>
+<p>The first is a New England Journal of Medicine systematic review of
+<a href="/2019/12/18/weekly-head-voices-186-helderberg-20/#time-restricted-eating-tre-with-black-coffee-please">time-restricted
+eating</a>
+and intermittent fasting:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How ironic for <a
+href="https://twitter.com/NEJM?ref_src=twsrc%5Etfw">@NEJM</a> to publish a
+systematic review on time-restricting eating and fasting for <a
+href="https://twitter.com/hashtag/ChristmasDay?src=hash&amp;ref_src=twsrc%5Etfw">#ChristmasDay</a>
+<a
+href="https://twitter.com/hashtag/diet?src=hash&amp;ref_src=twsrc%5Etfw">#diet</a>
+<a href="https://t.co/BLbVxUsZJt">https://t.co/BLbVxUsZJt</a> by de Cabo and
+Mattson <a
+href="https://twitter.com/HopkinsMedicine?ref_src=twsrc%5Etfw">@HopkinsMedicine</a>
+<a href="https://t.co/o5FHhbIISv">pic.twitter.com/o5FHhbIISv</a></p>&mdash;
+Eric Topol (@EricTopol) <a
+href="https://twitter.com/EricTopol/status/1209957610268397568?ref_src=twsrc%5Etfw">December
+25, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>I was able to download the full-text PDF via a free subscription to NEJM which
+gives you three free articles per month.</p>
+<p>However, I feel it&rsquo;s my civilly disobedient duty to inform you that the PDF is
+now also available via
+<a href="https://sci-hub.se/10.1056/nejmra1905136">Sci-Hub</a>. (Future readers, if that
+link disappears, try <a href="https://whereisscihub.now.sh/">Where Is Sci-Hub</a>.)</p>
+<p>Anyways, you can read the full article, or read the twitter discussion embedded
+above.</p>
+<p>The TL;DR is that fasting&rsquo;s benefits have been clinically shown &ldquo;for many
+health conditions such as obesity, diabetes mellitus, CVD, cancers&rdquo; mostly for
+&ldquo;overweight young and middle-age adults&rdquo;.</p>
+<p>Although long term benefits in otherwise healthy humans still have to be shown,
+texts like the following (and more parts of the article&rsquo;s introduction) make me
+hopeful:</p>
+<blockquote>
+<p>Periodic flipping of the metabolic switch not only provides the ketones that
+are necessary to fuel cells during the fasting period but also elicits highly
+orchestrated systemic and cellular responses that carry over into the fed
+state to bolster mental and physical performance, as well as disease
+resistance.</p>
+</blockquote>
+<h3 id="amount-and-intensity-of-leisure-time-physical-activity-and-lower-cancer-risk">Amount and Intensity of Leisure-Time Physical Activity and Lower Cancer Risk.</h3>
+<p>The second Topol-Tweet I wanted to single out was this gigantic study with data
+pooled from 9 cohorts, totalling more than 750000 people, in which the data
+showed that 2.5 to 5 hours per week of moderate-intensity [leisure-time]
+activity was associated with significantly lower risk for seven different types
+of cancer:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Exercise (leisure time
+physical activity) and its intensity are associated with a lower incidence of
+many types of <a
+href="https://twitter.com/hashtag/cancer?src=hash&amp;ref_src=twsrc%5Etfw">#cancer</a>,
+from 9 cohorts, &gt; 750,000 people <a
+href="https://t.co/BBMQTCIrDm">https://t.co/BBMQTCIrDm</a> <a
+href="https://twitter.com/ASCO?ref_src=twsrc%5Etfw">@ASCO</a> <a
+href="https://twitter.com/hashtag/openaccess?src=hash&amp;ref_src=twsrc%5Etfw">#openaccess</a>
+by <a href="https://twitter.com/theNCI?ref_src=twsrc%5Etfw">@theNCI</a>&#39;s
+Charles Matthews and colleagues <a
+href="https://t.co/u91xolRuWO">pic.twitter.com/u91xolRuWO</a></p>&mdash; Eric
+Topol (@EricTopol) <a
+href="https://twitter.com/EricTopol/status/1210348149849518080?ref_src=twsrc%5Etfw">December
+26, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>This <a href="https://ascopubs.org/doi/pdf/10.1200/JCO.19.02407">the full-text PDF of this Journal of Oncology article is fortunately
+available thanks to open
+access</a>!</p>
+<p>Intriguingly, the study also found that (page 8):</p>
+<blockquote>
+<p>There was evidence of nonlinear u-shaped associations with vigorous-intensity
+activity for colon and endometrial cancer such that the protective
+associations observed at intermediate activity levels were eroded at higher
+levels of activity (ie, 30 v0 MET hours/week).</p>
+</blockquote>
+<p>This either does mean that too much exercise indeed brings us right back to no
+protective effect from colon and endometrial cancer relative to no exercise, or
+that the data in this case (n = 309881) is still somehow misleading the
+analysis.</p>
+<h2 id="the-middle-aged-exercise-canarytrade">The (middle-aged) Exercise Canary™.</h2>
+<p>On Friday, during the second part of my morning run, the first part being
+together with GOU #1 (running with your genetic offspring is amazing on more
+than one level), I had an exercise-related realisation which I thought was
+worth sharing with you peeps.</p>
+<p>Another important but indirect reason to exercise (I&rsquo;m extrapolating from
+running here, please correct me if you can) is the following:</p>
+<p>Performing some activity at the edge of one&rsquo;s athletic capability, be it
+endurance or intensity, enables one to detect with much more sensitivity than
+normal, anything negatively impacting one&rsquo;s functioning and hence the status of
+one&rsquo;s health.</p>
+<p>For example, when I&rsquo;ve lost an hour of sleep for whatever reason, or I&rsquo;ve had
+as little as a drink or two the previous day, or, as is often the case, I&rsquo;ve
+sinned on both dimensions, my legs, lungs and other grit-related organs will
+notify me in no uncertain terms, during my run, that they are not happy.</p>
+<p>On a rest day, I <em>might</em> experience a spot of brain fog, but mental performance
+is already so complicated that it could be a host of other contributing
+factors.</p>
+<p>A gaggle of cognitive biases (you heard it here first) means that I usually
+ascribe it to everything <em>but</em> my behaviour the previous day.</p>
+<p>Fortunately friends, <em>the exercise canary does not lie.</em></p>
+<p>Unlike when we were still invincible, here at middle-age I prefer being
+reminded early and regularly of the consequences of my daily life choices.</p>
+<h2 id="friendly-wishes">Friendly wishes.</h2>
+<p>Highly valued reader peeps, I wish you much wisdom and kindness as we round out
+the last few days of 2019, and usher in the brave new 2020.</p>
+<p>I look forward to our next meeting, either on this blog in the
+soon-to-be-written traditional 2019-2020 transition post, or at whichever
+other point we might become entangled.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #173: I know.</title><link>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</link><pubDate>Wed, 17 Jul 2019 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</guid><description> Taken on a run in the mountain, on a trail quite aptly called the protea. By the way, although I have become slightly less terrible at running up hills, I'm still quite bad. Let&amp;rsquo;s go for a slightly less anxious start than the previous edition did:
+Well hello there folks!
+A week ago, I made a deliberate decision not to post a WHV, as I really did not have much to report on.</description><content:encoded><![CDATA[ <figure>
+<a href="helderberg_protea.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+Taken on a run in the mountain, on a trail quite aptly called the protea. By
+the way, although I have become slightly less terrible at running up hills, I'm
+still quite bad.
+</figcaption>
+</figure>
+<p>Let&rsquo;s go for a slightly less anxious start than the previous edition did:</p>
+<p>Well hello there folks!</p>
+<p>A week ago, I made a deliberate decision not to post a WHV, as I really did not
+have much to report on.</p>
+<p>However, it&rsquo;s funny how these things go. One week nothing&hellip; Then it&rsquo;s just a
+single week later and there&rsquo;s almost a bit too much that I would like to talk
+about.</p>
+<p>It seems to have been a mix of more writing, but also just more doing.</p>
+<p>So, looking back at the two weeks from Monday July 1 to Sunday July 14, 2019, I
+would like to present the following notes.</p>
+<h2 id="bullet-list-of-miscellany-blom">Bullet List of Miscellany (BLoM).</h2>
+<ul>
+<li>GOU#1, age 13, is on a week-long school trip in a different time zone
+(GMT+8). I am super happy that she can have this experience, but durnit, one
+misses one&rsquo;s genetic offspring units dearly!</li>
+<li>Remember that I told you about our <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">solar inverter not talking to the
+battery&rsquo;s BMS</a>?
+Well, one small recommended firmware upgrade later, from 151507 to 151508,
+and the whole system is completely down. Please cross your fingers, because
+we&rsquo;ve tried <strong>everything</strong> else.</li>
+<li>I regularly get accosted by off-leash dogs whilst running. There are
+incredibly clear by-laws down here which absolutely forbid any dog ever being
+off-leash in any public space which is not a designated off-leash zone. I
+recently made the mistake (twice) of trying to explain this to the relevant
+dog-owners. Well, dog-owners seem to be quite sadly under-endowed in the area
+of introspective capability, but at least I&rsquo;m getting a lot better at
+unprepared debates in public spaces. (Psychologists in the audience, help me
+out here with any tips please!)</li>
+<li>I really enjoyed <a href="https://samharris.org/podcasts/162-medical-intelligence/">this Sam Harris podcast with Eric
+Topol</a>. <a href="https://www.scripps.edu/faculty/topol/">Eric
+Topol</a> is a cardiologist and the
+founder and director of the Scripps Research Translational Institute in the
+US. Apart from the main topic of the discussion, namely Topol&rsquo;s
+well-developed and articulated view of AI in medicine (well, his books on
+this topic are quite influential, so there&rsquo;s that), I was struck and inspired
+by the humble gentleness of this impressive intellect. Furthermore, although
+we are not supposed to use twitter anymore (in some circles, it has been
+dubbed &ldquo;road rage of the internet&rdquo;), <a href="https://twitter.com/EricTopol">Prof Topol&rsquo;s tweet
+stream</a> is a shining example of how twitter
+could be used more constructively.</li>
+</ul>
+<h2 id="would-you-like-some-more-emacs-with-that-email">Would you like some more Emacs with that Email?</h2>
+<p>During the past two weeks I published two blog posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2019/07/03/send-queued-mails-in-background-with-mu4e/">Sending queued mails in the background with
+mu4e.</a></li>
+<li><a href="https://vxlabs.com/2019/07/05/mbsync-vs-offlineimap-speed/">Is mbsync really faster than offlineimap? A
+measurement.</a></li>
+</ul>
+<p>Based on these, you might come to the conclusion that I&rsquo;m processing email
+inside of Emacs
+<a href="/2014/05/24/weekly-head-voices-71-vote-for-the-future/">again</a>.</p>
+<p>I can confirm that this is indeed the case.</p>
+<p>Probably for a large part due to the popularity of google&rsquo;s gmail, the growth
+of the rest of the email ecosystem seems to have been stunted to a significant
+degree.</p>
+<p>In this specific case, I am referring to the dearth of really good email
+clients for Windows.</p>
+<p>(By the way, Thunderbird, still my fallback, usually makes the top of any
+Windows email client lists. However, if it weren&rsquo;t for GMail, Thunderbird
+would probably also be miles better than it is today.)</p>
+<p>After losing more hours than I could afford trying to find that perfect email
+client (I would have settled for &ldquo;still has all of its own teeth&rdquo;), I realised
+that I would just have to buckle down and get <a href="/tags/mu4e/">mu4e</a>, my favourite
+Emacs email client, working well enough on Windows, which I currently <em>prefer</em>
+(DID I JUST SAY THAT?!) due to my <a href="/2019/04/27/new-laptop-2019/">ThinkPad X1E
+baby</a>.</p>
+<p>That was of course a whole different wormhole to get sucked into.</p>
+<p>Well, more of those precious hours later, I have a Frankensteined concoction
+consisting of Emacs running on the Windows Subsystem for Linux (WSL),
+displaying to the Windows desktop via <a href="https://token2shell.com/x410/">X410</a>,
+and opening email and orgmode attachments, and dired files, using the native
+Windows handlers via an
+<a href="https://wiki.archlinux.org/index.php/Xdg-utils#xdg-open">xdg-open</a> work-alike
+I coded up in Python.</p>
+<p>(I am planning to release my xdg-open clone along with a more detailed howto
+blog post. Let me know if you would like advanced access.)</p>
+<p>Soooo&hellip;. after all of that effort I am now back more or less to where I
+started in 2014.</p>
+<p>(To be honest, Emacs is near the top of my list of compounding activities. The
+fact that it&rsquo;s back in my email workflow, combined with five years of
+compounded Emacs skills, has resulted in further increased efficiency.)</p>
+<h3 id="sticking-it-to-the-man-gmail-with-fastmail">Sticking it to the Man (GMail) with FastMail.</h3>
+<p>Wrapping up that email workflow reconfiguration frenzy, I did spend some
+minutes doing a quick survey of fastmail alternatives which might have email
+servers somewhat closer to the Southern tip of Africa and hence shave off a few
+seconds of latency.</p>
+<p>I found nothing that came close in terms of features and price. Except for one
+outage, <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">I&rsquo;ve been a really happy fastmail camper for the last three
+years</a>.</p>
+<p>All of that, together with the fact that gmail&rsquo;s continued dominance is
+unhealthy for the world of email, convinced me to stick with fastmail for the
+conceivable future.</p>
+<h2 id="stone-three-healthcare-is-now-a-thing">Stone Three Healthcare is now a thing.</h2>
+<p><a href="http://www.stonethree.com/healthcare/">Stone Three Healthcare</a>, until recently
+a business unit within Stone Three Venture Technology, has now been officially
+spun out.</p>
+<p>In other words, S3HC is now a more-or-less independent company that will
+henceforth have to create its own success.</p>
+<p>As some of you know, this project has been cooking for a few years now.</p>
+<p>We have a really great team, products with customers and a market, and a
+respectable patch of runway.</p>
+<p>There are worse ways for a startup to start up.</p>
+<p>P.S. if you have any golden tips for startup dummies, I (and probably others)
+would be super grateful if you could let &lsquo;em loose in the comments!</p>
+<h2 id="always-be-compounding-the-side-project-edition">Always Be Compounding: The side-project edition.</h2>
+<p>In the previous WHV, I <a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">started going on about the principle of ABC, or Always Be
+Compounding</a>.</p>
+<p>Since then, I&rsquo;ve been spending a great deal of mental cycles on finding more
+ways to ABC.</p>
+<p>Besides the more general examples I mentioned there, another method is to
+design some long-running project that can function as a container for all of
+the work that you&rsquo;ll have to do in any case.</p>
+<p>A perhaps slightly flawed personal example is DeVIDE, an open source
+visualization and image processing tool that started life somewhere in 2001,
+<a href="/2003/12/19/the-visualisation-and-image-processing-platform-formerly-known-as-dscas3/">was renamed to DeVIDE at the end of
+2003</a>,
+open-sourced in 2007 and had its last release in 2012.</p>
+<p>Although it did see some use after that, the project went into hibernation
+(weeeelll&hellip;.) when I left academia.</p>
+<p>My point is that, for about 10 years, I had a single technical <em>artifact</em> with
+a name that became slowly better known (even if it was often by its alias &ldquo;Not
+Responding&rdquo;), into which I could integrate all the other new work I was doing.</p>
+<p>This enabled me to enjoy some of the advantages of compounding effort, in the
+shape of DeVIDE, even although the work I was doing over the years necessarily
+had to change.</p>
+<p>(A really nice additional benefit was that some students sometimes found the
+software useful! I do wish that that part could have continued for a little
+longer.)</p>
+<p>Setting aside my
+<a href="/2019/05/07/weekly-head-voices-170-yeet/#a-strange-thing-happened-this-weekend">DeVIDE-nostalgia</a>
+(and a bit of sadness) for a moment, I would like to apply some of this
+learning to my current (and perhaps your) situation.</p>
+<p>My idea would be to define a new side-project that can act as the slightly
+longer-lived container for some of the smaller side-projects and learnings I
+sometimes manage to spend time on.</p>
+<p>It would have to be a technology / thematic fit for many of my other
+side-projects. It would of course constitute a double-whammy if this
+side-project had commercial potential.</p>
+<p>Well, SURPRISE!</p>
+<p>I do have at least one side-project that ticks a number of these boxes, and
+could <em>potentially</em> serve as such a vehicle.</p>
+<h3 id="aikno">AIKNO</h3>
+<p>The side-project in question is called AIKNO, which is pronounced &ldquo;I know&rdquo;, but
+which somehow expands to <em>AI organizational knowledge base</em>. Magic!</p>
+<p>It eats all of your organization&rsquo;s emails for breakfast, and then uses
+different methods, both algorithmic and crowd/team-sourced, to sort and
+organize those emails and all of their attachments, and then makes those easily
+and attractively (hey, data visualization!) accessible by that organization.</p>
+<p>Think of it as an almost zero-effort always-up-to-date organizational knowledge
+base.</p>
+<p>Besides having slots for various machine learning and visualization techniques,
+it fits nicely into my overgrown knowledge management hobby.</p>
+<p>The first commit in the AIKNO repo was in November of 2017. Oof. The prototype
+is able to import emails and attachments into its structured database, and
+already does funky stuff with similarity searches and whatnot.</p>
+<p>Unfortunately, it has also suffered from my regular technology stack
+changes, and it&rsquo;s currently languishing while I write blog posts.</p>
+<p>My previous failed side-project was called <em>TableTops</em>, or <em>Paradigm Desktop</em> by
+the same people who dubbed DeVIDE &ldquo;Not Responding&rdquo;.</p>
+<p>It was a free-form canvas / whiteboard tool for the free-form storage and
+linking of <em>anything</em>. For example, it had relational data structures for
+linking specific coordinates or regions in photos to centralised concepts, and
+other interesting things that will probably never see the light of day.</p>
+<p>It went through seven tech-stack-change-induced rewrites before being obsoleted
+by <a href="https://vxlabs.com/tags/orgmode/">my growing Emacs Orgmode powers</a>. (first
+commit October 2013, last commit August 2017, now on the backest back
+burner. the one that&rsquo;s not burning.)</p>
+<p>I did learn a <em>tremendous</em> amount.</p>
+<p>Maybe <em>that</em> is the real reason for doing these things?</p>
+<h2 id="always-be-learning">Always Be Learning.</h2>
+<p>Thanks for joining me on that trip folks.</p>
+<p>I hope to see you soon. Until then, make an amazing time!</p>
+<figure>
+<a href="coffee_company_belgian_brownie.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+100% amazing Belgian brownie and delectable flat white at the
+Coffee Company on Lourensford this past weekend.
+</figcaption>
+</figure>
+]]></content:encoded></item></channel></rss>

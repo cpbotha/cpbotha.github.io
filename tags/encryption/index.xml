@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>encryption on voices in my head</title><link>https://cpbotha.net/tags/encryption/</link><description>Recent content in encryption on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 11 Dec 2016 15:34:26 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/encryption/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Never Gonna Give You Up</title><link>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</link><pubDate>Sun, 11 Dec 2016 15:34:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</guid><description> (Summary: Cryptographically signing messages with my long-term PGP keys is too important to give up. Doing this on my Android telephone is easier than I thought. You should strengthen your secret key encryption if you&amp;rsquo;re also going to do this.)
+Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare, wrote that he was giving up on PGP, or at least on long term PGP keys.
+I agree with many of his points, especially the complexity of managing those keys, lack of forward secrecy (if someone were to steal my keys, they could decrypt all past conversations, unlike for example Signal) and accessibility (how do you verify a message with a baby on your left arm and your telephone in your right?</description><content:encoded><![CDATA[ <p><em>(Summary: Cryptographically signing messages with my long-term PGP keys is
+too important to give up. Doing this on my Android telephone is easier than I
+thought. You should strengthen your secret key encryption if you&rsquo;re also
+going to do this.)</em></p>
+<p>Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare,
+<a href="https://blog.filippo.io/giving-up-on-long-term-pgp/">wrote that he was giving up on PGP, or at least on long term PGP keys</a>.</p>
+<p>I agree with many of his points, especially the complexity of managing those
+keys, lack of forward secrecy (if someone were to steal my keys, they could
+decrypt all past conversations, unlike for example Signal) and accessibility
+(how do you verify a message with a baby on your left arm and your telephone
+in your right?). More generally, it makes a great deal of sense to make your
+security a moving target, <a href="https://twitter.com/FiloSottile/status/807612248223051776">as one of the Ars Technica commenters
+astutely summarised Filippo&rsquo;s ideas</a>.</p>
+<h2 id="cryptographic-signatures-ftw">Cryptographic signatures FTW</h2>
+<p>However, in spite of these factors, I am not yet ready to give up my PGP long-term keys.</p>
+<p>Why is that?</p>
+<p><em>Well, one of the most important uses of my long-term PGP keys is to
+cryptographically sign messages that can be verified by people in my network
+as having come from my hands.</em></p>
+<p>For example, when I change my phone or re-flash its firmware (this has
+happened 3 or 4 times over the past two months because Android), I send
+PGP-signed messages to my main Signal correspondents with our new safety
+numbers.</p>
+<p>With all of these correspondents I have in the past either done some sort of
+in-person formal PGP signing procedure, or I make use of the web of trust, or
+I rely on <a href="https://keybase.io/">keybase</a>. My business cards even
+have my key fingerprint on them (yes, I&rsquo;m one of those nerds).</p>
+<p>At their ends, the recipients of my messages are able to determine with an
+extremely high degree of confidence that <em>I</em> wrote the exact message they
+opened.</p>
+<h2 id="accessible-pgp-on-your-smartphone-with-openkeychain">Accessible PGP on your smartphone with OpenKeychain</h2>
+<p>In terms of accessibility, the post did make me curious enough to experiment
+with a mobile PGP solution, as I also did have to agree that I&rsquo;ve in the
+past often had to wait until I was behind one of my own laptops or
+workstations to PGP-verify a message.</p>
+<p>As my one friend explained on Signal:</p>
+<p>It&rsquo;s tricky to verify a message with a baby in your left hand and a telephone in your right!</p>
+<p><a href="https://www.openkeychain.org/">OpenKeychain</a> to the rescue!</p>
+<h3 id="strengthen-your-secret-key-encryption">Strengthen your secret key encryption</h3>
+<p>Seeing that I was planning on carrying my long-term private keys around on my
+telephone (BlackBerry PRIV, FDE encryption active FWIW), I had to double-check
+the security of the secret key encryption.</p>
+<p>It turns out that PGP encrypts each of your secret keys with a hash of the
+passphrase you supply. My passphrase is significantly longer than the average,
+and consists of random characters (uppercase, lowercase, numbers,
+symbols). Passphrase length and complexity is by far the most important factor
+determining the safety of your encrypted secret key.</p>
+<p>However, I had the default SHA-1 hash (ouch) with only 64k
+iterations. Iterating the hash is called <a href="https://en.wikipedia.org/wiki/Key_stretching">key stretching</a>: the
+passphrase is hashed, that result is hashed, and so on, for very many times,
+so that the testing of each passphrase takes more time, complicating
+brute-force cracking approaches.</p>
+<p>Inspired by <a href="http://nullprogram.com/blog/2012/06/24/">the writings of
+Chris Wellons</a> who keeps his encrypted secret keys on a public website
+(!!!), I reconfigured my private key encryption to use 1 million iterations of
+the SHA-512 hash, and to use AES-256 for the encryption itself:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
+</code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
+follow the prompts. You will have to enter your passphrase, and then enter
+your new passphrase twice.</p>
+<p>You can then check that this operation is successful by using the command <code>gpg &ndash;list-packets secring.gpg</code>. My output looks as follows. Most important is that algo is 9 (AES-256), hash is 10 (SHA-512) and protect count in my case is just over 1 million.</p>
+<pre><code>:secret key packet:
+version 4, algo 1, created 1376407300, expires 0
+skey[0]: [4096 bits]
+skey[1]: [17 bits]
+iter+salt S2K, algo: 9, SHA1 protection, hash: 10, salt: blabla
+protect count: 1015808 (
+protect IV:
+encrypted stuff follows
+keyid: 384435C7E77A4564
+</code></pre>
+<p>SHA-512 is the slowest hash which PGP offers (see <a href="http://thepasswordproject.com/oclhashcat_benchmarking">these oclHashcat
+benchmarks for example</a>), which means that each iteration of a brute-force
+password cracking attempt will take a bit longer / eat more GPU watts, which
+is exactly what we want. You can increase the protect count for as long as the
+delay on your smartphone is still tolerable.</p>
+<p>However, remember that a stronger and longer passphrase is much better! (so we
+do both)</p>
+<p>Other than that, remember that <a href="/2016/11/27/android-security-in-2016-is-a-mess/">Android security is far
+from good</a>, so do as much as you can to keep your phone safe (keep up with
+OS updates, stay away from unofficial app markets, and so on).</p>
+<h3 id="use-your-keys-with-openkeychain">Use your keys with OpenKeychain</h3>
+<p>I was pleasantly surprised to learn that I could directly import both my
+<code>secring.pgp</code> and <code>pubring.gpg</code> files from my
+<code>~/.gnupg</code> directory. Right after selecting secring.pgp for import,
+the UI looked like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161209-075007.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161209-075007-576x1024.png"
+        /> </a>
+</figure>
+
+<p>You can see the old 1024 bit key I made in 2000 to use for my Debian
+activities, and the 4096 bit key I currently use.</p>
+<p>After importing your secret and public keyring, you are able to encrypt,
+decrypt, sign and verify any files or clipboard contents on your Android
+phone:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-170851.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161211-170851-576x1024.png"
+        /> </a>
+</figure>
+
+<p>So if I receive something like this via Signal:</p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Never gonna give you up, never gonna let you down
+Never gonna run around and desert you
+Never gonna make you cry, never gonna say goodbye
+Never gonna tell a lie and hurt you
+-----BEGIN PGP SIGNATURE-----
+
+iQFEBAEBCgAuJxxTdGVmYW4gdmFuIGRlciBXYWx0IDxzdGVmYW5Ac3VuLmFjLnph
+PgUCWE2aUQAKCRDl/rykoDTdZZgvB/9Yi76C9o7xIgQ/d85WbnKDjNosp5uXzgHm
+A2y+cxZDLVNLTMrlCTXOMRulaJMvb3Ocsvi+/gQVUF49fT74EXlZpZvvdTzhQfa2
+VvQPjZmf/9PNzB3pgUtEDBwyLC21C6dqU+y7mPk91Aw1m8cKBQUSHmQxa7F/dCFc
+DCuWOcXjNt5vLQ2Q8mQBMpHaG9J5+4/0k/GEHAVcm55fzb7o2hJyEVb3EoYy8Pls
+khIwJpZVdwyY4FPoLXW3iJYanC5qoOoS81YLCyLEyin0jH56ve05uHbF0XcaNY4h
+NupkN2D+Dt4X2m2FXieM27eG/Ty9hVx7n7B3pT4P9KqeFDX8hQ/q
+=c7j9
+-----END PGP SIGNATURE-----
+</code></pre>
+<p>I long-press, copy the message and then select “read from
+clipboard” from OpenKeychain&rsquo;s Encrypt/Decrypt screen, which, if
+everything checks out, shows me the following message:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-202817.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161211-202817-576x1024.png"
+        /> </a>
+</figure>
+
+<p>I can now rest assured that <a href="http://mentat.za.net/">this
+specific buddy of mine</a> is never gonna give me up and is never gonna let me
+down.</p>
+<p>Cryptographically signing a message is equally easy, except that you&rsquo;ll
+have to enter that long passphrase of yours. OpenKeychain will then make the
+signed and optionally encrypted text text available for sharing to any app, or
+for copying and pasting:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-174458.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screenshot_20161211-174458-576x1024.png"
+        /> </a>
+</figure>
+
+<p>Easy peasy, and tested under all sorts of usually-PGP-unfriendly conditions!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Maintaining PGP long-term keys certainly has its issues, but the possibility
+of cryptographically signing any message so that recipients can establish with
+high confidence that it originated from you is too important to give up.</p>
+<p>With an app like OpenKeychain and sufficiently strong passphrase hashing and
+secret key encryption, you are able to use your keys with ease from your
+telephone.</p>
+<p>Granted, you are trading in some security for this convenience. However, given
+the choice between discarding my PGP keys completely, vs. taking these steps,
+I&rsquo;ll hold on to my keys for a little while longer.</p>
+<p>In order to mitigate the potential damage of one of my long-term keys being
+compromised, I have resolved to generate and start using a new private key as
+soon as I run through my current batch of business cards, and to continue
+rotating like this in the future.</p>
+<p>Let me know in the comments what you think. Do you know of a better
+alternative for remotely verifying the identity and messages of your
+correspondents?</p>
+]]></content:encoded></item><item><title>Installing free Let’s Encrypt SSL certificates on webfaction in 3 easy steps</title><link>https://cpbotha.net/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/</link><pubDate>Mon, 18 Jul 2016 19:31:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/</guid><description> WARNING on 2020-02-24: webfaction has been bought by godaddy and will soon close down. I have recently moved out and am now keeping all of my Let&amp;rsquo;s Encrypt certificates up to date with the official certbot tool.
+WARNING: High levels of NERD ahead.
+I started using CloudFlare’s free tier on this blog, before Let’s Encrypt burst onto the scene, mostly for their universal SSL. However, as joepie91 recently pointed out, this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case).</description><content:encoded><![CDATA[ <p><strong>WARNING on 2020-02-24: webfaction has been bought by godaddy and will soon
+close down. <a href="/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server">I have recently moved
+out</a>
+and am now keeping all of my Let&rsquo;s Encrypt certificates up to date with the
+official <a href="https://certbot.eff.org/">certbot tool</a>.</strong></p>
+<p><strong>WARNING: High levels of NERD ahead.</strong></p>
+<p>I started using CloudFlare’s free tier on this blog, before Let’s Encrypt burst onto the scene, mostly for their <a href="https://blog.cloudflare.com/introducing-universal-ssl/">universal SSL</a>. However, as joepie91 <a href="http://cryto.net/~joepie91/blog/2016/07/14/cloudflare-we-have-a-problem/">recently pointed out</a>, this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case). Apart from this, CloudFlare is a bit of overkill for this low-traffic site.</p>
+<div class="figure">
+<p>
+<a href="https://letsencrypt.org/"><img alt="le-logo-standard.png" src="https://letsencrypt.org/images/le-logo-standard.png"/></a>
+</p>
+</div>
+<p>Because I don’t need much of an excuse to try out something new, I used this as my excuse to try out <a href="https://letsencrypt.org/">Let’s Encrypt</a>, a fantastic new(ish) service which issues free 90 day certificates to anyone who can verify their domains.</p>
+<p>I was shocked with how easy this was on the webfaction shared (non root) hosting I’ve been using for years, and so I had to share.</p>
+<p><strong>WITNESS THE GREAT EASINESS:</strong></p>
+<h2 id="step-1-install-acmesh">Step 1: Install acme.sh</h2>
+<p>These two steps are to be performed whilst SSH’d in to your web host.</p>
+<p>First we install <a href="https://github.com/Neilpang/acme.sh">the wonderful acme.sh</a> by following the one-liner on its website:</p>
+<p>&lsquo;&lsquo;&lsquo;shell
+curl <a href="https://get.acme.sh">https://get.acme.sh</a> | sh
+'&rsquo;&rsquo;</p>
+<p>At this junction, as they say, it’s best to log out and in again, so that the acme.sh alias and environment variable can be setup.</p>
+<h2 id="step-2-issue-shiny-new-ssl-certificate">Step 2: Issue shiny new SSL certificate</h2>
+<p>We then get <code>acme.sh</code> to verify the website using the webroot method, and to request a certificate for the two domains <code>cpbotha.net</code> and <code><a href="http://www.cbbotha.net">www.cbbotha.net</a></code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh --issue -d cpbotha.net -d www.cpbotha.net -w ~/webapps/wp
+</code></pre></div><p>The argument following <code>-w</code> is the directory exposed by the website <code><a href="http://cpbotha.net/">http://cpbotha.net/</a></code>. Note that this is still <code>http</code>; Let’s Encrypt queries a special file left there by acme.sh to confirm that you actually manage the specified domain.</p>
+<p>After a few seconds of progress output, I was left with a shiny certificate (as well as the CSR, key, and so forth) in <code>~/.acme.sh/cpbotha.net/</code></p>
+<h2 id="step-3-install-shiny-new-ssl-certificate">Step 3: Install shiny new SSL certificate</h2>
+<p>On Webfaction, one has to file a support ticket for this. My request was formulated thusly, and was correctly acted upon in about 5 minutes:</p>
+<blockquote>
+<p>Could you please install the following SSL certificate for the website cpbotha_SSL – reachable at <a href="https://cpbotha.net/"><a href="https://cpbotha.net/">https://cpbotha.net/</a></a>:</p>
+<ul>
+<li>cert is in <code>/home/cpbotha/.acme.sh/cpbotha.net/cpbotha.net.cer</code></li>
+<li>key is in <code>/home/cpbotha/.acme.sh/cpbotha.net/cpbotha.net.key</code></li>
+<li>intermediate CA cert is in <code>/home/cpbotha/.acme.sh/cpbotha.net/ca.cer</code></li>
+<li>full chain certs is there: <code>/home/cpbotha/.acme.sh/cpbotha.net/fullchain.cer</code></li>
+</ul>
+<p>Thanks!</p>
+</blockquote>
+<h3 id="update-on-2016-10-25">Update on 2016-10-25</h3>
+<p>It is now possible to install the new certs all by yourself using the webfaction panel or the API! Read the <a href="https://blog.webfaction.com/2016/09/manage-ssl-certificates-with-the-control-panel/">announcement blog post</a> for more information.</p>
+<h2 id="bonus-level-in-90--k-days-simply-re-run-acmesh">Bonus level: In 90 – k days, simply re-run acme.sh</h2>
+<p>At any point, you can request certificates for any other domains that you may be hosting on your webfaction.</p>
+<p>At regular intervals, or in slightly fewer than 90 days, simply run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh --renewAll
+</code></pre></div><p>To have acme.sh renew any of your certificates that are up for renewal. Just remember to create a new support ticket to have the renewed certificates installed for the relevant domains.</p>
+<h3 id="acmesh-cronjob">acme.sh cronjob</h3>
+<p>Unbeknownst to be (I should have read the docs) acme.sh had cleverly installed a user cronjob to check for renewals. When I attempted to renew two of my certs, I saw that it had already done so automatically, so I only had to install the updated versions.</p>
+<h2 id="boss-level-htaccess-based-redirect-from-http-to-https">Boss level: htaccess-based redirect from HTTP to HTTPS</h2>
+<p>Now that I have my SSL setup, I would prefer for users who go to the HTTP site to be 301 forwarded to the HTTPS version. On Webfaction, I can do that with the following addition to the site <code>.htaccess</code> file:</p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #93E0E3;">IfModule</span> mod_rewrite.c&gt;
+RewriteEngine On
+# we're behind nginx ssl proxy, hence the non-standard check for no-SSL:
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+&lt;/<span style="color: #93E0E3;">IfModule</span>&gt;
+</pre>
+</div>
+<b>Important:</b> webfaction is using nginx as their SSL frontend, so we check for the X-Forwarded-SSL header.
+]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description> (Post updated on January 8, 2021. See section at the end.)
+Signal, the open source messaging and voice calling app that does end-to-end encryption. The whole world is using WhatsApp to message each other. I often do too, because I want to inter-operate with the rest of the world.
+However, WhatsApp belongs to Facebook.
+Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
+<figure>
+<img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
+<figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
+<p>The whole world is using WhatsApp to message each other. I often do too,
+because I want to inter-operate with the rest of the world.</p>
+<p>However, WhatsApp belongs to Facebook.</p>
+<p>Although Facebook <a href="http://www.huffingtonpost.com/2014/02/24/zuckerberg-facebook-whatsapp_n_4848205.html">has promised otherwise</a> (fast-forward a few years: Yes,
+they did break that promise. See updates at the end of this post.), the
+temptation to link all of your WhatsApp messages with Facebook logins (a
+straight-forward process, as they have the mobile phone numbers of a great
+number of their users) must be <strong>quite</strong> tempting to the people at
+Facebook. Imagine how well they would then be able to target their advertising,
+based on their access to both your Facebook profile and your private WhatsApp
+messages!</p>
+<p>Fortunately, we now have an open source app, called <a href="https://signal.org/">Signal</a> (available on
+<a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&amp;hl=en">Android</a>, <a href="https://itunes.apple.com/za/app/signal-private-messenger/id874139669?mt=8">IOS</a> and the desktop), which performs end-to-end encryption
+on all messages and voice calls that go through it. This means that absolutely
+no-one is able to read your messages or eavesdrop on your voice calls, except
+the intended recipients.</p>
+<p>My request is that you get your contacts to install and <a href="https://theintercept.com/2015/03/02/signal-iphones-encrypted-messaging-app-now-supports-text/">start using Signal</a>
+instead of WhatsApp wherever possible. At the very least some of our messages
+will not be accessible to various large corporations and any other prying
+eyes. If the security argument is not enough for you, there is one more
+extremely important topic: Signal handles animated gifs better than WhatsApp,
+at least on Android. (Telegram supports them on both Android on IOS, but it is
+by default less secure than Signal). See here the results of my experiments:</p>
+<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Animated GIF support (most important feature in any messaging app): WhatsApp fail, Viber fail, Telegram pass, Signal pass on Android.</p>— Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/682942239463587841?ref_src=twsrc%5Etfw">January 1, 2016</a></blockquote> <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+<h1 id="updates">Updates</h1>
+<h2 id="january-8-2021">January 8, 2021</h2>
+<p>By now, if you use WhatsApp, the app will have forced you to accept the new
+privacy and data sharing agreement.</p>
+<p>As is explained in this <a href="https://arstechnica.com/tech-policy/2021/01/whatsapp-users-must-share-their-data-with-facebook-or-stop-using-the-app/">post on
+arstechnica</a>:</p>
+<blockquote>
+<p>Under the new terms, Facebook reserves the right to share collected data with its family of companies.</p>
+</blockquote>
+<p>In other words, even more of the personal data of 2 billion or so WhatsApp
+users will be integrated with everything Facebook knows about them and about
+you, including all of your connections to each other on all of the facebook
+platforms, including facebook itself, instagram and whatsapp.</p>
+<p>Like many of you, to interoperate with the world I do need to keep WhatsApp,
+but I would greatly prefer chatting with you on Signal.</p>
+<h2 id="august-25-2016">August 25, 2016</h2>
+<p><a href="http://www.theverge.com/2016/8/25/12638698/whatsapp-to-start-sharing-user-data-with-facebook">The Verge reported that WhatsApp will now officially begin sharing data with
+Facebook</a>. They will indeed link up telephone numbers and social networks,
+meaning that both parties will get a tremendous boost in what they know about
+you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
+]]></content:encoded></item></channel></rss>

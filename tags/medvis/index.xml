@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>medvis on voices in my head</title><link>https://cpbotha.net/tags/medvis/</link><description>Recent content in medvis on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 24 Dec 2013 12:28:16 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/medvis/index.xml" rel="self" type="application/rss+xml"/><item><title>The new MedVis Book is out!</title><link>https://cpbotha.net/2013/12/24/the-new-medvis-book-is-out/</link><pubDate>Tue, 24 Dec 2013 12:28:16 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/12/24/the-new-medvis-book-is-out/</guid><description> For the past 2.5 years, I have been helping my friend Prof. Bernhard Preim to write the new Medical Visualization textbook. A crazy number of hours of studying scientific literature (a quick count in the bbl file yields 1880 cited references!!), trying to fit everything into a coherent conceptual framework and then trying to write all of it down as a more or less readable story has finally led to more than 1000 pages of Medical Visualization reading pleasure.</description><content:encoded><![CDATA[ <p>For the past 2.5 years, I have been helping my friend <a href="http://isgwww.cs.uni-magdeburg.de/~bernhard/" title="bernhard's website">Prof. Bernhard Preim</a> to write the new Medical Visualization textbook. A crazy number of hours of studying scientific literature (a quick count in the bbl file yields 1880 cited references!!), trying to fit everything into a coherent conceptual framework and then trying to write all of it down as a more or less readable story has finally led to more than 1000 pages of Medical Visualization reading pleasure.</p>
+<p>It looks like this:</p>
+<p><a href="http://medvisbook.com/"><img alt="" class="alignnone" height="922" src="http://medvisbook.com/wp-content/uploads/2013/10/cover_full_20130729.jpg" width="1650"/></a></p>
+<p>The title has been changed to <em>Visual Computing for Medicine</em> to reflect the significant rework, and also the broader treatment of the field. The book itself is 836 pages with hundreds of colour figures. Five chapters (190+ pages) are <a href="http://medvisbook.com/online-chapters/" title="medvisbook online chapters">available exclusively online</a>, free to download.</p>
+<p>Go to <a href="http://medvisbook.com/" title="medvisbook website">the book website</a> (run by us) to read more <a href="http://medvisbook.com/about/" title="about the book">about the contents</a> of the book, and to find out <a href="http://medvisbook.com/where-to-buy/" title="where to buy">where you can get your very own copy</a>!</p>
+<p>P.S. It was a huge pleasure working on the book together with Bernhard. (We’ve been collaborating quite intensively since the end of 2007 somewhere, when we started setting up the <a href="http://www.vcbm.org/" title="VCBM website">Eurographics Workshops on Visual Computing for Biology and Medicine</a>, which have since then been held in 2008, 2010, 2012 and will be held again in 2014 in Vienna.) Just for the record, he definitely put a great deal more work into the book than I did. The exact ratio will remain our secret.</p>
+]]></content:encoded></item><item><title>What is love? [Weekly Head Voices #64 no #65]</title><link>https://cpbotha.net/2012/02/14/what-is-love-weekly-head-voices-64/</link><pubDate>Tue, 14 Feb 2012 22:05:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/02/14/what-is-love-weekly-head-voices-64/</guid><description> I’ve been dealing with a spot of blog writer’s block, hence the lateness of this post. I’d forgotten that these monthly instalments were initially intended to be extended status updates, with a spot of backyard philosophy every so often. Trying to come up with worthwhile backyard philosophy every week is just plain hard. This week I’m going for half a status update along with a list of possibly interesting sciencey tidbits.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2012/02/dont_herd_me.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2012/02/dont_herd_me-1024x681.jpg"
+        /> </a>
+</figure>
+
+<p>I’ve been dealing with a spot of blog writer’s block, hence the lateness of this post. I’d forgotten that these monthly instalments were initially intended to be extended status updates, with a spot of backyard philosophy every so often. Trying to come up with worthwhile backyard philosophy every week is just plain hard. This week I’m going for half a status update along with a list of possibly interesting sciencey tidbits.</p>
+<ul>
+<li>I’ve managed to <a href="http://devidenews.wordpress.com/2012/02/11/devide-12-2-7-sees-the-light-of-day/" title="devide 12.2.7 release post">release a stable version of DeVIDE</a>, my Frankenstein-Borg software system for visualization and image processing, only about 2.5 years after the previous stable release. Go get yours <a href="http://code.google.com/p/devide/wiki/Downloads?tm=2" title="devide downloads">fresh from the oven</a>, it’s completely open source!</li>
+<li>It <a href="/2009/04/04/when-the-going-gets-tough/" title="right after first MedVis course">seems like yesterday</a> when I got to design and teach the first MedVis Ninja course at the TU Delft. The fourth generation of students have just started with the course (partly the reason for pushing out a new DeVIDE release). The previous generations are kicking ass as we speak, and I’m proud of ’em all.</li>
+<li>I had the privilege of giving another invited talk, in Dutch, at the yearly conference of the Dutch Anatomical Society. In my talk, titled <em>Data Visualization: Driving the human visual system for fun and profit</em>, I introduced data and medical visualization, and then discussed three illustrative examples in more depth: high quality volume rendering (work by Thomas Kroes), diffusion tensor imaging (work by Jorik Blaas) and fMRI connectivity visualization (work by André van Dixhoorn).</li>
+</ul>
+<p>That’s it for the status update. The sciencey bits I thought were worth mentioning are:</p>
+<ul>
+<li>There’s been some press lately about the letter to the Wall Street Journal, signed by 16 scientists, in which they try to make the case that climate change is really not such an issue. Climate change denialists everywhere rejoiced, I cringed. I really don’t like denialism. Fortunately, it turns out that I’m not the only one, and that there’s a story behind the story: The WSJ editorial board is severely biased against climate science.  Another letter, signed by 255 real scientists (all members of the US National Academy of Science), dealing with the realities of climate change, was flat-out rejected by the WSJ. It’s a shame that the first factually dubious letter got so much of the press. Read more about the whole debacle in <a href="http://www.forbes.com/sites/petergleick/2012/01/27/remarkable-editorial-bias-on-climate-science-at-the-wall-street-journal/" title="forbes article concerning WSJ climate bias">this Forbes article</a>.</li>
+<li><a href="http://pss.sagepub.com/content/23/2/187" title="Lower Cognitive Ability Predicts Greater Prejudice ">A recent Psychological Science article</a> contains the results of a study  on more than 15000 UK inhabitants, as well as on a group in the US, that shows that lower cognitive ability predicts greater prejudice, manifesting in for example right-wing ideologies or homophobia. Ha ha.</li>
+<li>In another not-so-surprising turn of events, it turns out that alcohol does indeed make you more creative.  <a href="http://francoismalan.com/">FrancoisMalan.com</a> sent me, albeit indirectly, this <a href="http://www.sciencedirect.com/science/article/pii/S1053810012000037" title="Uncorking the muse: Alcohol intoxication facilitates creative problem solving">Consciousness and Cognition article</a>, titled <em>Uncorking the muse: Alcohol intoxication facilitates creative problem solving</em>. Note the creative title, draw your own conclusions about the state of intoxication required for authoring a successful scientific article. Ahem.</li>
+</ul>
+<p>Good science should be reproducible. Judging by <a href="http://en.wikipedia.org/wiki/Blood_alcohol_content">the blood alcohol content and weight tables</a> on Wikipedia, I should be more creative between 3 and 4 beers, a result I will certainly try to confirm during my next WHV writing session. It is left as an exercise to the reader to calculate my body weight based on this information.</p>
+]]></content:encoded></item><item><title>Happiness slingshot. [Weekly Head Voices #61]</title><link>https://cpbotha.net/2011/11/05/happiness-slingshot-weekly-head-voices-61/</link><pubDate>Sat, 05 Nov 2011 21:11:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/11/05/happiness-slingshot-weekly-head-voices-61/</guid><description> Make sure you won’t be disturbed for the next 2 minutes and 57 seconds, and then focus your full attention on this marvelous YouTube clip:
+Yes people, there are apparently some brilliant human beings, the pinnacle of our society you might say, who took the time to construct a giant slingshot with which they then proceeded to shoot each other through the blue summer sky. This is the sign that we, the human race, must be doing something right.</description><content:encoded><![CDATA[ <p>Make sure you won’t be disturbed for the next 2 minutes and 57 seconds, and then focus your full attention on this marvelous YouTube clip:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/y_wkQBDDgvI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Yes people, there are apparently some brilliant human beings, the pinnacle of our society you might say, who took the time to construct a giant slingshot with which they then proceeded to shoot each other through the blue summer sky. This is the sign that we, the human race, <em>must be doing something right</em>.</p>
+<p>Because I need all the time that I can get to play may part in being a good human, I will now switch to Bullet Time(tm):</p>
+<ul>
+<li>IEEE VisWeek 2011, Mind-Blowingly Awesome Visualization Conference, took place in week 43. For the first time in years, I was NOT there. The <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">TNR</a> went and came back inspired. My fearless and revered ex-leader Frits Post received the IEEE VGTC Visualization Career Award, which is yet another official recognition of his awesomeness. I hope he still has some space on the mantelpiece next to the Eurographics Honorary Fellow award.</li>
+<li>Through the <a href="https://twitter.com/#!/search?q=%23visweek" title="#visweek twitter stream">#visweek conference twitter stream</a> and some of the blogging that was going on, I was able to follow the conference at a distance. There was a Blogging about Visualization BoF (birds of a feather, a kind of informal meeting to discuss some topic of interest; also read <a href="http://bowr.de/blog/?p=291" title="Dominikus Baur's report on the visweek blogging BoF">Dominikus Baur’s blog report</a>), which motivated me to revive <a href="http://medvis.org/" title="medvis.org blog">the MedVis.org webblog</a>! We even have a <a href="https://twitter.com/#!/medvisorg" title="medvis.org twitter account">twitter account now</a>. If you have even a mild interest in medical visualisation or imaging, please subscribe via email, your RSS reader or <a href="https://twitter.com/#!/medvisorg" title="medvis.org twitter account">the twitter account</a>.</li>
+<li>This blog won one of <a href="http://www.swimgeek.com/blog/2011/10/26/sa-blog-awards-2011/" title="Joe's official SA blog awards">Joe’s official SA Blog Awards</a>! Buy me a beer when you see me.</li>
+<li>A real Italian explained to me that putting sugar in your espresso is entirely acceptable and even desirable. Herewith I’m going to stop feeling ashamed about my sugar-in-espresso habit. I’m not sure what I was thinking that combining two of the best substances known to humans was a sin.</li>
+<li>After spending some serious quality time with <a href="http://emailga.me/" title="The Email Game">The Email Game</a>, I wrestled both of my overgrown inboxes to the ground. Lessons learnt: 1) Even the thin layer of gamification offered by The Email Game was sufficient to motivate me to start and finish a task I’ve been dreading for weeks. 2) Inbox Zero actually is more important than I’ve recently come to think. The trick is deciding when exactly you’re going to empty it.</li>
+<li>Here’s a picture of a hedgehog after a bath:</li>
+</ul>
+<div>
+<figure class="wp-caption alignnone" style="width: 333px"><a href="http://www.flickr.com/photos/justinandelise/4234874994/"><img alt="" height="500" src="http://farm3.static.flickr.com/2759/4234874994_9cbf4fbf35.jpg" title="Hedgehog after a bath, found on BoingBoing." width="333"/></a><figcaption class="wp-caption-text">It's a hedgehog. After a bath!</figcaption></figure>
+</div>
+<p>So recently I was having a conversation with someone in a bar. Soon the question came up: <em>What are you striving for in your work?</em></p>
+<p>Imagine my surprise when I didn’t have an answer ready. I was surprised, because I usually spend a significant amount of time on introspection, pondering the usual questions:</p>
+<ol>
+<li>What makes me happy?</li>
+<li>Why are we here?</li>
+<li>What should I strive for?</li>
+</ol>
+<p>I mostly have answers to all of these and more, often involving coffee drinking in some form, along with a healthy dose of perspective, and harmony. However, due to general work-related business the past few months, my moments of introspection have been few and far between. As is the case with these types of philosophical guidelines, one does need to spend time regularly pondering them, else they sink quickly deeper below the surface of everyday life.</p>
+<p>So I spent some time trying to remember what it was that I was striving for in work. Fortunately, not that far below the surface, I found it again:</p>
+<blockquote>
+<p>Create value.</p>
+</blockquote>
+<p>That’s really all there is, but it works for me.</p>
+]]></content:encoded></item><item><title>Coffee addiction potpourri. [Weekly Head Voices #57]</title><link>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</link><pubDate>Sun, 18 Sep 2011 12:38:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</guid><description> Yes boys and girls, I was keeping back writing that Rebecca Black post, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</description><content:encoded><![CDATA[ <p>Yes boys and girls, I was keeping back writing <a href="/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/" title="Rebecca Black post">that Rebecca Black post</a>, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</p>
+<p>Let’s get today’s life lessons started with Mitch Hedberg, Comic Genius (note the captital C, and the capital G):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/u6xaj2fC1jI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Hedberg’s genius unfortunately could not save him from drug addiction and his overdose-related death in 2005.</p>
+<p>On the topic of addiction, <a href="http://fpixel.wordpress.com/" title="fpixel website">fpixel</a> forwarded <a href="http://www.dutchdailynews.com/drinking-coffee-genes/">these new findings that coffee drinking is genetic</a>, both in terms of capacity and perhaps also in terms of addiction. Even my atoms are addicted to coffee, so that feels about right. What’s really interesting however, is that the documented study found that the genes involved in the metabolism of coffee (CYPIA1 and NRCAM, if I understand correctly) are also related to the onset of Parkinson’s disease. You see, coffee drinkers are less prone to Parkinson’s disease (<a href="/2011/07/02/the-monthly-weekly-head-voices-50/" title="a previous WHV including some coffee health tidbits">as well as a whole list of other diseases</a> including prostate cancer, type 2 diabetes and liver cancer). However, past studies of course show correlation and not causation, i.e. coffee drinking and low risk of disease X appear together, but that does not tell us anything about what causes what. This new study has made the first steps towards understanding the mechanism that actually links Parkinson’s disease and coffee drinking.</p>
+<p>On the topic of coffee <em>and</em> addiction, <a href="/about/weekly-head-voices-abbreviations/" title="abbreviations page">TNR</a> and I spent the Monday morning working (like animals) on our new parallel startup (there, I said it) at the <a href="http://www.coffeecompany.nl/" title="Coffee Company website">Coffee Company</a> in Delft. Two things:</p>
+<ol>
+<li>The Coffee Company makes a killer cappuccino. The milk is steamed to perfection, but it’s got the perfect espresso bomb exploding through all that milky goodness at just the right moment. BAM! HELLO THERE! Highly recommended. With every purchase, you get WiFi access for one hour, so no surprises or misunderstandings.</li>
+<li>It’s amazing what such a change of working environment does for one’s creativity.</li>
+</ol>
+<p>On the topic of startups, Dr Jorik Blaas, ex PhDer, full-time genius and friend, is now the director of research and development at <a href="http://synerscope.com/" title="synerscope website">Synerscope</a> (probably no relation with sinister, but my subconscious is just not behaving today), a high-potential startup that makes visualisation-based tools for fraud detection in big data (big money, IOW). Synerscope has brought together some of the top visualisation brains in the country. Personally, I can’t help but imagine it like this:
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/09/Dr_Evil.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/09/Dr_Evil.jpg"
+        
+            alt="Are you in there somewhere?"/> </a><figcaption>
+            <p>Are you in there somewhere?</p>
+        </figcaption>
+</figure>
+</p>
+<p>On Tuesday and Wednesday, we made a quick train trip (*cough* 9 hours there due to delay thank you NS, 7+ hours back) to Magdeburg for the <a href="http://www.fg-medvis.de/" title="link to German MedVis group site">bi-annual German MedVis meeting</a>. You’ll recall that I spent <a href="/2009/04/25/my-first-sabbatical/" title="my magdeburg sabbatical">my first micro-sabbatical there</a>. The city almost feels like home, and it was really great seeing many of the Magdeburg peeps again. The meeting itself was of high quality, with a number of VisWeek contributions being presented. Thomas Kroes (should I start using fictitious names and acronyms again?) presented his <a href="http://exposure-render.googlecode.com/" title="exposure render website">interactive photo-realistic volume renderer</a> too! By the way, download it, use it (it makes fantastically beautiful renderings), spread it, and do cite the soon-to-appear article.</p>
+<p>On Saturday, it rained (again, or still, I forget), so I decided to flip Mother Nature the bird by BBQing four juicy rib-eye steaks outside. Take that Mother Nature! The steaks were delicious, thank you. Mother Nature is not all bad though… Check this out: The Southern Lights. FROM SPACE!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/09/aurora.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/09/aurora.jpg"
+        
+            alt="Aurora Australis (thanks Bart!) FROM SPACE, taken by Ron Garan. Click on the photo to go to the original."/> </a><figcaption>
+            <p>Aurora Australis (thanks Bart!) FROM SPACE, taken by Ron Garan. Click on the photo to go to the original.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I’m going to wind down this post with two backyard philosophy-themed bits. The first is a quote by mathematician Alfred North Whitehead from this article on “The Skill that Matters Most” (found via <a href="http://www.swimgeek.com/blog/" title="joe's blog">Joe Botha</a>, serial entrepreneur, currently changing the world with <a href="https://www.trustfabric.com/">Trust Fabric</a>):</p>
+<blockquote>
+<p>Civilization advances by extending the number of important operations which we can perform without thinking about them.</p>
+</blockquote>
+<p>I haven’t thought about it that way before, but it does make complete sense. The more things we humans do well in a routine fashion, the better.  Otherwise, our inconsistency is prone to lead to problems. By the way, the mentioned skill is <em>self-control</em>.</p>
+<p>Finally, <a href="http://www.flipangle.org/" title="AJ's site">AJ</a> forwarded this video called Disconnect to Connect. I’ll just let you watch and think about it for a while:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/GnwNGNOv19A?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I’ll be off now. Please do have an epic week, and think of me when your level of enjoyment is at a local maximum. At these points, you might also consider jumping around randomly.</p>
+]]></content:encoded></item><item><title>GOUMEs [weekly head voices #47]</title><link>https://cpbotha.net/2011/05/10/goumes-weekly-head-voices-47/</link><pubDate>Tue, 10 May 2011 21:25:49 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/05/10/goumes-weekly-head-voices-47/</guid><description> As you all would have guessed by now (ALL my readers are insanely astute, of course), GOUMEs stands for Genetic Offspring Unit Maturation Events. You see, the first week of May has the fantastic privilege of hosting the birth dates of both of my Genetic Offspring Units. One of them is too young to appreciate the significance of this event, the other is now at the stage where one tends to over-estimate said significance.</description><content:encoded><![CDATA[ <p>As you all would have guessed by now (ALL my readers are insanely astute, of course), GOUMEs stands for Genetic Offspring Unit Maturation Events. You see, the first week of May has the fantastic privilege of hosting the birth dates of both of my Genetic Offspring Units. One of them is too young to appreciate the significance of this event, the other is now at the stage where one tends to over-estimate said significance. In any case, more on this in a bullet or two.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/05/nemo-1024.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/05/nemo-1024.jpg"
+        
+            alt="The Nemo in Amsterdam. Pinball Machine of Science."/> </a><figcaption>
+            <p>The Nemo in Amsterdam. Pinball Machine of Science.</p>
+        </figcaption>
+</figure>
+</p>
+<ul>
+<li>The <a href="/about/weekly-head-voices-abbreviations/" title="Weekly Head Voices Abbreviations">TPN</a> and I were brave (or stupid) enough to take two of the GOUs to the <a href="http://www.e-nemo.nl/" title="Nemo Science Centre website">Nemo Science Centre</a> in Amsterdam on one sunny Monday. The Nemo is 5 floors packed chock-full of fun and interactive science exhibits. This is really cool, except perhaps for the fact that kids of around <em>that</em> age have a maximum attention span of about 5 seconds, in which case the Nemo could also be considered as 5 floors packed chock-full of irresistible distractions. The end result is 5 floors of hyper-active kids bouncing around from exhibit to exhibit, much like a pinball machine that has for some or other reason been filled with zillions of balls and is being operated by an octopus on speed.</li>
+<li>After a long discussion with the book publisher Morgan Kaufmann, filled with book proposals, proposal reviews and proposal review rebuttals, my good friend and colleague Prof. Bernhard Preim and I have received the green light and will soon start writing the second edition of the “Visualization in Medicine” textbook.  The working title of the new book is “Visual Computing in Medicine”. Whatever the case may be, this is <em>the</em> textbook defining my research field, and it’s quite an honour being able to participate in its writing. This does mean that until about March 2013 I have another excuse to be permanently over-busy, and hence grumpy. You have been warned.</li>
+<li>On the eve of her very first birthday, my GOU #2 ate her first BBQ spare rib, right from the bone. Now that’s a significant event.</li>
+<li>GOU #1 wanted a princess-themed party, and so it came to be. After an intensive few hours surrounded by little girls dressed up as princesses, flying unicorns, pink fairies and other types of sugar and spice and all things nice, I believe that my DNA might be permanently damaged. I will have to spend significantly more time with my <a href="/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/" title="black time machine">black time machine</a> to counter these effects.</li>
+</ul>
+<p>This weekend,  Maarten Keulemans, the new Volkskrant science editor, concluded his current stint as columnist for the same paper with a collection of thought-provoking factoids and propositions. In order to give you some backyard philosophy to think about, I’d like to conclude with a translation of one of the factoids that really struck me:</p>
+<blockquote>
+<p>It’s bizarre that humankind spends eleven times more on killing people than it spends on saving lives through scientific research.</p>
+</blockquote>
+<p><em>Humankind</em> does sometimes disappoint, doesn’t it? Have a great week kids, and be really good to one another.</p>
+]]></content:encoded></item></channel></rss>

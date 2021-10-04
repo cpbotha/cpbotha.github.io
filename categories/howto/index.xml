@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>howto on voices in my head</title><link>https://cpbotha.net/categories/howto/</link><description>Recent content in howto on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 10 Jan 2021 15:48:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/howto/index.xml" rel="self" type="application/rss+xml"/><item><title>Super simple yearly post archives for Hugo</title><link>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</link><pubDate>Sun, 10 Jan 2021 15:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</guid><description> I was looking for the most simple way to get automatic yearly archives of all blog posts for the Hugo setup responsible for cpbotha.net (this blog).
+Fortunately I ran into Rohan Verma&amp;rsquo;s template-based solution which I could then simplify into the even more straight-forward shortcode-based solution presented in this post.
+For an example of the output, see the post archives here.
+To make this happen on your Hugo setup is a two step process.</description><content:encoded><![CDATA[ <p>I was looking for the most simple way to get automatic yearly archives of all
+blog posts for the <a href="https://gohugo.io/">Hugo</a> setup responsible for cpbotha.net (this blog).</p>
+<p>Fortunately I ran into <a href="https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/">Rohan Verma&rsquo;s template-based solution</a> which I could then
+simplify into the even more straight-forward shortcode-based solution presented
+in this post.</p>
+<p>For an example of the output, see <a href="/archive/">the post archives here</a>.</p>
+<p>To make this happen on your Hugo setup is a two step process.</p>
+<h2 id="step-1-install-shortcode">Step 1: Install shortcode</h2>
+<p>Save the following snippet as <code>layouts/shortcodes/archive.html</code>.</p>
+<p>Note that you might have to change <code>&quot;posts&quot;</code> in the code below to whatever Hugo
+section contains your blog posts.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#93a1a1;font-style:italic">{{/*
+</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic">simple shortcode to display all posts in yearly sections on your archive page
+</span><span style="color:#93a1a1;font-style:italic">by Charl P. Botha
+</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic">this is a much simplified version of the yearly post archiving template at:
+</span><span style="color:#93a1a1;font-style:italic">https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
+</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic">*/}}</span>
+
+<span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> := <span style="color:#268bd2">3000</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">range</span> <span style="color:#268bd2">where</span> <span style="color:#268bd2">.Site.RegularPages</span> <span style="color:#2aa198">&#34;Section&#34;</span> <span style="color:#2aa198">&#34;posts&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#268bd2">.Date</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#859900">gt</span> <span style="color:#268bd2">$prev</span> (<span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span>)<span style="color:#93a1a1;font-style:italic">}}</span>
+## <span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span> <span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;02 Jan&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span> -- [<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Title</span><span style="color:#93a1a1;font-style:italic">}}</span>](<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Permalink</span><span style="color:#93a1a1;font-style:italic">}}</span>)
+<span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> = <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</code></pre></div><h2 id="step-2-use-shortcode">Step 2: Use shortcode</h2>
+<p>Use the shortcode on any page as <code>{{% archive %}}</code>, as shown in the example below.</p>
+<p>Note here that we&rsquo;re using <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown">the shortcode syntax for markdown shortcodes</a>,
+i.e. <code>%</code> instead of the <code>&lt;</code> you might be more used to for HTML shortcodes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
+title: &#34;Posts Archive&#34;
+slug: &#34;archive&#34;
+date: 2021-01-09T16:17:00+02:00
+type: &#34;page&#34;
+---
+
+Some text that will appear before the archive.
+
+
+
+{{% archive %}}
+</code></pre></div>]]></content:encoded></item><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
+To make a long and interesting story short, srcset enables us to tell the browser that we have for example 5 different resolutions of an image available, and that it should choose the best one based on the user&amp;rsquo;s device.
+Pretty neat actually!
+Anyways, I tweaked the code a bit over time, and most recently I combined it with the stock Hugo figure shortcode.</description><content:encoded><![CDATA[ <p>When <a href="/2019/03/31/wordpress-to-hugo/#bonus-level-bundling-and-automatic-resizing-of-images">I moved this blog over to
+Hugo</a>
+slightly more than a year ago, I started using <a href="https://laurakalbag.com/processing-responsive-images-with-hugo/">Laura Kalbag&rsquo;s special <code>img</code>
+shortcode</a>
+with <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia%5Fand%5Fembedding/Responsive%5Fimages">img srcset
+support</a>.</p>
+<p>To make a long and interesting story short, <code>srcset</code> enables us to tell the
+browser that we have for example 5 different resolutions of an image available,
+and that it should choose the best one based on the user&rsquo;s device.</p>
+<p>Pretty neat actually!</p>
+<p>Anyways, I tweaked the code a bit over time, and most recently I combined it
+with the stock Hugo <code>figure</code> shortcode.</p>
+<p>What this means, is that you can now use just the straight <a href="https://gohugo.io/content-management/shortcodes/#figure">Hugo <code>figure</code>
+shortcode as per the
+documentation</a>, and my
+modified shortcode will do all of image processing and srcset specification
+fully automatically.</p>
+<p>In other words, you only have to refer to your fullest resolution image in the
+figure shortcode, and hugo will take care of creating a number of downscaled
+versions, and offer them to modern browsers in a way that gives the user the
+best experience.</p>
+<h2 id="install-and-use">Install and use</h2>
+<p>To install, simply download <a href="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d">the figure.html
+gist</a>
+(embedded below) into the <code>layouts/shortcodes</code> directory in your hugo blog and
+then rebuild your blog.</p>
+<p><strong>NOTE:</strong> It&rsquo;s <strong>very</strong> important that images have to be in <a href="https://gohugo.io/content-management/page-bundles/">the page
+bundle</a> if you want
+automatic resizing and srcset. The shortcode will fall back to stock Hugo
+behaviour otherwise.</p>
+<script type="application/javascript" src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
+
+<h2 id="example-result">Example result</h2>
+<p>I&rsquo;ve posted the image below so you can see the shortcode in action.</p>
+<p>It started as <code>{{&lt; figure src=&quot;20200324_stillbaai_beach.jpg&quot; link=&quot;20200324_stillbaai_beach.jpg&quot; caption=&quot;...&quot; &gt;}}</code> and ended up as the
+image below.</p>
+<p>If you right click, and then inspect, you&rsquo;ll see the <code>srcset</code>
+specification. Even better if you switch to the network panel in devtools, then
+reload, and note that your browser downloads a lower resolution image if you&rsquo;ve
+narrowed your viewport, or switched devtools to mobile emulation.</p>
+
+
+
+
+
+
+
+
+<figure><a href="20200324_stillbaai_beach.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A photo taken on the beach in Stilbaai on March 24, 2020."/> </a><figcaption>
+            <p>Figure 1: A photo taken on the beach in Stilbaai on March 24, 2020.</p>
+        </figcaption>
+</figure>
+
+<h2 id="updates">Updates</h2>
+<ul>
+<li>On 2020-05-10 I updated the shortcode to fall back to stock Hugo behaviour
+instead of just breaking when the image was not part of the page
+bundle. However, if you want resizing and srcset (the whole point of this
+post), your images should be in the page bundle. :)</li>
+</ul>
+]]></content:encoded></item><item><title>The Morgan McGuire Markdeep project Management Method: MMMMM.</title><link>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</link><pubDate>Tue, 24 Mar 2020 21:37:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</guid><description> This weekend, Morgan McGuire, graphics and game programming god, tweeted a thread about his text journal based method of software development project management.
+Here I single out three of the tweets, but you should really read the whole thread:
+When coding, I always maintain a journal in the repo (I happen to use Markdeep for this now) with a TODO list.
+Tasks are at the level of one hour for &amp;ldquo;today&amp;rdquo; stuff, one day for next week, and then week- or longer level tasks.</description><content:encoded><![CDATA[ <p>This weekend, Morgan McGuire, graphics and game programming god, <a href="https://twitter.com/CasualEffects/status/1241329539902570498">tweeted a
+thread about his text journal based method of software development project
+management</a>.</p>
+<p>Here I single out three of the tweets, but you should really read the whole
+thread:</p>
+<blockquote>
+<p>When coding, I always maintain a journal in the repo (I happen to use Markdeep
+for this now) with a TODO list.</p>
+<p>Tasks are at the level of one hour for &ldquo;today&rdquo; stuff, one day for next week,
+and then week- or longer level tasks.</p>
+<p>I expand the details for the next week on Friday.</p>
+</blockquote>
+<p>Tweet 3:</p>
+<blockquote>
+<p>When I start working on the top, ~1-hour item, on the list, I immediately
+expand it recursively until the subtasks are completely braindead to
+implement.</p>
+<p>I do all of the hard part of programming here, in the TODO list, figuring out
+the library calls, designing the APIs, etc.</p>
+</blockquote>
+<p>Tweet 4:</p>
+<blockquote>
+<p>When I get into the actual source code, I&rsquo;m just working from my own
+walk-through on the TODO list, and I only need to think about syntax and code
+cleanup. I can focus on programming legibly in the small instead of worrying
+about the big picture.</p>
+</blockquote>
+<p>He shows the following screenshot as an example:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<p>This is such a brilliant way of doing the highest level &ldquo;programming&rdquo; in an
+outlining tool, and then working one&rsquo;s way down until it&rsquo;s eventually time to
+jump into the code.</p>
+<p>I can also immediately see how well this would work in a team context.</p>
+<p>During the planning session, the outline could be collaboratively fleshed
+out. Furthermore, as McGuire states, it can be fleshed out differently
+depending on the experience level of the team member.</p>
+<p>This makes me wonder how much we as engineers <em>really</em> need the Jiras and the
+YouTracks and the DevOpses of the world?</p>
+<p>(Just joking folks, I know we need it, but perhaps we could do with a little
+more MMMMM in our lives?)</p>
+<h2 id="markdeep">Markdeep.</h2>
+<p>Almost in passing McGuire mentions markdeep, the system he designed for
+extremely agile technical documentation.</p>
+<p>A friend from work introduced me to this years ago (thanks HB!), but then I
+somehow missed its genius.</p>
+<p>One of the core ideas that makes markdeep so interesting and useful, is that
+the markdeep plaintext markup (it&rsquo;s like supercharged markdown) is embedded in
+an extremely thin layer of HTML which invokes the markdeep.js renderer on
+itself.</p>
+<p>In other words, you edit the self-contained <code>.md.html</code> file with your favourite
+text editor, but when you open this file in your browser, a single line of HTML
+at the end pulls in <code>markdeep.min.js</code> from a CDN or from your local disc, and
+renders the beautifully typeset version of the document.</p>
+<p>As if that was not enough, markdeep has extensive support for the SVG rendering
+of ascii art.</p>
+<p>See the following pages for more information:</p>
+<ul>
+<li><a href="https://casual-effects.com/markdeep/">The Markdeep website</a>.</li>
+<li><a href="https://casual-effects.com/markdeep/features.md.html">The extensive Markdeep demo
+document</a> - especially
+the <a href="https://casual-effects.com/markdeep/features.md.html#diagramexamples">diagram
+examples</a>
+are impressive!</li>
+</ul>
+<p>For my own notes I am sticking to <a href="https://orgmode.org/">Orgmode</a> (if you&rsquo;re an
+emacs user, it&rsquo;s more powerful), but there will surely be situations where the
+self-contained Markdeep makes more sense.</p>
+<h2 id="the-graphics-codex">The Graphics Codex.</h2>
+<p>Markdeep has been used to author a number of books, but <a href="http://graphicscodex.com/">The Graphics
+Codex</a> must be one of the more amazing examples, in
+terms of its interactivity and just general prettiness.</p>
+<p>The iPhone app version looks like this:</p>
+<a href="http://graphicscodex.com/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png"
+  
+
+   />
+
+
+
+</a>
+<p>I bought the web version not because I currently need a graphics reference, but
+rather because it is a thing of beauty, and because I wanted to be able to see
+better how it all works.</p>
+]]></content:encoded></item><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description> As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
+TL;DR: Comments on this blog are now managed by self-hosted, open-source isso that I control. Commenting should be much faster and more fun, so have at it!
+Why I recommend strongly against Disqus. You might recall, or you could just check the relevant blog post, that I ported all comments from wordpress to disqus (grrr&amp;hellip;) in March of this year, when I upgraded to the Hugo static site generator.</description><content:encoded><![CDATA[ <p>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+
+of the comments on this site to isso, an open-source self-hosted commenting
+system.</p>
+<p>TL;DR: Comments on this blog are now managed by self-hosted, open-source isso
+that I control. Commenting should be much faster and more fun, so have at it!</p>
+<h2 id="why-i-recommend-strongly-against-disqus">Why I recommend strongly against Disqus.</h2>
+<p>You might recall, or you could just check <a href="/2019/03/31/wordpress-to-hugo/#transfer-comments-to-disqus">the relevant blog
+post</a>, that I
+ported all comments from wordpress to disqus (grrr&hellip;) in March of this year,
+when I upgraded to the Hugo static site generator.</p>
+<p>At that point, I had already poured quite some time into the Hugo migration,
+and so I thought that trying out Disqus for a while, on a personal site without
+any ads whatsoever, couldn&rsquo;t hurt.</p>
+<p>I could always at a later stage simply export my comments from there, right?</p>
+<p>Wrong.</p>
+<p>I triggered the built-in export-functionality in the Disqus admin interface.</p>
+<p>The site then shows a message that it will email you when the export is ready.</p>
+<p>Well, it&rsquo;s now 24 hours later and that email never came&hellip;</p>
+<p>(I retried at least 3 times. I even <a href="https://twitter.com/cvoxel/status/1193181451002482690">tweeted at
+them</a>, because there&rsquo;s
+no other way to contact support.)</p>
+<p>When you read the fineprint on <a href="https://help.disqus.com/en/articles/1717199-importing-exporting#exporting-from-disqus">the relevant help
+page</a>,
+you see the following (emphasis mine):</p>
+<blockquote>
+<p>Please note: exports <strong>may not be available for all sites</strong>, particularly
+those of a large size. If you&rsquo;ve requested an export file more than twice and
+still have not received a download link from us, it&rsquo;s likely that an export
+for your site is <strong>currently unavailable</strong>.</p>
+</blockquote>
+<p>So that&rsquo;s pretty reassuring! You <em>might</em> get an export. It depends&hellip; Whatever
+the case may be, you <em>won&rsquo;t</em> get any sort of feedback however.</p>
+<p>I guess this is an issue with any hosted solution.</p>
+<p>However, one would expect from any such service that advertises the possibility
+to export one&rsquo;s <em>own data</em>, even on the free tier, that one is in fact
+<em>allowed</em> to export one&rsquo;s own data.</p>
+<p>NOT IN DISQUS WORLD!</p>
+<p>Anyways, I was not going to let this highly disappointing performance stop my
+migration efforts.</p>
+<h2 id="enter-isso">Enter isso!</h2>
+<p>After discovering that the open-source self-hosted <a href="https://gitlab.com/commento/commento">commento
+software</a> requires at least Postgres 9.5
+but webfaction (my webhoster for years and years now, unfortunately our ways
+will probably have to part thanks to the godaddy acquisition) is stuck at
+Postgres 9.4, I decided to configure isso, the same <a href="https://vxlabs.com/2019/04/06/isso-on-webfaction/">commenting system I have
+running on vxlabs</a>.</p>
+<h3 id="new-feature-auto-approve-previously-approved-authors">New feature: Auto-approve previously approved authors.</h3>
+<p>However, to make it a little more interesting, I decided to implement an
+auto-moderation feature in isso that I used to use in all my wordpress
+installations:</p>
+<p><em>Auto-approve authors who have had comments approved in the past N months</em>.</p>
+<p>Long story short, you can find my work in <a href="https://github.com/cpbotha/isso/commits/cpbotha-auto-moderate-known-authors">this github fork of
+isso</a>.</p>
+<p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
+<p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
+the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#859900">[moderation]</span>
+<span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
+<span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+</code></pre></div><p>When someone leaves a comment, and their email address has had a comment
+approved within the last 6 months, the new comment will be automatically
+activated.</p>
+<p>The advantage of this feature is that comment-conversations can happen much
+more fluidly, without me having to approve each and every comment that comes
+in.</p>
+<h3 id="migrating-comments-in-spite-of-disqus">Migrating comments in spite of Disqus.</h3>
+<p>In NormalWorld, I would have exported an XML from Disqus, and just imported
+that into isso using the built-in functionality.</p>
+<p>However, in DisqusWorld, the user has to suffer.</p>
+<p>Fortunately I could import the bulk of the old comments (up to March of this
+year) using the old Wordpress site export and isso&rsquo;s great import function.</p>
+<p>For the remaining 25 comments, I manually copied each and every one of them,
+along with author name, email (if I knew it) and exact date, and then inserted
+them manually into the isso sqlite database, using the amazing
+<a href="https://sqlitebrowser.org/">sqlitebrowser</a>.</p>
+<p>I discovered three possibly useful facts:</p>
+<ul>
+<li>If the <code>parent</code> column in a <code>comment</code> record is not set explicitly to <code>NULL</code>
+in the case of no parent, the comment does not show up.</li>
+<li>Isso supports only one level of nesting in the database. This means the
+<code>parent</code> column has to point to a root, i.e. parent-less, comment.</li>
+<li>Isso stores timestamps as seconds since epoch. You can use the following SQL
+to convert a timestring to seconds since epoch:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
+</code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<p>That is how much I love this blog and its people. :D</p>
+<h2 id="conclusions">Conclusions.</h2>
+<p>I am happy that all of your comments are now self-hosted on this server using
+open-source software that I have a good grasp of.</p>
+<p>I am happy that your valuable thoughts are backed up each and every night.</p>
+<p>You should also notice that pages load much faster (disqus is quite slow).</p>
+<p>(Also: MARKDOWN!)</p>
+<p>Ok folks, I hope this further diminishes any barriers that there might have
+been to you leaving us a message now and then!</p>
+]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
+The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
+<p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
+context for the development of other ideas for habit tracking tricks and tools.</p>
+<h2 id="the-importance-of-habits">The importance of habits.</h2>
+<p>If you have some experience being, you know, alive, and perhaps even trying to
+get just that little bit better at it every day, you will have realised by now
+that being able to form and maintain good habits is almost a super power.</p>
+<p>(Other real-life super powers: Kindness. Peace. Focus. I digress&hellip; haha.)</p>
+<p>All of those promises we make to ourselves to read more, to eat better, to
+exercise more, to meditate regularly, and so on: The key to making all of these
+happen is forming and then maintaining habits.</p>
+<p>First the habit has to be created out of nothing, and once it&rsquo;s up and running,
+the idea is to keep going at it for as long as possible.</p>
+<p><a href="/2019/09/09/weekly-head-voices-177-streakers/#life-optimisation-tip-73-streak-more">Streaking</a>,
+that is trying to continue for as long as possible without any interruption, is
+a fun and effective trick to keep at it.</p>
+<p>However, it is just as important being able to restart a new streak once the
+previous one has been broken for whatever reason.</p>
+<h2 id="what-the-orgmode-habit-tracker-does">What the Orgmode habit tracker does.</h2>
+<p>Up to now, I mostly used <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">daily checklists to keep track of healthy
+habits</a>, but for
+some habits, especially ones with a non-daily frequency, this does not work so
+well.</p>
+<p>A significant step up from daily checklists, the <a href="https://orgmode.org/manual/Tracking-your-habits.html">Emacs Orgmode habits
+function</a> enables you:</p>
+<ul>
+<li>to specify any number of habits, each with different, sometimes less regular
+frequencies;</li>
+<li>to track when you perform a habit and when you should next perform it and finally</li>
+<li>to visualize if you are performing according to the specifications you have
+set.</li>
+</ul>
+<p>For example: I would like to run at least three times a week. There should be
+at least one rest day after a running day (I&rsquo;m not a spring chicken
+anymore). There should be a maximum of three rest days allowed (this usually
+happens after a longer weekend run).</p>
+<p>Although I enjoy running enough to keep this habit up by myself, I chose it as
+a first test of the Orgmode habits function.</p>
+<p>So far I have setup two other simpler examples:</p>
+<ul>
+<li>A core exercise which I call &ldquo;The Wheel&rdquo; (of pain). This has to happen every
+second day, usually in between running days.</li>
+<li>&ldquo;Deep reading&rdquo;, which is meant to describe a session of focused reading of
+long-form, i.e. mostly books. This has to happen every day.</li>
+</ul>
+<p>Before starting tracking of these latter two habits slightly more than a week
+ago, I somehow kept on letting them slip.</p>
+<p>This morning, my org-agenda looked like this:</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot.png">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>In the figure you can see that today, represented by the exclamation mark <code>!</code>,
+I will have to schedule in a session of deep reading (indicated by the yellow
+colouring), and a session of &ldquo;the wheel&rdquo;.</p>
+<p>The running habit graph  is showing that I still have three days, including
+today, on which I do not have to run.</p>
+<p>By default it would not have displayed today, because I ran yesterday, as shown
+by the asterisk <code>*</code>, and I specified that minimum of one rest day. However, I
+temporarily configured it to show today for the sake of this exposition.</p>
+<p>To summarise: These habit graphs show up as part of your org-agenda view and
+show you at a glance when you should perform which habits, and, quite
+importantly, how long you have been streaking a particular habit.</p>
+<h2 id="how-to-setup-orgmode-habits">How to setup Orgmode habits.</h2>
+<h3 id="global-configuration">Global configuration.</h3>
+<p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
+the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp">(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
+state logging for the task <code>DONE</code> state:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
+<span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
+      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
+<span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
+<span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
+<p>Then, start creating the special habit nodes as explained in the following:</p>
+<p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
+journal file</a>:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #BFEBBF; background-color: #3F3F3F;">** </span><span style="color: #CC9393; font-weight: bold;">TODO</span><span style="color: #BFEBBF; background-color: #3F3F3F;"> Running</span>
+<span style="color: #7F9F7F;">SCHEDULED:</span> <span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-11-03 Sun .+2d/4d&gt;</span>
+<span style="color: #7F9F7F;">:PROPERTIES:</span>
+<span style="color: #7F9F7F;">:STYLE:</span>    habit
+<span style="color: #7F9F7F;">:LAST_REPEAT:</span> <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+<span style="color: #7F9F7F;">:END:</span>
+<span style="color: #7F9F7F;">:LOGBOOK:</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-30 Wed 15:41]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-26 Sat 14:14]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-24 Thu 19:11]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-22 Tue 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-20 Sun 10:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-16 Wed 08:13]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-13 Sun 10:00]</span>
+- Created "TODO" <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-23 Wed 09:53]</span>
+<span style="color: #7F9F7F;">:END:</span>
+</pre>
+<p>The <a href="https://orgmode.org/manual/Tracking-your-habits.html">orgmode habits
+documentation</a> explains
+that a habit is a special sort of <code>TODO</code> node with the following additional
+properties, which can all be seen in the above example:</p>
+<ul>
+<li>The node has a <code>:STYLE:</code> property of <code>habit</code>. Configure with =M-x
+org-set-property=.</li>
+<li>The node has a <code>SCHEDULED</code> date in the future on the next date when this
+habit should take place, along with a frequency / time constraint
+specification, in this case <code>.+2d/4d</code>, meaning that at the most every second
+day, and at the least every fourth day.</li>
+</ul>
+<p>Furthermore, with <code>DONE</code> state logging configured as explained above, you&rsquo;ll
+get the <code>LOGBOOK</code> with the required state changes used by the habit graphs.</p>
+<h3 id="in-use">In use.</h3>
+<p>Whenever you&rsquo;ve completed a habit, fire up Emacs (I&rsquo;m joking of course: Emacs
+is always running) and then toggle the state of the habit to <code>DONE</code>.</p>
+<p>You&rsquo;ll see that it briefly toggles to <code>DONE</code>, and then automatically switches
+back to <code>TODO</code>.</p>
+<p>(There&rsquo;s some philosophical lesson to be learned from that&hellip;)</p>
+<p>When this happens, the <code>:LAST_REPEAT:</code> timestamp will be automatically updated
+to the current time, and, more importantly, the <code>SCHEDULED</code> date will be
+automatically updated to the next earliest date when this habit should be
+exercised.</p>
+<p>In the case of the running example above, that will be tomorrow, as today is a
+rest day.</p>
+<p>Whenever you activate org-agenda, you&rsquo;ll see the habit graphs right at the top,
+by default only on the days when they are actually scheduled. In the running
+example, that habit will not appear on rest days. (This can naturally be
+configured, see <code>M-x describe-variable RET org-habit-show-all-today</code>).</p>
+<h2 id="conclusion">Conclusion.</h2>
+<ul>
+<li>Being able to forming and maintain habits can form an important component of
+better living.</li>
+<li><em>Habit streaking</em> is a fun psychological trick to keep you going.</li>
+<li>However, don&rsquo;t be disheartened by a broken streak. Get back on that horse and
+try again.</li>
+<li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
+maintain habits, especially non-daily ones.</li>
+</ul>
+]]></content:encoded></item><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description> It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
+As can be seen in the history page or rather the first weblog entry dated 2001-02-27, this blog has been around for more than 18 years.
+It started as some CGI script, then spent some time as a LiveJournal, then, thanks to meeting Professor Biella Coleman who was at that point still a grad student, went through a Movable Type phase and then, at some point, converted to Wordpress.</description><content:encoded><![CDATA[ <p>It sounds a bit more involved than it turned out to be, but I have a thing for
+posts titled &ldquo;Moving M years of K from Y to Z&rdquo;.</p>
+<p>As can be seen in the <a href="/about/history/">history page</a> or rather the <a href="/2001/02/27/1469/">first
+weblog entry dated 2001-02-27</a>, this blog has been around
+for more than 18 years.</p>
+<p>It started as some CGI script, then spent some time as a LiveJournal, then,
+thanks to meeting <a href="https://en.wikipedia.org/wiki/Gabriella_Coleman">Professor Biella
+Coleman</a> who was at that
+point still a grad student, went through a Movable Type phase and then, at
+some point, converted to Wordpress.</p>
+<p>I don&rsquo;t know when exactly the Wordpress stage started, but it&rsquo;s probably not
+too long after Wordpress was born in 2003 somewhere.</p>
+<p>Anyways, after many happy years together, our ways are parting.</p>
+<p>The new block-based editor in Wordpress 5, <a href="/tags/gutenberg/">Gutenberg</a>,
+caters more for Wordpress as a CMS, and far less for Wordpress as a platform
+for long-form blogging.</p>
+<p>Personally I have noticed that the new editor gets in my way most of the time,
+where the pre-Gutenberg editor worked just perfectly, for my use case.</p>
+<p>Because life is short, and many more blog posts have to written, I made the
+decision, not easily, to move this blog away from Wordpress, to a different
+and hopefully more suitable platform.</p>
+<p>I ended up choosing Hugo because its native mode of operation involves me
+writing posts in some form of text editor, which is my preferred modality in
+any case, but primarily because of all the static generators, it was the only
+one with a prominent <a href="https://ox-hugo.scripter.co">Emacs Orgmode plugin</a>.</p>
+<p>(Based on what I now know about Hugo, it looks like once again Emacs Orgmode
+helped me make the best decision.)</p>
+<p>In the rest of this post I describe the process of migrating the blog you see
+before you from Wordpress to Hugo.</p>
+<h2 id="export-data-from-wordpress">Export data from Wordpress.</h2>
+<p>I used <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">SchumacherFM&rsquo;s
+wordpress-to-hugo-exporter</a>
+to export my whole wordpress site to a Hugo-compatible project.</p>
+<p>Following(ish) <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter#usage-with-a-self-hosted-wordpress-installation">the
+instructions</a>,
+I git cloned the <code>wordpress-to-hugo-exporter</code> into the <code>wp-content/plugins</code>
+folder of the relevant wordpress installation, and then I invoked the export
+script with <code>php hugo-export-cli.php</code>.</p>
+<p>The end-result was a 600MB <code>/tmp/wp-hugo.zip</code> which I SCP&rsquo;d down to my laptop
+and then unzipped into a directory called <code>hugo-export</code>.</p>
+<h2 id="install-hugo-get-site-up-and-running">Install hugo get site up and running.</h2>
+<p>The main goal here was to get Hugo running with the exported wordpress data.</p>
+<p>After installing hugo with <code>brew install hugo</code>, I continued with Hugo&rsquo;s <a href="https://gohugo.io/getting-started/quick-start/">quick
+start instructions</a>.</p>
+<p>Create the new Hugo site:</p>
+<pre tabindex="0"><code>hugo new site cpbotha.net
+</code></pre><p>Copy the exported contents into the Hugo site:</p>
+<pre tabindex="0"><code>mv hugo-export/* cpbotha.net/content/
+</code></pre><p>I chose <a href="https://themes.gohugo.io/hugo-theme-minos/">the minos theme</a> from the
+great <a href="https://themes.gohugo.io">Hugo Themes repository</a> and installed it into
+the new site like this:</p>
+<pre tabindex="0"><code>cd cpbotha.net/themes
+git clone https://github.com/carsonip/hugo-theme-minos.git
+</code></pre><p>Before starting up the new site for the first time, I edited the top-level
+<code>config.toml</code> so it looked like the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
+<span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
+<span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
+<span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
+<span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
+<span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+
+[<span style="color:#268bd2">permalinks</span>]
+  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
+  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
+  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
+minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
+Components</a> mechanism.</p>
+<h3 id="fire-up-hugo-in-development-mode">Fire up Hugo in development mode!</h3>
+<p>To see your site in all of its new static glory, you can start Hugo in
+development mode from the project&rsquo;s top-level directory:</p>
+<pre tabindex="0"><code>cd cpbotha.net/
+hugo serve -D
+</code></pre><p>By pointing your browser at <code>http://localhost:1313</code>, you&rsquo;ll be able to see a
+dynamic version of your site that automatically refreshes whenever you make
+changes to any of the underlying files.</p>
+<h2 id="transfer-comments-to-disqus">Transfer comments to Disqus.</h2>
+<p>This blog&rsquo;s small but amazing group of commenters, and the comments they have
+written over the years, are super valuable to me. It was important to transfer
+them and their work over to the new blog without a hitch.</p>
+<h3 id="motivation">Motivation.</h3>
+<p>I considered self-hosting comments using something like
+<a href="https://github.com/adtac/commento">Commento</a>, but the fact that I was able to
+get ad-free Disqus for free, as this site does not do advertising, and the
+fact that the conversion from Wordpress to Disqus is well-documented, won me
+over.</p>
+<p>Furthermore, going from Wordpress to Commento often involves a quick stop at
+Disqus in any case. In other words, the option of self-hosting remains.</p>
+<h3 id="procedure">Procedure.</h3>
+<p>The Disqus plugin for Wordpress has an automatic &ldquo;import comments&rdquo; mode which
+promises to transfer all of your wordpress comments to Disqus.</p>
+<p>In my case, this worked for most posts, except those with more than 60 or 70
+comments, in thich no comments were transferred.</p>
+<p>I ended up following the &ldquo;manual import&rdquo; procedure <a href="https://help.disqus.com/import-export-and-syncing/importing-comments-from-wordpress">documented in the Disqus
+help</a>.</p>
+<p>In short, you export your whole wordpress site as XML / WXR, download the
+file, and then import that using the upload functionality of <a href="https://import.disqus.com/">the Disqus
+import site</a>.</p>
+<p>This seemed to have transferred all of my comments.</p>
+<p>In spite of multiple attempts at automatic import, followed by the manual
+import, Disqus was clever enough not to duplicate any comments.</p>
+<h4 id="export-domain-name-should-be-same-as-display-domain-name">Export domain name should be same as display domain name.</h4>
+<p>It is important when you export your Wordpress comments, that the domain-name
+you export from is the same as the domain-name where you&rsquo;ll end up displaying
+the Disqus comments.</p>
+<p>If this is not the case, you will have to edit the exported XML files to
+search and replaced all of the instances of export domain name to display
+domain name.</p>
+<h2 id="build-and-upload-the-new-static-hotness">Build and upload the new static hotness.</h2>
+<p>My workflow now looks like this:</p>
+<ol>
+<li>Write new post in Emacs with <code>hugo serve -D</code> running. The browser window
+adjacent to Emacs updates in real-time showing my changes. (I will eventually look into
+<a href="https://ox-hugo.scripter.co">ox-hugo</a> so I can write posts in orgmode.)</li>
+<li>When I&rsquo;m happy with the post, I build the site with <code>hugo -d ~/Downloads/cpbotha.net</code>
+and sync it up to my web host using <code>rsync</code></li>
+</ol>
+<p>You can build the site by just invoking <code>hugo</code> in the top-level directory, in
+which case the output of the build will end up in a sub-directory named
+<code>public</code>.</p>
+<p>However, I keep the source to this blog in a git repository in my Dropbox, and
+I would prefer not syncing the expendable 600MB+ output directory, instead
+building it and syncing it from <code>~/Downloads</code>.</p>
+<p>The little bash script I used to perform step 2 in one go looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#93a1a1;font-style:italic">#!/bin/bash
+</span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
+<span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
+rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
+</span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+</code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
+<p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
+at least an image or two, an important piece of the puzzle was how to keep
+images together with the markdown post source, instead of in a separate static
+directory.</p>
+<p>In addition, Wordpress has this great feature where it automatically resizes
+images on upload, enabling posts to inline lower resolution versions that can
+be clicked on to see the full resolution.</p>
+<p>I had resigned myself to the reality that this would probably be a manual
+process for Hugo.</p>
+<p>Thanks to a <a href="https://laurakalbag.com/processing-responsive-images-with-hugo/">super useful and detailed post by Laura
+Kalbag</a>, I
+learned that the image-bundling problem had already been addressed by Hugo,
+and that Laura Kalbag had developed a Hugo shortcode which solved the second
+problem using Hugo&rsquo;s built-in image processing and a relatively new browser
+feature called <a href="https://ericportis.com/posts/2014/srcset-sizes/">srcsets</a>.</p>
+<p>With her <code>img</code> shortcode, high-resolution images are automatically resized
+into multiple lower resolution versions at build time, all of which will be
+offered to the client, which will then decide which to download based on the
+client-side display parameters.</p>
+<p>With regard to the image bundling, this is simply a matter of creating a
+directory containing the relevant images and the post contents in a file
+called <code>index.md</code>.</p>
+<p>In my case, I would create a post by invoking the following command in the
+top-level directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new content/posts/2019/some-post-slug/index.md
+</code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
+available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
+to images that are in the same directory using just their relative filenames.</p>
+<h2 id="mailing-lists">Mailing lists.</h2>
+<p>In addition to The Commenters mentioned above, I also treasure The Readers. :)</p>
+<p>On the Wordpress blog, I had already started making use of
+<a href="https://mailchimp.com/">Mailchimp</a> a while back for the daily and the weekly
+post emails, in addition to Wordpress.com&rsquo;s own email subscription which
+services the largest group of readers.</p>
+<p>I briefly looked into <a href="https://tinyletter.com/">tinyletter</a>, but then decided
+that it made the most sense to migrate the Wordpress.com email subscribers
+over to the Mailchimp daily email list.</p>
+<p>It was relatively straight-forward to export a CSV with subscriber address
+from Wordpress.com and then to import that into the Mailchimp list.</p>
+<h2 id="wrapping-up">Wrapping up.</h2>
+<p>Converting this blog from Wordpress to Hugo went significantly more smoothly
+than I expected. In fact, the first Hugo version was online after a single
+evening of work.</p>
+<p>Other than that, Hugo has already impressed me a number of times with its
+speed, and features that have clearly been thought through. Besides the
+built-in image processing and the theme composition, there are smaller but
+still super useful features such as <a href="https://gohugo.io/content-management/archetypes/">the
+archetypes</a> which I have
+configured to help me start a blog post more easily.</p>
+<p>Let me know in the comments if you have any other questions.</p>
+<p>Here&rsquo;s to at least 18 more years of blog posts!</p>
+]]></content:encoded></item><item><title>Critical Thinking 101: Three super easy steps to spot poppycock on the internet.</title><link>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</link><pubDate>Fri, 10 Feb 2017 20:44:03 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</guid><description> Today it happened again.
+A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes
+(quote not by Mark Twain, origin quite interesting)
+Someone on facebook forwarded an article that was full of badly written and utterly unsubstantiated conspiracy theories about topic X. (topic X could be anything: politics, health, whatever)
+To me, it was instantly clear that the article was 100%, undiluted, hogwash.</description><content:encoded><![CDATA[ <p>Today it happened again.</p>
+<blockquote>
+<p>A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes</p>
+</blockquote>
+<p><em>(quote not by Mark Twain, <a href="http://quoteinvestigator.com/2014/07/13/truth/">origin quite interesting</a>)</em></p>
+<p>Someone on facebook forwarded an article that was full of badly written and utterly unsubstantiated conspiracy theories about topic X. (topic X could be anything: politics, health, whatever)</p>
+<p>To me, it was instantly clear that the article was 100%, undiluted, <strong>hogwash</strong>.</p>
+<p>Now you probably think that I must have decades of experience separating the internet wheat from the chaff.</p>
+<p>While that is true, you too can fortunately very quickly become a wheat-chaff-separation ninja by applying the following three super-easy steps.</p>
+<h1 id="1-ensure-that-the-site-withthe-article-is-a-legitimate-source">1. Ensure that the site with the article is a legitimate source</h1>
+<p>This is where most people get tripped up. Someone shares something on social media, you see it, and your blood boils, so you reshare without checking.</p>
+<p>Next time, break the cycle by quickly checking the address of the news link. This is your first line of defense.</p>
+<p>Here are some examples to get you started:</p>
+<p><strong>Poppycock:</strong> naturalnews.com, worldunity.me, someconspiracy.wordpress.com, … (send me more)</p>
+<p><strong>Legitimate:</strong> <a href="https://www.newscientist.com/">newscientist.com</a>, <a href="https://www.nytimes.com/">nytimes.com</a>, <a href="https://www.theguardian.com/">theguardian.com</a>, <a href="https://www.propublica.org/">propublica.org</a></p>
+<p>It doesn’t take much practice to spot the pattern.</p>
+<p>If the address looks like it could be a BS source, there’s a high probability it is. Remember, we live in the age of fake news, when any idiot can and will put up a website and fill it with misleading information.</p>
+<p><strong>Important:</strong> Images with text on them shared on Facebook are instantly disqualified. Come on people, we can’t be that gullible!</p>
+<p>If you’re still in doubt, continue on to the next step:</p>
+<h1 id="2-search-for-the-site-andor-the-article-contents-onsnopes-and-on-google">2. Search for the site and/or the article contents on Snopes and on Google</h1>
+<p><a href="http://www.snopes.com/">Snopes</a> is an absolute goldmine, and it’s free for you to use, so please do.</p>
+<p>You can search for any topic or any story, and it will immediately give you a judgement of its veracity and a complete facts-based motivation for its decision.</p>
+<p>If you can’t find anything on Snopes, googling the name of the site, or the contents of the story will often reward you with external sources to help you decide. Remember to apply rule 1 to the external sources you find.</p>
+<h1 id="3-find-more-externallegitimate-sources-confirming-or-denying-the-contents-of-the-article">3. Find more external LEGITIMATE sources confirming or denying the contents of the article</h1>
+<p>If after applying steps 1 and 2 you still have some doubt, try to find more <strong>external</strong> sources, applying rule 1 to each of these of course, that confirm or deny the contents of the article.</p>
+<p>If you can’t find any legitimate external sources, that’s usually a sign that the article under study should be flatly ignored.</p>
+<h1 id="profit">PROFIT!</h1>
+<p>Only when you’ve applied all three steps, and they all have helped you to make the call that the link under study is not poppycock, only then consider sharing it with your internet friends.</p>
+<p>Furthermore, if you see a suspicious looking article shared by any of your friends, please do gently point them at this post!</p>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>2017-02-11: <a href="https://www.theguardian.com/technology/2017/feb/11/fake-news-is-killing-peoples-minds-says-apple-boss-tim-cook"><em>Fake news is “killing people’s minds”, says Apple boss Tim Cook</em></a> (The Guardian) –</li>
+</ul>
+<p> </p>
+]]></content:encoded></item><item><title>Samsung Gear Fit 2 voice guide at intervals not working at all: The Fix.</title><link>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</link><pubDate>Sat, 21 Jan 2017 13:05:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</guid><description> Update 2017-05-02: As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.
+This is a really short note to help other people trying to get their broken Samsung Gear Fit 2 voice “guide at intervals” to work.</description><content:encoded><![CDATA[ <p><strong>Update 2017-05-02:</strong> <em>As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.</em></p>
+<p>This is a really short note to help other people trying to get their broken Samsung Gear Fit 2 voice “guide at intervals” to work.</p>
+<p>In short, by activating the “guide at intervals” function on the Gear Fit 2, you can get a synthesised voice to give you all kinds of stats while you are running with bluetooth earphones. In my case, I set it up to give me distance, pacing and heart rate information every 0.5 km. This helps me to control my pace and extend my run.</p>
+<p>After a recent phone swap, my Gear Fit 2 stopped giving me any kind of voice guidance. The music would continue playing, but at the first 0.5 km point when the voice guidance should have piped up, the watch would jump back to the watch face, instead of staying in the exercise app.</p>
+<p>As seems to be par for the course with the Gear Fit 2, this was highly frustrating behaviour, with no help from the phone user interface or any of the Samsung documentation.</p>
+<p>After some <a href="https://us.community.samsung.com/t5/user/viewprofilepage/user-id/6831718">to-and-fro on the Samsung forums</a>, Dutch user BarryNL came up with the answer.</p>
+<p>It turns out that if the phone language is set to anything other than “English (US)”, the voice guidance seems to crash the running app, dumping you at the watch face during your run.</p>
+<p>I switched my phone from “English (South African)” to “English (US)”, rebooted the phone, then rebooted the Gear Fit 2, and finally went out for a quick test walk.</p>
+<p>Samsung Gear Fit 2 voice guide at intervals was back!</p>
+<p>I am really happy to have this core feature back, and to have the exercise app stay active until the end of my run. However, this undocumented behaviour, as well as the fact that the watch, which has more than enough processing power and a beautiful display, does not give any kind of feedback to help the user correct the issue, makes for an extremely frustrating experience.</p>
+]]></content:encoded></item><item><title>Fixing the Samsung Gear Fit 2 GPS lock delay when running without phone</title><link>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</link><pubDate>Sun, 15 Jan 2017 08:37:51 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</guid><description> For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.
+Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</description><content:encoded><![CDATA[ <p>For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.</p>
+<p>Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</p>
+<p>Judging by <a href="https://us.community.samsung.com/t5/forums/v3_1/forumtopicpage/board-id/wearabletech/thread-id/464/page/1">this 22 page thread on the Samsung community forums</a>, there are other users who were also less than happy that the Gear Fit 2 built-in GPS does not seem to work as advertised. Understandably, people bought the gadget in order to be able to go running without having to lug their smartphones along.</p>
+<p>Fortunately, it turns out the explanation is quite logical, although Samsung really has to do better to communicate this to their users.</p>
+<h1 id="why-does-mygear-fit-2-take-so-long-to-acquirea-gps-lock">Why does my Gear Fit 2 take so long to acquire a GPS lock?</h1>
+<p>In short, at the start of my run, my smartphone was lying on my desk one floor up. At that point the Gear Fit 2 still had a bluetooth connection to the phone, and it was planning to use the phone GPS instead of its built-in unit. As far as I know, the gadget’s use of the phone’s GPS is not well known.</p>
+<p>As the distance between me and the office building increased, the Gear Fit 2 obviously lost the bluetooth connection to the smartphone. With the current firmware (R360XXU1BPL1 at the time of writing), it takes the Gear Fit 2 about 0.5 km to realise that the connection is really lost, and that it should switch to its built-in GPS.</p>
+<p>This as all pretty logical, but highly frustrating when you don’t know what’s going on. Samsung clearly has to do better.</p>
+<h1 id="the-fix">The Fix</h1>
+<p>Knowing what the issue is makes the fix pretty straight-forward.</p>
+<p>Before starting your run, disable bluetooth on your smartphone, and wait for the Gear Fit 2 to register loss of the connection. It should vibrate on your wrist, and then show a little rectangle at the top right of the display, like this:<figure id="attachment_2749" aria-describedby="caption-attachment-2749" style="width: 184px" class="wp-caption alignnone"></p>
+<p><img data-attachment-id="2749" data-permalink="https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/img_20170115_0925427/" data-orig-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427.jpg" data-orig-size="2250,3678" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;PRIV&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484472342&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.75&quot;,&quot;iso&quot;:&quot;676&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_20170115_0925427" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-626x1024.jpg" class="size-medium wp-image-2749" src="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg" alt="" width="184" height="300" srcset="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg 184w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-768x1255.jpg 768w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-626x1024.jpg 626w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-1200x1962.jpg 1200w" sizes="(max-width: 184px) 85vw, 184px" /><figcaption id="caption-attachment-2749" class="wp-caption-text">Samsung Gear Fit 2 should recognise that it has lost connection with the phone, as shown by the rectangle at the top right.</figcaption></figure></p>
+<p>You can now start the exercise app and then start your run.</p>
+<p>This morning, my Gear Fit 2 acquired a GPS lock almost instantly. You can see this by <strong>the location icon which briefly flashes and then stays on</strong> (it’s very important that you ensure that it stays on before running off), and by the fact that the on-screen distance gauge (you only see the distance gauge if you have set a distance target) starts climbing immediately.</p>
+<p>(Update: I’ve had more runs since. Sometimes the GPS struggles for half a minute or more to get a lock, with the location icon remaining in the flashing state. In these cases, I sometimes stop the run, and start over, until that damned flashing location icon goes stable. Frustrating.)</p>
+<h1 id="samsung-gear-fit-2-even-casual-runners-should-think-twice">Samsung Gear Fit 2: Even casual runners should think twice.</h1>
+<p>For the price, the Samsung Gear Fit 2 packs a lot of features.</p>
+<p>However, between this undocumented (as far as I can see) and sometimes plain frustrating GPS behaviour, the voice guidance which breaks easily and mysteriously (see <a href="/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/">another post of mine on that issue and how to fix it</a>), and the battery life (a 40 minute run with music and GPS can use up 30% to 40% of the battery), slightly more serious casual runners (strange category, I know) might want to consider carefully their alternatives.</p>
+]]></content:encoded></item><item><title>Dvorak remapping with Karabiner-Elements on macOS Sierra works!</title><link>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</link><pubDate>Fri, 16 Dec 2016 09:46:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</guid><description> With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.
+I have been using Karabiner for a while now to remap my keyboard to Dvorak, as the OSX system Dvorak keyboard mapping exposes a bug in many Java apps, including all of the JetBrains development environment tools I use intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are Qwerty, which is of course tremendously confusing.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png"
+        
+            alt="With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak."/> </a><figcaption>
+            <p>With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.</p>
+        </figcaption>
+</figure>
+
+<p>I have been using <a href="https://pqrs.org/osx/karabiner/">Karabiner</a> for a while now to remap my keyboard to
+Dvorak, as the OSX system Dvorak keyboard mapping exposes <a href="https://bugs.openjdk.java.net/browse/JDK-8022079">a bug in many Java
+apps</a>, including all of the JetBrains development environment tools I use
+intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are
+Qwerty, which is of course tremendously confusing. You can read more about the
+issue in <a href="http://stackoverflow.com/a/31119280/532513">this StackOverflow answer</a>.</p>
+<p>I was postponing the upgrade to macOS Sierra, because Karabiner, fantastic
+keyboard remapping tool, is unable to function on the new OS due to changed
+APIs and whatnot.</p>
+<p>Fortunately <a href="https://github.com/tekezo">Takayama Fumihiko</a>, awesome hacker behind Karabiner, has been
+re-implementing his work in a new tool called <a href="https://github.com/tekezo/Karabiner-Elements">Karabiner-Elements</a>. The GUI
+is not up to pre-Sierra level yet, but the tool works perfectly to solve my
+Dvorak-remapping (and other) issues!</p>
+<p>After upgrading to Sierra, install from the dmg file, start Karabiner-Elements,
+then copy <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/examples/qwerty_to_dvorak.json"><code>qwerty_to_dvorak.json</code> from the examples</a> into your
+<code>~/.karabiner.d/configuration/</code> directory and name it <code>karabiner.json</code>. It will
+be immediately picked up, so you&rsquo;re typing in Dvorak. <strong>NB: Since 2016, this
+has changed. See new instructions in the update below!</strong></p>
+<p>Personally I have also added the relevant lines from the
+<code>change_caps_lock_to_left_control.json</code> and
+<code>change_section_key_to_accent_key.json</code> examples to the <code>simple_modifications</code>
+clause of my <code>karabiner.json</code> file. Using caps-lock as control is essential for
+efficient Emacs use, and that section key at the top-left of the MBP 2015
+keyboards should have been backtick / tilde to start with.</p>
+<h2 id="update-on-2021-01-06-qwerty_to_dvorakjson-missing-">Update on 2021-01-06: <code>qwerty_to_dvorak.json</code> missing :(</h2>
+<p>Andrei in the comments has let me know that <code>qwerty_to_dvorak.json</code> is not
+available on the karabiner elements github anymore.</p>
+<p>I&rsquo;ve searched in the <a href="https://karabiner-elements.pqrs.org/docs/">karabiner
+docs</a>, but could find no mention of
+Dvorak.</p>
+<p>So, in case it helps anyone, my old <code>karabiner.json</code> is shown below. Yours
+should be at <code>~/.config/karabiner/karabiner.json</code>. You should be able to copy
+over the <code>simple_modifications</code> clause from the example below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+    <span style="color:#268bd2;font-weight:bold">&#34;global&#34;</span>: {
+        <span style="color:#268bd2;font-weight:bold">&#34;check_for_updates_on_startup&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+        <span style="color:#268bd2;font-weight:bold">&#34;show_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+        <span style="color:#268bd2;font-weight:bold">&#34;show_profile_name_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">false</span>
+    },
+    <span style="color:#268bd2;font-weight:bold">&#34;profiles&#34;</span>: [
+        {
+            <span style="color:#268bd2;font-weight:bold">&#34;devices&#34;</span>: [],
+            <span style="color:#268bd2;font-weight:bold">&#34;fn_function_keys&#34;</span>: {
+                <span style="color:#268bd2;font-weight:bold">&#34;f1&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_decrement&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f10&#34;</span>: <span style="color:#2aa198">&#34;mute&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f11&#34;</span>: <span style="color:#2aa198">&#34;volume_decrement&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f12&#34;</span>: <span style="color:#2aa198">&#34;volume_increment&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f2&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_increment&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f3&#34;</span>: <span style="color:#2aa198">&#34;mission_control&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f4&#34;</span>: <span style="color:#2aa198">&#34;launchpad&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f5&#34;</span>: <span style="color:#2aa198">&#34;illumination_decrement&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f6&#34;</span>: <span style="color:#2aa198">&#34;illumination_increment&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f7&#34;</span>: <span style="color:#2aa198">&#34;rewind&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f8&#34;</span>: <span style="color:#2aa198">&#34;play_or_pause&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f9&#34;</span>: <span style="color:#2aa198">&#34;fastforward&#34;</span>
+            },
+            <span style="color:#268bd2;font-weight:bold">&#34;name&#34;</span>: <span style="color:#2aa198">&#34;Default profile&#34;</span>,
+            <span style="color:#268bd2;font-weight:bold">&#34;selected&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+            <span style="color:#268bd2;font-weight:bold">&#34;simple_modifications&#34;</span>: {
+                <span style="color:#268bd2;font-weight:bold">&#34;a&#34;</span>: <span style="color:#2aa198">&#34;a&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;b&#34;</span>: <span style="color:#2aa198">&#34;x&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;backslash&#34;</span>: <span style="color:#2aa198">&#34;backslash&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;c&#34;</span>: <span style="color:#2aa198">&#34;j&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock&#34;</span>: <span style="color:#2aa198">&#34;left_control&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;close_bracket&#34;</span>: <span style="color:#2aa198">&#34;equal_sign&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;comma&#34;</span>: <span style="color:#2aa198">&#34;w&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;d&#34;</span>: <span style="color:#2aa198">&#34;e&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;e&#34;</span>: <span style="color:#2aa198">&#34;period&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;equal_sign&#34;</span>: <span style="color:#2aa198">&#34;close_bracket&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f&#34;</span>: <span style="color:#2aa198">&#34;u&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;g&#34;</span>: <span style="color:#2aa198">&#34;i&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;h&#34;</span>: <span style="color:#2aa198">&#34;d&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;hyphen&#34;</span>: <span style="color:#2aa198">&#34;open_bracket&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;i&#34;</span>: <span style="color:#2aa198">&#34;c&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;j&#34;</span>: <span style="color:#2aa198">&#34;h&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;k&#34;</span>: <span style="color:#2aa198">&#34;t&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;l&#34;</span>: <span style="color:#2aa198">&#34;n&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;m&#34;</span>: <span style="color:#2aa198">&#34;m&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;n&#34;</span>: <span style="color:#2aa198">&#34;b&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;non_us_backslash&#34;</span>: <span style="color:#2aa198">&#34;grave_accent_and_tilde&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;o&#34;</span>: <span style="color:#2aa198">&#34;r&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;open_bracket&#34;</span>: <span style="color:#2aa198">&#34;slash&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;p&#34;</span>: <span style="color:#2aa198">&#34;l&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;period&#34;</span>: <span style="color:#2aa198">&#34;v&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;q&#34;</span>: <span style="color:#2aa198">&#34;quote&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;quote&#34;</span>: <span style="color:#2aa198">&#34;hyphen&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;r&#34;</span>: <span style="color:#2aa198">&#34;p&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;s&#34;</span>: <span style="color:#2aa198">&#34;o&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;semicolon&#34;</span>: <span style="color:#2aa198">&#34;s&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;slash&#34;</span>: <span style="color:#2aa198">&#34;z&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;t&#34;</span>: <span style="color:#2aa198">&#34;y&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;u&#34;</span>: <span style="color:#2aa198">&#34;g&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;v&#34;</span>: <span style="color:#2aa198">&#34;k&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;w&#34;</span>: <span style="color:#2aa198">&#34;comma&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;x&#34;</span>: <span style="color:#2aa198">&#34;q&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;y&#34;</span>: <span style="color:#2aa198">&#34;f&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;z&#34;</span>: <span style="color:#2aa198">&#34;semicolon&#34;</span>
+            },
+            <span style="color:#268bd2;font-weight:bold">&#34;virtual_hid_keyboard&#34;</span>: {
+                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock_delay_milliseconds&#34;</span>: <span style="color:#2aa198;font-weight:bold">0</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;keyboard_type&#34;</span>: <span style="color:#2aa198">&#34;ansi&#34;</span>
+            }
+        }
+    ]
+}
+
+</code></pre></div>]]></content:encoded></item></channel></rss>

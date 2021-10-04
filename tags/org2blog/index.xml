@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>org2blog on voices in my head</title><link>https://cpbotha.net/tags/org2blog/</link><description>Recent content in org2blog on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 26 Jan 2019 17:10:31 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/org2blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.
+Welcome to the first WHV of the year 2019 folks!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/chicken_potjie_no2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/chicken_potjie_no2-1024x768.jpg"
+        
+            alt="In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie."/> </a><figcaption>
+            <p>In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to the first WHV of the year 2019 folks!</p>
+<p>In what is hopefully just a minor incident and not a portent of calamitous events to come, we have already skipped the first two weeks of the year, which means this WHV looks back at the three weeks from Monday January 7 to Saturday January 26.</p>
+<p>I guess this would not be the WHV if we did not start off with some sort of awkwardness or miscellaneous embarrassment, so: CHECK!</p>
+<p>Because you are probably thirsty for your WHV now, I tried to write you a long and rambly edition, with pictures! (Because it’s so long and rambly, and because markdown, I have liberally sprinkled with headings and sub-headings, so that those of you with lives outside of blog reading can hop, skip and jump through like the professionals you are.)</p>
+<h2 id="the-future-is-here-long-form-blog-posts-on-the-ipad">The future is here: Long-form blog posts on the iPad.</h2>
+<p>This also would not be the WHV if we did not have some little digital trick to reveal: Today’s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.</p>
+<p>Because I really don’t like the new block-based WordPress 5.0 editor, named in an entirely non-hubristic fashion “Gutenberg”, but it does fortunately support importing markdown formatted blog posts (just make sure you don’t hard-wrap anything), and because I like trying new things, I am typing this on the iPad using the iOS version of <a href="https://www.textasticapp.com/">Textastic</a>.</p>
+<p>A few hours ago, it looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/img_0005.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/img_0005-1024x768.png"
+        /> </a>
+</figure>
+</p>
+<p>In contrast to the direct <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">orgmode to wordpress Emacs workflow</a> I normally use, this workflow enables me to copy and paste sections of markdown text into WordPress. Each pasted section is automatically imported as WordPress blocks, based on the markdown structure.</p>
+<p>This means I can position and edit images using the WordPress interface, but author the text using Markdown. With <a href="https://github.com/org2blog/org2blog">org2blog</a> the whole post, including images, has to go through life as an orgmode file, which is brilliant for my more technical posts, but not so much for prose-heavy blog posts such as this one.</p>
+<h3 id="btw-1-why-i-dont-yet-like-the-new-wordpress-editor">BTW 1: Why I don’t (yet) like the new WordPress editor.</h3>
+<p>The old WordPress editor enabled me to focus on the content and just write.</p>
+<p>The new <a href="https://wordpress.org/gutenberg/">Gutenberg editor</a> now wants me to create a bunch of blocks, e.g. paragraph, image, paragraph, bullet list, etc., and then work with those blocks.</p>
+<p>That’s really great if you’re building a site, but not so much when you would just like to get down and write that blog post.</p>
+<p>Although this is now the standard editor in WordPress, there are still bugs, such as the fact that my cursor keeps on jumping to the start of the block while I’m typing, which is not irritating at all, and the not unimportant observation that none of the mobile apps support Gutenberg yet.</p>
+<p>WordPress-using readers, what do you think?</p>
+<p>(P.S. Another just-discovered issue: In Gutenberg, your biggest heading is H2. H1 is not available in the UI normally. When pasting in markdown, H1s do display, but do not show in the type-UI as anything. Here is <a href="https://github.com/WordPress/gutenberg/issues/4234">a confusing Gutenberg bug report</a>.)</p>
+<h3 id="btw-2-why-textastic-aka-at-least-it-will-syntax-highlight-your-orgmode">BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)</h3>
+<p>The main reason I found and purchased Textastic, was that I ran into <a href="https://github.com/jezcope/Org.tmbundle">Jez Cope’s github repo</a> with a TextMate Bundle (that’s an editor configuration) that was made for Textastic to support editing Emacs orgmode files.</p>
+<p>As is the age-old open source way, there were a few small bugs which I <a href="https://github.com/jezcope/Org.tmbundle/pull/5">fixed in my fork</a>, which you should definitely get if you are in the same I-want-to-edit-Orgmode-on-my-iOS boat as I am. It’s not a very large boat, but it’s super fun!</p>
+<p>(There is no Emacs on iOS. This is in my view the greatest downside of iOS. It turns out that Apple generally does not allow apps with embedded interpreters on the app store. However, I am still trying to find out why there are no iOS-capable Emacs source code forks available.)</p>
+<h3 id="btw-3-the-ipad-with-keyboard-is-a-shockingly-good-laptop-replacement">BTW 3: The iPad with keyboard is a shockingly good laptop replacement.</h3>
+<p>I recently recommended to a privacy-conscious reader who was searching for an affordable Linux-running laptop in South Africa, that she instead consider buying an iPad with bluetooth keyboard.</p>
+<p>Down here a brand new 2018 iPad costs R5999. A cheap keyboard cover (e.g. Body Glove) can be had for about R860.</p>
+<p>If you compare this to any new laptop of R6900 (about EUR 444) which will probably be sold with Windows included, you get a computing device with a fantastic quality multi-touch screen, great battery life, best-in-class security, almost no maintenance, and a fantastic app ecosystem. To seal the deal, the iPad’s resale value is proportionally probably also much better than that entry-level laptop.</p>
+<p><em>After</em> I sent that email, I started with this iPad + cheap bluetooth keyboard experiment to try it for myself. I have to say that the experience has been way better than I expected.</p>
+<p>For a large subset of laptop users, and for a large subset of workflows and tasks, this is a really great solution.</p>
+<p>Please don’t worry (too much) yet, I am not planning one of those “I switched to an iPad as my main computing device” blog posts. I would not be able to survive without my development tools, and I would especially not be able to survive without my Emacs.</p>
+<h2 id="pv-solar-installation-progress">PV Solar installation progress</h2>
+<p>As I excitedly <a href="/2018/12/19/weekly-head-voices-159-extreme/#extreme-solar">announced in WHV #159</a> (slightly more than a month ago), we had decided that it was time to get a photovoltaic solar power system installed at the house.</p>
+<p>I found a local installer with the required PVGreenCard accreditation and started the consultation process.</p>
+<p>Unfortunately, the installer did not seem to be prepared for a customer that would not stop asking questions. The customer even went so far as to pose questions that challenged the installer’s brand loyalty!</p>
+<p>I really do understand that I’m probably not the easiest end-user, but I don’t think that an expert’s brand loyalty should get in the way of reason, and far more importantly in the way of basic physics.</p>
+<p>To make a long story short, I ended up getting fired by the installer.</p>
+<p>This was probably for the better: He can now continue doing well-practised installs for other clients who don’t ask (so many) questions, and I suddenly had the opportunity to find a new, more engineer-friendly installer, and to continue learning.</p>
+<p>Following are two noteworthy learnings:</p>
+<h3 id="learning-1-you-should-almost-always-try-to-oversize-the-photovoltaic-array">Learning 1: You should almost always try to oversize the photovoltaic array</h3>
+<p>If the equipment states for example 4600kVA, then you are usually quite safe installing from 25% up to 30% more kWp of solar panels.</p>
+<p>Oversizing will mean that on very sunny days you’ll get peaks higher than the maximum rated PV, which can be handled for short periods by the solar equipment, but more importantly, you’ll be able to generate more electricity when there is less sun, which is most of the time.</p>
+<p>In other words, you increase the area under the curve of kW generated per hour.</p>
+<p>By the way, I emailed GoodWe (they make the hybrid inverters I have my eye on) who confirmed that their EM range supports 27.8% oversizing. The ES range advertise 30% PV oversizing on the box.</p>
+<p>It is of course an interesting question what exactly is meant by oversizing. Do they support pumping 30% more power into the inverter for 5 minutes, or for 2 hours?</p>
+<h3 id="learning-2-powerforumcoza-is-a-great-source-of-information">Learning 2: powerforum.co.za is a great source of information.</h3>
+<p><a href="https://powerforum.co.za/">This forum</a> has a surprisingly high signal to noise ratio.</p>
+<p>There are a number of experts hanging around, including one of Victron’s super helpful and knowledgeable R&amp;D engineers, and the archive posts are invaluable as you try to navigate <a href="https://powerforum.co.za/topic/2791-experience-getting-city-of-cape-town-to-sign-off-a-zero-feed-in-system-with-inverter-maximum-output-greater-than-35kva/">the quagmire</a> of often conflicting information.</p>
+<h2 id="avocado-baby-progress-very-much-touch-and-go">Avocado baby progress: Very much touch and go.</h2>
+<p>The baby avocado tree, in spite of being being watered almost every day (thank you rainwater harvest!) does not seem to be doing too well.</p>
+<p>Because the summer sun down here can be quite vicious, the tree has its own little pink umbrella.</p>
+<p>The current plan is to feed it more compost, and, if that fails, to try to transplant it out of the big, wild garden and into a pot with softer, kinder earth.</p>
+<h2 id="how-to-explain-complicated-topics">How to explain complicated topics</h2>
+<p>The international and yearly <a href="https://mlssafrica.com">Machine Learning Summer School took place in Stellenbosch this year</a>, from Monday, January 7 to Friday, January 18.</p>
+<p>As you can see from the programme, there were a bunch of heavy hitting speakers present both physically and virtually, including the super resourceful (failed super resolution pun, su(p)e(r) me) Dr Stefan van der Walt, who gave a talk on good scientific software.</p>
+<p>Anyways, because I am currently in a more commercial configuration, I could not justify taking two weeks out, and instead opted for a day visit at the start of the congress.</p>
+<p>It is a testament to the current prominence of the field that the list of international sponsors included Microsoft, Apple, SAP, Uber <em>and</em> Amazon.</p>
+<p>It was gratifying to experience a sampling of such a well-organized international gathering here in my neck of the woods.</p>
+<p>On the first day, we had a high throughput introduction to causality, probabilistic thinking, and variational inference. All the presenters were clearly good speakers, but they weren’t all equally experienced in teaching such complex material.</p>
+<p>(At one point one of the statisticians I was chatting to in break admitted having difficulty keeping up with the math. I did not feel <strong>that</strong> stupid anymore.)</p>
+<p>“What is the difference between being a good speaker and an experienced teacher?”, you might now ask.</p>
+<p>Great question, I would then say, grateful for the opportunity to explain.</p>
+<p>What I was missing in the one specific case I do not want to be too specific about, was that the presenter did a great job of talking about each of a long list of concepts relevant to his topic, but somehow forgot that one of the most important parts of teaching is communicating the conceptual framework into which all of those concepts fit.</p>
+<p>Conceptual frameworks are also one of those multi-scalar things: Each group of factoids can be gratifyingly embedded into a slightly higher level component, groups of which can be slotted into the overarching “big idea”, or another level of compnonent. (It’s turtles all the way down.)</p>
+<p>As great lecturers talk, they keep on bringing their narrative back up to the higher-level embedding construct.</p>
+<p>It looks something like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/teach_complicated_things.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/teach_complicated_things-1024x576.png"
+        
+            alt="Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why."/> </a><figcaption>
+            <p>Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why.</p>
+        </figcaption>
+</figure>
+</p>
+<p>By repeatedly diving deeper into the details, and then following the conceptual link back up to the higher-level constructs and especially your big idea, your listeners will start to see the beautiful fractal of understanding that you are guiding them through.</p>
+<h2 id="what-will-i-be-working-on-this-year">What will I be working on this year?</h2>
+<p>At this moment, 2019 is shaping up to be pretty exciting work-wise.</p>
+<p>We just heard that we will be able to continue for some months more working on the X-Ray based surgical planning project we worked on last year.</p>
+<p>Partly thanks to the great deep learning work of two summer interns (note: Southern Hemisphere means summer interns over December and January, which might be weird if you’re from the Northern Hemisphere) we are in great shape for all of the deep neural network-based image understanding plans we need to execute on.</p>
+<p>This year I will also be spending more time on <a href="https://www.telesensi.com">TeleSensi, our FDA-certified tele-auscultation product</a>. This is less rocket-sciencey than the surgical planning project, but super interesting to work on, as it has many more users on the open market.</p>
+<p>(That being said, we do have plans to increase the level of rocket science significantly. I am not called the science officer for nothing… (well, that and also the fact that I got to choose my own title, and so I chose the same as Spock on the USS Enterprise).)</p>
+<h2 id="do-you-write-stuff-down">Do you write stuff down?</h2>
+<p>You might remember from WHV #155 <a href="https://cpbotha.net/2018/10/12/weekly-head-voices-155-lush/#productivity-pro-tip-fool-yourself-into-doing-a-good-daily-review">my trick of starting the day with a checklist</a>.</p>
+<p>A part of that checklist is a checklist of habits which I try to form and maintain, called The HabitFormer(tm). Every item that I sufficiently address gets a super satisfying little <code>[X]</code> mark, which feels a whole lot better than the sadly empty <code>[ ]</code> construct.</p>
+<p>Here is the current list:</p>
+<ul>
+<li>did you write stuff down?</li>
+<li>are you satisfied with number of pomodori?</li>
+<li>7.5 hrs sleep last night</li>
+<li>meditate &lt;– (WHV <em>hidden</em> pro-tip: Get the <a href="https://wakingup.com/">Waking Up</a> app by Sam Harris. Thanks LM for the fantastic recommendation.)</li>
+<li>stand at desk</li>
+<li>do valuable things</li>
+<li>fruit &amp; veg</li>
+<li>reading</li>
+<li>thinking</li>
+<li>running or other exercise</li>
+</ul>
+<p>Ironically enough, the first item is brand new on the list.</p>
+<p>I somehow forgot my habit of writing, during the day, a little done list / random thoughts lists. After bringing this habit back I noticed what difference it made.</p>
+<p>At regular intervals during the day, I will spend a minute or three writing down what I had completed, or what I was thinking. This moment of introspection would either result in a pleasant bit of satisfaction with some small task taken care of, or, more often, it would reel me back in from a spot of less than deliberate action and enable me to bring back my attention to the point of focus.</p>
+<p>I’m filing this under “101 tricks to get your <a href="https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/">rider back on your elephant</a>“.</p>
+<p>Alright friends, thank you very much for joining me on this part of my journey. I am looking forward to our next interaction!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0321-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0321-PANO-1024x598.jpg"
+        
+            alt="Yes, we ended up in the mountains again."/> </a><figcaption>
+            <p>Yes, we ended up in the mountains again.</p>
+        </figcaption>
+</figure>
+
+<p>In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.</p>
+<p>One more of my <a href="https://github.com/org2blog/org2blog/pull/226">org2blog pull requests</a> was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</p>
+<p>Anyways.</p>
+<h1 id="aspnet-core-surprise">ASP.NET Core SURPRISE!</h1>
+<p>For a work project I was <em>encouraged</em> to explore Microsoft’s brand new <a href="https://docs.microsoft.com/en-us/aspnet/core/">ASP.NET Core</a>. While on the one hand I remain wary of Microsoft (IE6 anyone?), I am an absolute sucker for new technology on the other.</p>
+<p>You may colour me impressed.</p>
+<p>If I had to describe it in one sentence, I would have to describe ASP.NET Core as Django done in C#. You can develop and deploy this on Windows, Mac or Linux. You model and query your data using Entity Framework Core and LINQ for example, or Dapper if you prefer performance and don’t mind the SQL (I don’t), or both. You write controller classes and view templates using the Razor templating language.</p>
+<p>C# 7.0 looks like it could be a high development velocity language. It has modern features such as lambdas with what looks like real closures (unlike C++ variable capturing), as well as the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator">null coalescing operator (??)</a> and the <a href="http://geekswithblogs.net/BlackRabbitCoder/archive/2015/06/05/c.net-little-wonders-null-conditional-operator-in-c-6.aspx">null conditional operator (?.)</a>, the latter of which looks superbly useful. Between Visual Studio on Windows and the Mac, or the new Intellij Rider IDE (all platforms) or Visual Studio Code (all platforms), the tooling is top notch.</p>
+<p>Time will have to tell how it compares to Python with respect to development velocity, a competition that Python traditionally fares extremely well at.</p>
+<p>Where ASP.NET Core wins hands down is in the memory usage department: By default you deploy using the Kestrel web server, which runs your C# code using <em>multiple</em> libuv (yeah, of lightning fast node.js event loop fame) event loops, all in threads.</p>
+<p>With Django I usually deploy as many processes as I can behind uwsgi, itself behind nginx. The problem is that with Python’s garbage collector, these processes end up sharing very little memory, and so one has to take into account memory limits as well as CPU count on servers when considering concurrency.</p>
+<p>The long and the short of this is that one will probably be able to process many more requests in parallel with ASP.NET Core than with Django. With uwsgi and Django I have experimented with gevent in uwsgi and monkey patching, but this does not work as well as it does in ASP.NET Core, which has been designed with this concurrency model in mind from the get go. My first memory usage and performance experiments have shown compelling results.</p>
+<p>Hopefully more later!</p>
+<h1 id="a-cadence-of-accountability">A cadence of accountability</h1>
+<p>Lately my <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work habits</a> have taken a bit of a hit. At first I could not understand how to address this, until I remembered mention of a <em>cadence of accountability</em> in <a href="http://calnewport.com/books/deep-work/">The Book</a><em>.</em></p>
+<p>Taking a quick look at <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">that post</a>, I understood what I had forgotten to integrate with my habits. Besides just doing the deep work, it’s important to “keep a compelling scoreboard” and to “create a cadence of accountability”.</p>
+<p>Although I was tracking my deep work time using the <a href="http://orgmode.org/manual/Clocking-commands.html">orgmode clocking commands</a> (when I start “deep working” on anything, I make an orgmode heading for it in my journal and clock in; when I’m done I clock out; orgmode remembers all durations) I was not regularly reviewing my performance.</p>
+<p>With orgmode’s <code>org-clock-report</code> command (<code>C-c C-x C-r</code>), I can easily create or update a little table, embedded in my monthly journal orgfile, with all of my deep work clocked time tallied by day. This “compelling scoreboard” gives me instant insight into my weekly and monthly performance, and gives me either a mental kick in the behind or pat on the shoulder, depending on how many deep work hours I’ve been able to squeeze in that day and the days before it.</p>
+<p>The moment I started doing this at regular intervals, “creating a cadence of accountability” in other words, I was able to swat distractions out of the way and get my zone back.</p>
+<p>This is an interesting similarity with <a href="/tag/gtd/">GTD</a> (which I don’t do so much anymore because focus is far more important to me than taking care of sometimes arbitrary and fragmentary tasks) in that GTD has the <a href="https://zenhabits.net/weekly-review-key-to-gtd-and-achieving/">regular review</a> as a core principle.</p>
+<p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
+<p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #85: Gone south.</title><link>https://cpbotha.net/2014/11/20/weekly-head-voices-85-gone-south/</link><pubDate>Thu, 20 Nov 2014 07:11:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/11/20/weekly-head-voices-85-gone-south/</guid><description> From now on I’m going to try a more fluid weekly blogging schedule. My approach up to now was to try and write up the weekly right after the weekend, at which time,however, I’m usually caught up in the usual start-of-the-week storm of, uhm, possibilities, and hence let the blog writing slip, and once you start slipping it’s a challenge to stop. So now, instead of focusing on the when (the failed after the weekend) I’m going to focus on the how often.</description><content:encoded><![CDATA[ <p>From now on I’m going to try a more fluid weekly blogging schedule. My approach up to now was to try and write up the weekly right after the weekend, at which time,however, I’m usually caught up in the usual start-of-the-week storm of, uhm, possibilities, and hence let the blog writing slip, and once you start slipping it’s a challenge to stop. So now, instead of focusing on the when (the failed after the weekend) I’m going to focus on the how often. Maybe this works better.</p>
+<p>This past weekend, we visited <a href="http://en.wikipedia.org/wiki/Cape_Point">Cape Point</a>, the almost-southernmost tip of Africa, and the spot where the Atlantic Ocean and the Indian Ocean crash together for a part of the year. It’s quite beautiful, and always great to have visitors that we can take there. I took this photo of the Cape of Good Hope from the Cape Point side:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/11/wpid-cape_of_good_hope2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/11/wpid-cape_of_good_hope2.jpg"
+        /> </a>
+</figure>
+
+<h2 id="emacs-nerdery">Emacs nerdery.</h2>
+<p>My <a href="https://github.com/punchagan/org2blog/pull/159">first significant Emacs Lisp hacking</a> was first <a href="http://sachachua.com/blog/2014/10/publishing-wordpress-thumbnail-images-using-emacs-org2blog/">blogged by Sacha Chua</a> (Emacs goddess!) and then accepted into the org2blog upstream repository. Nerd-adrenaline-rush!</p>
+<p>On this topic, I also published <a href="https://github.com/cpbotha/deft-turbo">deft-turbo</a>, my fork of the <a href="http://jblevins.org/projects/deft/">original Deft</a> <a href="http://vxlabs.com/2014/06/04/modify-emacs-deft-for-recursive-directory-search/">to support recursive directory searching</a> and now also multiple file types. If you’re into Notational Velocity style note-taking and into Emacs you’ll love this.</p>
+<p>I now use Emacs <a href="http://orgmode.org/">Org mode</a> for my daily note-taking, for blogging (this post is being written in Org mode in Emacs) and since yesterday also for generating beautiful presentation slides using the fantastic <a href="https://github.com/yjwen/org-reveal">org-reveal</a>. (As you might recall, I also use <a href="http://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">Emacs with mu4e</a> as my email client.)</p>
+<p>It’s crazy to think that <a href="http://en.wikipedia.org/wiki/GNU_Emacs">GNU Emacs</a> was first released in March of 1985, which makes it almost 30 years old, which is practically immortal in software terms, and yet it’s still the most powerful text editor in the world today.</p>
+<h2 id="finally-the-cracked-phone-screen">Finally: The cracked phone screen.</h2>
+<p>After a great number of years using smartphones without covers of any kind (they’re so beautifully designed, why cover that up?) I finally dropped my Nexus 4 from about a metre height because a WhatsApp message arrived and I thought that I could easily fumble my digital friend out of my pocket whilst typing with my other hand.</p>
+<p>Apparently I couldn’t.</p>
+<p>The screen acquired an impressive new crack, and the digitizer is completely dead. I’m having it repaired, because it’s still a great phone, and Android 5.0 (Lollipop) is being pushed to Nexi 4 worldwide as we speak! (Fortunately I could <a href="https://support.google.com/nexus/answer/4596836?hl=en">factory reset</a> the phone using only the hardware buttons.)</p>
+<p>In the meantime, I’m using a backup Motorola Atrix 4G. Thanks to Android and much open source hackage, I was able to install Android 4.4.4 (KitKat) on it, in spite of it being a 2011 phone that was practically abandoned by Motorola at the Android 2.3 (Gingerbread) stage.</p>
+<h2 id="the-end">The end.</h2>
+<p>If you run into me in CYBERSPACE, and I’m late with a blog post, I give you permission to badger me about it.</p>
+<p>Have a great half-week and weekend kids!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #73: Keystroke megaphone!</title><link>https://cpbotha.net/2014/06/10/weekly-head-voices-73-keystroke-megaphone/</link><pubDate>Tue, 10 Jun 2014 18:42:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/06/10/weekly-head-voices-73-keystroke-megaphone/</guid><description> In week 23 of 2014 I nerded out by writing two Emacs-related blog posts over at the vxlabs, and hacking org2blog to support WordPress image thumbnails:
+Modify Emacs Deft for recursive directory search -- this shows you how you can modify Emacs Deft mode, a Notational Velocity clone, to handle nested directories. Configuring Emacs mu4e with nullmailer, offlineimap and multiple identities -- this post documents my complete Emacs-based mail client setup.</description><content:encoded><![CDATA[ <p>In week 23 of 2014 I nerded out by writing two Emacs-related blog posts over at
+the vxlabs, and hacking org2blog to support WordPress image thumbnails:</p>
+<ul class="org-ul">
+<li>
+<a href="http://vxlabs.com/2014/06/04/modify-emacs-deft-for-recursive-directory-search/">Modify Emacs Deft for recursive directory search</a> -- this shows you how you can modify Emacs Deft mode, a Notational Velocity clone, to handle nested directories.
+  </li>
+<li>
+<a href="http://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">Configuring Emacs mu4e with nullmailer, offlineimap and multiple identities</a> -- this post documents my complete Emacs-based mail client setup.
+  </li>
+<li>
+<a href="https://github.com/cpbotha/org2blog">org2blog image-thumbnail fork</a> on github -- this is my first significant Emacs package hack! Using this, you can configure org2blog to make use of the image thumbnails automatically created by WordPress on image upload. By default, it will insert the 300px thumbnail into your post and link to the full size image, instead of just inserting the full size version.
+  </li>
+</ul>
+<h2 id="conserving-keystrokes">Conserving keystrokes</h2>
+<p>Besides the general Emacs frenzy I&rsquo;m going through at the moment, there is some
+method to my madness, especially the org2blog part. Through <a href="http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">Emacs
+and org2blog</a>, it has become significantly easier for me to publish a blog
+post. I&rsquo;m in Emacs the whole day in any case (email and text notes database),
+so turning any piece of existing text into a blog post now takes no more than a
+minute or two.</p>
+<p>Why is that interesting?</p>
+<p>Well, in 2007, Jon Udell (we&rsquo;ll forget for a while that he works for the enemy,
+because the man talks sense) wrote <a href="http://blog.jonudell.net/2007/04/10/too-busy-to-blog-count-your-keystrokes/">a
+blog post</a> urging his readers to count their keystrokes. Here are three
+selected paragraphs:</p>
+<blockquote>
+<p>When people tell me they’re too busy to blog, I ask them to count up their
+output of keystrokes. How many of those keystrokes flow into email messages?
+Most. How many people receive those email messages? Few. How many people could
+usefully benefit from those messages, now or later? More than a few, maybe a
+lot more.</p>
+<p>From this perspective, blogging is a communication pattern that optimizes for
+the amount of awareness and influence that each keystroke can possibly
+yield. Some topics, of course, are necessarily private and interpersonal. But a
+surprising amount of business communication is potentially broader in scope. If
+your choice is to invest keystrokes in an email to three people, or in a blog
+entry that could be read by those same three people plus more — maybe many more
+— why not choose the latter? Why not make each keystroke work as hard as it
+can?</p>
+<p>[converting an email to a blog post] can have powerful network effects. To
+exploit them, you have to realize that the delivery of a message, and the
+notification of delivery, do not necessarily coincide. Most of the time, in
+email, they do. The message is both notification and payload. But a message can
+also notify and point to a payload which is available to the recipient but also
+to other people and processes in other contexts. That arrangement costs hardly
+any extra keystrokes, and hardly any extra time. But it’s an optimization that
+can radically expand influence and awareness.</p>
+</blockquote>
+<p>I&rsquo;ve reproduced the same paragraphs that Jeff Atwood (co-creator of Stack Overflow, together with Joel Spolsky, I&rsquo;M NOT WORTHY) extracted in <a href="http://blog.codinghorror.com/maximizing-the-value-of-your-keystrokes/">his blog post on the matter</a>, where he exhorted us with the question:</p>
+<blockquote>
+<p>The next time you find yourself typing more than a few sentences on your keyboard, stop and ask: are you maximizing the value of your keystrokes?</p>
+</blockquote>
+<p>(Scott Hanselman, like Udell also with the enemy but again a source of internet wisdom (hey, what&rsquo;s up with that?!), is a strong proponent of this idea, see for example <a href="http://www.hanselman.com/blog/DoTheyDeserveTheGiftOfYourKeystrokes.aspx">his 2010 post on the matter</a>.)</p>
+<h2 id="normal-human-stuff">Normal human stuff</h2>
+<p>I haven&rsquo;t felt this cold in a long long time. Because winter here is usually short and/or mild and the summers are long and, err, <i>summery</i>, houses are not really well geared for the cold season. At night, the temperature inside my house approaches that of outside.</p>
+<p>That&rsquo;s why I&rsquo;m counting down the days until June 21 (sorry Northern Hemisphere friends). It might be the middle of winter over here, but it&rsquo;s also the point after which the days starting getting slowly longer and warmer.</p>
+<p>While me wait, there are sunsets like this one on Friday, at the Stone Three company braai:</p>
+<figure class="wp-caption alignnone" style="width: 300px">
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset.jpg" title="">
+<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset-300x225.jpg"/></a><figcaption class="wp-caption-text">Sunset, seen from the Strand Yacht Club on Friday June 6, 2014.</figcaption></figure> 
+<p>&hellip; and lovely beers like this one:</p>
+<figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold.jpg" title="">
+<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold-300x225.jpg"/></a><figcaption class="wp-caption-text">Look how the sun sets ever so artfully on my Johnny Gold!</figcaption></figure> 
+<p>&hellip; to keep me busy.</p>
+<p>Have a great week kids!</p>
+]]></content:encoded></item></channel></rss>

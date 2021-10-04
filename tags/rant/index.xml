@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rant on voices in my head</title><link>https://cpbotha.net/tags/rant/</link><description>Recent content in rant on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 06 Jan 2016 20:24:38 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/rant/index.xml" rel="self" type="application/rss+xml"/><item><title>User interface boo-boo #1: Disabled controls without explanations!</title><link>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</link><pubDate>Wed, 06 Jan 2016 20:24:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</guid><description> Today as I was configuring some build settings in Qt Creator, an otherwise really great product, I was faced with this extremely frustrating situation:
+I absolutely, definitely needed to configure the debugger. However, the controls required to do so were disabled, as can be seen by their greyed out visual state. Although it was easy to find the controls for configuring the debugger (good discoverability), it was impossible to find out exactly why the software would not allow me to do so.</description><content:encoded><![CDATA[ <p>Today as I was configuring some build settings in <a href="http://www.qt.io/ide/">Qt Creator</a>, an otherwise really great product, I was faced with this extremely frustrating situation:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/Screen-Shot-2016-01-06-at-4.27.00-PM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-06-at-4.27.00-PM.png"
+        /> </a>
+</figure>
+
+<p>I absolutely, definitely needed to configure the debugger. However, the controls required to do so were disabled, as can be seen by their greyed out visual state. Although it was easy to find the controls for configuring the debugger (good discoverability), it was impossible to find out exactly <em>why</em> the software would not allow me to do so.</p>
+<p>What made this even more frustrating, is that it would have been straight-forward for the software to have shown me an informative tooltip or dialog box when I hovered over or clicked on the disabled controls. This message could have explained shortly why the control was disabled, and what exactly I needed to do to resolve the problem.</p>
+<p>If you have or you were planning to use disabled controls in your next project without an easily discoverable (read: right on the disabled control itself) explanation of the reason (and fix) for having disabled them, I would like to say this:</p>
+<img alt="JUST... JUST STOP." class="alignnone wp-image-2317 size-full" data-attachment-id="2317" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"Picasa","camera":"","caption":"","created_timestamp":"1339193494","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}' data-image-title="stop-just-stop" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-300x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" data-orig-size="358,358" data-permalink="https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/stop-just-stop/" height="358" sizes="(max-width: 358px) 85vw, 358px" src="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg 358w, https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-150x150.jpg 150w, https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-300x300.jpg 300w" width="358"/>
+<p>I’ve singled out Qt Creator due to my experience today, but there are too many examples of this in modern user interfaces. <strong>Hooking up discoverable explanations to disabled controls</strong> is a small effort on the part of the programmer which multiplies to a significant time-saving and thus <strong>value-add for your users</strong>.</p>
+]]></content:encoded></item></channel></rss>

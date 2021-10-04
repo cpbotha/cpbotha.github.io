@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>strava on voices in my head</title><link>https://cpbotha.net/tags/strava/</link><description>Recent content in strava on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 24 Jul 2018 20:49:20 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/strava/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #149: I forgot to proof-read this.</title><link>https://cpbotha.net/2018/07/24/weekly-head-voices-149/</link><pubDate>Tue, 24 Jul 2018 20:49:20 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/24/weekly-head-voices-149/</guid><description> Part of the Sunday morning trail. Although I really enjoy these, I’m at my happiest running down antelope on the savannah. Antelope strictly-speaking not required, but those wide open plains on the other hand…
+This, the one hundred and forty ninth edition of the Weekly Head Voices, covers the week from Monday July 16 to Sunday July 22 of the year 2018.
+This week, we have apple watch running adventures, deep learning in production (finally), yet another focus tip and finally a youtube poetry reading.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/IMG_0420-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/IMG_0420-PANO-1024x318.jpg"
+        
+            alt="Part of the Sunday morning trail. Although I really enjoy these, I’m at my happiest running down antelope on the savannah.  Antelope strictly-speaking not required, but those wide open plains on the other hand…"/> </a><figcaption>
+            <p>Part of the Sunday morning trail. Although I really enjoy these, I’m at my happiest running down antelope on the savannah.  Antelope strictly-speaking not required, but those wide open plains on the other hand…</p>
+        </figcaption>
+</figure>
+
+<p>This, the one hundred and forty ninth edition of the Weekly Head Voices, covers the week from Monday July 16 to Sunday July 22 of the year 2018.</p>
+<p>This week, we have apple watch running adventures, deep learning in production (finally), yet another focus tip and finally a youtube poetry reading.</p>
+<p>Enjoy!</p>
+<h1 id="the-apple-watch-vitality-and-you">The Apple Watch, Vitality and You</h1>
+<p>On Monday, I became the owner of a brand new Apple Watch 3, FOR FREE(ish).</p>
+<p>I feel that two points are worth mentioning:</p>
+<ol>
+<li>Having one’s work macbook unlock <em>automatically</em> as one prepares to put one’s hands on the keyboard, with a sweet little unlock sound emitting from one’s watch, is much more fun than I had expected.
+<ul>
+<li>Said watch has a <a href="https://en.wikipedia.org/wiki/Apple_S3">dual-core processor with 768MB of RAM and 16GB of flash, and a GPU</a>. That’s just crazy.
+<ul>
+<li>In 2003, <a href="/2003/10/05/first-thoughts-on-the-tungsten-e/">I had similar thoughts about the processing power of my Tungsten E PDA</a>, and all the way back in <a href="/2016/12/06/weekly-head-voices-113-science-and-creation/#devil-on-my-arm">2016 I was already laughing at 2003 me</a>. I should know better by now.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>One was looking forward to using third party running apps on the watch, such as iSmoothRun which does real-time reporting of cadence, which can be shown together with a number of other stats on a number of configurable screens a la Garmin . One has had to cancel these plans, because Vitality, the shadowy organisation responsible for the FOR FREE(ish) nature of the watch, only recognises runs submitted by the built-in Workouts app.
+<ul>
+<li>The September watchOS update will include runtime (haha) cadence, which is great. However, some technical system for the support of third party apps would have been even better. I’ll live.</li>
+<li>Runs logged with the built-in Workouts app can be easily and automatically submitted to other platforms, such as Strava, where many of my running peeps hang out, and even to one’s own Dropbox in FIT format, with <a href="https://itunes.apple.com/za/app/healthfit/id1202650514?mt=8">the HealthFit iOS app</a>, a very reasonable once-off purchase.</li>
+</ul>
+</li>
+</ol>
+<h1 id="deeplearning-insidetm">DeepLearning Inside(tm)</h1>
+<p>On Friday, we shipped a new version of the most important work project I am currently involved in.</p>
+<p>Again I feel that two points are worth mentioning:</p>
+<ol>
+<li>We now also have deep learning, albeit a humble example, out in actual production. I was starting to feel a little left out. Anonymous shout-out (because top secret) to the team members who made this happen!</li>
+<li>They say one should never deploy or ship on Friday. Because I come from the I-won’t-do-what-you-tell-me generation, I cut the final release on Friday evening <em>after</em> the traditional weekend-starter braai.
+<ul>
+<li>To be honest, this was only <em>necessary</em> because I had promised our client that we would release, and it was only <em>possible</em> because we have a fairly good test-suite, with end-to-end being most crucial in this specific scenario, and a checklist-style release procedure.</li>
+</ul>
+</li>
+</ol>
+<h1 id="sobsodsit-cipwob-fba">SoBSoDSiT-CIPWOB-FBA</h1>
+<p>As part of my chaotic but ever-evolving constellation of systems for maintaining work focus, I have renamed the <a href="/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/#shorter-focus-blocks-work-better">shorter focus blocks approach</a> to the <em>short-but-specially-defined-so-that-completion-is-possible-within-one-block focus blocks approach</em> (SBSDSTCIPWOB-FBA).</p>
+<p>This adds the incentive of a small but probable shot of dopamine at the end of the focus block, and sometimes even leads to its unwitting extension by the woefully undersized (not to mention super lazy) rider sometimes sitting atop my mental elephant.</p>
+<p>It sometimes feels like I’m slowly reinventing GTD.</p>
+<p>(This blog post is an emotional roller coaster ride for me. This is the first time I’m feeling something.)</p>
+<p><a href="/2007/10/07/my-palmos-based-gtd-setup/">I used to be a fan of GTD</a> when I still believed that my function in life was to answer emails really quickly, and master multi-tasking.</p>
+<p>Since then however, I’ve slowly had to come to the realisation that, at least in my case, the amount of email processed is more or less exactly inversely correlated to the actual value that I produce.</p>
+<h1 id="the-impotence-of-proof-reading">The impotence of proof-reading</h1>
+<p>The following poetry reading made various subsets of my neurons fire in extremely pleasant ways.</p>
+<p>I hope that you experience similar effects. See you next time!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/OonDPGwAyfQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item></channel></rss>

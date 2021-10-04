@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>robert frost on voices in my head</title><link>https://cpbotha.net/tags/robert-frost/</link><description>Recent content in robert frost on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 31 Jul 2018 20:40:21 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/robert-frost/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #150: The Road not Taken.</title><link>https://cpbotha.net/2018/07/31/weekly-head-voices-150-the-road-not-taken/</link><pubDate>Tue, 31 Jul 2018 20:40:21 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/31/weekly-head-voices-150-the-road-not-taken/</guid><description> Photo of a cotula lineariloba flower, taken by GOU#1, age 12.
+This edition of the WHV covers the week from Monday, July 23 up to and including Sunday, July 29.
+Running update Strava says I’ve just passed the 300km threshold in my Luna Mono 2 sandals.
+It also says I’ve done 27km in my Xero Genesis sandals, or as I have begun to call them, Xero Tolerance.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/IMG_2740.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/IMG_2740-768x1024.jpg"
+        
+            alt="Photo of a cotula lineariloba flower, taken by GOU#1, age 12."/> </a><figcaption>
+            <p>Photo of a cotula lineariloba flower, taken by GOU#1, age 12.</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV covers the week from Monday, July 23 up to and including Sunday, July 29.</p>
+<h1 id="running-update">Running update</h1>
+<p>Strava says I’ve just passed the 300km threshold in my <a href="/2018/04/08/weekly-head-voices-139-luna/">Luna Mono 2 sandals</a>.</p>
+<p>It also says I’ve done 27km in my <a href="/2018/07/17/weekly-head-voices-148-data-stylist/#weekend-running-update">Xero Genesis sandals</a>, or as I have begun to call them, <em>Xero Tolerance</em>.</p>
+<p>You make one mistake, and something will break. You do get to keep all the bloody pieces.</p>
+<p>In any case, when I started on this barefoot-style / natural running adventure, I had subconsciously set myself the limit of 200km before evaluating the success of the experiment.</p>
+<p>At 200km, the experiment was still unsuccessful (different parts of feet and ankles were taking turns complaining) so I moved the threshold to 300km, with the plan to move it to 400km if required.</p>
+<p>I call this The Stubborn Scientific Method(tm): You keep <em>running</em> the experiment (harr harr) until it says what you want it to say.</p>
+<p>To be fair, in this specific case an injury would have (and still can), stop the experiment. Most fortunately the muscles, bones and tendons in my feet, ankles and calves, although complaining quite audibly, have held up.</p>
+<p>This past Sunday I did a long(ish) run where it felt for the first time like my feet and ankles had finally toughened up enough (and perhaps my form had also improved slightly) to just keep on propelling me forward quietly and efficiently.</p>
+<p>Together with the brilliant sunny winter morning conditions, this conspired to reconfigure my face machine into a rather long-lasting grin.</p>
+<p>I am carefully optimistic that I might be able to make this specific adventure a more permanent one, and that makes me really happy.</p>
+<h1 id="the-emacs-section">The Emacs Section</h1>
+<p><em>NERD-ALERT. SKIP TO THE NEXT SECTION IF YOU ARE NOT INTO TEXT EDITORS!</em></p>
+<p>A friend from work sent me a ZIP file with research data.</p>
+<p>I was super surprised that I could easily decompress the ZIP file using Emacs Dired (Dired is of course the file-manager built into Emacs, doh), but that there was no easy way to mark and extract specific files from the archive.</p>
+<p>I found <a href="https://emacs.stackexchange.com/a/3843/8743">an SO answer with a piece of Emacs Lisp code</a> that someone had put together and integrated it with my Emacs.</p>
+<p>It worked, but it didn’t default to the opposite Dired file-list pane as all commander-style tools should do, and by default it re-created relative paths, which is the opposite of the default in most two-pane commanders I know.</p>
+<p>As is the wont of Emacs users, I reshaped the code ever so slightly to work like I thought it should.</p>
+<p>Shaping Emacs Lisp code has a pleasant fluid feeling to it. Code is data, code is configuration, data flows through code.</p>
+<p>I’m telling you this story, because it was a nice little reminder of one of the reasons I like this software so much.</p>
+<p>You can find <a href="https://gist.github.com/cpbotha/05e07dee7fd8243ba73339be186c0b88">my modified version of archive-extract-to-file.el as a github gist</a>.</p>
+<h1 id="the-odd-bits-of-interesting-news-section">The Odd Bits of Interesting News Section</h1>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1024x509.png"
+        /> </a>
+</figure>
+
+<ul>
+<li><a href="https://distill.pub/2018/differentiable-parameterizations/">Differentiable Image Parameterizations</a>, a beautiful machine learning article on Distill that surveys and showcases different techniques for generating beautiful images with deep learning. These networks sort of learn to see in order to solve specific tasks, but you can tickle them in different ways to get them to show you the insides of their visual circuitry, and it’s quite beautiful.</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963310/#__ffn_sectitle">The Prophylactic Extraction of Third Molars: A Public Health Hazard</a> is an article which was published all the way back in 2007. It makes the claim that at least two thirds of wisdom tooth extraction are unnecessary. One could say that their only function is to… <em>extract</em> your money. BA DUM TSSSSS! To that I would like to add: WHY DENTISTRY WHY? HAVE YOU NOT HURT US ENOUGH?!</li>
+<li>A colleague at work emailed <a href="https://techcrunch.com/2018/07/26/this-3d-printed-ai-construct-analyzes-by-bending-light/">this TechCrunch post about a 3D printed neural network</a> that diffracts light going through in order to do its trained inference work on incoming images. Although it’s a retro-futuro-mind-bending idea to do it with a whole neural network, and it smacks of hell-yeah-this-is-what-scifi-promised-me-that-AI-would-look-like, I could not help but recall a certain Very Flat Cat telling us about this sort of passive light-based computation almost 20 years ago.</li>
+</ul>
+<h1 id="the-poetry-section">The Poetry Section</h1>
+<p>GOU#1 had to select an English poem to recite for class.</p>
+<p>From the depths of my memory bubbled up <a href="https://www.poetryfoundation.org/poems/44272/the-road-not-taken">The Road not Taken by Robert Frost</a>.</p>
+<p>I had forgotten how much subtlety and recognisable human complexity this poem was able to pack into such a petite little frame. If you have the time, read the analysis linked above after spending some time with the poem itself.</p>
+<blockquote>
+<p>Two roads diverged in a yellow wood,</p>
+</blockquote>
+<blockquote>
+<p>And sorry I could not travel both</p>
+</blockquote>
+<blockquote>
+<p>And be one traveler, long I stood</p>
+</blockquote>
+<blockquote>
+<p>And looked down one as far as I could</p>
+</blockquote>
+<blockquote>
+<p>To where it bent in the undergrowth;</p>
+<p>Then took the other, as just as fair,</p>
+</blockquote>
+<blockquote>
+<p>And having perhaps the better claim,</p>
+</blockquote>
+<blockquote>
+<p>Because it was grassy and wanted wear;</p>
+</blockquote>
+<blockquote>
+<p>Though as for that the passing there</p>
+</blockquote>
+<blockquote>
+<p>Had worn them really about the same,</p>
+<p>And both that morning equally lay</p>
+</blockquote>
+<blockquote>
+<p>In leaves no step had trodden black.</p>
+</blockquote>
+<blockquote>
+<p>Oh, I kept the first for another day!</p>
+</blockquote>
+<blockquote>
+<p>Yet knowing how way leads on to way,</p>
+</blockquote>
+<blockquote>
+<p>I doubted if I should ever come back.</p>
+<p>I shall be telling this with a sigh</p>
+</blockquote>
+<blockquote>
+<p>Somewhere ages and ages hence:</p>
+</blockquote>
+<blockquote>
+<p>Two roads diverged in a wood, and I—</p>
+</blockquote>
+<blockquote>
+<p>I took the one less traveled by,</p>
+</blockquote>
+<blockquote>
+<p>And that has made all the difference.</p>
+</blockquote>
+<p>Friends, no matter which paths you take this week, I hope that we may meet again.</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>semantic ui on voices in my head</title><link>https://cpbotha.net/tags/semantic-ui/</link><description>Recent content in semantic ui on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 21 Jan 2018 15:39:35 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/semantic-ui/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #128: Water water everywhere, but not a drop to drink.</title><link>https://cpbotha.net/2018/01/21/weekly-head-voices-128-water-water-everywhere-but-not-a-drop-to-drink/</link><pubDate>Sun, 21 Jan 2018 15:39:35 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/21/weekly-head-voices-128-water-water-everywhere-but-not-a-drop-to-drink/</guid><description> Hey friends, welcome back!
+We have to talk about the water situation, seeing that Cape Town is now in the international news as being on track to be the first major city EVAR to run out of water.
+In short, if it doesn’t rain in substantial amounts during the coming three months (which history and projections say it won’t), the municipal water supply will be shut off on April 21, a date festively referred to as Day Zero.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/bbay-pano-20180121.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/bbay-pano-20180121-1024x326.jpg"
+        /> </a>
+</figure>
+
+<p>Hey friends, welcome back!</p>
+<p>We have to talk about the water situation, seeing that Cape Town is now in the international news as <a href="http://time.com/5103259/cape-town-water-crisis/">being on track to be the first major city EVAR to run out of water</a>.</p>
+<p>In short, if it doesn’t rain in substantial amounts during the coming three months (which history and projections say it won’t), <a href="http://untoldafrica.com/calling-all-capetonians-its-time-to-prepare-for-day-zero/">the municipal water supply will be shut off on April 21</a>, a date festively referred to as <em>Day Zero</em>.</p>
+<p>This means when we try to open any tap, no water will come out. This situation might continue for quite a while, which is pretty intense.</p>
+<p>On that day, we will be celebrating by dressing up as Kevin Costner and running around barefoot shouting “NOTHING’S FREE IN WATERWORLD!”. Those who are not big fans of Kevin are allowed to dress up as <a href="https://en.wikipedia.org/wiki/Imperator_Furiosa">Imperator Furiosa</a>.</p>
+<p>At my house, we stopped watering our garden with municipal water months ago. We installed a grey water recovery system: Shower and bath water ends up in the only remaining green corner of the garden.</p>
+<p>We also installed a rain water recovery system three months ago, which has fortunately enabled us to collect a few thousand litres of rain water via the rerouted gutters and pipework from the roof. This water we will probably use after Day Zero to be able to wash and to flush a toilet now and then.</p>
+<p>(Flushing frequency has necessarily decreased significantly. Around these parts we now have the saying: “If it’s yellow, let it mellow. If it’s br***, flush it down.” Please excuse the mental graphics.)</p>
+<p>We have been managing to keep our use of municipal water under the requested 87 litres per person per day. Starting on February 1, we will have to stay consistently under 50 litres per person per day, including drinking, cooking and washing. I guess 2 minute showers were wasting too much of my time in any case.</p>
+<p>I have to do more research and corroboration (fingers are being pointed in all directions), but it seems the fundamental issue is not so much the current drought alone, but to a large extent mismanagement by <em>both</em> local and national government. It’s complicated, and politics is involved, so read at least <a href="https://theconversation.com/cape-towns-water-crisis-driven-by-politics-more-than-drought-88191">this</a> (otherwise good piece, but author is a DA / local government apologist), <a href="https://www.dailymaverick.co.za/article/2018-01-22-op-ed-cape-town-a-city-drowning-in-incompetence/">this</a> (DA / local government IS to blame) and <a href="https://www.dailymaverick.co.za/article/2018-01-22-analysis-a-drought-of-nature-compounded-by-a-drought-in-leadership/">this</a> (a longer, more balanced piece) to start with.</p>
+<p>That being said, I <em>am</em> happy that a large part of the populace has become much more water efficient. If we get through this, in spite of “this” being called “the new normal”, I hope that we retain our mad Dune-grade water saving skills.</p>
+<p>With that out of the way, it would be sort of anti-climactic for me to talk extensively about what-I-did-last-week, so I’m going to limit it to a REAL bullet list (ping me in the comments if something interests you):</p>
+<ul>
+<li><a href="https://github.com/pypa/pipenv">pipenv</a> is the bee’s knees, I have switched my non-miniconda projects.</li>
+<li>convincingly but fortunately only temporarily locked myself out of my one laptop due to TCG-Opal hardware encryption, UEFI32, UEFI64 and legacy boot incompatibilities. I’m getting old, I used to NOT lock me out of my laptop in my sleep.</li>
+<li>A compulsive twitch made me fix years of old-style broken youtube shortcodes using the <a href="https://wordpress.org/plugins/search-regex/">wordpress regex plugin</a>. The regexp you are looking for is <code>/\[youtube\](.*)\[\/youtube\]/</code> which you can replace with <code>\1</code>.</li>
+<li><a href="https://www.scientificamerican.com/article/why-people-dislike-really-smart-leaders/">People dislike really smart leaders</a>. See water crisis above for one possible reason why this is a bad thing.</li>
+<li>In spite of having invested a significant amount of time in deciding on the <a href="https://github.com/OfficeDev/office-ui-fabric-react">Office UI Fabric React components</a> for my most major side-project (#38465 if you’ll recall), I switched to <a href="https://react.semantic-ui.com/introduction">Semantic UI React</a> (which was also in the running, together with <a href="http://blueprintjs.com/">Palantir’s blueprint</a>, <a href="http://grommet.io/">HP’s grommet</a>, <a href="https://ant.design/docs/react/introduce">Alibaba’s Ant Design of React</a> and more) at the last minute. I am happier now.</li>
+</ul>
+<p>That’s it from me for now. Have fun this week kids, I hope to see you soon!</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

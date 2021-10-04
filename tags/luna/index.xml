@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>luna on voices in my head</title><link>https://cpbotha.net/tags/luna/</link><description>Recent content in luna on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 22 Nov 2018 20:20:39 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/luna/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #158: Charlie and the Chocolate Factory.</title><link>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</link><pubDate>Thu, 22 Nov 2018 20:20:39 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</guid><description> (Note that there’s now a Telegram group that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)
+This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.
+The following action scene happened exactly halfway through: Pre-requisite running photo, this one taken in Paarl.</description><content:encoded><![CDATA[ <p><em>(Note that there’s now a <a href="https://t.me/headvoices">Telegram group</a> that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)</em></p>
+<p>This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.</p>
+<p>The following action scene happened exactly halfway through:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/11/paarl-running-20181111.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/11/paarl-running-20181111-1024x642.jpg"
+        
+            alt="Pre-requisite running photo, this one taken in Paarl. It was already quite hot. Getting really hot really early in the morning is Paarl’s thing."/> </a><figcaption>
+            <p>Pre-requisite running photo, this one taken in Paarl. It was already quite hot. Getting really hot really early in the morning is Paarl’s thing.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="running-aka-irony-update">Running aka Irony update</h1>
+<p>Seeing that you’ve made me talk about running again, have a look at this photo of one Luna Mono 2.0 after about 700 km of (mostly road) running in about seven months, and one brand new Luna Mono 2.0:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/11/old-vs-new-lunas.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/11/old-vs-new-lunas-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>At around about the same time as the new shoes arrived, shortly after South African customs charged me a painful amount before letting the new babies through, both my ankles, from around the posterior tibial tendon area, let me know in no uncertain terms that they were now <em>demanding</em> a break.</p>
+<p>After repeated explanations by my life partner (she counts being a rheumatologist amongst her many talents), and by a foot surgeon friend, that my flat feet mean that my posterior tibial tendons have to work even harder than they would usually have done had I been anatomically speaking more normal, I had to start facing the music:</p>
+<p><em>I was going to have to wear normal person running shoes again.</em></p>
+<p>(If I have to be honest I would have to say that the music was in fact more about having to take a running break. I had sneakily been pushing up my weekly distance, trying to run through ankle discomfort, and this was probably the true core of the problem.</p>
+<p>All of that being said, I am choosing to interpret matters a bit differently. Running breaks are really hard yo.)</p>
+<p>I’ve now done two runs in my pre-Mono Kinvara 8s, and it does indeed feel (of course it does) like my ankles might slowly be recovering. I am hopeful that the trend continues, and that I can eventually rotate in my Lunas again.</p>
+<h1 id="nerd-toys-update-rtx-2070-in-da-house">Nerd toys update: RTX 2070 in da house.</h1>
+<p>After weeks of deliberating, I broke down and bought an <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/">NVIDIA RTX 2070</a> for deep learning.</p>
+<p>This in turn led to a flurry of experimentation and to be quite honest a slight case of deep learning binging.</p>
+<p>At least I have the following new blog posts to show for it:</p>
+<ul>
+<li><a href="https://vxlabs.com/2018/11/04/pytorch-1-0-preview-nov-4-2018-packages-with-full-cuda-10-support-for-your-ubuntu-18-04-x86_64-systems/">PyTorch 1.0 preview (Nov 10, 2018) packages with full CUDA 10 support for your Ubuntu 18.04 x86_64 systems</a> – In order to use the shiny new TensorCores on the RTX for more efficient deep learning, you need a CUDA 10 build of PyTorch. YOUR WISH IS MY COMMAND.</li>
+<li><a href="https://vxlabs.com/2018/11/19/configuring-emacs-lsp-mode-and-microsofts-visual-studio-code-python-language-server/">Configuring Emacs, lsp-mode and Microsoft’s Visual Studio Code Python language server</a> – When you prefer using Emacs inside of a tmux in a mosh or ssh session to your Linux desktop with the RTX 2070 to develop PyTorch and fastai scripts (no Jupyter in sight, what a relief!), you need the best code-intelligence you can get. Visual Studio Code’s Python Language Server McGuyvered right into Emacs will do nicely thanks!</li>
+<li><a href="https://vxlabs.com/2018/11/21/a-simple-ansible-script-to-convert-a-clean-ubuntu-18-04-to-a-cuda-10-pytorch-1-0rc-fastai-miniconda3-deep-learning-machine/">A Simple Ansible script to convert a clean Ubuntu 18.04 to a CUDA 10, PyTorch 1.0rc, fastai, miniconda3 deep learning machine</a> – When you need MOAR firepower to train your networks with larger batch sizes, or just to see how much memory your network would have taken in fp32 mode instead of mixed-precision, this ansible script will reproducibly convert a clean Ubuntu 18.04 GPU instance, such as that supplied by PaperSpace or Google Compute Engine, into a CUDA 10, PyTorch, fastai, miniconda3 deep learning playground, all in about 10 minutes.</li>
+</ul>
+<p>(I know that some of these occurred outside of the two week timespan covered by this post.)</p>
+<h2 id="on-the-memory-saving-of-mixed-precision-training">On the memory saving of mixed-precision training.</h2>
+<p>In my tests with ResNet50, a serious convolutional neural network for image classification, the exact same network with the exact same training settings required 14159 MiB in fp32 mode but only 7641 MiB in mixed precision mode.</p>
+<p>This means that in some cases, this new RTX 2070 can go toe-to-toe with many far more expensive cards.</p>
+<p>Furthermore, I informally measured a training speed boost of about 20% with the smaller ResNet34.</p>
+<p>It’s no wonder that the <a href="http://timdettmers.com/2018/11/05/which-gpu-for-deep-learning/">RTX 2070 gets the Tim Dettmers stamp of approval for the most cost-effective training</a>.</p>
+<h1 id="your-message-to-take-home">Your message, to take home.</h1>
+<p>I came across this backyard philosophy jewel <a href="https://www.reddit.com/r/todayilearned/comments/9ozu4e/til_in_test_screenings_willy_wonka_had_a_scene/">on reddit the other day</a> and loved it. It’s about the 1971 movie W_illy Wonka &amp; the Chocolate Factory_, a stellar adaptation of Roald Dahl’s book <a href="https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory">Charlie and the Chocolate Factory</a>.</p>
+<blockquote>
+<p>… in test screenings, Willy Wonka had a scene with a hiker seeking a guru, asking him the meaning of life. The guru requests a Wonka Bar. Finding no golden ticket, he says, “Life is a disappointment.” The director loved it, but few laughed. A psychologist told him that the message was too real.</p>
+</blockquote>
+<p>Just remember the <a href="/2018/06/03/weekly-head-voices-144-eternal-learner/#the-buddhist-twist">Buddhist Twist</a> my friends:</p>
+<blockquote>
+<p>… and finally passing through the gate of wishlessness (apranihita) – realizing that nirvana is the state of not even wishing for nirvana.</p>
+</blockquote>
+]]></content:encoded></item><item><title>Weekly Head Voices #150: The Road not Taken.</title><link>https://cpbotha.net/2018/07/31/weekly-head-voices-150-the-road-not-taken/</link><pubDate>Tue, 31 Jul 2018 20:40:21 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/31/weekly-head-voices-150-the-road-not-taken/</guid><description> Photo of a cotula lineariloba flower, taken by GOU#1, age 12.
+This edition of the WHV covers the week from Monday, July 23 up to and including Sunday, July 29.
+Running update Strava says I’ve just passed the 300km threshold in my Luna Mono 2 sandals.
+It also says I’ve done 27km in my Xero Genesis sandals, or as I have begun to call them, Xero Tolerance.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/IMG_2740.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/IMG_2740-768x1024.jpg"
+        
+            alt="Photo of a cotula lineariloba flower, taken by GOU#1, age 12."/> </a><figcaption>
+            <p>Photo of a cotula lineariloba flower, taken by GOU#1, age 12.</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV covers the week from Monday, July 23 up to and including Sunday, July 29.</p>
+<h1 id="running-update">Running update</h1>
+<p>Strava says I’ve just passed the 300km threshold in my <a href="/2018/04/08/weekly-head-voices-139-luna/">Luna Mono 2 sandals</a>.</p>
+<p>It also says I’ve done 27km in my <a href="/2018/07/17/weekly-head-voices-148-data-stylist/#weekend-running-update">Xero Genesis sandals</a>, or as I have begun to call them, <em>Xero Tolerance</em>.</p>
+<p>You make one mistake, and something will break. You do get to keep all the bloody pieces.</p>
+<p>In any case, when I started on this barefoot-style / natural running adventure, I had subconsciously set myself the limit of 200km before evaluating the success of the experiment.</p>
+<p>At 200km, the experiment was still unsuccessful (different parts of feet and ankles were taking turns complaining) so I moved the threshold to 300km, with the plan to move it to 400km if required.</p>
+<p>I call this The Stubborn Scientific Method(tm): You keep <em>running</em> the experiment (harr harr) until it says what you want it to say.</p>
+<p>To be fair, in this specific case an injury would have (and still can), stop the experiment. Most fortunately the muscles, bones and tendons in my feet, ankles and calves, although complaining quite audibly, have held up.</p>
+<p>This past Sunday I did a long(ish) run where it felt for the first time like my feet and ankles had finally toughened up enough (and perhaps my form had also improved slightly) to just keep on propelling me forward quietly and efficiently.</p>
+<p>Together with the brilliant sunny winter morning conditions, this conspired to reconfigure my face machine into a rather long-lasting grin.</p>
+<p>I am carefully optimistic that I might be able to make this specific adventure a more permanent one, and that makes me really happy.</p>
+<h1 id="the-emacs-section">The Emacs Section</h1>
+<p><em>NERD-ALERT. SKIP TO THE NEXT SECTION IF YOU ARE NOT INTO TEXT EDITORS!</em></p>
+<p>A friend from work sent me a ZIP file with research data.</p>
+<p>I was super surprised that I could easily decompress the ZIP file using Emacs Dired (Dired is of course the file-manager built into Emacs, doh), but that there was no easy way to mark and extract specific files from the archive.</p>
+<p>I found <a href="https://emacs.stackexchange.com/a/3843/8743">an SO answer with a piece of Emacs Lisp code</a> that someone had put together and integrated it with my Emacs.</p>
+<p>It worked, but it didn’t default to the opposite Dired file-list pane as all commander-style tools should do, and by default it re-created relative paths, which is the opposite of the default in most two-pane commanders I know.</p>
+<p>As is the wont of Emacs users, I reshaped the code ever so slightly to work like I thought it should.</p>
+<p>Shaping Emacs Lisp code has a pleasant fluid feeling to it. Code is data, code is configuration, data flows through code.</p>
+<p>I’m telling you this story, because it was a nice little reminder of one of the reasons I like this software so much.</p>
+<p>You can find <a href="https://gist.github.com/cpbotha/05e07dee7fd8243ba73339be186c0b88">my modified version of archive-extract-to-file.el as a github gist</a>.</p>
+<h1 id="the-odd-bits-of-interesting-news-section">The Odd Bits of Interesting News Section</h1>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/Screen-Shot-2018-07-31-at-22.22.59-1024x509.png"
+        /> </a>
+</figure>
+
+<ul>
+<li><a href="https://distill.pub/2018/differentiable-parameterizations/">Differentiable Image Parameterizations</a>, a beautiful machine learning article on Distill that surveys and showcases different techniques for generating beautiful images with deep learning. These networks sort of learn to see in order to solve specific tasks, but you can tickle them in different ways to get them to show you the insides of their visual circuitry, and it’s quite beautiful.</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963310/#__ffn_sectitle">The Prophylactic Extraction of Third Molars: A Public Health Hazard</a> is an article which was published all the way back in 2007. It makes the claim that at least two thirds of wisdom tooth extraction are unnecessary. One could say that their only function is to… <em>extract</em> your money. BA DUM TSSSSS! To that I would like to add: WHY DENTISTRY WHY? HAVE YOU NOT HURT US ENOUGH?!</li>
+<li>A colleague at work emailed <a href="https://techcrunch.com/2018/07/26/this-3d-printed-ai-construct-analyzes-by-bending-light/">this TechCrunch post about a 3D printed neural network</a> that diffracts light going through in order to do its trained inference work on incoming images. Although it’s a retro-futuro-mind-bending idea to do it with a whole neural network, and it smacks of hell-yeah-this-is-what-scifi-promised-me-that-AI-would-look-like, I could not help but recall a certain Very Flat Cat telling us about this sort of passive light-based computation almost 20 years ago.</li>
+</ul>
+<h1 id="the-poetry-section">The Poetry Section</h1>
+<p>GOU#1 had to select an English poem to recite for class.</p>
+<p>From the depths of my memory bubbled up <a href="https://www.poetryfoundation.org/poems/44272/the-road-not-taken">The Road not Taken by Robert Frost</a>.</p>
+<p>I had forgotten how much subtlety and recognisable human complexity this poem was able to pack into such a petite little frame. If you have the time, read the analysis linked above after spending some time with the poem itself.</p>
+<blockquote>
+<p>Two roads diverged in a yellow wood,</p>
+</blockquote>
+<blockquote>
+<p>And sorry I could not travel both</p>
+</blockquote>
+<blockquote>
+<p>And be one traveler, long I stood</p>
+</blockquote>
+<blockquote>
+<p>And looked down one as far as I could</p>
+</blockquote>
+<blockquote>
+<p>To where it bent in the undergrowth;</p>
+<p>Then took the other, as just as fair,</p>
+</blockquote>
+<blockquote>
+<p>And having perhaps the better claim,</p>
+</blockquote>
+<blockquote>
+<p>Because it was grassy and wanted wear;</p>
+</blockquote>
+<blockquote>
+<p>Though as for that the passing there</p>
+</blockquote>
+<blockquote>
+<p>Had worn them really about the same,</p>
+<p>And both that morning equally lay</p>
+</blockquote>
+<blockquote>
+<p>In leaves no step had trodden black.</p>
+</blockquote>
+<blockquote>
+<p>Oh, I kept the first for another day!</p>
+</blockquote>
+<blockquote>
+<p>Yet knowing how way leads on to way,</p>
+</blockquote>
+<blockquote>
+<p>I doubted if I should ever come back.</p>
+<p>I shall be telling this with a sigh</p>
+</blockquote>
+<blockquote>
+<p>Somewhere ages and ages hence:</p>
+</blockquote>
+<blockquote>
+<p>Two roads diverged in a wood, and I—</p>
+</blockquote>
+<blockquote>
+<p>I took the one less traveled by,</p>
+</blockquote>
+<blockquote>
+<p>And that has made all the difference.</p>
+</blockquote>
+<p>Friends, no matter which paths you take this week, I hope that we may meet again.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #148: Data stylist.</title><link>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</link><pubDate>Tue, 17 Jul 2018 07:22:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</guid><description> Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)
+This post covers the week from Monday July 9 to Sunday July 15.
+The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/drakenstein_trail.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg"
+        
+            alt="Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)"/> </a><figcaption>
+            <p>Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)</p>
+        </figcaption>
+</figure>
+
+<p>This post covers the week from Monday July 9 to Sunday July 15.</p>
+<p>The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</p>
+<p>I will externalise some of these thoughts further down in this post.</p>
+<p>I’m starting with a weekend / running update, which should be reasonably safe for non-nerds to read. However, after that, the nerd dial will go up to 11 with stuff about tools and programming languages right up to the end of the post.</p>
+<p>I would have wanted to use the adjective “face-melting”, but I’m not sure if any intensity of nerdery could ever reach that level.</p>
+<p>We can dream.</p>
+<h1 id="weekend-running-update">Weekend running update</h1>
+<p>Most fortunately the weekend had other plans and supplied us with at least 2.5 parties, the first of which even culminated in a <em>ridiculously</em> fun trail run in the mountains on the winter morning after.</p>
+<p>The winter morning sun was just perfect, the company was great, and I had forgotten all forms of performance tracking devices at home.</p>
+<p>Readers with bionic eyes might notice the Lunas on my feet.</p>
+<p>I have now ran just over 260km in them, but, in a surprise twist to the regular readers of this blog, my biological equipment has still not yet completely adjusted to the new style of locomotion.</p>
+<p>The latest victim seems to be one of Tom, Dick and Harry, the tendons running under the medial <a href="https://en.wikipedia.org/wiki/Malleolus">malleolus</a> of my left foot, also known as that big knob on your inside ankle. Tom (the primary suspect in this case according to Trail Friend #1 who is knowledgable with regard to these matters, being a running foot surgeon and all), Dick and Harry <a href="https://radiopaedia.org/articles/posterior-ankle-tendons-mnemonic">are also known as the *T*ibialis posterior, flexor *D*igitorum longus and the flexor *H*allucis longus</a>.</p>
+<p>They currently have to work extra hard to stabilise my feet while running, because, you know, no shoes.</p>
+<p>Because doing this thing was not hard enough already, and because the Lunas are perhaps still a bit too cushiony, and because my friend the Very Flat Cat forgot that I’m very suggestible after 11:00 in the morning when my prefrontal cortex takes the rest of the day off, I am now also the very shy owner of a pair of <a href="https://xeroshoes.com/shop/genesis/genesis-men/">Xero Genesis running sandals</a>:</p>
+<p><img src="https://xeroshoes.com/wp-content/uploads/2018/03/Genesis_Limeade-3-4-770x500.jpg" alt="Image result for xero genesis"></p>
+<p>The soles are only 5mm thick, and quite hard, being <a href="https://xeroshoes.com/warranty/">rated for a few thousand miles</a> and all. The upshot of this is that one’s feet have to work even harder than in the Lunas.</p>
+<p>My first run in these was amazing: I could feel my feet reacting to every little pebble, and my running style having to adapt even more to the terrain.</p>
+<p>However, there was a price to pay for all of that additional terrain feel (and the fact that I took a much longer maiden run than I should have): The next day, the tendons in my feet felt even more (ab)used than usual.</p>
+<p>WITH GREAT POWER COMES GREAT RESPONSIBILITY, it seems.</p>
+<p>Due to these shoes being so powerful, I have had to resign to introducing Xero running far more gradually than I had initially thought.</p>
+<h1 id="vacation-based-thinking-driven-tool-sharpening-aka-the-wvv-2018-data-science-toolboxtm">Vacation-based-thinking-driven tool sharpening aka The WVV 2018 Data Science Toolbox(tm).</h1>
+<p>During the <a href="/2018/07/10/weekly-head-voices-147-the-yearly-post-mpumalanga-post/">previously blogged-about</a> Mpumalanga vacation, the lack of alarms, devices, and other work accoutrements, resulted in there being ample time for staring-into-space-grade thinking sessions.</p>
+<p>During one of these thinking sessions, I realised that I had somehow neglected my data science toolbox for a while.</p>
+<p>At some point a few years back, I was so into ipython notebooks (what has now become jupyter) that I used them as my main work lab notes modality.</p>
+<p>However, in the meantime I had fallen slightly out of love with the computational notebook style of data programming, because I had begun to develop doubts about their role in the analysis pipeline.</p>
+<p><strong>interlude 1:</strong> <em>jupyter notebooks are nice for initial data exploration, and they’re especially useful for remote computation with embedded graphics. However, that initial momentum of discovery risks devolving into an unwieldy monolith of code snippets, data transformations and experiments. There’s a fine line to be walked between flexible experimentation on the one hand, and version-controlled, time-stamped, permutational and scientific rigour on the other.</em></p>
+<p><strong>interlude 2:</strong> <em>I have to apologise for using the term “data science” in a non-comedic context. In spite of the inherent humour, it has turned into a usable blanket term for computational data understanding.</em></p>
+<p>Due to my growing doubts in the order of Jupyter, and due to being occupied with less traditionally data sciencey work projects, I had unfortunately let my data science toolbox gather perhaps a bit too much dust.</p>
+<p>Slightly more worrying than falling out of love with the Jupyter Notebooks (I still like them, I’m just not that madly in love anymore), was the more specific issue that I’d even let the datavis parts get a bit dusty.</p>
+<p>Anyways.</p>
+<p>Although I should probably write a more complete post about this, here is the list of ingredients of the official <em><strong>2018 WHV Data Science Toolbox(tm)</strong></em>:</p>
+<h2 id="programming-language-and-library-ecosystem-python">Programming language and library ecosystem: Python.</h2>
+<p>This language, in spite of its shortcomings, <em>dominates</em> the data science / machine learning world thanks to its STELLAR ecosystem.</p>
+<p>numpy, pandas, scipy, scikit-*, tensorflow, pytorch, keras, cython… this snowball has turned into a pretty sizeable planet.</p>
+<p>For this reason, it would be hard to justify any other choice for data science.</p>
+<p>However, since I’ve been seeing more of Lisp and the rest of the ever-expanding programming language landscape, I can see (Python’s shortcomings as a programming language) clearly now.</p>
+<p>In terms of interactive programming, Python beats the majority of practical programming languages, with Common Lisp being one notable exception.</p>
+<p>However, it’s not functional enough, which engenders unnecessarily imperative, side-effecting code.  More specifically, it’s not expression-oriented.</p>
+<p>More about this slightly further down. Maybe.</p>
+<h2 id="datavis-anything-as-long-as-its-vega-or-vega-lite">Datavis: Anything, as long as it’s Vega or Vega-Lite.</h2>
+<p>I spent a few years of my life wrangling <a href="https://d3js.org/">d3.js</a>, down to INNARD-LEVEL.</p>
+<p>Mike Bostock’s idea of <a href="https://bost.ocks.org/mike/join/">data-element-joins</a> is genius, and internalising it was intellectually satisfying.</p>
+<p>I thought that these d3 skillz would serve me well for decades (that’s WEEKS in javascript-time), but it turns out that there’s a new, even smarter kid in town.</p>
+<p>(if it’s any consolation, the new kid can be considered the grand-child of d3.js.)</p>
+<p><a href="https://vega.github.io/">vega and vega-lite</a> are so-called visualization grammars, or visualization DSLs (domain specific languages).</p>
+<p>The upshot is that one codes up a chart, or a whole set of linked charts and their interactive behaviour, using a language that was designed for this purpose.</p>
+<p>This chart code can be easily shared, or converted into interactive visual representations that can be embedded in applications, online or in print quality documents.</p>
+<p>Genius!</p>
+<p>With <a href="https://altair-viz.github.io/">Altair</a>, you can even send your pandas dataframes to vega and vega-lite charts all from the comfort of your slightly defective Python armchair.</p>
+<h2 id="development-environment-pycharm">Development Environment: PyCharm.</h2>
+<p>You knew it was not going to be Jupyter Notebooks, but you probably expected it to be <a href="https://vxlabs.com/tag/emacs/">Emacs</a>.</p>
+<p>Well it’s not. Surprise!</p>
+<p>The remote interpreter support in PyCharm enables me to connect to a Python virtual environment anywhere on the planet, which I often do.</p>
+<p>The JetBrains wizards have optimised the remote communication of code intelligence, so completion, documentation and general code understanding is almost indistinguishable from that on a completely local project.</p>
+<p>Being able to step through a <a href="https://vxlabs.com/2017/12/08/variational-autoencoder-in-pytorch-commented-and-annotated/"><em>remote</em> PyTorch neural network training iteration with the PyCharm debugger</a> or any other remote Python algorithmics is insightful.</p>
+<p>Two notable drawbacks are visualization and long-running jobs.</p>
+<p>For the long-running jobs I do tend to use Jupyter Notebooks or when at all possible <a href="https://mosh.org/">mosh</a>, which is amazing. However, because the primary modality is not the notebook, my code is versioned and organised into separate libraries which I can call into from notebook or mosh.</p>
+<p>For visualization, it’s either connecting to the altair chart server via SSH pipe, dumping the chart to the unison-synced project, and/or a Jupyter Notebook.</p>
+<h2 id="the-rest">The rest.</h2>
+<p>Of course you use Postgres on an SSD for your data, and of course you know enough SQL to make short work of most of the heavy-weight transformations often required at the start your data crunching pipeline.</p>
+<p>For all of my lab notes, reports, books, papers and blog posts, I use <a href="https://vxlabs.com/tag/orgmode/">Emacs Org mode</a>.</p>
+<p>LaTeX math with live preview, live code snippets, SVG graphics, bibtex references, export to anything. This is one of the best ways to document your science.</p>
+<h1 id="programming-language-addiction-update">Programming language addiction update.</h1>
+<p>I spend far too much obsessing over programming languages, old and new.</p>
+<p>For the past two weeks, I wasted even more precious time than usual reading up about programming languages.</p>
+<p>Because I would really like to spend more of my time on other, perhaps more valuable activities, I’ve been trying to better define what it is I’m actually looking for.</p>
+<p>Of course there is no single best programming language, but a whole set of good languages that map in intricate ways to different problem domains.</p>
+<p>In spite of this, I have been pining for a language with, in order of importance:</p>
+<ol>
+<li>A Functional Programming DNA, with which I’m referring to a) <a href="https://en.wikipedia.org/wiki/Expression-oriented_programming_language">expression-orientedness</a>, b) a preference for <a href="https://en.wikipedia.org/wiki/Pure_function">pure functions</a>, and at a higher level, c) the modelling of reality as more or less explicit dataflows.</li>
+<li>Interactive programming, with Common Lisp being the textbook example of this.</li>
+<li>Great tooling and IDEs, meaning first-class support by something from JetBrains, Microsoft or Emacs.</li>
+<li>Great concurrency and parallelism stories.</li>
+<li>A great library ecosystem.</li>
+<li>Modest memory use.</li>
+</ol>
+<p>Having just explicitly written this down for the first time (!! – it was consuming so much glucose just being kept amorphously swirling around in my brain) I can now mentally map some of my most recent language dalliances to these points.</p>
+<h2 id="go">go</h2>
+<p>This language is far too simple for my taste, but probably really great for teams.</p>
+<p>I did recently take a more serious look when <a href="https://tutorials.botsfloor.com/develop-your-own-telegram-bot-with-golang-and-tbot-de726883b83c">setting up a telegram bot using tbot</a> and being amazed at how simple it was building web services like these using goroutines and channels.</p>
+<p>Go satisfies points 3 to 6 from the list above. Makes sense that I decided to file this experiment away under “check when you need to put a webservice together REALLY QUICKLY”.</p>
+<h2 id="rust">rust</h2>
+<p>When I saw up that rust, surprisingly, is an expression-oriented language, I flew through the O’Reilly Programming Rust book I had bought previously as part of a bundle.</p>
+<p>Evaluating rust by the list above, we award it a fractional 1 because expression-oriented, 3 due to jetbrains plugin amongst others, 4(ish) – great memory safety, but compared to clojure, concurrency and parallelism stories still have much room to grow, a solid 5 thanks to cargo and a very strong 6.</p>
+<p>I filed this one away under “re-evaluate whenever you reach for your trusty C++”. (also, <a href="https://github.com/actix/actix-web">actix-web</a> looks amazing for super high performance microservices.)</p>
+<h2 id="f">f#</h2>
+<p>You didn’t see this one coming, did you?</p>
+<p>Very strong 1 to 5 and a solid 6.</p>
+<p>WAT?!</p>
+<p>I’m currently working my way through <a href="https://pragprog.com/book/swdddf/domain-modeling-made-functional">Domain Modeling Made Functional</a> by Scott Wlaschin, who is also the author of the brilliant <a href="https://fsharpforfunandprofit.com/">f# for fun and profit</a> website.</p>
+<p>In addition to f# hitting all 6 of my 2018 PL-requirements above, I’m slowly starting to see the advantages of having a real type system under the hood.</p>
+<p>f# is a member of the <a href="https://en.wikipedia.org/wiki/ML_(programming_language)">ML-family</a> of functional languages, which have their origin in Lisp (some very naughty person removed all of the lovely parentheses I’m afraid…).</p>
+<p>I hope that at some point I’ll have the opportunity to use f# in anger, at which point I’ll be able to report more concretely as to its suitability.</p>
+<h1 id="the-end">The End</h1>
+<p>Let me know in the comments what you think about any of this, or anything else.</p>
+<p>I hope to meet you again in a few days, here or elsewhere.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #142: Theory of mind.</title><link>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</link><pubDate>Sun, 13 May 2018 20:27:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</guid><description> Autumn is really pretty down here.
+We’re getting back on track with the WHVs friends!
+In the hardly started tradition of writing blog posts in music-backed focus blocks, I have my “upbeat thinking” playlist teed up and ready to go. The outline of this post formed itself as a Real Bullet List(tm) in my Emacs about an hour ago.
+Let’s go.
+They grow up so fast Theory of Mind, or ToM, is an important mental capability that we use to model and predict the thoughts and desires of fellow humans.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/img_0007.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/img_0007-1024x661.jpg"
+        
+            alt="Autumn is really pretty down here."/> </a><figcaption>
+            <p>Autumn is really pretty down here.</p>
+        </figcaption>
+</figure>
+
+<p>We’re getting back on track with the WHVs friends!</p>
+<p>In the hardly started tradition of <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">writing blog posts in music-backed focus blocks</a>, I have my “upbeat thinking” playlist teed up and ready to go. The outline of this post formed itself as a Real Bullet List(tm) in my Emacs about an hour ago.</p>
+<p>Let’s go.</p>
+<h1 id="they-grow-up-so-fast">They grow up so fast</h1>
+<p><a href="https://en.wikipedia.org/wiki/Theory_of_mind">Theory of Mind, or ToM</a>, is an important mental capability that we use to model and predict the thoughts and desires of fellow humans.</p>
+<p>Just the other day, as we were going through our school morning ritual of the offspring units eating breakfast together and the adults self-administering the correct number of espressos required for normal functioning, GOU#3 calmly informed me from her mother’s lap:</p>
+<blockquote>
+<p>Daddy, mommy would like another biscuit with her coffee.</p>
+</blockquote>
+<p>Genetic Offspring Unit #3 only very recently turned 2.</p>
+<p>With this request, she demonstrated surprising levels of ToM and planning ability. She inferred, entirely correctly,  what her parental unit required at that moment, and performed exactly the correct action (delegation, yikes!) to satisfy that requirement.</p>
+<p>I am still suitably impressed.</p>
+<h1 id="sketchnote-your-life">Sketchnote your life</h1>
+<p><a href="http://rohdesign.com/sketchnotes/">Sketchotes</a> refer to a type of hand-written notes that employs both writing and drawing techniques. Here’s an example by Emacs guru and famous internet person <a href="http://sachachua.com/blog/">Sacha Chua</a>:</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://www.flickr.com/photos/sachac/9040714189">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/9040714189_4c88f63bb3_z.jpg"
+        /> </a>
+</figure>
+
+<p>I’m trying to spend more time dedicated to thinking and so-called conceptualising. Sketchnotes seems like a good tool to use during these thinking sessions, so last week this formed the ideal excuse to go out and acquire a new large Moleskine with blank pages (I used to use Moleskines for all my note-taking before going digital), and a whole bunch of sketchnote-recommended pens (Pilot Hi-TecPoint 0.5 which I already had one of; Pilot G-TEC-C4 for super fine drawing, pen also turned out to have best handling of the lot despite its simplicity; Pentel Energel 0.7mm).</p>
+<p>My first session was spent sketching out my current life landscape (thank you KvG for this tip years ago), including work, side-projects and a bunch of developing and potential opportunities, as well as the links between them.</p>
+<p>I can report that drawing like this is a great trick to keep one’s attention glued to the page, and hence to the chosen focus, whilst at the same time maintaining sufficient mental distance to process the more substantial  thoughts and all of their interactions.</p>
+<h1 id="telegram-has-the-public-group-chat-market-cornered">Telegram has the public group chat market cornered</h1>
+<p>For private messaging, I have a <a href="/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">strong preference for Signal</a>, especially over WhatsApp.</p>
+<p>Besides the dubious future of WhatsApp’s privacy (Founder #1 Jan Koum is planning to leave while Founder #2 Brian Acton recently donated 50 million dollars to Signal), the WhatsApp web-app is more irritation than it’s worth. The fact that I have to keep my phone awake and connected to the network is a silly constraint which even the far more secure Signal desktop app does not require.</p>
+<p>Anyways, I digress.</p>
+<p>This section is about <a href="https://telegram.org/">Telegram</a>, another messaging app with dubious security that at least does not belong to Facebook.</p>
+<p>Besides all of its stickers, animated gifs, and (non-)useful bots everywhere, Telegram has two additional features which are quiet compelling:</p>
+<p>Although it requires a telephone number to be setup, you can configure a username which you can give out to people instead of your telephone number to have them contact you. This adds an extra layer of privacy which is sometimes useful.</p>
+<p>More interestingly, Telegram has the concept of “supergroups”. These are public groups which can be joined by anyone if they have the name, and <a href="https://telegram.org/blog/admin-revolution">support up to 10000 (yes ten thousand) users</a>.</p>
+<p>This is ideal for easily starting special interest groups, and can be seen as a modern and mobile-first form of IRC. The mobile apps are generally really fast and full featured.</p>
+<p>Anyways, on a lark we created one such group, called <a href="https://t.me/zatechlight">ZA Tech Light</a>, for tech people (aka nerds) in ZA. If you are such a person, or you just like chatting with nerds in ZA, feel free to <a href="https://t.me/zatechlight">drop in at @zatechlight</a>. Although primarily lark-based, this could be seen as a sort of splinter group of the much larger (because older) Slack group called <a href="https://zatech.slack.com/">ZA Tech</a>.</p>
+<h1 id="running-update">Running update</h1>
+<p>Yesterday, I did my second 10km+ run in the <a href="https://cpbotha.net/2018/04/08/weekly-head-voices-139-luna/">Lunas</a>, bringing total sandal running distance to 107km.</p>
+<p>I am now back up to my pre-sandal standard running route distance.</p>
+<p>That being said, my calf muscles are still complaining quite loudly after every run. The recovery perioud seems to be shortening however, and the calf muscle complaints are less convincing every time.</p>
+<p>All of THAT being said, running barefoot- aka primitive-style feels amazing, so much so that although one does keep an eye on things, one does not perceive the above-mentioned muscle discomfort as an issue at all.</p>
+<p>Furthermore, the patella strap I previously had to wear during running, to prevent knee pain, has been lying in my cupboard, unused for the past 107km.</p>
+<h1 id="the-side-project-dilemma">The side-project dilemma</h1>
+<p>Most nerds I know have side-projects.</p>
+<p>It’s how we learn new things and keep ourselves constructively entertained.</p>
+<p>Up to now, I’ve usually chosen my side-projects not only on the basis of learning, but also based on their business potential. Some of them have indirectly led to revenue, partially through the business-relevance check, but so far never directly. That is, I’ve never brought a side-project to market.</p>
+<p>This weekend I had an idea for a pretty obscure side-project. In terms of creativity and learning, and of passion and brain-fit, it scores highly, but in terms of direct business potential quite the opposite.</p>
+<p>I’m probably at least going to start, because it’s too much fun not to.</p>
+<p>What is your approach in situations like this? Do side-projects have to satisfy any kind of utility requirement? Which criteria do you use to select your next side-project?</p>
+<h1 id="bhayi-bhayi">Bhayi bhayi</h1>
+<p>Thanks for reading this far peeps! I hope you have a beautiful week, and that we might meet again at the end.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #140: Koperkapel.</title><link>https://cpbotha.net/2018/04/15/weekly-head-voices-140-koperkapel/</link><pubDate>Sun, 15 Apr 2018 20:30:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/04/15/weekly-head-voices-140-koperkapel/</guid><description> Hello there friends, welcome back!
+Matters have started heating up around here with the final preparations for a pretty intense project that is expected to launch in about a week’s time. I would prefer saying more about it after the launch, because reasons.
+I’m mentioning it here as explanation for the paucity of this post, and just in case a near-future post manages to be slightly late or even absent.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/IMG_3771.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/IMG_3771-1024x230.jpg"
+        /> </a>
+</figure>
+
+<p>Hello there friends, welcome back!</p>
+<p>Matters have started heating up around here with the final preparations for a pretty intense project that is expected to launch in about a week’s time. I would prefer saying more about it after the launch, because <em>reasons</em>.</p>
+<p>I’m mentioning it here as explanation for the paucity of this post, and just in case a near-future post manages to be slightly late or even absent.</p>
+<p>All will become clear in due time!</p>
+<h1 id="sandal-running-progress-report-1">Sandal Running Progress Report #1</h1>
+<p>During the past week, I sneaked in three more runs(shorter-than-usual, because don’t want to spoil it) in <a href="/2018/04/08/weekly-head-voices-139-luna/">the new Luna sandals</a>, after their maiden voyage last Sunday. Today’s run, which included the panoramic view at the top of this post, was up and down the mountain in hot and sunny Paarl.</p>
+<p>My calves and feet are still getting used to the additional work, but they seem to be recovering more quickly after each run.</p>
+<p>My running form has necessarily improved quite a bit. If you don’t run correctly in sandals, your feet and your legs let you know immediately.</p>
+<p>(When you do run correctly, the pleasure is considerable.)
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/IMG_3776.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/IMG_3776-1024x768.jpg"
+        
+            alt="At this point, I was hot and quite tired, but the view was great!"/> </a><figcaption>
+            <p>At this point, I was hot and quite tired, but the view was great!</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="scary-snake-2">Scary snake #2</h1>
+<p>On Saturday, we had a pretty serious but fortunately bite-free encounter with a Cape Cobra.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/1200px-Naja_nivea_IMG_5078_Kappkobra.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/1200px-Naja_nivea_IMG_5078_Kappkobra-1024x683.jpg"
+        
+            alt="This photo by By Bjoertvedt (Own work, CC BY-SA 3.0), click for original."/> </a><figcaption>
+            <p>This photo by By Bjoertvedt (Own work, CC BY-SA 3.0), click for original.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Four of our kids (GOU #2 and #3, and one of their cousins) were playing inside the house, front door open.</p>
+<p>We were outside, enjoying the balmy late afternoon weather.</p>
+<p>GOU#1, who was also outside, calmly informed us that a snake was making its way in through the front door.</p>
+<p>As I was still internally remarking the fact that it was a significant specimen of snake, probably about 1 metre, my partner fortunately sprang into action and shut the front door with the snake halfway through, temporarily trapping it.</p>
+<p>I say temporarily, because that thing is powerful and it was probably in panic, and was managing to worm itself inside, to where the youngest of the kids stood still, transfixed by the snake-like motions of its head.</p>
+<p>After a run-around searching for suitable implements, finally assisted by cousin #2, I had a spade and was able to remove the snake from the vicinity of the humans.</p>
+<p>Lessons learnt:</p>
+<ol>
+<li>A sufficiently large snake induces a visceral fear reaction. The way they move and propel themselves over the earth seems to play a large part in that.</li>
+<li>The Cape Cobra, or <em>Naja nivea</em>, is <a href="https://en.wikipedia.org/wiki/Cape_cobra">“one of the most dangerous species of cobra in all of Africa, by virtue of its potent venom and frequent occurrence around houses”</a>.  (frequent occurrence around houses: CHECK!) Fatalities result due to the snake’s venom paralysing the respiratory system.</li>
+<li>In South Africa, hospitals will treat these bites with a locally developed polyvalent antivenom that is effective against puff adder, gaboon adder, rinkhals, green mamba, Jameson’s mamba, black mamba, cape cobra, forest cobra, snouted cobra and Mozambique spitting cobra. Pretty hardcore.</li>
+</ol>
+<h1 id="see-you-later-alligator">See you later alligator</h1>
+<p>Have fun kids! I’ll see you as soon as I can.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #139: Luna.</title><link>https://cpbotha.net/2018/04/08/weekly-head-voices-139-luna/</link><pubDate>Sun, 08 Apr 2018 21:10:37 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/04/08/weekly-head-voices-139-luna/</guid><description> Well hello there friends!
+We have just returned from a ridiculously enjoyable holiday in The Drakensberg, or uKhahlamba in isiZulu.
+More specifically, we started in Giant’s Castle, the place of no internet mentioned in the previous edition of the WHV, and also the subject of that post’s main image, but we spent the largest part of the week at Cathedral Peak.
+Due to it having been holiday and all, the rest of this post will follow the trusty old bullet list form.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/IMG_3671.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/IMG_3671-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>Well hello there friends!</p>
+<p>We have just returned from a ridiculously enjoyable holiday in <a href="https://en.wikipedia.org/wiki/Drakensberg">The Drakensberg, or uKhahlamba in isiZulu</a>.</p>
+<p>More specifically, we started in Giant’s Castle, the place of no internet mentioned in the <a href="/2018/04/02/weekly-head-voices-138-born-to-run/">previous edition of the WHV</a>, and also the subject of that post’s main image, but we spent the largest part of the week at Cathedral Peak.</p>
+<p>Due to it having been holiday and all, the rest of this post will follow the trusty old bullet list form.</p>
+<ul>
+<li>The mountainous surroundings are stunningly beautiful.</li>
+<li>At Giant’s Peak we did the short hike to the main caves to see <a href="https://en.wikipedia.org/wiki/San_rock_art">rock art by the San people</a>. According to the guide the paintings we saw range in age between 100 and 3000 years. Here are two examples:</li>
+</ul>
+<div class="gallery galleryid-3134 gallery-columns-2 gallery-size-medium" data-carousel-extra='{"blog_id":1,"permalink":"https:\/\/cpbotha.net\/2018\/04\/08\/weekly-head-voices-139-luna\/"}' id="gallery-8">
+<figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-8" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="3138" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"iPhone 6s","caption":"","created_timestamp":"1522577386","copyright":"","focal_length":"4.15","iso":"25","shutter_speed":"0.008","title":"","orientation":"1"}' data-image-title="IMG_3520" data-large-file="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-1024x768.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-300x225.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520.jpg" data-orig-size="4032,3024" data-permalink="https://cpbotha.net/2018/04/08/weekly-head-voices-139-luna/img_3520/" height="225" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-300x225.jpg" srcset="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-300x225.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-768x576.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-1024x768.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/04/IMG_3520-1200x900.jpg 1200w" width="300"/></a>
+</div></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-8" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="3137" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"iPhone 6s","caption":"","created_timestamp":"1522578693","copyright":"","focal_length":"4.15","iso":"32","shutter_speed":"0.02","title":"","orientation":"1"}' data-image-title="IMG_3538" data-large-file="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-1024x768.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-300x225.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538.jpg" data-orig-size="4032,3024" data-permalink="https://cpbotha.net/2018/04/08/weekly-head-voices-139-luna/img_3538/" height="225" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-300x225.jpg" srcset="https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-300x225.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-768x576.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-1024x768.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/04/IMG_3538-1200x900.jpg 1200w" width="300"/></a>
+</div></figure>
+</div>
+<ul>
+<li>We did more hikes in the mountains. GOU#3, who just turned 2, was a trooper, relatively speaking. We will never again mention all of the kilometres that we had to carry her.</li>
+<li>I squeezed in a number of trail runs. It’s a badly kept secret that I have absolutely no sense of direction. This, together with the routes finding themselves at 1400m altitude, made for challenging but awe-inspiring trips.</li>
+<li>On the way back home, we stopped in Durban for the most amazing curries at <a href="https://www.oysterboxhotel.com/food-and-drink/curry-buffet">The Oyster Box</a>. Me = blown away.</li>
+<li>At the airport, that thing I said would never happen to me, happened to me. At the security check, we discovered that I had forgotten my trusty Leatherman Wave multi-tool in my backpack, and my trusty <a href="/2018/02/11/weekly-head-voices-131-function-over-form/">Gerber Dime mini multi-tool</a> in my trouser pocket. In a massively pleasant surprise turn of events, I was able to go back out through security, where the amazingly helpful British Airways check-in attendant calmly packaged up the offending tools in a spare box, labeled it, and sent it through with the checked baggage, and to return to my people all in the space of about 15 minutes.</li>
+<li>We hit a thunderstorm, initially undetected by the weather radar, on our way back to Cape Town for some of the scariest turbulence I’ve ever experienced.
+<ul>
+<li>At one point, the plane dove so hard that the Kindle lying on my lap (I’m halfway through <a href="https://jamesclear.com/book-summaries/mastery">Mastery by George Leonard</a>, thanks Leif for the recommendation!) flew up into the air, made a slow-motion arc and came crashing down on the floor.</li>
+<li>It was at this point that a large number of passengers involuntarily panic-shouted, adding to the atmosphere.</li>
+<li>I myself could not show any external signs of fear, primarily because I needed to comfort GOU#1, who sat next to me, and is now old enough to appreciate the potential risks of the situation we found ourselves in, but also because I had to fit in my behaviour with the narrative that YOU SIMPLY HAVE TO TRUST THE ENGINEERS.</li>
+</ul>
+</li>
+<li>During our time away, these puppies had finally made their way through customs ($115 in total for <a href="https://lunasandals.com/products/mono-2-0">Luna Mono 2.0 sandals</a> + <a href="https://lunasandals.com/products/polar-fleece-tabi-socks">tabi socks</a>, $66 SA import duties ouch):</li>
+</ul>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/IMG_3721.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/IMG_3721-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>Yes friends, they are <a href="https://en.wikipedia.org/wiki/Huarache_(running_shoe)">Huarache-style running sandals</a>, in which you go running.</p>
+<p>My friend <a href="http://mentat.za.net/">Stéfan</a> sent me a message on <a href="https://signal.org/">Signal</a> shortly after <a href="/2018/03/04/weekly-head-voices-134/">WHV #134</a>, but before I had even <a href="/2018/04/02/weekly-head-voices-138-born-to-run/#the-running-people">started reading Born to Run</a>.</p>
+<p>Besides sporting best-in-class encryption, his message was suavely convincing:</p>
+<blockquote>
+<p>Charl, let me bring you a pair of the magical sandals that I run in.</p>
+</blockquote>
+<p>I was not able to purge the thought of running free like that.</p>
+<p>When I finally realised that it was only a question of time, I decided not to wait any longer than necessary, and ordered them directly.</p>
+<p>This morning I started with a short run, just to see what it was like, and to start acclimatising.</p>
+<p>It was exactly like I had been dreaming for the past two nights.</p>
+<p>Time will have to tell, but at this very moment, I’m not sure if I’ll want to run in normal running shoes again.</p>
+]]></content:encoded></item></channel></rss>

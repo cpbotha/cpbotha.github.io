@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jupyter on voices in my head</title><link>https://cpbotha.net/tags/jupyter/</link><description>Recent content in jupyter on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 17 Jul 2018 07:22:30 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/jupyter/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #148: Data stylist.</title><link>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</link><pubDate>Tue, 17 Jul 2018 07:22:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</guid><description> Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)
+This post covers the week from Monday July 9 to Sunday July 15.
+The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/drakenstein_trail.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg"
+        
+            alt="Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)"/> </a><figcaption>
+            <p>Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)</p>
+        </figcaption>
+</figure>
+
+<p>This post covers the week from Monday July 9 to Sunday July 15.</p>
+<p>The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</p>
+<p>I will externalise some of these thoughts further down in this post.</p>
+<p>I’m starting with a weekend / running update, which should be reasonably safe for non-nerds to read. However, after that, the nerd dial will go up to 11 with stuff about tools and programming languages right up to the end of the post.</p>
+<p>I would have wanted to use the adjective “face-melting”, but I’m not sure if any intensity of nerdery could ever reach that level.</p>
+<p>We can dream.</p>
+<h1 id="weekend-running-update">Weekend running update</h1>
+<p>Most fortunately the weekend had other plans and supplied us with at least 2.5 parties, the first of which even culminated in a <em>ridiculously</em> fun trail run in the mountains on the winter morning after.</p>
+<p>The winter morning sun was just perfect, the company was great, and I had forgotten all forms of performance tracking devices at home.</p>
+<p>Readers with bionic eyes might notice the Lunas on my feet.</p>
+<p>I have now ran just over 260km in them, but, in a surprise twist to the regular readers of this blog, my biological equipment has still not yet completely adjusted to the new style of locomotion.</p>
+<p>The latest victim seems to be one of Tom, Dick and Harry, the tendons running under the medial <a href="https://en.wikipedia.org/wiki/Malleolus">malleolus</a> of my left foot, also known as that big knob on your inside ankle. Tom (the primary suspect in this case according to Trail Friend #1 who is knowledgable with regard to these matters, being a running foot surgeon and all), Dick and Harry <a href="https://radiopaedia.org/articles/posterior-ankle-tendons-mnemonic">are also known as the *T*ibialis posterior, flexor *D*igitorum longus and the flexor *H*allucis longus</a>.</p>
+<p>They currently have to work extra hard to stabilise my feet while running, because, you know, no shoes.</p>
+<p>Because doing this thing was not hard enough already, and because the Lunas are perhaps still a bit too cushiony, and because my friend the Very Flat Cat forgot that I’m very suggestible after 11:00 in the morning when my prefrontal cortex takes the rest of the day off, I am now also the very shy owner of a pair of <a href="https://xeroshoes.com/shop/genesis/genesis-men/">Xero Genesis running sandals</a>:</p>
+<p><img src="https://xeroshoes.com/wp-content/uploads/2018/03/Genesis_Limeade-3-4-770x500.jpg" alt="Image result for xero genesis"></p>
+<p>The soles are only 5mm thick, and quite hard, being <a href="https://xeroshoes.com/warranty/">rated for a few thousand miles</a> and all. The upshot of this is that one’s feet have to work even harder than in the Lunas.</p>
+<p>My first run in these was amazing: I could feel my feet reacting to every little pebble, and my running style having to adapt even more to the terrain.</p>
+<p>However, there was a price to pay for all of that additional terrain feel (and the fact that I took a much longer maiden run than I should have): The next day, the tendons in my feet felt even more (ab)used than usual.</p>
+<p>WITH GREAT POWER COMES GREAT RESPONSIBILITY, it seems.</p>
+<p>Due to these shoes being so powerful, I have had to resign to introducing Xero running far more gradually than I had initially thought.</p>
+<h1 id="vacation-based-thinking-driven-tool-sharpening-aka-the-wvv-2018-data-science-toolboxtm">Vacation-based-thinking-driven tool sharpening aka The WVV 2018 Data Science Toolbox(tm).</h1>
+<p>During the <a href="/2018/07/10/weekly-head-voices-147-the-yearly-post-mpumalanga-post/">previously blogged-about</a> Mpumalanga vacation, the lack of alarms, devices, and other work accoutrements, resulted in there being ample time for staring-into-space-grade thinking sessions.</p>
+<p>During one of these thinking sessions, I realised that I had somehow neglected my data science toolbox for a while.</p>
+<p>At some point a few years back, I was so into ipython notebooks (what has now become jupyter) that I used them as my main work lab notes modality.</p>
+<p>However, in the meantime I had fallen slightly out of love with the computational notebook style of data programming, because I had begun to develop doubts about their role in the analysis pipeline.</p>
+<p><strong>interlude 1:</strong> <em>jupyter notebooks are nice for initial data exploration, and they’re especially useful for remote computation with embedded graphics. However, that initial momentum of discovery risks devolving into an unwieldy monolith of code snippets, data transformations and experiments. There’s a fine line to be walked between flexible experimentation on the one hand, and version-controlled, time-stamped, permutational and scientific rigour on the other.</em></p>
+<p><strong>interlude 2:</strong> <em>I have to apologise for using the term “data science” in a non-comedic context. In spite of the inherent humour, it has turned into a usable blanket term for computational data understanding.</em></p>
+<p>Due to my growing doubts in the order of Jupyter, and due to being occupied with less traditionally data sciencey work projects, I had unfortunately let my data science toolbox gather perhaps a bit too much dust.</p>
+<p>Slightly more worrying than falling out of love with the Jupyter Notebooks (I still like them, I’m just not that madly in love anymore), was the more specific issue that I’d even let the datavis parts get a bit dusty.</p>
+<p>Anyways.</p>
+<p>Although I should probably write a more complete post about this, here is the list of ingredients of the official <em><strong>2018 WHV Data Science Toolbox(tm)</strong></em>:</p>
+<h2 id="programming-language-and-library-ecosystem-python">Programming language and library ecosystem: Python.</h2>
+<p>This language, in spite of its shortcomings, <em>dominates</em> the data science / machine learning world thanks to its STELLAR ecosystem.</p>
+<p>numpy, pandas, scipy, scikit-*, tensorflow, pytorch, keras, cython… this snowball has turned into a pretty sizeable planet.</p>
+<p>For this reason, it would be hard to justify any other choice for data science.</p>
+<p>However, since I’ve been seeing more of Lisp and the rest of the ever-expanding programming language landscape, I can see (Python’s shortcomings as a programming language) clearly now.</p>
+<p>In terms of interactive programming, Python beats the majority of practical programming languages, with Common Lisp being one notable exception.</p>
+<p>However, it’s not functional enough, which engenders unnecessarily imperative, side-effecting code.  More specifically, it’s not expression-oriented.</p>
+<p>More about this slightly further down. Maybe.</p>
+<h2 id="datavis-anything-as-long-as-its-vega-or-vega-lite">Datavis: Anything, as long as it’s Vega or Vega-Lite.</h2>
+<p>I spent a few years of my life wrangling <a href="https://d3js.org/">d3.js</a>, down to INNARD-LEVEL.</p>
+<p>Mike Bostock’s idea of <a href="https://bost.ocks.org/mike/join/">data-element-joins</a> is genius, and internalising it was intellectually satisfying.</p>
+<p>I thought that these d3 skillz would serve me well for decades (that’s WEEKS in javascript-time), but it turns out that there’s a new, even smarter kid in town.</p>
+<p>(if it’s any consolation, the new kid can be considered the grand-child of d3.js.)</p>
+<p><a href="https://vega.github.io/">vega and vega-lite</a> are so-called visualization grammars, or visualization DSLs (domain specific languages).</p>
+<p>The upshot is that one codes up a chart, or a whole set of linked charts and their interactive behaviour, using a language that was designed for this purpose.</p>
+<p>This chart code can be easily shared, or converted into interactive visual representations that can be embedded in applications, online or in print quality documents.</p>
+<p>Genius!</p>
+<p>With <a href="https://altair-viz.github.io/">Altair</a>, you can even send your pandas dataframes to vega and vega-lite charts all from the comfort of your slightly defective Python armchair.</p>
+<h2 id="development-environment-pycharm">Development Environment: PyCharm.</h2>
+<p>You knew it was not going to be Jupyter Notebooks, but you probably expected it to be <a href="https://vxlabs.com/tag/emacs/">Emacs</a>.</p>
+<p>Well it’s not. Surprise!</p>
+<p>The remote interpreter support in PyCharm enables me to connect to a Python virtual environment anywhere on the planet, which I often do.</p>
+<p>The JetBrains wizards have optimised the remote communication of code intelligence, so completion, documentation and general code understanding is almost indistinguishable from that on a completely local project.</p>
+<p>Being able to step through a <a href="https://vxlabs.com/2017/12/08/variational-autoencoder-in-pytorch-commented-and-annotated/"><em>remote</em> PyTorch neural network training iteration with the PyCharm debugger</a> or any other remote Python algorithmics is insightful.</p>
+<p>Two notable drawbacks are visualization and long-running jobs.</p>
+<p>For the long-running jobs I do tend to use Jupyter Notebooks or when at all possible <a href="https://mosh.org/">mosh</a>, which is amazing. However, because the primary modality is not the notebook, my code is versioned and organised into separate libraries which I can call into from notebook or mosh.</p>
+<p>For visualization, it’s either connecting to the altair chart server via SSH pipe, dumping the chart to the unison-synced project, and/or a Jupyter Notebook.</p>
+<h2 id="the-rest">The rest.</h2>
+<p>Of course you use Postgres on an SSD for your data, and of course you know enough SQL to make short work of most of the heavy-weight transformations often required at the start your data crunching pipeline.</p>
+<p>For all of my lab notes, reports, books, papers and blog posts, I use <a href="https://vxlabs.com/tag/orgmode/">Emacs Org mode</a>.</p>
+<p>LaTeX math with live preview, live code snippets, SVG graphics, bibtex references, export to anything. This is one of the best ways to document your science.</p>
+<h1 id="programming-language-addiction-update">Programming language addiction update.</h1>
+<p>I spend far too much obsessing over programming languages, old and new.</p>
+<p>For the past two weeks, I wasted even more precious time than usual reading up about programming languages.</p>
+<p>Because I would really like to spend more of my time on other, perhaps more valuable activities, I’ve been trying to better define what it is I’m actually looking for.</p>
+<p>Of course there is no single best programming language, but a whole set of good languages that map in intricate ways to different problem domains.</p>
+<p>In spite of this, I have been pining for a language with, in order of importance:</p>
+<ol>
+<li>A Functional Programming DNA, with which I’m referring to a) <a href="https://en.wikipedia.org/wiki/Expression-oriented_programming_language">expression-orientedness</a>, b) a preference for <a href="https://en.wikipedia.org/wiki/Pure_function">pure functions</a>, and at a higher level, c) the modelling of reality as more or less explicit dataflows.</li>
+<li>Interactive programming, with Common Lisp being the textbook example of this.</li>
+<li>Great tooling and IDEs, meaning first-class support by something from JetBrains, Microsoft or Emacs.</li>
+<li>Great concurrency and parallelism stories.</li>
+<li>A great library ecosystem.</li>
+<li>Modest memory use.</li>
+</ol>
+<p>Having just explicitly written this down for the first time (!! – it was consuming so much glucose just being kept amorphously swirling around in my brain) I can now mentally map some of my most recent language dalliances to these points.</p>
+<h2 id="go">go</h2>
+<p>This language is far too simple for my taste, but probably really great for teams.</p>
+<p>I did recently take a more serious look when <a href="https://tutorials.botsfloor.com/develop-your-own-telegram-bot-with-golang-and-tbot-de726883b83c">setting up a telegram bot using tbot</a> and being amazed at how simple it was building web services like these using goroutines and channels.</p>
+<p>Go satisfies points 3 to 6 from the list above. Makes sense that I decided to file this experiment away under “check when you need to put a webservice together REALLY QUICKLY”.</p>
+<h2 id="rust">rust</h2>
+<p>When I saw up that rust, surprisingly, is an expression-oriented language, I flew through the O’Reilly Programming Rust book I had bought previously as part of a bundle.</p>
+<p>Evaluating rust by the list above, we award it a fractional 1 because expression-oriented, 3 due to jetbrains plugin amongst others, 4(ish) – great memory safety, but compared to clojure, concurrency and parallelism stories still have much room to grow, a solid 5 thanks to cargo and a very strong 6.</p>
+<p>I filed this one away under “re-evaluate whenever you reach for your trusty C++”. (also, <a href="https://github.com/actix/actix-web">actix-web</a> looks amazing for super high performance microservices.)</p>
+<h2 id="f">f#</h2>
+<p>You didn’t see this one coming, did you?</p>
+<p>Very strong 1 to 5 and a solid 6.</p>
+<p>WAT?!</p>
+<p>I’m currently working my way through <a href="https://pragprog.com/book/swdddf/domain-modeling-made-functional">Domain Modeling Made Functional</a> by Scott Wlaschin, who is also the author of the brilliant <a href="https://fsharpforfunandprofit.com/">f# for fun and profit</a> website.</p>
+<p>In addition to f# hitting all 6 of my 2018 PL-requirements above, I’m slowly starting to see the advantages of having a real type system under the hood.</p>
+<p>f# is a member of the <a href="https://en.wikipedia.org/wiki/ML_(programming_language)">ML-family</a> of functional languages, which have their origin in Lisp (some very naughty person removed all of the lovely parentheses I’m afraid…).</p>
+<p>I hope that at some point I’ll have the opportunity to use f# in anger, at which point I’ll be able to report more concretely as to its suitability.</p>
+<h1 id="the-end">The End</h1>
+<p>Let me know in the comments what you think about any of this, or anything else.</p>
+<p>I hope to meet you again in a few days, here or elsewhere.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description> The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
+(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. As far as I know, nobody watched.)
+I just went through my orgmode journals.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
+<p>(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. <em>As far as I know</em>, nobody watched.)</p>
+<p>I just went through <a href="/2016/01/05/note-taking-strategy-early-2016/">my orgmode journals</a>. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</p>
+<p><em><strong>Warning:</strong> If you’re not an emacs, python or machine learning nerd, there is a high probability that you might not enjoy this post. Please feel free to skip to the pretty mountain at the end!</em></p>
+<h1 id="advanced-emacs-configuration">Advanced Emacs configuration</h1>
+<p>I finally migrated my whole configuration away from <a href="https://github.com/bbatsov/prelude">Emacs Prelude</a>.</p>
+<p>Prelude is a fantastic Emacs “distribution” (it’s a simple git clone away!) that truly upgrades one’s Emacs experience in terms of look and feel, and functionality. It played a central role in my return to the Emacs fold after a decade long hiatus spent with JED, VIM (there was more really weird stuff going on during that time…) and Sublime.</p>
+<p>However, it’s a sort of rite of passage constructing one’s own Emacs configuration from scratch, and my time had come.</p>
+<p>In parallel with Day Job, I extricated Prelude from my configuration, and filled up the gaps it left with my own constructs. There is something quite addictive using emacs-lisp to weave together whatever you need in your computing environment.</p>
+<p>To celebrate, I decided that it was also <strong>time to move my todo system away from <a href="http://todoist.com/">todoist</a></strong> (a really great ecosystem) and into Emacs orgmode.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/Todoist-interview-screenshot_1-678x554.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/Todoist-interview-screenshot_1-678x554.jpg"
+        
+            alt="From this… (beautiful multi-platform graphical app)"/> </a><figcaption>
+            <p>From this… (beautiful multi-platform graphical app)</p>
+        </figcaption>
+</figure>
+ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/wpid-example-agenda.png"
+        
+            alt="… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)"/> </a><figcaption>
+            <p>… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)</p>
+        </figcaption>
+</figure>
+</p>
+<p>I had sort of settled with todoist for the past few years. However, my yearly subscription is about to end on March 5, and I’ve realised that with the above-mentioned Emacs-lisp weaving and orgmode, there is almost unlimited flexibility also in managing my todo list.</p>
+<p>Anyways,  I have it setup so that tasks are extracted right from their context in various orgfiles, including my current monthly journal, and shown in a special view. I can add arbitrary metadata, such as attachments and just plain text, and more esoteric tidbits such as live queries into my email database.</p>
+<p>The advantage of having the bulk of the tasks in my month journal, means I am forced to review all of the remaining tasks at the end of the month before transferring them to the new month’s journal.</p>
+<p>We’ll see how this goes!</p>
+<h1 id="jupyter-notebook-usage">Jupyter Notebook usage</h1>
+<p>Due to an interesting machine learning project at work, I had a great excuse to spend some quality time with the <a href="http://jupyter.org/">Jupyter Notebook</a> (formerly known as IPython Notebook) and the scipy family of packages.</p>
+<p>Because Far Too Much Muscle-Memory, I tried interfacing to my notebook server using <a href="https://github.com/millejoh/emacs-ipython-notebook">Emacs IPython Notebook (EIN)</a>, which looked like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/ipython-notebook-in-emacs-with-ein.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/ipython-notebook-in-emacs-with-ein.png"
+        /> </a>
+</figure>
+
+<p>However, the initial exhilaration quickly fizzled out as EIN exhibits some flakiness (primarily broken indentation in cells which makes this hard to interact with), and I had no time to try to fix or work-around, because day job deadlines. (When I have a little more time, I will have to get back to the EIN! Apparently they were planning to call this new fork Zwei. Now that would have been awesome.)</p>
+<p>So it was back to the Jupyter Notebook. This time I made an effort to learn all of the new hotkeys. (Things have gone modal since I last used this intensively.)</p>
+<p>The Notebook is an awe-inspiringly useful tool.</p>
+<p>However, the cell-based execution model definitely has its drawbacks. I often wish to re-execute a single line or a few lines after changing something. With the notebook, I have to split the cell at the very least once to do this, resulting in multiple cells that I now have to manage.</p>
+<p>In certain other languages, which I cannot mention anymore because I have utterly exhausted my monthly quota, you can easily re-execute any sub-expression interactively, which makes for a more effective interactive coding experience.</p>
+<p>The notebook is a good and practical way to document one’s analytical path. However, I sometimes wonder if there are less linear (graph-oriented?) ways of representing the often branching routes one follows during an analysis session.</p>
+<h1 id="dissimilarity-representation">Dissimilarity representation</h1>
+<p>Some years ago, I attended a talk where <a href="http://rduin.nl/">Prof. Robert P.W. Duin</a> gave a fantastic talk about the history and future of pattern recognition.</p>
+<p>In this talk, he introduced the idea of dissimilarity representation.</p>
+<p>In much of pattern recognition, it was pretty much the norm that you had to reduce your training samples (and later unseen samples) to feature vectors. The core idea of building a classifier, is constructing hyper-surfaces that divide the high-dimensional feature space into classes. An unseen sample can then be positioned in feature space, and its class simply determined by checking on which side of the hypersurface(s) it finds itself.</p>
+<p>However, for many types of (heterogenous) data, determining these feature vectors can be prohibitively difficult.</p>
+<p>With the dissimilarity representation, one only has to determine a suitable function that can be used to calculate the dissimilarity between any two samples in the population. Especially for heterogenous data, or data such as geometric shapes for example, this is a much more tractable exercise.</p>
+<p>More importantly, it’s often easier to discuss with domain experts about similarity than it is to talk about feature spaces.</p>
+<p>Due to the machine learning project mentioned above, I had to work with categorical data that will probably later also prove to be of heterogeneous modality. This was of course the best (THE BEST) excuse to get out the old dissimilarity toolbox (in my case, that’s <a href="https://www.scipy.org">SciPy and friends</a>), and to read a bunch of dissimilarity papers that were still on my list.</p>
+<p>Besides the fact that much fun was had by all (me), I am cautiously optimistic, based on first experiments, that this approach might be a good one. I was <em>especially</em> impressed by how much I could put together in a relatively short time with the SciPy ecosystem.</p>
+<p>Machine learning peeps in the audience, what is your experience with the dissimilarity representation?</p>
+<h1 id="a-mountain-at-the-end">A mountain at the end</h1>
+<p>By the end of a week filled with nerdery, it was high time to walk up a mountain(ish), and so I did, in the sun and the wind, up a piece of the Kogelberg in Betty’s Bay.</p>
+<p>At the top, I made you this panoroma of the view:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama-1024x274.jpg"
+        
+            alt="Click for the 7738 x 2067 full resolution panorama!"/> </a><figcaption>
+            <p>Click for the 7738 x 2067 full resolution panorama!</p>
+        </figcaption>
+</figure>
+</p>
+<p>At that point, the wind was doing its best to blow me off the mountain, which served as a visceral reminder of my mortality, and thus also kept the big M (for mindfulness) dial turned up to 11.</p>
+<p>I was really only planning to go up and down in brisk hike mode due to a whiny knee, but I could not help turning parts of the up and the largest part of the down into an exhilarating lope.</p>
+<p>When I grow up, I’m going to be a trail runner.</p>
+<p>Have fun (nerdy) kids, I hope to see you soon!</p>
+]]></content:encoded></item></channel></rss>

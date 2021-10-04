@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>day zero on voices in my head</title><link>https://cpbotha.net/tags/day-zero/</link><description>Recent content in day zero on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 18 Feb 2018 20:45:08 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/day-zero/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #132: Potato deadline.</title><link>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</link><pubDate>Sun, 18 Feb 2018 20:45:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</guid><description> Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.
+We have a serious deadline coming up on Tuesday, so I’m going to make these few WHV minutes count.
+BULLET LIST TO THE RESCUE!
+Day zero has again been postponed, this time to June 4. We continue with our water saving efforts.
+That unexpected side-project I mentioned in last week’s post did end up going live that very night.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3247.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3247-1024x930.jpg"
+        
+            alt="Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x."/> </a><figcaption>
+            <p>Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.</p>
+        </figcaption>
+</figure>
+
+<p>We have a serious deadline coming up on Tuesday, so I’m going to make these few WHV minutes count.</p>
+<p>BULLET LIST TO THE RESCUE!</p>
+<ul>
+<li>
+<p>Day zero has again been <a href="https://mg.co.za/article/2018-02-13-day-zero-pushed-back-to-june-as-drought-declared-a-national-disaster/">postponed, this time to June 4</a>. We continue with our water saving efforts.</p>
+</li>
+<li>
+<p>That <a href="/2018/02/11/weekly-head-voices-131-function-over-form/#tool-belts-for-humanity">unexpected side-project I mentioned in last week’s post</a> did end up going live that very night. Armed with the Django Rest Framework and plenty of battle scars, it took about 17 hours from idea to fully deployed REST API, a large part of which was debugging the paper’s math and spreadsheets.</p>
+<ul>
+<li>Django might be a slow runner relative to some of the other kids on the block (go with any of its web frameworks, nginx with openresty (lua right in your web server!), even apistar with uvicorn), but the completeness and maturity of Django and its ginormous ecosystem are hard to beat when it comes to development velocity.</li>
+</ul>
+</li>
+<li>
+<p>There’s a <a href="http://takingnotenow.blogspot.co.za/">whole blog on the nature of note-taking</a>. I arrived there via <a href="https://github.com/rudolfochrist/interleave">interleave</a> and <a href="https://github.com/weirdNox/org-noter">org-noter</a>, both emacs packages for keeping text (orgmode) notes synchronised with PDFs, both found via <a href="http://irreal.org/blog/?p=6954">irreal</a>, a great Emacs blog.</p>
+</li>
+<li>
+<p>In the extra lessons I have with GOU#1, we studied electrical current from basic (atomic) principles. As I was getting all excited about the outer electrons being passed on from copper atom to copper atom (Khan Academy and I tag team these lessons), GOU#1 had to laugh at the goose flesh on my arms.</p>
+<ul>
+<li>The Khan Academy lecture seemed to imply that Benjamin Franklin started us down the not-quite-correct path of conventional current (from positive to negative), whereas the electrons being passed on imply current flow from negative to positive, aka electron current. However, <a href="https://physics.stackexchange.com/a/17131">this physics StackOverflow answer</a> more completely explains that current is defined as <em>the flow of electric charge</em>, with electron flow being one example, and hence both directions are correct.</li>
+</ul>
+</li>
+<li>
+<p>To be honest, I became ever so slightly irritated with an episode of one of my favourite podcasts, CPPCast, as the guest said “like” so often that I had trouble following what he was <em>actually</em> like trying to say. This like led me to using Google’s machine-learning-based speech to text API one night to like transcribe the audio of the podcast to speech so that I could like count the number of like utterances. There were not as many as I thought, but still a whole lot. If you’re curious as to the stats, I wrote everything up in <a href="https://vxlabs.com/2018/02/15/use-the-google-cloud-speech-api-to-transcribe-a-podcast/">this nerdy vxlabs blog post</a>.</p>
+<ul>
+<li>On the topic of note-taking: Because I make lab notes of everything in my Emacs, including late night speech recognition experiments, publishing a blog post is a question of some copy pasting, and then telling Emacs to publish to the blog.</li>
+</ul>
+</li>
+<li>
+<p>On Thursday, some dudes came to my house and, after somehow switching seamlessly from pick-axe to optic fibre splicer and back several times, left me with this (and more):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3241.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3241-1024x819.jpg"
+        
+            alt="Two fibre strands into my house. They tell me one is for backup."/> </a><figcaption>
+            <p>Two fibre strands into my house. They tell me one is for backup.</p>
+        </figcaption>
+</figure>
+</p>
+</li>
+<li>
+<p>These are strange Gibson-esque times when there’s now permanently a laser transmitting all of these packets to you via the network of glass strands encircling the Earth, whilst many of us are still struggling to grasp the difference between fact and fiction.</p>
+<ul>
+<li>“The future is already here — it’s just not very evenly distributed”, William Gibson, probably ’93.</li>
+</ul>
+</li>
+<li>
+<p>We have a new president: President <a href="https://en.wikipedia.org/wiki/Cyril_Ramaphosa">Cyril Ramaphosa!</a> He was Mandela’s choice to become president of this country, but it was Thabo’s turn, and then things went pear-shaped with Zuma. Years later, the situation is quite dire, but so far there are many indications that Ramaphosa has the makings of a great leader (I have become convinced that we humans, all of us, need great leaders to advance as humanity; I hope to write a post about that some day). After Friday’s state of the nation (SONA) address by present Ramaphosa, I, along with many fellow South Africans, are hopeful for our future.</p>
+</li>
+</ul>
+<p>Ok peeps, have a wonderful week! I’ll see you NEXT TIME!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #131: Function over form.</title><link>https://cpbotha.net/2018/02/11/weekly-head-voices-131-function-over-form/</link><pubDate>Sun, 11 Feb 2018 19:50:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/11/weekly-head-voices-131-function-over-form/</guid><description> Do you know what time it is?
+It’s Sunday, which means it’s time for a new edition of the WHV!
+GOU #2 has made what will probably be the most significant contribution to this week’s edition. I am happy that it’s in the form of an art piece, although I am slowly also growing quite excited at the prospect of one of my GOUs popping up here one day with an acerbic comment.</description><content:encoded><![CDATA[ <p>Do you know what time it is?</p>
+<p>It’s Sunday, which means it’s time for a new edition of the WHV!</p>
+<p>GOU #2 has made what will probably be the most significant contribution to this week’s edition. I am happy that it’s in the form of an art piece, although I am slowly also growing quite excited at the prospect of one of my GOUs popping up here one day with an acerbic comment.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3190-1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3190-1-1024x768.jpg"
+        
+            alt="Our family through the eyes and hands of GOU#2 (age 7), also known as My Most Favourite Middle Child."/> </a><figcaption>
+            <p>Our family through the eyes and hands of GOU#2 (age 7), also known as My Most Favourite Middle Child.</p>
+        </figcaption>
+</figure>
+</p>
+<p>It was one of those really high intensity work weeks.</p>
+<p>This is probably because a deadline is approaching at high speed. We are in good shape, but we wil have to work with an even slightly higher intensity in the coming week and a bit to deliver.</p>
+<h1 id="water">Water</h1>
+<p>Day Zero has been pushed out further to mid May, due to <a href="https://www.news24.com/Video/SouthAfrica/News/watch-farmers-donate-millions-of-litres-of-water-to-cape-town-20180206">the generous contributions by farmers of the Groenland Water Association</a>, and due to new calculations based on agricultural use tapering off slightly in the coming months.</p>
+<p>This has had a very welcome positive effect on our stress level.</p>
+<p>We continue with our household water saving efforts. On Friday, we were surprised by about 15mm of rain. Our various rain harvesting systems did an excellent job at further bolstering our emergency supplies.</p>
+<h1 id="no-fibre-for-you">No Fibre For You!</h1>
+<p><a href="/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/">Last year in July</a>, magical elves starting digging up my neighbourhood to install green trunking everywhere. As you all know, green trunking is for optic fibre. Anyways, “fast” forward 7 months, and the online fibre coverage map finally turned dark purple over my house. As you also all know, dark purple means my house can be hooked up to the giant net of laser conducting fibres encircling the whole earth.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/Screen-Shot-2018-02-11-at-20.33.16.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/Screen-Shot-2018-02-11-at-20.33.16-1024x521.png"
+        
+            alt="Whilst the jocks never got any further than reminiscing monosyllabically about how awesome they were in high school 25 years ago, the nerds were busy wrapping our whole planet in a net of optic fibres to send exabytes of information everywhere at light speed."/> </a><figcaption>
+            <p>Whilst the jocks never got any further than reminiscing monosyllabically about how awesome they were in high school 25 years ago, the nerds were busy wrapping our whole planet in a net of optic fibres to send exabytes of information everywhere at light speed.</p>
+        </figcaption>
+</figure>
+</p>
+<p>On Saturday a gentleman from the telco was here to hook me up. I was understandably vibrating with excitement.</p>
+<p>Unfortunately it turned out that this specific gentleman was sent too early.</p>
+<p>He had come to hook my house up to the fibre which by then should already have been pulled into the building from the termination point on the street outside.</p>
+<p>Anyways, he promised to arrange for the extending-fibre-from-street-into-house lady or gentleman to swing by, before he himself would come back again to wrap the whole business up.</p>
+<p>I guess that when you work with things moving at the speed of light, time travelling faux pas are bound to happen.</p>
+<h1 id="what-a-tool">What a tool</h1>
+<p>Speaking of nerds, I have finally found a multi-tool that is small enough to disappear into one of my pockets, yet enables me to make myself more useful at least once a day. After a long search (I’ve been walking around with a pen-sized screwdriver with 4 interchangeable bits in my pocket for the past time) I settled on the <a href="http://bestmultitoolkit.com/reviews/gerber-31-001134-dime-micro-tool/">Gerber Dime</a>.</p>
+<p>It looks like this:</p>
+<div class="gallery galleryid-3053 gallery-columns-3 gallery-size-medium" data-carousel-extra='{"blog_id":1,"permalink":"https:\/\/cpbotha.net\/2018\/02\/11\/weekly-head-voices-131-function-over-form\/"}' id="gallery-7">
+<figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-7" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="3057" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"iPhone 6s","caption":"","created_timestamp":"1518364833","copyright":"","focal_length":"4.15","iso":"160","shutter_speed":"0.03030303030303","title":"","orientation":"1"}' data-image-title="IMG_3195" data-large-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-1024x496.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-300x145.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195.jpg" data-orig-size="2919,1413" data-permalink="https://cpbotha.net/2018/02/11/weekly-head-voices-131-function-over-form/img_3195/" height="145" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-300x145.jpg" srcset="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-300x145.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-768x372.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-1024x496.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3195-1200x581.jpg 1200w" width="300"/></a>
+</div></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-7" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="3058" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"iPhone 6s","caption":"","created_timestamp":"1518364861","copyright":"","focal_length":"4.15","iso":"160","shutter_speed":"0.03030303030303","title":"","orientation":"1"}' data-image-title="IMG_3196" data-large-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-1024x886.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-300x260.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196.jpg" data-orig-size="2775,2402" data-permalink="https://cpbotha.net/2018/02/11/weekly-head-voices-131-function-over-form/img_3196/" height="260" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-300x260.jpg" srcset="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-300x260.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-768x665.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-1024x886.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3196-1200x1039.jpg 1200w" width="300"/></a>
+</div></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-7" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197.jpg" title=""><img alt="" class="attachment-medium size-medium" data-attachment-id="3059" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"iPhone 6s","caption":"","created_timestamp":"1518364915","copyright":"","focal_length":"4.15","iso":"160","shutter_speed":"0.03030303030303","title":"","orientation":"1"}' data-image-title="IMG_3197" data-large-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-1024x693.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-300x203.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197.jpg" data-orig-size="3670,2482" data-permalink="https://cpbotha.net/2018/02/11/weekly-head-voices-131-function-over-form/img_3197/" height="203" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-300x203.jpg" srcset="https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-300x203.jpg 300w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-768x519.jpg 768w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-1024x693.jpg 1024w, https://cpbotha.net/wp-content/uploads/2018/02/IMG_3197-1200x812.jpg 1200w" width="300"/></a>
+</div></figure>
+</div>
+<p>They say the best camera is the one you have with you. The same goes for tools.</p>
+<p>My Leatherman Wave, recently replaced under the 25 year Leatherman guarantee with a Wave 2 because they didn’t have Wave parts anymore, is a brilliant tool, but it’s bulky and so it usually sits at the bottom of my back-pack, until I run into a problem which requires its steely persuasion.</p>
+<p>In contrast, I can have the Gerber Dime out and pulling teeth, <a data-rel="lightbox-video-0" href="https://youtu.be/n1HOnv0Y2kY" rel="noopener" target="_blank">Ron Swanson-style</a>, in a few seconds. The bottle opener is best in class, the blade is sharp, and the package opening blade makes short work of those irritating blister packs. I have not yet been able to test more extensively the pliers, the scissors, the screw-drivers and the tweezers, but the mere fact that this is the tool I always have with me means they will probably win the suburban leg of this contest.</p>
+<h1 id="tool-belts-for-humanity">Tool belts for humanity</h1>
+<p>One day, when I care even less about what strangers think, I am planning to start wearing a tool belt. Tool belts don’t have the best reputation, especially in sartorial circles, but they are amazing.</p>
+<p>Along with hiking shoes and bulky multi-tools, they epitomise the philosophy that many engineers are born with, and a philosophy that could benefit the world at large:</p>
+<p><em>Function over form.</em></p>
+<p>To me this is an echo, or perhaps a specific case, of <em>reason over emotion</em>. Feels are certainly important, but if we are to advance as a society, <a href="/2016/12/06/weekly-head-voices-113-science-and-creation/#parting-thought">rationality has to win</a>.</p>
+<p>Ok kids, I am about to push an unexpected side-project into production tonight. I wish you increased utility, and an exceptionally deliberate experience of life, at least until we see each other again!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #130: TTAGGG.</title><link>https://cpbotha.net/2018/01/28/weekly-head-voices-130-ttaggg/</link><pubDate>Sun, 28 Jan 2018 20:52:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/28/weekly-head-voices-130-ttaggg/</guid><description> Lovely summer’s day. Not much rain.
+Water On the water front (I see what I did there): Day Zero, that is the day on which the whole of Cape Town’s municipal water will be cut off, has been brought further forward to to April 12. Citizens will be able to fetch drinking water every day from 200 collection points. Judging by how quickly shelves of bottled water are currently disappearing from the shops and by panicky facebook posts, people are stocking up in advance.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/IMG_3107.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/IMG_3107-1024x576.png"
+        
+            alt="Lovely summer’s day. Not much rain."/> </a><figcaption>
+            <p>Lovely summer’s day. Not much rain.</p>
+        </figcaption>
+</figure>
+
+<h1 id="water">Water</h1>
+<p>On the water front (I see what I did there): Day Zero, that is the day on which the whole of Cape Town’s municipal water will be cut off, has been brought further forward to to April 12. Citizens will be able to fetch drinking water every day from 200 collection points. Judging by how quickly shelves of bottled water are currently disappearing from the shops and by panicky facebook posts, people are stocking up in advance.</p>
+<h1 id="the-immortality-of-lobsters">The immortality of lobsters</h1>
+<p>Continuing with our watery theme, this past week I learned the very surprising fact that lobsters are <a href="https://www.smithsonianmag.com/science-nature/dont-listen-to-the-buzz-lobsters-arent-actually-immortal-88450872/"><em>sort of</em> biologically immortal</a>. In short, lobsters produce more of the enzyme telomerase than humans and other animals, which rejuvenates their <a href="https://en.wikipedia.org/wiki/Telomere">telomeres</a>, which means that their cells can in theory keep on dividing forever.</p>
+<p>The telomeres are the genetic bits (feeling quite punny today; nucleotides TTAGGG in vertebrates, apparently) protecting the ends of your chromosomes. Every time cells divide, the child cells have slightly shortened telomeres. At some point, the telomere becomes too short, and that line of cells can’t divide anymore.</p>
+<p>This is a large part of how most animals finally die: Our cells can only divide so many times, and then the telomere ends, and then someone switches on the bright lights, and then the whole party is over.</p>
+<p>However, the enzyme telomerase is able to repair telomeres, thus extending the lifetime of the organism.</p>
+<p>Lobsters naturally produce so much telomerase, that their cells can keep on dividing forever. In practice, lobsters apparently only grow in size, strength and reproductive ability as they age.</p>
+<p>Unfortunately, their party also eventually ends. As they grow, they have to molt their suddenly too small exoskeleton. As they get bigger, this process takes more and more energy, until the day comes that they have grown so large (<a href="https://www.smithsonianmag.com/science-nature/dont-listen-to-the-buzz-lobsters-arent-actually-immortal-88450872/">12 kg in one instance</a>) so that the attempted molting, due to disease, is a fatal process.</p>
+<p>Intriguingly, <a href="https://www.ucsf.edu/news/2013/09/108886/lifestyle-changes-may-lengthen-telomeres-measure-cell-aging">a 2013 study</a> showed that lifestyle changes such as diet, exercise, stress reduction (including meditation) and social support, boosted telomerase activity and significantly increased telomere length in human subjects.</p>
+<h1 id="your-brain-not-at-work">Your brain (not) at work</h1>
+<p>On the recommendation of a colleague who is most versed in these things, I am currently reading the book <a href="https://www.amazon.com/Your-Brain-Work-Strategies-Distraction-ebook/dp/B002Q1YE3K/ref=sr_1_1?ie=UTF8&amp;qid=1517170057&amp;sr=8-1&amp;keywords=your+brain+at+work">“Your Brain at Work: Strategies for Overcoming Distraction, Regaining Focus, and Working Smarter All Day Long”</a> by David Rock.</p>
+<p>While the author clearly has not yet read any books on Coming Up With Shorter Book Titles, he has put together a compelling piece on the extreme limitations of the human <a href="https://en.wikipedia.org/wiki/Prefrontal_cortex">prefrontal cortex</a>. These are the bits that we use for important thoughts and for solving tricky technical puzzles.</p>
+<p>I thought that I just naturally had the attention span of a <a href="https://en.wikipedia.org/wiki/Budgerigar">budgie</a> (which I continuously try my best to compensate for by the gnashing of teeth, will power, and <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">various other tricks</a>), but it turns out it’s a basic human limitation.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/Melopsittacus_undulatus_-Fort_Worth_Zoo-8a-4c.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/Melopsittacus_undulatus_-Fort_Worth_Zoo-8a-4c-1024x1024.jpg"
+        
+            alt="A pretty budgie which will probably distract you from the contents of this post. FOCUS!"/> </a><figcaption>
+            <p>A pretty budgie which will probably distract you from the contents of this post. FOCUS!</p>
+        </figcaption>
+</figure>
+</p>
+<p>If all of the neuroscientists he has interviewed can be believed, we are severely limited both in terms of the number of thoughts / ideas we can handle at any one time, and, to me far more frighteningly, in terms of the total time we have available for this sort of complex work.</p>
+<p>The prefrontal cortex is relatively-speaking quite inefficient, and gets exhausted really quickly. Remember the last time you spent the evening trying to figure out how to get all of your children to their various activities during the week, and how unexpectedly difficult that was? (if no children, please replace this example with something more familiar to you :) Your prefrontal cortex was probably already exhausted by 15:00 in the afternoon (if not earlier), and you were in effect beating a dead neural horse.</p>
+<p>Sometimes you wake up the next morning, and you solve that exact same puzzle in 3 minutes, at which point you might have already exhausted your cognition quota, and might as well stay at home for the rest of the day.</p>
+<p>Because the capacity and bandwidth of the prefrontal cortex can’t (yet?) be significantly improved, the book recommends that one carefully monitors oneself, taking breaks when necessary, single-tasking, and practising any often-occurring tasks until they become automatic, at which point the much more efficient <a href="https://en.wikipedia.org/wiki/Basal_ganglia">basal ganglia</a> take over.</p>
+<p>Apart from this, the prefrontal cortex works at its best when you are slightly stressed, but not too much, and when you are slightly happy (with novelty and dopamine), but not too much. Too stressed, and it freezes up like a deer in the headlights of a rapidly approaching car. Too happy, and it just hangs around enjoying the vibes, not really producing anything.</p>
+<p>I still have to finish the book, but it has already motivated me to continue on my quest to automate and script as much of my life and work as possible. For example, for the daily goals list mentioned in <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">pro-tip #1 of WHV #126</a> I have a keyboard shortcut in Emacs which creates the relevant section in the correct part of my journal, correctly timestamped, and pre-filled with one or two habits I am trying to form, ready to accept the rest of the goals for the day. I used to think examples like this were perhaps going a little too far, but I now keep my eyes open for any task or activity that can be partially or fully automated. (Some even refer to <a href="http://irreal.org/blog/?p=6641">Emacs Orgmode</a> as their exocortex.)</p>
+<p>On the topic of lists, the book mentions prioritisation as one of the more cognitively taxing activities we can engage in, so it makes even more sense to take care of it first thing in the morning, and to do this as efficiently as possible.</p>
+<p>More broadly speaking, I think having <em>instant</em> access to documented and <em>executable</em> conventions for most of one’s tasks and projects would help greatly to free up the precious little prefrontal quality time we are allotted.</p>
+<p>Even more broadly speaking, it seems we need to practise how to <em>listen</em> more carefully to our brain so that we are able to guide it through the treacherous waters of exhaustion, stress and happiness.</p>
+<h1 id="the-part-where-i-wish-you-a-good-journey">The part where I wish you a good journey</h1>
+<p>Thank you very much for reading this post. I hope you have a week filled with learning, challenges surmounted and a solid dose of contentment.</p>
+<p>See you next time!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #128: Water water everywhere, but not a drop to drink.</title><link>https://cpbotha.net/2018/01/21/weekly-head-voices-128-water-water-everywhere-but-not-a-drop-to-drink/</link><pubDate>Sun, 21 Jan 2018 15:39:35 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/21/weekly-head-voices-128-water-water-everywhere-but-not-a-drop-to-drink/</guid><description> Hey friends, welcome back!
+We have to talk about the water situation, seeing that Cape Town is now in the international news as being on track to be the first major city EVAR to run out of water.
+In short, if it doesn’t rain in substantial amounts during the coming three months (which history and projections say it won’t), the municipal water supply will be shut off on April 21, a date festively referred to as Day Zero.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/bbay-pano-20180121.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/bbay-pano-20180121-1024x326.jpg"
+        /> </a>
+</figure>
+
+<p>Hey friends, welcome back!</p>
+<p>We have to talk about the water situation, seeing that Cape Town is now in the international news as <a href="http://time.com/5103259/cape-town-water-crisis/">being on track to be the first major city EVAR to run out of water</a>.</p>
+<p>In short, if it doesn’t rain in substantial amounts during the coming three months (which history and projections say it won’t), <a href="http://untoldafrica.com/calling-all-capetonians-its-time-to-prepare-for-day-zero/">the municipal water supply will be shut off on April 21</a>, a date festively referred to as <em>Day Zero</em>.</p>
+<p>This means when we try to open any tap, no water will come out. This situation might continue for quite a while, which is pretty intense.</p>
+<p>On that day, we will be celebrating by dressing up as Kevin Costner and running around barefoot shouting “NOTHING’S FREE IN WATERWORLD!”. Those who are not big fans of Kevin are allowed to dress up as <a href="https://en.wikipedia.org/wiki/Imperator_Furiosa">Imperator Furiosa</a>.</p>
+<p>At my house, we stopped watering our garden with municipal water months ago. We installed a grey water recovery system: Shower and bath water ends up in the only remaining green corner of the garden.</p>
+<p>We also installed a rain water recovery system three months ago, which has fortunately enabled us to collect a few thousand litres of rain water via the rerouted gutters and pipework from the roof. This water we will probably use after Day Zero to be able to wash and to flush a toilet now and then.</p>
+<p>(Flushing frequency has necessarily decreased significantly. Around these parts we now have the saying: “If it’s yellow, let it mellow. If it’s br***, flush it down.” Please excuse the mental graphics.)</p>
+<p>We have been managing to keep our use of municipal water under the requested 87 litres per person per day. Starting on February 1, we will have to stay consistently under 50 litres per person per day, including drinking, cooking and washing. I guess 2 minute showers were wasting too much of my time in any case.</p>
+<p>I have to do more research and corroboration (fingers are being pointed in all directions), but it seems the fundamental issue is not so much the current drought alone, but to a large extent mismanagement by <em>both</em> local and national government. It’s complicated, and politics is involved, so read at least <a href="https://theconversation.com/cape-towns-water-crisis-driven-by-politics-more-than-drought-88191">this</a> (otherwise good piece, but author is a DA / local government apologist), <a href="https://www.dailymaverick.co.za/article/2018-01-22-op-ed-cape-town-a-city-drowning-in-incompetence/">this</a> (DA / local government IS to blame) and <a href="https://www.dailymaverick.co.za/article/2018-01-22-analysis-a-drought-of-nature-compounded-by-a-drought-in-leadership/">this</a> (a longer, more balanced piece) to start with.</p>
+<p>That being said, I <em>am</em> happy that a large part of the populace has become much more water efficient. If we get through this, in spite of “this” being called “the new normal”, I hope that we retain our mad Dune-grade water saving skills.</p>
+<p>With that out of the way, it would be sort of anti-climactic for me to talk extensively about what-I-did-last-week, so I’m going to limit it to a REAL bullet list (ping me in the comments if something interests you):</p>
+<ul>
+<li><a href="https://github.com/pypa/pipenv">pipenv</a> is the bee’s knees, I have switched my non-miniconda projects.</li>
+<li>convincingly but fortunately only temporarily locked myself out of my one laptop due to TCG-Opal hardware encryption, UEFI32, UEFI64 and legacy boot incompatibilities. I’m getting old, I used to NOT lock me out of my laptop in my sleep.</li>
+<li>A compulsive twitch made me fix years of old-style broken youtube shortcodes using the <a href="https://wordpress.org/plugins/search-regex/">wordpress regex plugin</a>. The regexp you are looking for is <code>/\[youtube\](.*)\[\/youtube\]/</code> which you can replace with <code>\1</code>.</li>
+<li><a href="https://www.scientificamerican.com/article/why-people-dislike-really-smart-leaders/">People dislike really smart leaders</a>. See water crisis above for one possible reason why this is a bad thing.</li>
+<li>In spite of having invested a significant amount of time in deciding on the <a href="https://github.com/OfficeDev/office-ui-fabric-react">Office UI Fabric React components</a> for my most major side-project (#38465 if you’ll recall), I switched to <a href="https://react.semantic-ui.com/introduction">Semantic UI React</a> (which was also in the running, together with <a href="http://blueprintjs.com/">Palantir’s blueprint</a>, <a href="http://grommet.io/">HP’s grommet</a>, <a href="https://ant.design/docs/react/introduce">Alibaba’s Ant Design of React</a> and more) at the last minute. I am happier now.</li>
+</ul>
+<p>That’s it from me for now. Have fun this week kids, I hope to see you soon!</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

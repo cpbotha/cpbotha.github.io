@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>google on voices in my head</title><link>https://cpbotha.net/tags/google/</link><description>Recent content in google on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 20 Sep 2020 19:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #205: Real-time sometimes, asynchronous most of the time</title><link>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</link><pubDate>Sun, 20 Sep 2020 19:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</guid><description> This edition of the Weekly Head Voices looks back a the week from Monday September 14 to Sunday September 20 of the year 2020.
+Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!
+For the first time in months, this post is exactly on time. Whatever else happens in the rest of the post, timeousness is in the pocket!</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices looks back a the week from Monday
+September 14 to Sunday September 20 of the year 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="jonkershoek_pano_20200918.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!"/> </a><figcaption>
+            <p>Figure 1: Scene from a work get-together. It&rsquo;s really nice when you can get into these mountains any day of the week!</p>
+        </figcaption>
+</figure>
+
+<p>For the first time in months, this post is exactly on time. Whatever else
+happens in the rest of the post, timeousness is in the pocket!</p>
+<h2 id="the-uninformed-vs-privacy-preserving-covid-tracking">The uninformed vs privacy-preserving COVID tracking</h2>
+<p>(I would like to warn you that in this section, I get saltier than I&rsquo;ve been in
+years.</p>
+<p>People who were reading this blog more than 10 years ago will have noticed that
+I used to be salty a whole lot more often back then.</p>
+<p>Hopefully, this specific episode doesn&rsquo;t move this decade&rsquo;s dial by too much.)</p>
+<p>During <a href="https://citizen.co.za/news/covid-19/2359102/full-speech-sa-will-move-to-lockdown-level-1-as-midnight-20-september/">his address of September 16</a>, president Ramaphosa announced the further
+lifting of the national lockdown to level 1.</p>
+<p>Because I had been following the <a href="https://www.wired.com/story/apple-google-bluetooth-contact-tracing-covid-19/">surprising collaboration between Apple and
+Google on the anonymous disease exposure tracing</a> functionality in Android and
+iOS, my ears perked up when he requested that South Africans with smart phones
+install the COVID Alert mobile app:</p>
+<blockquote>
+<p>I want to make a call this evening to everyone who has a smartphone in South
+Africa to download the COVID Alert mobile app from the Apple App Store or
+Google Play Store.</p>
+<p>The app has been zero-rated by mobile networks, so you can download it without
+any data costs.</p>
+<p>Using Bluetooth technology, the app will alert any user if they have been in
+close contact with any other user who has tested positive for coronavirus in
+the past 14 days.</p>
+<p>The app is completely anonymous, it does not gather any personal information,
+nor does it track anybody’s location.</p>
+</blockquote>
+<p>I immediately checked it out on my iPhone, and was gratified to see that the
+app was well put-together, and made use of the privacy-respecting official
+infrastructure designed by Apple and Google.</p>
+<p>(<a href="https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models">Some countries</a> wasted millions of euros trying to build this by themselves,
+and then later had to switch gears, instead of just using Google and Apple&rsquo;s
+functionality from the get-go.)</p>
+<p>Because effective contact-tracing requires as many people as possible to
+install the app, I let a number of private chat groups know, and I even got
+back on twitter quite briefly to tweet:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SA Folks! Please install the COVID Alert South Africa app on your iPhone or Andoid. This 100% anonymous system, developed using the official Apple and Google APIs, helps enormously with contact tracing. iPhone: <a href="https://t.co/EE0J0Cd9ee">https://t.co/EE0J0Cd9ee</a> Android: <a href="https://t.co/HXkMl88oi0">https://t.co/HXkMl88oi0</a></p>&mdash; Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/1306494451460833281?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Imagine my surprise when I noticed a bit later that there was a bit of a furore
+online with people being openly suspicious of the app, up to offering all kinds
+of conspiracy theories as to how exactly the government was going to use this
+to monitor and/or control people.</p>
+<p>Interestingly, there appeared to be a pretty strong inverse correlation between
+technical know-how and level of suspicion.</p>
+<p>(Ironically, a large subset of the highly suspicious camp will experience difficulty
+understanding the above sentence. Probably also this sentence. Not sorry.)</p>
+<p>It is exasperating to me that when the SA government takes on a project like
+this (the tracking app), does it by the book and does a really good job of it,
+people respond this badly.</p>
+<p>While it is unfortunately true that the government has been doing a terrible
+job in terms of engendering confidence in its abilities and especially in its
+honesty, even going so far as to disappear millions of ZAR intended for
+personal protective equipment (!!), using that as an excuse to actively spread
+misinformation, and thereby prevent contact tracing from getting off the
+ground, is pretty hard to defend.</p>
+<p>(More than one of my mom&rsquo;s acquaintances (a term that is pushing the
+definition) have warned her that if she were to install the app, she was to
+remove them from all other contact media. I told her that this is a great way
+to cull her contacts list selectively, rendering a much more erudite address
+book.)</p>
+<p>Sorry folks, but when real scientific and technological progress is held back
+by this level of ignorance, I can get really salty.</p>
+<p>What would have been much better, would have been for said people to get the
+frick informed. It can&rsquo;t be that hard to find someone with the relevant
+know-how in any social circle.</p>
+<p>Fortunately, some local folks have been doing their best making good information
+accessible:</p>
+<ul>
+<li><a href="https://medium.com/@gvrooyen%5F22259/the-masquerade-ball-how-covid-19-bluetooth-tracking-works-b3f5960b8ac8">The Masquerade Ball – How COVID-19 Bluetooth tracking works</a> by Prof G-J van
+Rooyen is a great explanation of the finer details in an easy-to-follow
+format.</li>
+<li><a href="https://www.explain.co.za/2020/09/15/explainer-should-i-download-the-new-contact-tracing-app/">EXPLAINER: Should I download the new contact tracing app?</a> by Aarti Bhana at
+explain.co.za makes clear that you can and should install this app, but also
+discusses the fact that the government should have been doing much better in
+terms of dissemination.</li>
+</ul>
+<p>One could blame this on lacking education, and on the government not doing
+their best either, but a large part of the responsibility comes down to normal
+people, with no excuse not to have educated themselves, simply letting their
+primitive instincts absolve them of any critical thinking.</p>
+<p>I welcome your thoughts in the comments.</p>
+<h2 id="the-future-of-work-episode-23">The future of work, episode 23</h2>
+<p>Just like thousands of other companies, we went from &ldquo;yeah, we&rsquo;ve read about
+remote working and we should look into it more when we can make the time&rdquo; to
+&ldquo;100% fully remote what is this office-thing you speak of?&rdquo; from one day to the
+next when our hard lock-down started back in March.</p>
+<p>A few months in, and it seems that most of the whole 70-person company would
+not be surprised if we remain fully remote.</p>
+<p>I think that many of us, especially the engineers, really appreciate this new
+mode of operation where we have a substantially larger part of the day to work,
+and where it has become theoretically (ahem) easier to cordon off blocks of
+focus time.</p>
+<p>Some of us are thinking about ways to further improve and streamline our remote
+working process.</p>
+<p>During one of my research sessions (or was it me aimlessly browsing because I
+had become distracted during a particularly long afternoon&hellip;), I ran into the
+following post by <a href="https://basecamp.com/">the BaseCamp company</a>, previously known as <a href="https://37signals.com/">37signals</a>:</p>
+<p><a href="https://basecamp.com/guides/group-chat-problems">Group Chat: The Best Way to Totally Stress Out Your Team</a></p>
+<p>As is typical for BaseCamp&rsquo;s writing, this is a really great article, in this
+case looking specifically at the drawbacks of real-time company chat.</p>
+<p>In our case, we migrated from Google&rsquo;s GSuite to Office365 (because much more
+bang for the buck) right when COVID hit, and so we found ourselves in the
+wonderful world of Microsoft Teams.</p>
+<p>So far, we have had a pretty stellar experience.</p>
+<p>As a company-wide real-time chat and video meeting platform, Teams does its job
+well.</p>
+<p>However, real-time chat has a number of fundamental problems, most of which are
+super recognizably (and humorously) discussed in the linked post.</p>
+<p>For example:</p>
+<blockquote>
+<p>Group chat is like being in an all-day meeting, with random participants, and
+no agenda.</p>
+</blockquote>
+<p>Does this ring any bells for any of you?</p>
+<p>I hope that you can make time to read the article, but an important part of
+their answer to the real-time chat problem is:</p>
+<blockquote>
+<p>Real-time sometimes, asynchronous most of the time.</p>
+</blockquote>
+<p>At BaseCamp, they implement this idea with message boards where people post
+longer form messages that can be responded to with longer-form replies. These
+threads are attached to the object where they are most relevant, for example a
+project, or a to-do, and so on.</p>
+<p>The word &ldquo;thoughtful&rdquo; also stuck in my mind.</p>
+<p>Instead of the rapid-fire, often glib, responses you see in real-time chat,
+BaseCamp tries to encourage thoughtful, considered messages and replies that
+are accessible to anyone who might need them (unlike email) when viewing the
+project, to-do or issue in question</p>
+<p>The post further talks about changes both to one&rsquo;s conventions, but also to
+one&rsquo;s tools, as the latter can be effectively used to guide the former.</p>
+<p>In this light, it&rsquo;s interesting to note that many of my most pleasant online
+interactions have recently been taking place on github issues, whereas the
+real-time chat platforms I spend time on sometimes have the tendency to cause
+anxiety.</p>
+<p>I have not yet read and measured enough, but I am very curious as to whether
+some of these techniques could be implemented in my workplace, and how they
+could contribute to a constructive and effective communication environment.</p>
+<p>Please let me know in the comments if you have experience with any of this in
+your environment!</p>
+<h2 id="in-a-while-crocodile">In a while crocodile</h2>
+<p>Friends, have a great week!</p>
+<p>I wish you an abundance of calm, and of effective communication.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #118: Accelerando.</title><link>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</link><pubDate>Fri, 10 Mar 2017 21:14:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</guid><description> Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here: The view from the shark lookout all the way to Hangklip.
+bibtex references in orgmode For a technical report, I thought it would be handy going from Emacs orgmode (where all my lab notes live in any case) to PDF via LaTeX.
+This transformation is more or less built-in, but getting the whole machinery to work with citations from a local BibTeX export from my main Zotero database does not work out of the box.</description><content:encoded><![CDATA[ <p>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/03/looking_at_hangklip.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/03/looking_at_hangklip-1024x540.jpg"
+        
+            alt="The view from the shark lookout all the way to Hangklip."/> </a><figcaption>
+            <p>The view from the shark lookout all the way to Hangklip.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="bibtex-references-in-orgmode">bibtex references in orgmode</h1>
+<p>For a technical report, I thought it would be handy going from Emacs orgmode (where all my lab notes live in any case) to PDF via LaTeX.</p>
+<p>This transformation is more or less built-in, but getting the whole machinery to work with citations from a local BibTeX export from my main Zotero database does not work out of the box.</p>
+<p>I wrote <a href="https://vxlabs.com/2017/02/20/from-org-file-with-local-bibtex-to-latex-and-pdf/">a post on my other even-more-nerdy blog</a> showing the extra steps needed to turn this into an easy-peasy 38-shortcut-key-combo affair.</p>
+<h1 id="google-gce-k80-cpus-available-cheapish">Google GCE K80 CPUs available, cheap(ish)!</h1>
+<p>I’ve been using a cloud-hosted NVIDIA Tesla from Nimbix for my small-scale deep learning experiments with TensorFlow. This has also helped me to resist the temptation of buying an expensive new GPU for my workstation.</p>
+<p>However, Google <a href="https://cloud.google.com/compute/docs/gpus/">Compute Engine has finally shipped (in beta) their cloud-based GPU product</a>. Using <a href="https://cloud.google.com/products/calculator/">their pricing calculator</a>, it turns out I can get a virtual machine with 8 CPU cores, 30G of RAM, 375GB of local SSD and a whole NVIDIA Tesla K80 GPU (12GB of memory) in their EU data centre for a paltry $1.32 / hour.</p>
+<p>This is significantly less than half of what I paid Nimbix!</p>
+<p>(That resistance is going to crumble, the question is just when. Having your stuff run locally and interactively for small experiments still beats the 150ms latency from this here tip of the African continent to the EU.)</p>
+<h1 id="nvpy-leaves-the-nest-">nvpy leaves the nest :`(</h1>
+<p>My most successful open source project to date is probably <a href="https://github.com/cpbotha/nvpy">nvpy</a>, the cross-platform (Linux, macOS, Windows) Simplenote client. 600+ stars on github is not A-list, but it’s definitely also nothing to sneeze at.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/03/20170304-nvpy-github-stats-before-xfer.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/03/20170304-nvpy-github-stats-before-xfer.png"
+        
+            alt="nvpy stats right before the hand-over"/> </a><figcaption>
+            <p>nvpy stats right before the hand-over</p>
+        </figcaption>
+</figure>
+</p>
+<p>Anyways, I wrote nvpy in 2012 when I was still a heavy Simplenote user and there was no good client for Linux.</p>
+<p>In the meantime, Emacs had started taking over my note-taking life and so in October of 2014, I made the decision to <a href="https://groups.google.com/forum/#!msg/nvpy/_GuWNfnxY9E/S0Vel4i4MEgJ">start looking for a new maintainer</a> for my open-source baby nvpy.</p>
+<p>That attempt was not successful.</p>
+<p>By the end of 2015 / early 2016 I had a bit of a Simplenote / nvpy revival, as <a href="/2016/01/05/note-taking-strategy-early-2016/">I was using the official client on my phone, and hence nvpy on the desktop</a>.</p>
+<p>Emacs put a stop to that revival also by magically becoming available on my phone as well. I have to add that the Android Simplenote client also seems to have become quite sluggish.</p>
+<p>I really was not using nvpy anymore, but I had to make plans for the users who did.</p>
+<p>On Saturday March 4, I approached github user <a href="https://github.com/yuuki0xff">yuuki0xff</a>, who had prepared a pretty impressive background-syncing PR for nvpy, about the possibility of becoming the new owner and maintainer of nvpy.</p>
+<p>To my pleasant surprise, he was happy to do so!</p>
+<p>It is a strange new world that we live in where you create a useful artifact from scratch, make it available for free to anyone that would like to use it, and continue working on improving that artifact for a few years, only to hand the whole thing over to someone else for caretaking.</p>
+<p>The handing-over brought with it mixed feelings, but overall I am super happy that my little creation is now in capable and more active hands.</p>
+<h1 id="navel-gaze">Navel Gaze</h1>
+<p>Fortunately, there’s a <em>handy</em> twitter account reminding us regularly how much of 2017 we have already put behind us (thanks <a href="https://twitter.com/gvrooyen">G-J van Rooyen</a> for the tip):</p>
+<blockquote class="twitter-tweet" data-width="550">
+<p dir="ltr" lang="und">
+    ▓▓▓░░░░░░░░░░░░ 17%
+  </p>
+<p>
+    — Year Progress (@year_progress) <a href="https://twitter.com/year_progress/status/837845049257902080">March 4, 2017</a>
+</p>
+</blockquote>
+<p>That slowly advancing progress bar seems to be very effective at getting me to take stock of the year so far.</p>
+<p>Am I spending time on the right things? Am I spending just the right amount of effort on prioritising without this cogitation eating into the very resource it’s supposed to be optimising? Are my hobbies optimal?</p>
+<p>I think the answer is: One deliberate step after the other is best.</p>
+]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
+<p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
+<p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
+<p>Read on for more.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/google_android_active_base.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/google_android_active_base.png"
+        
+            alt="Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source."/> </a><figcaption>
+            <p>Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="an-illustration-mediatek--blu-phones-are-uploading-your-data">An illustration: MediaTek / BLU phones are uploading your data.</h1>
+<p>You might recently have read about <a href="https://web.archive.org/web/20161117073724/https://hackernoon.com/no-one-cares-about-the-security-of-your-unlocked-android-phone-cd8ad4aae4c5?gi=e0e2979fddb">the incident with the popular BLU phones sold by Amazon in the US</a> (interestingly, the author deleted their article from both hackernoon.com and from medium; I now link to the Wayback Machine&rsquo;s stored copy). It turned out that these phones were regularly sending bunches of personal information to servers in China: text messages, call logs, contact lists and so forth. After more investigation, it came to light that this was happening via a low-level piece of software called ADUPS.</p>
+<p>When Google had previously updated its systems to check for ADUPS, MediaTek (they make the chipset in millions of low-end phones) simply modified their system software to evade Google&rsquo;s checks. Nice one MediaTek!</p>
+<p>This is a painful example of the fact that the software on your phone, although based on Google&rsquo;s software, is customised by the phone vendor. The further frustrating effect of this is that when Google releases security patches to Android (<a href="https://source.android.com/security/bulletin/index.html">which they do regularly</a>), there is very little incentive for the phone vendor to spend money on updating phones they have already sold.</p>
+<h1 id="what-about-a-list-phone-makers">What about A-list phone makers?</h1>
+<p>I bought my LG G3 in 2014 here in South Africa. It was LG&rsquo;s flagship in that year, and sold extremely well. LG is a well-known smartphone OEM.</p>
+<p>However, only because I took steps to flash the official KDZ image (V30a-ZAF-XX), which consumers would normally not do, am I now running Android 6. However, my security patch level is 2016-03, meaning there are 6 months of security updates I don&rsquo;t have. (You can check your <strong>Android security patch level</strong> by going to <em>Settings | General | About Phone | Software info</em>.)</p>
+<p>Before you think six months lag is not too bad, here&rsquo;s a nice example vulnerability from <a href="https://source.android.com/security/bulletin/2016-11-01.html">the November 1 Android security bulletin</a>:</p>
+<blockquote>
+<p>The most severe of these issues is a Critical security vulnerability that could enable remote code execution on an affected device through multiple methods such as email, web browsing, and MMS when processing media files.</p>
+</blockquote>
+<p>In short, your phone could be hacked wide open from afar through a single innocent-looking email, MMS or web-page.</p>
+<p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
+<p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
+<h2 id="a-scary-little-aside">A scary little aside</h2>
+<p>I just tried Check Point Labs' <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12-576x1024.png"
+        
+            alt="LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter."/> </a><figcaption>
+            <p>LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter.</p>
+        </figcaption>
+</figure>
+</p>
+<p>So my manually updated LG G3 is still very much vulnerable to QuadRooter. In theory, my phone could be (or already has been) <a href="http://www.techradar.com/news/phone-and-communications/mobile-phones/android-quadrooter-vulnerability-should-you-be-worried-1326286">rooted and pillaged by any old innocent-looking app</a>, although I keep mostly to the official Play Market, so the risk is slightly mitigated.</p>
+<p>At this stage, even as a relatively knowledgeable user, there&rsquo;s not much I can do to patch my phone against this vulnerability.</p>
+<h1 id="googles-leniency-cuts-both-ways-more-than-a-billion-android-users-but-most-of-them-vulnerable">Google&rsquo;s leniency cuts both ways: More than a billion Android users, but most of them vulnerable.</h1>
+<p>It&rsquo;s fantastic that Google&rsquo;s openness and leniency with Android has helped to make smartphone technology accessible to more than a billion users (probably closer to 2 billion taking into account Chinese Android phones not connected to Google services, see <a href="http://ben-evans.com/benedictevans/2016/7/25/platform-wars-final-score">Ben Evans&rsquo;s post</a>). However, this same leniency allows manufacturers to be irresponsible about keeping their customers safe.</p>
+<p>The fundamental problem here is that there are a great deal of Android phone vendors who make phones from absolute entry-level to top-of-the-line flagships, who have very little incentive to spend money on post-sale security updates.</p>
+<p>Once you&rsquo;ve paid for the phone, you&rsquo;re not important enough anymore to have a secure(ish) telephone.</p>
+<h1 id="what-can-we-do">What can we do?</h1>
+<h2 id="buy-an-iphone-no-really">Buy an iPhone. No really.</h2>
+<p>I&rsquo;ve been using Android since the HTC Desire Z. I love Android, because I love Linux which I have been using since 1993.</p>
+<p>However, if money is no object, my only sound advice can be to <strong>buy an iPhone</strong>. Apple is still shipping security updates, albeit on iOS 9, for the iPhone 4s which was released in 2011 (5 years ago). The iPhone 5 is still being kept up to date with iOS 10.</p>
+<p>Furthermore, in terms of phone encryption, <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">iOS 4, released 6 years ago, was already more advanced than than Android 7 Nougat</a>, released in August of this year. In short, already then Apple made better choices in how exactly different files are encrypted, whilst Android implemented full disk encryption, which for the smartphone usecase is not the right choice. In Nougat, Android has finally also changed to file-based, but they&rsquo;re missing important parts of the puzzle. <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">The phone encryption blog post</a> I link to is insightful, please take a look.</p>
+<h2 id="stick-with-android-pixel-or-nexus">Stick with Android Pixel or Nexus.</h2>
+<p>If you prefer sticking with Android, the best choice is getting an official Google device, which means either a Nexus or a new Pixel. <a href="https://support.google.com/pixelphone/answer/4457705#pixel_phones&amp;nexus_devices">Google&rsquo;s policy for Pixel and Nexus security</a> states that they will ship security updates either for three years after device introduction, or for 1.5 years after the device was last officially sold from the Google Store, whichever is longer.</p>
+<p>Unfortunately, iPhones are really expensive, and Google&rsquo;s new Pixel devices are also aiming for the higher-end market. The previous generation Nexus phones offer a more mid-range but very temporary reprieve.</p>
+<p>In other words, most normal consumers on a budget, i.e. the largest part of the Android user base, actually of the smartphone-using world, are stuck with insecure, vulnerable phones. This is not cool.</p>
+<h2 id="consider-installing-a-custom-rom">Consider installing a custom ROM.</h2>
+<p>Installing a custom ROM such as Cyanogenmod brings with it another set of issues with regard to the phone being rooted, and with regard to driver-level support of proprietary hardware. In any case, this is not something your average consumer will have access to, but Android gurus can certainly apply.</p>
+<p>Efforts like <a href="https://copperhead.co/android/">CopperheadOS</a> (hardened Android) are certainly promising, but it will be quite a while before they are accessible to the largest group of Android users.</p>
+<p><strong>Update:</strong> David Metcalfe pointed out in the comments that you can buy a secure Android phone from Copperhead.  If you are in the US or Canada, and you have some budget, you could buy the <a href="https://copperhead.co/android/buy">LG Nexus 5x or the Huawei Nexus 6P with CopperheadOS pre-installed</a>. It&rsquo;s great that this is available, but due to price and geography not really accessible to most Android users.</p>
+<h2 id="keep-manufacturers-honest">Keep manufacturers honest.</h2>
+<p>Ideally, Google starts taking a much harder line with manufacturers who put Android on their phones. They could for example maintain and publish a list of phone models that are kept up to date with the latest security fixes, and a list of those that aren&rsquo;t.</p>
+<p>I was happy to see that at least <a href="http://news.softpedia.com/news/huawei-is-the-best-oem-at-applying-android-security-updates-505767.shtml">Huawei has a pretty good record</a> in terms of keeping their Android phones up to date (although the results were probably skewed as they counted the Huawei-produced Nexus 6P phones, and these formed the majority of the test set, doh). This factor will play a role in the next smartphone that I buy.</p>
+<p>Do you know of any (other) manufacturers of more affordable Android phones who are committed to keeping their users safe? Please let me know in the comments!</p>
+<h1 id="addendum-android-phones-with-acceptable-security-update-records">Addendum: Android phones with acceptable security update records</h1>
+<h2 id="blackberry-priv-dtek50-and-dtek60">Blackberry PRIV, DTEK50 and DTEK60</h2>
+<p>lobste.rs user jabberwock <a href="https://lobste.rs/s/8g2nkz/android_security_2016_is_mess/comments/4p7rwr#c_4p7rwr">tipped me off to the fact that Blackberry&rsquo;s Android phones get monthly security updates</a>. Read more at <a href="http://crackberry.com/blackberry-priv-dtek50-and-dtek60-november-updates-now-available">CrackBerry</a> and here in the <a href="http://support.blackberry.com/kb/articleDetail?articleNumber=000038666">BlackBerry Android security bulletin for November</a>: It looks like these phones receive monthly updates (<strong>when not blocked by the carrier, <em>sigh</em></strong>)** **and have already received the November 2016 update.</p>
+<p>Here is <a href="http://blogs.blackberry.com/2015/11/managing-android-security-patching-for-priv/">the original blog post where BlackBerry explained their security patching policies for the PRIV</a>.</p>
+<h1 id="updates">Updates.</h1>
+<h2 id="wednesday-2020-02-26">Wednesday 2020-02-26.</h2>
+<p>I wanted to post some relevant updates, so here goes (okay just one):</p>
+<ul>
+<li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
+</ul>
+]]></content:encoded></item><item><title>Google’s 0-shot neural machine translation system shows intriguing evidence of an interlingua</title><link>https://cpbotha.net/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/</link><pubDate>Wed, 23 Nov 2016 06:16:06 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/</guid><description> In recent research (full paper also available), researchers from the Google Brain and Google Translate teams have shown intriguing evidence of a so-called interlingua, that is, a language-agnostic common representation of sentences with the same meaning from different languages.
+What I also found interesting about this work (and related to the above finding), is that they’re able to perform translations between language pairs that the system has never trained on.</description><content:encoded><![CDATA[ <p>In <a href="https://research.googleblog.com/2016/11/zero-shot-translation-with-googles.html">recent research</a> (<a href="https://arxiv.org/abs/1611.04558">full paper also available</a>), researchers from the Google Brain and Google Translate teams have shown intriguing evidence of a so-called <em>interlingua,</em> that is, a language-agnostic common representation of sentences with the same meaning from different languages.</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://research.googleblog.com/2016/11/zero-shot-translation-with-googles.html">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/interlingua_tsne.png"
+        /> </a>
+</figure>
+
+<p>What I also found interesting about this work (and related to the above finding), is that they’re able to perform translations between language pairs that the system has never trained on.</p>
+<p>A further pleasant surprise was seeing how they used the <a href="https://lvdmaaten.github.io/tsne/">t-SNE visualization</a> technique to embed the high-dimensionally represented sentences in 2D, in order to study the interlingua phenomenon.</p>
+]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
+Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+<p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
+<p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png"
+        
+            alt="Phil Schiller not suiting up."/> </a><figcaption>
+            <p>Phil Schiller not suiting up.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Collectively, the internet <a href="http://www.huffingtonpost.com/entry/new-apple-macbook-pro_us_58123abde4b064e1b4b0fd76">was disappointed</a>. Why no touch screen? Why no new iMac (last refresh a year ago) or Mac Pro (last refresh 3 years ago)? <a href="https://milen.me/writings/mac-platform-decline/">What is happening at Apple</a>?</p>
+<p>The day before, on October 26, 2016, Microsoft revealed the Surface Studio. Watch this introduction:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/BzMLA8YIgG0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>… and also this video with Microsoft partners who have in secret been working with the Studio:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/WMklcdzcNcU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Even if you did not like Microsoft, you can get a good sense of the emotion around this new product.</p>
+<p>They’ve managed to make something that speaks to the imagination. When I see this, as an outspoken Microsoft critic, I do get the distinct feeling that the Surface Studio is a physical artefact of the science fiction dream that my reality is gradually (and very pleasingly) turning into. My less nerdy technology-critical better half’s first reaction was: <strong><em>When can we get this?</em></strong></p>
+<p>It seems that Microsoft has convincingly out-Appled Apple.</p>
+<p>In other words, Microsoft has somehow become sexy whilst Apple seems to have developed strong feelings for the Lada.</p>
+<p>As an interesting related tidbit, a friend, whom I was trying to convince NOT to get Google’s new Pixel XL phone because reasons, recently sent me <a href="http://www.theverge.com/circuitbreaker/2016/10/29/13466786/google-pixel-photo-better-than-iphone">this short post on The Verge</a> by Vlad Savov, a camera phone expert who until recently was of the educated opinion that the iPhone 7 was still the king of the smartphone castle. He writes:</p>
+<blockquote>
+<p>On the basis of my extended experience with Google’s Pixel, I consider it an all-around better phone than the iPhone 7. The final exhilarating straw that broke the camel’s back was the photo below, coming straight out of the Pixel XL’s camera, undoctored other than for a horizon adjustment.</p>
+</blockquote>
+<p>WHAT IN HEAVENS IS HAPPENING?! OUR WHOLE WORLD IS COLLAPSING!</p>
+<p>Perhaps not…</p>
+<p>During a Signal App conversation (you should really use Signal, it now has <a href="https://www.whispersystems.org/blog/giphy-experiment/">privacy-conscious Giphy support</a>) with <a href="http://francoismalan.com/">another friend</a>, I realised that what’s happening here, is in fact <strong>wonderfully capricious human emotion interfering with the machine that is capitalism</strong>.</p>
+<p>Left to its own devices, the nature of capitalism means that successful companies tend to evolve into capitalistically optimal dead ends. In other words, large successful companies lose the will to innovate, because they realise they are able to make more money at less risk by simply not rocking that boat. Instead of investing in innovation, they invest in sales and marketing to milk their large customer-base.</p>
+<p>Ironically, Steve Jobs explained this idea quite eloquently during this interview where he talked about the decline of Xerox:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/_1rXqD6M614?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
+<p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
+<p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
+]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description> HEY!
+I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however.</description><content:encoded><![CDATA[ <p>HEY!</p>
+<p>I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a <a href="/2011/06/26/eurovis-2011/" title="eurovis 2011 post">post about my EuroVis 2011</a> and my <a href="/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/" title="dagstuhl scivis 2011 post">Schloss Dagstuhl SciVis seminar</a> adventures.</p>
+<p>Before the blasting commences, I would like to present some relaxing visual input brought to you via my cell phone camera, which at the time of capturing found itself in my hand, itself being inside the chapel in <a href="http://maps.google.nl/maps?q=Herberg+Op+Hodenpijl,+Rijksstraatweg,+Schipluiden&amp;hl=en%E2%89%AA=51.987252,4.321012&amp;spn=0.002355,0.005348&amp;sll=51.986948,4.321007&amp;sspn=0.004711,0.010697&amp;t=h&amp;z=18" title="google maps of herberg op hodenpijl">Herberg op Hodenpijl</a>, a short westward cycle from my house:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/07/herberg_op_hodenpijl2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/07/herberg_op_hodenpijl2-1024x608.jpg"
+        
+            alt="Herberg op Hodenpijl chapel roof detail."/> </a><figcaption>
+            <p>Herberg op Hodenpijl chapel roof detail.</p>
+        </figcaption>
+</figure>
+</p>
+<p>The picturesque surroundings are home to the chapel, which hosted an art exhibition at that point, and an organic restaurant and grocer. Most (all?) of the produce comes from a small farm across the road that you can also visit. The goats are really friendly. You could do worse than popping by on a sunny day.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/07/herberg_op_hodenpijl1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/07/herberg_op_hodenpijl1-1024x608.jpg"
+        
+            alt="Herberg op Hodenbijl chapel roof detail."/> </a><figcaption>
+            <p>Herberg op Hodenbijl chapel roof detail.</p>
+        </figcaption>
+</figure>
+</p>
+<p>The rest of this post has been categorised, with nice headings, so that you can skim through it even faster.</p>
+<h4 id="health-and-well-being">Health and well-being</h4>
+<ul>
+<li>In a recent cooking insert on the television, <a href="http://dewerelddraaitdoor.vara.nl/Video-detail.628.0.html?&amp;tx_ttnews%5Btt_news%5D=22570&amp;tx_ttnews%5BbackPid%5D=626&amp;tx_ttnews%5Bcat%5D=148&amp;cHash=ab10fe812f48fd43e838df03ffa6cf31" title="DWDD video clip">two chefs prepared <em>Loup farci en croûte</em></a>, or sea bass filled with julienne vegetables in a pastry of a thousand layers. Take a look at the video clip: The chefs put an amazing amount of effort into preparing this visually beautiful and apparently delectable dish.</li>
+<li>My <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">TNR</a> and since recently also business partner, who can often be found hurtling down mountains on various and high-speed forms of personal transportation, and when he’s not is involved in a number of other extreme sports activities, managed to break two fingers on his right hand cycling over the flat and otherwise uneventful piece of earth between the computer science and physics buildings on our campus. Go figure.</li>
+<li>In a <a href="http://www.nlm.nih.gov/medlineplus/news/fullstory_112161.html" title="medlineplus article on coffee vs prostate cancer">recent study</a> with 48000 (yes, that’s fourty eight thousand) men followed over a period of 22 years, a strong correlation was found between drinking six cups of coffee per day and a lowered risk of prostate cancer. Also men (but can you still call them men?) drinking fewer than 6 cups of coffee per day had a lower risk. The study did correct for other lifestyle factors. The linked summary also mentions other studies in which coffee drinking has been associated with lower risk of Parkinson disease, type 2 diabetes and liver cancer. I guess I can worry less about this addiction than, euhm, the other ones.</li>
+</ul>
+<h4 id="nerd-news">Nerd News</h4>
+<ul>
+<li>Dropbox has recently activated functionality they call shareable links, meaning that you can request a unique <a href="http://db.tt/some_code">http://db.tt/some_code</a> link for any file or directory anywhere in your dropbox and share it with anyone else (also non-dropbox users), who is then able to download said file or directory given the link. There’s a page on the website where you can manage all of your shared links, for example deactivating ones you don’t want people to access anymore. Read the <a href="https://www.dropbox.com/help/167" title="dropbox help on sharable links">help on shareable</a> links for more information.</li>
+<li>As you <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/" title="blog post on the importance of taking notes">might know</a>, I keep a lab journal documenting in some detail my daily work activities. I also maintain a personal journal, mostly for dumping stuff that might be interesting for this blog. I used to do all of this in Google Docs, but for the past few weeks I’ve experimenting using <a href="http://www.tiddlywiki.com/" title="tiddlywiki website">TiddlyWiki</a> (this is a single file JavaScript-heavy wiki implementation) on my Dropbox for all my journaling and personal knowledge base needs. It’s been going swimmingly for at least two reasons: 1) It’s available also when I’m offline. 2) The idea of being able to break out into a new wiki page (called a tiddler) at the drop of a hat takes some getting used to, but fits the non-linear nature of my journal and personal knowledge base entries much better than the mostly linear google docs.</li>
+<li>I’ve settled on using the free <a href="http://www.tonido.com/" title="tonido website">tonido personal cloud software</a> to make all the files on my home server available via the internets. This means I can get to all of my music, photos are whatever no matter where I am. Pretty neat! (I have too much to fit on my 50G dropbox account. There’s also the PogoPlug software, but the free version has its limitations.)</li>
+<li>Just a few days before Google+ (Google’s new social networking religion, in case you’ve been sleeping for the past week) hit the internets, I installed the Google +1 button on this blog, see right at the bottom of every post. So now you know what to do with every post: Click my +1 button, then click my facebook like button, then leave me some snarky comment right here. Easy as 123, and I’m a happy camper.</li>
+</ul>
+<h4 id="comedy">Comedy</h4>
+<p>Whilst flipping through channels one Saturday night,  I flipped right into the stand-up comedian <a href="http://en.wikipedia.org/wiki/Demetri_Martin" title="demetri martin wikipedia page">Demetri Martin</a>. I made a note of it in my journal, and now here we are. Watch him present his research findings on his large pad, with his pointer:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/vaGa3kjRS7o?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>That’s it for now dear readers. I really do hope to be back soon, and I hope to do so with a slightly more focused contribution. See you on <a href="http://plus.google.com/" title="google plus">Google+</a>!</p>
+<p><strong>UPDATE 2011-07-23 note-taking strategy</strong></p>
+<p>To you I might appear fickle, but I guarantee that it’s just hyperactivity. I’ve since adjusted my note-taking strategy again. As you will have seen in the comments, Pieter Kitslaar subtly influenced me to go searching for a note-taking solution that syncs between phone and everywhere else. Fortunately, I ran into the <a href="http://simplenoteapp.com/" title="simplenote universe">SimpleNote universe</a> and I’m now officially in <strong>note-taking heaven</strong>. I have <a href="https://market.android.com/details?id=com.teragadgets.android.notes" title="flick note market page">Flick Note</a> on my Android, the SyncPad extension on Chrome (for sometimes) and <a href="http://www.resoph.com/" title="resoph notes website">ResophNotes</a> on Windows and on Linux with Wine. All apps work exactly as I would expect a super-fast and efficient note-taking app to work, with real-time incremental searching, hotkeys <strong>everywhere</strong>, and best of all, offline use and transparent syncing. <strong>ResophNotes is especially cool, definitely give it a shot.</strong></p>
+<p>So I’m using this SimpleNote setup for all my personal knowledge base and general note-taking needs. For detailed work and lab journaling, I’m now using linear OpenDocument files on my Dropbox, which solves the offline problem I had with Google Docs, which I do still adore for collaborative work.</p>
+<p>Lemme know in the comments what you think!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #5: Google Docs, Bad Netbook Karma, Cold does not cause cold.</title><link>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</link><pubDate>Sun, 27 Sep 2009 16:47:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</guid><description> It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.
+Speaking of shortness, I did get some off-blog (yes, face-to-face!</description><content:encoded><![CDATA[ <p>It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.</p>
+<p>Speaking of shortness, I did get some off-blog (yes, face-to-face!) feedback on the previous edition of the WHV. Said (highly appreciated) feedback concerned the length of these posts, more specifically, that there was too much of it. It’s important to remember that I in fact do write these things with the chronically time-challenged in mind. One of the measures I take is to bold the most important themes in each paragraph, so that one can easily skip on to the next paragraph if the mentioned theme does not take one’s fancy. This week, I’m going even further by employing section headings! As always, <strong>please feel free to skip paragraphs and sections.</strong></p>
+<p>Before jumping in, I give you the traditional WHV photo, this time of my little Weber doing its thing (thanks to some crucial material supplied by <a href="http://tokkiebytes.wordpress.com/" title="My friendly neighbour's blog.  He is in fact my only neighbour with a blog, as far as I know.">my friendly neighbour</a>) on the most brilliant of all South African celebrations: <a href="http://braai4heritage.co.za/" title="more info on national braai day">National Braai day!</a>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/national_braai_day.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/national_braai_day.jpg"
+        
+            alt="My humble little Weber on NBD 2009."/> </a><figcaption>
+            <p>My humble little Weber on NBD 2009.</p>
+        </figcaption>
+</figure>
+</p>
+<p><strong>Geeky Google Docs love affair</strong></p>
+<p><a href="http://docs.google.com/" title="Link to Google Docs">Google Docs</a> is Google’s fantastic attempt (well, it was initially developed by Writely, which was soon assimilated by and has since been happily functioning inside of The Google Supermind) at an office suite. The whole thing, including Documents, Spreadsheets, and Presentations, runs in your web browser. This means that you always have access to your stuff from anywhere, and you never have to install any extra software. With the offline functionality, you can continue working even without an internet connection.</p>
+<p>This was already pretty neat, but then they had to go and make it even neater. In my line of business, one of the coolest features is the fact that you can <strong>concurrently edit the same document with any number of collaborators</strong>. I’ve written research proposals together with colleagues before, where at a number of occasions we were actually editing the same paragraph of text from two different cities, and Docs didn’t break a sweat merging our edits in real-time. This functionality also eliminates the very irritating “Could you send me the latest version of the proposal” emails, the subsequent waiting and then the infuriating expired time window when the latest version finally arrives in the email.</p>
+<p>A recent feature which is admittedly less impressive to the public at large, but made my geek heart miss several beats, was the built-in equation editor. Imagine my surprise when I tried this out for the first time and realised that it is in fact a <strong>real-time LaTeX math typesetter</strong>: You type your incredibly complex formula in standard LaTeX, and Google Docs shows the typeset math updated in real-time. This is even useful if you’re NOT using Google Docs but just want to fine-tune the formulas in your LaTeX article.  Check the screenshot below:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/google_docs_ss1.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/google_docs_ss1.png"
+        
+            alt="Screenshot of Google Docs equation editor."/> </a><figcaption>
+            <p>Screenshot of Google Docs equation editor.</p>
+        </figcaption>
+</figure>
+</p>
+<p>90% of MS Office users probably don’t use more than 10% of its functionality. Google Docs covers this 10% more than adequately, but without the complexity, the platform lock-in and the cost. Next time you’re considering emailing someone a Word document or Powerpoint, have a look at Google Docs first!</p>
+<p><strong>Netbook Bad Karma</strong></p>
+<p>On an extra partition, my netbook (Asus 1005HA-H, the computer I’m currently in love with) has the absolute latest development version of the Ubuntu Karmic Koala (9.10 – will be released at the end of October) Netbook Remix. Linux distributions, and especially Ubuntu, have been making great progress recently on state of the art hardware. On this netbook, suspend to ram for example works out of the box, which is quite an achievement for Linux-kind. However, whereas battery life under the bundled Windows with the Asus Super Hybrid Engine (don’t laugh, to me it sounds like some knid of giant fighting robot power source) is an astounding 9+ hours, under Linux it’s a quite disappointing 4 or 5 hours. One very obvious factor is the CPU running at 1GHz at idle under Linux and 850MHz at idle under Windows.</p>
+<p>Even installing and configuring the latest eeepc acpi utilities, including kernel module, from the testing repository at StatUX <a href="http://www.statux.org/content?page=repo,">http://www.statux.org/content?page=repo,</a> although enabling bunches of hotkeys, didn’t solve the battery problem. The CPU was still running at 1GHz.</p>
+<p>I’m curious to see what the case will be at Karmic release, preferably with the stock Ubuntu Netbook Remix and not too much user fiddling. I’m considering writing a short review at that time, hopefully less critical than <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="Previous review of Feisty on HP laptop.">my previous attempt</a> with Ubuntu Feisty beta (7.04) on my HP laptop.</p>
+<p><strong>Brand new Visual Data Analysis lecture block</strong></p>
+<p>For the past 4 years, I have been taking care of the Medical Visualisation parts (2 lecture blocks) of the TU Delft master-level Data Visualisation course (IN4086). Since the beginning of this year, I also give my very own dedicated 5 ECTS Medical Visualisation course (<a href="http://visualisation.tudelft.nl/Courses/in4307" title="IN4307 course website">IN4307</a>), which I have designed with the sole purpose of producing <a href="http://cpbotha.net/2008/05/01/i-have-an-official-course-code/#more-362" title="an old blog post of mine on the in4307 ninjas">MedVis NINJAS</a>. I take great joy in corrupting promising young minds with my special brand of evil science. :)</p>
+<p>In a very recent development, it seems that <strong>I will now also be taking care of the Visual Data Analysis block of the general Data Visualisation course</strong>. I somehow blurted this out during a recent meeting, and now have the privilege of designing this one from scratch too.</p>
+<p>This is quite interesting, because visual data analysis, or visual analytics as it’s sometimes called (urgh), is primarily associated with Information Visualisation, and being a MedVis fanatic I’m supposed to be a Scientific Visualisation guy. To cut a long story short, InfoVis and SciVis are two sub-fields in the broader field of Visualisation, but the communities behind them might as well come from different planets, in spite of the best efforts of some of my colleagues to unify everything. In any case, it turns out that we (when I say “we” I mean <a href="http://graphics.tudelft.nl/~jorik/" title="Jorik's homepage">Jorik</a>) have been secretly publishing suspiciously infovis-friendly articles the past few years. Look:</p>
+<ul>
+<li>J. Blaas, C.P. Botha, E. Grundy, M.W. Jones, R.S. Laramee, and F.H. Post, <em><a href="http://cs.swan.ac.uk/~csmark/PDFS/blaas2009.pdf" title="Link to Jorik's higher-order smooth graphs vis 2009 article.">Smooth graphs for visual exploration of higher order state transitions</a></em>, <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, vol. 15, 2009.</li>
+<li>J. Blaas, C.P. Botha, and F.H. Post, <em><a href="http://visualisation.tudelft.nl/publications/Blaas2008.pdf" title="LInk to Blaas 2008 PCP article PDF.">Extensions of Parallel Coordinates for Interactive Exploration of Large Multi-Timepoint Data Sets</a></em>, <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, vol. 14, 2008, pp. 1436-1451.</li>
+<li>J. Blaas, C.P. Botha, and F.H. Post, <em><a href="http://visualisation.tudelft.nl/publications/blaas2007.pdf" title="Link to feature space / physical space eurovis 2007 article by Blaas.">Interactive visualization of multi-field medical data using linked physical and feature-space views</a></em>, <strong>Proc. Eurographics / IEEE-VGTC EuroVis</strong>, K. Museth, A. Ynnerman, and T. Möller, 2007, pp. 123-130.</li>
+</ul>
+<p>I find this a very interesting and gratifying development. An increasing number of my research collaborations in the medical research field are also benefiting from visual data analysis techniques. Keeping in mind the clichéd but no less real data explosion, we, as visualisation people, can greatly increase our value to the client. The forthcoming Visual Data Analysis lecture block I’m designing is just one step in the evolution of our science.</p>
+<p><strong>The End, my friend, also of your common cold misconceptions.</strong></p>
+<p>Pressing Ctrl-Shift-C in this Google Doc draft (how’s that for subtle product placement?), I can see that I’ve once again passed the 1000 word mark (1200 to be more precise).</p>
+<p>Whoops.</p>
+<p>I had even more planned, but instead I’ll conclude with a hopefully useful snippet of information, especially in the light of the coming winter. Many people I run into still somehow believe that there’s a causal relationship between being cold, as in going outside in cold weather, and getting a cold, as in sneezing and having a running nose. Well, I’m here to tell you that it’s an age-old myth. A myth I say! See this quote from <a href="http://en.wikipedia.org/wiki/Common_cold#Exposure_to_cold_weather" title="Wikipedia article on the common cold">the Wikipedia article on the common cold</a> (emphasis mine):</p>
+<blockquote>
+<p>An ancient belief still common today claims that a cold can be “caught” by prolonged exposure to cold weather such as rain or winter conditions, which is where the disease got its name.<sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-8" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>9<span>]</span></a></sup> Although common colds are seasonal, with more occurring during winter, experiments so far have failed to produce evidence that short-term exposure to cold weather or direct chilling increases susceptibility to infection, implying that the seasonal variation is instead due to a change in behaviors such as increased time spent indoors at close proximity to others.<sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-NIAID2006-5" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>6<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-pmid13559211-9" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>10<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-pmid12357708-10" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>11<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-11" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>12<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-12" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>13<span>]</span></a></sup></p>
+</blockquote>
+<p>Just to ram that point home: <strong>Going outside in the cold, or being exposed to cold weather or direct chilling, very probably does not increase your chances of catching the common cold!</strong> Similar to this is the work on influenza. It turns out that there’s a <a href="http://www.sciencedaily.com/releases/2009/02/090209205148.htm" title="article on link between flu and absolute humidity">link between the flu and absolute humidity</a>: The <em>lower</em> the humidity, the higher the chance of getting the flu. It’s quite probable that you catch the flu virus not from going outside in winter, but from staying inside your heated and hence slightly drier home.  Chalk one up for all the kids getting told, unfairly and without scientific basis, to dress up before going out or risk getting ill.</p>
+<p>On that rebellious note, have a super duper week!  (… and please do your thing in the comments below …)</p>
+]]></content:encoded></item></channel></rss>

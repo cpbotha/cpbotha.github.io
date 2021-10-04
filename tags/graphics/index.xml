@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>graphics on voices in my head</title><link>https://cpbotha.net/tags/graphics/</link><description>Recent content in graphics on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 24 Mar 2020 21:37:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/graphics/index.xml" rel="self" type="application/rss+xml"/><item><title>The Morgan McGuire Markdeep project Management Method: MMMMM.</title><link>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</link><pubDate>Tue, 24 Mar 2020 21:37:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</guid><description> This weekend, Morgan McGuire, graphics and game programming god, tweeted a thread about his text journal based method of software development project management.
+Here I single out three of the tweets, but you should really read the whole thread:
+When coding, I always maintain a journal in the repo (I happen to use Markdeep for this now) with a TODO list.
+Tasks are at the level of one hour for &amp;ldquo;today&amp;rdquo; stuff, one day for next week, and then week- or longer level tasks.</description><content:encoded><![CDATA[ <p>This weekend, Morgan McGuire, graphics and game programming god, <a href="https://twitter.com/CasualEffects/status/1241329539902570498">tweeted a
+thread about his text journal based method of software development project
+management</a>.</p>
+<p>Here I single out three of the tweets, but you should really read the whole
+thread:</p>
+<blockquote>
+<p>When coding, I always maintain a journal in the repo (I happen to use Markdeep
+for this now) with a TODO list.</p>
+<p>Tasks are at the level of one hour for &ldquo;today&rdquo; stuff, one day for next week,
+and then week- or longer level tasks.</p>
+<p>I expand the details for the next week on Friday.</p>
+</blockquote>
+<p>Tweet 3:</p>
+<blockquote>
+<p>When I start working on the top, ~1-hour item, on the list, I immediately
+expand it recursively until the subtasks are completely braindead to
+implement.</p>
+<p>I do all of the hard part of programming here, in the TODO list, figuring out
+the library calls, designing the APIs, etc.</p>
+</blockquote>
+<p>Tweet 4:</p>
+<blockquote>
+<p>When I get into the actual source code, I&rsquo;m just working from my own
+walk-through on the TODO list, and I only need to think about syntax and code
+cleanup. I can focus on programming legibly in the small instead of worrying
+about the big picture.</p>
+</blockquote>
+<p>He shows the following screenshot as an example:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<p>This is such a brilliant way of doing the highest level &ldquo;programming&rdquo; in an
+outlining tool, and then working one&rsquo;s way down until it&rsquo;s eventually time to
+jump into the code.</p>
+<p>I can also immediately see how well this would work in a team context.</p>
+<p>During the planning session, the outline could be collaboratively fleshed
+out. Furthermore, as McGuire states, it can be fleshed out differently
+depending on the experience level of the team member.</p>
+<p>This makes me wonder how much we as engineers <em>really</em> need the Jiras and the
+YouTracks and the DevOpses of the world?</p>
+<p>(Just joking folks, I know we need it, but perhaps we could do with a little
+more MMMMM in our lives?)</p>
+<h2 id="markdeep">Markdeep.</h2>
+<p>Almost in passing McGuire mentions markdeep, the system he designed for
+extremely agile technical documentation.</p>
+<p>A friend from work introduced me to this years ago (thanks HB!), but then I
+somehow missed its genius.</p>
+<p>One of the core ideas that makes markdeep so interesting and useful, is that
+the markdeep plaintext markup (it&rsquo;s like supercharged markdown) is embedded in
+an extremely thin layer of HTML which invokes the markdeep.js renderer on
+itself.</p>
+<p>In other words, you edit the self-contained <code>.md.html</code> file with your favourite
+text editor, but when you open this file in your browser, a single line of HTML
+at the end pulls in <code>markdeep.min.js</code> from a CDN or from your local disc, and
+renders the beautifully typeset version of the document.</p>
+<p>As if that was not enough, markdeep has extensive support for the SVG rendering
+of ascii art.</p>
+<p>See the following pages for more information:</p>
+<ul>
+<li><a href="https://casual-effects.com/markdeep/">The Markdeep website</a>.</li>
+<li><a href="https://casual-effects.com/markdeep/features.md.html">The extensive Markdeep demo
+document</a> - especially
+the <a href="https://casual-effects.com/markdeep/features.md.html#diagramexamples">diagram
+examples</a>
+are impressive!</li>
+</ul>
+<p>For my own notes I am sticking to <a href="https://orgmode.org/">Orgmode</a> (if you&rsquo;re an
+emacs user, it&rsquo;s more powerful), but there will surely be situations where the
+self-contained Markdeep makes more sense.</p>
+<h2 id="the-graphics-codex">The Graphics Codex.</h2>
+<p>Markdeep has been used to author a number of books, but <a href="http://graphicscodex.com/">The Graphics
+Codex</a> must be one of the more amazing examples, in
+terms of its interactivity and just general prettiness.</p>
+<p>The iPhone app version looks like this:</p>
+<a href="http://graphicscodex.com/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png"
+  
+
+   />
+
+
+
+</a>
+<p>I bought the web version not because I currently need a graphics reference, but
+rather because it is a thing of beauty, and because I wanted to be able to see
+better how it all works.</p>
+]]></content:encoded></item></channel></rss>

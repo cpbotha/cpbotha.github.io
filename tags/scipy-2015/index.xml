@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>scipy 2015 on voices in my head</title><link>https://cpbotha.net/tags/scipy-2015/</link><description>Recent content in scipy 2015 on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 27 Jul 2015 20:21:00 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/scipy-2015/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #95: A wheel of good fortune.</title><link>https://cpbotha.net/2015/07/27/weekly-head-voices-95-a-wheel-of-good-fortune/</link><pubDate>Mon, 27 Jul 2015 20:21:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/07/27/weekly-head-voices-95-a-wheel-of-good-fortune/</guid><description> The Cape Wheel with Table Mountain in the background.
+NERD-ALERT: There are a whole bunch of awesome SciPy 2015 presentations online! I really liked these so far (due to good work and good presentation): A Better Default Colormap for Matplotlib by Nathaniel Smith and Stéfan van der Walt – Besides the fact that Stéfan is a friend AND SOMETIMES EVEN READS THIS BLOG (!!!1!), this work is a super useful contribution not just to matplotlib, but to general awareness and practical application of sensible quantitative colour maps!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/07/wpid-waterfront_wheel.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/07/wpid-waterfront_wheel.jpg"
+        
+            alt="The Cape Wheel with Table Mountain in the background."/> </a><figcaption>
+            <p>The Cape Wheel with Table Mountain in the background.</p>
+        </figcaption>
+</figure>
+
+<ul class="org-ul">
+<li>
+    NERD-ALERT: There are a whole bunch of awesome SciPy 2015 presentations online! I really liked these <i>so far</i> (due to good work <b>and</b> good presentation): <ul class="org-ul">
+<li>
+<a data-rel="lightbox-video-0" href="https://youtu.be/xAoljeRJ3lU">A Better Default Colormap for Matplotlib</a> by Nathaniel Smith and Stéfan van der Walt – Besides the fact that Stéfan is a friend AND SOMETIMES EVEN READS THIS BLOG (!!!1!), this work is a super useful contribution not just to matplotlib, but to general awareness and practical application of sensible quantitative colour maps! If you’d like to know more about why we shouldn’t use rainbow colourmaps, you could do much worse than read <a href="http://noeskasmit.com">Noeska Smit’s</a> post <a href="http://medvis.org/2012/08/21/rainbow-colormaps-what-are-they-good-for-absolutely-nothing/">Rainbow Colormaps – What are they good for? Absolutely nothing!</a>
+</li>
+<li>
+<a data-rel="lightbox-video-1" href="https://youtu.be/_3YoaeoiIFI">VisPy Harnessing The GPU For Fast, High Level Visualization</a> by Luke Campagnola – I was impressed by the bag of GPU tricks demonstrated and I really liked the dry presentation style. I checked out VisPy examples afterwards: What I saw looked like the right mix of shader code and Python scaffolding for fun experimenation.
+      </li>
+<li>
+<a data-rel="lightbox-video-2" href="https://youtu.be/lKmoO6UARWs">Rapid Accurate and Simple Segmentation of Objects in Medical Images</a> by Ross Mitchell and <a href="https://twitter.com/wxue">Wenzhe Xue</a> – I still remember seeing some of the first work on GPU levelsets being presented by Aaron Lefohn at the Vis conference some years ago, but the work demonstrated by Ross Michell at SciPy was really impressive in terms of ease of use: A stroke here and a stroke there on a few slices of a 3D medical volume, and presto – 3D segmentation deforms while we watch! Wehzhe Xue <a href="https://twitter.com/wxue/status/623657201454845952">tweeted me</a> his presentation notebook which include a link to their <a href="http://interactivemedical.org/imic2014/CameraReadyPapers/Paper%2012/Xue_IMIC2014_CameraReady_Jul21.pdf">MICCAI IMIC workshop paper</a>.
+      </li>
+</ul>
+</li>
+<li>
+    On Tuesday, I attended the <a href="http://www.meetup.com/Helderberg-Software-Developers-and-Entrepreneurs/events/223420422/">monthly Helderberg Software Developers and Entrepreneurs meetup</a>, which was a ridiculous amount of fun. As you might be able to see from the meetup page, there are mentions of <i>wrestling</i>. I’m still not sure which of the developer or entrepreneurial components contributed most to this occurrence (I observed, but chose to concentrate on beer and conversation), but my backyard anthropological senses are still tingling.
+  </li>
+<li>
+    Sunday was one of those really difficult Winter days, so we spent it in the glorious sun at the V&amp;A Waterfront. The highlight of the day was going up in the <a href="http://www.capewheel.co.za/home.php?page=1">Cape Wheel</a>, a beautiful engineering artifact with really stunning views:
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/07/wpid-capewheel_view.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/07/wpid-capewheel_view.jpg"
+        /> </a>
+</figure>
+
+<p>Have a great week peeps!</p>
+<p>P.S. If you’re on Android, disable auto-downloading of MMSes right now. There’s a new hack called <a href="http://www.forbes.com/sites/thomasbrewster/2015/07/27/android-text-attacks/">stagefreight</a> that’s possibly doing the rounds, and it’s a real doozy. With just your telephone number, an attacker can send you a specially crafted MMS and with that completely take over your phone (and hence your life) without your knowledge. For now, disable auto-downloading of MMSes. After that, if you receive an MMS, don’t touch it!</p>
+]]></content:encoded></item></channel></rss>

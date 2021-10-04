@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>covid19 on voices in my head</title><link>https://cpbotha.net/tags/covid19/</link><description>Recent content in covid19 on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 13 Sep 2021 21:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/covid19/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #232: Side-project Smorgasbord</title><link>https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/</link><pubDate>Mon, 13 Sep 2021 21:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/</guid><description> Figure 1: View from a park not too far from my house.
+Welcome back friends to WHV #232, looking back at the two weeks from Monday August 30 to Sunday September 13, both fortunately in the year 2021.
+Give me some more of that mRNA I&amp;rsquo;m happy to report that I got my second Pfizer shot at the start of this month, at the Somerset West Town Hall.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="view_from_park.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/view_from_park_hud87debf419de22c5f031862a85d5f195_1069519_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: View from a park not too far from my house."/> </a><figcaption>
+            <p>Figure 1: View from a park not too far from my house.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back friends to WHV #232, looking back at the two weeks from Monday
+August 30 to Sunday September 13, both fortunately in the year 2021.</p>
+<h2 id="give-me-some-more-of-that-mrna">Give me some more of that mRNA</h2>
+<p>I&rsquo;m happy to report that I got my second Pfizer shot at the start of this
+month, at the Somerset West Town Hall.</p>
+<p>The whole procedure took 30 minutes, from when I entered the front door, until
+I exited after the 15 minute wait in the side-effect area with friend LM, at
+which point I unfortunately jammed my shoulder on an inconveniently positioned
+aloe branch, an event that under normal circumstances would not even have been
+worth a mention, were it not for the fact that I was wearing my fortunately
+entry-level puffer jacket, which now sports a gash with stuffing peeking out.</p>
+<p>I believe that I digressed ever so slightly there.</p>
+<p>Anyways&hellip;</p>
+<p>I&rsquo;m super happy that all of the adults in my close family unit have now been
+vaccinated, and grateful for the superbly efficient way in which this could
+come to pass.</p>
+<h2 id="this-blog-hopefully-immortalised-on-github">This blog hopefully immortalised on github</h2>
+<p>(aka you can never escape)</p>
+<p>At a recent meetup, I brought up the cheerful topic of what happens to one&rsquo;s
+website(s) when one invariably gets to kick the proverbial bucket.</p>
+<p>This is probably a pretty abstract concept to many folks, but as I&rsquo;m now
+getting within spitting distance of my half century, it is something that I do
+think about now and then.</p>
+<p>The thing is, when my credit card finally decides to stop paying the monthly
+Hetzner bill (at this moment, <a href="/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server">these pages are served by a Hetzner VPS in
+Nuremburg</a>), they will pull the plug.</p>
+<p>Even if they don&rsquo;t do so immediately, cpbotha.net&rsquo;s domain registrar will for
+related reasons unplug the domain as it were, rendering this site unreachable.</p>
+<p>Now that I think about this some more, the shadowy company paying for all of
+this has been setup in a pretty robust fashion. It&rsquo;s not quite <a href="https://en.wikipedia.org/wiki/Accelerando">Accelerando</a>
+levels of indirection, but it could remain standing and paying for hosting and
+domains somewhat longer than expected.</p>
+<p>In spite of that, for the one or two people who might want to read some of this
+content after I&rsquo;m gone (close family members, I&rsquo;m looking right at you!), I
+really wanted to have some sort of more long-term backup plan in place, in
+addition to what <a href="https://web.archive.org/web/*/cpbotha.net">the wonderful Wayback Machine is already doing</a>.</p>
+<p>The solution I decided upon was to spend a great many hours going through 20
+years of cpbotha.net posts, mostly to fix all of the badly linked legacy
+wordpress figure sections, so that the whole thing could be pushed
+to&hellip; <a href="https://github.com/cpbotha/cpbotha.net">github</a>!</p>
+<p>Yep, you heard me right&hellip;</p>
+<p>I&rsquo;ve taken care of the bulk of rewriting, mostly through putting together <a href="https://github.com/cpbotha/cpbotha.net/blob/main/mine/convert%5Fwp%5Ffigures.py">this
+horrible script</a>, and manually reviewing the diffs, sometimes applying fixes, to
+over 600 files.</p>
+<p><a href="https://www.crummy.com/software/BeautifulSoup/">Beautifulsoup 4</a> is amazing by the way. Wordpress on the other hand, or rather
+wordpress plugins, just made so many random changes to figure markup over the
+years that I&rsquo;m not really sure what to think anymore.</p>
+<p>Anyways, most of the markdown content, which has been thankfully simplified, is
+now on the github and should remain available for significantly longer in the
+hopefully far future event of my demise.</p>
+<p>I&rsquo;m planning to spend some more hours to get the whole thing also buildable on
+github so that there&rsquo;s a browsable version in addition to just the markdown
+sources.</p>
+<p>Whatever the case may be, I hope that I can keep this site alive, and maybe even
+kicking, for at least twenty more years!</p>
+<h2 id="on-always-maintaining-a-menu-of-tasty-side-projects">On always maintaining a menu of tasty side-projects</h2>
+<p>Oh <a href="/tags/side-projects/">side-projects</a>&hellip;</p>
+<p>As I&rsquo;ve mentioned before, we side-project for learning and for relaxation.</p>
+<p>In addition to that, we also often lament the apparent cost of these
+side-projects, with some of us even having whole side-project graveyards to
+show for our sins.</p>
+<p>On the basis of what I just said, one might think it prudent to try and avoid
+these clearly nefarious side-projects, or maybe just to try and reduce their
+impact as much as possible, but of course we&rsquo;ll do nothing of the sort.</p>
+<p>Instead, we&rsquo;re going to double down.</p>
+<p>You see, the other day I figured out that my problem with side-projects was
+clearly that I didn&rsquo;t have enough of them.</p>
+<p>Ideally, one has a whole menu of tasty side-projects lined up, each one a
+different mix of activity types and learnings.</p>
+<p>Whenever you have a bit of free time (<a href="https://www.theguardian.com/science/2021/sep/09/study-links-too-much-free-time-to-lower-sense-of-wellbeing">not too much though!</a>), you can <em>quite</em>
+simply select the most suitable side-project from your list and hammer away for
+a bit.</p>
+<p>Of course you will need a substantial amount of willpower, as well as the
+presence of mind to actually initiate this selection action&hellip;</p>
+<p>Somewhat more seriously though, always having a creative and fitting project
+closely at hand that you can <a href="/tags/compounding/">compound</a> upon sounds like a solid strategy.</p>
+<p>(err, a solid strategy for what exactly? well that&rsquo;s a topic for a future post&hellip;)</p>
+<p>In the meantime:</p>
+<p>LONG LIVE  YOUR GROWING MULTITUDE OF SIDE-PROJECTS!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #229: Staycation PERMA-Station</title><link>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</link><pubDate>Tue, 27 Jul 2021 21:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</guid><description> Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)
+This edition of the WHV looks back at the week from Monday July 19 to Sunday July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving of the hallowed title of&amp;hellip; STAYCATION!
+Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at home or close to it.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="bettys_jocks.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)"/> </a><figcaption>
+            <p>Figure 1: A scene from a short but surprisingly balmy weekend in Betty&rsquo;s Bay (In Winter, a large part of Betty&rsquo;s remains permanently in the shadow of the mountain.)</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV looks back at the week from Monday July 19 to Sunday
+July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving
+of the hallowed title of&hellip; <em>STAYCATION!</em></p>
+<p>Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at
+home or close to it.</p>
+<p>We spent time together, took care of hobby- and side-projects, and even had
+time to daydream and come up with some wacky ideas which should probably never
+see the light of day, but which one day just might.</p>
+<h2 id="lazar-focus-1-dot-3-released">Lazar Focus 1.3 released</h2>
+<p>On the evening of Tuesday, July 20, after a flurry of programming and testing,
+<a href="https://lazarfocused.com/2021/07/21/lazar-focus-1.3.0-released-real-time-focus-feedback/">Lazar Focus 1.3 was released</a>.</p>
+<p>Noteworthy is its new ability to measure and give real-time feedback on your
+current focus, as an easy to interpret percentage.</p>
+<p>The more you resist distractions, the higher the focus percentage.</p>
+<p>When developing this feature, I ended up selecting a 5 minute rolling window,
+after I was initially planning a pomodoro length. Five minutes seem to be a
+sort of sweet spot in terms of seeing one&rsquo;s distractions affect one&rsquo;s score,
+but not having it immediately distroyed, so that there&rsquo;s still time to recover.</p>
+<p>I wanted to mention here the interesting disconnect between the programming I
+do for this completely disconnected hobby project in a language (Pascal-ish)
+that I don&rsquo;t particularly prefer but don&rsquo;t mind on the one hand, and my day
+job, for which I sometimes still get to program, on the other.</p>
+<h2 id="perma-the-five-building-blocks-of-well-being">PERMA: The five building blocks of well-being</h2>
+<p>So yeah, there&rsquo;s a pretty interesting disconnect&hellip;</p>
+<p>Writing code for LF, in this case perhaps perhaps noteworthy the real-time
+focus tracking data-structure, namely a run-length encoded series of (no)focus
+time durations that automatically get truncated, lengthened and pruned as time
+progresses, was 100% fun and relaxation.</p>
+<p>This is not the most tricky thing to implement, but the process of first
+cooking it up in my brain, and then later sitting down to implement it, and
+seeing it work, was just challenging enough to result in several periods of
+complete immersion in, or engagement with, the task.</p>
+<p>In <a href="https://www.amazon.com/Flourish-Visionary-Understanding-Happiness-Well-being/dp/1439190763/ref=sr%5F1%5F6?dchild=1&amp;qid=1627409990&amp;refinements=p%5F27%3AMartin+Seligman&amp;s=books&amp;sr=1-6">Martin Seligman&rsquo;s book titled <em>Flourish</em></a>, which I&rsquo;m slowly working through
+at the moment (he is a great and impactful psychologist, but perhaps not the
+world&rsquo;s greatest story teller, sorry Prof Seligman), he explains that human
+<a href="https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops">well-being, or flourishing, consists of five building blocks, namely</a>:</p>
+<ol>
+<li>Positive Emotion: gratitude, savouring the present, hope and optimism,</li>
+<li>Engagement: Lose oneself in a challenging (err) task,</li>
+<li>Relationships: Love and be loved by friends and family,</li>
+<li>Meaning: belonging to and serving some cause greater than oneself and</li>
+<li>Accomplishment: Pursuing achievement and mastery for its own sake.</li>
+</ol>
+<p>My little LF programming exercise was <em>exactly</em> right for triggering a bit of
+item number 2, namely engagement.</p>
+<p>I am happy that I could slip a little PERMA in here on the back of Lazar Focus,
+a little tool that is also proving useful in ways that I did not expect. ;)
+Although the book is not the easiest going, it makes some valuable points if
+you too are a fan of well-being.</p>
+<h2 id="pfizer-jab-1-in-da-pocket">Pfizer jab #1 IN DA POCKET</h2>
+<p>I really loves me some cutting edge science.</p>
+<p>I know that the mRNA vaccines have been in development for decades now, but
+they still represent such an amazing technological flex.</p>
+<p>How fantastic is it that some of our cleverest humans have designed and tested
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html">this vaccine that consists of usually unstable mRNA</a>, to be injected into human
+cells where our the cellular machinery in our bodies will dutifully follow the
+mRNA instructions to frikking synthesise and display a piece of spike protein
+that looks enough like the COVID-19 spike protein so that our immune system
+will notice and immediately start creating antibodies, all without us actually
+getting infected.</p>
+<p>As if that&rsquo;s not enough, the introduced mRNA is broken down ASAP after
+synthesis.</p>
+<p>HOT DAMN we live in the future and it&rsquo;s pretty awesome up here!</p>
+<p>I AM EXCITE</p>
+<p>I am also really happy with the super efficient walk-in vaccination procedure at the Town Hall here in Somerset West.</p>
+<p>I would have been in and out in 30 minutes with Pfizer jab #1 had I not run
+into and started chatting with friends in the side-effect waiting area.</p>
+<p>Kudos to the Western Cape for running this like the Star Trek medical bay.</p>
+<p>Still friends, how strange are the days that we find ourselves in?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #228: Komkommertijd</title><link>https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/</link><pubDate>Wed, 21 Jul 2021 22:21:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/</guid><description> Figure 1: On the side opposite to Map of Africa, on the grass that shall not be entered if one is not a club member.
+This edition of the Weekly Head Voices, number two tenny eight, covers the period of time from Monday June 28 to Sunday July 18 of the year 2021.
+Bad glitch in the South African matrix Although I don&amp;rsquo;t have much to say here (hence the title), the country has been all over the news for less than great reasons.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="map_of_africa_other_side.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/map_of_africa_other_side_hu66112c2b63cb1b236975a2550a96d472_2429329_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/map_of_africa_other_side_hu66112c2b63cb1b236975a2550a96d472_2429329_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/map_of_africa_other_side_hu66112c2b63cb1b236975a2550a96d472_2429329_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/map_of_africa_other_side_hu66112c2b63cb1b236975a2550a96d472_2429329_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/map_of_africa_other_side_hu66112c2b63cb1b236975a2550a96d472_2429329_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: On the side opposite to Map of Africa, on the grass that shall not be entered if one is not a club member."/> </a><figcaption>
+            <p>Figure 1: On the side opposite to Map of Africa, on the grass that shall not be entered if one is not a club member.</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the Weekly Head Voices, number two tenny eight, covers the
+period of time from Monday June 28 to Sunday July 18 of the year 2021.</p>
+<h2 id="bad-glitch-in-the-south-african-matrix">Bad glitch in the South African matrix</h2>
+<p>Although I don&rsquo;t have much to say here (hence <a href="https://nl.wikipedia.org/wiki/Komkommertijd">the title</a>), the country has been
+all over the news for less than great reasons.</p>
+<p>Shortly after former president Zuma finally finally handed himself over to the
+police on Sunday July 4 to serve his 15 month jail sentence for contempt of the
+Constitutional court (there are more cases to come), looting, arson and
+violence broke out primarily in Kwazulu-Natal, but also in Gauteng.</p>
+<p>Various shopes and malls have been stripped bare and/or destroyed.</p>
+<p>This looked like a perfect storm, initiated by Zuma&rsquo;s incarceration (he has a
+great deal of support in Kwazulu-Natal), partially fanned on by his children
+and allies on social media, and intensified by systemic poverty.</p>
+<p>There were many videos on social media of folks with luxury items, some trying
+to stuff flat-screen TVs into their cars, or crossing the street with a basket
+full of goods to dump in their luxury Mercedes, but there were also many more
+who are only trying to survive under the poverty line and can&rsquo;t be blamed for
+any of this.</p>
+<p>As far as I can see, our current president Ramaphosa has for years now been
+doing his best to unravel the nest of corruption and dishonesty that his party
+the ANC has unfortunately become.</p>
+<p>This is tricky work, as he needs to circumnavigate and/or defuse the same
+internal forces that managed to oust president Thabo Mbeki and usher in the
+terrible era of Zuma.</p>
+<p>The poor man has had to endure even more flak in these days, both from his
+political enemies and from other commentators.</p>
+<p>Until convincingly shown otherwise, my opinion is that president Ramaphosa is
+the best shot we currently have at a better future.</p>
+<p>You can read <a href="https://www.gov.za/speeches/president-cyril-ramaphosa-update-security-situation-country-16-jul-2021-0000">his July 16 speech about the unrest here</a>.</p>
+<p>A slight silver edge is that these events have put more pressure on the
+<a href="https://businesstech.co.za/news/finance/506914/government-considers-basic-income-grant-after-riots-and-looting-in-south-africa/">discussions around the possible implementation of a basic income grant</a>.</p>
+<p>P.S. It seems that the looting was not disruptive enough for some folks, and so
+now we are dealing with <a href="https://www.dailymaverick.co.za/article/2021-07-20-why-the-western-cape-is-being-rocked-by-taxi-violence/">taxi-company-related violence in the Western Cape</a>.</p>
+<p>P.P.S. let me just hide this here: far more locally, we are dealing with some
+pandemic-related stressors.</p>
+<h2 id="reserve-bench-holidays">Reserve bench holidays</h2>
+<p>As <a href="/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/#groundhog-lockdown">I supected in the previous WHV</a> (three weeks ago, ahem&hellip;), our country&rsquo;s
+struggles with the pandemic did in fact manage to get our Kruger National Park
+visit cancelled.</p>
+<p>To be clear, I have no illusions about the relative importance of our holiday
+under these circumstances and in this context (close to utterly unimportant, in
+other words), but we humans are gonna human and I&rsquo;m not gonna lie, we were
+really looking forward to that week of sun in Mpumalanga.</p>
+<p>I&rsquo;ve often said that the winter down here is more bearable than one would
+expect, due to it being quite often punctuated by brilliant and sunny days
+outside, but this year I&rsquo;ve come to realise that I might have underestimated
+the positive effects of <a href="/tags/knp/">spending the darkest week under the sun of the North</a>.</p>
+<p>Anyways, we were super fortunate to be able to arrange for a long weekend in
+another one of our favourite places, namely Wilderness, where we were treated
+with absolutely balmy days, some of them on the Touw river (inflatable SUPs
+FTW!), some of them on the most beautiful beaches, and some of them hiking and
+running on various trails.</p>
+
+
+
+
+
+
+
+
+<figure><a href="wilderness_running_rondevlei.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/wilderness_running_rondevlei_hu4b29d2ac23377683a456e1014f88657c_2560972_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/wilderness_running_rondevlei_hu4b29d2ac23377683a456e1014f88657c_2560972_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/wilderness_running_rondevlei_hu4b29d2ac23377683a456e1014f88657c_2560972_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/wilderness_running_rondevlei_hu4b29d2ac23377683a456e1014f88657c_2560972_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/wilderness_running_rondevlei_hu4b29d2ac23377683a456e1014f88657c_2560972_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Scene from one of my favourite running routes, this time with GOU #1!"/> </a><figcaption>
+            <p>Figure 2: Scene from one of my favourite running routes, this time with GOU #1!</p>
+        </figcaption>
+</figure>
+
+<p>If it sounds to you like we had to go outside every day to warm up in the
+winter sun, I can hereby confirm your astute observation.</p>
+<p>To be fair, this was literally in the deepest part of winter, from which there
+is no true escape if one remains within the Western Cape.</p>
+<p>In spite of that, or perhaps because of it, we enjoyed the wonderful days to
+bits.</p>
+
+
+
+
+
+
+
+
+<figure><a href="kaaimans_pano.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/kaaimans_pano_hu570988fdd284e76db557a9c7d039173d_2227820_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/kaaimans_pano_hu570988fdd284e76db557a9c7d039173d_2227820_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/kaaimans_pano_hu570988fdd284e76db557a9c7d039173d_2227820_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/kaaimans_pano_hu570988fdd284e76db557a9c7d039173d_2227820_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/21/weekly-head-voices-228-komkommertijd/kaaimans_pano_hu570988fdd284e76db557a9c7d039173d_2227820_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 3: The rail bridge over Kaaimansrivier. We have this on the todo list for next time."/> </a><figcaption>
+            <p>Figure 3: The rail bridge over <a href="https://en.wikipedia.org/wiki/Kaaimans%5FRiver">Kaaimansrivier</a>. We have this on the todo list for next time.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item><item><title>Weekly Head Voices #227: Reality bending security blanket</title><link>https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/</link><pubDate>Wed, 30 Jun 2021 22:15:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/</guid><description> Figure 1: View from a walk by life partner and genetic progenitor unit, photo by partner.
+This 227th edition of the Weekly Head Voices looks back at the two weeks from Monday June 14 to Sunday June 27.
+Groundhog Lockdown On the above-mentioned Sunday, president Ramaphosa announced lockdown level 4, one level more serious from where we were.
+For us this means that schools are closing a week earlier for the July vacation, and hence will have to open a week earlier, and hence will have a severe effect on the breakaway we had planned, an effect of the cancellation variety.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="backyard_walk_s_and_i.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/backyard_walk_s_and_i_hud53395ab9ad0e52aa68396f98a5f295f_1900088_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/backyard_walk_s_and_i_hud53395ab9ad0e52aa68396f98a5f295f_1900088_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/backyard_walk_s_and_i_hud53395ab9ad0e52aa68396f98a5f295f_1900088_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/backyard_walk_s_and_i_hud53395ab9ad0e52aa68396f98a5f295f_1900088_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/06/30/weekly-head-voices-227-reality-bending-security-blanket/backyard_walk_s_and_i_hud53395ab9ad0e52aa68396f98a5f295f_1900088_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: View from a walk by life partner and genetic progenitor unit, photo by partner."/> </a><figcaption>
+            <p>Figure 1: View from a walk by life partner and genetic progenitor unit, photo by partner.</p>
+        </figcaption>
+</figure>
+
+<p>This 227th edition of the Weekly Head Voices looks back at the two weeks from
+Monday June 14 to Sunday June 27.</p>
+<h2 id="groundhog-lockdown">Groundhog Lockdown</h2>
+<p>On the above-mentioned Sunday, <a href="https://www.businessinsider.co.za/level-4-lockdown-for-south-africa-for-14-days-2021-6">president Ramaphosa announced lockdown level 4</a>,
+one level more serious from where we were.</p>
+<p>For us this means that schools are closing a week earlier for the July
+vacation, and hence will have to open a week earlier, and hence will have a
+severe effect on the breakaway we had planned, an effect of the
+<em>cancellation</em> variety.</p>
+<p>Although frustrating (some of us really need that precious time away to keep
+calm and carry on afterwards), we don&rsquo;t really have anything to complain about
+if that is our biggest problem.</p>
+<p>Gauteng province has been hit really hard by the third wave of COVID, and
+specifically this new Delta variant.</p>
+<p>This modified lockdown level 4 explicitly prohibits travel into and out of the
+province in order to help stem the disease&rsquo;s spread.</p>
+<p>In other news, our vaccination is making progress, albeit at a slower pace than
+most people had hoped.</p>
+<p>In a few days they are going to start with the over 50s. No, this does not
+include me yet, although I am close.</p>
+<h2 id="amazon-document-culture">Amazon document culture</h2>
+<p>Last week, <a href="https://news.ycombinator.com/item?id=27545331">Hacker News discussed</a> a really interesting <a href="https://www.justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/">blog post by an Amazon
+employee about Amazon&rsquo;s document culture</a>.</p>
+<p>In short, at Amazon, a meeting can only happen if a document has been written
+detailing what is to be discussed during the meeting.</p>
+<p>At the start of the meeting, everyone gets from 10 minutes to half an hour,
+depending on what makes sense for the document under discussion, to read the
+document, and only then the meeting starts.</p>
+<p>This approach has many advantages, discussed in the blog post.</p>
+<p>What I personally like about doing it this way, is that the convenor of the
+meeting has to pay a price for that meeting, namely sitting down and spending
+time to structure their thoughts on paper well enough so it will satisfy the
+expectations of the participants.</p>
+<p>Furthermore, by dedicating quiet time to reading the document, one has a
+slightly better guarantee that everyone is up to date with the background, and,
+more interesting to me, is that it sets a more deliberate and thoughtful mood
+for the whole meeting.</p>
+<p>Of course I tried this out at the first high-level meeting that I could, where
+I had to present a plan to the participants.</p>
+<p>It felt a bit strange initiating this silent reading at the start, but my
+perception is that it contributed to a higher quality discussion afterwards.</p>
+<p>In this case it was easy, because the goal of the meeting was to present a plan
+that was already a document. However, this is something I will definitely want
+to repeat.</p>
+<p>Maybe one day, the document will be all that is required.</p>
+<h2 id="your-choice">Your choice</h2>
+<p>In <a href="/2021/06/16/weekly-head-voices-226-stress-practice/#eternal-practice-vs-stress">WHV #226</a> I wrote that I had chosen to be in the situation that was causing
+stress due to its new challenges.</p>
+<p>Friend SvdW (jokingly? chidingly?) commented via private communications
+channels that that &ldquo;choice&rdquo; had surprised him, seeing that <a href="https://philosophybreak.com/articles/free-will-illusion-sam-harris/">we have no free
+will</a>.</p>
+<p>He is right of course, but in this case it <em>is</em> in fact all about the illusion,
+about being subjectively convinced that one is the agent and the author of
+one&rsquo;s current situation.</p>
+<p>This did remind me something I wrote in <a href="https://cpbotha.net/2019/12/08/weekly-head-voices-185-starship-gou-1/#productivity-system-tuneup">WHV #185</a> about how this same framing
+can be effective against procrastination:</p>
+<blockquote>
+<p>One of the most valuable lessons I learned from a book I once read about
+procrastination (I&rsquo;ll look up the name later), is that it can make all the
+difference once you explicitly verbalise, to yourself, that you have chosen to
+take on difficult task X or Y.</p>
+<p>Just saying these words somehow changes one&rsquo;s perception from being stuck with
+difficult task X or Y, i.e. passive, to having taken agency, and having decided
+to commit, i.e. active.</p>
+</blockquote>
+<p>In the cases where you believe that you <em>are</em> probably the agent of your
+situation, it can really help to verbalise that to yourself in the way
+described above.</p>
+<p>This can sometimes be tricky, because so much of it has to do with potentially
+subjective-reality-bending framing, which could get in the way of addressing
+problems external to oneself.</p>
+<p>If you apply This One Trick, and you do a great job, how real were those
+external problems in the first place?</p>
+<p>On days like these, I get a feeling, albeit an extremely faint one, for why
+Descartes constructed the mental security blanket of <em>cogito ergo sum</em>.</p>
+]]></content:encoded></item><item><title>The 2020 to 2021 transition post</title><link>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</link><pubDate>Sun, 10 Jan 2021 15:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</guid><description><![CDATA[ Welcome to the year 2021 friends.
+Every year around about this time, I try to write a transition post like this one.
+You can get a list of all of the transition posts by going to the &ldquo;transition&rdquo; tag page.
+If you don&rsquo;t have time to read them all (haha), you could just scan through last year&rsquo;s 2019 to 2020 edition.
+This transition tradition started at the end of 2009, which coincidentally is also the year that the Weekly Head Voices was born.]]></description><content:encoded><![CDATA[ <p>Welcome to the year 2021 friends.</p>
+<p>Every year around about this time, I try to write a transition post like this one.</p>
+<p>You can get a list of all of the transition posts by going to <a href="/tags/transition/">the &ldquo;transition&rdquo;
+tag page</a>.</p>
+<p>If you don&rsquo;t have time to read them all (haha), you could just scan through
+<a href="/2020/01/12/the-2019-to-2020-transition-post/">last year&rsquo;s 2019 to 2020 edition</a>.</p>
+<p>This transition tradition <a href="/2010/01/10/the-2009-to-2010-transition-post/">started at the end of 2009</a>, which coincidentally is
+also the year that <a href="/2009/08/29/starting-today-head-voices-every-week/">the Weekly Head Voices was born</a>.</p>
+<p>The goal of the transition post is to do a really spotty year review, and then
+to gaze unsuccessfully into the future.</p>
+
+
+
+
+
+
+
+
+<figure><a href="leopards_kloof.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from a hike up Leopard&amp;rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&amp;rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021."/> </a><figcaption>
+            <p>Figure 1: A scene from a hike up Leopard&rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021.</p>
+        </figcaption>
+</figure>
+
+<p>More seriously, the ever-evolving network of posts on this website (there are
+now literally hundreds of them), along with the ever-evolving but also fading
+network of neurons in my head (probably at least a few hundred of them too!),
+benefit from an occasional higher-level connecting of some of the dots.</p>
+<p>In the introduction of the <a href="/2019/01/06/the-2018-to-2019-transition-post/">2018 to 2019 transition post</a>, I ramble on slightly
+more about the multiscalar nature of my subjective experience, and how that is
+reflected in my notes database, of which this blog is one aspect.</p>
+<p>Let&rsquo;s get on with it!</p>
+<h2 id="noteworthy-snippets-through-the-lens-of-this-blog">Noteworthy snippets through the lens of this blog</h2>
+<h3 id="covid-19">COVID-19</h3>
+<p>One of the biggest issues for most people last year and still at this moment is
+COVID-19.</p>
+<p>If you&rsquo;re interested, you could take a look at the Weekly Head Voices posts
+that had something to say about <a href="/tags/covid19/">COVID-19</a>, but you don&rsquo;t really have to.</p>
+<p>Fortunately, world-wide vaccination has commenced. However, we have to keep our
+fingers crossed that:</p>
+<ol>
+<li>The world succeeds in getting the vaccine to a sufficient number of humans
+on time.</li>
+<li>A vaccine-resistant strain does not happen. It could, because math, and
+because evolution (selection pressure due to the vaccine, doh),</li>
+</ol>
+<p>Whether the above outcomes realise or not, I do also hope that we retain as
+many as possible of the lessons we have been learning thanks to the pandemic.</p>
+<ul>
+<li>Mask-wearing and generally improved hygeine with the major goal of protecting
+our fellow humans are great habits.</li>
+<li>We have made great strides towards the future of work, where many workers (by
+far not all, but it&rsquo;s a good meaningful chunk) are able to commute less,
+pollute less, better organize the interaction of their work and family lives
+and, importantly, their work is measured by its value and not by the number
+of hours it takes place in.</li>
+<li>We humans are in this (today pandemic, tomorrow something else!) together.</li>
+</ul>
+<h3 id="lazar-focus-the-side-project-that-got-released">Lazar Focus: The side-project that got released</h3>
+<p>Around these parts we have a rich tradition of starting but then never
+finishing side-projects, and the concomitant giant side-project graveyard to
+show for it.</p>
+<p>This year, I did manage to ship the little distraction blocker tool I wrote,
+called <a href="https://lazarfocused.com/">Lazar Focus</a>. The <a href="/2020/05/31/weekly-head-voices-196-get-focused/#lazar-focus-the-super-tiny-windows-app-and-website-distraction-blocker-that-you-ve-always-wanted">first WHV mentioning was #196</a>.</p>
+<p>In addition to the fact that this little tool has ended up helping me to rescue
+many aspirant unproductive days, it has sold more than 10 copies, which was my
+life goal for this project.</p>
+<h3 id="the-pygmalion-effect">The Pygmalion effect</h3>
+<p>From Adam Grant&rsquo;s book Give and Take, I learned about the <a href="/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/#the-pygmalion-effect">Pygmalion effect</a>,
+where a teacher&rsquo;s <em>belief</em> in the intrinsic capabilities of a student, whether
+those were justified or not at the time, had a significant and enduring
+positive, one could say potentially life-changing, effect on that student&rsquo;s
+performance.</p>
+<p>Besides the bit about the Pygmalion effect, <a href="/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/">that post (WHV #201)</a> contains a
+micro-summary of the Shape Up book by Basecamp, which is also worth a look.</p>
+<h3 id="take-the-day-off-to-go-run-in-the-mountain">Take the day off to go run in the mountain</h3>
+<p>During the year, for example in <a href="/2020/09/12/weekly-head-voices-203-spiritual/#life-progress-update">WHV #203</a> when I took my birthday off to go
+running in the mountains, I learned that taking days off on the birthdays of you
+and your loved ones to go do stuff outdoors is a Great Idea(tm).</p>
+<p>(I also learned that sometimes you don&rsquo;t even need an excuse. Just take the day
+off and go run in the mountains.)</p>
+<h3 id="use-it-or-lose-it">Use it or lose it</h3>
+<p>The human system is amazingly adaptable.</p>
+<p>The price that we pay for that flexibility is that each and every one of our
+learned capabilities requires continuous practice in order to be maintained.</p>
+<p>In short humans, <a href="/2020/12/23/weekly-head-voices-212-use-it-or-lose-it/#use-it-or-lose-it">use it, or lose it</a>.</p>
+<h3 id="fool-your-mind">Fool your mind</h3>
+<p>I&rsquo;m making peace with the fact that I apparently need to apply, continuously,
+various silly tricks to keep <a href="/2020/10/10/weekly-head-voices-206-mount-ceder/#my-mind-is-a-slippery-eel">the slippery eel that is my mind</a> on the
+straight-and-narrow.</p>
+<p>As a shining example, <a href="/2020/11/07/weekly-head-voices-208-stilbaai/#back-to-reality-an-18-minute-plan-for-managing-your-day">the refocus reminder</a>, a bell that reminds you at hourly
+intervals to focus, indeed sounds a bit silly but adds a great deal of value.</p>
+<p>My favourite example from last year however is creating yet more (but smaller!)
+habits to kickstart my bigger habits, in this case a <a href="/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/#wetware-checklist-to-bootstrap-your-software-checklist">3-item morning checklist
+to kickstart the more daunting full day checklist</a>.</p>
+<p>The morning bootstrap checklist is, at the risk of sounding like a startup-bro:</p>
+<ol>
+<li>meditation,</li>
+<li>deep reading and</li>
+<li>planning.</li>
+</ol>
+<h2 id="blogging-stats">Blogging stats</h2>
+<p>Since February 17 of 2020 when I <a href="/2020/02/23/weekly-head-voices-189-all-systems-green/#the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server">migrated everything to a small Hetzner VPS</a>,
+the server log files tell me that cpbotha.net saw just over 157000 unique
+visitors, which is 492 per day on average.</p>
+<p>I wrote 30 posts on cpbotha.net during 2020, of which 25 were editions of the
+Weekly Head Voices.</p>
+<p>Thanks to the shiny new archive page I put together today, you can now finally
+<a href="/archive/#2020">see all of 2020&rsquo;s posts in one place</a>, or of any other year, should you be more
+into the older stuff.</p>
+<p>In addition to the cpbotha.net posts, I also published 11 posts over on
+<a href="https://vxlabs.com/">vxlabs.com</a>.</p>
+<p>In addition to the regular WHV posts, I&rsquo;m happy to have published what will
+hopefully be only the first in a whole collection of book notes posts, namely
+<a href="/2020/12/22/book-notes-creativity-inc/">Notes on the book &ldquo;Creativity, Inc.&rdquo; by Ed Catmull with Amy Wallace</a>.</p>
+<p>It&rsquo;s chunky at just over 7000 words, but it will give you a pretty good idea of
+the contents of the much more substantial book it is based on!</p>
+<h3 id="details-for-nerds">Details for nerds</h3>
+<p>This is the invocation I used to generate reports from the nginx log files
+using the <a href="https://goaccess.io/">goaccess</a> tool:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
+</span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
+</code></pre></div><h2 id="running">Running</h2>
+<p>In 2020 I seem to have run just 100 metres shy of 1100km. (Typical&hellip;)</p>
+<p>More would have been good, but I&rsquo;m happy with this.</p>
+<p>Exercise did take a bit of a hit due to <a href="/2020/04/13/weekly-head-voices-191-covid-19-part-2/#exercise">lockdown</a>, although I could definitely
+have squeezed more in.</p>
+<p>Whatever the case may be, the aggregated amount of enjoyment and satisfaction
+was astronomical.</p>
+<p>A personal highlight was <a href="/2020/10/24/weekly-head-voices-207-kogelberg/#random-notes-on-the-kogelberg-trail-adventure">running the 24km(ish) Kogelberg trail with a tiny
+crew that included two of my Dutch family members</a>.</p>
+<p>(These blog retrospectives are strange, because they are also life
+retrospectives, but they shouldn&rsquo;t get too personal. I would be remiss however
+if I did not mention that having these specific Dutch peeps here in 2020 was
+magical. I am going to miss them terribly.)</p>
+<p>Also thanks to said peeps, I did more trail running this year than ever before.</p>
+<p>It turns out that I am surrounded by beautiful trails. WHO KNEW?!</p>
+<p>The other highlight I want to mention was <a href="/about/weekly-head-voices-abbreviations">GOU#1</a> running her first race, the
+distributed <a href="/2020/11/07/weekly-head-voices-208-stilbaai/#running-and-reading">CTM 10km in Jonkershoek</a>. Here&rsquo;s to many more GOU kilometres!</p>
+<h2 id="mindfulness">Mindfulness</h2>
+<p>Thanks to some strict words by friend PK during the year, I got solidly back on
+the daily meditation train, which ended up being the start of a streak of
+(workday) morning meditation longer than anything I&rsquo;ve been able to maintain up
+to now.</p>
+<p>(The bootstrap checklist in <a href="#fool-your-mind">Fool Your Mind</a> above might also have contributed to
+this.)</p>
+<p>The Waking Up course by Sam Harris has been amazing for more than two years
+now, and even more so when trying to build and keep up a daily meditation
+habit.</p>
+<p>What I especially like about Waking Up is its focus on the explicit practice of
+the experience of consciousness and the role (or non-role) of the self within
+that. (for a tiny example, see <a href="/2020/10/24/weekly-head-voices-207-kogelberg/#find-a-place-in-the-universe-that-is-your-consciousness">WHV #207</a>)</p>
+<p>Practising this daily has been an experience that I can only recommend in the
+strongest terms.</p>
+<p>(Please let me know if you&rsquo;d like to try a month for free. As a subscriber, I
+get to give these out to as many peeps as I want to.)</p>
+<h2 id="life-systems-2021">Life Systems 2021</h2>
+<p>The WHV approach to life, the universe and everything (also known as &ldquo;WALUE&rdquo;,
+but you have to over-emphasize the terribly soft &ldquo;W&rdquo;) has been evolving for a
+few years now, but it was most recently summarised in <a href="/2020/06/16/weekly-head-voices-198-short-update-for-future-me/#post-scriptum-the-whv-approach-to-life-the-universe-and-everything">WHV #198</a>.</p>
+<p>At the basis of this approach we find the two formidable pillars of</p>
+<ol>
+<li><em>love</em> and</li>
+<li><em>science</em>,</li>
+</ol>
+<p>and in that order. On top of these pillars rest <a href="/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/">The WHV&rsquo;s Two no Three Rules
+for Achieving Great Success in Life, or Just Surviving, Whichever Comes First</a>.</p>
+<p>The two no three rules are:</p>
+<ol>
+<li>Be useful.</li>
+<li>Be likable.</li>
+<li>Evolve.</li>
+</ol>
+<p>In the previous transition post, I talked about <a href="/2020/01/12/the-2019-to-2020-transition-post/#plans-and-life-directions-for-2020">six personal daily life
+directions</a>, the continuous reformulation of which I had integrated into my
+morning routine.</p>
+<p>It was a good start, but the life directions were a bit too specific, and six
+separate things is too many to keep at the core of your thoughts.</p>
+<p>Motivated by this, and also by <a href="https://lexfridman.com/chris-lattner-2/">the Lex Fridman podcast with Chris Lattner</a>
+wherein Lattner, an amazing engineer, but more importantly such a kind human
+being, underlined the importance to him of always continuing to grow and learn,
+I mashed together everything I had to come up with two clusters of daily life
+directions:</p>
+<ol>
+<li>Grow, learn, build, enjoy. (motion)</li>
+<li>Be useful. Be likeable. Be kind. (self-checks)</li>
+</ol>
+<p>In the stupid-dimensional universe that is my mind, I know that these
+directions are obviously in the spirit of WALUE, but I can&rsquo;t yet articulate
+clearly how they relate to the pillars and the rules of WALUE.</p>
+<p>Maybe they&rsquo;re just a neat little pile on top, or a little bit to the side,
+leaning against the WALUE building?</p>
+<p>Whatever the case may be, they have been part of my daily checklist for a few
+months now, and they seem to work in the sense of being practical, checkable
+and tiny enough to keep in mind always.</p>
+<h2 id="plans--for-tomorrow-at-least">Plans (for tomorrow, at least)</h2>
+<p>This bit is quite scary.</p>
+<p>I hardly know what&rsquo;s going to happen tomorrow, and here I wanted to talk about
+plans for the whole year!</p>
+<p>So, to be clear, what I&rsquo;ve listed below is limited to the concrete items that I
+can see before me right now.</p>
+<h3 id="the-absolute-basics">The absolute basics</h3>
+<ul>
+<li>Attempt to apply <a href="#life-systems-2021">Life Systems 2021</a> all of the time.</li>
+<li>Practise mindfulness every day.</li>
+<li>If I&rsquo;m wondering whether I should go run, the answer is &ldquo;yes&rdquo;.</li>
+</ul>
+<h3 id="comms-upgrade">Comms upgrade</h3>
+<p>I would like to level up my communication game.</p>
+<p>Work from home is here to stay, and that&rsquo;s a good thing, but it has muffled my
+face-to-face communication modality, something that has had a profound impact
+on my full communication suite.</p>
+<p>Most of the clever folks now agree that <a href="/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/#the-future-of-work-episode-23">the correct answer is asynchronous
+communication</a>. Future-facing companies like Basecamp and <a href="https://blog.doist.com/asynchronous-communication/">Doist have been
+preaching this long before COVID-19</a>.</p>
+<p>To be more specific, I need to figure out first how to do asynchronous
+communication in my daily work, and then to become really good at it.</p>
+<h3 id="write-more-about-good-books">Write more about good books</h3>
+<p>I&rsquo;m planning to publish more focused book notes like the recently appeared
+<a href="/2020/12/22/book-notes-creativity-inc/">Creativity, Inc. post</a>.</p>
+<p>It&rsquo;s great reading these books, but I&rsquo;ve noticed that if I&rsquo;m planning to
+publish book notes, I read more intently, I take better notes, and the extra
+processing stage before starting to put together a blog post really helps me to
+integrate the knowledge contained in the book.</p>
+<p>Every good book one is able to integrate is in fact a cheap, but possibly
+game-changing firmware upgrade&hellip;</p>
+<h2 id="wishes-for-2021-for-you">Wishes for 2021, for you</h2>
+<p>Thank you for reading this. I am grateful that you&rsquo;re here.</p>
+<p>I wish you and everyone you hold dear the best 2021 possible.</p>
+<p>Quite concretely, we can all help to make this happen by being as kind as we
+possibly can to as many fellow humans as we possibly can.</p>
+<p>In the words of a fellow traveller: SMÉAGOL OUT!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #205: Real-time sometimes, asynchronous most of the time</title><link>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</link><pubDate>Sun, 20 Sep 2020 19:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</guid><description> This edition of the Weekly Head Voices looks back a the week from Monday September 14 to Sunday September 20 of the year 2020.
+Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!
+For the first time in months, this post is exactly on time. Whatever else happens in the rest of the post, timeousness is in the pocket!</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices looks back a the week from Monday
+September 14 to Sunday September 20 of the year 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="jonkershoek_pano_20200918.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!"/> </a><figcaption>
+            <p>Figure 1: Scene from a work get-together. It&rsquo;s really nice when you can get into these mountains any day of the week!</p>
+        </figcaption>
+</figure>
+
+<p>For the first time in months, this post is exactly on time. Whatever else
+happens in the rest of the post, timeousness is in the pocket!</p>
+<h2 id="the-uninformed-vs-privacy-preserving-covid-tracking">The uninformed vs privacy-preserving COVID tracking</h2>
+<p>(I would like to warn you that in this section, I get saltier than I&rsquo;ve been in
+years.</p>
+<p>People who were reading this blog more than 10 years ago will have noticed that
+I used to be salty a whole lot more often back then.</p>
+<p>Hopefully, this specific episode doesn&rsquo;t move this decade&rsquo;s dial by too much.)</p>
+<p>During <a href="https://citizen.co.za/news/covid-19/2359102/full-speech-sa-will-move-to-lockdown-level-1-as-midnight-20-september/">his address of September 16</a>, president Ramaphosa announced the further
+lifting of the national lockdown to level 1.</p>
+<p>Because I had been following the <a href="https://www.wired.com/story/apple-google-bluetooth-contact-tracing-covid-19/">surprising collaboration between Apple and
+Google on the anonymous disease exposure tracing</a> functionality in Android and
+iOS, my ears perked up when he requested that South Africans with smart phones
+install the COVID Alert mobile app:</p>
+<blockquote>
+<p>I want to make a call this evening to everyone who has a smartphone in South
+Africa to download the COVID Alert mobile app from the Apple App Store or
+Google Play Store.</p>
+<p>The app has been zero-rated by mobile networks, so you can download it without
+any data costs.</p>
+<p>Using Bluetooth technology, the app will alert any user if they have been in
+close contact with any other user who has tested positive for coronavirus in
+the past 14 days.</p>
+<p>The app is completely anonymous, it does not gather any personal information,
+nor does it track anybody’s location.</p>
+</blockquote>
+<p>I immediately checked it out on my iPhone, and was gratified to see that the
+app was well put-together, and made use of the privacy-respecting official
+infrastructure designed by Apple and Google.</p>
+<p>(<a href="https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models">Some countries</a> wasted millions of euros trying to build this by themselves,
+and then later had to switch gears, instead of just using Google and Apple&rsquo;s
+functionality from the get-go.)</p>
+<p>Because effective contact-tracing requires as many people as possible to
+install the app, I let a number of private chat groups know, and I even got
+back on twitter quite briefly to tweet:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SA Folks! Please install the COVID Alert South Africa app on your iPhone or Andoid. This 100% anonymous system, developed using the official Apple and Google APIs, helps enormously with contact tracing. iPhone: <a href="https://t.co/EE0J0Cd9ee">https://t.co/EE0J0Cd9ee</a> Android: <a href="https://t.co/HXkMl88oi0">https://t.co/HXkMl88oi0</a></p>&mdash; Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/1306494451460833281?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Imagine my surprise when I noticed a bit later that there was a bit of a furore
+online with people being openly suspicious of the app, up to offering all kinds
+of conspiracy theories as to how exactly the government was going to use this
+to monitor and/or control people.</p>
+<p>Interestingly, there appeared to be a pretty strong inverse correlation between
+technical know-how and level of suspicion.</p>
+<p>(Ironically, a large subset of the highly suspicious camp will experience difficulty
+understanding the above sentence. Probably also this sentence. Not sorry.)</p>
+<p>It is exasperating to me that when the SA government takes on a project like
+this (the tracking app), does it by the book and does a really good job of it,
+people respond this badly.</p>
+<p>While it is unfortunately true that the government has been doing a terrible
+job in terms of engendering confidence in its abilities and especially in its
+honesty, even going so far as to disappear millions of ZAR intended for
+personal protective equipment (!!), using that as an excuse to actively spread
+misinformation, and thereby prevent contact tracing from getting off the
+ground, is pretty hard to defend.</p>
+<p>(More than one of my mom&rsquo;s acquaintances (a term that is pushing the
+definition) have warned her that if she were to install the app, she was to
+remove them from all other contact media. I told her that this is a great way
+to cull her contacts list selectively, rendering a much more erudite address
+book.)</p>
+<p>Sorry folks, but when real scientific and technological progress is held back
+by this level of ignorance, I can get really salty.</p>
+<p>What would have been much better, would have been for said people to get the
+frick informed. It can&rsquo;t be that hard to find someone with the relevant
+know-how in any social circle.</p>
+<p>Fortunately, some local folks have been doing their best making good information
+accessible:</p>
+<ul>
+<li><a href="https://medium.com/@gvrooyen%5F22259/the-masquerade-ball-how-covid-19-bluetooth-tracking-works-b3f5960b8ac8">The Masquerade Ball – How COVID-19 Bluetooth tracking works</a> by Prof G-J van
+Rooyen is a great explanation of the finer details in an easy-to-follow
+format.</li>
+<li><a href="https://www.explain.co.za/2020/09/15/explainer-should-i-download-the-new-contact-tracing-app/">EXPLAINER: Should I download the new contact tracing app?</a> by Aarti Bhana at
+explain.co.za makes clear that you can and should install this app, but also
+discusses the fact that the government should have been doing much better in
+terms of dissemination.</li>
+</ul>
+<p>One could blame this on lacking education, and on the government not doing
+their best either, but a large part of the responsibility comes down to normal
+people, with no excuse not to have educated themselves, simply letting their
+primitive instincts absolve them of any critical thinking.</p>
+<p>I welcome your thoughts in the comments.</p>
+<h2 id="the-future-of-work-episode-23">The future of work, episode 23</h2>
+<p>Just like thousands of other companies, we went from &ldquo;yeah, we&rsquo;ve read about
+remote working and we should look into it more when we can make the time&rdquo; to
+&ldquo;100% fully remote what is this office-thing you speak of?&rdquo; from one day to the
+next when our hard lock-down started back in March.</p>
+<p>A few months in, and it seems that most of the whole 70-person company would
+not be surprised if we remain fully remote.</p>
+<p>I think that many of us, especially the engineers, really appreciate this new
+mode of operation where we have a substantially larger part of the day to work,
+and where it has become theoretically (ahem) easier to cordon off blocks of
+focus time.</p>
+<p>Some of us are thinking about ways to further improve and streamline our remote
+working process.</p>
+<p>During one of my research sessions (or was it me aimlessly browsing because I
+had become distracted during a particularly long afternoon&hellip;), I ran into the
+following post by <a href="https://basecamp.com/">the BaseCamp company</a>, previously known as <a href="https://37signals.com/">37signals</a>:</p>
+<p><a href="https://basecamp.com/guides/group-chat-problems">Group Chat: The Best Way to Totally Stress Out Your Team</a></p>
+<p>As is typical for BaseCamp&rsquo;s writing, this is a really great article, in this
+case looking specifically at the drawbacks of real-time company chat.</p>
+<p>In our case, we migrated from Google&rsquo;s GSuite to Office365 (because much more
+bang for the buck) right when COVID hit, and so we found ourselves in the
+wonderful world of Microsoft Teams.</p>
+<p>So far, we have had a pretty stellar experience.</p>
+<p>As a company-wide real-time chat and video meeting platform, Teams does its job
+well.</p>
+<p>However, real-time chat has a number of fundamental problems, most of which are
+super recognizably (and humorously) discussed in the linked post.</p>
+<p>For example:</p>
+<blockquote>
+<p>Group chat is like being in an all-day meeting, with random participants, and
+no agenda.</p>
+</blockquote>
+<p>Does this ring any bells for any of you?</p>
+<p>I hope that you can make time to read the article, but an important part of
+their answer to the real-time chat problem is:</p>
+<blockquote>
+<p>Real-time sometimes, asynchronous most of the time.</p>
+</blockquote>
+<p>At BaseCamp, they implement this idea with message boards where people post
+longer form messages that can be responded to with longer-form replies. These
+threads are attached to the object where they are most relevant, for example a
+project, or a to-do, and so on.</p>
+<p>The word &ldquo;thoughtful&rdquo; also stuck in my mind.</p>
+<p>Instead of the rapid-fire, often glib, responses you see in real-time chat,
+BaseCamp tries to encourage thoughtful, considered messages and replies that
+are accessible to anyone who might need them (unlike email) when viewing the
+project, to-do or issue in question</p>
+<p>The post further talks about changes both to one&rsquo;s conventions, but also to
+one&rsquo;s tools, as the latter can be effectively used to guide the former.</p>
+<p>In this light, it&rsquo;s interesting to note that many of my most pleasant online
+interactions have recently been taking place on github issues, whereas the
+real-time chat platforms I spend time on sometimes have the tendency to cause
+anxiety.</p>
+<p>I have not yet read and measured enough, but I am very curious as to whether
+some of these techniques could be implemented in my workplace, and how they
+could contribute to a constructive and effective communication environment.</p>
+<p>Please let me know in the comments if you have experience with any of this in
+your environment!</p>
+<h2 id="in-a-while-crocodile">In a while crocodile</h2>
+<p>Friends, have a great week!</p>
+<p>I wish you an abundance of calm, and of effective communication.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #198: A short update for future me</title><link>https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/</link><pubDate>Tue, 16 Jun 2020 11:51:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/</guid><description> Figure 1: Evening walk with the fam-jam up a familiar mountain route after a failed attempt at finding the start of a far more spectacular but unfamiliar route.
+I was planning to skip a week, because a whole blog post about the work that has been filling my days is really no fun at all.
+However, after a good night&amp;rsquo;s sleep, my mind changed itself, as it is wont to do, and in the morning gave the advice that future me would in fact be quite interested to look back into these times.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="sunset_walk.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Evening walk with the fam-jam up a familiar mountain route after a failed attempt at finding the start of a far more spectacular but unfamiliar route."/> </a><figcaption>
+            <p>Figure 1: Evening walk with the fam-jam up a familiar mountain route after a failed attempt at finding the start of a far more spectacular but unfamiliar route.</p>
+        </figcaption>
+</figure>
+
+<p>I was planning to skip a week, because a whole blog post about the work that
+has been filling my days is really no fun at all.</p>
+<p>However, after a good night&rsquo;s sleep, my mind changed itself, as it is wont to
+do, and in the morning gave the advice that future me would in fact be quite
+interested to look back into these times.</p>
+<p>So here we are, in the probably shorter-than-average 198th edition of the
+Weekly Head Voices, ostensibly covering the week from Monday June 8 to Sunday
+June 14. 2020.</p>
+<h2 id="how-will-2020-go-down-in-history">How will 2020 go down in history?</h2>
+<p>I wonder if in the future we will have some interesting name for 2020, or for
+the era that 2020 ushered in?</p>
+<p>The following tweet by Peter Kolchinsky, virologist and biotech investor,
+struck a chord with me:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think 2020 will be
+remembered as the year politics tried to bend science &amp; nature yet they
+just wouldn’t bend. Whether it’s how the virus spreads or which vaccines and
+drugs work, the truth is waiting to be discovered with proper scientific
+method, not punditry.</p>&mdash; Peter Kolchinsky
+(@PeterKolchinsky) <a href="https://twitter.com/PeterKolchinsky/status/1272337332402884608?ref_src=twsrc%5Etfw">June
+15, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>I really hope that he&rsquo;s right.</p>
+<p>In this, COVID-19 is a lot like science, except that it&rsquo;s a whole lot less
+forgiving:</p>
+
+
+
+
+
+
+
+
+<figure>
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/science_and_your_beliefs.jpg"
+            
+
+        /> 
+</figure>
+
+<p>I am scientifically extremely curious to see how all of this plays out, as the
+heads of denialists (of any kind) are known to consist of some of the densest
+materials in the universe.</p>
+<p>Let us wait and see!</p>
+<h3 id="aside-longevity-of-twitter-citations-in-this-blog">Aside: Longevity of Twitter citations in this blog</h3>
+<p>Just to allay your fears, fictitious reader, and mine, I have just
+double-checked: If twitter were ever to disappear completely from the internet,
+the text of the above tweet is embedded in this blog and will remain readable.</p>
+<p>I don&rsquo;t know what the chances of twitter disappearing are, but one has to
+remember that it&rsquo;s only been around since 2006, although it feels like it&rsquo;s
+been part of the universe forever.</p>
+<p>For those of you who find such things interesting, my late joining in 2009 is
+of course <a href="/2009/04/04/when-the-going-gets-tough/">documented in a post on this blog</a>.</p>
+<h3 id="how-we-are-personally-doing">How we are personally doing</h3>
+<p>It was the main motivation for deciding to write this post, but I&rsquo;m hiding this
+short piece away here in a subsection.</p>
+<p>With us as a family it&rsquo;s going as well as it possibly could, under the
+circumstances.</p>
+<p>We have each other, and we appreciate each other. We have made our home as
+comfortable as possible, because we are serious about physical distancing as
+much as possible.</p>
+<p>We are super grateful for what we have, and we are acutely aware of the fact
+that most people don&rsquo;t have it this good.</p>
+<p>GOU#1 sometimes struggles a bit with the fact that some of her friends are out
+socializing, when we, the science-based parents, are sticking more closely to
+the guidelines.</p>
+<p>South Africa is currently at 73533 confirmed cases with 1568 deaths (2.1% <a href="https://ourworldindata.org/covid-mortality-risk">CFR,
+or Case Fatality Rate</a>).</p>
+<p>The whole province of the Western Cape (where we live) is responsible for a
+disproportionately large part of those figures: 42892 cases and 1111 deaths.</p>
+<p>In addition, we are fortunate enough to have grandma living with us, so we are
+playing it as safe as we can. (Grandma is one of the healthiest, fittest 74
+year olds that you could ever run into.)</p>
+<p>Dear GOU#1 in the future: You were already so graceful and understanding
+in 2020. Hopefully when future you reads this, you&rsquo;ll be reminded that we
+mostly have good reasons for what we do.</p>
+<h2 id="on-engineers-being-right-and-being-nice">On engineers, being right and being nice</h2>
+<p>If you have an engineer in your life, this should ring bells, quite loudly:</p>
+
+
+
+
+
+
+
+
+<figure>
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/arguing_with_an_engineer_hu88272c4f7339ec6f85b7ef50bd009825_28467_480x0_resize_q75_box.jpg 480w,
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/arguing_with_an_engineer.jpg"
+            
+
+        
+            alt="Arguing with an Engineer is a lot like wrestling in the mud with a pig, after a couple of hours you realize the pig likes it."/> 
+</figure>
+
+<p>Yes, we love arguing.</p>
+<p>Fortunately, the goal is usually not to win, but to reach the best answer.</p>
+<p>If you&rsquo;ve had a good argument with your team about some issue, and the winning
+configuration was implemented, that engineering decision has a pretty good
+motivation behind it.</p>
+<p>More importantly, it usually has the buy-in of the team.</p>
+<p>All of that being said, during the recent months a mis-remembered yet more
+appropriate version of a quote has been slowly but surely integrating with the
+latest version of my wetware.</p>
+<p>(That&rsquo;s nerd-speak for: &ldquo;I&rsquo;m really trying to apply this life guideline more
+consistently my fellow humans&rdquo;.)</p>
+<p>The original quote is the following:</p>
+<blockquote>
+<p>They may forget what you said — but they will never forget how you made them
+feel. &ndash; Carl W. Buehner</p>
+</blockquote>
+<p>(It has often been mis-attributed, most notably to <a href="https://en.wikipedia.org/wiki/Maya%5FAngelou">Maya Angelou</a>, but <a href="https://quoteinvestigator.com/2014/04/06/they-feel/">Quote
+Investigator</a> says it&rsquo;s most probably due to Buehner.)</p>
+<p>My mis-remembered version is as follows:</p>
+<blockquote>
+<p>People will quickly forget whether you were <em>right</em> or <em>wrong</em>, but they will
+never forget how you made them feel.</p>
+</blockquote>
+<p>I&rsquo;m just going to leave that there.</p>
+<h2 id="post-scriptum-the-whv-approach-to-life-the-universe-and-everything">Post Scriptum: The WHV approach to life, the universe and everything</h2>
+<p>It <em>just</em> occurred to me that the core philosophy I teach my GOUs rests on
+two main pillars: Love and Science.</p>
+<p>That ordering is deliberate, as love sometimes has to override science, just
+like being kind sometimes has to override being right.</p>
+<p>As a reminder, <a href="/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/"><em>The WHV&rsquo;s Two no Three Rules for Achieving Great Success in
+Life, or Just Surviving, Whichever Comes First</em></a> rests on top of those
+pillars. The rules are:</p>
+<ol>
+<li>Be useful.</li>
+<li>Be likable.</li>
+<li>Evolve.</li>
+</ol>
+]]></content:encoded></item><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
+The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.
+This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="stilbaai-preekstoel-panorama.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown."/> </a><figcaption>
+            <p>Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.</p>
+        </figcaption>
+</figure>
+
+<!--
+2020-05-02 21:38 Boiler Room Solomun 2015 playing on the second screen while
+I'm typing this.  I was hoping to understand why this has 43M views, and my
+favourite boiler room of all time, Maceo Plex in Berlin in 2015, has "only"
+11M.
+
+Let me know in the comments if you read this. :)
+-->
+<p>The Weekly Head Voices #193 looks back at the three weeks from Monday April 12
+to Sunday May 2.</p>
+<p>This post has a strong nerd flavour. If that is not your inclination, please
+use the table of contents (to your right) to navigate to the bits that you do
+find interesting.</p>
+<p>If you&rsquo;re in a rush, and can only select one section, I would recommend <a href="#the-amazing-niklas-luhmann-and-his-zettelkasten">the
+one on Niklas Luhmann</a>.</p>
+<p>Have fun!</p>
+<h2 id="covid-19-status-update">COVID-19 status update</h2>
+<p>On Friday, May 1, <a href="https://www.businessinsider.co.za/lockdown-level-4-what-is-now-allowed-2020-4">the South African lockdown was slightly lifted from level 5
+to level
+4</a>.</p>
+<p>This means that a part of the workforce will start returning to work, and that
+citizens are allowed slightly more freedom of movement.</p>
+<p>If safety had been the only requirement, we should probably have had to
+continue with level 5 for a while longer, but that darned economy unfortunately
+also has to be kept afloat.</p>
+<p>In spite of this, I was super pleased to read the following:</p>
+<blockquote>
+<p><strong>Masks are obligatory.</strong> Everyone has to wear cloth face masks outside their
+homes. If you don&rsquo;t yet have a cloth mask, you can wear a scarf or a t-shirt
+wrapped around your mouth and nose, says Dlamini-Zuma.</p>
+</blockquote>
+<p>This might end up being the thing that gets us through this in something that
+resembles one piece.</p>
+<p>The second announcement I was super happy with, was that we would be allowed
+outside for exercise between 6 and 9 in the mornings.</p>
+<p>So on Saturday morning I went out for my first post-level-5 run, ON THE
+OUTSIDE. (It does feel strange going out on the street for the first time in
+five weeks.)</p>
+<p>The majority of people I saw actually had some form of face mask going on.</p>
+<p>I had expected otherwise, because doing cardiorespiratory exercise with a mask
+on is not easy, and people can be stubborn.</p>
+<p><a href="https://www.runnersworld.com/advanced/a20842404/product-review-buff-headwear/">Buffs</a>
+are these fantastically useful &ldquo;seamless tubular garments made from
+high-performance microfibre&rdquo; that many runners swear by.</p>
+<p>Well, it turns out you can <em>also</em> use them as as-running-proof-as-possible face
+masks:</p>
+
+
+
+
+
+
+
+
+<figure><a href="cpbotha_running_with_buff_mask.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/cpbotha_running_with_buff_mask_hu815c169f7dc006fef835eddef66e09fe_118854_480x0_resize_q75_box.jpg 480w,
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/cpbotha_running_with_buff_mask.jpg"
+            
+
+         width="240"/> </a>
+</figure>
+
+<p>Pro-tip: If there&rsquo;s a runner in your life, and you&rsquo;re on the lookout for a
+gift, just get them a buff. You can <em>never</em> have too many buffs.</p>
+<h2 id="gou-2-is-10">GOU #2 is 10</h2>
+<p>My most favourite middle child in the whole world recently hit the double
+digits, and she was suitably chuffed with this.</p>
+<p>It must be strange experiencing your 10th birthday under these truly surreal
+conditions.</p>
+<p>On the other hand, when you&rsquo;re 10, you probably don&rsquo;t dwell on thoughts like
+that for too long.</p>
+<h2 id="miscellaneous-catch-up">Miscellaneous catch-up</h2>
+<p>In the past weeks, I wrote a number of other blog posts, started a new blog,
+and discovered an obscure but fantastic new blogging tool.</p>
+<p>Oh, and my expensive ergonomic keyboard broke.</p>
+<h3 id="fantastic-blogging-tools-and-where-to-find-them">Fantastic blogging tools and where to find them</h3>
+<p>It all started when I finally got around to exploring
+<a href="https://ox-hugo.scripter.co/">ox-hugo</a>, the Emacs package for writing Hugo
+posts using Org mode.</p>
+<p>You might not recall this, but the mere <em>existence</em> of <a href="/2019/03/31/wordpress-to-hugo/#build-and-upload-the-new-static-hotness">ox-hugo was the reason
+I chose
+Hugo</a>
+when it was time to leave Wordpress behind.</p>
+<!--
+Hey there friends reading these hidden messages!
+
+There are multiple explicit and implicit streams of connection running through
+these channels and it's lovely.
+
+Anyways, it is now 22:44 and I finished the Solomun boiler room set.
+
+There are indeed so many stories happening in those frames, many of which will
+only become apparent after more viewings.
+
+I'm now back to the Maceo Plex set, with a smile of recognition on my face.
+-->
+<p>Well, it turns out that, <em>if</em> you&rsquo;re an Emacs Org mode user, ox-hugo is pretty
+close to blogging nirvana.</p>
+<p>In the past few days, I&rsquo;ve used it to turn arbitrary Org mode entries from my
+month journal into blog posts, to send the exact same Org mode file to two
+different blogs with different sets of title and metadata, and to assert
+Neo-in-the-matrix-style control over what goes where and how.</p>
+<p>If I have to put my finger on the core of ox-hugo&rsquo;s extreme utility, I would
+say that <a href="https://github.com/kaushalmodi">Kaushal Modi</a>, the brains behind
+ox-hugo, has managed to create a perfect coupling between Org mode on the one
+hand and Hugo on the other, a coupling that maximally leverages the strengths
+of each.</p>
+<p>(I will probably be writing more about this, but &hellip; elsewhere. <em>[queue
+suspenseful music here]</em>)</p>
+<h3 id="other-mostly-very-nerdy-blog-posts">Other mostly very nerdy blog posts</h3>
+<p>As part of the ox-hugo investigation, I had to figure out how to <a href="https://vxlabs.com/2020/04/26/cite-consistently-between-org-ref-and-ox-hugo/">cite
+consistently between straight Org mode and
+ox-hugo</a>
+for automatic bibtex-backed bibliographies.</p>
+<p>Inspired by friend <a href="https://mentat.za.net/blog/2020/04/28/voice-capture-org-tasks-on-android/">Stéfan&rsquo;s post on voice capturing and automatically
+transcribing notes to Org
+mode</a>,
+I figured out how to <a href="https://orgmode-exocortex.com/2020/04/30/voice-capture-org-mode-notes-and-more-using-siri-shortcuts-on-ios/">do the same on iOS and wrote it all
+up</a>.</p>
+<p>If you clicked on that second link, you will have discovered my brand new blog,
+the hopefully catchily titled <a href="https://orgmode-exocortex.com/">Org Mode
+Exocortex</a>. I will be posting <em>ultra</em>-nerdy Emacs
+Org mode content over there.</p>
+<p>(Friend Stéfan is the very first guest blogger, with a re-post of his Android
+speech recognition post linked above. BTW, that was my first guest blogging
+experience ever. Life for the Z-list blogger does not move fast.)</p>
+<p>Finally, also thanks to ox-hugo&rsquo;s motivation, I figured (haha, now I see what I
+did there) out how to make and publish a new <a href="/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/"><code>figure</code> shortcode for Hugo that
+automatically resizes images and gets your browser to download only the best
+one</a>!</p>
+<h3 id="microsoft-sculpt-ergonomic-desktop-at-4-years-rip">Microsoft Sculpt Ergonomic Desktop at 4 years: RIP</h3>
+<p>After all of that good news, I do have to report the following not-so-great news:</p>
+<p>After just under four years of approximately one half of my typing, the
+<a href="/2016/05/22/weekly-head-voices-107-balance/">Microsoft Sculpt Ergonomic keyboard I welcomed into my home at the start of
+May of 2016</a>, has developed a key
+failure.</p>
+<p>More specifically, the physical &ldquo;G&rdquo;, which is my &ldquo;I&rdquo; (thanks
+<a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout">Dvorak</a>), fails about
+30% of the time, with that duty cycle slowly growing.</p>
+<p>(You may bring your jokes about why specifically the &ldquo;I&rdquo; is failing first to
+the comment section below!)</p>
+<p>I opened up the keyboard following <a href="http://emmanuelcontreras.com/how-to/how-to-disassemble-microsoft-sculpt-ergonomic-keyboard-and-make-it-wired/">the instructions and photos of Emmanuel
+Contreras</a>.</p>
+<p>(What I can add to Contreras&rsquo;s information, is that the palm rest is held fast
+by no less than 12 little screws, some odd-sized. Pro-tip: When you remove all
+of these, put them down in the same pattern as the holes, so that you can get
+them back in later.)</p>
+<p>However, one unfortunately ends up at the metal backing which is attached to
+the top-plate with about 30 or more plastic pop-rivet like mechanisms.</p>
+<p>Information online also seems to indicate that once a single key goes, you have
+to replace the whole board.</p>
+<p>Some more searching brought me to <a href="https://youtu.be/x09inK8-G1Y">this obscure but helpful YouTube
+review</a> where Kevin explains that although
+everyone at his company loved the keyboard, they had simply accepted it as part
+of their business expense to replace them every 6 months to a year.</p>
+<p>If you search through <a href="https://www.amazon.com/Microsoft-Ergonomic-Keyboard-Business-5KV-00001/product-reviews/B00CYX26BC/ref=cm_cr_arp_d_viewopt_kywd?pageNumber=1&amp;filterByKeyword=durability">the Amazon reviews for
+&ldquo;durability&rdquo;</a>,
+it really starts to look like a case of a fantastic keyboard marred by issues
+with its durability.</p>
+<p>However, if you need a relatively affordable &ldquo;ergonomic&rdquo; keyboard, where with
+&ldquo;ergonomic&rdquo; I mean shaped in such a way that your wrists get to stay more or
+less straight while typing, with really great feel and low-impact typing, the
+Sculpt comes out on top.</p>
+<p>Although it goes against my grain, I should probably be happy with the above
+average 4 years that this one managed, and start finding a local source for its
+inevitable replacement.</p>
+<p>Nerds in the audience: I am very curious to hear about your keyboard
+preferences in the comments. Let&rsquo;s go!</p>
+<h2 id="two-lessons-learnt-from-how-to-take-smart-notes">Two lessons learnt from How to Take Smart Notes</h2>
+<p>On March 31 I quickly read through <a href="https://www.goodreads.com/en/book/show/34507927-how-to-take-smart-notes">Sönke Ahrens&rsquo;s book, How to Take Smart
+Notes</a>.</p>
+<p>(The full title is actually &ldquo;How to Take Smart Notes: One Simple Technique to
+Boost Writing, Learning and Thinking &ndash; for Students, Academics and Nonfiction
+Book Writers&rdquo;)</p>
+<h3 id="the-most-portable-cross-platform-ebook-format-with-self-contained-annotations-is">The most portable cross-platform ebook format with self-contained annotations is&hellip;</h3>
+<p>I bought the Kindle book on Amazon, because that&rsquo;s how I&rsquo;ve been doing it for
+years.</p>
+<p>However, although I prefer reading novels on my Kindle e-Ink device, for
+reference works it&rsquo;s a deal breaker that my highlights and notes are not in a
+standards compliant format that integrates nicely with <a href="/2019/09/21/note-taking-strategy-2019/">my existing personal
+knowledge management system</a>.</p>
+<p>My goal was to find an alternative format for these books with the following features:</p>
+<ul>
+<li>Before you answer PDF, which I use extensively for academic papers, typeset
+books, and many other things: The alternative format should be fully
+reflowable, like the source Kindle book.</li>
+<li>Readable and annotations editable on all my non-Kindle devices (Windows,
+Linux, macOS, iOS).</li>
+<li>Most importantly: Flexible annotations, including at least highlighting and
+positional notes, that are stored within the file itself, so they can never
+be lost.</li>
+</ul>
+<p>I didn&rsquo;t expect this to be too much of a challenge.</p>
+<p>I was wrong.</p>
+<p>After a number of hours spent spelunking down a number of different
+rabbit-holes, with epub3 being the greatest disappointment (the spec has all
+the features, but the implementations largely lack good annotation support), I
+ended up in a place where you probably would not expect to find me&hellip;</p>
+<p>Dear readers, the best format that satisfies all requirements above
+is&hellip; <code>&lt;FRITS_DRUMROLL /&gt;</code> &hellip; <strong>Microsoft DOCX</strong>!</p>
+<p>Since then, I&rsquo;ve been DeDRM&rsquo;ing (google it) the Kindle reference books I
+purchase in order to be able to read and annotate them across all my platforms.</p>
+<p>For this, the iPad is pretty great.</p>
+<p>Once read, the DOCX files, including all of the annotations I made, are stored
+in the correct place in my synchronised file hierarchy, and are fully
+searchable and accessible with standard tools.</p>
+<h3 id="the-amazing-niklas-luhmann-and-his-zettelkasten">The amazing Niklas Luhmann and his Zettelkasten</h3>
+<p>The book itself, <em>How to Take Smart Notes</em>, spends well-deserved time on the
+phenomenon that was the prodigiously productive German sociologist Professor
+<a href="https://en.wikipedia.org/wiki/Niklas_Luhmann">Niklas Luhmann</a>.</p>
+<p>Over his career, Prof. Luhmann wrote more than 70 books and published almost
+400 research articles.</p>
+<p>He made a massive impact on the world of sociology and systems theory.</p>
+<p>When asked in <a href="https://www.uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt_zettelkasten-als-uberraschungsgenerator.pdf">a 1997
+interview</a>
+how he managed to this productive, he answered:</p>
+<blockquote>
+<p>&ldquo;Ich denke ja nicht alles allein, sondern das
+geschieht weitgehend im Zettelkasten. [&hellip;]
+Meine Produktivität ist im wesentlichen aus dem
+Zettelkasten-System zu erklären. [&hellip;]
+Der Zettelkasten kostet mich mehr Zeit als das
+Bücherschreiben</p>
+</blockquote>
+<p>Translated this is probably something like (German readers, help me out here
+please):</p>
+<blockquote>
+<p>I don&rsquo;t think everything by myself, but that largely happens in the slip box. [&hellip;]
+My productivity is essentially due to that slipbox system. [..]
+The slipbox costs me more time than that writing books</p>
+</blockquote>
+<p>The <em>zettelkasten</em> he referred to were quite simply a set of wooden slipboxes,
+in which he could store pieces of paper (the &ldquo;slips&rdquo;), each of which had a
+single idea written on it.</p>
+<p>It looked more or less exactly like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://niklas-luhmann-archiv.de/">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_800x0_resize_q75_box.jpg 800w,
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Photo of Luhmann&amp;rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv."/> </a><figcaption>
+            <p>Photo of Luhmann&rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv.</p>
+        </figcaption>
+</figure>
+
+<p>Over the course of his career, he managed to write about 90000 (yes, ninety
+thousand) of these notes, all of which you can now <a href="https://niklas-luhmann-archiv.de/">browse online at the Niklas
+Luhmann-Archiv</a>.</p>
+<p>Importantly, he had come up with an ingenious numbering system for linking each
+new note to its chain of predecessors, and also to other related chains
+anywhere in the zettelkasten.</p>
+<p>When it was time to write a book or a paper, he would dive into his this
+collection, and then take a stroll through his amazing web of interlinked
+thoughts, some of them having matured for years.</p>
+<p>Putting together the publication became an exercise in harvesting index cards
+from his slipboxes, instead of a positively intimidating mountain of writing,
+thinking and rewriting.</p>
+<p>This is such a boss-level example of the principle of
+<a href="https://cpbotha.net/tags/compounding/">compounding</a>, and one which is
+definitely worth trying to follow.</p>
+<p>Since reading Ahrens&rsquo;s book, I have started extending <a href="/2019/09/21/note-taking-strategy-2019/">my existing note-taking
+universe</a> to be more Zettelkasten-like,
+when appropriate.</p>
+<p>Org mode is a great basis for this, and packages like
+<a href="https://github.com/jethrokuan/org-roam">org-roam</a> help us to get closer to our
+90-thousand-notes-dreams.</p>
+<p>On a higher level, I have been thinking and writing a great deal about how to
+merge effectively the Zettelkasten one-idea-per-note approach into the full
+spectrum of writing complexity that Org mode supports.</p>
+<p>It is important to be mindful of the <em>mode</em> of documentation that you need to
+apply at any give point.</p>
+<p>If you want to read more about the Luhmann&rsquo;s Zettelkasten, <a href="https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125">this Writing
+Cooperative article in
+English</a>
+and <a href="https://www.heise.de/newsticker/meldung/Missing-Link-Luhmanns-Denkmaschine-endlich-im-Netz-4364512.html">this Heise article in
+German</a>
+are a great start.</p>
+<p>This might not be the last time that you&rsquo;ll hear me talking about Luhmann and
+his Zettelkasten.</p>
+<h2 id="uitzwaaien">Uitzwaaien</h2>
+<p>Thank you friends for reading this and connecting with me here!</p>
+<p>I look forward to our next meeting.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #192: COVID-19 part 2.</title><link>https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/</link><pubDate>Mon, 13 Apr 2020 11:09:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/</guid><description> A scene from Stilbaai, my number one favourite new vacation destination, taken on the morning after the lockdown had been announced. We were extremely fortunate to spend our last day of freedom in a place like this. Greetings, fellow humans!
+It&amp;rsquo;s 16:15 (UTC+2) on Sunday afternoon as I sit here writing this.
+The post seems to be mostly planned out, with fragments of text strewn around the editor window right below this sentence.</description><content:encoded><![CDATA[ <figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/stilbaai_preekstoel.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/stilbaai_preekstoel_hu6ea1a8fe0f433c89b3ea1d175aa8c0a6_1088132_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/stilbaai_preekstoel_hu6ea1a8fe0f433c89b3ea1d175aa8c0a6_1088132_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/stilbaai_preekstoel_hu6ea1a8fe0f433c89b3ea1d175aa8c0a6_1088132_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/stilbaai_preekstoel_hu6ea1a8fe0f433c89b3ea1d175aa8c0a6_1088132_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/04/13/weekly-head-voices-191-covid-19-part-2/stilbaai_preekstoel_hu6ea1a8fe0f433c89b3ea1d175aa8c0a6_1088132_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+A scene from Stilbaai, my number one favourite new vacation destination, taken
+on the morning after the lockdown had been announced. We were extremely
+fortunate to spend our last day of freedom in a place like this.
+</figcaption>
+</figure>
+<p>Greetings, fellow humans!</p>
+<p>It&rsquo;s 16:15 (UTC+2) on Sunday afternoon as I sit here writing this.</p>
+<p>The post seems to be mostly planned out, with fragments of text strewn around
+the editor window right below this sentence.</p>
+<p>With sheer luck, I&rsquo;ve managed to find music that interacts well with my current
+mood trajectory (finding <em>the right music</em> seems like a truly hard problem),
+and at this moment I&rsquo;m still hopeful that I might also have found <a href="/tags/pomodoro/">one whole
+pomodoro</a> to work with here.</p>
+<p>We are living through some of the most surrealistic times I have ever
+experienced.</p>
+<p>For friends, for other curious observers and for posterity I think it&rsquo;s now an
+even better idea than usual to write down at least some of my observations.</p>
+<p>On that note, the older I get, the more clearly I see how the idea of a unified
+&ldquo;I&rdquo; going through life is nothing more than an illusion, albeit seemingly
+well-made.</p>
+<p>In 2014 I <a href="/2014/05/07/weekly-head-voices-70-patterns-in-the-sand/">wrote about us being patterns continuously shifting in the sands of
+the universe</a>.</p>
+<p>Back then, at least if I can go by my writing, it was a dawning
+realisation. Now it has become Captain Obvious territory.</p>
+<p>ANYWAYS</p>
+<p>In this post, I look back at the period of time from Wednesday March 25 to
+Sunday April 11.</p>
+<h2 id="lockdown-extension">Lockdown extension.</h2>
+<p>The South African national lockdown started at midnhight on Thursday, March 26
+and would continue for three weeks until April 16.</p>
+<p>Of course this virus wasn&rsquo;t magically going to give up and go home after
+exactly three weeks.</p>
+<p>Just like everyone else, we were only buying time, and I&rsquo;m super happy that we
+started when we did.</p>
+<p>We know <em>much</em> more now than we knew then. In three weeks more, we&rsquo;ll know even
+more.</p>
+<p>Whatever the case may be, I&rsquo;ve never before seen the whole of South Africa work
+together this well.</p>
+<p>There is certaintly some dissent, but by and large the measures seem to be
+working, and the curve looks like it is flattening for us.</p>
+<p>(There will <em>of course</em> be those, as there always are, who will claim that it
+was all much ado about nothing&hellip;)</p>
+<p>Although we sort of saw it coming, it was still quite something hearing on
+Friday evening, April 10, that the national lockdown would be extended to April
+30.</p>
+<h2 id="masks4all">#Masks4All</h2>
+<p>On March 30, I &ldquo;joined&rdquo; the twitter #masks4all campaign by doing my little bit
+to try and convince people everywhere that if <strong>all</strong> of us started wearing
+home-made (the good stuff is for the healthcare workers yo!) masks as a rule,
+it would contribute substantially to preventing the virus from spreading.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">South Africans, how do
+we get our leaders and their advisors to look into <a
+href="https://twitter.com/hashtag/Masks4All?src=hash&amp;ref_src=twsrc%5Etfw">#Masks4All</a>
+as a way to end this lockdown *safely* and get the economy back into action
+again? See e.g. <a href="https://t.co/iCMNAwAJhr">https://t.co/iCMNAwAJhr</a>
+for a summary. <a
+href="https://twitter.com/DrZweliMkhize?ref_src=twsrc%5Etfw">@DrZweliMkhize</a>
+<a
+href="https://twitter.com/PresidencyZA?ref_src=twsrc%5Etfw">@PresidencyZA</a>
+<a
+href="https://twitter.com/nicd_sa?ref_src=twsrc%5Etfw">@nicd_sa</a></p>&mdash;
+Charl Botha 😷 #Masks4All (@cvoxel) <a
+href="https://twitter.com/cvoxel/status/1244511197921185792?ref_src=twsrc%5Etfw">March
+30, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>I find this extra important, because it could play a really important role,
+together with physical distancing, hand-washing and more, in how we end the
+lockdown safely and get our already-less-than-robust economy back up and
+running.</p>
+<p>At the start it felt like no-one was listening, and I was getting anxious.</p>
+<p>SOMEONE WAS WRONG ON THE INTERNET, AND THIS TIME IT WAS SERIOUS!</p>
+<p>It really did not help that the <a href="https://www.westerncape.gov.za/gc-news/147/54065">official line of the Western Cape Health
+Department on March 29 was warning <em>against</em> masks and
+gloves</a>. (I&rsquo;ve archived the
+statement in case anyone loses it.)</p>
+<p>The point that many people were utterly missing at that point but that is
+hopefully now embarrassingly obvious, is that the mask is not there to protect
+the wearer, it&rsquo;s there to help protect <em>everyone else</em> from being infected by the
+wearer.</p>
+<p>Fast-forward a week or so (an eternity in COVID-19 time) to April 10, and South
+Africa&rsquo;s very own and very respected health minister Dr Zweli Mkhize started
+tweeting the new official line that the department of health now also
+recommends that everyone wears cloth masks:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cloth face mask
+recommendations: <a
+href="https://twitter.com/hashtag/MasksCOVID19?src=hash&amp;ref_src=twsrc%5Etfw">#MasksCOVID19</a>
+<a
+href="https://twitter.com/hashtag/ClothFaceMask?src=hash&amp;ref_src=twsrc%5Etfw">#ClothFaceMask</a>
+<a href="https://twitter.com/COVID_19_ZA?ref_src=twsrc%5Etfw">@COVID_19_ZA</a>
+<a href="https://twitter.com/HealthZA?ref_src=twsrc%5Etfw">@HealthZA</a> <a
+href="https://t.co/ptNsa4oUFl">pic.twitter.com/ptNsa4oUFl</a></p>&mdash; Dr
+Zweli Mkhize (@DrZweliMkhize) <a
+href="https://twitter.com/DrZweliMkhize/status/1248613456934129667?ref_src=twsrc%5Etfw">April
+10, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>See the great <a href="https://masks4all.co/">#masks4all.co</a> for more information.</p>
+<p>My (microscopic little) work here is done.</p>
+<h2 id="work-exercise-and-the-future-in-captivity">Work, exercise and the future, in captivity.</h2>
+<h3 id="remote-work">Remote work.</h3>
+<p>In <a href="/2020/03/24/weekly-head-voices-191-covid-19-part-1/#outlook">the previous
+WHV</a>, I might have
+mentioned remote work once or twice.</p>
+<p>Well, since then it feels like I&rsquo;ve spent at least three and a half years
+working remotely, hard.</p>
+<p>I underestimated the amount of automatic, implicit, in-person communication
+that happens when you&rsquo;re at the office.</p>
+<p>All of that currently has to happen via various video meetings, instant
+messenging, emails, and then many more instant messages during the rest of the
+day.</p>
+<p>In its new form, all of this communication takes quite an amount of time and
+energy. It feels like I can only bunker down late morning to start on the
+actual work.</p>
+<p>(Microsoft Teams is our tool for all of this. Whilst it&rsquo;s not perfect, it has
+been serving us quite well.)</p>
+<p>In spite of the feeling that communication is taking up significantly more time
+and energy, my perception is that, over-all, we engineers get a lot more done
+in this new configuration.</p>
+<p>Furthermore, I am hopeful that continued practice will reduce the perceived
+additional communication effort.</p>
+<h3 id="exercise">Exercise.</h3>
+<p>It&rsquo;s not allowed to leave the house even for exercise, and so my running has
+taken quite a hit.</p>
+<p>I have had to resort to running circles around the house for half an hour at a
+time, which, in spite of me usually really enjoying the monotony of
+road-running, is quite a challenge.</p>
+<p>On the other hand, there are people who are stuck in apartments and <a href="https://www.theguardian.com/world/2020/mar/21/man-runs-marathon-on-7-metre-balcony-during-french-lockdown">then run
+42km on the
+balcony</a>,
+and there&rsquo;s even the South African <a href="https://www.reddit.com/r/southafrica/comments/fzvtak/south_african_runner_from_george_runs_100_miles/">Eddie Mouton who ran 160km in his
+yard</a>.</p>
+<p>The elliptical trainer which we bought on July 31 of 2007 (it&rsquo;s the FINNLO
+crosstrainer 3252), and for the almost 13 years since then has been nothing
+more than an overpriced clothing and towel hanger, has seen more actual
+exercise use in the past weeks than during its whole lifetime up to now.</p>
+<p>One great upshot of all of this is that we more often train together, or at
+least close enough for a high-five now and then.</p>
+<h3 id="the-future">The future.</h3>
+<p>As I alluded to in the previous <a href="/2020/03/24/weekly-head-voices-191-covid-19-part-1/#outlook">WHV
+#191</a>, and
+especially as the lockdown has now been extended, giving us even more time to
+practise and build habits, I would really like to know how much of what we
+learn and experience now is going to stick in the post-covid-19-era?</p>
+<p>Noticing how we have to pay much more attention to how exactly we communicate,
+realising how much work can actually be fit into a day without too many
+interruptions, and seeing how quickly nature uses this time to recover from our
+normally incessant onslaught, all lead me to think that we should not stop
+analysing and discussing the changes that COVID-19 has brought.</p>
+<p>Do you think we&rsquo;ll just flip back to the old normal as soon as we (hopefully)
+get through this, or do you think we can look forward to a slightly upgraded
+humanity?</p>
+<h2 id="thats-all-folks">That&rsquo;s all folks!</h2>
+<p>Because this post had already grown substantially larger than I had intended, I
+just removed two whole subsections, the beefiest one about <a href="https://en.wikipedia.org/wiki/Niklas_Luhmann">Niklas
+Luhmann</a> and <a href="https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125">his amazing
+Zettelkästen / external
+brain</a>.</p>
+<p>Do not fear, they&rsquo;ll probably make an appearance in a subsequent WHV, or
+perhaps even separate posts.</p>
+<p>As some of you might have read previously on this blog, the struggle in my head
+between these longer form mish-mash-life-snapshot WHV posts on the one hand and
+more topic-focused shorter posts on the other has been going on for years, and
+will hopefully continue for years more.</p>
+<p>(I say hopefully, because that means I might still be posting as well.)</p>
+<p>This specific thought is still developing, but I might be starting an
+experiment where I do try to write some shorter, more focused posts.</p>
+<p>I will keep you up to date!</p>
+<p>Ok reader, whoever and wherever you are, I wish you the very best that humanity
+has to offer!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #191: COVID-19 part 1.</title><link>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</link><pubDate>Tue, 24 Mar 2020 08:16:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</guid><description> Welcome back everyone! I hope all of you are doing as well as possible.
+This edition of the WHV looks back on the two and a bit tumultuous weeks from Monday March 9 to Tuesday March 24.
+I am writing this for us here now, but I&amp;rsquo;m also writing this for readers in a few years' time who might be looking into the more obscure corners of the web for additional impressions of the COVID-19 pandemic.</description><content:encoded><![CDATA[ <figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>Welcome back everyone! I hope all of you are doing as well as possible.</p>
+<p>This edition of the WHV looks back on the two and a bit tumultuous weeks from
+Monday March 9 to Tuesday March 24.</p>
+<p>I am writing this for us here now, but I&rsquo;m also writing this for readers in a
+few years' time who might be looking into the more obscure corners of the web
+for additional impressions of the COVID-19 pandemic.</p>
+<p>(It is now 7:32 on Tuesday morning, March 24, 2020. Last night we had the
+<a href="https://www.iol.co.za/news/politics/sa-on-coronavirus-lockdown-read-president-cyril-ramaphosas-full-speech-45429127">rattling national lockdown
+announcement</a>,
+and now it&rsquo;s the morning after.)</p>
+<h2 id="the-build-up">The build-up.</h2>
+<p>All of this escalated quite quickly.</p>
+<p>It seems like ages ago, but my first covid-related retweet was on
+February 27. It was this tweet of the study of the effect of different
+hand-to-hand configurations on infectious disease transmission (hint: fist bump
+beats handshake by far):</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Adoption of the fist bump as a greeting could substantially reduce the transmission of infectious disease between individuals.&quot;<br><br>I will be doing more fist bumps until the <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> passes. Please RT if you want to make this a social norm. <a href="https://twitter.com/hashtag/SPSP2020?src=hash&amp;ref_src=twsrc%5Etfw">#SPSP2020</a><a href="https://t.co/Fk1ekBr3FP">https://t.co/Fk1ekBr3FP</a> <a href="https://t.co/TlMbB9UWyZ">pic.twitter.com/TlMbB9UWyZ</a></p>&mdash; Jay Van Bavel (@jayvanbavel) <a href="https://twitter.com/jayvanbavel/status/1233133292226064396?ref_src=twsrc%5Etfw">February 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>After that, I started spending more and more time on twitter, which has proven
+to be a fantastic source of up to date information, if, as always, you apply
+discipline to the care and culling of your follows.</p>
+<p>Since then I&rsquo;ve been retweeting as many of the important tidbits as I could:</p>
+<h3 id="lets-first-get-the-naming-right">Let&rsquo;s first get the naming right.</h3>
+<p>The disease is called coronavirus disease (COVID-19) and the virus is called
+severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).</p>
+<p>See <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it">this page on the WHO&rsquo;s
+site</a>.</p>
+<h3 id="flattening-the-curve">Flattening the curve.</h3>
+<p>Flattening the curve was, and still is at this point in time, our best hope to
+get through the pandemic.</p>
+<p>Physical distancing is how we do this.</p>
+<p>That is, we keep enough physical distance between us and other humans that the
+virus has almost no chance of transmitting.</p>
+<p>The media calls this &ldquo;social distancing&rdquo;, but in the age of internet and video
+and smartphones, the distance does not have to be social!</p>
+<p>(March 24, 2018, 7:35: <a href="https://twitter.com/WHO/status/1240312329092444162">It seems that
+the</a> WHO has also been
+using &ldquo;physical distancing&rdquo; instead of &ldquo;social distancing&rdquo;.)</p>
+<p>By doing this, we buy time by ensuring that our hospital systems are not
+overloaded. Time means that we learn more about the virus, time means that
+humanity can discover more methods of prevention and treatment.</p>
+<p>Remote work is, and should be, the new normal for any industries where this is
+at all possible.</p>
+<p>(Even when we&rsquo;re not right in the middle of a pandemic, why is remote working
+NOT the normal-normal?)</p>
+<p>At Stone Three it feels like we went from normal to the new remote-normal in an
+instant.</p>
+<p>We recently migrated from GSuite to Office365. Our migration to Microsoft Teams
+for a large part of the communication has gone pretty well, in spite of Teams
+showing some technical hiccups in that first week when <a href="https://www.businessinsider.com/microsoft-teams-coronavirus-daily-active-users-2020-3?IR=T">they onboarded 12
+MILLION new
+users</a>.</p>
+<h3 id="good-old-fashioned-soap-is-virus-kryptonite">Good old-fashioned soap is virus Kryptonite.</h3>
+<p>See <a href="https://twitter.com/PalliThordarson/status/1236549305189597189">this twitter thread by Palli
+Thordarson</a>.</p>
+<p>Most viruses, including our current nemesis SARS-CoV-2, are &ldquo;self-assembled nanoparticles&rdquo; with a &ldquo;lipid (fatty) bilayer&rdquo; as the outside shell.</p>
+<p>Good old-fashioned soap dissolves the fat membrane and the virus simply falls apart.</p>
+<p>AMAZING!</p>
+<p>We have bars of soap everywhere in my house now, and we vigorously wash hands
+at regular intervals.</p>
+<h2 id="sht-gets-real-in-mzansi">Sh*t gets real in Mzansi.</h2>
+<p>AfrikaBurn was cancelled on Friday March 13.</p>
+<p>This year our theme camp was going to consist of a whole 14 people (9 from NL),
+up from 7 in previous years.</p>
+<p>Everyone on the small BURNIVERSITY WhatsApp group was gutted by this news, but
+it was crystal clear to all of us that cancelling the burn was really the only
+defensible position.</p>
+<h3 id="state-of-disaster-announcement">State of disaster announcement.</h3>
+<p>Then on the evening of Sunday March 15, it got a whole lot more real when our
+president Ramaphosa announced on the television that South Africa was
+officially in a state of disaster.</p>
+<p>The following measures were announced:</p>
+<ul>
+<li>Travel ban of foreign nationals from high risk countries, including USA and the EU.</li>
+<li>All foreign nationals who have recently arrived are to be tested.</li>
+<li>SA citizens returning from high risk countries to be tested and isolated.</li>
+<li>Gatherings of 100 or more prohibited.</li>
+<li>Schools closed from March 18.</li>
+</ul>
+<p>The text of the full speech can be <a href="https://sacoronavirus.co.za/2020/03/15/statement-by-president-cyril-ramaphosa-on-measures-to-combat-covid-19-epidemic/">read on
+sacoronavirus.co.za</a>.</p>
+<p>Before the speech I still had the feeling that I might be over-reacting by
+starting to work remotely, and suggesting strongly that others do so too, and
+by considering taking my children out of school.</p>
+<p>Those feelings were evaporated by Ramaphosa&rsquo;s chilling but necessary speech.</p>
+<h3 id="national-lockdown-announcement">National lockdown announcement.</h3>
+<p>On the evening of Monday, March 23, we were again waiting for an announcement
+by the president.</p>
+<p>Personally, I thought it was going to be all about the measures the government
+was planning to take to safeguard the South African economy during these times.</p>
+<p>Those indeed were announced, and they sound good to me.</p>
+<p>However, the president also <a href="https://www.iol.co.za/news/politics/sa-on-coronavirus-lockdown-read-president-cyril-ramaphosas-full-speech-45429127">announced a <em>national
+lockdown</em></a>
+starting at midnight on Thursday March 26 and continuing for three weeks.</p>
+<p>All businesses, except those involved in essential services, will be closed.</p>
+<p>Everyone, except those involved in essential services, will have to stay at
+home.</p>
+<p>People will be able to leave their homes to buy food or seek medical care.</p>
+<h2 id="outlook">Outlook.</h2>
+<p>At this moment (7:52, day after lockdown announcement evening) I am reeling
+just a little bit.</p>
+<p>I think our government and especially the president have been doing a truly
+stellar job of responding to this crisis. Based on past and recent experience
+with the government, this did come as a bit of a surprise.</p>
+<p>I was pretty happy with how we&rsquo;d adapted to the physical distancing situation,
+but then the lockdown announcement happened.</p>
+<p>Although I am convinced that this too was the best response, I am worried about
+how it&rsquo;s going to impact the economy at large and, far more acutely, how it&rsquo;s
+going to impact the businesses and people right around me.</p>
+<p>(<a href="https://twitter.com/MichaelJordaan/status/1242332234297872384">Like many
+others</a>, I am
+super impressed by Ramaphosa&rsquo;s calm and decisive leadership during this
+crisis.)</p>
+<p>The only thing <em>we</em> can do now, is to do our absolute best.</p>
+<p>On a similar positive note, it seems like COVID-19 is teaching humanity a
+number of important lessons of which I really hope many of them stick:</p>
+<ol>
+<li>We don&rsquo;t really need to travel as much as we do. (sorry airlines, but it&rsquo;s
+true.)</li>
+<li>It is entirely possible for a great deal more of people to work remotely,
+and hence spend less time and carbon output on the road.</li>
+<li>When we focus right, this internet thing we built can be used for so much
+good.</li>
+<li>Now that we&rsquo;re all faced with the same enemy, we look a <em>whole lot</em> more
+similar that we normally do.</li>
+</ol>
+<p>I wish you all the best during these times.</p>
+<p>Remember: From up close to all the way around the globe, kindness is effective
+across all distances!</p>
+]]></content:encoded></item></channel></rss>

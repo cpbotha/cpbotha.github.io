@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>future on voices in my head</title><link>https://cpbotha.net/tags/future/</link><description>Recent content in future on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 27 Jul 2021 21:26:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/future/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #229: Staycation PERMA-Station</title><link>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</link><pubDate>Tue, 27 Jul 2021 21:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</guid><description> Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)
+This edition of the WHV looks back at the week from Monday July 19 to Sunday July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving of the hallowed title of&amp;hellip; STAYCATION!
+Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at home or close to it.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="bettys_jocks.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)"/> </a><figcaption>
+            <p>Figure 1: A scene from a short but surprisingly balmy weekend in Betty&rsquo;s Bay (In Winter, a large part of Betty&rsquo;s remains permanently in the shadow of the mountain.)</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV looks back at the week from Monday July 19 to Sunday
+July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving
+of the hallowed title of&hellip; <em>STAYCATION!</em></p>
+<p>Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at
+home or close to it.</p>
+<p>We spent time together, took care of hobby- and side-projects, and even had
+time to daydream and come up with some wacky ideas which should probably never
+see the light of day, but which one day just might.</p>
+<h2 id="lazar-focus-1-dot-3-released">Lazar Focus 1.3 released</h2>
+<p>On the evening of Tuesday, July 20, after a flurry of programming and testing,
+<a href="https://lazarfocused.com/2021/07/21/lazar-focus-1.3.0-released-real-time-focus-feedback/">Lazar Focus 1.3 was released</a>.</p>
+<p>Noteworthy is its new ability to measure and give real-time feedback on your
+current focus, as an easy to interpret percentage.</p>
+<p>The more you resist distractions, the higher the focus percentage.</p>
+<p>When developing this feature, I ended up selecting a 5 minute rolling window,
+after I was initially planning a pomodoro length. Five minutes seem to be a
+sort of sweet spot in terms of seeing one&rsquo;s distractions affect one&rsquo;s score,
+but not having it immediately distroyed, so that there&rsquo;s still time to recover.</p>
+<p>I wanted to mention here the interesting disconnect between the programming I
+do for this completely disconnected hobby project in a language (Pascal-ish)
+that I don&rsquo;t particularly prefer but don&rsquo;t mind on the one hand, and my day
+job, for which I sometimes still get to program, on the other.</p>
+<h2 id="perma-the-five-building-blocks-of-well-being">PERMA: The five building blocks of well-being</h2>
+<p>So yeah, there&rsquo;s a pretty interesting disconnect&hellip;</p>
+<p>Writing code for LF, in this case perhaps perhaps noteworthy the real-time
+focus tracking data-structure, namely a run-length encoded series of (no)focus
+time durations that automatically get truncated, lengthened and pruned as time
+progresses, was 100% fun and relaxation.</p>
+<p>This is not the most tricky thing to implement, but the process of first
+cooking it up in my brain, and then later sitting down to implement it, and
+seeing it work, was just challenging enough to result in several periods of
+complete immersion in, or engagement with, the task.</p>
+<p>In <a href="https://www.amazon.com/Flourish-Visionary-Understanding-Happiness-Well-being/dp/1439190763/ref=sr%5F1%5F6?dchild=1&amp;qid=1627409990&amp;refinements=p%5F27%3AMartin+Seligman&amp;s=books&amp;sr=1-6">Martin Seligman&rsquo;s book titled <em>Flourish</em></a>, which I&rsquo;m slowly working through
+at the moment (he is a great and impactful psychologist, but perhaps not the
+world&rsquo;s greatest story teller, sorry Prof Seligman), he explains that human
+<a href="https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops">well-being, or flourishing, consists of five building blocks, namely</a>:</p>
+<ol>
+<li>Positive Emotion: gratitude, savouring the present, hope and optimism,</li>
+<li>Engagement: Lose oneself in a challenging (err) task,</li>
+<li>Relationships: Love and be loved by friends and family,</li>
+<li>Meaning: belonging to and serving some cause greater than oneself and</li>
+<li>Accomplishment: Pursuing achievement and mastery for its own sake.</li>
+</ol>
+<p>My little LF programming exercise was <em>exactly</em> right for triggering a bit of
+item number 2, namely engagement.</p>
+<p>I am happy that I could slip a little PERMA in here on the back of Lazar Focus,
+a little tool that is also proving useful in ways that I did not expect. ;)
+Although the book is not the easiest going, it makes some valuable points if
+you too are a fan of well-being.</p>
+<h2 id="pfizer-jab-1-in-da-pocket">Pfizer jab #1 IN DA POCKET</h2>
+<p>I really loves me some cutting edge science.</p>
+<p>I know that the mRNA vaccines have been in development for decades now, but
+they still represent such an amazing technological flex.</p>
+<p>How fantastic is it that some of our cleverest humans have designed and tested
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html">this vaccine that consists of usually unstable mRNA</a>, to be injected into human
+cells where our the cellular machinery in our bodies will dutifully follow the
+mRNA instructions to frikking synthesise and display a piece of spike protein
+that looks enough like the COVID-19 spike protein so that our immune system
+will notice and immediately start creating antibodies, all without us actually
+getting infected.</p>
+<p>As if that&rsquo;s not enough, the introduced mRNA is broken down ASAP after
+synthesis.</p>
+<p>HOT DAMN we live in the future and it&rsquo;s pretty awesome up here!</p>
+<p>I AM EXCITE</p>
+<p>I am also really happy with the super efficient walk-in vaccination procedure at the Town Hall here in Somerset West.</p>
+<p>I would have been in and out in 30 minutes with Pfizer jab #1 had I not run
+into and started chatting with friends in the side-effect waiting area.</p>
+<p>Kudos to the Western Cape for running this like the Star Trek medical bay.</p>
+<p>Still friends, how strange are the days that we find ourselves in?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #175: Plaintext me.</title><link>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</link><pubDate>Tue, 30 Jul 2019 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</guid><description> Good evening fellow humans.
+This is Head Voice #37 reporting for duty. I have been instructed to perform retrospection on the period of time from Monday July 22 to Sunday July 28.
+Due to the ongoing hibernation and consequent lack of interesting events to talk about, this should be short.
+This delectable Fred &amp; Max Flat White was one of a quite few more enjoyed during life-affirming breakfast with a Very Flat Cat.</description><content:encoded><![CDATA[ <p>Good evening fellow humans.</p>
+<p>This is Head Voice #37 reporting for duty. I have been instructed to perform
+retrospection on the period of time from Monday July 22 to Sunday July 28.</p>
+<p>Due to the ongoing hibernation and consequent lack of interesting events to
+talk about, this should be short.</p>
+<figure>
+<a href="fred_max_flatwhite_veryflatcat.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+This delectable Fred & Max Flat White was one of a quite few more enjoyed
+during life-affirming breakfast with a Very Flat Cat. (By the way, why didn't
+any of you tell me that fried egg yolk slowly drenching the quinoa bed it lies
+on is so amazing?!)
+</figcaption>
+</figure>
+<h2 id="im-stubbornly-doubling-down-on-plaintext-email">I&rsquo;m stubbornly doubling down on plaintext email.</h2>
+<p>I spent a precious hour or two (or perhaps three, in which case I am ashamed)
+performing experiments to try and understand how GMail, fastmail web,
+thunderbird and the iOS mail.app encode quoting in HTML email replies.</p>
+<p>The answer is that they all do it in subtly different ways&hellip;</p>
+<p>The even more shocking answer is that since HTML email took over, people have
+really just been winging it, and quite badly so.</p>
+<p>To give you an idea, gmail adds explicit inline CSS <em>styling</em> to display the
+vertical reply bar on the left, like some kind of <em>barbarian</em>.</p>
+<p>WAT?!</p>
+<p>Back when plaintext email was the only game in town, there were <a href="https://en.wikipedia.org/wiki/Posting_style">fairly strict
+but effective guidelines</a> that
+determined exactly how one could quote previous emails, up to any depth, when
+crafting that thoughtful reply.</p>
+<p>However, it seems that, thanks to Outlook and perhaps far more insidiously
+Google&rsquo;s GMail, <em>many</em> people currently have no idea that a thing such as email
+quoting with inline replies used to be a solved problem.</p>
+<p>That is, until users mistakenly thought that badly chosen fonts with even more
+badly chosen colours were more important than, you know, effective and
+efficient written communication.</p>
+<p>Although this battle is lost, this has only encouraged me to stick it to the
+(HTML email) man, and double-down on my old-school plaintext emails.</p>
+<p>If you receive a simple-looking email from me which sometimes wraps strangely,
+you&rsquo;ll know why.</p>
+<p>If you&rsquo;d like join me, the new
+<a href="https://useplaintext.email/">useplaintext.email</a> site is a good start!</p>
+<h2 id="linux-on-the-thinkpad">Linux on the ThinkPad.</h2>
+<p>I <em>thought</em> that the NVIDIA GPU being hard-wired to the external display
+outputs on this <a href="/2019/04/27/new-laptop-2019/">ThinkPad</a> meant that I would
+never be able to run Linux with <em>dynamic</em> display connection.</p>
+<p>Well it turns out I was wrong.</p>
+<p>I slipped this weekend, and now the Linux partition is configured with Manjaro
+Linux (a surprise to me too).</p>
+<p>In short, ThinkPad consumes just over 5W at idle, because NVIDIA is only
+switched on when necessary. I can switch it on for CUDA (for example to work
+with neural networks that fit into the 4GB of VRAM), and I can switch it on
+when I need to connect an external display.</p>
+<p>All of this without having to reboot or even logout and back in again.</p>
+<p>If you&rsquo;re interested, see the <a href="https://vxlabs.com/2019/07/28/manjaro-bumblebee-thinkpad-x1-extreme-2019/">vxlabs blog
+post</a>
+for all of the details.</p>
+<h2 id="we-live-in-the-future">We live in the future.</h2>
+<p>At the UMC Utrecht, two patients have received entirely patient-specific
+3D-printed titanium spinal implants.</p>
+<p>Thanks to this, the patients, one of whose spine had previously collapsed, are
+still able to walk.</p>
+<p>Read more in <a href="https://www.dutchnews.nl/news/2019/07/teenager-can-walk-again-thanks-to-dutch-3d-printed-spinal-implant/">this DutchNews
+summary</a>,
+or preferably <a href="https://www.volkskrant.nl/wetenschap/implantaten-uit-de-3d-printer-laten-utrechtse-patient-weer-lopen~bab3372e/">this Volkskrant
+article</a>
+if you can follow Dutch.</p>
+<p>I&rsquo;ve embedded the Lancet video abstract for your convenience:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/3gxiDo3ac0k" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p>This used to be the stuff of science fiction folks!</p>
+]]></content:encoded></item></channel></rss>

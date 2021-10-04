@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>spotify2applemusic on voices in my head</title><link>https://cpbotha.net/tags/spotify2applemusic/</link><description>Recent content in spotify2applemusic on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 03 Sep 2018 21:07:10 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/spotify2applemusic/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #152: A small but highly trained team of 11 year olds.</title><link>https://cpbotha.net/2018/09/03/weekly-head-voices-152-a-small-but-highly-trained-team-of-11-year-olds/</link><pubDate>Mon, 03 Sep 2018 21:07:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/09/03/weekly-head-voices-152-a-small-but-highly-trained-team-of-11-year-olds/</guid><description> GOU#2, age 8, made this for the blog, super special.
+This edition of the Weekly Head Voices covers the period from Monday August 6 to Sunday September 2.
+Somewhere during this period, I experienced my 44th birthday.
+More than once since then, my partner has had to endure my brand-new joke / half-truth that I’m now as clever as a team of four smart 11-year olds. (Hey, it took a team of four smart 11-year olds to come up with that joke!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/09/sylvia_henna.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/09/sylvia_henna-1024x719.jpg"
+        
+            alt="GOU#2, age 8, made this for the blog, super special."/> </a><figcaption>
+            <p>GOU#2, age 8, made this for the blog, super special.</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the Weekly Head Voices covers the period from Monday August 6 to Sunday September 2.</p>
+<p>Somewhere during this period, I experienced my 44th birthday.</p>
+<p>More than once since then, my partner has had to endure my brand-new joke / half-truth that I’m now as clever as a team of four smart 11-year olds. (Hey, it took a team of four smart 11-year olds to come up with that joke!)</p>
+<p>On the big (for me) day, I cooked for a super tiny group of friends. I experienced the ritual of preparing dinner for friends to be an honest one, and filled with human warmth. 12/10 – Would do again.</p>
+<p>The next morning, ever-so-slightly in recovery mode, I was surprised by my little brother and my little sister (in-law). MY FAMILY HAD CONSPIRED AGAINST ME WITH SUCH SUCCESS!</p>
+<p>Somewhere during this period, I also had the fantastic privilege of going back to my other home (the one with the cheese, and the clogs, and the social democracy FTW) and spending time with my family there.</p>
+<p>So much celebration. So much warmth.</p>
+<p>(There is also some bitter-sweetness, but that’s the price one has to pay for having roots in different hemispheres.)</p>
+<p>I would have liked to say more, but this is one of those WHAMPSAMP* situations.</p>
+<p>(As part of a deal I made at AfrikaBurn with a brother, I went fully vegetarian from the Friday to the Monday. It was actually really good!)</p>
+<p>(* WHAMPSAMP = What Happens At Mysterious Place Stays At Mysterious Place.)</p>
+<h1 id="music-nerd-andor-plain-nerd-section">Music (nerd) and/or plain nerd section.</h1>
+<p>Somewhere during that period, Evil Charl went ahead and implemented that <a href="https://chrome.google.com/webstore/detail/spotify2applemusic/gehbfaolompeeapflihekomijnhgccbk">Spotify2AppleMusic chrome plugin</a> that Responsible Charl mentioned in a <a href="/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/#chrome-or-firefox-plugin-to-convert-spotify-playlists-to-apple-music-using-the-new-musickit-js-api">previous edition of the WHV</a> with the explicit purpose of getting it out of our system.</p>
+<p>It’s out there now, and it’s free, so you might as well try it the next time that you need to convert any public (or private in your account) Spotify playlist to the corresponding Apple Music playlist.</p>
+<p>I wrote this one in TypeScript where the type interfaces were a fantastic help in writing correct code for the parsing of the various APIs that this plugin has to inter-operate with.</p>
+<h1 id="nerd-section-bitbar-with-lua-hammerspoon-nerd-motivations">Nerd section: BitBar with Lua, Hammerspoon, nerd motivations.</h1>
+<p>Also somewhere during that period, but in a slightly more surprising twist, I <a href="https://github.com/matryer/bitbar-plugins/pull/1084">added lua support to the open-source macOS utility called bitbar</a>, purely because I wanted to write a network bandwidth plugin that consumed less memory and was faster than the built in shell + awk versions.</p>
+<p>That means I’m now also an <a href="https://getbitbar.com/contributors/cpbotha">official bitbar plugin author</a>, which I find strangely satisfying.</p>
+<p>Well, maybe it’s not so strange. I do have a thing with producing artifacts that other people (might) use in some way. There’s even more vagueness on this topic at the bottom of this post.</p>
+<p>(BTW, the Python version of the same plugin consumed 8 times as much memory as the lua version, which itself consumed about 30% less memory than the shell+awk version.)</p>
+<p>(BTW, if you’re on a Mac, and you know a little bit of lua, <a href="https://www.hammerspoon.org">Hammerspoon</a> is an amazing tool for automating your desktop via its lua bindings to the mac desktop API. In a few lines of code, I was able to throw out <a href="https://www.spectacleapp.com">Spectacle</a>, which itself is a great app, but Hammerspoon, the successor of Mjolnir, scores highly on the nerd street-cred scale and has MOAR FUNCTION.)</p>
+<h1 id="au-revoir">Au revoir</h1>
+<p>I am grateful that you are here reading this, thank you!</p>
+<p>I have recently acquired a new side-project (Evil Charl: “HELL YEAH!” BRRRAAAAAAAAMMMM &lt;— crashes straight through office wall to the great outdoors on big motorbike. Responsible Charl: “sigh.”) which is currently sucking up a great deal of my creative output.</p>
+<p>We all know what usually happens to side-projects. I guess the high probability of failure may even add to their attractiveness.</p>
+<p>In either case, high or low probability outcome, I’ll eventually spill the beans over here. Suffice to say that I do seem to have a thing for <a href="/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/">setting things up and then calling them universities</a>, and in this case it’s even allowing me to produce reasonably sized packets of usefulness that might just magically add up to a valuable whole.</p>
+<p>I am ever-so-slightly excited.</p>
+]]></content:encoded></item></channel></rss>

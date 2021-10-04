@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>macbook on voices in my head</title><link>https://cpbotha.net/tags/macbook/</link><description>Recent content in macbook on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 21 Mar 2021 21:49:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/macbook/index.xml" rel="self" type="application/rss+xml"/><item><title>New Emacs-capable hardware: M1 MacBook Air</title><link>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</link><pubDate>Sun, 21 Mar 2021 21:49:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</guid><description><![CDATA[ You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I usually write a little something about it.
+These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged most of them so that you can see them all in this convenient &ldquo;new computer&rdquo; tag list!
+Fast, cheap and energy efficient: Choose three This time, I, or rather my employer, had difficulty resisting the siren song of the new Apple M1 chip and especially of the entry-level M1 MacBook Air: Great performance and power efficiency in a truly cool and quiet package.]]></description><content:encoded><![CDATA[ <p>You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I
+usually write a little something about it.</p>
+<p>These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged
+most of them so that you can see them all in this convenient <a href="/tags/new-computer/">&ldquo;new computer&rdquo; tag
+list</a>!</p>
+<h2 id="fast-cheap-and-energy-efficient-choose-three">Fast, cheap and energy efficient: Choose three</h2>
+<p>This time, I, or rather my employer, had difficulty resisting the siren song of
+the new <a href="https://en.wikipedia.org/wiki/Apple%5FM1">Apple M1 chip</a> and especially of the entry-level M1 MacBook Air: Great
+performance and power efficiency in a truly cool and quiet package.</p>
+
+
+
+
+
+
+
+
+<figure><a href="m1-macbook-air-about.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_1200x0_resize_box_3.png 1200w,
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>I&rsquo;m still <em>quite</em> happy with the <a href="/2019/04/27/new-laptop-2019/">ThinkPad X1 Extreme Gen1</a> as my main
+workstation, but although classed as thin-and-light it <em>is</em> still a
+workstation.</p>
+<p>Specifically, due to the fact that it takes at least a minute or two to resume
+from sleep, and the fact that its performance on battery is substantially
+slower than on AC, it&rsquo;s not the sort of machine that you can flip open to work
+on when inspiration strikes.</p>
+<p>As if that was not enough, it&rsquo;s a really effective lap warmer, and so gets
+uncomfortable <em>quite</em> quickly.</p>
+<p>In sharp contrast, the performance of this MacBook Air is the same, namely
+&ldquo;super snappy&rdquo;, whether it&rsquo;s on AC or on battery, the laptop resumes from
+standby faster that I&rsquo;m able to open the lid, and it hardly ever gets warm.</p>
+<p>In short, I can bust this out of my bag and be typing on my lap in under 3
+seconds, and this is something that has already started paying off in terms of
+my writing.</p>
+<h2 id="this-might-be-the-best-emacs-host-i-ve-ever-used">This might be the best Emacs-host I&rsquo;ve ever used</h2>
+<p>This very post is currently being typed on <code>GNU Emacs 27.1.91 (build 1, arm-apple-darwin20.3.0, Carbon Version 164 AppKit 2022.3) of 2021-03-15</code> on the
+device in question.</p>
+<p>Have I mentioned &ldquo;super snappy&rdquo;?</p>
+<p>By the way, if you build Emacs like this on the M1:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew tap railwaycat/emacsmacport
+brew install --formula emacs-mac --HEAD
+</code></pre></div><p>&hellip; you should be good to go.</p>
+<h3 id="update-on-2021-04-15">Update on 2021-04-15</h3>
+<p>A few days ago, I started seeing the following error during homebrew Emacs update:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">./temacs --batch  -l loadup --temacs=pbootstrap
+make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
+make: *** [src] Error 2
+</code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
+master.</p>
+<p>It was easiest for me to switch to emacs-plus, which went like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew uninstall emacs-mac
+brew tap d12frosted/emacs-plus
+brew install emacs-plus@28 --with-no-titlebar
+</code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
+<p>It&rsquo;s a pity that the ThinkPad, although powerful enough to satisfy <a href="/2020/05/20/weekly-head-voices-195-pragmatic/#the-story-behind-this-story-one-context-to-rule-them-all">my single
+computing device / single context requirement</a>, and with <a href="/2020/09/16/weekly-head-voices-204-what-is-your-purpose/#wsl2-and-nativecomp-emacs-workflow-update">WSL2 becoming
+increasingly useful</a> and hence addressing the dual-boot issue, does not satisfy
+the <em>instantly available</em> requirement.</p>
+<p>Fortunately the two devices cater for complementary contexts.</p>
+<p>The Air is for instant-on writing, communication, admin and maybe a tiny bit of
+development, whilst the ThinkPad is for all of the heavy lifting, but who knows
+how these lines are going to be blurred in the coming months?</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>social media on voices in my head</title><link>https://cpbotha.net/tags/social-media/</link><description>Recent content in social media on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 10 Aug 2020 22:16:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/social-media/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #202: I don't even have to miss Dr Topol!</title><link>https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/</link><pubDate>Mon, 10 Aug 2020 22:16:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/</guid><description> Welcome everyone to this, the two hundred and second edition of the Weekly Head Voices, looking back at the two weeks from Monday July 27 to Sunday August 9 of the year of our simulation-running overlords 2020.
+Figure 1: Photo of multiple instances of an important local flower, taken by GOU #1.
+Shape Up: Stop Running in Circles and Ship Work that Matters After it having spent a few quality months in my to-do list, I finally got around to reading the Shape Up book by Ryan Singer.</description><content:encoded><![CDATA[ <p>Welcome everyone to this, the two hundred and second edition of the Weekly Head
+Voices, looking back at the two weeks from Monday July 27 to Sunday August 9 of
+the year of our simulation-running overlords 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="closeup_prot.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/closeup_prot_hu1c6e2bb0e824a6f072e5b23d6b6aa3d0_796243_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Photo of multiple instances of an important local flower, taken by GOU #1."/> </a><figcaption>
+            <p>Figure 1: Photo of multiple instances of an important local flower, taken by GOU #1.</p>
+        </figcaption>
+</figure>
+
+<h2 id="shape-up-stop-running-in-circles-and-ship-work-that-matters">Shape Up: Stop Running in Circles and Ship Work that Matters</h2>
+<p>After it having spent a few quality months in my to-do list, I finally got
+around to reading <a href="https://basecamp.com/shapeup">the Shape Up book by Ryan Singer</a>.</p>
+<p>(You can too, by clicking on that link, it&rsquo;s free!)</p>
+<p>This book documents the development methodology that the folks over at
+37signals, also the original makers of <a href="https://rubyonrails.org/">Ruby on Rails</a>, <a href="https://basecamp.com/">Basecamp</a>, and most
+recently the new email re-imagining <a href="https://hey.com/">HEY</a>, have evolved over the years.</p>
+<p>I&rsquo;m not currently using any of those artifacts, but RoR has made (and is
+probably still making) a significant impact on the technology landscape, and
+the other products are truly impressive in their own right.</p>
+<p>My point is, the 37signals company ships high-impact products like it&rsquo;s
+nobody&rsquo;s business, so one should probably pay attention if they are willing to
+explain to the rest of us how they are able to perform this feat so
+consistently.</p>
+<p>If you&rsquo;re involved in software development, or are interested, then this
+compact book is worth your time.</p>
+<p>However, until you can get around to it, I present to you the book&rsquo;s own
+bullet-list summary (you&rsquo;ll find it in the conclusions chapter), where I&rsquo;ve
+embellished each bullet with my from-memory explanation.</p>
+<dl>
+<dt>Shaped versus unshaped work</dt>
+<dd>In Shape Up, each project is a user-visible
+feature that can be done in 6 weeks or less. Senior devs in the company
+<em>shape</em> the work, which means that they derisk and write down enough to
+delineate the work, to specify the parameters, but not so much that it has
+been pinned down. The team that gets the project assigned is given free reign
+as to <em>how</em> exactly they fill in the space delineated by the shaping.</dd>
+<dt>Setting appetites instead of estimates</dt>
+<dd>Instead of specifying a feature,
+and then estimating how much time it will take (feature first, number
+second), Shape Up suggests rather determining at management level how much
+appetite / motivation there is for a feature, up to a maximum of 6 weeks,
+knowing that the feature will be <em>hammered</em> down to fit into the appetite for
+it (number first, feature second).</dd>
+<dt>Designing at the right level of abstraction</dt>
+<dd>As mentioned above, the
+shaping process has to reach the Goldilocks level somewhere between abstract
+and concrete. Enough detail so there are no surprises that could risk the
+success of the project, but little enough so that the team has the freedom to
+construct a solution independently and in a more data-driven fashion.</dd>
+<dt>Concepting with breadboards and fat marker sketches</dt>
+<dd>These are practical
+tricks to keep the detail level under control. For example, during shaping, a
+<strong>fat marker</strong> is used to draw UI ideas to prevent the shapers from inking in
+too much detail.</dd>
+<dt>Making bets with a capped downside (the circuit breaker) and honoring uninterrupted time</dt>
+<dd>This
+is pretty hardcore. If a project runs over its time (e.g. 6 weeks), it is
+cancelled, that is, moth-balled. End of story. As a corollary, teams are not
+to be interrupted during their project cycle.</dd>
+<dt>Choosing the right cycle length (six weeks)</dt>
+<dd>Six weeks is the maximum time
+a team will get to finish a feature. This seems to be the sweet spot for
+features that are significant enough to be interesting, but don&rsquo;t get too big
+to manage.</dd>
+<dt>A cool-down period between cycles</dt>
+<dd>After every six week cycle, all teams
+get two weeks of cool-down time. This is to be used for fixing bugs, writing
+tests, doing spikes, and just generally recovering from the feature
+development cycle.</dd>
+<dt>Breaking projects apart into scopes</dt>
+<dd>As a team works on a certain feature,
+the sub-tasks that they formulate as they work, can be naturally grouped into
+thematic scopes. It&rsquo;s important that these emergent groupings are closely
+monitored and updated. They are useful for understanding the feature, and for
+reporting on progress.</dd>
+<dt>Downhill versus uphill work and communicating about unknowns</dt>
+<dd>The team
+gives <em>asynchronous</em> feedback on project progress by plotting each scope on a
+<a href="https://basecamp.com/features/hill-charts">hill chart</a>. To me this is yet another interesting and useful concept from the
+book. If a scope is somewhere on the uphill part, there are still unknowns
+that have to be investigated. Once the team thinks there are no more
+unknowns, a scope can be moved past the top and somewhere onto the downhill
+section.</dd>
+<dt>Scope hammering to separate must-haves from nice-to-haves</dt>
+<dd>In this case,
+scope is used in the more traditional software development sense, and scope
+hammering refers to the action of whittling down features until a project
+fits into the time allotted to it.</dd>
+</dl>
+<p>At work, we are currently experimenting with elements of this methodology for a
+new product we&rsquo;re working on. I&rsquo;m curious to see how much of this will work in
+our setup. It sure looks good on paper!</p>
+<p>(The book impressed me further with its chapter containing practical advice on
+how to implement various levels of Shape Up in organizations of various types
+and sizes. Super pragmatic!)</p>
+<h2 id="the-pygmalion-effect">The Pygmalion Effect</h2>
+<p>I&rsquo;m currently reading the organizational psychologist Adam Grant&rsquo;s book <a href="https://www.adamgrant.net/give-and-take">Give
+and Take</a>.</p>
+<p>In this book he describes the classic study led by Harvard psychologist Robert
+Rosenthal, where he told the teachers of 18 different classrooms that 20
+percent of their children had scored high on a Harvard aptitude test, when in
+fact they had been randomly chosen.</p>
+<p>In spite of being <em>randomly chosen</em>, those children showed consistently higher
+performance than their peers, even when they were measured years later.</p>
+<p>From Grant&rsquo;s book:</p>
+<blockquote>
+<p>The Harvard test was discerning: when the students took the cognitive ability
+test a year later, the bloomers [the randomly selected kids, ed.] improved more
+than the rest of the students. The bloomers gained an average of twelve IQ
+points, compared with average gains of only eight points for their
+classmates. The bloomers outgained their peers by roughly fifteen IQ points in
+first grade and ten IQ points in second grade. Two years later, the bloomers
+were still outgaining their classmates. The intelligence test was successful in
+identifying high-potential students: the bloomers got smarter &ndash; and at a faster
+rate than their classmates</p>
+</blockquote>
+<p>and then a paragraph or two later:</p>
+<blockquote>
+<p>Teachers' beliefs created self-fulfilling prophecies. When teachers believed
+their students were bloomers, they set high expectations for their success. As
+a result, the teachers engaged in more supportive behaviors that boosted the
+students' confidence and enhanced their learning and development. Teachers
+communicated more warmly to the bloomers, gave them more challenging
+assignments, called on them more often, and provided them with more
+feedback. Many experiments have replicated these effects, showing that teacher
+expectations are especially important for improving the grades and intelligence
+test scores of low-achieving students and members of stigmatized minority
+groups.</p>
+</blockquote>
+<p>Just to reiterate: These kids were randomly selected, but just because their
+teachers <em>thought</em> that they had scored higher on an aptitude test and hence
+treated them differently, they started and then kept out-performing their peers
+for years.</p>
+<p>Grant writes that similar experiments have been successfully performed in different
+learning contexts, and the results were always the same.</p>
+<p>This really blows my mind folks. I hope I can keep this knowledge close.</p>
+<h2 id="yet-another-social-media-fast-because-you-have-to-keep-on-doing-them">Yet another social media fast because you have to keep on doing them</h2>
+<p><a href="/2019/09/09/weekly-head-voices-177-streakers/#the-great-social-media-fast-of-2019">The Great Social Media Fast of 2019</a> really was great when it started, but it
+unfortunately fizzled out a few months later, probably when the end-of-the-year
+vacation started.</p>
+<p>When COVID-19 hit, I had such a need for up-to-the-minute news that my phone
+soon had twitter almost permanently on position #1 of the app suggestions you
+get when you swipe down.</p>
+<p>Fast-forward another few months, and I was again stuck in TwiFRaF-Yo like it
+was nobody&rsquo;s business.</p>
+<p>Anyways, this weekend I had some serious discussions with myself, during which
+I <em>again</em> had to convince myself that the select few jewels of Twitter (Dr
+Topol, I salute you) and the rest of TwiFRaF-Yo did not even come close to
+justifying the amount of mental cycles I was spending.</p>
+<p>Fortunately I won that debate, and so now I&rsquo;m again officially on a social
+media fast, during which I have resolved to read more books, blogs and other
+long-form content, and to write more notes and blogs.</p>
+<p>My brain already feels substantially more roomy and relaxed than it did a mere
+day ago.</p>
+<p>I would be remiss if I didn&rsquo;t mention one of my favourite College Humor skits
+in this context:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/md4kM9AKjHs" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<h3 id="a-not-quite-satisfactory-solution-for-not-having-to-miss-dr-topol">A not quite satisfactory solution for not having to miss Dr Topol</h3>
+<p>Dr Topol did briefly complicate my temporary exit.</p>
+<p>How was I going to keep up to date with his twitter stream without using the
+twitter app and getting sucked in?</p>
+<p>Unfortunately, my inoreader &ldquo;supporter&rdquo; subscription does not include its
+social media subscription function that does exactly what I need, and the
+upgrade is $50 per year instead of my current $20.</p>
+<p>While I think about this, I&rsquo;ve activated <a href="https://ifttt.com/applets/xcHFiVvR-get-an-email-when-there-s-a-new-tweet-from-a-specific-username">the IFTTT twitter to email thingy</a>.</p>
+<p>This sends me an email for <em>each</em> tweet, which constitutes a whole new problem
+in itself.</p>
+<h3 id="inoreader-satisfaction-with-a-side-of-retail-therapy">Inoreader satisfaction with a side of retail therapy</h3>
+<p><em>&hellip; 8 hours pass after this post was published &hellip;</em></p>
+<p>Narrator: <em>It became a whole new problem in itself.</em></p>
+<p>Dr Topol can&rsquo;t stop tweeting admittedly truly interesting health- and
+covid-related research, but the format of one email per tweet is indeed not
+going to cut it.</p>
+<p>I have deactivated that IFTTT thingy, and upgraded my inoreader subscription to
+pro.</p>
+<p>This is where I read all my blog subscriptions when I make time for that, so
+having Dr Topol&rsquo;s feed there as well makes a great deal more sense.</p>
+<h2 id="an-ai-to-fall-in-love--with">An AI to fall in love (with)</h2>
+<p><a href="https://lexfridman.com/">Lex Fridman</a> is another of the internet&rsquo;s jewels, who is fortunately accessible
+via long-form podcast.</p>
+<p>In <a href="https://lexfridman.com/matt-botvinick/">episode #106</a>, he talks with <a href="https://hai.stanford.edu/people/matthew-botvinick">Prof. Matt Botvinick</a>, a brilliant
+neuro-scientist who also employs AI in his research, and clearly likes to think
+deeply about deep questions.</p>
+<p>One of the things I (and apparently many of his interviewees) love about Dr
+Fridman, is the left-field questions he often poses.</p>
+<p>He does this with Botvinick:</p>
+<blockquote>
+<p>But let me ask the over-romanticized question: Do you think we&rsquo;ll ever engineer
+an AGI system that we humans would be able to love and that would love us back?
+So have that level and depth of connection?</p>
+</blockquote>
+<p>Goodness, so many layers.</p>
+<p>What do you think?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #177: Streakers.</title><link>https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/</link><pubDate>Mon, 09 Sep 2019 22:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/</guid><description> A piece of the Lourensriver, captured for you during a particularly challenging post-Sunday-lunch run. This edition of the WHV looks back at the two weeks from Monday August 26 to Sunday September 8, 2019.
+On friendship, 25 years later. The birthday mentioned previously, along with the portentous visit of a good friend from afar, led to at least two small celebrations (that I know of) with a bunch of us that have been friends for more than 25 years now.</description><content:encoded><![CDATA[ <figure>
+<a href="lourensriver_at_vergelegen.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/lourensriver_at_vergelegen_hud2cab3a366684cc9909e698ad19a55fb_4685321_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>A piece of the Lourensriver, captured for you during a particularly
+challenging post-Sunday-lunch run.</figcaption>
+</figure>
+<p>This edition of the WHV looks back at the two weeks from Monday August 26 to
+Sunday September 8, 2019.</p>
+<h2 id="on-friendship-25-years-later">On friendship, 25 years later.</h2>
+<p>The birthday <a href="/2019/09/01/weekly-head-voices-176-cycle-of-life/#celebration">mentioned
+previously</a>,
+along with the portentous visit of a good friend from afar, led to at least two
+small celebrations (that I know of) with a bunch of us that have been friends
+for more than 25 years now.</p>
+<p>In the bigger scheme of things, it&rsquo;s not <em>that</em> long, but what I would like to
+mention here is how much such friendships can grow into the most honest of
+human connections.</p>
+<p>It is as if with the passing years, one is able to shed all of the unnecessary
+baggage one tends to carry around as a beginner human.</p>
+<p>What is left, is pure human warmth, unconditional support and, perhaps most
+significantly, the effortless loss of self.</p>
+<p><em>You</em> fade away, quite happily so, when one of your friends gets up in the
+light to tell a story.</p>
+<p>For a while at least, one&rsquo;s only representative in the conversation is one&rsquo;s
+undivided recognition of and attention to the other.</p>
+<p>This is certainly not reserved for 25+ year friendships, although this
+pre-requisite seems to facilitate the process to the point of effortlessness.</p>
+<h2 id="nested-headings-of-miscellany-nhom-nhom">Nested Headings of Miscellany (NHoM-NHoM).</h2>
+<h3 id="org-pdf-tools-for-constructing-unifying-notes">org-pdf-tools for constructing unifying notes.</h3>
+<p>Recently, I had to work through a stack of regulatory documents in PDF format.</p>
+<p>The challenge was that the documents described different aspects of a single,
+complicated procedure, but were severely lacking in overview-engendering
+outlines or, even better, diagrams.</p>
+<p>I did what I mostly do when faced with any research-related complexity: BUST
+OUT SOME MORE OF THAT EMACS!</p>
+<p>I found the Emacs package
+<a href="https://github.com/fuxialexander/org-pdftools/">org-pdftools</a>, which I then
+<a href="https://github.com/fuxialexander/org-pdftools/pull/4">PRd to work on my newer
+Orgmode</a> (github makes
+this sort of collaboration so easy!) and then integrated into my workflow.</p>
+<p>org-pdftools enables one to link to specific annotated extracts, created
+on-demand inside Emacs, from one&rsquo;s orgmode notes.</p>
+<p>I used this to synthesise an overview document explaining the whole process,
+linking to different parts of multiple PDFs explaining each aspect in more
+detail.</p>
+<p>Being able to jump effortlessly from a central overview document to specific
+positions in reference PDFs is a huge boon to the research process.</p>
+<h3 id="escalante">Escalante!</h3>
+<p>One friend of work pointed me at an online source of affordable Altras.</p>
+<p>I have secretly been pining for a pair of these shoes.</p>
+<p>I was planning to use them for the longer runs when I can feel that my feet
+need a little more support than my sandals are able to provide.</p>
+<p>However, my feet have really gotten used to the wide open spaces of sandals, or
+even better, of going barefoot.</p>
+<p>Altras are zero-drop shoes, with <em>ginormous</em> toe boxes. Their motto is &ldquo;Embrace
+the Space&rdquo;.</p>
+<p>It seems like I have found some shoes with the right motto&hellip;</p>
+<figure>
+<a href="https://altrarunning.com/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+  
+  
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/09/09/weekly-head-voices-177-streakers/altra-foot-space.jpg"
+  
+
+   />
+
+
+
+</a>
+</figure>
+<p>Friend #1&rsquo;s recommendation had shoes that were semi-affordable, contrary to my
+expectation.</p>
+<p>When I pointed friend #2 from work at friend #1&rsquo;s recommendation, he pointed me
+at an even <em>more</em> affordable source.</p>
+<p>I <em>could</em> have continued with this iterative process, but I was unable to delay
+this purchase any longer.</p>
+<p>My new pair of Altra Escalante 1.0s arrived the next day.</p>
+<p>(Yes, I know, 1.5 and 2.0 are available. However, <a href="https://runrepeat.com/altra-escalante">the stellar reviews of
+1.0</a> have not changed, and did I say
+&ldquo;affordable&rdquo;?!)</p>
+<p>On Friday I broke them in, and on Sunday I made a slightly longer than normal
+run (see in-progress photo above) to see how they did.</p>
+<p>Anyways, in spite of the rest of me taking quite a beating on the second run, I
+can happily report that the shoes did a marvellous job of balancing support
+on the one hand and foot-freedom on the other.</p>
+<h2 id="life-optimisation-tip-73-streak-more">Life optimisation tip #73: Streak more.</h2>
+<p>As I was scrolling aimlessly through my facebook feed during my last session
+before the Great Social Media Fast of September 2019 (see next section), I
+quite ironically ran into a truly interesting post by a Swedish visualization
+colleague (SVC).</p>
+<p>In this post, he talked about his hobby and progress as a <em>run streaker</em>.</p>
+<p>It turns out that there are runners with the <em>excellent</em> additional hobby of
+<em>streaking</em>, which in <em>this</em> context refers to the act of running every single
+day of their lives, and trying to do these daily runs for the longest
+continuous streak possible.</p>
+<p>The streakers know of each other, almost like Highlander, and are in a friendly
+competition, very much unlike Highlander.</p>
+<p>SVC now has a single uninterrupted streak, spanning multiple years, of daily
+running behind him. He has friends in his city who have also been streaking for
+multiple years now.</p>
+<p>I find this fantastic, both specifically as a running and fitness feat, and
+more generally as a brilliant human optimisation trick.</p>
+<p>The longer your streak, the harder it&rsquo;s going to become to break that
+streak. Add in the friendly competition element, and you have become an
+accomplishment machine.</p>
+<p>I see great potential here in the context of
+<a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">compounding</a>
+more consistently, and for longer.</p>
+<p>What else could we streak folks?</p>
+<h2 id="the-great-social-media-fast-of-2019">The Great Social Media Fast of 2019.</h2>
+<p>Twitter, Facebook, Reddit and friends&hellip; hot durnit.</p>
+<p>Because I recently re-acquired the habit of checking reddit and twitter
+multiple times during the day, I again examined the mechanisms driving this
+undesirable behaviour.</p>
+<p>The insidiousness, at least for me, lies in the fact that TwiFRaF (twitter,
+facebook, reddit and friends) always has something looking like new information
+on tap, where with tap, I mean firehose.</p>
+<p>At any given moment during the day, when brain desires new input, or is just
+tired and would like to take a break, TwiFRaF firehoses are ready to spew
+something that appears to be new information but is only a very convincing
+analogue.</p>
+<p>Brain thinks it&rsquo;s getting what it wanted, plus a tiny and uninspired spurt of
+discovery-dopamine here and there, which helps to keep up the illusion.</p>
+<p>Any chance of real curiousity taking its natural course is cancelled.</p>
+<p>Instead of pondering a question, and then going out on a slow and deliberate
+search for information and later enlightenment, the firehose is opened, because
+it&rsquo;s easier.</p>
+<p>Furthermore, brain is unnecessarily exhausted trawling through a mix of mostly
+generic rubbish with, granted, an interesting nugget every blue moon.</p>
+<p>Hot durnit.</p>
+<p>Fortunately, I like experiments, and Cold Turkey is my middle name!</p>
+<p>So, on Saturday I decided to cut out TwiFRaF completely.</p>
+<p>Initially I thought it would be an experiment until the end of September, but
+now I&rsquo;m thinking that streaking might be an even better option.</p>
+<p>We&rsquo;ll see.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #119: Snowcrash.</title><link>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</link><pubDate>Sun, 26 Mar 2017 20:55:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</guid><description> This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.
+As is becoming sort of a tradition around these parts, I get to show you a photo or two of our over-nerding antidote trips into the wild.
+This is the path to the Koppie Alleen beach in the De Hoop Nature Reserve. Paths and photos of paths make me all pensive:</description><content:encoded><![CDATA[ <p>This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.</p>
+<p>As is becoming sort of a tradition around these parts, I get to show you a photo or two of our over-nerding antidote trips into the wild.</p>
+<p>This is the path to the Koppie Alleen beach in the <a href="http://www.capenature.co.za/reserves/de-hoop-nature-reserve/">De Hoop Nature Reserve</a>. Paths and photos of paths make me all pensive:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/03/IMG_20170318_1613225.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/03/IMG_20170318_1613225-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>The following impression is of the De Hoopvlei. The short hiking trail along the vlei turned my morning run into an epic one.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/03/IMG_20170318_1044208-1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/03/IMG_20170318_1044208-1-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>The weekend before the De Hoop one, I spent at least half an hour sitting on the sofa just thinking.</p>
+<p>Two things are noteworthy about this event.</p>
+<ol>
+<li>I had half an hour of pure, uncut, interruption-free idle time.</li>
+<li>During this time, I resisted the urge to flip out or open any information consumption device, instead electing to have my thoughts explore my internal landscape, like people used to do in the old days.</li>
+</ol>
+<p>I was trying to come up with better ways to keep track of this landscape. The <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work</a> phase I’m going through currently applies to work time (doh), but somehow not to free time, where I’m very much prone to latch on securely to the internet firehose for a mind-blasting gulp-athon.</p>
+<p>Coincidentally, and perhaps even slightly ironically, the firehose deposited this insightful Scientific American article titled <a href="https://www.scientificamerican.com/article/warning-your-new-digital-world-is-highly-addictive/"><em>Warning: Your New Digital World Is Highly Addictive</em></a>.</p>
+<p>Psychology and marketing professor Adam Alter argues that the companies behind the apps and the media that we consume are naturally applying various advanced tools to ensure that we remain engaged for as long as possible.</p>
+<p>In short, you spend so much time in Facebook (<a data-rel="lightbox-video-0" href="https://youtu.be/md4kM9AKjHs">I don’t anymore haha</a>) because Facebook employs really clever people who build systems that run continuous experiments on your viewing behaviour and figure out what to show you so that your eyeballs remain glued to that little display.</p>
+<p>This makes absolute sense of course.</p>
+<p>If your company’s life blood was advertising revenue, and/or user engagement was important to your company’s bottom line for some or other reason, of course you would analyse and A/B test the living daylights out of your users in order to keep them in your app / media stream for that much longer.</p>
+<p>The following day, the firehose of faux-wisdom gave me this: <a href="https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet"><em>Tim Berners-Lee: I invented the web. Here are three things we need to change to save it</em></a>.</p>
+<p>Sir Berners-Lee is arguing that we’ve lost control of our data (“your” data belongs to Facebook, Instagram, Twitter, <em>&lt;insert your thing here&gt;</em>, you should blog more it’s better) and, more importantly, that we’re being manipulated by less than benevolent actors (pronounce with melodramatic accent on the “tors”) who, again based on advanced analytics tools, manufacture and modify news in order to sway public opinion. (Read my other recent post <a href="https://cpbotha.net/2017/03/25/fake-news-is-just-the-beginning/">Fake News is Just the Beginning</a> if your tin foil hat is just getting warmed up.)</p>
+<p>In <a href="/2011/03/19/drown-in-the-now-weekly-head-voices-42/">2011</a>, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">2012</a> and <a href="/2014/07/16/a-south-african-state-of-mindful/">2014</a>, I wrote briefly about our innate weakness for anything new. Social media is almost the perfect poison in that respect. You keep on scrolling down, because what if, what if there’s something <em>new</em> that’s going to answer that question you have not even formulated yet.</p>
+<p>Putting all of this together: The internet is a beautiful thing. However, we have evolved parts of it to target an insidious psychological weakness in ourselves. Furthermore, there is a massive commercial incentive to keep on tweaking the distractions so that they become even more addictive, negating many of the information-related advantages they might have offered.</p>
+<p>As if that was not sufficient, there is political and commercial incentive to develop techniques that essentially subvert our cognition, thereby fairly effectively misleading us to make decisions that satisfy somebody else’s agenda.</p>
+<p>All is not lost.</p>
+<p>Making time to think is great. Set aside as much as you can. Stare into space. Resist the urge to check the little magic window.</p>
+<p>Personally, I like to form habits as much as possible.</p>
+<p><a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work</a> has become a habit for me. I am going to bring in old-school glassy-eyed staring-into-space thinking as a habit also. Complementary to that, and as an answer to my search for ways of keeping track of my mental landscape, I have resolved to write / draw as much of that mental landscape as I can, at regular intervals.</p>
+<p>More generally, I wonder if, and how, we as humankind are going to address the issue of news and opinion manipulation.</p>
+<p>Do we have to resign ourselves to this future? Is it going to become a question of which side employs the most expensive analytics and data science, and can hence out-manipulate its opponents? Or are we humans somehow going to develop systemic immunity?</p>
+<p>In any case, I wish you all great success and happiness staring into space!</p>
+<p>P.S. I nominated <a href="https://en.wikipedia.org/wiki/Alexandra_Elbakyan">Alexandra Elbakyan</a> for the brand-new <a href="https://www.media.mit.edu/disobedience/?ref=3c57421c098068c80298fd5fd3e18c74">MIT Media Lab Disobedience Prize</a>. If you have some time, and you feel that publically funded research results should be available to the public, please <a href="https://www.media.mit.edu/disobedience/?ref=3c57421c098068c80298fd5fd3e18c74">add your nomination</a>.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

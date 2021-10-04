@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ipad on voices in my head</title><link>https://cpbotha.net/tags/ipad/</link><description>Recent content in ipad on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 26 Jan 2019 17:10:31 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ipad/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.
+Welcome to the first WHV of the year 2019 folks!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/chicken_potjie_no2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/chicken_potjie_no2-1024x768.jpg"
+        
+            alt="In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie."/> </a><figcaption>
+            <p>In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to the first WHV of the year 2019 folks!</p>
+<p>In what is hopefully just a minor incident and not a portent of calamitous events to come, we have already skipped the first two weeks of the year, which means this WHV looks back at the three weeks from Monday January 7 to Saturday January 26.</p>
+<p>I guess this would not be the WHV if we did not start off with some sort of awkwardness or miscellaneous embarrassment, so: CHECK!</p>
+<p>Because you are probably thirsty for your WHV now, I tried to write you a long and rambly edition, with pictures! (Because it’s so long and rambly, and because markdown, I have liberally sprinkled with headings and sub-headings, so that those of you with lives outside of blog reading can hop, skip and jump through like the professionals you are.)</p>
+<h2 id="the-future-is-here-long-form-blog-posts-on-the-ipad">The future is here: Long-form blog posts on the iPad.</h2>
+<p>This also would not be the WHV if we did not have some little digital trick to reveal: Today’s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.</p>
+<p>Because I really don’t like the new block-based WordPress 5.0 editor, named in an entirely non-hubristic fashion “Gutenberg”, but it does fortunately support importing markdown formatted blog posts (just make sure you don’t hard-wrap anything), and because I like trying new things, I am typing this on the iPad using the iOS version of <a href="https://www.textasticapp.com/">Textastic</a>.</p>
+<p>A few hours ago, it looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/img_0005.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/img_0005-1024x768.png"
+        /> </a>
+</figure>
+</p>
+<p>In contrast to the direct <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">orgmode to wordpress Emacs workflow</a> I normally use, this workflow enables me to copy and paste sections of markdown text into WordPress. Each pasted section is automatically imported as WordPress blocks, based on the markdown structure.</p>
+<p>This means I can position and edit images using the WordPress interface, but author the text using Markdown. With <a href="https://github.com/org2blog/org2blog">org2blog</a> the whole post, including images, has to go through life as an orgmode file, which is brilliant for my more technical posts, but not so much for prose-heavy blog posts such as this one.</p>
+<h3 id="btw-1-why-i-dont-yet-like-the-new-wordpress-editor">BTW 1: Why I don’t (yet) like the new WordPress editor.</h3>
+<p>The old WordPress editor enabled me to focus on the content and just write.</p>
+<p>The new <a href="https://wordpress.org/gutenberg/">Gutenberg editor</a> now wants me to create a bunch of blocks, e.g. paragraph, image, paragraph, bullet list, etc., and then work with those blocks.</p>
+<p>That’s really great if you’re building a site, but not so much when you would just like to get down and write that blog post.</p>
+<p>Although this is now the standard editor in WordPress, there are still bugs, such as the fact that my cursor keeps on jumping to the start of the block while I’m typing, which is not irritating at all, and the not unimportant observation that none of the mobile apps support Gutenberg yet.</p>
+<p>WordPress-using readers, what do you think?</p>
+<p>(P.S. Another just-discovered issue: In Gutenberg, your biggest heading is H2. H1 is not available in the UI normally. When pasting in markdown, H1s do display, but do not show in the type-UI as anything. Here is <a href="https://github.com/WordPress/gutenberg/issues/4234">a confusing Gutenberg bug report</a>.)</p>
+<h3 id="btw-2-why-textastic-aka-at-least-it-will-syntax-highlight-your-orgmode">BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)</h3>
+<p>The main reason I found and purchased Textastic, was that I ran into <a href="https://github.com/jezcope/Org.tmbundle">Jez Cope’s github repo</a> with a TextMate Bundle (that’s an editor configuration) that was made for Textastic to support editing Emacs orgmode files.</p>
+<p>As is the age-old open source way, there were a few small bugs which I <a href="https://github.com/jezcope/Org.tmbundle/pull/5">fixed in my fork</a>, which you should definitely get if you are in the same I-want-to-edit-Orgmode-on-my-iOS boat as I am. It’s not a very large boat, but it’s super fun!</p>
+<p>(There is no Emacs on iOS. This is in my view the greatest downside of iOS. It turns out that Apple generally does not allow apps with embedded interpreters on the app store. However, I am still trying to find out why there are no iOS-capable Emacs source code forks available.)</p>
+<h3 id="btw-3-the-ipad-with-keyboard-is-a-shockingly-good-laptop-replacement">BTW 3: The iPad with keyboard is a shockingly good laptop replacement.</h3>
+<p>I recently recommended to a privacy-conscious reader who was searching for an affordable Linux-running laptop in South Africa, that she instead consider buying an iPad with bluetooth keyboard.</p>
+<p>Down here a brand new 2018 iPad costs R5999. A cheap keyboard cover (e.g. Body Glove) can be had for about R860.</p>
+<p>If you compare this to any new laptop of R6900 (about EUR 444) which will probably be sold with Windows included, you get a computing device with a fantastic quality multi-touch screen, great battery life, best-in-class security, almost no maintenance, and a fantastic app ecosystem. To seal the deal, the iPad’s resale value is proportionally probably also much better than that entry-level laptop.</p>
+<p><em>After</em> I sent that email, I started with this iPad + cheap bluetooth keyboard experiment to try it for myself. I have to say that the experience has been way better than I expected.</p>
+<p>For a large subset of laptop users, and for a large subset of workflows and tasks, this is a really great solution.</p>
+<p>Please don’t worry (too much) yet, I am not planning one of those “I switched to an iPad as my main computing device” blog posts. I would not be able to survive without my development tools, and I would especially not be able to survive without my Emacs.</p>
+<h2 id="pv-solar-installation-progress">PV Solar installation progress</h2>
+<p>As I excitedly <a href="/2018/12/19/weekly-head-voices-159-extreme/#extreme-solar">announced in WHV #159</a> (slightly more than a month ago), we had decided that it was time to get a photovoltaic solar power system installed at the house.</p>
+<p>I found a local installer with the required PVGreenCard accreditation and started the consultation process.</p>
+<p>Unfortunately, the installer did not seem to be prepared for a customer that would not stop asking questions. The customer even went so far as to pose questions that challenged the installer’s brand loyalty!</p>
+<p>I really do understand that I’m probably not the easiest end-user, but I don’t think that an expert’s brand loyalty should get in the way of reason, and far more importantly in the way of basic physics.</p>
+<p>To make a long story short, I ended up getting fired by the installer.</p>
+<p>This was probably for the better: He can now continue doing well-practised installs for other clients who don’t ask (so many) questions, and I suddenly had the opportunity to find a new, more engineer-friendly installer, and to continue learning.</p>
+<p>Following are two noteworthy learnings:</p>
+<h3 id="learning-1-you-should-almost-always-try-to-oversize-the-photovoltaic-array">Learning 1: You should almost always try to oversize the photovoltaic array</h3>
+<p>If the equipment states for example 4600kVA, then you are usually quite safe installing from 25% up to 30% more kWp of solar panels.</p>
+<p>Oversizing will mean that on very sunny days you’ll get peaks higher than the maximum rated PV, which can be handled for short periods by the solar equipment, but more importantly, you’ll be able to generate more electricity when there is less sun, which is most of the time.</p>
+<p>In other words, you increase the area under the curve of kW generated per hour.</p>
+<p>By the way, I emailed GoodWe (they make the hybrid inverters I have my eye on) who confirmed that their EM range supports 27.8% oversizing. The ES range advertise 30% PV oversizing on the box.</p>
+<p>It is of course an interesting question what exactly is meant by oversizing. Do they support pumping 30% more power into the inverter for 5 minutes, or for 2 hours?</p>
+<h3 id="learning-2-powerforumcoza-is-a-great-source-of-information">Learning 2: powerforum.co.za is a great source of information.</h3>
+<p><a href="https://powerforum.co.za/">This forum</a> has a surprisingly high signal to noise ratio.</p>
+<p>There are a number of experts hanging around, including one of Victron’s super helpful and knowledgeable R&amp;D engineers, and the archive posts are invaluable as you try to navigate <a href="https://powerforum.co.za/topic/2791-experience-getting-city-of-cape-town-to-sign-off-a-zero-feed-in-system-with-inverter-maximum-output-greater-than-35kva/">the quagmire</a> of often conflicting information.</p>
+<h2 id="avocado-baby-progress-very-much-touch-and-go">Avocado baby progress: Very much touch and go.</h2>
+<p>The baby avocado tree, in spite of being being watered almost every day (thank you rainwater harvest!) does not seem to be doing too well.</p>
+<p>Because the summer sun down here can be quite vicious, the tree has its own little pink umbrella.</p>
+<p>The current plan is to feed it more compost, and, if that fails, to try to transplant it out of the big, wild garden and into a pot with softer, kinder earth.</p>
+<h2 id="how-to-explain-complicated-topics">How to explain complicated topics</h2>
+<p>The international and yearly <a href="https://mlssafrica.com">Machine Learning Summer School took place in Stellenbosch this year</a>, from Monday, January 7 to Friday, January 18.</p>
+<p>As you can see from the programme, there were a bunch of heavy hitting speakers present both physically and virtually, including the super resourceful (failed super resolution pun, su(p)e(r) me) Dr Stefan van der Walt, who gave a talk on good scientific software.</p>
+<p>Anyways, because I am currently in a more commercial configuration, I could not justify taking two weeks out, and instead opted for a day visit at the start of the congress.</p>
+<p>It is a testament to the current prominence of the field that the list of international sponsors included Microsoft, Apple, SAP, Uber <em>and</em> Amazon.</p>
+<p>It was gratifying to experience a sampling of such a well-organized international gathering here in my neck of the woods.</p>
+<p>On the first day, we had a high throughput introduction to causality, probabilistic thinking, and variational inference. All the presenters were clearly good speakers, but they weren’t all equally experienced in teaching such complex material.</p>
+<p>(At one point one of the statisticians I was chatting to in break admitted having difficulty keeping up with the math. I did not feel <strong>that</strong> stupid anymore.)</p>
+<p>“What is the difference between being a good speaker and an experienced teacher?”, you might now ask.</p>
+<p>Great question, I would then say, grateful for the opportunity to explain.</p>
+<p>What I was missing in the one specific case I do not want to be too specific about, was that the presenter did a great job of talking about each of a long list of concepts relevant to his topic, but somehow forgot that one of the most important parts of teaching is communicating the conceptual framework into which all of those concepts fit.</p>
+<p>Conceptual frameworks are also one of those multi-scalar things: Each group of factoids can be gratifyingly embedded into a slightly higher level component, groups of which can be slotted into the overarching “big idea”, or another level of compnonent. (It’s turtles all the way down.)</p>
+<p>As great lecturers talk, they keep on bringing their narrative back up to the higher-level embedding construct.</p>
+<p>It looks something like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/teach_complicated_things.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/teach_complicated_things-1024x576.png"
+        
+            alt="Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why."/> </a><figcaption>
+            <p>Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why.</p>
+        </figcaption>
+</figure>
+</p>
+<p>By repeatedly diving deeper into the details, and then following the conceptual link back up to the higher-level constructs and especially your big idea, your listeners will start to see the beautiful fractal of understanding that you are guiding them through.</p>
+<h2 id="what-will-i-be-working-on-this-year">What will I be working on this year?</h2>
+<p>At this moment, 2019 is shaping up to be pretty exciting work-wise.</p>
+<p>We just heard that we will be able to continue for some months more working on the X-Ray based surgical planning project we worked on last year.</p>
+<p>Partly thanks to the great deep learning work of two summer interns (note: Southern Hemisphere means summer interns over December and January, which might be weird if you’re from the Northern Hemisphere) we are in great shape for all of the deep neural network-based image understanding plans we need to execute on.</p>
+<p>This year I will also be spending more time on <a href="https://www.telesensi.com">TeleSensi, our FDA-certified tele-auscultation product</a>. This is less rocket-sciencey than the surgical planning project, but super interesting to work on, as it has many more users on the open market.</p>
+<p>(That being said, we do have plans to increase the level of rocket science significantly. I am not called the science officer for nothing… (well, that and also the fact that I got to choose my own title, and so I chose the same as Spock on the USS Enterprise).)</p>
+<h2 id="do-you-write-stuff-down">Do you write stuff down?</h2>
+<p>You might remember from WHV #155 <a href="https://cpbotha.net/2018/10/12/weekly-head-voices-155-lush/#productivity-pro-tip-fool-yourself-into-doing-a-good-daily-review">my trick of starting the day with a checklist</a>.</p>
+<p>A part of that checklist is a checklist of habits which I try to form and maintain, called The HabitFormer(tm). Every item that I sufficiently address gets a super satisfying little <code>[X]</code> mark, which feels a whole lot better than the sadly empty <code>[ ]</code> construct.</p>
+<p>Here is the current list:</p>
+<ul>
+<li>did you write stuff down?</li>
+<li>are you satisfied with number of pomodori?</li>
+<li>7.5 hrs sleep last night</li>
+<li>meditate &lt;– (WHV <em>hidden</em> pro-tip: Get the <a href="https://wakingup.com/">Waking Up</a> app by Sam Harris. Thanks LM for the fantastic recommendation.)</li>
+<li>stand at desk</li>
+<li>do valuable things</li>
+<li>fruit &amp; veg</li>
+<li>reading</li>
+<li>thinking</li>
+<li>running or other exercise</li>
+</ul>
+<p>Ironically enough, the first item is brand new on the list.</p>
+<p>I somehow forgot my habit of writing, during the day, a little done list / random thoughts lists. After bringing this habit back I noticed what difference it made.</p>
+<p>At regular intervals during the day, I will spend a minute or three writing down what I had completed, or what I was thinking. This moment of introspection would either result in a pleasant bit of satisfaction with some small task taken care of, or, more often, it would reel me back in from a spot of less than deliberate action and enable me to bring back my attention to the point of focus.</p>
+<p>I’m filing this under “101 tricks to get your <a href="https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/">rider back on your elephant</a>“.</p>
+<p>Alright friends, thank you very much for joining me on this part of my journey. I am looking forward to our next interaction!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #111: A swift hack.</title><link>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</link><pubDate>Mon, 15 Aug 2016 20:04:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</guid><description> Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.
+Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.</description><content:encoded><![CDATA[ <p>Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.</p>
+<p>Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.</p>
+<h2 id="the-hackernews-effect">The HackerNews effect</h2>
+<p>When I submitted my <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">Moving 12 years of email from GMail to Fastmail blog post</a> to HackerNews last Monday, it was after some consideration, and with considerable trepidation. The previous time a similar post of mine was picked up by the HN frontpage (and reddit) in 2013, it resulted in a great number of fairly harsh insults flung my way (the harsh ones seem to hit much harder than the many more constructive ones can compensate for). The problem is not having your work criticised, it’s rather being ad hominem’ed into the ground.</p>
+<p>The internet can unfortunately get quite bad that way.</p>
+<p>However, this time the internet was in a good mood!</p>
+<p>As a Z-list (aka hobbyist) blogger, I already get quite excited when even two people find something entertaining or educational in my blog, so you can imagine my excitement when I saw my blog stats jump into the thousands during the first hour after hitting the HN front page.</p>
+<p>646 upvotes, 365 comments (<a href="https://news.ycombinator.com/item?id=12247401">in the HN discussion</a>) and more than 50 thousand blog post views later (!!), my asbestos suit is still in storage, and the box of kleenex (for drying up my tears) is still unopened. I am very happy with the healthy and mostly happy discussion both on HN and here on the blog.</p>
+<h2 id="a-taste-of-my-secret-beer-notes">A taste of my secret beer notes</h2>
+<p>In my travels around the world (ok, maybe just in a few hundred kilometre radius of where I live) I taste many exotic and strange drinks (okay, maybe just the local craft beers). Here’s an excerpt from my top secret beer notes for your reading and hopefully soon tasting pleasure:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/stellies_bosch_weiss.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/stellies_bosch_weiss-648x1024.jpg"
+        
+            alt="Stellies Bosch Weiss"/> </a><figcaption>
+            <p>Stellies Bosch Weiss</p>
+        </figcaption>
+</figure>
+</p>
+<p>The <strong>Stellies Bosch Weiss</strong> is is a refreshing white beer which I can imagine enjoying much more in 35 celsius. However, I find it way too gassy for my taste and thus give it 0.4 on the Celis White scale. As everyone knows, <a href="https://www.beeradvocate.com/beer/profile/565/5222/">Celis White</a> is the best white beer in the world. I’m also not the biggest fan of CBC’s Krystal Weiss because of its gassiness. This could also be a German vs Belgian thing.</p>
+<p>The <a href="http://www.darlingbrew.co.za/beers.html#/bc">Darling Brew Bone Crusher</a> is probably a 0.8 on the Celis scale, and scores mega bonus points for choosing such a heavy metal name.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/patriot_lager.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/patriot_lager-576x1024.jpg"
+        
+            alt="Citizen Beer’s Patriot Lager"/> </a><figcaption>
+            <p>Citizen Beer’s Patriot Lager</p>
+        </figcaption>
+</figure>
+</p>
+<p>Citizen Beer has a real knack for naming beers; so this weekend I was able to do my patriotic duty (ha ha) by enjoying their <strong>Patriot lager</strong>. Fortunately, they also have a great knack for making lovely beers. This lager is more than hoppy enough to remind you that it’s a craft, but at the same time it is refreshingly light.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/devils_peak_lager.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/devils_peak_lager-576x1024.jpg"
+        
+            alt="Devil’s Peak Lager"/> </a><figcaption>
+            <p>Devil’s Peak Lager</p>
+        </figcaption>
+</figure>
+</p>
+<p>Not completely coincidentally, I also tasted the <strong>Devil’s Peak Lager</strong> this weekend. There are subtle differences between it and the Patriot which I will only be able to describe after more tasting. For now: Same lightness, but with enough hop. Highly enjoyable.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/devils_peak_pale_ale.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/devils_peak_pale_ale-524x1024.jpg"
+        
+            alt="Devil’s Peak Pale Ale"/> </a><figcaption>
+            <p>Devil’s Peak Pale Ale</p>
+        </figcaption>
+</figure>
+</p>
+<p>As I’ve mentioned before, it’s no coincidence that happiness and hoppiness look so similar. The <strong>Devil’s Peak Pale Ale</strong> was a superbly hoppy (about 239% more hoppy than the lager) and full flavoured conclusion to the weekend. In spite of its full body this Cape Town beer’s alcohol content is lower than I would have expected: Only 4%.</p>
+<h2 id="first-impressions-of-swift-playgrounds">First impressions of Swift Playgrounds</h2>
+<p>I might or might not have acquired a new iPad Air 2 with the primary motivation of being able to test the new <a href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a> on Genetic Offspring Unit #1 (now 10 years old). This is a new and attractive iPad-only app that has been designed by Apple to teach kids how to program in Swift. Note that you’ll have to upgrade to <a href="https://beta.apple.com/sp/betaprogram/">iOS 10 Beta</a> to get the app, at least until <a href="https://www.apple.com/ios/ios10-preview/">iOS 10 is officially released</a>. One of the exercises looks like this (image taken from the website):</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-14-at-6.25.43-PM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-14-at-6.25.43-PM-1024x729.png"
+        /> </a>
+</figure>
+
+<p>Previous experiments with <a href="https://scratch.mit.edu/">scratch</a> and with <a href="https://processing.org/">processing</a> have met with limited success but no permanence. However, GOU#1 is an iPad fanatic, and the potential of getting her addicted to the programming bug is just too fantastic to let this opportunity go by.</p>
+<p>On the first day, she was already writing functions and for loops in Swift in order to navigate a cute alien solving puzzles on a 3D landscape.  I was looking over her shoulder now and then: The educational content and execution of the app is impressive. Besides the built-in puzzle worlds such as the 3D one pictures above, you can create your own Swift projects from scratch. These projects can use iPad hardware such as bluetooth and the camera, but we’re not quite there yet. Apple has also promised to keep on expanding the educational content.</p>
+<p>I’m really crossing my fingers that GOU#1 will keep at it. If Swift Playgrounds helps to get her programming, I might just have to go full fanboy.</p>
+<h2 id="heading">∞♥</h2>
+<p>This past Friday at the breakfast table, Genetic Offspring Unit #2 asked her mom how much she thought GOU#2 loved the baby GOU#3, upon which the mom asked “How much do you love GOU#3?”.</p>
+<p>GOU#2 answered: Infinitely much!</p>
+<p>My fragile parental unit heart almost exploded with happiness at this point. It’s what I tell GOU#1 and #2 when I put them to bed, and every morning when I drop them at school. (GOU#3 herself does not yet parse our language.)</p>
+<p>Ok kids, it looks like there’s an infinite amount of the good stuff to go around. You know what to do!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/bettys_bay_somewhere.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/bettys_bay_somewhere-1024x576.jpg"
+        
+            alt="I went jogging (or rather walking with a two-step now and then). Enjoyment of surroundings and physical activity was quite intense at this point in spacetime: 15:55 on August 7, 2016; GPS coordinates in EXIF data."/> </a><figcaption>
+            <p>I went jogging (or rather walking with a two-step now and then). Enjoyment of surroundings and physical activity was quite intense at this point in spacetime: 15:55 on August 7, 2016; GPS coordinates in EXIF data.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item></channel></rss>

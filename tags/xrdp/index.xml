@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xrdp on voices in my head</title><link>https://cpbotha.net/tags/xrdp/</link><description>Recent content in xrdp on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 20 May 2020 23:06:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/xrdp/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #195: Pragmatic</title><link>https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/</link><pubDate>Wed, 20 May 2020 23:06:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/</guid><description> Figure 1: Photo from a walk with the fam jam up the mountain a little while out from our backyard, all within the sanctioned exercise hours between 6 and 9 in the mornings.
+This edition of the Weekly Head Voices looks back at the week from Monday May 11 to Sunday May 17, 2020.
+The rest of this post consists of a part about keyboards, a part chock full of ways to waste your time with WSL and f#, a part about why you might be wasting your time with aforementioned, and then finally a part about a really interesting book.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="nbh_mountain_walk_pano.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Photo from a walk with the fam jam up the mountain a little while out from our backyard, all within the sanctioned exercise hours between 6 and 9 in the mornings."/> </a><figcaption>
+            <p>Figure 1: Photo from a walk with the fam jam up the mountain a little while out from our backyard, all within the sanctioned exercise hours between 6 and 9 in the mornings.</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the Weekly Head Voices looks back at the week from Monday May
+11 to Sunday May 17, 2020.</p>
+<p>The rest of this post consists of a part about keyboards, a part chock full of
+ways to waste your time with WSL and f#, a part about why you might be wasting
+your time with aforementioned, and then finally a part about a really
+interesting book.</p>
+<p>If you don&rsquo;t like keyboards, and you&rsquo;re wondering in a non-curious way what a
+WSL is, I would strongly recommend that you jump to the part, at the end of the
+post, about the really interesting book.</p>
+<h2 id="ergonomic-keyboard-one-way-street">Ergonomic keyboard one-way street</h2>
+<p>As you will recall from <a href="/2020/05/03/weekly-head-voices-193-covid-19-part-3/#microsoft-sculpt-ergonomic-desktop-at-4-years-rip">the thrilling events of episode #193</a>, one of my two
+(home-office and office-office) Microsoft Sculpt Ergonomic keyboards gave up
+the ghost.</p>
+<p>After far too many keyboard reviews and a fruitless search for a worthy
+alternative, I indeed gave up and tried to make peace with the fact that over
+the coming years I&rsquo;ll be slowly buying up the rest of the world&rsquo;s Sculpt
+supply.</p>
+<p>My secret campaign got off to a pretty unspectacular start as I was able to
+find exactly one (1) online retailer that was able to supply at this moment.</p>
+<p>I mundanely ordered the thing, and it was pretty mundanely delivered to my
+house a few days later.</p>
+<p>After some breaking in, I am happy to report that a brand-new Sculpt indeed
+feels a great deal more amazing than a 4-year-old Sculpt.</p>
+<p>As backups for any additional future apocalyptic situations, I also bought two
+much cheaper &ldquo;normal&rdquo; keyboards, namely <a href="https://www.microsoft.com/accessories/en-us/products/keyboards/wired-keyboard-600/anb-00001">the Microsoft Wired Keyboard 600</a>.</p>
+<p>I tried typing on one just to see what it was like, but more specifically to
+develop some sort of intuition for if I would ever be able to return to
+straight boards.</p>
+<p>To be quite frank, my first impressions were pretty horrible.</p>
+<p>Wrists having to bend outwards like that is positively uncomfortable, while the
+keys on that unit make for a solid 14 on the 10-point mushiness scale.</p>
+<p>One could perhaps get used to the mushiness, or preferably just invest in a
+more expensive (mechanical) keyboard, but that ulnar deviation is a total deal
+breaker.</p>
+<p>My dreams of joining the clickety-clackety cliques of the mechanical keyboard
+digerati had been shattered, fortunately quite cheaply.</p>
+<p>Instead, I shall be redoubling my Sculpt stockpiling efforts.</p>
+<h2 id="interlude-of-even-more-nerdy-miscellany-dot">Interlude of even more nerdy miscellany.</h2>
+<p>On Friday evening I was sucked into Windows and WSL2 again.</p>
+<p>I stayed up a bit too late because I discovered that instead of displaying to
+X410 on Windows, which is slightly painful with WSL2 due to port redirects
+and/or firewalling and/or the connection dying every time the Windows host
+suspends, one can also start xrdp on WSL2, and then connect to that with
+Windows remote desktop.</p>
+<p>For WSL2, this is much more robust than X11, and for some use-cases it offers a
+better experience. (I&rsquo;m writing this on Tuesday, and <a href="https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/">MSBuild has just made a
+number of super relevant announcements with regard to native WSL2 Linux GUI
+support</a>. For the demo of WSL2 Linux GUI apps, they were displaying to Wayland
+on WSL2 and connecting to that using RDP.)</p>
+<p>On Saturday, I wrestled with and was solidly trounced by .net core 5 preview 3
+and the preview of F# 5.</p>
+<p>My goal was to try out the <a href="https://devblogs.microsoft.com/dotnet/announcing-f-5-preview-1/">new <code>r# nuget</code> package references</a>, and specifically
+to try this out with the PowerShell type provider in <a href="https://github.com/fsprojects/FSharp.Management">FSharp.Management</a>.</p>
+<p>At this point, I also can&rsquo;t tell you exactly why.</p>
+<p>I now believe that this was just an instance of the eternal and far broader
+learn-something-completely-new vs. work-on-some-compounding-activity conundrum.</p>
+<p>(I would later learn that Fsharp.Management has not been updated in a while,
+and the packages are not compatible with netcore or netstandard.)</p>
+<p>Probably more importantly, I learned that when you&rsquo;re an utter F# noob like me
+you should probably just avoid the bleeding edge altogether.</p>
+<p>It&rsquo;s called the <em>bleeding</em> edge for good reason.</p>
+<h3 id="the-story-behind-this-story-one-context-to-rule-them-all">The story behind this story: One context to rule them all!</h3>
+<p>When I bought my ex-MacBook Pro 2017 in 2017 on my birthday, you might remember
+<a href="/2017/09/05/weekly-head-voices-125/#new-laptop">how I justified it then</a>:</p>
+<blockquote>
+<p>Up to then, I had been working on all of three different machines:
+Linux-running i7 desktop (acquired in Feb of 2015), early 2015 13″ retina
+MacBook Pro (acquired in June of 2015) and my trusty old klunky i7 Acer
+Linux-running laptop (acquired around March 2013).</p>
+<p>Data is kept in sync, but context switching between different projects with
+different development environments on different machines at home and at work
+does seem to take up more time than I would care to admit.</p>
+<p>Having everything on a single powerful-enough laptop would indeed make the most
+sense from a time-efficiency perspective.</p>
+</blockquote>
+<p>That part of the MacBook Pro experiment worked out quite well: The hardware and
+software was good enough for <em>everything</em> that I needed to do, so I hardly ever
+needed to context switch out of the laptop.</p>
+<p>Although <a href="/2019/04/27/new-laptop-2019/">the new ThinkPad</a> is more powerful, the fact that I reboot multiple
+times per day in and out of Windows and two different Linux configurations on
+the laptop is almost like having three different machines, which of course
+kills the whole single context dream.</p>
+<p>(spoiler alert: In the book-review section after this, context-switching is one
+of the main villains!)</p>
+<p>Anyways, the reason I keep on returning to WSL2 and then wasting time trying to
+make it work more like native Linux and to integrate better with my workflow on
+Windows is because I would really like to get rid of this specific context
+switch.</p>
+<h2 id="pragmatic-thinking-and-learning">Pragmatic Thinking and Learning</h2>
+<p>This past weekend I finished reading <a href="https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning">Pragmatic Thinking &amp; Learning - Refactor
+Your Wetware (ed: ahem) by Andy Hunt</a>.</p>
+<p>The book is chock full of valuable guidelines for trying to improve the way in
+which I apply the limited mental energy I have at my disposal.</p>
+<p>(Quite ironically, it felt like the weekend was pretty much me flying right in
+the face of just about every piece of advice in the book.)</p>
+<p>Here is a selection of the notes I made, slightly massaged for your
+consumption. Bon appetit!</p>
+<ul>
+<li>Make room for the creative part of your brain to fly. First pour in some
+reading and structured thinking, and then take a walk, stare out into space,
+shower (again), take a nap, make a drawing upside-down. Do whatever&rsquo;s
+required to shut logical Spock voice up for a while. When the ideas start
+flying in, and they do, switch logical Spock voice back on to structure and
+process them.</li>
+<li>Build and start using an exocortex. (The reason I bought this book, is
+because it was pointed out to me as a good reference for the context and term
+<em>exocortex</em>. I&rsquo;m planning to write more about it <a href="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/#the-amazing-niklas-luhmann-and-his-zettelkasten">here</a> and <a href="https://orgmode-exocortex.com/">elsewhere</a>.)</li>
+<li>Science says that happiness enhances cognition. In other words, when you&rsquo;re
+happier, you&rsquo;re really smarter.</li>
+<li><strong>Write drunk, revise sober.</strong></li>
+<li>Get in the habit of collecting snippets of your writing. That&rsquo;s what the
+exocortex is for. You might be surprised at what you&rsquo;re able to construct
+with all of the snippets you collect over time. In the book, this is called
+the Fieldstone method, but it sounds suspiciously similar to slips of paper
+in a slipbox, aka Zettelkasten.</li>
+<li>Formulate SMART goals, that is Specific, Measurable, Achivable, Relevant and
+Time-boxed. If you read this blog, you&rsquo;re probably &ldquo;smart&rdquo; enough (dad joke,
+sorry) to figure out why this is good.</li>
+<li>Manage your mind along three axes:
+<ol>
+<li>Increase focus and attention, e.g. by training focus and attention also
+through practising meditation and by sometimes just doing nothing. <a href="https://en.wikipedia.org/wiki/Multiple%5Fdrafts%5Fmodel">Daniel
+Dennett&rsquo;s <em>multiple drafts</em> model of consciousness</a> is discussed here,
+super interesting stuff.
+<ul>
+<li>On that note, your whole brain and all of its high-level capabilities
+are squarely in the use-it-or-lose-it camp.</li>
+</ul>
+</li>
+<li>Manage your knowledge. You guessed it: Exocortex.</li>
+<li>Optimise your current context. Keep in your view only what is required to
+work on the current thing. Minimise context switching. Avoid distractions
+and manage interruptions.</li>
+</ol>
+</li>
+</ul>
+<p>Well, that was basically my exocortex flexing for you.</p>
+<p>ANYWAYS</p>
+<p>After all of that, my favourite part of the book was this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="pragmatic_screenshot.png">
+    <img
+        
+            
+            src="pragmatic_screenshot.png"
+        /> </a>
+</figure>
+
+<p>For those of you viewing this blog in its 100% text-only form, the screenshot
+above is of the part of the text explaining that not every day is going to be a
+productive one.</p>
+<p>I highlighted that, and added the comment:</p>
+<blockquote>
+<p>Some days gonna be crap.</p>
+</blockquote>
+<p>As life goes on, I have come to the realisation that no matter how hard you
+work and how much you practise, the days when everything seems to go right
+according to plan are truly scarce and should be celebrated.</p>
+<p>It&rsquo;s probably best to make peace with that fact, and simply to never stop
+trying.</p>
+<p>Also remember that it is quite possible to bend time just a little bit so as to
+create a little more space around the small victories and pleasures that one
+experiences even on <em>those</em> days.</p>
+<p>See you around friends!</p>
+]]></content:encoded></item></channel></rss>

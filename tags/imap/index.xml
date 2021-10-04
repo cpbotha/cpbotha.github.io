@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IMAP on voices in my head</title><link>https://cpbotha.net/tags/imap/</link><description>Recent content in IMAP on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 06 Aug 2016 20:22:04 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/imap/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 12 years of email from GMail to FastMail</title><link>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</link><pubDate>Sat, 06 Aug 2016 20:22:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</guid><description> In 2013, when it became clear, primarily through Edward Snowden&amp;rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course blogged about it (that blog post has been read almost 70000 times; I think for many people this is an important issue).
+This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from The Vogon Poet on August 24, 2004.</description><content:encoded><![CDATA[ <p>In 2013, when it became clear, primarily through Edward Snowden&rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">blogged about it</a> (that blog post has been read almost 70000 times; I think for many people this is an important issue).</p>
+<p>This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from <a href="https://twitter.com/vogonpoet">The Vogon Poet</a> on August 24, 2004. At that time, you could only get GMail by invitation. It was pretty exciting! (I have emails from before 2004, back to &lsquo;93 or &lsquo;94, but those are in a backup archive somewhere.)) to the little <a href="https://www.engadget.com/products/synology/ds213j/">Synology DS213j</a> standing next to my desk at the time.  This was all well and good behind the stable Dutch 100 Mbit/s <em>down</em> / 10 Mbit/s <em>up</em> cable connection I had, but when we decided to move back to South Africa, where home internet is a few years behind The Netherlands, I ended up having to pay for a virtual private server in Cape Town (to keep latency between me and my mail server manageable) and having to admin my own dovecot IMAP and postfix SMTP server.</p>
+<p>Initially this was workable, until the Nth time that I had to interrupt my real job (which has nothing to do with mail servers) to apply a security patch or get the VPS booting again after a botched kernel upgrade. Besides that, I had to deal with keeping my server out of over-enthusiastic spam blacklists and whatnot. Also, inspite of <a href="https://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">mu4e</a>, I did end up missing the fast graphical GMail web interface.</p>
+<p>So, it was with a great deal of tail between my legs that on June 10, 2015 (<a href="/2016/01/05/note-taking-strategy-early-2016/">I have a lab journal, remember</a>) I went right back back to GMail. My mail setup, although pleasingly decentralised, was costing me too much time and hence actual money.</p>
+<p>Fast forward to July 15, 2016 (there&rsquo;s that lab journal again…) when, after receiving an email from Google asking me to indicate how exactly I would like them to use my data to customise adverts around the web, and after thinking for a bit about what kind of machine learning tricks I would be able to pull on you with 12 years of your email, I decided that I really had to make alternative plans for my little email empire.</p>
+<p>Somehow FastMail came up and in one of those impulsive LET&rsquo;S WASTE SOME TIME manoeuvres, I pressed the big red MIGRATE button!</p>
+<p>The rest of this post is my mini-review of the FastMail service after almost 3 weeks of intensive use.</p>
+<h2 id="importing-mail-from-gmail">Importing mail from GMail</h2>
+<p>
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-10.50.45-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-10.50.45-AM-1024x594.png"
+        
+            alt="The main import &amp;amp; export window"/> </a><figcaption>
+            <p>The main import &amp; export window</p>
+        </figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.01.46-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.01.46-AM.png"
+        
+            alt="IMAP migration configuration dialog"/> </a><figcaption>
+            <p>IMAP migration configuration dialog</p>
+        </figcaption>
+</figure>
+</p>
+<p>The <strong>Settings | Import &amp; Export</strong> option in FastMail was easy to setup. It knows how to authenticate with GMail, even when you make use of two-factor authentication, like I do and you probably should.</p>
+<p>The import takes place via the GMail IMAP interface. It&rsquo;s important to remember that via the IMAP client, an email tagged in GMail with both <em>important</em> and <em>info</em> will appear in two different folders. Because of this, I did check the <strong>no duplicates</strong> checkbox, but still I noticed that my 15 GB FastMail evaluation mailbox was filling up more quickly than I would have expected.</p>
+<p>After a support request which was responded to within minutes (bonus), I discovered the <strong>Quota Usage</strong> screen and could see that the duplicate detection did indeed not seem to work correctly during the import. Based on more tips from the support tech, I made use of the <strong>Mass delete or remove duplicates</strong> module (Settings | Folders | Scroll all the way to the bottom of the page) to delete thousands of duplicate emails during the import. This was indeed because of emails appearing in multiple IMAP folders due to their GMail tags. <em><strong>Note:</strong> Friend and reader <a href="https://twitter.com/stefanvdwalt">stefanvdwalt</a> reported the exact same mail duplication during import issue which in his case did go over quota, so do keep an eye on this!</em></p>
+<p>After a day or so (during which I could email more or less normally) I received an import report from FastMail claiming that the import had been successful, except for this error:</p>
+<pre>Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Migrating folder Inbox -&gt; Inbox
+Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Creating local folder Inbox
+Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Error migrating remote folder Inbox: Failed to create Inbox. IMAP Command : 'create' failed. Response was : no - Mailbox already exists</pre>
+<p>The import had managed to figure out that GMail Sent should map to FastMail Sent for example, but Inbox was probably too special to map in the same way. I fixed this by firing up my trusty Thunderbird, and using IMAP to drag and drop emails from my GMail Inbox to my shiny new FastMail Inbox.</p>
+<p>In retrospect, I should have selected <strong>Create under new sub-folder</strong> in the IMAP migration configuration instead of <strong>Merge into existing folders</strong>. I discovered later that <strong>moving thousands of emails to a different folder is near instantaneous</strong> in the FastMail web-app.</p>
+<h2 id="what-i-like">What I like</h2>
+<h3 id="webmail-speed">Webmail speed</h3>
+<p>I live more or less at the southern tip of the African continent. My lowest latency connection with the rest of the internet is via undersea optic cable to Europe (about 140ms ping).</p>
+<p>The FastMail web servers are in the USA, which is, as the ping flies, much further away. I was not expecting much from the webmail, but colour me surprised when I discovered that this felt subjectively <em>faster</em> than GMail (who have servers everywhere, even down here). Things remained snappy, even with all 50000 of my conversations imported.</p>
+<p>As far as I can figure out, it seems that much of this is due to FastMail&rsquo;s self-designed but open source IMAP-replacement called <a href="http://jmap.io/">JMAP</a>. JMAP has been designed for low latency, and for improved battery life. What it does differently, is batch requests together, and it also has optimisations specifically for interactive webmail.</p>
+<p>The web-app has full support for keyboard shortcuts, which increases the subjective perception of speed.</p>
+<h3 id="webmail-search">Webmail search</h3>
+<p>For my purposes, search in FastMail is on par with that of GMail. I can dig up any of my emails, back up to 2004, in seconds.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.18.06-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.18.06-AM.png"
+        
+            alt="FastMail advanced search interface"/> </a><figcaption>
+            <p>FastMail advanced search interface</p>
+        </figcaption>
+</figure>
+</p>
+<p>What&rsquo;s also very useful, is that you can turn any search into a virtual folder.</p>
+<h3 id="tech-support">Tech support</h3>
+<p>This is one area where Google really can&rsquo;t hold a candle to FastMail. If something goes wrong with your gmail account (this hardly ever happens, but it&rsquo;s possible) it&rsquo;s almost impossible to get hold of any kind of official tech support. Here&rsquo;s <a href="https://medium.com/@xdvl/stop-using-gmail-com-for-things-you-care-about-14af40e43a88#.h5ljyewg7">a recent story</a> where a GMail user&rsquo;s account was summarily terminated. There <em>was</em> probably some kind of ToS infringment, but the user has no idea what or why, and has lost all access to their emails and contacts database.</p>
+<p>So far I&rsquo;ve contacted FastMail tech support twice: Once during my email migration, and once to confirm the absence of the “quote selected text in reply” feature (discussed below). In both cases, I was helped by real humans who responded very quickly and courteously to my support requests.</p>
+<h3 id="email-and-contacts-and-calendar-out-of-googles-view">Email and contacts (and calendar) out of Google&rsquo;s view</h3>
+<p>I&rsquo;m still of the opinion that Google makes fantastic and valuable products. However, with all of their data mining know-how and resources, one has to decide how much of one&rsquo;s personal information one is willing to trade in for the use of these fantastic products.</p>
+<p>With FastMail, I have been able to extricate my significant email archive (2004 to 2016, 50000 conversations) as well as my contacts database. I&rsquo;m still making use of Google Calendar, because of bunches of sharing going on with family members, but I have the option of moving that out also.</p>
+<p>By the way, the FastMail Calendar web interface is more than capable (and pretty enough) to replace Google&rsquo;s version.</p>
+<h2 id="what-i-dont-like">What I don&rsquo;t like</h2>
+<h3 id="missing-integrations-todoist">Missing integrations: Todoist</h3>
+<p>GMail, being as popular as it is, has tonnes of integrations with other apps. In my case, I will really miss the <a href="https://chrome.google.com/webstore/detail/todoist-for-gmail/clgenfnodoocmhnlnpknojdbjjnmecff">Todoist for Gmail extension</a>. With this, I had a mini-todoist window inside my GMail, and I could turn any email into a task at the click of a button (or the press of a shortcut).</p>
+<p>Because FastMail email URLs seem to be persistent, I use the <a href="https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/jldhpllghnbhlbpcmnajkpdmadaolakh">Todoist Chrome extension&rsquo;s</a> “Add to Todoist” context menu action to add the URL and email subject as a task. This not as nice as the gmail-specific extension (the task goes immediately into the todoist inbox, without the possibility to edit metadata such as due date and tags).</p>
+<h3 id="missing-feature-quote-selection-in-reply">Missing feature: Quote selection in reply</h3>
+<p>In Gmail and in Thunderbird, if you select text in an incoming email and then reply, that selected text is quoted in the reply email. Unfortunately, this feature is not available in the FastMail web-app, and they have no plans to implement it.</p>
+<p>I use both the FastMail web-interface as well as Thunderbird, because of its great PGP email encryption and signature support (hey, <a href="https://keybase.io/cpbotha">find me on keybase</a>, send me encrypted email!), so this issue is somewhat ameliorated. Still, it would have been nice.</p>
+<h3 id="android-app-lag">Android app lag</h3>
+<p>I do have <a href="https://play.google.com/store/apps/details?id=com.fastmail.app">FastMail&rsquo;s Android app</a> on my telephone. The app is a Cordova / PhoneGap / CrossWalk style unit with real-time email push and notification via Google Cloud Messaging (this is a relatively energy-efficient way for android phones to get push notification and is natively supported by FastMail).</p>
+<p>However, there is a few second lag when I open the inbox, so I prefer using the pro version of <a href="https://play.google.com/store/apps/details?id=org.kman.AquaMail">AquaMail, a great Android IMAP mail client</a>. I have this set to 15 minute polling for new email, as IMAP IDLE (push, in other words) is not as battery efficient as GCM or Apple&rsquo;s email push. Opening any folder or email in AquaMail is of course instantaneous, as the emails live on the phone.</p>
+<p>That being said, I use the FastMail app for searching, which is just as fast and as effective as the web-app.</p>
+<p>THAT being said, FastMail really needs to implement some sort of caching in the Android app for lightning <em>fast</em> folder and email access. (The FastMail app is quite attractive, I would prefer using it more.)
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/fastmail_calendar_google_play.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/fastmail_calendar_google_play-1024x580.png"
+        
+            alt="FastMail Android app Calendar screen, from the Google Play page."/> </a><figcaption>
+            <p>FastMail Android app Calendar screen, from the Google Play page.</p>
+        </figcaption>
+</figure>
+</p>
+<h3 id="niggle-creating-an-email-alias--incoming-route-automatically-creates-a-new-sending-identity">Niggle: Creating an email alias / incoming route automatically creates a new sending identity</h3>
+<p>FastMail can manage the DNS for any of the custom domains that you assign to it, which is super useful if you don&rsquo;t already have a DNS service.</p>
+<p>I already make use of webfaction&rsquo;s DNS for all of my domains, so I chose to add DNS records to designate fastmail as the official MX for those domains. (All of this is explained clearly in the FastMail help.)</p>
+<p>When you do this, you have to create an email alias for each incoming address you would like to receive mail for (you can also create a catchall, but this could result in more spam arriving in your inbox). For each and every alias, <a href="https://www.fastmail.com/help/receive/alias-catchall.html">FastMail automatically creates an outgoing (from address) identity</a>. While this is usually quite convenient, I have quite a number of incoming addresses, but I only ever send from a subset of these addresses, so the drop-down list with sending identities became quite unwieldy.</p>
+<p>I deleted all of the unnecessary identities. What would help, would be if FastMail were to implement most-used-at-the-top sorting for that drop-down.</p>
+<h2 id="other-noteworthy-points">Other noteworthy points</h2>
+<h3 id="domain-setup">Domain setup</h3>
+<p>For my most important domains, I have set FastMail to be the MX. I have also performed the necessary <a href="https://blog.fastmail.com/2014/12/09/email-authentication/">SPF and DKIM</a> setup: FastMail gives super useful feedback in its configuration screens to help you with this. For these domains, I send mail directly via the FastMail SMTP servers, and mail is delivered directly to FastMail servers. Nice and simple.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-9.46.01-PM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-9.46.01-PM-1024x623.png"
+        
+            alt="Domain setup feedback screen."/> </a><figcaption>
+            <p>Domain setup feedback screen.</p>
+        </figcaption>
+</figure>
+</p>
+<p>For some other email accounts I have with clients, FastMail supports POP fetch from and SMTP send via foreign servers.</p>
+<h3 id="ios-push-support">iOS Push support</h3>
+<p>If you use any Apple iOS devices to read your mail, you&rsquo;ll be pleased to know that FastMail, with help from the big A, <a href="https://blog.fastmail.com/2015/07/17/push-email-now-available-in-ios-mail/">fully supports iOS push</a>. This means battery efficient real-time incoming emails to make it even more difficult for you to focus on That One Really Important Thing.</p>
+<h3 id="android-contact-syncing-with-carddav">Android contact syncing with CardDAV</h3>
+<p>With google contacts, syncing on Android just works, and it works really well. To sync my contacts with FastMail&rsquo;s Address Book instead, I bought the pro version of the <a href="https://play.google.com/store/apps/details?id=org.dmfs.carddav.Sync">CardDAV android app</a> for 24 South African Ront (that&rsquo;s about EUR 1.5). This works as a sync provider, so once setup, the process is also pretty much transparent.</p>
+<h2 id="final-thoughts">Final thoughts</h2>
+<p>So there you have it: A hopefully helpful story, with included mini-review, about my move from GMail to the FastMail service.</p>
+<p>So far, my conclusion is that this is a service that is technically more than capable of replacing GMail, even for power users. Furthermore, FastMail&rsquo;s primary (and in fact only) business model is to charge you money for making sure that you can keep on emailing like a boss. Together, this makes for an offer that I could not refuse.</p>
+<p><em>P.S. Let me know in the comments if you would like me to add anything else to this post.</em></p>
+<p><em>P.P.S. You can also join the lively <a href="https://news.ycombinator.com/item?id=12247401">Hacker News discussion of this post</a>!</em></p>
+]]></content:encoded></item></channel></rss>

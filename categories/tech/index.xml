@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on voices in my head</title><link>https://cpbotha.net/categories/tech/</link><description>Recent content in tech on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 21 Sep 2019 16:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
+What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+then</a>.</p>
+<p>In the intervening three and a half years, my note-taking has further evolved
+to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
+to support this.</p>
+<p>Although note-taking is at the core of the system, a more accurate description
+of its current purpose would be <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management"><em>personal knowledge
+management</em></a>.</p>
+<p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
+learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
+journal&rdquo;</a>.</p>
+<h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
+<p>My approach consists of four main components:</p>
+<p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
+<p>As you might know, Org mode is infinitely flexible. This is where all of my
+projects and tasks are tracked. This is also where I keep my daily personal and
+work journals.</p>
+<p>I describe the specific directory structure and orgfile setup in the sections
+below.</p>
+<p>I continually and actively search for and find interesting <strong>2. Web-pages and
+Articles</strong>, both academic and less so, which I convert to PDF and store in a
+year-stamped directory inside of my
+<a href="https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>.</p>
+<p><strong>3. Academic articles</strong> that I plan to refer to in my own writings graduate into my
+Zotero bibliographic database, which is synced together with everything else.</p>
+<p>On <strong>4. Mobile</strong> (phone and watch, oh my!), I use the Dropbox app for capturing
+and for limited access to my notes database via a small subset of markdown
+files, PDFs and exported HTML, and I use the new WatchOS 6 voice notes if I&rsquo;m
+not able to use my phone.</p>
+<h3 id="other-noteworthy-characteristics">Other noteworthy characteristics.</h3>
+<p>Everything mentioned above lives on local drives, synced with Dropbox and also
+automatically and continuously backed-up to a removable disk at my office.</p>
+<p>The Org mode part of the system has been in use since 2014. I have also
+imported a few years of Simplenote text notes into Org mode, so its memory
+stretches a bit further back still.</p>
+<p>The longer the system lasts, the more valuable it gets.</p>
+<p>It has now happened more than once that I could help someone with the same
+advice I helped someone else with 4 years ago, simply because the real-time
+text search found the relevant snippet of code or attachment in my Org mode
+database.</p>
+<p>Even if I were ever to change tools, the current single source of truth is a
+collection of plaintext org files and PDF files which can easily be further
+processed and imported into some new system.</p>
+<h2 id="the-components-in-slightly-more-detail">The components in slightly more detail.</h2>
+<p>In the following sections, I explain each of the four components in more detail
+than in the overview above.</p>
+<h3 id="emacs-org-mode">Emacs Org mode.</h3>
+<p>The heart of my knowledge management system, let&rsquo;s call it <code>pkb4000</code>, is <a href="https://orgmode.org/">Emacs
+Org mode</a>. Org mode, or &ldquo;Your life in plaintext&rdquo;, is a
+powerful text-file-based system for managing notes, task lists, projects and
+even authoring documents.</p>
+<p>Once you get used to the programmable flexibility it offers, you will find it
+hard to go back to any conventional system.</p>
+<h4 id="monthly-journal-files">Monthly journal files.</h4>
+<p>In my main Org mode directory, I have a subdirectory named <code>journals</code>, which
+contains a directory for each year.</p>
+<p>Each of these year directories contains an <code>.org</code> file for each month, so we would have for example
+<code>journals/2019/2019-09-Sep.org</code>.</p>
+<p>Each month file follows the structure showed in the following redacted version
+of my current journal file:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #b3b3b3;">#+TITLE:</span> <span style="color: #8CD0D3; background-color: #3F3F3F; font-weight: bold;">2019-09 September month journal
+</span>
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Vitals</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Focus items</span>
+Topics and reminders I would like to spend a few minutes on during every
+morning review: High value time, always be compounding, always be in a focus
+block, etc.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Tired list</span>
+A general list of valuable activities for when I have some time, but brain too
+tired to come up with anything.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Planning / overview / major done list</span>
+Check lists with books, courses, etc.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Projects</span>
+A list of current major projects, with links to each project's dedicated org
+file.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Tasks</span>
+A list of Org mode tasks that are not associated with specific projects. This
+list is reviewed at the start of every month, as I have to manually copy across
+those tasks that are still relevant and important.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* 2019</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* 2019-09 September</span>
+<span style="color: #3F3F3F;">**</span><span style="color: #7CB8BB; background-color: #3F3F3F;">* 2019-09-19 Thursday (example day)</span>
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* Day planning </span><span style="color: #8CD0D3; text-decoration: underline;">[2019-09-19 Thu 09:17]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Done list / thoughts / diary</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks for today </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks that will satisfy end-of-the-day Charl </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Focus blocks</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Sleep</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Review </span><span style="color: #CC9393; font-weight: bold;">[3/8]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="*Vitals">Month vitals</a></span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> Calendar
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> Org tasks
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="file:~/Dropbox/notes/mobile/inbox/">dropbox mobile inbox</a></span>
+      - ...
+
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Habits / important </span><span style="color: #CC9393; font-weight: bold;">[7/12]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> 7.5 hrs sleep last night
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> are you satisfied with number of pomodori? = 0 (v R)
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> did you write stuff down?
+      - ...
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* is dropbox better than evernote for mobile capturing? </span><span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-09-19 Thu 22:16&gt;</span>
+
+     in ios, with any page in safari, I can do "save to dropbox" and get a PDF
+     version of the page for the <span style="color: #b3b3b3;">=notes/mobile/inbox=</span>.
+</pre>
+<p>As you can see from the example above, the monthly journal file is the main
+index to my current high-level goals and focus items, my currently running work
+and personal projects, miscellaneous tasks, and my detailed daily journalling
+and habit tracking.</p>
+<h5 id="daily-review">Daily review.</h5>
+<p>When I start the day, I instantiate a new org-capture &ldquo;day planning&rdquo; template
+by pressing <code>C-c c p</code>.</p>
+<p>This creates the <code>Day planning</code> subsection with all of its subsections and
+checklists. As you will see, this guides me through the morning review, which
+in turn has me check each of those additional sources of incoming information
+and tasks.</p>
+<p>New bits of information are filed into their correct place, whilst the task
+review shows me a list of tasks, extracted from the month file and the list of
+current project files, so that I can decide which ones should be taken on.</p>
+<p>I list tasks which should preferably be taken care of today under <code>Tasks for today</code>, whilst any really high-value high-satisfaction tasks go under <code>Tasks that will satisfy end-of-the-day Charl</code>.</p>
+<h5 id="during-the-day">During the day.</h5>
+<p>During the rest of the day, I&rsquo;ll write short diary-like notes under <code>Done list / thoughts / diary</code> and log pomodori (focus blocks) under, you guessed it,
+<code>Focus blocks</code>, either using the <code>org-pomodoro</code> package, or plain Org mode
+clocking in and out functions.</p>
+<p>I use additional custom org-capture templates, via keyboard shortcuts, to
+create more extensive timestamped journal entries (see the <code>is dropbox better ...</code> example) and to create new timestamped and logged Org mode <code>TODO</code> entries.</p>
+<h5 id="kill-your-darlings-during-the-monthly-review">Kill your darlings (during the monthly review).</h5>
+<p>I&rsquo;ve mentioned this before, but it&rsquo;s just an important aspect of my &ldquo;system&rdquo;
+that I would like to mention it again.</p>
+<p>When I still used primitive task management systems such as <em>everything else</em>
+that&rsquo;s not Org mode, the collection of more mature tasks would soon grow out of
+control.</p>
+<p>However, because I create a new Org mode file for every month, I have to copy
+across manually any tasks that have not been completed yet.</p>
+<p>&ldquo;WHY IS THAT NOT AUTOMATED YET?!&rdquo; you are probably thinking.</p>
+<p>Well, the advantage of having to copy each task over manually is that it is the
+ideal opportunity to evaluate the task and ask some hard questions as to its
+continued relevance&hellip;</p>
+<p>When a task gets too old, I will often make the decision to change its status
+to <code>CANC</code> (for cancelled), sometimes with the reason for the cancellation
+explained in the task body, and then just leave it there in the old month file.</p>
+<p>With most of these task systems, regular reviews are of crucial importance. The
+monthly start-over is a great, almost enforced, opportunity for review, as is
+the morning routine when I instantiate the day planner template.</p>
+<h5 id="what-about-email">What about email?!</h5>
+<p>An important part of knowledge and task management is one&rsquo;s emails.</p>
+<p>Although I currently prefer processing my email using
+<a href="/2019/07/17/weekly-head-voices-173-i-know/#would-you-like-some-more-emacs-with-that-email"><code>mu4e</code></a>,
+an email client which lives inside of Emacs, I have used other tools in the
+past, and will probably use new tools in the future.</p>
+<p>Also, even at this moment I alternate between <code>mu4e</code> and the
+<a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">FastMail</a>
+web-interface.</p>
+<p>Long story short, I have it setup so that I can easily convert any email in
+<code>mu4e</code> into a universal <code>message://message-id</code> link to be integrated with a
+new task or note entry.</p>
+<p>When I later open that link using a shortcut, I have programmed it so that
+<code>mu4e</code> will open the relevant email if it is active, or the <code>FastMail</code> webmail
+when it is not. From here I can either review the email to see what the
+associated task requires, or respond to it, if the task has been completed.</p>
+<p>Some of these <code>message://</code> links were created using macOS mail and they still
+work. In future, if I add a new mail client to the mix, I will still be able to
+jump to specific old emails, no matter where they find themselves inside of my
+FastMail mailboxes.</p>
+<h4 id="core-notes-database">Core notes database.</h4>
+<p>With <code>database</code> I of course refer to hundreds of org and markdown files, most
+of which find themselves in the top-level <code>pkb4000</code> directory, one level up
+from the <code>journals</code> directory containing all of the monthly journal files.</p>
+<p>There are files on various <code>rsync</code> or <code>ffmpeg</code> invocations, files on
+programming languages, software tools, note-taking strategies, personal
+information on each of my kids, and much more.</p>
+<p>Org mode enables me to combine document structure, math, vector and bitmap
+images and executable source code in many different languages.</p>
+<p>I have configured my Emacs (where by &ldquo;configured&rdquo; I mean &ldquo;coded up the emacs
+lisp for&rdquo;) to invoke ripgrep on different subsets of my notes database, and to
+proffer up the results in different ways.</p>
+<p>I can usually find anything that went in to this database at any point.</p>
+<p>What I really like, is also being able to tell you on which day, and during
+which hour, I learned this or that, or experimented with something or the
+other.</p>
+<h4 id="project-files">Project files.</h4>
+<p>Work and personal projects each get their own Org file. Some projects even get
+a whole directory to themselves, in cases where the project will have many more
+files than just the main Org file.</p>
+<p>In all cases, the project org file will live somewhere below a year-stamped
+directory, e.g. <code>work/projects/2019/project-name/</code>.</p>
+<p>Some projects go over year boundaries, but their files and directories remain
+in the year that they started in. The project org also has <code>Tasks</code> and a
+datetree section, similar to the month journal.</p>
+<p>All current project files, along with my the current month file, are configured
+to be part of the <code>org-agenda-files</code> variable.</p>
+<p>This means that when I activate the <code>org-agenda</code> view, I see a unified list of
+all tasks as extracted from all current project files and the current monthly
+journal file.</p>
+<p>When a project is completed, it is of course removed from <code>org-agenda-files</code>.</p>
+<h3 id="web-pages-and-articles">Web-pages and articles.</h3>
+<p>As mentioned in the short system overview, I store all web-pages and articles I
+come across as date-stamped PDF files in a set of year-stamped directories.</p>
+<p>For more detail, please refer to the
+<a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>
+section of WHV#165 on this blog.</p>
+<p>In short, I use good ad-blocking and <em>mostly</em> the <a href="https://www.printfriendly.com/">printfriendly browser
+extension</a> in Brave or Chromium to convert any
+interesting web-pages to PDF. PDF articles from journals and other reputable
+sources obviously don&rsquo;t have to be converted.</p>
+<p>I name and save these PDFs into my <code>refs</code> hierarchy, for example
+<code>Dropbox/refs/2019/20190518 Measles and Immune Amnesia - asm.pdf</code>.</p>
+<p>Usually, to win any argument, I can find the pertinent reference on my phone or
+my laptop in 30 seconds or less.</p>
+<p>(I used to be a paying Pocket subscriber. However, as you will read in WHV#165
+cited above, I was disappointed by the super important search function. The
+advantages of having Just a Bunch of PDFs on your (synced) disc are many.)</p>
+<h3 id="zotero">Zotero.</h3>
+<p>The <code>refs</code> directory hierarchy described above is great for quickly storing an
+article in the right place with a suitable name, ready for search-based
+retrieval later.</p>
+<p>However, in cases where one needs to cite any academics works, having these
+articles in a good reference manager is important.</p>
+<p>Zotero is in my view one of the best reference managers out there, and it&rsquo;s open
+source!</p>
+<p>The reasons I prefer zotero are:</p>
+<ul>
+<li>You can make use of their synchronisation service, or you can do it
+yourself. I have about 2.3GB of additional articles in zotero, so this is
+great.</li>
+<li>Zotero uses your browser to retrieve fulltexts automatically when you import
+any web-page with bibliographic information using the browser extension. This
+is great when you have access via your institution. Competing cloud services
+would historically use <em>their</em> servers to retrieve the fulltext, which would
+often not work.</li>
+<li>Zotero is open source. To me this is important, <a href="https://vxlabs.com/tags/zotero/">because on more than one
+occasion</a> I have been able to make small
+modifications to make it perform peculiar tricks I needed at that point.</li>
+</ul>
+<h3 id="mobile">Mobile.</h3>
+<p>This has always been the weakest part of my whole knowledge management system.</p>
+<p>Ideally, I would have easy access to my complete org database and any related
+files. Ideally, it would be possible to store any interesting tidbits I come
+across whilst browsing using my phone.</p>
+<p>So far I have invested time in the following apps and ecosystems:</p>
+<ul>
+<li>iCloud Notes: This was great, until <a href="/2019/04/27/new-laptop-2019/#so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">I sold my
+MacBook</a>. iCloud
+Notes web-access is terribly slow and more or less unusable. Whatever I have
+on mobile, needs to interoperate smoothly with desktop.</li>
+<li>Google Keep: This worked pretty well on mobile and via the web, but it&rsquo;s a
+closed off ecosystem. You can
+<a href="https://takeout.google.com/settings/takeout">&ldquo;takeout&rdquo;</a> your data, but you
+end up with ginormous HTML files (images are base64-encoded and included)
+that are not straight-forward to work with.</li>
+<li>OneNote: This has SO MUCH potential (free-form note-taking, drawing with
+Apple Pencil, apps for so many platforms, great organization, etc. etc.) but
+is just so frustratingly unusable due to syncing issues everywhere, even on
+my true-blue Windows 10 laptop with the true-blue official gold star
+Microsoft OneNote application. Microsoft is doing fantastic work in some
+domains (Visual Studio Code, .net core, WSL, etc. etc.) but in some others
+not so much it seems.</li>
+<li>Evernote: I recently just gave up and bought a premium subscription for the
+year, because Evernote is the industry standard and it had Apple Watch voice
+notes even before WatchOS 6 was released. In any case, although initially
+promising, Evernote is unfortunately quite slow at unpredictable moments
+(sharing web-page with evernote mobile app for storage can sometimes take 20
+second or more&hellip;) so I&rsquo;ve had to ditch it. Again.</li>
+</ul>
+<p>During all of this experimentation, I started storing mobile discoveries in a
+new section called &ldquo;inbox&rdquo; in the relevant note-taking app&rsquo;s organizational
+structure. During morning review, I go through the relevant inbox, and
+re-convert the relevant page into PDF for my more permanent archive.</p>
+<p>It dawned on me that this approach could also be applied with just the Dropbox
+app! It would be klunky, but at least not disappointing.</p>
+<p>So, when I want to store something from the phone, I either print to PDF or
+make use of the &ldquo;Save to Dropbox&rdquo; app extension, and then store the resultant
+PDF in <code>Dropbox/notes/inbox</code>. During morning review, PDFs in this directory are
+re-converted if required, and then stored in their more permanent home.</p>
+<p>Using the Dropbox app, I can also create markdown text files in the <code>inbox</code>
+directory.</p>
+<p>If I have something a little more extensive, I have the option of using the
+&ldquo;Voice Memos&rdquo; app, either on the phone, or even via the Apple Watch.</p>
+<p>In <code>Dropbox/notes/mobile</code> I keep items I often need to access from the phone:
+Think loyalty cards, markdown files with IP numbers and configuration of my
+home network, and so on. This directory is marked as &ldquo;available offline&rdquo;, so I
+can access its contents even when there&rsquo;s no data connection.</p>
+<p>Other than that, I do an export of my whole org database to HTML now and then,
+following a procedure similar to the one I used <a href="https://vxlabs.com/2018/10/29/importing-orgmode-notes-into-apple-notes/">to use for exporting Org mode
+to iCloud
+Notes</a>. The
+HTML versions are searchable on the phone.</p>
+<p>What would be better, is if the Dropbox iOS app would start recognising .org
+files as plaintext files, much like what it already does for markdown .md
+files. As it stands, I keep a small subset of my notes as markdown, instead of
+the superior org, for mobile editing.</p>
+<h4 id="drawing-with-apple-pencil-on-the-ipad-using-notability">Drawing with Apple Pencil on the iPad using Notability.</h4>
+<p>Sometimes one does need to sketch.</p>
+<p>This could be a rough UI, an architecture diagram, a data flow chart, or just
+doodling.</p>
+<p>Since about the end of 2018, I&rsquo;ve been using the <a href="https://apps.apple.com/za/app/notability/id360593530">Notability
+app</a> along with an iPad
+6th gen (2018 entry-level, the first non-Pro to support the Pencil) to doodle
+electronically.</p>
+<p>Notability automatically syncs all of these drawings as fully vectorised PDFs
+to my Dropbox. All handwritten text is quite smartly OCRd, and the OCRd version
+is stored as correctly positioned metadata behind my ugly scribbles.</p>
+<p>I would have liked Notability even more if it supported arbitrary canvas sizes
+(as it stands, only standard paper size in protrait mode), and had an always
+visible overview minimap.</p>
+<h4 id="signal-messaging-apps-brilliant-note-to-self-contact">Signal messaging app&rsquo;s brilliant &ldquo;Note to Self&rdquo; contact.</h4>
+<p>The <a href="https://signal.org/">Signal messaging app</a>, which you should all be using,
+has a built-in contact called &ldquo;Note to Self&rdquo;.</p>
+<p>As of late (since about December 2019) this has become my main <em>capturing tool</em>
+when I&rsquo;m on the phone.</p>
+<p>You can share links, media, photos, voice notes or a plain old text message,
+all of which will be securely stored, neatly timestampted to boot, in your
+conversation with this silent but very useful &ldquo;Note to Self&rdquo; character.</p>
+<p>During the morning review, I go through each of the shared items, processing
+them, and then add the message &ldquo;DONE =====&gt;&rdquo; to indicate that they have been
+completed.</p>
+<h2 id="limitations-and-points-for-improvement">Limitations and points for improvement.</h2>
+<p>The current system is great for capturing and search-based retrieval of
+personal knowledge.</p>
+<p>However, I miss functionality for making some of the higher-level patterns and
+networks more <em>discoverable</em>.</p>
+<p>For example, as I create a new orgmode entry, the system could show me related,
+older nodes (that is something I could implement&hellip;).</p>
+<p>Furthermore, it would have been great to see some form of visual representation
+of the associations between nodes, and of how they fit into higher-level
+concepts. This bit is slightly far-fetched.</p>
+<p>Interestingly, I just ran into the following paragraph at the end of <a href="/2016/01/05/note-taking-strategy-early-2016/">my 2016
+note-taking post</a>:</p>
+<blockquote>
+<p>However, I think that there might be room for a fourth type of tool that is
+more visual, supports rich and graphical linking between data items and even
+between sub-components of such items and, perhaps most importantly, enables
+us to build note landscapes that are natively as non-linear as our thoughts.</p>
+</blockquote>
+<p>Let&rsquo;s see what happens over the next few years!</p>
+<h2 id="appendix">Appendix</h2>
+<h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* Day planning %U
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Done list / thoughts / diary
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">- %?
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks for today [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Focus blocks
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Review [/]
+</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span><span style="color:#2aa198">- [ ] Org sub-projects
+</span><span style="color:#2aa198">- [ ] Calendar
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Habits / important [/]
+</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</code></pre></div><h2 id="updates">Updates</h2>
+<h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
+<ul>
+<li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
+configuration</a> in appendix.</li>
+<li>Add <a href="#drawing-with-apple-pencil-on-the-ipad-using-notability">section about iPad, Notability and Apple
+Pencil</a>.</li>
+<li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
+contact</a>.</li>
+</ul>
+]]></content:encoded></item><item><title>Android vs iPhone performance: A quick note.</title><link>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</link><pubDate>Sun, 12 Feb 2017 13:40:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</guid><description> I&amp;rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&amp;rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.
+I would still like to leave you with some interesting reading material. Hence this quick note.
+From this discussion post (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</description><content:encoded><![CDATA[ <p>I&rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.</p>
+<p>I would still like to leave you with some interesting reading material. Hence this quick note.</p>
+<p>From <a href="https://discuss.emberjs.com/t/why-is-ember-3x-5x-slower-on-android/6577/60">this discussion post</a> (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</p>
+<blockquote>
+<p>Some Android users report up to about 29 score on very new late 2016 Android
+devices, depending on the vagaries of the browser used. Still below the 2013
+iPhone 5s which can be purchased used for about $150 these days.</p>
+</blockquote>
+<p>That&rsquo;s pretty amazing: Based on the <a href="http://browserbench.org/Speedometer/">browserbench speedtest</a>, which is supposed to reflect quite realistically real-world web-browsing performance, <strong>the 2013 iPhone 5s outperforms 2016 Android flagships</strong>. Ouch.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/snapdragon808-browserbench.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/snapdragon808-browserbench-1024x823.png"
+        
+            alt="My Snapdragon 808 does a measly 14.7 on browserbench. The iPhone 5s which is a year or two older does more than double that."/> </a><figcaption>
+            <p>My Snapdragon 808 does a measly 14.7 on browserbench. The iPhone 5s which is a year or two older does more than double that.</p>
+        </figcaption>
+</figure>
+
+<p>There are more sites where this discussion / flamewar is being continued. Google is your friend.</p>
+<p>The core argument is that Apple long ago made the call that fewer, more high performance CPU cores would give the best <strong>subjective</strong> performance. In other words, to a user the phone would feel more responsive.</p>
+<p>This does make sense: As a user, when I tap a button, I would like to see an instantaneous response. A single really fast core is going to help more with this than a higher number of slower cores.</p>
+<p>Furthermore, programming single-threaded apps is significantly easier than programming robust and efficient multi-threaded apps. You can guess what the apps in the various stores look like in this regard.</p>
+<p>The iPhone 6s had only two cores, whereas most mid- to high-range Androids had 6 or more cores when the 6s was released.</p>
+<p>The iPhone 7 A10 chip has finally made the jump to 4 cores, two of which are lower power cores. Still, it turns out this chip again <a href="http://bgr.com/2016/10/21/iphone-7-specs-a10-fusion-processor/">crushes all of its Android (read: Qualcomm) competition</a>.</p>
+<p>Here&rsquo;s another <a data-rel="lightbox-video-0" href="https://youtu.be/k_PK_6F_Bhk">relevant demo on YouTube </a>where the same set of apps are started up in the same sequence, which is repeated, on both the iPhone 7 and the Samsung S7. All in all, the iPhone manages to get through the exercise more than twice as fast as the S7. This is definitely some indication of how users will perceive the responsivity of these devices.</p>
+<p>The argument that multi-core was not a good choice for Android is weakened to an extent by <a href="http://www.anandtech.com/show/9518/the-mobile-cpu-corecount-debate">this recent AnandTech analysis</a> showing that these phones are actually pretty good at utilising all of their cores:</p>
+<blockquote>
+<p>In the end what we should take away from this analysis is that Android
+devices can make much better use of multi-threading than initially
+expected. There&rsquo;s very solid evidence that not only are 4.4 big.LITTLE
+designs validated, but we also find practical benefits of using 8-core
+&ldquo;little&rdquo; designs over similar single-cluster 4-core SoCs.</p>
+</blockquote>
+<p>My personal experience with the Snapdragon 808 (6 core big.LITTLE) in my <a href="http://www.gsmarena.com/blackberry_priv-7587.php">BlackBerry PRIV</a> (late 2015 flagship) has been less than stellar. I love the phone for its screen, physical keyboard and other little idiosyncrasies, but the fact that I often have to wait more than a second after tapping an icon or a button before it responds, combined with <a href="/2016/11/27/android-security-in-2016-is-a-mess/">the terrible Android security story</a> (where the PRIV paradoxically does quite well), makes me wonder about the future smartphone landscape for Android enthusiasts.</p>
+]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
+<p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
+<p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
+<p>Read on for more.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/google_android_active_base.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/google_android_active_base.png"
+        
+            alt="Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source."/> </a><figcaption>
+            <p>Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="an-illustration-mediatek--blu-phones-are-uploading-your-data">An illustration: MediaTek / BLU phones are uploading your data.</h1>
+<p>You might recently have read about <a href="https://web.archive.org/web/20161117073724/https://hackernoon.com/no-one-cares-about-the-security-of-your-unlocked-android-phone-cd8ad4aae4c5?gi=e0e2979fddb">the incident with the popular BLU phones sold by Amazon in the US</a> (interestingly, the author deleted their article from both hackernoon.com and from medium; I now link to the Wayback Machine&rsquo;s stored copy). It turned out that these phones were regularly sending bunches of personal information to servers in China: text messages, call logs, contact lists and so forth. After more investigation, it came to light that this was happening via a low-level piece of software called ADUPS.</p>
+<p>When Google had previously updated its systems to check for ADUPS, MediaTek (they make the chipset in millions of low-end phones) simply modified their system software to evade Google&rsquo;s checks. Nice one MediaTek!</p>
+<p>This is a painful example of the fact that the software on your phone, although based on Google&rsquo;s software, is customised by the phone vendor. The further frustrating effect of this is that when Google releases security patches to Android (<a href="https://source.android.com/security/bulletin/index.html">which they do regularly</a>), there is very little incentive for the phone vendor to spend money on updating phones they have already sold.</p>
+<h1 id="what-about-a-list-phone-makers">What about A-list phone makers?</h1>
+<p>I bought my LG G3 in 2014 here in South Africa. It was LG&rsquo;s flagship in that year, and sold extremely well. LG is a well-known smartphone OEM.</p>
+<p>However, only because I took steps to flash the official KDZ image (V30a-ZAF-XX), which consumers would normally not do, am I now running Android 6. However, my security patch level is 2016-03, meaning there are 6 months of security updates I don&rsquo;t have. (You can check your <strong>Android security patch level</strong> by going to <em>Settings | General | About Phone | Software info</em>.)</p>
+<p>Before you think six months lag is not too bad, here&rsquo;s a nice example vulnerability from <a href="https://source.android.com/security/bulletin/2016-11-01.html">the November 1 Android security bulletin</a>:</p>
+<blockquote>
+<p>The most severe of these issues is a Critical security vulnerability that could enable remote code execution on an affected device through multiple methods such as email, web browsing, and MMS when processing media files.</p>
+</blockquote>
+<p>In short, your phone could be hacked wide open from afar through a single innocent-looking email, MMS or web-page.</p>
+<p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
+<p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
+<h2 id="a-scary-little-aside">A scary little aside</h2>
+<p>I just tried Check Point Labs' <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12-576x1024.png"
+        
+            alt="LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter."/> </a><figcaption>
+            <p>LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter.</p>
+        </figcaption>
+</figure>
+</p>
+<p>So my manually updated LG G3 is still very much vulnerable to QuadRooter. In theory, my phone could be (or already has been) <a href="http://www.techradar.com/news/phone-and-communications/mobile-phones/android-quadrooter-vulnerability-should-you-be-worried-1326286">rooted and pillaged by any old innocent-looking app</a>, although I keep mostly to the official Play Market, so the risk is slightly mitigated.</p>
+<p>At this stage, even as a relatively knowledgeable user, there&rsquo;s not much I can do to patch my phone against this vulnerability.</p>
+<h1 id="googles-leniency-cuts-both-ways-more-than-a-billion-android-users-but-most-of-them-vulnerable">Google&rsquo;s leniency cuts both ways: More than a billion Android users, but most of them vulnerable.</h1>
+<p>It&rsquo;s fantastic that Google&rsquo;s openness and leniency with Android has helped to make smartphone technology accessible to more than a billion users (probably closer to 2 billion taking into account Chinese Android phones not connected to Google services, see <a href="http://ben-evans.com/benedictevans/2016/7/25/platform-wars-final-score">Ben Evans&rsquo;s post</a>). However, this same leniency allows manufacturers to be irresponsible about keeping their customers safe.</p>
+<p>The fundamental problem here is that there are a great deal of Android phone vendors who make phones from absolute entry-level to top-of-the-line flagships, who have very little incentive to spend money on post-sale security updates.</p>
+<p>Once you&rsquo;ve paid for the phone, you&rsquo;re not important enough anymore to have a secure(ish) telephone.</p>
+<h1 id="what-can-we-do">What can we do?</h1>
+<h2 id="buy-an-iphone-no-really">Buy an iPhone. No really.</h2>
+<p>I&rsquo;ve been using Android since the HTC Desire Z. I love Android, because I love Linux which I have been using since 1993.</p>
+<p>However, if money is no object, my only sound advice can be to <strong>buy an iPhone</strong>. Apple is still shipping security updates, albeit on iOS 9, for the iPhone 4s which was released in 2011 (5 years ago). The iPhone 5 is still being kept up to date with iOS 10.</p>
+<p>Furthermore, in terms of phone encryption, <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">iOS 4, released 6 years ago, was already more advanced than than Android 7 Nougat</a>, released in August of this year. In short, already then Apple made better choices in how exactly different files are encrypted, whilst Android implemented full disk encryption, which for the smartphone usecase is not the right choice. In Nougat, Android has finally also changed to file-based, but they&rsquo;re missing important parts of the puzzle. <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">The phone encryption blog post</a> I link to is insightful, please take a look.</p>
+<h2 id="stick-with-android-pixel-or-nexus">Stick with Android Pixel or Nexus.</h2>
+<p>If you prefer sticking with Android, the best choice is getting an official Google device, which means either a Nexus or a new Pixel. <a href="https://support.google.com/pixelphone/answer/4457705#pixel_phones&amp;nexus_devices">Google&rsquo;s policy for Pixel and Nexus security</a> states that they will ship security updates either for three years after device introduction, or for 1.5 years after the device was last officially sold from the Google Store, whichever is longer.</p>
+<p>Unfortunately, iPhones are really expensive, and Google&rsquo;s new Pixel devices are also aiming for the higher-end market. The previous generation Nexus phones offer a more mid-range but very temporary reprieve.</p>
+<p>In other words, most normal consumers on a budget, i.e. the largest part of the Android user base, actually of the smartphone-using world, are stuck with insecure, vulnerable phones. This is not cool.</p>
+<h2 id="consider-installing-a-custom-rom">Consider installing a custom ROM.</h2>
+<p>Installing a custom ROM such as Cyanogenmod brings with it another set of issues with regard to the phone being rooted, and with regard to driver-level support of proprietary hardware. In any case, this is not something your average consumer will have access to, but Android gurus can certainly apply.</p>
+<p>Efforts like <a href="https://copperhead.co/android/">CopperheadOS</a> (hardened Android) are certainly promising, but it will be quite a while before they are accessible to the largest group of Android users.</p>
+<p><strong>Update:</strong> David Metcalfe pointed out in the comments that you can buy a secure Android phone from Copperhead.  If you are in the US or Canada, and you have some budget, you could buy the <a href="https://copperhead.co/android/buy">LG Nexus 5x or the Huawei Nexus 6P with CopperheadOS pre-installed</a>. It&rsquo;s great that this is available, but due to price and geography not really accessible to most Android users.</p>
+<h2 id="keep-manufacturers-honest">Keep manufacturers honest.</h2>
+<p>Ideally, Google starts taking a much harder line with manufacturers who put Android on their phones. They could for example maintain and publish a list of phone models that are kept up to date with the latest security fixes, and a list of those that aren&rsquo;t.</p>
+<p>I was happy to see that at least <a href="http://news.softpedia.com/news/huawei-is-the-best-oem-at-applying-android-security-updates-505767.shtml">Huawei has a pretty good record</a> in terms of keeping their Android phones up to date (although the results were probably skewed as they counted the Huawei-produced Nexus 6P phones, and these formed the majority of the test set, doh). This factor will play a role in the next smartphone that I buy.</p>
+<p>Do you know of any (other) manufacturers of more affordable Android phones who are committed to keeping their users safe? Please let me know in the comments!</p>
+<h1 id="addendum-android-phones-with-acceptable-security-update-records">Addendum: Android phones with acceptable security update records</h1>
+<h2 id="blackberry-priv-dtek50-and-dtek60">Blackberry PRIV, DTEK50 and DTEK60</h2>
+<p>lobste.rs user jabberwock <a href="https://lobste.rs/s/8g2nkz/android_security_2016_is_mess/comments/4p7rwr#c_4p7rwr">tipped me off to the fact that Blackberry&rsquo;s Android phones get monthly security updates</a>. Read more at <a href="http://crackberry.com/blackberry-priv-dtek50-and-dtek60-november-updates-now-available">CrackBerry</a> and here in the <a href="http://support.blackberry.com/kb/articleDetail?articleNumber=000038666">BlackBerry Android security bulletin for November</a>: It looks like these phones receive monthly updates (<strong>when not blocked by the carrier, <em>sigh</em></strong>)** **and have already received the November 2016 update.</p>
+<p>Here is <a href="http://blogs.blackberry.com/2015/11/managing-android-security-patching-for-priv/">the original blog post where BlackBerry explained their security patching policies for the PRIV</a>.</p>
+<h1 id="updates">Updates.</h1>
+<h2 id="wednesday-2020-02-26">Wednesday 2020-02-26.</h2>
+<p>I wanted to post some relevant updates, so here goes (okay just one):</p>
+<ul>
+<li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
+</ul>
+]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
+Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+<p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
+<p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png"
+        
+            alt="Phil Schiller not suiting up."/> </a><figcaption>
+            <p>Phil Schiller not suiting up.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Collectively, the internet <a href="http://www.huffingtonpost.com/entry/new-apple-macbook-pro_us_58123abde4b064e1b4b0fd76">was disappointed</a>. Why no touch screen? Why no new iMac (last refresh a year ago) or Mac Pro (last refresh 3 years ago)? <a href="https://milen.me/writings/mac-platform-decline/">What is happening at Apple</a>?</p>
+<p>The day before, on October 26, 2016, Microsoft revealed the Surface Studio. Watch this introduction:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/BzMLA8YIgG0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>… and also this video with Microsoft partners who have in secret been working with the Studio:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/WMklcdzcNcU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Even if you did not like Microsoft, you can get a good sense of the emotion around this new product.</p>
+<p>They’ve managed to make something that speaks to the imagination. When I see this, as an outspoken Microsoft critic, I do get the distinct feeling that the Surface Studio is a physical artefact of the science fiction dream that my reality is gradually (and very pleasingly) turning into. My less nerdy technology-critical better half’s first reaction was: <strong><em>When can we get this?</em></strong></p>
+<p>It seems that Microsoft has convincingly out-Appled Apple.</p>
+<p>In other words, Microsoft has somehow become sexy whilst Apple seems to have developed strong feelings for the Lada.</p>
+<p>As an interesting related tidbit, a friend, whom I was trying to convince NOT to get Google’s new Pixel XL phone because reasons, recently sent me <a href="http://www.theverge.com/circuitbreaker/2016/10/29/13466786/google-pixel-photo-better-than-iphone">this short post on The Verge</a> by Vlad Savov, a camera phone expert who until recently was of the educated opinion that the iPhone 7 was still the king of the smartphone castle. He writes:</p>
+<blockquote>
+<p>On the basis of my extended experience with Google’s Pixel, I consider it an all-around better phone than the iPhone 7. The final exhilarating straw that broke the camel’s back was the photo below, coming straight out of the Pixel XL’s camera, undoctored other than for a horizon adjustment.</p>
+</blockquote>
+<p>WHAT IN HEAVENS IS HAPPENING?! OUR WHOLE WORLD IS COLLAPSING!</p>
+<p>Perhaps not…</p>
+<p>During a Signal App conversation (you should really use Signal, it now has <a href="https://www.whispersystems.org/blog/giphy-experiment/">privacy-conscious Giphy support</a>) with <a href="http://francoismalan.com/">another friend</a>, I realised that what’s happening here, is in fact <strong>wonderfully capricious human emotion interfering with the machine that is capitalism</strong>.</p>
+<p>Left to its own devices, the nature of capitalism means that successful companies tend to evolve into capitalistically optimal dead ends. In other words, large successful companies lose the will to innovate, because they realise they are able to make more money at less risk by simply not rocking that boat. Instead of investing in innovation, they invest in sales and marketing to milk their large customer-base.</p>
+<p>Ironically, Steve Jobs explained this idea quite eloquently during this interview where he talked about the decline of Xerox:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/_1rXqD6M614?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
+<p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
+<p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
+]]></content:encoded></item><item><title>ThunderBird support of RFC 3676 format=flowed is half-broken</title><link>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</link><pubDate>Tue, 27 Sep 2016 07:00:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</guid><description> Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
+What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence.</description><content:encoded><![CDATA[ <p>Summary: <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
+<h1 id="what-is-rfc-3676-formatflowed">What is RFC 3676 format=flowed?</h1>
+<p>Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</p>
+<p>I would like to try and summarise very compactly what exactly format=flowed is and how it works.</p>
+<p>Believe it or not, email can still be sent as plain text, i.e. not as HTML. Furthermore, this text is usually wrapped, i.e. newlines are inserted at a comfortable column width, e.g. 72 characters. This used to work wonderfully, until mobile devices came along. Because their screens often aren’t able to show the full 72 character width, the devices would be forced to wrap the text, resulting in a really ugly comb effect:</p>
+<pre>Someone sent me this really interesting
+email. Unfortunately
+it was wrapped so badly that I had difficulty
+reading it. Even worse,
+it made me like the sender of the email less.</pre>
+<p>To solve this problem, RFC 2646 was proposed (later to be superseded by its successor <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a>). All that had to happen, was that the sender could add a “format=flowed” to the outgoing email’s content-type, and wrap the email with both <strong>soft</strong> and <strong>hard</strong> line breaks (a line break in this case is a carriage return followed by a line feed, or CRLF). <strong>Soft line breaks</strong>, consisting of a space followed by CRLF, are used at the end of intra-paragraph lines, i.e. lines that could potentially be reflowed / joined. <strong>Hard line breaks</strong>, consisting of just the CRLF directly following the last character of the line, are used at the end of lines that should not be reflowed.</p>
+<p>This meant that we could continue sending plaintext mails as we always did, with CRLFs exactly where we always had them. However, with format=flowed and a few extra spaces at strategic points, receiving devices that supported this format had the <em>option</em> of reflowing. Older devices would display the email exactly as they always had.</p>
+<h1 id="what-is-thunderbird-doing-wrong">What is Thunderbird doing wrong?</h1>
+<p>In Thunderbird 45.3.0, format=flowed can be activated in <em>Preferences | Advanced | Config Editor</em> by setting <em>mailnews.send_plaintext_flowed</em> to <em>true</em>.</p>
+<p>If you now start sending an email in plaintext mode, you’ll notice that Thunderbird is visually wrapping your text, i.e. it’s not inserting any hard line breaks. However, when you actually send the email, Thunderbird will replace all the visual line breaks with <em>format=flowed</em> <strong>soft</strong> line breaks. Your manually entered hard line breaks are maintained.</p>
+<p>This is really great! Your emails render perfectly, even on smaller devices.</p>
+<p>Unfortunately, when you reply to a correctly formatted format=flowed email, the quoted text is hard wrapped.</p>
+<p>Viewing the message source with Emacs, we can see line breaks as $ characters. In the non-quoted part, the pink blocks are the expected spaces before each line break, meaning they will be treated as reflowable. However, in the quoted reply, there are no spaces before the line breaks, meaning they will be treated as unreflowable hard line breaks:
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png"
+        
+            alt="TB 45.3.0 hard wraps a quoted reply in format=flowed mode. Naughty Thunderbird!"/> </a><figcaption>
+            <p>TB 45.3.0 hard wraps a quoted reply in format=flowed mode. Naughty Thunderbird!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This is really very sad, and also quite unnecessary. When the email arrives on a mobile device, the quoted reply can’t be reflowed, and it looks like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/09/Screenshot_2016-09-27-08-24-55.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/09/Screenshot_2016-09-27-08-24-55-1024x735.png"
+        
+            alt="Incorrectly soft-wrapped quoted reply can’t be reflowed on my mobile device."/> </a><figcaption>
+            <p>Incorrectly soft-wrapped quoted reply can’t be reflowed on my mobile device.</p>
+        </figcaption>
+</figure>
+</p>
+<p>How embarrassing.</p>
+<h1 id="how-ever-will-we-be-able-to-survive-this-catastrophe">How ever will we be able to survive this catastrophe?</h1>
+<p>I have not been able to convince Thunderbird to soft-wrap quoted replies, even going so far as to insert the extra spaces myself. Thunderbird helpfully (not!) removes those spaces before sending the email, resulting in really embarrassing email rendering on receiving mobile devices that fully support format=flowed.</p>
+<p><em>Edit | Rewrap</em> in the compose window simply hard wraps everything, so it will only make things worse in the context of format=flowed.</p>
+<p>I have also experimented with sending the quoted bits as really long lines (Emacs and the <a href="http://globs.org/download.php?lng=en">TB External Editor addon</a> FTW). This displays nicely on modern mobile devices, but will result in infuriatingly long lines on MUAs that do not support flowed text.</p>
+<p>Ideally, someone working on Thunderbird will realise that the current implementation desperately needs fixing, and will just do the job. Alternatively, someone will point me at a Thunderbird addon and source code I could modify to fix this behaviour. (If you’ve seen the multi-year arguments about text wrapping on the Thunderbird bug tracker, you’ll understand why I think an addon is a better bet than an externally suggested code change / pull request.)</p>
+<p>I fear that I may be one of the last people still sending plaintext emails, so it might be that nothing will come of this desperate call for help. :)</p>
+<h1 id="update-on-2019-07-16">Update on 2019-07-16</h1>
+<ul>
+<li>The current GMail web-ui <em>ignores</em> format=flowed and renders such emails with
+hard linebreaks everywhere. Thank you Google for violating yet more email
+standards.</li>
+<li>Apple&rsquo;s iOS Mail App does a <strong>perfect</strong> job of reflowing format=flowed
+emails. This adds to <a href="/2016/11/27/android-security-in-2016-is-a-mess/">the list of
+reasons</a> I have for sticking
+with their mobile devices.</li>
+</ul>
+]]></content:encoded></item><item><title>User interface boo-boo #1: Disabled controls without explanations!</title><link>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</link><pubDate>Wed, 06 Jan 2016 20:24:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</guid><description> Today as I was configuring some build settings in Qt Creator, an otherwise really great product, I was faced with this extremely frustrating situation:
+I absolutely, definitely needed to configure the debugger. However, the controls required to do so were disabled, as can be seen by their greyed out visual state. Although it was easy to find the controls for configuring the debugger (good discoverability), it was impossible to find out exactly why the software would not allow me to do so.</description><content:encoded><![CDATA[ <p>Today as I was configuring some build settings in <a href="http://www.qt.io/ide/">Qt Creator</a>, an otherwise really great product, I was faced with this extremely frustrating situation:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/Screen-Shot-2016-01-06-at-4.27.00-PM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-06-at-4.27.00-PM.png"
+        /> </a>
+</figure>
+
+<p>I absolutely, definitely needed to configure the debugger. However, the controls required to do so were disabled, as can be seen by their greyed out visual state. Although it was easy to find the controls for configuring the debugger (good discoverability), it was impossible to find out exactly <em>why</em> the software would not allow me to do so.</p>
+<p>What made this even more frustrating, is that it would have been straight-forward for the software to have shown me an informative tooltip or dialog box when I hovered over or clicked on the disabled controls. This message could have explained shortly why the control was disabled, and what exactly I needed to do to resolve the problem.</p>
+<p>If you have or you were planning to use disabled controls in your next project without an easily discoverable (read: right on the disabled control itself) explanation of the reason (and fix) for having disabled them, I would like to say this:</p>
+<img alt="JUST... JUST STOP." class="alignnone wp-image-2317 size-full" data-attachment-id="2317" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"Picasa","camera":"","caption":"","created_timestamp":"1339193494","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}' data-image-title="stop-just-stop" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-300x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" data-orig-size="358,358" data-permalink="https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/stop-just-stop/" height="358" sizes="(max-width: 358px) 85vw, 358px" src="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg 358w, https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-150x150.jpg 150w, https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-300x300.jpg 300w" width="358"/>
+<p>I’ve singled out Qt Creator due to my experience today, but there are too many examples of this in modern user interfaces. <strong>Hooking up discoverable explanations to disabled controls</strong> is a small effort on the part of the programmer which multiplies to a significant time-saving and thus <strong>value-add for your users</strong>.</p>
+]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description> I’m probably what one might call an obsessive note-taker.
+I’ve talked in the past about the importance of keeping a lab journal. Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve experimented with a number of different tools (see under “Nerd News”) to do this.</description><content:encoded><![CDATA[ <p>I’m probably what one might call an obsessive note-taker.</p>
+<p>I’ve <a href="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/">talked in the past about the importance of keeping a lab journal.</a> Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve <a href="https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/">experimented with a number of different tools</a> (see under “Nerd News”) to do this.</p>
+<p>This post summarises my current selection of tools.</p>
+<p>For making notes with a visual aspect, for example photos of beers that I’ve tasted, and sometimes screenshots of websites, I use <a href="https://www.google.com/keep/">Google Keep</a>. This has a really great Android app with which you can easily save a website, including screenshot, using the Android “share with” functionality. On the desktop, this has a web-app that looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/keep_screenie.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/keep_screenie-790x1024.jpg"
+        /> </a>
+</figure>
+
+<p>One of the neat features of Keep is that you can easily have it extract and OCR text from images, for example if you’ve taken a photo of a business card. Unfortunately, the web-app is quite sluggish (this could be because I live in a bandwidth-constrained world here at the southern tip of Africa), and there’s no web clipper with which I can easily save web pages whilst on the desktop. Furthermore, I find the layout to be quite chaotic, and therefore I treat it more like my similarly chaotic digital cork board.</p>
+<p>After a two year hiatus, I’ve returned to the <a href="http://simplenote.com/">SimpleNote universe</a> as my <strong>core mobile and desktop note-taking tool</strong>. They have great apps on IOS, Android, Mac and Web. I use the super sleek, some might say austere, <a href="https://play.google.com/store/apps/details?id=com.automattic.simplenote">SimpleNote Android app</a> (recently rewritten when <a href="https://automattic.com/">Automattic</a>, makers of WordPress, bought Simperium, makers of SimpleNote) and on the desktop I mostly use <a href="https://github.com/cpbotha/nvpy">nvpy, my open source SimpleNote client</a>. The latest greatest version (0.10.0, soon to be released) looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/nvpy_screenie.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/nvpy_screenie.png"
+        /> </a>
+</figure>
+
+<p>Because SimpleNote is text-only, and it’s a fully synced offline-capable tool, it’s nice and fast. This is the tool you want to use to store those small but useful factoids, quotes and code snippets.</p>
+<p>For more in-depth and technical lab journals, I use GNU Emacs with <a href="http://orgmode.org/">Org mode</a>. This enables me to write documents with beautifully typeset math, syntax-highlighted and in some cases even live-evaluated code blocks, and good document structure, all in plain text. Here’s a sample of my November 2015 lab journal where I started reading about and experimenting with a bit of D language:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png"
+        /> </a>
+</figure>
+
+<p>Parts of these journals <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">can be sent directly to your WordPress blog from within Emacs</a>, and you can generate high quality PDFs at the press of a typical simple 12 key Emacs shortcut combo. This being Emacs, the experience can be easily customised to emulate SimpleNote in terms of interactivity, but this will not easily compete with SimpleNote proper in terms of transparent syncing between all devices and in terms of accessibility on mobile.</p>
+<p>Using these three tools together currently takes good care of my note-taking requirements. However, I think that there might be room for a fourth type of tool that is more visual, supports rich and graphical linking between data items and even between sub-components of such items and, perhaps most importantly, enables us to build note landscapes that are natively as non-linear as our thoughts.</p>
+]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description> (Post updated on January 8, 2021. See section at the end.)
+Signal, the open source messaging and voice calling app that does end-to-end encryption. The whole world is using WhatsApp to message each other. I often do too, because I want to inter-operate with the rest of the world.
+However, WhatsApp belongs to Facebook.
+Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
+<figure>
+<img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
+<figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
+<p>The whole world is using WhatsApp to message each other. I often do too,
+because I want to inter-operate with the rest of the world.</p>
+<p>However, WhatsApp belongs to Facebook.</p>
+<p>Although Facebook <a href="http://www.huffingtonpost.com/2014/02/24/zuckerberg-facebook-whatsapp_n_4848205.html">has promised otherwise</a> (fast-forward a few years: Yes,
+they did break that promise. See updates at the end of this post.), the
+temptation to link all of your WhatsApp messages with Facebook logins (a
+straight-forward process, as they have the mobile phone numbers of a great
+number of their users) must be <strong>quite</strong> tempting to the people at
+Facebook. Imagine how well they would then be able to target their advertising,
+based on their access to both your Facebook profile and your private WhatsApp
+messages!</p>
+<p>Fortunately, we now have an open source app, called <a href="https://signal.org/">Signal</a> (available on
+<a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&amp;hl=en">Android</a>, <a href="https://itunes.apple.com/za/app/signal-private-messenger/id874139669?mt=8">IOS</a> and the desktop), which performs end-to-end encryption
+on all messages and voice calls that go through it. This means that absolutely
+no-one is able to read your messages or eavesdrop on your voice calls, except
+the intended recipients.</p>
+<p>My request is that you get your contacts to install and <a href="https://theintercept.com/2015/03/02/signal-iphones-encrypted-messaging-app-now-supports-text/">start using Signal</a>
+instead of WhatsApp wherever possible. At the very least some of our messages
+will not be accessible to various large corporations and any other prying
+eyes. If the security argument is not enough for you, there is one more
+extremely important topic: Signal handles animated gifs better than WhatsApp,
+at least on Android. (Telegram supports them on both Android on IOS, but it is
+by default less secure than Signal). See here the results of my experiments:</p>
+<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Animated GIF support (most important feature in any messaging app): WhatsApp fail, Viber fail, Telegram pass, Signal pass on Android.</p>— Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/682942239463587841?ref_src=twsrc%5Etfw">January 1, 2016</a></blockquote> <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+<h1 id="updates">Updates</h1>
+<h2 id="january-8-2021">January 8, 2021</h2>
+<p>By now, if you use WhatsApp, the app will have forced you to accept the new
+privacy and data sharing agreement.</p>
+<p>As is explained in this <a href="https://arstechnica.com/tech-policy/2021/01/whatsapp-users-must-share-their-data-with-facebook-or-stop-using-the-app/">post on
+arstechnica</a>:</p>
+<blockquote>
+<p>Under the new terms, Facebook reserves the right to share collected data with its family of companies.</p>
+</blockquote>
+<p>In other words, even more of the personal data of 2 billion or so WhatsApp
+users will be integrated with everything Facebook knows about them and about
+you, including all of your connections to each other on all of the facebook
+platforms, including facebook itself, instagram and whatsapp.</p>
+<p>Like many of you, to interoperate with the world I do need to keep WhatsApp,
+but I would greatly prefer chatting with you on Signal.</p>
+<h2 id="august-25-2016">August 25, 2016</h2>
+<p><a href="http://www.theverge.com/2016/8/25/12638698/whatsapp-to-start-sharing-user-data-with-facebook">The Verge reported that WhatsApp will now officially begin sharing data with
+Facebook</a>. They will indeed link up telephone numbers and social networks,
+meaning that both parties will get a tremendous boost in what they know about
+you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
+]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
+Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
+This seemed like an opportune moment to get something off my chest.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+<p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404-1024x576.jpg"
+        
+            alt="Ubuntu means “humanity to others”. It also means pretty desktop!"/> </a><figcaption>
+            <p>Ubuntu means “humanity to others”. It also means pretty desktop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</p>
+<h2 id="cost-to-the-national-economy">Cost to the national economy</h2>
+<p>Every year, I and a few million other South Africans pay a boat load of income and other taxes. Because in SA not everyone is able to pay tax, it is <i>especially</i> important that this money is used for the common good, for issues such as health-care, education and job creation.</p>
+<p>However, instead of using my hard-earned tax to stimulate local industry, the South African government is sending millions of rands, each and every year, to Microsoft, a fantastically rich company in the USA, a fantastically rich country in comparison to South Africa.</p>
+<p>The majority of government workstations absolutely don’t need MS Windows, MS Office or Outlook. The majority of government employees would be able to do their job (email, reports, spreadsheets, forms, use of web-apps) better and more securely using Linux.</p>
+<p>Furthermore, the use of Linux and open source software encourages the use of open standards for public documentation. In 2007, the SA government <a href="http://en.wikipedia.org/wiki/OpenDocument_adoption#South_Africa">officially standardised on the OpenDocument format</a>. However, MS Office use is still rife, and encourages people to use Microsoft’s own XML formats. Although MS standardised these in a bid to stay in the global government game, OpenDocument should be preferred, as it’s better supported by more free and open packages that are available to all citizens, not just those with money for MS Windows and MS Office.</p>
+<p>As an added but very important advantage, some of the considerable funds that would have been sent to the USA for MS licensing and support would then be injected into the local Linux support economy, stimulating local skills and creating more high-tech jobs.</p>
+<p>Don’t you find it strange that South Africa, a developing country, is sending that much money to the USA when better solutions exist? Don’t you too think that it would be great to have a thriving and more independent Linux-based operating system and application industry right here in SA?</p>
+<h2 id="personal-cost">Personal cost</h2>
+<p>I <a href="http://mygaming.co.za/news/news/46487-windows-8-versions-sa-pricing-detailed.html">just</a> checked, it looks like the cost for an OEM license of Windows 8 in SA is R1000. We want as many as possible South Africans to have access to computers and to have access to internet. You can get a cheap PC for R3000 to R4000. It really makes absolutely no sense to spend R1000 on Windows, when Linux would work perfectly well on that same PC hardware.</p>
+<p>It gets even more silly when you add in the price of MS Office. For 95% of personal users, packages like OpenOffice or LibreOffice, completely free and even open source, or Google Docs, not open but free, are more than sufficient.</p>
+<p>A part of the problem here is simply momentum. Because everyone is still using Microsoft products, everyone thinks that that’s what you need to have. Imagine that the government standardised on Linux, it would not take long before people would then evaluate this as a serious choice when acquiring a new PC.</p>
+<h2 id="security">Security</h2>
+<p>For the largest part due to Edward Snowden’s actions, and great journalism by The Guardian, it is now widely known (and much has been corroborated), that the NSA and other intelligence agencies around the world have been eavesdropping on everyone and everything.</p>
+<p>An important part of this practice, is the working relationships that these intelligence agencies have built up with software vendors around the world. When you run MS Windows or Mac OSX, or any other prioprietary software, you have absolutely no way of knowing, or checking, what your computer is doing with your information. It sounds like something from a spy movie, but <a href="http://arstechnica.com/security/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">the NSA works closely with Microsoft to be able to hack into computers running Windows</a>.</p>
+<p>In the case of personal use, this may not be such a problem, but in the case of the South African government and the whole corporate world, it’s slightly crazy that everyone is willing to take the risk that all of their information is being snooped on by cooperating intelligence agencies.</p>
+<p>With open source systems one can’t be 100% sure either, but one is able to check and modify and part of the system, at the source code level, that one is working on. Based on this openness, I have personally in the past programmed kernel drivers to support new hardware, and fixed low-level driver bugs. This was possible only because I have access to the source code of everything on my system.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
+<p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
+]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
+After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
+It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
+<p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg"
+        
+            alt="Image by BLOGGING via TYPEWRITER"/> </a><figcaption>
+            <p>Image by BLOGGING via TYPEWRITER</p>
+        </figcaption>
+</figure>
+</p>
+<p>It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), <em>especially</em> if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they <em>say</em> that you shouldn’t worry, <em>you can never be entirely sure</em>.</p>
+<p>Furthermore, it has also been revealed that the NSA has for years being acquiring encryption keys via legal (secretly forcing companies to give them the keys) and extra-legal (simply hacking into company servers) means. Even worse, they have for years been deliberately introducing security weaknesses into software products and encryption software in order to be able to crack open your data even more easily.</p>
+<p>You can read more about this state of affairs in <a href="http://www.theguardian.com/world/the-nsa-files" title="The Guardian NSA files">The Guardian’s NSA files</a>. The Guardian has been doing a sterling job of analysing and bringing to light the depths to which our governments have sunk. There’s a whole lot of information, and most of it is quite upsetting.</p>
+<p>For me the final straw was when secure email service <a href="http://lavabit.com/" title="lavabit website with close-down message">lavabit</a> voluntarily shut itself down, when faced with the prospect of being forced to leak user information to the US government without being allowed to tell anyone. The message on the site is quite chilling, and concludes with the following:</p>
+<blockquote>
+<p>This experience has taught me one very important lesson: without congressional action or a strong judicial precedent, I would <em>strongly</em> recommend against anyone trusting their private data to a company with physical ties to the United States.</p>
+</blockquote>
+<p>At this point, I was a super happy and pretty heavy user of a number of US-based services, including GMail (all my email, about 40000 conversations consisting of 60000 mails, that’s excluding my work email which I also hosted on GMail), Google+ Photos (all my photos, about 21000 of ’em), Google Drive, Dropbox (50G of data spread out over 120000 files). <em>In all cases, I still consider these to be best of class services.</em> In putting my money where my mouth is, I was paying both Google and Dropbox for extra storage.</p>
+<p>I also had no problem with Google filtering through my email to show me targeted advertising. This is the deal I had with them. I also had no problem with the possibility of someone getting my data after due legal process. However, the idea that some NSA or other government agency flunky could quite easily stick their grubby paws into my data, and that I would never know about this, was too much.</p>
+<p>There’s probably nothing much of interest in my data. However, it has become a matter of principle; Privacy is a basic human right. <a href="http://www.wired.com/politics/security/commentary/securitymatters/2006/05/70886" title="value of privacy by Bruce Schneier">Here’s an old essay by Bruce Schneier</a> if you need to read more about why privacy is so important.</p>
+<p>In short: <strong>It was time to extricate all of my lovely data from probably well-meaning US companies, thanks to the ridiculously powerful and secretive NSA, and thanks to all of its shadowy counterparts around the world.</strong></p>
+<p>Here’s how I did it:</p>
+<ul>
+<li>Considered building another low-cost Linux server, or even a Raspberry Pi. Decided against this due to time required for configuration and acquired a Synology DS213j NAS, which is at this moment standing on the desk about 1 metre to my left. My recommendation: Just get this, you won’t be sorry.</li>
+<li>Downloaded 60000 emails to Synology using Thunderbird mail client. Deleted everything from GMail. Google engineers assure me that after a few months, data will <em>really</em> be gone.</li>
+<li>My webhoster (<a href="https://www.webfaction.com/">WebFaction</a>) receives mail for all my domains. My Synology retrieves mail every 5 minutes via POP (you can set this up via Roundcube on the Synology) and deletes it from WebFaction.</li>
+<li>Outgoing mail is relayed by the Synology via the WebFaction SMTP server. I don’t have to worry too much about blacklisting and whatnot, my hoster does this.</li>
+<li>I’m back to interacting with my mail using Thunderbird and IMAP SSL. The loss of GMail conversation view was initially really REALLY painful. People have forgotten the ancient art of quoting. However, I’ve configured Thunderbird to archive all mail to year-stamped archive folders, and to put my sent mail there. Poor-man’s Conversation View! (the <a href="https://addons.mozilla.org/en-us/thunderbird/addon/gmail-conversation-view/">conversations plugin</a> is wonky. it’s shocking how much the availability of GMail, which works really well, has stunted the development of alternative email clients) Importantly, I am now able to use <a href="http://www.openpgp.org/">OpenPGP</a> again for the strong encryption and cryptographic signing of my emails.</li>
+<li>On my Android telephone (whoops…) I am using <a href="https://play.google.com/store/apps/details?id=com.kaitenmail&amp;hl=en" title="Kaiten email on the Google Play store">the Kaiten IMAP client</a>.</li>
+<li>All the data I had in Dropbox is now being synced between the Synology, two laptops and a workstation using <a href="http://labs.bittorrent.com/experiments/sync.html" title="bittorrent sync">BitTorrent Sync</a>. This peer-to-peer syncing system is still a little rough around the edges, but falls squarely in the category of “Best Things Since Sliced Bread”, and it’s <em>FAST</em>. CloudStation, Synology’s dropbox-inspired solution, was just far too slow on my Synology model.</li>
+<li>My photos (21000 of them) have been downloaded from Google+ Photos (thank you <a href="https://www.google.com/takeout/" title="Google Takeout">Google Takeout</a>) and are now being served from the Synology using PhotoStation.</li>
+<li>My music (5400+ tracks) is downloading from Google Music as we speak, and will be served from the Synology using AudioStation.</li>
+<li>I make incremental backups of everything to an encrypted external USB drive, using <a href="http://www.dirvish.org/" title="dirvish website">dirvish</a>. I will probably add an extra external drive to the mix and try to keep that off site.</li>
+</ul>
+<p>It’s been an interesting process moving my stuff out, and getting used to these alternative systems is sometimes slightly uncomfortable, but I am quite happy with the end result. I hope that more people will take this step, and I really hope that more and easier-to-use alternatives for secure email (such as <a href="http://www.mailpile.is/" title="mailpile website">mailpile</a>) and for ubiquitous private data will become available.</p>
+<h1 id="addendum-2013-09-16">Addendum 2013-09-16</h1>
+<p>My <a href="https://news.ycombinator.com/item?id=6392322">submission of this post</a> spent some time on the Hacker News front page, and from there was <a href="http://www.reddit.com/r/technology/comments/1mhpqj/dear_usa_my_data_has_left_your_building/">picked up by reddit</a> as well. This brought many comments, a number of which were positive and thoughtful, and a number of which that were far less so. It’s amazing how anonymity and comment sections can bring out the worst in people. (if you have to know, the Hacker News community is generally MILES more polite than reddit)</p>
+<p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
+<p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
+<p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
+]]></content:encoded></item></channel></rss>

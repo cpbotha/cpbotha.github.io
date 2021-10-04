@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>david rock on voices in my head</title><link>https://cpbotha.net/tags/david-rock/</link><description>Recent content in david rock on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 04 Mar 2018 20:47:46 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/david-rock/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
+I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.
+The WHV visual element lives to fight another day!
+The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/untitled_by_sylvia_20180304.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/untitled_by_sylvia_20180304-1024x492.png"
+        
+            alt="Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child."/> </a><figcaption>
+            <p>Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.</p>
+        </figcaption>
+</figure>
+
+<p>I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.</p>
+<p>The WHV visual element lives to fight another day!</p>
+<p>The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists. Feel free to pick and choose!</p>
+<h1 id="c-quo-vadis">C++ quo vadis?</h1>
+<p>This week, we spent more than a day chasing an elusive memory-related access violation (big words for “crash”) in the software we recently released.</p>
+<p>In the end, the bug was only really reproducible on Windows 7 (not on Linux, not on macOS, and only with great difficulty and infinite patience on Windows 10). It turned out to be hidden deep in a well-tested, industry-backed open source C++ library.</p>
+<p>This and the specific nature of this bug again demonstrated to me that C++, although I love it dearly, simply has too many well-disguised flaws (let’s call them foot-guns) which will eventually lead to even the most experienced and sharp programmer making mistakes.</p>
+<p>In spite of the recent language renaissance (C++11, 14, 17 with 20 imminent) and a slew of improvements, it’s still too easy to write unsafe code.</p>
+<p>With contenders like rust (<a href="https://www.rust-lang.org/en-US/">rustlang</a> AJ, rustlang!) which enable programmers to write programmes which have C++-level performance but are by default safe, could C++’s days be counted?</p>
+<h1 id="run">Run</h1>
+<p>It was time to retire my trusty pair of Asics Cumulus 18 shoes.</p>
+<p>They had clocked just over 900km, which is perhaps a little too much. By the end, I could feel the bones in my big toe’s main joint (apparently also known as the big-toe’s MTP or metatarsophalangeal joint) crunching down with each strike.</p>
+<p>Normally not prone to these types of visits, I had no choice but to pop out to the <a href="https://www.runspecialiststore.com/">Run Specialist Store</a> in Edward street on Thursday to get a new pair of activity-proof foot covers.</p>
+<p>They let me run on a treadmill (whoohooo running!) with a high-speed video camera. In the footage, we could see that indeed my conversion to forefoot running had been successful (which was good to hear, because it had cost me about 100km of pain), but that I tended to land on the outsides of my forefeet.</p>
+<p>The minimal shoes I had had in mind were not (yet) to be.</p>
+<p>Instead the run doctor prescribed a pair of <a href="https://www.solereview.com/saucony-kinvara-8-review/">Saucony Kinvara 8s</a>, which make my old Asics look like previous generation gardening shoes. I’ve since taken these out on two runs. They are super light, and super springy (everun FTW?), but I have to say that I have my doubts about the durability of the outsole. I’ll report back.</p>
+<p>In February, I’m pretty happy that I managed to squeeze in just over 110km of running, which is not too shabby (by my standards, as always!) for the short month.</p>
+<h1 id="scarf">SCARF</h1>
+<p>Yes, winter is coming, but this, although also quite useful, is not that type of SCARF.</p>
+<p>I am still reading <a href="https://your-brain-at-work.com/">David Rock’s book Your Brain at Work</a>, and SCARF is his mnemonic for Status, Certainty, Autonomy, Relatedness and Fairness.</p>
+<p>These are five social needs, the threat or confirmation of which can have profound effects on humans.</p>
+<p>If you feel that you are being unfairly treated, for example, this triggers a low-level threat response which fundamentally complicates dealing rationally with a situation.</p>
+<p>Conversely, if for example an interaction grants you more certainty or even better autonomy, you are magically able to contribute significantly more cognitive capacity and creativity to that interaction.</p>
+<p>Both the fundamental threat and reward responses go for all five of these qualities. Once you know what to look for, it’s easy to go through some of your memories and to see where one or more of the SCARF needs played a role.</p>
+<p>Although one (hopefully) mostly intuitively integrates this in one’s daily dealings, I think it’s super useful being able to enumerate the SCARF social needs like this. It helps when managing oneself in any situation (especially when your prefrontal cortex is exhausted, which is just about always), and it certainly helps when you might find yourself in position where you are able to contribute to another human’s well-being.</p>
+<h1 id="the-end">The end</h1>
+<p>Have a great week friends, I hope to see you again soon!</p>
+<p>P.S. if there are any arduino uno -&gt; hardware serial -&gt; xbee experts in the audience, I would like to have a word. (<a href="https://www.sparkfun.com/products/12847">sparkfun shield</a>. with software serial can talk to xbee. with hardware serial, and sparkfun switch in the right position, xbee won’t respond. <a href="https://medium.com/@phurl/robotdyn-uno-vs-arduino-genuino-uno-a9ac3b17a96f">uno is a robotdyn clone</a>.)</p>
+]]></content:encoded></item></channel></rss>

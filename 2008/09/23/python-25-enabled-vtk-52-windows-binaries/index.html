@@ -1,0 +1,115 @@
+<!doctype html><html>
+<head>
+<title>Python 2.5 enabled VTK 5.2 Windows binaries // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Python 2.5 enabled VTK 5.2 Windows binaries">
+<meta property="og:description" content="You can always check my Latest VTK Windows binaries page to make sure you have the latest blog posting and hence the latest binaries.
+I’ve made available my home-baked VTK 5.2 Windows binaries. These have my special python-exception-patches integrated and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support. Get the binaries (or my patched source) by going here. You want the binaries if you want to use VTK from Python.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2008/09/23/python-25-enabled-vtk-52-windows-binaries/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Python 2.5 enabled VTK 5.2 Windows binaries</h1>
+</header>
+<div class=article-meta>
+<a href=/2008/09/23/python-25-enabled-vtk-52-windows-binaries/ class=article-date>
+<time datetime=2008-09-23T18:28:42.000+00:00 itemprop=datePublished>2008-09-23</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2008/09/23/python-25-enabled-vtk-52-windows-binaries/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p><em>You can always check my <a href=http://cpbotha.net/software/latest-vtk-windows-binaries/ title="Latest VTK Windows binaries page.">Latest VTK Windows binaries page</a> to make sure you have the latest blog posting and hence the latest binaries.</em></p>
+<p>I’ve made available my home-baked VTK 5.2 Windows binaries.  These have my special <a href=http://public.kitware.com/pipermail/vtk-developers/2006-August/004260.html title="Mailing list mail with my python exception patch work.">python-exception-patches</a> integrated and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going <a href=http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.2/ title="Link to VTK 5.2 windows binaries download">here</a>.  You want the binaries if you want to use VTK from Python.</p>
+<p><strong>IMPORTANT</strong>: you might have to install the MS VS2005 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=32BC1BEE-A3F9-4C13-9C99-220B62A191EE&displaylang=en" title="link to vcredist_x86.exe">vcredist_x86</a> package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.</p>
+<p><strong>P****lease leave a comment on this blog posting if you use these or just hate them</strong>. It’s almost like postcard-ware, but with blog comments. Please also link to this page and not directly to the download location, thanks!</p>
+<p>To use this from Python, you need to add the following to your PATH:</p>
+<ul>
+<li>d:\opt\VTK\bin</li>
+</ul>
+<p>You also need to add <strong>all of the above</strong> to PYTHONPATH, as well as the following:</p>
+<ul>
+<li>d:\opt\VTK\lib\site-packages</li>
+</ul>
+<p>… where d:\opt is the drive and directory where you unpacked the ZIP file.</p>
+<p>Once you’ve done this and logged out and in again, “import vtk” should work at the Python prompt. Shameless plug: you can use my free <a href=../software/envedit title="envedit homepage">envedit</a> software to do the environment editing. It beats the default XP editing thingy.</p>
+</div>
+</div>
+<nav id=article-nav>
+<a href=/software/latest-vtk-windows-binaries/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Latest VTK Windows binaries
+</div>
+</a>
+<a href=/2008/09/13/a-taste-of-brilliant-brazil/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>A taste of brilliant Brazil&nbsp;<span>></span></div>
+</a>
+</nav>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Python 2.5 enabled VTK 5.2 Windows binaries" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

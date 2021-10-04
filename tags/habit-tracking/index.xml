@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>habit tracking on voices in my head</title><link>https://cpbotha.net/tags/habit-tracking/</link><description>Recent content in habit tracking on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 02 Nov 2019 16:48:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/habit-tracking/index.xml" rel="self" type="application/rss+xml"/><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
+The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
+<p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
+context for the development of other ideas for habit tracking tricks and tools.</p>
+<h2 id="the-importance-of-habits">The importance of habits.</h2>
+<p>If you have some experience being, you know, alive, and perhaps even trying to
+get just that little bit better at it every day, you will have realised by now
+that being able to form and maintain good habits is almost a super power.</p>
+<p>(Other real-life super powers: Kindness. Peace. Focus. I digress&hellip; haha.)</p>
+<p>All of those promises we make to ourselves to read more, to eat better, to
+exercise more, to meditate regularly, and so on: The key to making all of these
+happen is forming and then maintaining habits.</p>
+<p>First the habit has to be created out of nothing, and once it&rsquo;s up and running,
+the idea is to keep going at it for as long as possible.</p>
+<p><a href="/2019/09/09/weekly-head-voices-177-streakers/#life-optimisation-tip-73-streak-more">Streaking</a>,
+that is trying to continue for as long as possible without any interruption, is
+a fun and effective trick to keep at it.</p>
+<p>However, it is just as important being able to restart a new streak once the
+previous one has been broken for whatever reason.</p>
+<h2 id="what-the-orgmode-habit-tracker-does">What the Orgmode habit tracker does.</h2>
+<p>Up to now, I mostly used <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">daily checklists to keep track of healthy
+habits</a>, but for
+some habits, especially ones with a non-daily frequency, this does not work so
+well.</p>
+<p>A significant step up from daily checklists, the <a href="https://orgmode.org/manual/Tracking-your-habits.html">Emacs Orgmode habits
+function</a> enables you:</p>
+<ul>
+<li>to specify any number of habits, each with different, sometimes less regular
+frequencies;</li>
+<li>to track when you perform a habit and when you should next perform it and finally</li>
+<li>to visualize if you are performing according to the specifications you have
+set.</li>
+</ul>
+<p>For example: I would like to run at least three times a week. There should be
+at least one rest day after a running day (I&rsquo;m not a spring chicken
+anymore). There should be a maximum of three rest days allowed (this usually
+happens after a longer weekend run).</p>
+<p>Although I enjoy running enough to keep this habit up by myself, I chose it as
+a first test of the Orgmode habits function.</p>
+<p>So far I have setup two other simpler examples:</p>
+<ul>
+<li>A core exercise which I call &ldquo;The Wheel&rdquo; (of pain). This has to happen every
+second day, usually in between running days.</li>
+<li>&ldquo;Deep reading&rdquo;, which is meant to describe a session of focused reading of
+long-form, i.e. mostly books. This has to happen every day.</li>
+</ul>
+<p>Before starting tracking of these latter two habits slightly more than a week
+ago, I somehow kept on letting them slip.</p>
+<p>This morning, my org-agenda looked like this:</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot.png">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>In the figure you can see that today, represented by the exclamation mark <code>!</code>,
+I will have to schedule in a session of deep reading (indicated by the yellow
+colouring), and a session of &ldquo;the wheel&rdquo;.</p>
+<p>The running habit graph  is showing that I still have three days, including
+today, on which I do not have to run.</p>
+<p>By default it would not have displayed today, because I ran yesterday, as shown
+by the asterisk <code>*</code>, and I specified that minimum of one rest day. However, I
+temporarily configured it to show today for the sake of this exposition.</p>
+<p>To summarise: These habit graphs show up as part of your org-agenda view and
+show you at a glance when you should perform which habits, and, quite
+importantly, how long you have been streaking a particular habit.</p>
+<h2 id="how-to-setup-orgmode-habits">How to setup Orgmode habits.</h2>
+<h3 id="global-configuration">Global configuration.</h3>
+<p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
+the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp">(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
+state logging for the task <code>DONE</code> state:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
+<span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
+      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
+<span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
+<span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
+<p>Then, start creating the special habit nodes as explained in the following:</p>
+<p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
+journal file</a>:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #BFEBBF; background-color: #3F3F3F;">** </span><span style="color: #CC9393; font-weight: bold;">TODO</span><span style="color: #BFEBBF; background-color: #3F3F3F;"> Running</span>
+<span style="color: #7F9F7F;">SCHEDULED:</span> <span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-11-03 Sun .+2d/4d&gt;</span>
+<span style="color: #7F9F7F;">:PROPERTIES:</span>
+<span style="color: #7F9F7F;">:STYLE:</span>    habit
+<span style="color: #7F9F7F;">:LAST_REPEAT:</span> <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+<span style="color: #7F9F7F;">:END:</span>
+<span style="color: #7F9F7F;">:LOGBOOK:</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-30 Wed 15:41]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-26 Sat 14:14]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-24 Thu 19:11]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-22 Tue 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-20 Sun 10:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-16 Wed 08:13]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-13 Sun 10:00]</span>
+- Created "TODO" <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-23 Wed 09:53]</span>
+<span style="color: #7F9F7F;">:END:</span>
+</pre>
+<p>The <a href="https://orgmode.org/manual/Tracking-your-habits.html">orgmode habits
+documentation</a> explains
+that a habit is a special sort of <code>TODO</code> node with the following additional
+properties, which can all be seen in the above example:</p>
+<ul>
+<li>The node has a <code>:STYLE:</code> property of <code>habit</code>. Configure with =M-x
+org-set-property=.</li>
+<li>The node has a <code>SCHEDULED</code> date in the future on the next date when this
+habit should take place, along with a frequency / time constraint
+specification, in this case <code>.+2d/4d</code>, meaning that at the most every second
+day, and at the least every fourth day.</li>
+</ul>
+<p>Furthermore, with <code>DONE</code> state logging configured as explained above, you&rsquo;ll
+get the <code>LOGBOOK</code> with the required state changes used by the habit graphs.</p>
+<h3 id="in-use">In use.</h3>
+<p>Whenever you&rsquo;ve completed a habit, fire up Emacs (I&rsquo;m joking of course: Emacs
+is always running) and then toggle the state of the habit to <code>DONE</code>.</p>
+<p>You&rsquo;ll see that it briefly toggles to <code>DONE</code>, and then automatically switches
+back to <code>TODO</code>.</p>
+<p>(There&rsquo;s some philosophical lesson to be learned from that&hellip;)</p>
+<p>When this happens, the <code>:LAST_REPEAT:</code> timestamp will be automatically updated
+to the current time, and, more importantly, the <code>SCHEDULED</code> date will be
+automatically updated to the next earliest date when this habit should be
+exercised.</p>
+<p>In the case of the running example above, that will be tomorrow, as today is a
+rest day.</p>
+<p>Whenever you activate org-agenda, you&rsquo;ll see the habit graphs right at the top,
+by default only on the days when they are actually scheduled. In the running
+example, that habit will not appear on rest days. (This can naturally be
+configured, see <code>M-x describe-variable RET org-habit-show-all-today</code>).</p>
+<h2 id="conclusion">Conclusion.</h2>
+<ul>
+<li>Being able to forming and maintain habits can form an important component of
+better living.</li>
+<li><em>Habit streaking</em> is a fun psychological trick to keep you going.</li>
+<li>However, don&rsquo;t be disheartened by a broken streak. Get back on that horse and
+try again.</li>
+<li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
+maintain habits, especially non-daily ones.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

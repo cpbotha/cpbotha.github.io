@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machine learning on voices in my head</title><link>https://cpbotha.net/tags/machine-learning/</link><description>Recent content in machine learning on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 31 May 2020 22:27:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #196: Get focused</title><link>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</link><pubDate>Sun, 31 May 2020 22:27:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</guid><description> Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here.
+Well hello there folks, please make yourself at home!
+This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the extremely strange year of 2020.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="sylvia_draws_family_20200531.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here."/> </a><figcaption>
+            <p>Figure 1: Our house clan, as drawn by GOU #2. I&rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&rsquo;s who. Readers might also notice that I&rsquo;m slightly outnumbered here.</p>
+        </figcaption>
+</figure>
+
+<p>Well hello there folks, please make yourself at home!</p>
+<p>This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the
+extremely strange year of 2020.</p>
+<p>That effort of looking back has resulted in the following three items.</p>
+<h2 id="when-building-automatic-analysis-pipelines-get-your-batch-accuracy-testing-up-as-soon-as-you-can">When building automatic analysis pipelines, get your batch accuracy testing up as soon as you can</h2>
+<p>A substantial part of my work hours these past two weeks went into working on a
+automatic medical image analysis pipeline, with machine learning
+inside™. (I mean &ldquo;AI&rdquo;, of course. And drones.)</p>
+<p>I really do love this stuff, but sometimes it ends up coming down to putting
+your head down and keeping it down, in order to grind out every percent or two
+in improved accuracy.</p>
+<p>The tip I wanted to offer here is the following: Even when you think your
+pipeline is way too far from &ldquo;done&rdquo;™, get your batch accuracy testing up
+and running.</p>
+<p>It&rsquo;s a double whammy:</p>
+<ol>
+<li>You and your team get early and regular feedback on how your performance is
+going.</li>
+<li>You are forced to have the whole concept working from end-to-end. It can be
+surprising how many little issues you still need to solve, and running into
+them sooner rather than later is only good.</li>
+</ol>
+<p>By the way, the practical machine learning icon <a href="https://en.wikipedia.org/wiki/Andrew%5FNg">Professor Andrew Ng&rsquo;s</a> free book
+<a href="https://www.deeplearning.ai/machine-learning-yearning/">Machine Learning Yearning</a> is filled to the brim with practical tips for
+implementing ML in practice.</p>
+<h2 id="lazar-focus-the-super-tiny-windows-app-and-website-distraction-blocker-that-you-ve-always-wanted">Lazar Focus: The super tiny Windows app and website distraction blocker that you&rsquo;ve always wanted</h2>
+<p>Back at the <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">start of 2018 I wrote the following about the macOS app and website
+distraction blocker called Focus</a>:</p>
+<blockquote>
+<p>After years of resisting these types of software tools due to my belief that I
+should simply apply more grit and will power to squeeze out more focus hours,
+I finally broke down and purchased the macOS app called Focus. You click its
+pretty icon, and then your computer goes into focus mode: The Mail application
+and a bunch of other non-focus-related apps all get killed, and a bunch of
+websites (reddit, youtube, work chat, etc) are blocked for a user-configurable
+block of time.</p>
+</blockquote>
+<p>Even if you skipped that extract, please read the following one about the
+<em>idea</em> behind such a focus app:</p>
+<blockquote>
+<p>It usually takes a single moment of weakness for a distraction to terminate a
+valuable block of focus. It takes a single moment of strength for this tool to
+start a valuable block of focus.</p>
+</blockquote>
+<p>Anyways, I was really missing this functionality on Windows, and so I busted
+out my trusty <a href="https://www.lazarus-ide.org/">Lazarus IDE</a> (who <em>didn&rsquo;t</em> make apps back in the day with the old
+win32 Delphi?!) and figured out the various required Windows APIs to create
+this brand new super tiny but super effective app and website blocker:</p>
+
+
+
+
+
+
+
+
+<figure><a href="lazar_focused_screenshot.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_1200x0_resize_q75_box.jpg 1200w,
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Screenshot of Lazar Focus 1.0.0.beta1, main window on the left, settings dialog on the right."/> </a><figcaption>
+            <p>Figure 2: Screenshot of Lazar Focus 1.0.0.beta1, main window on the left, settings dialog on the right.</p>
+        </figcaption>
+</figure>
+
+<p>As shown in the screenshot, it&rsquo;s sitting at 5 MB of memory use. In the age of
+Electron apps, that&rsquo;s really small.</p>
+<p>When you activate focus mode, it&rsquo;ll prevent your browser (Chrome, Brave,
+Firefox or Edge) from viewing any distracting website (you get to configure the
+list) by redirecting to a local web page with an inspiring quote, e.g.:</p>
+<blockquote>
+<p>Concentration can be cultivated. One can learn to exercise willpower,
+discipline one&rsquo;s body and train one&rsquo;s mind. &ndash; Anil Ambani</p>
+</blockquote>
+<p>It will also terminate any distracting apps, and helpfully prevent you from
+starting them up during your focus session.</p>
+<p>The convenient progress bar shows how far you are on your way to a 25 minute
+pomodoro, but that is purely for motivation, and not enforced.</p>
+<p>The total focus blocks and hours at the top should also help to keep us
+motivated and&hellip; <strong>LAZAR FOCUSED!</strong></p>
+<p>So, because there are probably (hopefully?) at least two other people who&rsquo;ll
+find this as useful as I do, and because shipping and selling software that you
+made yourself is awesome especially when it&rsquo;s a hobby project, I have decided
+to try and sell Lazar Focus using something like <a href="https://gumroad.com/">gumroad</a>.</p>
+<p>Hopefully soon with a hobby hour or three I can finish the installer and the
+website, and then make the beta available at a reduced rate.</p>
+<p>Because I prefer it for apps like this when I am the buyer, I have decided to
+make it available as a one-time purchase, no eval but money-back, with
+time-limited upgrades (probably a year?), but with your last licensed version
+obviously remaining fully functional until the end of The Windows API.</p>
+<h2 id="art-fun-with-portrait-ai">Art fun with Portrait AI</h2>
+<p>Ever since I spent a bit of time better curating my twitter subscriptions,
+getting rid of the vitriol and adding much more STEM (shout out to <a href="https://twitter.com/EricTopol">Eric Topol</a>
+&ndash; you could install twitter <em>just</em> for him and you would be great), they often
+bring me shiny treasures.</p>
+<p>Recently, it was <a href="https://portraitai.com/">portraitai.com</a> which brought a great deal of mirth to my home
+as we made authentic looking portraits of each other. (We&rsquo;re just a bunch of
+silly primates with amazing gadgets.)</p>
+<p>It didn&rsquo;t seem to work all that well on me however, until I started pulling
+funny faces:</p>
+
+
+
+
+
+
+
+
+<figure><a href="charl_portraitai.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg"
+            
+
+        /> </a>
+</figure>
+
+<p>With that, dear friends, I bid you kindness, happiness and health.</p>
+]]></content:encoded></item><item><title>Can machine learning or algorithms be used in an electoral process?</title><link>https://cpbotha.net/2020/02/24/can-machine-learning-or-algorithms-be-used-in-an-electoral-process/</link><pubDate>Mon, 24 Feb 2020 14:04:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/02/24/can-machine-learning-or-algorithms-be-used-in-an-electoral-process/</guid><description> Guided by the &amp;ldquo;keystroke megaphone&amp;rdquo; principle, I decided to post this email reply I just sent.
+An anonymous reader emailed me the following question:
+Is it possible to use machine learning or algorithms in a campaign or in an electoral process?
+I wrote the following reply:
+I don&amp;rsquo;t have any personal experience with this, but I do know that all kinds of algorithms have been and are still used to influence elections, in the US and in the UK, and probably in other countries.</description><content:encoded><![CDATA[ <p>Guided by the <a href="/2014/06/10/weekly-head-voices-73-keystroke-megaphone/#conserving-keystrokes">&ldquo;keystroke megaphone&rdquo;
+principle</a>,
+I decided to post this email reply I just sent.</p>
+<p>An anonymous reader emailed me the following question:</p>
+<blockquote>
+<p>Is it possible to use machine learning or algorithms in a campaign or in an
+electoral process?</p>
+</blockquote>
+<p>I wrote the following reply:</p>
+<blockquote>
+<p>I don&rsquo;t have any personal experience with this, but I do know that all kinds of
+algorithms have been and are still used to influence elections, in the US and
+in the UK, and probably in other countries.</p>
+<p>If you search online for &ldquo;Cambridge Analytica&rdquo;, you&rsquo;ll find some of the quite
+immoral ways in which they used facebook and other social network data to
+influence public opinion.</p>
+<p>(The Guardian has a great collection called <a href="https://www.theguardian.com/news/series/cambridge-analytica-files">The Cambridge Analytica
+Files</a>.)</p>
+<p>In short: With enough data and some clever &ldquo;big data&rdquo; analytics, it is possible
+to determine with quite some precision which groups to target with personalised
+advertising campaigns, in order to get whole cities or important states to vote
+for your candidate.</p>
+<p>Usually this form of analytics is coupled with social media bots, that is to
+say, a large number of &ldquo;fake&rdquo; social media accounts that say some or other
+thing.</p>
+<p>These efforts can be further boosted with purpose-created websites on
+legitimate-sounding domains.</p>
+<p>The websites and fake accounts strengthen their combined message by citing each
+other.</p>
+<p>One could go further and even apply psychology to craft these messages very
+carefully, so that they have an even higher success rate.</p>
+<p>Folks forward these messages in their various forms via communication networks
+such as whatsapp (<a href="https://www.theverge.com/2020/2/12/21134652/whatsapp-2-billion-monthly-active-users-encryption-facebook">2 billion users this
+month</a>)
+and facebook. The poisoned messages are further strengthened because new
+victims receive them from trusted sources, their social connections.</p>
+<p>In an even shorter form: <em>The human mind and its social context have been hacked
+and are being actively exploited.</em></p>
+<p>Kind regards,
+Charl</p>
+</blockquote>
+<p>Have I mentioned that I sometimes think about doing a startup that employs all
+of the above techniques and more <em>For Good™</em>, where with <em>For Good™</em>
+I mean for all ideas that align with <em>my</em> perfect worldview?</p>
+<p>P.S. <a href="https://cpbotha.net/2017/03/25/fake-news-is-just-the-beginning/">Fake news is just the beginning,
+2017.</a> is
+quite relevant.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #127: Readers are leaders.</title><link>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</link><pubDate>Sun, 14 Jan 2018 10:28:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</guid><description> Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.
+This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project. Had to make screencast to demonstrate milestone deliverable of above-mentioned main project.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/gou1_bettys_bay_beach.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/gou1_bettys_bay_beach-1024x576.jpg"
+        
+            alt="Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11."/> </a><figcaption>
+            <p>Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project.</li>
+<li>Had to make screencast to demonstrate milestone deliverable of above-mentioned main project. Making screencasts is <a href="https://www.youtube.com/user/cpbotha">an obscure but longstanding hobby of mine</a>, but I needed to level up slightly, so the business bought me <a href="https://www.telestream.net/screenflow/">ScreenFlow 7.2</a>. For the first time ever, I recorded the screencast in multiple segments and did the voice-over later. Soon these new skillz will trickle down to my publically available screencasts.</li>
+<li>On that topic, having a good microphone is crucial, not only for screen recordings but also for video meetings. I recently acquired the <a href="http://www.samsontech.com/samson/products/microphones/usb-microphones/gomic/">Samson Go Mic</a> to complement my larger <a href="http://www.samsontech.com/samson/products/microphones/usb-microphones/gomic/">Samson C01U</a>. The Go is brilliant: Recorded voice quality comes close to the C01U in spite of the Go’s compact form factor, and it has a hardware switch to select either of the the built-in omni-directional, for meetings, or cardioid, for more dedicated voice recording, microphone elements.</li>
+<li>Ironically, an ex-colleague posted <a href="https://washingtonmonthly.com/magazine/january-february-march-2018/how-to-fix-facebook-before-it-fixes-us/">“How to Fix Facebook—Before It Fixes Us”</a> on Facebook, a long and worthwhile read on how FB is used to spread fake news that effectively manipulates public opinion, and what should be done to remedy this. Here is a choice quote to get you started:</li>
+</ul>
+<blockquote>
+<p>We still don’t know the exact degree of collusion between the Russians and the Trump campaign. But the debate over collusion, while important, risks missing what should be an obvious point: Facebook, Google, Twitter, and other platforms were manipulated by the Russians to shift outcomes in Brexit and the U.S. presidential election, and unless major changes are made, they will be manipulated again. Next time, there is no telling who the manipulators will be.</p>
+</blockquote>
+<ul>
+<li>In the same vein, I continuously try to spend as few as possible minutes on YouTube, but the one thing I will definitely continue watching is <a href="https://users.cg.tuwien.ac.at/zsolnai/">Károly Zsolnai-Fehér’s</a> brilliant <a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg">Two Minute Papers channel</a>! Most recently, his treatment of <a href="https://arxiv.org/pdf/1711.09784.pdf">Distilling a Neural Network Into a Soft Decision Tree</a>, a paper by Nicholas Frost and Geoffrey Hinton, caught my interest. In this, they address the problem of neural network explicability (it’s hard saying at a higher level <em>why</em> a neural network makes a particular decision) by deriving a soft decision tree from that trained neural network. The tree is not as accurate as the network, but is able to give plausible explanations for the network’s decisions. See the 4 minute long two minute paper video (hehe) here:</li>
+</ul>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/zjaz2mC1KhM?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<ul>
+<li>I came across the following on reddit, again quite ironically, and I have since taken to saying it to my genetic offspring units (GOUs) at every possible opportunity:</li>
+</ul>
+<blockquote>
+<p>Readers are leaders!</p>
+</blockquote>
+<p>Have a great week readers, I hope to see you again really soon!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description> The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
+(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. As far as I know, nobody watched.)
+I just went through my orgmode journals.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
+<p>(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. <em>As far as I know</em>, nobody watched.)</p>
+<p>I just went through <a href="/2016/01/05/note-taking-strategy-early-2016/">my orgmode journals</a>. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</p>
+<p><em><strong>Warning:</strong> If you’re not an emacs, python or machine learning nerd, there is a high probability that you might not enjoy this post. Please feel free to skip to the pretty mountain at the end!</em></p>
+<h1 id="advanced-emacs-configuration">Advanced Emacs configuration</h1>
+<p>I finally migrated my whole configuration away from <a href="https://github.com/bbatsov/prelude">Emacs Prelude</a>.</p>
+<p>Prelude is a fantastic Emacs “distribution” (it’s a simple git clone away!) that truly upgrades one’s Emacs experience in terms of look and feel, and functionality. It played a central role in my return to the Emacs fold after a decade long hiatus spent with JED, VIM (there was more really weird stuff going on during that time…) and Sublime.</p>
+<p>However, it’s a sort of rite of passage constructing one’s own Emacs configuration from scratch, and my time had come.</p>
+<p>In parallel with Day Job, I extricated Prelude from my configuration, and filled up the gaps it left with my own constructs. There is something quite addictive using emacs-lisp to weave together whatever you need in your computing environment.</p>
+<p>To celebrate, I decided that it was also <strong>time to move my todo system away from <a href="http://todoist.com/">todoist</a></strong> (a really great ecosystem) and into Emacs orgmode.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/Todoist-interview-screenshot_1-678x554.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/Todoist-interview-screenshot_1-678x554.jpg"
+        
+            alt="From this… (beautiful multi-platform graphical app)"/> </a><figcaption>
+            <p>From this… (beautiful multi-platform graphical app)</p>
+        </figcaption>
+</figure>
+ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/wpid-example-agenda.png"
+        
+            alt="… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)"/> </a><figcaption>
+            <p>… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)</p>
+        </figcaption>
+</figure>
+</p>
+<p>I had sort of settled with todoist for the past few years. However, my yearly subscription is about to end on March 5, and I’ve realised that with the above-mentioned Emacs-lisp weaving and orgmode, there is almost unlimited flexibility also in managing my todo list.</p>
+<p>Anyways,  I have it setup so that tasks are extracted right from their context in various orgfiles, including my current monthly journal, and shown in a special view. I can add arbitrary metadata, such as attachments and just plain text, and more esoteric tidbits such as live queries into my email database.</p>
+<p>The advantage of having the bulk of the tasks in my month journal, means I am forced to review all of the remaining tasks at the end of the month before transferring them to the new month’s journal.</p>
+<p>We’ll see how this goes!</p>
+<h1 id="jupyter-notebook-usage">Jupyter Notebook usage</h1>
+<p>Due to an interesting machine learning project at work, I had a great excuse to spend some quality time with the <a href="http://jupyter.org/">Jupyter Notebook</a> (formerly known as IPython Notebook) and the scipy family of packages.</p>
+<p>Because Far Too Much Muscle-Memory, I tried interfacing to my notebook server using <a href="https://github.com/millejoh/emacs-ipython-notebook">Emacs IPython Notebook (EIN)</a>, which looked like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/ipython-notebook-in-emacs-with-ein.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/ipython-notebook-in-emacs-with-ein.png"
+        /> </a>
+</figure>
+
+<p>However, the initial exhilaration quickly fizzled out as EIN exhibits some flakiness (primarily broken indentation in cells which makes this hard to interact with), and I had no time to try to fix or work-around, because day job deadlines. (When I have a little more time, I will have to get back to the EIN! Apparently they were planning to call this new fork Zwei. Now that would have been awesome.)</p>
+<p>So it was back to the Jupyter Notebook. This time I made an effort to learn all of the new hotkeys. (Things have gone modal since I last used this intensively.)</p>
+<p>The Notebook is an awe-inspiringly useful tool.</p>
+<p>However, the cell-based execution model definitely has its drawbacks. I often wish to re-execute a single line or a few lines after changing something. With the notebook, I have to split the cell at the very least once to do this, resulting in multiple cells that I now have to manage.</p>
+<p>In certain other languages, which I cannot mention anymore because I have utterly exhausted my monthly quota, you can easily re-execute any sub-expression interactively, which makes for a more effective interactive coding experience.</p>
+<p>The notebook is a good and practical way to document one’s analytical path. However, I sometimes wonder if there are less linear (graph-oriented?) ways of representing the often branching routes one follows during an analysis session.</p>
+<h1 id="dissimilarity-representation">Dissimilarity representation</h1>
+<p>Some years ago, I attended a talk where <a href="http://rduin.nl/">Prof. Robert P.W. Duin</a> gave a fantastic talk about the history and future of pattern recognition.</p>
+<p>In this talk, he introduced the idea of dissimilarity representation.</p>
+<p>In much of pattern recognition, it was pretty much the norm that you had to reduce your training samples (and later unseen samples) to feature vectors. The core idea of building a classifier, is constructing hyper-surfaces that divide the high-dimensional feature space into classes. An unseen sample can then be positioned in feature space, and its class simply determined by checking on which side of the hypersurface(s) it finds itself.</p>
+<p>However, for many types of (heterogenous) data, determining these feature vectors can be prohibitively difficult.</p>
+<p>With the dissimilarity representation, one only has to determine a suitable function that can be used to calculate the dissimilarity between any two samples in the population. Especially for heterogenous data, or data such as geometric shapes for example, this is a much more tractable exercise.</p>
+<p>More importantly, it’s often easier to discuss with domain experts about similarity than it is to talk about feature spaces.</p>
+<p>Due to the machine learning project mentioned above, I had to work with categorical data that will probably later also prove to be of heterogeneous modality. This was of course the best (THE BEST) excuse to get out the old dissimilarity toolbox (in my case, that’s <a href="https://www.scipy.org">SciPy and friends</a>), and to read a bunch of dissimilarity papers that were still on my list.</p>
+<p>Besides the fact that much fun was had by all (me), I am cautiously optimistic, based on first experiments, that this approach might be a good one. I was <em>especially</em> impressed by how much I could put together in a relatively short time with the SciPy ecosystem.</p>
+<p>Machine learning peeps in the audience, what is your experience with the dissimilarity representation?</p>
+<h1 id="a-mountain-at-the-end">A mountain at the end</h1>
+<p>By the end of a week filled with nerdery, it was high time to walk up a mountain(ish), and so I did, in the sun and the wind, up a piece of the Kogelberg in Betty’s Bay.</p>
+<p>At the top, I made you this panoroma of the view:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama-1024x274.jpg"
+        
+            alt="Click for the 7738 x 2067 full resolution panorama!"/> </a><figcaption>
+            <p>Click for the 7738 x 2067 full resolution panorama!</p>
+        </figcaption>
+</figure>
+</p>
+<p>At that point, the wind was doing its best to blow me off the mountain, which served as a visceral reminder of my mortality, and thus also kept the big M (for mindfulness) dial turned up to 11.</p>
+<p>I was really only planning to go up and down in brisk hike mode due to a whiny knee, but I could not help turning parts of the up and the largest part of the down into an exhilarating lope.</p>
+<p>When I grow up, I’m going to be a trail runner.</p>
+<p>Have fun (nerdy) kids, I hope to see you soon!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #109: GABA</title><link>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</link><pubDate>Tue, 19 Jul 2016 11:17:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</guid><description> From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT! After a multi-year, completely coincidental, break from medical imaging, I am back to The Real Business since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer.</description><content:encoded><![CDATA[ <ul>
+<li>From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT!</li>
+<li>After a multi-year, completely coincidental, break from <strong>medical imaging</strong>, I am back to <em>The Real Business</em> since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer. I think I am allowed to mention <strong>digital pathology</strong> and <strong>machine learning</strong> and beer.</li>
+<li>Last week we <strong>road-tripped up the East Coast to <a href="https://en.wikipedia.org/wiki/St_Francis_Bay">St Francis Bay</a></strong>, via Oudtshoorn and the <a href="https://en.wikipedia.org/wiki/Cango_Caves">Cango Caves</a>.
+<ul>
+<li>Pro tip: When road tripping with more than 0 (zero) children (babies count double; sick babies +5 hit points), and you have to stay overnight somewhere, invest extra in the biggest suite you (or your children’s college fund) can afford.</li>
+<li>On the beach in St Francis Bay (right in the middle of winter, you still seem to get these lovely balmy beach days), it seemed that <em>everybody</em> was surfing. Whole families, with the mom, the dad, all the kids, and grandma and grandpa, were all on various sizes of surfboards in the sea catching some waves.</li>
+<li>Here’s a photo from the furthest point on what I call “Not The Ugliest Jogging Route in The World” (in St Francis Bay):</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/07/20160714_170901.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/07/20160714_170901-1024x576.jpg"
+        /> </a>
+</figure>
+
+<ul>
+<li>Last night I accidentally discovered that I can pinpoint the exact weekend and location when and where I first tasted my <strong>favourite <a href="https://en.wikipedia.org/wiki/Trappist_beer">trappist beer</a> (EVER)</strong>, namely Rochefort #8. It’s all written up in <a href="https://cpbotha.net/2003/04/21/an-eventful-weekend/">this 2003 post</a>.</li>
+<li>When Google send me an email this weekend asking me exactly <em>how</em> I would like them to use my email (yes, a few months ago I migrated my mail empire back to Google because <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">my self-hosting experiment</a> had started to cost me time and money) to show me custom advertisements, I was reminded that I do actually find the machine learning models they’re building about me quite creepy, and that perhaps I would prefer not also handing them 12 years of emails to make their models more accurate. There and then <strong>I migrated said 12 years of emails from GMail to <a href="https://www.fastmail.com/">FastMail</a></strong>. So far I’m really impressed by the product, mostly due to the speed and the user experience of the web-app. There might be a more detailed post in the near future, let me know if you’re interested.</li>
+<li><em>Most surprising and interesting (to me) new scientific discovery of the week:</em> A team of scientists at Northeastern University in Boston <a href="https://www.newscientist.com/article/2095769-gut-bacteria-spotted-eating-brain-chemicals-for-the-first-time/">have shown</a> that <strong>one of the many kinds of bacteria living in your stomach eats exclusively <a href="https://en.wikipedia.org/wiki/Gamma-Aminobutyric_acid">GABA</a></strong>, a really important brain chemical (neurotransmitter) that plays a role in keeping you calm. Based on this and other work, it looks like the bacteria in your tummy, also known as your <a href="https://en.wikipedia.org/wiki/Gut_flora">gastrointestinal microbiota</a>, besides being crucially important to your digestive system and your general survival, probably also play quite an important role in your psyche. I find this slightly mind-blowing.</li>
+</ul>
+<p>Have a great week kids, I hope to see you on the other side.</p>
+<p>P.S. Those bullets made for quite an impressive wall of text, didn’t they?</p>
+]]></content:encoded></item></channel></rss>

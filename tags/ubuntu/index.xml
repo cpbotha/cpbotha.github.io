@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ubuntu on voices in my head</title><link>https://cpbotha.net/tags/ubuntu/</link><description>Recent content in ubuntu on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 22 Jan 2016 09:04:25 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix the unusable window resize border in Gnome Flashback Metacity on Ubuntu</title><link>https://cpbotha.net/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/</link><pubDate>Fri, 22 Jan 2016 09:04:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/</guid><description> On Ubuntu I mostly use Gnome Flashback with Metacity, along with the brilliant Synapse app starter / file finder. I do this in spite of having a beefy NVIDIA GPU in this Core i7 workstation, because the OpenGL compositing on this 2560×1440 display makes video conferencing really slow, and because I do OpenGL development and need to have maximum performance for the app I’m working on.
+However, it irritated me to no end that the window borders were so thin that I was not able to grab them for a resize.</description><content:encoded><![CDATA[ <p>On Ubuntu I mostly use <a href="http://www.webupd8.org/2014/04/how-to-install-and-tweak-gnome.html">Gnome Flashback with Metacity</a>, along with the brilliant <a href="http://lifehacker.com/5704221/synapse-is-a-super-fast-tightly-integrated-application-launcher-for-linux">Synapse app starter / file finder</a>. I do this in spite of having a beefy NVIDIA GPU in this Core i7 workstation, because the OpenGL compositing on this 2560×1440 display makes video conferencing really slow, and because I do OpenGL development and need to have maximum performance for the app I’m working on.</p>
+<p>However, it irritated me to no end that the window borders were so thin that I was not able to grab them for a resize. Adding insult to injury, there were only the four standard themes in Settings | Appearance, namely Adwaita, Ambiance, Radiance and High Contrast, none of which has usable borders.</p>
+<p>The solution is to use the Gnome Tweak Tool (package gnome-tweak-tool) to change the Window theme to something with better borders. I used <em>Watercolor</em> (from the metacity-themes package), and set the rest up as follows on the appearance tab:</p>
+<img alt="tweak-tool-theme" class="alignnone size-full wp-image-2342" data-attachment-id="2342" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="tweak-tool-theme" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/tweak-tool-theme.png" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/tweak-tool-theme-300x116.png" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/tweak-tool-theme.png" data-orig-size="732,283" data-permalink="https://cpbotha.net/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/tweak-tool-theme/" height="283" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" src="https://cpbotha.net/wp-content/uploads/2016/01/tweak-tool-theme.png" srcset="https://cpbotha.net/wp-content/uploads/2016/01/tweak-tool-theme.png 732w, https://cpbotha.net/wp-content/uploads/2016/01/tweak-tool-theme-300x116.png 300w" width="732"/>
+<p>Once this is done, your window borders should look like this:</p>
+<img alt="watercolor-window-borders" class="alignnone size-full wp-image-2344" data-attachment-id="2344" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="watercolor-window-borders" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/watercolor-window-borders.png" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/watercolor-window-borders-300x205.png" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/watercolor-window-borders.png" data-orig-size="400,273" data-permalink="https://cpbotha.net/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/watercolor-window-borders/" height="273" sizes="(max-width: 400px) 85vw, 400px" src="https://cpbotha.net/wp-content/uploads/2016/01/watercolor-window-borders.png" srcset="https://cpbotha.net/wp-content/uploads/2016/01/watercolor-window-borders.png 400w, https://cpbotha.net/wp-content/uploads/2016/01/watercolor-window-borders-300x205.png 300w" width="400"/>
+<p>Now you can resize your windows again, AND you can enjoy the snappiness of Gnome Flashback with Metacity!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #72: Ménage à trois.</title><link>https://cpbotha.net/2014/06/03/weekly-head-voices-72-menage-a-trois/</link><pubDate>Tue, 03 Jun 2014 16:12:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/06/03/weekly-head-voices-72-menage-a-trois/</guid><description> Welcome to this post, the 72nd edition of The Weekly Head Voices, and a momentous one at that. For the first time, I’m writing the WHV using my favourite operating system with editing function, Emacs. To those of you who don’t know Emacs, this might mean that I’ve finally gone around the bend.
+I can report that it is a very happy place.
+(there will be more Emacs shenanigans in the near future.</description><content:encoded><![CDATA[ <p>Welcome to this post, the 72nd edition of The Weekly Head Voices, and a momentous one at that. For the first time, I’m writing the WHV using my favourite operating system with editing function, <a href="http://en.wikipedia.org/wiki/Emacs">Emacs</a>. To those of you who don’t know Emacs, this might mean that I’ve finally gone around the bend.</p>
+<p>I can report that it is a very happy place.</p>
+<div class="figure">
+<a href="http://xkcd.com/378/"><img alt="real_programmers.png" src="http://imgs.xkcd.com/comics/real_programmers.png"/></a>
+</div>
+<p>(there will be more Emacs shenanigans in the near future.)</p>
+<p>During this past week, I wrote at least three blog posts (as far as I know):</p>
+<ul class="org-ul">
+<li>
+<a href="http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">Publish to WordPress with Emacs 24 and org2blog</a> – A super-nerdy post on vxlabs explaining how you too can use Emacs, the operating system with editing function, to write and publish your WordPress blog posts.
+  </li>
+<li>
+<a href="http://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/">South Africa, why are you not running Linux?</a> – wherein I explain that it would be much better for the South African national economy and technology ecosystem to kick its proprietary software (Microsoft, Apple, etc.) dependency and standardise on open source.
+  </li>
+<li>
+<a href="http://cpbotha.net/2014/05/29/ernestine-teaches-charl-isixhosa-lesson-1/">Ernestine teaches Charl isiXhosa Lesson 1</a> – The first in a new series of posts that I’m super excited about, during which I take you along on my (slow) journey learning <a href="http://en.wikipedia.org/wiki/Xhosa_language">isiXhosa</a>, one of our national languages, With Clicks(tm).
+  </li>
+</ul>
+<p>I also had time to enjoy a large number of these home-made (grandparents’ home that is) goodies:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/06/wpid-naartjies.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/06/wpid-naartjies-300x225.jpg"
+        
+            alt="Naartjes, aka mandarins, home-grown!"/> </a><figcaption>
+            <p>Naartjes, aka mandarins, home-grown!</p>
+        </figcaption>
+</figure>
+
+<p>as well as some of this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/06/wpid-dro%c3%abwors_en_biltong1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/06/wpid-dro%c3%abwors_en_biltong1-300x259.jpg"
+        
+            alt="Dried sausage (droëwors) and meat (biltong), home-made!"/> </a><figcaption>
+            <p>Dried sausage (droëwors) and meat (biltong), home-made!</p>
+        </figcaption>
+</figure>
+
+<p>… and then I finally got around to upgrading my main development laptop from Ubuntu version 12.04 to verson 14.04, code-named <em>Trusty Tahr</em>.</p>
+<p>IT’S FULL OF STARS.</p>
+]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
+Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
+This seemed like an opportune moment to get something off my chest.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+<p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404-1024x576.jpg"
+        
+            alt="Ubuntu means “humanity to others”. It also means pretty desktop!"/> </a><figcaption>
+            <p>Ubuntu means “humanity to others”. It also means pretty desktop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</p>
+<h2 id="cost-to-the-national-economy">Cost to the national economy</h2>
+<p>Every year, I and a few million other South Africans pay a boat load of income and other taxes. Because in SA not everyone is able to pay tax, it is <i>especially</i> important that this money is used for the common good, for issues such as health-care, education and job creation.</p>
+<p>However, instead of using my hard-earned tax to stimulate local industry, the South African government is sending millions of rands, each and every year, to Microsoft, a fantastically rich company in the USA, a fantastically rich country in comparison to South Africa.</p>
+<p>The majority of government workstations absolutely don’t need MS Windows, MS Office or Outlook. The majority of government employees would be able to do their job (email, reports, spreadsheets, forms, use of web-apps) better and more securely using Linux.</p>
+<p>Furthermore, the use of Linux and open source software encourages the use of open standards for public documentation. In 2007, the SA government <a href="http://en.wikipedia.org/wiki/OpenDocument_adoption#South_Africa">officially standardised on the OpenDocument format</a>. However, MS Office use is still rife, and encourages people to use Microsoft’s own XML formats. Although MS standardised these in a bid to stay in the global government game, OpenDocument should be preferred, as it’s better supported by more free and open packages that are available to all citizens, not just those with money for MS Windows and MS Office.</p>
+<p>As an added but very important advantage, some of the considerable funds that would have been sent to the USA for MS licensing and support would then be injected into the local Linux support economy, stimulating local skills and creating more high-tech jobs.</p>
+<p>Don’t you find it strange that South Africa, a developing country, is sending that much money to the USA when better solutions exist? Don’t you too think that it would be great to have a thriving and more independent Linux-based operating system and application industry right here in SA?</p>
+<h2 id="personal-cost">Personal cost</h2>
+<p>I <a href="http://mygaming.co.za/news/news/46487-windows-8-versions-sa-pricing-detailed.html">just</a> checked, it looks like the cost for an OEM license of Windows 8 in SA is R1000. We want as many as possible South Africans to have access to computers and to have access to internet. You can get a cheap PC for R3000 to R4000. It really makes absolutely no sense to spend R1000 on Windows, when Linux would work perfectly well on that same PC hardware.</p>
+<p>It gets even more silly when you add in the price of MS Office. For 95% of personal users, packages like OpenOffice or LibreOffice, completely free and even open source, or Google Docs, not open but free, are more than sufficient.</p>
+<p>A part of the problem here is simply momentum. Because everyone is still using Microsoft products, everyone thinks that that’s what you need to have. Imagine that the government standardised on Linux, it would not take long before people would then evaluate this as a serious choice when acquiring a new PC.</p>
+<h2 id="security">Security</h2>
+<p>For the largest part due to Edward Snowden’s actions, and great journalism by The Guardian, it is now widely known (and much has been corroborated), that the NSA and other intelligence agencies around the world have been eavesdropping on everyone and everything.</p>
+<p>An important part of this practice, is the working relationships that these intelligence agencies have built up with software vendors around the world. When you run MS Windows or Mac OSX, or any other prioprietary software, you have absolutely no way of knowing, or checking, what your computer is doing with your information. It sounds like something from a spy movie, but <a href="http://arstechnica.com/security/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">the NSA works closely with Microsoft to be able to hack into computers running Windows</a>.</p>
+<p>In the case of personal use, this may not be such a problem, but in the case of the South African government and the whole corporate world, it’s slightly crazy that everyone is willing to take the risk that all of their information is being snooped on by cooperating intelligence agencies.</p>
+<p>With open source systems one can’t be 100% sure either, but one is able to check and modify and part of the system, at the source code level, that one is working on. Based on this openness, I have personally in the past programmed kernel drivers to support new hardware, and fixed low-level driver bugs. This was possible only because I have access to the source code of everything on my system.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
+<p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
+]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+Well, yesterday I ate my hat.
+If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
+<p>Well, yesterday I ate my hat.</p>
+<p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
+]]></content:encoded></item><item><title>An Even More Ultimate Boot Disk!</title><link>https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/</link><pubDate>Mon, 24 May 2010 14:29:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/</guid><description> In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!
+UBCD is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth.</description><content:encoded><![CDATA[ <p>In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!</p>
+<p style="text-align: center;">
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" title=""><img alt="" class="aligncenter size-full wp-image-910" data-attachment-id="910" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="emubd_logo_400" data-large-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" data-orig-size="400,181" data-permalink="https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/emubd_logo_400/" height="181" sizes="(max-width: 400px) 85vw, 400px" src="http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" srcset="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg 400w, https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg 300w" style="border: none;" title="emubd_logo_400" width="400"/></a>
+</p>
+<p><a href="http://ultimatebootcd.com/" title="Ultimate Boot CD website">UBCD</a> is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth. It even contains Parted Magic, a compact linux distribution for fixing partitions, amongst others.</p>
+<p><a href="http://www.knoppix.net/" title="Knoppix website">Knoppix</a> is the swiss knife of live linux distributions, and <a href="http://www.ubuntu.com/" title="Ubuntu website">Ubuntu</a> 10.04 is probably the slickest distribution out there at the moment. Both of these can be ran live from your USB disc, so they don’t have to touch your hard drive.  However, both of them are also able to install to your hard disc if you so choose.</p>
+<p>To me it seemed logical to combine <strong>all three of these elements onto the single USB flash drive</strong> that I carry on my keychain, as I know of many grandmas with broken PCs…</p>
+<p>Let’s go!</p>
+<ol>
+<li>
+<p>make sure the single FAT32 partition on your USB stick is bootable (use command ‘a’ in linux fdisk) and large enough (you’ll need just a bit less than 2G).</p>
+</li>
+<li>
+<p>mount your flash drive on a directory, henceforth referred to as FLASH_MNT.</p>
+</li>
+<li>
+<p>copy all files from the ubcd5 iso into a directory, henceforth referred to as CUSTOM_UBCD5.</p>
+</li>
+<li>
+<p>mount the ubuntu 10.04 i386 iso on a directory, henceforth referred to as LUCID_MNT</p>
+</li>
+<li>
+<p>mount the knoppix iso on a directory, henceforth referred to as KNOPPIX_MNT.</p>
+</li>
+<li>
+<p>copy necessary boot files from the ubuntu ISO to UBCD: <pre class="brush: bash; title: ; notranslate" title="">mkdir CUSTOM_UBCD5/ubcd/custom/lucid
+cp LUCID_MNT/casper/vmlinuz LUCID_MNT/casper/initrd.lz CUSTOM_UBCD5/ubcd/custom/lucid
+</pre></p>
+</li>
+<li>
+<p>copy ubuntu-10.04-desktop-i386.iso to your flash disk: <pre class="brush: bash; title: ; notranslate" title="">mkdir /FLASH_MNT/isos
+cp ubuntu-10.04-desktop-386.iso /FLASH_MNT/isos/
+</pre></p>
+</li>
+<li>
+<p>Knoppix can’t be booted directly from its iso like Ubuntu, so we have to copy the actual contents of the ISO to your flash: <pre class="brush: bash; title: ; notranslate" title="">cp -r KNOPPIX_MNT/KNOPPIX to FLASH_MNT/
+cp -r KNOPPIX_MNT/boot/isolinux to FLASH_MNT/KNOPPIX/isolinux
+</pre></p>
+</li>
+<li>
+<p>replace FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg with the isolinux.cfg at the bottom of this post. (It’s the same file, except that “KERNEL linux” is replaced with “KERNEL /KNOPPIX/isolinux/linux”, “initrd=minirt.gz” with “initrd=/KNOPPIX/isolinux/minirt.gz”, F1, F2, F3 and DISPLAY paths all fixed, e.g. “F2 f2” becomes “F2 /KNOPPIX/f2” and finally all instances of “quiet” removed)</p>
+</li>
+<li>
+<p>Now replace CUSTOM_UBCD5/ubcd/custom/custom.cfg with the custom.cfg at the bottom of this post.</p>
+</li>
+<li>
+<p>copy all files from CUSTOM_UBCD5 to your usb flash disk: <pre class="brush: bash; title: ; notranslate" title="">cp -r CUSTOM_UBCD5/* FLASH_MNT/
+</pre></p>
+</li>
+<li>
+<p>Finally, make the whole thing bootable with the following invocation. It’s really important that you replace /dev/sdX1 with the correct device for your flash disk. To see what this is, type “mount” and see the device associated with your FLASH_MNT. <pre class="brush: bash; title: ; notranslate" title="">cd FLASH_MNT
+sudo ./ubcd/tools/linux/ubcd2usb/syslinux -s -d /boot/syslinux /dev/sdX1
+</pre></p>
+</li>
+</ol>
+<p>You’re done. You should now be able to boot with your EMUBD! Knoppix and Ubuntu can be found under “User defined”.</p>
+<p>Here are those files that you’ll need. First <strong>FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg</strong>:</p>
+<pre class="brush: bash; title: ; notranslate" title="">DEFAULT knoppix
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+TIMEOUT 50
+# TOTALTIMEOUT 20
+# KBDMAP german.kbd
+PROMPT 1
+F1 /KNOPPIX/isolinux/boot.msg
+F2 /KNOPPIX/isolinux/f2
+F3 /KNOPPIX/isolinux/f3
+DISPLAY /KNOPPIX/isolinux/boot.msg
+LABEL adriane
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime adriane
+LABEL knoppix
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=791 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb1024x768
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=791 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb1280x1024
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=794 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb800x600
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=788 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL memtest
+KERNEL memtest
+APPEND foo
+LABEL dos
+KERNEL memdisk
+APPEND initrd=balder.img
+LABEL failsafe
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 vga=normal atapicd nosound noapic nolapic noacpi pnpbios=off acpi=off nofstab noscsi nodma noapm nousb nopcmcia nofirewire noagp nomce nonetwork nodhcp xmodule=vesa initrd=/KNOPPIX/isolinux/minirt.gz
+</pre>
+<p>… and then <strong>CUSTOM_UBCD5/ubcd/custom/custom.cfg</strong>:</p>
+<pre class="brush: bash; title: ; notranslate" title="">MENU INCLUDE /ubcd/menus/syslinux/defaults.cfg
+UI /boot/syslinux/menu.c32
+
+# option to be able to go back to the main menu
+LABEL -
+MENU LABEL ..
+COM32 /boot/syslinux/menu.c32
+APPEND /ubcd/menus/syslinux/main.cfg
+
+# this clause will boot directly from the ubuntu iso
+LABEL ubuntulive
+MENU LABEL Ubuntu 10.04 i386 Desktop LIVE
+LINUX /ubcd/custom/lucid/vmlinuz
+INITRD /ubcd/custom/lucid/initrd.lz
+APPEND boot=casper iso-scan/filename=/isos/ubuntu-10.04-desktop-i386.iso --
+
+# and this one will chain into the knoppix boot setup
+LABEL knoppix
+MENU LABEL Knoppix 6.2.1 LIVE
+CONFIG /KNOPPIX/isolinux/isolinux.cfg
+</pre>
+<p><strong>Post scriptum</strong></p>
+<ul>
+<li>The instructions in this post are derived from the UBCD linux documentation and various forum posts.  Credits to their authors!</li>
+<li>If you <em>don’t want Knoppix</em> on your bootable USB and you have a Windows computer, you could also use <a href="http://www.pendrivelinux.com/boot-multiple-iso-from-usb-multiboot-usb/" title="Link to post explaining MultiBootISOs">MultiBootISOS</a> to add multiple ISOs to a USB boot disk.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Head Voices #11: iCalmDown.</title><link>https://cpbotha.net/2010/01/31/weekly-head-voices-11-icalmdown/</link><pubDate>Sat, 30 Jan 2010 23:51:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/01/31/weekly-head-voices-11-icalmdown/</guid><description> My Tall Philosophical Neighbour (henceforth TPN) blogged today about the iCalmDown, which, as you know, is the latest Apple product released with perhaps a tad too much fanfare this past week. Yes, I do realise that I’m most privileged to have a tall neighbour who’s both philosophical and manages to blog with more regularity than many. In any case, in a cut-and-dried case of keepin’ up with the Joneses, or the TBN in this case, you are now holding in your hands the eleventh edition of the Weekly Head Voices, documenting a selection of events taking place in week 4 of 2010.</description><content:encoded><![CDATA[ <p>My Tall Philosophical Neighbour (henceforth TPN) <a href="http://tokkiebytes.wordpress.com/2010/01/30/apple-brings-the-net-to-the-toilet/" title="link to TPN's iCalmDown blog post">blogged today</a> about the iCalmDown, which, as you know, is the latest Apple product released with perhaps a tad too much fanfare this past week. Yes, I do realise that I’m most privileged to have a tall neighbour who’s <em>both</em> philosophical and manages to blog with more regularity than many. In any case, in a cut-and-dried case of keepin’ up with the Joneses, or the TBN in this case, you are now holding in your hands the eleventh edition of the Weekly Head Voices, documenting a selection of events taking place in week 4 of 2010. Please let me know if you’re reading this on your iCalmDown!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/01/ugly_dog.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/01/ugly_dog.jpg"
+        
+            alt="SuSE engineers consider this dog to be &amp;quot;quite pretty&amp;quot; and also &amp;quot;so cute and cuddly&amp;quot;."/> </a><figcaption>
+            <p>SuSE engineers consider this dog to be &quot;quite pretty&quot; and also &quot;so cute and cuddly&quot;.</p>
+        </figcaption>
+</figure>
+</p>
+<p>First I have to get some <strong>negative emotions</strong> off my chest: I’m currently <strong>test-driving the TU Delft’s new standard SuSE Enterprise Linux Edition (SLED) 11 image</strong> at work. After two days of using the system and documenting my experiences, I had to switch back to my usual Ubuntu desktop, as my eyes had started bleeding profusely. The SLED desktop takes the concept of “ugly” to places even it feels very dirty having ever visited. Okay, so I might be ever so slightly exaggerating, but there really is almost no comparison with a modern Ubuntu system!</p>
+<p>During this past week my <strong>productivity has again made the transition from reactive to proactive</strong>. This is a usual phenomenon after any long vacation, but it sure is a nice feeling being able to start on things long before they become urgent. It gives me some room to strategise and think about the Big Picture. In the same vein, I (once again) realised that I should spend mornings on the creative and heavier-weight items on my todo list, and reserve the afternoons for meetings (which definitely require creativity, but of a different kind) and more routine tasks. For the past months I have followed the policy of scheduling meetings in the afternoons as far as possible, so my mornings are reserved for tasks that require a few hours contiguously. Luxury!</p>
+<p>At the start of an evening with two friends (in line with my anonymisation policy, let’s call them Science Entrepreneur Friend, or SEF, and Extremely Clever Yet Very Social Scientist Friend, or ECYVSSF) that ended with me having so much fun that I managed to get caught on the infamous Dutch nachtnet (trains that take party-goers home at ungodly hours), SEF pointed out that my “to learn and to create” snippet of the <a href="http://cpbotha.net/2010/01/24/weekly-head-voices-10-loose-bits-sink-chips/" title="Link to previous post.">previous post</a> reminded him of something of <strong>Wilhelm von Humboldt</strong>. After some searching I found the [relevant quote][3]:</p>
+<blockquote>
+<p>To inquire and to create;—these are the grand centres around which all human pursuits revolve, or at least to these objects do they all more or less directly refer. Before inquiry can fathom the very essence of things, or penetrate to the limits of reason, it presupposes, in addition to profundity, a rich diversity and genial warmth of soul—the harmonious exertion of all the human faculties combined.</p>
+</blockquote>
+<p>Thank you SEF !</p>
+<p>This same evening was characterised by, besides too many Pelgrim Trippels (a strong beer brewed in Rotterdam), much heated discussion on the interaction between <strong>science</strong>, that is how we attain and disseminate new knowledge about the reality around us, and <strong>academia</strong>, that is the interesting ecosphere where science mostly takes place, where scientists work in strange and strict hierarchical castes, and the focus on science can easily be lost due to the practicalities and politics of academia.</p>
+<p>For all its faults, it is exactly this strange system that makes it possible for me to work closely together with a number of exceptionally bright people, an energising activity that is arguably very much in the spirit of inquiry and of creativity.</p>
+<p>On that positive note, have a brilliant week everyone!</p>
+<p>[3]: <a href="http://oll.libertyfund.org/?option=com_staticxt&amp;staticfile=show.php%3Ftitle=589&amp;chapter=45502&amp;layout=html&amp;Itemid=27">http://oll.libertyfund.org/?option=com_staticxt&amp;staticfile=show.php%3Ftitle=589&amp;chapter=45502&amp;layout=html&amp;Itemid=27</a> &ldquo;Link to chapter 8 of Von Humboldt&rsquo;s &ldquo;The Sphere and Duties of Government&rdquo;&rdquo;</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #8: Uninterruptible Fun Supply</title><link>https://cpbotha.net/2009/11/07/weekly-head-voices-8-uninterruptible-fun-supply/</link><pubDate>Sat, 07 Nov 2009 22:29:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/11/07/weekly-head-voices-8-uninterruptible-fun-supply/</guid><description> Dear readers,
+Due to a small accident with a friend’s quantum entanglement device, I briefly got stuck in a high pressure reality vortex. The headaches have subsided, but I do still seem to be suffering from slight time compression artifacts. In any case, that’s why there’s only this one edition of the Weekly Head Voices to cover weeks 43 to 45. As is always the case, please make use of the bolded phrases to guide you through this post.</description><content:encoded><![CDATA[ <p>Dear readers,</p>
+<p>Due to a small accident with a friend’s quantum entanglement device, I briefly got stuck in a high pressure reality vortex. The headaches have subsided, but I do still seem to be suffering from slight time compression artifacts. In any case, that’s why there’s only this one edition of the Weekly Head Voices to cover weeks 43 to 45. As is always the case, please make use of the <strong>bolded phrases to guide you through this post</strong>. In other words, the fat words tell you what you you might find interesting so that you can skip the rest.</p>
+<p>Week 43 was for a large part about re-learning a lesson that I’ve learned and forgotten more times than I care to count, but it was mostly about joining <a href="http://cpbotha.net/2009/08/29/starting-today-head-voices-every-week/" title="The same people are mentioned in a previous post...">Superbly Cool Extraordinarily Lovely People</a> (hi there y’all!) and going here:</p>
+<p><span style="background-color: #ffffff;"><a href="http://www.youtube.com/watch?v=9sOxfcWlGr0">http://www.youtube.com/watch?v=9sOxfcWlGr0</a> HEAD ASPLODE!</span></p>
+<p>Now how about that lesson? Let’s go:</p>
+<p><strong>On the Importance of Not Getting Interrupted.</strong></p>
+<p>During these past weeks I’ve been hard at work completing a mini-thesis (some call it a teaching portfolio) documenting my teaching activities, meaning that I had to spend a significant amount of Contiguous Time(tm) producing a significant body of text. In order to supplement the scarce supply of said Contiguous Time, I spent two mornings working at home. Furthermore, I for some or other vague reason decided not to check email before I started early in the morning and of course also not to keep my e-mail client running whilst working.</p>
+<p>My word, what a difference!</p>
+<p>Who woulda thunk it, it turns out that that habitual and reflexive email checking really breaks one’s speed and, in my case, causes unnecessary stress as each time the inbox piles up with even more remotely injected work. Bottom line: I’m going back (for the umpteenth time) to 3 fixed email checks and inbox emptying sessions per day: one before the early morning daily review, one just after lunch when my brain is too busy coping with digestion anyway and one in the late afternoon.</p>
+<p><strong>Operating Systems all-you-can-eat Buffet</strong></p>
+<p>During wind-down time in these past three weeks, I installed and tried out the following operating systems:</p>
+<ul>
+<li><span style="background-color: #ffffff;">Moblin 2.1 preview on my netbook: Oh my it boots really fast and is very pretty. It would take some getting used to, my experience was too much mobile internet device and too little computer.</span></li>
+<li><span style="background-color: #ffffff;">OSX 10.5.7 on my <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="my q9450 blog post">Q9450 quad-core</a>: First: No, I have no idea how that got there! Second: Meh. Looks nice, not my thing though. Third: Eventually I’m going to port DeVIDE to OSX, when either wxCocoa or pySide is ready. I’m only doing this for my goateed, turtle-necked and beret-wearing apologist friends and definitely not for the OS or the company behind it.</span></li>
+<li><span style="background-color: #ffffff;">Ubuntu 9.10 Netbook Remix on my, err, netbook: My jotted down thoughts at the time: Very slick, clutter interface (including maximus) is great for netbooks. It seems the ath9k wlan adapter still has minor problems connecting / staying connected at full speed.</span></li>
+<li><span style="background-color: #ffffff;">Windows 7 on my netbook: Yes, the TU does in fact give us all licenses for this type of stuff, it’s a cool perk. Wow, it went on there quite easily, I simply ran “setup.exe” from the unpacked ISO and installed it to an extra 70G partition. After installing the usual suspects (truecrypt, 7zip, avira, vim, asus stuff [Super Hybrid Engine, Hotkey, Asus Update, Touchpad driver], fastcopy, chrome), I was up and running. Looooong battery life seems to be intact.</span></li>
+</ul>
+<p><strong>The End, My Friend</strong></p>
+<p><span style="background-color: #ffffff;">In week 44 a number of us went to defend the whole <strong>TU Delft Computer Science research programme</strong> at an <strong>international research evaluation</strong>. Besides leading to my <a href="http://cpbotha.net/2009/10/31/two-powerpoint-2007-tricks-that-could-save-your-life/" title="powerpoint 2007 two tricks post">recent PowerPoint post</a>, this occasion surprisingly turned out to be great fun (probably thanks to the 5-star evaluation committee and their interviewing style) and we seem to have done quite well in the evaluation.</span></p>
+<p>Preparing for the evaluation and finishing my teaching portfolio took up much of my time, so much so that I have not been giving the people around me all the time and attention that they deserve. People around me, I am acutely aware of this and I will make it up to you!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #5: Google Docs, Bad Netbook Karma, Cold does not cause cold.</title><link>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</link><pubDate>Sun, 27 Sep 2009 16:47:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</guid><description> It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.
+Speaking of shortness, I did get some off-blog (yes, face-to-face!</description><content:encoded><![CDATA[ <p>It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.</p>
+<p>Speaking of shortness, I did get some off-blog (yes, face-to-face!) feedback on the previous edition of the WHV. Said (highly appreciated) feedback concerned the length of these posts, more specifically, that there was too much of it. It’s important to remember that I in fact do write these things with the chronically time-challenged in mind. One of the measures I take is to bold the most important themes in each paragraph, so that one can easily skip on to the next paragraph if the mentioned theme does not take one’s fancy. This week, I’m going even further by employing section headings! As always, <strong>please feel free to skip paragraphs and sections.</strong></p>
+<p>Before jumping in, I give you the traditional WHV photo, this time of my little Weber doing its thing (thanks to some crucial material supplied by <a href="http://tokkiebytes.wordpress.com/" title="My friendly neighbour's blog.  He is in fact my only neighbour with a blog, as far as I know.">my friendly neighbour</a>) on the most brilliant of all South African celebrations: <a href="http://braai4heritage.co.za/" title="more info on national braai day">National Braai day!</a>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/national_braai_day.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/national_braai_day.jpg"
+        
+            alt="My humble little Weber on NBD 2009."/> </a><figcaption>
+            <p>My humble little Weber on NBD 2009.</p>
+        </figcaption>
+</figure>
+</p>
+<p><strong>Geeky Google Docs love affair</strong></p>
+<p><a href="http://docs.google.com/" title="Link to Google Docs">Google Docs</a> is Google’s fantastic attempt (well, it was initially developed by Writely, which was soon assimilated by and has since been happily functioning inside of The Google Supermind) at an office suite. The whole thing, including Documents, Spreadsheets, and Presentations, runs in your web browser. This means that you always have access to your stuff from anywhere, and you never have to install any extra software. With the offline functionality, you can continue working even without an internet connection.</p>
+<p>This was already pretty neat, but then they had to go and make it even neater. In my line of business, one of the coolest features is the fact that you can <strong>concurrently edit the same document with any number of collaborators</strong>. I’ve written research proposals together with colleagues before, where at a number of occasions we were actually editing the same paragraph of text from two different cities, and Docs didn’t break a sweat merging our edits in real-time. This functionality also eliminates the very irritating “Could you send me the latest version of the proposal” emails, the subsequent waiting and then the infuriating expired time window when the latest version finally arrives in the email.</p>
+<p>A recent feature which is admittedly less impressive to the public at large, but made my geek heart miss several beats, was the built-in equation editor. Imagine my surprise when I tried this out for the first time and realised that it is in fact a <strong>real-time LaTeX math typesetter</strong>: You type your incredibly complex formula in standard LaTeX, and Google Docs shows the typeset math updated in real-time. This is even useful if you’re NOT using Google Docs but just want to fine-tune the formulas in your LaTeX article.  Check the screenshot below:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/google_docs_ss1.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/google_docs_ss1.png"
+        
+            alt="Screenshot of Google Docs equation editor."/> </a><figcaption>
+            <p>Screenshot of Google Docs equation editor.</p>
+        </figcaption>
+</figure>
+</p>
+<p>90% of MS Office users probably don’t use more than 10% of its functionality. Google Docs covers this 10% more than adequately, but without the complexity, the platform lock-in and the cost. Next time you’re considering emailing someone a Word document or Powerpoint, have a look at Google Docs first!</p>
+<p><strong>Netbook Bad Karma</strong></p>
+<p>On an extra partition, my netbook (Asus 1005HA-H, the computer I’m currently in love with) has the absolute latest development version of the Ubuntu Karmic Koala (9.10 – will be released at the end of October) Netbook Remix. Linux distributions, and especially Ubuntu, have been making great progress recently on state of the art hardware. On this netbook, suspend to ram for example works out of the box, which is quite an achievement for Linux-kind. However, whereas battery life under the bundled Windows with the Asus Super Hybrid Engine (don’t laugh, to me it sounds like some knid of giant fighting robot power source) is an astounding 9+ hours, under Linux it’s a quite disappointing 4 or 5 hours. One very obvious factor is the CPU running at 1GHz at idle under Linux and 850MHz at idle under Windows.</p>
+<p>Even installing and configuring the latest eeepc acpi utilities, including kernel module, from the testing repository at StatUX <a href="http://www.statux.org/content?page=repo,">http://www.statux.org/content?page=repo,</a> although enabling bunches of hotkeys, didn’t solve the battery problem. The CPU was still running at 1GHz.</p>
+<p>I’m curious to see what the case will be at Karmic release, preferably with the stock Ubuntu Netbook Remix and not too much user fiddling. I’m considering writing a short review at that time, hopefully less critical than <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="Previous review of Feisty on HP laptop.">my previous attempt</a> with Ubuntu Feisty beta (7.04) on my HP laptop.</p>
+<p><strong>Brand new Visual Data Analysis lecture block</strong></p>
+<p>For the past 4 years, I have been taking care of the Medical Visualisation parts (2 lecture blocks) of the TU Delft master-level Data Visualisation course (IN4086). Since the beginning of this year, I also give my very own dedicated 5 ECTS Medical Visualisation course (<a href="http://visualisation.tudelft.nl/Courses/in4307" title="IN4307 course website">IN4307</a>), which I have designed with the sole purpose of producing <a href="http://cpbotha.net/2008/05/01/i-have-an-official-course-code/#more-362" title="an old blog post of mine on the in4307 ninjas">MedVis NINJAS</a>. I take great joy in corrupting promising young minds with my special brand of evil science. :)</p>
+<p>In a very recent development, it seems that <strong>I will now also be taking care of the Visual Data Analysis block of the general Data Visualisation course</strong>. I somehow blurted this out during a recent meeting, and now have the privilege of designing this one from scratch too.</p>
+<p>This is quite interesting, because visual data analysis, or visual analytics as it’s sometimes called (urgh), is primarily associated with Information Visualisation, and being a MedVis fanatic I’m supposed to be a Scientific Visualisation guy. To cut a long story short, InfoVis and SciVis are two sub-fields in the broader field of Visualisation, but the communities behind them might as well come from different planets, in spite of the best efforts of some of my colleagues to unify everything. In any case, it turns out that we (when I say “we” I mean <a href="http://graphics.tudelft.nl/~jorik/" title="Jorik's homepage">Jorik</a>) have been secretly publishing suspiciously infovis-friendly articles the past few years. Look:</p>
+<ul>
+<li>J. Blaas, C.P. Botha, E. Grundy, M.W. Jones, R.S. Laramee, and F.H. Post, <em><a href="http://cs.swan.ac.uk/~csmark/PDFS/blaas2009.pdf" title="Link to Jorik's higher-order smooth graphs vis 2009 article.">Smooth graphs for visual exploration of higher order state transitions</a></em>, <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, vol. 15, 2009.</li>
+<li>J. Blaas, C.P. Botha, and F.H. Post, <em><a href="http://visualisation.tudelft.nl/publications/Blaas2008.pdf" title="LInk to Blaas 2008 PCP article PDF.">Extensions of Parallel Coordinates for Interactive Exploration of Large Multi-Timepoint Data Sets</a></em>, <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, vol. 14, 2008, pp. 1436-1451.</li>
+<li>J. Blaas, C.P. Botha, and F.H. Post, <em><a href="http://visualisation.tudelft.nl/publications/blaas2007.pdf" title="Link to feature space / physical space eurovis 2007 article by Blaas.">Interactive visualization of multi-field medical data using linked physical and feature-space views</a></em>, <strong>Proc. Eurographics / IEEE-VGTC EuroVis</strong>, K. Museth, A. Ynnerman, and T. Möller, 2007, pp. 123-130.</li>
+</ul>
+<p>I find this a very interesting and gratifying development. An increasing number of my research collaborations in the medical research field are also benefiting from visual data analysis techniques. Keeping in mind the clichéd but no less real data explosion, we, as visualisation people, can greatly increase our value to the client. The forthcoming Visual Data Analysis lecture block I’m designing is just one step in the evolution of our science.</p>
+<p><strong>The End, my friend, also of your common cold misconceptions.</strong></p>
+<p>Pressing Ctrl-Shift-C in this Google Doc draft (how’s that for subtle product placement?), I can see that I’ve once again passed the 1000 word mark (1200 to be more precise).</p>
+<p>Whoops.</p>
+<p>I had even more planned, but instead I’ll conclude with a hopefully useful snippet of information, especially in the light of the coming winter. Many people I run into still somehow believe that there’s a causal relationship between being cold, as in going outside in cold weather, and getting a cold, as in sneezing and having a running nose. Well, I’m here to tell you that it’s an age-old myth. A myth I say! See this quote from <a href="http://en.wikipedia.org/wiki/Common_cold#Exposure_to_cold_weather" title="Wikipedia article on the common cold">the Wikipedia article on the common cold</a> (emphasis mine):</p>
+<blockquote>
+<p>An ancient belief still common today claims that a cold can be “caught” by prolonged exposure to cold weather such as rain or winter conditions, which is where the disease got its name.<sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-8" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>9<span>]</span></a></sup> Although common colds are seasonal, with more occurring during winter, experiments so far have failed to produce evidence that short-term exposure to cold weather or direct chilling increases susceptibility to infection, implying that the seasonal variation is instead due to a change in behaviors such as increased time spent indoors at close proximity to others.<sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-NIAID2006-5" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>6<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-pmid13559211-9" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>10<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-pmid12357708-10" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>11<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-11" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>12<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-12" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>13<span>]</span></a></sup></p>
+</blockquote>
+<p>Just to ram that point home: <strong>Going outside in the cold, or being exposed to cold weather or direct chilling, very probably does not increase your chances of catching the common cold!</strong> Similar to this is the work on influenza. It turns out that there’s a <a href="http://www.sciencedaily.com/releases/2009/02/090209205148.htm" title="article on link between flu and absolute humidity">link between the flu and absolute humidity</a>: The <em>lower</em> the humidity, the higher the chance of getting the flu. It’s quite probable that you catch the flu virus not from going outside in winter, but from staying inside your heated and hence slightly drier home.  Chalk one up for all the kids getting told, unfairly and without scientific basis, to dress up before going out or risk getting ill.</p>
+<p>On that rebellious note, have a super duper week!  (… and please do your thing in the comments below …)</p>
+]]></content:encoded></item><item><title>Backport of unison 2.27.57 to Ubuntu 7.10</title><link>https://cpbotha.net/2008/11/22/backport-of-unison-22757-to-ubuntu-710/</link><pubDate>Sat, 22 Nov 2008 12:54:19 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/11/22/backport-of-unison-22757-to-ubuntu-710/</guid><description> So you’ve upgraded some of your machines to Ubuntu 8.10 (Intrepid Ibex, argh) and you’re really very happy with yourself. That is, until you try to run your trusty unison synchronisation scripts and notice that due to the version mismatch between unison on 8.10 (2.27.57) and unison on 7.10 (2.13.16), you are screwed.
+Because I like you, I’ve made available my quick and dirty backport of unison 2.27.57 (the Ubuntu 8.</description><content:encoded><![CDATA[ <p>So you’ve upgraded <em>some</em> of your machines to Ubuntu 8.10 (Intrepid Ibex, argh) and you’re really very happy with yourself.  That is, until you try to run your trusty <a href="http://www.cis.upenn.edu/~bcpierce/unison/" title="link to unison website">unison</a> synchronisation scripts and notice that due to the version mismatch between unison on 8.10 (2.27.57) and unison on 7.10 (2.13.16), you are screwed.</p>
+<p>Because I like you, I’ve made available my quick and dirty backport of unison 2.27.57 (the Ubuntu 8.10 version) to Ubuntu 7.10 (Gutsy Gibbon) on i386.  Get the DEBs by clicking <a href="http://visualisation.tudelft.nl/~cpbotha/files/unison_2.27_gutsy_backport/" title="unison 2.27.57 gutsy backport debs">HERE</a>!</p>
+<p>If this is useful to you, please leave a comment on this post!  If not, go leave a comment on someone else’s blog man!</p>
+]]></content:encoded></item><item><title>a critical look at ubuntu feisty beta on an hp nc8430 laptop</title><link>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</link><pubDate>Tue, 10 Apr 2007 14:37:41 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</guid><description> I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.
+So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, good power management, full support for modern GPUs, etc) is a different story.</description><content:encoded><![CDATA[ <p>I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.</p>
+<p>So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, <strong>good</strong> power management, full support for modern GPUs, etc) is a different story.</p>
+<p>Because XP is getting more scary by the day (WGA things, licensing issues) and Vista promises to be even more scary (binding itself to your motherboard) and because I’ve been hearing many good things about Ubuntu Feisty (the soon-to-be-released 7.04), I decided to give this a shot on my HP NC8430 laptop (Core Duo 2GHz, ATI X1600, 2G RAM, etc.). Initially I was determined to do this like a “normal” user, i.e. no tweaking config files and especially no script writing. I wanted to see how far your average user could get with a state of the art Linux installation on a laptop.</p>
+<p><strong>Installation</strong></p>
+<p>This was quite impressive: I defragmented my NTFS filesystem, booted from the Ubuntu Feisty live CD and did the install. Without getting all cocky about it, the installer resized my NTFS partition, created a new EXT3 partition and installed itself. Colour me impressed.</p>
+<p><strong>General configuration</strong></p>
+<p>After the first boot, I was greeted with a VESA-driven x.org and an incorrect resolution. My laptop screen supports 1680 x 1050. The Gnome Preferences | Screen Resolution applet couldn’t go higher than 1280 x 1024. I had to break my first rule and edit the x.org configuration file to add the higher resolution. Why is this still necessary? A novice user shouldn’t need to have to do this!</p>
+<p>I also installed the Ubuntu packaged fglrx ATI drivers with the Synaptic package management software, as I depend on good 3D graphics support for my work. The new Restricted Driver Manager helps one to complete this configuration in a user-friendly fashion.</p>
+<p>By running “aticonfig –set-powerstate 1”, the GPU can be set to a lower-power mode, leading to a cooler-running laptop, meaning the fans don’t spin up as often. This command can be added to the gnome startup by adding it to System | Preferences | Sessions. With “aticonfig –lsp” one can query the available powerstates. One can only change the powerstate if a single display is active.</p>
+<p>I removed “quiet” (but left “splash”) from the GRUB config for the default kernel in order to be able to see boot-up messages. These are helpful, especially when things take longer than they should.</p>
+<p><strong>Wireless networking support</strong></p>
+<p>This is the part that really impressed me: With Ubuntu 6.10 (Edgy Eft), I had to jump through all kinds of very user-unfriendly hoops to connect to my WPA wireless network. Feisty Beta simply popped up a pretty dialog box showing me the detected wireless networks and prompted me for the network key when I selected my WPA access point. I was online… colour me even more impressed!</p>
+<p><strong>Power management</strong></p>
+<p>This is when my jaw dropped ever so slightly (I’ll get to the “critical” part of this look a bit later): I selected suspend to RAM, which the laptop promptly did. When I pressed the power button to resume, I expected the typical black-screen-crashed-laptop syndrome. Instead, my desktop came back and I could continue working. This is a quantum leap in user-friendly Linux!</p>
+<p>However, I soon saw that at every third resume (on average) all my <em>keyboards would be dead</em>.</p>
+<p>It turns out something similar to <a href="https://launchpad.net/ubuntu/+source/linux-source-2.6.20/+bug/23497" title="link to ubuntu feisty bug where keyboard is dead after resume">this bug</a> applies to my laptop. By adding the necessary suspend/resume hooks as documented in the bug report (so that the i8042 module is removed before suspend and re-installed after resume), the problem seems to have been solved.</p>
+<p>Often after resume, my laptop gets stuck in the text console. I have to switch manually to X with Alt-F7. Another suspend/resume glitch is that the CPU Frequency Scaling Monitor gnome applet is stuck on 2GHz for my second core, although the core is running at half that most of the time. In general, things get a bit flaky after resume; often I need to restart X to get back to normal. I could potentially deal with this.</p>
+<p>Another disappointing issue is the terrible battery life under Ubuntu Feisty. On Windows, I get more than 4 hours of battery life with average use (wireless network, web browsing, text editing). With Feisty, even after enabling LAPTOP_MODE in /etc/default/acpi-support and putting the GPU in low-power mode as explained above, I get only 2 hours and 40 minutes. This is almost a show stopper.</p>
+<p>Out of the box ACPI monitoring support is well-done. With just a few clicks, I could various temperatures and fan speeds on my panel. See the panel at the top of the screen in the screenshot below:</p>
+<p> </p>
+<p style="text-align: center;">
+<a href="http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926946"><img alt="" src="http://lh6.google.com/image/cpbotha/Rhugv5cDdGI/AAAAAAAAAc0/mT09SLVTKkA/s288/cpb_ubuntu_feisty_beta_20070408.jpg"/></a>
+</p>
+<p>This also shows the Deskbar applet in action.</p>
+<p><strong>Dynamic multi-monitor support SUCKS</strong></p>
+<p>My laptop has a docking station with an external LCD monitor, resolution 1280 x 1024. The laptop is 1680 x 1050, as I’ve mentioned. With Windows, (hot) docking / undocking always Just Works. It automatically activates the correct resolution without me having to configure anything. So whenever I resume, I have a working display.</p>
+<p>Feisty does not quite get this yet. In fact, Feisty needs some serious clue-bat-based attention… When I dock or undock and then resume, I have no display, and no way of getting my display back, besides power-cycling the laptop at every dock / undock. I ended up writing <a href="http://graphics.tudelft.nl/~cpbotha/thingies/aticonfig_switch.py" title="Python script to switch to NEXT display with aticonfig">this Python script</a> and binding it to Alt-F5 (for example) so that I would always have a way of activating the <em>next</em> display in the list of connected displays. Oh jeez, even assigning an arbitrary shell command to a global hot key in Gnome is not straight-forward. You have to use gconf as explained on <a href="http://www.captain.at/howto-gnome-custom-hotkey-keyboard-shortcut.php" title="binding arbitrary shell commands to global hotkeys in Gnome">this page</a>. You can query connected and enabled displays with “aticonfig –query-monitor” and activate any subset with “aticonfig –enable-monitor=name1,name2,…,nameN”.</p>
+<p><strong>Desktop effects with XGL and Beryl</strong></p>
+<p>Wobbly Windows, you know, these are immensely useful and result in a more productive computing experience. NOT!</p>
+<p>They are really very nice though. Most of the desktop effects are more nice to look at than actually useful, except for one: The ExposÃ©-like functionality, called “Scale” by Beryl, scales and fits all windows on the current screen so that one can select the window that one wants to select easily.</p>
+<p>Because fglrx doesn’t support the XComposite extension, I could not install AIGLX (Ubuntu default) and had to go for XGL and Beryl. After following <a href="http://lhansen.blogspot.com/2006/10/3d-desktop-beryl-and-xgl-on-ubuntu-edgy.html" title="beryl + xgl on ubuntu and fglrx">this guide</a> and making sure to use the external Beryl package repository as explained <a href="http://ubuntuforums.org/showthread.php?t=393678" title="More tips on beryl + xgl">here</a> (the Ubuntu packages won’t work in this case, they don’t have XGL support), I got the whole shebang to work. MAN this is pretty! Check out the screenshot below for Scale in action (there are non-desktop-effect ways of doing this, e.g. kompose or skippy, but none of them are as slick as the desktop effects version):</p>
+<p> </p>
+<p style="text-align: center;">
+<a href="http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926962"><img alt="" src="http://lh6.google.com/image/cpbotha/Rhugv5cDdHI/AAAAAAAAAc8/DMNDclhbAyk/s288/cpb_ubuntu_feisty_beta_scale_20070410b.jpg"/></a>
+</p>
+<p>As with most other things in Ubuntu, this functionality is not without its caveats. This is even more flaky with suspending and resuming: after resuming, logging out and in will give you a garbled display. I have to restart X at the GDM login screen to get XGL to work again. There are also some focus issues, especially with the Gnome Deskbar (very useful utility, by the way): pressing the hotkey activates the deskbar, but you can’t begin to type, as the current window still has the focus. I managed to fix this by setting the Beryl “Level of Focus Stealing Prevention” (under general settings) to None. Changing to a higher resolution with the “Display Resolution” applet whilst running XGL+Beryl, results in only part of the screen being usable.</p>
+<p><strong>Miscellaneous issues</strong></p>
+<ul>
+<li>Palm Pilot synchronisation seems to work out of the box with my Tungsten C, but hangs forever on ToDo synchronisation. Seems it’s due to <a href="https://bugs.launchpad.net/ubuntu/+source/gnome-pilot-conduits/+bug/81170" title="feisty pilot todo syncing bug">this bug</a>.</li>
+<li>The built-in Texas Instruments SD card reader works out of the box, but does not automount like other removable media. This is either due to the fact that it’s not seen as removable, or that the driver forgets to assign its parent bus. See <a href="http://www.nabble.com/SD-card-automounting-t2870318.html" title="mail thread wrt SD card not automounting">this mail thread</a>. I ended up applying <a href="http://www.dau-sicher.de/pmwiki/Main/CardreaderWithUdev" title="workaround for SD card thingy">this workaround</a>, involving adding rules to the udev system to pmount the SD card.</li>
+<li>Gimp doesn’t understand SMB: URIs, whereas the Gnome Image Viewer does, and gthumb pretends to but doesn’t.</li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<p>All in all, I’m positive but not quite convinced yet. The Ubuntu people have done a marvellous job, but Feisty Beta (up to date as of 2007-04-10) doesn’t quite Just Work(tm) on the HP NC8430. I had to break my rule of editing config files or writing scripts more than once to get it to work to my satisfaction, and still there are problems that would make it difficult to work in Ubuntu full-time: the miserable battery life, the flaky suspend/resume and the really bad dynamic multi-monitor support. That being said, things like the user-friendly WPA support and the flawless install on an NTFS partition are going in the right direction.</p>
+<p><strong>Updates</strong></p>
+<ul>
+<li>This post has been linked by OSNews! You can also follow some of the discussion <a href="http://osnews.com/comment.php?news_id=17663" title="Link to this post at OSNews.com.">over there</a>.</li>
+<li>It’s also on digg (should I say that it’s been dugg?).Â  See <a href="http://digg.com/linux_unix/A_critical_look_at_Ubuntu_Feisty_beta" title="digg dugg">here</a>.</li>
+<li>Fixed aticonfig lsp/lsb typo, thanks lampshade!</li>
+<li>My domain has been migrated to a more stable server, some comments may have been lost in the process. If your comment has not appeared yet, <em>please</em> re-submit it.</li>
+</ul>
+<p><strong>PS</strong></p>
+<p>Please comment away, but keep it civilised. I’ll update the post as we go along, and give credit where credit’s due.</p>
+]]></content:encoded></item></channel></rss>

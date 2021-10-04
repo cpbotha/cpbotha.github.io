@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pkb4000 on voices in my head</title><link>https://cpbotha.net/tags/pkb4000/</link><description>Recent content in pkb4000 on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 21 Sep 2019 16:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/pkb4000/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
+What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+then</a>.</p>
+<p>In the intervening three and a half years, my note-taking has further evolved
+to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
+to support this.</p>
+<p>Although note-taking is at the core of the system, a more accurate description
+of its current purpose would be <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management"><em>personal knowledge
+management</em></a>.</p>
+<p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
+learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
+journal&rdquo;</a>.</p>
+<h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
+<p>My approach consists of four main components:</p>
+<p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
+<p>As you might know, Org mode is infinitely flexible. This is where all of my
+projects and tasks are tracked. This is also where I keep my daily personal and
+work journals.</p>
+<p>I describe the specific directory structure and orgfile setup in the sections
+below.</p>
+<p>I continually and actively search for and find interesting <strong>2. Web-pages and
+Articles</strong>, both academic and less so, which I convert to PDF and store in a
+year-stamped directory inside of my
+<a href="https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>.</p>
+<p><strong>3. Academic articles</strong> that I plan to refer to in my own writings graduate into my
+Zotero bibliographic database, which is synced together with everything else.</p>
+<p>On <strong>4. Mobile</strong> (phone and watch, oh my!), I use the Dropbox app for capturing
+and for limited access to my notes database via a small subset of markdown
+files, PDFs and exported HTML, and I use the new WatchOS 6 voice notes if I&rsquo;m
+not able to use my phone.</p>
+<h3 id="other-noteworthy-characteristics">Other noteworthy characteristics.</h3>
+<p>Everything mentioned above lives on local drives, synced with Dropbox and also
+automatically and continuously backed-up to a removable disk at my office.</p>
+<p>The Org mode part of the system has been in use since 2014. I have also
+imported a few years of Simplenote text notes into Org mode, so its memory
+stretches a bit further back still.</p>
+<p>The longer the system lasts, the more valuable it gets.</p>
+<p>It has now happened more than once that I could help someone with the same
+advice I helped someone else with 4 years ago, simply because the real-time
+text search found the relevant snippet of code or attachment in my Org mode
+database.</p>
+<p>Even if I were ever to change tools, the current single source of truth is a
+collection of plaintext org files and PDF files which can easily be further
+processed and imported into some new system.</p>
+<h2 id="the-components-in-slightly-more-detail">The components in slightly more detail.</h2>
+<p>In the following sections, I explain each of the four components in more detail
+than in the overview above.</p>
+<h3 id="emacs-org-mode">Emacs Org mode.</h3>
+<p>The heart of my knowledge management system, let&rsquo;s call it <code>pkb4000</code>, is <a href="https://orgmode.org/">Emacs
+Org mode</a>. Org mode, or &ldquo;Your life in plaintext&rdquo;, is a
+powerful text-file-based system for managing notes, task lists, projects and
+even authoring documents.</p>
+<p>Once you get used to the programmable flexibility it offers, you will find it
+hard to go back to any conventional system.</p>
+<h4 id="monthly-journal-files">Monthly journal files.</h4>
+<p>In my main Org mode directory, I have a subdirectory named <code>journals</code>, which
+contains a directory for each year.</p>
+<p>Each of these year directories contains an <code>.org</code> file for each month, so we would have for example
+<code>journals/2019/2019-09-Sep.org</code>.</p>
+<p>Each month file follows the structure showed in the following redacted version
+of my current journal file:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #b3b3b3;">#+TITLE:</span> <span style="color: #8CD0D3; background-color: #3F3F3F; font-weight: bold;">2019-09 September month journal
+</span>
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Vitals</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Focus items</span>
+Topics and reminders I would like to spend a few minutes on during every
+morning review: High value time, always be compounding, always be in a focus
+block, etc.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Tired list</span>
+A general list of valuable activities for when I have some time, but brain too
+tired to come up with anything.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Planning / overview / major done list</span>
+Check lists with books, courses, etc.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Projects</span>
+A list of current major projects, with links to each project's dedicated org
+file.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Tasks</span>
+A list of Org mode tasks that are not associated with specific projects. This
+list is reviewed at the start of every month, as I have to manually copy across
+those tasks that are still relevant and important.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* 2019</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* 2019-09 September</span>
+<span style="color: #3F3F3F;">**</span><span style="color: #7CB8BB; background-color: #3F3F3F;">* 2019-09-19 Thursday (example day)</span>
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* Day planning </span><span style="color: #8CD0D3; text-decoration: underline;">[2019-09-19 Thu 09:17]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Done list / thoughts / diary</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks for today </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks that will satisfy end-of-the-day Charl </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Focus blocks</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Sleep</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Review </span><span style="color: #CC9393; font-weight: bold;">[3/8]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="*Vitals">Month vitals</a></span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> Calendar
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> Org tasks
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="file:~/Dropbox/notes/mobile/inbox/">dropbox mobile inbox</a></span>
+      - ...
+
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Habits / important </span><span style="color: #CC9393; font-weight: bold;">[7/12]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> 7.5 hrs sleep last night
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> are you satisfied with number of pomodori? = 0 (v R)
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> did you write stuff down?
+      - ...
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* is dropbox better than evernote for mobile capturing? </span><span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-09-19 Thu 22:16&gt;</span>
+
+     in ios, with any page in safari, I can do "save to dropbox" and get a PDF
+     version of the page for the <span style="color: #b3b3b3;">=notes/mobile/inbox=</span>.
+</pre>
+<p>As you can see from the example above, the monthly journal file is the main
+index to my current high-level goals and focus items, my currently running work
+and personal projects, miscellaneous tasks, and my detailed daily journalling
+and habit tracking.</p>
+<h5 id="daily-review">Daily review.</h5>
+<p>When I start the day, I instantiate a new org-capture &ldquo;day planning&rdquo; template
+by pressing <code>C-c c p</code>.</p>
+<p>This creates the <code>Day planning</code> subsection with all of its subsections and
+checklists. As you will see, this guides me through the morning review, which
+in turn has me check each of those additional sources of incoming information
+and tasks.</p>
+<p>New bits of information are filed into their correct place, whilst the task
+review shows me a list of tasks, extracted from the month file and the list of
+current project files, so that I can decide which ones should be taken on.</p>
+<p>I list tasks which should preferably be taken care of today under <code>Tasks for today</code>, whilst any really high-value high-satisfaction tasks go under <code>Tasks that will satisfy end-of-the-day Charl</code>.</p>
+<h5 id="during-the-day">During the day.</h5>
+<p>During the rest of the day, I&rsquo;ll write short diary-like notes under <code>Done list / thoughts / diary</code> and log pomodori (focus blocks) under, you guessed it,
+<code>Focus blocks</code>, either using the <code>org-pomodoro</code> package, or plain Org mode
+clocking in and out functions.</p>
+<p>I use additional custom org-capture templates, via keyboard shortcuts, to
+create more extensive timestamped journal entries (see the <code>is dropbox better ...</code> example) and to create new timestamped and logged Org mode <code>TODO</code> entries.</p>
+<h5 id="kill-your-darlings-during-the-monthly-review">Kill your darlings (during the monthly review).</h5>
+<p>I&rsquo;ve mentioned this before, but it&rsquo;s just an important aspect of my &ldquo;system&rdquo;
+that I would like to mention it again.</p>
+<p>When I still used primitive task management systems such as <em>everything else</em>
+that&rsquo;s not Org mode, the collection of more mature tasks would soon grow out of
+control.</p>
+<p>However, because I create a new Org mode file for every month, I have to copy
+across manually any tasks that have not been completed yet.</p>
+<p>&ldquo;WHY IS THAT NOT AUTOMATED YET?!&rdquo; you are probably thinking.</p>
+<p>Well, the advantage of having to copy each task over manually is that it is the
+ideal opportunity to evaluate the task and ask some hard questions as to its
+continued relevance&hellip;</p>
+<p>When a task gets too old, I will often make the decision to change its status
+to <code>CANC</code> (for cancelled), sometimes with the reason for the cancellation
+explained in the task body, and then just leave it there in the old month file.</p>
+<p>With most of these task systems, regular reviews are of crucial importance. The
+monthly start-over is a great, almost enforced, opportunity for review, as is
+the morning routine when I instantiate the day planner template.</p>
+<h5 id="what-about-email">What about email?!</h5>
+<p>An important part of knowledge and task management is one&rsquo;s emails.</p>
+<p>Although I currently prefer processing my email using
+<a href="/2019/07/17/weekly-head-voices-173-i-know/#would-you-like-some-more-emacs-with-that-email"><code>mu4e</code></a>,
+an email client which lives inside of Emacs, I have used other tools in the
+past, and will probably use new tools in the future.</p>
+<p>Also, even at this moment I alternate between <code>mu4e</code> and the
+<a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">FastMail</a>
+web-interface.</p>
+<p>Long story short, I have it setup so that I can easily convert any email in
+<code>mu4e</code> into a universal <code>message://message-id</code> link to be integrated with a
+new task or note entry.</p>
+<p>When I later open that link using a shortcut, I have programmed it so that
+<code>mu4e</code> will open the relevant email if it is active, or the <code>FastMail</code> webmail
+when it is not. From here I can either review the email to see what the
+associated task requires, or respond to it, if the task has been completed.</p>
+<p>Some of these <code>message://</code> links were created using macOS mail and they still
+work. In future, if I add a new mail client to the mix, I will still be able to
+jump to specific old emails, no matter where they find themselves inside of my
+FastMail mailboxes.</p>
+<h4 id="core-notes-database">Core notes database.</h4>
+<p>With <code>database</code> I of course refer to hundreds of org and markdown files, most
+of which find themselves in the top-level <code>pkb4000</code> directory, one level up
+from the <code>journals</code> directory containing all of the monthly journal files.</p>
+<p>There are files on various <code>rsync</code> or <code>ffmpeg</code> invocations, files on
+programming languages, software tools, note-taking strategies, personal
+information on each of my kids, and much more.</p>
+<p>Org mode enables me to combine document structure, math, vector and bitmap
+images and executable source code in many different languages.</p>
+<p>I have configured my Emacs (where by &ldquo;configured&rdquo; I mean &ldquo;coded up the emacs
+lisp for&rdquo;) to invoke ripgrep on different subsets of my notes database, and to
+proffer up the results in different ways.</p>
+<p>I can usually find anything that went in to this database at any point.</p>
+<p>What I really like, is also being able to tell you on which day, and during
+which hour, I learned this or that, or experimented with something or the
+other.</p>
+<h4 id="project-files">Project files.</h4>
+<p>Work and personal projects each get their own Org file. Some projects even get
+a whole directory to themselves, in cases where the project will have many more
+files than just the main Org file.</p>
+<p>In all cases, the project org file will live somewhere below a year-stamped
+directory, e.g. <code>work/projects/2019/project-name/</code>.</p>
+<p>Some projects go over year boundaries, but their files and directories remain
+in the year that they started in. The project org also has <code>Tasks</code> and a
+datetree section, similar to the month journal.</p>
+<p>All current project files, along with my the current month file, are configured
+to be part of the <code>org-agenda-files</code> variable.</p>
+<p>This means that when I activate the <code>org-agenda</code> view, I see a unified list of
+all tasks as extracted from all current project files and the current monthly
+journal file.</p>
+<p>When a project is completed, it is of course removed from <code>org-agenda-files</code>.</p>
+<h3 id="web-pages-and-articles">Web-pages and articles.</h3>
+<p>As mentioned in the short system overview, I store all web-pages and articles I
+come across as date-stamped PDF files in a set of year-stamped directories.</p>
+<p>For more detail, please refer to the
+<a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>
+section of WHV#165 on this blog.</p>
+<p>In short, I use good ad-blocking and <em>mostly</em> the <a href="https://www.printfriendly.com/">printfriendly browser
+extension</a> in Brave or Chromium to convert any
+interesting web-pages to PDF. PDF articles from journals and other reputable
+sources obviously don&rsquo;t have to be converted.</p>
+<p>I name and save these PDFs into my <code>refs</code> hierarchy, for example
+<code>Dropbox/refs/2019/20190518 Measles and Immune Amnesia - asm.pdf</code>.</p>
+<p>Usually, to win any argument, I can find the pertinent reference on my phone or
+my laptop in 30 seconds or less.</p>
+<p>(I used to be a paying Pocket subscriber. However, as you will read in WHV#165
+cited above, I was disappointed by the super important search function. The
+advantages of having Just a Bunch of PDFs on your (synced) disc are many.)</p>
+<h3 id="zotero">Zotero.</h3>
+<p>The <code>refs</code> directory hierarchy described above is great for quickly storing an
+article in the right place with a suitable name, ready for search-based
+retrieval later.</p>
+<p>However, in cases where one needs to cite any academics works, having these
+articles in a good reference manager is important.</p>
+<p>Zotero is in my view one of the best reference managers out there, and it&rsquo;s open
+source!</p>
+<p>The reasons I prefer zotero are:</p>
+<ul>
+<li>You can make use of their synchronisation service, or you can do it
+yourself. I have about 2.3GB of additional articles in zotero, so this is
+great.</li>
+<li>Zotero uses your browser to retrieve fulltexts automatically when you import
+any web-page with bibliographic information using the browser extension. This
+is great when you have access via your institution. Competing cloud services
+would historically use <em>their</em> servers to retrieve the fulltext, which would
+often not work.</li>
+<li>Zotero is open source. To me this is important, <a href="https://vxlabs.com/tags/zotero/">because on more than one
+occasion</a> I have been able to make small
+modifications to make it perform peculiar tricks I needed at that point.</li>
+</ul>
+<h3 id="mobile">Mobile.</h3>
+<p>This has always been the weakest part of my whole knowledge management system.</p>
+<p>Ideally, I would have easy access to my complete org database and any related
+files. Ideally, it would be possible to store any interesting tidbits I come
+across whilst browsing using my phone.</p>
+<p>So far I have invested time in the following apps and ecosystems:</p>
+<ul>
+<li>iCloud Notes: This was great, until <a href="/2019/04/27/new-laptop-2019/#so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">I sold my
+MacBook</a>. iCloud
+Notes web-access is terribly slow and more or less unusable. Whatever I have
+on mobile, needs to interoperate smoothly with desktop.</li>
+<li>Google Keep: This worked pretty well on mobile and via the web, but it&rsquo;s a
+closed off ecosystem. You can
+<a href="https://takeout.google.com/settings/takeout">&ldquo;takeout&rdquo;</a> your data, but you
+end up with ginormous HTML files (images are base64-encoded and included)
+that are not straight-forward to work with.</li>
+<li>OneNote: This has SO MUCH potential (free-form note-taking, drawing with
+Apple Pencil, apps for so many platforms, great organization, etc. etc.) but
+is just so frustratingly unusable due to syncing issues everywhere, even on
+my true-blue Windows 10 laptop with the true-blue official gold star
+Microsoft OneNote application. Microsoft is doing fantastic work in some
+domains (Visual Studio Code, .net core, WSL, etc. etc.) but in some others
+not so much it seems.</li>
+<li>Evernote: I recently just gave up and bought a premium subscription for the
+year, because Evernote is the industry standard and it had Apple Watch voice
+notes even before WatchOS 6 was released. In any case, although initially
+promising, Evernote is unfortunately quite slow at unpredictable moments
+(sharing web-page with evernote mobile app for storage can sometimes take 20
+second or more&hellip;) so I&rsquo;ve had to ditch it. Again.</li>
+</ul>
+<p>During all of this experimentation, I started storing mobile discoveries in a
+new section called &ldquo;inbox&rdquo; in the relevant note-taking app&rsquo;s organizational
+structure. During morning review, I go through the relevant inbox, and
+re-convert the relevant page into PDF for my more permanent archive.</p>
+<p>It dawned on me that this approach could also be applied with just the Dropbox
+app! It would be klunky, but at least not disappointing.</p>
+<p>So, when I want to store something from the phone, I either print to PDF or
+make use of the &ldquo;Save to Dropbox&rdquo; app extension, and then store the resultant
+PDF in <code>Dropbox/notes/inbox</code>. During morning review, PDFs in this directory are
+re-converted if required, and then stored in their more permanent home.</p>
+<p>Using the Dropbox app, I can also create markdown text files in the <code>inbox</code>
+directory.</p>
+<p>If I have something a little more extensive, I have the option of using the
+&ldquo;Voice Memos&rdquo; app, either on the phone, or even via the Apple Watch.</p>
+<p>In <code>Dropbox/notes/mobile</code> I keep items I often need to access from the phone:
+Think loyalty cards, markdown files with IP numbers and configuration of my
+home network, and so on. This directory is marked as &ldquo;available offline&rdquo;, so I
+can access its contents even when there&rsquo;s no data connection.</p>
+<p>Other than that, I do an export of my whole org database to HTML now and then,
+following a procedure similar to the one I used <a href="https://vxlabs.com/2018/10/29/importing-orgmode-notes-into-apple-notes/">to use for exporting Org mode
+to iCloud
+Notes</a>. The
+HTML versions are searchable on the phone.</p>
+<p>What would be better, is if the Dropbox iOS app would start recognising .org
+files as plaintext files, much like what it already does for markdown .md
+files. As it stands, I keep a small subset of my notes as markdown, instead of
+the superior org, for mobile editing.</p>
+<h4 id="drawing-with-apple-pencil-on-the-ipad-using-notability">Drawing with Apple Pencil on the iPad using Notability.</h4>
+<p>Sometimes one does need to sketch.</p>
+<p>This could be a rough UI, an architecture diagram, a data flow chart, or just
+doodling.</p>
+<p>Since about the end of 2018, I&rsquo;ve been using the <a href="https://apps.apple.com/za/app/notability/id360593530">Notability
+app</a> along with an iPad
+6th gen (2018 entry-level, the first non-Pro to support the Pencil) to doodle
+electronically.</p>
+<p>Notability automatically syncs all of these drawings as fully vectorised PDFs
+to my Dropbox. All handwritten text is quite smartly OCRd, and the OCRd version
+is stored as correctly positioned metadata behind my ugly scribbles.</p>
+<p>I would have liked Notability even more if it supported arbitrary canvas sizes
+(as it stands, only standard paper size in protrait mode), and had an always
+visible overview minimap.</p>
+<h4 id="signal-messaging-apps-brilliant-note-to-self-contact">Signal messaging app&rsquo;s brilliant &ldquo;Note to Self&rdquo; contact.</h4>
+<p>The <a href="https://signal.org/">Signal messaging app</a>, which you should all be using,
+has a built-in contact called &ldquo;Note to Self&rdquo;.</p>
+<p>As of late (since about December 2019) this has become my main <em>capturing tool</em>
+when I&rsquo;m on the phone.</p>
+<p>You can share links, media, photos, voice notes or a plain old text message,
+all of which will be securely stored, neatly timestampted to boot, in your
+conversation with this silent but very useful &ldquo;Note to Self&rdquo; character.</p>
+<p>During the morning review, I go through each of the shared items, processing
+them, and then add the message &ldquo;DONE =====&gt;&rdquo; to indicate that they have been
+completed.</p>
+<h2 id="limitations-and-points-for-improvement">Limitations and points for improvement.</h2>
+<p>The current system is great for capturing and search-based retrieval of
+personal knowledge.</p>
+<p>However, I miss functionality for making some of the higher-level patterns and
+networks more <em>discoverable</em>.</p>
+<p>For example, as I create a new orgmode entry, the system could show me related,
+older nodes (that is something I could implement&hellip;).</p>
+<p>Furthermore, it would have been great to see some form of visual representation
+of the associations between nodes, and of how they fit into higher-level
+concepts. This bit is slightly far-fetched.</p>
+<p>Interestingly, I just ran into the following paragraph at the end of <a href="/2016/01/05/note-taking-strategy-early-2016/">my 2016
+note-taking post</a>:</p>
+<blockquote>
+<p>However, I think that there might be room for a fourth type of tool that is
+more visual, supports rich and graphical linking between data items and even
+between sub-components of such items and, perhaps most importantly, enables
+us to build note landscapes that are natively as non-linear as our thoughts.</p>
+</blockquote>
+<p>Let&rsquo;s see what happens over the next few years!</p>
+<h2 id="appendix">Appendix</h2>
+<h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* Day planning %U
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Done list / thoughts / diary
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">- %?
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks for today [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Focus blocks
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Review [/]
+</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span><span style="color:#2aa198">- [ ] Org sub-projects
+</span><span style="color:#2aa198">- [ ] Calendar
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Habits / important [/]
+</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</code></pre></div><h2 id="updates">Updates</h2>
+<h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
+<ul>
+<li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
+configuration</a> in appendix.</li>
+<li>Add <a href="#drawing-with-apple-pencil-on-the-ipad-using-notability">section about iPad, Notability and Apple
+Pencil</a>.</li>
+<li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
+contact</a>.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

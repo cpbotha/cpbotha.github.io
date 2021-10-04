@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>x1 extreme on voices in my head</title><link>https://cpbotha.net/tags/x1-extreme/</link><description>Recent content in x1 extreme on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 27 Apr 2019 14:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/x1-extreme/index.xml" rel="self" type="application/rss+xml"/><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description> WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
+Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.
+Some examples from the past include:
+Hacking Radeon suspend / resume support into the Linux kernel and the X-Server in 2002, so that my cheap clone laptop could too.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
+<figure>
+<a href="x1_skulking_in_bush.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>Just the new laptop, skulking in the bush.
+</figure>
+<p>It is tradition around these parts that the welcoming of new computer machines
+is celebrated by, amongst many other rituals, a sometimes incomprehensible
+amount of customisation-related labour and a mention (or two) in these pages.</p>
+<p>Some examples from the past include:</p>
+<ul>
+<li><a href="/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/">Hacking Radeon suspend / resume support into the Linux kernel and the
+X-Server in 2002</a>,
+so that my cheap clone laptop could too.</li>
+<li><a href="/2004/05/26/laptop-no-2/">Acquiring my first name-brand laptop (HP NC6000) in
+2004</a>, with a whole gigabyte of RAM.</li>
+<li><a href="/2006/07/22/new-new-laptop-laptop/">My first dual-core laptop in 2006</a>.</li>
+<li><a href="/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/">Reviewing Ubuntu Feisty on above-mentioned
+laptop</a>
+led to, as far as I can remember, my first really popular post, with about
+50k visitors in a few days.</li>
+<li>Relatively low-key announcements during my macOS phase, starting with the <a href="/2015/06/14/weekly-head-voices-91-theyre-back/">2015
+MacBook Pro</a> and then later
+the <a href="/2017/09/05/weekly-head-voices-125/">2017 MacBook Pro</a> on my birthday in
+2017.</li>
+</ul>
+<p>Well folks, this post exists because on Tuesday, April 17, 2019 I became the
+new owner of a Lenovo ThinkPad X1 Extreme.</p>
+<p>This new device, just like all the previous ones, took up a considerable amount
+of mental cycles before, during and after its acquisition.</p>
+<p>This does make sense: It&rsquo;s the technical artefact I use for a large part of the
+day to interface with and shape the universe around me. This shaping is how I
+try to create value, so the main physical tool I used for this should be as
+sharp as possible.</p>
+<h1 id="so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">So, tell me, why did your somewhat stylish MacBook phase have to come to an end?</h1>
+<p>It seems like <a href="https://cpbotha.net/2017/09/05/weekly-head-voices-125/#new-laptop">just the other day when my mysterous employer bought me that
+shiny 2017 top-of-the-line(ish) MacBook
+Pro</a>.</p>
+<p>They grow up so fast!</p>
+<p>&hellip; at which point they summarily have to be replaced by a slightly different
+and hopefully more effective new thing.</p>
+<p>The virtual machines I have to use for some of my projects caused the <a href="https://support.apple.com/kb/SP756?locale=en_US">16GB
+2.9GHz 2017 MacBook Pro</a> to
+grind to a halt once too often.</p>
+<p>I evaluated upgrading to the <a href="https://support.apple.com/kb/SP776?locale=en_US">2018 model with 32GB RAM and the 8th generation
+i7</a>, but the disappointing
+keyboards on the current MacBook Pro range made it even trickier than usual to
+justify the substantial price of the upgrade.</p>
+<p>The MacBooks are stellar machines, but only if you can look past the keyboard.</p>
+<p>To add to that, after five years of macOS, it was time to check that I was
+still able to work just as efficiently with The Other desktop operating
+systems.</p>
+<h1 id="why-did-you-decide-to-get-the-thinkpad-x1-extreme">Why did you decide to get the ThinkPad X1 Extreme?</h1>
+<p>When you go searching for laptop workstations that are in the same class as the
+15&quot; MacBook Pros, one of the main candidates is the <a href="https://www.lenovo.com/za/en/laptops/thinkpad/x-series/ThinkPad-X1-Extreme/p/22TP2TXX1E1">ThinkPad X1
+Extreme</a>,
+which, to my delight, was straight-forward to obtain from my favourite local
+supplier!</p>
+<figure>
+<a href="x1e_180.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>Can your workstation do this? (The keyboard is definitely an
+improvement. I'm reserving judgement until a few months in. I'm still getting
+used to that red mouse nub. In theory, this should be ideal for mostly keyboard
+use with Emacs for example.) </figcaption>
+</figure>
+<p>(Interestingly, the price down here in ZAR is better than the dollar price on
+Amazon directly converted to ZAR. This is usually the other way round.)</p>
+<p>I made a deliberate choice for the version with the FullHD screen, and <em>not</em>
+the 4k multi-touch panel.</p>
+<p>&ldquo;WHAT? ARE WE BACK IN THE 1990s?!!&rdquo; you might ask, tapping away on your
+high-resolution touch device with its beautiful screen and superb battery life.</p>
+<p>During the 1.5+ years of using the 15&quot; MacBook Pro, with one of the most
+beautiful screens in the business, I very rarely used that screen. Furthermore,
+when mobile, the significantly longer battery life of the FHD version, along
+with the slightly reduced weight, are more important.</p>
+<p>Along with the 6-core 8750H i7 CPU, 16GB of RAM and 512GB of SSD ThinkPad, I
+ordered an additional 1TB Samsung EVO Plus 970 NVMe SSD and an additional 16GB
+RAM module.</p>
+<p>One simply unscrews the bottom panel to reveal two accessible DIMM slots, and
+two accessible M.2 SSD slots. I added the extra drive and extra RAM, put the
+panel back, and booted up to a pretty sweet upgrade.</p>
+<p>(Both drives are in the gigabytes per second read and write class. The built-in
+WDC PC SN720 SDAQNTW-512G-1001 is only slightly slower than the Samsung 970.)</p>
+<p>It&rsquo;s good to know that I will be able to upgrade the RAM to 64GB, and the
+storage to multiple terabytes of SSD, should that become necessary, or should I
+be able to fabricate some or other good reason for this in the future.</p>
+<h2 id="pro-tip-beware-duplicate-volume-ids-when-you-clone-a-drive">Pro-tip: Beware duplicate volume IDs when you clone a drive.</h2>
+<p>I used the free <a href="https://www.samsung.com/semiconductor/minisite/ssd/download/tools/">Samsung Drive Migration Software for Consumer SSD
+tool</a> to
+image the factory-install of Windows to the new 1TB Samsung SSD.</p>
+<p>After this, I simply changed the boot order in the BIOS (which also swaps C:
+and D:, oh Windows!, and Bob was my uncle.</p>
+<p>OR WAS HE?!</p>
+<p>Only later when diagnosing why the Windows indexer was not picking up any new
+files from my drive, did I figure out that the duplicate volume IDs on the
+drives was confusing it.</p>
+<p>Even later, after I had almost forgotten about the volume IDs, I had huge fun
+fighting with the Windows boot loader simply giving up after an Ubuntu install.</p>
+<p>You won&rsquo;t guess what the issue was, or will you?</p>
+<h1 id="what-are-your-first-impressions">What are your first impressions?</h1>
+<p>Although it feels lighter than the MBP, the laptop is thicker and slightly
+bigger than the MBP. Due to the shape of the chassis, and especially the
+ventilation rib on the bottom, it feels good in the hand.</p>
+<p>The fans do come on quite easily in Windows, which can be disturbing. There are
+fortunately a number of configuration options to ameliorate this issue.</p>
+<p>The Linux support for this laptop is quite good. After a few hours of Manjaro
+(I&rsquo;ve always wanted to see what an Arch-derivative was like), I installed
+Ubuntu 19.04.</p>
+<p>With minimal tuning, I can get the idle power consumption (with Emacs running
+of course) down to about 7W.</p>
+<p>This would in theory give me 10 hours of staring at Emacs, which is epic.</p>
+<p>(Shortly after getting the laptop, I had to invest a not inconsiderable number
+of hours into fine-tuning my Emacs configuration for Windows. Although Emacs on
+Linux is still the ultimate experience, Emacs on Windows comes close
+enough. For now.)</p>
+<p>Probably due to the reduced weight and due to the laptop being able to keep
+itself cool much more easily, the laptop fares significantly better than the
+15&quot; MacBook Pro in the official Working in Bed and also Flipping Out Your
+Laptop To Do Something Real Quick tests.</p>
+<p>Other than that, features like the way the BIOS unlocks both hardware-encrypted
+SSDs at boot using my fingerprint, are really quite neat.</p>
+<h1 id="do-you-have-anything-else-to-say">Do you have anything else to say?</h1>
+<p>No.</p>
+]]></content:encoded></item></channel></rss>

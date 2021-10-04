@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>accented characters on voices in my head</title><link>https://cpbotha.net/tags/accented-characters/</link><description>Recent content in accented characters on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 22 Sep 2005 14:16:16 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/accented-characters/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting the FRIKKING euro key working on a Dvorak keyboard layout in Ubuntu 5.04</title><link>https://cpbotha.net/2005/09/22/getting-the-frikking-euro-key-working-on-a-dvorak-keyboard-layout-in-ubuntu-504/</link><pubDate>Thu, 22 Sep 2005 14:16:16 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2005/09/22/getting-the-frikking-euro-key-working-on-a-dvorak-keyboard-layout-in-ubuntu-504/</guid><description><![CDATA[ I&rsquo;ve lost at least 5 hours of my life to the frikking euro key on my Microsoft Natural (old-style) keyboard. It seems that Gnome 2.10 on Ubuntu 5.04, otherwise a great combination, enjoys torturing its Dvorak keyboard layout users with the euro-symbol on the &ldquo;5&rdquo; key. It simply doesn&rsquo;t work, no matter what you try.
+After sacrificing the prerequisite 5 hours to the Linux gods of Ultimate Non-Usability, I came up with the following solution.]]></description><content:encoded><![CDATA[ <p>I&rsquo;ve lost at least 5 hours of my life to the frikking euro key on my Microsoft
+Natural (old-style) keyboard. It seems that Gnome 2.10 on Ubuntu 5.04,
+otherwise a great combination, enjoys torturing its Dvorak keyboard layout
+users with the euro-symbol on the &ldquo;5&rdquo; key. It simply doesn&rsquo;t work, no matter
+what you try.</p>
+<p>After sacrificing the prerequisite 5 hours to the Linux gods of Ultimate
+Non-Usability, I came up with the following solution. Make the following change
+to your <code>/etc/X11/xkb/symbols/pc/dvorak</code> file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-diff" data-lang="diff"><span style="color:#d33682">--- dvorak.ORIG 2005-09-22 11:28:18.704428504 +0200
+</span><span style="color:#d33682"></span><span style="color:#d33682">+++ dvorak      2005-09-22 11:45:14.296035112 +0200
+</span><span style="color:#d33682"></span><span style="color:#d33682">@@ -16,7 +16,7 @@
+</span><span style="color:#d33682"></span>     key &lt;ae02&gt; { [         2,  at              ]       };
+     key &lt;ae03&gt; { [         3,  numbersign      ]       };
+     key &lt;ae04&gt; { [         4,  dollar          ]       };
+<span style="color:#d33682">-    key &lt;ae05&gt; { [         5,  percent         ]       };
+</span><span style="color:#d33682"></span><span style="color:#d33682">+    key &lt;ae05&gt; { [         5,  percent, EuroSign, EuroSign ] };
+</span><span style="color:#d33682"></span>     key &lt;ae06&gt; { [         6,  asciicircum, dead_circumflex, dead_circumflex ]};
+     key &lt;ae07&gt; { [         7,  ampersand       ]       };
+     key &lt;ae08&gt; { [         8,  asterisk        ]       };
+</code></pre></div><p>Now make sure that your right-ALT generates <code>ISO_Level3_Shift</code> (also known as
+<code>AltGr</code>) by using <code>xev</code>. If your font and roughly 8000 other little settings
+support it, pressing right-alt-5 should make a pretty euro symbol.
+</ae08></ae07></ae06></ae05></ae05></ae04></ae03></ae02></p>
+]]></content:encoded></item></channel></rss>

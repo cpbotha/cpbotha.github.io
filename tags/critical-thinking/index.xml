@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>critical thinking on voices in my head</title><link>https://cpbotha.net/tags/critical-thinking/</link><description>Recent content in critical thinking on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 20 Sep 2020 19:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/critical-thinking/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #205: Real-time sometimes, asynchronous most of the time</title><link>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</link><pubDate>Sun, 20 Sep 2020 19:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</guid><description> This edition of the Weekly Head Voices looks back a the week from Monday September 14 to Sunday September 20 of the year 2020.
+Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!
+For the first time in months, this post is exactly on time. Whatever else happens in the rest of the post, timeousness is in the pocket!</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices looks back a the week from Monday
+September 14 to Sunday September 20 of the year 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="jonkershoek_pano_20200918.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!"/> </a><figcaption>
+            <p>Figure 1: Scene from a work get-together. It&rsquo;s really nice when you can get into these mountains any day of the week!</p>
+        </figcaption>
+</figure>
+
+<p>For the first time in months, this post is exactly on time. Whatever else
+happens in the rest of the post, timeousness is in the pocket!</p>
+<h2 id="the-uninformed-vs-privacy-preserving-covid-tracking">The uninformed vs privacy-preserving COVID tracking</h2>
+<p>(I would like to warn you that in this section, I get saltier than I&rsquo;ve been in
+years.</p>
+<p>People who were reading this blog more than 10 years ago will have noticed that
+I used to be salty a whole lot more often back then.</p>
+<p>Hopefully, this specific episode doesn&rsquo;t move this decade&rsquo;s dial by too much.)</p>
+<p>During <a href="https://citizen.co.za/news/covid-19/2359102/full-speech-sa-will-move-to-lockdown-level-1-as-midnight-20-september/">his address of September 16</a>, president Ramaphosa announced the further
+lifting of the national lockdown to level 1.</p>
+<p>Because I had been following the <a href="https://www.wired.com/story/apple-google-bluetooth-contact-tracing-covid-19/">surprising collaboration between Apple and
+Google on the anonymous disease exposure tracing</a> functionality in Android and
+iOS, my ears perked up when he requested that South Africans with smart phones
+install the COVID Alert mobile app:</p>
+<blockquote>
+<p>I want to make a call this evening to everyone who has a smartphone in South
+Africa to download the COVID Alert mobile app from the Apple App Store or
+Google Play Store.</p>
+<p>The app has been zero-rated by mobile networks, so you can download it without
+any data costs.</p>
+<p>Using Bluetooth technology, the app will alert any user if they have been in
+close contact with any other user who has tested positive for coronavirus in
+the past 14 days.</p>
+<p>The app is completely anonymous, it does not gather any personal information,
+nor does it track anybody’s location.</p>
+</blockquote>
+<p>I immediately checked it out on my iPhone, and was gratified to see that the
+app was well put-together, and made use of the privacy-respecting official
+infrastructure designed by Apple and Google.</p>
+<p>(<a href="https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models">Some countries</a> wasted millions of euros trying to build this by themselves,
+and then later had to switch gears, instead of just using Google and Apple&rsquo;s
+functionality from the get-go.)</p>
+<p>Because effective contact-tracing requires as many people as possible to
+install the app, I let a number of private chat groups know, and I even got
+back on twitter quite briefly to tweet:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SA Folks! Please install the COVID Alert South Africa app on your iPhone or Andoid. This 100% anonymous system, developed using the official Apple and Google APIs, helps enormously with contact tracing. iPhone: <a href="https://t.co/EE0J0Cd9ee">https://t.co/EE0J0Cd9ee</a> Android: <a href="https://t.co/HXkMl88oi0">https://t.co/HXkMl88oi0</a></p>&mdash; Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/1306494451460833281?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Imagine my surprise when I noticed a bit later that there was a bit of a furore
+online with people being openly suspicious of the app, up to offering all kinds
+of conspiracy theories as to how exactly the government was going to use this
+to monitor and/or control people.</p>
+<p>Interestingly, there appeared to be a pretty strong inverse correlation between
+technical know-how and level of suspicion.</p>
+<p>(Ironically, a large subset of the highly suspicious camp will experience difficulty
+understanding the above sentence. Probably also this sentence. Not sorry.)</p>
+<p>It is exasperating to me that when the SA government takes on a project like
+this (the tracking app), does it by the book and does a really good job of it,
+people respond this badly.</p>
+<p>While it is unfortunately true that the government has been doing a terrible
+job in terms of engendering confidence in its abilities and especially in its
+honesty, even going so far as to disappear millions of ZAR intended for
+personal protective equipment (!!), using that as an excuse to actively spread
+misinformation, and thereby prevent contact tracing from getting off the
+ground, is pretty hard to defend.</p>
+<p>(More than one of my mom&rsquo;s acquaintances (a term that is pushing the
+definition) have warned her that if she were to install the app, she was to
+remove them from all other contact media. I told her that this is a great way
+to cull her contacts list selectively, rendering a much more erudite address
+book.)</p>
+<p>Sorry folks, but when real scientific and technological progress is held back
+by this level of ignorance, I can get really salty.</p>
+<p>What would have been much better, would have been for said people to get the
+frick informed. It can&rsquo;t be that hard to find someone with the relevant
+know-how in any social circle.</p>
+<p>Fortunately, some local folks have been doing their best making good information
+accessible:</p>
+<ul>
+<li><a href="https://medium.com/@gvrooyen%5F22259/the-masquerade-ball-how-covid-19-bluetooth-tracking-works-b3f5960b8ac8">The Masquerade Ball – How COVID-19 Bluetooth tracking works</a> by Prof G-J van
+Rooyen is a great explanation of the finer details in an easy-to-follow
+format.</li>
+<li><a href="https://www.explain.co.za/2020/09/15/explainer-should-i-download-the-new-contact-tracing-app/">EXPLAINER: Should I download the new contact tracing app?</a> by Aarti Bhana at
+explain.co.za makes clear that you can and should install this app, but also
+discusses the fact that the government should have been doing much better in
+terms of dissemination.</li>
+</ul>
+<p>One could blame this on lacking education, and on the government not doing
+their best either, but a large part of the responsibility comes down to normal
+people, with no excuse not to have educated themselves, simply letting their
+primitive instincts absolve them of any critical thinking.</p>
+<p>I welcome your thoughts in the comments.</p>
+<h2 id="the-future-of-work-episode-23">The future of work, episode 23</h2>
+<p>Just like thousands of other companies, we went from &ldquo;yeah, we&rsquo;ve read about
+remote working and we should look into it more when we can make the time&rdquo; to
+&ldquo;100% fully remote what is this office-thing you speak of?&rdquo; from one day to the
+next when our hard lock-down started back in March.</p>
+<p>A few months in, and it seems that most of the whole 70-person company would
+not be surprised if we remain fully remote.</p>
+<p>I think that many of us, especially the engineers, really appreciate this new
+mode of operation where we have a substantially larger part of the day to work,
+and where it has become theoretically (ahem) easier to cordon off blocks of
+focus time.</p>
+<p>Some of us are thinking about ways to further improve and streamline our remote
+working process.</p>
+<p>During one of my research sessions (or was it me aimlessly browsing because I
+had become distracted during a particularly long afternoon&hellip;), I ran into the
+following post by <a href="https://basecamp.com/">the BaseCamp company</a>, previously known as <a href="https://37signals.com/">37signals</a>:</p>
+<p><a href="https://basecamp.com/guides/group-chat-problems">Group Chat: The Best Way to Totally Stress Out Your Team</a></p>
+<p>As is typical for BaseCamp&rsquo;s writing, this is a really great article, in this
+case looking specifically at the drawbacks of real-time company chat.</p>
+<p>In our case, we migrated from Google&rsquo;s GSuite to Office365 (because much more
+bang for the buck) right when COVID hit, and so we found ourselves in the
+wonderful world of Microsoft Teams.</p>
+<p>So far, we have had a pretty stellar experience.</p>
+<p>As a company-wide real-time chat and video meeting platform, Teams does its job
+well.</p>
+<p>However, real-time chat has a number of fundamental problems, most of which are
+super recognizably (and humorously) discussed in the linked post.</p>
+<p>For example:</p>
+<blockquote>
+<p>Group chat is like being in an all-day meeting, with random participants, and
+no agenda.</p>
+</blockquote>
+<p>Does this ring any bells for any of you?</p>
+<p>I hope that you can make time to read the article, but an important part of
+their answer to the real-time chat problem is:</p>
+<blockquote>
+<p>Real-time sometimes, asynchronous most of the time.</p>
+</blockquote>
+<p>At BaseCamp, they implement this idea with message boards where people post
+longer form messages that can be responded to with longer-form replies. These
+threads are attached to the object where they are most relevant, for example a
+project, or a to-do, and so on.</p>
+<p>The word &ldquo;thoughtful&rdquo; also stuck in my mind.</p>
+<p>Instead of the rapid-fire, often glib, responses you see in real-time chat,
+BaseCamp tries to encourage thoughtful, considered messages and replies that
+are accessible to anyone who might need them (unlike email) when viewing the
+project, to-do or issue in question</p>
+<p>The post further talks about changes both to one&rsquo;s conventions, but also to
+one&rsquo;s tools, as the latter can be effectively used to guide the former.</p>
+<p>In this light, it&rsquo;s interesting to note that many of my most pleasant online
+interactions have recently been taking place on github issues, whereas the
+real-time chat platforms I spend time on sometimes have the tendency to cause
+anxiety.</p>
+<p>I have not yet read and measured enough, but I am very curious as to whether
+some of these techniques could be implemented in my workplace, and how they
+could contribute to a constructive and effective communication environment.</p>
+<p>Please let me know in the comments if you have experience with any of this in
+your environment!</p>
+<h2 id="in-a-while-crocodile">In a while crocodile</h2>
+<p>Friends, have a great week!</p>
+<p>I wish you an abundance of calm, and of effective communication.</p>
+]]></content:encoded></item><item><title>Critical Thinking 101: Three super easy steps to spot poppycock on the internet.</title><link>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</link><pubDate>Fri, 10 Feb 2017 20:44:03 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</guid><description> Today it happened again.
+A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes
+(quote not by Mark Twain, origin quite interesting)
+Someone on facebook forwarded an article that was full of badly written and utterly unsubstantiated conspiracy theories about topic X. (topic X could be anything: politics, health, whatever)
+To me, it was instantly clear that the article was 100%, undiluted, hogwash.</description><content:encoded><![CDATA[ <p>Today it happened again.</p>
+<blockquote>
+<p>A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes</p>
+</blockquote>
+<p><em>(quote not by Mark Twain, <a href="http://quoteinvestigator.com/2014/07/13/truth/">origin quite interesting</a>)</em></p>
+<p>Someone on facebook forwarded an article that was full of badly written and utterly unsubstantiated conspiracy theories about topic X. (topic X could be anything: politics, health, whatever)</p>
+<p>To me, it was instantly clear that the article was 100%, undiluted, <strong>hogwash</strong>.</p>
+<p>Now you probably think that I must have decades of experience separating the internet wheat from the chaff.</p>
+<p>While that is true, you too can fortunately very quickly become a wheat-chaff-separation ninja by applying the following three super-easy steps.</p>
+<h1 id="1-ensure-that-the-site-withthe-article-is-a-legitimate-source">1. Ensure that the site with the article is a legitimate source</h1>
+<p>This is where most people get tripped up. Someone shares something on social media, you see it, and your blood boils, so you reshare without checking.</p>
+<p>Next time, break the cycle by quickly checking the address of the news link. This is your first line of defense.</p>
+<p>Here are some examples to get you started:</p>
+<p><strong>Poppycock:</strong> naturalnews.com, worldunity.me, someconspiracy.wordpress.com, … (send me more)</p>
+<p><strong>Legitimate:</strong> <a href="https://www.newscientist.com/">newscientist.com</a>, <a href="https://www.nytimes.com/">nytimes.com</a>, <a href="https://www.theguardian.com/">theguardian.com</a>, <a href="https://www.propublica.org/">propublica.org</a></p>
+<p>It doesn’t take much practice to spot the pattern.</p>
+<p>If the address looks like it could be a BS source, there’s a high probability it is. Remember, we live in the age of fake news, when any idiot can and will put up a website and fill it with misleading information.</p>
+<p><strong>Important:</strong> Images with text on them shared on Facebook are instantly disqualified. Come on people, we can’t be that gullible!</p>
+<p>If you’re still in doubt, continue on to the next step:</p>
+<h1 id="2-search-for-the-site-andor-the-article-contents-onsnopes-and-on-google">2. Search for the site and/or the article contents on Snopes and on Google</h1>
+<p><a href="http://www.snopes.com/">Snopes</a> is an absolute goldmine, and it’s free for you to use, so please do.</p>
+<p>You can search for any topic or any story, and it will immediately give you a judgement of its veracity and a complete facts-based motivation for its decision.</p>
+<p>If you can’t find anything on Snopes, googling the name of the site, or the contents of the story will often reward you with external sources to help you decide. Remember to apply rule 1 to the external sources you find.</p>
+<h1 id="3-find-more-externallegitimate-sources-confirming-or-denying-the-contents-of-the-article">3. Find more external LEGITIMATE sources confirming or denying the contents of the article</h1>
+<p>If after applying steps 1 and 2 you still have some doubt, try to find more <strong>external</strong> sources, applying rule 1 to each of these of course, that confirm or deny the contents of the article.</p>
+<p>If you can’t find any legitimate external sources, that’s usually a sign that the article under study should be flatly ignored.</p>
+<h1 id="profit">PROFIT!</h1>
+<p>Only when you’ve applied all three steps, and they all have helped you to make the call that the link under study is not poppycock, only then consider sharing it with your internet friends.</p>
+<p>Furthermore, if you see a suspicious looking article shared by any of your friends, please do gently point them at this post!</p>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>2017-02-11: <a href="https://www.theguardian.com/technology/2017/feb/11/fake-news-is-killing-peoples-minds-says-apple-boss-tim-cook"><em>Fake news is “killing people’s minds”, says Apple boss Tim Cook</em></a> (The Guardian) –</li>
+</ul>
+<p> </p>
+]]></content:encoded></item></channel></rss>

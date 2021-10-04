@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>benchmarks on voices in my head</title><link>https://cpbotha.net/tags/benchmarks/</link><description>Recent content in benchmarks on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 11 Sep 2018 20:17:27 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/benchmarks/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #153: pH &lt; 7 dreams.</title><link>https://cpbotha.net/2018/09/11/weekly-head-voices-153/</link><pubDate>Tue, 11 Sep 2018 20:17:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/09/11/weekly-head-voices-153/</guid><description> Looking back at the week from Monday September 3 to Sunday September 9, I present to you the following memories and after-effects.
+Aphex Twin never left us I serendipitously ran into T69 Collapse, the brand new track and video by Aphex Twin.
+In the grand tradition of WHV intro art, I have embedded the video above.
+Whether you’re a fan or not, I think it’s worth sitting through this one, preferably with the headphones and the video in full screen.</description><content:encoded><![CDATA[ <div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/SqayDnQ2wmw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Looking back at the week from Monday September 3 to Sunday September 9, I present to you the following memories and after-effects.</p>
+<h1 id="aphex-twin-never-left-us">Aphex Twin never left us</h1>
+<p>I serendipitously ran into T69 Collapse, the brand new track and video by Aphex Twin.</p>
+<p>In the grand tradition of WHV intro art, I have embedded the video above.</p>
+<p>Whether you’re a fan or not, I think it’s worth sitting through this one, preferably with the headphones and the video in full screen.</p>
+<p>Pro-tip: This is not one of those tracks where the whole thing can be more or less predicted by viewing the first minute. There’s a thing at 1:55 and a second thing at 3:14.</p>
+<p>I had to wonder whether the <a href="https://en.wikipedia.org/wiki/Matthew_3:14">3:14</a> was intentional. We’re not much into our biblical references over here as you might know, but you have to recall that Aphex Twin is the guy who, already back in 1999, hid his face in the spectrogram of a music track called:</p>
+<p>\[\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\]</p>
+<p>That&rsquo;s the actual name of the track (#2 on the famous <a href="https://en.wikipedia.org/wiki/Windowlicker">Windowlicker EP</a>), although most people (plebs!) refer  to it as just <em>Function</em> or <em>Equation</em>. I got sucked down that rabbit hole last night, but no-one on the internet seems to know the true meaning of the equation. Please ask RDJ if you ever run into him.</p>
+<p>Anyways, I have embedded \(\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\) below for your listening and viewing pleasure. Aphex Twin’s face appears at 5:30.</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/M9xMuPWAZW8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<h1 id="apfs-encryption-vs-samsung-hardware-encryption-effective-ssd-speed">APFS encryption vs Samsung hardware encryption effective SSD speed</h1>
+<p>I ran benchmarks on my external Samsung T3 SSD comparing the speed of encrypted APFS to unencrypted APFS with Samsung’s hardware-based full disk encryption.</p>
+<p>I used <a href="http://www.katsurashareware.com/pgs/adm.html">AmorphousDiskMark</a>, <a href="https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12">BlackMagic Disk Speed Test</a> and plain old iostat whilst copying 30GB of files to and from the disk.</p>
+<p>There will probably soon be a detailed blog post over on vxlabs.com about this, but I’ll give you the skinny here:</p>
+<ul>
+<li>It’s hard to get benchmarks right. BlackMagic gave wildly varying results depending on how many times I let it run its benchmark for example.</li>
+<li>APFS’s software encryption looks like it causes a performance hit ranging from 5 to about 10%, with outliers in both directions.</li>
+<li>Emacs can calculate over columns of data, for example from iostat’s standard out, using a simple <code>M-x calc-grab-from-rectangle</code> and <code>M-x calc-vector-mean</code>.</li>
+</ul>
+<h1 id="brave-browser-and-the-basic-attention-token-bat-this-could-be-big-or-not-its-at-least-interesting">Brave browser and the Basic Attention Token (BAT): This could be big. Or not. It’s at least interesting.</h1>
+<p><a href="https://brave.com">Brave</a> is a new(ish) browser also based on the Chrome engine.</p>
+<p>I knew they were doing something with cryptocurrency, and paying or getting paid for the consumption of content and/or advertising, but I was, as you can see, quite vague on the details.</p>
+<p>What I learned last week taking it for a quick spin is the following:</p>
+<p>Brave out of the box is massively privacy-focused. Without installing any plugins, it blocks every single advertisement and tracking cookie known to humankind. It also automatically switches to secure SSL wherever that’s possible.</p>
+<p>More interestingly, in Brave you can opt in to “<a href="https://brave.com/publishers/">Brave Payments</a>“, which looks like it might soon be renamed to Brave Rewards, but don’t quote me on that.</p>
+<p>One part of this system, is that you as a user contribute a set amount of BAT tokens (these are tokens on the ethereum chain) per month. At the end of each month, Brave will pay out your tokens to the websites that you visited, based on the amount of time you spend on each site.</p>
+<p>In this way, publishers can get recompensed for their content in hard cash, without having to resort to advertising. (It does look like Brave also supports the model where advertisers can pay, in BAT tokens of course, for your eyeball time.)</p>
+<p>Brave already has 4 million monthly active users (MAU).</p>
+<p>If they’re able to grow this user base, and get a significant portion to participate in the payment system, this could be a game changer. Imagine being able to pay your favourite content creators in this seamless way, and being able to switch off ads in  the process!</p>
+<h1 id="runalyze-where-have-you-been-all-my-life">RunAlyze where have you been all my life?</h1>
+<p>I publish my runs to Strava, as I have a bunch of friends there, and I like the idea of a social network where you have pay with a bucket of sweat before you’re allowed to say <em>anything</em>.</p>
+<p>However, I was also relying on Strava to keep track of my shoe mileage. Recently, it started losing the miles I put on my Xero Genesis sandals (the most unforgiving shoes in the universe), and I was not able to coax the system into correctly tracking those terrible, terrible kilometres.</p>
+<p>Because I use HealthFit to push my data to Strava, I took a look at some of its other endpoints and then, again extremely serendipitously, ran into:</p>
+<p><a href="https://blog.runalyze.com">RUNALYZE</a></p>
+<p>It’s a site made by two running nerds (and it <strong>really</strong> shows) from Germany.</p>
+<p>It keeps track of my shoes (the goal of this… <em>exercise</em>, bad pun, sorry) but the authors have also implemented a bunch of metrics from academic papers, some metrics of their own, and they show tables of your data sliced and diced in many different ways ON ALL FOUR WALLS of their website.</p>
+<p>&lt;Dr Evil voice&gt;It’s breathtaking.&lt;/Dr Evil voice&gt;</p>
+<p>Anyways, if you’re a running nerd too, you should probably take a peek.</p>
+<h1 id="fin">Fin</h1>
+<p>See you soon brothers and sisters. I am grateful for our time together.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Android vs iPhone performance: A quick note.</title><link>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</link><pubDate>Sun, 12 Feb 2017 13:40:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</guid><description> I&amp;rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&amp;rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.
+I would still like to leave you with some interesting reading material. Hence this quick note.
+From this discussion post (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</description><content:encoded><![CDATA[ <p>I&rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.</p>
+<p>I would still like to leave you with some interesting reading material. Hence this quick note.</p>
+<p>From <a href="https://discuss.emberjs.com/t/why-is-ember-3x-5x-slower-on-android/6577/60">this discussion post</a> (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</p>
+<blockquote>
+<p>Some Android users report up to about 29 score on very new late 2016 Android
+devices, depending on the vagaries of the browser used. Still below the 2013
+iPhone 5s which can be purchased used for about $150 these days.</p>
+</blockquote>
+<p>That&rsquo;s pretty amazing: Based on the <a href="http://browserbench.org/Speedometer/">browserbench speedtest</a>, which is supposed to reflect quite realistically real-world web-browsing performance, <strong>the 2013 iPhone 5s outperforms 2016 Android flagships</strong>. Ouch.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/snapdragon808-browserbench.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/snapdragon808-browserbench-1024x823.png"
+        
+            alt="My Snapdragon 808 does a measly 14.7 on browserbench. The iPhone 5s which is a year or two older does more than double that."/> </a><figcaption>
+            <p>My Snapdragon 808 does a measly 14.7 on browserbench. The iPhone 5s which is a year or two older does more than double that.</p>
+        </figcaption>
+</figure>
+
+<p>There are more sites where this discussion / flamewar is being continued. Google is your friend.</p>
+<p>The core argument is that Apple long ago made the call that fewer, more high performance CPU cores would give the best <strong>subjective</strong> performance. In other words, to a user the phone would feel more responsive.</p>
+<p>This does make sense: As a user, when I tap a button, I would like to see an instantaneous response. A single really fast core is going to help more with this than a higher number of slower cores.</p>
+<p>Furthermore, programming single-threaded apps is significantly easier than programming robust and efficient multi-threaded apps. You can guess what the apps in the various stores look like in this regard.</p>
+<p>The iPhone 6s had only two cores, whereas most mid- to high-range Androids had 6 or more cores when the 6s was released.</p>
+<p>The iPhone 7 A10 chip has finally made the jump to 4 cores, two of which are lower power cores. Still, it turns out this chip again <a href="http://bgr.com/2016/10/21/iphone-7-specs-a10-fusion-processor/">crushes all of its Android (read: Qualcomm) competition</a>.</p>
+<p>Here&rsquo;s another <a data-rel="lightbox-video-0" href="https://youtu.be/k_PK_6F_Bhk">relevant demo on YouTube </a>where the same set of apps are started up in the same sequence, which is repeated, on both the iPhone 7 and the Samsung S7. All in all, the iPhone manages to get through the exercise more than twice as fast as the S7. This is definitely some indication of how users will perceive the responsivity of these devices.</p>
+<p>The argument that multi-core was not a good choice for Android is weakened to an extent by <a href="http://www.anandtech.com/show/9518/the-mobile-cpu-corecount-debate">this recent AnandTech analysis</a> showing that these phones are actually pretty good at utilising all of their cores:</p>
+<blockquote>
+<p>In the end what we should take away from this analysis is that Android
+devices can make much better use of multi-threading than initially
+expected. There&rsquo;s very solid evidence that not only are 4.4 big.LITTLE
+designs validated, but we also find practical benefits of using 8-core
+&ldquo;little&rdquo; designs over similar single-cluster 4-core SoCs.</p>
+</blockquote>
+<p>My personal experience with the Snapdragon 808 (6 core big.LITTLE) in my <a href="http://www.gsmarena.com/blackberry_priv-7587.php">BlackBerry PRIV</a> (late 2015 flagship) has been less than stellar. I love the phone for its screen, physical keyboard and other little idiosyncrasies, but the fact that I often have to wait more than a second after tapping an icon or a button before it responds, combined with <a href="/2016/11/27/android-security-in-2016-is-a-mess/">the terrible Android security story</a> (where the PRIV paradoxically does quite well), makes me wonder about the future smartphone landscape for Android enthusiasts.</p>
+]]></content:encoded></item></channel></rss>

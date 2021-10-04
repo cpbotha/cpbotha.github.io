@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comments on voices in my head</title><link>https://cpbotha.net/tags/comments/</link><description>Recent content in comments on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 10 Nov 2019 16:28:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/comments/index.xml" rel="self" type="application/rss+xml"/><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description> As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
+TL;DR: Comments on this blog are now managed by self-hosted, open-source isso that I control. Commenting should be much faster and more fun, so have at it!
+Why I recommend strongly against Disqus. You might recall, or you could just check the relevant blog post, that I ported all comments from wordpress to disqus (grrr&amp;hellip;) in March of this year, when I upgraded to the Hugo static site generator.</description><content:encoded><![CDATA[ <p>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+
+of the comments on this site to isso, an open-source self-hosted commenting
+system.</p>
+<p>TL;DR: Comments on this blog are now managed by self-hosted, open-source isso
+that I control. Commenting should be much faster and more fun, so have at it!</p>
+<h2 id="why-i-recommend-strongly-against-disqus">Why I recommend strongly against Disqus.</h2>
+<p>You might recall, or you could just check <a href="/2019/03/31/wordpress-to-hugo/#transfer-comments-to-disqus">the relevant blog
+post</a>, that I
+ported all comments from wordpress to disqus (grrr&hellip;) in March of this year,
+when I upgraded to the Hugo static site generator.</p>
+<p>At that point, I had already poured quite some time into the Hugo migration,
+and so I thought that trying out Disqus for a while, on a personal site without
+any ads whatsoever, couldn&rsquo;t hurt.</p>
+<p>I could always at a later stage simply export my comments from there, right?</p>
+<p>Wrong.</p>
+<p>I triggered the built-in export-functionality in the Disqus admin interface.</p>
+<p>The site then shows a message that it will email you when the export is ready.</p>
+<p>Well, it&rsquo;s now 24 hours later and that email never came&hellip;</p>
+<p>(I retried at least 3 times. I even <a href="https://twitter.com/cvoxel/status/1193181451002482690">tweeted at
+them</a>, because there&rsquo;s
+no other way to contact support.)</p>
+<p>When you read the fineprint on <a href="https://help.disqus.com/en/articles/1717199-importing-exporting#exporting-from-disqus">the relevant help
+page</a>,
+you see the following (emphasis mine):</p>
+<blockquote>
+<p>Please note: exports <strong>may not be available for all sites</strong>, particularly
+those of a large size. If you&rsquo;ve requested an export file more than twice and
+still have not received a download link from us, it&rsquo;s likely that an export
+for your site is <strong>currently unavailable</strong>.</p>
+</blockquote>
+<p>So that&rsquo;s pretty reassuring! You <em>might</em> get an export. It depends&hellip; Whatever
+the case may be, you <em>won&rsquo;t</em> get any sort of feedback however.</p>
+<p>I guess this is an issue with any hosted solution.</p>
+<p>However, one would expect from any such service that advertises the possibility
+to export one&rsquo;s <em>own data</em>, even on the free tier, that one is in fact
+<em>allowed</em> to export one&rsquo;s own data.</p>
+<p>NOT IN DISQUS WORLD!</p>
+<p>Anyways, I was not going to let this highly disappointing performance stop my
+migration efforts.</p>
+<h2 id="enter-isso">Enter isso!</h2>
+<p>After discovering that the open-source self-hosted <a href="https://gitlab.com/commento/commento">commento
+software</a> requires at least Postgres 9.5
+but webfaction (my webhoster for years and years now, unfortunately our ways
+will probably have to part thanks to the godaddy acquisition) is stuck at
+Postgres 9.4, I decided to configure isso, the same <a href="https://vxlabs.com/2019/04/06/isso-on-webfaction/">commenting system I have
+running on vxlabs</a>.</p>
+<h3 id="new-feature-auto-approve-previously-approved-authors">New feature: Auto-approve previously approved authors.</h3>
+<p>However, to make it a little more interesting, I decided to implement an
+auto-moderation feature in isso that I used to use in all my wordpress
+installations:</p>
+<p><em>Auto-approve authors who have had comments approved in the past N months</em>.</p>
+<p>Long story short, you can find my work in <a href="https://github.com/cpbotha/isso/commits/cpbotha-auto-moderate-known-authors">this github fork of
+isso</a>.</p>
+<p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
+<p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
+the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#859900">[moderation]</span>
+<span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
+<span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+</code></pre></div><p>When someone leaves a comment, and their email address has had a comment
+approved within the last 6 months, the new comment will be automatically
+activated.</p>
+<p>The advantage of this feature is that comment-conversations can happen much
+more fluidly, without me having to approve each and every comment that comes
+in.</p>
+<h3 id="migrating-comments-in-spite-of-disqus">Migrating comments in spite of Disqus.</h3>
+<p>In NormalWorld, I would have exported an XML from Disqus, and just imported
+that into isso using the built-in functionality.</p>
+<p>However, in DisqusWorld, the user has to suffer.</p>
+<p>Fortunately I could import the bulk of the old comments (up to March of this
+year) using the old Wordpress site export and isso&rsquo;s great import function.</p>
+<p>For the remaining 25 comments, I manually copied each and every one of them,
+along with author name, email (if I knew it) and exact date, and then inserted
+them manually into the isso sqlite database, using the amazing
+<a href="https://sqlitebrowser.org/">sqlitebrowser</a>.</p>
+<p>I discovered three possibly useful facts:</p>
+<ul>
+<li>If the <code>parent</code> column in a <code>comment</code> record is not set explicitly to <code>NULL</code>
+in the case of no parent, the comment does not show up.</li>
+<li>Isso supports only one level of nesting in the database. This means the
+<code>parent</code> column has to point to a root, i.e. parent-less, comment.</li>
+<li>Isso stores timestamps as seconds since epoch. You can use the following SQL
+to convert a timestring to seconds since epoch:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
+</code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<p>That is how much I love this blog and its people. :D</p>
+<h2 id="conclusions">Conclusions.</h2>
+<p>I am happy that all of your comments are now self-hosted on this server using
+open-source software that I have a good grasp of.</p>
+<p>I am happy that your valuable thoughts are backed up each and every night.</p>
+<p>You should also notice that pages load much faster (disqus is quite slow).</p>
+<p>(Also: MARKDOWN!)</p>
+<p>Ok folks, I hope this further diminishes any barriers that there might have
+been to you leaving us a message now and then!</p>
+]]></content:encoded></item></channel></rss>

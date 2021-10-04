@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>srcset on voices in my head</title><link>https://cpbotha.net/tags/srcset/</link><description>Recent content in srcset on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 02 May 2020 11:42:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/srcset/index.xml" rel="self" type="application/rss+xml"/><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
+To make a long and interesting story short, srcset enables us to tell the browser that we have for example 5 different resolutions of an image available, and that it should choose the best one based on the user&amp;rsquo;s device.
+Pretty neat actually!
+Anyways, I tweaked the code a bit over time, and most recently I combined it with the stock Hugo figure shortcode.</description><content:encoded><![CDATA[ <p>When <a href="/2019/03/31/wordpress-to-hugo/#bonus-level-bundling-and-automatic-resizing-of-images">I moved this blog over to
+Hugo</a>
+slightly more than a year ago, I started using <a href="https://laurakalbag.com/processing-responsive-images-with-hugo/">Laura Kalbag&rsquo;s special <code>img</code>
+shortcode</a>
+with <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia%5Fand%5Fembedding/Responsive%5Fimages">img srcset
+support</a>.</p>
+<p>To make a long and interesting story short, <code>srcset</code> enables us to tell the
+browser that we have for example 5 different resolutions of an image available,
+and that it should choose the best one based on the user&rsquo;s device.</p>
+<p>Pretty neat actually!</p>
+<p>Anyways, I tweaked the code a bit over time, and most recently I combined it
+with the stock Hugo <code>figure</code> shortcode.</p>
+<p>What this means, is that you can now use just the straight <a href="https://gohugo.io/content-management/shortcodes/#figure">Hugo <code>figure</code>
+shortcode as per the
+documentation</a>, and my
+modified shortcode will do all of image processing and srcset specification
+fully automatically.</p>
+<p>In other words, you only have to refer to your fullest resolution image in the
+figure shortcode, and hugo will take care of creating a number of downscaled
+versions, and offer them to modern browsers in a way that gives the user the
+best experience.</p>
+<h2 id="install-and-use">Install and use</h2>
+<p>To install, simply download <a href="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d">the figure.html
+gist</a>
+(embedded below) into the <code>layouts/shortcodes</code> directory in your hugo blog and
+then rebuild your blog.</p>
+<p><strong>NOTE:</strong> It&rsquo;s <strong>very</strong> important that images have to be in <a href="https://gohugo.io/content-management/page-bundles/">the page
+bundle</a> if you want
+automatic resizing and srcset. The shortcode will fall back to stock Hugo
+behaviour otherwise.</p>
+<script type="application/javascript" src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
+
+<h2 id="example-result">Example result</h2>
+<p>I&rsquo;ve posted the image below so you can see the shortcode in action.</p>
+<p>It started as <code>{{&lt; figure src=&quot;20200324_stillbaai_beach.jpg&quot; link=&quot;20200324_stillbaai_beach.jpg&quot; caption=&quot;...&quot; &gt;}}</code> and ended up as the
+image below.</p>
+<p>If you right click, and then inspect, you&rsquo;ll see the <code>srcset</code>
+specification. Even better if you switch to the network panel in devtools, then
+reload, and note that your browser downloads a lower resolution image if you&rsquo;ve
+narrowed your viewport, or switched devtools to mobile emulation.</p>
+
+
+
+
+
+
+
+
+<figure><a href="20200324_stillbaai_beach.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A photo taken on the beach in Stilbaai on March 24, 2020."/> </a><figcaption>
+            <p>Figure 1: A photo taken on the beach in Stilbaai on March 24, 2020.</p>
+        </figcaption>
+</figure>
+
+<h2 id="updates">Updates</h2>
+<ul>
+<li>On 2020-05-10 I updated the shortcode to fall back to stock Hugo behaviour
+instead of just breaking when the image was not part of the page
+bundle. However, if you want resizing and srcset (the whole point of this
+post), your images should be in the page bundle. :)</li>
+</ul>
+]]></content:encoded></item></channel></rss>

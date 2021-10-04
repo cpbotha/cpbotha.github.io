@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dropbox on voices in my head</title><link>https://cpbotha.net/tags/dropbox/</link><description>Recent content in dropbox on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 21 Sep 2019 16:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/dropbox/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
+What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+then</a>.</p>
+<p>In the intervening three and a half years, my note-taking has further evolved
+to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
+to support this.</p>
+<p>Although note-taking is at the core of the system, a more accurate description
+of its current purpose would be <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management"><em>personal knowledge
+management</em></a>.</p>
+<p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
+learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
+journal&rdquo;</a>.</p>
+<h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
+<p>My approach consists of four main components:</p>
+<p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
+<p>As you might know, Org mode is infinitely flexible. This is where all of my
+projects and tasks are tracked. This is also where I keep my daily personal and
+work journals.</p>
+<p>I describe the specific directory structure and orgfile setup in the sections
+below.</p>
+<p>I continually and actively search for and find interesting <strong>2. Web-pages and
+Articles</strong>, both academic and less so, which I convert to PDF and store in a
+year-stamped directory inside of my
+<a href="https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>.</p>
+<p><strong>3. Academic articles</strong> that I plan to refer to in my own writings graduate into my
+Zotero bibliographic database, which is synced together with everything else.</p>
+<p>On <strong>4. Mobile</strong> (phone and watch, oh my!), I use the Dropbox app for capturing
+and for limited access to my notes database via a small subset of markdown
+files, PDFs and exported HTML, and I use the new WatchOS 6 voice notes if I&rsquo;m
+not able to use my phone.</p>
+<h3 id="other-noteworthy-characteristics">Other noteworthy characteristics.</h3>
+<p>Everything mentioned above lives on local drives, synced with Dropbox and also
+automatically and continuously backed-up to a removable disk at my office.</p>
+<p>The Org mode part of the system has been in use since 2014. I have also
+imported a few years of Simplenote text notes into Org mode, so its memory
+stretches a bit further back still.</p>
+<p>The longer the system lasts, the more valuable it gets.</p>
+<p>It has now happened more than once that I could help someone with the same
+advice I helped someone else with 4 years ago, simply because the real-time
+text search found the relevant snippet of code or attachment in my Org mode
+database.</p>
+<p>Even if I were ever to change tools, the current single source of truth is a
+collection of plaintext org files and PDF files which can easily be further
+processed and imported into some new system.</p>
+<h2 id="the-components-in-slightly-more-detail">The components in slightly more detail.</h2>
+<p>In the following sections, I explain each of the four components in more detail
+than in the overview above.</p>
+<h3 id="emacs-org-mode">Emacs Org mode.</h3>
+<p>The heart of my knowledge management system, let&rsquo;s call it <code>pkb4000</code>, is <a href="https://orgmode.org/">Emacs
+Org mode</a>. Org mode, or &ldquo;Your life in plaintext&rdquo;, is a
+powerful text-file-based system for managing notes, task lists, projects and
+even authoring documents.</p>
+<p>Once you get used to the programmable flexibility it offers, you will find it
+hard to go back to any conventional system.</p>
+<h4 id="monthly-journal-files">Monthly journal files.</h4>
+<p>In my main Org mode directory, I have a subdirectory named <code>journals</code>, which
+contains a directory for each year.</p>
+<p>Each of these year directories contains an <code>.org</code> file for each month, so we would have for example
+<code>journals/2019/2019-09-Sep.org</code>.</p>
+<p>Each month file follows the structure showed in the following redacted version
+of my current journal file:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #b3b3b3;">#+TITLE:</span> <span style="color: #8CD0D3; background-color: #3F3F3F; font-weight: bold;">2019-09 September month journal
+</span>
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Vitals</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Focus items</span>
+Topics and reminders I would like to spend a few minutes on during every
+morning review: High value time, always be compounding, always be in a focus
+block, etc.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Tired list</span>
+A general list of valuable activities for when I have some time, but brain too
+tired to come up with anything.
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* Planning / overview / major done list</span>
+Check lists with books, courses, etc.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Projects</span>
+A list of current major projects, with links to each project's dedicated org
+file.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* Tasks</span>
+A list of Org mode tasks that are not associated with specific projects. This
+list is reviewed at the start of every month, as I have to manually copy across
+those tasks that are still relevant and important.
+<span style="color: #DFAF8F; background-color: #3F3F3F;">* 2019</span>
+<span style="color: #3F3F3F;">*</span><span style="color: #BFEBBF; background-color: #3F3F3F;">* 2019-09 September</span>
+<span style="color: #3F3F3F;">**</span><span style="color: #7CB8BB; background-color: #3F3F3F;">* 2019-09-19 Thursday (example day)</span>
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* Day planning </span><span style="color: #8CD0D3; text-decoration: underline;">[2019-09-19 Thu 09:17]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Done list / thoughts / diary</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks for today </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Tasks that will satisfy end-of-the-day Charl </span><span style="color: #CC9393; font-weight: bold;">[/]</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Focus blocks</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Sleep</span>
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Review </span><span style="color: #CC9393; font-weight: bold;">[3/8]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="*Vitals">Month vitals</a></span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> Calendar
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> Org tasks
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> <span style="color: #D0BF8F; text-decoration: underline;"><a href="file:~/Dropbox/notes/mobile/inbox/">dropbox mobile inbox</a></span>
+      - ...
+
+<span style="color: #3F3F3F;">****</span><span style="color: #93E0E3; background-color: #3F3F3F;">* Habits / important </span><span style="color: #CC9393; font-weight: bold;">[7/12]</span>
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> 7.5 hrs sleep last night
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[ ]</span> are you satisfied with number of pomodori? = 0 (v R)
+      - <span style="color: #FFFFEF; background-color: #5F5F5F;">[X]</span> did you write stuff down?
+      - ...
+<span style="color: #3F3F3F;">***</span><span style="color: #D0BF8F; background-color: #3F3F3F;">* is dropbox better than evernote for mobile capturing? </span><span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-09-19 Thu 22:16&gt;</span>
+
+     in ios, with any page in safari, I can do "save to dropbox" and get a PDF
+     version of the page for the <span style="color: #b3b3b3;">=notes/mobile/inbox=</span>.
+</pre>
+<p>As you can see from the example above, the monthly journal file is the main
+index to my current high-level goals and focus items, my currently running work
+and personal projects, miscellaneous tasks, and my detailed daily journalling
+and habit tracking.</p>
+<h5 id="daily-review">Daily review.</h5>
+<p>When I start the day, I instantiate a new org-capture &ldquo;day planning&rdquo; template
+by pressing <code>C-c c p</code>.</p>
+<p>This creates the <code>Day planning</code> subsection with all of its subsections and
+checklists. As you will see, this guides me through the morning review, which
+in turn has me check each of those additional sources of incoming information
+and tasks.</p>
+<p>New bits of information are filed into their correct place, whilst the task
+review shows me a list of tasks, extracted from the month file and the list of
+current project files, so that I can decide which ones should be taken on.</p>
+<p>I list tasks which should preferably be taken care of today under <code>Tasks for today</code>, whilst any really high-value high-satisfaction tasks go under <code>Tasks that will satisfy end-of-the-day Charl</code>.</p>
+<h5 id="during-the-day">During the day.</h5>
+<p>During the rest of the day, I&rsquo;ll write short diary-like notes under <code>Done list / thoughts / diary</code> and log pomodori (focus blocks) under, you guessed it,
+<code>Focus blocks</code>, either using the <code>org-pomodoro</code> package, or plain Org mode
+clocking in and out functions.</p>
+<p>I use additional custom org-capture templates, via keyboard shortcuts, to
+create more extensive timestamped journal entries (see the <code>is dropbox better ...</code> example) and to create new timestamped and logged Org mode <code>TODO</code> entries.</p>
+<h5 id="kill-your-darlings-during-the-monthly-review">Kill your darlings (during the monthly review).</h5>
+<p>I&rsquo;ve mentioned this before, but it&rsquo;s just an important aspect of my &ldquo;system&rdquo;
+that I would like to mention it again.</p>
+<p>When I still used primitive task management systems such as <em>everything else</em>
+that&rsquo;s not Org mode, the collection of more mature tasks would soon grow out of
+control.</p>
+<p>However, because I create a new Org mode file for every month, I have to copy
+across manually any tasks that have not been completed yet.</p>
+<p>&ldquo;WHY IS THAT NOT AUTOMATED YET?!&rdquo; you are probably thinking.</p>
+<p>Well, the advantage of having to copy each task over manually is that it is the
+ideal opportunity to evaluate the task and ask some hard questions as to its
+continued relevance&hellip;</p>
+<p>When a task gets too old, I will often make the decision to change its status
+to <code>CANC</code> (for cancelled), sometimes with the reason for the cancellation
+explained in the task body, and then just leave it there in the old month file.</p>
+<p>With most of these task systems, regular reviews are of crucial importance. The
+monthly start-over is a great, almost enforced, opportunity for review, as is
+the morning routine when I instantiate the day planner template.</p>
+<h5 id="what-about-email">What about email?!</h5>
+<p>An important part of knowledge and task management is one&rsquo;s emails.</p>
+<p>Although I currently prefer processing my email using
+<a href="/2019/07/17/weekly-head-voices-173-i-know/#would-you-like-some-more-emacs-with-that-email"><code>mu4e</code></a>,
+an email client which lives inside of Emacs, I have used other tools in the
+past, and will probably use new tools in the future.</p>
+<p>Also, even at this moment I alternate between <code>mu4e</code> and the
+<a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">FastMail</a>
+web-interface.</p>
+<p>Long story short, I have it setup so that I can easily convert any email in
+<code>mu4e</code> into a universal <code>message://message-id</code> link to be integrated with a
+new task or note entry.</p>
+<p>When I later open that link using a shortcut, I have programmed it so that
+<code>mu4e</code> will open the relevant email if it is active, or the <code>FastMail</code> webmail
+when it is not. From here I can either review the email to see what the
+associated task requires, or respond to it, if the task has been completed.</p>
+<p>Some of these <code>message://</code> links were created using macOS mail and they still
+work. In future, if I add a new mail client to the mix, I will still be able to
+jump to specific old emails, no matter where they find themselves inside of my
+FastMail mailboxes.</p>
+<h4 id="core-notes-database">Core notes database.</h4>
+<p>With <code>database</code> I of course refer to hundreds of org and markdown files, most
+of which find themselves in the top-level <code>pkb4000</code> directory, one level up
+from the <code>journals</code> directory containing all of the monthly journal files.</p>
+<p>There are files on various <code>rsync</code> or <code>ffmpeg</code> invocations, files on
+programming languages, software tools, note-taking strategies, personal
+information on each of my kids, and much more.</p>
+<p>Org mode enables me to combine document structure, math, vector and bitmap
+images and executable source code in many different languages.</p>
+<p>I have configured my Emacs (where by &ldquo;configured&rdquo; I mean &ldquo;coded up the emacs
+lisp for&rdquo;) to invoke ripgrep on different subsets of my notes database, and to
+proffer up the results in different ways.</p>
+<p>I can usually find anything that went in to this database at any point.</p>
+<p>What I really like, is also being able to tell you on which day, and during
+which hour, I learned this or that, or experimented with something or the
+other.</p>
+<h4 id="project-files">Project files.</h4>
+<p>Work and personal projects each get their own Org file. Some projects even get
+a whole directory to themselves, in cases where the project will have many more
+files than just the main Org file.</p>
+<p>In all cases, the project org file will live somewhere below a year-stamped
+directory, e.g. <code>work/projects/2019/project-name/</code>.</p>
+<p>Some projects go over year boundaries, but their files and directories remain
+in the year that they started in. The project org also has <code>Tasks</code> and a
+datetree section, similar to the month journal.</p>
+<p>All current project files, along with my the current month file, are configured
+to be part of the <code>org-agenda-files</code> variable.</p>
+<p>This means that when I activate the <code>org-agenda</code> view, I see a unified list of
+all tasks as extracted from all current project files and the current monthly
+journal file.</p>
+<p>When a project is completed, it is of course removed from <code>org-agenda-files</code>.</p>
+<h3 id="web-pages-and-articles">Web-pages and articles.</h3>
+<p>As mentioned in the short system overview, I store all web-pages and articles I
+come across as date-stamped PDF files in a set of year-stamped directories.</p>
+<p>For more detail, please refer to the
+<a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP</a>
+section of WHV#165 on this blog.</p>
+<p>In short, I use good ad-blocking and <em>mostly</em> the <a href="https://www.printfriendly.com/">printfriendly browser
+extension</a> in Brave or Chromium to convert any
+interesting web-pages to PDF. PDF articles from journals and other reputable
+sources obviously don&rsquo;t have to be converted.</p>
+<p>I name and save these PDFs into my <code>refs</code> hierarchy, for example
+<code>Dropbox/refs/2019/20190518 Measles and Immune Amnesia - asm.pdf</code>.</p>
+<p>Usually, to win any argument, I can find the pertinent reference on my phone or
+my laptop in 30 seconds or less.</p>
+<p>(I used to be a paying Pocket subscriber. However, as you will read in WHV#165
+cited above, I was disappointed by the super important search function. The
+advantages of having Just a Bunch of PDFs on your (synced) disc are many.)</p>
+<h3 id="zotero">Zotero.</h3>
+<p>The <code>refs</code> directory hierarchy described above is great for quickly storing an
+article in the right place with a suitable name, ready for search-based
+retrieval later.</p>
+<p>However, in cases where one needs to cite any academics works, having these
+articles in a good reference manager is important.</p>
+<p>Zotero is in my view one of the best reference managers out there, and it&rsquo;s open
+source!</p>
+<p>The reasons I prefer zotero are:</p>
+<ul>
+<li>You can make use of their synchronisation service, or you can do it
+yourself. I have about 2.3GB of additional articles in zotero, so this is
+great.</li>
+<li>Zotero uses your browser to retrieve fulltexts automatically when you import
+any web-page with bibliographic information using the browser extension. This
+is great when you have access via your institution. Competing cloud services
+would historically use <em>their</em> servers to retrieve the fulltext, which would
+often not work.</li>
+<li>Zotero is open source. To me this is important, <a href="https://vxlabs.com/tags/zotero/">because on more than one
+occasion</a> I have been able to make small
+modifications to make it perform peculiar tricks I needed at that point.</li>
+</ul>
+<h3 id="mobile">Mobile.</h3>
+<p>This has always been the weakest part of my whole knowledge management system.</p>
+<p>Ideally, I would have easy access to my complete org database and any related
+files. Ideally, it would be possible to store any interesting tidbits I come
+across whilst browsing using my phone.</p>
+<p>So far I have invested time in the following apps and ecosystems:</p>
+<ul>
+<li>iCloud Notes: This was great, until <a href="/2019/04/27/new-laptop-2019/#so-tell-me-why-did-your-somewhat-stylish-macbook-phase-have-to-come-to-an-end">I sold my
+MacBook</a>. iCloud
+Notes web-access is terribly slow and more or less unusable. Whatever I have
+on mobile, needs to interoperate smoothly with desktop.</li>
+<li>Google Keep: This worked pretty well on mobile and via the web, but it&rsquo;s a
+closed off ecosystem. You can
+<a href="https://takeout.google.com/settings/takeout">&ldquo;takeout&rdquo;</a> your data, but you
+end up with ginormous HTML files (images are base64-encoded and included)
+that are not straight-forward to work with.</li>
+<li>OneNote: This has SO MUCH potential (free-form note-taking, drawing with
+Apple Pencil, apps for so many platforms, great organization, etc. etc.) but
+is just so frustratingly unusable due to syncing issues everywhere, even on
+my true-blue Windows 10 laptop with the true-blue official gold star
+Microsoft OneNote application. Microsoft is doing fantastic work in some
+domains (Visual Studio Code, .net core, WSL, etc. etc.) but in some others
+not so much it seems.</li>
+<li>Evernote: I recently just gave up and bought a premium subscription for the
+year, because Evernote is the industry standard and it had Apple Watch voice
+notes even before WatchOS 6 was released. In any case, although initially
+promising, Evernote is unfortunately quite slow at unpredictable moments
+(sharing web-page with evernote mobile app for storage can sometimes take 20
+second or more&hellip;) so I&rsquo;ve had to ditch it. Again.</li>
+</ul>
+<p>During all of this experimentation, I started storing mobile discoveries in a
+new section called &ldquo;inbox&rdquo; in the relevant note-taking app&rsquo;s organizational
+structure. During morning review, I go through the relevant inbox, and
+re-convert the relevant page into PDF for my more permanent archive.</p>
+<p>It dawned on me that this approach could also be applied with just the Dropbox
+app! It would be klunky, but at least not disappointing.</p>
+<p>So, when I want to store something from the phone, I either print to PDF or
+make use of the &ldquo;Save to Dropbox&rdquo; app extension, and then store the resultant
+PDF in <code>Dropbox/notes/inbox</code>. During morning review, PDFs in this directory are
+re-converted if required, and then stored in their more permanent home.</p>
+<p>Using the Dropbox app, I can also create markdown text files in the <code>inbox</code>
+directory.</p>
+<p>If I have something a little more extensive, I have the option of using the
+&ldquo;Voice Memos&rdquo; app, either on the phone, or even via the Apple Watch.</p>
+<p>In <code>Dropbox/notes/mobile</code> I keep items I often need to access from the phone:
+Think loyalty cards, markdown files with IP numbers and configuration of my
+home network, and so on. This directory is marked as &ldquo;available offline&rdquo;, so I
+can access its contents even when there&rsquo;s no data connection.</p>
+<p>Other than that, I do an export of my whole org database to HTML now and then,
+following a procedure similar to the one I used <a href="https://vxlabs.com/2018/10/29/importing-orgmode-notes-into-apple-notes/">to use for exporting Org mode
+to iCloud
+Notes</a>. The
+HTML versions are searchable on the phone.</p>
+<p>What would be better, is if the Dropbox iOS app would start recognising .org
+files as plaintext files, much like what it already does for markdown .md
+files. As it stands, I keep a small subset of my notes as markdown, instead of
+the superior org, for mobile editing.</p>
+<h4 id="drawing-with-apple-pencil-on-the-ipad-using-notability">Drawing with Apple Pencil on the iPad using Notability.</h4>
+<p>Sometimes one does need to sketch.</p>
+<p>This could be a rough UI, an architecture diagram, a data flow chart, or just
+doodling.</p>
+<p>Since about the end of 2018, I&rsquo;ve been using the <a href="https://apps.apple.com/za/app/notability/id360593530">Notability
+app</a> along with an iPad
+6th gen (2018 entry-level, the first non-Pro to support the Pencil) to doodle
+electronically.</p>
+<p>Notability automatically syncs all of these drawings as fully vectorised PDFs
+to my Dropbox. All handwritten text is quite smartly OCRd, and the OCRd version
+is stored as correctly positioned metadata behind my ugly scribbles.</p>
+<p>I would have liked Notability even more if it supported arbitrary canvas sizes
+(as it stands, only standard paper size in protrait mode), and had an always
+visible overview minimap.</p>
+<h4 id="signal-messaging-apps-brilliant-note-to-self-contact">Signal messaging app&rsquo;s brilliant &ldquo;Note to Self&rdquo; contact.</h4>
+<p>The <a href="https://signal.org/">Signal messaging app</a>, which you should all be using,
+has a built-in contact called &ldquo;Note to Self&rdquo;.</p>
+<p>As of late (since about December 2019) this has become my main <em>capturing tool</em>
+when I&rsquo;m on the phone.</p>
+<p>You can share links, media, photos, voice notes or a plain old text message,
+all of which will be securely stored, neatly timestampted to boot, in your
+conversation with this silent but very useful &ldquo;Note to Self&rdquo; character.</p>
+<p>During the morning review, I go through each of the shared items, processing
+them, and then add the message &ldquo;DONE =====&gt;&rdquo; to indicate that they have been
+completed.</p>
+<h2 id="limitations-and-points-for-improvement">Limitations and points for improvement.</h2>
+<p>The current system is great for capturing and search-based retrieval of
+personal knowledge.</p>
+<p>However, I miss functionality for making some of the higher-level patterns and
+networks more <em>discoverable</em>.</p>
+<p>For example, as I create a new orgmode entry, the system could show me related,
+older nodes (that is something I could implement&hellip;).</p>
+<p>Furthermore, it would have been great to see some form of visual representation
+of the associations between nodes, and of how they fit into higher-level
+concepts. This bit is slightly far-fetched.</p>
+<p>Interestingly, I just ran into the following paragraph at the end of <a href="/2016/01/05/note-taking-strategy-early-2016/">my 2016
+note-taking post</a>:</p>
+<blockquote>
+<p>However, I think that there might be room for a fourth type of tool that is
+more visual, supports rich and graphical linking between data items and even
+between sub-components of such items and, perhaps most importantly, enables
+us to build note landscapes that are natively as non-linear as our thoughts.</p>
+</blockquote>
+<p>Let&rsquo;s see what happens over the next few years!</p>
+<h2 id="appendix">Appendix</h2>
+<h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+         <span style="color:#2aa198">&#34;* Day planning %U
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Done list / thoughts / diary
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">- %?
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks for today [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Focus blocks
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Review [/]
+</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span><span style="color:#2aa198">- [ ] Org sub-projects
+</span><span style="color:#2aa198">- [ ] Calendar
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">** Habits / important [/]
+</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span><span style="color:#2aa198">- [ ] ...
+</span><span style="color:#2aa198">
+</span><span style="color:#2aa198">&#34;</span>
+         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</code></pre></div><h2 id="updates">Updates</h2>
+<h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
+<ul>
+<li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
+configuration</a> in appendix.</li>
+<li>Add <a href="#drawing-with-apple-pencil-on-the-ipad-using-notability">section about iPad, Notability and Apple
+Pencil</a>.</li>
+<li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
+contact</a>.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Head Voices #165: Get in my Pocket.</title><link>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</link><pubDate>Thu, 21 Mar 2019 15:01:20 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</guid><description> This short WHV looks back at the week from Monday March 4 to Sunday March 10.
+In the week after that, I had actually decided not to publish this one, instead folding whatever I wanted to say into the next edition.
+However, fear of yet another much-too-long WHV, along with my current preference for a short warming-up of the writing pipes, have led me to change my mind, and so here we are!</description><content:encoded><![CDATA[ <p>This short WHV looks back at the week from Monday March 4 to Sunday March 10.</p>
+<p>In the week after that, I had actually decided not to publish this one,
+instead folding whatever I wanted to say into the next edition.</p>
+<p>However, fear of yet another much-too-long WHV, along with my current
+preference for a short warming-up of the writing pipes, have led me to change
+my mind, and so here we are!</p>
+<p>This post consists of a really short life part, followed by a longer nerdy
+pro-tip for the storage and retrieval of your web references.</p>
+<h2 id="gou3-turns-3">GOU#3 turns 3.</h2>
+<p>It seems like <a href="/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/">just the other day when Genetic Offspring Unit (GOU) #3 joined
+us</a> here in the warm and fuzzy Humanist Kingdom of WHV.</p>
+<p>Well, the &ldquo;beautiful pink little not-yet-walking but rapidly expanding
+cellular mega-city&rdquo; never stopped expanding, and is currently surprising us
+every day with the new ways in which her neural network processes and
+transforms the reality she finds herself in.</p>
+<h2 id="replacing-pocket-with-just-a-bunch-of-pdfs-jbop">Replacing Pocket with Just a Bunch Of PDFs (JBOP).</h2>
+<p>I&rsquo;ve been a happy user of Pocket Premium since October 23, 2016, when they
+cleverly offered me a locked discount on the annual plan.</p>
+<p>I&rsquo;m a sucker for a deal, and I needed something with which to store archive
+versions of interesting blog posts and other web resources.</p>
+<p>It served me well, as I frequently access and share especially
+research-related articles and blurbs, such as <a href="https://www.sciencedaily.com/releases/2016/11/161122193100.htm">this one</a> discussing the
+observation that aspartame (a sugar substitute found in popular fizzy drinks)
+interferes with some of your enzymes, possibly resulting in more weight gain
+that straight sugar!</p>
+<p>(For Real Academic Articles, i.e. RAA-RAA, I am still a huge fan
+of <a href="https://www.zotero.org">Zotero</a>. If Zotero had better mobile access, I would have used it for
+these straight web references also.)</p>
+<p>ANYWAYS, recently the new beta pocket interface was failing me horribly as I
+was trying to find the exact article mentioned up above.</p>
+<p>Typing &ldquo;glu&rdquo; or &ldquo;glucose&rdquo; was unsuccessful in finding another article
+&ldquo;Artificial sweeteners induce glucose intolerance by altering the gut
+microbiota&rdquo;, even although I could see that exact article in the overview
+screen. To add insult to injury, searching for &ldquo;aspartame&rdquo; also did not find
+that entry, although I had explicitly tagged it with &ldquo;aspartame&rdquo;.</p>
+<p>It could very well be that this is just a (serious) glitch in the beta system,
+but it was a frustrating reminder that for something as important (to me) as
+my collection of references (aka “argument-winning potion”), I was
+at the mercy of someone else, with almost no other recourse.</p>
+<p>This frustrating led me to find an alternative solution, which became&hellip; a big
+ol' bunch of PDFs! (call this JBOP, inspired by <a href="https://en.wikipedia.org/wiki/Non-RAID_drive_architectures">JBOD</a>)</p>
+<p>In order to do this, we need a method of turning web-pages into readable PDFs,
+and some system for the storage and retrieval of said PDFs.</p>
+<h3 id="use-a-browser-with-ad-blocking-and-reader-mode">Use a browser with ad-blocking and Reader Mode</h3>
+<p>The general idea is to use a browser with ad-blocking and some sort of reader
+mode, and then to print to PDF.</p>
+<p>On desktop, I am using <a href="https://brave.com">Brave Browser</a> because of the great
+built-in ad-blocking, and because I strongly support the idea of
+micro-payments to long-form content producers instead of content-destroying
+ads in my face.</p>
+<p>Because its built in reader mode, called <a href="https://brave.com/speed-reader/">Speed Reader</a>, has not
+shipped yet, I&rsquo;m currently using the <a href="https://chrome.google.com/webstore/detail/print-friendly-pdf/ohlencieiipommannpdfcmfdpjjmeolj">Print Friendly &amp; PDF extension</a>.</p>
+<p>Safari on macOS and Firefox have built-in reader modes / views. I can
+recommend the <a href="https://adguard.com/en/adguard-browser-extension/safari/overview.html">AdGuard ad-blocking extension</a> for Safari.</p>
+<p>Unfortunately, Safari on iOS 12 does not currently add the source URL to its
+virtually printed PDFs, so I&rsquo;m using Brave there also, although on iOS I
+generally prefer Safari, also with AdGuard.</p>
+<p>To print to PDF on iOS, simply print (swipe up, tap share, tap print), then do
+the zoom-in gesture to turn the print into a PDF, then share again to save out
+the PDF.</p>
+<h3 id="store-and-name-your-pdfs-so-you-can-search-them-from-everywhere">Store and name your PDFs so you can search them from everywhere</h3>
+<p>I store all of these PDFs in year-named sub-directories of a directory
+called <code>refs</code> in my Dropbox.</p>
+<p>Each PDF is named &ldquo;publication-date - publisher / author - title / stub&rdquo;, so
+the full path is e.g. <code>~/Dropbox/refs/2019/2019-03-09 - CBC Radio - Your brain may need sleep to repair DNA 'potholes'</code>.</p>
+<p>On macOS, all of these PDFs are indexed by Spotlight, so I can find the ones I
+want quite quickly. Your operating system of choice should have something
+similar.</p>
+<p>If you are a Dropbox Pro subscriber, the mobile app provides full-text
+searching to mobile spotlight also, so you can find any article lightning fast
+on your phone.</p>
+<p>Google Drive will do this for cheaper, but <a href="/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/#my-big-and-stupid-misstep-into-google-drive">Google Drive might also end up
+eating your files</a>. ;)</p>
+<h3 id="profit">Profit!</h3>
+<p>Now all of your web references are in PDF format, arguably the
+typeset-document equivalent of plaintext in terms of accessibility and future
+proofing.</p>
+<p>As you change around your syncing and storage systems in the coming years,
+your faithful directory of PDFs will follow you wherever you go.</p>
+<p>As an added bonus, these PDFs can be annotated with your notes and text
+highlights.</p>
+<h2 id="this-ending-is-only-a-pause">This ending is only a pause.</h2>
+<p>Thank you for sticking around for the warming up of the pipes.</p>
+<p>I hope that they will not have cooled down too much before I find another bit
+of time to start on WHV #166.</p>
+<p>There will be pretty pictures!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #164: It’s what future you would want.</title><link>https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/</link><pubDate>Sat, 09 Mar 2019 14:53:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/</guid><description> Pre-work not-too-shabby running route.
+Welcome back friends! This WHV looks back at the two weeks from Monday February 18 to Sunday March 3, 2019. I was planning to release the edition of the WHV on time, but my need for a break was greater.
+Because I’ve given up on ever mastering the art of the bullet-list form of the weekly(ish) status update, I am going to double-down on the old-fashioned sectioned prose form that you see before you.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/02/strand_running_route_2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/02/strand_running_route_2-1024x768.jpg"
+        
+            alt="Pre-work not-too-shabby running route."/> </a><figcaption>
+            <p>Pre-work not-too-shabby running route.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back friends! This WHV looks back at the two weeks from Monday February 18 to Sunday March 3, 2019. I was planning to release the edition of the WHV on time, but my need for a break was greater.</p>
+<p>Because I’ve given up on ever mastering the art of the bullet-list form of the weekly(ish) status update, I am going to double-down on the old-fashioned sectioned prose form that you see before you.</p>
+<p>Also, this post has again evolved into a long ramble. (It’s now Saturday March 9, time to start working on the next edition. I’m curious what form it will take.)</p>
+<h2 id="gou1-is-2">GOU#1 is #2</h2>
+<p>It feels like through these posts you’ve pretty much seen <a href="/2010/07/26/island-style-weekly-head-voices-27/">GOU#1 grow up before your eyes</a>, so I’ve given myself permission to mention this moment of parental pride, hopefully quite briefly though (I write this blog not only for you, but also for me in 20 years time!):</p>
+<p>GOU #1 has been elected as <a href="https://en.wikipedia.org/wiki/Head_girl_and_head_boy">deputy head girl</a> of her 1600+ pupil primary school!</p>
+<p>She was really mature, also before the time, about this possible outcome of taking the #2 position. She seems to have made up her mind before the time that this would in fact be, for her, the best configuration.</p>
+<p>This thoughtfulness of hers might have made me even more proud than the achievement itself.</p>
+<h2 id="dreams-of-clean-solar-electricity-wafting-ineffectually-against-the-greasy-gears-of-government">Dreams of clean solar electricity wafting ineffectually against the greasy gears of government.</h2>
+<p>Way back in December of last year <a href="/2018/12/19/weekly-head-voices-159-extreme/#extreme-solar">I mentioned</a> that we were working on getting the house upgraded with a photovoltaic solar power system.</p>
+<p>Some of you have asked me via various communication pathways how it was going.</p>
+<p>Thanks to legislation, or rather the lack of communication around this legislation, the amount of physical progress we have made so far is close to zero. Oh, just make that zero.</p>
+<p>My shopping list now looks as follows:</p>
+<ul>
+<li>Unchanged: 3.6kW GoodWe EM hybrid inverter: Although a larger inverter would have been preferable, uncertainty caused by above-mentioned lack of communication motivates me to play it safe with this unit which is in the 2017 column of the approved list.</li>
+<li>Unchanged: 2 x PylonTech US3000b lithium ion batteries.</li>
+<li>CHANGED: 16 x Canadian Solar CS3U 350Wp or 355Wp solar panels.</li>
+</ul>
+<p>It used to be common knowledge that monocrystalline panel power output suffered less due to high temperature than that of the cheaper polycrystalline panels. This is quite relevant, because just sitting there on your roof the whole day, these things can get really hot!</p>
+<p>Well, I finally went and looked up the temperature coefficient of these current generation Canadian Solar panels, namely the CS3U range, <a href="https://www.canadiansolar.com/upload/521adedf1d5fecb9/e5ba81805bf70380.pdf">which is -0.37% Pmax / ℃</a>. This is in fact slightly better than the -0.39% of the monocrystalline panels I had on my list.</p>
+<p>I am currently on the lookout for what is going to be my fourth candidate solar installer, although at this stage I would be quite happy with a talented electrician who is not afraid of heights.</p>
+<p>(My second installer had difficulty keeping up with all of their work (probably thanks to load-shedding and also to the substantial price increases expected from our embattled electricity monopoly) and my third installer has decided to focus on commercial installations.)</p>
+<h2 id="my-big-and-stupid-misstep-into-google-drive">My big and stupid misstep into Google Drive.</h2>
+<p>Somewhere during the past two weeks, I lost, forever and ever, at least three evenings.</p>
+<p>Tipped off by a colleague at work, encouraged by my family’s mobile photos investment in Google Photos, and further tempted by the significant price difference and the family storage sharing option, I convinced myself that it was time to migrate my little empire of useless files (dropbox reports that I currently have just over 500000 (five hundred thousand) of them) out of Dropbox and into Google Drive.</p>
+<p>This is how it looked on paper, i.e. in my head and in my Emacs notes:</p>
+<ul>
+<li>I have about 70GB of photos taken with various family cameras of kids growing up, vacations everywhere and so on. These photos are currently not easily accessible by said family. If they were on Google Drive, they could be automatically exposed to Google Photos, which my family is already using!</li>
+<li>My 237G of Google Drive space, sufficient for everything, costs R39 / month (that’s about $2.75), whereas my Dropbox subscription costs $10 / month.</li>
+<li>The cheap subscription of Drive already enables one to do content searches. E.g. I could find scans of documents instantly by typing OCR’d words that occur in the documents. If you want the same with Dropbox, you have to go Pro (not Plus), and pay double, that is $19.99 per month.</li>
+<li>Drive has a built-in facility to backup folders outside of the main sync folder.</li>
+<li>There’s a great tool called <a href="https://rclone.org/">rclone</a> with which nerds can sync files to Google Drive from the command-line!</li>
+</ul>
+<h3 id="four-lessons-learned-uploading-500k-files-to-google-drive">Four lessons learned uploading 500k files to Google Drive</h3>
+<ol>
+<li>Google has servers down here in South Africa: With larger files, the upload could easily max out my 50Mbit/s upload.</li>
+<li>However, in spite of allocating and configuring my own <a href="https://rclone.org/drive/#making-your-own-client-id"><code>client_id</code></a>, I could not upload faster than about 3 files per second. Based on various threads on the rclone forums, this is a known issue.</li>
+<li>Google Drive’s selective sync functionality does NOT (easily) allow you to maintain a local version of an excluded directory in the same way that Dropbox does. This is <em>especially</em> annoying for those already quite annoying <code>node_modules</code> folders.</li>
+<li>Google Drive and its API support identically named files and directories, located in the same parent directory.</li>
+</ol>
+<h3 id="how-did-the-wheels-fall-off-then">How did the wheels fall off then?</h3>
+<p>I was alternating between the official Google Backup &amp; Sync client and <code>rclone sync</code>. I did this to check if rclone with a private <code>client_id</code> would be able to upload faster (it couldn’t) and because rclone showed sync progress more clearly with an estimated time of completion (all of this turned out to be wildly incorrect and variable due to all of those small files).</p>
+<p>My logic was that as long as the two tools were not running in parallel, sync logic and checksums should prevail right?!</p>
+<p>Well, that turned out to be a very sad assumption…</p>
+<p>rclone, which I still believe is a great tool for bulk uploads and downloads, should probably not be used for syncing in situations like this.</p>
+<p>Unbeknownst to me, it had created hundreds of identically-named directories everywhere. (See lesson #4 above.)</p>
+<p>At about halfway through this multi-day upload project, I switched back to the official Google tool, which finally, FINALLY managed to sync everything after about 5 days I would guess.</p>
+<p>I was briefly <em>quite</em> happy with Google’s arrow-in-cloud you-are-fully-synced icon in the menubar.</p>
+<p>However, because happiness is so inherently fleeting anyways, I decided that it was time for the next phase of the project: Add the first Linux workstation to the little sync family.</p>
+<p>Google Drive does NOT have a native client for Linux, although they’ve promised this since the start, and so I decided to try <a href="https://www.insynchq.com">Insync</a>, which seems to be one of the best of the third party clients.</p>
+<p>I pre-seeded the sync directory on said Linux machine using rsync and then started the insync client. This is a use case which was often enough mentioned on the forums as being supported.</p>
+<p>Initially, everything seemed to be going swimmingly!</p>
+<p>However, soon I saw whole directory hierarchies with thousands of files disappearing simultaneously from both my local disc and google drive.</p>
+<p>STAAAAAAAAHP!!! JUST STAHP.</p>
+<p>A second, stubborn attempt, after having recovered files and synced everything up with Google’s tool, yielded similarly frustrating results.</p>
+<p>Granted, the duplicate folders on Google Drive are a far from ideal test case, but deleting directories like that on both client and server is not defensible.</p>
+<p>Defeated, I retreated to the expensive, but safe, embrace of Dropbox.</p>
+<h3 id="more-lessons-learned">More lessons learned:</h3>
+<ul>
+<li>The lack of an official Google Drive client on Linux is debilitating to my workflow.</li>
+<li>Handle the third-party Insync client with extreme caution.</li>
+<li>The <a href="https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/sunk-cost-fallacy/">sunk cost fallacy</a> is a real danger in cases like these.</li>
+<li>The hours I lost are probably worth at least a year or two of Dropbox.</li>
+<li>Having reliable incremental backups outside of your cloud syncing service remains important.</li>
+</ul>
+<p>On that last point: Juggling my 500k files between Dropbox, Google Drive, then going live on Google Drive with real work before jumping into the shady world of badly implemented sync clients made me realise (again) the importance of a separate set of incremental backups.</p>
+<p>Before my macOS phase (which started on May 6, 2015 when my employer bought me my first MacBook Pro and I wrote in my diary: “Bought 13.3 retina MacBook Pro early 2015, 128 GB SSD. I am doomed.”) I used to maintain a <a href="http://dirvish.org">dirvish</a> backup.</p>
+<p>(Dirvish is an amazing tool by the way.)</p>
+<p>The truly stupid and frustrating adventure I write about here, did at least lead to some learning, and to me hooking up a <a href="https://www.storagereview.com/seagate_4tb_backup_plus_portable_drive_review">Seagate 4TB external drive</a> to my desk at work. Now when I connect my MacBook, Time Machine performs incremental backups the whole day long.</p>
+<p>The next time I have one of these moments of irrationality again, I will at least have the possibility of returning my files to sanity as soon as I do.</p>
+<h2 id="thinking-of-future-you">Thinking of future you.</h2>
+<p>There was one more learning I wanted to share.</p>
+<p>I have mentioned before <a href="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">on this blog</a> the well-known productivity trick of writing down, during your morning planning, the two to three really important tasks for the day.</p>
+<p>In <a href="https://samharris.org/podcasts/143-keys-mind/">the Sam Harris podcast where he interviews Derren Brown</a>, they briefly mention a really interesting take or perspective on the tip above.</p>
+<p><em>When writing those tasks down, try to predict the two to three tasks the completion of which will satisfy future you the most at the end of the day.</em></p>
+<p>It sounds like a small tweak, but this is a great way to encourage deeper (almost meta-)consideration of tasks that will really matter.</p>
+<p>Additionally and more straight-forward than that, with this exercise you increase the chances that you end the day with that great feeling of closure that comes with getting important stuff done.</p>
+]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
+After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
+It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
+<p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg"
+        
+            alt="Image by BLOGGING via TYPEWRITER"/> </a><figcaption>
+            <p>Image by BLOGGING via TYPEWRITER</p>
+        </figcaption>
+</figure>
+</p>
+<p>It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), <em>especially</em> if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they <em>say</em> that you shouldn’t worry, <em>you can never be entirely sure</em>.</p>
+<p>Furthermore, it has also been revealed that the NSA has for years being acquiring encryption keys via legal (secretly forcing companies to give them the keys) and extra-legal (simply hacking into company servers) means. Even worse, they have for years been deliberately introducing security weaknesses into software products and encryption software in order to be able to crack open your data even more easily.</p>
+<p>You can read more about this state of affairs in <a href="http://www.theguardian.com/world/the-nsa-files" title="The Guardian NSA files">The Guardian’s NSA files</a>. The Guardian has been doing a sterling job of analysing and bringing to light the depths to which our governments have sunk. There’s a whole lot of information, and most of it is quite upsetting.</p>
+<p>For me the final straw was when secure email service <a href="http://lavabit.com/" title="lavabit website with close-down message">lavabit</a> voluntarily shut itself down, when faced with the prospect of being forced to leak user information to the US government without being allowed to tell anyone. The message on the site is quite chilling, and concludes with the following:</p>
+<blockquote>
+<p>This experience has taught me one very important lesson: without congressional action or a strong judicial precedent, I would <em>strongly</em> recommend against anyone trusting their private data to a company with physical ties to the United States.</p>
+</blockquote>
+<p>At this point, I was a super happy and pretty heavy user of a number of US-based services, including GMail (all my email, about 40000 conversations consisting of 60000 mails, that’s excluding my work email which I also hosted on GMail), Google+ Photos (all my photos, about 21000 of ’em), Google Drive, Dropbox (50G of data spread out over 120000 files). <em>In all cases, I still consider these to be best of class services.</em> In putting my money where my mouth is, I was paying both Google and Dropbox for extra storage.</p>
+<p>I also had no problem with Google filtering through my email to show me targeted advertising. This is the deal I had with them. I also had no problem with the possibility of someone getting my data after due legal process. However, the idea that some NSA or other government agency flunky could quite easily stick their grubby paws into my data, and that I would never know about this, was too much.</p>
+<p>There’s probably nothing much of interest in my data. However, it has become a matter of principle; Privacy is a basic human right. <a href="http://www.wired.com/politics/security/commentary/securitymatters/2006/05/70886" title="value of privacy by Bruce Schneier">Here’s an old essay by Bruce Schneier</a> if you need to read more about why privacy is so important.</p>
+<p>In short: <strong>It was time to extricate all of my lovely data from probably well-meaning US companies, thanks to the ridiculously powerful and secretive NSA, and thanks to all of its shadowy counterparts around the world.</strong></p>
+<p>Here’s how I did it:</p>
+<ul>
+<li>Considered building another low-cost Linux server, or even a Raspberry Pi. Decided against this due to time required for configuration and acquired a Synology DS213j NAS, which is at this moment standing on the desk about 1 metre to my left. My recommendation: Just get this, you won’t be sorry.</li>
+<li>Downloaded 60000 emails to Synology using Thunderbird mail client. Deleted everything from GMail. Google engineers assure me that after a few months, data will <em>really</em> be gone.</li>
+<li>My webhoster (<a href="https://www.webfaction.com/">WebFaction</a>) receives mail for all my domains. My Synology retrieves mail every 5 minutes via POP (you can set this up via Roundcube on the Synology) and deletes it from WebFaction.</li>
+<li>Outgoing mail is relayed by the Synology via the WebFaction SMTP server. I don’t have to worry too much about blacklisting and whatnot, my hoster does this.</li>
+<li>I’m back to interacting with my mail using Thunderbird and IMAP SSL. The loss of GMail conversation view was initially really REALLY painful. People have forgotten the ancient art of quoting. However, I’ve configured Thunderbird to archive all mail to year-stamped archive folders, and to put my sent mail there. Poor-man’s Conversation View! (the <a href="https://addons.mozilla.org/en-us/thunderbird/addon/gmail-conversation-view/">conversations plugin</a> is wonky. it’s shocking how much the availability of GMail, which works really well, has stunted the development of alternative email clients) Importantly, I am now able to use <a href="http://www.openpgp.org/">OpenPGP</a> again for the strong encryption and cryptographic signing of my emails.</li>
+<li>On my Android telephone (whoops…) I am using <a href="https://play.google.com/store/apps/details?id=com.kaitenmail&amp;hl=en" title="Kaiten email on the Google Play store">the Kaiten IMAP client</a>.</li>
+<li>All the data I had in Dropbox is now being synced between the Synology, two laptops and a workstation using <a href="http://labs.bittorrent.com/experiments/sync.html" title="bittorrent sync">BitTorrent Sync</a>. This peer-to-peer syncing system is still a little rough around the edges, but falls squarely in the category of “Best Things Since Sliced Bread”, and it’s <em>FAST</em>. CloudStation, Synology’s dropbox-inspired solution, was just far too slow on my Synology model.</li>
+<li>My photos (21000 of them) have been downloaded from Google+ Photos (thank you <a href="https://www.google.com/takeout/" title="Google Takeout">Google Takeout</a>) and are now being served from the Synology using PhotoStation.</li>
+<li>My music (5400+ tracks) is downloading from Google Music as we speak, and will be served from the Synology using AudioStation.</li>
+<li>I make incremental backups of everything to an encrypted external USB drive, using <a href="http://www.dirvish.org/" title="dirvish website">dirvish</a>. I will probably add an extra external drive to the mix and try to keep that off site.</li>
+</ul>
+<p>It’s been an interesting process moving my stuff out, and getting used to these alternative systems is sometimes slightly uncomfortable, but I am quite happy with the end result. I hope that more people will take this step, and I really hope that more and easier-to-use alternatives for secure email (such as <a href="http://www.mailpile.is/" title="mailpile website">mailpile</a>) and for ubiquitous private data will become available.</p>
+<h1 id="addendum-2013-09-16">Addendum 2013-09-16</h1>
+<p>My <a href="https://news.ycombinator.com/item?id=6392322">submission of this post</a> spent some time on the Hacker News front page, and from there was <a href="http://www.reddit.com/r/technology/comments/1mhpqj/dear_usa_my_data_has_left_your_building/">picked up by reddit</a> as well. This brought many comments, a number of which were positive and thoughtful, and a number of which that were far less so. It’s amazing how anonymity and comment sections can bring out the worst in people. (if you have to know, the Hacker News community is generally MILES more polite than reddit)</p>
+<p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
+<p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
+<p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
+]]></content:encoded></item><item><title>Google Drive: Not reliable yet, but potential.</title><link>https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/</link><pubDate>Fri, 27 Apr 2012 20:47:56 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/</guid><description> I’ve been a Dropbox Pro (50G) user for more than two years now, and in this time it has never let me down, not even by a little bit. Still, when Google announced its new Google Drive syncing service, I had to take it for a spin.
+For those of you with short attention spans, my conclusion is: Google Drive has great promise due to its price-point, Google’s great infrastructure and the integration with Google Docs, but you shouldn’t yet trust this service with your critical files.</description><content:encoded><![CDATA[ <p>I’ve been a Dropbox Pro (50G) user for <a href="/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/" title="me gets a dropbox pro account">more than two years now</a>, and in this time it has never let me down, not even by a little bit. Still, when Google <a href="http://googleblog.blogspot.com/2012/04/introducing-google-drive-yes-really.html" title="google drive announcement">announced its new Google Drive syncing service</a>, I had to take it for a spin.</p>
+<p>For those of you with short attention spans, my conclusion is: <em>Google Drive has great promise due to its price-point, Google’s great infrastructure and the integration with Google Docs, but you shouldn’t yet trust this service with your critical files.</em></p>
+<p>To summarise: Google Drive is Google’s answer to Dropbox (and 50 other inferior syncing services). You install a small app on your Windows or Mac (no Linux yet, although <a href="http://www.pcworld.com/businesscenter/article/254488/google_drive_for_linux_is_on_the_way.html" title="Google Drive for Linux should come">it has been promised</a>), and then it’ll keep a folder of your choosing in sync with Google Drive in the cloud. You can access your files via the website <a href="http://drive.google.com/" title="google drive website">drive.google.com</a> (google docs, but slightly updated), any computer with the Google Drive software, or via the Google Drive mobile apps.  You can also share files through authorizing the relevant google accounts, or via URL. Google Drive has a number of built-in viewers, meaning that users will not have to install PowerPoint to view your PowerPoint presentation for example.</p>
+<p>Things start to deviate from Dropbox when we look at the storage plans and prices the big G is offering:</p>
+<p><a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg" title=""><img alt="" class="aligncenter size-medium wp-image-1654" data-attachment-id="1654" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="gdrive_storage_plans" data-large-file="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans-300x86.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg" data-orig-size="744,215" data-permalink="https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/gdrive_storage_plans/" height="86" sizes="(max-width: 300px) 85vw, 300px" src="http://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans-300x86.jpg" srcset="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans-300x86.jpg 300w, https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg 744w" title="gdrive_storage_plans" width="300"/></a></p>
+<p>You get 5G for free. For a measly $2.49 per month, you get 25G of storage, and 30G of GMail storage as a bonus, and for $5 per month you get 100G! Compare this with the $10 / month Dropbox wants for 50G. This, together with the fact that you <em>could</em> go up to 16 TERABYTES if you would want to, makes you at least think for a bit.</p>
+<p>I installed the client on this Windows laptop. For you screenshot-freaks, here’s the context menu for the systray icon:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2012/04/gdrive_systray_menu.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2012/04/gdrive_systray_menu.jpg"
+        
+            alt="Google Drive systray context menu."/> </a><figcaption>
+            <p>Google Drive systray context menu.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Note that because I pay a measly $5 / year for 25G of extra GMail space, I’ve been <em>grandfathered</em> into 25G of Google Drive space. Heh, I also only just learnt the term grandfathered. It means I could get this because of my previous price plan that doesn’t exist anymore.</p>
+<p>Here’s the preferences dialog, nothing special really, unless you have a screenshot fetish:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2012/04/gdrive_prefs.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2012/04/gdrive_prefs.jpg"
+        
+            alt="Google Drive preferences dialog."/> </a><figcaption>
+            <p>Google Drive preferences dialog.</p>
+        </figcaption>
+</figure>
+</p>
+<p>For me also an important functionality: You can easily recover deleted files. If you delete a file on your client computer, it gets synced to the trash folder on the google drive website, from where undeletion is an easy click on the “Recover” button away. Under the File | Manage Revisions you can retrieve file versions up to 30 days ago, or 100 revisions, whichever comes earlier.</p>
+<p>Another important difference is that Google Drive, as far as I could find out, does not do something similar to Dropbox’s LAN sync, a pretty cool function that will grab files from the computers on the local LAN if they’re available, instead of from the cloud.</p>
+<p>So I set out to do some tests. Before I could really get started, I ran into the first problems. I created a text file in my Google Drive folder with Vim (yes, I use Vim. deal.), as I wanted to test the file revisions. As you know, when Vim saves a file, it first writes to a temporary file, then deletes the original file and finally renames the new file to the original file. This confused Google Drive to no end. For each save, Google Drive created a new file with exactly the same name in the web interface, whilst on the client side, there was only one file.</p>
+<p>I then proceeded to delete the text file on the client, leaving me with the following situation, even after Google Drive was done syncing:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2012/04/gdrive_sync_huh.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2012/04/gdrive_sync_huh.jpg"
+        
+            alt="Huh?! You call this syncing?"/> </a><figcaption>
+            <p>Huh?! You call this syncing?</p>
+        </figcaption>
+</figure>
+</p>
+<p>As you can see, on the server is my text file, on the client nothing. I expect of a syncing solution to actually, uhm, synchronise my files. I did notice a sync error message in the systray context menu. After clicking, I got this dialog:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2012/04/gdrive_sync_error.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2012/04/gdrive_sync_error.jpg"
+        
+            alt="Informative error message. NOT."/> </a><figcaption>
+            <p>Informative error message. NOT.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Yes, thank you Google Drive, you have an unknown issue. That’s just great.</p>
+<p>So, in spite of the really attractive offering, this type of wonkiness (multiple files due to stupid create-new-rename saves, sync errors soon after), even after a few minutes of playing around, does not instil confidence or trust. If there’s one thing a good sync service should do, it’s instil confidence and trust. Dropbox has never failed me, and I’ve thrown some pretty strange things at it. Until Google Drive is able to do the same, I’ll continue coughing up 10 bucks a month for Dropbox.</p>
+]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description> HEY!
+I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however.</description><content:encoded><![CDATA[ <p>HEY!</p>
+<p>I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a <a href="/2011/06/26/eurovis-2011/" title="eurovis 2011 post">post about my EuroVis 2011</a> and my <a href="/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/" title="dagstuhl scivis 2011 post">Schloss Dagstuhl SciVis seminar</a> adventures.</p>
+<p>Before the blasting commences, I would like to present some relaxing visual input brought to you via my cell phone camera, which at the time of capturing found itself in my hand, itself being inside the chapel in <a href="http://maps.google.nl/maps?q=Herberg+Op+Hodenpijl,+Rijksstraatweg,+Schipluiden&amp;hl=en%E2%89%AA=51.987252,4.321012&amp;spn=0.002355,0.005348&amp;sll=51.986948,4.321007&amp;sspn=0.004711,0.010697&amp;t=h&amp;z=18" title="google maps of herberg op hodenpijl">Herberg op Hodenpijl</a>, a short westward cycle from my house:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/07/herberg_op_hodenpijl2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/07/herberg_op_hodenpijl2-1024x608.jpg"
+        
+            alt="Herberg op Hodenpijl chapel roof detail."/> </a><figcaption>
+            <p>Herberg op Hodenpijl chapel roof detail.</p>
+        </figcaption>
+</figure>
+</p>
+<p>The picturesque surroundings are home to the chapel, which hosted an art exhibition at that point, and an organic restaurant and grocer. Most (all?) of the produce comes from a small farm across the road that you can also visit. The goats are really friendly. You could do worse than popping by on a sunny day.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/07/herberg_op_hodenpijl1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/07/herberg_op_hodenpijl1-1024x608.jpg"
+        
+            alt="Herberg op Hodenbijl chapel roof detail."/> </a><figcaption>
+            <p>Herberg op Hodenbijl chapel roof detail.</p>
+        </figcaption>
+</figure>
+</p>
+<p>The rest of this post has been categorised, with nice headings, so that you can skim through it even faster.</p>
+<h4 id="health-and-well-being">Health and well-being</h4>
+<ul>
+<li>In a recent cooking insert on the television, <a href="http://dewerelddraaitdoor.vara.nl/Video-detail.628.0.html?&amp;tx_ttnews%5Btt_news%5D=22570&amp;tx_ttnews%5BbackPid%5D=626&amp;tx_ttnews%5Bcat%5D=148&amp;cHash=ab10fe812f48fd43e838df03ffa6cf31" title="DWDD video clip">two chefs prepared <em>Loup farci en croûte</em></a>, or sea bass filled with julienne vegetables in a pastry of a thousand layers. Take a look at the video clip: The chefs put an amazing amount of effort into preparing this visually beautiful and apparently delectable dish.</li>
+<li>My <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">TNR</a> and since recently also business partner, who can often be found hurtling down mountains on various and high-speed forms of personal transportation, and when he’s not is involved in a number of other extreme sports activities, managed to break two fingers on his right hand cycling over the flat and otherwise uneventful piece of earth between the computer science and physics buildings on our campus. Go figure.</li>
+<li>In a <a href="http://www.nlm.nih.gov/medlineplus/news/fullstory_112161.html" title="medlineplus article on coffee vs prostate cancer">recent study</a> with 48000 (yes, that’s fourty eight thousand) men followed over a period of 22 years, a strong correlation was found between drinking six cups of coffee per day and a lowered risk of prostate cancer. Also men (but can you still call them men?) drinking fewer than 6 cups of coffee per day had a lower risk. The study did correct for other lifestyle factors. The linked summary also mentions other studies in which coffee drinking has been associated with lower risk of Parkinson disease, type 2 diabetes and liver cancer. I guess I can worry less about this addiction than, euhm, the other ones.</li>
+</ul>
+<h4 id="nerd-news">Nerd News</h4>
+<ul>
+<li>Dropbox has recently activated functionality they call shareable links, meaning that you can request a unique <a href="http://db.tt/some_code">http://db.tt/some_code</a> link for any file or directory anywhere in your dropbox and share it with anyone else (also non-dropbox users), who is then able to download said file or directory given the link. There’s a page on the website where you can manage all of your shared links, for example deactivating ones you don’t want people to access anymore. Read the <a href="https://www.dropbox.com/help/167" title="dropbox help on sharable links">help on shareable</a> links for more information.</li>
+<li>As you <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/" title="blog post on the importance of taking notes">might know</a>, I keep a lab journal documenting in some detail my daily work activities. I also maintain a personal journal, mostly for dumping stuff that might be interesting for this blog. I used to do all of this in Google Docs, but for the past few weeks I’ve experimenting using <a href="http://www.tiddlywiki.com/" title="tiddlywiki website">TiddlyWiki</a> (this is a single file JavaScript-heavy wiki implementation) on my Dropbox for all my journaling and personal knowledge base needs. It’s been going swimmingly for at least two reasons: 1) It’s available also when I’m offline. 2) The idea of being able to break out into a new wiki page (called a tiddler) at the drop of a hat takes some getting used to, but fits the non-linear nature of my journal and personal knowledge base entries much better than the mostly linear google docs.</li>
+<li>I’ve settled on using the free <a href="http://www.tonido.com/" title="tonido website">tonido personal cloud software</a> to make all the files on my home server available via the internets. This means I can get to all of my music, photos are whatever no matter where I am. Pretty neat! (I have too much to fit on my 50G dropbox account. There’s also the PogoPlug software, but the free version has its limitations.)</li>
+<li>Just a few days before Google+ (Google’s new social networking religion, in case you’ve been sleeping for the past week) hit the internets, I installed the Google +1 button on this blog, see right at the bottom of every post. So now you know what to do with every post: Click my +1 button, then click my facebook like button, then leave me some snarky comment right here. Easy as 123, and I’m a happy camper.</li>
+</ul>
+<h4 id="comedy">Comedy</h4>
+<p>Whilst flipping through channels one Saturday night,  I flipped right into the stand-up comedian <a href="http://en.wikipedia.org/wiki/Demetri_Martin" title="demetri martin wikipedia page">Demetri Martin</a>. I made a note of it in my journal, and now here we are. Watch him present his research findings on his large pad, with his pointer:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/vaGa3kjRS7o?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>That’s it for now dear readers. I really do hope to be back soon, and I hope to do so with a slightly more focused contribution. See you on <a href="http://plus.google.com/" title="google plus">Google+</a>!</p>
+<p><strong>UPDATE 2011-07-23 note-taking strategy</strong></p>
+<p>To you I might appear fickle, but I guarantee that it’s just hyperactivity. I’ve since adjusted my note-taking strategy again. As you will have seen in the comments, Pieter Kitslaar subtly influenced me to go searching for a note-taking solution that syncs between phone and everywhere else. Fortunately, I ran into the <a href="http://simplenoteapp.com/" title="simplenote universe">SimpleNote universe</a> and I’m now officially in <strong>note-taking heaven</strong>. I have <a href="https://market.android.com/details?id=com.teragadgets.android.notes" title="flick note market page">Flick Note</a> on my Android, the SyncPad extension on Chrome (for sometimes) and <a href="http://www.resoph.com/" title="resoph notes website">ResophNotes</a> on Windows and on Linux with Wine. All apps work exactly as I would expect a super-fast and efficient note-taking app to work, with real-time incremental searching, hotkeys <strong>everywhere</strong>, and best of all, offline use and transparent syncing. <strong>ResophNotes is especially cool, definitely give it a shot.</strong></p>
+<p>So I’m using this SimpleNote setup for all my personal knowledge base and general note-taking needs. For detailed work and lab journaling, I’m now using linear OpenDocument files on my Dropbox, which solves the offline problem I had with Google Docs, which I do still adore for collaborative work.</p>
+<p>Lemme know in the comments what you think!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #19: The time-traveller’s BBQ.</title><link>https://cpbotha.net/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/</link><pubDate>Mon, 29 Mar 2010 22:13:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/</guid><description> This one is dedicated to the memory of DB.
+In this slightly introspective 19th edition of the Weekly Head Voices, looking in all directions in time simultaneously, but slightly ever so slightly more in the direction of week 12 of 2010, I do the usual week time break-down, win a fight with my ISP, go all out on Dropbox and Chrome, and smash through my yearly internet shopping quota, before arriving at the more extensive than usual backyard philosophy section, which today will dwell on the very much related themes of time-travel, perspective, stress and BBQs.</description><content:encoded><![CDATA[ <p><em>This one is dedicated to the memory of DB.</em></p>
+<p>In this slightly introspective 19th edition of the Weekly Head Voices, looking in all directions in time simultaneously, but slightly ever so slightly more in the direction of week 12 of 2010, I do the usual week time break-down, win a fight with my ISP, go all out on Dropbox and Chrome, and smash through my yearly internet shopping quota, before arriving at the more extensive than usual backyard philosophy section, which today will dwell on the very much related themes of time-travel, perspective, stress and BBQs.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/03/time-machine-1024.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/03/time-machine-1024.jpg"
+        
+            alt="My time machine. Fuel on the left."/> </a><figcaption>
+            <p>My time machine. Fuel on the left.</p>
+        </figcaption>
+</figure>
+</p>
+<p>During the past week, I checked off 22 GTD tasks, spread over 10 projects.  Besides these, I had the usual 2 hours of lecture preparation, 3 hours of lecturing and 17 hours of scheduled meetings, including an absolute power networking event where I definitely was the smallest fish in the bowl (lovely that!).</p>
+<p>If you are not of the nerdy persuasion, you might just want to skip the next few paragraphs until the bit with the backyard philosophy warning.</p>
+<p>On the nerd front, I had a bit of a fight with my internet provider as to the stability of my line. They were full of confidence that my line needed to be throttled to 4 Mbit/s to be stable, I had a suspicion that I could get it stable at a significantly higher rate. Guess who’s the daddy? ME OF COURSE. My line is stable at 5.54 Mbit/s (I’m about 3.2 km from the exchange). I now know far more about ADSL line black magic than I ever wanted to.  Bottom line in this case is that, in cases where your line only manages between 4 and 6 Mbit/s, ADSL1 can be much more stable than ADSL2.</p>
+<p>Further on the nerd front, <a href="http://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/" title="link to WHV where I get a month subscription">my month-long evaluation of Dropbox</a> has culminated in me signing on for a further year with a pro 50G account.  It’s just that good… Even furtherer, <a href="http://lastpass.com/" title="lastpass website">lastpass.com</a> has solved my last gripe with <a href="http://google.com/chrome" title="chrome website">Google Chrome</a>, namely that its stored password database is not encrypted. As part of the bargain, my passwords are now synchronized with the Cloud! Coupled with Chrome <a href="http://www.tomshardware.com/reviews/firefox-chrome-opera,2558.html" title="Tom's Hardware review of 5 browsers (March 2010)">absolutely crushing most other browsers in speed tests</a>, and the fact that up to now it has <a href="http://lifehacker.com/5177709/chrome-the-only-browser-standing-in-pwn2own-contest" title="lifehacker article on pwn2own competition">proven extremely hard to hack</a>, this has pushed me over the edge, into the Wonderful Land of Full-time Dedicated Google Chrome Addicts.</p>
+<p><strong>Warning: Excessive Backyard Philosophy Beyond This Point</strong></p>
+<p>On Wednesday I arrived home, all stressed out about work. Yes dear readers, some academics, like me for instance, <em>sometimes stress out about work</em>. Somehow, I was born without the ability to separate work from personal life. Mostly, this is an advantage: I really love my job. It’s become more a way-of-life, a philosophy if you will, than just a job. However, sometimes this means that I have great difficulty switching off my work circuits when this is necessary, for example when work finds itself in High Stress Mode (HSM) and I need to be in Relaxed Family-Person Mode (RFPM). At the end of such a work day, my body is displaced from work to home, but the contents of my head remain exactly the same. In effect, I travel through <em>space</em>, but not <em>time</em>.</p>
+<p>Back to Wednesday: Fortunately, fate conspired to arrange for me and my BBQ to meet, under a lovely early Spring sky. My BBQ is more than just a BBQ. I have recently come to the conclusion that it is a powerful magical artifact that is able to bend time (and space). Standing there admiring the glowing coals, everything came to a peaceful stand-still. Probably due to the severe time-warping slowing down the world, I could see the whole multi-dimensional life-landscape surrounding me in its true perspective.</p>
+<p>It’s not all that.</p>
+<p>Work is really important, and if that’s your passion, it should remain so.  It’s definitely mine. However, there’s more, and much of the more is even more important. I’ve made  this observation often enough before, but it’s one of those things that is apparent to my cognitive self, but somehow doesn’t have a permanent effect on my natural perception. Briefly on Wednesday evening, this realisation was clear. By Thursday the feeling was starting to disappear again.</p>
+<p><strong>Epilogue</strong></p>
+<p>Today I received the terribly sad news that a colleague, with whom I’d been working closely together for the past months, had unexpectedly passed away on Sunday, leaving behind a young family.</p>
+<p>One has to learn how to <em>keep</em> things in perspective. Life is too short not to.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #15: Auto-tune my cloud.</title><link>https://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/</link><pubDate>Sun, 28 Feb 2010 15:50:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/</guid><description> In this 15th edition of my weekly head voices, I move yet more of my life into the cloud, discover (years after everyone else) the delightful auto-tune internet meme and finally go all backyard-psychological whilst staring into the distance, obviously defocused, and waxing on about the purpose of this weblog.
+Before continuing, you might like to watch this clip explaining why you shall build a turtle fence (I’ll get back to the clip after my dropbox story):</description><content:encoded><![CDATA[ <p>In this 15th edition of my weekly head voices, I move yet more of my life into the cloud, discover (years after everyone else) the delightful auto-tune internet meme and finally go all backyard-psychological whilst staring into the distance, obviously defocused, and waxing on about the purpose of this weblog.</p>
+<p>Before continuing, you might like to watch this clip explaining why you shall build a turtle fence (I’ll get back to the clip after my dropbox story):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/qizNQKzatXA?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Last week I completed, you guessed it, 21 GTD tasks spread over 10 projects. Once again, one more task than last week. The question is thus not <em>if</em>, but <em>when</em> I’m going to have to disappoint you. :)  Worth mentioning on the miscellany front is that I’ve started playing around with <a href="http://processing.org/" title="processing.org website">processing</a>, a fantastic little system for programming visual effects and interaction, in preparation for a new first year course. My goal is to get the students irrevocably addicted to the coolness that is media processing! I’ll keep you up to date…</p>
+<p>In a <a href="http://cpbotha.net/2010/02/14/weekly-head-voices-13-so-you-want-to-sue-me/" title="previous WHV dropbox mention">previous post</a>, I was quite enthusiastic about Dropbox and its possibilities for collaboration. As some of you might now, I really like this whole living-in-the-cloud idea: I use GMail, Google Calendar and Google Documents quite extensively and I’m even paying for extra storage with the big G.  So, during the past week, I decided to bite the bullet some more and to move 12G more of my data right into the cloud, courtesy of a 50G Dropbox Pro account.  Up to now, I had a ridiculously complex synchronisation system keeping various subsets of my data up to date between a netbook, a laptop and three different servers. At the core of this system was <a href="http://www.cis.upenn.edu/~bcpierce/unison/" title="Link to unison file sync tool.">unison</a>, a brilliant multi-way open source synchronisation tool. In spite of this system mostly working, its complexity and the starkly contrasting It-Just-Works nature of Dropbox convinced me to give the simple solution a shot.</p>
+<p>So far I can only report that I remain impressed: At one stage I manually copied a complete dropbox (12Gigs) from one already synced machine to a fresh target machine and started the Dropbox software on the target. It politely asked:</p>
+<blockquote>
+<p>There is already a folder in your home folder called Dropbox. Do you want to merge all the existing files in that folder into your dropbox?</p>
+</blockquote>
+<p>After clicking on the “HELL YEAH!” button (that’s how it felt, ok), the software went on indexing for a minute or two and then correctly claimed that everything was nicely synced up. Very much understated robustness, kudos to the developers. I’m going to test-drive this whole business for one month, and then let you know whether it’s going to be  a permanent fixture in my cloud-home.</p>
+<p>Still wondering why you should build a turtle fence? Well, you can blame the Auto-Tune internet meme. Very shortly, auto-tune is an audio effect that corrects one voice to be perfectly in tune with backing music. In other words, a vocalist who can’t sing is in fact no problem at all, computer will fix! Initially it was used quite sparingly and its application was even sometimes kept a secret, until artists such as Cher and especially <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=avaSdC0QOUM&amp;feature=channel" title="My favourite T-Pain clip: I'm on a boat!">T-Pain</a> turned it into an art form, in fact exaggerating the effect until it gave a decidedly unsubtle robotic voice effect. The effect has become so famous that it now gets to call itself an internet meme and is often parodied.  The turtle clip above is just one of a whole series (auto-tune the news, see them all!). In the clip below, internet scientists *ahem*, including the well-known Professor Weird Al Yankovic, take an in-depth look at this phenomenon:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/fYzv-AVi78E?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Finally, back to the purpose of this weblog… Good blogs all seem to have some central theme, such as <a href="http://francoism.wordpress.com/" title="francoism's photography blog">photography</a>, environmental issues, science or pokemon. I seem to recall that I’d also seen this in more than one “how to become an A-list blogger” guides.  I don’t find it hard to believe that this is very important.  However, this blog has never had a central theme, it’s always been me blabbing about the various things that I find blab-worthy.  I’ve never been able to come up with something better, and it was definitely not for lack of trying.  The Weekly Head Voices, by focusing my blabbing into slightly more coherent episodes, have finally helped me to come to a conclusion.  Besides acting as a creative outlet, sitting down every week and carefully externalising a specific subset of my experiences with the express purpose of having it read by a small number of people, is an important ritual during which I am forced to distance myself from the events of the week, and to self-reflect.  By formally concluding the previous period in this way, one has the mental room to manoeuvre in preparation for the next. If you by any chance find any of it entertaining, or at least you just can’t look away, it’s a win-win situation!</p>
+<p>In other words: Theme-schmeme! The voices in my head will continue to be the many and various topics of this weblog, thank you very much. :)</p>
+<p>Have a great week kids!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #13: So you want to sue me?!</title><link>https://cpbotha.net/2010/02/14/weekly-head-voices-13-so-you-want-to-sue-me/</link><pubDate>Sun, 14 Feb 2010 14:00:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/02/14/weekly-head-voices-13-so-you-want-to-sue-me/</guid><description> In this post, I talk about our latest EuroVis news, give a quick break-down of my activities of the past week whilst turning my productivity glut into a game, sing an ode to DropBox, get threatened with a lawsuit (again) and impart, as per usual, some applied backyard philosophy. All hail the beautiful EuroVis 2010 logo!
+To kick start this blog post, allow me to get this off my chest: BOTH Stef Busking’s paper on the and Peter Krekel’s paper on the were conditionally accepted for EuroVis 2010!</description><content:encoded><![CDATA[ <p>In this post, I talk about our latest EuroVis news, give a quick break-down of my activities of the past week whilst turning my productivity glut into a game, sing an ode to DropBox, get threatened with a lawsuit (again) and impart, as per usual, some applied backyard philosophy.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/02/EuroVisLogoM2.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/02/EuroVisLogoM2.png"
+        
+            alt="All hail the beautiful EuroVis 2010 logo!"/> </a><figcaption>
+            <p>All hail the beautiful EuroVis 2010 logo!</p>
+        </figcaption>
+</figure>
+</p>
+<p>To kick start this blog post, allow me to get this off my chest: BOTH Stef Busking’s paper on the <censored> and Peter Krekel’s paper on the <censored> were conditionally accepted for EuroVis 2010! There’s some hard work ahead to get the papers ready for the final round, but this conditional acceptance (70% of submitted papers were rejected) is a great achievement. You may send them your webcammed applause and adoration.</p>
+<p>During the past week, the 6th of 2010, I did 2 hours of lecture preparation, 3 hours of straight lecturing, 4 hours of demonstrations and 11 hours of scheduled meetings, most of them quite energising. According to my GTD system, I also completed 19 tasks spread over 11 projects. I’m mentioning this here, as I want to increase my weekly task completion count, and posting this on my blog turns it into a weird kind of game. Once again, you are allowed, no you’re encouraged, to boo and hiss at the appropriate moments.</p>
+<p>I also finally got around to updating our research group’s publications listing scripts to generate per-paper pages, so that we’ll henceforth have a (hopefully) attractive webpage to go with each published paper. See <a href="http://graphics.tudelft.nl/Publications/2009" title="listing of 2009 papers">this</a> for an example of the per-year listing, and <a href="http://graphics.tudelft.nl/Publications/Krekel2010" title="example per-paper page">this</a> for an example of such a paper page.<figure aria-describedby="caption-attachment-752" class="wp-caption aligncenter" id="attachment_752" style="width: 354px"></p>
+
+
+
+
+
+
+
+
+<figure><a href="http://graphics.tudelft.nl/Publications/Krekel2010">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/02/shoulderseg-ss.jpg"
+        
+            alt="Screenshot of example per-paper page, click to go there!"/> </a><figcaption>
+            <p>Screenshot of example per-paper page, click to go there!</p>
+        </figcaption>
+</figure>
+
+<p>On Wednesday, three of us got together at my house to convert a complete PhD thesis (a good one, if I might add, and I’m allowed to, since it’s not my own) from Word to LaTeX, to get it ready for print production. Besides having lots of fun (besides bubbling personalities, beer was also involved), we got to stress-test DropBox by <em>concurrently</em> working on a shared folder filled with .tex files, and often doing full LaTeX builds involving latex, dvips, ps2pdf and bunches of image conversions. In spite of this dangerous concoction of a PhD thesis, concurrent editing, beer, laughter and the cloud, Murphy never arrived at the party and we ended up with 170 pages quite handsomely typeset in LaTeX. Kudos to Dropbox! (and us of course. duh.)</p>
+<p>On a slightly less excited note, I’ve just been threatened with a lawsuit for the second time due to activities on my blog. This time, it’s a very angry and foul-mouthed homeopath. If you’re interested, search the latest few comments on <a href="http://cpbotha.net/2008/03/22/dr-werner-you-are-a-singularity-of-stupid/" title="Link to my post on Charlene Werner.">my Werner post</a> for the ones made by a certain DJ. Currently I’m hoping he’ll take the reasonable (for both of us) option and stay away. (DJ, if you’re reading this, no this is not THAT promised post. I’m keeping to my end of the deal: You stay away, your identity is safe.)</p>
+<p>Continuing a short but promising tradition in backyard philosophy, I’d like to conclude with something I seem to remember a <a href="http://veryflatcat.com/" title="The Very Flat Cat's website">Very Flat Cat</a> telling me years ago, and something that recently came up again in yet another interesting discussion with the same extremely interesting guy from last week’s visualisation science discussion:</p>
+<p>&gt; Under-promise, then over-deliver.</p>
+<p>I’ve seen some pretty good mottos, but this one’s an absolute keeper. Thank you very much <a href="http://veryflatcat.com/" title="Yet another link to the Very Flat Cat!">Very Flat Cat</a>, also for this.</p>
+<p></censored></censored></p>
+]]></content:encoded></item></channel></rss>

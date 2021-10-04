@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gtd on voices in my head</title><link>https://cpbotha.net/tags/gtd/</link><description>Recent content in gtd on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 28 Jun 2017 19:29:59 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/gtd/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0321-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0321-PANO-1024x598.jpg"
+        
+            alt="Yes, we ended up in the mountains again."/> </a><figcaption>
+            <p>Yes, we ended up in the mountains again.</p>
+        </figcaption>
+</figure>
+
+<p>In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.</p>
+<p>One more of my <a href="https://github.com/org2blog/org2blog/pull/226">org2blog pull requests</a> was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</p>
+<p>Anyways.</p>
+<h1 id="aspnet-core-surprise">ASP.NET Core SURPRISE!</h1>
+<p>For a work project I was <em>encouraged</em> to explore Microsoft’s brand new <a href="https://docs.microsoft.com/en-us/aspnet/core/">ASP.NET Core</a>. While on the one hand I remain wary of Microsoft (IE6 anyone?), I am an absolute sucker for new technology on the other.</p>
+<p>You may colour me impressed.</p>
+<p>If I had to describe it in one sentence, I would have to describe ASP.NET Core as Django done in C#. You can develop and deploy this on Windows, Mac or Linux. You model and query your data using Entity Framework Core and LINQ for example, or Dapper if you prefer performance and don’t mind the SQL (I don’t), or both. You write controller classes and view templates using the Razor templating language.</p>
+<p>C# 7.0 looks like it could be a high development velocity language. It has modern features such as lambdas with what looks like real closures (unlike C++ variable capturing), as well as the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator">null coalescing operator (??)</a> and the <a href="http://geekswithblogs.net/BlackRabbitCoder/archive/2015/06/05/c.net-little-wonders-null-conditional-operator-in-c-6.aspx">null conditional operator (?.)</a>, the latter of which looks superbly useful. Between Visual Studio on Windows and the Mac, or the new Intellij Rider IDE (all platforms) or Visual Studio Code (all platforms), the tooling is top notch.</p>
+<p>Time will have to tell how it compares to Python with respect to development velocity, a competition that Python traditionally fares extremely well at.</p>
+<p>Where ASP.NET Core wins hands down is in the memory usage department: By default you deploy using the Kestrel web server, which runs your C# code using <em>multiple</em> libuv (yeah, of lightning fast node.js event loop fame) event loops, all in threads.</p>
+<p>With Django I usually deploy as many processes as I can behind uwsgi, itself behind nginx. The problem is that with Python’s garbage collector, these processes end up sharing very little memory, and so one has to take into account memory limits as well as CPU count on servers when considering concurrency.</p>
+<p>The long and the short of this is that one will probably be able to process many more requests in parallel with ASP.NET Core than with Django. With uwsgi and Django I have experimented with gevent in uwsgi and monkey patching, but this does not work as well as it does in ASP.NET Core, which has been designed with this concurrency model in mind from the get go. My first memory usage and performance experiments have shown compelling results.</p>
+<p>Hopefully more later!</p>
+<h1 id="a-cadence-of-accountability">A cadence of accountability</h1>
+<p>Lately my <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work habits</a> have taken a bit of a hit. At first I could not understand how to address this, until I remembered mention of a <em>cadence of accountability</em> in <a href="http://calnewport.com/books/deep-work/">The Book</a><em>.</em></p>
+<p>Taking a quick look at <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">that post</a>, I understood what I had forgotten to integrate with my habits. Besides just doing the deep work, it’s important to “keep a compelling scoreboard” and to “create a cadence of accountability”.</p>
+<p>Although I was tracking my deep work time using the <a href="http://orgmode.org/manual/Clocking-commands.html">orgmode clocking commands</a> (when I start “deep working” on anything, I make an orgmode heading for it in my journal and clock in; when I’m done I clock out; orgmode remembers all durations) I was not regularly reviewing my performance.</p>
+<p>With orgmode’s <code>org-clock-report</code> command (<code>C-c C-x C-r</code>), I can easily create or update a little table, embedded in my monthly journal orgfile, with all of my deep work clocked time tallied by day. This “compelling scoreboard” gives me instant insight into my weekly and monthly performance, and gives me either a mental kick in the behind or pat on the shoulder, depending on how many deep work hours I’ve been able to squeeze in that day and the days before it.</p>
+<p>The moment I started doing this at regular intervals, “creating a cadence of accountability” in other words, I was able to swat distractions out of the way and get my zone back.</p>
+<p>This is an interesting similarity with <a href="/tag/gtd/">GTD</a> (which I don’t do so much anymore because focus is far more important to me than taking care of sometimes arbitrary and fragmentary tasks) in that GTD has the <a href="https://zenhabits.net/weekly-review-key-to-gtd-and-achieving/">regular review</a> as a core principle.</p>
+<p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
+<p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Have a cow, man! [weekly head voices #45]</title><link>https://cpbotha.net/2011/04/11/have-a-cow-man-weekly-head-voices-45/</link><pubDate>Mon, 11 Apr 2011 21:32:58 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/04/11/have-a-cow-man-weekly-head-voices-45/</guid><description> Week 14 was awesome, thank you very much for asking! There are many reasons for this. The photo below is a memento of one of them, and was taken from my bicycle on Sunday, at that moment gliding gracefully through Schipluiden, genetic offspring #1 chattering away from the back: Photo taken with telephone, loosely held in one hand, finger curling around to try and touch the little iris thingy on the touch screen, other fingers attempting to prevent said telephone from accelerating towards and coming to a sudden stop on planet earth.</description><content:encoded><![CDATA[ <p>Week 14 was <strong>awesome</strong>, thank you very much for asking! There are many reasons for this. The photo below is a memento of one of them, and was taken from my bicycle on Sunday, at that moment gliding gracefully through Schipluiden, genetic offspring #1 chattering away from the back:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/04/schipluiden_20110410_1280.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/04/schipluiden_20110410_1280-612x1024.jpg"
+        
+            alt="Photo taken with telephone, loosely held in one hand, finger curling around to try and touch the little iris thingy on the touch screen, other fingers attempting to prevent said telephone from accelerating towards and coming to a sudden stop on planet earth. Don&#39;t you get any silly ideas now: The fact that my telephone has a touch screen does not mean that it has no keyboard. pffft!"/> </a><figcaption>
+            <p>Photo taken with telephone, loosely held in one hand, finger curling around to try and touch the little iris thingy on the touch screen, other fingers attempting to prevent said telephone from accelerating towards and coming to a sudden stop on planet earth. Don't you get any silly ideas now: The fact that my telephone has a touch screen does not mean that it has no keyboard. pffft!</p>
+        </figcaption>
+</figure>
+</p>
+<p>The weather was gorgeous, enabling me to fulfil another of my life goals: A weekend BBQ <a href="http://en.wikipedia.org/wiki/Hat-trick" title="wikipedia definition of hat-trick">hat trick</a>. Yes dear readers, on three distinct occasions did I have the exquisite privilege of firing up my magical BBQ, <a href="/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/" title="my bbq is special. it bends time and space.">bending time and space in the process</a>, and as a by-product producing scorched but delectably edible animal flesh. After this singular achievement, I’m confident my motherland will now allow me to keep my green mamba (that’s insider speak for the South African passport).</p>
+<p>In other news:</p>
+<ul>
+<li>On Tuesday, I <a href="http://twitter.com/#!/cpbotha/status/55168068397174784" title="link to my tweet dissing gmail tasks">tweeted</a> concerning my discontent with GMail Tasks (hey, I just blogged about a tweet), and especially the fact that it’s not even able to sort tasks alphabetically. My GTD-fu has been taking a seriously heavy beating due to me ditching Tracks for the far inferior GMail Tasks (I’m still not sure why I did so). The resourceful <a href="http://twitter.com/#!/_Noeska_" title="@_Noeska@">@<em>Noeska</em></a> <a href="http://twitter.com/#!/_Noeska_/status/55169792067383297" title="twanswer regarding RTM">tweeted back</a> (tweplied? twanswered?) that <a href="http://www.rememberthemilk.com/" title="RTM website">Remember The Milk</a> could be the answer to my, err, tweets, one of its major features being having a cow as favicon. Now as you know, I <strong>like</strong> cows, especially scorched ones, so I was quickly convinced. Now I must have been operating my PC Computer blind-folded when I last evaluated RTM (that’s what Remember The Milk  people sometimes call it) in 2008 (I still found some old test tasks in my account), because this really is the bees knees, especially when the bee in question is into GTD. The webapp is extremely snappy, it even reminds me of my deadlined tasks via email, it has discrete projects, smart adding of tasks, LOTS of keyboard shortcuts, smart searches (those are brilliant!) and a cow as favicon, which I might have mentioned before.</li>
+<li>Taking a step back from all of this, now that I have my GTD system fully operational again, I notice that due to it I’m spending more time on little things which probably do need to get done, but which my inferior accounting conveniently let slip during the previous few months, allowing even more time for the really important things. I plan to address this by explicitly allocating more time daily to the important things. The <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/" title="on the important of having a lab journal / planning document">lab journal / planning document</a> is instrumental in this.</li>
+<li>There’s a <a href="http://www.inc.com/magazine/20110401/jason-fried-why-i-run-a-flat-company.html" title="article by jason fried on inc: why i run a flat company">stunning article</a> by Jason Fried of <a href="http://37signals.com/" title="37signals website">37signals</a> in this month’s issue of Inc magazine on why he runs a <em>flat company</em>. He makes a good case for running a company with as little as possible hierarchy, i.e. no management for the sake of management. Their focus is on skill and craftmanship, and a form of democratic self-management. The person in a team that’s the best at some thing, becomes the organic leader in situations where that thing is most relevant. You should really read the article, I’ll whet your appetite with the following quote:</li>
+</ul>
+<blockquote>
+<p><em>We’re not big fans of what I consider “vertical” ambition—that is, the usual career-path trajectory, in which a newbie moves up the ladder from associate to manager to vice president over a number of years of service. On the other hand, we revere “horizontal” ambition—in which employees who love what they do are encouraged to dig deeper, expand their knowledge, and become better at it. We always try to hire people who yearn to be master craftspeople, that is, designers who want to be great designers, not managers of designers; developers who want to master the art of programming, not management.</em></p>
+</blockquote>
+<p>That’s almost it for this week’s edition of the Weekly Head Voices. Thanks for stopping by, I hope you have an awesome week! To help you get started, here is an animated movie of Tim Minchin’s beat poem <em>Storm</em>. If you’re into crystals, pyramids, palm reading, spirits or any other form of irrational self-delusion, you might want to avert your eyes. Otherwise, enjoy:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/HhGuXCuDb1U?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>P.S. <em>Rational</em> self-delusion is of course an entirely different kettle of fish.</p>
+]]></content:encoded></item><item><title>On the importance of taking notes. [Weekly Head Voices #38]</title><link>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</link><pubDate>Sat, 19 Feb 2011 22:39:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</guid><description> Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!
+One On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel.</description><content:encoded><![CDATA[ <p><em>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!</em></p>
+<h2 id="one">One</h2>
+<p>On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/02/evil_school_by_fmalan.jpg"
+        
+            alt="Evil School. (Photo by the talented fpixel.wordpress.com.)"/> </a><figcaption>
+            <p>Evil School. (Photo by the talented fpixel.wordpress.com.)</p>
+        </figcaption>
+</figure>
+</p>
+<p>The joyous transition took place in the Evil School’s Academiegebouw in Leiden, and this time yours truly (I’m referring to me in a round-about fashion) even had the great honour of playing a part in the formal proceedings. If you’re curious as to what exactly this ritual constitutes, see <a href="/2010/05/29/augmentation-weekly-head-voices-23/" title="previous edition of the WHV also on PhD defences in Leiden">this previous edition of the WHV</a> on the graduation of another terribly evil colleague. I believe that the bunch of us now constitute a bona fide Axis of Evil. No, the evil jokes can unfortunately not stop yet.</p>
+<p>The Party was held in a secret cafe nearby. You will notice that I’ve capitalised Party, as it was not your average run of the mill Evil School graduation affair, but a social event of note. Here in Holland, the PhD defence and graduation are a combined affair, and so the whole day is dedicated to just one person. It is actually very special: People take time off from work, sometimes even temporarily put aside their differences, and travel from all over to attend the festivities. It’s like a wedding, except that there’s only one of you. I can only recommend it very highly. At the Party, everyone had clearly read the memo, and they were there with that singular goal in mind: Celebrate the freshly minted Evil Doctor. Presents were given, speeches were held, photos were shown, beer was imbibed and, flying in the face of all advice concerning the mixing of alcohol, cameras and social networking, the <a href="http://fpixel.wordpress.com/" title="link to the evil photographer">best evil photographer in town</a>, who’s coincidentally also in Evil School, took the most amazing photos that you should be able to see on Facebook if you’re one of the privileged few to belong to The Network, also known as <em>The Friends of the Axis of Evil</em>.</p>
+<h2 id="two">Two</h2>
+<p>On the good news front, you&rsquo;ll see (or not) on the <a href="http://www.uib.no/eurovis2011/program.php" title="list of eurovis 2011 conditional accepts">list of EuroVis 2011 conditional accepts</a>, that a paper by cool colleagues from far away, to which I contributed a small part, has been conditionally accepted, and hence has a significant chance of being presented at said event in Bergen, Norway (May 31 to June 3). We also have plans to submit a poster (or two), so there&rsquo;s an even more significant chance that I will make an appearance at this fantastic conference! We&rsquo;re also cooking up various odds and ends that will hopefully crystallise sufficiently by the end of March to be submissible for VisWeek 2011. Cross yer fingers.</p>
+<h2 id="three">Three</h2>
+<p>Today&rsquo;s backyard time management section is in fact more about planning than it is about notes. However, my Pro-Tips involve combining them in an easy to implement productivity booster. When people start out in research, one of the first bits of advice they get is keeping some kind of lab journal. I think this advice applies to more than just research: If you do any kind of independent or project work, jotting down your activities, thoughts and results during the day is useful in helping to structure your thought processes, and also very helpful when you have to backtrack a complex multi-day procedure. During my Ph.D., I filled a number of real cardboard-and-paper books with notes. More recently, I&rsquo;ve started using Google Documents for the same purpose. Besides all the other advantages, having to document explicitly your work output keeps you productive and on your toes.</p>
+<h3 id="pro-tip-1">Pro Tip #1</h3>
+<p><em>Keep a lab journal, even if you don&rsquo;t work in a lab.</em></p>
+<p>I&rsquo;ve <a href="/2011/01/09/2011-a-cyber-suburban-odyssey-weekly-head-voices-35/" title="2011 start post">mentioned before</a> that my resolutions for 2011 included more concrete planning. This has manifested in a work-in-progress planning for the whole year, including milestones, awards won, and so forth, but much more practically, it has manifested in a little lab-journal-compatible trick. Every morning when I sit down to begin the day, I spend a few minutes thinking and then start the day&rsquo;s journal entry by writing down, as concretely as possible, the tasks that I plan to complete by the end of the day. This also ensures that I spend effort on the <em>important</em> things, and not only on the urgent things. So, that brings us to:</p>
+<h3 id="pro-tip-2">Pro Tip #2</h3>
+<p><em>At the start of each day, write down in your lab journal exactly and
+concretely what you plan to accomplish by the end of that day.</em></p>
+<p>These pro tips appear to be quite straight-forward, but together they help one
+to focus, and to keep tabs on one&rsquo;s <em>effective</em> productivity. In other words,
+just being terribly busy the whole day gets you nothing; the trick is being
+terribly busy in all the right directions.</p>
+<h2 id="ps">P.S.</h2>
+<p>Somebody is clearly pushing the boundaries of awesomeness… cowboys AND aliens!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/In-m2RJw3hE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Weekly Head Voices #20: A Lamarckian Knot.</title><link>https://cpbotha.net/2010/04/07/weekly-head-voices-20-a-lamarckian-knot/</link><pubDate>Wed, 07 Apr 2010 14:23:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/04/07/weekly-head-voices-20-a-lamarckian-knot/</guid><description> Welcome dear fellow-monkeys, to the 20th edition of the Weekly Head Voices, exceptionally vaguely associated with the 13th week of the year 2010. In this post, nothing much happens, except that I tell you about the bowline (the king of knots), present the usual GTD analysis, spiced up with some perspective gravy and conclude with a brief introduction to epigenetics, something that I’ve also very recently learned about for the first time.</description><content:encoded><![CDATA[ <p>Welcome dear fellow-monkeys, to the 20th edition of the Weekly Head Voices, exceptionally vaguely associated with the 13th week of the year 2010. In this post, nothing much happens, except that I tell you about the bowline (the king of knots), present the usual GTD analysis, spiced up with some perspective gravy and conclude with a brief introduction to epigenetics, something that I’ve also very recently learned about for the first time.</p>
+<p>Here is the knot I promised, as well as one of this post’s major visual elements:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/9GX9Vv5cQas?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I just love the gentleman’s wooden delivery! It somehow suits the knot. It turns out that the version below, albeit of exactly the same knot, is a more correct or accepted execution (but the delivery is not as cool):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/57CTfXEk7qk?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>This is the knot I use to tie my keys to my <a href="http://cpbotha.net/2009/09/20/weekly-head-voices-4-the-new-roomie-medvis-at-mevis-fairy-tale-beach/" title="blog post with photo of my 8G USB stick">James Bond-small 8G USB stick</a> and to my iButton with a length of diabolo string (that’s seriously good stuff!), as a sort of makeshift and extremely space-efficient key-ring. With the bowline knot, you can make a fixed-size loop at the end of a rope that won’t slip and is also easy to untie. It turns out this is often called the <a href="http://en.wikipedia.org/wiki/Bowline" title="Wikipedia page on the bowline">King of Knots</a>, which is kind of nice, as it’s dead simple to make and extremely useful. To my few sailing friends this is probably old news, hopefully to some of you it’s not.</p>
+<p>During week 13, consisting of only 4 work days (we had us a nice long weekend here in NL, hence also the lateness of this post), I had about 15 hours of regular meetings and managed to complete 26 GTD tasks spread over 9 projects.</p>
+<p>As part of my new high-priority theme of <em>keeping things in perspective</em>, I’ve been revising my work strategy in a number of regards. Importantly, I’ve taken a hard look at my <strong>work-at-home policy</strong>. Somehow, I’d forgotten about my rule of only working at home on the fun parts of my job, and otherwise only in case of a looming deadline. However, there had been so many deadlines, that I had gotten into the bad habit of simply continuing at home with my work day, without applying the fun-filter. That’s all over now. The fun-filter is back on ultra-strict, thank you very much. I just have to remember next time deadline-season comes along again.</p>
+<p>Further, my GTD-brainwashed <strong>inbox-emptying compulsion</strong> had reached pathological proportions. I wasn’t able to open up my work inbox without stressing out and immediately going to work emptying the thing out again by processing all mails, a situation that would occur at the most inopportune and unsuitable times. I’ve now got this in check as well, and I’m able to stare at my inbox when it’s not mail processing time without breaking down. (So what if I have to bite down and have those bulging veins on the sides of my head!) This is a refinement of the first of my <a href="http://cpbotha.net/2009/11/29/three-rules-of-stress-free-email-productivity/" title="blog post three rules of stress-free email productivity">three rules of stress-free email productivity</a>, in that sometimes one <em>has</em> to check mail for other reasons than processing the whole inbox, and in those cases it’s important to remember that it’s <em>not an inbox processing moment</em>.</p>
+<p>In a slight variation of the usual <strong>backyard philosophy</strong> theme, I’d like to tell you briefly about epigenetics, something that I’ve recently heard about for the first time. This weekend’s Volkskrant had a good article on the topic by Frank Grosveld (professor of Cell Biology and Genetics at the EMC in Rotterdam) and Jos de Mul (professor of Philosophy of Man and Culture, also at the EMC). Epigenetics is the study of external influences by the surroundings, feeding and habits on gene expression. The DNA itself is not modified, but how the DNA code is read and reacted upon: This happens through chemicals that attach to the nucleotides in the DNA. In this way, there’s an extra regulatory layer, allowing the environment to influence gene expression.</p>
+<p>Sounds reasonable, until one ponders the implications: A number of studies have shown that this mechanism makes it possible for <em>environmental effects to be inherited</em>, even being passed on for example from grandparents to grandchildren! The Volkskrant article mentions a number of examples:</p>
+<ul>
+<li>Men who were underfed during their pre-adolescence have grand-children with a significantly lower risk of cardiovascular disease whilst grandfathers who lived in times of plenty have grand-children with a significantly higher risk of diabetes (Pembrey and Bergen 2006).</li>
+<li>In gestating rats, exposure to an anti-fungal agent used in wine-making affects offspring three generations down the line (Skinner 2008).</li>
+<li>Mice placed in a stimulation-rich environment have offspring with a similarly improved memory, even when they grow up in a stimulation-poor environment (Feig 2009).</li>
+</ul>
+<p>Besides shedding new light on the whole <a href="http://en.wikipedia.org/wiki/Nature_versus_nurture" title="Wikipedia entry on nature vs nurture">Nature vs. Nurture debate</a>, this has the profound implication that we live in a kind of post-existentialist reality, where your actions and experiences affect not only yourself, but also your future offspring, and even the offspring of those around you, in more direct ways than hitherto recognised.</p>
+<p>Think about that for a while, ok?</p>
+<p><em>(P.S. Figuring out the first part of the title of this post is left as a simple but gratifying exercise for the reader: You too will be able to use this impressive-sounding qualifier in full sentences at cocktail parties.)</em></p>
+]]></content:encoded></item><item><title>Weekly Head Voices #14: My Week Was A Wormhole.</title><link>https://cpbotha.net/2010/02/21/weekly-head-voices-14-my-week-was-a-wormhole/</link><pubDate>Sun, 21 Feb 2010 18:25:33 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/02/21/weekly-head-voices-14-my-week-was-a-wormhole/</guid><description> In this week’s post, documenting the 7th week of 2010, I wonder about perceived business, mention two of our most recent open source releases and give to you, my readers, two screencasts about the DRE, in addition probably highly effective in the treatment of insomnia. Screenshot of the FoBVis system. This is just one of our many attempts to take over the world, subtly.
+Just before bedtime on Monday, I had still managed to make a note in my special top-secret Weekly Head Voices journal.</description><content:encoded><![CDATA[ <p>In this week’s post, documenting the 7th week of 2010, I wonder about perceived business, mention two of our most recent open source releases and give to you, my readers, two screencasts about the DRE, in addition probably highly effective in the treatment of insomnia.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/02/fobvis1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/02/fobvis1.jpg"
+        
+            alt="Screenshot of the FoBVis system. This is just one of our many attempts to take over the world, subtly."/> </a><figcaption>
+            <p>Screenshot of the FoBVis system. This is just one of our many attempts to take over the world, subtly.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Just before bedtime on Monday, I had still managed to make a note in my special top-secret Weekly Head Voices journal.  I usually do this every day to make sure I don’t forget anything by the weekend, when I usually have some time to write these posts.  Thursday night’s entry simply says “WTF, where did my week go?!” — There had been no other entries since Monday. I’m still not quite sure why it felt that way, as my breakdown of activities is similar to that of the previous week: 2 hours of lecture preparation, 3 hours of lecturing, 15 hours of scheduled meetings and 20 tasks completed (one more than last week!!) across 10 projects. Perhaps those four extra hours of meetings don’t scale linearly in the amount of business they cause, due to the number of extra context switches that they bring. I have to add that a number of truly exciting projects are brewing, but I can’t say more about them until I can say more about them, if you know what I mean.</p>
+<p>We (The Group, of course) recently released two new open source software projects:</p>
+<ul>
+<li><a href="http://fobvis.googlecode.com/" title="FoBVis project site">FoBVis</a> is a tool for the real-time acquisition and visualisation of human motion: Currently it supports the Flock-of-Birds electromagnetic acquisition system, we are currently working to integrate Optotrak optical tracking system. We should also shortly have a version of the <a href="http://code.google.com/p/devide/wiki/HelpDRE" title="You can use the DRE to run stuff, including the FoBVis.">DRE</a> that can run the FoBVis on YOUR computer as well.</li>
+<li><a href="http://histovis.googlecode.com/" title="HistoVis project site">HistoVis</a> is a client-server system for the visualisation of large collections of (registered) histological sections.</li>
+</ul>
+<p>It’s all very exciting that more products of our research are entering the big bad outside world!  The FoBVis is already being actively used by the LUMC Laboratory for Motion Analysis (we hope that more labs will start using this soon), and HistoVis will soon go live from the <a href="http://visible-orbit.nl/" title="Visible Orbit website">visible-orbit.nl server</a>. Of course these have both been released under the new BSD license, as the GPL sucks.</p>
+<p>Screencasts: Video Performance Art of the Nerdily Inclined. That’s where one makes a recording of one’s computer screen whilst demonstrating some or other procedure, optionally narrated by oneself, and then proceeds to upload said recording (called a screencast) to YouTube or similar. See <a href="http://cpbotha.net/2008/05/10/recording-screencasts-on-windows-with-free-software/" title="Instructions on creating screencasts in Windows.">a previous post of mine</a> for one possible (and free) way of doing this on Windows. This weekend I produced and uploaded two such pieces, both demonstrating aspects of the DeVIDE Runtime Environment, or <a href="http://code.google.com/p/devide/wiki/HelpDRE" title="DRE help page">DRE</a>, that paradoxically do NOT involve DeVIDE itself. Especially the second is really soothing, one could even say mildly sleep-inducing.  I just say: <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=xEbYw73y3pM" title="First sleep-inducing DRE screencast.">(1) Try</a> <a data-rel="lightbox-video-1" href="http://www.youtube.com/watch?v=7FwPw9qlsms" title="Second sleep-inducing DRE screencast.">(2) it</a>.</p>
+<p>To conclude, I give you a track from the new Massive Attack album Heligoland, called Paradise Circus. It should make your brain sit and scratch its chin stubble, not unlike the usual dose of backyard philosophy:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/jEgX64n3T7g?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Three rules of stress-free email productivity</title><link>https://cpbotha.net/2009/11/29/three-rules-of-stress-free-email-productivity/</link><pubDate>Sun, 29 Nov 2009 13:17:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/11/29/three-rules-of-stress-free-email-productivity/</guid><description> Hey kids, this would have been the Weekly Head Voices #10, but since the past week can be really compactly summarised (4 hours of lecturing, 8 hours of lab supervision, 1 M.Sc. defense, 15 hours of meetings, 1 brilliant going-away party), I’ve decided to dedicate this week’s post to something completely different, something that one or two of you might even find useful! Image copyright Grant Neufeld.
+I get to process quite an amount of email every day, and the amount seems to be increasing year after year.</description><content:encoded><![CDATA[ <p>Hey kids, this would have been the Weekly Head Voices #10, but since the past week can be really compactly summarised (4 hours of lecturing, 8 hours of lab supervision, 1 M.Sc. defense, 15 hours of meetings, 1 brilliant going-away party), I’ve decided to dedicate this week’s post to something completely different, something that one or two of you might even find useful!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/11/fullish_inbox.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/11/fullish_inbox.jpg"
+        
+            alt="Image copyright Grant Neufeld."/> </a><figcaption>
+            <p>Image copyright Grant Neufeld.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I get to process quite an amount of email every day, and the amount seems to be increasing year after year.  Experience has taught me one or two hard lessons with regard to the efficient handling of said email.  Because I like you, I now give you my not-so-secret-anymore rules for stress-free email productivity!</p>
+<p><strong>1. Only check email when you actually have the time to take action.</strong></p>
+<p>This is the most important rule, and also the one I forget the most often.  The bottom-line is that you should only check your email if you have the time and inclination at that moment to take action on all of your inbox.  Taking action includes the GTD-style delete, delegate, defer and do possibilities, so for example chopping an email up into its constituent actions and sticking those in your todo-system (deferring) counts as taking action.  Under any other circumstances, don’t even check, as this will only serve to stress you out.  Conversely, following this rule will lead to having longer blocks of contiguous time to spend on tasks that you select, and not the crazy reactive work processing style endemic in the modern work place.</p>
+<p>This rule is in practice nicely satisfied by the advice to make time for two or three distinct email processing moments per day.</p>
+<p><strong>2. Don’t use email as your main todo system.</strong></p>
+<p>Conversely put, have a good todo system that’s separate from your email.  This forces you to analyse emails during email processing moments and to break them up into the atomic GTD-style tasks that they represent.  You can always link the original email to the task, but the task description should be your main unit of work.  Seeing the same emails over and over increases stress and leads to unnecessary effort as you analyse them again and again every time that you see them.  Tasks, in general being more concisely described, are easier to start with and also increase the resolution of your accountable productivity.</p>
+<p><strong>3. Have separate work and non-work accounts.</strong></p>
+<p>Accidentally seeing one work email during your well-deserved holiday can spoil your mood. Maintain a separate email account for non-work (social) matters and make sure correspondents are aware of the difference.  This way, you can continue using email during rest periods without the risk of that one misplaced email putting you back in work-mode for the rest of the day.  This measure helps to maximise the value of your relaxation time.</p>
+<p><em>Following the three rules above will also help a great deal in attaining and maintaining the nirvana that is inbox-zero.</em></p>
+]]></content:encoded></item><item><title>My PalmOS-based GTD setup</title><link>https://cpbotha.net/2007/10/07/my-palmos-based-gtd-setup/</link><pubDate>Sun, 07 Oct 2007 14:28:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/10/07/my-palmos-based-gtd-setup/</guid><description><![CDATA[ HI THERE GANG! If you don&rsquo;t like long-winded introductions, skip to the bit starting with &ldquo;THE NITTY GRITTY&rdquo;.
+Getting Things Done (GTD, see here for the book, here and here for introductory information, and here for a cool workflow diagram) by David Allen is a master-piece. Having read it, most of it kind of fits. It&rsquo;s almost as if, if one had had the time to sit down and think for long enough, one would have come up with the same brilliant tips.]]></description><content:encoded><![CDATA[ <p>HI THERE GANG! If you don&rsquo;t like long-winded introductions, skip to the bit
+starting with &ldquo;THE NITTY GRITTY&rdquo;.</p>
+<p>Getting Things Done (GTD, see <a href="http://www.amazon.co.uk/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280/ref=pd_bbs_sr_2/026-1822804-9222826?ie=UTF8&amp;s=books&amp;qid=1191746337&amp;sr=8-2" title="Link to Allen's GTD on amazon.co.uk.">here</a> for the book, <a href="http://www.43folders.com/2004/09/08/getting-started-with-getting-things-done" title="43folders introduction to GTD.">here</a> and <a href="http://gtd.marvelz.com/blog/2007/07/10/gtd-gems-part-1/" title="More intro info on GTD.">here</a>
+for introductory information, and <a href="http://www.scribd.com/doc/249379/Getting-Things-Done-advanced-work-flow-diagram" title="GTD advanced workflow diagram">here</a> for a cool workflow diagram) by
+David Allen is a master-piece. Having read it, most of it kind of fits. It&rsquo;s
+almost as if, if one had had the time to sit down and think for long enough,
+one would have come up with the same brilliant tips. But one hadn&rsquo;t, so one
+didn&rsquo;t. The Delete-Do-Delegate-Defer monster, contextual todo-lists
+(Work-Computer, Home, Calls, Errands, etc.), the Weekly Review(tm) and
+<em>actionable</em> next actions are some of the most valuable things I picked up when
+I read this book about a year and a half ago.</p>
+<p>As all GTD converts do, I initially set out to design the perfect GTD
+implementation (Allen leaves one to one&rsquo;s own devices), and as is always the
+case, it was far from. Based on the use of a Palm Tungsten C, my system was
+lacking a direct link between projects and next actions which eventually
+resulted in things falling through the cracks. Things Falling Through Cracks
+are of course highly undesirable, and can even be acutely embarrassing.</p>
+<p>So recently, because my system erroneously reported that I had absolutely
+nothing to do (and because I have one of the biggest deadlines of my life
+looming, of course), I spent my completely imaginary free time improving my GTD
+implementation. It seems to be going swimmingly, so I&rsquo;ve documented it here:</p>
+<h1 id="the-nitty-gritty">The Nitty Gritty</h1>
+<h2 id="electronic">Electronic</h2>
+<p>Everything is coordinated on my Palm Tungsten C with Datebk6 (Datebk5 should
+also do the trick). Everything else (mail, physical files) is ancillary, the
+Tungsten is canonical. If it&rsquo;s not in there, it won&rsquo;t get done. So:</p>
+<ul>
+<li>each project gets a memofile, first line is &ldquo;0project_code - project name&rdquo;,
+e.g. &ldquo;0VCBM08 - organize VCBM 2008 congress in Delft&rdquo;, second line is the
+outcome, i.e. what should happen for me to consider the project
+successful. The rest of the memo file contains unstructured metadata related
+to the congress. All these memofiles are in the category &ldquo;@ Projects&rdquo;</li>
+<li>right after having created the project memofile, I create all actionable
+tasks as normal Palm ToDos in DateBk6. Each task name is built up as follows:
+&ldquo;0project_code:: task description&rdquo;, for example &ldquo;0VCBM08:: Call TU congress
+facilities to get a quote.&rdquo;</li>
+<li>all tasks, except for the next actions are put in the category
+&ldquo;99Dormant&rdquo;. The next actions are put in the categories corresponding to
+their correct contexts, for example &ldquo;@ Work-Comp&rdquo;.</li>
+<li>you can see where this is going: in DateBk6, one can very easily change which
+categories of todos are shown (I use shortcut stroke-2), depending on one&rsquo;s
+context. &ldquo;99Dormant&rdquo; is last in the list, so I keep these tasks
+invisible. When a task is completed, it is ticked off, and the next task&rsquo;s
+category is toggled from &ldquo;99Dormant&rdquo; to its correct context, meaning it won&rsquo;t
+be invisible / inactive anymore and will appear in the correct context.</li>
+<li>to get an overview of all next tasks, I activate all ToDo categories,
+including &ldquo;99Dormant&rdquo;. I have the ToDo views sorted alphabetically, so all
+tasks belonging to a project automatically clump together, thus giving me a
+nice project-oriented overview. Because all project codes start with &ldquo;0&rdquo;,
+they clump together at the beginning.</li>
+<li>tasks can optionally have a due date. I&rsquo;ve set up ToDos in DateBk6 to show
+always, no matter their due date In general, I only date next actions if they
+very clearly constitute the last required step for a deadline to be met.</li>
+<li>I have an optional project code &ldquo;YYDead::&rdquo; just for deadlines. These are not
+actionable items, they are merely reminders.</li>
+<li>I also have project code &ldquo;ZZ::&rdquo; for project-less next actions.</li>
+<li>Completed project memofiles are moved to the category &ldquo;@ Completed&rdquo; for
+documentation purposes. There is also a &ldquo;@ Someday / Maybe&rdquo; category for
+project memofiles that can be simply activated later.</li>
+</ul>
+<p>In this way, I have a very explicit link from project to constituent actions,
+and also to next actions. In contrast to <a href="http://pigpog.com/node/1031" title="GTD PigPog method">PigPog</a>&lsquo;ing, I also get the
+endorphin rush when I check off an action as done, and I&rsquo;ve setup DateBk6 to
+make a note in my daily journal (automatically) documenting when it was
+completed. I haven&rsquo;t tried this yet because I don&rsquo;t really need it, but with a
+tool such as PsLink and the appropriate project codes it should be possible to
+link back from any task to its parent project.</p>
+<h2 id="physical">Physical</h2>
+<p>I have two sets of transparent file thingies: one in my laptop bag (always with
+me), and one at home, each set consisting of 3 labeled classes: @ Read /
+Review, @ Waiting For and @ Actions. This is for carrying around paper work
+that relates to these contexts. However, each piece of paper work is covered by
+an entry in my PDA.</p>
+<p>That should cover it! If I&rsquo;ve missed anything, or something is not clear,
+please let me know in the comments so I can amend this posting.</p>
+]]></content:encoded></item></channel></rss>

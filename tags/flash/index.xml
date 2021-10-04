@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>flash on voices in my head</title><link>https://cpbotha.net/tags/flash/</link><description>Recent content in flash on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 24 May 2010 14:29:09 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/flash/index.xml" rel="self" type="application/rss+xml"/><item><title>An Even More Ultimate Boot Disk!</title><link>https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/</link><pubDate>Mon, 24 May 2010 14:29:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/</guid><description> In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!
+UBCD is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth.</description><content:encoded><![CDATA[ <p>In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!</p>
+<p style="text-align: center;">
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" title=""><img alt="" class="aligncenter size-full wp-image-910" data-attachment-id="910" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="emubd_logo_400" data-large-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" data-orig-size="400,181" data-permalink="https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/emubd_logo_400/" height="181" sizes="(max-width: 400px) 85vw, 400px" src="http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" srcset="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg 400w, https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg 300w" style="border: none;" title="emubd_logo_400" width="400"/></a>
+</p>
+<p><a href="http://ultimatebootcd.com/" title="Ultimate Boot CD website">UBCD</a> is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth. It even contains Parted Magic, a compact linux distribution for fixing partitions, amongst others.</p>
+<p><a href="http://www.knoppix.net/" title="Knoppix website">Knoppix</a> is the swiss knife of live linux distributions, and <a href="http://www.ubuntu.com/" title="Ubuntu website">Ubuntu</a> 10.04 is probably the slickest distribution out there at the moment. Both of these can be ran live from your USB disc, so they don’t have to touch your hard drive.  However, both of them are also able to install to your hard disc if you so choose.</p>
+<p>To me it seemed logical to combine <strong>all three of these elements onto the single USB flash drive</strong> that I carry on my keychain, as I know of many grandmas with broken PCs…</p>
+<p>Let’s go!</p>
+<ol>
+<li>
+<p>make sure the single FAT32 partition on your USB stick is bootable (use command ‘a’ in linux fdisk) and large enough (you’ll need just a bit less than 2G).</p>
+</li>
+<li>
+<p>mount your flash drive on a directory, henceforth referred to as FLASH_MNT.</p>
+</li>
+<li>
+<p>copy all files from the ubcd5 iso into a directory, henceforth referred to as CUSTOM_UBCD5.</p>
+</li>
+<li>
+<p>mount the ubuntu 10.04 i386 iso on a directory, henceforth referred to as LUCID_MNT</p>
+</li>
+<li>
+<p>mount the knoppix iso on a directory, henceforth referred to as KNOPPIX_MNT.</p>
+</li>
+<li>
+<p>copy necessary boot files from the ubuntu ISO to UBCD: <pre class="brush: bash; title: ; notranslate" title="">mkdir CUSTOM_UBCD5/ubcd/custom/lucid
+cp LUCID_MNT/casper/vmlinuz LUCID_MNT/casper/initrd.lz CUSTOM_UBCD5/ubcd/custom/lucid
+</pre></p>
+</li>
+<li>
+<p>copy ubuntu-10.04-desktop-i386.iso to your flash disk: <pre class="brush: bash; title: ; notranslate" title="">mkdir /FLASH_MNT/isos
+cp ubuntu-10.04-desktop-386.iso /FLASH_MNT/isos/
+</pre></p>
+</li>
+<li>
+<p>Knoppix can’t be booted directly from its iso like Ubuntu, so we have to copy the actual contents of the ISO to your flash: <pre class="brush: bash; title: ; notranslate" title="">cp -r KNOPPIX_MNT/KNOPPIX to FLASH_MNT/
+cp -r KNOPPIX_MNT/boot/isolinux to FLASH_MNT/KNOPPIX/isolinux
+</pre></p>
+</li>
+<li>
+<p>replace FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg with the isolinux.cfg at the bottom of this post. (It’s the same file, except that “KERNEL linux” is replaced with “KERNEL /KNOPPIX/isolinux/linux”, “initrd=minirt.gz” with “initrd=/KNOPPIX/isolinux/minirt.gz”, F1, F2, F3 and DISPLAY paths all fixed, e.g. “F2 f2” becomes “F2 /KNOPPIX/f2” and finally all instances of “quiet” removed)</p>
+</li>
+<li>
+<p>Now replace CUSTOM_UBCD5/ubcd/custom/custom.cfg with the custom.cfg at the bottom of this post.</p>
+</li>
+<li>
+<p>copy all files from CUSTOM_UBCD5 to your usb flash disk: <pre class="brush: bash; title: ; notranslate" title="">cp -r CUSTOM_UBCD5/* FLASH_MNT/
+</pre></p>
+</li>
+<li>
+<p>Finally, make the whole thing bootable with the following invocation. It’s really important that you replace /dev/sdX1 with the correct device for your flash disk. To see what this is, type “mount” and see the device associated with your FLASH_MNT. <pre class="brush: bash; title: ; notranslate" title="">cd FLASH_MNT
+sudo ./ubcd/tools/linux/ubcd2usb/syslinux -s -d /boot/syslinux /dev/sdX1
+</pre></p>
+</li>
+</ol>
+<p>You’re done. You should now be able to boot with your EMUBD! Knoppix and Ubuntu can be found under “User defined”.</p>
+<p>Here are those files that you’ll need. First <strong>FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg</strong>:</p>
+<pre class="brush: bash; title: ; notranslate" title="">DEFAULT knoppix
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+TIMEOUT 50
+# TOTALTIMEOUT 20
+# KBDMAP german.kbd
+PROMPT 1
+F1 /KNOPPIX/isolinux/boot.msg
+F2 /KNOPPIX/isolinux/f2
+F3 /KNOPPIX/isolinux/f3
+DISPLAY /KNOPPIX/isolinux/boot.msg
+LABEL adriane
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime adriane
+LABEL knoppix
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=791 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb1024x768
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=791 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb1280x1024
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=794 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb800x600
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=788 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL memtest
+KERNEL memtest
+APPEND foo
+LABEL dos
+KERNEL memdisk
+APPEND initrd=balder.img
+LABEL failsafe
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 vga=normal atapicd nosound noapic nolapic noacpi pnpbios=off acpi=off nofstab noscsi nodma noapm nousb nopcmcia nofirewire noagp nomce nonetwork nodhcp xmodule=vesa initrd=/KNOPPIX/isolinux/minirt.gz
+</pre>
+<p>… and then <strong>CUSTOM_UBCD5/ubcd/custom/custom.cfg</strong>:</p>
+<pre class="brush: bash; title: ; notranslate" title="">MENU INCLUDE /ubcd/menus/syslinux/defaults.cfg
+UI /boot/syslinux/menu.c32
+
+# option to be able to go back to the main menu
+LABEL -
+MENU LABEL ..
+COM32 /boot/syslinux/menu.c32
+APPEND /ubcd/menus/syslinux/main.cfg
+
+# this clause will boot directly from the ubuntu iso
+LABEL ubuntulive
+MENU LABEL Ubuntu 10.04 i386 Desktop LIVE
+LINUX /ubcd/custom/lucid/vmlinuz
+INITRD /ubcd/custom/lucid/initrd.lz
+APPEND boot=casper iso-scan/filename=/isos/ubuntu-10.04-desktop-i386.iso --
+
+# and this one will chain into the knoppix boot setup
+LABEL knoppix
+MENU LABEL Knoppix 6.2.1 LIVE
+CONFIG /KNOPPIX/isolinux/isolinux.cfg
+</pre>
+<p><strong>Post scriptum</strong></p>
+<ul>
+<li>The instructions in this post are derived from the UBCD linux documentation and various forum posts.  Credits to their authors!</li>
+<li>If you <em>don’t want Knoppix</em> on your bootable USB and you have a Windows computer, you could also use <a href="http://www.pendrivelinux.com/boot-multiple-iso-from-usb-multiboot-usb/" title="Link to post explaining MultiBootISOs">MultiBootISOS</a> to add multiple ISOs to a USB boot disk.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>beards on voices in my head</title><link>https://cpbotha.net/tags/beards/</link><description>Recent content in beards on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 08 Feb 2016 20:59:23 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/beards/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #104: Let me update you.</title><link>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</link><pubDate>Mon, 08 Feb 2016 20:59:23 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</guid><description> This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.
+I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!</description><content:encoded><![CDATA[ <p>This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.</p>
+<p>I dug up an email I wrote to <a href="https://en.wikipedia.org/wiki/Alexander_Stepanov">Alex Stepanov</a> and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!), <em>that he had never found much use for inheritance</em>. In those days, nerd celebrities mailed you back. Also, poor old C++ inheritance…</p>
+<p>A few years later, but still back in the day, <a href="https://twitter.com/gerwindehaan">@gerwindehaan</a> and I wrote a time management web-app which could automatically schedule all of your tasks. In other words, it would decide exactly <em>what</em> you needed to do <em>when</em> in order to hit all of your deadlines, your appointments and your priorities. It had an ugly UI (story of my life), but it worked (story of my life?). That whole adventure marked the start of our downward spiral away from academia and into the sea of money and debauchery we currently find ourselves in. In any case, I resurrected the old TimeScapers website and wrote a <a href="http://timescapers.com/2016/02/07/timescapers-and-timerank-retrospective/">short little retrospective blog post</a> if you’re interested.</p>
+<p>I got tired of waiting for the OTA (over the air) update to Marshmallow (that’s Android 6.0) for my LG G3, so I booted into Windows 10 (yes, I have a partition with that also), and used <a href="http://forum.xda-developers.com/g4/help/lgup-install-kdz-mm-lp-t3249803">LGUP</a> with the <a href="http://forum.xda-developers.com/lg-g3/help/downgrade-mm-to-lp-using-lg-t3283912/post64597779#post64597779">8974 DLL</a>  (very important to use this and NOT the 8994, else you WILL FAIL) and the official <a href="http://csmgdl.lgmobile.com/dn/downloader.dev?fileKey=FW4DYI8332GOAME9EB45Q8B/D85530B_00_1217.kdz">LG G3 Marshmallow KDZ</a> (1.3GB md5sum 711d91254f5e3e02536395b35e1d534f) to upgrade the phone. After one day I can say the following: Looks mildly prettier and feels slightly smoother, but battery life has improved phenomenally. Let me know in the comments if you need help with doing this on your own phone.</p>
+<p>The graphical warning below is why I’m not ready to shave my beard quite yet (click for imgur source):</p>
+<p><a href="https://imgur.com/gallery/4KjqlTh" rel="attachment wp-att-2362"><img alt="what happens when you shave" class="alignnone size-large wp-image-2362" data-attachment-id="2362" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="what happens when you shave" data-large-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-300x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur.jpg" data-orig-size="1936,1936" data-permalink="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/my-husband-shaved-his-awesome-beard-turned-into-a-little-girl-imgur/" height="660" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" src="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-150x150.jpg 150w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-300x300.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-768x768.jpg 768w" width="660"/></a></p>
+<p>As you might or might not have heard, our currency has recently taken quite a serious knock. Fortunately, it’s still extremely good for exchanging for meaty pleasures, such as the almost 2.5kg of rib-eye and t-bone you see in the photo below. Prepared and enjoyed with good friends, this was as beautiful as it looks. The hand you see in the picture belongs to my friend, who is a giant.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/02/ribeye_tbone_yum.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/02/ribeye_tbone_yum-1024x576.jpg"
+        /> </a>
+</figure>
+
+<p>Don’t worry, I don’t eat that much meat every day. Also, when I grow up, I want to be a vegan:</p>
+<p><a href="http://imgur.com/gallery/bmyBQBE" rel="attachment wp-att-2365"><img alt="bmyBQBE - Imgur" class="alignnone size-full wp-image-2365" data-attachment-id="2365" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="bmyBQBE – Imgur" data-large-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur-224x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" data-orig-size="500,671" data-permalink="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/bmybqbe-imgur/" height="671" sizes="(max-width: 500px) 85vw, 500px" src="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg 500w, https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur-224x300.jpg 224w" width="500"/></a></p>
+<p>(It’s almost just like when someone is doing their MBA! Have I offended enough people yet? I was also planning to insult people who manage to take <a href="http://www.cracked.com/funny-304-ayn-rand/">Ayn Rand</a> seriously, but <a href="http://www.alternet.org/story/150680/the_truth_about_gop_hero_ayn_rand">they’re not very good</a> with multi-syllabic words, or reading in general. Furthermore, my beef with vegans (I’m on the roll here) and with MBA students is actually just good-natured teasing, a tone I would prefer to maintain. For now.)</p>
+<p>Have a great week kids, I hope to see you on the other side!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #86: Beardy.</title><link>https://cpbotha.net/2014/11/27/weekly-head-voices-86-beardy/</link><pubDate>Thu, 27 Nov 2014 20:00:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/11/27/weekly-head-voices-86-beardy/</guid><description> You could have set your watch by the appearance of this weekly blog post! Enjoy it while you can.
+Here&amp;rsquo;s a random photo from my week:
+I finally figured out what planking is.
+Note-taking and todo system chaos (NERD WARNING). My email-note-taking-todo-system is again slowly morphing into something strange and unknown. I once called using Trello for task management “the time management connoisseur equivalent of lying in the gutter with a cheap bottle of wine in a brown paper bag”.</description><content:encoded><![CDATA[ <p>You could have set your watch by the appearance of this weekly blog post! Enjoy it while you can.</p>
+<p>Here&rsquo;s a random photo from my week:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/11/wpid-millhouse_kitchen_plank.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/11/wpid-millhouse_kitchen_plank.jpg"
+        
+            alt="I finally figured out what planking is."/> </a><figcaption>
+            <p>I finally figured out what planking is.</p>
+        </figcaption>
+</figure>
+
+<h2 id="note-taking-and-todo-system-chaos-nerd-warning">Note-taking and todo system chaos (NERD WARNING).</h2>
+<p>My email-note-taking-todo-system is again slowly morphing into something strange and unknown. I <a href="http://noeskasmit.com/comparison-of-task-managers-rtm-astrid-wunderlist-todoist/#comment-71">once called</a> using <a href="https://trello.com/">Trello</a> for task management “the time management connoisseur equivalent of lying in the gutter with a cheap bottle of wine in a brown paper bag”.</p>
+<p>Well either I was just plain wrong, or I&rsquo;m lying in that gutter again and I just don&rsquo;t realize it.</p>
+<p>Because I became very frustrated with all the task systems that I tried (and committed to) because all of them (including the one I designed together with big G) insist on presenting all of my tasks in neat little project-grouped or deadline-ordered lists, whilst my brain is a chaotic spread-out network that wishes to see <i>everything</i> at the same time, preferably spread out and very visual, I&rsquo;m back to using a giant Trello board (that <a href="http://vxlabs.com/2014/08/08/driving-the-dell-u2713hm-at-2650x1440-from-the-hdmi-output-of-the-acer-v3-571g/">2560×1440 monitor</a> is very slowly earning its keep).</p>
+<p>It&rsquo;s perhaps better than it sounds: When I process mail on my phone or in my Emacs, I forward the ones that need action to a secret Trello address which turns said mail into a Trello card in the “incoming” list of my tasks board, including all email attachments and images. Sometimes I&rsquo;m naughty, and I reply to the sender summarising the list of actions I will attempt to undertake, and then Bcc that reply to Trello.</p>
+<p>On that Trello board I have lists for reminding me of the important projects I have to remember to work on, and then lists for <code>ASAP</code>, <code>This week</code>, <code>Later (scheduled)</code> and <code>Someday / ideas</code>. I also have lists called <code>Done (week WEEKNUM)</code> into which I can move cards once I&rsquo;ve taken care of them. After a few weeks, I archive the whole <code>done</code> list of a particular week for posterity. It also doesn&rsquo;t hurt that <a href="https://play.google.com/store/apps/details?id=com.trello">the Trello Android app</a> is quite beautiful.</p>
+<p>On the notes front, I&rsquo;m currently very much in love with <a href="http://orgmode.org/">Emacs org-mode</a>, as you might have guessed from <a href="http://cpbotha.net/2014/11/20/weekly-head-voices-85-gone-south/">last week&rsquo;s WHV</a>. What I did not mention then, is that I now also have a date-stamped .org jourrnal for each project that I&rsquo;m working on. From each general daily .org journal I link to the various project journal .org files for that day. Based on these daily / project-based log files, I can generate high-quality LaTeX reports, <a href="http://vxlabs.com/2014/06/16/level-sets-the-practical-10-minute-introduction/">technical blog posts</a> and even presentations, if only I can remember the exact sequence of 17 emacs keyboard shortcuts to do so. As mentioned previously, I use <a href="https://github.com/cpbotha/deft-turbo">deft-turbo</a> to navigate my notes database.</p>
+<p>I still dream of an even more graphical and non-linear way of doing all of this.</p>
+<h2 id="musings-on-beards-real-men-warning">Musings on beards (REAL MEN WARNING).</h2>
+<p>Besides being the sign of a true man, <a href="http://en.wikipedia.org/wiki/Beard#The_.22Philosopher.27s_beard.22">the internet says</a> that the beard was “seen as the defining characteristic of the philosopher; philosophers had to have beards, and anyone with a beard was assumed to be a philosopher”. Based on extensive research, I can assure you that this is still the case.</p>
+<p>On a slightly more serious note, I might be getting slightly beard-rospective, because my hairy face-friend might really have to disappear soon. I&rsquo;m going to have to do my part in an academic committee or two, and I&rsquo;m going to have to cross borders into the EU. The former might not be such an issue, but my current slightly middle-eastern look might not be the best option in terms of the latter.</p>
+<p>In any case, before I reluctantly join the shaven masses, I would like to share with you two realizations from the perspective of a weirdly bearded man.</p>
+<p>In my town, there are no hipsters. There probably will never be. That, plus the fact that I deviate significantly from the text-book hipster look, means I get recognized everywhere I go. I think this is partly due to appearing different from most other people I would normally be pigeon-holed with. Subtly complementary to this is the fact that my face has become a kind of a graphical icon of itself: If you were to take a photo of it, and you were to scale it down to 32×32 pixels, you&rsquo;d probably still be able to recognize it. The upshot of this is that even when I&rsquo;ve visited a restaurant or café only once, the next time, weeks afterwards, I am treated like a long-time regular. That&rsquo;s pretty cool.</p>
+<p>More important than this, is the fact that people now experience difficulty applying their pigeon-holing mechanism. Around these parts, there is far too much assumed piece-wise homogeneity. In other words, people are used to believing that they are able to stereotype you after one look. I have now experienced that when I have contact with locals, their little stereotyping sensors start smoking a little bit and then fizzle out. There is usually a short moment of panic, but then we start afresh, which is nice.</p>
+<h2 id="while-12">While (1&lt;2).</h2>
+<p>I would like to leave you with this track from <a href="http://en.wikipedia.org/wiki/While(1_Is_Less_Than_2)">deadmau5&rsquo;s latest album</a>. I&rsquo;m doing this, because it&rsquo;s an extremely surprising album. You should definitely listen to the whole work, but this track should serve as an example of the <i>while (1&lt;2)</i> surprise.</p>
+<div class="jetpack-video-wrapper">
+<div class="embed-vimeo" style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="473" mozallowfullscreen="" src="https://player.vimeo.com/video/101257125" webkitallowfullscreen="" width="840"></iframe>
+</div>
+</div>
+]]></content:encoded></item><item><title>Astropsychonaut. [Weekly Head Voices #63]</title><link>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</link><pubDate>Sat, 03 Dec 2011 21:41:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</guid><description> I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):
+Watching this, my nostalgia flared up. You see, I’ve been addicted to science fiction ever since I can remember. It started with Buck Rogers, and the original Star Trek, and only got much worse when I discovered Arthur C. Clarke, Ray Bradbury, Isaac Asimov and Douglas Hill.</description><content:encoded><![CDATA[ <p>I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):</p>
+<div class="jetpack-video-wrapper">
+<div class="embed-vimeo" style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="473" mozallowfullscreen="" src="https://player.vimeo.com/video/32001208" webkitallowfullscreen="" width="840"></iframe>
+</div>
+</div>
+<p>Watching this, my nostalgia flared up. You see, I’ve been addicted to science fiction ever since I can remember. It started with Buck Rogers, and the original Star Trek, and only got much worse when I discovered Arthur C. Clarke, Ray Bradbury, Isaac Asimov and Douglas Hill. I find Kubrick’s 2001 and even the sequel movie 2010 beautiful.</p>
+<p>For the longest time, I wanted to be an astronaut. I think I still do.</p>
+<p>I believe I might have thought that my career plans would be seen as childish when I wrote this short piece for school detailing my life plans when I was 7 or 8 (late eighties, not saying anymore):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/12/cpbotha_life_plans.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/12/cpbotha_life_plans.jpg"
+        
+            alt="My life plans as a 7 or 8 year old. My brother found this somewhere and put it on facebook. I wonder what it would be like to go back in time and explain that concept to myself."/> </a><figcaption>
+            <p>My life plans as a 7 or 8 year old. My brother found this somewhere and put it on facebook. I wonder what it would be like to go back in time and explain that concept to myself.</p>
+        </figcaption>
+</figure>
+</p>
+<p>For those of you without the required Afrikaans background, here is a short translation, as true as possible to the original:</p>
+<blockquote>
+<p>When I gow up, I’d like to work with computers, because then I’ll become really smart and I’ll know more about the outdoors and nature. As I grow older, I’ll become a professor, because perhaps I’ll find a cure for leprosy and after that I’m going to study to be a millionaire, because then I’ll go abroad or around the world.</p>
+</blockquote>
+<p>Not a bad plan for a 7 or 8 year old, if you don’t mind me saying so myself. This note has in fact reminded me that there’s still more than enough decisions to be made and work to do, so I’ll have to postpone becoming an astronaut for a little while longer. At least by the end I’m going to end up a rich traveller, which is probably not a bad deal.</p>
+<p>In other news this week:</p>
+<ul>
+<li>It seems like just the other day that I made my <a href="/2011/05/22/just-one-thing-weekly-head-voices-49/" title="400th connection on LinkedIn connection post">400th connection on LinkedIn</a>. I’m happy to report that I broke the 500 barrier two weeks ago, and now I have that fancy looking “500+” next to my name. I finetuned my headline to celebrate the occasion, after which I promptly got approached by a head hunter.</li>
+<li>Jonathan Dyer is the guru of facial hair. Check out <a href="http://www.dyers.org/blog/beards/beard-types/" title="dyers' beard types">all the beard types and accompanying facial expressions</a> that he has mastered. Yes, that’s a hint of jealousy that you detect in my writing.</li>
+<li>More reasons to love the coffee: Giving rats the equivalent of what a human gets after two cups of coffee, the caffeine caused nerve cells in a certain region of the hippocampus to show a significantly bigger burst of activity. These strengthened synapses might have a role in learning and memory. Read <a href="http://boingboing.net/2011/11/21/caffeines-boosts-signals-in-th.html" title="coffee good for hippocampus activity (boingbonig)">this summary on boingboing</a> and <a href="http://www.nature.com/neuro/journal/vaop/ncurrent/abs/nn.2962.html" title="nature neuroscience article on effect of coffee on activty in CA2 of hippocampus">the article on Nature Neuroscience</a>.</li>
+<li>In an exceptionally disappointing move, <a href="http://www.telegraph.co.uk/news/worldnews/africaandindianocean/southafrica/8907057/South-Africa-passes-secrecy-bill.html" title="south african secrecy bill in the telegraph">South African parliament has passed a new secrecy bill</a> that gives members of government the power to declare information a state secret, thus deterring honest-keeping journalists and other whistle-blowers with a 25 year jail sentence. Desmond Tutu sums it up nicely when he says that this makes the State answerable only to the State.</li>
+</ul>
+<div>
+<p>
+<span class="Apple-style-span" style="font-size: 14px; line-height: 23px;">If this new bill manages to make it through the constitutional court as well, the country is going to take a giant step backwards. At least we’ll have <a href="http://drinkfacedrink.com/">facedrink</a> to cheer us up again!<a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" title=""><img alt="" class="aligncenter size-medium wp-image-1579" data-attachment-id="1579" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="facedrink1" data-large-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" data-orig-size="152,400" data-permalink="https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/facedrink1/" height="300" sizes="(max-width: 114px) 85vw, 114px" src="http://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg" srcset="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg 114w, https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg 152w" title="facedrink1" width="114"/></a></span>
+</p>
+</div>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,196 @@
+<!doctype html><html>
+<head>
+<title>ThunderBird support of RFC 3676 format=flowed is half-broken // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="ThunderBird support of RFC 3676 format=flowed is half-broken">
+<meta property="og:description" content="Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
+What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>ThunderBird support of RFC 3676 format=flowed is half-broken</h1>
+</header>
+<div class=article-meta>
+<a href=/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/ class=article-date>
+<time datetime=2016-09-27T07:00:25.000+00:00 itemprop=datePublished>2016-09-27</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>Summary: <a href=http://www.ietf.org/rfc/rfc3676.txt>RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
+<h1 id=what-is-rfc-3676-formatflowed>What is RFC 3676 format=flowed?</h1>
+<p>Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through <a href=http://www.ietf.org/rfc/rfc3676.txt>RFC 3676</a> (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</p>
+<p>I would like to try and summarise very compactly what exactly format=flowed is and how it works.</p>
+<p>Believe it or not, email can still be sent as plain text, i.e. not as HTML. Furthermore, this text is usually wrapped, i.e. newlines are inserted at a comfortable column width, e.g. 72 characters. This used to work wonderfully, until mobile devices came along. Because their screens often aren’t able to show the full 72 character width, the devices would be forced to wrap the text, resulting in a really ugly comb effect:</p>
+<pre>Someone sent me this really interesting
+email. Unfortunately
+it was wrapped so badly that I had difficulty
+reading it. Even worse,
+it made me like the sender of the email less.</pre>
+<p>To solve this problem, RFC 2646 was proposed (later to be superseded by its successor <a href=http://www.ietf.org/rfc/rfc3676.txt>RFC 3676</a>). All that had to happen, was that the sender could add a “format=flowed” to the outgoing email’s content-type, and wrap the email with both <strong>soft</strong> and <strong>hard</strong> line breaks (a line break in this case is a carriage return followed by a line feed, or CRLF). <strong>Soft line breaks</strong>, consisting of a space followed by CRLF, are used at the end of intra-paragraph lines, i.e. lines that could potentially be reflowed / joined. <strong>Hard line breaks</strong>, consisting of just the CRLF directly following the last character of the line, are used at the end of lines that should not be reflowed.</p>
+<p>This meant that we could continue sending plaintext mails as we always did, with CRLFs exactly where we always had them. However, with format=flowed and a few extra spaces at strategic points, receiving devices that supported this format had the <em>option</em> of reflowing. Older devices would display the email exactly as they always had.</p>
+<h1 id=what-is-thunderbird-doing-wrong>What is Thunderbird doing wrong?</h1>
+<p>In Thunderbird 45.3.0, format=flowed can be activated in <em>Preferences | Advanced | Config Editor</em> by setting <em>mailnews.send_plaintext_flowed</em> to <em>true</em>.</p>
+<p>If you now start sending an email in plaintext mode, you’ll notice that Thunderbird is visually wrapping your text, i.e. it’s not inserting any hard line breaks. However, when you actually send the email, Thunderbird will replace all the visual line breaks with <em>format=flowed</em> <strong>soft</strong> line breaks. Your manually entered hard line breaks are maintained.</p>
+<p>This is really great! Your emails render perfectly, even on smaller devices.</p>
+<p>Unfortunately, when you reply to a correctly formatted format=flowed email, the quoted text is hard wrapped.</p>
+<p>Viewing the message source with Emacs, we can see line breaks as $ characters. In the non-quoted part, the pink blocks are the expected spaces before each line break, meaning they will be treated as reflowable. However, in the quoted reply, there are no spaces before the line breaks, meaning they will be treated as unreflowable hard line breaks:
+<figure><a href=/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png>
+<img src=/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png alt="TB 45.3.0 hard wraps a quoted reply in format=flowed mode. Naughty Thunderbird!"> </a><figcaption>
+<p>TB 45.3.0 hard wraps a quoted reply in format=flowed mode. Naughty Thunderbird!</p>
+</figcaption>
+</figure>
+</p>
+<p>This is really very sad, and also quite unnecessary. When the email arrives on a mobile device, the quoted reply can’t be reflowed, and it looks like this:
+<figure><a href=/wp-content/uploads/2016/09/Screenshot_2016-09-27-08-24-55.png>
+<img src=/wp-content/uploads/2016/09/Screenshot_2016-09-27-08-24-55-1024x735.png alt="Incorrectly soft-wrapped quoted reply can’t be reflowed on my mobile device."> </a><figcaption>
+<p>Incorrectly soft-wrapped quoted reply can’t be reflowed on my mobile device.</p>
+</figcaption>
+</figure>
+</p>
+<p>How embarrassing.</p>
+<h1 id=how-ever-will-we-be-able-to-survive-this-catastrophe>How ever will we be able to survive this catastrophe?</h1>
+<p>I have not been able to convince Thunderbird to soft-wrap quoted replies, even going so far as to insert the extra spaces myself. Thunderbird helpfully (not!) removes those spaces before sending the email, resulting in really embarrassing email rendering on receiving mobile devices that fully support format=flowed.</p>
+<p><em>Edit | Rewrap</em> in the compose window simply hard wraps everything, so it will only make things worse in the context of format=flowed.</p>
+<p>I have also experimented with sending the quoted bits as really long lines (Emacs and the <a href="http://globs.org/download.php?lng=en">TB External Editor addon</a> FTW). This displays nicely on modern mobile devices, but will result in infuriatingly long lines on MUAs that do not support flowed text.</p>
+<p>Ideally, someone working on Thunderbird will realise that the current implementation desperately needs fixing, and will just do the job. Alternatively, someone will point me at a Thunderbird addon and source code I could modify to fix this behaviour. (If you’ve seen the multi-year arguments about text wrapping on the Thunderbird bug tracker, you’ll understand why I think an addon is a better bet than an externally suggested code change / pull request.)</p>
+<p>I fear that I may be one of the last people still sending plaintext emails, so it might be that nothing will come of this desperate call for help. :)</p>
+<h1 id=update-on-2019-07-16>Update on 2019-07-16</h1>
+<ul>
+<li>The current GMail web-ui <em>ignores</em> format=flowed and renders such emails with
+hard linebreaks everywhere. Thank you Google for violating yet more email
+standards.</li>
+<li>Apple&rsquo;s iOS Mail App does a <strong>perfect</strong> job of reflowing format=flowed
+emails. This adds to <a href=/2016/11/27/android-security-in-2016-is-a-mess/>the list of
+reasons</a> I have for sticking
+with their mobile devices.</li>
+</ul>
+</div>
+<div class=article-toc>
+<h3>Contents</h3>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#what-is-rfc-3676-formatflowed>What is RFC 3676 format=flowed?</a></li>
+<li><a href=#what-is-thunderbird-doing-wrong>What is Thunderbird doing wrong?</a></li>
+<li><a href=#how-ever-will-we-be-able-to-survive-this-catastrophe>How ever will we be able to survive this catastrophe?</a></li>
+<li><a href=#update-on-2019-07-16>Update on 2019-07-16</a></li>
+</ul>
+</nav>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/formatflowed>format=flowed
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/hard-line-break>hard line break
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/plaintext>plaintext
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/reflow>reflow
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/rfc-2646>RFC 2646
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/rfc-3676>rfc 3676
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/soft-line-break>soft line break
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/thunderbird>thunderbird
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Why it’s healthy that Microsoft and Google are eating Apple’s lunch
+</div>
+</a>
+<a href=/2016/08/15/weekly-head-voices-111-a-swift-hack/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Weekly Head Voices #111: A swift hack.&nbsp;<span>></span></div>
+</a>
+</nav>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="ThunderBird support of RFC 3676 format=flowed is half-broken" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on voices in my head</title><link>https://cpbotha.net/tags/linux/</link><description>Recent content in linux on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 30 Jul 2019 09:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #175: Plaintext me.</title><link>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</link><pubDate>Tue, 30 Jul 2019 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</guid><description> Good evening fellow humans.
+This is Head Voice #37 reporting for duty. I have been instructed to perform retrospection on the period of time from Monday July 22 to Sunday July 28.
+Due to the ongoing hibernation and consequent lack of interesting events to talk about, this should be short.
+This delectable Fred &amp; Max Flat White was one of a quite few more enjoyed during life-affirming breakfast with a Very Flat Cat.</description><content:encoded><![CDATA[ <p>Good evening fellow humans.</p>
+<p>This is Head Voice #37 reporting for duty. I have been instructed to perform
+retrospection on the period of time from Monday July 22 to Sunday July 28.</p>
+<p>Due to the ongoing hibernation and consequent lack of interesting events to
+talk about, this should be short.</p>
+<figure>
+<a href="fred_max_flatwhite_veryflatcat.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+This delectable Fred & Max Flat White was one of a quite few more enjoyed
+during life-affirming breakfast with a Very Flat Cat. (By the way, why didn't
+any of you tell me that fried egg yolk slowly drenching the quinoa bed it lies
+on is so amazing?!)
+</figcaption>
+</figure>
+<h2 id="im-stubbornly-doubling-down-on-plaintext-email">I&rsquo;m stubbornly doubling down on plaintext email.</h2>
+<p>I spent a precious hour or two (or perhaps three, in which case I am ashamed)
+performing experiments to try and understand how GMail, fastmail web,
+thunderbird and the iOS mail.app encode quoting in HTML email replies.</p>
+<p>The answer is that they all do it in subtly different ways&hellip;</p>
+<p>The even more shocking answer is that since HTML email took over, people have
+really just been winging it, and quite badly so.</p>
+<p>To give you an idea, gmail adds explicit inline CSS <em>styling</em> to display the
+vertical reply bar on the left, like some kind of <em>barbarian</em>.</p>
+<p>WAT?!</p>
+<p>Back when plaintext email was the only game in town, there were <a href="https://en.wikipedia.org/wiki/Posting_style">fairly strict
+but effective guidelines</a> that
+determined exactly how one could quote previous emails, up to any depth, when
+crafting that thoughtful reply.</p>
+<p>However, it seems that, thanks to Outlook and perhaps far more insidiously
+Google&rsquo;s GMail, <em>many</em> people currently have no idea that a thing such as email
+quoting with inline replies used to be a solved problem.</p>
+<p>That is, until users mistakenly thought that badly chosen fonts with even more
+badly chosen colours were more important than, you know, effective and
+efficient written communication.</p>
+<p>Although this battle is lost, this has only encouraged me to stick it to the
+(HTML email) man, and double-down on my old-school plaintext emails.</p>
+<p>If you receive a simple-looking email from me which sometimes wraps strangely,
+you&rsquo;ll know why.</p>
+<p>If you&rsquo;d like join me, the new
+<a href="https://useplaintext.email/">useplaintext.email</a> site is a good start!</p>
+<h2 id="linux-on-the-thinkpad">Linux on the ThinkPad.</h2>
+<p>I <em>thought</em> that the NVIDIA GPU being hard-wired to the external display
+outputs on this <a href="/2019/04/27/new-laptop-2019/">ThinkPad</a> meant that I would
+never be able to run Linux with <em>dynamic</em> display connection.</p>
+<p>Well it turns out I was wrong.</p>
+<p>I slipped this weekend, and now the Linux partition is configured with Manjaro
+Linux (a surprise to me too).</p>
+<p>In short, ThinkPad consumes just over 5W at idle, because NVIDIA is only
+switched on when necessary. I can switch it on for CUDA (for example to work
+with neural networks that fit into the 4GB of VRAM), and I can switch it on
+when I need to connect an external display.</p>
+<p>All of this without having to reboot or even logout and back in again.</p>
+<p>If you&rsquo;re interested, see the <a href="https://vxlabs.com/2019/07/28/manjaro-bumblebee-thinkpad-x1-extreme-2019/">vxlabs blog
+post</a>
+for all of the details.</p>
+<h2 id="we-live-in-the-future">We live in the future.</h2>
+<p>At the UMC Utrecht, two patients have received entirely patient-specific
+3D-printed titanium spinal implants.</p>
+<p>Thanks to this, the patients, one of whose spine had previously collapsed, are
+still able to walk.</p>
+<p>Read more in <a href="https://www.dutchnews.nl/news/2019/07/teenager-can-walk-again-thanks-to-dutch-3d-printed-spinal-implant/">this DutchNews
+summary</a>,
+or preferably <a href="https://www.volkskrant.nl/wetenschap/implantaten-uit-de-3d-printer-laten-utrechtse-patient-weer-lopen~bab3372e/">this Volkskrant
+article</a>
+if you can follow Dutch.</p>
+<p>I&rsquo;ve embedded the Lancet video abstract for your convenience:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/3gxiDo3ac0k" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p>This used to be the stuff of science fiction folks!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #115: So much Dutch.</title><link>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</link><pubDate>Fri, 03 Feb 2017 07:07:05 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</guid><description> Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:
+On Saturday, January 21, we had the privilege of seeing Herman van Veen perform live at the Oude Libertas Theatre. The previous time was a magical night many years ago in the Royal Theatre Carré in Amsterdam.
+Herman van Veen is a living, extremely active and up to date legend. To most Dutch people you’ll ever meet he is a formidable part of their rich cultural landscape.</description><content:encoded><![CDATA[ <p>Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:</p>
+<p>On Saturday, January 21, we had the privilege of seeing Herman van Veen perform live at the Oude Libertas Theatre. The previous time was a magical night many years ago in the <a href="https://en.wikipedia.org/wiki/Carr%C3%A9_Theatre">Royal Theatre Carré in Amsterdam</a>.</p>
+<p>Herman van Veen is a living, extremely active and up to date <em>legend</em>. To most Dutch people you’ll ever meet he is a formidable part of their rich cultural landscape.</p>
+<p>That evening, we heard so much Dutch spoken in the audience around us, it was easy to imagine that we had been teleported to a strange midsummer night’s performance, all the way back in The Netherlands.</p>
+<p>Whatever the case may be, at 72 this artist and superb human being seems to have energy and magic flowing from every limb.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170121_2151270.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170121_2151270-1024x768.jpg"
+        /> </a>
+</figure>
+
+<h1 id="things-which-running-nerds-might-find-interesting">Things which running nerds might find interesting</h1>
+<h2 id="the-dutch-watch">The Dutch Watch</h2>
+<p>I had to start facing facts.</p>
+<p>The <a href="/tag/samsung-gear-fit-2/">Samsung Gear Fit 2</a> and I were not going to make a success of our relationship. The GF2 (haha) is great if you’re looking for a hybrid smart-fitness-watch. However, I was using it primarily for running, and then one tends to run (I’m on a roll here) into its limitations.</p>
+<p>My inner engineer, the same guy who has a thing for hiking shoes, as they are the couture epitome of function over form, made the call and selected the <a href="https://www.wareable.com/gps-running-watch/tomtom-spark-3-review">TomTom Runner 3 Cardio+Music</a> watch (the Runner 3 and the Spark 3 are identical except for styling) to replace my GF2.</p>
+<p>Hidden in the name, there’s a <em>subtle</em> hint as to the focus of this wearable.</p>
+<p>It has a less pretty monochrome display that manages to be highly visible even in direct sunlight. It does not have a touch screen, instead opting for a less pretty directional control beneath the screen that always manages to select the correct menu option. The menu options remind me of the first TomTom car navigation we bought years ago: Not pretty, but with exactly the right functions, in this case for runs and hikes.</p>
+<p>Most importantly, the watch has an explicit function for syncing so-called QuickGPSFix data, so that when you want to start running, it is able to acquire a GPS lock almost immediately. Importantly, the device keeps you informed of its progress via the ugly user interface.</p>
+<p>Also, I am now able to pre-load GPX routes. Below you can see me navigating my local mountain like a pro with a sense of direction, when in reality I am an amateur with pathological absence of sense of direction:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170128_1626242.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170128_1626242-1024x768.jpg"
+        
+            alt="That’s me in the corner, losing my Re-Samsung."/> </a><figcaption>
+            <p>That’s me in the corner, losing my Re-Samsung.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Anyways, after being initially quite happy with the GF2, I am now more careful with my first judgement of the Runner 3. What I can say is that the first 40km with it on my arm has been a delight of function-over-form.</p>
+<p>P.S. Well done Dutchies. The optical heart rate sensor in the previous Spark was based on technology by South African company LifeQ. I have not been able to find a good reference for the situation in the Spark 3 / Runner 3.</p>
+<h2 id="experiment-alcohol-zero-early-results-not-what-i-was-hoping">Experiment Alcohol Zero early results: Not what  I was hoping</h2>
+<p>The completely subjective Experiment Alcohol Zero (EAZ) I announced in <a href="/2017/01/05/the-2016-to-2017-transition-post/">my 2016 to 2017 transition post</a> has almost run (err… too soon?) to completion.</p>
+<p>November of 2016 was my best running month of that year: I clocked in at 80km.</p>
+<p>EAZ started on January 4 and will conclude probably on Friday February 3.</p>
+<p>Although I was a much more boring person in January of 2017, I did manage to run 110 km. The runs were all longer and substantially faster than my best runs of 2016.</p>
+<p>Subjectively, there was just always energy (and the will) available to go running, and subjectively there was more energy available during the runs. This is probably for a large part due to the vicious upward spiral of better glucose processing, better sleep, hence better exercise, rinse, repeat.</p>
+<p>I am planning to use some of this extra energy to sweep these results right under the proverbial carpet in order to try and limit the suffering that it might lead to.</p>
+<p>(Seriously speaking, I will have to apply these findings to my pre-EAZ habits in a <em>reasonable</em> fashion. :)</p>
+<h1 id="things-which-linux-nerds-might-find-interesting">Things which Linux nerds might find interesting</h1>
+<p>My whole web-empire, including this blog, my <a href="https://vxlabs.com/">serious nerd business blog</a>, and a number of websites I host for friends and family, has been migrated by the wonderful webfaction support to a new much faster shared server in London.</p>
+<p>The new server sports 32 Intel Xeon cores, is SSD based and has a newer Linux distribution, so I was able to move over all of my wordpress instances to PHP 7.</p>
+<p>Upshot: This blog might feel microscopically quicker! (I am a bit worried with my empire now being stuck in the heart of Article 50. I worry slightly more about a great deal of my data that lives on servers in the USA however. Probably more about that in a future post.)</p>
+<p>On the topic of going around the bend, I now have emacs running on my phone, and I’m able to access all of my orgmode notes from there. It looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/Screenshot_20170116-151204.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/Screenshot_20170116-151204-576x1024.png"
+        /> </a>
+</figure>
+
+<p>One might now ask a pertinent question like: “So Charl, how often do you make use of this wonderful functionality?”</p>
+<p>To which I would currently have to answer: “Including showing the screenshot on my blog? Once.”</p>
+<p>I’m convinced that it’s going to come in handy at some point.</p>
+<h1 id="things-which-backyard-philosophy-nerds-might-find-interesting">Things which backyard philosophy nerds might find interesting</h1>
+<p>With what’s happening in the US at the moment, which is actually just one nasty infestation of the political climate around the globe, I really appreciate coming across more positive messages with advice on how we can move forward as a human race in spite of the efforts of the (libertarian) right.</p>
+<p>The World Economic Forum’s <a href="http://wef.ch/igd17">Inclusive Growth and Development Report 2017</a> is one such message. As summarised in <a href="https://www.weforum.org/agenda/2017/01/these-are-the-most-inclusive-advanced-economies-in-the-world">this WEF blog post</a>, it tries to answer the question:</p>
+<blockquote>
+<p>How can we increase not just GDP but the extent to which this top-line performance of a country cascades down to benefit society as a whole?</p>
+</blockquote>
+<p>In other words, they present approaches for making our economies more inclusive, thus helping to mitigate the huge gap between rich and poor.</p>
+<p>According to the report, the answer entails that national and international economic policies should focus primarily on people and living standards. In order to do this, each country will have to work on a different mix of education, infrastructure, ethics, investment, entrepreneurship and social protection.</p>
+<p>The countries that are currently doing the best in terms of having inclusive economies, and are generally shining examples of socialism working extremely well thank you very much, are Norway, Luxembourg, Switzerland, Iceland, Denmark, Sweden, Netherlands, Australia, New Zealand and Austria. See <a href="https://www.weforum.org/agenda/2017/01/these-are-the-most-inclusive-advanced-economies-in-the-world">the blog post</a> for the specific different factors helping each of these countries to perform so well on the Inclusive Development Index (IDI).</p>
+<p>Although the countries in the top 10 list all still have room for improvement, it’s great to see that it is actually quite a great idea to combine socialism (which is actually just another word for being further along the human development dimension) with economic survival and even success in today’s world.</p>
+<p>(I am still hopeful that one day Gene Roddenberry’s dream of the <a href="https://en.wikipedia.org/wiki/United_Federation_of_Planets">United Federation of Planets</a> will be realised.</p>
+<p>LLAP!)</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #96: Never gonna give you up.</title><link>https://cpbotha.net/2015/08/03/weekly-head-voices-96-never-gonna-give-you-up/</link><pubDate>Mon, 03 Aug 2015 20:17:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/08/03/weekly-head-voices-96-never-gonna-give-you-up/</guid><description> The week has resulted in a terribly nerdy list of bullets. READ AT YOUR OWN RISK! (there’s a beer recommendation or three at the end to compensate)
+It turns out that the terrible Samsung trim bug which would eat all of your data, as discovered by Algolia, was a Linux kernel bug after all (now patched by Samsung) and that it would only affect RAID setups. Let’s hope there are no surprising new turning outs.</description><content:encoded><![CDATA[ <p>The week has resulted in a terribly nerdy list of bullets. READ AT YOUR OWN RISK! (there’s a beer recommendation or three at the end to compensate)</p>
+<ul class="org-ul">
+<li>
+    It turns out that the terrible Samsung trim bug which would eat all of your data, <a href="https://blog.algolia.com/when-solid-state-drives-are-not-that-solid/">as discovered by Algolia</a>, was <a href="http://www.spinics.net/lists/raid/msg49468.html">a Linux kernel bug after all</a> (now patched by Samsung) and that it would only affect RAID setups. Let’s hope there are no surprising new turning outs.
+  </li>
+<li>
+    Found out that the fastest ADSL lines available at my new place are a whole 2 Mbit/s. We’ve called off the transaction and we’re now searching for a new house.
+  </li>
+<li>
+    I’m joking. It <b>was</b> really shocking however to consider the world as seen through a 2 Mbit/s connection. Now it seems that I will soon be entering the wonderful world of 5 GHz wireless connectivity, which should give me a fast enough connection, at least until fibre is rolled out in the year 3047.
+  </li>
+<li>
+    Started watching <a href="http://www.imdb.com/title/tt4158110/">Mr Robot</a>. I don’t normally do series, but the pilot was just <i>that</i> good. I like the story, I really like the socially very strangely adjusted hacker protagonist and I love the cinematography. Up to episode 3, I give it 4 out of 5 Linux Distributions!
+  </li>
+<li>
+    Continued fighting with OSX to get it completely working with my Dvorak and Emacs keybindings, also in Java apps such as IntelliJ IDEA. <a href="http://cpbotha.net/2015/07/19/weekly-head-voices-94-into-the-wild/">Two weeks ago I mentioned karabiner</a> as a solution to most of these problems. The final piece of the puzzle was unbinding keys like <code>Alt+W</code> (or <code>Mod+W</code> as Apple calls it) in <code>~/Library/KeyBindings/DefaultKeyBinding.dict</code> to prevent OSX from turning it into a \(\Sigma\) (sigma); as everyone knows, <code>M-w</code> is the Emacs shortcut for copying the selected region! You can use this trick to prevent OSX from turning any of the other <code>Mod</code> combos into completely unwanted special characters. (My base dict file is <a href="http://www.hcs.harvard.edu/~jrus/Site/cocoa-text.html">that of Jacob Rus</a>.)
+  </li>
+<li>
+    I guess OSX only Just Works(tm) if your time is worth nothing. Err…
+  </li>
+<li>
+    My <a href="https://github.com/kivy/kivy/pull/3506">first Kivy pull request</a>, a fix for a Mac-bug (go figure), was recently merged into <a href="http://kivy.org/">master</a>. I’ve been using Kivy in the third or fourth generation of my current and probably longest running side project.
+  </li>
+<li>
+    I’ve also been screencasting some of my night-time coding sessions using one of the more prominent livecoding sites (bonus points if you can find these sleep-inducing performances). It has been an interesting and strange experience programming with people watching over one’s shoulder as it were.
+  </li>
+<li>
+    On Sunday, I ended up at the <a href="http://www.root44.co.za/index.php">Root44 Market</a> in Stellenbosch for another of those really terrible balmy winter days. I had so much fun in the sun, tasting <a href="http://www.devilspeakbrewing.co.za/first-light-golden-ale/">Devil’s Peak First Light Golden Ale</a> and their <a href="http://www.devilspeakbrewing.co.za/kings-blockhouse-ipa/">King’s Blockhouse IPA</a>, and <a href="http://stellenbrau.co.za/beers/">Stellenbrau’s Craven Lager</a>, all from the tap, that I forgot to take a photo of the beautiful surroundings.
+  </li>
+</ul>
+<p>Have a beautiful week dear readers! Just remember, <em>I’m never gonna give you up.</em></p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/v4_M5PcJQmU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=45&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Weekly Head Voices #72: Ménage à trois.</title><link>https://cpbotha.net/2014/06/03/weekly-head-voices-72-menage-a-trois/</link><pubDate>Tue, 03 Jun 2014 16:12:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/06/03/weekly-head-voices-72-menage-a-trois/</guid><description> Welcome to this post, the 72nd edition of The Weekly Head Voices, and a momentous one at that. For the first time, I’m writing the WHV using my favourite operating system with editing function, Emacs. To those of you who don’t know Emacs, this might mean that I’ve finally gone around the bend.
+I can report that it is a very happy place.
+(there will be more Emacs shenanigans in the near future.</description><content:encoded><![CDATA[ <p>Welcome to this post, the 72nd edition of The Weekly Head Voices, and a momentous one at that. For the first time, I’m writing the WHV using my favourite operating system with editing function, <a href="http://en.wikipedia.org/wiki/Emacs">Emacs</a>. To those of you who don’t know Emacs, this might mean that I’ve finally gone around the bend.</p>
+<p>I can report that it is a very happy place.</p>
+<div class="figure">
+<a href="http://xkcd.com/378/"><img alt="real_programmers.png" src="http://imgs.xkcd.com/comics/real_programmers.png"/></a>
+</div>
+<p>(there will be more Emacs shenanigans in the near future.)</p>
+<p>During this past week, I wrote at least three blog posts (as far as I know):</p>
+<ul class="org-ul">
+<li>
+<a href="http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">Publish to WordPress with Emacs 24 and org2blog</a> – A super-nerdy post on vxlabs explaining how you too can use Emacs, the operating system with editing function, to write and publish your WordPress blog posts.
+  </li>
+<li>
+<a href="http://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/">South Africa, why are you not running Linux?</a> – wherein I explain that it would be much better for the South African national economy and technology ecosystem to kick its proprietary software (Microsoft, Apple, etc.) dependency and standardise on open source.
+  </li>
+<li>
+<a href="http://cpbotha.net/2014/05/29/ernestine-teaches-charl-isixhosa-lesson-1/">Ernestine teaches Charl isiXhosa Lesson 1</a> – The first in a new series of posts that I’m super excited about, during which I take you along on my (slow) journey learning <a href="http://en.wikipedia.org/wiki/Xhosa_language">isiXhosa</a>, one of our national languages, With Clicks(tm).
+  </li>
+</ul>
+<p>I also had time to enjoy a large number of these home-made (grandparents’ home that is) goodies:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/06/wpid-naartjies.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/06/wpid-naartjies-300x225.jpg"
+        
+            alt="Naartjes, aka mandarins, home-grown!"/> </a><figcaption>
+            <p>Naartjes, aka mandarins, home-grown!</p>
+        </figcaption>
+</figure>
+
+<p>as well as some of this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/06/wpid-dro%c3%abwors_en_biltong1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/06/wpid-dro%c3%abwors_en_biltong1-300x259.jpg"
+        
+            alt="Dried sausage (droëwors) and meat (biltong), home-made!"/> </a><figcaption>
+            <p>Dried sausage (droëwors) and meat (biltong), home-made!</p>
+        </figcaption>
+</figure>
+
+<p>… and then I finally got around to upgrading my main development laptop from Ubuntu version 12.04 to verson 14.04, code-named <em>Trusty Tahr</em>.</p>
+<p>IT’S FULL OF STARS.</p>
+]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
+Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
+This seemed like an opportune moment to get something off my chest.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+<p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404-1024x576.jpg"
+        
+            alt="Ubuntu means “humanity to others”. It also means pretty desktop!"/> </a><figcaption>
+            <p>Ubuntu means “humanity to others”. It also means pretty desktop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</p>
+<h2 id="cost-to-the-national-economy">Cost to the national economy</h2>
+<p>Every year, I and a few million other South Africans pay a boat load of income and other taxes. Because in SA not everyone is able to pay tax, it is <i>especially</i> important that this money is used for the common good, for issues such as health-care, education and job creation.</p>
+<p>However, instead of using my hard-earned tax to stimulate local industry, the South African government is sending millions of rands, each and every year, to Microsoft, a fantastically rich company in the USA, a fantastically rich country in comparison to South Africa.</p>
+<p>The majority of government workstations absolutely don’t need MS Windows, MS Office or Outlook. The majority of government employees would be able to do their job (email, reports, spreadsheets, forms, use of web-apps) better and more securely using Linux.</p>
+<p>Furthermore, the use of Linux and open source software encourages the use of open standards for public documentation. In 2007, the SA government <a href="http://en.wikipedia.org/wiki/OpenDocument_adoption#South_Africa">officially standardised on the OpenDocument format</a>. However, MS Office use is still rife, and encourages people to use Microsoft’s own XML formats. Although MS standardised these in a bid to stay in the global government game, OpenDocument should be preferred, as it’s better supported by more free and open packages that are available to all citizens, not just those with money for MS Windows and MS Office.</p>
+<p>As an added but very important advantage, some of the considerable funds that would have been sent to the USA for MS licensing and support would then be injected into the local Linux support economy, stimulating local skills and creating more high-tech jobs.</p>
+<p>Don’t you find it strange that South Africa, a developing country, is sending that much money to the USA when better solutions exist? Don’t you too think that it would be great to have a thriving and more independent Linux-based operating system and application industry right here in SA?</p>
+<h2 id="personal-cost">Personal cost</h2>
+<p>I <a href="http://mygaming.co.za/news/news/46487-windows-8-versions-sa-pricing-detailed.html">just</a> checked, it looks like the cost for an OEM license of Windows 8 in SA is R1000. We want as many as possible South Africans to have access to computers and to have access to internet. You can get a cheap PC for R3000 to R4000. It really makes absolutely no sense to spend R1000 on Windows, when Linux would work perfectly well on that same PC hardware.</p>
+<p>It gets even more silly when you add in the price of MS Office. For 95% of personal users, packages like OpenOffice or LibreOffice, completely free and even open source, or Google Docs, not open but free, are more than sufficient.</p>
+<p>A part of the problem here is simply momentum. Because everyone is still using Microsoft products, everyone thinks that that’s what you need to have. Imagine that the government standardised on Linux, it would not take long before people would then evaluate this as a serious choice when acquiring a new PC.</p>
+<h2 id="security">Security</h2>
+<p>For the largest part due to Edward Snowden’s actions, and great journalism by The Guardian, it is now widely known (and much has been corroborated), that the NSA and other intelligence agencies around the world have been eavesdropping on everyone and everything.</p>
+<p>An important part of this practice, is the working relationships that these intelligence agencies have built up with software vendors around the world. When you run MS Windows or Mac OSX, or any other prioprietary software, you have absolutely no way of knowing, or checking, what your computer is doing with your information. It sounds like something from a spy movie, but <a href="http://arstechnica.com/security/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">the NSA works closely with Microsoft to be able to hack into computers running Windows</a>.</p>
+<p>In the case of personal use, this may not be such a problem, but in the case of the South African government and the whole corporate world, it’s slightly crazy that everyone is willing to take the risk that all of their information is being snooped on by cooperating intelligence agencies.</p>
+<p>With open source systems one can’t be 100% sure either, but one is able to check and modify and part of the system, at the source code level, that one is working on. Based on this openness, I have personally in the past programmed kernel drivers to support new hardware, and fixed low-level driver bugs. This was possible only because I have access to the source code of everything on my system.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
+<p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
+]]></content:encoded></item><item><title>Don’t dream big.</title><link>https://cpbotha.net/2013/06/16/dont-dream-big/</link><pubDate>Sun, 16 Jun 2013 21:16:06 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/06/16/dont-dream-big/</guid><description> For months I’ve been walking around with this idea in my head. I was planning to turn it into a blog post titled “On not scaling”. It was going to be about deliberately choosing focus over bandwidth in one’s activities. One is often faced with the choice between scaling up (more work, more people, more things, more turnover, more for the sake of more) on the one hand, and simply not scaling on the other, instead holding on to one’s simple and linear way of doing a few things well.</description><content:encoded><![CDATA[ <p>For months I’ve been walking around with this idea in my head. I was planning to turn it into a blog post titled “On not scaling”. It was going to be about deliberately choosing focus over bandwidth in one’s activities. One is often faced with the choice between scaling up (more work, more people, more things, more turnover, more for the sake of more) on the one hand, and simply not scaling on the other, instead holding on to one’s simple and linear way of doing a few things well. The former approach seems to be the one favoured and encouraged by modern society. The latter has become my preference.</p>
+<p>I was still planning to write this post, when I ran into a TEDX talk by Jim Zemlin, whose claim to fame (at least for the purpose of his talk), is that he is technically Linus Torvalds’ boss. Linus Torvalds is the gentleman who created Linux. As you might or might not know, Linux is taking over the world at the moment: 1.3 million new telephones running Android (Linux) are switched on for the first time every day, 0.7 million new Linux-running TVs are sold every day, millions of machines at Google and Amazon run Linux, machines which run most of the web-based services that you know, almost the whole internet runs Linux, and many more embedded systems everywhere. Whether you like it or not, and as Jim Zemlin says, you probably interact with Linux multiple times per day in some way or another.</p>
+<p>Through his World-changing creation Linux (and don’t forget the distributed version control system git), Linus arguably is one of the most concretely influential people alive today. With this in mind, skip to about 5:20 in the youtube clip (if you don’t have time, you don’t actually have to watch the clip, my summary of the relevant bit is right below):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7XTHdcmjenI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>When Linus first <a href="https://groups.google.com/forum/?fromgroups=#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ" title="original Linux announcement mail">announced</a> Linux 1991, he wrote <em>I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones</em>. With hindsight, this is a fabulously humble quote. Linus was only interested in the awesome thingamabob he was working on; success and ambition were irrelevant. In the end, his creation changed the world.</p>
+<p>From this, Zemlin draws a parallel with something the poet Robert Frost <a href="http://www.goodreads.com/quotes/171417-don-t-aim-for-success-if-you-want-it-just-do" title="Robert Frost quote">said</a>:</p>
+<blockquote>
+<p>Don’t aim for success if you want it; just do what you love and believe in, and it will come naturally.</p>
+</blockquote>
+<p>I think this is a beautiful life lesson.</p>
+<p>Let’s not dream too big.</p>
+]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+Well, yesterday I ate my hat.
+If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
+<p>Well, yesterday I ate my hat.</p>
+<p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
+]]></content:encoded></item><item><title>An Even More Ultimate Boot Disk!</title><link>https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/</link><pubDate>Mon, 24 May 2010 14:29:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/</guid><description> In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!
+UBCD is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth.</description><content:encoded><![CDATA[ <p>In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!</p>
+<p style="text-align: center;">
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" title=""><img alt="" class="aligncenter size-full wp-image-910" data-attachment-id="910" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="emubd_logo_400" data-large-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" data-orig-size="400,181" data-permalink="https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/emubd_logo_400/" height="181" sizes="(max-width: 400px) 85vw, 400px" src="http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg" srcset="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg 400w, https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg 300w" style="border: none;" title="emubd_logo_400" width="400"/></a>
+</p>
+<p><a href="http://ultimatebootcd.com/" title="Ultimate Boot CD website">UBCD</a> is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth. It even contains Parted Magic, a compact linux distribution for fixing partitions, amongst others.</p>
+<p><a href="http://www.knoppix.net/" title="Knoppix website">Knoppix</a> is the swiss knife of live linux distributions, and <a href="http://www.ubuntu.com/" title="Ubuntu website">Ubuntu</a> 10.04 is probably the slickest distribution out there at the moment. Both of these can be ran live from your USB disc, so they don’t have to touch your hard drive.  However, both of them are also able to install to your hard disc if you so choose.</p>
+<p>To me it seemed logical to combine <strong>all three of these elements onto the single USB flash drive</strong> that I carry on my keychain, as I know of many grandmas with broken PCs…</p>
+<p>Let’s go!</p>
+<ol>
+<li>
+<p>make sure the single FAT32 partition on your USB stick is bootable (use command ‘a’ in linux fdisk) and large enough (you’ll need just a bit less than 2G).</p>
+</li>
+<li>
+<p>mount your flash drive on a directory, henceforth referred to as FLASH_MNT.</p>
+</li>
+<li>
+<p>copy all files from the ubcd5 iso into a directory, henceforth referred to as CUSTOM_UBCD5.</p>
+</li>
+<li>
+<p>mount the ubuntu 10.04 i386 iso on a directory, henceforth referred to as LUCID_MNT</p>
+</li>
+<li>
+<p>mount the knoppix iso on a directory, henceforth referred to as KNOPPIX_MNT.</p>
+</li>
+<li>
+<p>copy necessary boot files from the ubuntu ISO to UBCD: <pre class="brush: bash; title: ; notranslate" title="">mkdir CUSTOM_UBCD5/ubcd/custom/lucid
+cp LUCID_MNT/casper/vmlinuz LUCID_MNT/casper/initrd.lz CUSTOM_UBCD5/ubcd/custom/lucid
+</pre></p>
+</li>
+<li>
+<p>copy ubuntu-10.04-desktop-i386.iso to your flash disk: <pre class="brush: bash; title: ; notranslate" title="">mkdir /FLASH_MNT/isos
+cp ubuntu-10.04-desktop-386.iso /FLASH_MNT/isos/
+</pre></p>
+</li>
+<li>
+<p>Knoppix can’t be booted directly from its iso like Ubuntu, so we have to copy the actual contents of the ISO to your flash: <pre class="brush: bash; title: ; notranslate" title="">cp -r KNOPPIX_MNT/KNOPPIX to FLASH_MNT/
+cp -r KNOPPIX_MNT/boot/isolinux to FLASH_MNT/KNOPPIX/isolinux
+</pre></p>
+</li>
+<li>
+<p>replace FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg with the isolinux.cfg at the bottom of this post. (It’s the same file, except that “KERNEL linux” is replaced with “KERNEL /KNOPPIX/isolinux/linux”, “initrd=minirt.gz” with “initrd=/KNOPPIX/isolinux/minirt.gz”, F1, F2, F3 and DISPLAY paths all fixed, e.g. “F2 f2” becomes “F2 /KNOPPIX/f2” and finally all instances of “quiet” removed)</p>
+</li>
+<li>
+<p>Now replace CUSTOM_UBCD5/ubcd/custom/custom.cfg with the custom.cfg at the bottom of this post.</p>
+</li>
+<li>
+<p>copy all files from CUSTOM_UBCD5 to your usb flash disk: <pre class="brush: bash; title: ; notranslate" title="">cp -r CUSTOM_UBCD5/* FLASH_MNT/
+</pre></p>
+</li>
+<li>
+<p>Finally, make the whole thing bootable with the following invocation. It’s really important that you replace /dev/sdX1 with the correct device for your flash disk. To see what this is, type “mount” and see the device associated with your FLASH_MNT. <pre class="brush: bash; title: ; notranslate" title="">cd FLASH_MNT
+sudo ./ubcd/tools/linux/ubcd2usb/syslinux -s -d /boot/syslinux /dev/sdX1
+</pre></p>
+</li>
+</ol>
+<p>You’re done. You should now be able to boot with your EMUBD! Knoppix and Ubuntu can be found under “User defined”.</p>
+<p>Here are those files that you’ll need. First <strong>FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg</strong>:</p>
+<pre class="brush: bash; title: ; notranslate" title="">DEFAULT knoppix
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+TIMEOUT 50
+# TOTALTIMEOUT 20
+# KBDMAP german.kbd
+PROMPT 1
+F1 /KNOPPIX/isolinux/boot.msg
+F2 /KNOPPIX/isolinux/f2
+F3 /KNOPPIX/isolinux/f3
+DISPLAY /KNOPPIX/isolinux/boot.msg
+LABEL adriane
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime adriane
+LABEL knoppix
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=791 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb1024x768
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=791 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb1280x1024
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=794 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL fb800x600
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=788 xmodule=fbdev initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
+LABEL memtest
+KERNEL memtest
+APPEND foo
+LABEL dos
+KERNEL memdisk
+APPEND initrd=balder.img
+LABEL failsafe
+KERNEL /KNOPPIX/isolinux/linux
+APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 vga=normal atapicd nosound noapic nolapic noacpi pnpbios=off acpi=off nofstab noscsi nodma noapm nousb nopcmcia nofirewire noagp nomce nonetwork nodhcp xmodule=vesa initrd=/KNOPPIX/isolinux/minirt.gz
+</pre>
+<p>… and then <strong>CUSTOM_UBCD5/ubcd/custom/custom.cfg</strong>:</p>
+<pre class="brush: bash; title: ; notranslate" title="">MENU INCLUDE /ubcd/menus/syslinux/defaults.cfg
+UI /boot/syslinux/menu.c32
+
+# option to be able to go back to the main menu
+LABEL -
+MENU LABEL ..
+COM32 /boot/syslinux/menu.c32
+APPEND /ubcd/menus/syslinux/main.cfg
+
+# this clause will boot directly from the ubuntu iso
+LABEL ubuntulive
+MENU LABEL Ubuntu 10.04 i386 Desktop LIVE
+LINUX /ubcd/custom/lucid/vmlinuz
+INITRD /ubcd/custom/lucid/initrd.lz
+APPEND boot=casper iso-scan/filename=/isos/ubuntu-10.04-desktop-i386.iso --
+
+# and this one will chain into the knoppix boot setup
+LABEL knoppix
+MENU LABEL Knoppix 6.2.1 LIVE
+CONFIG /KNOPPIX/isolinux/isolinux.cfg
+</pre>
+<p><strong>Post scriptum</strong></p>
+<ul>
+<li>The instructions in this post are derived from the UBCD linux documentation and various forum posts.  Credits to their authors!</li>
+<li>If you <em>don’t want Knoppix</em> on your bootable USB and you have a Windows computer, you could also use <a href="http://www.pendrivelinux.com/boot-multiple-iso-from-usb-multiboot-usb/" title="Link to post explaining MultiBootISOs">MultiBootISOS</a> to add multiple ISOs to a USB boot disk.</li>
+</ul>
+]]></content:encoded></item><item><title>Backport of unison 2.27.57 to Ubuntu 7.10</title><link>https://cpbotha.net/2008/11/22/backport-of-unison-22757-to-ubuntu-710/</link><pubDate>Sat, 22 Nov 2008 12:54:19 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/11/22/backport-of-unison-22757-to-ubuntu-710/</guid><description> So you’ve upgraded some of your machines to Ubuntu 8.10 (Intrepid Ibex, argh) and you’re really very happy with yourself. That is, until you try to run your trusty unison synchronisation scripts and notice that due to the version mismatch between unison on 8.10 (2.27.57) and unison on 7.10 (2.13.16), you are screwed.
+Because I like you, I’ve made available my quick and dirty backport of unison 2.27.57 (the Ubuntu 8.</description><content:encoded><![CDATA[ <p>So you’ve upgraded <em>some</em> of your machines to Ubuntu 8.10 (Intrepid Ibex, argh) and you’re really very happy with yourself.  That is, until you try to run your trusty <a href="http://www.cis.upenn.edu/~bcpierce/unison/" title="link to unison website">unison</a> synchronisation scripts and notice that due to the version mismatch between unison on 8.10 (2.27.57) and unison on 7.10 (2.13.16), you are screwed.</p>
+<p>Because I like you, I’ve made available my quick and dirty backport of unison 2.27.57 (the Ubuntu 8.10 version) to Ubuntu 7.10 (Gutsy Gibbon) on i386.  Get the DEBs by clicking <a href="http://visualisation.tudelft.nl/~cpbotha/files/unison_2.27_gutsy_backport/" title="unison 2.27.57 gutsy backport debs">HERE</a>!</p>
+<p>If this is useful to you, please leave a comment on this post!  If not, go leave a comment on someone else’s blog man!</p>
+]]></content:encoded></item><item><title>a critical look at ubuntu feisty beta on an hp nc8430 laptop</title><link>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</link><pubDate>Tue, 10 Apr 2007 14:37:41 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</guid><description> I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.
+So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, good power management, full support for modern GPUs, etc) is a different story.</description><content:encoded><![CDATA[ <p>I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.</p>
+<p>So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, <strong>good</strong> power management, full support for modern GPUs, etc) is a different story.</p>
+<p>Because XP is getting more scary by the day (WGA things, licensing issues) and Vista promises to be even more scary (binding itself to your motherboard) and because I’ve been hearing many good things about Ubuntu Feisty (the soon-to-be-released 7.04), I decided to give this a shot on my HP NC8430 laptop (Core Duo 2GHz, ATI X1600, 2G RAM, etc.). Initially I was determined to do this like a “normal” user, i.e. no tweaking config files and especially no script writing. I wanted to see how far your average user could get with a state of the art Linux installation on a laptop.</p>
+<p><strong>Installation</strong></p>
+<p>This was quite impressive: I defragmented my NTFS filesystem, booted from the Ubuntu Feisty live CD and did the install. Without getting all cocky about it, the installer resized my NTFS partition, created a new EXT3 partition and installed itself. Colour me impressed.</p>
+<p><strong>General configuration</strong></p>
+<p>After the first boot, I was greeted with a VESA-driven x.org and an incorrect resolution. My laptop screen supports 1680 x 1050. The Gnome Preferences | Screen Resolution applet couldn’t go higher than 1280 x 1024. I had to break my first rule and edit the x.org configuration file to add the higher resolution. Why is this still necessary? A novice user shouldn’t need to have to do this!</p>
+<p>I also installed the Ubuntu packaged fglrx ATI drivers with the Synaptic package management software, as I depend on good 3D graphics support for my work. The new Restricted Driver Manager helps one to complete this configuration in a user-friendly fashion.</p>
+<p>By running “aticonfig –set-powerstate 1”, the GPU can be set to a lower-power mode, leading to a cooler-running laptop, meaning the fans don’t spin up as often. This command can be added to the gnome startup by adding it to System | Preferences | Sessions. With “aticonfig –lsp” one can query the available powerstates. One can only change the powerstate if a single display is active.</p>
+<p>I removed “quiet” (but left “splash”) from the GRUB config for the default kernel in order to be able to see boot-up messages. These are helpful, especially when things take longer than they should.</p>
+<p><strong>Wireless networking support</strong></p>
+<p>This is the part that really impressed me: With Ubuntu 6.10 (Edgy Eft), I had to jump through all kinds of very user-unfriendly hoops to connect to my WPA wireless network. Feisty Beta simply popped up a pretty dialog box showing me the detected wireless networks and prompted me for the network key when I selected my WPA access point. I was online… colour me even more impressed!</p>
+<p><strong>Power management</strong></p>
+<p>This is when my jaw dropped ever so slightly (I’ll get to the “critical” part of this look a bit later): I selected suspend to RAM, which the laptop promptly did. When I pressed the power button to resume, I expected the typical black-screen-crashed-laptop syndrome. Instead, my desktop came back and I could continue working. This is a quantum leap in user-friendly Linux!</p>
+<p>However, I soon saw that at every third resume (on average) all my <em>keyboards would be dead</em>.</p>
+<p>It turns out something similar to <a href="https://launchpad.net/ubuntu/+source/linux-source-2.6.20/+bug/23497" title="link to ubuntu feisty bug where keyboard is dead after resume">this bug</a> applies to my laptop. By adding the necessary suspend/resume hooks as documented in the bug report (so that the i8042 module is removed before suspend and re-installed after resume), the problem seems to have been solved.</p>
+<p>Often after resume, my laptop gets stuck in the text console. I have to switch manually to X with Alt-F7. Another suspend/resume glitch is that the CPU Frequency Scaling Monitor gnome applet is stuck on 2GHz for my second core, although the core is running at half that most of the time. In general, things get a bit flaky after resume; often I need to restart X to get back to normal. I could potentially deal with this.</p>
+<p>Another disappointing issue is the terrible battery life under Ubuntu Feisty. On Windows, I get more than 4 hours of battery life with average use (wireless network, web browsing, text editing). With Feisty, even after enabling LAPTOP_MODE in /etc/default/acpi-support and putting the GPU in low-power mode as explained above, I get only 2 hours and 40 minutes. This is almost a show stopper.</p>
+<p>Out of the box ACPI monitoring support is well-done. With just a few clicks, I could various temperatures and fan speeds on my panel. See the panel at the top of the screen in the screenshot below:</p>
+<p> </p>
+<p style="text-align: center;">
+<a href="http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926946"><img alt="" src="http://lh6.google.com/image/cpbotha/Rhugv5cDdGI/AAAAAAAAAc0/mT09SLVTKkA/s288/cpb_ubuntu_feisty_beta_20070408.jpg"/></a>
+</p>
+<p>This also shows the Deskbar applet in action.</p>
+<p><strong>Dynamic multi-monitor support SUCKS</strong></p>
+<p>My laptop has a docking station with an external LCD monitor, resolution 1280 x 1024. The laptop is 1680 x 1050, as I’ve mentioned. With Windows, (hot) docking / undocking always Just Works. It automatically activates the correct resolution without me having to configure anything. So whenever I resume, I have a working display.</p>
+<p>Feisty does not quite get this yet. In fact, Feisty needs some serious clue-bat-based attention… When I dock or undock and then resume, I have no display, and no way of getting my display back, besides power-cycling the laptop at every dock / undock. I ended up writing <a href="http://graphics.tudelft.nl/~cpbotha/thingies/aticonfig_switch.py" title="Python script to switch to NEXT display with aticonfig">this Python script</a> and binding it to Alt-F5 (for example) so that I would always have a way of activating the <em>next</em> display in the list of connected displays. Oh jeez, even assigning an arbitrary shell command to a global hot key in Gnome is not straight-forward. You have to use gconf as explained on <a href="http://www.captain.at/howto-gnome-custom-hotkey-keyboard-shortcut.php" title="binding arbitrary shell commands to global hotkeys in Gnome">this page</a>. You can query connected and enabled displays with “aticonfig –query-monitor” and activate any subset with “aticonfig –enable-monitor=name1,name2,…,nameN”.</p>
+<p><strong>Desktop effects with XGL and Beryl</strong></p>
+<p>Wobbly Windows, you know, these are immensely useful and result in a more productive computing experience. NOT!</p>
+<p>They are really very nice though. Most of the desktop effects are more nice to look at than actually useful, except for one: The ExposÃ©-like functionality, called “Scale” by Beryl, scales and fits all windows on the current screen so that one can select the window that one wants to select easily.</p>
+<p>Because fglrx doesn’t support the XComposite extension, I could not install AIGLX (Ubuntu default) and had to go for XGL and Beryl. After following <a href="http://lhansen.blogspot.com/2006/10/3d-desktop-beryl-and-xgl-on-ubuntu-edgy.html" title="beryl + xgl on ubuntu and fglrx">this guide</a> and making sure to use the external Beryl package repository as explained <a href="http://ubuntuforums.org/showthread.php?t=393678" title="More tips on beryl + xgl">here</a> (the Ubuntu packages won’t work in this case, they don’t have XGL support), I got the whole shebang to work. MAN this is pretty! Check out the screenshot below for Scale in action (there are non-desktop-effect ways of doing this, e.g. kompose or skippy, but none of them are as slick as the desktop effects version):</p>
+<p> </p>
+<p style="text-align: center;">
+<a href="http://picasaweb.google.com/cpbotha/Screenshots/photo#5051808151758926962"><img alt="" src="http://lh6.google.com/image/cpbotha/Rhugv5cDdHI/AAAAAAAAAc8/DMNDclhbAyk/s288/cpb_ubuntu_feisty_beta_scale_20070410b.jpg"/></a>
+</p>
+<p>As with most other things in Ubuntu, this functionality is not without its caveats. This is even more flaky with suspending and resuming: after resuming, logging out and in will give you a garbled display. I have to restart X at the GDM login screen to get XGL to work again. There are also some focus issues, especially with the Gnome Deskbar (very useful utility, by the way): pressing the hotkey activates the deskbar, but you can’t begin to type, as the current window still has the focus. I managed to fix this by setting the Beryl “Level of Focus Stealing Prevention” (under general settings) to None. Changing to a higher resolution with the “Display Resolution” applet whilst running XGL+Beryl, results in only part of the screen being usable.</p>
+<p><strong>Miscellaneous issues</strong></p>
+<ul>
+<li>Palm Pilot synchronisation seems to work out of the box with my Tungsten C, but hangs forever on ToDo synchronisation. Seems it’s due to <a href="https://bugs.launchpad.net/ubuntu/+source/gnome-pilot-conduits/+bug/81170" title="feisty pilot todo syncing bug">this bug</a>.</li>
+<li>The built-in Texas Instruments SD card reader works out of the box, but does not automount like other removable media. This is either due to the fact that it’s not seen as removable, or that the driver forgets to assign its parent bus. See <a href="http://www.nabble.com/SD-card-automounting-t2870318.html" title="mail thread wrt SD card not automounting">this mail thread</a>. I ended up applying <a href="http://www.dau-sicher.de/pmwiki/Main/CardreaderWithUdev" title="workaround for SD card thingy">this workaround</a>, involving adding rules to the udev system to pmount the SD card.</li>
+<li>Gimp doesn’t understand SMB: URIs, whereas the Gnome Image Viewer does, and gthumb pretends to but doesn’t.</li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<p>All in all, I’m positive but not quite convinced yet. The Ubuntu people have done a marvellous job, but Feisty Beta (up to date as of 2007-04-10) doesn’t quite Just Work(tm) on the HP NC8430. I had to break my rule of editing config files or writing scripts more than once to get it to work to my satisfaction, and still there are problems that would make it difficult to work in Ubuntu full-time: the miserable battery life, the flaky suspend/resume and the really bad dynamic multi-monitor support. That being said, things like the user-friendly WPA support and the flawless install on an NTFS partition are going in the right direction.</p>
+<p><strong>Updates</strong></p>
+<ul>
+<li>This post has been linked by OSNews! You can also follow some of the discussion <a href="http://osnews.com/comment.php?news_id=17663" title="Link to this post at OSNews.com.">over there</a>.</li>
+<li>It’s also on digg (should I say that it’s been dugg?).Â  See <a href="http://digg.com/linux_unix/A_critical_look_at_Ubuntu_Feisty_beta" title="digg dugg">here</a>.</li>
+<li>Fixed aticonfig lsp/lsb typo, thanks lampshade!</li>
+<li>My domain has been migrated to a more stable server, some comments may have been lost in the process. If your comment has not appeared yet, <em>please</em> re-submit it.</li>
+</ul>
+<p><strong>PS</strong></p>
+<p>Please comment away, but keep it civilised. I’ll update the post as we go along, and give credit where credit’s due.</p>
+]]></content:encoded></item></channel></rss>

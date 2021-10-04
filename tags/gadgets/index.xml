@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gadgets on voices in my head</title><link>https://cpbotha.net/tags/gadgets/</link><description>Recent content in gadgets on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 15 Jan 2017 08:37:51 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/gadgets/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing the Samsung Gear Fit 2 GPS lock delay when running without phone</title><link>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</link><pubDate>Sun, 15 Jan 2017 08:37:51 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</guid><description> For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.
+Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</description><content:encoded><![CDATA[ <p>For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.</p>
+<p>Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</p>
+<p>Judging by <a href="https://us.community.samsung.com/t5/forums/v3_1/forumtopicpage/board-id/wearabletech/thread-id/464/page/1">this 22 page thread on the Samsung community forums</a>, there are other users who were also less than happy that the Gear Fit 2 built-in GPS does not seem to work as advertised. Understandably, people bought the gadget in order to be able to go running without having to lug their smartphones along.</p>
+<p>Fortunately, it turns out the explanation is quite logical, although Samsung really has to do better to communicate this to their users.</p>
+<h1 id="why-does-mygear-fit-2-take-so-long-to-acquirea-gps-lock">Why does my Gear Fit 2 take so long to acquire a GPS lock?</h1>
+<p>In short, at the start of my run, my smartphone was lying on my desk one floor up. At that point the Gear Fit 2 still had a bluetooth connection to the phone, and it was planning to use the phone GPS instead of its built-in unit. As far as I know, the gadget’s use of the phone’s GPS is not well known.</p>
+<p>As the distance between me and the office building increased, the Gear Fit 2 obviously lost the bluetooth connection to the smartphone. With the current firmware (R360XXU1BPL1 at the time of writing), it takes the Gear Fit 2 about 0.5 km to realise that the connection is really lost, and that it should switch to its built-in GPS.</p>
+<p>This as all pretty logical, but highly frustrating when you don’t know what’s going on. Samsung clearly has to do better.</p>
+<h1 id="the-fix">The Fix</h1>
+<p>Knowing what the issue is makes the fix pretty straight-forward.</p>
+<p>Before starting your run, disable bluetooth on your smartphone, and wait for the Gear Fit 2 to register loss of the connection. It should vibrate on your wrist, and then show a little rectangle at the top right of the display, like this:<figure id="attachment_2749" aria-describedby="caption-attachment-2749" style="width: 184px" class="wp-caption alignnone"></p>
+<p><img data-attachment-id="2749" data-permalink="https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/img_20170115_0925427/" data-orig-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427.jpg" data-orig-size="2250,3678" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;PRIV&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484472342&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.75&quot;,&quot;iso&quot;:&quot;676&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_20170115_0925427" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-626x1024.jpg" class="size-medium wp-image-2749" src="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg" alt="" width="184" height="300" srcset="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg 184w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-768x1255.jpg 768w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-626x1024.jpg 626w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-1200x1962.jpg 1200w" sizes="(max-width: 184px) 85vw, 184px" /><figcaption id="caption-attachment-2749" class="wp-caption-text">Samsung Gear Fit 2 should recognise that it has lost connection with the phone, as shown by the rectangle at the top right.</figcaption></figure></p>
+<p>You can now start the exercise app and then start your run.</p>
+<p>This morning, my Gear Fit 2 acquired a GPS lock almost instantly. You can see this by <strong>the location icon which briefly flashes and then stays on</strong> (it’s very important that you ensure that it stays on before running off), and by the fact that the on-screen distance gauge (you only see the distance gauge if you have set a distance target) starts climbing immediately.</p>
+<p>(Update: I’ve had more runs since. Sometimes the GPS struggles for half a minute or more to get a lock, with the location icon remaining in the flashing state. In these cases, I sometimes stop the run, and start over, until that damned flashing location icon goes stable. Frustrating.)</p>
+<h1 id="samsung-gear-fit-2-even-casual-runners-should-think-twice">Samsung Gear Fit 2: Even casual runners should think twice.</h1>
+<p>For the price, the Samsung Gear Fit 2 packs a lot of features.</p>
+<p>However, between this undocumented (as far as I can see) and sometimes plain frustrating GPS behaviour, the voice guidance which breaks easily and mysteriously (see <a href="/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/">another post of mine on that issue and how to fix it</a>), and the battery life (a 40 minute run with music and GPS can use up 30% to 40% of the battery), slightly more serious casual runners (strange category, I know) might want to consider carefully their alternatives.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #4: The New Roomie, MedVis at MeVis, Fairy Tale Beach.</title><link>https://cpbotha.net/2009/09/20/weekly-head-voices-4-the-new-roomie-medvis-at-mevis-fairy-tale-beach/</link><pubDate>Sun, 20 Sep 2009 20:28:21 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/09/20/weekly-head-voices-4-the-new-roomie-medvis-at-mevis-fairy-tale-beach/</guid><description> Howwwwdy-hoooo!
+&amp;quot;Haringeter&amp;quot; by Tom Otterness.
+Depending on the particular reality that you find yourself in, which itself could be a function of how hard you’ve been partying, we have now left week #38 of 2009 behind us. I took a significant part of this week off to spend some quality time with visiting family. On Tuesday, I popped by my work (that’s the TU Delft for the uninitiated) to pick up some stuff for my planned official visit to MeVis in Bremen on Wednesday.</description><content:encoded><![CDATA[ <p>Howwwwdy-hoooo!</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/haringeter.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/haringeter.jpg"
+        
+            alt="&amp;quot;Haringeter&amp;quot; by Tom Otterness."/> </a><figcaption>
+            <p>&quot;Haringeter&quot; by Tom Otterness.</p>
+        </figcaption>
+</figure>
+
+<p>Depending on the particular reality that you find yourself in, which itself could be a function of how hard you’ve been partying, we have now left week #38 of 2009 behind us.  I took a significant part of this week off to spend some <strong>quality time with visiting family</strong>.  On Tuesday, I popped by my work (that’s the TU Delft for the uninitiated) to pick up some stuff for my planned official visit to MeVis in Bremen on Wednesday.  Two noteworthy points spring to mind:</p>
+<ul>
+<li><strong><a href="http://gerwindehaan.nl/" title="TNR's homepage.">The New Roomie (TNR)</a></strong> has moved into our shared office.  This is cool for at least two reasons:
+<ol>
+<li>TNR (PhD) is inherently cool.  I’m not sure how this happens to someone, I’m thinking it’s genetic, or perhaps he got hit by a radio-active astroid at some stage.</li>
+<li>TNR has all kinds of hard-core looking VR equipment (including a table-top VR system) that he has brought with him.  Our room has a decidedly more hard-core ambience, and this tends to impress upon people how hard-core we are.  Or him, and me by association.</li>
+</ol>
+</li>
+<li><strong>Visiting work</strong> from right in the middle of my small vacation was an <strong>energising experience</strong> that amplified the big smile I already had on my face.  This is a Good Sign(tm).</li>
+</ul>
+<p>By Tuesday late afternoon, I had to get on the train to Bremen to attend the <strong>German Visual Computing in Medicine meeting</strong>, hosted by MeVis. The previous sentence will now expand, Transformers-style, into a number of derivative thoughts. Watch:</p>
+<p>If you’ve ever had to book an international train journy via nshispeed.nl, the official site of the NS (Dutch Railways), you’ll know of the pain and frustration involved. Attempting to book the train journey to Bremen was no exception, I have two hours of wasted life to show for it. On a tip from Frits and Jorik, I phoned the <a href="http://treinreiswinkel.nl/" title="Treinreiswinkel website"><strong>Treinreiswinkel</strong></a> in Leiden. LO AND BEHOLD, a friendly person answered, and managed to book the exact journy nshispeed claimed was impossible for a really good price. My tickets were delivered to my house exactly one day after the phone call.</p>
+<p>For the first time on such a longish international journey, my computer (in this case Asus eeepc 1005ha-h netbook) had a significantly longer battery life than the duration of the journey: 5 hours of quality time in the train, a whopping 9 hours left on the battery. Score 1 for the 21st century! By the way, I think I might be <strong>developing feelings for my netbook</strong>.</p>
+<p>The <strong>meeting in Bremen</strong> was great: 10 research presentations, ranging from the latest (working!) user interface ideas for the surgical operating room (Ritter) to DTI-based brain parcellation (Roerdink).  After some serious PowerPoint 2007 love the previous night (yay image shadows!) and more importantly mental rehearsal, my talk on our <strong><a href="http://visualisation.tudelft.nl/Projects/BioluminescenceImaging" title="VMI project page">Visualisation for Molecular Imaging</a></strong> project (<a href="http://visualisation.tudelft.nl/People/PeterKok" title="Peter Kok's work website">Peter Kok</a> is the guy actually doing all the work) went quite well. I think. Well, people seemed to stay awake mostly.</p>
+<p>The <strong>MeVisLab software</strong> is really great, especially when the very capable Dr. Felix Ritter demonstrates on a ginormous plasma screen how one goes about visually designing complex medvis applications in no time. I’m a fan of MeVisLab. In spite of that, <strong><a href="http://visualisation.tudelft.nl/Projects/DeVIDE" title="DeVIDE website">DeVIDE</a></strong> does have a niche to fill (hint 1: extreme Python, hint 2: open source), all apart from the fact that one day it will be the preferred <em>operating system</em> of MedVis geeks the world over. :P</p>
+<p><em>The Amazing Transforming Sentence will now take a break until the concluding paragraphs of this blog post!</em></p>
+<p>On Thursday I spent the day at the TU to catch up with some Real Work, pleasantly surprised by the continued hard-coreness of my office. Meanwhile, the <strong>amazon.de swag</strong> I had ordered during the weekend (they have free delivery in NL!) had arrived at my house. My netbook (I love you netbook!) now has 2G of RAM, my Wii has Rayman Raving Rabbids (you get to see who can fling a cow the furthest, need I say more?) and my keychain has a tiny little 8GB USB memory thingy:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/keychain_with_pico_c.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/keychain_with_pico_c.jpg"
+        
+            alt="My Keychain with the new Super Talent Pico-C 8GB USB flash drive."/> </a><figcaption>
+            <p>My Keychain with the new Super Talent Pico-C 8GB USB flash drive.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Friday was absolutely gorgeous weather-wise, so I took my guests to Scheveningen (the beach, that is). I’ll spare you the details of both the preceding visit to Immigration (turns out all foreign visitors that are NOT staying at hotels HAVE to pop by Immigration within 3 days of arrival, what a schlep) as well as the lovely lunch on the beach, all in order to get to the high-light of the day: A coincidental visit to the stunning outside <strong>sculpture exhibition of Tom Otterness</strong>, called <a href="http://www.sprookjesbeeldenaanzee.nl/" title="website Sprookjesbeeldenaanzee">“SprookjesBeelden aan zee”</a>. The first photo of this post is of the “Haringeter”, probably the largest of the sculptures. The playfulness of the sculptures somehow amplifies the messages they contain and made quite an impact on me.</p>
+<p>The week’s coincidental art theme was concluded with a Sunday <strong>visit to the</strong> <a href="http://kmm.nl/" title="website of Kröller-Müller museum"><strong>Kröller-Müller museum</strong></a> in the Hoge Veluwe, home to a beautiful collection of statues by the likes of Rodin and Rietveld, and to a sizable collection of Van Gogh’s work, with some Picassos thrown in for good measure. Especially for you, I took this photo of Van Gogh’s “Landschap met korenschelven en opkomende maan”:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/van_gogh_landschap_met_korenschelven.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/van_gogh_landschap_met_korenschelven.jpg"
+        
+            alt="Van Gogh&#39;s &amp;quot;Landschap met korenschelven en opkomende maan&amp;quot;, taken at Kröller-Müller museum."/> </a><figcaption>
+            <p>Van Gogh's &quot;Landschap met korenschelven en opkomende maan&quot;, taken at Kröller-Müller museum.</p>
+        </figcaption>
+</figure>
+
+<p>Walking through the museum, I did have to spare a thought for the fact that on this casual day, I had on my person at least 3 processors, 12G of flash and a 160G hard drive. I’m probably not completely average in this regard, but I’m not that far from it. <strong>The future is very bright.</strong> I have already said that I love the 21st century, haven’t I?  Next time you run into me, ask me about it and then watch me go off on a tangent at ludicrous speed!</p>
+<p>I’d like to conclude this post with interesting (to me, perhaps to you) aspects of an extremely pleasant conversation that I had with an Anonymous MedVis Friend (AMVF, PhD). We were discussing matters like social networking, for example facebook and twitter, and blogging, what roles these things play in one’s life and how they’re in fact slowly <strong>changing the nature of modern human society by becoming an integral part of social interaction</strong>. At one point, I made the statement that social networking, micro-blogging and blogging were all <strong>new forms of self-expression</strong> (doh).  This in itself is not such a revelation, were it not for the fact that I realised at that moment that this is exactly the role these things play in <em>my</em> life, and quite prominently so.  In spite of only fully externalising the thought at that moment, I have always been acutely aware of it.  Every post I make, every apparently inane status update is in fact preceded by quite some thought as to How This Little Piece Fits Into The Big Picture, what it might mean to a potential reader (hi mom!) and whether someone might be entertained or find some form of value in it.</p>
+<p>So kids, on that slightly personal note, I am now officially concluding this edition of the Weekly Head Voices.  It’s been yet another fabulous week, and I’m definitely looking forward to number 39.  Please feel free to self-express in the comments!</p>
+]]></content:encoded></item></channel></rss>

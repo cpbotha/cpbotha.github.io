@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>meta on voices in my head</title><link>https://cpbotha.net/categories/meta/</link><description>Recent content in meta on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 18 Nov 2018 10:52:57 +0000</lastBuildDate><atom:link href="https://cpbotha.net/categories/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>You can now also join the special head voices telegram group to stay up to date with this blog!</title><link>https://cpbotha.net/2018/11/18/you-can-now-also-join-the-special-head-voices-telegram-group-to-stay-up-to-date-with-this-blog/</link><pubDate>Sun, 18 Nov 2018 10:52:57 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/11/18/you-can-now-also-join-the-special-head-voices-telegram-group-to-stay-up-to-date-with-this-blog/</guid><description> As an alternative to the email list, I have just setup a telegram group which you could join if you’d like to be kept up to date with posts from this blog via instant messenger!
+If all goes according to plan, a notification should be sent to the group automatically whenever I publish a post over here.
+P.S. I first did this with IFTTT’s Telegram applet, but its post preview was pretty bad.</description><content:encoded><![CDATA[ <p>As an alternative to the email list, I have just setup a <a href="https://t.me/headvoices">telegram group</a> which you could join if you’d like to be kept up to date with posts from this blog via instant messenger!</p>
+<p>If all goes according to plan, a notification should be sent to the group automatically whenever I publish a post over here.</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://telegram.org/">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/11/5842a8fba6515b1e0ad75b03.png"
+        
+            alt="Logo image courtesy of http://www.stickpng.com/img/icons-logos-emojis/tech-companies/telegram-logo" width="50%"/> </a>
+</figure>
+
+<p>P.S. I first did this with <a href="https://ifttt.com/applets/RXm2WDyZ-send-new-feed-items-to-a-telegram-chat">IFTTT’s Telegram applet</a>, but its post preview was pretty bad. <a href="http://thefeedreaderbot.com/">TheFeedReaderBot</a> seems to do a much better job!</p>
+]]></content:encoded></item><item><title>Slow e-mail. [Weekly Head Voices #32]</title><link>https://cpbotha.net/2010/09/28/slow-e-mail-weekly-head-voices-32/</link><pubDate>Tue, 28 Sep 2010 20:48:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/09/28/slow-e-mail-weekly-head-voices-32/</guid><description> (post summary: I’m teaching in Stellenbosch next week. We have another published paper. Next DeVIDE will have InfoVis. Peter Norvig spouts backyard philosophy on slow email and work-life balance.)
+This week, yet another Weekly Head Voices Quickies! The handsome and sun-drenched building below, known as “The BJ” to generations of students, is part of the reason for my current posting-diet. You see, next week I have the pleasure of teaching a post-graduate Visualisation course at my old university in the beautiful town of Stellenbosch.</description><content:encoded><![CDATA[ <p><em>(post summary: I’m teaching in Stellenbosch next week. We have another published paper. Next DeVIDE will have InfoVis. Peter Norvig spouts backyard philosophy on slow email and work-life balance.)</em></p>
+<p>This week, yet another Weekly Head Voices <em>Quickies</em>! The handsome and sun-drenched building below, known as “The BJ” to generations of students, is part of the reason for my current posting-diet. You see, next week I have the pleasure of teaching a post-graduate Visualisation course at my old university in the beautiful town of Stellenbosch. I’ve been putting together a new course especially for this purpose, which has obviously taken up a significant portion of my time.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/09/bj.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/09/bj.jpg"
+        
+            alt="The really pretty building under a really pretty sky where I shall be spending most of next week. (thank you Google Maps.)"/> </a><figcaption>
+            <p>The really pretty building under a really pretty sky where I shall be spending most of next week. (thank you Google Maps.)</p>
+        </figcaption>
+</figure>
+</p>
+<p>I’m also greatly looking forward to some quality time with my SA homies. Yo homies! Oh wait, you don’t read my blog… :)</p>
+<p>Also on the good news front, the paper that <a href="/about/weekly-head-voices-abbreviations/" title="WHV abbreviations page">ERCI</a> submitted to the VisWeek 2010 workshop on Visual Analytics in Healthcare has been accepted! This documents the extremely promising first steps that have been set on the path to comprehensive visual analysis of any imaging-based cohort study. Seeing as I’ll be present at VisWeek 2010 (whoohoo!), I’ll be presenting the work at the workshop on Sunday, October 24. Here’s the bibliographic information (I’ll link the full paper as soon as it goes online):</p>
+<blockquote>
+<p>M.D. Steenwijk, J. Milles, M.A. Buchem, J.H. Reiber, and C.P. Botha, <em>Integrated Visual Analysis for Heterogeneous Datasets in Cohort Studies</em>, <strong>IEEE VisWeek Workshop on Visual Analytics in Health Care</strong>, 2010.</p>
+</blockquote>
+<p>Remember, cite it soon and cite it often! You’ll be doing my HATE-index a favour.</p>
+<p>(Nerd Warning ON) On the epiphany front, I had a nice one whilst cataloguing all the various different InfoVis / Visual Analysis software toolkits available on the Interwebs: OF COURSE WE NEED YET ANOTHER ONE! I’ve been itching to start working on a new <a href="http://graphics.tudelft.nl/Projects/DeVIDE" title="DeVIDE website">DeVIDE</a> release, so <a href="http://code.google.com/p/devide/wiki/Early2011ReleasePlans" title="DeVIDE early 2011 release plans">the next one will have Python / matplotlib / VTK Titan-based InfoVis and Visual Analysis functionality</a>. (Nerd Warning OFF)</p>
+<p>On the Backyard Philosophy meets Work-Life Balance meets I-need-to-wrap-this-up  front, I recently came across the following quote by Peter Norvig, director of Google Research, taken from an <a href="http://www.informationweek.com/news/global-cio/trends/showArticle.jhtml?articleID=224900261" title="Interview with Peter Norvig">interview with him in the InformationWeek</a>:</p>
+<blockquote>
+<div id="_mcePaste">
+</blockquote>
+<p>&gt;   <strong>Q. How do you achieve a work-life balance? How do you keep your professional life from dominating everything?</strong>
+&gt; </div></p>
+<blockquote>
+<div>
+</blockquote>
+<p>&gt;   <strong><br/> </strong>
+&gt; </div></p>
+<blockquote>
+<div>
+</blockquote>
+<p>&gt;   <em>A. People get out of balance when they see their value as being able to respond quickly. If I see myself as a machine for answering email, then my work life would never stop because my email never stops. If instead I see my value as separating the important from the unimportant and making good decisions on the important, then I can go home at a reasonable hour, spend time with my family, ignore my email and phone messages all weekend long, and make sure that when I return to work, I am in the right mood to make the good decisions.</em>
+&gt; </div></p>
+<p>I used to think that I needed to respond to email (and other interruptions) as quickly as possible, but I’ve also very slowly been learning that that’s not really helping anyone. One should indeed rather focus on the important things, and do them well. Communication is important, but necessarily has to take second place, as time is a limited resource. Following this advice could be interpreted in a less than positive way by correspondents who expect a response right away. However, in the long run one is worth much more, to all concerned, by focusing on the important. As with all things, there is a balance that should be sought between between communication and action, between fulfilling short-term and long-term expectations.</p>
+<p>Dear readers, I wish you a great week, filled with important accomplishments!</p>
+<p><strong>p.s. I stand corrected. My SA homies do read my blog. I’m touched…</strong></p>
+]]></content:encoded></item><item><title>I’m on a boat! [Weekly Head Voices #20]</title><link>https://cpbotha.net/2010/04/18/im-on-a-boat-weekly-head-voices-20/</link><pubDate>Sun, 18 Apr 2010 20:41:07 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/04/18/im-on-a-boat-weekly-head-voices-20/</guid><description> Welcome all, to the 20th edition of the Weekly Head Voices, now with ever so slightly updated title style! Let’s just call it Rotterdam-style for now. In any case, this edition looks back on weeks 14 and 15 of the year 2010, with news about a boat and the people on it, two more accepted student papers (I’m just SO proud at the moment), and the International Symposium on Biomedical Imaging (ISBI) 2010 that took place this past week in, you guessed it, Rotterdam.</description><content:encoded><![CDATA[ <p>Welcome all, to the 20th edition of the Weekly Head Voices, now with ever so slightly updated title style!  Let’s just call it Rotterdam-style for now. In any case, this edition looks back on weeks 14 and 15 of the year 2010, with news about a boat and the people on it, two more accepted student papers (I’m just SO proud at the moment), and the International Symposium on Biomedical Imaging (ISBI) 2010 that took place this past week in, you guessed it, Rotterdam.</p>
+<p>Below is the boat on which the conference social event took place on Friday evening:
+
+
+
+
+
+
+
+
+<figure><a href="http://www.raderstoomboot.nl/indebuurt/stoomschip-rotterdam.php">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/04/boot.jpg"
+        
+            alt="The actual boat that we were on Friday."/> </a><figcaption>
+            <p>The actual boat that we were on Friday.</p>
+        </figcaption>
+</figure>
+</p>
+<p>It is a nice boat, full of food and drink and happy people. After a while, I was feeling like the protagonist in one of my all-time favourite music clips (the version embedded below has bleeped out swear words, for the uncensored version, click <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=avaSdC0QOUM" title="I'm on a boat (uncensored version)">here</a>):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/k8F3UE9qFsg?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>(Certain people have claimed that there is a certain resemblance between me and aforementioned protagonist. I hope that nobody is being undeservedly insulted or flattered.)</p>
+<p>I’ll get right back to ISBI in about a paragraph or two, but first allow me to wax ecstatic about three of my master’s students who just had their first papers accepted at VCBM 2010 in Leipzig: I am so fantastically proud at the moment! A ton of hard work went into these two master-pieces (student names in bold):</p>
+<blockquote>
+<p>﻿﻿<strong>P.J. Schaafsma</strong>, S. Schutte, H.J. Simonsz, F.H. Post, and C.P. Botha, <a href="http://graphics.tudelft.nl/Publications/Schaafsma2010" title="Link to Schaafsma VCBM 2010 paper page">“Dynamic Visualisation of Orbital Fat Deformation using Anatomy-Guided Interaction,”</a> <em>Eurographics Workshop on Visual Computing for Biology and Medicine</em>, 2010. (8 pages)</p>
+<p><strong>A. Van Dixhoorn</strong>, <strong>B. Vissers</strong>, L. Ferrarini, J. Milles, and C.P. Botha, <a href="http://graphics.tudelft.nl/Publications/Dixhoorn2010" title="link to rs-fMRI connectivity paper in VCBM 2010">“Visual analysis of integrated resting state functional brain connectivity and anatomy,”</a> <em>Eurographics Workshop on Visual Computing for Biology and Medicine</em>, 2010. (8 pages)</p>
+</blockquote>
+<p>Click on the title for the fulltext PDF and more.  As always, remember: <em>Cite them soon and cite them often!</em></p>
+<p>Back to the the ISBI conference: FrancoisM, man of multiple blogs (<a href="http://fpixel.wordpress.com/" title="link to fpixel blog">fpixel</a>, <a href="http://fvoxel.wordpress.com/" title="link to fvoxel blog">fvoxel</a> and finally <a href="http://francoism.wordpress.com/" title="link to francoism blog">francoism</a>.  have I forgotten any?) and all-round <em>hip</em> guy (harr harr) got us in with the following paper and (beautiful) poster:</p>
+<blockquote>
+<p>﻿<strong>D.F. Malan</strong>, C.P. Botha, R.G. Nelissen, and E.R. Valstar, <a href="http://graphics.tudelft.nl/Publications/Malan2010" title="Link to Malan ISBI 2010 paper">“VOXEL CLASSIFICATION OF PERIPROSTHETIC TISSUES IN CLINICAL COMPUTED TOMOGRAPHY OF LOOSENED HIP PROSTHESES,”</a> <em>Proc. ISBI</em>, 2010, pp. 1341-1344. [link to paper page will be added soon]</p>
+</blockquote>
+<p>Besides the chock-full scientific programme of paper presentations and posters, there were a number of special sessions and keynotes, all of them definitely keynote-worthy. However, there are two meta-lessons I took home (for those of you not paying attention, that means that these are by definition take-home messages, harr harr), apart from all the valuable scientific content:</p>
+<ol>
+<li>By a very rough count, I saw at least a billion rainbow colour maps. I know that these are well-loved by scientists all over the universe, primarily because they’re available everywhere and because they’re easy to make (hey, let’s vary the hue between 0 and 1!).  However, think twice next time you opt for the rainbow, and whilst you’re thinking, read this: ﻿D. Borland and R.M. II, “[Rainbow Color Map (Still) Considered Harmful][8],” <em>IEEE Computer Graphics and Applications</em>, vol. 27, 2007. (I myself have sinned before and still do sometimes…)</li>
+<li>More importantly: <em>It’s really very hard to give a good talk if you’re going to discuss more than two or three different topics.</em> In spite of experienced and skilled speakers, many talks suffered due to this. An illustrative <em>counter-example</em> is that of [Dr. Roderic Pettigrew][9], head of the National Institute of Biomedical Imaging and Bioengineering (one of the National Institutes of Health in the US), who presented the work of a number of NIH grantees. A master-orator, it was wonderful to see Pettigrew integrate various different projects into a single coherent presentation by regularly going back into overview mode, describing how the just-described or the next project fit into his grand vision. The bottom-line is: <em>Either limit yourself to a maximum of three different topics, or put a great deal of effort into the integration of your topics.</em></li>
+</ol>
+<p>My personal favourite talk of ISBI 2010 was that of [Prof. Bram van Ginneken][10] in the special session on computer-aided detection, during which he deftly illustrated one way of reaching the next level in one’s chosen research speciality: It seems that transcendence is possible by [Revolution Through Competition][11]! Oh, just go read the page and make sure you’re there next time the good professor gives a talk.</p>
+<p>Finally, during a pleasurable but perhaps far too late night somewhere in the city, I was convinced by two [BIGR][12] members (all the BIGR people I know are extremely pleasant, so watch out!) that the Weekly Head Voices title style should be slightly upgraded, with the post title in front and the weekly head voices branding at the end. At the time, it seemed like terribly logical advice. Although somehow I don’t recall exactly why I thought that, I did promise to give it a try.  So what do you all think?</p>
+<p>Someone might also mentioned that my posts were too long…</p>
+<p>[8]: <a href="http://www.sv.vt.edu/~rkriz/Projects/create_color_table/color_07.pdf">http://www.sv.vt.edu/~rkriz/Projects/create_color_table/color_07.pdf</a> &ldquo;Link to &ldquo;rainbow color map (still) considered harmful&rdquo; PDF&rdquo;
+[9]: <a href="http://www.nibib1.nih.gov/About/Directories/Pettigrew">http://www.nibib1.nih.gov/About/Directories/Pettigrew</a> &ldquo;Homepage Dr. Pettigrew.&rdquo;
+[10]: <a href="http://www.xs4all.nl/~bvg/">http://www.xs4all.nl/~bvg/</a> &ldquo;Prof. Van Ginneken&rsquo;s homepage&rdquo;
+[11]: <a href="http://www.xs4all.nl/~bvg/2009/08/revolution-through-competition-links-to.html">http://www.xs4all.nl/~bvg/2009/08/revolution-through-competition-links-to.html</a> &ldquo;Bram&rsquo;s revolution through competition&rdquo;
+[12]: <a href="http://bigr.nl/">http://bigr.nl/</a> &ldquo;BIGR website&rdquo;</p>
+]]></content:encoded></item><item><title>Starting today: Head voices, every week!</title><link>https://cpbotha.net/2009/08/29/starting-today-head-voices-every-week/</link><pubDate>Sat, 29 Aug 2009 20:42:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/08/29/starting-today-head-voices-every-week/</guid><description> (Badly) inspired by some dude’s weekly I’m-finishing-my-PhD-blog, sent to me by the infamous francoism, I have decided that you, dear reader(s) (hey mom!), have the right to be exposed more regularly to the voices in my head. So, in order to supplement my recent posting frequency of once per month (my global frequency seems to be higher: 349 posts over 98 months in total), I’m going to post every single week with an exceptionally entertaining summary of the week’s highlights.</description><content:encoded><![CDATA[ <p>(Badly) inspired by <a href="http://pee-eish-duh.blogspot.com/" title="some dude's PhD blog">some dude’s weekly I’m-finishing-my-PhD-blog</a>, sent to me by the infamous <a href="http://francoism.wordpress.com/" title="Francois M's blog">francoism</a>, I have decided that you, dear reader(s) (hey mom!), have the right to be exposed more regularly to the voices in my head.  So, in order to supplement my recent posting frequency of once per month (my global frequency seems to be higher: 349 posts over 98 months in total), I’m going to post <em>every single week</em> with an exceptionally entertaining summary of the week’s highlights.  I do reserve the right to slip up now and then, or to stop completely when I feel like it. :)  You then have the right to taunt me in the comments of this, or the latest post at that time.</p>
+<p>So, with that off my chest, I can start with the highlights of this grand week, number 35 of the year 2009.</p>
+<p>As many weeks do, this one started with Monday. However, this particular Monday was quite special.  On that very day, we (I have really really terribly fantastic friends, family almost) were having an extremely relaxed yet already nostalgic morning, getting ready to leave the Lowlands 2009 festival grounds, after 3 days of Exceptionally Excellent Times.  Because we have an Exceptionally Strict Rule called “What Happens At Lowlands, Stays At Lowlands”, I can unfortunately not tell you much more than that.  While contemplating The Rule,  you could do worse than watch the YouTube clip below of Whitest  Boy Alive performing 1517, but why would you?:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/vOkE7hpzL8Q?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Apart from my post-festival illness (hey, what do you expect after 3 days of Extremely Little Sleep and Far Too Much Excitement?), the rest of the week consisted of a number of research / technical meetings (these ones are nice, really) with research collaborators, and I took part as external member in the M.Sc. thesis opposition of a student who evaluated the <em>perceived</em> quality of several electron microscopy post-processing filters.  It raised an interesting discussion on perceived quality (of experts) vs. task performance.</p>
+<p>Other than that, I’ve rediscovered <a href="http://www.mendeley.com/" title="Mendeley website">Mendeley</a>.  I wasn’t that impressed the previous time, but the current software version 0.9.2.1 has been greatly improved.  The free software runs on Linux, Mac and Windows, and is a kind of beefed up reference manager.  Simply drag and drop an article PDF on it, and all metadata is extracted and inserted into your database.  There’s a <a href="http://www.mendeley.com/import/" title="Mendeley import bookmarklet">bookmarklet</a> that can also slurp information from a large number of citation sites.  You get to synchronise all your references with the Mendeley mothership (website), and you can even synchronise up to 500MB in article PDFs. You can also add other academics as your friends, harr harr.</p>
+<p>What I like most about the software, is the ease with which I can now add new references, and also the fantastic built-in PDF reader, which which I can easily annotate PDFs.  What I don’t like, is that it doesn’t yet offer a way for me to use it on multiple machines where I already have synchronised PDF directories.  For now I’m using it to synchronise a subset of my PDF articles (only collections that I’m currently working on) as that still fits in 500MB, but I’d really like to be able to use it across different machines with my own pre-synched directories.  I did add a <a href="http://feedback.mendeley.com/pages/4941-mendeley-feedback/suggestions/301592-pdfs-should-be-attached-with-paths-relative-to-a-user-configurable-base-path" title="Mendeley suggestion w.r.t. pre-synched directories">suggestion</a> concerning this to their feedback thingy.</p>
+<p>I’m going to be using it as my main reference manager for a while (I’ve been using JabRef up to now), primarily because it has 90% of what I need in one system.  If you have a Mendeley account, link up with <a href="http://www.mendeley.com/profiles/charl-botha/" title="cpbotha Mendeley profile">my profile</a> man!</p>
+<p><a href="http://www.mendeley.com/profiles/charl-botha"><img alt="Academic research" border="0" src="http://www.mendeley.com/embed/icon/1/blue/big"/></a></p>
+<p>That’s it for now boys and girls.  I hope you enjoyed the first weekly head voices, and I hope you have a fabulous week! I’ll see you at its other end harr harr!</p>
+]]></content:encoded></item><item><title>You must vaccinate</title><link>https://cpbotha.net/2009/05/21/you-must-vaccinate/</link><pubDate>Thu, 21 May 2009 09:02:02 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/05/21/you-must-vaccinate/</guid><description> Image courtesy of dbtechno.com. I was mistakenly under the impression that, at least in my social circles, the whole vaccination issue had been put completely to rest, but based on the number of serious questions that I’ve been asked recently, this unfortunately does not seem to be the case.
+For those of you who don’t have time, I’ll cut to the chase immediately:
+Yes, you simply must vaccinate your children.</description><content:encoded><![CDATA[ <figure>
+<img alt="" src="http://cpbotha.net/wp-content/uploads/2009/05/vaccine_autism_vaccinations.jpg" style="margin-left: 0px;"/>
+<figcaption>Image courtesy of dbtechno.com.</figcaption>
+</figure> 
+<p>I was mistakenly under the impression that, at least in my social circles, the
+whole vaccination issue had been put completely to rest, but based on the
+number of serious questions that I’ve been asked recently, this
+unfortunately does not seem to be the case.</p>
+<p>For those of you who don’t have time, I’ll cut to the chase immediately:</p>
+<p><strong>Yes, you simply <em>must</em> vaccinate your children.  This is the <em>best and
+safest</em> choice, for both your child and your fellow humans.</strong></p>
+<p><strong>No, there is no link between vaccination and autism. No, spreading out the
+(MMR) vaccinations is not safer, it is in fact more dangerous.  Also, the
+“vaccine overload” hypothesis is flawed.</strong></p>
+<p>For those of you with a bit more time or those of you who are not willing to take me on my word, I’ll go into some more detail on each of the points mentioned above.  Most of what I write here is based on articles in the Wikipedia.  I’ve deliberately done this, because these articles are accessible and readable to everyone, and they do link to the original scientific articles that they are based on.  Feel free to jump to any section.  Also, each section ends with a short summary of its contents to make it easier for you to skip.</p>
+<h1 id="recent-history">Recent history</h1>
+<p><em>This section is based on the <a href="http://en.wikipedia.org/wiki/MMR_vaccine_controversy" title="Wikipedia article on MMR vaccine controversy">Wikipedia article on the MMR vaccine
+controversy</a>.</em></p>
+<p>In 1998, Andre Wakefield and co-authors published a paper in the Lancet where,
+based on 12 case reports, they speculated on a possible link between the MMR
+vaccination and autism, and also speculated that it might be better to space
+out the vaccinations.  Of course the press and media picked this up and went
+completely wild, causing a health scare in the UK.  It is important to note
+that both of these claims were highly speculative.</p>
+<p>It later turned out that Wakefield had received 55000 (fifty-five thousand) UK
+pounds from Legal Aid Board solicitors who were gathering evidence to use in a
+case against vaccine manufacturers, and that a number of parents of the
+children taking part in Wakefield’s study were directly involved in the
+law-suit.  Wakefield did not mention any of this at the time of publication. 
+Ten of his 12 co-authors have since completely retracted their interpretation
+of the paper.</p>
+<p>In short, the author of the paper that started most of the modern vaccination-autism scare was completely corrupt, and his corruption directly affected this specific research.</p>
+<p>He did manage to cause such a scare in the UK, that measles (one of the diseases that MMR vaccinates against) is for the first time in decades at almost epidemic levels.   Since then, there have been cases of measles killing children, something which would most probably not have happened had the vaccination compliance not been at an all-time low.  Isn’t that absolutely crazy when one considers that measles was all but eradicated?</p>
+<p>In the years between 1998 and the present, there have been numerous extremely well-designed and large studies, none of which have been able to find <em>any</em> kind of link between vaccination and autism.</p>
+<p><em>To summarise this section: The research that the vaccination scare is based
+on, was deeply flawed and based on corruption, not science.</em></p>
+<h1 id="spreading-out-of-vaccines">Spreading out of vaccines</h1>
+<p><em>This section is based on the <a href="http://en.wikipedia.org/wiki/Vaccine_controversy#Vaccine_overload" title="Wikipedia article on Vaccine controversy.">Wikipedia article on the general Vaccine
+Controversy</a>.</em></p>
+<p>In some cases, parents opt for spreading out the vaccinations, because they
+mistakenly think that this is safer than not doing so.  The flawed idea that
+administering all these vaccines together could be dangerous is called the
+“vaccine overload hypothesis”.  It is flawed for the reasons:</p>
+<ul>
+<li>Common childhood ilnesses represent a much heavier load on the infant immune system.</li>
+<li>The vaccination cocktail given currently represents less than 10% of the immunological load of the vaccinations given to children in the 80s.</li>
+<li>Numerous studies have shown that the combination of vaccinations does NOT damage the infant immune system.</li>
+</ul>
+<p>Importantly, if you spread out vaccines, you increase the time during which your child is susceptible to the diseases that are being vaccinated again, thus greatly increasing the health risk to your child and all other children it comes into contact with.  You are a bad parent if you do this.</p>
+<p><em>To summarise this section:</em> <em>Administering the vaccinations together does not damage your child’s immune system.</em> <em>Spreading out vaccines is dangerous for both your child and all children it comes into contact with.</em></p>
+<h1 id="celebrities-campaigning-against-vaccination">Celebrities campaigning against vaccination</h1>
+<p>Recently, a number of celebrities, most prominent of which Jenny McCarthy and
+her partner Jim Carrey, supported by Oprah, have been campaigning against
+vaccination.  You have to remember that these are actors and entertainers,
+with almost ZERO medical or scientific background or training.   McCarthy
+dropped out of nursing school to become a Playboy Bunny: There’s nothing
+wrong with that, but you really cannot base important medical decisions,
+concerning the health and survival of your child (!!), on the opinions of an
+erstwhile nude model!</p>
+<p>_To summarise: Think carefully about the scientific and medical backgrounds of
+actors telling you how to care for the health and well-being of your child,
+even more so when it concerns life and death issues such as vaccination.</p>
+<h1 id="the-logical-conclusion">The logical conclusion</h1>
+<p>To the best of our scientific knowledge, vaccinations as they are administered today are safe and do not cause autism.  In spite of this, research continues day and night to make sure of this observation.</p>
+<p>On the other hand, if you don’t vaccinate, the risk of your child
+getting ill and dying is <em>significantly</em> higher.  If a large enough number of
+you don’t vaccinate, we lose our herd immunity and then there is a very
+real risk that <em>many</em> more of our children will get ill and die due to your
+inaction.  Do you seriously want to take this very real risk with your <em>and</em>
+my children’s lives?</p>
+<h1 id="post-scriptum">Post scriptum</h1>
+<p>I hope that this has helped.  If there are any issues that are not clear, or
+missing, or you are not convinced, please let me know so that we can discuss
+and so that I can improve this article.</p>
+<h1 id="extra-resources">Extra resources</h1>
+<ul>
+<li><a href="http://tallguywrites.livejournal.com/148012.html" title="Andrew Wakefield comic">Brilliant comic</a> explaining how the corrupt Andrew Wakefield managed to cause this whole debacle.</li>
+<li><a href="http://www.slate.com/id/2217798/" title="aritcle in slate criticising oprah for supporting mccarthy">Article in Slate</a> criticising Oprah’s support of Jenny McCarthy.</li>
+<li>Popular <a href="http://www.guardian.co.uk/society/2006/feb/12/health.medicineandhealth" title="Observer article about medical backlash over vaccine scare">article in the Guardian’s Observer</a> about spreading out vaccines.</li>
+<li><a href="http://www.nhs.uk/chq/Pages/1034.aspx?CategoryID=68&amp;SubCategoryID=154" title="statement on the NHS on why separate vaccinations are not necessary.">Clear statement by the NHS</a> on why there is no reason to offer MMR vaccine in a spaced / spread out fashion, and that spreading out is in fact dangerous.</li>
+</ul>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>July 25, 2012: <a href="http://io9.com/5928722/this-graph-of-whooping-cough-cases-in-washington-state-should-scare-the-crap-out-of-you" title="io9 article with increasing incidence of whooping cough in Washington State in 2012">Whooping Cough incidence in Washington State is up by 1300% in 2012</a> relative to 2011, most probably due to the anti-vaccination movement.</li>
+</ul>
+]]></content:encoded></item><item><title>What I did this, err, summer</title><link>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</link><pubDate>Mon, 17 Nov 2008 21:20:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</guid><description> Taking a hint from Joe, aka Swimgeek, here’s a summary of my life since the previous time we spoke:
+The VCBM 2008 workshop, my first attempt at playing the organising conference chair, went swimmingly. Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends. I stopped stressing during the conference dinner. I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats.</description><content:encoded><![CDATA[ <p>Taking a hint from Joe, aka <a href="http://www.swimgeek.com/blog/" title="Link to Swimgeek's blog">Swimgeek</a>, here’s a summary of my life since the previous time we spoke:</p>
+<ul>
+<li>The <a href="http://vcbm.org/2008" title="Link to VCBM 2008 website">VCBM 2008 workshop</a>, my first attempt at playing the organising conference chair, went swimmingly.  Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends.  I stopped stressing during the conference dinner.</li>
+<li>I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats.  Can’t find the stats?  Go figure out how to copy and paste, then get back to me. :) ) and acquired a Nokia E71.  <em>Best. Gadget. EVAR.</em></li>
+<li>Had a fan-tas-tic holiday in South Africa.  Had profound conversations and the most raucous get-togethers with best friends and family.  Realised again how extremely lucky I am with people I’m this close with, on two different continents.  Linked up with my dad for the first time in too many years, which was cool.</li>
+<li>Migrated my extremely complex todo system (I’m a foaming-at-the-mouth <a href="http://en.wikipedia.org/wiki/Getting_Things_Done" title="Link to Wikipedia article on GTD">GTD</a> follower) from <a href="http://todoist.com/" title="Link to Todoist">todoist</a> to a local installation of the open-source RoR-based <a href="http://www.rousette.org.uk/projects/" title="Link to Tracks website.">Tracks</a> software.  Todoist is really cool, but it’s very much deadline-oriented, whilst in the GTD world deadlines are just so passé.  DAMN I’m with it.</li>
+<li>My laptop was sort of stolen and then returned 5 minutes later.  Besides the acute trauma that this caused, it got me wondering about the security of the Windows XP Encrypted File System thingy that I use to encrypt some of the more sensitive, err, documents on my laptop.  On Windows 2000, the fact that on a local install the administrator was the default data recovery agent (DRA), made it possible to decrypt a user’s files without having to crack that user’s password.  On a local install of XP, this is fortunately NOT the case.  I repeat, <a href="http://support.microsoft.com/kb/887414" title="Link to MS KB article concerning DRA on XP."><strong>on a local install of XP there is no default recovery policy</strong></a>.  In other words, a laptop thief needs to <strong>crack your password to decrypt your EFS encryption</strong>.  You can double check this by <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=9c70306d-0ef3-4b0c-ab61-81da208f5c47&amp;displaylang=en" title="Link to efsinfo">downloading efsinfo</a> and running it on your files with “efsinfo /u /r your_files”.  It should confirm that there’s no recovery agent.  You should also check the strength of your Windows passwords with <a href="http://ophcrack.sourceforge.net/" title="Link to ophcrack.">ophcrack</a>.  Your EFS is only as strong as the user password protecting it.  After my little episode, I’ve deleted most of those sensitive, err, documents from my laptop (they’re duplicated on a server at home) and encrypted even larger parts of my laptop hard drive, just in case.</li>
+</ul>
+<p>Now I’m supposed to conclude this blow-by-blow with something profound.  I know, I’ll end with a quote attributed to Plato that I first saw in the PhD thesis of a friendly colleague.  At the time it made quite an impression on me:</p>
+<blockquote>
+<p><span class="huge">Be kind, for everyone you meet is fighting a hard battle.</span></p>
+</blockquote>
+<p>Heck, it still does.</p>
+]]></content:encoded></item><item><title>Confessions of an addict</title><link>https://cpbotha.net/2007/12/31/confessions-of-an-addict/</link><pubDate>Mon, 31 Dec 2007 13:15:40 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/12/31/confessions-of-an-addict/</guid><description> Dear readers, although you remain anonymous, I now know quite reliably that there are slightly more than two of you. This knowledge makes me insanely happy. Thank you very much for taking the time to glance at my posts every so often.
+I’ve added three hopefully useful plugins to my WordPress (best blogging software EVAR) setup:
+Almost at the bottom of the right sidebar, you’ll find the section “Friends’ latest blogs”.</description><content:encoded><![CDATA[ <p>Dear readers, although you remain anonymous, I now know quite reliably that there are slightly more than two of you. This knowledge makes me insanely happy. Thank you very much for taking the time to glance at my posts every so often.</p>
+<p>I’ve added three hopefully useful plugins to my <a href="http://wordpress.org/" title="Wordpress Website">WordPress</a> (best blogging software EVAR) setup:</p>
+<ol>
+<li>Almost at the bottom of the right sidebar, you’ll find the section “Friends’ latest blogs”. If you have a blog, it’s probably in my <a href="http://www.google.com/reader" title="Google Reader URL">Google Reader</a> (best aggregator EVAR, just try it, you’ll fall in love with it), in which case your latest posts will appear, via Google Reader, on my sidebar. I’ve modified the <a href="http://nothingoutoftheordinary.com/2007/05/26/wordpress-google-reader-widget/" title="Google Reader plugin page">Google Reader plugin</a> so that it can show an arbitrary feed, not just your Shared Items (see my comments on that post for more information).</li>
+<li>Right below that, I’ve added an “RSS Feed” and an “Add to Google Reader” button. If you don’t subscribe to my blog yet, but would like to, simply click on the latter if you’d like to use Google Reader to keep up to date with my postings, or the former if you’d prefer to use some other aggregator. For those of you not using aggregators yet: if you regularly read two or more blogs, it’s definitely worth using a good aggregator. <a href="http://www.google.com/support/reader/bin/answer.py?answer=69967&amp;topic=12011" title="Google Reader help text on subscribing to feeds.">This help text</a> explains what it means to subscribe to a feed. I’ve used the <a href="http://www.semiologic.com/software/widgets/subscribe-me/" title="Subscribe Me website">Subscribe Me plugin</a> for this.</li>
+<li>You can now also subscribe by email to the comments of a particular posting by clicking the “<label for="subscribe">Notify me of followup comments via e-mail</label>” checkbox when posting a comment. If anybody else adds new comments to that particular posting, you’ll get notified by email. You can easily unsubscribe at anytime. I’ve used the <a href="http://txfx.net/code/wordpress/subscribe-to-comments/" title="Subscribe to Comments plugin">Subscribe to Comments plugin</a> for this.</li>
+</ol>
+<p>I have one more confession: It seems that I’m completely addicted to reading (especially personal) weblogs. At the moment, there are almost 60 that I track, but I’m always open to suggestions. Lemme know in the comments if there are any that I should subscribe to.</p>
+<p>Have a great New Year’s party, and a wonderful 2008!</p>
+]]></content:encoded></item></channel></rss>

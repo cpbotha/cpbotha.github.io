@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>practice on voices in my head</title><link>https://cpbotha.net/tags/practice/</link><description>Recent content in practice on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 20 Aug 2021 09:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/practice/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #230: Follow your blisters</title><link>https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/</link><pubDate>Fri, 20 Aug 2021 09:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/</guid><description><![CDATA[ Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &ldquo;I just did a photography course and now I have to make photos like this&rdquo; (I didn&rsquo;t and I don&rsquo;t). My friends have assured me that it does not look like that (too much).]]></description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="van_breda_cottage_angles.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/van_breda_cottage_angles_huedb1ad4f1cb6a20b2d7c644468e8c088_1711153_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&amp;rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &amp;ldquo;I just did a photography course and now I have to make photos like this&amp;rdquo; (I didn&amp;rsquo;t and I don&amp;rsquo;t). My friends have assured me that it does not look like that (too much)."/> </a><figcaption>
+            <p>Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We&rsquo;re sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of &ldquo;I just did a photography course and now I have to make photos like this&rdquo; (I didn&rsquo;t and I don&rsquo;t). My friends have assured me that it does not look like that (too much).</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV covers the three weeks from Monday July 26 to Sunday August 15.</p>
+<h2 id="why-i-don-t-like-dark-mode-anymore">Why I don&rsquo;t like dark mode anymore</h2>
+<p>As you might know, I spent most of my working (and sometimes hobby, we&rsquo;ll get
+back to that further down) hours in front of this screen or some other screen.</p>
+<p>Up to now, I was really convinced that I preferred dark mode everywhere, until
+recently two events transpired:</p>
+<p>I started noticing more eye-strain than usual, even on my 27&quot; screen, something
+which had a perceptible effect on my productivity. This I resignedly ascribed
+to my advancing age, although I did find the suddenness quite surprising,
+especially since I recently had my glasses updated.</p>
+<p>Then, after years with only the admittedly brilliant <a href="https://github.com/bbatsov/zenburn-emacs">zenburn</a> and <a href="https://github.com/fniessen/emacs-leuven-theme">Leuven (dark)</a>
+Emacs themes checking all of the boxes for me, I finally ran into a really
+interesting and usable theme called <a href="https://github.com/kunalb/poet">Poet</a>.</p>
+<p>It&rsquo;s interesting, because it uses variable pitched fonts for everything but
+code, tables and elements of the fixed width domain, where most Emacs fonts
+stick to the traditional all-fixed-width approach.</p>
+<p>It looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="20210822-poet-theme-screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/20210822-poet-theme-screenshot_hucdb166019581fdceafde52e837ca82ff_214350_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>You can probably understand that for someone who uses Emacs almost primarily
+for technical notes and other writing, this book-like appearance could work
+really well.</p>
+<p>The theme was even more interesting for me personally, as it suddenly became
+clear as day that I experienced almost no eye-strain when using Emacs with this
+lighter theme than when I used any of my other usually dark-themed tools!</p>
+<p>It became obvious that poet-theme&rsquo;s lighter background was much easier on my
+eyes than dark mode in vscode. (No, this specific advantage can&rsquo;t be ascribed
+to Emacs itself I&rsquo;m afraid.)</p>
+<p>Reading pages such as <a href="https://www.allaboutvision.com/digital-eye-strain/is-dark-mode-better-for-eyes/">this</a> explains that dark mode leads to pupils having to
+dilate more to let in more light, which there is less of with dark themes.</p>
+<p>This leads to, just like with cameras and any other optics with lenses and
+apertures, a shortened depth of field, and hence more difficulty focusing on
+the screen!</p>
+<p><a href="https://www.nngroup.com/articles/dark-mode/">This article by the well-known Nielsen Norman Group</a> nicely summarises research
+on this topic. In short:</p>
+<blockquote>
+<p>In people with normal vision (or corrected-to-normal vision), visual
+performance tends to be better with light mode, whereas some people with
+cataract and related disorders may perform better with dark mode.</p>
+</blockquote>
+<p>Up until recently, I did not experience a qualitative difference in vision
+between dark and light, but I sit here relieved that my eye-strain issue has
+been resolved by an Emacs theme!</p>
+<h2 id="know-how-to-put-down-your-work">Know how to put down your work</h2>
+<p>The following take from <a href="https://twitter.com/brandsrock/status/1426163442256330753">a recent tweet by mike joubert</a> struck me
+(tweet-take-strike! words are funny&hellip;):</p>
+<blockquote>
+<p>The truly valuable skill isn&rsquo;t the capacity to push yourself harder, but to
+stop and recuperate despite the discomfort of knowing that work remains
+unfinished, emails unanswered, other people&rsquo;s demands unfulfilled.</p>
+</blockquote>
+<p>The <a href="https://www.oliverburkeman.com/fourhours">article, titled <em>The three-or-four-hours rule for getting creative work
+done</em></a>, is itself a good read about the observation that creative types (amongst
+which I count engineers) have at their best three to four hours of focus time
+per day &mdash; so it is crucially important that their days are structured such
+that there is an <strong>uninterrupted</strong> block of three to four hours inside of which
+that lovely focus has the possibility of appearing.</p>
+<p>The tweet-extract focuses on the similarly important but more subtle art of
+being able to put one&rsquo;s work down, completely, when that block of time is over,
+even when it feels like the work is far from complete.</p>
+<p>I especially like that it also explicitly mentions the illusions created by
+one&rsquo;s perception of &ldquo;other people&rsquo;s demands&rdquo;, something that ironically becomes
+even harder to walk away from when one is more tired at the end of the work
+day.</p>
+<p>For me, becoming better at putting work down has pleasant echoes of running
+slower to run faster, of emptiness in art and more broadly, <a href="https://zenhabits.net/work-less/">choosing fewer f*cks
+to give</a>.</p>
+<h2 id="follow-your-blisters">Follow your blisters</h2>
+<p>On the topic of choosing your ducks&hellip;</p>
+<p>I initially did not like <a href="https://hbr.org/2020/11/what-you-should-follow-instead-of-your-passion">this HBR</a> post when it first crossed my stream, because
+it smacks a bit too much of the current social media style of &ldquo;wisdom&rdquo;, namely
+&ldquo;everything you need to know in 280 characters&rdquo;, or &ldquo;this 1 minute tiktok video
+will change your life&rdquo;.</p>
+<p>As if that was not enough, the title is pretty clickbaity: <em>What You Should
+Follow Instead of Your Passion</em>.</p>
+<p>However, the core message of the post, which I could not help reading, did
+stick with me, and after a few days I realised that I would have to go find the
+article again in order to talk about it here.</p>
+<p>The core message is to replace <em>find your passion</em> with <strong><em>Find your blisters.</em></strong></p>
+<p>The author&rsquo;s point is that folks often get the wrong idea with <em>passion</em> as
+something that is simply always delightful, whilst the thing you should
+actually be looking for, is that activity that you simply are unable to stop
+doing, even when you try, and especially even when you don&rsquo;t directly derive
+pleasure from it, for example because you feel that you&rsquo;re not that good at it.</p>
+<p>They give the personal example of writing.</p>
+<p>Although they&rsquo;ve been at it for years, it&rsquo;s still a difficult and laborious
+process, and they are often not happy with the results.</p>
+<p>However, they have been unable to stop from returning to writing projects again
+and again over the years.</p>
+<p>Ironically, even although they find that they are still bad at it, they have in
+fact become really good, simply because they have been pushing through and
+practising more than almost anyone else over the years.</p>
+<p>I really like this down-to-earth view.</p>
+<p>One can indeed source almost unlimited amounts of energy from one&rsquo;s &ldquo;blisters&rdquo;,
+but true benefits will for a large part be brought about by a <a href="/tags/practice/">lifetime of often
+challenging practice</a>.</p>
+
+
+
+
+
+
+
+
+<figure><a href="flowers_everywhere.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/08/20/weekly-head-voices-230-follow-your-blisters/flowers_everywhere_hu56b127f7a133dce7ca4454aabdb42870_4234731_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: A scene from our incredibly fortunately timed (thanks partner!) &amp;ldquo;blommetjieskyk&amp;rdquo; trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo."/> </a><figcaption>
+            <p>Figure 2: A scene from our incredibly fortunately timed (thanks partner!) &ldquo;blommetjieskyk&rdquo; trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item><item><title>Weekly Head Voices #226: Stress practice</title><link>https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/</link><pubDate>Wed, 16 Jun 2021 16:07:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/</guid><description> Welcome to the 226th edition of the Weekly Head Voices, this one covering the week from Monday June 7 to Sunday June 13, 2021.
+Figure 1: Panoramic view from a winter run in Betty&amp;rsquo;s Bay. I was hoping Google Photos would stitch the pretty clouds together, and it did.
+As I put these finishing touches on the post, it&amp;rsquo;s Wednesday, June 16 (Youth Day), 16:09. I have just spent about an hour debugging my usually super smooth Emacs Org-mode / ox-hugo blogging machine (read this github issue for more details), which is a small price when you consider all the hours this combination has saved me in the past.</description><content:encoded><![CDATA[ <p>Welcome to the 226th edition of the Weekly Head Voices, this one covering the
+week from Monday June 7 to Sunday June 13, 2021.</p>
+
+
+
+
+
+
+
+
+<figure><a href="bettys_run_pano_20210612.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/bettys_run_pano_20210612_hu9c9be7fbcab668463ece1d5d7459b225_1143636_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/bettys_run_pano_20210612_hu9c9be7fbcab668463ece1d5d7459b225_1143636_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/bettys_run_pano_20210612_hu9c9be7fbcab668463ece1d5d7459b225_1143636_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/bettys_run_pano_20210612_hu9c9be7fbcab668463ece1d5d7459b225_1143636_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/bettys_run_pano_20210612_hu9c9be7fbcab668463ece1d5d7459b225_1143636_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Panoramic view from a winter run in Betty&amp;rsquo;s Bay. I was hoping Google Photos would stitch the pretty clouds together, and it did."/> </a><figcaption>
+            <p>Figure 1: Panoramic view from a winter run in Betty&rsquo;s Bay. I was hoping Google Photos would stitch the pretty clouds together, and it did.</p>
+        </figcaption>
+</figure>
+
+<p>As I put these finishing touches on the post, it&rsquo;s Wednesday, June 16 (<a href="https://www.gov.za/youth-day">Youth
+Day</a>), 16:09. I have just spent about an hour debugging my usually super smooth
+Emacs Org-mode / <a href="https://github.com/kaushalmodi/ox-hugo">ox-hugo</a> blogging machine (read <a href="https://github.com/kaushalmodi/ox-hugo/issues/447">this github issue</a> for more
+details), which is a small price when you consider all the hours this
+combination has saved me in the past.</p>
+<h2 id="solstice-tipping-point-is-coming">Solstice tipping point is coming!</h2>
+<p>The last thing we&rsquo;re supposed to do is to wish even just a little bit for time
+to pass more quickly, for fairly obvious reasons.</p>
+<p>However, when you&rsquo;re a few days from the darkest point in the year, it&rsquo;s hard
+not to.</p>
+<p>We currently have 9 hours and 56 minutes of daylight.</p>
+<p>That&rsquo;s just two minutes, and a few days, from the winter solstice on June 21,
+when we&rsquo;ll have to make do with 9 hours and 54 minutes of daylight.</p>
+<p>I mention this here, because those 6 AM wake-ups feel more and more like the
+middle of the night.</p>
+<p>After the solstice, I&rsquo;ll start imagining the sun coming up a few moments
+earlier every morning, and it will.</p>
+<p>(Well, it will, eventually. Reader WIMM just pointed out via email that
+although the days start getting longer, the sunrise will initially become even
+a minute later, before finally becoming earlier starting from July 11. Read
+more <a href="https://theconversation.com/why-the-sunrise-is-still-later-after-the-winter-solstice-shortest-day-77628">here</a> (thanks WIMM) or check the tables <a href="https://www.timeanddate.com/sun/south-africa/stellenbosch?month=6&amp;year=2021">here</a>.)</p>
+<p>It has been &hellip; <code>1 year and 11 months</code> &hellip; since <a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-boat/">the previous mention of winter
+solstice on this blog</a>.</p>
+<h2 id="avoid-the-jbl-endurance-run-bt-earphones-at-all-costs">Avoid the JBL Endurance Run BT earphones at all costs</h2>
+<p>A month ago <a href="/2021/05/21/weekly-head-voices-223-the-potjie-never-left/#world-in-my-eyes">I wrote about the JBL Endurance Run BT earphones</a> that I was
+initially so happy with, which then spontaneously broke after a few hours of
+running, and which I then returned for a replacement.</p>
+<p>Well, the replacement set of <a href="https://eu.jbl.com/JBL+ENDURANCE+RUNBT.html?dwvar%5FJBL%20ENDURANCE%20RUNBT%5Fcolor=Black-GLOBAL-Current">proudly sweat-proof JBL Endurance Run BT earphones</a>
+lasted for about 9 hours of running, at which point they spontaneously broke in
+exactly the same way.</p>
+<p>Out of nowhere, the loud crackling sound started in the earpiece opposite to
+the site with the control unit.</p>
+<p>This crackling sound (similar to the disturbance you hear when speaker wires
+have a connection issue) did not stop, even after un-pairing and even after
+switching off the unit.</p>
+<p>Connecting the charger after this would result in the charge light flickering
+and fading in-and-out in a decidedly analogue fashion.</p>
+<p>After experiencing the exact same problem with two different units, I am wary
+wasting more time on a third set.</p>
+<p>This was quite a disappointment, because mechanically this design was perfect
+for me.</p>
+<p>I will continue on my search for the perfect (1. secure in my large and
+sometimes perspiring ears, so needs something in addition to just ear canal fit
+and 2. durable, i.e. continues working <em>long</em> after the first 9 hours of
+running) set of running earphones, and I&rsquo;ll keep you up to date on my findings.</p>
+<p>In the meantime, please avoid the JBL Endurance Run BT earphones.</p>
+<h2 id="remote-work-culture-is-hard-work">Remote work culture is hard work</h2>
+<p>During our Tuesday evening meetup, Theunis de Klerk of <a href="https://www.noldor.co.za/">Noldor</a> (the now fully
+remote tech company, not <a href="https://en.wikipedia.org/wiki/Noldor">the race of elves from Middle Earth</a>, although there is
+a link here) gave an interesting and inspiring talk on how they have built and
+cultivate great remote work culture.</p>
+<p>This was an insightful look into an organization where the top leadership
+continuously pours a great deal of thought and energy into maintaining healthy
+culture, even in a fully remote environment with parts in different timezones.</p>
+<p>On the one hand, it&rsquo;s great seeing working examples like this, on the other, it
+can be quite a daunting prospect when you start thinking about how to apply
+this in your own environment.</p>
+<p>I believe that the future of knowledge work will <em>not</em> involve highly qualified
+folks having to spend 8 hours per day at their desk because we still have not
+learned that work is all about contributing value, and not about the number of
+hours spent in captivity at one&rsquo;s desk.</p>
+<p>That being said, during the current global remote working experiment, although
+we are learning how to roll with value-generation, I do miss some of the almost
+effortlessly and socially generated collaboration glue that at its best gets
+folks almost instinctively chasing the same worthy goals.</p>
+<p>(On the other hand, at its worst, it causes conflicts, grudges and ulcers, so
+there&rsquo;s that&hellip;)</p>
+<p>I would like to wrap this ramble up with one conclusion, and one interesting
+tweet storm by Steven Sinofsky of Andreesen Horowitz:</p>
+<ul>
+<li>Conclusion: 1. Am I overestimating how &ldquo;easy&rdquo; social cohesion was when we
+were in the office? 2. How do we go about getting back that real or imagined
+social cohesion in this fully remote setting?</li>
+<li><a href="https://a16z.com/2021/06/12/disruption-at-work-its-more-than-just-wfh/">Highly interesting tweet storm about the issue being larger and more
+intricate than just WFH vs hybrid vs HQ</a></li>
+</ul>
+<h2 id="eternal-practice-vs-stress">Eternal practice vs stress</h2>
+<p>I do need to note here (for future me) that I was consistently far grumpier
+than usual for the last few days of the week under examination here.</p>
+<p>When I say grumpy, I do mean quite detectably so.</p>
+<p>This is definitely not my preferred state, so I&rsquo;m even meta-grumpy about that.</p>
+<p>My retro- and introspection during the weekend came up with &ldquo;more stress than
+usual&rdquo;, which is indeed probably a main contributor (wow, thanks work).</p>
+<p>However, being grumpy or not is still fully my responsibility.</p>
+<p>Increased stress at work is currently primarily due to new responsibilities and
+the (often amplified by one&rsquo;s own imagination) expectations of colleagues, and
+the unsurprising feeling of discomfort that is associated with finding oneself
+faced with new kinds of challenges that you are not accustomed to (<em>cf.</em>
+&ldquo;comfort zone&rdquo; and <a href="/2013/11/11/creative-process-stage-5-whv-67/">stages 2 to 4 of the creative process</a>).</p>
+<p>During the weekend I first resolved simply to be less grumpy (yes, you can do
+that).</p>
+<p>Fortunately, I also had a spot of insight as to how the root cause, i.e. the
+work-related stress, could be better addressed in my specific case.</p>
+<p>You see, I have chosen to be in this situation. I would have preferred the new
+challenges without the concomitant stress, but that&rsquo;s unfortunately not how
+<em>this</em> human normally works.</p>
+<p>The realisation that I had was that this too is simply part of my lifelong
+practice session.</p>
+<p>I first talked about the idea of life being continuous pracrtice back in <a href="/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/#life-is-continuous-practice">WHV
+#133</a>, and again later in <a href="/2018/06/03/weekly-head-voices-144-eternal-learner/#mastery">WHV #144</a> when I got around to reading a
+reader-recommended book on the topic, titled &ldquo;Mastery&rdquo;.</p>
+<p>Something I did not mention back then, probably because I only experience the
+stress aspect as acutely at this moment, is that this particular framing helps
+me to approach my current problems with curiosity, with an appetite for
+learning and experimentation, and with the acceptance that my performance could
+be far from perfect, perhaps even to the point of failure.</p>
+<p>Some days will be good and some days will be bad.</p>
+<p>(Even outside of the practice framing, one just has to accept that <a href="/2020/05/20/weekly-head-voices-195-pragmatic/#pragmatic-thinking-and-learning"><em>some days
+gonna be crap</em></a>.)</p>
+<p>Whatever the case may be, every day is a brand new opportunity to practice the
+difficult new stuff, and to become gradually better at it, until one day, just
+maybe, comfort slowly starts overtaking discomfort.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #133: Onder in my Whiskeyglas.</title><link>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</link><pubDate>Sun, 25 Feb 2018 21:15:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</guid><description> The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.
+What a week.
+It was beautiful to see the whole team step up to the plate and engineer at about 110% throughput (software gets complicated quickly, and there&amp;rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3288.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3288.jpg"
+        
+            alt="The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week."/> </a><figcaption>
+            <p>The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.</p>
+        </figcaption>
+</figure>
+
+<p>What a week.</p>
+<p>It was beautiful to see the whole team step up to the plate and <em>engineer</em> at about 110% throughput (software gets complicated quickly, and there&rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</p>
+<h2 id="pro-tip-special">Pro-tip Special</h2>
+<p>I was of course the lucky winner of the manual-writing sub-project. I love writing code, but there&rsquo;s also something quite satisfying about writing documentation for a technical product. Anyways, there are five tiny but hopefully useful lessons I extracted from this exercise which I would like to present here:</p>
+<ol>
+<li><a href="https://vxlabs.com/2011/08/28/a-windows-console-that-does-not-suck/">I&rsquo;ve lamented the sorry state of the Windows console before</a> (in 2011 to be exact). In a surprise twist, the Windows console still sucks almost 7 years later. At least it&rsquo;s reliable. Anyways, <a href="http://cmder.net/">cmder is a great console replacement</a> which makes some of the stupid go away, somewhat.</li>
+<li>The Windows 10 built-in screenshot facility … wait for it… sucks. When you&rsquo;re writing documentation you need a tool that fits into your workflow. Keyboard shortcut – window or region – image ends up in a directory of your choice. <a href="http://getgreenshot.org/">Greenshot is an open source screenshotting tool</a> that does this with aplomb.</li>
+<li>You need to show a CHM (Windows Help) file to the user of your wxPython application when they hit F1. How hard could it be? Well, you could spend a number of hours trying to come up with a wx-y cross-platform solution, or you could use that time for something else worth your while and just use the <a href="http://docs.activestate.com/activepython/3.3/pywin32/win32help__HtmlHelp_meth.html">Python win32 package to call into the official Windows help API</a>. (cross-platform does work, it&rsquo;s just really ugly)</li>
+<li><a href="http://www.sphinx-doc.org/en/master/">Sphinx</a> is a much better tool to write technical manuals than is Markdown and related tools. I briefly considered Markdown because I always have to look up reStructuredText syntax, but fortunately ran into enough other places <a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/">warning against using Markdown for documentation</a>. For the record, I prefer orgmode over all of these puny formats in most other cases, but the documentation story of Sphinx with reStructuredText is admittedly much better.</li>
+<li>Start writing the manual as early as possible. It was amazing to see how this helped me to see the software we are designing at a more integrated (user) level. This knowledge was useful in driving more valuable improvements. If you can&rsquo;t explain the flow of some procedure in a manual, that&rsquo;s a good sign the procedure might need some refinement.</li>
+</ol>
+<h2 id="humble-book-bundle-and-rust">Humble Book Bundle and Rust</h2>
+<p>I bought the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle of (O&rsquo;Reilly) Functional Programming Books</a> for a super affordable $15. I was primarily interested in the <a href="http://shop.oreilly.com/product/0636920040385.do">Programming Rust book by Blandy and Orendorff</a>, but the other titles on Scala, Clojure, Erlang, Elixir, Haskell, Javascript and general functional programming are welcome additions to my library. Speaking of which, I emailed O&rsquo;Reilly to ask if the books in the bundle could be added to my member library, which they promptly did!</p>
+<p>I have avoided Rust up to now due to natural hype suppression circuitry, and because I grew up with C++, but its zero-overhead memory safety and trustworthy concurrency story makes it hard to ignore any longer. Even although <a href="https://www.quora.com/Which-language-has-the-brightest-future-in-replacement-of-C-between-D-Go-and-Rust-And-Why/answer/Andrei-Alexandrescu">Andrei Alexandrescu once called Rust the language that skips leg day</a>, it&rsquo;s certainly interesting seeing the constructs the language designers have come up to build a really fast compiled language with the lowest number of foot-guns per line of code.</p>
+<p>Anyways, when this blog gets published, you should still have about 22 hours to make use of the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle deal</a> if you too see something that you like.</p>
+<h2 id="life-is-continuous-practice">Life is continuous practice</h2>
+<p>I wanted to conclude with something that I&rsquo;ve been thinking about recently. It has to do with explicitly treating one&rsquo;s life as <em>continuous practice</em>. As I&rsquo;ve mentioned before on this blog and people much smarter than me have been pointing out since forever, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">goals are no good</a> and (lasting) <a href="/Weekly-Head-Voices-125/#Happy-Not-Happy">happiness is probably not attainable</a>.</p>
+<p>Discarding as many as possible of these sorts of fetters is liberating (you Buddhist), but can seem to leave holes in one&rsquo;s  life narrative. However, treating your life as a super long practice session is an interesting perspective.</p>
+<p>There is also no end point, and no real life goal.</p>
+<p>The only point of the whole exercise (yes, I see what I did there) is to try to improve continuously. Every day, we try to become a little better at our jobs, or at running, or at being a good human, or a partner, or a parent.</p>
+<p>Practice means that you have good days and bad days. It means that you sometimes look back and think that you were a better person then than you are now. Practice means that when you pick one activity, another will temporarily languish until you can make time for it again.</p>
+<p>All of this is ok, because tomorrow you have a whole new day to try again.</p>
+]]></content:encoded></item></channel></rss>

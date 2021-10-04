@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>brave on voices in my head</title><link>https://cpbotha.net/tags/brave/</link><description>Recent content in brave on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 21 Mar 2019 15:01:20 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/brave/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #165: Get in my Pocket.</title><link>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</link><pubDate>Thu, 21 Mar 2019 15:01:20 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</guid><description> This short WHV looks back at the week from Monday March 4 to Sunday March 10.
+In the week after that, I had actually decided not to publish this one, instead folding whatever I wanted to say into the next edition.
+However, fear of yet another much-too-long WHV, along with my current preference for a short warming-up of the writing pipes, have led me to change my mind, and so here we are!</description><content:encoded><![CDATA[ <p>This short WHV looks back at the week from Monday March 4 to Sunday March 10.</p>
+<p>In the week after that, I had actually decided not to publish this one,
+instead folding whatever I wanted to say into the next edition.</p>
+<p>However, fear of yet another much-too-long WHV, along with my current
+preference for a short warming-up of the writing pipes, have led me to change
+my mind, and so here we are!</p>
+<p>This post consists of a really short life part, followed by a longer nerdy
+pro-tip for the storage and retrieval of your web references.</p>
+<h2 id="gou3-turns-3">GOU#3 turns 3.</h2>
+<p>It seems like <a href="/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/">just the other day when Genetic Offspring Unit (GOU) #3 joined
+us</a> here in the warm and fuzzy Humanist Kingdom of WHV.</p>
+<p>Well, the &ldquo;beautiful pink little not-yet-walking but rapidly expanding
+cellular mega-city&rdquo; never stopped expanding, and is currently surprising us
+every day with the new ways in which her neural network processes and
+transforms the reality she finds herself in.</p>
+<h2 id="replacing-pocket-with-just-a-bunch-of-pdfs-jbop">Replacing Pocket with Just a Bunch Of PDFs (JBOP).</h2>
+<p>I&rsquo;ve been a happy user of Pocket Premium since October 23, 2016, when they
+cleverly offered me a locked discount on the annual plan.</p>
+<p>I&rsquo;m a sucker for a deal, and I needed something with which to store archive
+versions of interesting blog posts and other web resources.</p>
+<p>It served me well, as I frequently access and share especially
+research-related articles and blurbs, such as <a href="https://www.sciencedaily.com/releases/2016/11/161122193100.htm">this one</a> discussing the
+observation that aspartame (a sugar substitute found in popular fizzy drinks)
+interferes with some of your enzymes, possibly resulting in more weight gain
+that straight sugar!</p>
+<p>(For Real Academic Articles, i.e. RAA-RAA, I am still a huge fan
+of <a href="https://www.zotero.org">Zotero</a>. If Zotero had better mobile access, I would have used it for
+these straight web references also.)</p>
+<p>ANYWAYS, recently the new beta pocket interface was failing me horribly as I
+was trying to find the exact article mentioned up above.</p>
+<p>Typing &ldquo;glu&rdquo; or &ldquo;glucose&rdquo; was unsuccessful in finding another article
+&ldquo;Artificial sweeteners induce glucose intolerance by altering the gut
+microbiota&rdquo;, even although I could see that exact article in the overview
+screen. To add insult to injury, searching for &ldquo;aspartame&rdquo; also did not find
+that entry, although I had explicitly tagged it with &ldquo;aspartame&rdquo;.</p>
+<p>It could very well be that this is just a (serious) glitch in the beta system,
+but it was a frustrating reminder that for something as important (to me) as
+my collection of references (aka “argument-winning potion”), I was
+at the mercy of someone else, with almost no other recourse.</p>
+<p>This frustrating led me to find an alternative solution, which became&hellip; a big
+ol' bunch of PDFs! (call this JBOP, inspired by <a href="https://en.wikipedia.org/wiki/Non-RAID_drive_architectures">JBOD</a>)</p>
+<p>In order to do this, we need a method of turning web-pages into readable PDFs,
+and some system for the storage and retrieval of said PDFs.</p>
+<h3 id="use-a-browser-with-ad-blocking-and-reader-mode">Use a browser with ad-blocking and Reader Mode</h3>
+<p>The general idea is to use a browser with ad-blocking and some sort of reader
+mode, and then to print to PDF.</p>
+<p>On desktop, I am using <a href="https://brave.com">Brave Browser</a> because of the great
+built-in ad-blocking, and because I strongly support the idea of
+micro-payments to long-form content producers instead of content-destroying
+ads in my face.</p>
+<p>Because its built in reader mode, called <a href="https://brave.com/speed-reader/">Speed Reader</a>, has not
+shipped yet, I&rsquo;m currently using the <a href="https://chrome.google.com/webstore/detail/print-friendly-pdf/ohlencieiipommannpdfcmfdpjjmeolj">Print Friendly &amp; PDF extension</a>.</p>
+<p>Safari on macOS and Firefox have built-in reader modes / views. I can
+recommend the <a href="https://adguard.com/en/adguard-browser-extension/safari/overview.html">AdGuard ad-blocking extension</a> for Safari.</p>
+<p>Unfortunately, Safari on iOS 12 does not currently add the source URL to its
+virtually printed PDFs, so I&rsquo;m using Brave there also, although on iOS I
+generally prefer Safari, also with AdGuard.</p>
+<p>To print to PDF on iOS, simply print (swipe up, tap share, tap print), then do
+the zoom-in gesture to turn the print into a PDF, then share again to save out
+the PDF.</p>
+<h3 id="store-and-name-your-pdfs-so-you-can-search-them-from-everywhere">Store and name your PDFs so you can search them from everywhere</h3>
+<p>I store all of these PDFs in year-named sub-directories of a directory
+called <code>refs</code> in my Dropbox.</p>
+<p>Each PDF is named &ldquo;publication-date - publisher / author - title / stub&rdquo;, so
+the full path is e.g. <code>~/Dropbox/refs/2019/2019-03-09 - CBC Radio - Your brain may need sleep to repair DNA 'potholes'</code>.</p>
+<p>On macOS, all of these PDFs are indexed by Spotlight, so I can find the ones I
+want quite quickly. Your operating system of choice should have something
+similar.</p>
+<p>If you are a Dropbox Pro subscriber, the mobile app provides full-text
+searching to mobile spotlight also, so you can find any article lightning fast
+on your phone.</p>
+<p>Google Drive will do this for cheaper, but <a href="/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/#my-big-and-stupid-misstep-into-google-drive">Google Drive might also end up
+eating your files</a>. ;)</p>
+<h3 id="profit">Profit!</h3>
+<p>Now all of your web references are in PDF format, arguably the
+typeset-document equivalent of plaintext in terms of accessibility and future
+proofing.</p>
+<p>As you change around your syncing and storage systems in the coming years,
+your faithful directory of PDFs will follow you wherever you go.</p>
+<p>As an added bonus, these PDFs can be annotated with your notes and text
+highlights.</p>
+<h2 id="this-ending-is-only-a-pause">This ending is only a pause.</h2>
+<p>Thank you for sticking around for the warming up of the pipes.</p>
+<p>I hope that they will not have cooled down too much before I find another bit
+of time to start on WHV #166.</p>
+<p>There will be pretty pictures!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #153: pH &lt; 7 dreams.</title><link>https://cpbotha.net/2018/09/11/weekly-head-voices-153/</link><pubDate>Tue, 11 Sep 2018 20:17:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/09/11/weekly-head-voices-153/</guid><description> Looking back at the week from Monday September 3 to Sunday September 9, I present to you the following memories and after-effects.
+Aphex Twin never left us I serendipitously ran into T69 Collapse, the brand new track and video by Aphex Twin.
+In the grand tradition of WHV intro art, I have embedded the video above.
+Whether you’re a fan or not, I think it’s worth sitting through this one, preferably with the headphones and the video in full screen.</description><content:encoded><![CDATA[ <div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/SqayDnQ2wmw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Looking back at the week from Monday September 3 to Sunday September 9, I present to you the following memories and after-effects.</p>
+<h1 id="aphex-twin-never-left-us">Aphex Twin never left us</h1>
+<p>I serendipitously ran into T69 Collapse, the brand new track and video by Aphex Twin.</p>
+<p>In the grand tradition of WHV intro art, I have embedded the video above.</p>
+<p>Whether you’re a fan or not, I think it’s worth sitting through this one, preferably with the headphones and the video in full screen.</p>
+<p>Pro-tip: This is not one of those tracks where the whole thing can be more or less predicted by viewing the first minute. There’s a thing at 1:55 and a second thing at 3:14.</p>
+<p>I had to wonder whether the <a href="https://en.wikipedia.org/wiki/Matthew_3:14">3:14</a> was intentional. We’re not much into our biblical references over here as you might know, but you have to recall that Aphex Twin is the guy who, already back in 1999, hid his face in the spectrogram of a music track called:</p>
+<p>\[\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\]</p>
+<p>That&rsquo;s the actual name of the track (#2 on the famous <a href="https://en.wikipedia.org/wiki/Windowlicker">Windowlicker EP</a>), although most people (plebs!) refer  to it as just <em>Function</em> or <em>Equation</em>. I got sucked down that rabbit hole last night, but no-one on the internet seems to know the true meaning of the equation. Please ask RDJ if you ever run into him.</p>
+<p>Anyways, I have embedded \(\Delta M_i^{-1} = -\alpha \sum\limits_{n=1}^N D_i [n] \left[\sum\limits_{j \in C[i]} F_{ji} [n-1] + Fext_i [n^{-1}]\right]\) below for your listening and viewing pleasure. Aphex Twin’s face appears at 5:30.</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/M9xMuPWAZW8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<h1 id="apfs-encryption-vs-samsung-hardware-encryption-effective-ssd-speed">APFS encryption vs Samsung hardware encryption effective SSD speed</h1>
+<p>I ran benchmarks on my external Samsung T3 SSD comparing the speed of encrypted APFS to unencrypted APFS with Samsung’s hardware-based full disk encryption.</p>
+<p>I used <a href="http://www.katsurashareware.com/pgs/adm.html">AmorphousDiskMark</a>, <a href="https://itunes.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12">BlackMagic Disk Speed Test</a> and plain old iostat whilst copying 30GB of files to and from the disk.</p>
+<p>There will probably soon be a detailed blog post over on vxlabs.com about this, but I’ll give you the skinny here:</p>
+<ul>
+<li>It’s hard to get benchmarks right. BlackMagic gave wildly varying results depending on how many times I let it run its benchmark for example.</li>
+<li>APFS’s software encryption looks like it causes a performance hit ranging from 5 to about 10%, with outliers in both directions.</li>
+<li>Emacs can calculate over columns of data, for example from iostat’s standard out, using a simple <code>M-x calc-grab-from-rectangle</code> and <code>M-x calc-vector-mean</code>.</li>
+</ul>
+<h1 id="brave-browser-and-the-basic-attention-token-bat-this-could-be-big-or-not-its-at-least-interesting">Brave browser and the Basic Attention Token (BAT): This could be big. Or not. It’s at least interesting.</h1>
+<p><a href="https://brave.com">Brave</a> is a new(ish) browser also based on the Chrome engine.</p>
+<p>I knew they were doing something with cryptocurrency, and paying or getting paid for the consumption of content and/or advertising, but I was, as you can see, quite vague on the details.</p>
+<p>What I learned last week taking it for a quick spin is the following:</p>
+<p>Brave out of the box is massively privacy-focused. Without installing any plugins, it blocks every single advertisement and tracking cookie known to humankind. It also automatically switches to secure SSL wherever that’s possible.</p>
+<p>More interestingly, in Brave you can opt in to “<a href="https://brave.com/publishers/">Brave Payments</a>“, which looks like it might soon be renamed to Brave Rewards, but don’t quote me on that.</p>
+<p>One part of this system, is that you as a user contribute a set amount of BAT tokens (these are tokens on the ethereum chain) per month. At the end of each month, Brave will pay out your tokens to the websites that you visited, based on the amount of time you spend on each site.</p>
+<p>In this way, publishers can get recompensed for their content in hard cash, without having to resort to advertising. (It does look like Brave also supports the model where advertisers can pay, in BAT tokens of course, for your eyeball time.)</p>
+<p>Brave already has 4 million monthly active users (MAU).</p>
+<p>If they’re able to grow this user base, and get a significant portion to participate in the payment system, this could be a game changer. Imagine being able to pay your favourite content creators in this seamless way, and being able to switch off ads in  the process!</p>
+<h1 id="runalyze-where-have-you-been-all-my-life">RunAlyze where have you been all my life?</h1>
+<p>I publish my runs to Strava, as I have a bunch of friends there, and I like the idea of a social network where you have pay with a bucket of sweat before you’re allowed to say <em>anything</em>.</p>
+<p>However, I was also relying on Strava to keep track of my shoe mileage. Recently, it started losing the miles I put on my Xero Genesis sandals (the most unforgiving shoes in the universe), and I was not able to coax the system into correctly tracking those terrible, terrible kilometres.</p>
+<p>Because I use HealthFit to push my data to Strava, I took a look at some of its other endpoints and then, again extremely serendipitously, ran into:</p>
+<p><a href="https://blog.runalyze.com">RUNALYZE</a></p>
+<p>It’s a site made by two running nerds (and it <strong>really</strong> shows) from Germany.</p>
+<p>It keeps track of my shoes (the goal of this… <em>exercise</em>, bad pun, sorry) but the authors have also implemented a bunch of metrics from academic papers, some metrics of their own, and they show tables of your data sliced and diced in many different ways ON ALL FOUR WALLS of their website.</p>
+<p>&lt;Dr Evil voice&gt;It’s breathtaking.&lt;/Dr Evil voice&gt;</p>
+<p>Anyways, if you’re a running nerd too, you should probably take a peek.</p>
+<h1 id="fin">Fin</h1>
+<p>See you soon brothers and sisters. I am grateful for our time together.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

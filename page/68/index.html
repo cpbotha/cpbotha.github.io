@@ -1,0 +1,393 @@
+<!doctype html><html>
+<head>
+<title>voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="voices in my head">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/">
+<link href=https://cpbotha.net/index.xml rel=alternate type=application/rss+xml title="voices in my head">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/08/07/problem-solved/>Problem solved?</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/08/07/problem-solved/ class=article-date>
+<time datetime=2001-08-07T00:37:00.000+00:00 itemprop=datePublished>2001-08-07</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+Weird… I’m going to quote from a mail I sent:
+In anycase, these have been some of the weirdest hardware moments I’ve ever had: it seems that an existing 32MB DIMM was right on the edge of giving up at the moment that I installed a new 128MB DIMM in the firewall and converted it to reiserfs.
+It was on the edge in such a manner that it survived 12 consecutive passes of complete memtest86 test-sets (and 40 3-parallel process kernel compiles without a sig11)….
+</p>
+<p class=article-more-link>
+<a href=/2001/08/07/problem-solved/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/08/02/err-i-was-wrong/>Err, I was wrong.</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/08/02/err-i-was-wrong/ class=article-date>
+<time datetime=2001-08-02T18:38:00.000+00:00 itemprop=datePublished>2001-08-02</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+So the ram is fine if we can trust memtest86. Why am I still getting oopses?! I sent a mail to the reiserfs mailing list and got the typical reiserfs answer: your hardware is borked, it can’t be our code. Hmmmm… right. I’m sure the reiserfs code is well-tested, but it’s still not a good approach to blame the hardware immediately, especially if tests indicate elsewhere. What the hell, I’m going to try and reproduce this.
+</p>
+<p class=article-more-link>
+<a href=/2001/08/02/err-i-was-wrong/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/08/02/unstable-firewall/>Unstable firewall</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/08/02/unstable-firewall/ class=article-date>
+<time datetime=2001-08-02T05:09:00.000+00:00 itemprop=datePublished>2001-08-02</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+Well children, my firewall had gone weirdly unstable after I’d added 128MB of new PC133 ram. It’s a Celery 300A (@450 of course) and it was oopsing miserably after years of faithful service. After memtesting it seemed that suddenly there were errors in one of the existing dimms. Hmmm, it turs out that CAS wait state was set on auto in the bios. I’m theorising that the BIOS somehow based its CAS on the new RAM and that the old RAM couldn’t quite accommodate that.
+</p>
+<p class=article-more-link>
+<a href=/2001/08/02/unstable-firewall/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/07/29/debian-thingies/>debian thingies…</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/07/29/debian-thingies/ class=article-date>
+<time datetime=2001-07-29T22:27:00.000+00:00 itemprop=datePublished>2001-07-29</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+I’ve uploaded new JED debs with some minor fixes. At the moment, I’m rebuilding 4.1.0 potato debs for the 4th time… it’s taking much more hacking than previously. These will be available at http://people.debian.org/~cpbotha/ when done. Watch that space!
+</p>
+<p class=article-more-link>
+<a href=/2001/07/29/debian-thingies/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/07/19/ltns/>LTNS</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/07/19/ltns/ class=article-date>
+<time datetime=2001-07-19T18:35:00.000+00:00 itemprop=datePublished>2001-07-19</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+Today was one of those “clean-your-very-large-monitor” days. My monitor is now clean and I must say that it’s a very nice monitor.
+</p>
+<p class=article-more-link>
+<a href=/2001/07/19/ltns/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/06/26/the-tip/>The TIP</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/06/26/the-tip/ class=article-date>
+<time datetime=2001-06-26T05:10:00.000+00:00 itemprop=datePublished>2001-06-26</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+I have an Abit KT7 motherboard. I like it, except for one little thing: for some or other reason, Abit chose to mount a non-ball-bearing fan on the Northbridge chipset heatsink. Now, if you’re going to put any kind of fan in a computer, make sure it’s a ball-bearing fan, as it’s probably going to be doing its thing 24 hours per day, 7 days a week.
+In anycase, this fan of mine started making an awful noise a while ago and shortly after that stopped rotating quite as fast as it should have.
+</p>
+<p class=article-more-link>
+<a href=/2001/06/26/the-tip/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/06/21/gaim-yaaaaaay/>GAim yaaaaaay!</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/06/21/gaim-yaaaaaay/ class=article-date>
+<time datetime=2001-06-21T04:57:00.000+00:00 itemprop=datePublished>2001-06-21</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+The newer versions of everybuddy (multi-protocol IM client) were getting progressively worse, at least on my systems. So, by chance I saw that GAim now also has support for IM networks other than AIM through its plugin system. I gave it a shot and I’m really impressed! It’s stable on my configurations and supports AIM, ICQ, Yahoo chat, MSN, Jabber, Zephyr and IRC. It even has a napster plugin. The kitchen sink will be included in the next release.
+</p>
+<p class=article-more-link>
+<a href=/2001/06/21/gaim-yaaaaaay/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/06/11/atmospheric-assimilation/>Atmospheric assimilation</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/06/11/atmospheric-assimilation/ class=article-date>
+<time datetime=2001-06-11T18:33:00.000+00:00 itemprop=datePublished>2001-06-11</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+Brilliant music stream at http://www.musicforhackers.com/. Ambienty and relaxing…
+</p>
+<p class=article-more-link>
+<a href=/2001/06/11/atmospheric-assimilation/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/06/08/15-minutes-of-fame/>15 minutes of fame</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/06/08/15-minutes-of-fame/ class=article-date>
+<time datetime=2001-06-08T15:18:00.000+00:00 itemprop=datePublished>2001-06-08</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+When I checked my mail this morning, I saw that Debian BTS bug #100000 had been filed against my beloved JED. For any developer, this has to be a great honour *bow*. However, it seems this bug is not actually a JED bug, but belongs to xterm. Sadly, I therefore had to reassign it…
+</p>
+<p class=article-more-link>
+<a href=/2001/06/08/15-minutes-of-fame/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2001/06/04/kde-21/>KDE 2.1</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2001/06/04/kde-21/ class=article-date>
+<time datetime=2001-06-04T22:12:00.000+00:00 itemprop=datePublished>2001-06-04</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+The KDE programming environment (APIs, documentation, conventions) is quite impressive. After having played around with konqueror (which is an impressive application in itself) I decided to have a glance at how KDE itself has progressed since I last had a quick look (1.x somewhere). It’s still a shame about the use of Qt. I know that this is a good library and that it’s free for the development of free software for X11, but that’s still not absolutely free.
+</p>
+<p class=article-more-link>
+<a href=/2001/06/04/kde-21/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<nav id=page-nav>
+<a href=/page/67/ rel=prev class="extend prev">&#171; Prev</a>
+<a href=/>1</a>
+<a href=/page/2/>2</a>
+<a href=/page/3/>3</a>
+<a href=/page/4/>4</a>
+<a href=/page/5/>5</a>
+<a href=/page/6/>6</a>
+<a href=/page/7/>7</a>
+<a href=/page/8/>8</a>
+<a href=/page/9/>9</a>
+<a href=/page/10/>10</a>
+<a href=/page/11/>11</a>
+<a href=/page/12/>12</a>
+<a href=/page/13/>13</a>
+<a href=/page/14/>14</a>
+<a href=/page/15/>15</a>
+<a href=/page/16/>16</a>
+<a href=/page/17/>17</a>
+<a href=/page/18/>18</a>
+<a href=/page/19/>19</a>
+<a href=/page/20/>20</a>
+<a href=/page/21/>21</a>
+<a href=/page/22/>22</a>
+<a href=/page/23/>23</a>
+<a href=/page/24/>24</a>
+<a href=/page/25/>25</a>
+<a href=/page/26/>26</a>
+<a href=/page/27/>27</a>
+<a href=/page/28/>28</a>
+<a href=/page/29/>29</a>
+<a href=/page/30/>30</a>
+<a href=/page/31/>31</a>
+<a href=/page/32/>32</a>
+<a href=/page/33/>33</a>
+<a href=/page/34/>34</a>
+<a href=/page/35/>35</a>
+<a href=/page/36/>36</a>
+<a href=/page/37/>37</a>
+<a href=/page/38/>38</a>
+<a href=/page/39/>39</a>
+<a href=/page/40/>40</a>
+<a href=/page/41/>41</a>
+<a href=/page/42/>42</a>
+<a href=/page/43/>43</a>
+<a href=/page/44/>44</a>
+<a href=/page/45/>45</a>
+<a href=/page/46/>46</a>
+<a href=/page/47/>47</a>
+<a href=/page/48/>48</a>
+<a href=/page/49/>49</a>
+<a href=/page/50/>50</a>
+<a href=/page/51/>51</a>
+<a href=/page/52/>52</a>
+<a href=/page/53/>53</a>
+<a href=/page/54/>54</a>
+<a href=/page/55/>55</a>
+<a href=/page/56/>56</a>
+<a href=/page/57/>57</a>
+<a href=/page/58/>58</a>
+<a href=/page/59/>59</a>
+<a href=/page/60/>60</a>
+<a href=/page/61/>61</a>
+<a href=/page/62/>62</a>
+<a href=/page/63/>63</a>
+<a href=/page/64/>64</a>
+<a href=/page/65/>65</a>
+<a href=/page/66/>66</a>
+<a href=/page/67/>67</a>
+<span class="page-number current">68</span>
+<a href=/page/69/>69</a>
+<a href=/page/70/>70</a>
+<a href=/page/69/ rel=next class="extend next">Next &#187;</a>
+</nav>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

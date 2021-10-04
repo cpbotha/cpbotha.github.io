@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>habits on voices in my head</title><link>https://cpbotha.net/tags/habits/</link><description>Recent content in habits on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 10 May 2020 23:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/habits/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #194: 136 words a day</title><link>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</link><pubDate>Sun, 10 May 2020 23:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</guid><description> Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.
+This post quite compactly gazes back at the week from Monday May 4 to Sunday May 10.
+It starts with a short summary of my work week, followed by a story which you will hopefully enjoy.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="afrikaburn2017-sunset.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies."/> </a><figcaption>
+            <p>Figure 1: From the oldies but goodies photo album, because I haven&rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.</p>
+        </figcaption>
+</figure>
+
+<p>This post quite compactly gazes back at the week from Monday May 4 to Sunday
+May 10.</p>
+<p>It starts with a short summary of my work week, followed by a story which you
+will hopefully enjoy.</p>
+<h2 id="how-was-your-week-honey">How was your week honey?</h2>
+<p>I hacked on and fixed iPad microphone support in our direct-to-patient
+TeleMedicine app.</p>
+<p>If you are a programmer, or you have programmers in your life, you&rsquo;ll hopefully
+understand the absolute catnip of technical rabbit holes that suck you in for
+hours on end, only to eject you on a beautiful but extremely short-lived
+dopamine deluge of discovery.</p>
+<p>We integrated <a href="https://casual-effects.com/markdeep/">markdeep</a> into the performance tracking component of one of our
+medical image processing pipelines.</p>
+<p>Having a format, namely .md.html, which is this easy to generate
+programmatically from some computational pipeline, yet results in such
+attractive output documents is a great boon.</p>
+<h2 id="gou-1-reveals-her-plans-and-makes-us-think--more">GOU #1 reveals her plans and makes us think (more)</h2>
+<p><a href="/about/weekly-head-voices-abbreviations/">GOU #1</a> turned another year older.</p>
+<p>At the dinner table on the big day, we were having a conversation about further
+education in general and about postgraduate studies and PhDs in particular.</p>
+<p>(She is now in high school, so these conversations are happening more often.)</p>
+<p>I said that she will have to get a PhD in Physics or Math, but that I would
+probably be able to make peace with a PhD in Engineering also.</p>
+<p>She asked us how the PhD works, and so we explained the background as well as
+we could.</p>
+<p>We spent quite some time on the observation that the most important part of a
+successful PhD is just never giving up.</p>
+<p>Although never giving up is a chronic aspect, many PhD-veterans will tell you
+that this adventure often includes a fairly acute existential crisis, mostly at
+about the halfway mark.</p>
+<p>This is when the candidate asks pertinent questions like:</p>
+<ul>
+<li>Why, oh why did I ever think this was a good idea?</li>
+<li>Is this work really worth <em>anything</em>?</li>
+<li>Does anyone really care about this?</li>
+<li>I wonder what the non-academic job market is like at this moment?!</li>
+</ul>
+<p>Fortunately in many cases, the candidate gets through this process and emerges
+from the other side of the ordeal ever so slightly stronger and wiser.</p>
+<p>(For those of you who have been paying attention, this crisis is like the super
+deluxe version of the <a href="/2013/11/11/creative-process-stage-5-whv-67/">5-stage Creative Process</a>.)</p>
+<p>I digress&hellip;</p>
+<p>Talking more about the mechanics, GOU #1 asked how long a PhD thesis usually
+is.</p>
+<p>Off the top of my head I said: &ldquo;Around 50 thousand words, but there is of
+course huge variation&rdquo;.</p>
+<p>At that point she got out her phone (well, it&rsquo;s actually never not out) and
+made a quick calculation, after which she quipped: &ldquo;Well, that&rsquo;s
+straight-forward then. I&rsquo;ll spend one year planning, then I&rsquo;ll spend the year
+after that writing only 136 words per day, and the year after that revising
+everything to make it perfect.&rdquo;</p>
+<p>This was a simply lovely and humorous conversation to have at that moment, but
+what a great point she made: If you can manage to write 136 words per day for a
+year, you&rsquo;ll have 50000 words.</p>
+<h3 id="the-slightly-modified-136-word-plan">The slightly modified 136 word plan</h3>
+<p>136 words is really not that much if you look at it in isolation. The text
+above, from right after &ldquo;I digress&hellip;&rdquo; until right before the heading above, is
+exactly 136 words (if Emacs can be trusted).</p>
+<p>To me the <a href="/tags/compounding/">compounding</a> nature of this act of writing such a paltry number of
+words every day, but simply keeping at it for months and years, is quite
+amazing.</p>
+<p>So, thanks to my daughter&rsquo;s inspiration, I added a daily item to <a href="/2019/11/02/forming-and-maintaining-habits-using-orgmode/">my habit
+tracker</a> that says <em>Write 100 words towards publication</em>.</p>
+<p>I hope she won&rsquo;t mind that I changed the limit to 100, simply because I would
+like to increase my chances of being consistent and maintaining those <a href="/2019/09/09/weekly-head-voices-177-streakers/#life-optimisation-tip-73-streak-more">streaks</a>.</p>
+<p>I have added the explicit qualifier that the 100 words I write should be
+towards publication: This means that my intention should be for them to end up
+either in a blog post, or perhaps a future book project, or any other form of
+publication that is intended for public consumption.</p>
+<p>Wish me luck folks! Even better, why not join me on this journey?!</p>
+<h2 id="friendly-wishes">Friendly wishes</h2>
+<p>Thank you friends for meeting me here.</p>
+<p>I wish you all health and kindness and contentment.</p>
+]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
+The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
+<p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
+context for the development of other ideas for habit tracking tricks and tools.</p>
+<h2 id="the-importance-of-habits">The importance of habits.</h2>
+<p>If you have some experience being, you know, alive, and perhaps even trying to
+get just that little bit better at it every day, you will have realised by now
+that being able to form and maintain good habits is almost a super power.</p>
+<p>(Other real-life super powers: Kindness. Peace. Focus. I digress&hellip; haha.)</p>
+<p>All of those promises we make to ourselves to read more, to eat better, to
+exercise more, to meditate regularly, and so on: The key to making all of these
+happen is forming and then maintaining habits.</p>
+<p>First the habit has to be created out of nothing, and once it&rsquo;s up and running,
+the idea is to keep going at it for as long as possible.</p>
+<p><a href="/2019/09/09/weekly-head-voices-177-streakers/#life-optimisation-tip-73-streak-more">Streaking</a>,
+that is trying to continue for as long as possible without any interruption, is
+a fun and effective trick to keep at it.</p>
+<p>However, it is just as important being able to restart a new streak once the
+previous one has been broken for whatever reason.</p>
+<h2 id="what-the-orgmode-habit-tracker-does">What the Orgmode habit tracker does.</h2>
+<p>Up to now, I mostly used <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">daily checklists to keep track of healthy
+habits</a>, but for
+some habits, especially ones with a non-daily frequency, this does not work so
+well.</p>
+<p>A significant step up from daily checklists, the <a href="https://orgmode.org/manual/Tracking-your-habits.html">Emacs Orgmode habits
+function</a> enables you:</p>
+<ul>
+<li>to specify any number of habits, each with different, sometimes less regular
+frequencies;</li>
+<li>to track when you perform a habit and when you should next perform it and finally</li>
+<li>to visualize if you are performing according to the specifications you have
+set.</li>
+</ul>
+<p>For example: I would like to run at least three times a week. There should be
+at least one rest day after a running day (I&rsquo;m not a spring chicken
+anymore). There should be a maximum of three rest days allowed (this usually
+happens after a longer weekend run).</p>
+<p>Although I enjoy running enough to keep this habit up by myself, I chose it as
+a first test of the Orgmode habits function.</p>
+<p>So far I have setup two other simpler examples:</p>
+<ul>
+<li>A core exercise which I call &ldquo;The Wheel&rdquo; (of pain). This has to happen every
+second day, usually in between running days.</li>
+<li>&ldquo;Deep reading&rdquo;, which is meant to describe a session of focused reading of
+long-form, i.e. mostly books. This has to happen every day.</li>
+</ul>
+<p>Before starting tracking of these latter two habits slightly more than a week
+ago, I somehow kept on letting them slip.</p>
+<p>This morning, my org-agenda looked like this:</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot.png">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+  
+  
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>In the figure you can see that today, represented by the exclamation mark <code>!</code>,
+I will have to schedule in a session of deep reading (indicated by the yellow
+colouring), and a session of &ldquo;the wheel&rdquo;.</p>
+<p>The running habit graph  is showing that I still have three days, including
+today, on which I do not have to run.</p>
+<p>By default it would not have displayed today, because I ran yesterday, as shown
+by the asterisk <code>*</code>, and I specified that minimum of one rest day. However, I
+temporarily configured it to show today for the sake of this exposition.</p>
+<p>To summarise: These habit graphs show up as part of your org-agenda view and
+show you at a glance when you should perform which habits, and, quite
+importantly, how long you have been streaking a particular habit.</p>
+<h2 id="how-to-setup-orgmode-habits">How to setup Orgmode habits.</h2>
+<h3 id="global-configuration">Global configuration.</h3>
+<p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
+the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp">(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
+state logging for the task <code>DONE</code> state:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
+<span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
+      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
+<span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
+<span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
+(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+</code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
+<p>Then, start creating the special habit nodes as explained in the following:</p>
+<p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
+journal file</a>:</p>
+<!-- I used M-x htmlize-region-save-screenshot to get this HTML representation of a real org file onto the clipboard. -->
+<pre style="color: #DCDCCC; background-color: #3F3F3F;">
+<span style="color: #BFEBBF; background-color: #3F3F3F;">** </span><span style="color: #CC9393; font-weight: bold;">TODO</span><span style="color: #BFEBBF; background-color: #3F3F3F;"> Running</span>
+<span style="color: #7F9F7F;">SCHEDULED:</span> <span style="color: #8CD0D3; text-decoration: underline;">&lt;2019-11-03 Sun .+2d/4d&gt;</span>
+<span style="color: #7F9F7F;">:PROPERTIES:</span>
+<span style="color: #7F9F7F;">:STYLE:</span>    habit
+<span style="color: #7F9F7F;">:LAST_REPEAT:</span> <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+<span style="color: #7F9F7F;">:END:</span>
+<span style="color: #7F9F7F;">:LOGBOOK:</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-11-01 Wed 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-30 Wed 15:41]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-26 Sat 14:14]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-24 Thu 19:11]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-22 Tue 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-20 Sun 10:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-18 Fri 16:00]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-16 Wed 08:13]</span>
+- State "DONE"       from "TODO"       <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-13 Sun 10:00]</span>
+- Created "TODO" <span style="color: #8CD0D3; text-decoration: underline;">[2019-10-23 Wed 09:53]</span>
+<span style="color: #7F9F7F;">:END:</span>
+</pre>
+<p>The <a href="https://orgmode.org/manual/Tracking-your-habits.html">orgmode habits
+documentation</a> explains
+that a habit is a special sort of <code>TODO</code> node with the following additional
+properties, which can all be seen in the above example:</p>
+<ul>
+<li>The node has a <code>:STYLE:</code> property of <code>habit</code>. Configure with =M-x
+org-set-property=.</li>
+<li>The node has a <code>SCHEDULED</code> date in the future on the next date when this
+habit should take place, along with a frequency / time constraint
+specification, in this case <code>.+2d/4d</code>, meaning that at the most every second
+day, and at the least every fourth day.</li>
+</ul>
+<p>Furthermore, with <code>DONE</code> state logging configured as explained above, you&rsquo;ll
+get the <code>LOGBOOK</code> with the required state changes used by the habit graphs.</p>
+<h3 id="in-use">In use.</h3>
+<p>Whenever you&rsquo;ve completed a habit, fire up Emacs (I&rsquo;m joking of course: Emacs
+is always running) and then toggle the state of the habit to <code>DONE</code>.</p>
+<p>You&rsquo;ll see that it briefly toggles to <code>DONE</code>, and then automatically switches
+back to <code>TODO</code>.</p>
+<p>(There&rsquo;s some philosophical lesson to be learned from that&hellip;)</p>
+<p>When this happens, the <code>:LAST_REPEAT:</code> timestamp will be automatically updated
+to the current time, and, more importantly, the <code>SCHEDULED</code> date will be
+automatically updated to the next earliest date when this habit should be
+exercised.</p>
+<p>In the case of the running example above, that will be tomorrow, as today is a
+rest day.</p>
+<p>Whenever you activate org-agenda, you&rsquo;ll see the habit graphs right at the top,
+by default only on the days when they are actually scheduled. In the running
+example, that habit will not appear on rest days. (This can naturally be
+configured, see <code>M-x describe-variable RET org-habit-show-all-today</code>).</p>
+<h2 id="conclusion">Conclusion.</h2>
+<ul>
+<li>Being able to forming and maintain habits can form an important component of
+better living.</li>
+<li><em>Habit streaking</em> is a fun psychological trick to keep you going.</li>
+<li>However, don&rsquo;t be disheartened by a broken streak. Get back on that horse and
+try again.</li>
+<li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
+maintain habits, especially non-daily ones.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0321-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0321-PANO-1024x598.jpg"
+        
+            alt="Yes, we ended up in the mountains again."/> </a><figcaption>
+            <p>Yes, we ended up in the mountains again.</p>
+        </figcaption>
+</figure>
+
+<p>In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.</p>
+<p>One more of my <a href="https://github.com/org2blog/org2blog/pull/226">org2blog pull requests</a> was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</p>
+<p>Anyways.</p>
+<h1 id="aspnet-core-surprise">ASP.NET Core SURPRISE!</h1>
+<p>For a work project I was <em>encouraged</em> to explore Microsoft’s brand new <a href="https://docs.microsoft.com/en-us/aspnet/core/">ASP.NET Core</a>. While on the one hand I remain wary of Microsoft (IE6 anyone?), I am an absolute sucker for new technology on the other.</p>
+<p>You may colour me impressed.</p>
+<p>If I had to describe it in one sentence, I would have to describe ASP.NET Core as Django done in C#. You can develop and deploy this on Windows, Mac or Linux. You model and query your data using Entity Framework Core and LINQ for example, or Dapper if you prefer performance and don’t mind the SQL (I don’t), or both. You write controller classes and view templates using the Razor templating language.</p>
+<p>C# 7.0 looks like it could be a high development velocity language. It has modern features such as lambdas with what looks like real closures (unlike C++ variable capturing), as well as the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator">null coalescing operator (??)</a> and the <a href="http://geekswithblogs.net/BlackRabbitCoder/archive/2015/06/05/c.net-little-wonders-null-conditional-operator-in-c-6.aspx">null conditional operator (?.)</a>, the latter of which looks superbly useful. Between Visual Studio on Windows and the Mac, or the new Intellij Rider IDE (all platforms) or Visual Studio Code (all platforms), the tooling is top notch.</p>
+<p>Time will have to tell how it compares to Python with respect to development velocity, a competition that Python traditionally fares extremely well at.</p>
+<p>Where ASP.NET Core wins hands down is in the memory usage department: By default you deploy using the Kestrel web server, which runs your C# code using <em>multiple</em> libuv (yeah, of lightning fast node.js event loop fame) event loops, all in threads.</p>
+<p>With Django I usually deploy as many processes as I can behind uwsgi, itself behind nginx. The problem is that with Python’s garbage collector, these processes end up sharing very little memory, and so one has to take into account memory limits as well as CPU count on servers when considering concurrency.</p>
+<p>The long and the short of this is that one will probably be able to process many more requests in parallel with ASP.NET Core than with Django. With uwsgi and Django I have experimented with gevent in uwsgi and monkey patching, but this does not work as well as it does in ASP.NET Core, which has been designed with this concurrency model in mind from the get go. My first memory usage and performance experiments have shown compelling results.</p>
+<p>Hopefully more later!</p>
+<h1 id="a-cadence-of-accountability">A cadence of accountability</h1>
+<p>Lately my <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work habits</a> have taken a bit of a hit. At first I could not understand how to address this, until I remembered mention of a <em>cadence of accountability</em> in <a href="http://calnewport.com/books/deep-work/">The Book</a><em>.</em></p>
+<p>Taking a quick look at <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">that post</a>, I understood what I had forgotten to integrate with my habits. Besides just doing the deep work, it’s important to “keep a compelling scoreboard” and to “create a cadence of accountability”.</p>
+<p>Although I was tracking my deep work time using the <a href="http://orgmode.org/manual/Clocking-commands.html">orgmode clocking commands</a> (when I start “deep working” on anything, I make an orgmode heading for it in my journal and clock in; when I’m done I clock out; orgmode remembers all durations) I was not regularly reviewing my performance.</p>
+<p>With orgmode’s <code>org-clock-report</code> command (<code>C-c C-x C-r</code>), I can easily create or update a little table, embedded in my monthly journal orgfile, with all of my deep work clocked time tallied by day. This “compelling scoreboard” gives me instant insight into my weekly and monthly performance, and gives me either a mental kick in the behind or pat on the shoulder, depending on how many deep work hours I’ve been able to squeeze in that day and the days before it.</p>
+<p>The moment I started doing this at regular intervals, “creating a cadence of accountability” in other words, I was able to swat distractions out of the way and get my zone back.</p>
+<p>This is an interesting similarity with <a href="/tag/gtd/">GTD</a> (which I don’t do so much anymore because focus is far more important to me than taking care of sometimes arbitrary and fragmentary tasks) in that GTD has the <a href="https://zenhabits.net/weekly-review-key-to-gtd-and-achieving/">regular review</a> as a core principle.</p>
+<p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
+<p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #119: Snowcrash.</title><link>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</link><pubDate>Sun, 26 Mar 2017 20:55:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</guid><description> This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.
+As is becoming sort of a tradition around these parts, I get to show you a photo or two of our over-nerding antidote trips into the wild.
+This is the path to the Koppie Alleen beach in the De Hoop Nature Reserve. Paths and photos of paths make me all pensive:</description><content:encoded><![CDATA[ <p>This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.</p>
+<p>As is becoming sort of a tradition around these parts, I get to show you a photo or two of our over-nerding antidote trips into the wild.</p>
+<p>This is the path to the Koppie Alleen beach in the <a href="http://www.capenature.co.za/reserves/de-hoop-nature-reserve/">De Hoop Nature Reserve</a>. Paths and photos of paths make me all pensive:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/03/IMG_20170318_1613225.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/03/IMG_20170318_1613225-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>The following impression is of the De Hoopvlei. The short hiking trail along the vlei turned my morning run into an epic one.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/03/IMG_20170318_1044208-1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/03/IMG_20170318_1044208-1-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>The weekend before the De Hoop one, I spent at least half an hour sitting on the sofa just thinking.</p>
+<p>Two things are noteworthy about this event.</p>
+<ol>
+<li>I had half an hour of pure, uncut, interruption-free idle time.</li>
+<li>During this time, I resisted the urge to flip out or open any information consumption device, instead electing to have my thoughts explore my internal landscape, like people used to do in the old days.</li>
+</ol>
+<p>I was trying to come up with better ways to keep track of this landscape. The <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work</a> phase I’m going through currently applies to work time (doh), but somehow not to free time, where I’m very much prone to latch on securely to the internet firehose for a mind-blasting gulp-athon.</p>
+<p>Coincidentally, and perhaps even slightly ironically, the firehose deposited this insightful Scientific American article titled <a href="https://www.scientificamerican.com/article/warning-your-new-digital-world-is-highly-addictive/"><em>Warning: Your New Digital World Is Highly Addictive</em></a>.</p>
+<p>Psychology and marketing professor Adam Alter argues that the companies behind the apps and the media that we consume are naturally applying various advanced tools to ensure that we remain engaged for as long as possible.</p>
+<p>In short, you spend so much time in Facebook (<a data-rel="lightbox-video-0" href="https://youtu.be/md4kM9AKjHs">I don’t anymore haha</a>) because Facebook employs really clever people who build systems that run continuous experiments on your viewing behaviour and figure out what to show you so that your eyeballs remain glued to that little display.</p>
+<p>This makes absolute sense of course.</p>
+<p>If your company’s life blood was advertising revenue, and/or user engagement was important to your company’s bottom line for some or other reason, of course you would analyse and A/B test the living daylights out of your users in order to keep them in your app / media stream for that much longer.</p>
+<p>The following day, the firehose of faux-wisdom gave me this: <a href="https://www.theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet"><em>Tim Berners-Lee: I invented the web. Here are three things we need to change to save it</em></a>.</p>
+<p>Sir Berners-Lee is arguing that we’ve lost control of our data (“your” data belongs to Facebook, Instagram, Twitter, <em>&lt;insert your thing here&gt;</em>, you should blog more it’s better) and, more importantly, that we’re being manipulated by less than benevolent actors (pronounce with melodramatic accent on the “tors”) who, again based on advanced analytics tools, manufacture and modify news in order to sway public opinion. (Read my other recent post <a href="https://cpbotha.net/2017/03/25/fake-news-is-just-the-beginning/">Fake News is Just the Beginning</a> if your tin foil hat is just getting warmed up.)</p>
+<p>In <a href="/2011/03/19/drown-in-the-now-weekly-head-voices-42/">2011</a>, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">2012</a> and <a href="/2014/07/16/a-south-african-state-of-mindful/">2014</a>, I wrote briefly about our innate weakness for anything new. Social media is almost the perfect poison in that respect. You keep on scrolling down, because what if, what if there’s something <em>new</em> that’s going to answer that question you have not even formulated yet.</p>
+<p>Putting all of this together: The internet is a beautiful thing. However, we have evolved parts of it to target an insidious psychological weakness in ourselves. Furthermore, there is a massive commercial incentive to keep on tweaking the distractions so that they become even more addictive, negating many of the information-related advantages they might have offered.</p>
+<p>As if that was not sufficient, there is political and commercial incentive to develop techniques that essentially subvert our cognition, thereby fairly effectively misleading us to make decisions that satisfy somebody else’s agenda.</p>
+<p>All is not lost.</p>
+<p>Making time to think is great. Set aside as much as you can. Stare into space. Resist the urge to check the little magic window.</p>
+<p>Personally, I like to form habits as much as possible.</p>
+<p><a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">Deep Work</a> has become a habit for me. I am going to bring in old-school glassy-eyed staring-into-space thinking as a habit also. Complementary to that, and as an answer to my search for ways of keeping track of my mental landscape, I have resolved to write / draw as much of that mental landscape as I can, at regular intervals.</p>
+<p>More generally, I wonder if, and how, we as humankind are going to address the issue of news and opinion manipulation.</p>
+<p>Do we have to resign ourselves to this future? Is it going to become a question of which side employs the most expensive analytics and data science, and can hence out-manipulate its opponents? Or are we humans somehow going to develop systemic immunity?</p>
+<p>In any case, I wish you all great success and happiness staring into space!</p>
+<p>P.S. I nominated <a href="https://en.wikipedia.org/wiki/Alexandra_Elbakyan">Alexandra Elbakyan</a> for the brand-new <a href="https://www.media.mit.edu/disobedience/?ref=3c57421c098068c80298fd5fd3e18c74">MIT Media Lab Disobedience Prize</a>. If you have some time, and you feel that publically funded research results should be available to the public, please <a href="https://www.media.mit.edu/disobedience/?ref=3c57421c098068c80298fd5fd3e18c74">add your nomination</a>.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>latex on voices in my head</title><link>https://cpbotha.net/tags/latex/</link><description>Recent content in latex on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 23 May 2010 13:20:43 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>Convert Word tables to EPS for inclusion in LaTeX</title><link>https://cpbotha.net/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/</link><pubDate>Sun, 23 May 2010 13:20:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/</guid><description> You might want to skip this post if any of the following is true:
+You don’t know what LaTeX is. You don’t care about typesetting theses. You’re just generally low on Nerd midi-chlorians. Recently, we (Mr Cricket and I) helped a good friend (argh, he might already have an acronym assigned, I should make a glossary for this blog…) typeset his PhD thesis in LaTeX. Sounds straight-forward, were it not for the fact that most of the material was in MS Word to start off with.</description><content:encoded><![CDATA[ <p><em>You might want to <strong>skip this post</strong> if any of the following is true:</em></p>
+<ul>
+<li><em>You don’t know what <a href="http://en.wikipedia.org/wiki/LaTeX" title="Wikipedia page on LaTeX">LaTeX</a> is.</em></li>
+<li><em>You don’t care about typesetting theses.</em></li>
+<li><em>You’re just generally low on Nerd midi-chlorians.</em></li>
+</ul>
+<p>Recently, we (<a href="http://www.clinicalgraphics.com/" title="Clinical Graphics, BUY THEIR SOFTWARE!">Mr Cricket</a> and I) helped a good friend (argh, he might already have an acronym assigned,  I should make a glossary for this blog…) typeset his PhD thesis in LaTeX. Sounds straight-forward, were it not for the fact that most of the material was in MS Word to start off with. :)</p>
+<p>It mostly comes down to a simple but laborious process of of taking one LaTeX PhD thesis framework (mine) and copy-pasting loads of text from Word into LaTeX, taking care to sprinkle with sufficient amounts of markup.  There are two slightly more complicated issues: The first is correctly converting figures, taking care to save bitmaps as PNGs (these will be converted to EPS via JPG later) and vector graphics as EPS.  I’ve <a href="http://cpbotha.net/2006/09/04/exporting-visio-2003-illustrations-to-eps/" title="Previous post on converting Visio diagrams to EPS for inclusion in LaTeX.">written before</a> about how to convert Visio to EPS for inclusion to LaTeX.</p>
+<p>This quick post is concerned with the second problem: What is the best way to go about converting tables from Word to LaTeX?  Seeing that this was in actual fact the second PhD thesis I had converted from Word to LaTeX, including numerous tables, I have by now burnt my fingers on 68 different occasions, each time in an excruciating new and interesting way!  I’d like to spare you that pain, so here is, without (too much) further ado, the <strong>Best Way to Convert Word Tables to EPS for Inclusion into LaTeX!</strong></p>
+<p>No, we we are definitely NOT going to recode all Word tables in LaTeX markup, because that would be anti-social.  Instead, we are going to print all tables to EPS, then autocrop them and then simply include them into LaTeX via the includegraphics call inside of a normal table float.  Ok?</p>
+<p>Here we go:</p>
+<ol>
+<li>
+<p>Install <a href="http://sourceforge.net/projects/pdfcreator/" title="PDFCreator website">PDFCreator</a>.</p>
+</li>
+<li>
+<p>Select the table you want to convert in Word, then select “Print Selection” and select PDFCreator as the destination printer.</p>
+</li>
+<li>
+<p>Select the “Properties” button on the print dialog, then “Advanced”, “PostScript Options”, set “PostScript Output Option” to “Encapsulated PostScript (EPS)”</p>
+</li>
+<li>
+<p>Now print to file.</p>
+</li>
+<li>
+<p>Copy the output file to a linux machine (or use a live CD with ps2eps) and do the following: <pre class="brush: bash; title: ; notranslate" title="">ps2eps -B -C -l &lt; printed_output.prn &gt; result_cropped.eps
+</pre></p>
+</li>
+<li>
+<p>You can now include result_cropped.eps in your LaTeX document with the following code: <pre class="brush: plain; title: ; notranslate" title="">\begin{table}
+\begin{center}
+\caption{Your table&rsquo;s caption}
+\includegraphics{result_cropped.eps}
+\label{tab:your_label}
+\end{center}
+\end{table}
+</pre></p>
+</li>
+</ol>
+<p>If you took care to match the font you used in Word with your LaTeX font, people will probably not even realise that your tables are not LaTeX-native. That’s a clear-cut case of maximum Nerd street-cred with the minimum of actual fuss…</p>
+]]></content:encoded></item><item><title>Exporting Visio 2003 illustrations to EPS</title><link>https://cpbotha.net/2006/09/04/exporting-visio-2003-illustrations-to-eps/</link><pubDate>Mon, 04 Sep 2006 16:58:37 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2006/09/04/exporting-visio-2003-illustrations-to-eps/</guid><description> If you’re interested in the final, working solution, skip to the end of this post (the part where it says “UPDATE UPDATE UPDATE” :).
+You’ve made your award-winning illustration in Visio 2003, and now you’d like to include it in your award-winning LaTeX proposal. You find this page with tips, but you’ve also discovered that none of them work for you, or that you don’t have the necessary software, or that they half-work in a very frustrating fashion (this was the case for me with visio -&amp;gt; emf -&amp;gt; openoffice draw -&amp;gt; eps and borked transparencies).</description><content:encoded><![CDATA[ <p><em>If you’re interested in the final, working solution, skip to the end of this post (the part where it says “UPDATE UPDATE UPDATE” :).</em></p>
+<p>You’ve made your award-winning illustration in Visio 2003, and now you’d like to include it in your award-winning LaTeX proposal. You find <a href="http://www.itee.uq.edu.au/~emmerik/visioeps.html">this page</a> with tips, but you’ve also discovered that none of them work for you, or that you don’t have the necessary software, or that they half-work in a very frustrating fashion (this was the case for me with visio -&gt; emf -&gt; openoffice draw -&gt; eps and borked transparencies).</p>
+<p>Here is Yet Another Improved Solution (the crucial “windows fonts” part contributed by Jorik, thanks!!):</p>
+<ul>
+<li>install PDFCreator</li>
+<li>In Visio 2003, print your illustration to the PDFCreator, but first remember to click on the “Properties” button on the print dialog, then “Advanced”, “PostScript Options”, set “PostScript Output Option” to “Encapsulated PostScript (EPS)”.</li>
+<li>In the PDFCreator dialog that appears after you’ve clicked on “print”, select “Options” then section “Ghostscript” and UNcheck the “Use Windows fonts” checkbox.</li>
+<li>Save as EPS (and not PDF).</li>
+</ul>
+<p>The generated EPS file should work perfectly in your LaTeX.</p>
+<p><strong>UPDATE UPDATE UPDATE</strong></p>
+<p>Read <a href="http://wiki.lyx.org/Windows/WinGraphics">this</a> for more tips about conversion to EPS for use in LaTeX, then get and install <a href="http://oletex.sourceforge.net/">OLETeX</a>. I just tested this, it works perfectly! Ignore the PDFCreator solution above, OLETeX is definitely the best way to do this.  Just remember that you HAVE to install the postscript printer driver shipped with OLETeX and set it up exactly as explained in the instructions, else it won’t work.</p>
+]]></content:encoded></item></channel></rss>

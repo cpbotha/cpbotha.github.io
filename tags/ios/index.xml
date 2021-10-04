@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ios on voices in my head</title><link>https://cpbotha.net/tags/ios/</link><description>Recent content in ios on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 26 Jan 2019 17:10:31 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.
+Welcome to the first WHV of the year 2019 folks!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/chicken_potjie_no2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/chicken_potjie_no2-1024x768.jpg"
+        
+            alt="In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie."/> </a><figcaption>
+            <p>In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to the first WHV of the year 2019 folks!</p>
+<p>In what is hopefully just a minor incident and not a portent of calamitous events to come, we have already skipped the first two weeks of the year, which means this WHV looks back at the three weeks from Monday January 7 to Saturday January 26.</p>
+<p>I guess this would not be the WHV if we did not start off with some sort of awkwardness or miscellaneous embarrassment, so: CHECK!</p>
+<p>Because you are probably thirsty for your WHV now, I tried to write you a long and rambly edition, with pictures! (Because it’s so long and rambly, and because markdown, I have liberally sprinkled with headings and sub-headings, so that those of you with lives outside of blog reading can hop, skip and jump through like the professionals you are.)</p>
+<h2 id="the-future-is-here-long-form-blog-posts-on-the-ipad">The future is here: Long-form blog posts on the iPad.</h2>
+<p>This also would not be the WHV if we did not have some little digital trick to reveal: Today’s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.</p>
+<p>Because I really don’t like the new block-based WordPress 5.0 editor, named in an entirely non-hubristic fashion “Gutenberg”, but it does fortunately support importing markdown formatted blog posts (just make sure you don’t hard-wrap anything), and because I like trying new things, I am typing this on the iPad using the iOS version of <a href="https://www.textasticapp.com/">Textastic</a>.</p>
+<p>A few hours ago, it looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/img_0005.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/img_0005-1024x768.png"
+        /> </a>
+</figure>
+</p>
+<p>In contrast to the direct <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">orgmode to wordpress Emacs workflow</a> I normally use, this workflow enables me to copy and paste sections of markdown text into WordPress. Each pasted section is automatically imported as WordPress blocks, based on the markdown structure.</p>
+<p>This means I can position and edit images using the WordPress interface, but author the text using Markdown. With <a href="https://github.com/org2blog/org2blog">org2blog</a> the whole post, including images, has to go through life as an orgmode file, which is brilliant for my more technical posts, but not so much for prose-heavy blog posts such as this one.</p>
+<h3 id="btw-1-why-i-dont-yet-like-the-new-wordpress-editor">BTW 1: Why I don’t (yet) like the new WordPress editor.</h3>
+<p>The old WordPress editor enabled me to focus on the content and just write.</p>
+<p>The new <a href="https://wordpress.org/gutenberg/">Gutenberg editor</a> now wants me to create a bunch of blocks, e.g. paragraph, image, paragraph, bullet list, etc., and then work with those blocks.</p>
+<p>That’s really great if you’re building a site, but not so much when you would just like to get down and write that blog post.</p>
+<p>Although this is now the standard editor in WordPress, there are still bugs, such as the fact that my cursor keeps on jumping to the start of the block while I’m typing, which is not irritating at all, and the not unimportant observation that none of the mobile apps support Gutenberg yet.</p>
+<p>WordPress-using readers, what do you think?</p>
+<p>(P.S. Another just-discovered issue: In Gutenberg, your biggest heading is H2. H1 is not available in the UI normally. When pasting in markdown, H1s do display, but do not show in the type-UI as anything. Here is <a href="https://github.com/WordPress/gutenberg/issues/4234">a confusing Gutenberg bug report</a>.)</p>
+<h3 id="btw-2-why-textastic-aka-at-least-it-will-syntax-highlight-your-orgmode">BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)</h3>
+<p>The main reason I found and purchased Textastic, was that I ran into <a href="https://github.com/jezcope/Org.tmbundle">Jez Cope’s github repo</a> with a TextMate Bundle (that’s an editor configuration) that was made for Textastic to support editing Emacs orgmode files.</p>
+<p>As is the age-old open source way, there were a few small bugs which I <a href="https://github.com/jezcope/Org.tmbundle/pull/5">fixed in my fork</a>, which you should definitely get if you are in the same I-want-to-edit-Orgmode-on-my-iOS boat as I am. It’s not a very large boat, but it’s super fun!</p>
+<p>(There is no Emacs on iOS. This is in my view the greatest downside of iOS. It turns out that Apple generally does not allow apps with embedded interpreters on the app store. However, I am still trying to find out why there are no iOS-capable Emacs source code forks available.)</p>
+<h3 id="btw-3-the-ipad-with-keyboard-is-a-shockingly-good-laptop-replacement">BTW 3: The iPad with keyboard is a shockingly good laptop replacement.</h3>
+<p>I recently recommended to a privacy-conscious reader who was searching for an affordable Linux-running laptop in South Africa, that she instead consider buying an iPad with bluetooth keyboard.</p>
+<p>Down here a brand new 2018 iPad costs R5999. A cheap keyboard cover (e.g. Body Glove) can be had for about R860.</p>
+<p>If you compare this to any new laptop of R6900 (about EUR 444) which will probably be sold with Windows included, you get a computing device with a fantastic quality multi-touch screen, great battery life, best-in-class security, almost no maintenance, and a fantastic app ecosystem. To seal the deal, the iPad’s resale value is proportionally probably also much better than that entry-level laptop.</p>
+<p><em>After</em> I sent that email, I started with this iPad + cheap bluetooth keyboard experiment to try it for myself. I have to say that the experience has been way better than I expected.</p>
+<p>For a large subset of laptop users, and for a large subset of workflows and tasks, this is a really great solution.</p>
+<p>Please don’t worry (too much) yet, I am not planning one of those “I switched to an iPad as my main computing device” blog posts. I would not be able to survive without my development tools, and I would especially not be able to survive without my Emacs.</p>
+<h2 id="pv-solar-installation-progress">PV Solar installation progress</h2>
+<p>As I excitedly <a href="/2018/12/19/weekly-head-voices-159-extreme/#extreme-solar">announced in WHV #159</a> (slightly more than a month ago), we had decided that it was time to get a photovoltaic solar power system installed at the house.</p>
+<p>I found a local installer with the required PVGreenCard accreditation and started the consultation process.</p>
+<p>Unfortunately, the installer did not seem to be prepared for a customer that would not stop asking questions. The customer even went so far as to pose questions that challenged the installer’s brand loyalty!</p>
+<p>I really do understand that I’m probably not the easiest end-user, but I don’t think that an expert’s brand loyalty should get in the way of reason, and far more importantly in the way of basic physics.</p>
+<p>To make a long story short, I ended up getting fired by the installer.</p>
+<p>This was probably for the better: He can now continue doing well-practised installs for other clients who don’t ask (so many) questions, and I suddenly had the opportunity to find a new, more engineer-friendly installer, and to continue learning.</p>
+<p>Following are two noteworthy learnings:</p>
+<h3 id="learning-1-you-should-almost-always-try-to-oversize-the-photovoltaic-array">Learning 1: You should almost always try to oversize the photovoltaic array</h3>
+<p>If the equipment states for example 4600kVA, then you are usually quite safe installing from 25% up to 30% more kWp of solar panels.</p>
+<p>Oversizing will mean that on very sunny days you’ll get peaks higher than the maximum rated PV, which can be handled for short periods by the solar equipment, but more importantly, you’ll be able to generate more electricity when there is less sun, which is most of the time.</p>
+<p>In other words, you increase the area under the curve of kW generated per hour.</p>
+<p>By the way, I emailed GoodWe (they make the hybrid inverters I have my eye on) who confirmed that their EM range supports 27.8% oversizing. The ES range advertise 30% PV oversizing on the box.</p>
+<p>It is of course an interesting question what exactly is meant by oversizing. Do they support pumping 30% more power into the inverter for 5 minutes, or for 2 hours?</p>
+<h3 id="learning-2-powerforumcoza-is-a-great-source-of-information">Learning 2: powerforum.co.za is a great source of information.</h3>
+<p><a href="https://powerforum.co.za/">This forum</a> has a surprisingly high signal to noise ratio.</p>
+<p>There are a number of experts hanging around, including one of Victron’s super helpful and knowledgeable R&amp;D engineers, and the archive posts are invaluable as you try to navigate <a href="https://powerforum.co.za/topic/2791-experience-getting-city-of-cape-town-to-sign-off-a-zero-feed-in-system-with-inverter-maximum-output-greater-than-35kva/">the quagmire</a> of often conflicting information.</p>
+<h2 id="avocado-baby-progress-very-much-touch-and-go">Avocado baby progress: Very much touch and go.</h2>
+<p>The baby avocado tree, in spite of being being watered almost every day (thank you rainwater harvest!) does not seem to be doing too well.</p>
+<p>Because the summer sun down here can be quite vicious, the tree has its own little pink umbrella.</p>
+<p>The current plan is to feed it more compost, and, if that fails, to try to transplant it out of the big, wild garden and into a pot with softer, kinder earth.</p>
+<h2 id="how-to-explain-complicated-topics">How to explain complicated topics</h2>
+<p>The international and yearly <a href="https://mlssafrica.com">Machine Learning Summer School took place in Stellenbosch this year</a>, from Monday, January 7 to Friday, January 18.</p>
+<p>As you can see from the programme, there were a bunch of heavy hitting speakers present both physically and virtually, including the super resourceful (failed super resolution pun, su(p)e(r) me) Dr Stefan van der Walt, who gave a talk on good scientific software.</p>
+<p>Anyways, because I am currently in a more commercial configuration, I could not justify taking two weeks out, and instead opted for a day visit at the start of the congress.</p>
+<p>It is a testament to the current prominence of the field that the list of international sponsors included Microsoft, Apple, SAP, Uber <em>and</em> Amazon.</p>
+<p>It was gratifying to experience a sampling of such a well-organized international gathering here in my neck of the woods.</p>
+<p>On the first day, we had a high throughput introduction to causality, probabilistic thinking, and variational inference. All the presenters were clearly good speakers, but they weren’t all equally experienced in teaching such complex material.</p>
+<p>(At one point one of the statisticians I was chatting to in break admitted having difficulty keeping up with the math. I did not feel <strong>that</strong> stupid anymore.)</p>
+<p>“What is the difference between being a good speaker and an experienced teacher?”, you might now ask.</p>
+<p>Great question, I would then say, grateful for the opportunity to explain.</p>
+<p>What I was missing in the one specific case I do not want to be too specific about, was that the presenter did a great job of talking about each of a long list of concepts relevant to his topic, but somehow forgot that one of the most important parts of teaching is communicating the conceptual framework into which all of those concepts fit.</p>
+<p>Conceptual frameworks are also one of those multi-scalar things: Each group of factoids can be gratifyingly embedded into a slightly higher level component, groups of which can be slotted into the overarching “big idea”, or another level of compnonent. (It’s turtles all the way down.)</p>
+<p>As great lecturers talk, they keep on bringing their narrative back up to the higher-level embedding construct.</p>
+<p>It looks something like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/teach_complicated_things.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/teach_complicated_things-1024x576.png"
+        
+            alt="Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why."/> </a><figcaption>
+            <p>Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why.</p>
+        </figcaption>
+</figure>
+</p>
+<p>By repeatedly diving deeper into the details, and then following the conceptual link back up to the higher-level constructs and especially your big idea, your listeners will start to see the beautiful fractal of understanding that you are guiding them through.</p>
+<h2 id="what-will-i-be-working-on-this-year">What will I be working on this year?</h2>
+<p>At this moment, 2019 is shaping up to be pretty exciting work-wise.</p>
+<p>We just heard that we will be able to continue for some months more working on the X-Ray based surgical planning project we worked on last year.</p>
+<p>Partly thanks to the great deep learning work of two summer interns (note: Southern Hemisphere means summer interns over December and January, which might be weird if you’re from the Northern Hemisphere) we are in great shape for all of the deep neural network-based image understanding plans we need to execute on.</p>
+<p>This year I will also be spending more time on <a href="https://www.telesensi.com">TeleSensi, our FDA-certified tele-auscultation product</a>. This is less rocket-sciencey than the surgical planning project, but super interesting to work on, as it has many more users on the open market.</p>
+<p>(That being said, we do have plans to increase the level of rocket science significantly. I am not called the science officer for nothing… (well, that and also the fact that I got to choose my own title, and so I chose the same as Spock on the USS Enterprise).)</p>
+<h2 id="do-you-write-stuff-down">Do you write stuff down?</h2>
+<p>You might remember from WHV #155 <a href="https://cpbotha.net/2018/10/12/weekly-head-voices-155-lush/#productivity-pro-tip-fool-yourself-into-doing-a-good-daily-review">my trick of starting the day with a checklist</a>.</p>
+<p>A part of that checklist is a checklist of habits which I try to form and maintain, called The HabitFormer(tm). Every item that I sufficiently address gets a super satisfying little <code>[X]</code> mark, which feels a whole lot better than the sadly empty <code>[ ]</code> construct.</p>
+<p>Here is the current list:</p>
+<ul>
+<li>did you write stuff down?</li>
+<li>are you satisfied with number of pomodori?</li>
+<li>7.5 hrs sleep last night</li>
+<li>meditate &lt;– (WHV <em>hidden</em> pro-tip: Get the <a href="https://wakingup.com/">Waking Up</a> app by Sam Harris. Thanks LM for the fantastic recommendation.)</li>
+<li>stand at desk</li>
+<li>do valuable things</li>
+<li>fruit &amp; veg</li>
+<li>reading</li>
+<li>thinking</li>
+<li>running or other exercise</li>
+</ul>
+<p>Ironically enough, the first item is brand new on the list.</p>
+<p>I somehow forgot my habit of writing, during the day, a little done list / random thoughts lists. After bringing this habit back I noticed what difference it made.</p>
+<p>At regular intervals during the day, I will spend a minute or three writing down what I had completed, or what I was thinking. This moment of introspection would either result in a pleasant bit of satisfaction with some small task taken care of, or, more often, it would reel me back in from a spot of less than deliberate action and enable me to bring back my attention to the point of focus.</p>
+<p>I’m filing this under “101 tricks to get your <a href="https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/">rider back on your elephant</a>“.</p>
+<p>Alright friends, thank you very much for joining me on this part of my journey. I am looking forward to our next interaction!</p>
+]]></content:encoded></item><item><title>You’ll know if your iPhone is listening. Vice should consider toning down the sensationalism.</title><link>https://cpbotha.net/2018/08/22/youll-know-if-your-iphone-is-listening-vice-should-consider-toning-down-the-sensationalism/</link><pubDate>Wed, 22 Aug 2018 20:34:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/08/22/youll-know-if-your-iphone-is-listening-vice-should-consider-toning-down-the-sensationalism/</guid><description> A Vice article titled Your Phone Is Listening and it’s Not Paranoia has been doing the rounds. In it, the author explains how they did an “experiment” demonstrating that topics they discussed verbally were later reflected in Facebook ads.
+Whilst it’s prudent to be careful with modern technology around one’s privacy, Vice is being a tad sensationalist. This blog post, which will optimistically be read by three to four people, tries to fill some of the holes they left.</description><content:encoded><![CDATA[ <p>A Vice article titled <a href="https://www.vice.com/en_uk/article/wjbzzy/your-phone-is-listening-and-its-not-paranoia">Your Phone Is Listening and it’s Not Paranoia</a> has been doing the rounds. In it, the author explains how they did an “experiment” demonstrating that topics they discussed verbally were later reflected in Facebook ads.</p>
+<p>Whilst it’s prudent to be careful with modern technology around one’s privacy, Vice is being a tad sensationalist. This blog post, which will optimistically be read by three to four people, tries to fill some of the holes they left.</p>
+<p>We already know that we can’t trust Facebook in any way, so we are dependent on the telephone’s operating system to take our privacy seriously: That’s usually Android or iOS.</p>
+<p>Android does in theory <em>enable</em> background recording up to and including Android O, but <a href="https://www.theverge.com/platform/amp/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background">starting from Android P</a> it will disable this. Unfortunately, it shouldn’t be more than about 10 years before all phones are on Android P or later.</p>
+<p>(<a href="/2016/11/27/android-security-in-2016-is-a-mess/">I have previously indicated that I’m not the biggest fan of Android’s security story</a>. I am happy to see that they are making such progress, but the tardiness or even worse refusal of OEMs in upgrading their devices diminishes most of that.)</p>
+<p>In iOS on the other hand, there are at least three mechanisms that protect users against this background recording abuse:</p>
+<ol>
+<li>The app has to ask the user explicitly for microphone permission, which the user can easily revoke at any time (Settings | App’s name | Microphone; see screenshot below for an example).</li>
+<li>The developer has to indicate explicitly and statically in their app that they intend to use background audio. Apple’s review process is quite strict and will reject outright an app that does not have a legitimate reason to make use of this function.</li>
+<li>Even when an app has been able to convince Apple’s review process that it should be allowed to record audio in the background, there are two more privacy mechanisms in place:
+<ol>
+<li>An app can only record in the background, if it started to record audio whilst on the foreground. When the recording stops, <a href="https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW26">the app will be suspended</a>.</li>
+<li>When any app is recording, the system will display a big red bar at the top of the iOS display, much like the blue bar which displays when a location-based app such as Google Maps or Waze is active in the background. <a href="https://stackoverflow.com/a/39963079/532513">This red bar can’t be hidden</a>.</li>
+</ol>
+</li>
+</ol>
+<p>To see this in action (another “experiment” !!), download an app like <a href="https://itunes.apple.com/us/app/awesome-voice-recorder/id892208399?mt=8">Awesome Voice Recorder</a> which advertises background recording, start a recording, and then switch anywhere else. The red bar looks like this (I’ve switched the app permissions screen in iOS settings, so you can also see where to disable the microphone permissions):
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/08/IMG_EBA399A01B16-1.jpeg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/08/IMG_EBA399A01B16-1.jpeg"
+        
+            alt="AVR is recording in the background, so iOS shows this red bar at the top. If you tap on the red bar, it will switch to the app which is recording. This is related to the blue bar for location, and the green bar for ongoing phone calls."/> </a><figcaption>
+            <p>AVR is recording in the background, so iOS shows this red bar at the top. If you tap on the red bar, it will switch to the app which is recording. This is related to the blue bar for location, and the green bar for ongoing phone calls.</p>
+        </figcaption>
+</figure>
+</p>
+<p>With the above measures in place, it would be fairly tricky for an iOS app to perform background recording without your knowledge.</p>
+<p>For some extra peace of mind, you can disable the app’s (a totally random example being Facebook) microphone permissions. If the app ever really needs to record, iOS will have to ask your permission again.</p>
+<p>P.S. In iOS, under Settings | Privacy | Microphone you can find a handy list of all apps that have successfully requested microphone permissions. From here, you can also easily remove any of these permissions.</p>
+<h1 id="updates">Updates</h1>
+<ul>
+<li>2018-08-23: It seems <a href="https://www.zdnet.com/article/want-google-to-track-you-less-get-an-iphone-ditch-the-android/">Androids phone home much more often than iPhones</a>.</li>
+</ul>
+]]></content:encoded></item><item><title>Weekly Head Voices #145: The Narrating Self.</title><link>https://cpbotha.net/2018/06/10/weekly-head-voices-145-the-narrating-self/</link><pubDate>Sun, 10 Jun 2018 20:12:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/06/10/weekly-head-voices-145-the-narrating-self/</guid><description> View of the False Bay from the Helderberg Nature Reserve.
+The work part of the week flew by.
+(I think this is the reason for the shortness of this post. As is often the case, we start with journal stuff, then nerd stuff and, hidden at the end, some backyard philosophy stuff.)
+Dear diary The weekend part on the other hand started with a welcome-back-braai (HI MOM!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/06/false_bay_from_helderberg.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/06/false_bay_from_helderberg-1024x502.jpg"
+        
+            alt="View of the False Bay from the Helderberg Nature Reserve."/> </a><figcaption>
+            <p>View of the False Bay from the Helderberg Nature Reserve.</p>
+        </figcaption>
+</figure>
+
+<p>The work part of the week flew by.</p>
+<p>(I think this is the reason for the shortness of this post. As is often the case, we start with journal stuff, then nerd stuff and, hidden at the end, some backyard philosophy stuff.)</p>
+<h2 id="dear-diary">Dear diary</h2>
+<p>The weekend part on the other hand started with a welcome-back-braai (HI MOM!) on Friday, followed by a sublime oxtail potjie on Saturday and concluded today with a sublime long(ish, by my standards as always) run in the morning (showing a little solidarity with the <a href="http://ewn.co.za/2018/06/10/it-was-an-emotional-race-says-2018comrades-winner">Comrades</a> participants whilst not completely busting my barefoot-style-acclimatising feet and ankles) plus Helderberg stroll and lunch, and is now ending with a WHV writing session.</p>
+<p>(Sundays which start with a run, have family stuff in between, and end with WHV are automatically awarded a 12/10-would-do-again rating according to my patented How Was Your Day Honey evaluation system.)</p>
+<h2 id="nerdy-pro-tip">Nerdy Pro-tip</h2>
+<p>Just in case you missed it, <a href="https://itunes.apple.com/us/app/gboard/id1091700242?mt=8">Google’s Gboard keyboard for iOS</a> quietly shipped an update last week that includes as one of its new features support for Afrikaans. This brings the number of smart iOS keyboards (smart, as in AI-based) that support Afrikaans up to the total of two (2). The other is <a href="https://itunes.apple.com/za/app/swiftkey-keyboard/id911813648?mt=8">SwiftKey</a>, which has supported Afrikaans for some years now.</p>
+<p>(The lack of a mobile keyboard with native support for one’s language can really complicate effective communication. Preferring fully formed sentences, I’ve never really gotten the hang of SMS-speak.)</p>
+<h2 id="homo-deus">Homo Deus</h2>
+<p>After a slight detour with a number of other books that have featured on this blog, I have returned to <a href="https://www.theguardian.com/books/2016/sep/11/homo-deus-brief-history-tomorrow-yuval-noah-harari-review">Yuval Harari’s Homo Deus</a>.</p>
+<p>I am about 75% through, but I can already say that this is one of the best works I’ve read in the past decade.</p>
+<p>The way in which Harari, a history professor, weaves together so many strands of history and present to extrapolate our planet’s future is nothing short of magical. Along the way, he takes the reader along on many mind-expanding tangents.</p>
+<p>The one tangent I made note of to mention here, was his treatment of the illusion, which we are all brought up to entertain, that each human houses a single ego or individual.</p>
+<p>By citing and discussing several examples of humans with separated brain hemispheres, he makes a strong case for the observation that most probably you house multiple identities.</p>
+<p>There is a strong narrating self who tries to weave together the experiences and inputs of the other selves, and who will go to great lengths to make everything fit.</p>
+<p>Thinking about all of the internal discussions one has throughout every day, and the seeming disagreements one can have between yesterday’s you and today’s you, Harari’s thesis starts to sound like a really good explanation.</p>
+<p>This soon leads to interesting new questions: What would be the best way to manage one’s multiple aspects, especially in the light of the fact that “one” does not even know with certainty who is asking this question?</p>
+<p>(Astute readers will have noticed that my choice of a title for this blog has finally been vindicated after all this time.)</p>
+<p>See you next week, my suddenly multitudinous readers!</p>
+<p>P.S. Harari says that intelligence and consciousness don’t necessarily go together. We are entering a future where many of us are going to be made obsolete by constructs which don’t possess consciousness but are far more intelligent than we are.</p>
+<p>P.P.S. For one of the best hard sci-fi books dealing with our often-held but anthropocentrically flawed perspective that consciousness and intelligence go together, you can do a lot worse than <a href="https://books.google.co.za/books/about/Blindsight.html?id=FVMzz-xINLsC&amp;source=kp_cover&amp;redir_esc=y">Blindsight, by Peter Watts</a>.  Read that book.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #122: Thanks Pythagoras.</title><link>https://cpbotha.net/2017/06/11/weekly-head-voices-122/</link><pubDate>Sun, 11 Jun 2017 13:14:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/11/weekly-head-voices-122/</guid><description> Pink sunset, as they do here in my backyard.
+Welcome back everyone!
+During a brilliant breakfast chat with friends who are visiting from afar, friend S (now 16.67% name-dropped) admitted that the WHV, strange unfocused mishmash of thoughts that it is, contributed positively to his information diet.
+In spite of this admission adding to my already considerable posting anxiety, I am enormously grateful for the encouragement. I often worry about this mishmash, as I also aspire to enter the fabled halls of A-list bloggers one day.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/swest_pink_sunset.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/swest_pink_sunset-1024x768.jpg"
+        
+            alt="Pink sunset, as they do here in my backyard."/> </a><figcaption>
+            <p>Pink sunset, as they do here in my backyard.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back everyone!</p>
+<p>During a brilliant breakfast chat with friends who are visiting from afar, friend S (now 16.67% name-dropped) admitted that the WHV, strange unfocused mishmash of thoughts that it is, contributed positively to his information diet.</p>
+<p>In spite of this admission adding to my already considerable posting anxiety, I am enormously grateful for the encouragement. I often worry about this mishmash, as I also aspire to enter the fabled halls of A-list bloggers one day.</p>
+<p>Perhaps I should just embrace the mishmash. Again.</p>
+<p>In this edition of the mishmash, I extremely sparsely review the weeks from Monday May 8 to Sunday June 11.</p>
+<p>During our weekly extra math, science and philosophy lessons, GOU#1 (now 11 years old) and I arrived through serendipity at the topic of Pythagoras. Her mind almost visibly expanded when she discovered the relationship between the 9, 16 and 25 square adjacent squares I drew for her on the 3-4-5 example triangle. Her eyes went wide when I explained that this works for <em>any</em> right-angled triangle.</p>
+<p>She was soon happily squaring, adding (long-form on paper of course) and square-rooting away on geometry problems.</p>
+<p>Seeing your own child discover the beauty that is math is brilliant.</p>
+<p>After complaining about <a href="/2016/11/27/android-security-in-2016-is-a-mess/">subpar android security</a> and <a href="/2017/02/12/android-vs-iphone-performance-a-quick-note/">dismal android performance</a> on this blog, I finally decided to bite the bullet and acquired a second-hand iPhone 6S 64GB on May 10, 2017. The phone is in mint condition, and the price was excellent.</p>
+<p>So far, the performance is substantially better than any of my previous Androids. In fact, so far I’ve never had to wait for anything on this phone, which was my main issue with the Androids. (Google Maps anyone?!) Besides that, when Apple pushes a software update, all phones immediately get that update, without interference from any third parties, including carriers.</p>
+<p>(A word to the wise: There is no official way to transfer your complete WhatsApp message history from Android to iPhone, which was a huge disappointment. There are unofficial, closed-sourced, solutions that require one to connect one’s Android phone in USB debugging mode to the PC. That risk is a bit too great for me.)</p>
+<p>After a period of rest, <a href="http://visible-orbit.org/">the Visible Orbit website</a>, including the <a href="http://visible-orbit.org/the-collection/high-res-section-stacks/">high-resolution microscopic slice data and viewer</a>, is online again! It was quite satisfying getting all of the backed-up data back on the interwebs again.</p>
+<p>Since the previous WHV (well actually mainly during the last week), I’ve published five posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2017/06/03/bitcoin-and-the-blockchain-in-10-minutes/">Bitcoin and the blockchain in 10 minutes</a> – I extracted this from <a href="/2016/07/25/weekly-head-voices-110-satoshi/">WHV #110</a>, because I’ve been spending way too much time on various blockchains (read: cryptocurrencies) and was planning more nerdy blog posts over here.</li>
+<li><a href="https://vxlabs.com/2017/06/03/querying-restful-webservices-into-emacs-orgmode-tables/">Querying RESTful webservices into Emacs orgmode tables</a> – Here I combined two of my obsessions, one old (Emacs) and the other new (cryptocurrencies) to show how you could pull live ticker data (prices) into your Emacs.</li>
+<li><a href="https://vxlabs.com/2017/06/06/setting-up-fastcgi-apps-on-webfaction/">Setting up FastCGI apps on WebFaction</a> – I love it when work leads to spin-off blog posts! In this case, to get the visible-orbit high-res slice viewer working on WebFaction, I had to jump some hoops. This post shows you how to jump them too.</li>
+<li><a href="https://vxlabs.com/2017/06/07/adding-page-sidebar-to-wordpress-twenty-seventeen-theme/">Adding page sidebar to WordPress Twenty Seventeen theme</a> – Intellectually the least interesting, but still a visible-orbit spin-off that might help at least one other person. I’m crossing my fingers.</li>
+<li><a href="https://vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/">Extracting the Jaxx 12-word wallet backup phrase</a> – After a few hours of analysis on Saturday (yesterday), I discovered a serious vulnerability in a popular multi-cryptocurrency wallet. The post has been picked up by a number of other blogs, and has caused good discussion on the various social media outlets.</li>
+</ul>
+<p>Three of those five posts have to do with cryptocurrency, which is to a certain extent a reflection of my free-time mental cycles at the moment. Looking at how technology such as <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> and its Smart Contracts (a Smart Contract blog post is currently forming in the back of my head…) seem to be breaking through, I can’t help but be reminded of stories such as those by Charlie Stross in <a href="https://en.wikipedia.org/wiki/Accelerando">Accelerando</a> (at least the first bits).</p>
+<p>Do we find ourselves at the start of something truly significant, or is this just an extremely elegant and high-tech dead-end?</p>
+<p>What a time to be alive!</p>
+<p>P.S. Here, have another outdoorsy photo on the house!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0109.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0109-1024x768.jpg"
+        
+            alt="I tricked GOU#1 and GOU#2 to join me on a sneakily long mountain walk. They did a sterling job."/> </a><figcaption>
+            <p>I tricked GOU#1 and GOU#2 to join me on a sneakily long mountain walk. They did a sterling job.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
+<p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
+<p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
+<p>Read on for more.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/google_android_active_base.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/google_android_active_base.png"
+        
+            alt="Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source."/> </a><figcaption>
+            <p>Between 1.3 and 1.4 billion Google Android phones in March of 2016. Click image for source.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="an-illustration-mediatek--blu-phones-are-uploading-your-data">An illustration: MediaTek / BLU phones are uploading your data.</h1>
+<p>You might recently have read about <a href="https://web.archive.org/web/20161117073724/https://hackernoon.com/no-one-cares-about-the-security-of-your-unlocked-android-phone-cd8ad4aae4c5?gi=e0e2979fddb">the incident with the popular BLU phones sold by Amazon in the US</a> (interestingly, the author deleted their article from both hackernoon.com and from medium; I now link to the Wayback Machine&rsquo;s stored copy). It turned out that these phones were regularly sending bunches of personal information to servers in China: text messages, call logs, contact lists and so forth. After more investigation, it came to light that this was happening via a low-level piece of software called ADUPS.</p>
+<p>When Google had previously updated its systems to check for ADUPS, MediaTek (they make the chipset in millions of low-end phones) simply modified their system software to evade Google&rsquo;s checks. Nice one MediaTek!</p>
+<p>This is a painful example of the fact that the software on your phone, although based on Google&rsquo;s software, is customised by the phone vendor. The further frustrating effect of this is that when Google releases security patches to Android (<a href="https://source.android.com/security/bulletin/index.html">which they do regularly</a>), there is very little incentive for the phone vendor to spend money on updating phones they have already sold.</p>
+<h1 id="what-about-a-list-phone-makers">What about A-list phone makers?</h1>
+<p>I bought my LG G3 in 2014 here in South Africa. It was LG&rsquo;s flagship in that year, and sold extremely well. LG is a well-known smartphone OEM.</p>
+<p>However, only because I took steps to flash the official KDZ image (V30a-ZAF-XX), which consumers would normally not do, am I now running Android 6. However, my security patch level is 2016-03, meaning there are 6 months of security updates I don&rsquo;t have. (You can check your <strong>Android security patch level</strong> by going to <em>Settings | General | About Phone | Software info</em>.)</p>
+<p>Before you think six months lag is not too bad, here&rsquo;s a nice example vulnerability from <a href="https://source.android.com/security/bulletin/2016-11-01.html">the November 1 Android security bulletin</a>:</p>
+<blockquote>
+<p>The most severe of these issues is a Critical security vulnerability that could enable remote code execution on an affected device through multiple methods such as email, web browsing, and MMS when processing media files.</p>
+</blockquote>
+<p>In short, your phone could be hacked wide open from afar through a single innocent-looking email, MMS or web-page.</p>
+<p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
+<p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
+<h2 id="a-scary-little-aside">A scary little aside</h2>
+<p>I just tried Check Point Labs' <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/Screenshot_2016-11-27-20-55-12-576x1024.png"
+        
+            alt="LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter."/> </a><figcaption>
+            <p>LG G3 with Marshmallow and Android security patch level 2016-03 is vulnerable to QuadRooter.</p>
+        </figcaption>
+</figure>
+</p>
+<p>So my manually updated LG G3 is still very much vulnerable to QuadRooter. In theory, my phone could be (or already has been) <a href="http://www.techradar.com/news/phone-and-communications/mobile-phones/android-quadrooter-vulnerability-should-you-be-worried-1326286">rooted and pillaged by any old innocent-looking app</a>, although I keep mostly to the official Play Market, so the risk is slightly mitigated.</p>
+<p>At this stage, even as a relatively knowledgeable user, there&rsquo;s not much I can do to patch my phone against this vulnerability.</p>
+<h1 id="googles-leniency-cuts-both-ways-more-than-a-billion-android-users-but-most-of-them-vulnerable">Google&rsquo;s leniency cuts both ways: More than a billion Android users, but most of them vulnerable.</h1>
+<p>It&rsquo;s fantastic that Google&rsquo;s openness and leniency with Android has helped to make smartphone technology accessible to more than a billion users (probably closer to 2 billion taking into account Chinese Android phones not connected to Google services, see <a href="http://ben-evans.com/benedictevans/2016/7/25/platform-wars-final-score">Ben Evans&rsquo;s post</a>). However, this same leniency allows manufacturers to be irresponsible about keeping their customers safe.</p>
+<p>The fundamental problem here is that there are a great deal of Android phone vendors who make phones from absolute entry-level to top-of-the-line flagships, who have very little incentive to spend money on post-sale security updates.</p>
+<p>Once you&rsquo;ve paid for the phone, you&rsquo;re not important enough anymore to have a secure(ish) telephone.</p>
+<h1 id="what-can-we-do">What can we do?</h1>
+<h2 id="buy-an-iphone-no-really">Buy an iPhone. No really.</h2>
+<p>I&rsquo;ve been using Android since the HTC Desire Z. I love Android, because I love Linux which I have been using since 1993.</p>
+<p>However, if money is no object, my only sound advice can be to <strong>buy an iPhone</strong>. Apple is still shipping security updates, albeit on iOS 9, for the iPhone 4s which was released in 2011 (5 years ago). The iPhone 5 is still being kept up to date with iOS 10.</p>
+<p>Furthermore, in terms of phone encryption, <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">iOS 4, released 6 years ago, was already more advanced than than Android 7 Nougat</a>, released in August of this year. In short, already then Apple made better choices in how exactly different files are encrypted, whilst Android implemented full disk encryption, which for the smartphone usecase is not the right choice. In Nougat, Android has finally also changed to file-based, but they&rsquo;re missing important parts of the puzzle. <a href="https://blog.cryptographyengineering.com/2016/11/24/android-n-encryption/">The phone encryption blog post</a> I link to is insightful, please take a look.</p>
+<h2 id="stick-with-android-pixel-or-nexus">Stick with Android Pixel or Nexus.</h2>
+<p>If you prefer sticking with Android, the best choice is getting an official Google device, which means either a Nexus or a new Pixel. <a href="https://support.google.com/pixelphone/answer/4457705#pixel_phones&amp;nexus_devices">Google&rsquo;s policy for Pixel and Nexus security</a> states that they will ship security updates either for three years after device introduction, or for 1.5 years after the device was last officially sold from the Google Store, whichever is longer.</p>
+<p>Unfortunately, iPhones are really expensive, and Google&rsquo;s new Pixel devices are also aiming for the higher-end market. The previous generation Nexus phones offer a more mid-range but very temporary reprieve.</p>
+<p>In other words, most normal consumers on a budget, i.e. the largest part of the Android user base, actually of the smartphone-using world, are stuck with insecure, vulnerable phones. This is not cool.</p>
+<h2 id="consider-installing-a-custom-rom">Consider installing a custom ROM.</h2>
+<p>Installing a custom ROM such as Cyanogenmod brings with it another set of issues with regard to the phone being rooted, and with regard to driver-level support of proprietary hardware. In any case, this is not something your average consumer will have access to, but Android gurus can certainly apply.</p>
+<p>Efforts like <a href="https://copperhead.co/android/">CopperheadOS</a> (hardened Android) are certainly promising, but it will be quite a while before they are accessible to the largest group of Android users.</p>
+<p><strong>Update:</strong> David Metcalfe pointed out in the comments that you can buy a secure Android phone from Copperhead.  If you are in the US or Canada, and you have some budget, you could buy the <a href="https://copperhead.co/android/buy">LG Nexus 5x or the Huawei Nexus 6P with CopperheadOS pre-installed</a>. It&rsquo;s great that this is available, but due to price and geography not really accessible to most Android users.</p>
+<h2 id="keep-manufacturers-honest">Keep manufacturers honest.</h2>
+<p>Ideally, Google starts taking a much harder line with manufacturers who put Android on their phones. They could for example maintain and publish a list of phone models that are kept up to date with the latest security fixes, and a list of those that aren&rsquo;t.</p>
+<p>I was happy to see that at least <a href="http://news.softpedia.com/news/huawei-is-the-best-oem-at-applying-android-security-updates-505767.shtml">Huawei has a pretty good record</a> in terms of keeping their Android phones up to date (although the results were probably skewed as they counted the Huawei-produced Nexus 6P phones, and these formed the majority of the test set, doh). This factor will play a role in the next smartphone that I buy.</p>
+<p>Do you know of any (other) manufacturers of more affordable Android phones who are committed to keeping their users safe? Please let me know in the comments!</p>
+<h1 id="addendum-android-phones-with-acceptable-security-update-records">Addendum: Android phones with acceptable security update records</h1>
+<h2 id="blackberry-priv-dtek50-and-dtek60">Blackberry PRIV, DTEK50 and DTEK60</h2>
+<p>lobste.rs user jabberwock <a href="https://lobste.rs/s/8g2nkz/android_security_2016_is_mess/comments/4p7rwr#c_4p7rwr">tipped me off to the fact that Blackberry&rsquo;s Android phones get monthly security updates</a>. Read more at <a href="http://crackberry.com/blackberry-priv-dtek50-and-dtek60-november-updates-now-available">CrackBerry</a> and here in the <a href="http://support.blackberry.com/kb/articleDetail?articleNumber=000038666">BlackBerry Android security bulletin for November</a>: It looks like these phones receive monthly updates (<strong>when not blocked by the carrier, <em>sigh</em></strong>)** **and have already received the November 2016 update.</p>
+<p>Here is <a href="http://blogs.blackberry.com/2015/11/managing-android-security-patching-for-priv/">the original blog post where BlackBerry explained their security patching policies for the PRIV</a>.</p>
+<h1 id="updates">Updates.</h1>
+<h2 id="wednesday-2020-02-26">Wednesday 2020-02-26.</h2>
+<p>I wanted to post some relevant updates, so here goes (okay just one):</p>
+<ul>
+<li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

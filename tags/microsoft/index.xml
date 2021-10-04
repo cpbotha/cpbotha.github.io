@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>microsoft on voices in my head</title><link>https://cpbotha.net/tags/microsoft/</link><description>Recent content in microsoft on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 15 Apr 2021 09:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/microsoft/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #220: An uncomfortable brainstorm</title><link>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</link><pubDate>Thu, 15 Apr 2021 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</guid><description> Welcome to Weekly Head Voices number Two Twenny!
+This edition covers the week from Monday April 5 to Sunday April 11, of which thankfully only 57.1% of the days (vs the usual 71.4%) were officially dedicated to work!
+Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful.
+The work week was indeed shorter (thanks week!) but perhaps just a bit too high intensity.</description><content:encoded><![CDATA[ <p>Welcome to Weekly Head Voices number Two Twenny!</p>
+<p>This edition covers the week from Monday April 5 to Sunday April 11, of which
+thankfully only 57.1% of the days (vs the usual 71.4%) were officially
+dedicated to work!</p>
+
+
+
+
+
+
+
+
+<figure><a href="mont-marie-pano-20210411.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful."/> </a><figcaption>
+            <p>Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in <a href="/2019/11/04/weekly-head-voices-182-can-you-predict-what/">WHV #182</a>. Still beautiful.</p>
+        </figcaption>
+</figure>
+
+<p>The work week was indeed shorter (thanks week!) but perhaps just a bit too high
+intensity.</p>
+<h2 id="why-does-there-have-to-a-discomfort-stage">Why does there have to a discomfort stage?</h2>
+<p>You see, we had previously made an important technical improvement to a product
+that was supposed to be released two weeks ago.</p>
+<p>Fortunately, during pre-release testing on the staging server (this is
+completely separate from production), some of our customers discovered issues
+that have been there for longer, but were now exacerbated, or rather made more
+apparent, by the improvement we had made.</p>
+<p>Now that is an interesting tension!</p>
+<p>One&rsquo;s first-order reaction is to want to roll-back the improvement, because
+we&rsquo;re humans, and we are compelled by our nature to do almost anything to
+resolve the discomfort we feel when our fellow humans are not as happy as they
+should be using the thing that we have built for them.</p>
+<p>That little person in your head is shouting: Go back, go back! You should have
+stayed where you were!</p>
+<p>However, this is one of those sometimes uncomfortable cases when the
+first-order reaction has to be resisted, because you really have to do The
+Right Thing.</p>
+<p>We started by measuring all the things, in order to understand the whole
+problem better.</p>
+<p>After that we started chipping away at some of the newly emphasised
+issues. Chip chip.</p>
+<p>Writing this up now, we are in a much better place than last week, having
+seemingly cleared that darned hump in the middle, and we are hopefully on our
+way to <em>the other side</em>.</p>
+<p>(This situation is quite reminiscent of the <a href="/2013/11/11/creative-process-stage-5-whv-67/">five stages of the creative process
+I&rsquo;ve mentioned before on this blog</a>.)</p>
+<h2 id="instant-switch-off">Instant switch-off</h2>
+<p>With the days as short as they are now, I often go for a mid-afternoon work-day
+run.</p>
+<p>These have been amazing in terms of switching off, and returning to work
+afterwards, refreshed and in a substantially more zen mood.</p>
+<p>In addition to this, family time in the evenings, also preceded by a pretty
+effective disconnect, made a perceptible difference to stress levels.</p>
+<h2 id="microsoft-has-a-pretty-good-password-manager-going-on">Microsoft has a pretty good password manager going on</h2>
+<p>TL;DR: If you&rsquo;re more on Windows and Linux than on Mac, you could consider
+using <a href="https://blogs.windows.com/windowsexperience/2021/02/05/simplify-and-secure-your-life-with-microsofts-autofill-solution-for-passwords/">Microsoft&rsquo;s password manager</a>.</p>
+<p>Some time before Lastpass changed their generous free tier, causing many folks
+to migrate away or to start paying, I decided to move all of my online password
+management to Dropbox Passwords.</p>
+<p>This was because I had been using LastPass for years (their free tier really
+was too generous. I usually do pay for services, but here there was no
+incentive), and thought that I should either start paying or move to a paid
+service, which Dropbox Passwords is in my case.</p>
+<p>Anyways, this experiment started on Saturday, October 3, 2020 and concluded on
+Saturday, April 10, 2021 after I finally made peace with the fact that the
+Dropbox Passwords app was indeed too klunky (PK you were right), and especially
+when I saw that Microsoft had secretly been putting together a pretty
+respectable <a href="https://blogs.windows.com/windowsexperience/2021/02/05/simplify-and-secure-your-life-with-microsofts-autofill-solution-for-passwords/">password management ecosystem</a>.</p>
+<p>You see, I&rsquo;ve been using the new Microsoft Edge browser (aka Edgium) for a
+while now, even on <a href="/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/">the shiny new M1 MacBook Air</a>, where the native M1 build is
+great for running the web-app versions of apps that don&rsquo;t have native M1
+versions yet.</p>
+<p>In addition to that, I&rsquo;m also already using <a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458">Microsoft&rsquo;s Authenticator app</a> for
+2FA on my home and work Microsoft accounts.</p>
+<p>Between the Edge browser (there&rsquo;s also <a href="https://chrome.google.com/webstore/detail/microsoft-autofill/fiedbfgcleddlbcmgdigjgdfcggjcion?hl=en">a Chrome plugin</a>) and the Authenticator
+app&rsquo;s autofill function, you can haz your passwords on desktop and mobile, with
+a similar level of integration as you might see when using icloud with Safari.</p>
+<h2 id="brainstorm-yourself">Brainstorm yourself</h2>
+<p><a href="/tags/side-projects/">Side-projects</a> folks!</p>
+<p>They&rsquo;re mostly great, but they have this unfortunate side-effect that they&rsquo;re
+always multiplying, seemingly even more so when there&rsquo;s a full graveyard of
+incomplete previous side-projects to function as fertile breeding ground.</p>
+<p>In playing my part in this specific force of nature, I spent some time this
+weekend brainstorming new side-project ideas with myself.</p>
+<p>(It is not lost on me that &ldquo;brainstorming&rdquo; project ideas in your own time, and
+not only that, but doing it by yourself, does not fall under &ldquo;standard weekend
+activities&rdquo; for many people. I have made my peace.)</p>
+<p>This time I was quite happy to be using a <a href="/2018/05/13/weekly-head-voices-142-theory-of-mind/#sketchnote-your-life">sketchnote-inspired</a> technique, trying
+to map out the landscape of &ldquo;skills&rdquo;, &ldquo;learning&rdquo;, &ldquo;my pain&rdquo; (not hurting here,
+this just refers to the need that the artifact should address) and &ldquo;market
+pain&rdquo; in order to find that One Final Side-Project that would satisfy all of
+those requirements and allow me to rest. Finally.</p>
+<p>After an hour or two, an idea that seemed to satisfy many of the map points did
+actually pop out!</p>
+<p><em>Narrator: It was not a very good idea.</em></p>
+<p>The idea that popped out fit the whole map too easily, in retrospect.</p>
+<p>One could say it was a bit like glibness as opposed to intelligence in that
+regard.</p>
+<p>The idea was to build a document / information retrieval tool for Windows that
+was at least as good as Spotlight on macOS.</p>
+<p>You&rsquo;ll remember from my <a href="/2019/09/21/note-taking-strategy-2019/">Note-taking strategy 2019</a> post, that my knowledge-base
+has files all over the show. A large part of using this thing effectively, is
+being able to call up that relevant article from 5 years ago in a fraction of a
+second.</p>
+<p>Windows Search is, in spite of years of work and update, still not even in the
+same ballpark as Spotlight in terms of retrieval accuracy and speed, so there
+is a technical opportunity there.</p>
+<p>As these things go, on Saturday evening I had my trusty new Orgmode notes file
+for this new project (<code>WorkingWindowsSearch</code>, sorry I&rsquo;m not marketer), and I
+was slapping together a C# WPF tool with <a href="https://lucenenet.apache.org/">Lucene.net</a> (after a bit of a false
+start with xapian, which I use for my email on Linux) and <a href="https://uglytoad.github.io/PdfPig/">PDFPig</a>, and had got
+it to start indexing a part of my <a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP collection of PDF references</a>.</p>
+<p>Fortunately, bed-time arrived sooner rather than later, terminating this
+(apparent) fecklessness, and the next morning I woke up with that awkward
+morning-after feeling.</p>
+<p>&ldquo;Uh, what was I thinking?!&rdquo;</p>
+<p>During the day, the gears in my head kept on turning by themselves, and the
+notes kept on accumulating.</p>
+<p>I had arrived at the conclusion that local file search was not going to cut
+it.</p>
+<p>One would need integration with different cloud services.</p>
+<p>This thought further developed into the idea that the side-project could be
+merely be &ldquo;sort of a retrieval hub&rdquo; that simply talks to all of the relevant
+APIs and showing results together.</p>
+<p>I had also arrived at the conclusion that I should probably stop right
+there.</p>
+<p>It had been an entertaining and educational dalliance with a list of
+technological artifacts that were new to me, but the longer-term energy did not
+seem to be there.</p>
+<p>It was back to the drawing board (or rather sketchnotes) for me, as soon as a
+sufficient amount of time again become available.</p>
+<h3 id="death-of-a-side-project-epilogue">Death of a side-project: Epilogue</h3>
+<p>On the Tuesday after the weekend (looking into the WHV future here), I ran into
+<a href="https://raycast.com/">Raycast</a>, a tool for macOS that combines Spotlight-like file search with a whole
+bunch of productivity plugins enabling power-users to perform their tasks from
+a single keyboard-driven app.</p>
+<p>With a $2.7 million seed round of capital led by Accel, it seems there are at
+least some people who think that this has market potential, even on a platform
+where the search part is already catered for.</p>
+<h2 id="read-here-for-possibly-life-changing-advice">Read here for possibly life-changing advice</h2>
+<p>I had this scheduled for the next WHV, but this one is in dire need of a
+conclusion, so sorry next WHV!</p>
+<p>I really enjoyed reading through <a href="https://waitbutwhy.com/2021/04/mailbag-2.html">Wait But Why&rsquo;s Mailbag #2 post</a>. (Tim Urban is
+such a human treasure.)</p>
+<p>The piece I would like to highlight now, is Tim Urban&rsquo;s reply to the question
+&ldquo;What is the best piece of advice you have ever received?&quot;:</p>
+<blockquote>
+<p>I met Chris Anderson, the head of TED, in 2015. He had read a few WBW posts and
+offered me the opportunity to give a TED Talk at the 2016 conference (which was
+six months away). Immediately full of both gratitude/excitement and
+dread/anxiety, I asked him if it might be better to wait a couple years until I
+had some more speaking experience. He paused thoughtfully for a few seconds
+before saying, <strong><strong>&ldquo;There&rsquo;s no time like the present.&quot;</strong></strong> I took his advice. Since
+then, his voice saying those words has popped into my head again and again
+during hard decisions, and I&rsquo;m yet to regret following them.</p>
+<p>Great advice is sometimes great because it&rsquo;s totally original or framed in an
+original way. But, as in my story, a well-known platitude, at the perfect
+moment, can also make a huge impact. What makes Chris&rsquo;s advice so valuable to
+me wasn&rsquo;t that it was something new—it was that the lesson I learned from
+taking the advice in that particular moment turned a cliché into a mantra.</p>
+</blockquote>
+<p>Exactly as he describes, it hit me too when I read it.</p>
+<p>Folks, I can&rsquo;t think of a better way to wrap up this post, than just planting
+the hopefully well-timed advice above in your head.</p>
+<p>Here it is again, for easier eye-ball insertion: <strong><strong>There&rsquo;s no time like the present.</strong></strong></p>
+]]></content:encoded></item><item><title>Weekly Head Voices #201: Sunny anniversary</title><link>https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/</link><pubDate>Wed, 29 Jul 2020 10:12:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/</guid><description> I could feel this one almost slipping through to the two week group, but then I thought to myself: It feels like I have nothing to write about, but future me will probably still want to know what sort of nothing exactly happened in that week.
+The 201st edition of the Weekly Head Voices looks back at the week from Moday July 20 to Sunday July 26, 2020, which since last week I&amp;rsquo;m calling Cray-cray 20.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="la_mountain_pano.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_800x0_resize_q75_box.jpg"
+            
+
+        /> </a>
+</figure>
+
+<p>I could feel this one almost slipping through to the two week group, but then I
+thought to myself: It feels like I have nothing to write about, but future me
+will probably still want to know what <em>sort</em> of nothing exactly happened in
+that week.</p>
+<p>The 201st edition of the Weekly Head Voices looks back at the week from Moday
+July 20 to Sunday July 26, 2020, which since last week I&rsquo;m calling
+Cray-cray 20.</p>
+<h2 id="solar-power-birthday">Solar Power Birthday</h2>
+<p>You might recall that we <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">solar powered our house at the end of June last year</a>,
+but that there were still some teething problems (read: almost bricked the
+inverter) which <a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-boat/#bullet-list-of-miscellany-blom">we had solved by July 25</a>, almost exactly a year ago!</p>
+<p>That means&hellip;</p>
+<p><em>HAPPY BIRTHDAY DEAR SOLAR POWER AT MY HOUSE HAPPY BIRTHDAY TO YOU WE LOVE YOU!</em></p>
+
+
+
+
+
+
+
+
+<figure><a href="goodwe_sems_sample_20200728.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_sems_sample_20200728_hu35d0223f8e68ff6d32894f184e2e6abf_38291_480x0_resize_box_3.png 480w,
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_sems_sample_20200728.png"
+            
+
+        
+            alt="Figure 1: Solar production today (2020-07-18, a sunny winter&amp;rsquo;s day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate." width="300"/> </a><figcaption>
+            <p>Figure 1: Solar production today (2020-07-18, a sunny winter&rsquo;s day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate.</p>
+        </figcaption>
+</figure>
+
+<p>The app reports that since commissioning we have generated and used almost 8
+MWh of solar power, which makes me happy.</p>
+<p>What makes me even happier, is that the whole system has been essentially
+maintenance free this whole time.</p>
+<p>The only action I perform, is to switch the inverter to back-up mode when we&rsquo;re
+in load-shedding season, which means that it prioritises keeping the lithium
+ion batteries full.</p>
+<p>When we&rsquo;re not load-shedding seasion, it&rsquo;s in normal mode, meaning it
+prioritises using as little grid power as possible, which in the summer months
+is quite close to nothing.</p>
+<p>P.S. For our viewing pleasure, I just looked up the monthly generation for the
+past 12 months, in order to be able to see the seasonal variation. It looks
+like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="goodwe_monthly_generation_202007.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>While July has been <strong>really</strong> good sun-wise (thanks Cape winter, you&rsquo;re a
+star!), we will probably be entering the 600kWh+/month zone soon.</p>
+<p>That dip last December is probably because we were away from home for a
+while. The February dip is of course because it&rsquo;s a few days shorter than most
+months, which in February can easily amount to 30kWh per day.</p>
+<h2 id="nerdy-posts-over-on-vxlabs">Nerdy posts over on vxlabs</h2>
+<p>Whilst working with the brand new Microsoft Pylance Python language server for
+Visual Studio Code, I figured out how to make some red squiggly lines yellow
+and wrote a whole blog post about it: <a href="https://vxlabs.com/2020/07/23/vscode-pylance-type-mismatch-warning/">Set severity override of Visual Studio
+Code Pylance type mismatches for better visual distinction</a></p>
+<p>Besides the subject of the post, it was interesting to check how low the
+barrier between my internal notes and publishing a blog post had become since I
+started using ox-hugo.</p>
+<p>The screenshots in the post meant I had to do some manual <code>attachment:</code>
+link-wrangling, and so I wrote an Emacs function to fix that.</p>
+<p>In a slightly meta fashion, I then pushed my notes about that new function to
+another blog post titled: <a href="https://vxlabs.com/2020/07/25/emacs-lisp-function-convert-attachment-to-file/">An Emacs Lisp function to convert attachment: links
+to file: links for ox-hugo exports</a></p>
+<p>Ironically, that blog post itself did not contain a single screenshot.</p>
+<p>Somewhere in-between I tweaked the fonts on <a href="https://vxlabs.com/">vxlabs.com</a>.</p>
+<ul>
+<li>It surprised me what a difference such a small change can make.</li>
+<li>With the new <a href="https://gohugo.io/hugo-pipes/">Hugo pipes</a> it has become straight-forward to modify source SCSS
+(for example) and then have the hugo build server automatically rebuild the
+resultant CSS while you work. Kudos to the authors!</li>
+</ul>
+<h2 id="microsoft-helps-to-break-nvidia-s-stranglehold-on-deep-learning-hardware">Microsoft helps to break NVIDIA&rsquo;s stranglehold on deep learning hardware</h2>
+<p>What I realised only the other day, is that Microsoft&rsquo;s recent work on <a href="https://devblogs.microsoft.com/directx/directx-heart-linux/">porting
+TensorFlow to run on their DirectML stack</a> has magically enabled AMD and even
+Intel GPUs to be used to accelerate deep learning training and inference.</p>
+<p>If you look at this <a href="https://github.com/microsoft/DirectML/issues/21">DirectML github issue</a>, you&rsquo;ll see that it&rsquo;s still early
+days as performance is not what it should be, but peeps are almost routinely
+accelerating their deep learning workloads using AMD GPUs, something which up
+to now has been almost impossibly impractical.</p>
+<p>To reiterate: Microsoft has made it straight-forward for any GPU manufacturer
+to support deep learning, by simply implementing DirectML support. NVIDIA on
+the other hand was really happy with their fully proprietary CUDA platform and
+its dominance in the deep learning world.</p>
+<p>What a strange world we live in.</p>
+<p>The Microsoft of 2020 has built up a track record over the past years of doing
+truly positive stuff.</p>
+<p>I approve.</p>
+<h2 id="living-in-the-future">Living in the future</h2>
+<p>Thanks to the internet, I was just able to find the source of a remembered adage.</p>
+<p>The source is <a href="http://paulgraham.com/startupideas.html">Paul Graham&rsquo;s essay How to Get Startup Ideas</a>, and the adage is:</p>
+<blockquote>
+<p>Live in the future, then build what&rsquo;s missing.</p>
+</blockquote>
+<p>It&rsquo;s going quite well with the company. We have products, we have (slowly)
+growing traction in the market, and we have a great team.</p>
+<p>However, just like any other company, we have to work hard at getting more traction.</p>
+<p>There are direct ways to increase traction (SELL MORE WIDGETS!), but as an
+engineer I also tend to look at the product side.</p>
+<p>We have started work on a really exciting new feature, which is a natural
+extension of what <a href="https://www.telesensi.com/">TeleSensi</a> already does and which there is already a market
+for, that in my mind also falls squarely into the class of things that people
+in the future (5 year horizon) are going to need a whole lot more of.</p>
+<p>That&rsquo;s my inner engineer talking.</p>
+<p>My inner scientist has pointedly asked to &ldquo;show him the data&rdquo;.</p>
+<p>How does one solve this conundrum?</p>
+<p>To build a truly successful product, it seems you have to take a chance on an
+idea that&rsquo;s going to be huge in the future.</p>
+<p>By definition, we can&rsquo;t measure there.</p>
+<p>You can only measure now, then lick and hold up your finger to determine the
+current wind direction, and finally muster up all of your cognitive biases to
+make that call.</p>
+<p>And then&hellip;</p>
+<p><em>You&rsquo;ve got to ask yourself one question: &ldquo;Do I feel lucky?&quot;</em></p>
+<p><em>Well, do you, punk?</em></p>
+]]></content:encoded></item><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
+The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.
+This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="stilbaai-preekstoel-panorama.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown."/> </a><figcaption>
+            <p>Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.</p>
+        </figcaption>
+</figure>
+
+<!--
+2020-05-02 21:38 Boiler Room Solomun 2015 playing on the second screen while
+I'm typing this.  I was hoping to understand why this has 43M views, and my
+favourite boiler room of all time, Maceo Plex in Berlin in 2015, has "only"
+11M.
+
+Let me know in the comments if you read this. :)
+-->
+<p>The Weekly Head Voices #193 looks back at the three weeks from Monday April 12
+to Sunday May 2.</p>
+<p>This post has a strong nerd flavour. If that is not your inclination, please
+use the table of contents (to your right) to navigate to the bits that you do
+find interesting.</p>
+<p>If you&rsquo;re in a rush, and can only select one section, I would recommend <a href="#the-amazing-niklas-luhmann-and-his-zettelkasten">the
+one on Niklas Luhmann</a>.</p>
+<p>Have fun!</p>
+<h2 id="covid-19-status-update">COVID-19 status update</h2>
+<p>On Friday, May 1, <a href="https://www.businessinsider.co.za/lockdown-level-4-what-is-now-allowed-2020-4">the South African lockdown was slightly lifted from level 5
+to level
+4</a>.</p>
+<p>This means that a part of the workforce will start returning to work, and that
+citizens are allowed slightly more freedom of movement.</p>
+<p>If safety had been the only requirement, we should probably have had to
+continue with level 5 for a while longer, but that darned economy unfortunately
+also has to be kept afloat.</p>
+<p>In spite of this, I was super pleased to read the following:</p>
+<blockquote>
+<p><strong>Masks are obligatory.</strong> Everyone has to wear cloth face masks outside their
+homes. If you don&rsquo;t yet have a cloth mask, you can wear a scarf or a t-shirt
+wrapped around your mouth and nose, says Dlamini-Zuma.</p>
+</blockquote>
+<p>This might end up being the thing that gets us through this in something that
+resembles one piece.</p>
+<p>The second announcement I was super happy with, was that we would be allowed
+outside for exercise between 6 and 9 in the mornings.</p>
+<p>So on Saturday morning I went out for my first post-level-5 run, ON THE
+OUTSIDE. (It does feel strange going out on the street for the first time in
+five weeks.)</p>
+<p>The majority of people I saw actually had some form of face mask going on.</p>
+<p>I had expected otherwise, because doing cardiorespiratory exercise with a mask
+on is not easy, and people can be stubborn.</p>
+<p><a href="https://www.runnersworld.com/advanced/a20842404/product-review-buff-headwear/">Buffs</a>
+are these fantastically useful &ldquo;seamless tubular garments made from
+high-performance microfibre&rdquo; that many runners swear by.</p>
+<p>Well, it turns out you can <em>also</em> use them as as-running-proof-as-possible face
+masks:</p>
+
+
+
+
+
+
+
+
+<figure><a href="cpbotha_running_with_buff_mask.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/cpbotha_running_with_buff_mask_hu815c169f7dc006fef835eddef66e09fe_118854_480x0_resize_q75_box.jpg 480w,
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/cpbotha_running_with_buff_mask.jpg"
+            
+
+         width="240"/> </a>
+</figure>
+
+<p>Pro-tip: If there&rsquo;s a runner in your life, and you&rsquo;re on the lookout for a
+gift, just get them a buff. You can <em>never</em> have too many buffs.</p>
+<h2 id="gou-2-is-10">GOU #2 is 10</h2>
+<p>My most favourite middle child in the whole world recently hit the double
+digits, and she was suitably chuffed with this.</p>
+<p>It must be strange experiencing your 10th birthday under these truly surreal
+conditions.</p>
+<p>On the other hand, when you&rsquo;re 10, you probably don&rsquo;t dwell on thoughts like
+that for too long.</p>
+<h2 id="miscellaneous-catch-up">Miscellaneous catch-up</h2>
+<p>In the past weeks, I wrote a number of other blog posts, started a new blog,
+and discovered an obscure but fantastic new blogging tool.</p>
+<p>Oh, and my expensive ergonomic keyboard broke.</p>
+<h3 id="fantastic-blogging-tools-and-where-to-find-them">Fantastic blogging tools and where to find them</h3>
+<p>It all started when I finally got around to exploring
+<a href="https://ox-hugo.scripter.co/">ox-hugo</a>, the Emacs package for writing Hugo
+posts using Org mode.</p>
+<p>You might not recall this, but the mere <em>existence</em> of <a href="/2019/03/31/wordpress-to-hugo/#build-and-upload-the-new-static-hotness">ox-hugo was the reason
+I chose
+Hugo</a>
+when it was time to leave Wordpress behind.</p>
+<!--
+Hey there friends reading these hidden messages!
+
+There are multiple explicit and implicit streams of connection running through
+these channels and it's lovely.
+
+Anyways, it is now 22:44 and I finished the Solomun boiler room set.
+
+There are indeed so many stories happening in those frames, many of which will
+only become apparent after more viewings.
+
+I'm now back to the Maceo Plex set, with a smile of recognition on my face.
+-->
+<p>Well, it turns out that, <em>if</em> you&rsquo;re an Emacs Org mode user, ox-hugo is pretty
+close to blogging nirvana.</p>
+<p>In the past few days, I&rsquo;ve used it to turn arbitrary Org mode entries from my
+month journal into blog posts, to send the exact same Org mode file to two
+different blogs with different sets of title and metadata, and to assert
+Neo-in-the-matrix-style control over what goes where and how.</p>
+<p>If I have to put my finger on the core of ox-hugo&rsquo;s extreme utility, I would
+say that <a href="https://github.com/kaushalmodi">Kaushal Modi</a>, the brains behind
+ox-hugo, has managed to create a perfect coupling between Org mode on the one
+hand and Hugo on the other, a coupling that maximally leverages the strengths
+of each.</p>
+<p>(I will probably be writing more about this, but &hellip; elsewhere. <em>[queue
+suspenseful music here]</em>)</p>
+<h3 id="other-mostly-very-nerdy-blog-posts">Other mostly very nerdy blog posts</h3>
+<p>As part of the ox-hugo investigation, I had to figure out how to <a href="https://vxlabs.com/2020/04/26/cite-consistently-between-org-ref-and-ox-hugo/">cite
+consistently between straight Org mode and
+ox-hugo</a>
+for automatic bibtex-backed bibliographies.</p>
+<p>Inspired by friend <a href="https://mentat.za.net/blog/2020/04/28/voice-capture-org-tasks-on-android/">Stéfan&rsquo;s post on voice capturing and automatically
+transcribing notes to Org
+mode</a>,
+I figured out how to <a href="https://orgmode-exocortex.com/2020/04/30/voice-capture-org-mode-notes-and-more-using-siri-shortcuts-on-ios/">do the same on iOS and wrote it all
+up</a>.</p>
+<p>If you clicked on that second link, you will have discovered my brand new blog,
+the hopefully catchily titled <a href="https://orgmode-exocortex.com/">Org Mode
+Exocortex</a>. I will be posting <em>ultra</em>-nerdy Emacs
+Org mode content over there.</p>
+<p>(Friend Stéfan is the very first guest blogger, with a re-post of his Android
+speech recognition post linked above. BTW, that was my first guest blogging
+experience ever. Life for the Z-list blogger does not move fast.)</p>
+<p>Finally, also thanks to ox-hugo&rsquo;s motivation, I figured (haha, now I see what I
+did there) out how to make and publish a new <a href="/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/"><code>figure</code> shortcode for Hugo that
+automatically resizes images and gets your browser to download only the best
+one</a>!</p>
+<h3 id="microsoft-sculpt-ergonomic-desktop-at-4-years-rip">Microsoft Sculpt Ergonomic Desktop at 4 years: RIP</h3>
+<p>After all of that good news, I do have to report the following not-so-great news:</p>
+<p>After just under four years of approximately one half of my typing, the
+<a href="/2016/05/22/weekly-head-voices-107-balance/">Microsoft Sculpt Ergonomic keyboard I welcomed into my home at the start of
+May of 2016</a>, has developed a key
+failure.</p>
+<p>More specifically, the physical &ldquo;G&rdquo;, which is my &ldquo;I&rdquo; (thanks
+<a href="https://en.wikipedia.org/wiki/Dvorak_keyboard_layout">Dvorak</a>), fails about
+30% of the time, with that duty cycle slowly growing.</p>
+<p>(You may bring your jokes about why specifically the &ldquo;I&rdquo; is failing first to
+the comment section below!)</p>
+<p>I opened up the keyboard following <a href="http://emmanuelcontreras.com/how-to/how-to-disassemble-microsoft-sculpt-ergonomic-keyboard-and-make-it-wired/">the instructions and photos of Emmanuel
+Contreras</a>.</p>
+<p>(What I can add to Contreras&rsquo;s information, is that the palm rest is held fast
+by no less than 12 little screws, some odd-sized. Pro-tip: When you remove all
+of these, put them down in the same pattern as the holes, so that you can get
+them back in later.)</p>
+<p>However, one unfortunately ends up at the metal backing which is attached to
+the top-plate with about 30 or more plastic pop-rivet like mechanisms.</p>
+<p>Information online also seems to indicate that once a single key goes, you have
+to replace the whole board.</p>
+<p>Some more searching brought me to <a href="https://youtu.be/x09inK8-G1Y">this obscure but helpful YouTube
+review</a> where Kevin explains that although
+everyone at his company loved the keyboard, they had simply accepted it as part
+of their business expense to replace them every 6 months to a year.</p>
+<p>If you search through <a href="https://www.amazon.com/Microsoft-Ergonomic-Keyboard-Business-5KV-00001/product-reviews/B00CYX26BC/ref=cm_cr_arp_d_viewopt_kywd?pageNumber=1&amp;filterByKeyword=durability">the Amazon reviews for
+&ldquo;durability&rdquo;</a>,
+it really starts to look like a case of a fantastic keyboard marred by issues
+with its durability.</p>
+<p>However, if you need a relatively affordable &ldquo;ergonomic&rdquo; keyboard, where with
+&ldquo;ergonomic&rdquo; I mean shaped in such a way that your wrists get to stay more or
+less straight while typing, with really great feel and low-impact typing, the
+Sculpt comes out on top.</p>
+<p>Although it goes against my grain, I should probably be happy with the above
+average 4 years that this one managed, and start finding a local source for its
+inevitable replacement.</p>
+<p>Nerds in the audience: I am very curious to hear about your keyboard
+preferences in the comments. Let&rsquo;s go!</p>
+<h2 id="two-lessons-learnt-from-how-to-take-smart-notes">Two lessons learnt from How to Take Smart Notes</h2>
+<p>On March 31 I quickly read through <a href="https://www.goodreads.com/en/book/show/34507927-how-to-take-smart-notes">Sönke Ahrens&rsquo;s book, How to Take Smart
+Notes</a>.</p>
+<p>(The full title is actually &ldquo;How to Take Smart Notes: One Simple Technique to
+Boost Writing, Learning and Thinking &ndash; for Students, Academics and Nonfiction
+Book Writers&rdquo;)</p>
+<h3 id="the-most-portable-cross-platform-ebook-format-with-self-contained-annotations-is">The most portable cross-platform ebook format with self-contained annotations is&hellip;</h3>
+<p>I bought the Kindle book on Amazon, because that&rsquo;s how I&rsquo;ve been doing it for
+years.</p>
+<p>However, although I prefer reading novels on my Kindle e-Ink device, for
+reference works it&rsquo;s a deal breaker that my highlights and notes are not in a
+standards compliant format that integrates nicely with <a href="/2019/09/21/note-taking-strategy-2019/">my existing personal
+knowledge management system</a>.</p>
+<p>My goal was to find an alternative format for these books with the following features:</p>
+<ul>
+<li>Before you answer PDF, which I use extensively for academic papers, typeset
+books, and many other things: The alternative format should be fully
+reflowable, like the source Kindle book.</li>
+<li>Readable and annotations editable on all my non-Kindle devices (Windows,
+Linux, macOS, iOS).</li>
+<li>Most importantly: Flexible annotations, including at least highlighting and
+positional notes, that are stored within the file itself, so they can never
+be lost.</li>
+</ul>
+<p>I didn&rsquo;t expect this to be too much of a challenge.</p>
+<p>I was wrong.</p>
+<p>After a number of hours spent spelunking down a number of different
+rabbit-holes, with epub3 being the greatest disappointment (the spec has all
+the features, but the implementations largely lack good annotation support), I
+ended up in a place where you probably would not expect to find me&hellip;</p>
+<p>Dear readers, the best format that satisfies all requirements above
+is&hellip; <code>&lt;FRITS_DRUMROLL /&gt;</code> &hellip; <strong>Microsoft DOCX</strong>!</p>
+<p>Since then, I&rsquo;ve been DeDRM&rsquo;ing (google it) the Kindle reference books I
+purchase in order to be able to read and annotate them across all my platforms.</p>
+<p>For this, the iPad is pretty great.</p>
+<p>Once read, the DOCX files, including all of the annotations I made, are stored
+in the correct place in my synchronised file hierarchy, and are fully
+searchable and accessible with standard tools.</p>
+<h3 id="the-amazing-niklas-luhmann-and-his-zettelkasten">The amazing Niklas Luhmann and his Zettelkasten</h3>
+<p>The book itself, <em>How to Take Smart Notes</em>, spends well-deserved time on the
+phenomenon that was the prodigiously productive German sociologist Professor
+<a href="https://en.wikipedia.org/wiki/Niklas_Luhmann">Niklas Luhmann</a>.</p>
+<p>Over his career, Prof. Luhmann wrote more than 70 books and published almost
+400 research articles.</p>
+<p>He made a massive impact on the world of sociology and systems theory.</p>
+<p>When asked in <a href="https://www.uni-bielefeld.de/soz/luhmann-archiv/pdf/jschmidt_zettelkasten-als-uberraschungsgenerator.pdf">a 1997
+interview</a>
+how he managed to this productive, he answered:</p>
+<blockquote>
+<p>&ldquo;Ich denke ja nicht alles allein, sondern das
+geschieht weitgehend im Zettelkasten. [&hellip;]
+Meine Produktivität ist im wesentlichen aus dem
+Zettelkasten-System zu erklären. [&hellip;]
+Der Zettelkasten kostet mich mehr Zeit als das
+Bücherschreiben</p>
+</blockquote>
+<p>Translated this is probably something like (German readers, help me out here
+please):</p>
+<blockquote>
+<p>I don&rsquo;t think everything by myself, but that largely happens in the slip box. [&hellip;]
+My productivity is essentially due to that slipbox system. [..]
+The slipbox costs me more time than that writing books</p>
+</blockquote>
+<p>The <em>zettelkasten</em> he referred to were quite simply a set of wooden slipboxes,
+in which he could store pieces of paper (the &ldquo;slips&rdquo;), each of which had a
+single idea written on it.</p>
+<p>It looked more or less exactly like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="https://niklas-luhmann-archiv.de/">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_800x0_resize_q75_box.jpg 800w,
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Photo of Luhmann&amp;rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv."/> </a><figcaption>
+            <p>Photo of Luhmann&rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv.</p>
+        </figcaption>
+</figure>
+
+<p>Over the course of his career, he managed to write about 90000 (yes, ninety
+thousand) of these notes, all of which you can now <a href="https://niklas-luhmann-archiv.de/">browse online at the Niklas
+Luhmann-Archiv</a>.</p>
+<p>Importantly, he had come up with an ingenious numbering system for linking each
+new note to its chain of predecessors, and also to other related chains
+anywhere in the zettelkasten.</p>
+<p>When it was time to write a book or a paper, he would dive into his this
+collection, and then take a stroll through his amazing web of interlinked
+thoughts, some of them having matured for years.</p>
+<p>Putting together the publication became an exercise in harvesting index cards
+from his slipboxes, instead of a positively intimidating mountain of writing,
+thinking and rewriting.</p>
+<p>This is such a boss-level example of the principle of
+<a href="https://cpbotha.net/tags/compounding/">compounding</a>, and one which is
+definitely worth trying to follow.</p>
+<p>Since reading Ahrens&rsquo;s book, I have started extending <a href="/2019/09/21/note-taking-strategy-2019/">my existing note-taking
+universe</a> to be more Zettelkasten-like,
+when appropriate.</p>
+<p>Org mode is a great basis for this, and packages like
+<a href="https://github.com/jethrokuan/org-roam">org-roam</a> help us to get closer to our
+90-thousand-notes-dreams.</p>
+<p>On a higher level, I have been thinking and writing a great deal about how to
+merge effectively the Zettelkasten one-idea-per-note approach into the full
+spectrum of writing complexity that Org mode supports.</p>
+<p>It is important to be mindful of the <em>mode</em> of documentation that you need to
+apply at any give point.</p>
+<p>If you want to read more about the Luhmann&rsquo;s Zettelkasten, <a href="https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125">this Writing
+Cooperative article in
+English</a>
+and <a href="https://www.heise.de/newsticker/meldung/Missing-Link-Luhmanns-Denkmaschine-endlich-im-Netz-4364512.html">this Heise article in
+German</a>
+are a great start.</p>
+<p>This might not be the last time that you&rsquo;ll hear me talking about Luhmann and
+his Zettelkasten.</p>
+<h2 id="uitzwaaien">Uitzwaaien</h2>
+<p>Thank you friends for reading this and connecting with me here!</p>
+<p>I look forward to our next meeting.</p>
+]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
+Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+<p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
+<p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png"
+        
+            alt="Phil Schiller not suiting up."/> </a><figcaption>
+            <p>Phil Schiller not suiting up.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Collectively, the internet <a href="http://www.huffingtonpost.com/entry/new-apple-macbook-pro_us_58123abde4b064e1b4b0fd76">was disappointed</a>. Why no touch screen? Why no new iMac (last refresh a year ago) or Mac Pro (last refresh 3 years ago)? <a href="https://milen.me/writings/mac-platform-decline/">What is happening at Apple</a>?</p>
+<p>The day before, on October 26, 2016, Microsoft revealed the Surface Studio. Watch this introduction:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/BzMLA8YIgG0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>… and also this video with Microsoft partners who have in secret been working with the Studio:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/WMklcdzcNcU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Even if you did not like Microsoft, you can get a good sense of the emotion around this new product.</p>
+<p>They’ve managed to make something that speaks to the imagination. When I see this, as an outspoken Microsoft critic, I do get the distinct feeling that the Surface Studio is a physical artefact of the science fiction dream that my reality is gradually (and very pleasingly) turning into. My less nerdy technology-critical better half’s first reaction was: <strong><em>When can we get this?</em></strong></p>
+<p>It seems that Microsoft has convincingly out-Appled Apple.</p>
+<p>In other words, Microsoft has somehow become sexy whilst Apple seems to have developed strong feelings for the Lada.</p>
+<p>As an interesting related tidbit, a friend, whom I was trying to convince NOT to get Google’s new Pixel XL phone because reasons, recently sent me <a href="http://www.theverge.com/circuitbreaker/2016/10/29/13466786/google-pixel-photo-better-than-iphone">this short post on The Verge</a> by Vlad Savov, a camera phone expert who until recently was of the educated opinion that the iPhone 7 was still the king of the smartphone castle. He writes:</p>
+<blockquote>
+<p>On the basis of my extended experience with Google’s Pixel, I consider it an all-around better phone than the iPhone 7. The final exhilarating straw that broke the camel’s back was the photo below, coming straight out of the Pixel XL’s camera, undoctored other than for a horizon adjustment.</p>
+</blockquote>
+<p>WHAT IN HEAVENS IS HAPPENING?! OUR WHOLE WORLD IS COLLAPSING!</p>
+<p>Perhaps not…</p>
+<p>During a Signal App conversation (you should really use Signal, it now has <a href="https://www.whispersystems.org/blog/giphy-experiment/">privacy-conscious Giphy support</a>) with <a href="http://francoismalan.com/">another friend</a>, I realised that what’s happening here, is in fact <strong>wonderfully capricious human emotion interfering with the machine that is capitalism</strong>.</p>
+<p>Left to its own devices, the nature of capitalism means that successful companies tend to evolve into capitalistically optimal dead ends. In other words, large successful companies lose the will to innovate, because they realise they are able to make more money at less risk by simply not rocking that boat. Instead of investing in innovation, they invest in sales and marketing to milk their large customer-base.</p>
+<p>Ironically, Steve Jobs explained this idea quite eloquently during this interview where he talked about the decline of Xerox:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/_1rXqD6M614?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
+<p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
+<p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
+]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
+Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
+This seemed like an opportune moment to get something off my chest.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+<p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404-1024x576.jpg"
+        
+            alt="Ubuntu means “humanity to others”. It also means pretty desktop!"/> </a><figcaption>
+            <p>Ubuntu means “humanity to others”. It also means pretty desktop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</p>
+<h2 id="cost-to-the-national-economy">Cost to the national economy</h2>
+<p>Every year, I and a few million other South Africans pay a boat load of income and other taxes. Because in SA not everyone is able to pay tax, it is <i>especially</i> important that this money is used for the common good, for issues such as health-care, education and job creation.</p>
+<p>However, instead of using my hard-earned tax to stimulate local industry, the South African government is sending millions of rands, each and every year, to Microsoft, a fantastically rich company in the USA, a fantastically rich country in comparison to South Africa.</p>
+<p>The majority of government workstations absolutely don’t need MS Windows, MS Office or Outlook. The majority of government employees would be able to do their job (email, reports, spreadsheets, forms, use of web-apps) better and more securely using Linux.</p>
+<p>Furthermore, the use of Linux and open source software encourages the use of open standards for public documentation. In 2007, the SA government <a href="http://en.wikipedia.org/wiki/OpenDocument_adoption#South_Africa">officially standardised on the OpenDocument format</a>. However, MS Office use is still rife, and encourages people to use Microsoft’s own XML formats. Although MS standardised these in a bid to stay in the global government game, OpenDocument should be preferred, as it’s better supported by more free and open packages that are available to all citizens, not just those with money for MS Windows and MS Office.</p>
+<p>As an added but very important advantage, some of the considerable funds that would have been sent to the USA for MS licensing and support would then be injected into the local Linux support economy, stimulating local skills and creating more high-tech jobs.</p>
+<p>Don’t you find it strange that South Africa, a developing country, is sending that much money to the USA when better solutions exist? Don’t you too think that it would be great to have a thriving and more independent Linux-based operating system and application industry right here in SA?</p>
+<h2 id="personal-cost">Personal cost</h2>
+<p>I <a href="http://mygaming.co.za/news/news/46487-windows-8-versions-sa-pricing-detailed.html">just</a> checked, it looks like the cost for an OEM license of Windows 8 in SA is R1000. We want as many as possible South Africans to have access to computers and to have access to internet. You can get a cheap PC for R3000 to R4000. It really makes absolutely no sense to spend R1000 on Windows, when Linux would work perfectly well on that same PC hardware.</p>
+<p>It gets even more silly when you add in the price of MS Office. For 95% of personal users, packages like OpenOffice or LibreOffice, completely free and even open source, or Google Docs, not open but free, are more than sufficient.</p>
+<p>A part of the problem here is simply momentum. Because everyone is still using Microsoft products, everyone thinks that that’s what you need to have. Imagine that the government standardised on Linux, it would not take long before people would then evaluate this as a serious choice when acquiring a new PC.</p>
+<h2 id="security">Security</h2>
+<p>For the largest part due to Edward Snowden’s actions, and great journalism by The Guardian, it is now widely known (and much has been corroborated), that the NSA and other intelligence agencies around the world have been eavesdropping on everyone and everything.</p>
+<p>An important part of this practice, is the working relationships that these intelligence agencies have built up with software vendors around the world. When you run MS Windows or Mac OSX, or any other prioprietary software, you have absolutely no way of knowing, or checking, what your computer is doing with your information. It sounds like something from a spy movie, but <a href="http://arstechnica.com/security/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">the NSA works closely with Microsoft to be able to hack into computers running Windows</a>.</p>
+<p>In the case of personal use, this may not be such a problem, but in the case of the South African government and the whole corporate world, it’s slightly crazy that everyone is willing to take the risk that all of their information is being snooped on by cooperating intelligence agencies.</p>
+<p>With open source systems one can’t be 100% sure either, but one is able to check and modify and part of the system, at the source code level, that one is working on. Based on this openness, I have personally in the past programmed kernel drivers to support new hardware, and fixed low-level driver bugs. This was possible only because I have access to the source code of everything on my system.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
+<p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
+]]></content:encoded></item><item><title>The Microsoft and I</title><link>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</link><pubDate>Tue, 13 May 2003 14:22:34 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</guid><description> I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. This section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with some standard. :)</description><content:encoded><![CDATA[ <p>I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">This</a> section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with <em>some</em> standard. :)</p>
+]]></content:encoded></item><item><title>Where should that dang button go?</title><link>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</link><pubDate>Sun, 04 May 2003 14:59:54 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</guid><description> So, here we have the Aqua Human Interface Guidelines (i.e. the MacOS-X user interface guidelines), the GNOME Human Interface Guidelines, the KDE User Interface Guidelines and of course the Microsoft Windows Official Guidelines for User Interface Developers and Designers (I came back in January of 2018 to fix this link — also interesting is the section on margins and spacing).
+Apple says that “The default button for dismissing a dialog should go in the lower-right corner.</description><content:encoded><![CDATA[ <p>So, here we have the <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/index.html">Aqua Human Interface Guidelines</a> (i.e. the MacOS-X user interface guidelines), the <a href="http://developer.gnome.org/projects/gup/hig/">GNOME Human Interface Guidelines</a>, the <a href="http://developer.kde.org/documentation/standards/kde/style/basics/index.html">KDE User Interface Guidelines</a> and of course the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn688964(v=vs.85).aspx">Microsoft Windows Official Guidelines for User Interface Developers and Designers</a> (I came back in January of 2018 to fix this link — also interesting is the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">section on margins and spacing</a>).</p>
+<p>Apple <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/AHIGLayout/chapter_8_section_2.html">says</a> that “The default button for dismissing a dialog should go in the lower-right corner. If there’s a Cancel button, it should be to the left of the default button.”. Gnome <a href="http://developer.gnome.org/projects/gup/hig/1.0/windows.html#alert-button-order">seems to imply</a> that the default button should be on the bottom right, with other buttons to its left, which is more or less consistent with the Apple guidelines.</p>
+<p>Microsoft <a href="http://msdn.microsoft.com/library/default.asp?url=https://cpbotha.net/library/en-us/dnwue/html/ch09d.asp">says</a>: “Lay out the major command buttons either stacked along the upper right border of the dialog box or lined up across the bottom of the dialog box. Position the most important button — typically the default command — as the first button in the set.” The KDE User Interface Guidelines don’t seem to set specific constraints on this kind of button placement, but judging by many of the standard KDE 3.1 applications, the dialogs seem to follow the Windows convention.</p>
+<p>more</p>
+<p>So, amongst these major user interfaces, it seems there are two camps: the “default-button-first-in-the-group” camp and the “default-button-in-the-bottom-right-corner” camp, which leaves us with a major headache if we’re trying to develop cross-platform software. No matter what convention you choose for, there are going to be clashes between the dialog boxes you’ve designed for your application and the OS-specific common dialogs (e.g. colour selection, font selection, etc.) that you’re bound to use.</p>
+<p>I’m afraid that I’m going to have to opt for the Windows/KDE convention. Linux users have learnt to live with the inconsistency (KDE vs Gnome conventions in this case) and will probably not notice. Windows users on the other hand, are quite used to the relative position of their buttons. I confirmed this by conducting a survey amongst a large group consisting of one novice Windows user. How’s that for solid research?</p>
+<p>Seriously though, the application in question will mostly be used by two kinds of users: Doctors or non-geek professionals using Windows and Super-Geeks Using Linux. The former group will probably be significantly larger than the latter group.</p>
+<p>What do you think?</p>
+]]></content:encoded></item></channel></rss>

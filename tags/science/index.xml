@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>science on voices in my head</title><link>https://cpbotha.net/tags/science/</link><description>Recent content in science on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 08 May 2021 14:07:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/science/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #222: Scotty, we need more power!</title><link>https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/</link><pubDate>Sat, 08 May 2021 14:07:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/</guid><description> Welcome back everyone!
+It&amp;rsquo;s now early(ish) Friday morning of the weekend after, but I would like to get the 222d edition of the WHV out, namely the one covering the two weeks from Monday, April 19 to Sunday, May 2, 2021.
+My excuse for skipping a week is that the second week was spent on vacation. Exhibit A is shown below:
+Figure 1: Scene from an unexpected and sublime run on the St Francis beach.</description><content:encoded><![CDATA[ <p>Welcome back everyone!</p>
+<p>It&rsquo;s now early(ish) Friday morning of the weekend after, but I would like to
+get the 222d edition of the WHV out, namely the one covering the two weeks from
+Monday, April 19 to Sunday, May 2, 2021.</p>
+<p>My excuse for skipping a week is that the second week was spent on
+vacation. Exhibit A is shown below:</p>
+
+
+
+
+
+
+
+
+<figure><a href="st_francis_beach_run_202104.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from an unexpected and sublime run on the St Francis beach."/> </a><figcaption>
+            <p>Figure 1: Scene from an unexpected and sublime run on the St Francis beach.</p>
+        </figcaption>
+</figure>
+
+<p>The rest of this post has (imagine the following in Bill Hader&rsquo;s Stefon voice):</p>
+<ul>
+<li>migraines and science</li>
+<li>scifi ipads</li>
+<li>VR</li>
+<li>a life tip</li>
+</ul>
+<p>Let&rsquo;s go!</p>
+<h2 id="brain-glitch">Brain glitch</h2>
+<p>I lost almost half a work day to a <a href="https://www.allaboutvision.com/conditions/ocular-migraine.htm">visual migraine</a>.</p>
+<p>Looking at my notes, it seems that these only started during the past few
+years, although it could be that I just didn&rsquo;t record the previous ones.</p>
+<p>It starts out with bright spots in the middle of your field of vision, which
+slowly grow until they form jiggly circles. This is not ideal, but at least you
+can now look through their centres. Haha.</p>
+<p>It looks eerily identical to the illustration on the linked website.</p>
+<p>After half an hour to about an hour, sometimes a headache will hit, and
+sometimes not. This time it was unusually intense, and I had no choice but to
+detach from work for a while.</p>
+<p>Looking back at my notes now, I really appreciate the time-stamped entries as
+the migraine developed all the way to its end.</p>
+<p>Lesson reaffirmed: Take good notes, no matter what.</p>
+<h3 id="fascinating-scientific-review-of-migraine-and-metabolism">Fascinating scientific review of migraine and metabolism</h3>
+<p>After a related chat with a friend who reported that in his case blood sugar
+played a role (he can&rsquo;t skip breakfast, and can&rsquo;t eat too sweet), my
+permanently foraging internet tentacles entirely coincidentally dredged up this
+publication in Nature Reviews Neurology titled &ldquo;The metabolic face of
+migraine - from pathophysiology to treatment&rdquo; (<a href="https://pubmed.ncbi.nlm.nih.gov/31586135/">pubmed</a>, <a href="https://orbi.uliege.be/bitstream/2268/247255/1/Gross%20et%20al%20Metabolic%20face%20of%20migraine-Nat%20Rev%20Neurol%202019.pdf">PDF fulltext</a>).</p>
+<p>The article is pretty dense, but here are some interesting observations:</p>
+<p>The first is from box 1: In some humans, when brain energy demands outstrip
+metabolic reserves, rendering them vulnerable to disruption of cortical
+homeostatis (energy balance), there is a whole cascade of events that,
+according to the article&rsquo;s authors, might be started by the pannexin channels
+in neurons. (These channels act as sensors of cortical homeostasis.)</p>
+<p>It&rsquo;s quite straight-forward then that (haha):</p>
+<blockquote>
+<p>The final result of this cascade is trigeminovascular activation and calcitonin
+gene-related peptide release in the extradural space, which leads to headache.</p>
+</blockquote>
+<p>Following from there, they postulate two alternate pathways that cause
+respectively migraine with and without aura (visual effects).</p>
+<p>In other words, when your brain requires more energy than you have available,
+and you are one of the many genetic variants who suffer from this mechanism,
+you could be in for some migraine when your body reacts to the imbalance.</p>
+<p>On top of that, the authors present one more good reason <a href="/2021/04/20/weekly-head-voices-221-anti-breakfast-club/#skip-you-some-breakfast-for-great-good">to become fat-adapted</a>:</p>
+<blockquote>
+<p>These increases in lipolysis and ketogenesis can also be interpreted as
+counter-​regulatory responses to a cerebral energy deficit. Given that ketone
+bodies are an efficient alternative fuel for the brain when glucose
+availability is low, their elevation would be expected to restore brain energy
+homeostasis. However, the Western carbohydrate-​laden diet means that in most
+people in Western countries the brain is not keto-​adapted so does not have the
+enzymatic composition and transporters to make use of ketone bodies produced
+during an energy crisis.</p>
+</blockquote>
+<p>Box 2 in the article provides the following quite intriguing &ldquo;Suggested
+approach to improving mitochondrial function and energy metabolism in
+migraine&rdquo; (emphasis mine, so that you can skim over if you want):</p>
+<blockquote>
+<ol>
+<li>Individualize supplementation of micronutrients. To ensure that all
+micronutrients needed for mitochondrial function are available, laboratory
+tests can be used to individualize supplementation with minerals,
+hydrophobic and lipophilic vitamins and trace mineralsthat are deficient.</li>
+<li>Reduce oxidative stress and increase antioxidants. Measurement of oxidative
+and/or nitrosative stress levels and antioxidant status in individuals could
+detect a potential mismatch between oxidative stress levels and antioxidant
+capacity and enable therapeutic adjustments to be made, although studies are
+needed to prove that such an approach improves migraine
+management. Strategies to reduce oxidative stress could include <strong><strong>elimination
+or reduction of processed food, food with a high glycaemic index and</strong></strong>
+<strong><strong>alcohol, use of green or blue light filtering glasses, interruption of
+hormone-based contraception, lifestyle changes</strong></strong> and addition of
+antioxidants,such as polyphenols, coenzyme Q10, α-lipoic acid or
+β-hydroxybutyrate mineral salts, to the diet.</li>
+<li><strong><strong>Stabilize blood glucose levels</strong></strong>. An oral glucose tolerance testshould be
+undertaken in patients with migraine and clinical features that suggest
+glucose intolerance or a family history of glucose intolerance. Patients
+with reactive hyperinsulinaemia and reactive hypoglycaemia are likely to
+benefit from stabilization of blood glucose levels, which can often be
+achieved with dietary adjustments.</li>
+<li>Provide an <strong><strong>alternative energy substrate for the brain</strong></strong>. For patients with
+compromised energy metabolism, an alternative source of fuel for the brain,
+in addition to glucose and lactate, might be beneficial. This source can be
+generated with a ketogenic diet and/or use of exogenous ketogenic
+substances, such asmedium-chain triglycerides or exogenous ketone body
+salts. Further placebo-controlled trials are needed to validate ketogenic
+therapies in migraine.</li>
+</ol>
+</blockquote>
+<h2 id="4-20-ipad-pro-supercomputers-straight-outta-scifi">4/20 iPad Pro supercomputers straight outta SciFi</h2>
+<p>On 4/20 I tuned into a liveblog (I think it was <a href="https://live.arstechnica.com/apples-april-20-2021-spring-loaded-event/">the one by Ars Technica</a>) of
+Apple&rsquo;s release event.</p>
+<p>Apple is currently evolving the computing landscape quite substantially, so I
+find it immensely interesting to see what they are bringing next.</p>
+<p>They did a whole bunch this time, but what struck me as the most significant,
+is that they introduced two new iPad Pro tablets with M1 chips.</p>
+<p>You know, that same M1 chip powering <a href="/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/">the super fast and energy-efficient laptop
+on which I&rsquo;m typing up this post</a>.</p>
+<p>In addition to sticking a desktop-class processor (err, desktop-class
+performance, but mobile-level battery efficiency) back into a mobile device
+that you can also buy with 2 terabytes of built-in storage (I find this a bit
+surreal), the <a href="https://www.theverge.com/2021/4/21/22395449/apple-ipad-pro-2021-liquid-retina-xdr-mini-led-explainer">new Liquid Retina XDR display on the top-end iPad Pro</a> has 10000
+of a new kind of micro-led just for the back-lighting and thus is able to offer
+1000 nits of full-screen brightness and adaptively up to 1600 nits on portions
+of the screen, all of that with a contrast ratio of 1 to&hellip;. ONE MILLION.</p>
+<p>As I was reading this, and later listening as the excitement led (&hellip;) me to
+tune in to the video stream, one of my inner voices marvelled at the sheer
+technological innovation on display (sorry can&rsquo;t stop) here.</p>
+<p>I&rsquo;m curious to see how this new class of supercomputer-level tablet device is
+going to change how we humans interact with the digital world.</p>
+<h2 id="oculus-quest-2">Oculus Quest 2</h2>
+<p>On that topic&hellip;</p>
+<p>On the weekend that we returned from vacation, we welcomed an <a href="https://www.theverge.com/21437674/oculus-quest-2-review-features-photos">Oculus Quest 2 VR
+headset</a> into the family.</p>
+<p>In the early 2000s, <a href="https://graphics.tudelft.nl/">the TU Delft Graphics research lab</a> that I was part of had
+an AR / VR research line, so I got some exposure to state-of-the-art equipment
+then.</p>
+<p>Fast-forward 15 years, and the self-contained Oculus Quest 2 at $299 is
+mind-blowingly good.</p>
+<p>Specifically the head tracking is phenomenal.</p>
+<p>Graphics elements in VR are rock-solid in virtual space as you move your head
+(and yourself) around. The resolution is high enough that you could even work
+on a document if you would like. With the most recent firmware update, Quest 2
+now does 120 Hz.</p>
+<p>In short, when you put on the headset, immersion is total.</p>
+<p>No more outside world.</p>
+<p>You can double tap on the side of the helmet to switch on reality (viewing your
+surroundings through the 4 cameras mounted on the outside), and double tap to
+switch reality off and go back into VR.</p>
+<p>Facebook (they own Oculus) has some interesting work-focused ideas with this:</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5_bVkbG1ZCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>When I saw that video for the first time, before having tried out the Quest 2,
+I thought &ldquo;haha look at fb faking VR&rdquo;.</p>
+<p>I was wrong.</p>
+<p>It&rsquo;s pretty much spot-on.</p>
+<p>(We&rsquo;re not playing office-office with the kids though, beat saber is much more
+fun in 3D!)</p>
+<h2 id="flip-it">Flip it</h2>
+<p>During a recent chat with a busy friend, seeing if we could have coffee
+somewhere, I reminded us both (you have to imagine this in Afrikaans, but
+failing that in English with a thick Afrikaans accent):</p>
+<blockquote>
+<p>Remember that the moments of relaxation and humanity are the anchors. All of
+the rest should flow around that.</p>
+</blockquote>
+<p>This is so easy to forget.</p>
+<p>We (and I also mean I) postpone the chat, or the run, or time with the family,
+because of work.</p>
+<p>It should be the other way round!</p>
+
+
+
+
+
+
+
+
+<figure><a href="st_francis_sunset_watch_202104.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Awesome ritual in St Francis where people make a whole celebration of the sunset. We were there thanks to GOU#1&amp;rsquo;s tip."/> </a><figcaption>
+            <p>Figure 2: Awesome ritual in St Francis where people make a whole celebration of the sunset. We were there thanks to GOU#1&rsquo;s tip.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item><item><title>Notes on the book "Creativity, Inc." by Ed Catmull with Amy Wallace</title><link>https://cpbotha.net/2020/12/22/book-notes-creativity-inc/</link><pubDate>Tue, 22 Dec 2020 14:57:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/12/22/book-notes-creativity-inc/</guid><description> You are reading the consolidated and refined version of the notes and excerpts I made while reading the book Creativity Inc..
+This is by no means a complete summary of the book, but rather a collection of lessons that I found note-worthy.
+Overview The book deals with the building and maintenance of sustainable creative organizations, painted on the rich background of Ed Catmull&amp;rsquo;s role in the construction and running of Pixar and later also of Disney Animation.</description><content:encoded><![CDATA[ <p>You are reading the consolidated and refined version of the notes and excerpts
+I made while reading the book <a href="https://www.goodreads.com/book/show/18077903-creativity-inc"><em>Creativity Inc.</em></a>.</p>
+<p>This is by no means a complete summary of the book, but rather a collection of
+lessons that I found note-worthy.</p>
+<h2 id="overview">Overview</h2>
+<p>The book deals with the building and maintenance of sustainable creative
+organizations, painted on the rich background of Ed Catmull&rsquo;s role in the
+construction and running of Pixar and later also of Disney Animation.</p>
+<p>The first and most substantial part of the book is the entertaining and
+edifying story of Ed Catmull and of the birth and evolution of the company
+called Pixar.</p>
+<p>The second part contains a number of extended guidelines for the building and
+running of creative organizations such as Pixar and Disney Animation.</p>
+<p>In the following, each section (except for the Catmull introduction) deals with
+a specific learning or episode. In theory, each should make sense when read by
+itself.</p>
+<h2 id="who-is-ed-catmull">Who is Ed Catmull?</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Edwin%5FCatmull">Dr Edward Catmull</a> is one of the most important pioneers of making films with
+computer graphics.</li>
+<li>He was one of the three founders of Pixar, together with Steve Jobs and <a href="https://en.wikipedia.org/wiki/John%5FLasseter">John
+Lasseter</a>.</li>
+<li>You might recall that Pixar released the movie Toy Story in 1995, a
+fantastically successful movie that revolutionised film-making with computer
+graphics.</li>
+<li>Later when Pixar and Disney Animation merged, Dr Catmull also became the
+president of Disney Animation.</li>
+<li>Under his guidance, both Pixar and later Disney Animation released a slew of
+award-winning and, more importantly, culture defining films. Besides the Toy
+Story series, think about Monsters, Inc., Finding Nemo and The Incredibles.</li>
+</ul>
+<p>He made the first digitally rendered 3D movie, called <a href="https://en.wikipedia.org/wiki/A%5FComputer%5FAnimated%5FHand">A Computer Animated Hand</a>,
+in the spring of 1972, by laboriously and manually recording the surface of his
+hand as 3D triangles, and then using computers to animate and render this
+surface.</p>
+<p>He also invented the Z-buffer, independently from Wolfgang Straßer who
+described the same technique 8 months previously, a technique for quickly
+rendering opaque shapes that correctly occlude each other, and a technique that
+every single computer graphics student learns about as one of their first
+orders of business.</p>
+<h2 id="core-presumption-your-people-are-good-your-organization-needs-to-support-them">Core presumption: Your people are good, your organization needs to support them</h2>
+<p>Early in the book a core presumption is stated:</p>
+<blockquote>
+<p>We start from the presumption that our people are talented and want to
+contribute. We accept that, without meaning to, our company is stifling that
+talent in myriad unseen ways. Finally, we try to identify those impediments and
+fix them.</p>
+</blockquote>
+<p>This might be surprising to some, but in an organization that has its core the
+pursuit of creativity, this approach is the most logical.</p>
+<p>The creativity can&rsquo;t come from anywhere <em>but</em> the people, so such an
+organization will reasonably do the best they can to hire the best people that
+they can.</p>
+<p>Therefore, if the output is not as good as the people the organization has
+hired, the organization is somehow not sufficiently supporting the people.</p>
+<p>Similar reasoning should apply for engineering companies.</p>
+<h2 id="the-story-is-more-important-than-the-technology">The story is more important than the technology</h2>
+<p>While Ed Catmull was the computer graphics guy initially, and later graduated
+to transcendent leadership status, and Steve Jobs was the business brain, John
+Lasseter was the story guy.</p>
+<p>Catmull makes it clear early in the book that without Lasseter&rsquo;s story-telling
+genius, Pixar would not have succeeded.</p>
+<p>The first of many examples, he illustrates this wonderfully with the success of
+the first Toy Story movie.</p>
+<p>This was a ground-breaking technical achievement at the time: A full-length
+fully computer-generated animation movie that became an international
+blockbuster.</p>
+<p>However, when Catmull tells the story of its release, he mentions quite
+specifically the fact that viewers and critics were raving far more about the
+story than about the amazing technical achievements that made the movie
+possible.</p>
+<p>Even for those of us who are not in the business of computer animation, this
+holds true: People always find the story much more important than anything else
+that might have been involved in any endeavour.</p>
+<h2 id="reaching-a-life-goal-can-set-you-adrift">Reaching a life goal can set you adrift</h2>
+<p>In the introduction, Catmull tells the story of how they (Pixar) had fulfilled
+his life goal of making the first computer animated film with the fantastic
+success that was the Toy Story.</p>
+<p>He writes:</p>
+<blockquote>
+<p>Now, the goal that had been a driving force in my life had been reached, and
+there was an enormous sense of relief and exhilaration &ndash;at least at first. In
+the wake of Toy Story&rsquo;s release, we took the company public, raising the kind
+of money that would ensure our future as an independent production house, and
+began work on two new feature-length projects, A Bug&rsquo;s Life and Toy
+Story 2. Everything was going our way, and yet I felt adrift. In fulfilling a
+goal, I had lost some essential framework. &ldquo;Is this really what I want to do?&rdquo;
+I began asking myself.</p>
+</blockquote>
+<p>I&rsquo;ve <a href="https://cpbotha.net/2012/01/28/slow-philosophy-weekly-head-voices-64/">written before about the phenomenon of fulfilled life goals leading to
+tricky vacuums</a>, but my advice then was to favour <em>life directions</em> rather than
+goals.</p>
+<p>In that same chapter, Catmull writes that it took him another year to find his
+new goal, after having seen so many great companies with smart leaders (he
+mentions Silicon Graphics, Cray Computer, Sun Microsystems) start failing after
+a brilliant and creative start.</p>
+<p>His new mission would be:</p>
+<blockquote>
+<p>I would devote myself to learning how to build not just a successful company
+but a sustainable creative culture. As I turned my attention from solving
+technical problems to engaging with the philosophy of sound management, I was
+excited once again &ndash;and sure that our second act could be as exhilarating as our
+first.</p>
+</blockquote>
+<p>It is great seeing this evolution from solving mostly technical problems to
+solving mostly human problems.</p>
+<p>Interestingly, in chapter 10 &ldquo;Broadening our view&rdquo; he explains that the future
+is not a destination, but a direction!</p>
+<blockquote>
+<p>The future is not a destination &ndash; it is a direction. It is our job, then, to
+work each day to chart the right course and make corrections when, inevitably,
+we stray.</p>
+</blockquote>
+<h2 id="ed-catmull-struck-the-academic-lottery-at-university">Ed Catmull struck the academic lottery at University</h2>
+<p>He graduated from the University of Utah in 1969 with a degree in physics and
+one in computer science. He was planning to continue his graduate studies in
+programming language design, but then he met Ivan Sutherland, one of the
+pioneers of interactive computer graphics.</p>
+<p>Catmull joined the lab of Sutherland and Evans, a place which attracted the
+brightest students, and then gave them freedom and resources to experiment.</p>
+<p>This collaborative and inspiring place would form part of the inspiration for
+the later creation of Pixar.</p>
+<p>Catmull&rsquo;s lab mates were themselves pretty legendary:</p>
+<ul>
+<li>Jim Clark, who later founded Silicon Graphics and Netscape</li>
+<li>John Warnock, who later co-found Adobe</li>
+<li><a href="https://en.wikipedia.org/wiki/Alan%5FKay">Alan Kay</a>, a pioneer in object-oriented programming and windowing GUIs</li>
+</ul>
+<p>He also writes about the culture and the group dynamics in the lab:</p>
+<blockquote>
+<p>This tension between the individual&rsquo;s personal creative contribution and the
+leverage of the group is a dynamic that exists in all creative environments,
+but this would be my first taste of it. On one end of the spectrum, I noticed,
+we had the genius who seemed to do amazing work on his or her own; on the other
+end, we had the group that excelled precisely because of its multiplicity of
+views. How, then, should we balance these two extremes, I wondered.</p>
+</blockquote>
+<h2 id="two-steve-jobs-moments-from-the-book">Two Steve Jobs moments from the book</h2>
+<h3 id="steve-jobs-and-bill-joy-two-great-egos-at-the-1985-siggraph-conference">Steve Jobs and Bill Joy: Two great egos at the 1985 SIGGRAPH conference</h3>
+<p>Steve had previously offered to buy the commercially struggling graphics group
+(what would later become Pixar) from Lucasfilm, but that deal had not gone
+through. At that point, he wanted the group to build him a new computer, and
+not to pursue its computer animation ambitions.</p>
+<p>Since then, Steve had started NeXT, and at the conference was chatting again
+with Ed Catmull to see what could be worked out.</p>
+<blockquote>
+<p>As we talked, we came upon Bill Joy, one of the founders of Sun Computer. Bill,
+like Steve, was an extraordinarily bright, competitive, articulate, and
+opinionated person. I don&rsquo;t remember what they talked about as we stood there,
+but I&rsquo;ll never forget the way they talked: standing nose to nose, their arms
+behind their backs, swaying from side to side &ndash;in perfect sync &ndash;completely
+oblivious to anything going on around them. This went on for quite a while,
+until Steve had to break off to go meet someone.</p>
+<p>After Steve left, Bill turned to me and said, &ldquo;Boy, is he arrogant.&rdquo;</p>
+<p>When Steve came by our booth again later, he walked up to me and said of Bill:
+&ldquo;Boy, is he arrogant.&rdquo;</p>
+<p>I remember being struck by this clash-of-the-titans moment. I was amused by the
+fact that each man could see ego in the other but not in himself.</p>
+</blockquote>
+<h3 id="the-steve-jobs-method-of-resolving-disagreements">The Steve Jobs method of resolving disagreements</h3>
+<p>Shortly after the SIGGRAPH conference, Steve made another offer to buy the
+graphics group (the company that would later be known as Pixar), but this time
+it was clear that he would let the company be itself and govern itself.</p>
+<p>In preparation for the possible collaboration, Catmull asked Jobs &ldquo;how things
+got resolved when people disagree with him&rdquo;.</p>
+<p>His answer was:</p>
+<blockquote>
+<p>When I don&rsquo;t see eye to eye with somebody, I just take the time to explain it
+better, so they understand the way it should be.</p>
+</blockquote>
+<p>I found that humorous, and in-line with the <em>public</em> image of Jobs.</p>
+<p>However, please note that Catmull wrote a truly heartfelt and filled with
+respect portrait of Jobs in the afterword titled &ldquo;The Steve We Knew&rdquo;.</p>
+<p>This gives a relatively scarce glimpse into the pivotal role Steve Jobs played
+in building Pixar (all the while in parallel with leading Apple into its
+trillion dollar future!), but more importantly into the great friendship
+between Ed Catmull, John Lasseter and himself.</p>
+<h2 id="anybody-can-stop-the-assembly-line-an-american-in-japan">Anybody can stop the assembly line: An American in Japan</h2>
+<p>In Chapter 3, A Defining Goal, I read the following:</p>
+<blockquote>
+<p>The responsibility for finding and fixing problems should be assigned to every
+employee, from the most senior manager to the lowliest person on the production
+line. If anyone at any level spotted a problem in the manufacturing process,
+Deming believed, they should be encouraged (and expected) to stop the assembly
+line.</p>
+<p>Japanese companies that implemented Deming&rsquo;s ideas made it easy for workers to
+do so: They installed a cord that anyone could pull in order to bring
+production to a halt.</p>
+<p>Before long, Japanese companies were enjoying unheard-of levels of quality,
+productivity, and market share.</p>
+<p>Deming&rsquo;s approach &ndash; and Toyota&rsquo;s, too &ndash; gave ownership of and responsibility
+for a product&rsquo;s quality to the people who were most involved in its
+creation. Instead of merely repeating an action, workers could suggest changes,
+call out problems, and &ndash;this next element seemed particularly important to
+me &ndash;feel the pride that came when they helped fix what was broken. This resulted
+in continuous improvement, driving out flaws and improving quality</p>
+</blockquote>
+<p>TL;DR: It is important to ensure that all of the people in an organization can
+take ownership of and responsibility for that organization&rsquo;s output. This
+necessarily includes giving everyone a certain degree of agency in how that
+output comes into being.</p>
+<h2 id="focus-on-the-people-then-the-ideas-will-come">Focus on the people, then the ideas will come</h2>
+<p>In Chapter 3, we (re-)learn that people are more important than ideas. Focus on
+the people, and then the ideas will come. In more detail:</p>
+<blockquote>
+<p>To reiterate, it is the focus on people &ndash; their work habits, their talents,
+their values &ndash; that is absolutely central to any creative venture. And in the
+wake of Toy Story 2, I saw that more clearly than I ever had. That clarity, in
+turn, led me to make some changes.</p>
+<p>Looking around, I realized we had a few traditions that didn&rsquo;t put people
+first. For example, we had a development department, as do all movie studios,
+that was charged with seeking out and developing ideas to make into films. Now
+I saw that this made no sense.</p>
+<p>Going forward, the development department&rsquo;s charter would be not to develop
+scripts but to hire good people, figure out what they needed, assign them to
+projects that matched their skills, and make sure they functioned well
+together.</p>
+<p>To this day, we keep adjusting and fiddling with this model, but the underlying
+goals remain the same: Find, develop, and support good people, and they in turn
+will find, develop, and own good ideas.</p>
+</blockquote>
+<h2 id="the-braintrust">The Braintrust</h2>
+<p>In Chapter 5, Honesty and Candor, Catmull writes the following about the Pixar
+Braintrust:</p>
+<blockquote>
+<p>The Braintrust, which meets every few months or so to assess each movie we&rsquo;re
+making, is our primary delivery system for straight talk. Its premise is
+simple: Put smart, passionate people in a room together, charge them with
+identifying and solving problems, and encourage them to be candid with one
+another. People who would feel obligated to be honest somehow feel freer when
+asked for their candor; they have a choice about whether to give it, and thus,
+when they do give it, it tends to be genuine. The Braintrust is one of the most
+important traditions at Pixar. It&rsquo;s not foolproof &ndash; sometimes its interactions
+only serve to highlight the difficulties of achieving candor &ndash; but when we get
+it right, the results are phenomenal. The Braintrust sets the tone for
+everything we do.</p>
+</blockquote>
+<p>To paraphrase:</p>
+<p>The Braintrust at Pixar is a group of the most senior and knowledgeable folks
+who regularly get together to give <em>non-binding</em> feedback about in-progress
+projects to the responsible teams.</p>
+<p>Pixar works continuously on the culture to ensure that criticism can be openly
+given, and received as easily as possible. See also <a href="#postmortems">Postmortems</a>.</p>
+<h2 id="the-power-of-rework-rework-rework">The power of rework, rework, rework</h2>
+<p>It came as a great surprise to me that &ldquo;early on, all Pixar movies suck&rdquo;.</p>
+<p>They recognize this, and accept it, and then use it to their advantage by
+pushing that sucky movie through many cycles of criticism and improvement.</p>
+<p>Gradually through this sometimes uncomfortable evolution the project turns into
+a masterpiece!</p>
+<blockquote>
+<p>This idea &ndash; that all the movies we now think of as brilliant were, at one time,
+terrible &ndash; is a hard concept for many to grasp. But think about how easy it would
+be for a movie about talking toys to feel derivative, sappy, or overtly
+merchandise-driven. Think about how off-putting a movie about rats preparing
+food could be, or how risky it must&rsquo;ve seemed to start WALL-E with 39
+dialogue-free minutes. We dare to attempt these stories, but we don&rsquo;t get them
+right on the first pass. And this is as it should be. Creativity has to start
+somewhere, and we are true believers in the power of bracing, candid feedback
+and the iterative process &ndash; reworking, reworking, and reworking again, until a
+flawed story finds its throughline or a hollow character finds its soul.</p>
+</blockquote>
+<p>This story really resonated with me: Creativity (and perhaps even brilliance in
+some cases) just means keeping at something for long enough.</p>
+<h2 id="protect-the-new--ideas">Protect the new (ideas)</h2>
+<p>At the start of Chapter 7, The Hungry Beast and the Ugly Baby, Catmull writes
+the following:</p>
+<blockquote>
+<p>When I advocate for protecting the new, then, I am using the word somewhat
+differently. I am saying that when someone hatches an original idea, it may be
+ungainly and poorly defined, but it is also the opposite of established and
+entrenched &ndash; and that is precisely what is most exciting about it. If, while
+in this vulnerable state, it is exposed to naysayers who fail to see its
+potential or lack the patience to let it evolve, it could be destroyed. Part of
+our job is to protect the new from people who don&rsquo;t understand that in order
+for greatness to emerge, there must be phases of not-so-greatness.</p>
+</blockquote>
+<p>This sounds like it can be quite tricky, balancing criticism that is sometimes
+very much required with &ldquo;protecting the new&rdquo;.</p>
+<h2 id="a-continuous-balancing-act-between-groups-in-the-organization">A continuous balancing act between groups in the organization</h2>
+<p>In Chapter 7, The Hungry Beast, Catmull talks about the phenomenon where
+sub-groups in an organisation have conflicting goals, and instinctively, each
+group will try to have their goals satisfied at the cost of other groups.</p>
+<p>The concrete and simple example that he gives is that if the director &ldquo;wins&rdquo;,
+the film will probably be too long, whereas if the marketing people &ldquo;win&rdquo;, the
+film will mimic other films that have succeeded in the past, and so on.</p>
+<p>However, if any of these competing groups win, the organisation will lose.</p>
+<p>He writes:</p>
+<blockquote>
+<p>In an unhealthy culture, each group believes that if their objectives trump the
+goals of the other groups, the company will be better off. In a healthy
+culture, all constituencies recognize the importance of balancing competing
+desires &ndash; they want to be heard, but they don&rsquo;t have to win. Their interaction
+with one another &ndash; the push and pull that occurs naturally when talented
+people are given clear goals &ndash; yields the balance we seek. But that only happens
+if they understand that achieving balance is a central goal of the company.</p>
+</blockquote>
+<p>To me this was quite an insightful realisation. The goal is to maintain the
+healthy tension between groups on opposite sides of the table, to reach that
+balance that will result in the best possible outcome for the whole
+organisation.</p>
+<p>However, he goes on to explain that this balance is not a static state, but
+rather a continuous interplay of often opposing forces, as reality, and all the
+people involved, also continually change.</p>
+<p>In short, it&rsquo;s a 1. balancing 2. act. :)</p>
+<h2 id="how-to-deal-with-constant-change-and-people-s-desire-for-its-opposite">How to deal with constant change and people&rsquo;s desire for its opposite</h2>
+<p>At the start of Chapter 8, Change and Randomness, Catmull tells the funny and
+endearing story of the speech he gave to the Pixar employees when they decided
+to sell Pixar to Disney in an immensely favourable deal.</p>
+<blockquote>
+<p>We knew that the prospect of our little studio being absorbed into a much
+larger entity would worry many people. While we&rsquo;d worked hard to put safeguards
+in place that would ensure our independence, we still expected our employees to
+be fearful that the merger would negatively impact our culture.</p>
+<p>I&rsquo;ll say more about the specific steps we took to protect Pixar in a later
+chapter, but here I want to discuss what happened when, in my eagerness to ease
+my colleagues' fears, I stood up and assured them that Pixar would not change.</p>
+<p>It was one of the dumbest things I&rsquo;ve ever said.</p>
+</blockquote>
+<p>Catmull understandably wanted to assuage the fears of his people by promising
+that nothing would change, when he actually meant that they would do their best
+to maintain what made Pixar special, within the much more dynamic context of
+new possibilities and opportunities afforded by the new combined companies.</p>
+<p>What then happened, quite obvious in retrospect, is that every time Pixar
+wanted to embrace some new opportunity, employees would line up at Catmull&rsquo;s
+office to complain that he had promised that nothing would change.</p>
+<p>This illustrates how important it is to invest more energy and perhaps suffer
+pain upfront in order to analyse people&rsquo;s fears and address them as
+specifically as possible, whilst leaving room for the inevitable evolution and
+adaptation of a healthy organization.</p>
+<p>A few pages later, Catmull writes:</p>
+<blockquote>
+<p>WHAT IS IT, exactly, that people are really afraid of when they say they don&rsquo;t
+like change? There is the discomfort of being confused or the extra work or
+stress the change may require. For many people, changing course is also a sign
+of weakness, tantamount to admitting that you don&rsquo;t know what you are
+doing. This strikes me as particularly bizarre &ndash; personally, I think the
+person who can&rsquo;t change his or her mind is dangerous. Steve Jobs was known for
+changing his mind instantly in the light of new facts, and I don&rsquo;t know anyone
+who thought he was weak.</p>
+</blockquote>
+<p>People are naturally afraid of the additional energy expenditure required by
+change, which is understandable. It&rsquo;s less understandable that people believe
+that leadership can predict the complete course of the future, and hence should
+not need to change direction. Direction changes can happen daily!</p>
+<p>I found the example of Steve Jobs, known for his stubbornness, changing his
+mind instantly when faced with new evidence, inspiring.</p>
+<h2 id="profit-from-your-mistakes-by-eliminating-the-blame-game">Profit from your mistakes by eliminating the blame game</h2>
+<p>In chapter 8, one can read about that time when <em>someone</em> at Pixar did an <code>rm -rf *</code> on all of the Toy Story 2 media files.</p>
+<p>Those of you who know, might just have broken out in a sympathetic cold sweat&hellip;</p>
+<p>Those of you who don&rsquo;t: <code>rm -rf *</code> is a destructive deletion of
+<em>everything</em>. The whole movie during development at that point, equal to 30
+person years.</p>
+<p>Ok, now you are probably thinking: Of course Pixar had backups.</p>
+<p>Well, yes they did, but as the more experienced under you will probably guess
+by now, they discovered right at this point that there had been a fundamental
+issue with the backup system, whereby there were no usable backups.</p>
+<p>Using this exceptional story as an example, Catmull makes two really great
+points.</p>
+<p>First, treat all setbacks, gigantic (like this one) down to really tiny,
+exactly the same.</p>
+<blockquote>
+<p>Sometimes a big event happens that changes everything. When it does, it tends
+to affirm the human tendency to treat big events as fundamentally different
+from smaller ones. That&rsquo;s a problem, inside companies. When we put setbacks
+into two buckets &ndash; the &ldquo;business as usual&rdquo; bucket and the &ldquo;holy cow&rdquo; bucket &ndash;
+and use a different mindset for each, we are signing up for trouble. We become
+so caught up in our big problems that we ignore the little ones, failing to
+realize that some of our small problems will have long-term consequences &ndash; and
+are, therefore, big problems in the making.</p>
+<p>What&rsquo;s needed, in my view, is to approach big and small problems with the same
+set of values and emotions, because they are, in fact, self-similar. In other
+words, it is important that we don&rsquo;t freak out or start blaming people when
+some threshold &ndash; the &ldquo;holy cow&rdquo; bucket I referred to earlier &ndash; is reached. We
+need to be humble enough to recognize that unforeseen things can and do happen
+that are nobody&rsquo;s fault.</p>
+</blockquote>
+<p>Second, instead of getting out your giant set of The Blame Game, deal with the
+results of the setback, learn from it, and put measures in place to make your
+systems robust to these sorts of issues in the future:</p>
+<blockquote>
+<p>The real lesson of the event, though, was in how we dealt with its
+aftermath. In short, we didn&rsquo;t waste time playing the blame game. After the
+loss of the film, our list of priorities, in order, were: (1) Restore the film;
+(2) Fix our backup systems; (3) Install precautionary restrictions to make it
+much more difficult to access the deletion command directly.  Notably, one item
+was not on our list: Find the person responsible who typed the wrong command
+and punish him or her.</p>
+</blockquote>
+<p>You&rsquo;ll be happy to hear that thanks to a crew member who had previously worked
+at home due to the arrival of a second baby, they discovered that there was
+still a scheduled automatic task which copied all the movie assets to a special
+computer setup at her home.</p>
+<p>Toy Story 2: Rescued!</p>
+<p>Taking a step back, this looks, like so many other of these lessons from Pixar,
+like an organization that follows the scientific approach: Instead of blaming
+people, rather analyse and learn from the problems themselves.</p>
+<h2 id="on-the-pitfalls-of-hierarchy-in-organizations">On the pitfalls of hierarchy in organizations</h2>
+<p>In Chapter 9, <em>The Hidden</em>, Catmull writes:</p>
+<blockquote>
+<p>I&rsquo;ve worked in some highly structured, &ldquo;hierarchical&rdquo; environments that
+inspired top-notch work and a healthy interchange between colleagues.  At the
+same time, there are some hierarchal environments that are a nightmare.</p>
+<p>Here&rsquo;s what turns a successful hierarchy into one that impedes progress: when
+too many people begin, subconsciously, to equate their own value and that of
+others with where they fall in the pecking order.</p>
+<p>Thus, they focus their energies on managing upward while treating people
+beneath them on the organizational chart poorly.</p>
+</blockquote>
+<p>In short: Beware when the pecking order becomes important.</p>
+<h2 id="attain-clarity-by-learning-how-to-combine-different-viewpoints">Attain clarity by learning how to combine different viewpoints</h2>
+<p>From Chapter 9, <em>The Hidden</em>:</p>
+<blockquote>
+<p>So my colleagues know more than I do about what&rsquo;s going on in any given
+department at any given moment. On the other hand, I know more about issues
+that people working in production do not: schedule requirements, resource
+conflicts, market problems, or personnel issues that may be difficult or
+inappropriate to share with everyone. Each of us, then, draws conclusions based
+on incomplete pictures. It would be wrong for me to assume that my limited view
+is necessarily better.</p>
+<p>[text omitted]</p>
+<p>When faced with complexity, it is reassuring to tell ourselves that we can
+uncover and understand every facet of every problem if we just try hard
+enough. But that&rsquo;s a fallacy. The better approach, I believe, is to accept that
+we can&rsquo;t understand every facet of a complex environment and to focus, instead,
+on techniques to deal with combining different viewpoints. If we start with the
+attitude that different viewpoints are additive rather than competitive, we
+become more effective because our ideas or decisions are honed and tempered by
+that discourse. In a healthy, creative culture, the people in the trenches feel
+free to speak up and bring to light differing views that can help give us
+clarity.</p>
+</blockquote>
+<p>In short: Accept that usually everyone will have an extremely limited
+understanding of any issue. Become great at and foster a culture of combining
+the different viewpoints of different folks in order to gain clarity.</p>
+<h2 id="beware-mental-models-based-on-limited-evidence-and-beliefs">Beware mental models based on limited evidence and beliefs</h2>
+<p>Closer to the end of chapter 9, The Hidden:</p>
+<p>Related to the previous observation, where viewpoints are limited simply
+because they are housed in single individuals who can only see what&rsquo;s visible
+to them in the organization, limited evidence decision-making can also happen
+due to people&rsquo;s &ldquo;beliefs&rdquo;.</p>
+<blockquote>
+<p>Somehow, though, this episode led Pixar&rsquo;s directors to decide that, going
+forward, they should write the first drafts of their movies and thus be
+credited as writers. This belief shaped our model of how we should work as a
+studio, and this, in turn, affected how several of the directors defined what
+it meant to be a director. The problem was that these were all wrong
+conclusions, based on a single bad experience. And that led to more problems.</p>
+</blockquote>
+<p>What I take from this is that one should be really careful about the emotions
+that can be caused by a single event, and even more so when one tries to draw
+conclusions that feel logical although they are primarily fueled by one&rsquo;s
+beliefs.</p>
+<h2 id="the-hidden-and-how-to-deal-with-the-hidden">The Hidden and how to deal with The Hidden</h2>
+<p>At the end of chapter 9, The Hidden, which is also the last chapter of part 2
+of the book, Catmull has the following to say about how to deal with The
+Hidden, that is, everything in your organization that is normally hidden from
+sight, because of the fundamental limitations in human communication and
+understanding:</p>
+<blockquote>
+<p>The Hidden &ndash; and our acknowledgement of it &ndash; is an absolutely essential part of
+rooting out what impedes our progress: clinging to what works, fearing change,
+and deluding ourselves about our roles in our own success.</p>
+<p>Candor, safety, research, self-assessment, and protecting the new are all
+mechanisms we can use to confront the unknown and to keep the chaos and fear to
+a minimum. These concepts don&rsquo;t necessarily make anything easier, but they can
+help us uncover hidden problems and, thus, enable us to address them.</p>
+</blockquote>
+<dl>
+<dt>Candor</dt>
+<dd>Accept the sort of honesty by our fellows that can help us to
+understand our limitations and improve. It makes a huge difference on both
+sides of the transaction when the candor&rsquo;s sole intention is improvement, and
+not placing blame.</dd>
+<dt>Safety</dt>
+<dd>This refers either to the implied feeling of safety of the bearer
+of criticism, and/or to the safety of an organization which by nature has to
+change, but does keep its people and its core values safe.</dd>
+<dt>Research</dt>
+<dd>Gather knowledge and measurements from everywhere. Process what
+is learned, integrate it and act on it.</dd>
+<dt>Self-assessment</dt>
+<dd>The organization, or more accurately the people in it,
+have to dedicated themselves to continuous and true self-assessment in order
+to bring any hidden issues to light.</dd>
+<dt>Protecting the new</dt>
+<dd>Give new ideas that are still forming, but could have
+great potential, the room and the resources to grow. (see chapter 7)</dd>
+</dl>
+<p>Looking at this list, one would be forgiven for stating that what Catmull is
+proposing is running an organization like a scientist with a heart.</p>
+<h2 id="eight-practical-methods-towards-a-sustainable-creative-organization">Eight practical methods towards a sustainable creative organization</h2>
+<p>Chapter 10</p>
+<h3 id="dailies-or-solving-problems-together">Dailies, or Solving Problems Together</h3>
+<p>Pixar has worked really hard to integrate deeply into their culture on openness
+to criticism, both on the giving and the receiving end of the transaction.</p>
+<p>This is even more difficult than it sounds: One needs strong leadership, and
+the consistent and trustworthy message that people should be free to say what
+they think, and people should be open to all of that feedback, because the
+single most important goal is to help people and their creative output improve.</p>
+<p>Catmull writes:</p>
+<blockquote>
+<p>Dailies are a key part of Pixar culture, not just because of what they
+accomplish &ndash; constructive midstream feedback &ndash; but because of how they
+accomplish it. Participants have learned to check their egos at the door &ndash;
+they are about to show incomplete work to their director and colleagues</p>
+</blockquote>
+<p>He continues further down:</p>
+<blockquote>
+<p>The whole activity becomes socially rewarding and productive. To participate
+fully each morning requires empathy, clarity, generosity, and the ability to
+listen. Dailies are designed to promote everyone&rsquo;s ability to be open to
+others, in the recognition that individual creativity is magnified by the
+people around you. The result: We see more clearly</p>
+</blockquote>
+<p>This sounds like a super difficult but amazing achievement in any company that
+is serious about its people and about the quality that it wants to produce.</p>
+<p>Even from my short experience, I know that this can only succeed with
+unrelenting hard-work and dedication of those who are tasked with maintaining
+this unique environment that is under continuous strain from the humans that
+are part of it, and who stand to gain the most by its continuation.</p>
+<h3 id="research-trips">Research trips</h3>
+<p>This section talks about the interesting phenomenon that for creative people it
+often feels like the safer choice to mash-up the great bits of previous
+successes from one&rsquo;s field. However, this work is by definition derivative and
+probably mediocre, when the creative person ideally produces a work of art that
+is new and unique. This latter choice carries risk.</p>
+<p>When Pixar was working on the movie <em>Ratatouille</em>, members of the team went to
+France for two weeks to dine in Michelin-starred restaurants, to visit their
+kitches and to talk with the chefs.</p>
+<p>That sounds like a tough life. ;)</p>
+<p>Catmull mentions a number of Pixar movies where team members would travel the
+globe to understand better the subject of their art, and to have a real shot at
+authenticity.</p>
+<p>I don&rsquo;t know how many other organizations have this sort of clear motivation or
+funding for these kinds of far-flung research trips, but what I extract from
+this method that it makes sense for creative organizations to prioritize
+research activities that have a high probability of taking team members out of
+their comfort zones.</p>
+<p>Catmull writes:</p>
+<blockquote>
+<p>In any business, it&rsquo;s important to do your homework, but the point I&rsquo;m making
+goes beyond merely getting the facts straight. Research trips challenge our
+preconceived notions and keep clichés at bay. They fuel inspiration. They are,
+I believe, what keeps us creating rather than copying</p>
+</blockquote>
+<h3 id="the-power-of-limits">The Power of Limits</h3>
+<p>This technique comes down to imposing limits on the way people work, or rather
+making the existing limits clear to them, so that they come up with new and
+interesting solutions:</p>
+<blockquote>
+<p>&hellip; the limits we impose internally, if deployed correctly, can be a tool
+to force people to amend the way they are working and, sometimes, to invent
+another way. The very concept of a limit implies that you can&rsquo;t do everything
+you want &ndash; so we must think of smarter ways to work</p>
+</blockquote>
+<p>Catmull tells the entertaining story that every single one of the 90 compact
+discs in the pile that was collapsed by the character Boo in the movie
+<em>Monsters, Inc.</em> was in fact perfectly shaded.</p>
+<p>This means that the animators hand spent a number of person weeks carefully
+specifying the full lighting equations for each of those 90 CDs, when the scene
+was only 3 seconds long, and it was physically not possible for any viewer of
+the movie to apprecate the detail in the CDs.</p>
+<p>While everyone loves attention to detail, those person weeks could have been
+used to work on something that had more actual impact. (<em>Monsters, Inc.</em> was
+already a huge success already, so this point is somewhat academic.)</p>
+<p>Catmull says that in this case &ldquo;the desire for quality had gone well beyond
+rationality&rdquo;.</p>
+<p>They later went on to develop a physical system of popsicle sticks, where each
+stick represented a person week of effort. During the making of <em>The
+Incredibles</em>, they would have next to each character the number of popsicle
+weeks dedicated to the animation of that character. If someone, for example the
+director, came with a request for some additional work, they would have to
+decide from which other character or aspect a popsicle stick could be removed
+to create time for that new request.</p>
+<p>This helped greatly in creating visibility of how much time and effort was
+dedicated to which aspect of the project, and hence helped with the making of
+good decisions.</p>
+<h3 id="integrating-technology-and-art">Integrating Technology and Art</h3>
+<p>Pixar is quite uniquely positioned for the almost equal-parts integration of
+technology and art. Their product, computer animated movies, by definition have
+to combine these two streams.</p>
+<p>Catmull writes:</p>
+<blockquote>
+<p>When everything is functioning as it should be, art and technology play off
+each other and spur each other to new heights. Given how different the two
+mindsets can be, it can be tough to keep them aligned and engaged with each
+other. But in my view, the effort is always worth it. Our specialized skills
+and mental models are challenged when we integrate with people who are
+different. If we can constantly change and improve our models by using
+technology in the pursuit of art, we keep ourselves fresh</p>
+</blockquote>
+<p>For companies that are not pixar, the advice is still very much
+noteworthy. Engineering-focused organizations can do with more creativity, and
+creative organizations can do with more engineering.</p>
+<p>More generally, the observation that &ldquo;Our specialized skills and mental models
+are challenged when we integrate with people who are different&rdquo; &ndash; is relevant
+and truly important.</p>
+<h3 id="short-experiments">Short Experiments</h3>
+<p>Pixar has a long tradition of making amazing short films, many of which you&rsquo;ll
+probably recognize if you see them again.</p>
+<p>They intended to use these short films to experiment with new techniques and
+with new stories, and even to give less experienced colleagues the chance to
+gain some experience.</p>
+<p>However, although the short films ended up reaching neither goal (the
+full-length movies drove innovation the most; the short films were so different
+from full-lengths that the experience did not carry over that much), it helped
+greatly by getting Pixar employees to work together in smaller teams, and most
+importantly, it enabled Pixar to fail at small scale.</p>
+<p>In short, they were able to make mistakes on these relatively small projects,
+&ldquo;miniature trains&rdquo; as Catmull calls them, that helped them avoid &ldquo;train wrecks
+with real trains&rdquo;</p>
+<p>In software development, there is a related concept called <a href="https://en.wikipedia.org/wiki/Spike%5F(software%5Fdevelopment)">a spike</a>.</p>
+<h3 id="learning-to-see">Learning to see</h3>
+<p>Here he uses the example of the 1979 book <em>Drawing on the Right Side of the
+Brain</em> by Betty Edwards, elements of which were taught in drawing workshops
+given by Elyse Klaidman at Pixar.</p>
+<p>In this, people are instructed for example to turn the picture or photo of a
+face upside-down before trying to draw the face.</p>
+<p>When you don&rsquo;t do this, strong mental models of the human face override what
+you&rsquo;re actually seeing, ironically complicating the drawing of a good looking
+face!</p>
+<p>The lesson here is that one should apply similar efforts to enable the elective
+suppression of one&rsquo;s mental models, so that it becomes possible on occasion to
+look past preconceptions and biases in order to see more than one usually would.</p>
+<p>Catmull wrote:</p>
+<blockquote>
+<p>The real point is that you can learn to set aside preconceptions. It isn&rsquo;t that
+you don&rsquo;t have biases, more that there are ways of learning to ignore them
+while considering a problem.</p>
+</blockquote>
+<h3 id="postmortems">Postmortems</h3>
+<p>Judging by the amount of text here, and more importantly the amount of energy
+Pixar puts into their postmortems, this is an important element of their
+machinery.</p>
+<p>They have these postmortems after every movie project. The idea is to
+retrospectively explore and gather data from the whole project, with the
+following five goals:</p>
+<dl>
+<dt>Consolidate What&rsquo;s Been Learned</dt>
+<dd>It&rsquo;s usually not possible to integrate
+lessons as they are being learned during the project. During the postmortem,
+there is time to put everything together into a larger and coherent body of
+knowledge.</dd>
+<dt>Teach Others Who Weren&rsquo;t There</dt>
+<dd>This is obvious.</dd>
+<dt>Don&rsquo;t Let Resentments Fester</dt>
+<dd>People express their frustrations in a
+respectful manner. This helps with closure, and moving on.</dd>
+<dt>Use the Schedule to Force Reflection</dt>
+<dd>This is about the <em>preparation</em> for
+the postmortem being even more important than the postmortem itself.</dd>
+<dt>Pay It Forward</dt>
+<dd>All of the lessons consolidated during the postmortem will
+be used to safeguard and optimize future projects.</dd>
+</dl>
+<p>It was surprising to me to learn that these posed quite a challenge at Pixar,
+as humans would naturally game the <em>format</em> of the postmortem every time. In
+short, the risk associated with being honest often results in people pulling
+punches when they should actually be giving criticism.</p>
+<p>What they did was to change the format of every new postmortem, in order to
+maximise the probability of honest feedback and no pulling of punches.</p>
+<p>Catmull proposes an additional trick to enable people to give complete and
+honest feedback:</p>
+<blockquote>
+<p>One technique I&rsquo;ve used to soften the process is to ask everyone in the room to
+make two lists: the top five things that they would do again and the top five
+things that they wouldn&rsquo;t do again. People find it easier to be candid if they
+balance the negative with the positive, and a good facilitator can make it
+easier for that balance to be struck.</p>
+</blockquote>
+<h3 id="continuing-to-learn">Continuing to learn</h3>
+<p>Catmull tells the story of Pixar University, a program inside Pixar where they
+would arrange classes and workshops in worktime that all employees were free to
+attend.</p>
+<p>Listen:</p>
+<blockquote>
+<p>So what exactly was Pixar getting out of all of this? It wasn&rsquo;t that the class
+material directly enhanced our employees' job performance. Instead, there was
+something about an apprentice lighting technician sitting alongside an
+experienced animator, who in turn was sitting next to someone who worked in
+legal or accounting or security—that proved immensely valuable. In the
+classroom setting, people interacted in a way they didn&rsquo;t in the
+workplace. They felt free to be goofy, relaxed, open, vulnerable. Hierarchy did
+not apply, and as a result, communication thrived.</p>
+</blockquote>
+<p>Here we can see the tremendous power of getting people together in a learning
+environment. Learning is such a fundamental human activity. Putting people
+together in learning mode breaks down barriers and brings them closer.</p>
+<p>Furthermore:</p>
+<blockquote>
+<p>&hellip; to send a signal about how important it is for every one of us to keep
+learning new things. That, too, is a key part of remaining flexible: keeping
+our brains nimble by pushing ourselves to try things we haven&rsquo;t tried before.</p>
+</blockquote>
+<p>If I really had to take a single lesson of this book with me, this would be it.</p>
+<p>ABL: Always be learning. You, and your organization.</p>
+<h2 id="summary">Summary</h2>
+<p>I truly enjoyed reading this book, for the following reasons:</p>
+<ul>
+<li>Just like other humans, I love stories, and this book is full of them.</li>
+<li>The stories are about Pixar, whose movies, in addition the role they have
+played in modern culture, I and my children have all tremendously enjoyed,
+some of them a number of times.</li>
+<li>The stories are about Steve Jobs, a fascinating and impactful human being.</li>
+<li>The stories are about Ed Catmull, whose work and name played a role in the
+computer graphics part of my postgraduate studies, not in the least due to
+the stories of my fabulous advisor Frits Post.</li>
+<li>The stories contain many lessons dealing with the immensely challenging work
+of building and maintaining sustainable creative organizations.</li>
+</ul>
+<p>If I had to summarize the advice of the complete book, it would be the following:</p>
+<p>Great leaders run great creative organizations with love, and with science.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #203: Spiritual</title><link>https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/</link><pubDate>Sat, 12 Sep 2020 10:06:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/</guid><description> Figure 1: A tiny bit of Jonkershoek&amp;rsquo;s beauty, thanks to Wim&amp;rsquo;s magic.
+Dear friends,
+It brings me joy to meet you here again.
+Due to an unintentionally longer than normal blog hiatus, this edition will attempt to cover a substantial amount of temporal ground from Monday August 10 to Sunday September 6, 2020.
+If I were in your shoes, I would hop skip and jump selectively over the hopefully not too unhelpfully titled headings.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="jonkershoek_magic_20200901.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/jonkershoek_magic_20200901_hu635092065b93855ef7cf383a4ee01019_1994691_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/jonkershoek_magic_20200901_hu635092065b93855ef7cf383a4ee01019_1994691_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/jonkershoek_magic_20200901_hu635092065b93855ef7cf383a4ee01019_1994691_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/jonkershoek_magic_20200901_hu635092065b93855ef7cf383a4ee01019_1994691_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/jonkershoek_magic_20200901_hu635092065b93855ef7cf383a4ee01019_1994691_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A tiny bit of Jonkershoek&amp;rsquo;s beauty, thanks to Wim&amp;rsquo;s magic."/> </a><figcaption>
+            <p>Figure 1: A tiny bit of Jonkershoek&rsquo;s beauty, thanks to Wim&rsquo;s magic.</p>
+        </figcaption>
+</figure>
+
+<p>Dear friends,</p>
+<p>It brings me joy to meet you here again.</p>
+<p>Due to an unintentionally longer than normal blog hiatus, this edition will
+attempt to cover a substantial amount of temporal ground from Monday August 10
+to Sunday September 6, 2020.</p>
+<p>If I were in your shoes, I would hop skip and jump selectively over the
+hopefully not too unhelpfully titled headings.</p>
+<p>In order to reduce this wall of text somewhat, I have pre-emptively moved a
+sub-section or two to the next edition of the WHV.</p>
+<p><em>Dear Charl of the Future,</em></p>
+<p><em>You have no choice. (also no free will haha) I am writing this for you, so you
+better read every last bit.</em></p>
+<p><em>I am watching you.</em> 👀</p>
+<h2 id="i-m-sorry-but-it-really-is-just-quite-complicated">I&rsquo;m sorry, but it really is just quite complicated</h2>
+<p>I would like to kick this off with the following cartoon by Wiley Miller, which
+entered my information field of view via dr topol&rsquo;s tweet stream. (don&rsquo;t worry,
+this came in via my rss reader. i have not returned to twitter.)</p>
+
+
+
+
+
+
+
+
+<figure><a href="science_vs_everything_else.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/science_vs_everything_else_hu3aebbd24d40b7ab7614020c56d748aba_197920_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/science_vs_everything_else_hu3aebbd24d40b7ab7614020c56d748aba_197920_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/science_vs_everything_else_hu3aebbd24d40b7ab7614020c56d748aba_197920_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/science_vs_everything_else_hu3aebbd24d40b7ab7614020c56d748aba_197920_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/science_vs_everything_else_hu3aebbd24d40b7ab7614020c56d748aba_197920_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: science vs. everything else by wiley miller"/> </a><figcaption>
+            <p>Figure 2: science vs. everything else by wiley miller</p>
+        </figcaption>
+</figure>
+
+<p>It is ironic that the people who get it, already got it, but that the people who
+really should get it, won&rsquo;t get it.</p>
+<p>As is the case with many of these efforts, i guess that the best we can hope
+for is that some of those on the borders between the aforementioned two groups
+might be gently encouraged to gravitate towards the light.</p>
+<h3 id="the-giant-band-aid-phenomenon">the giant band-aid phenomenon</h3>
+<p>Related to the cartoon above, it is quite interesting to me how often
+well-meaning people desire to come up with a giant band-aid for any current
+problem.</p>
+<p>Climate change? Inequality? Surely if we just find a band-aid big
+enough we can make the problem go away!</p>
+<p>There really is no band-aid.</p>
+<h2 id="on-the-minimum-unit-of-focus">On the minimum unit of focus</h2>
+<p>Somewhere in week 34 i was struggling to wrap up a piece of programming work
+that i had been struggling with for a few days, in-between meetings and a whole
+smorgasbord of other modern interruptions.</p>
+<p>Finally i decided to bust out the little focus tool that i shall not name here,
+because that&rsquo;s not the point.</p>
+<p>The point is rather that i created an interruption-free block of time and then
+wrapped up the stupid programming problem decisively, there and then.</p>
+<p>Relieved that it was finally done, I did feel stupid that it had taken me that
+long to just shut off those damn interruptions.</p>
+<p>The experience did remind me of the following cartoon by <a href="https://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/">the slightly
+disgruntled scientist</a>. It describes <strong>extremely</strong> well how a single little
+interruption can derail a whole constellation of mental models in an instant.</p>
+<p>Click or tap to zoom in, or skip past if you know this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="ProgrammerInterrupted.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/ProgrammerInterrupted_hu3267a53534c5d7f823d13c1b76e71025_414884_480x0_resize_box_3.png 480w,
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/12/weekly-head-voices-203-spiritual/ProgrammerInterrupted.png"
+            
+
+         width="30%"/> </a>
+</figure>
+
+<p>I have found that the absolute minimum block of distraction-free time i need to
+do reliably something worthwhile is about an hour.</p>
+<p>A large part of my job is indeed handling the information that arrives via all
+of the those pesky interruptions, but sometimes i wonder if there&rsquo;s not a
+better way to reconcile these two facets.</p>
+<p>Very much related to this phenomenon, is falling into the morning distraction
+trap, something which is probably familiar to a number of you. (future charl,
+you don&rsquo;t count.)</p>
+<p>It goes like this: i arrive at work (or these days, i walk a few metres on from
+the kitchen into the guest bedroom / home office), and then i start the day
+with meetings, microsoft teams chats, and emails.</p>
+<p>If I&rsquo;m not careful, I get stuck in this reactive mode, forgetting until far too
+late in the day to eject from the reactive-jet for some of them juicy focus
+hours.</p>
+<p>#feelsbadman</p>
+<p>Just this past week, I decided on Thursday and Friday to start work directly on
+my main project, ignoring emails and chats and any other distractions until the
+first stand-up meeting at 9:00.</p>
+<p>Just priming my mind like this for slightly more than an hour was enough to
+give the whole day a flavour of focus and intentionality.</p>
+<p>It feels like I forget this lesson every other day.</p>
+<p>How do you manage this?</p>
+<h2 id="on-the-opposite-of-focus">On the opposite of focus</h2>
+<p>Sort of inspired by <a href="https://youtu.be/0m3hGZvD-0s">Lex Fridman&rsquo;s deliberate scheduling of a shallow work
+session</a> after the day&rsquo;s deep work, I was pleasantly surprised during a past few
+evening sessions where I combined an entertaining DJ Set on the second screen
+with some actual programming work on the main.</p>
+<p>Somehow the fully intentional addition of distracting entertainment, and
+importantly the <em>acceptance</em> that the work would necessarily be approached with
+a leisurely attitude, I got a surprising amount of extra work done, and
+experienced the whole session as relaxing.</p>
+<p>I&rsquo;m going to file this under &ldquo;101 stupid but effective tricks to fool your mind
+into being more useful&rdquo;.</p>
+<p>Let me know if you try this, or if you knew this all along and <em>that&rsquo;s</em> how you
+manage everything so well!</p>
+<p>P.S. <a href="https://lexfridman.com/podcast/">Lex Fridman&rsquo;s podcasts</a> are edifying and humanity-affirming. Try them if
+you haven&rsquo;t yet.</p>
+<h2 id="on-divide-and-conquer-for-the-email">On divide and conquer for the email</h2>
+<p>Spontaneously in the night somewhere during the past weeks, I had the idea that
+it was time to split my <a href="https://www.stonethree.com/">Stone Three</a> work email account from the rest of my
+email empire (which is partially also work, because vxlabs, but not my main
+job).</p>
+<p>I did this because the account I use to manage everything, the <a href="/tags/fastmail/">fastmail one</a>,
+was becoming far too chaotic.</p>
+<p>(Back in the TU Delft days, an adventure that ended now almost 7 years ago, I
+also used to sport an e-mail split.)</p>
+<p>My perception now is that I&rsquo;m working against the idea of the whole being
+greater than the sum of the parts, i.e. the whole chaos is perhaps worse than
+the two smaller chaos explosions by themselves.</p>
+<p>(That&rsquo;s a pretty convoluted way to think about &ldquo;divide and conquer&rdquo;, isn&rsquo;t it?)</p>
+<p>Also, the dream of being able to search through all of my email and actually
+finding stuff is not being realised.</p>
+<p>Email searching these days is usually a last resort, because I have a pretty
+good <a href="/2019/09/21/note-taking-strategy-2019/">personal knowledge management system</a>. It could also be that fastmail
+search is not as clever as gmail search.</p>
+<p>In the weeks since I did this split (my notes tell me this happened on Friday,
+August 21, 2020 at around 8:30 in the morning), I have noticed that my Stone
+Three email is now under control, while my personal email is slightly out of
+control, which is an improvement.</p>
+<p>I have noticed that I do in fact apply a whole different mode of cognition and
+context to the handling of work email than I do to personal/work-ish email.</p>
+<p>A further advantage is that I can now focus on mastering the way of life that
+is called Outlook. The first artifact I have to show for this is a pretty
+complicated blog post in the drafts folder that shows how you can link to
+arbitrary outlook items (in the latest outlook) from anywhere, in my case of
+course Emacs.</p>
+<h2 id="life-progress-update">Life progress update</h2>
+<p>During the past several weeks, I passed a birthday.</p>
+<p>As one bestie remarked, I am now just past the halfway mark, at least by one
+pretty optimistic estimate of the total duration of me.</p>
+<p>Anyways, moving on&hellip;</p>
+<p>I took the largest part of the day off to go run the in the mountains here in my
+backyard.</p>
+<p>The route that I took for the first time, and which caused a considerable
+amount of enjoyment, could be described by Watsonia, Baboon traverse, Leopard
+Loop, Caracal, Protea, Sugarbird.</p>
+<p>Making time for outdoorsy activities on your birthday: Two WHV thumbs up, would
+do again.</p>
+<p>Thanks to the <a href="http://www.workoutdoors.net/">WorkOutDoors Apple Watch app</a>, which I bought two years ago but
+have never used, I did not get lost like I usually do when attempting trail
+runs.</p>
+<p>The app displays brilliant vector maps on your watch, optionally overlaid with
+GPX routes supplied by generous friends.</p>
+<p>After the birthday run, I use it again on more trails (see photo at start of
+post) to run almost like someone who actually possesses a sense of
+direction.</p>
+<p>Technological augmentation FTW!</p>
+<h2 id="here-s-to-a-more-regular-return">Here&rsquo;s to a more regular return</h2>
+<p>Thank you for working through this mishmash with me!</p>
+<p>We are now caught up until Sunday, September 6, 2020.</p>
+<p>At this stage, I would have preferred to post more coherent little posts more
+often, but I seem to find myself in a loop of slightly too much busyness (and
+other issues), which ironically is contributing to my need to write more, but
+which is taking up so much time and so many mental cycles that blog-writing
+opportunities are hard to create and make use of.</p>
+<p>Anyways&hellip; at least the overfull post-pipeline fence has now been cleared.</p>
+<p>Folks, I wish you equanimity, kindness and health.</p>
+<p>I look forward to our next connection.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #198: A short update for future me</title><link>https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/</link><pubDate>Tue, 16 Jun 2020 11:51:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/</guid><description> Figure 1: Evening walk with the fam-jam up a familiar mountain route after a failed attempt at finding the start of a far more spectacular but unfamiliar route.
+I was planning to skip a week, because a whole blog post about the work that has been filling my days is really no fun at all.
+However, after a good night&amp;rsquo;s sleep, my mind changed itself, as it is wont to do, and in the morning gave the advice that future me would in fact be quite interested to look back into these times.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="sunset_walk.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/sunset_walk_huda656488f3ba1a055da1deb07ab09d51_604659_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Evening walk with the fam-jam up a familiar mountain route after a failed attempt at finding the start of a far more spectacular but unfamiliar route."/> </a><figcaption>
+            <p>Figure 1: Evening walk with the fam-jam up a familiar mountain route after a failed attempt at finding the start of a far more spectacular but unfamiliar route.</p>
+        </figcaption>
+</figure>
+
+<p>I was planning to skip a week, because a whole blog post about the work that
+has been filling my days is really no fun at all.</p>
+<p>However, after a good night&rsquo;s sleep, my mind changed itself, as it is wont to
+do, and in the morning gave the advice that future me would in fact be quite
+interested to look back into these times.</p>
+<p>So here we are, in the probably shorter-than-average 198th edition of the
+Weekly Head Voices, ostensibly covering the week from Monday June 8 to Sunday
+June 14. 2020.</p>
+<h2 id="how-will-2020-go-down-in-history">How will 2020 go down in history?</h2>
+<p>I wonder if in the future we will have some interesting name for 2020, or for
+the era that 2020 ushered in?</p>
+<p>The following tweet by Peter Kolchinsky, virologist and biotech investor,
+struck a chord with me:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I think 2020 will be
+remembered as the year politics tried to bend science &amp; nature yet they
+just wouldn’t bend. Whether it’s how the virus spreads or which vaccines and
+drugs work, the truth is waiting to be discovered with proper scientific
+method, not punditry.</p>&mdash; Peter Kolchinsky
+(@PeterKolchinsky) <a href="https://twitter.com/PeterKolchinsky/status/1272337332402884608?ref_src=twsrc%5Etfw">June
+15, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>I really hope that he&rsquo;s right.</p>
+<p>In this, COVID-19 is a lot like science, except that it&rsquo;s a whole lot less
+forgiving:</p>
+
+
+
+
+
+
+
+
+<figure>
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/science_and_your_beliefs.jpg"
+            
+
+        /> 
+</figure>
+
+<p>I am scientifically extremely curious to see how all of this plays out, as the
+heads of denialists (of any kind) are known to consist of some of the densest
+materials in the universe.</p>
+<p>Let us wait and see!</p>
+<h3 id="aside-longevity-of-twitter-citations-in-this-blog">Aside: Longevity of Twitter citations in this blog</h3>
+<p>Just to allay your fears, fictitious reader, and mine, I have just
+double-checked: If twitter were ever to disappear completely from the internet,
+the text of the above tweet is embedded in this blog and will remain readable.</p>
+<p>I don&rsquo;t know what the chances of twitter disappearing are, but one has to
+remember that it&rsquo;s only been around since 2006, although it feels like it&rsquo;s
+been part of the universe forever.</p>
+<p>For those of you who find such things interesting, my late joining in 2009 is
+of course <a href="/2009/04/04/when-the-going-gets-tough/">documented in a post on this blog</a>.</p>
+<h3 id="how-we-are-personally-doing">How we are personally doing</h3>
+<p>It was the main motivation for deciding to write this post, but I&rsquo;m hiding this
+short piece away here in a subsection.</p>
+<p>With us as a family it&rsquo;s going as well as it possibly could, under the
+circumstances.</p>
+<p>We have each other, and we appreciate each other. We have made our home as
+comfortable as possible, because we are serious about physical distancing as
+much as possible.</p>
+<p>We are super grateful for what we have, and we are acutely aware of the fact
+that most people don&rsquo;t have it this good.</p>
+<p>GOU#1 sometimes struggles a bit with the fact that some of her friends are out
+socializing, when we, the science-based parents, are sticking more closely to
+the guidelines.</p>
+<p>South Africa is currently at 73533 confirmed cases with 1568 deaths (2.1% <a href="https://ourworldindata.org/covid-mortality-risk">CFR,
+or Case Fatality Rate</a>).</p>
+<p>The whole province of the Western Cape (where we live) is responsible for a
+disproportionately large part of those figures: 42892 cases and 1111 deaths.</p>
+<p>In addition, we are fortunate enough to have grandma living with us, so we are
+playing it as safe as we can. (Grandma is one of the healthiest, fittest 74
+year olds that you could ever run into.)</p>
+<p>Dear GOU#1 in the future: You were already so graceful and understanding
+in 2020. Hopefully when future you reads this, you&rsquo;ll be reminded that we
+mostly have good reasons for what we do.</p>
+<h2 id="on-engineers-being-right-and-being-nice">On engineers, being right and being nice</h2>
+<p>If you have an engineer in your life, this should ring bells, quite loudly:</p>
+
+
+
+
+
+
+
+
+<figure>
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/arguing_with_an_engineer_hu88272c4f7339ec6f85b7ef50bd009825_28467_480x0_resize_q75_box.jpg 480w,
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/16/weekly-head-voices-198-short-update-for-future-me/arguing_with_an_engineer.jpg"
+            
+
+        
+            alt="Arguing with an Engineer is a lot like wrestling in the mud with a pig, after a couple of hours you realize the pig likes it."/> 
+</figure>
+
+<p>Yes, we love arguing.</p>
+<p>Fortunately, the goal is usually not to win, but to reach the best answer.</p>
+<p>If you&rsquo;ve had a good argument with your team about some issue, and the winning
+configuration was implemented, that engineering decision has a pretty good
+motivation behind it.</p>
+<p>More importantly, it usually has the buy-in of the team.</p>
+<p>All of that being said, during the recent months a mis-remembered yet more
+appropriate version of a quote has been slowly but surely integrating with the
+latest version of my wetware.</p>
+<p>(That&rsquo;s nerd-speak for: &ldquo;I&rsquo;m really trying to apply this life guideline more
+consistently my fellow humans&rdquo;.)</p>
+<p>The original quote is the following:</p>
+<blockquote>
+<p>They may forget what you said — but they will never forget how you made them
+feel. &ndash; Carl W. Buehner</p>
+</blockquote>
+<p>(It has often been mis-attributed, most notably to <a href="https://en.wikipedia.org/wiki/Maya%5FAngelou">Maya Angelou</a>, but <a href="https://quoteinvestigator.com/2014/04/06/they-feel/">Quote
+Investigator</a> says it&rsquo;s most probably due to Buehner.)</p>
+<p>My mis-remembered version is as follows:</p>
+<blockquote>
+<p>People will quickly forget whether you were <em>right</em> or <em>wrong</em>, but they will
+never forget how you made them feel.</p>
+</blockquote>
+<p>I&rsquo;m just going to leave that there.</p>
+<h2 id="post-scriptum-the-whv-approach-to-life-the-universe-and-everything">Post Scriptum: The WHV approach to life, the universe and everything</h2>
+<p>It <em>just</em> occurred to me that the core philosophy I teach my GOUs rests on
+two main pillars: Love and Science.</p>
+<p>That ordering is deliberate, as love sometimes has to override science, just
+like being kind sometimes has to override being right.</p>
+<p>As a reminder, <a href="/2017/07/30/weekly-head-voices-124-ceci-nest-pas-dennui/"><em>The WHV&rsquo;s Two no Three Rules for Achieving Great Success in
+Life, or Just Surviving, Whichever Comes First</em></a> rests on top of those
+pillars. The rules are:</p>
+<ol>
+<li>Be useful.</li>
+<li>Be likable.</li>
+<li>Evolve.</li>
+</ol>
+]]></content:encoded></item><item><title>Weekly Head Voices #189: All systems green.</title><link>https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/</link><pubDate>Sun, 23 Feb 2020 21:57:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/</guid><description> The first Weekly Head Voices of 2020 is almost two months late.
+When there&amp;rsquo;s any sort of significant WHV hiatus, you can bet your lucrative blogging career that there&amp;rsquo;s something important afoot in the life of the person owning the head that mostly contains the eponymous voices featuring at the core of this blog&amp;rsquo;s business.
+If you prefer that I misuse a pet-related metaphor instead, WHV breaks are almost like dry noses in dog world.</description><content:encoded><![CDATA[ <figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/bettys_jock_fishing.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/bettys_jock_fishing_hu07f2b80a9f6a51204e6c1b35427b9d86_2063472_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/bettys_jock_fishing_hu07f2b80a9f6a51204e6c1b35427b9d86_2063472_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/bettys_jock_fishing_hu07f2b80a9f6a51204e6c1b35427b9d86_2063472_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/bettys_jock_fishing_hu07f2b80a9f6a51204e6c1b35427b9d86_2063472_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/02/23/weekly-head-voices-189-all-systems-green/bettys_jock_fishing_hu07f2b80a9f6a51204e6c1b35427b9d86_2063472_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>The first Weekly Head Voices of 2020 is almost two months late.</p>
+<p>When there&rsquo;s any sort of significant WHV hiatus, you can bet your lucrative
+blogging career that there&rsquo;s something important afoot in the life of the
+person owning the head that mostly contains the eponymous voices featuring at
+the core of this blog&rsquo;s business.</p>
+<p>If you prefer that I misuse a pet-related metaphor instead, WHV breaks are
+almost like dry noses in dog world.</p>
+<p>Indeed, I chose the start of this year to deal with a long-standing health
+issue which I had been avoiding and/or postponing for a few years now, thanks
+to irrational anxiety. (The irony of this does not escape me.)</p>
+<p>I am <em>quite</em> happy to report that, in an utterly unsurprising non-turn of
+events, science and modern medicine prevailed. Hard.</p>
+<p>Please don&rsquo;t get the wrong impression.</p>
+<p>I am utterly grateful for the predictability, and for the science, and for
+modern medicine and its precise practitioners.</p>
+<p>As I sit here, my internal sensors report all systems greener than they have
+been in quite a while.</p>
+<p>At this moment, life is truly brilliant.</p>
+<h2 id="gou-1-is-now-a-high-schooler">GOU #1 is now a high-schooler.</h2>
+<p>At the end of last year, <a href="/2019/12/08/weekly-head-voices-185-starship-gou-1/#starship-gou-1-taxiing-on-the-runway">I wrote about GOU #1 finishing primary
+school</a>.</p>
+<p>In the meantime, the pace of development seems to have picked up even more.</p>
+<p>GOU #1 is now getting on the bus at Super Early O' Clock every morning to go to
+her new high school, which sometimes reminds me of a sort of Hogwarts for young
+power women.</p>
+<p>It feels like she is growing more independent by the day, regularly surprising
+us with new skills and capabilities.</p>
+<p>Perhaps more importantly, she seems to be handling all of these changes, both
+external and internal, with grace and a gratifying helping of reason.</p>
+<h2 id="the-whole-cpbothanet-hive-has-been-migrated-to-a-small-hetzner-server">The whole cpbotha.net-hive has been migrated to a small Hetzner server.</h2>
+<p>For the past days I&rsquo;ve been quite busy migrating this website, along with a
+number of others (<a href="https://vxlabs.com/">vxlabs.com</a>,
+<a href="https://medvis.org/">medvis.org</a> and about 10 more), away from WebFaction
+(RIP) to a new Hetzner server in Nuremberg.</p>
+<p>GoDaddy acquired WebFaction, and they have made clear that they will at some
+unknown time in the nearish future pull the plug on the whole WebFaction
+setup.</p>
+<p>For the 12 years that I was a customer, it was the perfect hoster: The ideal
+combination of managed and unmanaged hosting for a very reasonable price.</p>
+<p>Although this migration led to quite a bit of work, I am happy that all of the
+ported sites are running slightly leaner on the new VPS.</p>
+<p>Also, I made use of the opportunity to outfit each ported site with a Let&rsquo;s
+Encrypt certificate, meaning we now have 100% SSL.</p>
+<p>I would like to note the following possibly helpful learnings:</p>
+<ul>
+<li><a href="https://wordpress.org/plugins/duplicator/">Duplicator</a>, a wordpress plugin,
+is the perfect solution for transporting a wordpress site from one corner of
+the planet to another.</li>
+<li>You can use <a href="https://vxlabs.com/2020/02/22/supervisor-fastcgi-nginx/">supervisor to run non-php fastcgi processes behind
+nginx</a>.</li>
+<li>After the first wordpress migration, I had a checklist in Emacs Orgmode with
+which I could migrate the other 7 in my sleep, and almost did. See below for
+a Real World Example™.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org"><span style="color:#d33682">**</span><span style="color:#2aa198"> DONE</span> vxuni.com [8/8] [2020-02-22 Sat 15:06]
+<span style="color:#93a1a1;font-style:italic">CLOSED: </span><span style="color:#93a1a1;font-style:italic">[2020-02-22 Sat 15:43]</span>
+
+<span style="color:#859900">- [X]</span> duplicator the site on the source end
+  <span style="color:#859900">- </span>disable jetpack image caching, any other caching, as many plugins as you can
+  <span style="color:#859900">- </span>ensure theme is supported on php 7.x
+<span style="color:#859900">- [X]</span> setup nginx for new wordpress site
+<span style="color:#859900">- [X]</span> rewrite your laptop&#39;s hosts files so you can access the new site
+<span style="color:#859900">- [X]</span> create database and user
+<span style="color:#859900">- [X]</span> install duplicate on destination
+<span style="color:#859900">- [X]</span> redo the DNS
+<span style="color:#859900">- [X]</span> certbot
+<span style="color:#859900">- [X]</span> activate jetpack protect / jetpack -&gt; settings -&gt; security -&gt; brute force
+  attack protection.
+
+<span style="color:#93a1a1;font-style:italic">#+begin_src </span><span style="color:#93a1a1;font-style:italic">sql</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic"></span><span style="color:#859900">create</span> <span style="color:#859900">database</span> <span style="color:#268bd2">wordpress_blabla</span>;
+<span style="color:#859900">GRANT</span> <span style="color:#859900">ALL</span> <span style="color:#859900">PRIVILEGES</span> <span style="color:#859900">ON</span> <span style="color:#268bd2">wordpress_blabla</span>.* <span style="color:#859900">TO</span> <span style="color:#2aa198">&#34;u_blabla&#34;</span>@<span style="color:#2aa198">&#34;localhost&#34;</span> <span style="color:#268bd2">identified</span> <span style="color:#859900">by</span> <span style="color:#2aa198">&#34;difficult password&#34;</span>;
+<span style="color:#268bd2">flush</span> <span style="color:#859900">privileges</span>;
+<span style="color:#268bd2">exit</span>
+<span style="color:#93a1a1;font-style:italic">#+end_src</span>
+
+<span style="color:#93a1a1;font-style:italic">#+begin_src </span><span style="color:#93a1a1;font-style:italic">shell</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic"></span>certbot certonly -d vxuni.com,www.vxuni.com --nginx --dry-run
+<span style="color:#93a1a1;font-style:italic">#+end_src</span>
+</code></pre></div><h2 id="would-you-like-to-split-the-universe-theres-an-app-for-that">Would you like to split the universe? There&rsquo;s an app for that.</h2>
+<p>I&rsquo;m currently reading <a href="https://www.npr.org/2019/09/13/760545897/in-something-deeply-hidden-sean-carroll-argues-there-are-infinite-copies-of-you"><em>Something Deeply Hidden: Quantum Worlds and the
+Emergence of Spacetime</em> by Sean
+Carroll</a>.</p>
+<p>Somewhere in there, Carroll mentions the iPhone app <a href="https://apps.apple.com/us/app/universe-splitter/id329233299"><em>Universe
+Splitter</em></a>, which
+you can use to split the whole universe into copies of itself.</p>
+<p>It starts more mundanely, when you have to make a difficult decision between
+two options.</p>
+<p>Fear no more, because now you can just start up that app, and use quantum
+mechanics to make the decision.</p>
+<p>As a side effect, you end up splitting the universe.</p>
+<p>When you submit your choice, a message is sent to a lab in Switzerland, where a
+photon is sent toward a beam splitter.</p>
+<p>According to Schrödinger&rsquo;s equation, the splitter turns the photon&rsquo;s wave
+function into two components going left <em>and</em> right, each of which ends up at a
+different detector.</p>
+<p>When either detector picks up the photon, it produces a readout that becomes
+entangled with its environment (whoops!), quickly leading to decoherence and a
+branching of the wave function into two universes.</p>
+<p>Now there are two copies of you.</p>
+<p>One copy of you will see choice A, and the other will see choice B.</p>
+<h2 id="its-what-future-you-would-want-quote-edition">It&rsquo;s what future you would want, quote edition.</h2>
+<p>All the way back in March of &lsquo;19, <a href="/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/#thinking-of-future-you">I wrote about the suggestion to try to
+predict which tasks the completion of which would satisfy future you the most
+at the end of the
+day</a>.</p>
+<p>Well, the other day as I was aimlessly browsing twitter, something which was
+decidedly NOT a task that future me would have approved of, or a task anyone
+could conceivably ever complete, I came across <a href="https://twitter.com/bitfield/status/1219309618813337601">this jewel tweeted by John
+Arundel</a>:</p>
+<blockquote>
+<p>If we are ever in doubt about what to do, it is a good rule to ask ourselves
+what we shall wish on the morrow that we had done.  &ndash; John Lubbock</p>
+</blockquote>
+<p>Although the message is the same, I find Lubbock&rsquo;s formulation more elegant.</p>
+<p>Folks, have a great week, full of satisfied future yous, in all of the
+universes that you are about to inhabit!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #159: Extreme.</title><link>https://cpbotha.net/2018/12/19/weekly-head-voices-159-extreme/</link><pubDate>Wed, 19 Dec 2018 21:16:49 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/12/19/weekly-head-voices-159-extreme/</guid><description> The view from Waterkloof Restaurant’s balcony, on a fairly perfect evening.
+In theory, this edition should cover the period of time from Monday November 19 to today, Wednesday December 19, 2018.
+I am very late with this post, because down here we were first busy winding down the year with all of the completion-madness that that entails, and then the vacation started starting.
+It hasn’t yet stopped being busy starting.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/12/waterkloof_perfect_evening.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/12/waterkloof_perfect_evening-1024x768.jpg"
+        
+            alt="The view from Waterkloof Restaurant’s balcony, on a fairly perfect evening."/> </a><figcaption>
+            <p>The view from Waterkloof Restaurant’s balcony, on a fairly perfect evening.</p>
+        </figcaption>
+</figure>
+
+<p>In theory, this edition should cover the period of time from Monday November 19 to today, Wednesday December 19, 2018.</p>
+<p>I am very late with this post, because down here we were first busy winding down the year with all of the completion-madness that that entails, and then the vacation started starting.</p>
+<p>It hasn’t yet stopped being busy starting.</p>
+<p>We are now entering what the Dutch call <a href="https://nl.wikipedia.org/wiki/Komkommertijd">komkommertijd</a>, and, as I’ve just learned, the Germans <em>Sauregurkenzeit</em>, referring to the period when everyone has left and there’s not really anything news-worthy happening.</p>
+<h2 id="extreme-dining">Extreme dining</h2>
+<p>To celebrate the occasion of the official partnership between my partner and me adding another year to its growing collection, and due to my partner’s impeccable timing and ingenuity, we spent an amazing evening at what is currently South Africa’s best restaurant, at least according to <a href="https://www.timeslive.co.za/sunday-times/lifestyle/food/2018-11-20-this-eatery-in-the-western-cape-has-been-named-sas-best-restaurant/">the 2018 Eat Out Mercedes-Benz Restaurant Awards</a>.</p>
+<p>I would like to share three observations:</p>
+<ol>
+<li>The Waterkloof experience is a superbly balanced combination of location (see the photo above), architecture and interior design, art and ambience, all acting as context for the almost other-worldly culinary adventure, itself consisting of pairings of wine and perfect little dishes, the latter again artfully manipulating appearance and taste, space and time.</li>
+<li>South Africa is a country of extremes. Just the previous night, close family had been the victims in a violent but fortunately non-fatal home invasion.</li>
+<li>If you ever manage to find yourself at Waterkloof, take this advice to heart: The <em>small</em> dégustation menu with wine pairing is most probably more than enough. (We selected the <em>normal</em>. By what felt like the 15th course, we were dealing with the dilemma of having to abstain from eye-wateringly beautiful culinary creations.)</li>
+</ol>
+<h2 id="extreme-solar">Extreme Solar</h2>
+<p>For many good reasons, we are currently seriously evaluating upgrading the house with a photovoltaic solar power system.</p>
+<p>It turns out, as I should have expected, that there’s a whole universe of new toys and gadgets to evaluate.</p>
+<p>We are currently looking at the following main components:</p>
+<ul>
+<li>2 x <a href="http://www.pylontech.com.cn/pro_detail.aspx?id=121&amp;cid=23">PylonTech US3000B</a> LithiumIon batteries for a total of about 7 kWh of stored electricity.</li>
+<li><a href="http://www.goodwe.co.uk/Products/index_em.html">GoodWe GW3648-EM Hybrid inverter</a>: This coordinates everything between the PV Solar panels, the grid and the batteries. When the sun is shining, it charges the batteries, and powers as much as possible of the house, only using the grid when there’s no other option. During the evening, it powers the house using the batteries, again only using the grid when absolutely required. Due to strict rules down here in Cape Town, we are limited to inverters with a maximum output of 3.6 kW, even when no feed-in (to the grid) is planned.</li>
+<li>The PV Solar Panels: I am still considering options here. I would prefer monocrystalline, and as close as possible to the 4.6 kWp maximum supported by the GoodWe inverter to maximise the amount of sun in our power diet.</li>
+</ul>
+<p>As a first step, today we had a number of intelligent geyser controllers installed. These devices enable me to keep the geysers (we heat all of our water electrically down here…) off for most of the day, only switching them on an hour or two before hot water is usually required.</p>
+<p>They look like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/12/geyserwise_tse.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/12/geyserwise_tse-888x1024.jpg"
+        
+            alt="GeyserWise TSE geyser controller. I should have done this ages ago. Who came up with the idea that a water geyser needs to maintain its high temperature 24/7?"/> </a><figcaption>
+            <p>GeyserWise TSE geyser controller. I should have done this ages ago. Who came up with the idea that a water geyser needs to maintain its high temperature 24/7?</p>
+        </figcaption>
+</figure>
+</p>
+<p>The rest of this exercise will be considerably more expensive, but  am really looking forward to being able to harvest most of our electricity from the lovely African sun!</p>
+<p>I have one final bit of nerd-news, and it comes in the form of a…</p>
+<p>WHV pro-tip #23972847376: If you are doing data science(tm), or machine learning, or visualization, or any other dataset-oriented work, I can highly recommend <a href="https://dvc.org/">DVC, or DataVersionControl</a>. We have started using this on one of our projects to manage different collections of DICOM images, and it works incredibly well.</p>
+<h2 id="extreme-health">Extreme health</h2>
+<p>In conclusion, I would like to mention a recent and very <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2707428?resultClick=3">impressive study by the Cleveland Clinic about the correlation between cardiorespiratory fitness and all-cause mortality</a>.</p>
+<p>I’ll start with this quote:</p>
+<blockquote class="wp-block-quote">
+<p>
+    In this cohort study of 122 007 consecutive patients undergoing exercise treadmill testing, cardiorespiratory fitness was inversely associated with all-cause mortality without an observed upper limit of benefit.
+  </p>
+</blockquote>
+<p>Let’s “unpack” that, as they say.</p>
+<p>The researchers spent about 23 years measuring the cardiorespiratory fitness of just over 122 thousand subjects as they were running on a treadmill.</p>
+<p>Measuring that many people gives your conclusions quite some statistical power. Also, the treadmill doesn’t lie, as people will often do, inadvertently or not, when self-reporting their fitness level.</p>
+<p>What’s also interesting to me is that they didn’t observe any upper limit to the positive effect of fitness. Every additional amount of cardiorespiratory fitness, up to crazy levels, correlated with longer life.</p>
+<p>The upshot of all of this is that there’s really no excuse. That one most important thing we can do to live long and prosper is to exercise.</p>
+<p>It’s what Spock would have wanted.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/12/bettys_gravel_running.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/12/bettys_gravel_running-1024x768.jpg"
+        
+            alt="Running on a dirt road in Betty’s Bay. I love running on dirt roads, although on this particular morning I was already tired before I started. The tiredness unfortunately did not decrease. I think there might still have been some virus involved, or, more probably, just standard bad vacation habits involving craft beer in the evening."/> </a><figcaption>
+            <p>Running on a dirt road in Betty’s Bay. I love running on dirt roads, although on this particular morning I was already tired before I started. The tiredness unfortunately did not decrease. I think there might still have been some virus involved, or, more probably, just standard bad vacation habits involving craft beer in the evening.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #156: Karma Chameleon.</title><link>https://cpbotha.net/2018/10/23/weekly-head-voices-156-karma-chameleon/</link><pubDate>Tue, 23 Oct 2018 20:56:19 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/10/23/weekly-head-voices-156-karma-chameleon/</guid><description> Scene from a recent lunch with a very flat cat. Whilst appreciating these moments with direct experience mode set to 11, one does have to realise that it’s all much more complicated than it looks.
+Welcome to this, the 156th edition of the Weekly Head Voices, voices who are planning to sing about the two weeks from Monday October 8 to Sunday October 21.
+Summer has arrived, and it’s really very hot down here.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/10/cavalli_view.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/10/cavalli_view-1024x768.jpg"
+        
+            alt="Scene from a recent lunch with a very flat cat. Whilst appreciating these moments with direct experience mode set to 11, one does have to realise that it’s all much more complicated than it looks."/> </a><figcaption>
+            <p>Scene from a recent lunch with a very flat cat. Whilst appreciating these moments with direct experience mode set to 11, one does have to realise that it’s all much more complicated than it looks.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to this, the 156th edition of the Weekly Head Voices, voices who are planning to sing about the two weeks from Monday October 8 to Sunday October 21.</p>
+<p>Summer has arrived, and it’s really very hot down here.</p>
+<p>As I’m writing this at 21:41, I am doing my best to limit my motion to the absolute minimum in a bid to keep my temperature within healthy limits.</p>
+<p>You have to imagine me sitting utterly still, almost like a chameleon on a twig, with only my fingers making small darting movements over the keyboard.</p>
+<p>Time is fun when you’re having flies.</p>
+<h1 id="karma-running">Karma Running.</h1>
+<p>This morning, after losing all my karma in traffic (there was an accident on one of the main roads in my town, resulting in the normally already impressive level of stupidity of the driving mob, which I am part of, reaching hitherto unseen levels; WHEN IS THE AI GOING TO TAKE OVER PLEASE?!), I started my long road to forgiveness, and zen, by taking a barefoot run on the beach near my place of work.</p>
+<p>It looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/10/strand_run.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/10/strand_run-1024x768.jpg"
+        
+            alt="Goldilocks sand: Not too hard, not too soft, just right."/> </a><figcaption>
+            <p>Goldilocks sand: Not too hard, not too soft, just right.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I wish I could better communicate how it felt.</p>
+<p>Imagine the 30 Celsius morning sun on your back, a slight breeze from the sea and your bare feet rhythmically brushing the wet sand as you glide softly along the coast.</p>
+<p>Simply keep on doing this until your body creates the stillness that your mind needs.</p>
+<p>This is my new favourite run.</p>
+<h1 id="mafish">MAF(ish).</h1>
+<p>A friend from work told me about this idea of exercising at 80% of your maximum heart rate.</p>
+<p>The idea behind this is to <a href="https://www.runnersworld.com/beginner/a20812270/should-i-do-heart-rate-training/">train your aerobic system without injuring anything, and also to be able to do so with much more volume</a> (read: more kilometres).</p>
+<p>Four weeks ago I tried to squeeze in too much running in the half hour I had at my disposal. Due to me being doubly stupid, I also did this in my Xero Tolerance 5mm sole sandals, and so I was rewarded with a brand new kind of pain in my posterior tibial tendon.</p>
+<p>This is the same tendon <a href="/2018/07/17/weekly-head-voices-148-data-stylist/#weekend-running-update">previously mentioned on this blog</a>, also in the context of running injuries.</p>
+<p>However, this time I must have injured the tendon more effectively than the previous time (practice makes perfect!), because the pain seemed to be a more permanent new inhabitant of my foot.</p>
+<p>Long story short, the suggestion of lower heart rate training came at the perfect time, with my ankle serving as a continuous and visceral (literally) reminder to keep an eye on my heart rate.</p>
+<p>This has been going swimmingly.</p>
+<p>I am slowly increasing my distance, but, more importantly, runs are again characterised by a whole lot of grinning.</p>
+<p>It has not escaped me that a man running on sandals (or barefoot) with a probably fairly unpredictable-looking grin on his big hairy face could give fellow humans pause for thought.</p>
+<h1 id="grab-bag-of-thought--andor-debate-provoking-pieces">Grab bag of thought- and/or debate-provoking pieces.</h1>
+<h2 id="not-exercising-worse-for-your-health-than-smoking-diabetes-and-heart-disease-study-reveals3"><a href="https://edition.cnn.com/2018/10/19/health/study-not-exercising-worse-than-smoking/index.html">Not exercising worse for your health than smoking, diabetes and heart disease, study reveals</a></h2>
+<p>Over a period of more than 20 years, 122000 people were put on a treadmill at Cleveland clinic. It turns out that exercise plays a crucial role in not dying.</p>
+<p>Core quote: “Being unfit on a treadmill or in an exercise stress test has a worse prognosis, as far as death, than being hypertensive, being diabetic or being a current smoker”.</p>
+<h2 id="avoiding-meat-and-dairy-is-single-biggest-way-to-reduce-your-impact-on-earth4"><a href="https://www.theguardian.com/environment/2018/may/31/avoiding-meat-and-dairy-is-single-biggest-way-to-reduce-your-impact-on-earth">Avoiding meat and dairy is ‘single biggest way’ to reduce your impact on Earth</a></h2>
+<p>I’m really sorry about this one, fellow meat lovers.</p>
+<p>This also looks like a pretty solid study. Core quote: “The new research shows that without meat and dairy consumption, global farmland use could be reduced by more than 75% – an area equivalent to the US, China, European Union and Australia combined – and still feed the world.”</p>
+<p>(I have slowly started to work on the vegetarian recipe section of my notes.)</p>
+<h2 id="worlds-largest-sleep-study-shows-too-much-shut-eye-can-be-bad-for-your-brain5"><a href="https://www.eurekalert.org/pub_releases/2018-10/uowo-wls100918.php">World’s largest sleep study shows too much shut-eye can be bad for your brain</a></h2>
+<p>It is <a href="/2017/12/29/the-2017-to-2018-transition-post/">well known</a> that we here at The Voices are huge fans of sleep.</p>
+<p>However, now it turns out that lots of sleep is not going to cut it. You have to sleep just the right amount: Not too much and not too little.</p>
+<p>You probably knew this, but this large study confirms it: Between 7 and 8 hours of sleep, no more and no less, is best for optimal mental performance.</p>
+<p>Hard hitting quote: “One startling revelation was that most participants who slept four hours or less performed as if they were almost nine years older.”</p>
+<h1 id="the-end">The End</h1>
+<p>Thank you for connecting with me by reading this post. I am already looking forward to our next encounter, whichever form that may take!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #113: Science and Creation.</title><link>https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/</link><pubDate>Mon, 05 Dec 2016 22:04:05 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/</guid><description> (With this edition of the WHV, I’m looking back through exceptionally forgetful lenses at the period of time spanning from Wednesday November 9 to Sunday December 4, 2016.)
+This post has been lying around in draft form since Sunday November 20. However, two of the bullet points I was planning to mention, one making the case for preferring short-form blogging over twitter and the other lamenting the sorry state of security on the Android operating system, somehow grew spontaneously into blog posts and then managed to make their way onto the Hacker News frontpage and various other high-traffic aggregators.</description><content:encoded><![CDATA[ <p>(With this edition of the WHV, I’m looking back through exceptionally forgetful lenses at the period of time spanning from Wednesday November 9 to Sunday December 4, 2016.)</p>
+<p>This post has been lying around in draft form since Sunday November 20. However, <strong>two</strong> of the bullet points I was planning to mention, <a href="/2016/11/19/lets-replace-twitter-with-something-much-better/">one making the case for preferring short-form blogging over twitter</a> and the other <a href="/2016/11/27/android-security-in-2016-is-a-mess/">lamenting the sorry state of security on the Android operating system</a>, somehow grew spontaneously into blog posts and then managed to make their way onto the Hacker News frontpage and various other high-traffic aggregators.</p>
+<p>Those of you who know me a little bit, know of my strange little hobby: Getting my blog posts onto the HN frontpage. Anyways, it was a glorious week, and a very good month for this blog.</p>
+<p>November saw almost 42000 visitors reading my stuff.</p>
+<p>THANK YOU MANY VISITORS FOR ALL OF THE HAPPINESS YOU HAVE SUPPLIED! I TRY TO SPREAD IT AS MUCH AS I CAN!</p>
+<p>(<strong>At the top of the right sidebar, you can make me really happy by entering your email address to be added to a shiny new weekly blog update email.</strong> Every Wednesday you’ll receive an email containing all the posts of the week up to then, saving you time and money! The old email-as-I-post list will also be maintained, but I wanted to offer more options for subscribers.)</p>
+<h1 id="ghost-in-the-shell">Ghost in the Shell</h1>
+<p>Back in the day, I watched the original Ghost in the Shell anime about 102 times. For a time (picture the 90s somewhere, I’m dressed like Sonny Crockett in Miami Vice, except with really long hair, and utterly metal), the SO and I were seriously planning to use the brilliant GiTS theme song instead of the wedding march. You know, this one:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/z64HCi2rQkE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>We ended up doing the wedding march because reasons. (The 90s had enough issues as it was.)</p>
+<p>Anyways, fast forward a decade or two and a new trailer for the Ghost in the Shell Trailer live action movie has been released. I can’t help but be very excited about this. Listen, they even put some Depeche Mode in there!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/vctm5VD7qKQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<h1 id="devil-on-my-arm">Devil on my arm</h1>
+<p>(This heading should remind some of you of a certain teenage science fiction dystopian novel of the 80s. Picture me with leg warmers and a head band, exercising to a Jane Fonda VHS cassette, but with long hair and utterly metal.)</p>
+<p>That terrible running addiction (it’s not a terrible addiction, but my running itself is terrible, doh.) I mentioned last time conspired with a local daily deal campaign to make me acquire a Samsung Gear Fit 2. This is a rather snazzy-looking (for running watches that is, the bar is not very high) timepiece with a beautiful OLED colour touch-screen, and sporting a 1 GHz CPU, 512GB RAM, 4GB of flash, a GPS, and some apps, including an MP3 player.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/verge-2016-07-12_14-58-41.0.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/verge-2016-07-12_14-58-41.0-1024x683.jpg"
+        
+            alt="That’s the Gear Fit 2 on my arm. I wear many golden bangles when I go running."/> </a><figcaption>
+            <p>That’s the Gear Fit 2 on my arm. I wear many golden bangles when I go running.</p>
+        </figcaption>
+</figure>
+</p>
+<p>All of this means that I can go running without my smartphone and still get full geo-located stats on my terribleness. The gadget has a suitably terrible robotic synthesised voice that encourages me, without any noticeable feeling, uttering the words <em>GO ON. YOU CAN DO IT. GO ON.</em> when I am close to the end of my route. Brilliant.</p>
+<p>More importantly, this also means that we can have a really good giggle at the cpbotha of 2003, <a href="/2003/10/05/first-thoughts-on-the-tungsten-e/">who wrote in a post about his new Tungsten E PDA</a>:</p>
+<blockquote>
+<p>If I had known 15 years ago that I would one day walk around carrying a cigarette-tin sized computer with a 126MHz CPU, a total of 160MB ram and a colour screen, I would probably have gone orbital.</p>
+</blockquote>
+<p>13 years later, and my watch would karate chop my old PDA into orbit, if it were still around. I’m really curious in what way we’ll be laughing at me (again) in 13 years time. That is, if the Ayn Rand readers / white supremacists don’t screw everything up for us all before then. :(</p>
+<h1 id="image-crafting-corner">Image crafting corner</h1>
+<p>This is the bit where I post carefully selected photos so that you think my life is infinitely better than it actually is.</p>
+<p>It’s not!</p>
+<p>This is a practical example of what happens when you (deliberately) don’t listen to <a href="https://en.wikipedia.org/wiki/Nyquist_frequency">Uncle Nyquist</a>. My life is filled with ups and downs, and a great deal of flattish bits. Whatever the case may be, I do try <a href="/2012/03/04/rhythm-of-the-night-weekly-head-voices-66/">to optimise as much as possible for the good bits</a>. Part of this is dwelling on them for a little bit longer, like this:</p>
+<div class="gallery galleryid-2574 gallery-columns-2 gallery-size-medium" data-carousel-extra='{"blog_id":1,"permalink":"https:\/\/cpbotha.net\/2016\/12\/06\/weekly-head-voices-113-science-and-creation\/"}' id="gallery-4">
+<figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-4" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR.jpg" title=""><img alt="" aria-describedby="gallery-4-2575" class="attachment-medium size-medium" data-attachment-id="2575" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.4","credit":"","camera":"LG-D855","caption":"","created_timestamp":"1479038889","copyright":"","focal_length":"3.97","iso":"50","shutter_speed":"0.00045004500450045","title":"","orientation":"1"}' data-image-title="20161113_120810_hdr" data-large-file="https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-1024x576.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-300x169.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR.jpg" data-orig-size="4160,2340" data-permalink="https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/20161113_120810_hdr/" height="169" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-300x169.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-300x169.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-768x432.jpg 768w, https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-1024x576.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/11/20161113_120810_HDR-1200x675.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-4-2575"> The entrance to Creation. </figcaption></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-4" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054.jpg" title=""><img alt="" aria-describedby="gallery-4-2576" class="attachment-medium size-medium" data-attachment-id="2576" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.4","credit":"","camera":"LG-D855","caption":"","created_timestamp":"1479046253","copyright":"","focal_length":"3.97","iso":"50","shutter_speed":"0.033333333333333","title":"","orientation":"1"}' data-image-title="20161113_141054" data-large-file="https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-1024x576.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-300x169.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054.jpg" data-orig-size="4160,2340" data-permalink="https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/20161113_141054/" height="169" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-300x169.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-300x169.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-768x432.jpg 768w, https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-1024x576.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/11/20161113_141054-1200x675.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-4-2576"> Creation’s old cheese, honey, truffle and chardonnay combo. More or less as divine as it sounds and looks. </figcaption></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-4" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211.jpg" title=""><img alt="" aria-describedby="gallery-4-2654" class="attachment-medium size-medium" data-attachment-id="2654" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"PRIV","caption":"","created_timestamp":"1480596740","copyright":"","focal_length":"4.75","iso":"50","shutter_speed":"0.0069444444444444","title":"","orientation":"0"}' data-image-title="img_20161201_1252211" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-1024x768.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-300x225.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211.jpg" data-orig-size="4618,3464" data-permalink="https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/img_20161201_1252211/" height="225" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-300x225.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-300x225.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-768x576.jpg 768w, https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-1024x768.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1252211-1200x900.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-4-2654"> Melon and parma ham classic at Vergelegen Wine Estate. Very Flat Cat company was even better. </figcaption></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-4" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131.jpg" title=""><img alt="" aria-describedby="gallery-4-2655" class="attachment-medium size-medium" data-attachment-id="2655" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"PRIV","caption":"","created_timestamp":"1480604472","copyright":"","focal_length":"4.75","iso":"50","shutter_speed":"0.0011173184357542","title":"","orientation":"0"}' data-image-title="img_20161201_1501131" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-1024x768.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-300x225.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131.jpg" data-orig-size="4618,3464" data-permalink="https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/img_20161201_1501131/" height="225" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-300x225.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-300x225.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-768x576.jpg 768w, https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-1024x768.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/12/IMG_20161201_1501131-1200x900.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-4-2655"> When I grow up, my drive-way is going to look like this. </figcaption></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-4" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber.jpg" title=""><img alt="" aria-describedby="gallery-4-2653" class="attachment-medium size-medium" data-attachment-id="2653" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="leg_of_lamb_kills_weber" data-large-file="https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-1024x794.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-300x233.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber.jpg" data-orig-size="4046,3136" data-permalink="https://cpbotha.net/2016/12/06/weekly-head-voices-113-science-and-creation/leg_of_lamb_kills_weber/" height="233" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-300x233.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-300x233.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-768x595.jpg 768w, https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-1024x794.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/12/leg_of_lamb_kills_weber-1200x930.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-4-2653"> Lovely leg of lamb too much for Smokey Joe? (This is after a night of soaking in thyme, rosemary, garlic and oil. My mom knows what she’s doing.) </figcaption></figure>
+</div>
+<h1 id="parting-thought">Parting thought</h1>
+<p>“Post-truth” <a href="https://www.theguardian.com/books/2016/nov/15/post-truth-named-word-of-the-year-by-oxford-dictionaries">was named word of the year by Oxford Dictionaries</a>. As if we don’t have enough problems in the world today, it seems that we are now in the post-truth era. Apparently <strong>objective facts</strong> have become less influential in shaping public opinion than appeals to emotion and personal belief.</p>
+<p>Bloody hell.</p>
+<p>Somewhere in the future, when we’ve all calmed down a bit, I would like to try and analyse how this could have happened, and what can be done to try and fix it. (My money is on 100% accessible education for <strong>ALL</strong> (people who can afford it pay, people who can’t, don’t. Really not that complicated.)**. **My money seems to be standing together with the statistics on Brexit and Trump voters. This is obviously completely lost on Brexit and Trump voters. OH THE IRONY.)</p>
+<p>Anyways, until that future time when we’ll have that mature discussion about these matters, I leave you with this:<figure aria-describedby="caption-attachment-2657" class="wp-caption alignnone" id="attachment_2657" style="width: 181px"></p>
+
+
+
+
+
+
+
+
+<figure><a href="http://lesswrong.com/">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/science_and_your_beliefs.jpg"
+        
+            alt="This is what I think of &amp;lsquo;post-truth&amp;rsquo;"/> </a><figcaption>
+            <p>This is what I think of &lsquo;post-truth&rsquo;</p>
+        </figcaption>
+</figure>
+
+<p></go></p>
+]]></content:encoded></item><item><title>Weekly Head Voices #109: GABA</title><link>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</link><pubDate>Tue, 19 Jul 2016 11:17:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</guid><description> From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT! After a multi-year, completely coincidental, break from medical imaging, I am back to The Real Business since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer.</description><content:encoded><![CDATA[ <ul>
+<li>From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT!</li>
+<li>After a multi-year, completely coincidental, break from <strong>medical imaging</strong>, I am back to <em>The Real Business</em> since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer. I think I am allowed to mention <strong>digital pathology</strong> and <strong>machine learning</strong> and beer.</li>
+<li>Last week we <strong>road-tripped up the East Coast to <a href="https://en.wikipedia.org/wiki/St_Francis_Bay">St Francis Bay</a></strong>, via Oudtshoorn and the <a href="https://en.wikipedia.org/wiki/Cango_Caves">Cango Caves</a>.
+<ul>
+<li>Pro tip: When road tripping with more than 0 (zero) children (babies count double; sick babies +5 hit points), and you have to stay overnight somewhere, invest extra in the biggest suite you (or your children’s college fund) can afford.</li>
+<li>On the beach in St Francis Bay (right in the middle of winter, you still seem to get these lovely balmy beach days), it seemed that <em>everybody</em> was surfing. Whole families, with the mom, the dad, all the kids, and grandma and grandpa, were all on various sizes of surfboards in the sea catching some waves.</li>
+<li>Here’s a photo from the furthest point on what I call “Not The Ugliest Jogging Route in The World” (in St Francis Bay):</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/07/20160714_170901.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/07/20160714_170901-1024x576.jpg"
+        /> </a>
+</figure>
+
+<ul>
+<li>Last night I accidentally discovered that I can pinpoint the exact weekend and location when and where I first tasted my <strong>favourite <a href="https://en.wikipedia.org/wiki/Trappist_beer">trappist beer</a> (EVER)</strong>, namely Rochefort #8. It’s all written up in <a href="https://cpbotha.net/2003/04/21/an-eventful-weekend/">this 2003 post</a>.</li>
+<li>When Google send me an email this weekend asking me exactly <em>how</em> I would like them to use my email (yes, a few months ago I migrated my mail empire back to Google because <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">my self-hosting experiment</a> had started to cost me time and money) to show me custom advertisements, I was reminded that I do actually find the machine learning models they’re building about me quite creepy, and that perhaps I would prefer not also handing them 12 years of emails to make their models more accurate. There and then <strong>I migrated said 12 years of emails from GMail to <a href="https://www.fastmail.com/">FastMail</a></strong>. So far I’m really impressed by the product, mostly due to the speed and the user experience of the web-app. There might be a more detailed post in the near future, let me know if you’re interested.</li>
+<li><em>Most surprising and interesting (to me) new scientific discovery of the week:</em> A team of scientists at Northeastern University in Boston <a href="https://www.newscientist.com/article/2095769-gut-bacteria-spotted-eating-brain-chemicals-for-the-first-time/">have shown</a> that <strong>one of the many kinds of bacteria living in your stomach eats exclusively <a href="https://en.wikipedia.org/wiki/Gamma-Aminobutyric_acid">GABA</a></strong>, a really important brain chemical (neurotransmitter) that plays a role in keeping you calm. Based on this and other work, it looks like the bacteria in your tummy, also known as your <a href="https://en.wikipedia.org/wiki/Gut_flora">gastrointestinal microbiota</a>, besides being crucially important to your digestive system and your general survival, probably also play quite an important role in your psyche. I find this slightly mind-blowing.</li>
+</ul>
+<p>Have a great week kids, I hope to see you on the other side.</p>
+<p>P.S. Those bullets made for quite an impressive wall of text, didn’t they?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #108: Gaga.</title><link>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</link><pubDate>Fri, 24 Jun 2016 21:55:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</guid><description> I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)
+Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</description><content:encoded><![CDATA[ <p>I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/06/IMG-20160526-WA0000.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/06/IMG-20160526-WA0000.jpg"
+        /> </a>
+</figure>
+
+<p>Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</p>
+<p>Genetic Offspring Unit (GOU) #3, the rapidly glowing cellular mega-city that first made contact with extra-wombular (I made that up) light slightly more than three months ago, suddenly started babbling a few weeks ago. To be honest, I thought that she was going to be really quiet to compensate for the immense amount of continuous talking in my house. It turns out that her reaction has instead been one of taking this bull by the horns. SHE WILL BE HEARD. (GOU#1 and #2 are able to produce speech with an intensity that is to be heard to be believed. I have no idea where they got that from.)</p>
+<p>Speaking of babbling, I sometimes make videos of me trying to explain nerdy programming-related tricks, and then I upload them to YouTube. My most recent creation is about using the conan.io C++ package manager to get a small SFML-based GLSL example going (that’s GPU programming). It has a soundless explosion at the end!</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/RFjvz_Ppbv8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>I came across a really interesting bit of research performed at the Vienna University of Economics and Business (WU) on how really small, seemingly inconsequential rewards, can actually ignite people’s intrinsic motivation. This is interesting exactly because it has long been thought that extrinsic rewards diminish intrinsic motivation, a phenomenon called the <a href="https://en.wikipedia.org/wiki/Overjustification_effect">overjustification effect</a>.</p>
+<p>In <a href="https://hbr.org/2016/06/even-tiny-rewards-can-motivate-people-to-go-the-extra-mile">the recent study by researchers at the WU</a>, students were encouraged to do extra homework assignments. However, this was done by allocating an amount of extra credit which was perceived by the students as being trivial (this was measured in a separate study). Lo and behold, this perceived trivial extra credit still jump-started that group’s extra assignment submissions, and the students in that group then showed evidence of autonomously (intrinsically) motivated behaviour.</p>
+<p>The researchers hypothesise that this could be due to the fact that the students being jump-started could not internally explain their behaviour on the basis of the negligible reward, and hence automatically came up with more intrinsically-oriented motivations, such as personal importance, interest or enjoyment).</p>
+<p>South Africa is a really strange and wonderful place. I don’t write about it that much, because in that respect it is my <em>place</em> to be quiet here in the background. However, sometimes someone else writes something that, if you’re interested in the perspective of South Africans who’ve lived abroad for a significant amount of time, and have then returned, somewhat the wiser, because the country in their blood called them back, you really should read. Disco Pants, or rather her blog, helped me a whole lot when we had to decide whether we would be coming back or not. She has a new post out titled <a href="https://discopantsblog.com/2016/06/06/on-surviving-the-madness-of-south-africa/">“On Surviving the Madness of South Africa”, and it’s a beaut</a>.</p>
+<p>On the topic of beauty, <a href="http://www.flumemusic.com/">Flume</a> has new album out. It’s called <em>Skin</em>, and it gets the highly coveted but completely unknown Weekly Head Voices Album of Right Now award! Here’s the first track to whet your appetite (or not):</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7HKVvcNOQb0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Have a fun week listeners!</p>
+]]></content:encoded></item></channel></rss>

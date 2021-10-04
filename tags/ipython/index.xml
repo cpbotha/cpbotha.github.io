@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ipython on voices in my head</title><link>https://cpbotha.net/tags/ipython/</link><description>Recent content in ipython on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 24 Feb 2017 20:14:15 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ipython/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description> The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
+(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. As far as I know, nobody watched.)
+I just went through my orgmode journals.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
+<p>(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. <em>As far as I know</em>, nobody watched.)</p>
+<p>I just went through <a href="/2016/01/05/note-taking-strategy-early-2016/">my orgmode journals</a>. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</p>
+<p><em><strong>Warning:</strong> If you’re not an emacs, python or machine learning nerd, there is a high probability that you might not enjoy this post. Please feel free to skip to the pretty mountain at the end!</em></p>
+<h1 id="advanced-emacs-configuration">Advanced Emacs configuration</h1>
+<p>I finally migrated my whole configuration away from <a href="https://github.com/bbatsov/prelude">Emacs Prelude</a>.</p>
+<p>Prelude is a fantastic Emacs “distribution” (it’s a simple git clone away!) that truly upgrades one’s Emacs experience in terms of look and feel, and functionality. It played a central role in my return to the Emacs fold after a decade long hiatus spent with JED, VIM (there was more really weird stuff going on during that time…) and Sublime.</p>
+<p>However, it’s a sort of rite of passage constructing one’s own Emacs configuration from scratch, and my time had come.</p>
+<p>In parallel with Day Job, I extricated Prelude from my configuration, and filled up the gaps it left with my own constructs. There is something quite addictive using emacs-lisp to weave together whatever you need in your computing environment.</p>
+<p>To celebrate, I decided that it was also <strong>time to move my todo system away from <a href="http://todoist.com/">todoist</a></strong> (a really great ecosystem) and into Emacs orgmode.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/Todoist-interview-screenshot_1-678x554.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/Todoist-interview-screenshot_1-678x554.jpg"
+        
+            alt="From this… (beautiful multi-platform graphical app)"/> </a><figcaption>
+            <p>From this… (beautiful multi-platform graphical app)</p>
+        </figcaption>
+</figure>
+ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/wpid-example-agenda.png"
+        
+            alt="… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)"/> </a><figcaption>
+            <p>… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)</p>
+        </figcaption>
+</figure>
+</p>
+<p>I had sort of settled with todoist for the past few years. However, my yearly subscription is about to end on March 5, and I’ve realised that with the above-mentioned Emacs-lisp weaving and orgmode, there is almost unlimited flexibility also in managing my todo list.</p>
+<p>Anyways,  I have it setup so that tasks are extracted right from their context in various orgfiles, including my current monthly journal, and shown in a special view. I can add arbitrary metadata, such as attachments and just plain text, and more esoteric tidbits such as live queries into my email database.</p>
+<p>The advantage of having the bulk of the tasks in my month journal, means I am forced to review all of the remaining tasks at the end of the month before transferring them to the new month’s journal.</p>
+<p>We’ll see how this goes!</p>
+<h1 id="jupyter-notebook-usage">Jupyter Notebook usage</h1>
+<p>Due to an interesting machine learning project at work, I had a great excuse to spend some quality time with the <a href="http://jupyter.org/">Jupyter Notebook</a> (formerly known as IPython Notebook) and the scipy family of packages.</p>
+<p>Because Far Too Much Muscle-Memory, I tried interfacing to my notebook server using <a href="https://github.com/millejoh/emacs-ipython-notebook">Emacs IPython Notebook (EIN)</a>, which looked like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/ipython-notebook-in-emacs-with-ein.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/ipython-notebook-in-emacs-with-ein.png"
+        /> </a>
+</figure>
+
+<p>However, the initial exhilaration quickly fizzled out as EIN exhibits some flakiness (primarily broken indentation in cells which makes this hard to interact with), and I had no time to try to fix or work-around, because day job deadlines. (When I have a little more time, I will have to get back to the EIN! Apparently they were planning to call this new fork Zwei. Now that would have been awesome.)</p>
+<p>So it was back to the Jupyter Notebook. This time I made an effort to learn all of the new hotkeys. (Things have gone modal since I last used this intensively.)</p>
+<p>The Notebook is an awe-inspiringly useful tool.</p>
+<p>However, the cell-based execution model definitely has its drawbacks. I often wish to re-execute a single line or a few lines after changing something. With the notebook, I have to split the cell at the very least once to do this, resulting in multiple cells that I now have to manage.</p>
+<p>In certain other languages, which I cannot mention anymore because I have utterly exhausted my monthly quota, you can easily re-execute any sub-expression interactively, which makes for a more effective interactive coding experience.</p>
+<p>The notebook is a good and practical way to document one’s analytical path. However, I sometimes wonder if there are less linear (graph-oriented?) ways of representing the often branching routes one follows during an analysis session.</p>
+<h1 id="dissimilarity-representation">Dissimilarity representation</h1>
+<p>Some years ago, I attended a talk where <a href="http://rduin.nl/">Prof. Robert P.W. Duin</a> gave a fantastic talk about the history and future of pattern recognition.</p>
+<p>In this talk, he introduced the idea of dissimilarity representation.</p>
+<p>In much of pattern recognition, it was pretty much the norm that you had to reduce your training samples (and later unseen samples) to feature vectors. The core idea of building a classifier, is constructing hyper-surfaces that divide the high-dimensional feature space into classes. An unseen sample can then be positioned in feature space, and its class simply determined by checking on which side of the hypersurface(s) it finds itself.</p>
+<p>However, for many types of (heterogenous) data, determining these feature vectors can be prohibitively difficult.</p>
+<p>With the dissimilarity representation, one only has to determine a suitable function that can be used to calculate the dissimilarity between any two samples in the population. Especially for heterogenous data, or data such as geometric shapes for example, this is a much more tractable exercise.</p>
+<p>More importantly, it’s often easier to discuss with domain experts about similarity than it is to talk about feature spaces.</p>
+<p>Due to the machine learning project mentioned above, I had to work with categorical data that will probably later also prove to be of heterogeneous modality. This was of course the best (THE BEST) excuse to get out the old dissimilarity toolbox (in my case, that’s <a href="https://www.scipy.org">SciPy and friends</a>), and to read a bunch of dissimilarity papers that were still on my list.</p>
+<p>Besides the fact that much fun was had by all (me), I am cautiously optimistic, based on first experiments, that this approach might be a good one. I was <em>especially</em> impressed by how much I could put together in a relatively short time with the SciPy ecosystem.</p>
+<p>Machine learning peeps in the audience, what is your experience with the dissimilarity representation?</p>
+<h1 id="a-mountain-at-the-end">A mountain at the end</h1>
+<p>By the end of a week filled with nerdery, it was high time to walk up a mountain(ish), and so I did, in the sun and the wind, up a piece of the Kogelberg in Betty’s Bay.</p>
+<p>At the top, I made you this panoroma of the view:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama-1024x274.jpg"
+        
+            alt="Click for the 7738 x 2067 full resolution panorama!"/> </a><figcaption>
+            <p>Click for the 7738 x 2067 full resolution panorama!</p>
+        </figcaption>
+</figure>
+</p>
+<p>At that point, the wind was doing its best to blow me off the mountain, which served as a visceral reminder of my mortality, and thus also kept the big M (for mindfulness) dial turned up to 11.</p>
+<p>I was really only planning to go up and down in brisk hike mode due to a whiny knee, but I could not help turning parts of the up and the largest part of the down into an exhilarating lope.</p>
+<p>When I grow up, I’m going to be a trail runner.</p>
+<p>Have fun (nerdy) kids, I hope to see you soon!</p>
+]]></content:encoded></item></channel></rss>

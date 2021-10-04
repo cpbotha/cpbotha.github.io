@@ -1,0 +1,181 @@
+<!doctype html><html>
+<head>
+<title>I crushed the GSVideo problematic frame error! // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="I crushed the GSVideo problematic frame error!">
+<meta property="og:description" content="Nerd warning: This post really belongs on my nerd blog VXLabs.com, but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here.
+[][3]
+[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it’s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn’t last for very long before unceremoniously crashing the application.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>I crushed the GSVideo problematic frame error!</h1>
+</header>
+<div class=article-meta>
+<a href=/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/ class=article-date>
+<time datetime=2011-03-04T20:44:27.000+00:00 itemprop=datePublished>2011-03-04</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/nerd>nerd</a>
+<span>></span>
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p><em>Nerd warning: This post really belongs on my nerd blog <a href=http://vxlabs.com/ title="VXLabs.com, my favourite nerd blog!">VXLabs.com</a>, but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here.</em></p>
+<p>[<img alt=Debugging height=180 src=http://farm3.static.flickr.com/2676/4047355843_0fd2fa0036_m.jpg width=240>][3]</p>
+<p>[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it’s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn’t last for very long before unceremoniously crashing the application. Error info and stack trace look something like the following (edited for brevity):</p>
+<pre class="brush: plain; title: ; notranslate" title># A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x7c342eee, pid=1564, tid=2052
+#
+# JRE version: 6.0_20-b02
+# Java VM: Java HotSpot(TM) Client VM (16.3-b01 mixed mode windows-x86 )
+# Problematic frame:
+# C  [msvcr71.dll+0x2eee]
+#
+---------------  T H R E A D  ---------------
+
+Current thread (0x18db7000):  JavaThread "Animation Thread" [_thread_in_native, id=2052, stack(0x1bfd0000,0x1c020000)]
+
+Stack: [0x1bfd0000,0x1c020000],  sp=0x1c01f8a0,  free space=13e1c01f384k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [msvcr71.dll+0x2eee]
+C  [java.dll+0x728d]
+J  java.nio.Bits.copyToByteArray(JLjava/lang/Object;JJ)V
+j  java.nio.DirectIntBufferU.get([III)Ljava/nio/IntBuffer;+126
+j  java.nio.IntBuffer.get([I)Ljava/nio/IntBuffer;+5
+j  codeanticode.gsvideo.GSCapture.read()V+24
+j  CathetAR.draw()V+22
+</pre>
+<p>Read more about it on this [forum thread][6].</p>
+<p>In any case, today I spent some hours I don’t really have and finally managed to crush it. Turns out, and some of you will probably not be surprised, that it was a threading problem. The capture event handler invokeEvent() and the read() call were being interleaved, and the buffer they were using is also not thread-safe. Doh. Some synchronization here and there, and an extra capture buffer, now I can’t get it to crash anymore.</p>
+<p>Get the [patch here][7], and a [patched GSVideo.jar][8] here. Both of these are for the GSVideo 20110203 test version. If you can’t patch and build it yourself, just copy my GSVideo.jar over the GSVideo.jar in your unpacked GSVideo 20110203 plugin directory (sub-directory library). <strong>Update: See below, GSVideo 0.8 has been released and now contains my patch. Rather get the 0.8 download!</strong></p>
+<p>Leave me a comment if this helps!</p>
+<h3 id=update-on-2011-03-06>Update on 2011-03-06</h3>
+<p>Andres Colubri, author of GSVideo, has refined and [integrated][9] my patch. The next GSVideo release (0.8 and newer) should have this fix.</p>
+<h3 id=update-on-2011-03-15>Update on 2011-03-15</h3>
+<p>Andres has just released GSVideo 0.8, which integrates my fix and many other improvements. Go read his [0.8 release post][10]!</p>
+<p>[2]: /tag/processing/ &ldquo;All posts on this site tagged with &ldquo;processing&rdquo;.&rdquo;
+[3]: <a href=http://www.flickr.com/photos/28208534@N07/4047355843/>http://www.flickr.com/photos/28208534@N07/4047355843/</a> &ldquo;Debugging by mikemol, on Flickr&rdquo;
+[4]: <a href=http://gsvideo.sourceforge.net/>http://gsvideo.sourceforge.net/</a> &ldquo;GSVideo website&rdquo;
+[5]: <a href=http://processing.org/>http://processing.org/</a> &ldquo;processing website&rdquo;
+[6]: <a href=http://forum.processing.org/topic/gsvideo-0-6-crash-problem>http://forum.processing.org/topic/gsvideo-0-6-crash-problem</a> &ldquo;forum thread 1 concerning the problematic frame crash&rdquo;
+[7]: <a href=http://cpbotha.net/files/gsvideo-20110203-patch-20110304/gsvideo-20110203-problematic-frame-fix-cpbotha.diff>http://cpbotha.net/files/gsvideo-20110203-patch-20110304/gsvideo-20110203-problematic-frame-fix-cpbotha.diff</a> &ldquo;gsvideo problematic frame fix&rdquo;
+[8]: <a href=http://cpbotha.net/files/gsvideo-20110203-patch-20110304/GSVideo.jar>http://cpbotha.net/files/gsvideo-20110203-patch-20110304/GSVideo.jar</a> &ldquo;patched and built GSVideo.jar&rdquo;
+[9]: <a href="http://gsvideo.svn.sourceforge.net/viewvc/gsvideo/trunk/src/codeanticode/gsvideo/GSCapture.java?r1=152&r2=151&pathrev=152">http://gsvideo.svn.sourceforge.net/viewvc/gsvideo/trunk/src/codeanticode/gsvideo/GSCapture.java?r1=152&r2=151&pathrev=152</a> &ldquo;gsvideo changeset integrating crash fix&rdquo;
+[10]: <a href=http://codeanticode.wordpress.com/2011/03/15/gsvideo-0-8/>http://codeanticode.wordpress.com/2011/03/15/gsvideo-0-8/</a> &ldquo;gsvideo 0.8 release post&rdquo;</p>
+</div>
+<div class=article-toc>
+<h3>Contents</h3>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href=#update-on-2011-03-06>Update on 2011-03-06</a></li>
+<li><a href=#update-on-2011-03-15>Update on 2011-03-15</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gsvideo>gsvideo
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/processing>processing
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/2011/03/06/spring-has-arrived-in-suburbia-weekly-head-voices-40/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Spring has arrived in suburbia! [Weekly Head Voices #40]
+</div>
+</a>
+<a href=/2011/02/26/i-like-nano-sabbaticals-weekly-head-voices-39/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>I like nano-sabbaticals. [Weekly Head Voices #39]&nbsp;<span>></span></div>
+</a>
+</nav>
+<div class=article-footer>
+Related posts:
+<a href=/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/>🌤 Processing + GSVideo + NyARToolkit on Linux x86_64</a>
+<a href=/2010/06/05/processing-nyartoolkit-multiple-marker-tracking/>🌤 Processing + NyARToolkit + multiple marker tracking</a>
+</div>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="I crushed the GSVideo problematic frame error!" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

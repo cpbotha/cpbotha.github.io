@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gmail on voices in my head</title><link>https://cpbotha.net/tags/gmail/</link><description>Recent content in gmail on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 30 Jul 2019 09:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gmail/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #175: Plaintext me.</title><link>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</link><pubDate>Tue, 30 Jul 2019 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/</guid><description> Good evening fellow humans.
+This is Head Voice #37 reporting for duty. I have been instructed to perform retrospection on the period of time from Monday July 22 to Sunday July 28.
+Due to the ongoing hibernation and consequent lack of interesting events to talk about, this should be short.
+This delectable Fred &amp; Max Flat White was one of a quite few more enjoyed during life-affirming breakfast with a Very Flat Cat.</description><content:encoded><![CDATA[ <p>Good evening fellow humans.</p>
+<p>This is Head Voice #37 reporting for duty. I have been instructed to perform
+retrospection on the period of time from Monday July 22 to Sunday July 28.</p>
+<p>Due to the ongoing hibernation and consequent lack of interesting events to
+talk about, this should be short.</p>
+<figure>
+<a href="fred_max_flatwhite_veryflatcat.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/30/weekly-head-voices-175-plaintext-me/fred_max_flatwhite_veryflatcat_hub43ba565be6a358f8793e882864d5d02_2490114_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+This delectable Fred & Max Flat White was one of a quite few more enjoyed
+during life-affirming breakfast with a Very Flat Cat. (By the way, why didn't
+any of you tell me that fried egg yolk slowly drenching the quinoa bed it lies
+on is so amazing?!)
+</figcaption>
+</figure>
+<h2 id="im-stubbornly-doubling-down-on-plaintext-email">I&rsquo;m stubbornly doubling down on plaintext email.</h2>
+<p>I spent a precious hour or two (or perhaps three, in which case I am ashamed)
+performing experiments to try and understand how GMail, fastmail web,
+thunderbird and the iOS mail.app encode quoting in HTML email replies.</p>
+<p>The answer is that they all do it in subtly different ways&hellip;</p>
+<p>The even more shocking answer is that since HTML email took over, people have
+really just been winging it, and quite badly so.</p>
+<p>To give you an idea, gmail adds explicit inline CSS <em>styling</em> to display the
+vertical reply bar on the left, like some kind of <em>barbarian</em>.</p>
+<p>WAT?!</p>
+<p>Back when plaintext email was the only game in town, there were <a href="https://en.wikipedia.org/wiki/Posting_style">fairly strict
+but effective guidelines</a> that
+determined exactly how one could quote previous emails, up to any depth, when
+crafting that thoughtful reply.</p>
+<p>However, it seems that, thanks to Outlook and perhaps far more insidiously
+Google&rsquo;s GMail, <em>many</em> people currently have no idea that a thing such as email
+quoting with inline replies used to be a solved problem.</p>
+<p>That is, until users mistakenly thought that badly chosen fonts with even more
+badly chosen colours were more important than, you know, effective and
+efficient written communication.</p>
+<p>Although this battle is lost, this has only encouraged me to stick it to the
+(HTML email) man, and double-down on my old-school plaintext emails.</p>
+<p>If you receive a simple-looking email from me which sometimes wraps strangely,
+you&rsquo;ll know why.</p>
+<p>If you&rsquo;d like join me, the new
+<a href="https://useplaintext.email/">useplaintext.email</a> site is a good start!</p>
+<h2 id="linux-on-the-thinkpad">Linux on the ThinkPad.</h2>
+<p>I <em>thought</em> that the NVIDIA GPU being hard-wired to the external display
+outputs on this <a href="/2019/04/27/new-laptop-2019/">ThinkPad</a> meant that I would
+never be able to run Linux with <em>dynamic</em> display connection.</p>
+<p>Well it turns out I was wrong.</p>
+<p>I slipped this weekend, and now the Linux partition is configured with Manjaro
+Linux (a surprise to me too).</p>
+<p>In short, ThinkPad consumes just over 5W at idle, because NVIDIA is only
+switched on when necessary. I can switch it on for CUDA (for example to work
+with neural networks that fit into the 4GB of VRAM), and I can switch it on
+when I need to connect an external display.</p>
+<p>All of this without having to reboot or even logout and back in again.</p>
+<p>If you&rsquo;re interested, see the <a href="https://vxlabs.com/2019/07/28/manjaro-bumblebee-thinkpad-x1-extreme-2019/">vxlabs blog
+post</a>
+for all of the details.</p>
+<h2 id="we-live-in-the-future">We live in the future.</h2>
+<p>At the UMC Utrecht, two patients have received entirely patient-specific
+3D-printed titanium spinal implants.</p>
+<p>Thanks to this, the patients, one of whose spine had previously collapsed, are
+still able to walk.</p>
+<p>Read more in <a href="https://www.dutchnews.nl/news/2019/07/teenager-can-walk-again-thanks-to-dutch-3d-printed-spinal-implant/">this DutchNews
+summary</a>,
+or preferably <a href="https://www.volkskrant.nl/wetenschap/implantaten-uit-de-3d-printer-laten-utrechtse-patient-weer-lopen~bab3372e/">this Volkskrant
+article</a>
+if you can follow Dutch.</p>
+<p>I&rsquo;ve embedded the Lancet video abstract for your convenience:</p>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/3gxiDo3ac0k" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p>This used to be the stuff of science fiction folks!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #173: I know.</title><link>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</link><pubDate>Wed, 17 Jul 2019 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</guid><description> Taken on a run in the mountain, on a trail quite aptly called the protea. By the way, although I have become slightly less terrible at running up hills, I'm still quite bad. Let&amp;rsquo;s go for a slightly less anxious start than the previous edition did:
+Well hello there folks!
+A week ago, I made a deliberate decision not to post a WHV, as I really did not have much to report on.</description><content:encoded><![CDATA[ <figure>
+<a href="helderberg_protea.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+Taken on a run in the mountain, on a trail quite aptly called the protea. By
+the way, although I have become slightly less terrible at running up hills, I'm
+still quite bad.
+</figcaption>
+</figure>
+<p>Let&rsquo;s go for a slightly less anxious start than the previous edition did:</p>
+<p>Well hello there folks!</p>
+<p>A week ago, I made a deliberate decision not to post a WHV, as I really did not
+have much to report on.</p>
+<p>However, it&rsquo;s funny how these things go. One week nothing&hellip; Then it&rsquo;s just a
+single week later and there&rsquo;s almost a bit too much that I would like to talk
+about.</p>
+<p>It seems to have been a mix of more writing, but also just more doing.</p>
+<p>So, looking back at the two weeks from Monday July 1 to Sunday July 14, 2019, I
+would like to present the following notes.</p>
+<h2 id="bullet-list-of-miscellany-blom">Bullet List of Miscellany (BLoM).</h2>
+<ul>
+<li>GOU#1, age 13, is on a week-long school trip in a different time zone
+(GMT+8). I am super happy that she can have this experience, but durnit, one
+misses one&rsquo;s genetic offspring units dearly!</li>
+<li>Remember that I told you about our <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">solar inverter not talking to the
+battery&rsquo;s BMS</a>?
+Well, one small recommended firmware upgrade later, from 151507 to 151508,
+and the whole system is completely down. Please cross your fingers, because
+we&rsquo;ve tried <strong>everything</strong> else.</li>
+<li>I regularly get accosted by off-leash dogs whilst running. There are
+incredibly clear by-laws down here which absolutely forbid any dog ever being
+off-leash in any public space which is not a designated off-leash zone. I
+recently made the mistake (twice) of trying to explain this to the relevant
+dog-owners. Well, dog-owners seem to be quite sadly under-endowed in the area
+of introspective capability, but at least I&rsquo;m getting a lot better at
+unprepared debates in public spaces. (Psychologists in the audience, help me
+out here with any tips please!)</li>
+<li>I really enjoyed <a href="https://samharris.org/podcasts/162-medical-intelligence/">this Sam Harris podcast with Eric
+Topol</a>. <a href="https://www.scripps.edu/faculty/topol/">Eric
+Topol</a> is a cardiologist and the
+founder and director of the Scripps Research Translational Institute in the
+US. Apart from the main topic of the discussion, namely Topol&rsquo;s
+well-developed and articulated view of AI in medicine (well, his books on
+this topic are quite influential, so there&rsquo;s that), I was struck and inspired
+by the humble gentleness of this impressive intellect. Furthermore, although
+we are not supposed to use twitter anymore (in some circles, it has been
+dubbed &ldquo;road rage of the internet&rdquo;), <a href="https://twitter.com/EricTopol">Prof Topol&rsquo;s tweet
+stream</a> is a shining example of how twitter
+could be used more constructively.</li>
+</ul>
+<h2 id="would-you-like-some-more-emacs-with-that-email">Would you like some more Emacs with that Email?</h2>
+<p>During the past two weeks I published two blog posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2019/07/03/send-queued-mails-in-background-with-mu4e/">Sending queued mails in the background with
+mu4e.</a></li>
+<li><a href="https://vxlabs.com/2019/07/05/mbsync-vs-offlineimap-speed/">Is mbsync really faster than offlineimap? A
+measurement.</a></li>
+</ul>
+<p>Based on these, you might come to the conclusion that I&rsquo;m processing email
+inside of Emacs
+<a href="/2014/05/24/weekly-head-voices-71-vote-for-the-future/">again</a>.</p>
+<p>I can confirm that this is indeed the case.</p>
+<p>Probably for a large part due to the popularity of google&rsquo;s gmail, the growth
+of the rest of the email ecosystem seems to have been stunted to a significant
+degree.</p>
+<p>In this specific case, I am referring to the dearth of really good email
+clients for Windows.</p>
+<p>(By the way, Thunderbird, still my fallback, usually makes the top of any
+Windows email client lists. However, if it weren&rsquo;t for GMail, Thunderbird
+would probably also be miles better than it is today.)</p>
+<p>After losing more hours than I could afford trying to find that perfect email
+client (I would have settled for &ldquo;still has all of its own teeth&rdquo;), I realised
+that I would just have to buckle down and get <a href="/tags/mu4e/">mu4e</a>, my favourite
+Emacs email client, working well enough on Windows, which I currently <em>prefer</em>
+(DID I JUST SAY THAT?!) due to my <a href="/2019/04/27/new-laptop-2019/">ThinkPad X1E
+baby</a>.</p>
+<p>That was of course a whole different wormhole to get sucked into.</p>
+<p>Well, more of those precious hours later, I have a Frankensteined concoction
+consisting of Emacs running on the Windows Subsystem for Linux (WSL),
+displaying to the Windows desktop via <a href="https://token2shell.com/x410/">X410</a>,
+and opening email and orgmode attachments, and dired files, using the native
+Windows handlers via an
+<a href="https://wiki.archlinux.org/index.php/Xdg-utils#xdg-open">xdg-open</a> work-alike
+I coded up in Python.</p>
+<p>(I am planning to release my xdg-open clone along with a more detailed howto
+blog post. Let me know if you would like advanced access.)</p>
+<p>Soooo&hellip;. after all of that effort I am now back more or less to where I
+started in 2014.</p>
+<p>(To be honest, Emacs is near the top of my list of compounding activities. The
+fact that it&rsquo;s back in my email workflow, combined with five years of
+compounded Emacs skills, has resulted in further increased efficiency.)</p>
+<h3 id="sticking-it-to-the-man-gmail-with-fastmail">Sticking it to the Man (GMail) with FastMail.</h3>
+<p>Wrapping up that email workflow reconfiguration frenzy, I did spend some
+minutes doing a quick survey of fastmail alternatives which might have email
+servers somewhat closer to the Southern tip of Africa and hence shave off a few
+seconds of latency.</p>
+<p>I found nothing that came close in terms of features and price. Except for one
+outage, <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">I&rsquo;ve been a really happy fastmail camper for the last three
+years</a>.</p>
+<p>All of that, together with the fact that gmail&rsquo;s continued dominance is
+unhealthy for the world of email, convinced me to stick with fastmail for the
+conceivable future.</p>
+<h2 id="stone-three-healthcare-is-now-a-thing">Stone Three Healthcare is now a thing.</h2>
+<p><a href="http://www.stonethree.com/healthcare/">Stone Three Healthcare</a>, until recently
+a business unit within Stone Three Venture Technology, has now been officially
+spun out.</p>
+<p>In other words, S3HC is now a more-or-less independent company that will
+henceforth have to create its own success.</p>
+<p>As some of you know, this project has been cooking for a few years now.</p>
+<p>We have a really great team, products with customers and a market, and a
+respectable patch of runway.</p>
+<p>There are worse ways for a startup to start up.</p>
+<p>P.S. if you have any golden tips for startup dummies, I (and probably others)
+would be super grateful if you could let &lsquo;em loose in the comments!</p>
+<h2 id="always-be-compounding-the-side-project-edition">Always Be Compounding: The side-project edition.</h2>
+<p>In the previous WHV, I <a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">started going on about the principle of ABC, or Always Be
+Compounding</a>.</p>
+<p>Since then, I&rsquo;ve been spending a great deal of mental cycles on finding more
+ways to ABC.</p>
+<p>Besides the more general examples I mentioned there, another method is to
+design some long-running project that can function as a container for all of
+the work that you&rsquo;ll have to do in any case.</p>
+<p>A perhaps slightly flawed personal example is DeVIDE, an open source
+visualization and image processing tool that started life somewhere in 2001,
+<a href="/2003/12/19/the-visualisation-and-image-processing-platform-formerly-known-as-dscas3/">was renamed to DeVIDE at the end of
+2003</a>,
+open-sourced in 2007 and had its last release in 2012.</p>
+<p>Although it did see some use after that, the project went into hibernation
+(weeeelll&hellip;.) when I left academia.</p>
+<p>My point is that, for about 10 years, I had a single technical <em>artifact</em> with
+a name that became slowly better known (even if it was often by its alias &ldquo;Not
+Responding&rdquo;), into which I could integrate all the other new work I was doing.</p>
+<p>This enabled me to enjoy some of the advantages of compounding effort, in the
+shape of DeVIDE, even although the work I was doing over the years necessarily
+had to change.</p>
+<p>(A really nice additional benefit was that some students sometimes found the
+software useful! I do wish that that part could have continued for a little
+longer.)</p>
+<p>Setting aside my
+<a href="/2019/05/07/weekly-head-voices-170-yeet/#a-strange-thing-happened-this-weekend">DeVIDE-nostalgia</a>
+(and a bit of sadness) for a moment, I would like to apply some of this
+learning to my current (and perhaps your) situation.</p>
+<p>My idea would be to define a new side-project that can act as the slightly
+longer-lived container for some of the smaller side-projects and learnings I
+sometimes manage to spend time on.</p>
+<p>It would have to be a technology / thematic fit for many of my other
+side-projects. It would of course constitute a double-whammy if this
+side-project had commercial potential.</p>
+<p>Well, SURPRISE!</p>
+<p>I do have at least one side-project that ticks a number of these boxes, and
+could <em>potentially</em> serve as such a vehicle.</p>
+<h3 id="aikno">AIKNO</h3>
+<p>The side-project in question is called AIKNO, which is pronounced &ldquo;I know&rdquo;, but
+which somehow expands to <em>AI organizational knowledge base</em>. Magic!</p>
+<p>It eats all of your organization&rsquo;s emails for breakfast, and then uses
+different methods, both algorithmic and crowd/team-sourced, to sort and
+organize those emails and all of their attachments, and then makes those easily
+and attractively (hey, data visualization!) accessible by that organization.</p>
+<p>Think of it as an almost zero-effort always-up-to-date organizational knowledge
+base.</p>
+<p>Besides having slots for various machine learning and visualization techniques,
+it fits nicely into my overgrown knowledge management hobby.</p>
+<p>The first commit in the AIKNO repo was in November of 2017. Oof. The prototype
+is able to import emails and attachments into its structured database, and
+already does funky stuff with similarity searches and whatnot.</p>
+<p>Unfortunately, it has also suffered from my regular technology stack
+changes, and it&rsquo;s currently languishing while I write blog posts.</p>
+<p>My previous failed side-project was called <em>TableTops</em>, or <em>Paradigm Desktop</em> by
+the same people who dubbed DeVIDE &ldquo;Not Responding&rdquo;.</p>
+<p>It was a free-form canvas / whiteboard tool for the free-form storage and
+linking of <em>anything</em>. For example, it had relational data structures for
+linking specific coordinates or regions in photos to centralised concepts, and
+other interesting things that will probably never see the light of day.</p>
+<p>It went through seven tech-stack-change-induced rewrites before being obsoleted
+by <a href="https://vxlabs.com/tags/orgmode/">my growing Emacs Orgmode powers</a>. (first
+commit October 2013, last commit August 2017, now on the backest back
+burner. the one that&rsquo;s not burning.)</p>
+<p>I did learn a <em>tremendous</em> amount.</p>
+<p>Maybe <em>that</em> is the real reason for doing these things?</p>
+<h2 id="always-be-learning">Always Be Learning.</h2>
+<p>Thanks for joining me on that trip folks.</p>
+<p>I hope to see you soon. Until then, make an amazing time!</p>
+<figure>
+<a href="coffee_company_belgian_brownie.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+100% amazing Belgian brownie and delectable flat white at the
+Coffee Company on Lourensford this past weekend.
+</figcaption>
+</figure>
+]]></content:encoded></item><item><title>Moving 12 years of email from GMail to FastMail</title><link>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</link><pubDate>Sat, 06 Aug 2016 20:22:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</guid><description> In 2013, when it became clear, primarily through Edward Snowden&amp;rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course blogged about it (that blog post has been read almost 70000 times; I think for many people this is an important issue).
+This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from The Vogon Poet on August 24, 2004.</description><content:encoded><![CDATA[ <p>In 2013, when it became clear, primarily through Edward Snowden&rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">blogged about it</a> (that blog post has been read almost 70000 times; I think for many people this is an important issue).</p>
+<p>This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from <a href="https://twitter.com/vogonpoet">The Vogon Poet</a> on August 24, 2004. At that time, you could only get GMail by invitation. It was pretty exciting! (I have emails from before 2004, back to &lsquo;93 or &lsquo;94, but those are in a backup archive somewhere.)) to the little <a href="https://www.engadget.com/products/synology/ds213j/">Synology DS213j</a> standing next to my desk at the time.  This was all well and good behind the stable Dutch 100 Mbit/s <em>down</em> / 10 Mbit/s <em>up</em> cable connection I had, but when we decided to move back to South Africa, where home internet is a few years behind The Netherlands, I ended up having to pay for a virtual private server in Cape Town (to keep latency between me and my mail server manageable) and having to admin my own dovecot IMAP and postfix SMTP server.</p>
+<p>Initially this was workable, until the Nth time that I had to interrupt my real job (which has nothing to do with mail servers) to apply a security patch or get the VPS booting again after a botched kernel upgrade. Besides that, I had to deal with keeping my server out of over-enthusiastic spam blacklists and whatnot. Also, inspite of <a href="https://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">mu4e</a>, I did end up missing the fast graphical GMail web interface.</p>
+<p>So, it was with a great deal of tail between my legs that on June 10, 2015 (<a href="/2016/01/05/note-taking-strategy-early-2016/">I have a lab journal, remember</a>) I went right back back to GMail. My mail setup, although pleasingly decentralised, was costing me too much time and hence actual money.</p>
+<p>Fast forward to July 15, 2016 (there&rsquo;s that lab journal again…) when, after receiving an email from Google asking me to indicate how exactly I would like them to use my data to customise adverts around the web, and after thinking for a bit about what kind of machine learning tricks I would be able to pull on you with 12 years of your email, I decided that I really had to make alternative plans for my little email empire.</p>
+<p>Somehow FastMail came up and in one of those impulsive LET&rsquo;S WASTE SOME TIME manoeuvres, I pressed the big red MIGRATE button!</p>
+<p>The rest of this post is my mini-review of the FastMail service after almost 3 weeks of intensive use.</p>
+<h2 id="importing-mail-from-gmail">Importing mail from GMail</h2>
+<p>
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-10.50.45-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-10.50.45-AM-1024x594.png"
+        
+            alt="The main import &amp;amp; export window"/> </a><figcaption>
+            <p>The main import &amp; export window</p>
+        </figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.01.46-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.01.46-AM.png"
+        
+            alt="IMAP migration configuration dialog"/> </a><figcaption>
+            <p>IMAP migration configuration dialog</p>
+        </figcaption>
+</figure>
+</p>
+<p>The <strong>Settings | Import &amp; Export</strong> option in FastMail was easy to setup. It knows how to authenticate with GMail, even when you make use of two-factor authentication, like I do and you probably should.</p>
+<p>The import takes place via the GMail IMAP interface. It&rsquo;s important to remember that via the IMAP client, an email tagged in GMail with both <em>important</em> and <em>info</em> will appear in two different folders. Because of this, I did check the <strong>no duplicates</strong> checkbox, but still I noticed that my 15 GB FastMail evaluation mailbox was filling up more quickly than I would have expected.</p>
+<p>After a support request which was responded to within minutes (bonus), I discovered the <strong>Quota Usage</strong> screen and could see that the duplicate detection did indeed not seem to work correctly during the import. Based on more tips from the support tech, I made use of the <strong>Mass delete or remove duplicates</strong> module (Settings | Folders | Scroll all the way to the bottom of the page) to delete thousands of duplicate emails during the import. This was indeed because of emails appearing in multiple IMAP folders due to their GMail tags. <em><strong>Note:</strong> Friend and reader <a href="https://twitter.com/stefanvdwalt">stefanvdwalt</a> reported the exact same mail duplication during import issue which in his case did go over quota, so do keep an eye on this!</em></p>
+<p>After a day or so (during which I could email more or less normally) I received an import report from FastMail claiming that the import had been successful, except for this error:</p>
+<pre>Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Migrating folder Inbox -&gt; Inbox
+Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Creating local folder Inbox
+Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Error migrating remote folder Inbox: Failed to create Inbox. IMAP Command : 'create' failed. Response was : no - Mailbox already exists</pre>
+<p>The import had managed to figure out that GMail Sent should map to FastMail Sent for example, but Inbox was probably too special to map in the same way. I fixed this by firing up my trusty Thunderbird, and using IMAP to drag and drop emails from my GMail Inbox to my shiny new FastMail Inbox.</p>
+<p>In retrospect, I should have selected <strong>Create under new sub-folder</strong> in the IMAP migration configuration instead of <strong>Merge into existing folders</strong>. I discovered later that <strong>moving thousands of emails to a different folder is near instantaneous</strong> in the FastMail web-app.</p>
+<h2 id="what-i-like">What I like</h2>
+<h3 id="webmail-speed">Webmail speed</h3>
+<p>I live more or less at the southern tip of the African continent. My lowest latency connection with the rest of the internet is via undersea optic cable to Europe (about 140ms ping).</p>
+<p>The FastMail web servers are in the USA, which is, as the ping flies, much further away. I was not expecting much from the webmail, but colour me surprised when I discovered that this felt subjectively <em>faster</em> than GMail (who have servers everywhere, even down here). Things remained snappy, even with all 50000 of my conversations imported.</p>
+<p>As far as I can figure out, it seems that much of this is due to FastMail&rsquo;s self-designed but open source IMAP-replacement called <a href="http://jmap.io/">JMAP</a>. JMAP has been designed for low latency, and for improved battery life. What it does differently, is batch requests together, and it also has optimisations specifically for interactive webmail.</p>
+<p>The web-app has full support for keyboard shortcuts, which increases the subjective perception of speed.</p>
+<h3 id="webmail-search">Webmail search</h3>
+<p>For my purposes, search in FastMail is on par with that of GMail. I can dig up any of my emails, back up to 2004, in seconds.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.18.06-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-11.18.06-AM.png"
+        
+            alt="FastMail advanced search interface"/> </a><figcaption>
+            <p>FastMail advanced search interface</p>
+        </figcaption>
+</figure>
+</p>
+<p>What&rsquo;s also very useful, is that you can turn any search into a virtual folder.</p>
+<h3 id="tech-support">Tech support</h3>
+<p>This is one area where Google really can&rsquo;t hold a candle to FastMail. If something goes wrong with your gmail account (this hardly ever happens, but it&rsquo;s possible) it&rsquo;s almost impossible to get hold of any kind of official tech support. Here&rsquo;s <a href="https://medium.com/@xdvl/stop-using-gmail-com-for-things-you-care-about-14af40e43a88#.h5ljyewg7">a recent story</a> where a GMail user&rsquo;s account was summarily terminated. There <em>was</em> probably some kind of ToS infringment, but the user has no idea what or why, and has lost all access to their emails and contacts database.</p>
+<p>So far I&rsquo;ve contacted FastMail tech support twice: Once during my email migration, and once to confirm the absence of the “quote selected text in reply” feature (discussed below). In both cases, I was helped by real humans who responded very quickly and courteously to my support requests.</p>
+<h3 id="email-and-contacts-and-calendar-out-of-googles-view">Email and contacts (and calendar) out of Google&rsquo;s view</h3>
+<p>I&rsquo;m still of the opinion that Google makes fantastic and valuable products. However, with all of their data mining know-how and resources, one has to decide how much of one&rsquo;s personal information one is willing to trade in for the use of these fantastic products.</p>
+<p>With FastMail, I have been able to extricate my significant email archive (2004 to 2016, 50000 conversations) as well as my contacts database. I&rsquo;m still making use of Google Calendar, because of bunches of sharing going on with family members, but I have the option of moving that out also.</p>
+<p>By the way, the FastMail Calendar web interface is more than capable (and pretty enough) to replace Google&rsquo;s version.</p>
+<h2 id="what-i-dont-like">What I don&rsquo;t like</h2>
+<h3 id="missing-integrations-todoist">Missing integrations: Todoist</h3>
+<p>GMail, being as popular as it is, has tonnes of integrations with other apps. In my case, I will really miss the <a href="https://chrome.google.com/webstore/detail/todoist-for-gmail/clgenfnodoocmhnlnpknojdbjjnmecff">Todoist for Gmail extension</a>. With this, I had a mini-todoist window inside my GMail, and I could turn any email into a task at the click of a button (or the press of a shortcut).</p>
+<p>Because FastMail email URLs seem to be persistent, I use the <a href="https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/jldhpllghnbhlbpcmnajkpdmadaolakh">Todoist Chrome extension&rsquo;s</a> “Add to Todoist” context menu action to add the URL and email subject as a task. This not as nice as the gmail-specific extension (the task goes immediately into the todoist inbox, without the possibility to edit metadata such as due date and tags).</p>
+<h3 id="missing-feature-quote-selection-in-reply">Missing feature: Quote selection in reply</h3>
+<p>In Gmail and in Thunderbird, if you select text in an incoming email and then reply, that selected text is quoted in the reply email. Unfortunately, this feature is not available in the FastMail web-app, and they have no plans to implement it.</p>
+<p>I use both the FastMail web-interface as well as Thunderbird, because of its great PGP email encryption and signature support (hey, <a href="https://keybase.io/cpbotha">find me on keybase</a>, send me encrypted email!), so this issue is somewhat ameliorated. Still, it would have been nice.</p>
+<h3 id="android-app-lag">Android app lag</h3>
+<p>I do have <a href="https://play.google.com/store/apps/details?id=com.fastmail.app">FastMail&rsquo;s Android app</a> on my telephone. The app is a Cordova / PhoneGap / CrossWalk style unit with real-time email push and notification via Google Cloud Messaging (this is a relatively energy-efficient way for android phones to get push notification and is natively supported by FastMail).</p>
+<p>However, there is a few second lag when I open the inbox, so I prefer using the pro version of <a href="https://play.google.com/store/apps/details?id=org.kman.AquaMail">AquaMail, a great Android IMAP mail client</a>. I have this set to 15 minute polling for new email, as IMAP IDLE (push, in other words) is not as battery efficient as GCM or Apple&rsquo;s email push. Opening any folder or email in AquaMail is of course instantaneous, as the emails live on the phone.</p>
+<p>That being said, I use the FastMail app for searching, which is just as fast and as effective as the web-app.</p>
+<p>THAT being said, FastMail really needs to implement some sort of caching in the Android app for lightning <em>fast</em> folder and email access. (The FastMail app is quite attractive, I would prefer using it more.)
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/fastmail_calendar_google_play.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/fastmail_calendar_google_play-1024x580.png"
+        
+            alt="FastMail Android app Calendar screen, from the Google Play page."/> </a><figcaption>
+            <p>FastMail Android app Calendar screen, from the Google Play page.</p>
+        </figcaption>
+</figure>
+</p>
+<h3 id="niggle-creating-an-email-alias--incoming-route-automatically-creates-a-new-sending-identity">Niggle: Creating an email alias / incoming route automatically creates a new sending identity</h3>
+<p>FastMail can manage the DNS for any of the custom domains that you assign to it, which is super useful if you don&rsquo;t already have a DNS service.</p>
+<p>I already make use of webfaction&rsquo;s DNS for all of my domains, so I chose to add DNS records to designate fastmail as the official MX for those domains. (All of this is explained clearly in the FastMail help.)</p>
+<p>When you do this, you have to create an email alias for each incoming address you would like to receive mail for (you can also create a catchall, but this could result in more spam arriving in your inbox). For each and every alias, <a href="https://www.fastmail.com/help/receive/alias-catchall.html">FastMail automatically creates an outgoing (from address) identity</a>. While this is usually quite convenient, I have quite a number of incoming addresses, but I only ever send from a subset of these addresses, so the drop-down list with sending identities became quite unwieldy.</p>
+<p>I deleted all of the unnecessary identities. What would help, would be if FastMail were to implement most-used-at-the-top sorting for that drop-down.</p>
+<h2 id="other-noteworthy-points">Other noteworthy points</h2>
+<h3 id="domain-setup">Domain setup</h3>
+<p>For my most important domains, I have set FastMail to be the MX. I have also performed the necessary <a href="https://blog.fastmail.com/2014/12/09/email-authentication/">SPF and DKIM</a> setup: FastMail gives super useful feedback in its configuration screens to help you with this. For these domains, I send mail directly via the FastMail SMTP servers, and mail is delivered directly to FastMail servers. Nice and simple.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-9.46.01-PM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-9.46.01-PM-1024x623.png"
+        
+            alt="Domain setup feedback screen."/> </a><figcaption>
+            <p>Domain setup feedback screen.</p>
+        </figcaption>
+</figure>
+</p>
+<p>For some other email accounts I have with clients, FastMail supports POP fetch from and SMTP send via foreign servers.</p>
+<h3 id="ios-push-support">iOS Push support</h3>
+<p>If you use any Apple iOS devices to read your mail, you&rsquo;ll be pleased to know that FastMail, with help from the big A, <a href="https://blog.fastmail.com/2015/07/17/push-email-now-available-in-ios-mail/">fully supports iOS push</a>. This means battery efficient real-time incoming emails to make it even more difficult for you to focus on That One Really Important Thing.</p>
+<h3 id="android-contact-syncing-with-carddav">Android contact syncing with CardDAV</h3>
+<p>With google contacts, syncing on Android just works, and it works really well. To sync my contacts with FastMail&rsquo;s Address Book instead, I bought the pro version of the <a href="https://play.google.com/store/apps/details?id=org.dmfs.carddav.Sync">CardDAV android app</a> for 24 South African Ront (that&rsquo;s about EUR 1.5). This works as a sync provider, so once setup, the process is also pretty much transparent.</p>
+<h2 id="final-thoughts">Final thoughts</h2>
+<p>So there you have it: A hopefully helpful story, with included mini-review, about my move from GMail to the FastMail service.</p>
+<p>So far, my conclusion is that this is a service that is technically more than capable of replacing GMail, even for power users. Furthermore, FastMail&rsquo;s primary (and in fact only) business model is to charge you money for making sure that you can keep on emailing like a boss. Together, this makes for an offer that I could not refuse.</p>
+<p><em>P.S. Let me know in the comments if you would like me to add anything else to this post.</em></p>
+<p><em>P.P.S. You can also join the lively <a href="https://news.ycombinator.com/item?id=12247401">Hacker News discussion of this post</a>!</em></p>
+]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
+After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
+It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
+<p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg"
+        
+            alt="Image by BLOGGING via TYPEWRITER"/> </a><figcaption>
+            <p>Image by BLOGGING via TYPEWRITER</p>
+        </figcaption>
+</figure>
+</p>
+<p>It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), <em>especially</em> if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they <em>say</em> that you shouldn’t worry, <em>you can never be entirely sure</em>.</p>
+<p>Furthermore, it has also been revealed that the NSA has for years being acquiring encryption keys via legal (secretly forcing companies to give them the keys) and extra-legal (simply hacking into company servers) means. Even worse, they have for years been deliberately introducing security weaknesses into software products and encryption software in order to be able to crack open your data even more easily.</p>
+<p>You can read more about this state of affairs in <a href="http://www.theguardian.com/world/the-nsa-files" title="The Guardian NSA files">The Guardian’s NSA files</a>. The Guardian has been doing a sterling job of analysing and bringing to light the depths to which our governments have sunk. There’s a whole lot of information, and most of it is quite upsetting.</p>
+<p>For me the final straw was when secure email service <a href="http://lavabit.com/" title="lavabit website with close-down message">lavabit</a> voluntarily shut itself down, when faced with the prospect of being forced to leak user information to the US government without being allowed to tell anyone. The message on the site is quite chilling, and concludes with the following:</p>
+<blockquote>
+<p>This experience has taught me one very important lesson: without congressional action or a strong judicial precedent, I would <em>strongly</em> recommend against anyone trusting their private data to a company with physical ties to the United States.</p>
+</blockquote>
+<p>At this point, I was a super happy and pretty heavy user of a number of US-based services, including GMail (all my email, about 40000 conversations consisting of 60000 mails, that’s excluding my work email which I also hosted on GMail), Google+ Photos (all my photos, about 21000 of ’em), Google Drive, Dropbox (50G of data spread out over 120000 files). <em>In all cases, I still consider these to be best of class services.</em> In putting my money where my mouth is, I was paying both Google and Dropbox for extra storage.</p>
+<p>I also had no problem with Google filtering through my email to show me targeted advertising. This is the deal I had with them. I also had no problem with the possibility of someone getting my data after due legal process. However, the idea that some NSA or other government agency flunky could quite easily stick their grubby paws into my data, and that I would never know about this, was too much.</p>
+<p>There’s probably nothing much of interest in my data. However, it has become a matter of principle; Privacy is a basic human right. <a href="http://www.wired.com/politics/security/commentary/securitymatters/2006/05/70886" title="value of privacy by Bruce Schneier">Here’s an old essay by Bruce Schneier</a> if you need to read more about why privacy is so important.</p>
+<p>In short: <strong>It was time to extricate all of my lovely data from probably well-meaning US companies, thanks to the ridiculously powerful and secretive NSA, and thanks to all of its shadowy counterparts around the world.</strong></p>
+<p>Here’s how I did it:</p>
+<ul>
+<li>Considered building another low-cost Linux server, or even a Raspberry Pi. Decided against this due to time required for configuration and acquired a Synology DS213j NAS, which is at this moment standing on the desk about 1 metre to my left. My recommendation: Just get this, you won’t be sorry.</li>
+<li>Downloaded 60000 emails to Synology using Thunderbird mail client. Deleted everything from GMail. Google engineers assure me that after a few months, data will <em>really</em> be gone.</li>
+<li>My webhoster (<a href="https://www.webfaction.com/">WebFaction</a>) receives mail for all my domains. My Synology retrieves mail every 5 minutes via POP (you can set this up via Roundcube on the Synology) and deletes it from WebFaction.</li>
+<li>Outgoing mail is relayed by the Synology via the WebFaction SMTP server. I don’t have to worry too much about blacklisting and whatnot, my hoster does this.</li>
+<li>I’m back to interacting with my mail using Thunderbird and IMAP SSL. The loss of GMail conversation view was initially really REALLY painful. People have forgotten the ancient art of quoting. However, I’ve configured Thunderbird to archive all mail to year-stamped archive folders, and to put my sent mail there. Poor-man’s Conversation View! (the <a href="https://addons.mozilla.org/en-us/thunderbird/addon/gmail-conversation-view/">conversations plugin</a> is wonky. it’s shocking how much the availability of GMail, which works really well, has stunted the development of alternative email clients) Importantly, I am now able to use <a href="http://www.openpgp.org/">OpenPGP</a> again for the strong encryption and cryptographic signing of my emails.</li>
+<li>On my Android telephone (whoops…) I am using <a href="https://play.google.com/store/apps/details?id=com.kaitenmail&amp;hl=en" title="Kaiten email on the Google Play store">the Kaiten IMAP client</a>.</li>
+<li>All the data I had in Dropbox is now being synced between the Synology, two laptops and a workstation using <a href="http://labs.bittorrent.com/experiments/sync.html" title="bittorrent sync">BitTorrent Sync</a>. This peer-to-peer syncing system is still a little rough around the edges, but falls squarely in the category of “Best Things Since Sliced Bread”, and it’s <em>FAST</em>. CloudStation, Synology’s dropbox-inspired solution, was just far too slow on my Synology model.</li>
+<li>My photos (21000 of them) have been downloaded from Google+ Photos (thank you <a href="https://www.google.com/takeout/" title="Google Takeout">Google Takeout</a>) and are now being served from the Synology using PhotoStation.</li>
+<li>My music (5400+ tracks) is downloading from Google Music as we speak, and will be served from the Synology using AudioStation.</li>
+<li>I make incremental backups of everything to an encrypted external USB drive, using <a href="http://www.dirvish.org/" title="dirvish website">dirvish</a>. I will probably add an extra external drive to the mix and try to keep that off site.</li>
+</ul>
+<p>It’s been an interesting process moving my stuff out, and getting used to these alternative systems is sometimes slightly uncomfortable, but I am quite happy with the end result. I hope that more people will take this step, and I really hope that more and easier-to-use alternatives for secure email (such as <a href="http://www.mailpile.is/" title="mailpile website">mailpile</a>) and for ubiquitous private data will become available.</p>
+<h1 id="addendum-2013-09-16">Addendum 2013-09-16</h1>
+<p>My <a href="https://news.ycombinator.com/item?id=6392322">submission of this post</a> spent some time on the Hacker News front page, and from there was <a href="http://www.reddit.com/r/technology/comments/1mhpqj/dear_usa_my_data_has_left_your_building/">picked up by reddit</a> as well. This brought many comments, a number of which were positive and thoughtful, and a number of which that were far less so. It’s amazing how anonymity and comment sections can bring out the worst in people. (if you have to know, the Hacker News community is generally MILES more polite than reddit)</p>
+<p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
+<p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
+<p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
+]]></content:encoded></item><item><title>Your GMail account CAN be hacked over insecure WiFi</title><link>https://cpbotha.net/2009/11/01/your-gmail-account-can-be-hacked-over-insecure-wifi/</link><pubDate>Sun, 01 Nov 2009 08:39:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/11/01/your-gmail-account-can-be-hacked-over-insecure-wifi/</guid><description> Today The Next Web posted an episode of BBC Watchdog where it was demonstrated how a GMail account was hacked through insecure (WEP) WiFi.
+For those of you still wondering, I’d like to confirm that it is indeed possible to hack a GMail account over insecure WiFi: GMail does indeed always send your password through secure HTTP (SSL) so that this can’t be directly hacked, BUT, by default, the rest of your session happens through normal clear-text HTTP.</description><content:encoded><![CDATA[ <p>Today <a href="http://thenextweb.com/2009/10/31/bbc-hacks-gmail-account-wifi-scary-st/" title="Link to The Next Web post concerning GMail WiFi hack">The Next Web posted an episode of BBC Watchdog</a> where it was demonstrated how a GMail account was hacked through insecure (WEP) WiFi.</p>
+
+
+
+
+
+
+
+
+<figure>
+    <img
+        
+            
+            src="/wp-content/uploads/2009/11/https_gmail_url.jpg"
+        /> 
+</figure>
+
+<p>For those of you still wondering, <strong>I’d like to confirm that it is indeed possible to hack a GMail account over insecure WiFi</strong>: GMail does indeed always send your password through secure HTTP (SSL) so that this can’t be directly hacked, BUT, by default, the rest of your session happens through normal clear-text HTTP.  The Watchdog episode of course gives absolutely no technical details, but it’s most probably the <a href="http://www.tgdaily.com/content/view/34324/108/" title="Details on sidejacking attack">“sidejacking” attack</a> first published by <a href="http://erratasec.blogspot.com/" title="Robert Graham's blog">Robert Graham</a>, where the <strong>attacker reads the cookies of the post-authentication HTTP traffic and uses them to fool GMail into thinking that they are in fact the legitimate owners attacked GMail account</strong>.  This attack works on other webmail and -service providers too.</p>
+<p>In short, if you EVER use a network connection that you don’t trust, simply change the “http:” in your URL bar to “https:”, or, even better, change your browser connection to “Always use https” on the GMail Settings – General page.   <strong>With both of these solutions, the whole connection will use secure HTTPS (SSL), and cookies can’t be sidejacked</strong>.</p>
+<p>The drawback of the secure setting is that your GMail access will be slightly slower than usual:  The encryption costs more compute time at both ends, and the transmission of data is slightly less efficient.</p>
+]]></content:encoded></item><item><title>all your mail belongs to us</title><link>https://cpbotha.net/2007/03/13/all-your-mail-belongs-to-us/</link><pubDate>Tue, 13 Mar 2007 20:41:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/03/13/all-your-mail-belongs-to-us/</guid><description> My webhoster secretly disabled catch-all email addresses for email. Coincidentally, this is how I was forwarding everything to my gmail account, which means that all mail to my domain bounced for at least a few days. If you left a comment on this blog, or somehow have the feeling that I’m ignoring you, please resend your mail.</description><content:encoded> &lt;p>My webhoster secretly disabled catch-all email addresses for email. Coincidentally, this is how I was forwarding everything to my gmail account, which means that all mail to my domain bounced for at least a few days. If you left a comment on this blog, or somehow have the feeling that I’m ignoring you, please resend your mail.&lt;/p></content:encoded></item><item><title>GMail I love you dearly</title><link>https://cpbotha.net/2005/09/09/gmail-i-love-you-dearly/</link><pubDate>Fri, 09 Sep 2005 11:33:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2005/09/09/gmail-i-love-you-dearly/</guid><description> You will remember that a while back I asked you to do me a favour and ask GMail to add the possibility to change the “From:” address on outgoing mails. Well, boys and girls, it seems that they’ve gone and done this!
+Read all about it here.
+WHOOOOOOOP!</description><content:encoded><![CDATA[ <p>You will remember that a while back <a href="http://cpbotha.net/weblogs/cpbotha/archives/001863.html">I asked you to do me a favour</a> and ask GMail to add the possibility to change the “From:” address on outgoing mails. Well, boys and girls, it seems that they’ve gone and done this!</p>
+<p>Read all about it <a href="http://gmail.google.com/support/bin/answer.py?answer=20616">here</a>.</p>
+<p>WHOOOOOOOP!</p>
+]]></content:encoded></item><item><title>GMail Favour</title><link>https://cpbotha.net/2005/06/02/gmail-favour/</link><pubDate>Thu, 02 Jun 2005 11:14:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2005/06/02/gmail-favour/</guid><description><![CDATA[ If you feel like doing me a favour and you have a gmail account, login, click on “Help” at the top right, then click on “Contact Us” on the left and then on “Suggest a feature”. You could also just go directly to &lt;https: gmail_suggest=&quot;&quot; inquiry=&quot;&quot; services.google.com=&quot;&quot;&gt;&lt;/https:&gt; of course.
+Now check the “Customize ‘From:’ address/create an account alias” box, fill in your email address at the bottom and click on “Submit”.]]></description><content:encoded><![CDATA[ <p>If you feel like doing me a favour and you have a gmail account, login, click on “Help” at the top right, then click on “Contact Us” on the left and then on “Suggest a feature”. You could also just go directly to &lt;https: gmail_suggest=&quot;&quot; inquiry=&quot;&quot; services.google.com=&quot;&quot;&gt;&lt;/https:&gt; of course.</p>
+<p>Now check the “Customize ‘From:’ address/create an account alias” box, fill in your email address at the bottom and click on “Submit”.</p>
+<p>Maybe YOU are destined to be the user that breaks the Camel’s back, or something.</p>
+]]></content:encoded></item></channel></rss>

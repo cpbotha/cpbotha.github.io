@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prefrontal cortex on voices in my head</title><link>https://cpbotha.net/tags/prefrontal-cortex/</link><description>Recent content in prefrontal cortex on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 26 Jan 2019 17:10:31 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/prefrontal-cortex/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.
+Welcome to the first WHV of the year 2019 folks!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/chicken_potjie_no2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/chicken_potjie_no2-1024x768.jpg"
+        
+            alt="In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie."/> </a><figcaption>
+            <p>In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to the first WHV of the year 2019 folks!</p>
+<p>In what is hopefully just a minor incident and not a portent of calamitous events to come, we have already skipped the first two weeks of the year, which means this WHV looks back at the three weeks from Monday January 7 to Saturday January 26.</p>
+<p>I guess this would not be the WHV if we did not start off with some sort of awkwardness or miscellaneous embarrassment, so: CHECK!</p>
+<p>Because you are probably thirsty for your WHV now, I tried to write you a long and rambly edition, with pictures! (Because it’s so long and rambly, and because markdown, I have liberally sprinkled with headings and sub-headings, so that those of you with lives outside of blog reading can hop, skip and jump through like the professionals you are.)</p>
+<h2 id="the-future-is-here-long-form-blog-posts-on-the-ipad">The future is here: Long-form blog posts on the iPad.</h2>
+<p>This also would not be the WHV if we did not have some little digital trick to reveal: Today’s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.</p>
+<p>Because I really don’t like the new block-based WordPress 5.0 editor, named in an entirely non-hubristic fashion “Gutenberg”, but it does fortunately support importing markdown formatted blog posts (just make sure you don’t hard-wrap anything), and because I like trying new things, I am typing this on the iPad using the iOS version of <a href="https://www.textasticapp.com/">Textastic</a>.</p>
+<p>A few hours ago, it looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/img_0005.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/img_0005-1024x768.png"
+        /> </a>
+</figure>
+</p>
+<p>In contrast to the direct <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">orgmode to wordpress Emacs workflow</a> I normally use, this workflow enables me to copy and paste sections of markdown text into WordPress. Each pasted section is automatically imported as WordPress blocks, based on the markdown structure.</p>
+<p>This means I can position and edit images using the WordPress interface, but author the text using Markdown. With <a href="https://github.com/org2blog/org2blog">org2blog</a> the whole post, including images, has to go through life as an orgmode file, which is brilliant for my more technical posts, but not so much for prose-heavy blog posts such as this one.</p>
+<h3 id="btw-1-why-i-dont-yet-like-the-new-wordpress-editor">BTW 1: Why I don’t (yet) like the new WordPress editor.</h3>
+<p>The old WordPress editor enabled me to focus on the content and just write.</p>
+<p>The new <a href="https://wordpress.org/gutenberg/">Gutenberg editor</a> now wants me to create a bunch of blocks, e.g. paragraph, image, paragraph, bullet list, etc., and then work with those blocks.</p>
+<p>That’s really great if you’re building a site, but not so much when you would just like to get down and write that blog post.</p>
+<p>Although this is now the standard editor in WordPress, there are still bugs, such as the fact that my cursor keeps on jumping to the start of the block while I’m typing, which is not irritating at all, and the not unimportant observation that none of the mobile apps support Gutenberg yet.</p>
+<p>WordPress-using readers, what do you think?</p>
+<p>(P.S. Another just-discovered issue: In Gutenberg, your biggest heading is H2. H1 is not available in the UI normally. When pasting in markdown, H1s do display, but do not show in the type-UI as anything. Here is <a href="https://github.com/WordPress/gutenberg/issues/4234">a confusing Gutenberg bug report</a>.)</p>
+<h3 id="btw-2-why-textastic-aka-at-least-it-will-syntax-highlight-your-orgmode">BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)</h3>
+<p>The main reason I found and purchased Textastic, was that I ran into <a href="https://github.com/jezcope/Org.tmbundle">Jez Cope’s github repo</a> with a TextMate Bundle (that’s an editor configuration) that was made for Textastic to support editing Emacs orgmode files.</p>
+<p>As is the age-old open source way, there were a few small bugs which I <a href="https://github.com/jezcope/Org.tmbundle/pull/5">fixed in my fork</a>, which you should definitely get if you are in the same I-want-to-edit-Orgmode-on-my-iOS boat as I am. It’s not a very large boat, but it’s super fun!</p>
+<p>(There is no Emacs on iOS. This is in my view the greatest downside of iOS. It turns out that Apple generally does not allow apps with embedded interpreters on the app store. However, I am still trying to find out why there are no iOS-capable Emacs source code forks available.)</p>
+<h3 id="btw-3-the-ipad-with-keyboard-is-a-shockingly-good-laptop-replacement">BTW 3: The iPad with keyboard is a shockingly good laptop replacement.</h3>
+<p>I recently recommended to a privacy-conscious reader who was searching for an affordable Linux-running laptop in South Africa, that she instead consider buying an iPad with bluetooth keyboard.</p>
+<p>Down here a brand new 2018 iPad costs R5999. A cheap keyboard cover (e.g. Body Glove) can be had for about R860.</p>
+<p>If you compare this to any new laptop of R6900 (about EUR 444) which will probably be sold with Windows included, you get a computing device with a fantastic quality multi-touch screen, great battery life, best-in-class security, almost no maintenance, and a fantastic app ecosystem. To seal the deal, the iPad’s resale value is proportionally probably also much better than that entry-level laptop.</p>
+<p><em>After</em> I sent that email, I started with this iPad + cheap bluetooth keyboard experiment to try it for myself. I have to say that the experience has been way better than I expected.</p>
+<p>For a large subset of laptop users, and for a large subset of workflows and tasks, this is a really great solution.</p>
+<p>Please don’t worry (too much) yet, I am not planning one of those “I switched to an iPad as my main computing device” blog posts. I would not be able to survive without my development tools, and I would especially not be able to survive without my Emacs.</p>
+<h2 id="pv-solar-installation-progress">PV Solar installation progress</h2>
+<p>As I excitedly <a href="/2018/12/19/weekly-head-voices-159-extreme/#extreme-solar">announced in WHV #159</a> (slightly more than a month ago), we had decided that it was time to get a photovoltaic solar power system installed at the house.</p>
+<p>I found a local installer with the required PVGreenCard accreditation and started the consultation process.</p>
+<p>Unfortunately, the installer did not seem to be prepared for a customer that would not stop asking questions. The customer even went so far as to pose questions that challenged the installer’s brand loyalty!</p>
+<p>I really do understand that I’m probably not the easiest end-user, but I don’t think that an expert’s brand loyalty should get in the way of reason, and far more importantly in the way of basic physics.</p>
+<p>To make a long story short, I ended up getting fired by the installer.</p>
+<p>This was probably for the better: He can now continue doing well-practised installs for other clients who don’t ask (so many) questions, and I suddenly had the opportunity to find a new, more engineer-friendly installer, and to continue learning.</p>
+<p>Following are two noteworthy learnings:</p>
+<h3 id="learning-1-you-should-almost-always-try-to-oversize-the-photovoltaic-array">Learning 1: You should almost always try to oversize the photovoltaic array</h3>
+<p>If the equipment states for example 4600kVA, then you are usually quite safe installing from 25% up to 30% more kWp of solar panels.</p>
+<p>Oversizing will mean that on very sunny days you’ll get peaks higher than the maximum rated PV, which can be handled for short periods by the solar equipment, but more importantly, you’ll be able to generate more electricity when there is less sun, which is most of the time.</p>
+<p>In other words, you increase the area under the curve of kW generated per hour.</p>
+<p>By the way, I emailed GoodWe (they make the hybrid inverters I have my eye on) who confirmed that their EM range supports 27.8% oversizing. The ES range advertise 30% PV oversizing on the box.</p>
+<p>It is of course an interesting question what exactly is meant by oversizing. Do they support pumping 30% more power into the inverter for 5 minutes, or for 2 hours?</p>
+<h3 id="learning-2-powerforumcoza-is-a-great-source-of-information">Learning 2: powerforum.co.za is a great source of information.</h3>
+<p><a href="https://powerforum.co.za/">This forum</a> has a surprisingly high signal to noise ratio.</p>
+<p>There are a number of experts hanging around, including one of Victron’s super helpful and knowledgeable R&amp;D engineers, and the archive posts are invaluable as you try to navigate <a href="https://powerforum.co.za/topic/2791-experience-getting-city-of-cape-town-to-sign-off-a-zero-feed-in-system-with-inverter-maximum-output-greater-than-35kva/">the quagmire</a> of often conflicting information.</p>
+<h2 id="avocado-baby-progress-very-much-touch-and-go">Avocado baby progress: Very much touch and go.</h2>
+<p>The baby avocado tree, in spite of being being watered almost every day (thank you rainwater harvest!) does not seem to be doing too well.</p>
+<p>Because the summer sun down here can be quite vicious, the tree has its own little pink umbrella.</p>
+<p>The current plan is to feed it more compost, and, if that fails, to try to transplant it out of the big, wild garden and into a pot with softer, kinder earth.</p>
+<h2 id="how-to-explain-complicated-topics">How to explain complicated topics</h2>
+<p>The international and yearly <a href="https://mlssafrica.com">Machine Learning Summer School took place in Stellenbosch this year</a>, from Monday, January 7 to Friday, January 18.</p>
+<p>As you can see from the programme, there were a bunch of heavy hitting speakers present both physically and virtually, including the super resourceful (failed super resolution pun, su(p)e(r) me) Dr Stefan van der Walt, who gave a talk on good scientific software.</p>
+<p>Anyways, because I am currently in a more commercial configuration, I could not justify taking two weeks out, and instead opted for a day visit at the start of the congress.</p>
+<p>It is a testament to the current prominence of the field that the list of international sponsors included Microsoft, Apple, SAP, Uber <em>and</em> Amazon.</p>
+<p>It was gratifying to experience a sampling of such a well-organized international gathering here in my neck of the woods.</p>
+<p>On the first day, we had a high throughput introduction to causality, probabilistic thinking, and variational inference. All the presenters were clearly good speakers, but they weren’t all equally experienced in teaching such complex material.</p>
+<p>(At one point one of the statisticians I was chatting to in break admitted having difficulty keeping up with the math. I did not feel <strong>that</strong> stupid anymore.)</p>
+<p>“What is the difference between being a good speaker and an experienced teacher?”, you might now ask.</p>
+<p>Great question, I would then say, grateful for the opportunity to explain.</p>
+<p>What I was missing in the one specific case I do not want to be too specific about, was that the presenter did a great job of talking about each of a long list of concepts relevant to his topic, but somehow forgot that one of the most important parts of teaching is communicating the conceptual framework into which all of those concepts fit.</p>
+<p>Conceptual frameworks are also one of those multi-scalar things: Each group of factoids can be gratifyingly embedded into a slightly higher level component, groups of which can be slotted into the overarching “big idea”, or another level of compnonent. (It’s turtles all the way down.)</p>
+<p>As great lecturers talk, they keep on bringing their narrative back up to the higher-level embedding construct.</p>
+<p>It looks something like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/teach_complicated_things.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/teach_complicated_things-1024x576.png"
+        
+            alt="Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why."/> </a><figcaption>
+            <p>Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why.</p>
+        </figcaption>
+</figure>
+</p>
+<p>By repeatedly diving deeper into the details, and then following the conceptual link back up to the higher-level constructs and especially your big idea, your listeners will start to see the beautiful fractal of understanding that you are guiding them through.</p>
+<h2 id="what-will-i-be-working-on-this-year">What will I be working on this year?</h2>
+<p>At this moment, 2019 is shaping up to be pretty exciting work-wise.</p>
+<p>We just heard that we will be able to continue for some months more working on the X-Ray based surgical planning project we worked on last year.</p>
+<p>Partly thanks to the great deep learning work of two summer interns (note: Southern Hemisphere means summer interns over December and January, which might be weird if you’re from the Northern Hemisphere) we are in great shape for all of the deep neural network-based image understanding plans we need to execute on.</p>
+<p>This year I will also be spending more time on <a href="https://www.telesensi.com">TeleSensi, our FDA-certified tele-auscultation product</a>. This is less rocket-sciencey than the surgical planning project, but super interesting to work on, as it has many more users on the open market.</p>
+<p>(That being said, we do have plans to increase the level of rocket science significantly. I am not called the science officer for nothing… (well, that and also the fact that I got to choose my own title, and so I chose the same as Spock on the USS Enterprise).)</p>
+<h2 id="do-you-write-stuff-down">Do you write stuff down?</h2>
+<p>You might remember from WHV #155 <a href="https://cpbotha.net/2018/10/12/weekly-head-voices-155-lush/#productivity-pro-tip-fool-yourself-into-doing-a-good-daily-review">my trick of starting the day with a checklist</a>.</p>
+<p>A part of that checklist is a checklist of habits which I try to form and maintain, called The HabitFormer(tm). Every item that I sufficiently address gets a super satisfying little <code>[X]</code> mark, which feels a whole lot better than the sadly empty <code>[ ]</code> construct.</p>
+<p>Here is the current list:</p>
+<ul>
+<li>did you write stuff down?</li>
+<li>are you satisfied with number of pomodori?</li>
+<li>7.5 hrs sleep last night</li>
+<li>meditate &lt;– (WHV <em>hidden</em> pro-tip: Get the <a href="https://wakingup.com/">Waking Up</a> app by Sam Harris. Thanks LM for the fantastic recommendation.)</li>
+<li>stand at desk</li>
+<li>do valuable things</li>
+<li>fruit &amp; veg</li>
+<li>reading</li>
+<li>thinking</li>
+<li>running or other exercise</li>
+</ul>
+<p>Ironically enough, the first item is brand new on the list.</p>
+<p>I somehow forgot my habit of writing, during the day, a little done list / random thoughts lists. After bringing this habit back I noticed what difference it made.</p>
+<p>At regular intervals during the day, I will spend a minute or three writing down what I had completed, or what I was thinking. This moment of introspection would either result in a pleasant bit of satisfaction with some small task taken care of, or, more often, it would reel me back in from a spot of less than deliberate action and enable me to bring back my attention to the point of focus.</p>
+<p>I’m filing this under “101 tricks to get your <a href="https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/">rider back on your elephant</a>“.</p>
+<p>Alright friends, thank you very much for joining me on this part of my journey. I am looking forward to our next interaction!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #143: The rider and the elephant.</title><link>https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/</link><pubDate>Sun, 20 May 2018 21:24:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/</guid><description> Pretty autumn sunset. A few metres below, the ritual weekend-starting braai was picking up speed.
+Welcome back kids!
+Besides this post, which somehow turned out to be longer than I expected, my more nerdy alter ego also wrote a post titled Interactive programming with Fennel Lua Lisp, Emacs and Lisp Game Jam winner EXO_encounter 667.
+#DeleteFacebook, part deux In an unsurprising (to me) turn of events, the Cambridge Analytica scandal has not even caused a dent in Facebook usage.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/pretty_cc_sky.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/pretty_cc_sky-1024x581.jpg"
+        
+            alt="Pretty autumn sunset. A few metres below, the ritual weekend-starting braai was picking up speed."/> </a><figcaption>
+            <p>Pretty autumn sunset. A few metres below, the ritual weekend-starting braai was picking up speed.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back kids!</p>
+<p>Besides this post, which somehow turned out to be longer than I expected, my more nerdy alter ego also wrote a post titled <a href="https://vxlabs.com/2018/05/18/interactive-programming-with-fennel-lua-lisp-emacs-and-lisp-game-jam-winner-exo_encounter-667/">Interactive programming with Fennel Lua Lisp, Emacs and Lisp Game Jam winner EXO_encounter 667</a>.</p>
+<h1 id="deletefacebook-part-deux">#DeleteFacebook, part deux</h1>
+<p>In an unsurprising (to me) turn of events, the Cambridge Analytica scandal has not even caused a dent in Facebook usage.</p>
+<p>#deletefacebook, also discussed in a <a href="/2018/03/25/weekly-head-voices-137/#deletefacebook">previous edition of the WHV</a>, never really happened.</p>
+<p>To the contrary, it seems people even <a href="http://www.businessinsider.com/people-increased-facebook-usage-after-cambridge-analytica-scandal-2018-5?IR=T">increased their usage, post-scandal</a>. FB share price is back where it used to be, and as an interesting data point, Deutsche Bank reports that their FB-based advertising reach was unaffected by the removable of more than 500 million fake facebook accounts.</p>
+<p>Should we deduce anything more from this than the usual 1. humans, even outraged ones, have really short memories and/or 2. most people don’t have the energy to resist, or the presence of mind to avoid, the deeply-seated social desires that are being exploited to varying degrees by the large social networks?</p>
+<p>My personal strategy for a while now has been to make <em>liberal</em> use of the unfollow and the mute functions. It’s far from perfect, but with this it is possible to reduce drastically the stream of incoming information, and to make sure that what does come through has to do with friends that you have made the deliberate choice to connect with actively.</p>
+<h1 id="shorter-focus-blocks-work-better">Shorter focus blocks work better</h1>
+<p>In my eternal and sometimes decidedly <a href="https://en.wikipedia.org/wiki/Sisyphus">Sysiphean</a> quest for more and better work focus, I recently started using Focus App (see Pro Tip #2 in <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">WHV #126</a>).</p>
+<p>In short, when you activate the app’s focus mode, it kills off and then blocks anything that is remotely fun or even slightly distracting on your computer. This includes websites and applications.</p>
+<p>In the beginning, I was enjoying longer (1 to 2 hour) focus blocks.</p>
+<p>However, more recently I started noticing a certain recalcitrance in my focus-starting hand.</p>
+<p>Especially late in the afternoons (prefrontal cortex GONE by then, remember?) the knowledge of that mega-block of mental exertion would result in highly undesirable procrastinatory behaviour. (Big words for “oh, I can probably fit in one more /r/emacs post!”)</p>
+<p>Anyways, it turns out there’s another really good reason that pomodori are only 25 minutes long.</p>
+<p>It’s much easier to start a 25 minute block of no-fun-focus, and then get stuck in the zone, than it is to start what your brain expects to be a multi-hour block of mental exertion.</p>
+<p>Friend PK introduced me to the tiny rider trying to control the giant elephant as a metaphor for the conscious and unconscious mind (this is from the book <a href="https://en.wikipedia.org/wiki/The_Happiness_Hypothesis">The Happiness Hypothesis</a>). The shorter focus block idea seems like it could be filed away under “tricks to control your stubborn elephant”.</p>
+<h1 id="the-evolving-soul-of-emacs">The evolving soul of Emacs</h1>
+<p>I came across this <a href="https://www.gnu.org/gnu/rms-lisp.html">really interesting piece by Richard Stallman</a> about the origin of Emacs, one of my favourite and probably most-used technical artifacts. It’s the multi-tool of computer software.</p>
+<blockquote>
+<p>But, along the way, I wrote a text editor, Emacs. The interesting idea about Emacs was that it had a programming language, and the user’s editing commands would be written in that interpreted programming language, so that you could load new commands into your editor while you were editing. You could edit the programs you were using and then go on editing with them. So, we had a system that was useful for things other than programming, and yet you could program it while you were using it. I don’t know if it was the first one of those, but it certainly was the first editor like that.</p>
+</blockquote>
+<p>When an experienced user interacts with Emacs, they change it, and it changes them.</p>
+<h1 id="the-opposite-of-instant-gratification">The opposite of instant gratification</h1>
+<p>On Friday I started on a slightly longer than usual run.</p>
+<p>It usually takes a kilometre or two before all of my running subsystems come on line, and I find my rhythm.</p>
+<p>Not this time.</p>
+<p>The acclimatisation discomfort in my ankles and calves didn’t fade away as it usually does. My breathing and running cadence stubbornly refused to lock on to their usual correct settings.</p>
+<p>My legs felt tired.</p>
+<p>It really felt like I was not supposed to be running at all, but I pressed on because at that point there was not much else I could do.</p>
+<p>At the turn-around point (the bridge at the entrance to Vergelegen, with beautiful trees all around) I decided to try out some youtube advice from the evening before and do a few deep squats to freshen up my legs.</p>
+<p>I started running back on legs and calves and feet which suddenly felt like they had all been replaced with brand-new rested versions of their 2-minute-ago return-to-manufacturer selves.</p>
+<p>The rest of the run was of the <em>floating</em> over the ground how-is-this-possible my-smile-might-break-my-head variety.</p>
+<p>Super strange.</p>
+<p>I don’t think the squats did it. That was just a sort of thought-process punctuation which somehow distracted the mind-elephant for long enough to get me running again.</p>
+<p>Anyways, as I was floating home, I could not help but see the whole occurrence as a fairly physical but in this case fortunately quite compact reminder that some of the most worthwhile experiences simply require perseverance with initially no gratification in sight.</p>
+<h1 id="life-is-a-marathon">Life is a marathon</h1>
+<p>… so sleep well, eat as healthily as you can, exercise, and try not to stress too much.</p>
+<p>We’re in this for the long haul.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #130: TTAGGG.</title><link>https://cpbotha.net/2018/01/28/weekly-head-voices-130-ttaggg/</link><pubDate>Sun, 28 Jan 2018 20:52:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/28/weekly-head-voices-130-ttaggg/</guid><description> Lovely summer’s day. Not much rain.
+Water On the water front (I see what I did there): Day Zero, that is the day on which the whole of Cape Town’s municipal water will be cut off, has been brought further forward to to April 12. Citizens will be able to fetch drinking water every day from 200 collection points. Judging by how quickly shelves of bottled water are currently disappearing from the shops and by panicky facebook posts, people are stocking up in advance.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/IMG_3107.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/IMG_3107-1024x576.png"
+        
+            alt="Lovely summer’s day. Not much rain."/> </a><figcaption>
+            <p>Lovely summer’s day. Not much rain.</p>
+        </figcaption>
+</figure>
+
+<h1 id="water">Water</h1>
+<p>On the water front (I see what I did there): Day Zero, that is the day on which the whole of Cape Town’s municipal water will be cut off, has been brought further forward to to April 12. Citizens will be able to fetch drinking water every day from 200 collection points. Judging by how quickly shelves of bottled water are currently disappearing from the shops and by panicky facebook posts, people are stocking up in advance.</p>
+<h1 id="the-immortality-of-lobsters">The immortality of lobsters</h1>
+<p>Continuing with our watery theme, this past week I learned the very surprising fact that lobsters are <a href="https://www.smithsonianmag.com/science-nature/dont-listen-to-the-buzz-lobsters-arent-actually-immortal-88450872/"><em>sort of</em> biologically immortal</a>. In short, lobsters produce more of the enzyme telomerase than humans and other animals, which rejuvenates their <a href="https://en.wikipedia.org/wiki/Telomere">telomeres</a>, which means that their cells can in theory keep on dividing forever.</p>
+<p>The telomeres are the genetic bits (feeling quite punny today; nucleotides TTAGGG in vertebrates, apparently) protecting the ends of your chromosomes. Every time cells divide, the child cells have slightly shortened telomeres. At some point, the telomere becomes too short, and that line of cells can’t divide anymore.</p>
+<p>This is a large part of how most animals finally die: Our cells can only divide so many times, and then the telomere ends, and then someone switches on the bright lights, and then the whole party is over.</p>
+<p>However, the enzyme telomerase is able to repair telomeres, thus extending the lifetime of the organism.</p>
+<p>Lobsters naturally produce so much telomerase, that their cells can keep on dividing forever. In practice, lobsters apparently only grow in size, strength and reproductive ability as they age.</p>
+<p>Unfortunately, their party also eventually ends. As they grow, they have to molt their suddenly too small exoskeleton. As they get bigger, this process takes more and more energy, until the day comes that they have grown so large (<a href="https://www.smithsonianmag.com/science-nature/dont-listen-to-the-buzz-lobsters-arent-actually-immortal-88450872/">12 kg in one instance</a>) so that the attempted molting, due to disease, is a fatal process.</p>
+<p>Intriguingly, <a href="https://www.ucsf.edu/news/2013/09/108886/lifestyle-changes-may-lengthen-telomeres-measure-cell-aging">a 2013 study</a> showed that lifestyle changes such as diet, exercise, stress reduction (including meditation) and social support, boosted telomerase activity and significantly increased telomere length in human subjects.</p>
+<h1 id="your-brain-not-at-work">Your brain (not) at work</h1>
+<p>On the recommendation of a colleague who is most versed in these things, I am currently reading the book <a href="https://www.amazon.com/Your-Brain-Work-Strategies-Distraction-ebook/dp/B002Q1YE3K/ref=sr_1_1?ie=UTF8&amp;qid=1517170057&amp;sr=8-1&amp;keywords=your+brain+at+work">“Your Brain at Work: Strategies for Overcoming Distraction, Regaining Focus, and Working Smarter All Day Long”</a> by David Rock.</p>
+<p>While the author clearly has not yet read any books on Coming Up With Shorter Book Titles, he has put together a compelling piece on the extreme limitations of the human <a href="https://en.wikipedia.org/wiki/Prefrontal_cortex">prefrontal cortex</a>. These are the bits that we use for important thoughts and for solving tricky technical puzzles.</p>
+<p>I thought that I just naturally had the attention span of a <a href="https://en.wikipedia.org/wiki/Budgerigar">budgie</a> (which I continuously try my best to compensate for by the gnashing of teeth, will power, and <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">various other tricks</a>), but it turns out it’s a basic human limitation.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/Melopsittacus_undulatus_-Fort_Worth_Zoo-8a-4c.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/Melopsittacus_undulatus_-Fort_Worth_Zoo-8a-4c-1024x1024.jpg"
+        
+            alt="A pretty budgie which will probably distract you from the contents of this post. FOCUS!"/> </a><figcaption>
+            <p>A pretty budgie which will probably distract you from the contents of this post. FOCUS!</p>
+        </figcaption>
+</figure>
+</p>
+<p>If all of the neuroscientists he has interviewed can be believed, we are severely limited both in terms of the number of thoughts / ideas we can handle at any one time, and, to me far more frighteningly, in terms of the total time we have available for this sort of complex work.</p>
+<p>The prefrontal cortex is relatively-speaking quite inefficient, and gets exhausted really quickly. Remember the last time you spent the evening trying to figure out how to get all of your children to their various activities during the week, and how unexpectedly difficult that was? (if no children, please replace this example with something more familiar to you :) Your prefrontal cortex was probably already exhausted by 15:00 in the afternoon (if not earlier), and you were in effect beating a dead neural horse.</p>
+<p>Sometimes you wake up the next morning, and you solve that exact same puzzle in 3 minutes, at which point you might have already exhausted your cognition quota, and might as well stay at home for the rest of the day.</p>
+<p>Because the capacity and bandwidth of the prefrontal cortex can’t (yet?) be significantly improved, the book recommends that one carefully monitors oneself, taking breaks when necessary, single-tasking, and practising any often-occurring tasks until they become automatic, at which point the much more efficient <a href="https://en.wikipedia.org/wiki/Basal_ganglia">basal ganglia</a> take over.</p>
+<p>Apart from this, the prefrontal cortex works at its best when you are slightly stressed, but not too much, and when you are slightly happy (with novelty and dopamine), but not too much. Too stressed, and it freezes up like a deer in the headlights of a rapidly approaching car. Too happy, and it just hangs around enjoying the vibes, not really producing anything.</p>
+<p>I still have to finish the book, but it has already motivated me to continue on my quest to automate and script as much of my life and work as possible. For example, for the daily goals list mentioned in <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">pro-tip #1 of WHV #126</a> I have a keyboard shortcut in Emacs which creates the relevant section in the correct part of my journal, correctly timestamped, and pre-filled with one or two habits I am trying to form, ready to accept the rest of the goals for the day. I used to think examples like this were perhaps going a little too far, but I now keep my eyes open for any task or activity that can be partially or fully automated. (Some even refer to <a href="http://irreal.org/blog/?p=6641">Emacs Orgmode</a> as their exocortex.)</p>
+<p>On the topic of lists, the book mentions prioritisation as one of the more cognitively taxing activities we can engage in, so it makes even more sense to take care of it first thing in the morning, and to do this as efficiently as possible.</p>
+<p>More broadly speaking, I think having <em>instant</em> access to documented and <em>executable</em> conventions for most of one’s tasks and projects would help greatly to free up the precious little prefrontal quality time we are allotted.</p>
+<p>Even more broadly speaking, it seems we need to practise how to <em>listen</em> more carefully to our brain so that we are able to guide it through the treacherous waters of exhaustion, stress and happiness.</p>
+<h1 id="the-part-where-i-wish-you-a-good-journey">The part where I wish you a good journey</h1>
+<p>Thank you very much for reading this post. I hope you have a week filled with learning, challenges surmounted and a solid dose of contentment.</p>
+<p>See you next time!</p>
+]]></content:encoded></item></channel></rss>

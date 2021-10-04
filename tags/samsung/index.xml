@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>samsung on voices in my head</title><link>https://cpbotha.net/tags/samsung/</link><description>Recent content in samsung on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 21 Jan 2017 13:05:42 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/samsung/index.xml" rel="self" type="application/rss+xml"/><item><title>Samsung Gear Fit 2 voice guide at intervals not working at all: The Fix.</title><link>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</link><pubDate>Sat, 21 Jan 2017 13:05:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</guid><description> Update 2017-05-02: As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.
+This is a really short note to help other people trying to get their broken Samsung Gear Fit 2 voice “guide at intervals” to work.</description><content:encoded><![CDATA[ <p><strong>Update 2017-05-02:</strong> <em>As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.</em></p>
+<p>This is a really short note to help other people trying to get their broken Samsung Gear Fit 2 voice “guide at intervals” to work.</p>
+<p>In short, by activating the “guide at intervals” function on the Gear Fit 2, you can get a synthesised voice to give you all kinds of stats while you are running with bluetooth earphones. In my case, I set it up to give me distance, pacing and heart rate information every 0.5 km. This helps me to control my pace and extend my run.</p>
+<p>After a recent phone swap, my Gear Fit 2 stopped giving me any kind of voice guidance. The music would continue playing, but at the first 0.5 km point when the voice guidance should have piped up, the watch would jump back to the watch face, instead of staying in the exercise app.</p>
+<p>As seems to be par for the course with the Gear Fit 2, this was highly frustrating behaviour, with no help from the phone user interface or any of the Samsung documentation.</p>
+<p>After some <a href="https://us.community.samsung.com/t5/user/viewprofilepage/user-id/6831718">to-and-fro on the Samsung forums</a>, Dutch user BarryNL came up with the answer.</p>
+<p>It turns out that if the phone language is set to anything other than “English (US)”, the voice guidance seems to crash the running app, dumping you at the watch face during your run.</p>
+<p>I switched my phone from “English (South African)” to “English (US)”, rebooted the phone, then rebooted the Gear Fit 2, and finally went out for a quick test walk.</p>
+<p>Samsung Gear Fit 2 voice guide at intervals was back!</p>
+<p>I am really happy to have this core feature back, and to have the exercise app stay active until the end of my run. However, this undocumented behaviour, as well as the fact that the watch, which has more than enough processing power and a beautiful display, does not give any kind of feedback to help the user correct the issue, makes for an extremely frustrating experience.</p>
+]]></content:encoded></item><item><title>Fixing the Samsung Gear Fit 2 GPS lock delay when running without phone</title><link>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</link><pubDate>Sun, 15 Jan 2017 08:37:51 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</guid><description> For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.
+Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</description><content:encoded><![CDATA[ <p>For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.</p>
+<p>Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</p>
+<p>Judging by <a href="https://us.community.samsung.com/t5/forums/v3_1/forumtopicpage/board-id/wearabletech/thread-id/464/page/1">this 22 page thread on the Samsung community forums</a>, there are other users who were also less than happy that the Gear Fit 2 built-in GPS does not seem to work as advertised. Understandably, people bought the gadget in order to be able to go running without having to lug their smartphones along.</p>
+<p>Fortunately, it turns out the explanation is quite logical, although Samsung really has to do better to communicate this to their users.</p>
+<h1 id="why-does-mygear-fit-2-take-so-long-to-acquirea-gps-lock">Why does my Gear Fit 2 take so long to acquire a GPS lock?</h1>
+<p>In short, at the start of my run, my smartphone was lying on my desk one floor up. At that point the Gear Fit 2 still had a bluetooth connection to the phone, and it was planning to use the phone GPS instead of its built-in unit. As far as I know, the gadget’s use of the phone’s GPS is not well known.</p>
+<p>As the distance between me and the office building increased, the Gear Fit 2 obviously lost the bluetooth connection to the smartphone. With the current firmware (R360XXU1BPL1 at the time of writing), it takes the Gear Fit 2 about 0.5 km to realise that the connection is really lost, and that it should switch to its built-in GPS.</p>
+<p>This as all pretty logical, but highly frustrating when you don’t know what’s going on. Samsung clearly has to do better.</p>
+<h1 id="the-fix">The Fix</h1>
+<p>Knowing what the issue is makes the fix pretty straight-forward.</p>
+<p>Before starting your run, disable bluetooth on your smartphone, and wait for the Gear Fit 2 to register loss of the connection. It should vibrate on your wrist, and then show a little rectangle at the top right of the display, like this:<figure id="attachment_2749" aria-describedby="caption-attachment-2749" style="width: 184px" class="wp-caption alignnone"></p>
+<p><img data-attachment-id="2749" data-permalink="https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/img_20170115_0925427/" data-orig-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427.jpg" data-orig-size="2250,3678" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;PRIV&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484472342&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.75&quot;,&quot;iso&quot;:&quot;676&quot;,&quot;shutter_speed&quot;:&quot;0.033333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_20170115_0925427" data-image-description="" data-medium-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg" data-large-file="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-626x1024.jpg" class="size-medium wp-image-2749" src="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg" alt="" width="184" height="300" srcset="https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-184x300.jpg 184w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-768x1255.jpg 768w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-626x1024.jpg 626w, https://cpbotha.net/wp-content/uploads/2017/01/IMG_20170115_0925427-1200x1962.jpg 1200w" sizes="(max-width: 184px) 85vw, 184px" /><figcaption id="caption-attachment-2749" class="wp-caption-text">Samsung Gear Fit 2 should recognise that it has lost connection with the phone, as shown by the rectangle at the top right.</figcaption></figure></p>
+<p>You can now start the exercise app and then start your run.</p>
+<p>This morning, my Gear Fit 2 acquired a GPS lock almost instantly. You can see this by <strong>the location icon which briefly flashes and then stays on</strong> (it’s very important that you ensure that it stays on before running off), and by the fact that the on-screen distance gauge (you only see the distance gauge if you have set a distance target) starts climbing immediately.</p>
+<p>(Update: I’ve had more runs since. Sometimes the GPS struggles for half a minute or more to get a lock, with the location icon remaining in the flashing state. In these cases, I sometimes stop the run, and start over, until that damned flashing location icon goes stable. Frustrating.)</p>
+<h1 id="samsung-gear-fit-2-even-casual-runners-should-think-twice">Samsung Gear Fit 2: Even casual runners should think twice.</h1>
+<p>For the price, the Samsung Gear Fit 2 packs a lot of features.</p>
+<p>However, between this undocumented (as far as I can see) and sometimes plain frustrating GPS behaviour, the voice guidance which breaks easily and mysteriously (see <a href="/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/">another post of mine on that issue and how to fix it</a>), and the battery life (a 40 minute run with music and GPS can use up 30% to 40% of the battery), slightly more serious casual runners (strange category, I know) might want to consider carefully their alternatives.</p>
+]]></content:encoded></item><item><title>Review: Awei A990-BL Wireless Sport Bluetooth Earphones – Avoid!</title><link>https://cpbotha.net/2016/12/20/review-awei-a990-bl-wireless-sport-bluetooth-earphones-avoid/</link><pubDate>Tue, 20 Dec 2016 11:33:19 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/20/review-awei-a990-bl-wireless-sport-bluetooth-earphones-avoid/</guid><description> Due to my terrible running addiction, my recent acquisition of the Samsung Gear Fit 2 sports tracker watch, and the mechanical incompatibility of the Bluedio Ci3 earphones with my ears, I was again in the market for a new set of bluetooth earphones. (The earphones are not only to listen to MP3s on the watch, but more importantly, to hear the pacing information communicated by the watch’s terrible synthesised voice.)</description><content:encoded><![CDATA[ <p>Due to my terrible running addiction, my recent acquisition of the Samsung Gear Fit 2 sports tracker watch, and the mechanical <a href="/2016/11/15/the-bluedio-ci3-bluetooth-earphones-will-probably-not-fit-your-ears-either/">incompatibility of the Bluedio Ci3 earphones with my ears</a>, I was again in the market for a new set of bluetooth earphones. (The earphones are not only to listen to MP3s on the watch, but more importantly, to hear the pacing information communicated by the watch’s terrible synthesised voice.)</p>
+<p>After some scratching around on <a href="http://www.takealot.com/">Takealot.com</a>, our otherwise wonderful local Amazon-analogue, I settled on the Awei A990-BL Wireless Sport Bluetooth Earphones.</p>
+<p>After just under a month of real-world testing of these earphones (that is, running with them a few times a week, they are “sport” earphones after all), punctuated by disappointing performance and some mechanical breakage, and culminating in complete hardware failure, I can make only this very simple recommendation:</p>
+<blockquote>
+<p>DO NOT under any circumstances buy the Awei A990-BL Wireless Sport Bluetooth Earphones. They have attained the rarely awarded “cpbotha.net THREE (3) thumbs down, avoid at all costs” review.</p>
+</blockquote>
+<h1 id="a-complete-set-of-accessories">A complete set of accessories</h1>
+<p>I was pretty happy when the the earphones arrived on November 15, right on time, and with a pretty complete set of accessories:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/20161116_095902.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/20161116_095902-1024x576.jpg"
+        /> </a>
+</figure>
+
+<p>None of the three sets of silicone earbuds were large enough for my ears, an issue that was easily solved by using a set of my old Sennheiser buds. My last Skullkandy earphones had the same issue, so I’m ascribing it to my anatomy and not to Awei.</p>
+<h1 id="ear-clips-break-easily">Ear clips break easily</h1>
+<p>During the first run with these earphones in the wind (when one also really notices how the control unit, a few centimetres from one’s right ear, can really flop around), I realised that the curved ear hooks were definitely necessary. For the next few runs, I had them clipped onto the earphones and they made a huge difference keeping music in my ears.</p>
+<p>However, at the start of another run, I slight re-adjustment of the hooks relative to the earphones caused both of the earbud attachment bits to break clean off, rendering these accessories completely useless. I used a reasonable amount of force, and have to conclude that these clips are just not well made:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/IMG_20161204_0809504.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/IMG_20161204_0809504-768x1024.jpg"
+        /> </a>
+</figure>
+
+<h1 id="bluetooth-transmission-hiccups">Bluetooth transmission hiccups</h1>
+<p>Besides the breakage, I also noticed from the start regular little breaks in the music transmission from the Gear Fit 2 to my ears. It’s possible that these were somehow caused by the unit’s movement during my exercise. I take this opportunity to remind the reader of the “sport” classification of this Awei product.</p>
+<p>It could also be that the Gear Fit 2’s bluetooth implementation is sub-par, but, unlike the Awei, it’s an a-list product. In the following weeks I will be able to test this hypothesis with alternative hardware.</p>
+<h1 id="complete-hardware-failure">Complete hardware failure</h1>
+<p>About 25 calendar days after purchase, the unit spontaneously died during a run, a disappointment in itself. At first I thought that it was simply the battery that was exhausted. However, no amount of charging back home could revive the earphones.</p>
+<p>My Awei A990-BL earphones remain completely dead to this day.</p>
+<h1 id="quo-vadis-emptor">Quo vadis emptor?</h1>
+<p>After two failed attempts, first with the Bluedio Ci3 and then with these Awei headphones, I have decided to go a different route with the <a href="http://www.androidcentral.com/hands-samsung-level-link-wireless-adapter">Samsung Level Link bluetooth adapter</a>.</p>
+<p>I’ll be able to use any wired earphones (at a much better price-performance ratio, and also much easier to replace) and just plug them into the Samsung Level Link, which will connect wirelessly to the Gear Fit 2.</p>
+]]></content:encoded></item><item><title>Samsung’s 960 Pro M.2 NVME SSD is lightning fast in synthetic benchmarks, not so much in real-world.</title><link>https://cpbotha.net/2016/11/21/samsungs-960-pro-m-2-nvme-ssd-is-lightning-fast-in-synthetic-benchmarks-not-so-much-in-real-world/</link><pubDate>Mon, 21 Nov 2016 07:54:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/21/samsungs-960-pro-m-2-nvme-ssd-is-lightning-fast-in-synthetic-benchmarks-not-so-much-in-real-world/</guid><description> Samsung’s 960 Pro M.2 NVME SSD is lust-worthy:
+Two Samsung 960 Pro M.2 NVME SSDs. Photo by Edward Chester at Ars Technica. In Ars Technica’s benchmarks, the 512 GB model clocked in at over 3500 megabytes per second sequential read and 2000 megabytes per second sequential write. Those are jaw-dropping performance numbers.
+What I find really interesting however, is that the 960 Pro does not perform much better than the previous generation 850 Pro SATA SSD in PCMark 7 and 8 real-world benchmarks.</description><content:encoded><![CDATA[ <p>Samsung’s 960 Pro M.2 NVME SSD is lust-worthy:</p>
+<figure class="wp-caption alignnone" style="width: 980px">
+<img height="551" src="https://cdn.arstechnica.net/wp-content/uploads/2016/10/960proheader-980x551.jpg" width="980"/><figcaption class="wp-caption-text">Two Samsung 960 Pro M.2 NVME SSDs. Photo by Edward Chester at Ars Technica.</figcaption></figure> 
+<p>In <a href="http://arstechnica.com/gadgets/2016/10/samsung-960-pro-review-the-fastest-consumer-ssd-you-can-buy/">Ars Technica’s benchmarks</a>, the 512 GB model clocked in at over 3500 megabytes per second sequential read and 2000 megabytes per second sequential write. Those are jaw-dropping performance numbers.</p>
+<p>What I find really interesting however, is that the 960 Pro does not perform much better than the previous generation 850 Pro SATA SSD in PCMark 7 and 8 real-world benchmarks. (Random IOPS performance of the drive is also really good.)</p>
+<p>The implication is that most normal users will not subjectively experience much difference in speed between the 960 Pro and the older, much cheaper, model.</p>
+<p>Does this mean that we have reached some sort of theoretical limit where increases in drive speed simply do not impact normal computing activities anymore (some sort of performance plateau), or are there changes conceivable to the rest of our hardware and software to increase the effect of drive speedups?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #96: Never gonna give you up.</title><link>https://cpbotha.net/2015/08/03/weekly-head-voices-96-never-gonna-give-you-up/</link><pubDate>Mon, 03 Aug 2015 20:17:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/08/03/weekly-head-voices-96-never-gonna-give-you-up/</guid><description> The week has resulted in a terribly nerdy list of bullets. READ AT YOUR OWN RISK! (there’s a beer recommendation or three at the end to compensate)
+It turns out that the terrible Samsung trim bug which would eat all of your data, as discovered by Algolia, was a Linux kernel bug after all (now patched by Samsung) and that it would only affect RAID setups. Let’s hope there are no surprising new turning outs.</description><content:encoded><![CDATA[ <p>The week has resulted in a terribly nerdy list of bullets. READ AT YOUR OWN RISK! (there’s a beer recommendation or three at the end to compensate)</p>
+<ul class="org-ul">
+<li>
+    It turns out that the terrible Samsung trim bug which would eat all of your data, <a href="https://blog.algolia.com/when-solid-state-drives-are-not-that-solid/">as discovered by Algolia</a>, was <a href="http://www.spinics.net/lists/raid/msg49468.html">a Linux kernel bug after all</a> (now patched by Samsung) and that it would only affect RAID setups. Let’s hope there are no surprising new turning outs.
+  </li>
+<li>
+    Found out that the fastest ADSL lines available at my new place are a whole 2 Mbit/s. We’ve called off the transaction and we’re now searching for a new house.
+  </li>
+<li>
+    I’m joking. It <b>was</b> really shocking however to consider the world as seen through a 2 Mbit/s connection. Now it seems that I will soon be entering the wonderful world of 5 GHz wireless connectivity, which should give me a fast enough connection, at least until fibre is rolled out in the year 3047.
+  </li>
+<li>
+    Started watching <a href="http://www.imdb.com/title/tt4158110/">Mr Robot</a>. I don’t normally do series, but the pilot was just <i>that</i> good. I like the story, I really like the socially very strangely adjusted hacker protagonist and I love the cinematography. Up to episode 3, I give it 4 out of 5 Linux Distributions!
+  </li>
+<li>
+    Continued fighting with OSX to get it completely working with my Dvorak and Emacs keybindings, also in Java apps such as IntelliJ IDEA. <a href="http://cpbotha.net/2015/07/19/weekly-head-voices-94-into-the-wild/">Two weeks ago I mentioned karabiner</a> as a solution to most of these problems. The final piece of the puzzle was unbinding keys like <code>Alt+W</code> (or <code>Mod+W</code> as Apple calls it) in <code>~/Library/KeyBindings/DefaultKeyBinding.dict</code> to prevent OSX from turning it into a \(\Sigma\) (sigma); as everyone knows, <code>M-w</code> is the Emacs shortcut for copying the selected region! You can use this trick to prevent OSX from turning any of the other <code>Mod</code> combos into completely unwanted special characters. (My base dict file is <a href="http://www.hcs.harvard.edu/~jrus/Site/cocoa-text.html">that of Jacob Rus</a>.)
+  </li>
+<li>
+    I guess OSX only Just Works(tm) if your time is worth nothing. Err…
+  </li>
+<li>
+    My <a href="https://github.com/kivy/kivy/pull/3506">first Kivy pull request</a>, a fix for a Mac-bug (go figure), was recently merged into <a href="http://kivy.org/">master</a>. I’ve been using Kivy in the third or fourth generation of my current and probably longest running side project.
+  </li>
+<li>
+    I’ve also been screencasting some of my night-time coding sessions using one of the more prominent livecoding sites (bonus points if you can find these sleep-inducing performances). It has been an interesting and strange experience programming with people watching over one’s shoulder as it were.
+  </li>
+<li>
+    On Sunday, I ended up at the <a href="http://www.root44.co.za/index.php">Root44 Market</a> in Stellenbosch for another of those really terrible balmy winter days. I had so much fun in the sun, tasting <a href="http://www.devilspeakbrewing.co.za/first-light-golden-ale/">Devil’s Peak First Light Golden Ale</a> and their <a href="http://www.devilspeakbrewing.co.za/kings-blockhouse-ipa/">King’s Blockhouse IPA</a>, and <a href="http://stellenbrau.co.za/beers/">Stellenbrau’s Craven Lager</a>, all from the tap, that I forgot to take a photo of the beautiful surroundings.
+  </li>
+</ul>
+<p>Have a beautiful week dear readers! Just remember, <em>I’m never gonna give you up.</em></p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/v4_M5PcJQmU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=45&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+Well, yesterday I ate my hat.
+If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
+<p>Well, yesterday I ate my hat.</p>
+<p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
+]]></content:encoded></item><item><title>New Samsung NP300V3A laptop is welcomed into the family!</title><link>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</link><pubDate>Tue, 16 Aug 2011 11:03:53 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</guid><description> It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In July of 2002 it was Dr. Evil, more a brick than a laptop, in May of 2004 it was my beloved 14″ HP NC6000 laptop, in July of 2006 I met my 15.4″ HP NC8430 (employer-supplied, thank you employer!), which in turn led to this Ubuntu-critical blog post of mine that attracted 50000 (yes, fifty thousand) readers over 2 days, in July of 2008 I splurged on a lovely quad core desktop machine, in September of 2009 I acquired an Asus 1005HA-H netbook, and in November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop.</description><content:encoded><![CDATA[ <p>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/" title="dr evil laptop">July of 2002 it was Dr. Evil</a>, more a brick than a laptop, in <a href="http://cpbotha.net/2004/05/26/laptop-no-2/" title="NC6000 post">May of 2004 it was my beloved 14″ HP NC6000 laptop</a>, in <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/" title="nc8430 post">July of 2006 I met my 15.4″ HP NC8430</a> (employer-supplied, thank you employer!), which in turn led to <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="15 seconds of blog fame">this Ubuntu-critical blog post of mine</a> that attracted 50000 (yes, fifty thousand) readers over 2 days, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="bees blog post">in July of 2008 I splurged on a lovely quad core desktop machine</a>, in <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/" title="asus 1005HA-H netbook">September of 2009 I acquired an Asus 1005HA-H netbook</a>, and in <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/" title="dell e6410 post">November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop</a>.</p>
+<p>Today I welcomed the latest and probably prettiest laptop so far into the family:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2011/08/samsung_np300v3a.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2011/08/samsung_np300v3a.jpg"
+        
+            alt="Pretty Samsung NP300V3A-S01NL laptop!"/> </a><figcaption>
+            <p>Pretty Samsung NP300V3A-S01NL laptop!</p>
+        </figcaption>
+</figure>
+</p>
+<p>Behold the <a href="http://tweakers.net/pricewatch/286118/samsung-np300v3a-s01nl.html" title="tweakers pricewatch page for the Samsung NP300V3A-S01NL">Samsung NP300V3A-S01NL (Series 3)</a>. It has an absolutely gorgeous-to-type-on chiclet keyboard, a 13.3″ matte (!) display, NVIDIA GT520m graphics with Optimus, second-gen Core i5 2410m, 4G RAM and 500G disc, all for a terribly reasonable price, which is important, as this one is not employer-bought. A man needs a laptop like this for his top-secret personal biznizz, yes?</p>
+<p>It’s running Windows Home Premium, so I have to use Truecrypt instead of EFS for encrypting my biznizz, which is stored mostly in my Dropbox pro account. The battery life is quite impressive probably due in part to Optimus switching. The drawback of this is that I probably won’t be putting Linux on here anytime soon. These days you can use both the graphics adapters in Linux, but both of them stay active all the time, so it kills the battery really quickly.</p>
+<p>We learn at least two more things from this post:</p>
+<ol>
+<li>I do seem to exhibit a certain obsessive compulsive behaviour when it comes to keeping track of the arrival dates of the various computers in my life.</li>
+<li>When spring comes around, hide my credit card.</li>
+</ol>
+<p><em>Update on May 2, 2012:</em> I have just eaten my hat. Ubuntu Linux 12.04 with Bumblebee runs just wonderfully on this laptop. Read all about it in <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="vxlabs blog post reviewing ubuntu 12.04 on the samsung np300v3a">my VXLabs blog post</a>.</p>
+]]></content:encoded></item></channel></rss>

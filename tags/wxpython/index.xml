@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wxPython on voices in my head</title><link>https://cpbotha.net/tags/wxpython/</link><description>Recent content in wxPython on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 25 Feb 2018 21:15:42 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/wxpython/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #133: Onder in my Whiskeyglas.</title><link>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</link><pubDate>Sun, 25 Feb 2018 21:15:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</guid><description> The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.
+What a week.
+It was beautiful to see the whole team step up to the plate and engineer at about 110% throughput (software gets complicated quickly, and there&amp;rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3288.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3288.jpg"
+        
+            alt="The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week."/> </a><figcaption>
+            <p>The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.</p>
+        </figcaption>
+</figure>
+
+<p>What a week.</p>
+<p>It was beautiful to see the whole team step up to the plate and <em>engineer</em> at about 110% throughput (software gets complicated quickly, and there&rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</p>
+<h2 id="pro-tip-special">Pro-tip Special</h2>
+<p>I was of course the lucky winner of the manual-writing sub-project. I love writing code, but there&rsquo;s also something quite satisfying about writing documentation for a technical product. Anyways, there are five tiny but hopefully useful lessons I extracted from this exercise which I would like to present here:</p>
+<ol>
+<li><a href="https://vxlabs.com/2011/08/28/a-windows-console-that-does-not-suck/">I&rsquo;ve lamented the sorry state of the Windows console before</a> (in 2011 to be exact). In a surprise twist, the Windows console still sucks almost 7 years later. At least it&rsquo;s reliable. Anyways, <a href="http://cmder.net/">cmder is a great console replacement</a> which makes some of the stupid go away, somewhat.</li>
+<li>The Windows 10 built-in screenshot facility … wait for it… sucks. When you&rsquo;re writing documentation you need a tool that fits into your workflow. Keyboard shortcut – window or region – image ends up in a directory of your choice. <a href="http://getgreenshot.org/">Greenshot is an open source screenshotting tool</a> that does this with aplomb.</li>
+<li>You need to show a CHM (Windows Help) file to the user of your wxPython application when they hit F1. How hard could it be? Well, you could spend a number of hours trying to come up with a wx-y cross-platform solution, or you could use that time for something else worth your while and just use the <a href="http://docs.activestate.com/activepython/3.3/pywin32/win32help__HtmlHelp_meth.html">Python win32 package to call into the official Windows help API</a>. (cross-platform does work, it&rsquo;s just really ugly)</li>
+<li><a href="http://www.sphinx-doc.org/en/master/">Sphinx</a> is a much better tool to write technical manuals than is Markdown and related tools. I briefly considered Markdown because I always have to look up reStructuredText syntax, but fortunately ran into enough other places <a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/">warning against using Markdown for documentation</a>. For the record, I prefer orgmode over all of these puny formats in most other cases, but the documentation story of Sphinx with reStructuredText is admittedly much better.</li>
+<li>Start writing the manual as early as possible. It was amazing to see how this helped me to see the software we are designing at a more integrated (user) level. This knowledge was useful in driving more valuable improvements. If you can&rsquo;t explain the flow of some procedure in a manual, that&rsquo;s a good sign the procedure might need some refinement.</li>
+</ol>
+<h2 id="humble-book-bundle-and-rust">Humble Book Bundle and Rust</h2>
+<p>I bought the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle of (O&rsquo;Reilly) Functional Programming Books</a> for a super affordable $15. I was primarily interested in the <a href="http://shop.oreilly.com/product/0636920040385.do">Programming Rust book by Blandy and Orendorff</a>, but the other titles on Scala, Clojure, Erlang, Elixir, Haskell, Javascript and general functional programming are welcome additions to my library. Speaking of which, I emailed O&rsquo;Reilly to ask if the books in the bundle could be added to my member library, which they promptly did!</p>
+<p>I have avoided Rust up to now due to natural hype suppression circuitry, and because I grew up with C++, but its zero-overhead memory safety and trustworthy concurrency story makes it hard to ignore any longer. Even although <a href="https://www.quora.com/Which-language-has-the-brightest-future-in-replacement-of-C-between-D-Go-and-Rust-And-Why/answer/Andrei-Alexandrescu">Andrei Alexandrescu once called Rust the language that skips leg day</a>, it&rsquo;s certainly interesting seeing the constructs the language designers have come up to build a really fast compiled language with the lowest number of foot-guns per line of code.</p>
+<p>Anyways, when this blog gets published, you should still have about 22 hours to make use of the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle deal</a> if you too see something that you like.</p>
+<h2 id="life-is-continuous-practice">Life is continuous practice</h2>
+<p>I wanted to conclude with something that I&rsquo;ve been thinking about recently. It has to do with explicitly treating one&rsquo;s life as <em>continuous practice</em>. As I&rsquo;ve mentioned before on this blog and people much smarter than me have been pointing out since forever, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">goals are no good</a> and (lasting) <a href="/Weekly-Head-Voices-125/#Happy-Not-Happy">happiness is probably not attainable</a>.</p>
+<p>Discarding as many as possible of these sorts of fetters is liberating (you Buddhist), but can seem to leave holes in one&rsquo;s  life narrative. However, treating your life as a super long practice session is an interesting perspective.</p>
+<p>There is also no end point, and no real life goal.</p>
+<p>The only point of the whole exercise (yes, I see what I did there) is to try to improve continuously. Every day, we try to become a little better at our jobs, or at running, or at being a good human, or a partner, or a parent.</p>
+<p>Practice means that you have good days and bad days. It means that you sometimes look back and think that you were a better person then than you are now. Practice means that when you pick one activity, another will temporarily languish until you can make time for it again.</p>
+<p>All of this is ok, because tomorrow you have a whole new day to try again.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #127: Readers are leaders.</title><link>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</link><pubDate>Sun, 14 Jan 2018 10:28:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</guid><description> Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.
+This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project. Had to make screencast to demonstrate milestone deliverable of above-mentioned main project.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/gou1_bettys_bay_beach.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/gou1_bettys_bay_beach-1024x576.jpg"
+        
+            alt="Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11."/> </a><figcaption>
+            <p>Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project.</li>
+<li>Had to make screencast to demonstrate milestone deliverable of above-mentioned main project. Making screencasts is <a href="https://www.youtube.com/user/cpbotha">an obscure but longstanding hobby of mine</a>, but I needed to level up slightly, so the business bought me <a href="https://www.telestream.net/screenflow/">ScreenFlow 7.2</a>. For the first time ever, I recorded the screencast in multiple segments and did the voice-over later. Soon these new skillz will trickle down to my publically available screencasts.</li>
+<li>On that topic, having a good microphone is crucial, not only for screen recordings but also for video meetings. I recently acquired the <a href="http://www.samsontech.com/samson/products/microphones/usb-microphones/gomic/">Samson Go Mic</a> to complement my larger <a href="http://www.samsontech.com/samson/products/microphones/usb-microphones/gomic/">Samson C01U</a>. The Go is brilliant: Recorded voice quality comes close to the C01U in spite of the Go’s compact form factor, and it has a hardware switch to select either of the the built-in omni-directional, for meetings, or cardioid, for more dedicated voice recording, microphone elements.</li>
+<li>Ironically, an ex-colleague posted <a href="https://washingtonmonthly.com/magazine/january-february-march-2018/how-to-fix-facebook-before-it-fixes-us/">“How to Fix Facebook—Before It Fixes Us”</a> on Facebook, a long and worthwhile read on how FB is used to spread fake news that effectively manipulates public opinion, and what should be done to remedy this. Here is a choice quote to get you started:</li>
+</ul>
+<blockquote>
+<p>We still don’t know the exact degree of collusion between the Russians and the Trump campaign. But the debate over collusion, while important, risks missing what should be an obvious point: Facebook, Google, Twitter, and other platforms were manipulated by the Russians to shift outcomes in Brexit and the U.S. presidential election, and unless major changes are made, they will be manipulated again. Next time, there is no telling who the manipulators will be.</p>
+</blockquote>
+<ul>
+<li>In the same vein, I continuously try to spend as few as possible minutes on YouTube, but the one thing I will definitely continue watching is <a href="https://users.cg.tuwien.ac.at/zsolnai/">Károly Zsolnai-Fehér’s</a> brilliant <a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg">Two Minute Papers channel</a>! Most recently, his treatment of <a href="https://arxiv.org/pdf/1711.09784.pdf">Distilling a Neural Network Into a Soft Decision Tree</a>, a paper by Nicholas Frost and Geoffrey Hinton, caught my interest. In this, they address the problem of neural network explicability (it’s hard saying at a higher level <em>why</em> a neural network makes a particular decision) by deriving a soft decision tree from that trained neural network. The tree is not as accurate as the network, but is able to give plausible explanations for the network’s decisions. See the 4 minute long two minute paper video (hehe) here:</li>
+</ul>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/zjaz2mC1KhM?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<ul>
+<li>I came across the following on reddit, again quite ironically, and I have since taken to saying it to my genetic offspring units (GOUs) at every possible opportunity:</li>
+</ul>
+<blockquote>
+<p>Readers are leaders!</p>
+</blockquote>
+<p>Have a great week readers, I hope to see you again really soon!</p>
+]]></content:encoded></item><item><title>wxPython lovin’</title><link>https://cpbotha.net/2003/03/10/wxpython-lovin/</link><pubDate>Mon, 10 Mar 2003 00:47:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/03/10/wxpython-lovin/</guid><description> In other news, I was able to put time in on Friday and do some
+PyColourChooser hacking. Michael Gilfix (the author) has integrated my patches. You know it’s a good patch when it removes far more code than it adds, yet increases the functionality. :)
+I’m still wondering why wxWindows doesn’t wrap the GTK colour wheel though. The wxWindows generic colour selector (used on GTK setups) isn’t worth the photons it was coded with.</description><content:encoded><![CDATA[ <p>In other news, I was able to put time in on Friday and do some</p>
+<p><a href="https://github.com/svn2github/wxPython/blob/master/Phoenix/trunk/wx/lib/colourchooser/pypalette.py#L145">PyColourChooser hacking</a>. Michael Gilfix (the author) has integrated my patches. You know it’s a good patch when it removes far more code than it adds, yet increases the functionality. :)</p>
+<p>I’m still wondering why wxWindows doesn’t wrap the <a href="http://wxpython-users.1045709.n5.nabble.com/gtk-color-selection-td2289462.html">GTK colour wheel</a> though. The wxWindows generic colour selector (used on GTK setups) isn’t worth the photons it was coded with. PyColourChooser alleviates this deficiency in wxPython to some extent, but that durn colour wheel would have been nice too!</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tracker on voices in my head</title><link>https://cpbotha.net/tags/tracker/</link><description>Recent content in tracker on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 02 Apr 2018 08:13:12 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/tracker/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #138: Born to run.</title><link>https://cpbotha.net/2018/04/02/weekly-head-voices-138-born-to-run/</link><pubDate>Mon, 02 Apr 2018 08:13:12 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/04/02/weekly-head-voices-138-born-to-run/</guid><description> I am currently in a place with no to extremely little internet. Just getting the photo above uploaded was an adventure.
+I briefly debated breaking my current WHV posting streak due to exceptional circumstances, but decided against it, at least for now.
+Anyways, I might have no internet, but the scenery here is phenomenal.
+(It later turned out that just getting this blog post uploaded on Sunday evening was not going to happen.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/mystery_place.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/mystery_place-1024x575.jpg"
+        /> </a>
+</figure>
+
+<p>I am currently in a place with no to extremely little internet. Just getting the photo above uploaded was an adventure.</p>
+<p>I briefly debated breaking my current WHV posting streak due to exceptional circumstances, but decided against it, at least for now.</p>
+<p>Anyways, I might have no internet, but the scenery here is phenomenal.</p>
+<p>(It later turned out that just getting this blog post uploaded on Sunday evening was not going to happen.)</p>
+<h1 id="sometimes-focus-falls-and-slips-into-emacs">Sometimes focus falls and slips into Emacs</h1>
+<p>During the past week I had a fairly difficult technical puzzle to deal with. It’s one of those puzzles that can only be solved with multiple days of research and concerted focus.</p>
+<p>It’s funny how my mind manages to sort of slip away when faced with these sorts of puzzles where the solution, if it even exists (this is probably the main reason for the continual slippage), seems to be weeks away, instead of a few hours or days.</p>
+<p>It’s like a usually sharp(ish) knife which simply refuses to bite into the thing that I so desperately want to cut with it.</p>
+<p>In my specific case, especially later in the afternoons when prefrontal cortex is long-gone, mindlessly drinking its beer while staring into space somewhere, or even later in the evenings when everyone else is also drinking beer while staring into space, I wake up to find myself working on some obscure Emacs hack.</p>
+<p>This week, primary thought slippage resulted in:</p>
+<ul>
+<li>Hooking up my emacs, via <a href="http://pragmaticemacs.com/emacs/find-and-open-files-from-anywhere-with-helm-for-files/">helm-for-files</a> with mdfind (the command-line interface to spotlight) on macOS and the tracker file indexer on Linux. This means that with a simple press of the <code>C-x c o</code> keys, I can instantly open any file in Emacs which is already open somewhere, which I’ve recently worked on, whose filename faintly resembles what I’m typing, whose contents (or tags) faintly resembles what I’m typing, no matter where that file is hiding in the hundreds of gigabytes on my SSD.</li>
+<li>My efforts getting the above working for Linux are <a href="https://github.com/emacs-helm/helm/pull/2005">now part of helm</a>, via the wonderful system of github pull requests.</li>
+<li>Setting up <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">Emacs dired</a> to do rsync-based network copying in the background, which culminated in <a href="https://github.com/tmtxt/tmtxt-dired-async/pull/6">a github contribution</a> which will hopefully also find its way into the main repository soon. (I do most of my <strong>serious</strong> file management in Emacs dired. You should try it.)</li>
+</ul>
+<h1 id="the-running-people">The Running People</h1>
+<p>I finally bought <a href="http://www.chrismcdougall.com/born-to-run/">Born to Run by Christopher McDougall</a>.</p>
+<p>In between travelling and other activities, I was not able put this book down.</p>
+<p>As I was reading the final pages on Sunday morning, I had trouble keeping my eyes dry. I had connected with the story and all of its nested stories on so many levels.</p>
+<p>One strand of the story makes the case that humans, or more specifically homo sapiens, had evolved to run its prey down on the savannah.</p>
+<p>We are able to cool ourselves down during running thanks to being mostly hairless and sweaty, whereas an antelope is not able to pant while galloping, and has no choice but to stop.</p>
+<p>So the trick is simple: We can run fast enough to keep a galloping antelope in sight. Eventually it will lose the battle, overheat and collapse.</p>
+<p>This is what homo sapiens did for millions of years for food. <a href="https://en.wikipedia.org/wiki/Neanderthal"><em>Homo neanderthalensis</em></a>, our intelligent and stronger competition who used to dominate during colder times, had no chance.</p>
+<p>McDougall connects with a number of scientists and sports trainers to flesh out this part of the story. Below is an interesting (and related) video about Prof Daniel Liebermann and his work on the evolutionary biology and biomechanics of barefoot running:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7jrnj-7YKZE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>(Being internet-deprived, I’m not currently able to find one of the cited Nature papers discussing other elements of our biology underlining our running heritage. Remind me in the comments so I can update this later.)</p>
+<p>Another strand of the story is about the [Tarahumara of Mexico, also</p>
+<p>known as Rarámuri]<a href="https://en.wikipedia.org/wiki/Rar%C3%A1muri">7</a>, or The Running People, a legendary tribe of natural super athletes who are masters of avoiding other humans (due to past persecution and other shenanigans) and of running 30 miles in the mountains, in sandals.</p>
+<p><em>Even more intriguing than their home-made sandals, is that they run throughout their healthy lives with joy and exuberance.</em></p>
+<p>The final strand I want to mention here, is McDougall’s personal journey from injury-prone runner all the way to finally taking part in the very first edition of a gruelling 50 mile trail race (the centre-piece of the story I would argue), together with the world’s best ultra marathoners and the Taramuhara in the Copper Canyons of Mexico.</p>
+<p>For a large part of this journey, he and a number of other key actors are propelled along by <a href="https://en.wikipedia.org/wiki/Micah_True">Caballo Blanco</a>, the White Horse, a supernaturally gifted runner who lived off the land in the Copper Canyons, and one of the few foreigners who seemed to be completely accepted by the Taramuhara.</p>
+<p>Caballo is the one who managed to bring together, for the first time, the Taramuhara and the best ultra-marathoners in the small town of Urque for this humanity-affirming 50 mile trail run. He did so from his stone hut in the middle of nowhere, from where he would have to run for 30 miles to the closest settlement that had a telephone line that he could use.</p>
+<p>Often that line was down.</p>
+<p>Caballo passed away in 2012, shortly after the first Copper Canyon race. Shortly after, the race was officially dubbed the <a href="https://en.wikipedia.org/wiki/Ultramaraton_Caballo_Blanco">Ultramaraton Caballo Blanco.</a></p>
+<p>Right after I put the book down, I put on my shoes and went for a run</p>
+<p>up the mountain-side and in the valley over here. On the balls of my feet as they landed right under me, really small steps, straight back, trying my best to float over the earth, just like the running people in the book.</p>
+<p>I could not help but smile for most of the way.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

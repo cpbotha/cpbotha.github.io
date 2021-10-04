@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on voices in my head</title><link>https://cpbotha.net/tags/python/</link><description>Recent content in python on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 17 Jul 2018 07:22:30 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #148: Data stylist.</title><link>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</link><pubDate>Tue, 17 Jul 2018 07:22:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</guid><description> Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)
+This post covers the week from Monday July 9 to Sunday July 15.
+The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/07/drakenstein_trail.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/07/drakenstein_trail-1024x241.jpg"
+        
+            alt="Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)"/> </a><figcaption>
+            <p>Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)</p>
+        </figcaption>
+</figure>
+
+<p>This post covers the week from Monday July 9 to Sunday July 15.</p>
+<p>The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</p>
+<p>I will externalise some of these thoughts further down in this post.</p>
+<p>I’m starting with a weekend / running update, which should be reasonably safe for non-nerds to read. However, after that, the nerd dial will go up to 11 with stuff about tools and programming languages right up to the end of the post.</p>
+<p>I would have wanted to use the adjective “face-melting”, but I’m not sure if any intensity of nerdery could ever reach that level.</p>
+<p>We can dream.</p>
+<h1 id="weekend-running-update">Weekend running update</h1>
+<p>Most fortunately the weekend had other plans and supplied us with at least 2.5 parties, the first of which even culminated in a <em>ridiculously</em> fun trail run in the mountains on the winter morning after.</p>
+<p>The winter morning sun was just perfect, the company was great, and I had forgotten all forms of performance tracking devices at home.</p>
+<p>Readers with bionic eyes might notice the Lunas on my feet.</p>
+<p>I have now ran just over 260km in them, but, in a surprise twist to the regular readers of this blog, my biological equipment has still not yet completely adjusted to the new style of locomotion.</p>
+<p>The latest victim seems to be one of Tom, Dick and Harry, the tendons running under the medial <a href="https://en.wikipedia.org/wiki/Malleolus">malleolus</a> of my left foot, also known as that big knob on your inside ankle. Tom (the primary suspect in this case according to Trail Friend #1 who is knowledgable with regard to these matters, being a running foot surgeon and all), Dick and Harry <a href="https://radiopaedia.org/articles/posterior-ankle-tendons-mnemonic">are also known as the *T*ibialis posterior, flexor *D*igitorum longus and the flexor *H*allucis longus</a>.</p>
+<p>They currently have to work extra hard to stabilise my feet while running, because, you know, no shoes.</p>
+<p>Because doing this thing was not hard enough already, and because the Lunas are perhaps still a bit too cushiony, and because my friend the Very Flat Cat forgot that I’m very suggestible after 11:00 in the morning when my prefrontal cortex takes the rest of the day off, I am now also the very shy owner of a pair of <a href="https://xeroshoes.com/shop/genesis/genesis-men/">Xero Genesis running sandals</a>:</p>
+<p><img src="https://xeroshoes.com/wp-content/uploads/2018/03/Genesis_Limeade-3-4-770x500.jpg" alt="Image result for xero genesis"></p>
+<p>The soles are only 5mm thick, and quite hard, being <a href="https://xeroshoes.com/warranty/">rated for a few thousand miles</a> and all. The upshot of this is that one’s feet have to work even harder than in the Lunas.</p>
+<p>My first run in these was amazing: I could feel my feet reacting to every little pebble, and my running style having to adapt even more to the terrain.</p>
+<p>However, there was a price to pay for all of that additional terrain feel (and the fact that I took a much longer maiden run than I should have): The next day, the tendons in my feet felt even more (ab)used than usual.</p>
+<p>WITH GREAT POWER COMES GREAT RESPONSIBILITY, it seems.</p>
+<p>Due to these shoes being so powerful, I have had to resign to introducing Xero running far more gradually than I had initially thought.</p>
+<h1 id="vacation-based-thinking-driven-tool-sharpening-aka-the-wvv-2018-data-science-toolboxtm">Vacation-based-thinking-driven tool sharpening aka The WVV 2018 Data Science Toolbox(tm).</h1>
+<p>During the <a href="/2018/07/10/weekly-head-voices-147-the-yearly-post-mpumalanga-post/">previously blogged-about</a> Mpumalanga vacation, the lack of alarms, devices, and other work accoutrements, resulted in there being ample time for staring-into-space-grade thinking sessions.</p>
+<p>During one of these thinking sessions, I realised that I had somehow neglected my data science toolbox for a while.</p>
+<p>At some point a few years back, I was so into ipython notebooks (what has now become jupyter) that I used them as my main work lab notes modality.</p>
+<p>However, in the meantime I had fallen slightly out of love with the computational notebook style of data programming, because I had begun to develop doubts about their role in the analysis pipeline.</p>
+<p><strong>interlude 1:</strong> <em>jupyter notebooks are nice for initial data exploration, and they’re especially useful for remote computation with embedded graphics. However, that initial momentum of discovery risks devolving into an unwieldy monolith of code snippets, data transformations and experiments. There’s a fine line to be walked between flexible experimentation on the one hand, and version-controlled, time-stamped, permutational and scientific rigour on the other.</em></p>
+<p><strong>interlude 2:</strong> <em>I have to apologise for using the term “data science” in a non-comedic context. In spite of the inherent humour, it has turned into a usable blanket term for computational data understanding.</em></p>
+<p>Due to my growing doubts in the order of Jupyter, and due to being occupied with less traditionally data sciencey work projects, I had unfortunately let my data science toolbox gather perhaps a bit too much dust.</p>
+<p>Slightly more worrying than falling out of love with the Jupyter Notebooks (I still like them, I’m just not that madly in love anymore), was the more specific issue that I’d even let the datavis parts get a bit dusty.</p>
+<p>Anyways.</p>
+<p>Although I should probably write a more complete post about this, here is the list of ingredients of the official <em><strong>2018 WHV Data Science Toolbox(tm)</strong></em>:</p>
+<h2 id="programming-language-and-library-ecosystem-python">Programming language and library ecosystem: Python.</h2>
+<p>This language, in spite of its shortcomings, <em>dominates</em> the data science / machine learning world thanks to its STELLAR ecosystem.</p>
+<p>numpy, pandas, scipy, scikit-*, tensorflow, pytorch, keras, cython… this snowball has turned into a pretty sizeable planet.</p>
+<p>For this reason, it would be hard to justify any other choice for data science.</p>
+<p>However, since I’ve been seeing more of Lisp and the rest of the ever-expanding programming language landscape, I can see (Python’s shortcomings as a programming language) clearly now.</p>
+<p>In terms of interactive programming, Python beats the majority of practical programming languages, with Common Lisp being one notable exception.</p>
+<p>However, it’s not functional enough, which engenders unnecessarily imperative, side-effecting code.  More specifically, it’s not expression-oriented.</p>
+<p>More about this slightly further down. Maybe.</p>
+<h2 id="datavis-anything-as-long-as-its-vega-or-vega-lite">Datavis: Anything, as long as it’s Vega or Vega-Lite.</h2>
+<p>I spent a few years of my life wrangling <a href="https://d3js.org/">d3.js</a>, down to INNARD-LEVEL.</p>
+<p>Mike Bostock’s idea of <a href="https://bost.ocks.org/mike/join/">data-element-joins</a> is genius, and internalising it was intellectually satisfying.</p>
+<p>I thought that these d3 skillz would serve me well for decades (that’s WEEKS in javascript-time), but it turns out that there’s a new, even smarter kid in town.</p>
+<p>(if it’s any consolation, the new kid can be considered the grand-child of d3.js.)</p>
+<p><a href="https://vega.github.io/">vega and vega-lite</a> are so-called visualization grammars, or visualization DSLs (domain specific languages).</p>
+<p>The upshot is that one codes up a chart, or a whole set of linked charts and their interactive behaviour, using a language that was designed for this purpose.</p>
+<p>This chart code can be easily shared, or converted into interactive visual representations that can be embedded in applications, online or in print quality documents.</p>
+<p>Genius!</p>
+<p>With <a href="https://altair-viz.github.io/">Altair</a>, you can even send your pandas dataframes to vega and vega-lite charts all from the comfort of your slightly defective Python armchair.</p>
+<h2 id="development-environment-pycharm">Development Environment: PyCharm.</h2>
+<p>You knew it was not going to be Jupyter Notebooks, but you probably expected it to be <a href="https://vxlabs.com/tag/emacs/">Emacs</a>.</p>
+<p>Well it’s not. Surprise!</p>
+<p>The remote interpreter support in PyCharm enables me to connect to a Python virtual environment anywhere on the planet, which I often do.</p>
+<p>The JetBrains wizards have optimised the remote communication of code intelligence, so completion, documentation and general code understanding is almost indistinguishable from that on a completely local project.</p>
+<p>Being able to step through a <a href="https://vxlabs.com/2017/12/08/variational-autoencoder-in-pytorch-commented-and-annotated/"><em>remote</em> PyTorch neural network training iteration with the PyCharm debugger</a> or any other remote Python algorithmics is insightful.</p>
+<p>Two notable drawbacks are visualization and long-running jobs.</p>
+<p>For the long-running jobs I do tend to use Jupyter Notebooks or when at all possible <a href="https://mosh.org/">mosh</a>, which is amazing. However, because the primary modality is not the notebook, my code is versioned and organised into separate libraries which I can call into from notebook or mosh.</p>
+<p>For visualization, it’s either connecting to the altair chart server via SSH pipe, dumping the chart to the unison-synced project, and/or a Jupyter Notebook.</p>
+<h2 id="the-rest">The rest.</h2>
+<p>Of course you use Postgres on an SSD for your data, and of course you know enough SQL to make short work of most of the heavy-weight transformations often required at the start your data crunching pipeline.</p>
+<p>For all of my lab notes, reports, books, papers and blog posts, I use <a href="https://vxlabs.com/tag/orgmode/">Emacs Org mode</a>.</p>
+<p>LaTeX math with live preview, live code snippets, SVG graphics, bibtex references, export to anything. This is one of the best ways to document your science.</p>
+<h1 id="programming-language-addiction-update">Programming language addiction update.</h1>
+<p>I spend far too much obsessing over programming languages, old and new.</p>
+<p>For the past two weeks, I wasted even more precious time than usual reading up about programming languages.</p>
+<p>Because I would really like to spend more of my time on other, perhaps more valuable activities, I’ve been trying to better define what it is I’m actually looking for.</p>
+<p>Of course there is no single best programming language, but a whole set of good languages that map in intricate ways to different problem domains.</p>
+<p>In spite of this, I have been pining for a language with, in order of importance:</p>
+<ol>
+<li>A Functional Programming DNA, with which I’m referring to a) <a href="https://en.wikipedia.org/wiki/Expression-oriented_programming_language">expression-orientedness</a>, b) a preference for <a href="https://en.wikipedia.org/wiki/Pure_function">pure functions</a>, and at a higher level, c) the modelling of reality as more or less explicit dataflows.</li>
+<li>Interactive programming, with Common Lisp being the textbook example of this.</li>
+<li>Great tooling and IDEs, meaning first-class support by something from JetBrains, Microsoft or Emacs.</li>
+<li>Great concurrency and parallelism stories.</li>
+<li>A great library ecosystem.</li>
+<li>Modest memory use.</li>
+</ol>
+<p>Having just explicitly written this down for the first time (!! – it was consuming so much glucose just being kept amorphously swirling around in my brain) I can now mentally map some of my most recent language dalliances to these points.</p>
+<h2 id="go">go</h2>
+<p>This language is far too simple for my taste, but probably really great for teams.</p>
+<p>I did recently take a more serious look when <a href="https://tutorials.botsfloor.com/develop-your-own-telegram-bot-with-golang-and-tbot-de726883b83c">setting up a telegram bot using tbot</a> and being amazed at how simple it was building web services like these using goroutines and channels.</p>
+<p>Go satisfies points 3 to 6 from the list above. Makes sense that I decided to file this experiment away under “check when you need to put a webservice together REALLY QUICKLY”.</p>
+<h2 id="rust">rust</h2>
+<p>When I saw up that rust, surprisingly, is an expression-oriented language, I flew through the O’Reilly Programming Rust book I had bought previously as part of a bundle.</p>
+<p>Evaluating rust by the list above, we award it a fractional 1 because expression-oriented, 3 due to jetbrains plugin amongst others, 4(ish) – great memory safety, but compared to clojure, concurrency and parallelism stories still have much room to grow, a solid 5 thanks to cargo and a very strong 6.</p>
+<p>I filed this one away under “re-evaluate whenever you reach for your trusty C++”. (also, <a href="https://github.com/actix/actix-web">actix-web</a> looks amazing for super high performance microservices.)</p>
+<h2 id="f">f#</h2>
+<p>You didn’t see this one coming, did you?</p>
+<p>Very strong 1 to 5 and a solid 6.</p>
+<p>WAT?!</p>
+<p>I’m currently working my way through <a href="https://pragprog.com/book/swdddf/domain-modeling-made-functional">Domain Modeling Made Functional</a> by Scott Wlaschin, who is also the author of the brilliant <a href="https://fsharpforfunandprofit.com/">f# for fun and profit</a> website.</p>
+<p>In addition to f# hitting all 6 of my 2018 PL-requirements above, I’m slowly starting to see the advantages of having a real type system under the hood.</p>
+<p>f# is a member of the <a href="https://en.wikipedia.org/wiki/ML_(programming_language)">ML-family</a> of functional languages, which have their origin in Lisp (some very naughty person removed all of the lovely parentheses I’m afraid…).</p>
+<p>I hope that at some point I’ll have the opportunity to use f# in anger, at which point I’ll be able to report more concretely as to its suitability.</p>
+<h1 id="the-end">The End</h1>
+<p>Let me know in the comments what you think about any of this, or anything else.</p>
+<p>I hope to meet you again in a few days, here or elsewhere.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #133: Onder in my Whiskeyglas.</title><link>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</link><pubDate>Sun, 25 Feb 2018 21:15:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/</guid><description> The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.
+What a week.
+It was beautiful to see the whole team step up to the plate and engineer at about 110% throughput (software gets complicated quickly, and there&amp;rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3288.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3288.jpg"
+        
+            alt="The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week."/> </a><figcaption>
+            <p>The legendary Koos Kombuis (aka André Letoit) performing with Schalk Joubert on bass and Vernon Swart on percussion in the Helderberg Nature reserve, eponymous mountain visible through the trees on the right. This was a surprisingly amazing end to the week.</p>
+        </figcaption>
+</figure>
+
+<p>What a week.</p>
+<p>It was beautiful to see the whole team step up to the plate and <em>engineer</em> at about 110% throughput (software gets complicated quickly, and there&rsquo;s always one more thing you need to get done before the deliverable is ready), all the while remaining calm and, most importantly, kind.</p>
+<h2 id="pro-tip-special">Pro-tip Special</h2>
+<p>I was of course the lucky winner of the manual-writing sub-project. I love writing code, but there&rsquo;s also something quite satisfying about writing documentation for a technical product. Anyways, there are five tiny but hopefully useful lessons I extracted from this exercise which I would like to present here:</p>
+<ol>
+<li><a href="https://vxlabs.com/2011/08/28/a-windows-console-that-does-not-suck/">I&rsquo;ve lamented the sorry state of the Windows console before</a> (in 2011 to be exact). In a surprise twist, the Windows console still sucks almost 7 years later. At least it&rsquo;s reliable. Anyways, <a href="http://cmder.net/">cmder is a great console replacement</a> which makes some of the stupid go away, somewhat.</li>
+<li>The Windows 10 built-in screenshot facility … wait for it… sucks. When you&rsquo;re writing documentation you need a tool that fits into your workflow. Keyboard shortcut – window or region – image ends up in a directory of your choice. <a href="http://getgreenshot.org/">Greenshot is an open source screenshotting tool</a> that does this with aplomb.</li>
+<li>You need to show a CHM (Windows Help) file to the user of your wxPython application when they hit F1. How hard could it be? Well, you could spend a number of hours trying to come up with a wx-y cross-platform solution, or you could use that time for something else worth your while and just use the <a href="http://docs.activestate.com/activepython/3.3/pywin32/win32help__HtmlHelp_meth.html">Python win32 package to call into the official Windows help API</a>. (cross-platform does work, it&rsquo;s just really ugly)</li>
+<li><a href="http://www.sphinx-doc.org/en/master/">Sphinx</a> is a much better tool to write technical manuals than is Markdown and related tools. I briefly considered Markdown because I always have to look up reStructuredText syntax, but fortunately ran into enough other places <a href="http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/">warning against using Markdown for documentation</a>. For the record, I prefer orgmode over all of these puny formats in most other cases, but the documentation story of Sphinx with reStructuredText is admittedly much better.</li>
+<li>Start writing the manual as early as possible. It was amazing to see how this helped me to see the software we are designing at a more integrated (user) level. This knowledge was useful in driving more valuable improvements. If you can&rsquo;t explain the flow of some procedure in a manual, that&rsquo;s a good sign the procedure might need some refinement.</li>
+</ol>
+<h2 id="humble-book-bundle-and-rust">Humble Book Bundle and Rust</h2>
+<p>I bought the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle of (O&rsquo;Reilly) Functional Programming Books</a> for a super affordable $15. I was primarily interested in the <a href="http://shop.oreilly.com/product/0636920040385.do">Programming Rust book by Blandy and Orendorff</a>, but the other titles on Scala, Clojure, Erlang, Elixir, Haskell, Javascript and general functional programming are welcome additions to my library. Speaking of which, I emailed O&rsquo;Reilly to ask if the books in the bundle could be added to my member library, which they promptly did!</p>
+<p>I have avoided Rust up to now due to natural hype suppression circuitry, and because I grew up with C++, but its zero-overhead memory safety and trustworthy concurrency story makes it hard to ignore any longer. Even although <a href="https://www.quora.com/Which-language-has-the-brightest-future-in-replacement-of-C-between-D-Go-and-Rust-And-Why/answer/Andrei-Alexandrescu">Andrei Alexandrescu once called Rust the language that skips leg day</a>, it&rsquo;s certainly interesting seeing the constructs the language designers have come up to build a really fast compiled language with the lowest number of foot-guns per line of code.</p>
+<p>Anyways, when this blog gets published, you should still have about 22 hours to make use of the <a href="https://www.humblebundle.com/books/functional-programming-books">Humble Bundle deal</a> if you too see something that you like.</p>
+<h2 id="life-is-continuous-practice">Life is continuous practice</h2>
+<p>I wanted to conclude with something that I&rsquo;ve been thinking about recently. It has to do with explicitly treating one&rsquo;s life as <em>continuous practice</em>. As I&rsquo;ve mentioned before on this blog and people much smarter than me have been pointing out since forever, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">goals are no good</a> and (lasting) <a href="/Weekly-Head-Voices-125/#Happy-Not-Happy">happiness is probably not attainable</a>.</p>
+<p>Discarding as many as possible of these sorts of fetters is liberating (you Buddhist), but can seem to leave holes in one&rsquo;s  life narrative. However, treating your life as a super long practice session is an interesting perspective.</p>
+<p>There is also no end point, and no real life goal.</p>
+<p>The only point of the whole exercise (yes, I see what I did there) is to try to improve continuously. Every day, we try to become a little better at our jobs, or at running, or at being a good human, or a partner, or a parent.</p>
+<p>Practice means that you have good days and bad days. It means that you sometimes look back and think that you were a better person then than you are now. Practice means that when you pick one activity, another will temporarily languish until you can make time for it again.</p>
+<p>All of this is ok, because tomorrow you have a whole new day to try again.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #130-2: Direct experience dopamine.</title><link>https://cpbotha.net/2018/02/04/weekly-head-voices-130-2-direct-experience-dopamine/</link><pubDate>Sun, 04 Feb 2018 18:43:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/04/weekly-head-voices-130-2-direct-experience-dopamine/</guid><description> Photogenic and non-camera-shy dragonfly I met in Paarl over the weekend.
+As I went through my notes to extract material for this week’s post, I noticed a small discrepancy between the task description for the previous post and the published version: #129 in my notes versus #130 in the published post!
+It’s too late now to rename #130, so in this reality I’m just going to have to deal with the fact that WHV #129 will never exist.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/02/IMG_3174-1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/02/IMG_3174-1-1024x576.jpg"
+        
+            alt="Photogenic and non-camera-shy dragonfly I met in Paarl over the weekend."/> </a><figcaption>
+            <p>Photogenic and non-camera-shy dragonfly I met in Paarl over the weekend.</p>
+        </figcaption>
+</figure>
+
+<p>As I went through my notes to extract material for this week’s post, I noticed a small discrepancy between the task description for the previous post and the published version: #129 in my notes versus <a href="/2018/01/28/weekly-head-voices-130-ttaggg/">#130 in the published post</a>!</p>
+<p>It’s too late now to rename #130, so in this reality I’m just going to have to deal with the fact that WHV #129 will never exist. I have decided to name this edition #130-2 so that eventually (well, in about a week), we will be back to uninflated post numbers. Nobody likes inflation. Except perhaps tyres. And balloons.</p>
+<h1 id="your-brain-at-work-part-2-dopamine-and-more-mindfulness">Your brain at work part 2: Dopamine and more mindfulness</h1>
+<p>Ironically, the incorrectly numbered post #130 dealt with <a href="/2018/01/28/weekly-head-voices-130-ttaggg/#your-brain-not-at-work">the many ways in which our brains fail us every day</a>. (Now that I’ve finally gotten around to installing the <a href="https://wordpress.org/plugins/wp-anchor-header/">WP Anchor Header plugin</a>, we can link directly down to any heading in any post, as demonstrated in the previous sentence.)</p>
+<p>At least some clouds do seem to have a silver lining.</p>
+<p>Your Brain at Work, <a href="/2018/01/28/weekly-head-voices-130-ttaggg/#your-brain-not-at-work">the book I mentioned last week</a>, has turned out to be a veritable treasure trove of practical human neuroscience, and I still have about 30% to go. My attempt at meteorological humour above was inspired by part of the book’s treatment of the important role of dopamine in your daily life.</p>
+<p>For optimal results, one is supposed to remain mildly optimistic about expected future rewards, but not too much, which will result in a sharp dopamine drop when those rewards don’t crystallise, and a greater increase when they do. For optimal results, one should try to remain in a perpetual state of mildly optimistic expectations, but also in a state of being continually pleasantly surprised when those expectations are slightly exceeded.</p>
+<p>More generally, the book deals really well with the intricacies of trying to keep one’s various neural subsystems happy and in balance. Too much stress, and the <a href="http://www.brainbasics.org/home/limbic-system">limbic system</a> starts taking over (you want to run away, more or less), blocking your ability to think and make new connections, which in this modern life could very well be your only ticket out of Stress Town.</p>
+<p>To my pleasant surprise (argh, I’ll stop), <a href="/tag/mindfulness/">mindfulness</a> made its appearance at about 40% into the book, shortly after I had published last week’s WHV.  In my favourite mindfulness book, <a href="https://books.google.co.za/books?id=rxddAgAAQBAJ&amp;source=gbs_similarbooks">Mindfulness: A Practical Guide to Peace in a Frantic World</a> by <a href="https://www.neuroscience.ox.ac.uk/research-directory/mark-williams">Mark Williams</a> and Danny Penman, two of the major brain states are called <em>doing,</em> the planning and execution mode we find ourselves in most of the time, also in the middle of the night when we’re worrying about things we can do nothing about at that point, and <em>being</em>, the mode of pure, unjudgemental observation the activation and cultivation of which is practised in mindfulness.</p>
+<p>In David Rock’s book, these two states are described as being actual brain networks, and they have different but complementary names: The <em>narrative network</em> corresponds to the doing mode, and the <em>direct experience network</em> corresponds to the being mode.</p>
+<p>The narrative network processes all incoming sensory information through various filters, moulding it to fit into one’s existing mental model of the world. David Rock describes it in the book and in <a href="https://www.huffingtonpost.com/david-rock/the-neuroscience-of-mindf_b_2908665.html">this HuffPost piece</a> as follows:</p>
+<blockquote>
+<p>When you experience the world using this narrative network, you take in information from the outside world, process it through a filter of what everything means, and add your interpretations. Sitting on the dock with your narrative circuit active, a cool breeze isn’t a cool breeze, it’s a sign than summer will be over soon, which starts you thinking about where to go skiing, and whether your ski suit needs a dry clean.</p>
+</blockquote>
+<p>This is certainly useful most of the time, but it can get tiring and increase stress when you least need it.</p>
+<p>The much-more attractively named <em>direct experience network</em> is active when you feel all of your senses opening up to the outside world to give you that full HD IMAX(tm) surround sound VR experience. No judging, no mental modelling, just sensory bliss and inner calm. <a href="https://www.huffingtonpost.com/david-rock/the-neuroscience-of-mindf_b_2908665.html">Rock sez</a>:</p>
+<blockquote>
+<p>When this direct experience network is activated, you are not thinking intently about the past or future, other people, or yourself, or considering much at all. Rather, you are experiencing information coming into your senses in real time. Sitting on the jetty, your attention is on the warmth of the sun on your skin, the cool breeze in your hair, and the cold beer in your hand.</p>
+</blockquote>
+<p>Again, these two systems are on opposite sides of a neurophysiological see-saw. When you are worrying and planning, no zen for you! On the other hand, when you’re feeling the breeze flowing and and through each individual hair on your arms and the sun rays seemingly feeding energy directly into your cells, your stress is soon forgotten.</p>
+<p>Fortunately, mindfulness gives us practical tools to distinguish more easily when we’re on which path, and, more importantly, to switch mental modes at will.</p>
+<p>I hope you don’t mind me concluding this piece by recursively quoting David Rock quoting John Teasdale, one of the three academic founders of <a href="https://en.wikipedia.org/wiki/Mindfulness-based_cognitive_therapy">Mindfulness Based Cognitive Therapy (MBCT)</a>:</p>
+<blockquote>
+<p>Mindfulness is a habit, it’s something the more one does, the more likely one is to be in that mode with less and less effort… it’s a skill that can be learned. It’s accessing something we already have. Mindfulness isn’t difficult. What’s difficult is to remember to be mindful.</p>
+</blockquote>
+<p>(If the book has any more interesting surprises, I’ll be sure to report on them in future WHV editions.)</p>
+<h1 id="miscellany-at-the-end-of-week-5-of-2018">Miscellany at the end of week 5 of 2018</h1>
+<ul>
+<li>The rather dire water situation has not changed much, except that due to more citizens putting their backs into the water saving efforts, day zero (when municipal water is to be cut off) has been postponed by 4 days to April 16. We are now officially limited to 50 litres per person per day, for everything. Practically, this means even more buckets of grey water are being carried around in my house every day in order to be re-used.</li>
+<li>I ran 95km in January, which is nicely on target for my modest 2018 goal. Although January was a long month, and Winter Is Coming (And Then We Run Much Less Often), I am mildly optimistic that I might be able to keep it up.</li>
+<li><a href="https://www.python.org/dev/peps/pep-0484/">Python type hinting</a> is brilliant. I have started using it much more often, but I only recently discovered how to specify a type which can have a value or None, an often-occurring pattern:</li>
+</ul>
+<pre class="src src-python"><span style="color: #0000ff;">from</span> typing <span style="color: #0000ff;">import</span> Optional, Tuple
+<span style="color: #0000ff;">def</span> <span style="color: #006699;">get_preview_filename</span><span style="color: #707183;">(</span>attachment: Attachment<span style="color: #707183;">)</span> -&gt; Tuple<span style="color: #707183;">[</span>Optional<span style="color: #7388d6;">[</span><span style="color: #006fe0;">str</span><span style="color: #7388d6;">]</span>, Optional<span style="color: #7388d6;">[</span><span style="color: #006fe0;">str</span><span style="color: #7388d6;">]</span><span style="color: #707183;">]</span>:
+    <span style="color: #0000ff;">pass</span>
+</pre>
+<ul>
+<li>On Wednesday, January 31, GOU #3 had her first real (play) school day, that is, without any of us present at least for a while. We’re taking it as gradually as possible, but it must be pretty intense when you’re that young (but old enough to talk, more or less) and all of a sudden you notice that you’re all alone with all those other little human beings, none of which are the family members you’re usually surrounded with.</li>
+</ul>
+<h1 id="the-end">The End</h1>
+<p>Thank you dear reader for coming to visit me over here, I really do enjoy it when you do!</p>
+<p>I hope to see you next again next week, same time, same place.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #128: Water water everywhere, but not a drop to drink.</title><link>https://cpbotha.net/2018/01/21/weekly-head-voices-128-water-water-everywhere-but-not-a-drop-to-drink/</link><pubDate>Sun, 21 Jan 2018 15:39:35 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/21/weekly-head-voices-128-water-water-everywhere-but-not-a-drop-to-drink/</guid><description> Hey friends, welcome back!
+We have to talk about the water situation, seeing that Cape Town is now in the international news as being on track to be the first major city EVAR to run out of water.
+In short, if it doesn’t rain in substantial amounts during the coming three months (which history and projections say it won’t), the municipal water supply will be shut off on April 21, a date festively referred to as Day Zero.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/01/bbay-pano-20180121.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/01/bbay-pano-20180121-1024x326.jpg"
+        /> </a>
+</figure>
+
+<p>Hey friends, welcome back!</p>
+<p>We have to talk about the water situation, seeing that Cape Town is now in the international news as <a href="http://time.com/5103259/cape-town-water-crisis/">being on track to be the first major city EVAR to run out of water</a>.</p>
+<p>In short, if it doesn’t rain in substantial amounts during the coming three months (which history and projections say it won’t), <a href="http://untoldafrica.com/calling-all-capetonians-its-time-to-prepare-for-day-zero/">the municipal water supply will be shut off on April 21</a>, a date festively referred to as <em>Day Zero</em>.</p>
+<p>This means when we try to open any tap, no water will come out. This situation might continue for quite a while, which is pretty intense.</p>
+<p>On that day, we will be celebrating by dressing up as Kevin Costner and running around barefoot shouting “NOTHING’S FREE IN WATERWORLD!”. Those who are not big fans of Kevin are allowed to dress up as <a href="https://en.wikipedia.org/wiki/Imperator_Furiosa">Imperator Furiosa</a>.</p>
+<p>At my house, we stopped watering our garden with municipal water months ago. We installed a grey water recovery system: Shower and bath water ends up in the only remaining green corner of the garden.</p>
+<p>We also installed a rain water recovery system three months ago, which has fortunately enabled us to collect a few thousand litres of rain water via the rerouted gutters and pipework from the roof. This water we will probably use after Day Zero to be able to wash and to flush a toilet now and then.</p>
+<p>(Flushing frequency has necessarily decreased significantly. Around these parts we now have the saying: “If it’s yellow, let it mellow. If it’s br***, flush it down.” Please excuse the mental graphics.)</p>
+<p>We have been managing to keep our use of municipal water under the requested 87 litres per person per day. Starting on February 1, we will have to stay consistently under 50 litres per person per day, including drinking, cooking and washing. I guess 2 minute showers were wasting too much of my time in any case.</p>
+<p>I have to do more research and corroboration (fingers are being pointed in all directions), but it seems the fundamental issue is not so much the current drought alone, but to a large extent mismanagement by <em>both</em> local and national government. It’s complicated, and politics is involved, so read at least <a href="https://theconversation.com/cape-towns-water-crisis-driven-by-politics-more-than-drought-88191">this</a> (otherwise good piece, but author is a DA / local government apologist), <a href="https://www.dailymaverick.co.za/article/2018-01-22-op-ed-cape-town-a-city-drowning-in-incompetence/">this</a> (DA / local government IS to blame) and <a href="https://www.dailymaverick.co.za/article/2018-01-22-analysis-a-drought-of-nature-compounded-by-a-drought-in-leadership/">this</a> (a longer, more balanced piece) to start with.</p>
+<p>That being said, I <em>am</em> happy that a large part of the populace has become much more water efficient. If we get through this, in spite of “this” being called “the new normal”, I hope that we retain our mad Dune-grade water saving skills.</p>
+<p>With that out of the way, it would be sort of anti-climactic for me to talk extensively about what-I-did-last-week, so I’m going to limit it to a REAL bullet list (ping me in the comments if something interests you):</p>
+<ul>
+<li><a href="https://github.com/pypa/pipenv">pipenv</a> is the bee’s knees, I have switched my non-miniconda projects.</li>
+<li>convincingly but fortunately only temporarily locked myself out of my one laptop due to TCG-Opal hardware encryption, UEFI32, UEFI64 and legacy boot incompatibilities. I’m getting old, I used to NOT lock me out of my laptop in my sleep.</li>
+<li>A compulsive twitch made me fix years of old-style broken youtube shortcodes using the <a href="https://wordpress.org/plugins/search-regex/">wordpress regex plugin</a>. The regexp you are looking for is <code>/\[youtube\](.*)\[\/youtube\]/</code> which you can replace with <code>\1</code>.</li>
+<li><a href="https://www.scientificamerican.com/article/why-people-dislike-really-smart-leaders/">People dislike really smart leaders</a>. See water crisis above for one possible reason why this is a bad thing.</li>
+<li>In spite of having invested a significant amount of time in deciding on the <a href="https://github.com/OfficeDev/office-ui-fabric-react">Office UI Fabric React components</a> for my most major side-project (#38465 if you’ll recall), I switched to <a href="https://react.semantic-ui.com/introduction">Semantic UI React</a> (which was also in the running, together with <a href="http://blueprintjs.com/">Palantir’s blueprint</a>, <a href="http://grommet.io/">HP’s grommet</a>, <a href="https://ant.design/docs/react/introduce">Alibaba’s Ant Design of React</a> and more) at the last minute. I am happier now.</li>
+</ul>
+<p>That’s it from me for now. Have fun this week kids, I hope to see you soon!</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #102: High on life.</title><link>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</link><pubDate>Wed, 20 Jan 2016 07:21:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</guid><description> The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a business lunch at Bodega, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:
+… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar.</description><content:encoded><![CDATA[ <p>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a <em>business</em> lunch at <a href="http://www.dornier.co.za/restaurant">Bodega</a>, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/view_from_bodega.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/view_from_bodega-1024x576.jpg"
+        /> </a>
+</figure>
+
+<p>… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar. The company might be different every time, but so far its level of awesomeness has been <em>quite</em> consistent.)</p>
+<p>The rest of the (work) week was consumed by extreme nerdery, which is of course the way I love it. Besides more GPU shader fine-tuning (at least once I exclaimed on the <a href="http://www.stonethree.com/">Stone Three</a> HipChat, hopefully soon the Stone Three <a href="http://www.mattermost.org/">Mattermost</a>,  <em>WITNESS THE POWER OF MATH!</em>, before showing a rendering that was marginally better than the one where the POWER OF MATH had not yet been invoked a sufficient number of times), there was Javascript, <a href="http://d3js.org/">d3.js</a> (d3 is another fantastic example of what you can do with vectorised thinking and computation) and Python.</p>
+<p>In break time I finally took a closer look at <a href="https://en.wikipedia.org/wiki/C%2B%2B14">C++14</a> and beyond and came away super impressed. There’s a blog post in the pipeline on generic lambda expressions, because I think they’re brilliant. I don’t know why I love different programming languages so much, but I do.</p>
+<p>On Saturday,  I got really high with one of my besties, a superb gentleman who also goes by the name of A Very Flat Cat. We reached this altered state by the old-fashioned but extremely reliable (and cheap!) method of physically increasing our altitude via ambulation up the west peak of the <a href="https://en.wikipedia.org/wiki/Helderberg">Helderberg</a>. The walk (a few hours in 35 degrees Celsius…) was exhilarating, and the view from the top awe-inspiring. Check it (click for high-res):</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/20160116_100314-PANO.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/20160116_100314-PANO-1024x137.jpg"
+        /> </a>
+</figure>
+
+<p>I’ve often wondered about the effect of one’s surroundings on one’s mindfulness. This was one of those cases where mother nature, without asking for permission or anything like that, simply brute-forced the <em>being</em> switch with her astonishing beauty. Very grateful I was.</p>
+<p>Have a great week friends, see you on the other side!</p>
+]]></content:encoded></item><item><title>Closure expressions in Swift</title><link>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</link><pubDate>Thu, 07 Jan 2016 20:01:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</guid><description> Swift is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.
+Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.
+In this post I’m going to chat about closure expression syntax, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</description><content:encoded><![CDATA[ <p><a href="https://swift.org/">Swift</a> is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.</p>
+<p>Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.</p>
+<p>In this post I’m going to chat about <em>closure expression syntax</em>, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</p>
+<p>Let’s start with a simple example (slightly modified from <a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID95">Apple’s documentation on Swift closures</a>) for sorting a list of strings in reverse alphabetical order:</p>
+<div class="org-src-container">
+<pre class="src src-swift"><span style="color: #7F9F7F;">// names will be constaint, so we use let and not var</span>
+<span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #7F9F7F;">// function taking two parameters and returning boolean</span>
+<span style="color: #F0DFAF; font-weight: bold;">func</span> <span style="color: #93E0E3;">backwards</span>(s1: <span style="color: #7CB8BB;">String</span>, <span style="color: #F0DFAF; font-weight: bold;">_</span> s2: <span style="color: #7CB8BB;">String</span>) -&gt; <span style="color: #7CB8BB;">Bool</span> {
+<span style="color: #F0DFAF; font-weight: bold;">return</span> s1 &gt; s2
+}</p>
+<p><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">reversed </span>= names.sort(backwards)</p>
+<p>print(<span style="color: #CC9393;">&ldquo;Reversed alpha:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>That’s a complete compilable program in Swift, which you can run directly in your browser by clicking <a href="http://swiftlang.ng.bluemix.net/#/repl/6ab18271be682adc2a39c45988978ee92826c41faf70ed4420664fce1cd42bc8">here</a>.</p>
+<p>We use <code>let</code> to define a list of strings. Swift is strongly-typed, but in this case it simply infers the type of the <code>names</code> variable from the value that’s assigned to it. MAGIC!</p>
+<p>If we were planning to change the value of the <code>names</code> list at some point, we would have had to use <code>var</code> (mutable) instead of <code>let</code> (immutable).</p>
+<p>We then define a function called <code>backwards</code> that takes two strings, and returns the true value if the first is larger than the second. In the final let statement, we call the <code>sort()</code> method on the names list, but we pass it the <code>backwards()</code> function, which it will use to compare elements during sorting. Because we have flipped the <code>s1</code> and <code>s2</code> variables, we get our list back in reverse alphabetical order.</p>
+<p><code>sort()</code> can be seen as a higher order function that takes the <code>backwards()</code> function as one of its inputs, and uses it to do its work.</p>
+<p>Since we’re only using the <code>backwards()</code> function once, it would have been pretty convenient if there were some way to define it more compactly and in-place.</p>
+<p>This is exactly what Swift’s <code>closure expression syntax</code> is for. Here’s the above code, with the <code>backwards()</code> function written as a closure expression:</p>
+<div class="org-src-container">
+<pre class="src src-swift"><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #7F9F7F;">// closure expression syntax for inline anonymous function:</span>
+<span style="color: #7F9F7F;">// { (args) -&gt; returnType in statements }</span>
+<span style="color: #F0DFAF; font-weight: bold;">var</span> <span style="color: #DFAF8F;">reversed </span>= names.sort({ (s1: <span style="color: #7CB8BB;">String</span>, s2: <span style="color: #7CB8BB;">String</span>) -&gt; <span style="color: #7CB8BB;">Bool</span> <span style="color: #F0DFAF; font-weight: bold;">in</span> <span style="color: #F0DFAF; font-weight: bold;">return</span> s1 &gt; s2})</p>
+<p>print(<span style="color: #CC9393;">&ldquo;Reversed:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>(You can run this Swift code in your browser by clicking <a href="http://swiftlang.ng.bluemix.net/#/repl/0dbcdef74dfef00da5c7f21878cb5ed42739796116a6fd232ab20f05d6040a81">here</a>.)</p>
+<p>Instead of having to define and name a separate function, we can specify a function in the exact spot where it’s needed, using <em>closure expression syntax</em> i.e.: <code>{ (parameters) -&gt; returnType in statements }</code>.</p>
+<p>For you Python-heads out there (MY PEOPLE!), the above code can be written in Python as follows:</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #DFAF8F;">names</span> = [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #DCDCCC; font-weight: bold;">reversed</span> = <span style="color: #DCDCCC; font-weight: bold;">sorted</span>(
+<span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   names,
+<span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   <span style="color: #DCDCCC; font-weight: bold;">cmp</span>=<span style="color: #F0DFAF; font-weight: bold;">lambda</span> s1, s2: 0 <span style="color: #F0DFAF; font-weight: bold;">if</span> s1 == s2 <span style="color: #F0DFAF; font-weight: bold;">else</span> (-1 <span style="color: #F0DFAF; font-weight: bold;">if</span> s1 &gt; s2 <span style="color: #F0DFAF; font-weight: bold;">else</span> 1))</p>
+<p><span style="color: #F0DFAF; font-weight: bold;">print</span>(<span style="color: #DCDCCC; font-weight: bold;">reversed</span>)
+</pre></p>
+</div>
+<p>In Python, <code>lambda</code> is used to specify anonymous function objects (our closure expression syntax, in other words). The compare function is defined differently, which is why it’s somewhat more complicated, but the principle is the same.</p>
+<p>Whilst typing this blog, I downloaded Swift 2.2 from the <a href="https://swift.org/download/#latest-development-snapshots">open source download site</a> and installed it on my Ubuntu 14.04 laptop (the internet is so slow over here, we have to multi-task to stay sane). After compiling both the examples using <code>swiftc whatever.swift</code>, the resulting binaries are about 21 Kbytes each (they are dynamically linked to a number of system libraries, and the 5M <code>libswiftCore.so</code>).</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/swift-sort-binaries.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/swift-sort-binaries.png"
+        /> </a>
+</figure>
+
+<p>The Swift language is open source, is already available for Linux, has a number of really compelling modern language features of which closure expressions are just one example (other interesting examples include optional types and protocol extensions), is statically typed with good type inference, and has a good compiler. For these reasons, it should be strongly considered for a permanent spot in your compiled language toolbox!</p>
+<p>P.S. Yes, I do know that C++ has <code>lambda</code> and <code>auto</code>. I like them too!</p>
+]]></content:encoded></item><item><title>Python 2.6 enabled VTK 5.4 Windows binaries</title><link>https://cpbotha.net/2009/08/13/python-2-6-enabled-vtk-5-4-windows-binaries/</link><pubDate>Thu, 13 Aug 2009 21:37:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/08/13/python-2-6-enabled-vtk-5-4-windows-binaries/</guid><description> You can always check my Latest VTK Windows binaries page to make sure you have the latest blog posting and hence the latest binaries. It also links to the “old” Python 2.5 VTK 5.4.1 binaries. I’ve made available my home-baked VTK 5.4.2 Windows binaries. These have the new-and-improved version of my python-exception-patches integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!</description><content:encoded><![CDATA[ <p><a href="http://www.vtk.org/"><img alt="" border="0" class="alignnone" height="100" src="http://vtk.org/opensourcelogos/vtk100.png" style="border: 0pt none;" width="456"/></a></p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+<em>You can always check my <a href="http://cpbotha.net/software/latest-vtk-windows-binaries/" style="color: #0060ff; text-decoration: underline; padding: 0px; margin: 0px;" title="Latest VTK Windows binaries page.">Latest VTK Windows binaries page</a> to make sure you have the latest blog posting and hence the latest binaries.  It also links to the “old” Python 2.5 VTK 5.4.1 binaries.</em>
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  I’ve made available my home-baked VTK 5.4.2 Windows binaries.  These have the <a href="http://code.google.com/p/devide/source/detail?spec=svn3800&amp;r=3732" title="Link to new and improved Python exceptions patch.">new-and-improved version of my python-exception-patches</a> integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!) and have been built with Visual Studio 2008 (9.0) SP1 on Windows XP SP3 with full Python 2.6 support.  Get the binaries (or my patched source) from the two links below.  You want the binaries if you want to use VTK from Python.
+</p>
+<ul>
+<li>Binaries: <a href="http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.4/VTK-5-4-2-Py26-VS9sp1-win32-cpbotha.net.zip" title="Link to vtk 5.4.2 python 2.6 win32 binaries">VTK-5-4-2-Py26-VS9sp1-win32-cpbotha.net.zip</a></li>
+<li>Source: <a href="http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.4/VTK-5-4-2-source-cpbotha.net.zip" title="Link to patched VTK 5.4.2 source I used to bulid this.">VTK-5-4-2-source-cpbotha.net.zip</a></li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+<strong>IMPORTANT</strong>: you might have to install the MS VS2008 SP1 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=A5C84275-3B97-4AB7-A40D-3802B2AF5FC2&amp;displaylang=en" title="Link to MS VS2008 SP redistributable">vcredist_x86</a> package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+<strong>P</strong><strong>lease leave a comment on this blog posting if you use these or just hate them</strong>. It’s almost like postcard-ware, but with blog comments. Please also link to this page and not directly to the download location, thanks!
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  To use this from Python, you need to add the following to your PATH:
+</p>
+<ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 40px; list-style-type: square; padding: 0px;">
+<li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding: 0px;">
+    d:\opt\VTK\bin
+  </li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  You also need to add <strong>all of the above</strong> to PYTHONPATH, as well as the following:
+</p>
+<ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 40px; list-style-type: square; padding: 0px;">
+<li style="margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding: 0px;">
+    d:\opt\VTK\lib\site-packages
+  </li>
+</ul>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  … where d:\opt is the drive and directory where you unpacked the ZIP file.
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+  Once you’ve done this and logged out and in again, “import vtk” should work at the Python prompt. Shameless plug: you can use my free <a href="../software/envedit" style="color: #0060ff; text-decoration: underline; padding: 0px; margin: 0px;" title="envedit homepage">envedit</a> software to do the environment editing. It beats the default XP editing thingy.
+</p>
+<p style="margin-top: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 0px; padding: 0px;">
+</p>]]></content:encoded></item><item><title>Python 2.5 enabled VTK 5.4 Windows binaries</title><link>https://cpbotha.net/2009/05/23/python-25-enabled-vtk-54-windows-binaries/</link><pubDate>Sat, 23 May 2009 19:27:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/05/23/python-25-enabled-vtk-54-windows-binaries/</guid><description> You can always check my Latest VTK Windows binaries page to make sure you have the latest blog posting and hence the latest binaries.
+I’ve made available my home-baked VTK 5.4 (actually build from a CVS VTK-5-4-1 tag checkout) Windows binaries. These have the new-and-improved version of my python-exception-patches integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!</description><content:encoded><![CDATA[ <img alt="" class="alignnone" height="100" src="http://vtk.org/opensourcelogos/vtk100.png" style="border: 0pt none;" width="456"/>
+<p><em>You can always check my <a href="http://cpbotha.net/software/latest-vtk-windows-binaries/" title="Latest VTK Windows binaries page.">Latest VTK Windows binaries page</a> to make sure you have the latest blog posting and hence the latest binaries.</em></p>
+<p>I’ve made available my home-baked VTK 5.4 (actually build from a CVS VTK-5-4-1 tag checkout) Windows binaries.  These have the <a href="http://code.google.com/p/devide/source/browse/trunk/johannes/patches/pyvtk_tryexcept_and_pyexceptions_20090519_vtk-5-4-1.diff" title="link to new and improved pyexceptions patch">new-and-improved version of my python-exception-patches</a> integrated (more about this in a future post; a serious dead-lock has been fixed and as a side-effect, you can now run multiple VTK pipelines in different threads!) and have been built with Visual Studio 2005 (8.0) SP1 on Windows XP2 with full Python 2.5 support.  Get the binaries (or my patched source) by going <a href="http://visualisation.tudelft.nl/~cpbotha/files/vtk_itk/vtk-5.4/" title="Link to VTK 5.4 binaries download directory">here</a>.  You want the binaries if you want to use VTK from Python.</p>
+<p><strong>IMPORTANT</strong>: you might have to install the MS VS2005 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=32BC1BEE-A3F9-4C13-9C99-220B62A191EE&amp;displaylang=en" title="link to vcredist_x86.exe">vcredist_x86</a> package (free!) if you want to use these DLLs (thanks Jelle for pointing this out).  This might not be necessary if you already have one or more of the MS development environments installed.</p>
+<p><strong>P****lease leave a comment on this blog posting if you use these or just hate them</strong>. It’s almost like postcard-ware, but with blog comments. Please also link to this page and not directly to the download location, thanks!</p>
+<p>To use this from Python, you need to add the following to your PATH:</p>
+<ul>
+<li>d:\opt\VTK\bin</li>
+</ul>
+<p>You also need to add <strong>all of the above</strong> to PYTHONPATH, as well as the following:</p>
+<ul>
+<li>d:\opt\VTK\lib\site-packages</li>
+</ul>
+<p>… where d:\opt is the drive and directory where you unpacked the ZIP file.</p>
+<p>Once you’ve done this and logged out and in again, “import vtk” should work at the Python prompt. Shameless plug: you can use my free <a href="../software/envedit" title="envedit homepage">envedit</a> software to do the environment editing. It beats the default XP editing thingy.</p>
+]]></content:encoded></item><item><title>Lush, OCaml and more, part deux</title><link>https://cpbotha.net/2005/03/24/lush-ocaml-and-more-part-deux/</link><pubDate>Thu, 24 Mar 2005 15:06:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2005/03/24/lush-ocaml-and-more-part-deux/</guid><description> In a previous blog entry, I did some extremely informal benchmarking with Lush, OCaml, Python and C. I’ve now added two new Python tests: one with Psyco, a JIT-like solution that takes almost no effort to add to existing code, and one with Pyrex, where one can code extension modules in a language that looks just like Python but has types. These modules are then translated to C and compiled into Python usable extension libaries.</description><content:encoded><![CDATA[ <p>In a <a href="/2004/11/14/lush-ocaml-and-more/">previous blog entry</a>, I did some extremely informal benchmarking with Lush, OCaml, Python and C. I’ve now added two new Python tests: one with <a href="http://psyco.sf.net/">Psyco</a>, a JIT-like solution that takes almost no effort to add to existing code, and one with <a href="http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/">Pyrex</a>, where one can code extension modules in a language that looks just like Python but has types. These modules are then translated to C and compiled into Python usable extension libaries.</p>
+<p>With Psyco, one only has to add the lines “import psyco; psyco.full()” to one’s Python code. The performance gains can be huge, but in general are quite modest. It takes far less effort than Pyrex though.</p>
+<p>The updated benchmarks table is shown below:</p>
+<table border="1">
+<tr>
+<th>
+      Language
+    </th>
+<th>
+      Time (seconds)
+    </th>
+</tr>
+<tr>
+<td>
+      Octave 2.1.57
+    </td>
+<td>
+      7.894
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.4
+    </td>
+<td>
+      0.459
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 interpreted
+    </td>
+<td>
+      0.229
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.5 with Psyco
+    </td>
+<td>
+      0.148
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.5 with Pyrex
+    </td>
+<td>
+      0.064
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 compiled
+    </td>
+<td>
+      0.021
+    </td>
+</tr>
+<tr>
+<td>
+      gcc 3.3.4
+    </td>
+<td>
+      0.017
+    </td>
+</tr>
+</table>
+<p>The new implementations are available at the <a href="/thingies/lushCompare">usual place</a>.</p>
+]]></content:encoded></item><item><title>Lush, OCaml and more</title><link>https://cpbotha.net/2004/11/14/lush-ocaml-and-more/</link><pubDate>Sun, 14 Nov 2004 15:32:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2004/11/14/lush-ocaml-and-more/</guid><description> I took a long hard look at the OCaml functional (well, mostly) language this weekend. One of the many interesting aspects of OCaml, is that, in addition to offering an interpreted environment, it comes with a REALLY good compiler. So, you can sit there prototyping your latest numerical trick and when you’re happy, you can compile the code to a blazingly fast native binary.
+So, whilst reading up on all this, I remembered a question from the [Lush][2] (a lisp-like scientific languages that can also be compiled) [FAQ][3]: “How does Lush compare to Matlab/Octave for speed?</description><content:encoded><![CDATA[ <p>I took a long hard look at the <a href="http://www.ocaml.org/">OCaml</a> functional (well, mostly) language this weekend. One of the many interesting aspects of OCaml, is that, in addition to offering an interpreted environment, it comes with a REALLY good compiler. So, you can sit there prototyping your latest numerical trick and when you’re happy, you can compile the code to a blazingly fast native binary.</p>
+<p>So, whilst reading up on all this, I remembered a question from the [Lush][2] (a lisp-like scientific languages that can also be compiled) [FAQ][3]: “How does Lush compare to Matlab/Octave for speed?”. So the author then shows that Lush is like 50 billion times faster than Octave. (Go look.)</p>
+<p>I implemented his little benchmark in Python, C, Octave and OCaml and tested the codes on a P4 2.4GHz running Ubuntu Linux. These were the performance figures for harmonic(1000000):</p>
+<table border="1">
+<tr>
+<th>
+      Language
+    </th>
+<th>
+      Time (seconds)
+    </th>
+</tr>
+<tr>
+<td>
+      Octave 2.1.57
+    </td>
+<td>
+      7.894
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.4
+    </td>
+<td>
+      0.459
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 interpreted
+    </td>
+<td>
+      0.229
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 compiled
+    </td>
+<td>
+      0.021
+    </td>
+</tr>
+<tr>
+<td>
+      gcc 3.3.4
+    </td>
+<td>
+      0.017
+    </td>
+</tr>
+</table>
+<p>For each benchmark, I obviously called the harmonic() in a loop with sufficient iterations to yield accurate timings. For the compiled tests, 300 iterations did the trick. For Octave, 3 was more than enough. You can find my implementations by clicking [here][4].</p>
+<p>This was really just for fun, in other words: DON’T TAKE IT TOO SERIOUSLY. Also, the OCaml snippet I wrote is mostly imperative. However, the results reflect what is also shown by [The Great Computer Language Shootout][5]: OCaml is a good contender when one needs to write very fast code in a more advanced language than C.</p>
+<p>[2]: a href=
+[3]: <a href="http://lush.sourceforge.net/faq.html">http://lush.sourceforge.net/faq.html</a>
+[4]: <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/lushCompare/">http://visualisation.tudelft.nl/~cpbotha/thingies/lushCompare/</a>
+[5]: <a href="http://shootout.alioth.debian.org/">http://shootout.alioth.debian.org/</a></p>
+]]></content:encoded></item></channel></rss>

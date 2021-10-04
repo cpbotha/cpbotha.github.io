@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lazar focus on voices in my head</title><link>https://cpbotha.net/tags/lazar-focus/</link><description>Recent content in lazar focus on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 27 Jul 2021 21:26:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/lazar-focus/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #229: Staycation PERMA-Station</title><link>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</link><pubDate>Tue, 27 Jul 2021 21:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/</guid><description> Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)
+This edition of the WHV looks back at the week from Monday July 19 to Sunday July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving of the hallowed title of&amp;hellip; STAYCATION!
+Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at home or close to it.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="bettys_jocks.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/07/27/weekly-head-voices-229-staycation-perma-station/bettys_jocks_huc11c02a8d554d1e07ce947f124c93b71_2055523_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from a short but surprisingly balmy weekend in Betty&amp;rsquo;s Bay (In Winter, a large part of Betty&amp;rsquo;s remains permanently in the shadow of the mountain.)"/> </a><figcaption>
+            <p>Figure 1: A scene from a short but surprisingly balmy weekend in Betty&rsquo;s Bay (In Winter, a large part of Betty&rsquo;s remains permanently in the shadow of the mountain.)</p>
+        </figcaption>
+</figure>
+
+<p>This edition of the WHV looks back at the week from Monday July 19 to Sunday
+July 25, 2021, a week of untold wonders and intense enjoyment, a week deserving
+of the hallowed title of&hellip; <em>STAYCATION!</em></p>
+<p>Jokes aside, it was a perfectly enjoyable week of time off, most of it spent at
+home or close to it.</p>
+<p>We spent time together, took care of hobby- and side-projects, and even had
+time to daydream and come up with some wacky ideas which should probably never
+see the light of day, but which one day just might.</p>
+<h2 id="lazar-focus-1-dot-3-released">Lazar Focus 1.3 released</h2>
+<p>On the evening of Tuesday, July 20, after a flurry of programming and testing,
+<a href="https://lazarfocused.com/2021/07/21/lazar-focus-1.3.0-released-real-time-focus-feedback/">Lazar Focus 1.3 was released</a>.</p>
+<p>Noteworthy is its new ability to measure and give real-time feedback on your
+current focus, as an easy to interpret percentage.</p>
+<p>The more you resist distractions, the higher the focus percentage.</p>
+<p>When developing this feature, I ended up selecting a 5 minute rolling window,
+after I was initially planning a pomodoro length. Five minutes seem to be a
+sort of sweet spot in terms of seeing one&rsquo;s distractions affect one&rsquo;s score,
+but not having it immediately distroyed, so that there&rsquo;s still time to recover.</p>
+<p>I wanted to mention here the interesting disconnect between the programming I
+do for this completely disconnected hobby project in a language (Pascal-ish)
+that I don&rsquo;t particularly prefer but don&rsquo;t mind on the one hand, and my day
+job, for which I sometimes still get to program, on the other.</p>
+<h2 id="perma-the-five-building-blocks-of-well-being">PERMA: The five building blocks of well-being</h2>
+<p>So yeah, there&rsquo;s a pretty interesting disconnect&hellip;</p>
+<p>Writing code for LF, in this case perhaps perhaps noteworthy the real-time
+focus tracking data-structure, namely a run-length encoded series of (no)focus
+time durations that automatically get truncated, lengthened and pruned as time
+progresses, was 100% fun and relaxation.</p>
+<p>This is not the most tricky thing to implement, but the process of first
+cooking it up in my brain, and then later sitting down to implement it, and
+seeing it work, was just challenging enough to result in several periods of
+complete immersion in, or engagement with, the task.</p>
+<p>In <a href="https://www.amazon.com/Flourish-Visionary-Understanding-Happiness-Well-being/dp/1439190763/ref=sr%5F1%5F6?dchild=1&amp;qid=1627409990&amp;refinements=p%5F27%3AMartin+Seligman&amp;s=books&amp;sr=1-6">Martin Seligman&rsquo;s book titled <em>Flourish</em></a>, which I&rsquo;m slowly working through
+at the moment (he is a great and impactful psychologist, but perhaps not the
+world&rsquo;s greatest story teller, sorry Prof Seligman), he explains that human
+<a href="https://ppc.sas.upenn.edu/learn-more/perma-theory-well-being-and-perma-workshops">well-being, or flourishing, consists of five building blocks, namely</a>:</p>
+<ol>
+<li>Positive Emotion: gratitude, savouring the present, hope and optimism,</li>
+<li>Engagement: Lose oneself in a challenging (err) task,</li>
+<li>Relationships: Love and be loved by friends and family,</li>
+<li>Meaning: belonging to and serving some cause greater than oneself and</li>
+<li>Accomplishment: Pursuing achievement and mastery for its own sake.</li>
+</ol>
+<p>My little LF programming exercise was <em>exactly</em> right for triggering a bit of
+item number 2, namely engagement.</p>
+<p>I am happy that I could slip a little PERMA in here on the back of Lazar Focus,
+a little tool that is also proving useful in ways that I did not expect. ;)
+Although the book is not the easiest going, it makes some valuable points if
+you too are a fan of well-being.</p>
+<h2 id="pfizer-jab-1-in-da-pocket">Pfizer jab #1 IN DA POCKET</h2>
+<p>I really loves me some cutting edge science.</p>
+<p>I know that the mRNA vaccines have been in development for decades now, but
+they still represent such an amazing technological flex.</p>
+<p>How fantastic is it that some of our cleverest humans have designed and tested
+<a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html">this vaccine that consists of usually unstable mRNA</a>, to be injected into human
+cells where our the cellular machinery in our bodies will dutifully follow the
+mRNA instructions to frikking synthesise and display a piece of spike protein
+that looks enough like the COVID-19 spike protein so that our immune system
+will notice and immediately start creating antibodies, all without us actually
+getting infected.</p>
+<p>As if that&rsquo;s not enough, the introduced mRNA is broken down ASAP after
+synthesis.</p>
+<p>HOT DAMN we live in the future and it&rsquo;s pretty awesome up here!</p>
+<p>I AM EXCITE</p>
+<p>I am also really happy with the super efficient walk-in vaccination procedure at the Town Hall here in Somerset West.</p>
+<p>I would have been in and out in 30 minutes with Pfizer jab #1 had I not run
+into and started chatting with friends in the side-effect waiting area.</p>
+<p>Kudos to the Western Cape for running this like the Star Trek medical bay.</p>
+<p>Still friends, how strange are the days that we find ourselves in?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #208: Stilbaai</title><link>https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/</link><pubDate>Sat, 07 Nov 2020 10:59:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/</guid><description> Welcome back folks!
+Although my weeks have been quite full, this post is short.
+It covers a few noteworthy (to me) events and observations from the period Monday October 12 to Sunday November 1, 2020.
+Figure 1: Skulpiesbaai, taken from the halfway-point of a coastal run in Stilbaai.
+Running and reading I am super chuffed that on Sunday October 18, 2020, GOU #1 (14) completed her first (virtual) 10km race.</description><content:encoded><![CDATA[ <p>Welcome back folks!</p>
+<p>Although my weeks have been quite full, this post is short.</p>
+<p>It covers a few noteworthy (to me) events and observations from the period
+Monday October 12 to Sunday November 1, 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="skulpiesbaai_pano.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Skulpiesbaai, taken from the halfway-point of a coastal run in Stilbaai."/> </a><figcaption>
+            <p>Figure 1: Skulpiesbaai, taken from the halfway-point of a coastal run in Stilbaai.</p>
+        </figcaption>
+</figure>
+
+<h2 id="running-and-reading">Running and reading</h2>
+<p>I am super chuffed that on Sunday October 18, 2020, <a href="/about/weekly-head-voices-abbreviations/">GOU #1</a> (14) completed her
+first (virtual) 10km race.</p>
+<p>Her journey started when a friend from school invited her to join the race, at
+which point GOU #1 suddenly became much more enthusiastic about running
+regularly with her old dad. (that&rsquo;s me)</p>
+<p>There is something pretty primal about running with your offspring, an
+observation that I might have mentioned before on these pages.</p>
+<p>Anyways, after her race she was visibly happy, and also relieved that, in her
+words, &ldquo;she didn&rsquo;t die&rdquo;.</p>
+<p>What I&rsquo;m perhaps even more happy about than the preparatory runs together, and
+her completing the race, is that since the race we&rsquo;ve been out together for a
+run or three.</p>
+<p>(Running and reading are two of the most important low-level habits I would
+like to try and get my offspring hooked on.)</p>
+<h2 id="ieee-vis2020">IEEE VIS2020</h2>
+<p>At the start of October, I had a great experience <a href="/2020/10/10/weekly-head-voices-206-mount-ceder/#vcbm-2020-virtually">virtually attending the VCBM
+2020 conference</a>.</p>
+<p>As if that was not enough grade A1 10/10 conferencing for one year, my other
+favourite conference, IEEE VIS (for visualization) was also fully virtual this
+year in the week of October 26, so again I dove into YouTube streams and
+well-organised discord rooms, and again this experience was highly edifying and
+enjoyable.</p>
+<p>Somehow, it was even <em>more</em> fun than my already optimistic expectations to run
+into friends at the conference.</p>
+<p>I would like to transfer this one piece of sage advice given by the amazing
+<a href="https://en.wikipedia.org/wiki/Jack%5Fvan%5FWijk">Prof. Jarke van Wijk</a> during the panel on &ldquo;Why should I stay in academia&rdquo; when
+the discussion treated the issue of dealing with rejection, something that is
+unfortunately a regular part of most academic careers.</p>
+<p>At this point, he was referring specifically to accepted papers and proposals,
+but the advice should really be applied to any victory, large or small, in all
+walks of life:</p>
+<blockquote>
+<p>Celebrate your victories.</p>
+</blockquote>
+<h2 id="cycles">Cycles</h2>
+<p>You will of course remember that we were fortunate enough to <a href="/2020/04/13/weekly-head-voices-191-covid-19-part-2/">spend our last few
+days of freedom in Stilbaai,</a> as autumn was arriving, and more acutely right
+before the first lockdown started on March 26,</p>
+<p>It was really great going back to the exact same house (thanks kind host!),
+after months of various levels of lockdown, this time just as spring was really
+getting off the ground.</p>
+
+
+
+
+
+
+
+
+<figure><a href="stilbaai_0181.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_800x0_resize_q75_box.jpg"
+            
+
+        /> </a>
+</figure>
+
+<p>I did take work with me for the long weekend, but this time, and quite
+unexpectedly, the important <a href="/tags/disconnecting">disconnect</a> happened quite quickly without too much
+conscious effort from my side.</p>
+<p>If I had to put my finger on it, I would say that getting everyone to go
+outside as often as possible on little adventures of various sizes was the
+catalyst.</p>
+<h2 id="back-to-reality-an-18-minute-plan-for-managing-your-day">Back to reality: An 18-minute plan for managing your day</h2>
+<p>I could not imagine a more sudden transition from the long weekend zen above
+than this jump to Peter Bregman&rsquo;s 18 minute plan for planning your work day.</p>
+<p>Anyways.</p>
+<p>Sometimes, fortunately mostly later in the afternoon, I wonder why my systems
+have failed in helping me to keep my eye on that ball for longer. (See <a href="/2020/10/10/weekly-head-voices-206-mount-ceder/#my-mind-is-a-slippery-eel">my
+slippery eel</a> for more struggles.)</p>
+<p>That&rsquo;s when I procrastinate quasi-productively by searching online for any new
+self-optimisation tricks that I might have missed, and which might constitute
+that Last Piece of The Puzzle that will fix this once and for all.</p>
+<p>This time, to my great surprise, I did actually run into something 1. that was
+written aaaaaall the way back in 2009 and 2. that contained something new that
+I had not run into before, namely the &ldquo;refocus&rdquo; reminder.</p>
+<p>The refocus reminder is literally an alarm that goes off every hour on the
+hour, at which point you explicitly take a step back for a whole minute to
+review the past hour, and, if required (most probably the case the later it is
+in the day), to re-commit to the following hour.</p>
+<p>This reminded me specifically about mindfulness&rsquo;s <a href="/2017/01/05/the-2016-to-2017-transition-post/#therunning-and-the-mindful">&ldquo;Each breath a new beginning;
+each out-breath a letting go&rdquo;</a>, and more generally about <a href="/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/#life-is-continuous-practice">life as eternal
+practice</a>.</p>
+<p>You can use any sort of timer to do this, but this seemed like a great feature
+for the little Lazar Focus app, so I implemented it along with a nice
+mindfulness bell sound to add some gravitas to the moment.</p>
+<p>If you like, you can read the short summary I wrote about the <a href="https://lazarfocused.com/2020/10/24/peter-bregmans-18-minute-plan-for-managing-your-day-and-the-surprising-power-of-refocus-reminders/">18-minute plan
+and refocus reminders over on the LazarFocused blog</a>. There are some other more
+widely known but great tips for running your work days more efficiently.</p>
+<h2 id="kind-regards">Kind regards</h2>
+<p>Folks, thank you very much for joining me here.</p>
+<p>The comments section below is ready for your thoughts, if you would like to
+externalise them.</p>
+<p>I look forward to our next meeting.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #200: We are extremely pleased to be here</title><link>https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/</link><pubDate>Sun, 19 Jul 2020 17:45:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/</guid><description> Figure 1: A rainbow over Betty&amp;rsquo;s Bay, captured by GOU#1.
+Well hello there everyone, and welcome to this, the 200th edition of the Weekly Head Voices.
+While I am super happy that we&amp;rsquo;ve reached this number of episodes, I don&amp;rsquo;t have anything special planned, besides being festively two weeks late.
+Being that late also means that this post looks back at the three weeks from Monday June 29 to Sunday July 19 of the year 2020, also known as Cray-cray 20.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="bb_rainbow.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/bb_rainbow_hu98b33b7c39616f8f4db766c017c9e6b0_1401064_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/bb_rainbow_hu98b33b7c39616f8f4db766c017c9e6b0_1401064_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/bb_rainbow_hu98b33b7c39616f8f4db766c017c9e6b0_1401064_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/bb_rainbow_hu98b33b7c39616f8f4db766c017c9e6b0_1401064_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/07/19/weekly-head-voices-200-we-are-extremely-pleased-to-be-here/bb_rainbow_hu98b33b7c39616f8f4db766c017c9e6b0_1401064_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A rainbow over Betty&amp;rsquo;s Bay, captured by GOU#1."/> </a><figcaption>
+            <p>Figure 1: A rainbow over Betty&rsquo;s Bay, captured by GOU#1.</p>
+        </figcaption>
+</figure>
+
+<p>Well hello there everyone, and welcome to this, the 200th edition of the Weekly
+Head Voices.</p>
+<p>While I am super happy that we&rsquo;ve reached this number of episodes, I don&rsquo;t have
+anything special planned, besides being festively two weeks late.</p>
+<p>Being that late also means that this post looks back at the three weeks from
+Monday June 29 to Sunday July 19 of the year 2020, also known as Cray-cray 20.</p>
+<h2 id="my-attempt-at-dipping-my-toes-carefully-into-the-world-of-mechanical-keyboards">My attempt at dipping my toes carefully into the world of mechanical keyboards</h2>
+<p>You might remember that <a href="/2020/05/20/weekly-head-voices-195-pragmatic/#ergonomic-keyboard-one-way-street">back in May I wrote the following</a> after having tried
+out a cheap non-ergonomic (i.e. straight) keyboard:</p>
+<blockquote>
+<p>One could perhaps get used to the mushiness, or preferably just invest in a
+more expensive (mechanical) keyboard, but that ulnar deviation is a total deal
+breaker.</p>
+<p>My dreams of joining the clickety-clackety cliques of the mechanical keyboard
+digerati had been shattered, fortunately quite cheaply.</p>
+<p>Instead, I shall be redoubling my Sculpt stockpiling efforts.</p>
+</blockquote>
+<p>Well about that&hellip;</p>
+<p>The clickety-clackety cliques continued calling, and so I decided to apply an
+additional but small amount of money on a very much entry-level mechanical
+keyboard in order to determine if my mechanical keyboard dreams were to remain
+just that.</p>
+<p>The cheap but still quite respectable (well, if you&rsquo;re ok with rainbow
+lighting) <a href="https://youtu.be/IYN3aHjbxmU">T-Dagger Corvette</a> arrived this past Wednesday around lunch time,
+along with its extremely clicky and hotswappable (!!) <a href="https://mechanicalkeyboards.com/switches/index.php?switch=Outemu-Blue">Outemu blue switches</a>.</p>
+<p>(Each and every key has its own removable, mechanical switch, in this case
+Outemu blues, which are tactile and clicky. Each colour of each brand has its
+own characteristics, so you can fine-tune how you would like to type, and how
+you would like it to sound while you type.)</p>
+<p>I&rsquo;ve only spent a few days working with it, but my word, what a bunch of fun
+typing has become!</p>
+<p>The extreme tactility of the keys, together with the calmly confident click that
+each press causes (this dream can of course only really take place during the
+current WFH phase we are going through), has really put the titillation back
+into typing.</p>
+<p>This is so much fun that I&rsquo;ll probably keep at it for a while.</p>
+<p>Also, compared to <a href="/2020/05/03/weekly-head-voices-193-covid-19-part-3/#microsoft-sculpt-ergonomic-desktop-at-4-years-rip">one of my previous Sculpt keyboards where the failure of a
+single key meant that I had to replace the whole keyboard</a>, it&rsquo;s great that with
+this far cheaper mechanical keyboard I am able to pull and replace, quite
+trivially, the mechanical switch in question.</p>
+<p>The only problem now is that I have this strange new craving to acquire more
+mechanical keyboards and keyboard paraphernalia&hellip;</p>
+<h3 id="keyboard-addendum">Keyboard addendum</h3>
+<p>The keyboard officially supports &ldquo;full key non-conflict&rdquo;, which sounds like
+some sort of <a href="https://en.wikipedia.org/wiki/Rollover%5F(key)#Keyboard%5Fusage">key roll-over</a>.</p>
+<p>As a non-gamer, this will probably never affect me, although I have
+experimented with it by mashing down on as many keys simultaneously as
+possible, and then seeing them all still appear on the screen.</p>
+<p>I do fantasise that sometimes I type that fast, and that then this rollover
+will really help!</p>
+<p>(I just did a quick experiment: 8 fingers mashing down at the same time on the
+dvorak home row gave me &ldquo;ansoeuht&rdquo;. Keys in order from left to right are
+&ldquo;aoeuhtns&rdquo;. Neat.)</p>
+<p>Not unimportantly, my GOUs are fascinated by the pretty water droplet mode of
+the RGB backlighting, which I can fortunately disable when working.</p>
+<p>To my surprise, the backlighting in one of its static not-too-bright modes is
+really quite useful when the sun starts setting at the end of a work day.</p>
+<h2 id="lazar-focus-update">Lazar Focus update</h2>
+<p>Since <a href="/2020/06/11/weekly-head-voices-197-shipping-a-side-project/#on-slipping-and-shipping-a-side-project">I last mentioned</a> my shipping little side-project <a href="https://lazarfocused.com/">Lazar Focus</a>, the windows
+distraction blocker that helps you focus like a boss (I&rsquo;m still working on the
+marketing over here, sorry), another big feature update shipped, namely fully
+automatic time-tracking.</p>
+<p>The number of sales is currently somewhat more than one, but still fewer than
+ten.</p>
+<p>Although I use LF almost every day, it&rsquo;s brilliant when someone else who
+generally does not even know me, decides to <strong>buy</strong> a copy for themselves.</p>
+<p>If you&rsquo;re into relaxing (some might say sleep-inducing) screencasts, I have two
+new ones on offer.</p>
+<p>The first is 4 minutes, and shows how to get started with Lazar Focus and its
+automatic activity logging:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G8z7ZACPtrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>The second got a bit out of hand.</p>
+<p>It&rsquo;s 12 minutes of me, in my evening voice, taking you through the minute
+details of a work day as tracked by Lazar Focus:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ccMp1yYBOd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>If you&rsquo;re on twitter, and you&rsquo;d like to keep an eye on Lazar Focus, you could
+consider following <a href="https://twitter.com/LazarFocused">@LazarFocused</a>! (tweet frequency is currently about once to
+twice per week)</p>
+<h2 id="camper-philosohpy">Camper philosohpy</h2>
+<p>Picture this:</p>
+<p>Driving along <a href="/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/#the-beach">Clarence drive</a> three weeks ago, with the usual awe-inspiring
+views over the bay, we saw a couple sitting beside the road next to their
+camper, bathed in the golden, nay <em>divine</em>, late-afternoon sun.</p>
+<p>They were clearly having a ridiculously good time.</p>
+<p>On the back of their camper, the following important message stood lettered:</p>
+<blockquote>
+<p>We are extremely pleased to be here.</p>
+</blockquote>
+<p>Folks, I really wish each and every one of you moments like that, moments so
+good that you can be extremely pleased to be exactly where you are.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #197: How to ship side-projects</title><link>https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/</link><pubDate>Thu, 11 Jun 2020 22:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/</guid><description> Hello friends!
+Weekly Head Voices #197 looks back at the week from Monday June 1 to Sunday June 7.
+Figure 1: Weekend morning runs are generally great, but this Saturday morning run was particularly perfect.
+Work-work is quite high intensity at the moment.
+I really would not mind a bit of respite any time soon now.
+In the meantime, let me look back, and by the crazy laws of metaphysics also inwards, at the previous week:</description><content:encoded><![CDATA[ <p>Hello friends!</p>
+<p>Weekly Head Voices #197 looks back at the week from Monday June 1 to Sunday June 7.</p>
+
+
+
+
+
+
+
+
+<figure><a href="morgenster.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/morgenster_hu00493877939b967d40d1829263b80ca0_1079342_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Weekend morning runs are generally great, but this Saturday morning run was particularly perfect."/> </a><figcaption>
+            <p>Figure 1: Weekend morning runs are generally great, but this Saturday morning run was particularly perfect.</p>
+        </figcaption>
+</figure>
+
+<p>Work-work is quite high intensity at the moment.</p>
+<p>I really would not mind a bit of respite any time soon now.</p>
+<p>In the meantime, let me look back, and by the crazy laws of metaphysics
+also inwards, at the previous week:</p>
+<h2 id="on-slipping-and-shipping-a-side-project">On slipping and shipping a side-project</h2>
+<p>I have <a href="/2018/05/13/weekly-head-voices-142-theory-of-mind/#the-side-project-dilemma">written</a> <a href="/2018/09/03/weekly-head-voices-152-a-small-but-highly-trained-team-of-11-year-olds/#au-revoir">before</a> about nerds and their side-projects.</p>
+<p>You might recall that I said that they mostly don&rsquo;t ever see the light of day,
+although they still have indirect benefits.</p>
+<p>In any case, the two I linked to above both failed, so at least that&rsquo;s nice for
+consistency.</p>
+<p>However, on Friday I went and bucked the trend ever so slightly by
+soft-launching the Lazar Focus app and website distraction blocker for Windows.</p>
+<p>I <a href="/2020/05/31/weekly-head-voices-196-get-focused/#lazar-focus-the-super-tiny-windows-app-and-website-distraction-blocker-that-you-ve-always-wanted">mentioned LF last week</a>, but it now has a website, called <a href="https://lazarfocused.com/">lazarfocused.com</a>,
+and it has a <a href="https://gumroad.com/l/yExQgr">product page on gumroad</a>.</p>
+<p>It has a <em>substantially</em> smaller number of bugs thanks to brilliant beta
+testing by multi-modal medical visualization expert and productivity app
+<em>connoisseuse</em> <a href="http://noeskasmit.com/">Noeska</a>.</p>
+<p>If you&rsquo;re on Windows, this is exactly the little app you need to block
+distractions, only when you say so of course, so that you can focus on all of
+The Important Stuff™ you undoubtedly would rather get done, so that you
+can get back to goofing off.</p>
+<p>AMIRITE?!</p>
+<p>If you&rsquo;re one of those people who don&rsquo;t need any help to help focusing and to
+stay in the zone, but you work with people who might, the <a href="https://lazarfocused.com/2020/06/06/the-philosophy-behind-lazar-focus/">philosophy behind
+Lazar Focus</a> blog post is a good introduction to share with them. (Also, could I
+interview you? :)</p>
+<h2 id="dry-january-finally-ends--or-maybe-not--with-rochefort">Dry January finally ends (or maybe not) with Rochefort</h2>
+<p>This year, I <a href="/2020/01/12/the-2019-to-2020-transition-post/#plans-and-life-directions-for-2020">started Experiment Alcohol Zero (EAZ) on January 6</a>.</p>
+<p>I&rsquo;m happy to report that this was interrupted only once for a superb glass of
+my favourite Chardonnay (that&rsquo;s the Haskell Anvil, see <a href="/2019/10/17/weekly-head-voices-181-the-slow-ones/#what-i-did-in-week-41">WHV #181</a> for the first
+encounter) with besties, right at the source.</p>
+<p>Other than that, I remained in EAZ until Saturday, June 6, when the St
+Bernhardus Abt 12 and the Trappistes Rochefort #8 and #10 that a friend had
+brought for me all the way from The Netherlands and that had been waiting
+patiently for me in the cupboard, had just been sitting there waiting for long
+enough.</p>
+<p>(By the way, the St Bernhardus Abt 12 is a taste clone of the Westvleteren, the
+pretty expensive king of the Trappist beers, as a drunk gentleman once
+explained to me in the Doerak in Delft late one evening. He was right, as my
+companion and I subsequently confirmed when we acquired both beers for a
+comparative tasting on the spot.)</p>
+<p>The time, but far more pertinently the opportunity, had come to end (or was it
+merely to interrupt&hellip;) EAZ 2020.</p>
+<p>Friends, that Rochefort is simply packed with a multitude of sweet, warm
+memories of days and evenings in my other home, with my other family.</p>
+
+
+
+
+
+
+
+
+<figure><a href="rochefort_8_action_shot.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/06/11/weekly-head-voices-197-shipping-a-side-project/rochefort_8_action_shot_hu09101c82e03d9743f9adfcf38f7fad1a_1303533_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Just in case you needed reminding, the Rochefort 8 looks like this. Memories of a lifetime not pictured."/> </a><figcaption>
+            <p>Figure 2: Just in case you needed reminding, the Rochefort 8 looks like this. Memories of a lifetime not pictured.</p>
+        </figcaption>
+</figure>
+
+<p>(Going even further back, I have <a href="/2016/07/19/weekly-head-voices-109-gaba/">mentioned before</a> that this blog contains <a href="/2003/04/21/an-eventful-weekend/">a
+written record of my very first encounter with Rochefort</a>, all the way back in
+2003, right in the town of La Roche-en-Ardenna, about 30 minutes away from
+Rochefort itself. Reading that post now, it really was a sort of WHV avant la
+lettre!)</p>
+<h2 id="the-last-bit">The last bit</h2>
+<p>Ok folks, it is now 22:17 on Thursday evening, and I&rsquo;m at that super difficult
+&ldquo;HOW IN THOR&rsquo;S NAME DO I CONCLUDE THIS THING?!&quot;-stage, a problem which I seem
+to be solving with the &ldquo;I KNOW LET&rsquo;S BREAK THE FOURTH WALL / SIMPLY TALK
+ABOUT HOW WE DON&rsquo;T KNOW HOW TO END THIS THING&rdquo;-manoeuvre.</p>
+<p>On the bright side, I think we did <em>just</em> make the deadline with this edition
+of the WHV, narrowly avoiding postponement and a larger-than-normal next post.</p>
+<p>Have a brilliant rest of the week and weekend. I look forward to seeing you
+again, here and anywhere!</p>
+<p>P.S. I still don&rsquo;t know how to ship side-projects.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #196: Get focused</title><link>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</link><pubDate>Sun, 31 May 2020 22:27:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</guid><description> Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here.
+Well hello there folks, please make yourself at home!
+This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the extremely strange year of 2020.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="sylvia_draws_family_20200531.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here."/> </a><figcaption>
+            <p>Figure 1: Our house clan, as drawn by GOU #2. I&rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&rsquo;s who. Readers might also notice that I&rsquo;m slightly outnumbered here.</p>
+        </figcaption>
+</figure>
+
+<p>Well hello there folks, please make yourself at home!</p>
+<p>This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the
+extremely strange year of 2020.</p>
+<p>That effort of looking back has resulted in the following three items.</p>
+<h2 id="when-building-automatic-analysis-pipelines-get-your-batch-accuracy-testing-up-as-soon-as-you-can">When building automatic analysis pipelines, get your batch accuracy testing up as soon as you can</h2>
+<p>A substantial part of my work hours these past two weeks went into working on a
+automatic medical image analysis pipeline, with machine learning
+inside™. (I mean &ldquo;AI&rdquo;, of course. And drones.)</p>
+<p>I really do love this stuff, but sometimes it ends up coming down to putting
+your head down and keeping it down, in order to grind out every percent or two
+in improved accuracy.</p>
+<p>The tip I wanted to offer here is the following: Even when you think your
+pipeline is way too far from &ldquo;done&rdquo;™, get your batch accuracy testing up
+and running.</p>
+<p>It&rsquo;s a double whammy:</p>
+<ol>
+<li>You and your team get early and regular feedback on how your performance is
+going.</li>
+<li>You are forced to have the whole concept working from end-to-end. It can be
+surprising how many little issues you still need to solve, and running into
+them sooner rather than later is only good.</li>
+</ol>
+<p>By the way, the practical machine learning icon <a href="https://en.wikipedia.org/wiki/Andrew%5FNg">Professor Andrew Ng&rsquo;s</a> free book
+<a href="https://www.deeplearning.ai/machine-learning-yearning/">Machine Learning Yearning</a> is filled to the brim with practical tips for
+implementing ML in practice.</p>
+<h2 id="lazar-focus-the-super-tiny-windows-app-and-website-distraction-blocker-that-you-ve-always-wanted">Lazar Focus: The super tiny Windows app and website distraction blocker that you&rsquo;ve always wanted</h2>
+<p>Back at the <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">start of 2018 I wrote the following about the macOS app and website
+distraction blocker called Focus</a>:</p>
+<blockquote>
+<p>After years of resisting these types of software tools due to my belief that I
+should simply apply more grit and will power to squeeze out more focus hours,
+I finally broke down and purchased the macOS app called Focus. You click its
+pretty icon, and then your computer goes into focus mode: The Mail application
+and a bunch of other non-focus-related apps all get killed, and a bunch of
+websites (reddit, youtube, work chat, etc) are blocked for a user-configurable
+block of time.</p>
+</blockquote>
+<p>Even if you skipped that extract, please read the following one about the
+<em>idea</em> behind such a focus app:</p>
+<blockquote>
+<p>It usually takes a single moment of weakness for a distraction to terminate a
+valuable block of focus. It takes a single moment of strength for this tool to
+start a valuable block of focus.</p>
+</blockquote>
+<p>Anyways, I was really missing this functionality on Windows, and so I busted
+out my trusty <a href="https://www.lazarus-ide.org/">Lazarus IDE</a> (who <em>didn&rsquo;t</em> make apps back in the day with the old
+win32 Delphi?!) and figured out the various required Windows APIs to create
+this brand new super tiny but super effective app and website blocker:</p>
+
+
+
+
+
+
+
+
+<figure><a href="lazar_focused_screenshot.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_1200x0_resize_q75_box.jpg 1200w,
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Screenshot of Lazar Focus 1.0.0.beta1, main window on the left, settings dialog on the right."/> </a><figcaption>
+            <p>Figure 2: Screenshot of Lazar Focus 1.0.0.beta1, main window on the left, settings dialog on the right.</p>
+        </figcaption>
+</figure>
+
+<p>As shown in the screenshot, it&rsquo;s sitting at 5 MB of memory use. In the age of
+Electron apps, that&rsquo;s really small.</p>
+<p>When you activate focus mode, it&rsquo;ll prevent your browser (Chrome, Brave,
+Firefox or Edge) from viewing any distracting website (you get to configure the
+list) by redirecting to a local web page with an inspiring quote, e.g.:</p>
+<blockquote>
+<p>Concentration can be cultivated. One can learn to exercise willpower,
+discipline one&rsquo;s body and train one&rsquo;s mind. &ndash; Anil Ambani</p>
+</blockquote>
+<p>It will also terminate any distracting apps, and helpfully prevent you from
+starting them up during your focus session.</p>
+<p>The convenient progress bar shows how far you are on your way to a 25 minute
+pomodoro, but that is purely for motivation, and not enforced.</p>
+<p>The total focus blocks and hours at the top should also help to keep us
+motivated and&hellip; <strong>LAZAR FOCUSED!</strong></p>
+<p>So, because there are probably (hopefully?) at least two other people who&rsquo;ll
+find this as useful as I do, and because shipping and selling software that you
+made yourself is awesome especially when it&rsquo;s a hobby project, I have decided
+to try and sell Lazar Focus using something like <a href="https://gumroad.com/">gumroad</a>.</p>
+<p>Hopefully soon with a hobby hour or three I can finish the installer and the
+website, and then make the beta available at a reduced rate.</p>
+<p>Because I prefer it for apps like this when I am the buyer, I have decided to
+make it available as a one-time purchase, no eval but money-back, with
+time-limited upgrades (probably a year?), but with your last licensed version
+obviously remaining fully functional until the end of The Windows API.</p>
+<h2 id="art-fun-with-portrait-ai">Art fun with Portrait AI</h2>
+<p>Ever since I spent a bit of time better curating my twitter subscriptions,
+getting rid of the vitriol and adding much more STEM (shout out to <a href="https://twitter.com/EricTopol">Eric Topol</a>
+&ndash; you could install twitter <em>just</em> for him and you would be great), they often
+bring me shiny treasures.</p>
+<p>Recently, it was <a href="https://portraitai.com/">portraitai.com</a> which brought a great deal of mirth to my home
+as we made authentic looking portraits of each other. (We&rsquo;re just a bunch of
+silly primates with amazing gadgets.)</p>
+<p>It didn&rsquo;t seem to work all that well on me however, until I started pulling
+funny faces:</p>
+
+
+
+
+
+
+
+
+<figure><a href="charl_portraitai.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg"
+            
+
+        /> </a>
+</figure>
+
+<p>With that, dear friends, I bid you kindness, happiness and health.</p>
+]]></content:encoded></item></channel></rss>

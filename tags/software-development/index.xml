@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software development on voices in my head</title><link>https://cpbotha.net/tags/software-development/</link><description>Recent content in software development on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 21 May 2021 22:34:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/software-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #223: The potjie never left</title><link>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</link><pubDate>Fri, 21 May 2021 22:34:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</guid><description> Welcome friends to the two hundred and twenty third edition of the Weekly Head Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.
+(Hah, by writing out the words like that, I&amp;rsquo;ll get paid even more for this article!)
+Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
+Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.</p>
+<p>(Hah, by writing out the words like that, I&rsquo;ll get paid even more for this
+article!)</p>
+
+
+
+
+
+
+
+
+<figure><a href="verg_just_before_endurance_broke.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault."/> </a><figcaption>
+            <p>Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.</p>
+        </figcaption>
+</figure>
+
+<h2 id="vxlabs-software-development-handbook-v1-is-out">vxlabs software development handbook v1 is out</h2>
+<p>Well, it&rsquo;s not really a book, more of a blog post really, but it is chock full
+of practical guidelines for developers.</p>
+<p>It is also 100% free and open source, and can be accessed <a href="https://vxlabs.com/software-development-handbook/">over at the vxlabs</a>.</p>
+<p>None of this will be surprising for any of you experienced developers, but it&rsquo;s
+super handy having a single place that you can point folks at when you have
+some specific advice in mind.</p>
+<p>My personal favourite and most important guideline is <a href="https://vxlabs.com/software-development-handbook/#comment-your-code">&ldquo;Comment your code&rdquo;</a>. It
+seems that this advice really can&rsquo;t be repeated often enough.</p>
+<p>The first commit (i.e. words written) happened on December 14 of 2020, and
+version 1 published on 2021-05-03. Most of this had to happen in between other
+activities, but that&rsquo;s ok. This is one of the <a href="/2021/01/26/weekly-head-voices-214-one-main-thing/#interstitial-projects">interstitial projects</a> I implied
+in January.</p>
+<h2 id="world-in-my-eyes">World in my eyes</h2>
+<p>The photo at the start of this post was taken at the entrance of Vergelegen, at
+about 7km into an absolute epic Saturday late afternoon run.</p>
+<p>It was epic, because the autumn weather was absolutely perfect, my running
+mechanism was smooth and efficient, and there was great music piping into my
+brain via the recently acquired JBL Endurance Run bluetooth earphones.</p>
+<p>I mention the earphones specifically, because for the first time I had found
+something that fit perfectly and even advertised being &ldquo;sweatproof&rdquo; on the box,
+a characteristic that is quite important when you produce as much sweat as I
+do. (TMI, but please bear with me here)</p>
+<p>I was so satisfied after five or six runs that I had taken a few photos earlier
+that day, as I was planning a short blog post extolling the virtues of said
+gadget.</p>
+<p>Probably about 60 seconds after I took the photo, running back out to the road,
+thinking to myself how great these earphones were working and how far I was
+still going to run and how amazing everything is, the right earphone starts
+going &ldquo;GGGGGGGHHHHHRRRRRRRRGGGGGWWWWWGGGGHHHHHH&rdquo; (you have to read that with an
+authentic, hard Dutch guttural) and it simply does not stop.</p>
+<p>&ldquo;Have you tried switching them off and on again?&rdquo; you might say.</p>
+<p>Well, the sound just kept on going, switched on, or off.</p>
+<p>No amount of power cycling, shaking, re-pairing or swearing made any
+difference.</p>
+<p>Right earphone just kept on going &ldquo;GGGGGGGHHHRRRRRGGGGHHHHH&rdquo;.</p>
+<p>I finally bundled up the JBL TripSpoiler BT into my hand, and ran home, like a
+person who runs without music.</p>
+<p>P.S. The section title is a Depeche Mode song (one of my teenage favourites) in
+which the highest mountain is contrasted with the deepest sea, albeit in a
+utterly different context.</p>
+<p>P.P.S. As I write this, takealot is sending me a replacement set. I&rsquo;m hoping
+the new unit is an anti-lemon.</p>
+<h2 id="pretty-hip-birthday-party">Pretty hip birthday party</h2>
+<p>GOU #2 held her 11th party here at our facility.</p>
+<p>The plans started out as a VR party (or at least that&rsquo;s what I thought), but
+great forces out of my control determined that There Would Also Need to Be
+Karaoke.</p>
+<p>This is one time where the more technically inclined dads can shine!</p>
+<p>I purchased exactly one cheap but great value Karaoke microphone (the Samson
+SCR10S Karaoke Dynamic Microphone with Switch, if you must know), and then
+mixed everything together using an old Windows laptop, our old burglary-proof
+(when flat screens were still thick) TV with HDMI input, and a bunch of cables.</p>
+<p>Friends arrived, and an extremely fun-looking and partially sugar-fuelled
+teenage chaos ensued.</p>
+<p>Interestingly, the VR setup ended up getting a significant chunk of the
+attention. Even amongst these ultra-connected digital natives, the tech is
+still new enough to garner a substantial amount of the unobtainium aka
+attention.</p>
+<p>(Although I never ever sing, not even in the shower, that karaoke setup has a
+surprisingly strong magnetic force, if you catch my drift. GOU #2 was quite
+relieved when none of her parents decided to make a guest appearance at the
+main event. In my case, it&rsquo;s really for the better.)</p>
+<h2 id="boomer-party">Boomer party</h2>
+<p>A few days later, after we had sufficiently recovered from the teenage party,
+it was time to invite long time friends of ours over for an old people party.</p>
+<p>As is our wont down here, when the friends are this dear, we take time to make
+a potjie.</p>
+<p>The autumn weather contributed fabulously, and so we enjoyed scenes like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="chicken-curry-potjie-2021.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: From this photo, it&amp;rsquo;s also quite clear that I have become much taller."/> </a><figcaption>
+            <p>Figure 2: From this photo, it&rsquo;s also quite clear that I have become much taller.</p>
+        </figcaption>
+</figure>
+
+<p>Readers of this blog might recognise the visual composition above, perhaps from
+<a href="/2019/01/26/weekly-head-voices-160-write-stuff-down/">a post back in January of 2016</a>, when I initiated the pot with coincidentally
+the same recipe.</p>
+<p>The potjie scene seems to repeat itself (these are not the only two examples),
+acting as a sort of reliable cast iron backdrop (with enamel coating!) for our
+family and friendship rituals.</p>
+<p>On this day, the ritual was indeed sublime.</p>
+]]></content:encoded></item></channel></rss>

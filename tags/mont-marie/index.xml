@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mont marie on voices in my head</title><link>https://cpbotha.net/tags/mont-marie/</link><description>Recent content in mont marie on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 15 Apr 2021 09:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/mont-marie/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #220: An uncomfortable brainstorm</title><link>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</link><pubDate>Thu, 15 Apr 2021 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</guid><description> Welcome to Weekly Head Voices number Two Twenny!
+This edition covers the week from Monday April 5 to Sunday April 11, of which thankfully only 57.1% of the days (vs the usual 71.4%) were officially dedicated to work!
+Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful.
+The work week was indeed shorter (thanks week!) but perhaps just a bit too high intensity.</description><content:encoded><![CDATA[ <p>Welcome to Weekly Head Voices number Two Twenny!</p>
+<p>This edition covers the week from Monday April 5 to Sunday April 11, of which
+thankfully only 57.1% of the days (vs the usual 71.4%) were officially
+dedicated to work!</p>
+
+
+
+
+
+
+
+
+<figure><a href="mont-marie-pano-20210411.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful."/> </a><figcaption>
+            <p>Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in <a href="/2019/11/04/weekly-head-voices-182-can-you-predict-what/">WHV #182</a>. Still beautiful.</p>
+        </figcaption>
+</figure>
+
+<p>The work week was indeed shorter (thanks week!) but perhaps just a bit too high
+intensity.</p>
+<h2 id="why-does-there-have-to-a-discomfort-stage">Why does there have to a discomfort stage?</h2>
+<p>You see, we had previously made an important technical improvement to a product
+that was supposed to be released two weeks ago.</p>
+<p>Fortunately, during pre-release testing on the staging server (this is
+completely separate from production), some of our customers discovered issues
+that have been there for longer, but were now exacerbated, or rather made more
+apparent, by the improvement we had made.</p>
+<p>Now that is an interesting tension!</p>
+<p>One&rsquo;s first-order reaction is to want to roll-back the improvement, because
+we&rsquo;re humans, and we are compelled by our nature to do almost anything to
+resolve the discomfort we feel when our fellow humans are not as happy as they
+should be using the thing that we have built for them.</p>
+<p>That little person in your head is shouting: Go back, go back! You should have
+stayed where you were!</p>
+<p>However, this is one of those sometimes uncomfortable cases when the
+first-order reaction has to be resisted, because you really have to do The
+Right Thing.</p>
+<p>We started by measuring all the things, in order to understand the whole
+problem better.</p>
+<p>After that we started chipping away at some of the newly emphasised
+issues. Chip chip.</p>
+<p>Writing this up now, we are in a much better place than last week, having
+seemingly cleared that darned hump in the middle, and we are hopefully on our
+way to <em>the other side</em>.</p>
+<p>(This situation is quite reminiscent of the <a href="/2013/11/11/creative-process-stage-5-whv-67/">five stages of the creative process
+I&rsquo;ve mentioned before on this blog</a>.)</p>
+<h2 id="instant-switch-off">Instant switch-off</h2>
+<p>With the days as short as they are now, I often go for a mid-afternoon work-day
+run.</p>
+<p>These have been amazing in terms of switching off, and returning to work
+afterwards, refreshed and in a substantially more zen mood.</p>
+<p>In addition to this, family time in the evenings, also preceded by a pretty
+effective disconnect, made a perceptible difference to stress levels.</p>
+<h2 id="microsoft-has-a-pretty-good-password-manager-going-on">Microsoft has a pretty good password manager going on</h2>
+<p>TL;DR: If you&rsquo;re more on Windows and Linux than on Mac, you could consider
+using <a href="https://blogs.windows.com/windowsexperience/2021/02/05/simplify-and-secure-your-life-with-microsofts-autofill-solution-for-passwords/">Microsoft&rsquo;s password manager</a>.</p>
+<p>Some time before Lastpass changed their generous free tier, causing many folks
+to migrate away or to start paying, I decided to move all of my online password
+management to Dropbox Passwords.</p>
+<p>This was because I had been using LastPass for years (their free tier really
+was too generous. I usually do pay for services, but here there was no
+incentive), and thought that I should either start paying or move to a paid
+service, which Dropbox Passwords is in my case.</p>
+<p>Anyways, this experiment started on Saturday, October 3, 2020 and concluded on
+Saturday, April 10, 2021 after I finally made peace with the fact that the
+Dropbox Passwords app was indeed too klunky (PK you were right), and especially
+when I saw that Microsoft had secretly been putting together a pretty
+respectable <a href="https://blogs.windows.com/windowsexperience/2021/02/05/simplify-and-secure-your-life-with-microsofts-autofill-solution-for-passwords/">password management ecosystem</a>.</p>
+<p>You see, I&rsquo;ve been using the new Microsoft Edge browser (aka Edgium) for a
+while now, even on <a href="/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/">the shiny new M1 MacBook Air</a>, where the native M1 build is
+great for running the web-app versions of apps that don&rsquo;t have native M1
+versions yet.</p>
+<p>In addition to that, I&rsquo;m also already using <a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458">Microsoft&rsquo;s Authenticator app</a> for
+2FA on my home and work Microsoft accounts.</p>
+<p>Between the Edge browser (there&rsquo;s also <a href="https://chrome.google.com/webstore/detail/microsoft-autofill/fiedbfgcleddlbcmgdigjgdfcggjcion?hl=en">a Chrome plugin</a>) and the Authenticator
+app&rsquo;s autofill function, you can haz your passwords on desktop and mobile, with
+a similar level of integration as you might see when using icloud with Safari.</p>
+<h2 id="brainstorm-yourself">Brainstorm yourself</h2>
+<p><a href="/tags/side-projects/">Side-projects</a> folks!</p>
+<p>They&rsquo;re mostly great, but they have this unfortunate side-effect that they&rsquo;re
+always multiplying, seemingly even more so when there&rsquo;s a full graveyard of
+incomplete previous side-projects to function as fertile breeding ground.</p>
+<p>In playing my part in this specific force of nature, I spent some time this
+weekend brainstorming new side-project ideas with myself.</p>
+<p>(It is not lost on me that &ldquo;brainstorming&rdquo; project ideas in your own time, and
+not only that, but doing it by yourself, does not fall under &ldquo;standard weekend
+activities&rdquo; for many people. I have made my peace.)</p>
+<p>This time I was quite happy to be using a <a href="/2018/05/13/weekly-head-voices-142-theory-of-mind/#sketchnote-your-life">sketchnote-inspired</a> technique, trying
+to map out the landscape of &ldquo;skills&rdquo;, &ldquo;learning&rdquo;, &ldquo;my pain&rdquo; (not hurting here,
+this just refers to the need that the artifact should address) and &ldquo;market
+pain&rdquo; in order to find that One Final Side-Project that would satisfy all of
+those requirements and allow me to rest. Finally.</p>
+<p>After an hour or two, an idea that seemed to satisfy many of the map points did
+actually pop out!</p>
+<p><em>Narrator: It was not a very good idea.</em></p>
+<p>The idea that popped out fit the whole map too easily, in retrospect.</p>
+<p>One could say it was a bit like glibness as opposed to intelligence in that
+regard.</p>
+<p>The idea was to build a document / information retrieval tool for Windows that
+was at least as good as Spotlight on macOS.</p>
+<p>You&rsquo;ll remember from my <a href="/2019/09/21/note-taking-strategy-2019/">Note-taking strategy 2019</a> post, that my knowledge-base
+has files all over the show. A large part of using this thing effectively, is
+being able to call up that relevant article from 5 years ago in a fraction of a
+second.</p>
+<p>Windows Search is, in spite of years of work and update, still not even in the
+same ballpark as Spotlight in terms of retrieval accuracy and speed, so there
+is a technical opportunity there.</p>
+<p>As these things go, on Saturday evening I had my trusty new Orgmode notes file
+for this new project (<code>WorkingWindowsSearch</code>, sorry I&rsquo;m not marketer), and I
+was slapping together a C# WPF tool with <a href="https://lucenenet.apache.org/">Lucene.net</a> (after a bit of a false
+start with xapian, which I use for my email on Linux) and <a href="https://uglytoad.github.io/PdfPig/">PDFPig</a>, and had got
+it to start indexing a part of my <a href="/2019/03/21/weekly-head-voices-165-get-in-my-pocket/#replacing-pocket-with-just-a-bunch-of-pdfs-jbop">JBOP collection of PDF references</a>.</p>
+<p>Fortunately, bed-time arrived sooner rather than later, terminating this
+(apparent) fecklessness, and the next morning I woke up with that awkward
+morning-after feeling.</p>
+<p>&ldquo;Uh, what was I thinking?!&rdquo;</p>
+<p>During the day, the gears in my head kept on turning by themselves, and the
+notes kept on accumulating.</p>
+<p>I had arrived at the conclusion that local file search was not going to cut
+it.</p>
+<p>One would need integration with different cloud services.</p>
+<p>This thought further developed into the idea that the side-project could be
+merely be &ldquo;sort of a retrieval hub&rdquo; that simply talks to all of the relevant
+APIs and showing results together.</p>
+<p>I had also arrived at the conclusion that I should probably stop right
+there.</p>
+<p>It had been an entertaining and educational dalliance with a list of
+technological artifacts that were new to me, but the longer-term energy did not
+seem to be there.</p>
+<p>It was back to the drawing board (or rather sketchnotes) for me, as soon as a
+sufficient amount of time again become available.</p>
+<h3 id="death-of-a-side-project-epilogue">Death of a side-project: Epilogue</h3>
+<p>On the Tuesday after the weekend (looking into the WHV future here), I ran into
+<a href="https://raycast.com/">Raycast</a>, a tool for macOS that combines Spotlight-like file search with a whole
+bunch of productivity plugins enabling power-users to perform their tasks from
+a single keyboard-driven app.</p>
+<p>With a $2.7 million seed round of capital led by Accel, it seems there are at
+least some people who think that this has market potential, even on a platform
+where the search part is already catered for.</p>
+<h2 id="read-here-for-possibly-life-changing-advice">Read here for possibly life-changing advice</h2>
+<p>I had this scheduled for the next WHV, but this one is in dire need of a
+conclusion, so sorry next WHV!</p>
+<p>I really enjoyed reading through <a href="https://waitbutwhy.com/2021/04/mailbag-2.html">Wait But Why&rsquo;s Mailbag #2 post</a>. (Tim Urban is
+such a human treasure.)</p>
+<p>The piece I would like to highlight now, is Tim Urban&rsquo;s reply to the question
+&ldquo;What is the best piece of advice you have ever received?&quot;:</p>
+<blockquote>
+<p>I met Chris Anderson, the head of TED, in 2015. He had read a few WBW posts and
+offered me the opportunity to give a TED Talk at the 2016 conference (which was
+six months away). Immediately full of both gratitude/excitement and
+dread/anxiety, I asked him if it might be better to wait a couple years until I
+had some more speaking experience. He paused thoughtfully for a few seconds
+before saying, <strong><strong>&ldquo;There&rsquo;s no time like the present.&quot;</strong></strong> I took his advice. Since
+then, his voice saying those words has popped into my head again and again
+during hard decisions, and I&rsquo;m yet to regret following them.</p>
+<p>Great advice is sometimes great because it&rsquo;s totally original or framed in an
+original way. But, as in my story, a well-known platitude, at the perfect
+moment, can also make a huge impact. What makes Chris&rsquo;s advice so valuable to
+me wasn&rsquo;t that it was something new—it was that the lesson I learned from
+taking the advice in that particular moment turned a cliché into a mantra.</p>
+</blockquote>
+<p>Exactly as he describes, it hit me too when I read it.</p>
+<p>Folks, I can&rsquo;t think of a better way to wrap up this post, than just planting
+the hopefully well-timed advice above in your head.</p>
+<p>Here it is again, for easier eye-ball insertion: <strong><strong>There&rsquo;s no time like the present.</strong></strong></p>
+]]></content:encoded></item><item><title>Weekly Head Voices #182: Can you predict what ...</title><link>https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/</link><pubDate>Mon, 04 Nov 2019 22:05:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/</guid><description> Welcome to your home away from home folks!
+This, the one hundred and eighty second edition of the WHV, looks back at the three weeks from Monday October 14 to Sunday November 3, 2019.
+One of the beautiful views from our Sunday (October 20) lunch at Mont Marie in Stellenbosch. On attempting to publish the WHV on a weekly basis. Somewhere at the end of the first week, I sat down to write, but I soon realised that I didn&amp;rsquo;t have all that much to say.</description><content:encoded><![CDATA[ <p>Welcome to your home away from home folks!</p>
+<p>This, the one hundred and eighty second edition of the WHV, looks back at the
+three weeks from Monday October 14 to Sunday November 3, 2019.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_view_from_lunch.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_view_from_lunch_hudef05c4fc210f0ac88cd53403d816ad8_1549551_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_view_from_lunch_hudef05c4fc210f0ac88cd53403d816ad8_1549551_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_view_from_lunch_hudef05c4fc210f0ac88cd53403d816ad8_1549551_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_view_from_lunch_hudef05c4fc210f0ac88cd53403d816ad8_1549551_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_view_from_lunch_hudef05c4fc210f0ac88cd53403d816ad8_1549551_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+One of the beautiful views from our Sunday (October 20) lunch at Mont Marie in Stellenbosch.
+</figcaption>
+</figure>
+<h2 id="on-attempting-to-publish-the-whv-on-a-weekly-basis">On attempting to publish the WHV on a weekly basis.</h2>
+<p>Somewhere at the end of the first week, I sat down to write, but I soon
+realised that I didn&rsquo;t have all that much to say.</p>
+<p>Ironically, earlier that day I had had an online discussion where I made the
+statement that I preferred putting out posts regularly, rather than waiting
+until until I had something &ldquo;really good&rdquo; to publish.</p>
+<p>In the latter case, one tends to let things slip further and further, with that
+great internal excuse that one&rsquo;s ideas and writing do not yet satisfy one&rsquo;s
+otherwise unspecified but high standards.</p>
+<p>In addition, one&rsquo;s performance anxiety is now fueled into a frenzy by the
+illusion that surely the expectations of one&rsquo;s audience are growing greater by
+the minute, and hence the next post will be measured even more strictly against
+the mythical yard stick of blog posts that in reality very few people, mostly
+friends, actually take the time to read.</p>
+<p>So that happened.</p>
+<p>As is the case with many other things in life that seem to follow the Sisyphean
+ideal, I have made peace with the fact that I will just continue working at
+this, until the end.</p>
+<h2 id="a-call-from-the-future">A call from the future.</h2>
+<p>I made three longer term technology-themed bets with friends and colleagues at
+the IEEE VisWeek conference in 2009.</p>
+<p>The idea was that the first of the three would play out and finally be
+evaluated at VisWeek 2019 (10 years later), and the other two more or less 20
+years later, to be decided at Visweek 2029.</p>
+<p>Fortunately I wrote the bets up in a blog post, all the way back in 2009,
+titled <a href="/2009/10/18/futuristic-betting-at-visweek-2009/">Futuristic Betting at VisWeek
+2009</a>.</p>
+<p>To my surprise, but far more to my delight, an overlapping subset of the
+involved friends and colleagues recorded an hour-long video message at <a href="http://ieeevis.org/year/2019/welcome">VisWeek
+2019 in Vancouver</a> and sent it to me via
+the YouTubes.</p>
+<p>The main message of their video was that I had lost bet #1, with which I could
+agree, and that they had their doubts about my chances in bets #2 and #3, with
+which I can not yet agree.</p>
+<p>You can read <a href="/2009/10/18/futuristic-betting-at-visweek-2009/#update-on-2019-10-27">the addendum I made to the original blog
+post</a> for
+all of the details.</p>
+<p>When I made those predictions, confident that we would be able to debate and
+laugh about them at those future conferences, I ironically had no idea that my
+life was going to take the turns that it did, <a href="/2013/03/09/dear-academia-i-hope-we-can-still-be-friends/">out of
+academia</a> and
+shortly thereafter <a href="/2013/12/14/on-leaving-the-netherlands/">out of Europe</a>.</p>
+<p>Fortunately, that futuristic betting blog post seems to have functioned as a
+sort of anchor in the sands of time, playing its small part in making the
+connection from 2009 to 2019, from Atlantic City to Vancouver and even to
+Somerset West.</p>
+<p>What will happen in 2029?</p>
+<h2 id="humans-predicting-the-world-in-real-time">Humans predicting the world in real-time.</h2>
+<p>Based on <a href="https://www.eurekalert.org/pub_releases/2019-10/sisd-py101419.php">this recent EEG-based experimental
+study</a>, it
+sounds like our brains are continuously predicting the next word that someone
+we&rsquo;re in conversation with is going to say.</p>
+<p>Especially in noisy environments, such as IN DA CLUB, this helps us to
+understand what our conversation partners are saying.</p>
+<p>What struck me when I read the linked press release, and shortly thereafter
+tried to assimilate <a href="https://www.eneuro.org/content/6/5/ENEURO.0128-19.2019">the full
+article</a>, quite
+attractively titled <em>Neural Signal to Violations of Abstract Rules Using
+Speech-Like Stimuli</em>, was that is exactly what computer-based language models
+do.</p>
+<p><em>Language models</em> are mathematical constructs, which mostly live in software,
+that attempt to predict the next word in a sentence, based on the previous
+words in a sequence.</p>
+<p>Recently, <a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf">deep learning approaches overtook the more classical statistical
+approaches for building such language
+models</a>.</p>
+<p>Given a few thousand articles in French for example, a neural network can learn
+how to predict the next word in any given French sentence with high accuracy.</p>
+<p>Together with the fact that the internet is now overflowing with examples of
+many human languages, anyone with some spare time and GPU cycles to burn can
+train up a language model, or even download a pre-trained example.</p>
+<p>Such a language model can then be
+<a href="https://arxiv.org/abs/1801.06146">fine-tuned</a> for other language tasks such as
+sentiment analysis and topic classification.</p>
+<p>I enjoyed seeing this (growing) similarity between our built-in language
+processing wetware and the rapidly developing world of deep learning.</p>
+<p>Maybe you did too.</p>
+<p>Just a little bit.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_clouds2.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_clouds2_hub38090283a8ad056a3ec3bf9d7f7d59c_218101_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_clouds2_hub38090283a8ad056a3ec3bf9d7f7d59c_218101_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_clouds2_hub38090283a8ad056a3ec3bf9d7f7d59c_218101_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_clouds2_hub38090283a8ad056a3ec3bf9d7f7d59c_218101_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/04/weekly-head-voices-182-can-you-predict-what/mont_marie_clouds2_hub38090283a8ad056a3ec3bf9d7f7d59c_218101_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+My phone camera definitely needs more of that DeepFusion to capture the amazing
+contrast patterns that these particular clouds were displaying at that
+moment. You're going to have to take my word for it.
+</figcaption>
+</figure>
+]]></content:encoded></item></channel></rss>

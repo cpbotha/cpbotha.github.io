@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lush on voices in my head</title><link>https://cpbotha.net/tags/lush/</link><description>Recent content in lush on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 24 Mar 2005 15:06:26 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/lush/index.xml" rel="self" type="application/rss+xml"/><item><title>Lush, OCaml and more, part deux</title><link>https://cpbotha.net/2005/03/24/lush-ocaml-and-more-part-deux/</link><pubDate>Thu, 24 Mar 2005 15:06:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2005/03/24/lush-ocaml-and-more-part-deux/</guid><description> In a previous blog entry, I did some extremely informal benchmarking with Lush, OCaml, Python and C. I’ve now added two new Python tests: one with Psyco, a JIT-like solution that takes almost no effort to add to existing code, and one with Pyrex, where one can code extension modules in a language that looks just like Python but has types. These modules are then translated to C and compiled into Python usable extension libaries.</description><content:encoded><![CDATA[ <p>In a <a href="/2004/11/14/lush-ocaml-and-more/">previous blog entry</a>, I did some extremely informal benchmarking with Lush, OCaml, Python and C. I’ve now added two new Python tests: one with <a href="http://psyco.sf.net/">Psyco</a>, a JIT-like solution that takes almost no effort to add to existing code, and one with <a href="http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/">Pyrex</a>, where one can code extension modules in a language that looks just like Python but has types. These modules are then translated to C and compiled into Python usable extension libaries.</p>
+<p>With Psyco, one only has to add the lines “import psyco; psyco.full()” to one’s Python code. The performance gains can be huge, but in general are quite modest. It takes far less effort than Pyrex though.</p>
+<p>The updated benchmarks table is shown below:</p>
+<table border="1">
+<tr>
+<th>
+      Language
+    </th>
+<th>
+      Time (seconds)
+    </th>
+</tr>
+<tr>
+<td>
+      Octave 2.1.57
+    </td>
+<td>
+      7.894
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.4
+    </td>
+<td>
+      0.459
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 interpreted
+    </td>
+<td>
+      0.229
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.5 with Psyco
+    </td>
+<td>
+      0.148
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.5 with Pyrex
+    </td>
+<td>
+      0.064
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 compiled
+    </td>
+<td>
+      0.021
+    </td>
+</tr>
+<tr>
+<td>
+      gcc 3.3.4
+    </td>
+<td>
+      0.017
+    </td>
+</tr>
+</table>
+<p>The new implementations are available at the <a href="/thingies/lushCompare">usual place</a>.</p>
+]]></content:encoded></item><item><title>Lush, OCaml and more</title><link>https://cpbotha.net/2004/11/14/lush-ocaml-and-more/</link><pubDate>Sun, 14 Nov 2004 15:32:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2004/11/14/lush-ocaml-and-more/</guid><description> I took a long hard look at the OCaml functional (well, mostly) language this weekend. One of the many interesting aspects of OCaml, is that, in addition to offering an interpreted environment, it comes with a REALLY good compiler. So, you can sit there prototyping your latest numerical trick and when you’re happy, you can compile the code to a blazingly fast native binary.
+So, whilst reading up on all this, I remembered a question from the [Lush][2] (a lisp-like scientific languages that can also be compiled) [FAQ][3]: “How does Lush compare to Matlab/Octave for speed?</description><content:encoded><![CDATA[ <p>I took a long hard look at the <a href="http://www.ocaml.org/">OCaml</a> functional (well, mostly) language this weekend. One of the many interesting aspects of OCaml, is that, in addition to offering an interpreted environment, it comes with a REALLY good compiler. So, you can sit there prototyping your latest numerical trick and when you’re happy, you can compile the code to a blazingly fast native binary.</p>
+<p>So, whilst reading up on all this, I remembered a question from the [Lush][2] (a lisp-like scientific languages that can also be compiled) [FAQ][3]: “How does Lush compare to Matlab/Octave for speed?”. So the author then shows that Lush is like 50 billion times faster than Octave. (Go look.)</p>
+<p>I implemented his little benchmark in Python, C, Octave and OCaml and tested the codes on a P4 2.4GHz running Ubuntu Linux. These were the performance figures for harmonic(1000000):</p>
+<table border="1">
+<tr>
+<th>
+      Language
+    </th>
+<th>
+      Time (seconds)
+    </th>
+</tr>
+<tr>
+<td>
+      Octave 2.1.57
+    </td>
+<td>
+      7.894
+    </td>
+</tr>
+<tr>
+<td>
+      Python 2.3.4
+    </td>
+<td>
+      0.459
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 interpreted
+    </td>
+<td>
+      0.229
+    </td>
+</tr>
+<tr>
+<td>
+      OCaml 3.08 compiled
+    </td>
+<td>
+      0.021
+    </td>
+</tr>
+<tr>
+<td>
+      gcc 3.3.4
+    </td>
+<td>
+      0.017
+    </td>
+</tr>
+</table>
+<p>For each benchmark, I obviously called the harmonic() in a loop with sufficient iterations to yield accurate timings. For the compiled tests, 300 iterations did the trick. For Octave, 3 was more than enough. You can find my implementations by clicking [here][4].</p>
+<p>This was really just for fun, in other words: DON’T TAKE IT TOO SERIOUSLY. Also, the OCaml snippet I wrote is mostly imperative. However, the results reflect what is also shown by [The Great Computer Language Shootout][5]: OCaml is a good contender when one needs to write very fast code in a more advanced language than C.</p>
+<p>[2]: a href=
+[3]: <a href="http://lush.sourceforge.net/faq.html">http://lush.sourceforge.net/faq.html</a>
+[4]: <a href="http://visualisation.tudelft.nl/~cpbotha/thingies/lushCompare/">http://visualisation.tudelft.nl/~cpbotha/thingies/lushCompare/</a>
+[5]: <a href="http://shootout.alioth.debian.org/">http://shootout.alioth.debian.org/</a></p>
+]]></content:encoded></item></channel></rss>

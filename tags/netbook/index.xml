@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>netbook on voices in my head</title><link>https://cpbotha.net/tags/netbook/</link><description>Recent content in netbook on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 27 Sep 2009 16:47:36 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/netbook/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #5: Google Docs, Bad Netbook Karma, Cold does not cause cold.</title><link>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</link><pubDate>Sun, 27 Sep 2009 16:47:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</guid><description> It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.
+Speaking of shortness, I did get some off-blog (yes, face-to-face!</description><content:encoded><![CDATA[ <p>It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.</p>
+<p>Speaking of shortness, I did get some off-blog (yes, face-to-face!) feedback on the previous edition of the WHV. Said (highly appreciated) feedback concerned the length of these posts, more specifically, that there was too much of it. It’s important to remember that I in fact do write these things with the chronically time-challenged in mind. One of the measures I take is to bold the most important themes in each paragraph, so that one can easily skip on to the next paragraph if the mentioned theme does not take one’s fancy. This week, I’m going even further by employing section headings! As always, <strong>please feel free to skip paragraphs and sections.</strong></p>
+<p>Before jumping in, I give you the traditional WHV photo, this time of my little Weber doing its thing (thanks to some crucial material supplied by <a href="http://tokkiebytes.wordpress.com/" title="My friendly neighbour's blog.  He is in fact my only neighbour with a blog, as far as I know.">my friendly neighbour</a>) on the most brilliant of all South African celebrations: <a href="http://braai4heritage.co.za/" title="more info on national braai day">National Braai day!</a>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/national_braai_day.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/national_braai_day.jpg"
+        
+            alt="My humble little Weber on NBD 2009."/> </a><figcaption>
+            <p>My humble little Weber on NBD 2009.</p>
+        </figcaption>
+</figure>
+</p>
+<p><strong>Geeky Google Docs love affair</strong></p>
+<p><a href="http://docs.google.com/" title="Link to Google Docs">Google Docs</a> is Google’s fantastic attempt (well, it was initially developed by Writely, which was soon assimilated by and has since been happily functioning inside of The Google Supermind) at an office suite. The whole thing, including Documents, Spreadsheets, and Presentations, runs in your web browser. This means that you always have access to your stuff from anywhere, and you never have to install any extra software. With the offline functionality, you can continue working even without an internet connection.</p>
+<p>This was already pretty neat, but then they had to go and make it even neater. In my line of business, one of the coolest features is the fact that you can <strong>concurrently edit the same document with any number of collaborators</strong>. I’ve written research proposals together with colleagues before, where at a number of occasions we were actually editing the same paragraph of text from two different cities, and Docs didn’t break a sweat merging our edits in real-time. This functionality also eliminates the very irritating “Could you send me the latest version of the proposal” emails, the subsequent waiting and then the infuriating expired time window when the latest version finally arrives in the email.</p>
+<p>A recent feature which is admittedly less impressive to the public at large, but made my geek heart miss several beats, was the built-in equation editor. Imagine my surprise when I tried this out for the first time and realised that it is in fact a <strong>real-time LaTeX math typesetter</strong>: You type your incredibly complex formula in standard LaTeX, and Google Docs shows the typeset math updated in real-time. This is even useful if you’re NOT using Google Docs but just want to fine-tune the formulas in your LaTeX article.  Check the screenshot below:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/google_docs_ss1.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/google_docs_ss1.png"
+        
+            alt="Screenshot of Google Docs equation editor."/> </a><figcaption>
+            <p>Screenshot of Google Docs equation editor.</p>
+        </figcaption>
+</figure>
+</p>
+<p>90% of MS Office users probably don’t use more than 10% of its functionality. Google Docs covers this 10% more than adequately, but without the complexity, the platform lock-in and the cost. Next time you’re considering emailing someone a Word document or Powerpoint, have a look at Google Docs first!</p>
+<p><strong>Netbook Bad Karma</strong></p>
+<p>On an extra partition, my netbook (Asus 1005HA-H, the computer I’m currently in love with) has the absolute latest development version of the Ubuntu Karmic Koala (9.10 – will be released at the end of October) Netbook Remix. Linux distributions, and especially Ubuntu, have been making great progress recently on state of the art hardware. On this netbook, suspend to ram for example works out of the box, which is quite an achievement for Linux-kind. However, whereas battery life under the bundled Windows with the Asus Super Hybrid Engine (don’t laugh, to me it sounds like some knid of giant fighting robot power source) is an astounding 9+ hours, under Linux it’s a quite disappointing 4 or 5 hours. One very obvious factor is the CPU running at 1GHz at idle under Linux and 850MHz at idle under Windows.</p>
+<p>Even installing and configuring the latest eeepc acpi utilities, including kernel module, from the testing repository at StatUX <a href="http://www.statux.org/content?page=repo,">http://www.statux.org/content?page=repo,</a> although enabling bunches of hotkeys, didn’t solve the battery problem. The CPU was still running at 1GHz.</p>
+<p>I’m curious to see what the case will be at Karmic release, preferably with the stock Ubuntu Netbook Remix and not too much user fiddling. I’m considering writing a short review at that time, hopefully less critical than <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="Previous review of Feisty on HP laptop.">my previous attempt</a> with Ubuntu Feisty beta (7.04) on my HP laptop.</p>
+<p><strong>Brand new Visual Data Analysis lecture block</strong></p>
+<p>For the past 4 years, I have been taking care of the Medical Visualisation parts (2 lecture blocks) of the TU Delft master-level Data Visualisation course (IN4086). Since the beginning of this year, I also give my very own dedicated 5 ECTS Medical Visualisation course (<a href="http://visualisation.tudelft.nl/Courses/in4307" title="IN4307 course website">IN4307</a>), which I have designed with the sole purpose of producing <a href="http://cpbotha.net/2008/05/01/i-have-an-official-course-code/#more-362" title="an old blog post of mine on the in4307 ninjas">MedVis NINJAS</a>. I take great joy in corrupting promising young minds with my special brand of evil science. :)</p>
+<p>In a very recent development, it seems that <strong>I will now also be taking care of the Visual Data Analysis block of the general Data Visualisation course</strong>. I somehow blurted this out during a recent meeting, and now have the privilege of designing this one from scratch too.</p>
+<p>This is quite interesting, because visual data analysis, or visual analytics as it’s sometimes called (urgh), is primarily associated with Information Visualisation, and being a MedVis fanatic I’m supposed to be a Scientific Visualisation guy. To cut a long story short, InfoVis and SciVis are two sub-fields in the broader field of Visualisation, but the communities behind them might as well come from different planets, in spite of the best efforts of some of my colleagues to unify everything. In any case, it turns out that we (when I say “we” I mean <a href="http://graphics.tudelft.nl/~jorik/" title="Jorik's homepage">Jorik</a>) have been secretly publishing suspiciously infovis-friendly articles the past few years. Look:</p>
+<ul>
+<li>J. Blaas, C.P. Botha, E. Grundy, M.W. Jones, R.S. Laramee, and F.H. Post, <em><a href="http://cs.swan.ac.uk/~csmark/PDFS/blaas2009.pdf" title="Link to Jorik's higher-order smooth graphs vis 2009 article.">Smooth graphs for visual exploration of higher order state transitions</a></em>, <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, vol. 15, 2009.</li>
+<li>J. Blaas, C.P. Botha, and F.H. Post, <em><a href="http://visualisation.tudelft.nl/publications/Blaas2008.pdf" title="LInk to Blaas 2008 PCP article PDF.">Extensions of Parallel Coordinates for Interactive Exploration of Large Multi-Timepoint Data Sets</a></em>, <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, vol. 14, 2008, pp. 1436-1451.</li>
+<li>J. Blaas, C.P. Botha, and F.H. Post, <em><a href="http://visualisation.tudelft.nl/publications/blaas2007.pdf" title="Link to feature space / physical space eurovis 2007 article by Blaas.">Interactive visualization of multi-field medical data using linked physical and feature-space views</a></em>, <strong>Proc. Eurographics / IEEE-VGTC EuroVis</strong>, K. Museth, A. Ynnerman, and T. Möller, 2007, pp. 123-130.</li>
+</ul>
+<p>I find this a very interesting and gratifying development. An increasing number of my research collaborations in the medical research field are also benefiting from visual data analysis techniques. Keeping in mind the clichéd but no less real data explosion, we, as visualisation people, can greatly increase our value to the client. The forthcoming Visual Data Analysis lecture block I’m designing is just one step in the evolution of our science.</p>
+<p><strong>The End, my friend, also of your common cold misconceptions.</strong></p>
+<p>Pressing Ctrl-Shift-C in this Google Doc draft (how’s that for subtle product placement?), I can see that I’ve once again passed the 1000 word mark (1200 to be more precise).</p>
+<p>Whoops.</p>
+<p>I had even more planned, but instead I’ll conclude with a hopefully useful snippet of information, especially in the light of the coming winter. Many people I run into still somehow believe that there’s a causal relationship between being cold, as in going outside in cold weather, and getting a cold, as in sneezing and having a running nose. Well, I’m here to tell you that it’s an age-old myth. A myth I say! See this quote from <a href="http://en.wikipedia.org/wiki/Common_cold#Exposure_to_cold_weather" title="Wikipedia article on the common cold">the Wikipedia article on the common cold</a> (emphasis mine):</p>
+<blockquote>
+<p>An ancient belief still common today claims that a cold can be “caught” by prolonged exposure to cold weather such as rain or winter conditions, which is where the disease got its name.<sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-8" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>9<span>]</span></a></sup> Although common colds are seasonal, with more occurring during winter, experiments so far have failed to produce evidence that short-term exposure to cold weather or direct chilling increases susceptibility to infection, implying that the seasonal variation is instead due to a change in behaviors such as increased time spent indoors at close proximity to others.<sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-NIAID2006-5" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>6<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-pmid13559211-9" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>10<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-pmid12357708-10" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>11<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-11" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>12<span>]</span></a></sup><sup><a href="http://en.wikipedia.org/wiki/Common_cold#cite_note-12" style="text-decoration: none; color: #002bb8; background-image: none; background-repeat: initial; background-attachment: initial; -webkit-background-clip: initial; -webkit-background-origin: initial; background-color: initial; white-space: nowrap; background-position: initial initial;"><span>[</span>13<span>]</span></a></sup></p>
+</blockquote>
+<p>Just to ram that point home: <strong>Going outside in the cold, or being exposed to cold weather or direct chilling, very probably does not increase your chances of catching the common cold!</strong> Similar to this is the work on influenza. It turns out that there’s a <a href="http://www.sciencedaily.com/releases/2009/02/090209205148.htm" title="article on link between flu and absolute humidity">link between the flu and absolute humidity</a>: The <em>lower</em> the humidity, the higher the chance of getting the flu. It’s quite probable that you catch the flu virus not from going outside in winter, but from staying inside your heated and hence slightly drier home.  Chalk one up for all the kids getting told, unfairly and without scientific basis, to dress up before going out or risk getting ill.</p>
+<p>On that rebellious note, have a super duper week!  (… and please do your thing in the comments below …)</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #4: The New Roomie, MedVis at MeVis, Fairy Tale Beach.</title><link>https://cpbotha.net/2009/09/20/weekly-head-voices-4-the-new-roomie-medvis-at-mevis-fairy-tale-beach/</link><pubDate>Sun, 20 Sep 2009 20:28:21 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/09/20/weekly-head-voices-4-the-new-roomie-medvis-at-mevis-fairy-tale-beach/</guid><description> Howwwwdy-hoooo!
+&amp;quot;Haringeter&amp;quot; by Tom Otterness.
+Depending on the particular reality that you find yourself in, which itself could be a function of how hard you’ve been partying, we have now left week #38 of 2009 behind us. I took a significant part of this week off to spend some quality time with visiting family. On Tuesday, I popped by my work (that’s the TU Delft for the uninitiated) to pick up some stuff for my planned official visit to MeVis in Bremen on Wednesday.</description><content:encoded><![CDATA[ <p>Howwwwdy-hoooo!</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/haringeter.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/haringeter.jpg"
+        
+            alt="&amp;quot;Haringeter&amp;quot; by Tom Otterness."/> </a><figcaption>
+            <p>&quot;Haringeter&quot; by Tom Otterness.</p>
+        </figcaption>
+</figure>
+
+<p>Depending on the particular reality that you find yourself in, which itself could be a function of how hard you’ve been partying, we have now left week #38 of 2009 behind us.  I took a significant part of this week off to spend some <strong>quality time with visiting family</strong>.  On Tuesday, I popped by my work (that’s the TU Delft for the uninitiated) to pick up some stuff for my planned official visit to MeVis in Bremen on Wednesday.  Two noteworthy points spring to mind:</p>
+<ul>
+<li><strong><a href="http://gerwindehaan.nl/" title="TNR's homepage.">The New Roomie (TNR)</a></strong> has moved into our shared office.  This is cool for at least two reasons:
+<ol>
+<li>TNR (PhD) is inherently cool.  I’m not sure how this happens to someone, I’m thinking it’s genetic, or perhaps he got hit by a radio-active astroid at some stage.</li>
+<li>TNR has all kinds of hard-core looking VR equipment (including a table-top VR system) that he has brought with him.  Our room has a decidedly more hard-core ambience, and this tends to impress upon people how hard-core we are.  Or him, and me by association.</li>
+</ol>
+</li>
+<li><strong>Visiting work</strong> from right in the middle of my small vacation was an <strong>energising experience</strong> that amplified the big smile I already had on my face.  This is a Good Sign(tm).</li>
+</ul>
+<p>By Tuesday late afternoon, I had to get on the train to Bremen to attend the <strong>German Visual Computing in Medicine meeting</strong>, hosted by MeVis. The previous sentence will now expand, Transformers-style, into a number of derivative thoughts. Watch:</p>
+<p>If you’ve ever had to book an international train journy via nshispeed.nl, the official site of the NS (Dutch Railways), you’ll know of the pain and frustration involved. Attempting to book the train journey to Bremen was no exception, I have two hours of wasted life to show for it. On a tip from Frits and Jorik, I phoned the <a href="http://treinreiswinkel.nl/" title="Treinreiswinkel website"><strong>Treinreiswinkel</strong></a> in Leiden. LO AND BEHOLD, a friendly person answered, and managed to book the exact journy nshispeed claimed was impossible for a really good price. My tickets were delivered to my house exactly one day after the phone call.</p>
+<p>For the first time on such a longish international journey, my computer (in this case Asus eeepc 1005ha-h netbook) had a significantly longer battery life than the duration of the journey: 5 hours of quality time in the train, a whopping 9 hours left on the battery. Score 1 for the 21st century! By the way, I think I might be <strong>developing feelings for my netbook</strong>.</p>
+<p>The <strong>meeting in Bremen</strong> was great: 10 research presentations, ranging from the latest (working!) user interface ideas for the surgical operating room (Ritter) to DTI-based brain parcellation (Roerdink).  After some serious PowerPoint 2007 love the previous night (yay image shadows!) and more importantly mental rehearsal, my talk on our <strong><a href="http://visualisation.tudelft.nl/Projects/BioluminescenceImaging" title="VMI project page">Visualisation for Molecular Imaging</a></strong> project (<a href="http://visualisation.tudelft.nl/People/PeterKok" title="Peter Kok's work website">Peter Kok</a> is the guy actually doing all the work) went quite well. I think. Well, people seemed to stay awake mostly.</p>
+<p>The <strong>MeVisLab software</strong> is really great, especially when the very capable Dr. Felix Ritter demonstrates on a ginormous plasma screen how one goes about visually designing complex medvis applications in no time. I’m a fan of MeVisLab. In spite of that, <strong><a href="http://visualisation.tudelft.nl/Projects/DeVIDE" title="DeVIDE website">DeVIDE</a></strong> does have a niche to fill (hint 1: extreme Python, hint 2: open source), all apart from the fact that one day it will be the preferred <em>operating system</em> of MedVis geeks the world over. :P</p>
+<p><em>The Amazing Transforming Sentence will now take a break until the concluding paragraphs of this blog post!</em></p>
+<p>On Thursday I spent the day at the TU to catch up with some Real Work, pleasantly surprised by the continued hard-coreness of my office. Meanwhile, the <strong>amazon.de swag</strong> I had ordered during the weekend (they have free delivery in NL!) had arrived at my house. My netbook (I love you netbook!) now has 2G of RAM, my Wii has Rayman Raving Rabbids (you get to see who can fling a cow the furthest, need I say more?) and my keychain has a tiny little 8GB USB memory thingy:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/keychain_with_pico_c.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/keychain_with_pico_c.jpg"
+        
+            alt="My Keychain with the new Super Talent Pico-C 8GB USB flash drive."/> </a><figcaption>
+            <p>My Keychain with the new Super Talent Pico-C 8GB USB flash drive.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Friday was absolutely gorgeous weather-wise, so I took my guests to Scheveningen (the beach, that is). I’ll spare you the details of both the preceding visit to Immigration (turns out all foreign visitors that are NOT staying at hotels HAVE to pop by Immigration within 3 days of arrival, what a schlep) as well as the lovely lunch on the beach, all in order to get to the high-light of the day: A coincidental visit to the stunning outside <strong>sculpture exhibition of Tom Otterness</strong>, called <a href="http://www.sprookjesbeeldenaanzee.nl/" title="website Sprookjesbeeldenaanzee">“SprookjesBeelden aan zee”</a>. The first photo of this post is of the “Haringeter”, probably the largest of the sculptures. The playfulness of the sculptures somehow amplifies the messages they contain and made quite an impact on me.</p>
+<p>The week’s coincidental art theme was concluded with a Sunday <strong>visit to the</strong> <a href="http://kmm.nl/" title="website of Kröller-Müller museum"><strong>Kröller-Müller museum</strong></a> in the Hoge Veluwe, home to a beautiful collection of statues by the likes of Rodin and Rietveld, and to a sizable collection of Van Gogh’s work, with some Picassos thrown in for good measure. Especially for you, I took this photo of Van Gogh’s “Landschap met korenschelven en opkomende maan”:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2009/09/van_gogh_landschap_met_korenschelven.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2009/09/van_gogh_landschap_met_korenschelven.jpg"
+        
+            alt="Van Gogh&#39;s &amp;quot;Landschap met korenschelven en opkomende maan&amp;quot;, taken at Kröller-Müller museum."/> </a><figcaption>
+            <p>Van Gogh's &quot;Landschap met korenschelven en opkomende maan&quot;, taken at Kröller-Müller museum.</p>
+        </figcaption>
+</figure>
+
+<p>Walking through the museum, I did have to spare a thought for the fact that on this casual day, I had on my person at least 3 processors, 12G of flash and a 160G hard drive. I’m probably not completely average in this regard, but I’m not that far from it. <strong>The future is very bright.</strong> I have already said that I love the 21st century, haven’t I?  Next time you run into me, ask me about it and then watch me go off on a tangent at ludicrous speed!</p>
+<p>I’d like to conclude this post with interesting (to me, perhaps to you) aspects of an extremely pleasant conversation that I had with an Anonymous MedVis Friend (AMVF, PhD). We were discussing matters like social networking, for example facebook and twitter, and blogging, what roles these things play in one’s life and how they’re in fact slowly <strong>changing the nature of modern human society by becoming an integral part of social interaction</strong>. At one point, I made the statement that social networking, micro-blogging and blogging were all <strong>new forms of self-expression</strong> (doh).  This in itself is not such a revelation, were it not for the fact that I realised at that moment that this is exactly the role these things play in <em>my</em> life, and quite prominently so.  In spite of only fully externalising the thought at that moment, I have always been acutely aware of it.  Every post I make, every apparently inane status update is in fact preceded by quite some thought as to How This Little Piece Fits Into The Big Picture, what it might mean to a potential reader (hi mom!) and whether someone might be entertained or find some form of value in it.</p>
+<p>So kids, on that slightly personal note, I am now officially concluding this edition of the Weekly Head Voices.  It’s been yet another fabulous week, and I’m definitely looking forward to number 39.  Please feel free to self-express in the comments!</p>
+]]></content:encoded></item></channel></rss>

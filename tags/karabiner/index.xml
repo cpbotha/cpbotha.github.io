@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>karabiner on voices in my head</title><link>https://cpbotha.net/tags/karabiner/</link><description>Recent content in karabiner on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 16 Dec 2016 09:46:38 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/karabiner/index.xml" rel="self" type="application/rss+xml"/><item><title>Dvorak remapping with Karabiner-Elements on macOS Sierra works!</title><link>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</link><pubDate>Fri, 16 Dec 2016 09:46:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</guid><description> With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.
+I have been using Karabiner for a while now to remap my keyboard to Dvorak, as the OSX system Dvorak keyboard mapping exposes a bug in many Java apps, including all of the JetBrains development environment tools I use intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are Qwerty, which is of course tremendously confusing.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/Screen-Shot-2016-12-16-at-11.09.32-AM.png"
+        
+            alt="With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak."/> </a><figcaption>
+            <p>With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.</p>
+        </figcaption>
+</figure>
+
+<p>I have been using <a href="https://pqrs.org/osx/karabiner/">Karabiner</a> for a while now to remap my keyboard to
+Dvorak, as the OSX system Dvorak keyboard mapping exposes <a href="https://bugs.openjdk.java.net/browse/JDK-8022079">a bug in many Java
+apps</a>, including all of the JetBrains development environment tools I use
+intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are
+Qwerty, which is of course tremendously confusing. You can read more about the
+issue in <a href="http://stackoverflow.com/a/31119280/532513">this StackOverflow answer</a>.</p>
+<p>I was postponing the upgrade to macOS Sierra, because Karabiner, fantastic
+keyboard remapping tool, is unable to function on the new OS due to changed
+APIs and whatnot.</p>
+<p>Fortunately <a href="https://github.com/tekezo">Takayama Fumihiko</a>, awesome hacker behind Karabiner, has been
+re-implementing his work in a new tool called <a href="https://github.com/tekezo/Karabiner-Elements">Karabiner-Elements</a>. The GUI
+is not up to pre-Sierra level yet, but the tool works perfectly to solve my
+Dvorak-remapping (and other) issues!</p>
+<p>After upgrading to Sierra, install from the dmg file, start Karabiner-Elements,
+then copy <a href="https://github.com/tekezo/Karabiner-Elements/blob/master/examples/qwerty_to_dvorak.json"><code>qwerty_to_dvorak.json</code> from the examples</a> into your
+<code>~/.karabiner.d/configuration/</code> directory and name it <code>karabiner.json</code>. It will
+be immediately picked up, so you&rsquo;re typing in Dvorak. <strong>NB: Since 2016, this
+has changed. See new instructions in the update below!</strong></p>
+<p>Personally I have also added the relevant lines from the
+<code>change_caps_lock_to_left_control.json</code> and
+<code>change_section_key_to_accent_key.json</code> examples to the <code>simple_modifications</code>
+clause of my <code>karabiner.json</code> file. Using caps-lock as control is essential for
+efficient Emacs use, and that section key at the top-left of the MBP 2015
+keyboards should have been backtick / tilde to start with.</p>
+<h2 id="update-on-2021-01-06-qwerty_to_dvorakjson-missing-">Update on 2021-01-06: <code>qwerty_to_dvorak.json</code> missing :(</h2>
+<p>Andrei in the comments has let me know that <code>qwerty_to_dvorak.json</code> is not
+available on the karabiner elements github anymore.</p>
+<p>I&rsquo;ve searched in the <a href="https://karabiner-elements.pqrs.org/docs/">karabiner
+docs</a>, but could find no mention of
+Dvorak.</p>
+<p>So, in case it helps anyone, my old <code>karabiner.json</code> is shown below. Yours
+should be at <code>~/.config/karabiner/karabiner.json</code>. You should be able to copy
+over the <code>simple_modifications</code> clause from the example below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+    <span style="color:#268bd2;font-weight:bold">&#34;global&#34;</span>: {
+        <span style="color:#268bd2;font-weight:bold">&#34;check_for_updates_on_startup&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+        <span style="color:#268bd2;font-weight:bold">&#34;show_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+        <span style="color:#268bd2;font-weight:bold">&#34;show_profile_name_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">false</span>
+    },
+    <span style="color:#268bd2;font-weight:bold">&#34;profiles&#34;</span>: [
+        {
+            <span style="color:#268bd2;font-weight:bold">&#34;devices&#34;</span>: [],
+            <span style="color:#268bd2;font-weight:bold">&#34;fn_function_keys&#34;</span>: {
+                <span style="color:#268bd2;font-weight:bold">&#34;f1&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_decrement&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f10&#34;</span>: <span style="color:#2aa198">&#34;mute&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f11&#34;</span>: <span style="color:#2aa198">&#34;volume_decrement&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f12&#34;</span>: <span style="color:#2aa198">&#34;volume_increment&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f2&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_increment&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f3&#34;</span>: <span style="color:#2aa198">&#34;mission_control&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f4&#34;</span>: <span style="color:#2aa198">&#34;launchpad&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f5&#34;</span>: <span style="color:#2aa198">&#34;illumination_decrement&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f6&#34;</span>: <span style="color:#2aa198">&#34;illumination_increment&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f7&#34;</span>: <span style="color:#2aa198">&#34;rewind&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f8&#34;</span>: <span style="color:#2aa198">&#34;play_or_pause&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f9&#34;</span>: <span style="color:#2aa198">&#34;fastforward&#34;</span>
+            },
+            <span style="color:#268bd2;font-weight:bold">&#34;name&#34;</span>: <span style="color:#2aa198">&#34;Default profile&#34;</span>,
+            <span style="color:#268bd2;font-weight:bold">&#34;selected&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+            <span style="color:#268bd2;font-weight:bold">&#34;simple_modifications&#34;</span>: {
+                <span style="color:#268bd2;font-weight:bold">&#34;a&#34;</span>: <span style="color:#2aa198">&#34;a&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;b&#34;</span>: <span style="color:#2aa198">&#34;x&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;backslash&#34;</span>: <span style="color:#2aa198">&#34;backslash&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;c&#34;</span>: <span style="color:#2aa198">&#34;j&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock&#34;</span>: <span style="color:#2aa198">&#34;left_control&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;close_bracket&#34;</span>: <span style="color:#2aa198">&#34;equal_sign&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;comma&#34;</span>: <span style="color:#2aa198">&#34;w&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;d&#34;</span>: <span style="color:#2aa198">&#34;e&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;e&#34;</span>: <span style="color:#2aa198">&#34;period&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;equal_sign&#34;</span>: <span style="color:#2aa198">&#34;close_bracket&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;f&#34;</span>: <span style="color:#2aa198">&#34;u&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;g&#34;</span>: <span style="color:#2aa198">&#34;i&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;h&#34;</span>: <span style="color:#2aa198">&#34;d&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;hyphen&#34;</span>: <span style="color:#2aa198">&#34;open_bracket&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;i&#34;</span>: <span style="color:#2aa198">&#34;c&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;j&#34;</span>: <span style="color:#2aa198">&#34;h&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;k&#34;</span>: <span style="color:#2aa198">&#34;t&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;l&#34;</span>: <span style="color:#2aa198">&#34;n&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;m&#34;</span>: <span style="color:#2aa198">&#34;m&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;n&#34;</span>: <span style="color:#2aa198">&#34;b&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;non_us_backslash&#34;</span>: <span style="color:#2aa198">&#34;grave_accent_and_tilde&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;o&#34;</span>: <span style="color:#2aa198">&#34;r&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;open_bracket&#34;</span>: <span style="color:#2aa198">&#34;slash&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;p&#34;</span>: <span style="color:#2aa198">&#34;l&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;period&#34;</span>: <span style="color:#2aa198">&#34;v&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;q&#34;</span>: <span style="color:#2aa198">&#34;quote&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;quote&#34;</span>: <span style="color:#2aa198">&#34;hyphen&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;r&#34;</span>: <span style="color:#2aa198">&#34;p&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;s&#34;</span>: <span style="color:#2aa198">&#34;o&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;semicolon&#34;</span>: <span style="color:#2aa198">&#34;s&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;slash&#34;</span>: <span style="color:#2aa198">&#34;z&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;t&#34;</span>: <span style="color:#2aa198">&#34;y&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;u&#34;</span>: <span style="color:#2aa198">&#34;g&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;v&#34;</span>: <span style="color:#2aa198">&#34;k&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;w&#34;</span>: <span style="color:#2aa198">&#34;comma&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;x&#34;</span>: <span style="color:#2aa198">&#34;q&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;y&#34;</span>: <span style="color:#2aa198">&#34;f&#34;</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;z&#34;</span>: <span style="color:#2aa198">&#34;semicolon&#34;</span>
+            },
+            <span style="color:#268bd2;font-weight:bold">&#34;virtual_hid_keyboard&#34;</span>: {
+                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock_delay_milliseconds&#34;</span>: <span style="color:#2aa198;font-weight:bold">0</span>,
+                <span style="color:#268bd2;font-weight:bold">&#34;keyboard_type&#34;</span>: <span style="color:#2aa198">&#34;ansi&#34;</span>
+            }
+        }
+    ]
+}
+
+</code></pre></div>]]></content:encoded></item><item><title>Weekly Head Voices #96: Never gonna give you up.</title><link>https://cpbotha.net/2015/08/03/weekly-head-voices-96-never-gonna-give-you-up/</link><pubDate>Mon, 03 Aug 2015 20:17:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/08/03/weekly-head-voices-96-never-gonna-give-you-up/</guid><description> The week has resulted in a terribly nerdy list of bullets. READ AT YOUR OWN RISK! (there’s a beer recommendation or three at the end to compensate)
+It turns out that the terrible Samsung trim bug which would eat all of your data, as discovered by Algolia, was a Linux kernel bug after all (now patched by Samsung) and that it would only affect RAID setups. Let’s hope there are no surprising new turning outs.</description><content:encoded><![CDATA[ <p>The week has resulted in a terribly nerdy list of bullets. READ AT YOUR OWN RISK! (there’s a beer recommendation or three at the end to compensate)</p>
+<ul class="org-ul">
+<li>
+    It turns out that the terrible Samsung trim bug which would eat all of your data, <a href="https://blog.algolia.com/when-solid-state-drives-are-not-that-solid/">as discovered by Algolia</a>, was <a href="http://www.spinics.net/lists/raid/msg49468.html">a Linux kernel bug after all</a> (now patched by Samsung) and that it would only affect RAID setups. Let’s hope there are no surprising new turning outs.
+  </li>
+<li>
+    Found out that the fastest ADSL lines available at my new place are a whole 2 Mbit/s. We’ve called off the transaction and we’re now searching for a new house.
+  </li>
+<li>
+    I’m joking. It <b>was</b> really shocking however to consider the world as seen through a 2 Mbit/s connection. Now it seems that I will soon be entering the wonderful world of 5 GHz wireless connectivity, which should give me a fast enough connection, at least until fibre is rolled out in the year 3047.
+  </li>
+<li>
+    Started watching <a href="http://www.imdb.com/title/tt4158110/">Mr Robot</a>. I don’t normally do series, but the pilot was just <i>that</i> good. I like the story, I really like the socially very strangely adjusted hacker protagonist and I love the cinematography. Up to episode 3, I give it 4 out of 5 Linux Distributions!
+  </li>
+<li>
+    Continued fighting with OSX to get it completely working with my Dvorak and Emacs keybindings, also in Java apps such as IntelliJ IDEA. <a href="http://cpbotha.net/2015/07/19/weekly-head-voices-94-into-the-wild/">Two weeks ago I mentioned karabiner</a> as a solution to most of these problems. The final piece of the puzzle was unbinding keys like <code>Alt+W</code> (or <code>Mod+W</code> as Apple calls it) in <code>~/Library/KeyBindings/DefaultKeyBinding.dict</code> to prevent OSX from turning it into a \(\Sigma\) (sigma); as everyone knows, <code>M-w</code> is the Emacs shortcut for copying the selected region! You can use this trick to prevent OSX from turning any of the other <code>Mod</code> combos into completely unwanted special characters. (My base dict file is <a href="http://www.hcs.harvard.edu/~jrus/Site/cocoa-text.html">that of Jacob Rus</a>.)
+  </li>
+<li>
+    I guess OSX only Just Works(tm) if your time is worth nothing. Err…
+  </li>
+<li>
+    My <a href="https://github.com/kivy/kivy/pull/3506">first Kivy pull request</a>, a fix for a Mac-bug (go figure), was recently merged into <a href="http://kivy.org/">master</a>. I’ve been using Kivy in the third or fourth generation of my current and probably longest running side project.
+  </li>
+<li>
+    I’ve also been screencasting some of my night-time coding sessions using one of the more prominent livecoding sites (bonus points if you can find these sleep-inducing performances). It has been an interesting and strange experience programming with people watching over one’s shoulder as it were.
+  </li>
+<li>
+    On Sunday, I ended up at the <a href="http://www.root44.co.za/index.php">Root44 Market</a> in Stellenbosch for another of those really terrible balmy winter days. I had so much fun in the sun, tasting <a href="http://www.devilspeakbrewing.co.za/first-light-golden-ale/">Devil’s Peak First Light Golden Ale</a> and their <a href="http://www.devilspeakbrewing.co.za/kings-blockhouse-ipa/">King’s Blockhouse IPA</a>, and <a href="http://stellenbrau.co.za/beers/">Stellenbrau’s Craven Lager</a>, all from the tap, that I forgot to take a photo of the beautiful surroundings.
+  </li>
+</ul>
+<p>Have a beautiful week dear readers! Just remember, <em>I’m never gonna give you up.</em></p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/v4_M5PcJQmU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=45&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Weekly Head Voices #94: Into the wild.</title><link>https://cpbotha.net/2015/07/19/weekly-head-voices-94-into-the-wild/</link><pubDate>Sun, 19 Jul 2015 15:12:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/07/19/weekly-head-voices-94-into-the-wild/</guid><description> This WHV deals with the weeks from Monday June 29 to Sunday July 19. I skipped an edition or two whilst away on vacation, as I was quite busy with, you know, being on vacation. So, about that vacation: Last year I explained about the Kruger National Park, or KNP. Well, we went again this year, and again it was lovely. It helps that in the Mpumalanga and Limpopo provinces, “winter” at this time of year seems to mean “lovely balmy days with temperatures between 25 and 30 degrees Celsius”.</description><content:encoded><![CDATA[ <ul class="org-ul">
+<li>
+    This WHV deals with the weeks from Monday June 29 to Sunday July 19. I skipped an edition or two whilst away on vacation, as I was quite busy with, you know, being on vacation. So, about that vacation:
+  </li>
+<li>
+    Last year <a href="/2014/07/16/a-south-african-state-of-mindful/">I explained about the Kruger National Park, or KNP</a>. Well, we went again this year, and again it was lovely. It helps that in the <a href="https://en.wikipedia.org/wiki/Mpumalanga">Mpumalanga</a> and <a href="https://en.wikipedia.org/wiki/Limpopo">Limpopo</a> provinces, “winter” at this time of year seems to mean “lovely balmy days with temperatures between 25 and 30 degrees Celsius”. What completely and utterly seals the deal, is being surrounded by this particular permutation of natural vastness. You should go there to see for yourself, but here’s a taste:
+  </li>
+</ul>
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="/wp-content/uploads/2015/07/wpid-knp_elephant_scene_2015.jpg" title="">
+<figure class="wp-caption alignnone" style="width: 100%">
+<img alt="elephant scene in the KNP" src="/wp-content/uploads/2015/07/wpid-knp_elephant_scene_2015-825x510.jpg"/>
+<figcaption class="wp-caption-text">Elephants in some of the vastness that is KNP.</figcaption></figure>
+</a>
+<ul class="org-ul">
+<li>
+<b>EXTREME-NERDERY BULLET:</b> If you’re a Dvorak typist using Java-based tools on the Mac (e.g. Eclipse, IntelliJ, AppCode, and everything by JetBrains) you might have noticed that keyboard shortcuts fall on the spectrum somewhere between extremely wonky and plain <i>infuriating</i>. Besides that you now know that this subset of <i>persons</i> is not limited to just you, <a href="http://stackoverflow.com/a/31119280/532513">here’s an SO answer that I wrote up</a> based on information in the JetBrains bug threads. In short, a long-standing (as in years) bug in Java on Mac means you have to use an open-source tool called <a href="https://pqrs.org/osx/karabiner/">Karabiner</a> instead of Mac’s built-in Dvorak support.
+  </li>
+<li>
+    Here, have a photo of a stealthy leopard to recover:
+  </li>
+</ul>
+<a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="/wp-content/uploads/2015/07/wpid-knp_leopard_2015.jpg" title="">
+<figure class="wp-caption alignnone" style="width: 100%">
+<img src="/wp-content/uploads/2015/07/wpid-knp_leopard_2015-825x510.jpg"/>
+<figcaption class="wp-caption-text">This leopard was stalking something, but then disappeared.</figcaption></figure>
+</a>
+<ul class="org-ul">
+<li>
+    A Sunday lunch at <a href="https://www.facebook.com/thethirstyscarecrow">the Thirsty Scarecrow</a> led to at least two new discoveries. <a href="https://twitter.com/CitizenBeer">Citizen Beer</a>, a craft beer brewery I have not ran into yet (it’s not for lack of trying, really) makes a pretty delicious amber ale called <i>Alliance</i> (their wonderfully-named <i>Saboteur</i> IPA is not too shabby either):
+  </li>
+</ul>
+<div class="figure">
+<p>
+<a data-rel="lightbox-image-2" data-rl_caption="" data-rl_title="" href="/wp-content/uploads/2015/07/wpid-thirsty_scarecrow_citizen_beer_alliance.jpg" title=""><img alt="thirsty_scarecrow_citizen_beer_alliance.jpg" src="/wp-content/uploads/2015/07/wpid-thirsty_scarecrow_citizen_beer_alliance-218x300.jpg"/></a>
+</p>
+</div>
+<p>Very important discovery number 2: You <em>can</em> (and should) deep-fry Oreos!</p>
+<div class="figure">
+<p>
+<a data-rel="lightbox-image-3" data-rl_caption="" data-rl_title="" href="/wp-content/uploads/2015/07/wpid-thirsty_scarecrow_deepfried_oreos.jpg" title=""><img alt="thirsty_scarecrow_deepfried_oreos.jpg" src="/wp-content/uploads/2015/07/wpid-thirsty_scarecrow_deepfried_oreos-300x298.jpg"/></a>
+</p>
+</div>
+<ul class="org-ul">
+<li>
+    I’m still terrible at these bullets, but I imagine they’re better than being faced by a wall of text. What do you think?
+  </li>
+</ul>
+<p>Right peeps, that’s it for this edition. I wish you a fantastic and especially meaningful week. If at any point you need a little pick-me-up, my baby giraffe is standing by:</p>
+<a data-rel="lightbox-image-4" data-rl_caption="" data-rl_title="" href="/wp-content/uploads/2015/07/wpid-knp_baby_giraffe_2015.jpg" title="">
+<figure class="wp-caption alignnone" style="width: 100%">
+<img src="/wp-content/uploads/2015/07/wpid-knp_baby_giraffe_2015-825x510.jpg"/><figcaption class="wp-caption-text">A baby giraffe, because we all need one once in a while.</figcaption></figure>
+</a>
+]]></content:encoded></item></channel></rss>

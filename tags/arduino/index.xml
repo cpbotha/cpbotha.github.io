@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>arduino on voices in my head</title><link>https://cpbotha.net/tags/arduino/</link><description>Recent content in arduino on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 25 Mar 2018 20:42:29 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #137: Let me mine your metadata.</title><link>https://cpbotha.net/2018/03/25/weekly-head-voices-137/</link><pubDate>Sun, 25 Mar 2018 20:42:29 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/25/weekly-head-voices-137/</guid><description> Winter is coming, somewhere on the R44 between Betty’s Bay and Gordon’s Bay.
+Wisdom from the Twitters Let me start this week’s edition with something that a friend forwarded, quite ironically, from the dark underbelly of the internet, also known as “twitter”:
+Daily activities to avoid:
+- Consuming endless (news) feeds
+- Discussion w/ anyone with a big ego
+- Thinking without pen &amp;amp; paper
+- Arguing on Twitter</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/IMG_3443.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/IMG_3443-1024x768.jpg"
+        
+            alt="Winter is coming, somewhere on the R44 between Betty’s Bay and Gordon’s Bay."/> </a><figcaption>
+            <p>Winter is coming, somewhere on the R44 between Betty’s Bay and Gordon’s Bay.</p>
+        </figcaption>
+</figure>
+
+<h1 id="wisdom-from-the-twitters">Wisdom from the Twitters</h1>
+<p>Let me start this week’s edition with something that <a href="https://twitter.com/francoistweet">a friend</a> forwarded, quite ironically, from the dark underbelly of the internet, also known as “twitter”:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Daily activities to avoid:<br><br>- Consuming endless (news) feeds<br>- Discussion w/ anyone with a big ego<br>- Thinking without pen &amp; paper<br>- Arguing on Twitter<br>- Mindlessly saying yes to meetings</p>&mdash; muneeb.btc (@muneeb) <a href="https://twitter.com/muneeb/status/975432822973399042?ref_src=twsrc%5Etfw">March 18, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Most of these resonate with me, except for arguing on twitter.</p>
+<p>This is not because I disagree, but rather because I sort of went cold-twitter-turkey about a year ago, a departure which has had only positive effects on my humanity, as well as on my trust in the goodness of humans.</p>
+<p>I still sometimes slip and fall into arguments on other platforms,  where the same advice unfortunately holds.</p>
+<h1 id="deletefacebook">#DeleteFacebook?</h1>
+<p>On the topic of online arguments, I would like to bring the next interesting conundrum to your astute attention.</p>
+<p>There is at this moment quite some internet rage due to <a href="https://www.theguardian.com/news/series/cambridge-analytica-files">the details that have been revealed about the extent to which the company Cambridge Analytica managed to exfiltrate social network data from facebook</a>, in order to perform extremely targeted advertising and hence psychological manipulation to get vulnerable users to vote for Trump, and to vote for Brexit leave.</p>
+<p>Readers of this blog might remember that I <a href="/2017/03/25/fake-news-is-just-the-beginning/">already talked about this exact issue <em><strong>one year ago</strong></em> to the day</a>. I even cited <a href="https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage">this early article in The Guardian mentioning Robert Mercer, Bannon, and Cambridge Analytica</a> and their role in geo-political interference.</p>
+<p>At this point, I hope you will allow me a quick two-pronged educational intermezzo:</p>
+<ol>
+<li>Do read my posts carefully, and you too can be all like “I knew that a year ago you silly muggles”.</li>
+<li>Probably more importantly, read <a href="https://www.theguardian.com/">The Guardian</a>. (I would like to thank the brilliant <a href="https://www.keele.ac.uk/istm/staff/edchadwick/">Dr Ed Chadwick</a> for introducing me to The Guardian so many years ago in Delft and/or Amsterdam, over either a pint of Irish stout (which he also introduced me to) and/or a Trappist.</li>
+</ol>
+<p>Anyways, back to my rant.</p>
+<p>So the internet is angry (<em>years</em> too late), and everyone and their mom is telling each other to #DeleteFacebook.</p>
+<p>I too disapprove in the strongest terms of what Cambridge Analytica and its backers did (besides the immorality of the approach, conservative thinking is really primitive), and Facebook facilitated.</p>
+<p>However, I also think that we find ourselves in a tricky baby-with-bathwater situation.</p>
+<p>Let me ironically summarise the two main points from a comment I posted on Facebook:</p>
+<ol>
+<li>What happens when the clever / privacy-conscious people leave facebook? It becomes an even bigger echo chamber for the uneducated. Is it not our duty to come and fight with a vaccine denialist, or a conservative or someone who is in some other way unenlightened now and then? (instead of arguing, you could also choose a more socratic approach, or just be that persistently cool perfectly rational actor in any discussion)</li>
+<li>What replaces facebook as the admittedly flawed but largest virtual human gathering ever? Related to this: Facebook is the most <em>accessible</em> publication platform we have ever had. More people have a voice and can be heard than ever before. Do we really want to take that away?</li>
+</ol>
+<p>Let me know in the comments what you think. I promise I’ll only mine a little bit of your metadata.</p>
+<h1 id="new-arduino-blog-posts-at-vxlabs">New arduino blog posts at vxlabs</h1>
+<p>My arduino – artwork journey continues. Over on vxlabs I have published a <a href="https://vxlabs.com/2018/03/23/which-jumper-to-set-on-the-itead-xbee-shield-v1-1-for-use-with-a-3-3v-arduino/">short post on the itead shield 3.3V jumper</a>, and a much more interesting <a href="https://vxlabs.com/2018/03/24/developing-arduino-sketches-with-jetbrains-clion-a-minimal-example/">post showing a barebones solution (i.e. no additional software) to using the JetBrains CLion IDE for Arduino sketch programming</a>.</p>
+<p>I hope that these help future travellers on their quest.</p>
+<h1 id="whv-film-club-blade-runner-2049">WHV Film Club: Blade Runner 2049</h1>
+<p>The original Blade Runner was an important part of my upbringing.</p>
+<p>This weekend I, up to this point 100% unspoilered, finally got around to watching all but the last 30 minutes of Blade Runner 2049, and I was utterly blown away.</p>
+<p>It’s true what they say: You can take just about any scene from the movie, and look at it like you look at a painting. The scenes are thought- and emotion-provoking.</p>
+<p>Without giving anything away, the story is an amazing example of how great science fiction is the perfect mechanism for making us think deeply about strange but extremely relevant human situations.</p>
+<h1 id="tot-gauw">Tot gauw</h1>
+<p>Over the past few weeks, these blog posts have played a small but necessary role in more than one high quality human connection.</p>
+<p>Each time this happens, the time I spend here feels like it has been rewarded 100 times over.</p>
+<p>I thank you, and I look forward to the next time that we may meet.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #136: Slightly more than nothing much.</title><link>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</link><pubDate>Sun, 18 Mar 2018 20:53:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</guid><description> The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.
+Welcome back peeps! Make yourselves at home.
+It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.
+vimium Pro-tip of the week: Install vimium. It’s a chrome extension which enables you to SURF THE INFORMATION HIGHWAY with just a bunch of keyboard shortcuts.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/IMG_3359.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/IMG_3359-1024x768.jpg"
+        
+            alt="The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it."/> </a><figcaption>
+            <p>The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back peeps! Make yourselves at home.</p>
+<p>It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.</p>
+<h1 id="vimium">vimium</h1>
+<p>Pro-tip of the week: Install <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en">vimium</a>. It’s a chrome extension which enables you to SURF THE INFORMATION HIGHWAY with just a bunch of keyboard shortcuts.</p>
+<p>I avoided this for the longest time because it has the word “vim” in its name, but I was wrong.</p>
+<p>I can now waste time on reddit, twitch and youtube 73% more efficiently, every day.</p>
+<h1 id="nerd-works">nerd works</h1>
+<p>As far as I can remember, my work week was pretty straight-forward.</p>
+<p>I started implementing PDF reports again, but for a different application. <a href="https://wkhtmltopdf.org/">wkhtmltopdf</a> is now magically broken in different ways from <a href="/2015/06/21/weekly-head-voices-92-the-cake-is-a-lie/">the previous time</a>. Compared to bundling and maintaining a stripped-down <a href="https://www.tug.org/texlive/">TeXLive</a>, or paying the $995 license for <a href="https://www.pdflabs.com/tools/pdftk-server/">pdftk</a> with which PDF forms can be programmatically filled in, this is the best choice at the moment.</p>
+<p>Remember, <a href="/2016/02/02/weekly-head-voices-103-chips/#inspiring-quotes-that-you-can-repost-if-you-want">there are no answers, only choices</a>, even when baking PDFs.</p>
+<p>For Most Major Sideproject (MMS) I unfortunately had to do some front-end programming. I say unfortunately, because the back-end is all machine learning and cleverness, and then I smash my little programming clown car into the idiot brick wall that is web frontends. At least react makes the crash slightly less painful, and this time <a href="https://github.com/ReactTraining/react-router">react-router</a> helped me to get my URLs synchronised with app state fairly easily.</p>
+<p>Ok maybe it’s not <em>that</em> bad.</p>
+<p>My new <a href="https://robotdyn.com/samd21-m0.html">Robotdyn Arduino SAMD21 M0</a> boards arrived! This is arduino, but with a 32bit ARM Cortex M0+ instead of the Atmel 328p on the UNO boards. After some more hours of struggling to get Arduinos talking to each other via XBEE radios, I now know much more about programming these gadgets than I ever wanted to.</p>
+<p>Mostly due to the very-badly-documented-and-seemingly-unsupported <a href="https://www.itead.cc/wiki/XBee_Shield">itead arduino-xbee interface boards</a> I’m using, I am closer but have not yet received any cigars. (pro-tip: That extra top 3.3V jumper does more than just control level shifting. It also connects A0, RTS and DIN together. If you think you’re going to use A0 for RTS, your xbee will mysteriously hardware reset every 5 seconds. However, if you disconnect the jumper, your board will hardware reset every 5 seconds no matter what you do. Pro-tip: Don’t buy itead.)</p>
+<h1 id="new-beer-warlord">new beer warlord</h1>
+<p>On Wednesday I tasted a new craft beer (this does not happen very often anymore, as I’ve had almost all of them) during a Top Secret Business Meeting. It’s the War Lord IPA by Darling Brew:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/warlord_beer_cutout.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/warlord_beer_cutout-441x1024.png"
+        /> </a>
+</figure>
+
+<p>This might even be more metal than their <a href="/2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/">Bone Crusher</a> &lt;INSERT HEAVY METAL GUITAR RIFF HERE&gt;, which is extremely high praise. As IPAs go, I will definitely make this choice again, perhaps  even in the very near future.</p>
+<h1 id="part-of-the-weekend-never-dies">part of the weekend never dies</h1>
+<p>On Saturday and Sunday morning (overnight parties are the BEST parties) we had long-time friends over for a dinner party.</p>
+<p>Something like 25 years ago we did the <a href="https://www.sa-venues.com/things-to-do/limpopo/magoebaskloof-hiking-trail/">Magoebaskloof hiking trail</a> together. There’s nothing like sharing meals of dried soya (just add water, INDISTINGUISHABLE from meat the packet said), dried mash (“smash” I believe) and dried vegetables during days of hiking through the forest for getting to know each other better.</p>
+<p>Besides the hiking, and many student parties, there was also the little matter of me meeting my life partner through this connection. Not unimportant.</p>
+<p>Anyways, craft beer (<a href="https://www.devilspeakbrewing.co.za/kings-blockhouse-ipa/">King’s Blockhouse IPA</a>, nice and strong), great local wine (a Chardonnay-Pinot Noir blend which more or less satisfies my “expensive Chardonnay” criterion) and brilliant food (chicken, extremely slow over the fire) acted as the culinary backdrop for naturally flowing and energising conversation.</p>
+<p>Thank you long-time friends!</p>
+<p>Late morning Sunday we left for a family lunch at Bodega, restaurant at Dornier vineyard. This restaurant has made previous appearances in <a href="/2014/07/01/weekly-head-voices-76-someone-is-wrong-on-the-internet/">WHV #76 (July 1, 2014)</a> and <a href="/2016/01/20/weekly-head-voices-102-high-on-life/">WHV #102 (January 20, 2016)</a>.</p>
+<p>Again I can do nothing other than award it the WHV three thumbs up award! Wine-food-scenery-climate combinations really are amazing.</p>
+<p>(I just noticed that the wine which was paired with my Mauritian (no, no Martian fish yet) seabass, and blew me away, also blew me away in 2014. It’s the Donatus White, Semillon-Chenin Blanc blend. External memories FTW.)</p>
+<h1 id="let-us-ponder-wa">let us ponder: wa</h1>
+<p>Westerners are often very individualistic.</p>
+<p>We are brought up with the mission to “be yourself”.</p>
+<p>In Japan, there is “wa” (和) which <a href="https://en.wikipedia.org/wiki/Wa_(Japanese_culture)">wikipedia describes as</a>: <em>… harmony. It implies a peaceful unity and conformity within a social group, in which members prefer the continuation of a harmonious community <strong>over their personal interests</strong></em>. (emphasis mine)</p>
+<p>I understand that this has a different set of downsides to our individualism, but group harmony sure sounds nice. Perhaps in the future society we are going to start building soon, we could somehow combine “wa” with a deep respect for the scientific method, and in this way finally transform into the Star Trek Federation that we were promised.</p>
+<h1 id="bises">bises</h1>
+<p>Have a productive but especially harmonious week kids! I hope to see you again soon.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
+I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.
+The WHV visual element lives to fight another day!
+The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/untitled_by_sylvia_20180304.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/untitled_by_sylvia_20180304-1024x492.png"
+        
+            alt="Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child."/> </a><figcaption>
+            <p>Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.</p>
+        </figcaption>
+</figure>
+
+<p>I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.</p>
+<p>The WHV visual element lives to fight another day!</p>
+<p>The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists. Feel free to pick and choose!</p>
+<h1 id="c-quo-vadis">C++ quo vadis?</h1>
+<p>This week, we spent more than a day chasing an elusive memory-related access violation (big words for “crash”) in the software we recently released.</p>
+<p>In the end, the bug was only really reproducible on Windows 7 (not on Linux, not on macOS, and only with great difficulty and infinite patience on Windows 10). It turned out to be hidden deep in a well-tested, industry-backed open source C++ library.</p>
+<p>This and the specific nature of this bug again demonstrated to me that C++, although I love it dearly, simply has too many well-disguised flaws (let’s call them foot-guns) which will eventually lead to even the most experienced and sharp programmer making mistakes.</p>
+<p>In spite of the recent language renaissance (C++11, 14, 17 with 20 imminent) and a slew of improvements, it’s still too easy to write unsafe code.</p>
+<p>With contenders like rust (<a href="https://www.rust-lang.org/en-US/">rustlang</a> AJ, rustlang!) which enable programmers to write programmes which have C++-level performance but are by default safe, could C++’s days be counted?</p>
+<h1 id="run">Run</h1>
+<p>It was time to retire my trusty pair of Asics Cumulus 18 shoes.</p>
+<p>They had clocked just over 900km, which is perhaps a little too much. By the end, I could feel the bones in my big toe’s main joint (apparently also known as the big-toe’s MTP or metatarsophalangeal joint) crunching down with each strike.</p>
+<p>Normally not prone to these types of visits, I had no choice but to pop out to the <a href="https://www.runspecialiststore.com/">Run Specialist Store</a> in Edward street on Thursday to get a new pair of activity-proof foot covers.</p>
+<p>They let me run on a treadmill (whoohooo running!) with a high-speed video camera. In the footage, we could see that indeed my conversion to forefoot running had been successful (which was good to hear, because it had cost me about 100km of pain), but that I tended to land on the outsides of my forefeet.</p>
+<p>The minimal shoes I had had in mind were not (yet) to be.</p>
+<p>Instead the run doctor prescribed a pair of <a href="https://www.solereview.com/saucony-kinvara-8-review/">Saucony Kinvara 8s</a>, which make my old Asics look like previous generation gardening shoes. I’ve since taken these out on two runs. They are super light, and super springy (everun FTW?), but I have to say that I have my doubts about the durability of the outsole. I’ll report back.</p>
+<p>In February, I’m pretty happy that I managed to squeeze in just over 110km of running, which is not too shabby (by my standards, as always!) for the short month.</p>
+<h1 id="scarf">SCARF</h1>
+<p>Yes, winter is coming, but this, although also quite useful, is not that type of SCARF.</p>
+<p>I am still reading <a href="https://your-brain-at-work.com/">David Rock’s book Your Brain at Work</a>, and SCARF is his mnemonic for Status, Certainty, Autonomy, Relatedness and Fairness.</p>
+<p>These are five social needs, the threat or confirmation of which can have profound effects on humans.</p>
+<p>If you feel that you are being unfairly treated, for example, this triggers a low-level threat response which fundamentally complicates dealing rationally with a situation.</p>
+<p>Conversely, if for example an interaction grants you more certainty or even better autonomy, you are magically able to contribute significantly more cognitive capacity and creativity to that interaction.</p>
+<p>Both the fundamental threat and reward responses go for all five of these qualities. Once you know what to look for, it’s easy to go through some of your memories and to see where one or more of the SCARF needs played a role.</p>
+<p>Although one (hopefully) mostly intuitively integrates this in one’s daily dealings, I think it’s super useful being able to enumerate the SCARF social needs like this. It helps when managing oneself in any situation (especially when your prefrontal cortex is exhausted, which is just about always), and it certainly helps when you might find yourself in position where you are able to contribute to another human’s well-being.</p>
+<h1 id="the-end">The end</h1>
+<p>Have a great week friends, I hope to see you again soon!</p>
+<p>P.S. if there are any arduino uno -&gt; hardware serial -&gt; xbee experts in the audience, I would like to have a word. (<a href="https://www.sparkfun.com/products/12847">sparkfun shield</a>. with software serial can talk to xbee. with hardware serial, and sparkfun switch in the right position, xbee won’t respond. <a href="https://medium.com/@phurl/robotdyn-uno-vs-arduino-genuino-uno-a9ac3b17a96f">uno is a robotdyn clone</a>.)</p>
+]]></content:encoded></item></channel></rss>

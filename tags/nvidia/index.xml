@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nvidia on voices in my head</title><link>https://cpbotha.net/tags/nvidia/</link><description>Recent content in nvidia on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 22 Nov 2018 20:20:39 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #158: Charlie and the Chocolate Factory.</title><link>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</link><pubDate>Thu, 22 Nov 2018 20:20:39 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</guid><description> (Note that there’s now a Telegram group that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)
+This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.
+The following action scene happened exactly halfway through: Pre-requisite running photo, this one taken in Paarl.</description><content:encoded><![CDATA[ <p><em>(Note that there’s now a <a href="https://t.me/headvoices">Telegram group</a> that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)</em></p>
+<p>This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.</p>
+<p>The following action scene happened exactly halfway through:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/11/paarl-running-20181111.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/11/paarl-running-20181111-1024x642.jpg"
+        
+            alt="Pre-requisite running photo, this one taken in Paarl. It was already quite hot. Getting really hot really early in the morning is Paarl’s thing."/> </a><figcaption>
+            <p>Pre-requisite running photo, this one taken in Paarl. It was already quite hot. Getting really hot really early in the morning is Paarl’s thing.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="running-aka-irony-update">Running aka Irony update</h1>
+<p>Seeing that you’ve made me talk about running again, have a look at this photo of one Luna Mono 2.0 after about 700 km of (mostly road) running in about seven months, and one brand new Luna Mono 2.0:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/11/old-vs-new-lunas.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/11/old-vs-new-lunas-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>At around about the same time as the new shoes arrived, shortly after South African customs charged me a painful amount before letting the new babies through, both my ankles, from around the posterior tibial tendon area, let me know in no uncertain terms that they were now <em>demanding</em> a break.</p>
+<p>After repeated explanations by my life partner (she counts being a rheumatologist amongst her many talents), and by a foot surgeon friend, that my flat feet mean that my posterior tibial tendons have to work even harder than they would usually have done had I been anatomically speaking more normal, I had to start facing the music:</p>
+<p><em>I was going to have to wear normal person running shoes again.</em></p>
+<p>(If I have to be honest I would have to say that the music was in fact more about having to take a running break. I had sneakily been pushing up my weekly distance, trying to run through ankle discomfort, and this was probably the true core of the problem.</p>
+<p>All of that being said, I am choosing to interpret matters a bit differently. Running breaks are really hard yo.)</p>
+<p>I’ve now done two runs in my pre-Mono Kinvara 8s, and it does indeed feel (of course it does) like my ankles might slowly be recovering. I am hopeful that the trend continues, and that I can eventually rotate in my Lunas again.</p>
+<h1 id="nerd-toys-update-rtx-2070-in-da-house">Nerd toys update: RTX 2070 in da house.</h1>
+<p>After weeks of deliberating, I broke down and bought an <a href="https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/">NVIDIA RTX 2070</a> for deep learning.</p>
+<p>This in turn led to a flurry of experimentation and to be quite honest a slight case of deep learning binging.</p>
+<p>At least I have the following new blog posts to show for it:</p>
+<ul>
+<li><a href="https://vxlabs.com/2018/11/04/pytorch-1-0-preview-nov-4-2018-packages-with-full-cuda-10-support-for-your-ubuntu-18-04-x86_64-systems/">PyTorch 1.0 preview (Nov 10, 2018) packages with full CUDA 10 support for your Ubuntu 18.04 x86_64 systems</a> – In order to use the shiny new TensorCores on the RTX for more efficient deep learning, you need a CUDA 10 build of PyTorch. YOUR WISH IS MY COMMAND.</li>
+<li><a href="https://vxlabs.com/2018/11/19/configuring-emacs-lsp-mode-and-microsofts-visual-studio-code-python-language-server/">Configuring Emacs, lsp-mode and Microsoft’s Visual Studio Code Python language server</a> – When you prefer using Emacs inside of a tmux in a mosh or ssh session to your Linux desktop with the RTX 2070 to develop PyTorch and fastai scripts (no Jupyter in sight, what a relief!), you need the best code-intelligence you can get. Visual Studio Code’s Python Language Server McGuyvered right into Emacs will do nicely thanks!</li>
+<li><a href="https://vxlabs.com/2018/11/21/a-simple-ansible-script-to-convert-a-clean-ubuntu-18-04-to-a-cuda-10-pytorch-1-0rc-fastai-miniconda3-deep-learning-machine/">A Simple Ansible script to convert a clean Ubuntu 18.04 to a CUDA 10, PyTorch 1.0rc, fastai, miniconda3 deep learning machine</a> – When you need MOAR firepower to train your networks with larger batch sizes, or just to see how much memory your network would have taken in fp32 mode instead of mixed-precision, this ansible script will reproducibly convert a clean Ubuntu 18.04 GPU instance, such as that supplied by PaperSpace or Google Compute Engine, into a CUDA 10, PyTorch, fastai, miniconda3 deep learning playground, all in about 10 minutes.</li>
+</ul>
+<p>(I know that some of these occurred outside of the two week timespan covered by this post.)</p>
+<h2 id="on-the-memory-saving-of-mixed-precision-training">On the memory saving of mixed-precision training.</h2>
+<p>In my tests with ResNet50, a serious convolutional neural network for image classification, the exact same network with the exact same training settings required 14159 MiB in fp32 mode but only 7641 MiB in mixed precision mode.</p>
+<p>This means that in some cases, this new RTX 2070 can go toe-to-toe with many far more expensive cards.</p>
+<p>Furthermore, I informally measured a training speed boost of about 20% with the smaller ResNet34.</p>
+<p>It’s no wonder that the <a href="http://timdettmers.com/2018/11/05/which-gpu-for-deep-learning/">RTX 2070 gets the Tim Dettmers stamp of approval for the most cost-effective training</a>.</p>
+<h1 id="your-message-to-take-home">Your message, to take home.</h1>
+<p>I came across this backyard philosophy jewel <a href="https://www.reddit.com/r/todayilearned/comments/9ozu4e/til_in_test_screenings_willy_wonka_had_a_scene/">on reddit the other day</a> and loved it. It’s about the 1971 movie W_illy Wonka &amp; the Chocolate Factory_, a stellar adaptation of Roald Dahl’s book <a href="https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory">Charlie and the Chocolate Factory</a>.</p>
+<blockquote>
+<p>… in test screenings, Willy Wonka had a scene with a hiker seeking a guru, asking him the meaning of life. The guru requests a Wonka Bar. Finding no golden ticket, he says, “Life is a disappointment.” The director loved it, but few laughed. A psychologist told him that the message was too real.</p>
+</blockquote>
+<p>Just remember the <a href="/2018/06/03/weekly-head-voices-144-eternal-learner/#the-buddhist-twist">Buddhist Twist</a> my friends:</p>
+<blockquote>
+<p>… and finally passing through the gate of wishlessness (apranihita) – realizing that nirvana is the state of not even wishing for nirvana.</p>
+</blockquote>
+]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+Well, yesterday I ate my hat.
+If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
+<p>Well, yesterday I ate my hat.</p>
+<p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mu4e on voices in my head</title><link>https://cpbotha.net/tags/mu4e/</link><description>Recent content in mu4e on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 17 Jul 2019 21:53:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/mu4e/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #173: I know.</title><link>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</link><pubDate>Wed, 17 Jul 2019 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/</guid><description> Taken on a run in the mountain, on a trail quite aptly called the protea. By the way, although I have become slightly less terrible at running up hills, I'm still quite bad. Let&amp;rsquo;s go for a slightly less anxious start than the previous edition did:
+Well hello there folks!
+A week ago, I made a deliberate decision not to post a WHV, as I really did not have much to report on.</description><content:encoded><![CDATA[ <figure>
+<a href="helderberg_protea.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/helderberg_protea_hu74588f15139e031d0111d34ce33071f6_1906769_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+Taken on a run in the mountain, on a trail quite aptly called the protea. By
+the way, although I have become slightly less terrible at running up hills, I'm
+still quite bad.
+</figcaption>
+</figure>
+<p>Let&rsquo;s go for a slightly less anxious start than the previous edition did:</p>
+<p>Well hello there folks!</p>
+<p>A week ago, I made a deliberate decision not to post a WHV, as I really did not
+have much to report on.</p>
+<p>However, it&rsquo;s funny how these things go. One week nothing&hellip; Then it&rsquo;s just a
+single week later and there&rsquo;s almost a bit too much that I would like to talk
+about.</p>
+<p>It seems to have been a mix of more writing, but also just more doing.</p>
+<p>So, looking back at the two weeks from Monday July 1 to Sunday July 14, 2019, I
+would like to present the following notes.</p>
+<h2 id="bullet-list-of-miscellany-blom">Bullet List of Miscellany (BLoM).</h2>
+<ul>
+<li>GOU#1, age 13, is on a week-long school trip in a different time zone
+(GMT+8). I am super happy that she can have this experience, but durnit, one
+misses one&rsquo;s genetic offspring units dearly!</li>
+<li>Remember that I told you about our <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">solar inverter not talking to the
+battery&rsquo;s BMS</a>?
+Well, one small recommended firmware upgrade later, from 151507 to 151508,
+and the whole system is completely down. Please cross your fingers, because
+we&rsquo;ve tried <strong>everything</strong> else.</li>
+<li>I regularly get accosted by off-leash dogs whilst running. There are
+incredibly clear by-laws down here which absolutely forbid any dog ever being
+off-leash in any public space which is not a designated off-leash zone. I
+recently made the mistake (twice) of trying to explain this to the relevant
+dog-owners. Well, dog-owners seem to be quite sadly under-endowed in the area
+of introspective capability, but at least I&rsquo;m getting a lot better at
+unprepared debates in public spaces. (Psychologists in the audience, help me
+out here with any tips please!)</li>
+<li>I really enjoyed <a href="https://samharris.org/podcasts/162-medical-intelligence/">this Sam Harris podcast with Eric
+Topol</a>. <a href="https://www.scripps.edu/faculty/topol/">Eric
+Topol</a> is a cardiologist and the
+founder and director of the Scripps Research Translational Institute in the
+US. Apart from the main topic of the discussion, namely Topol&rsquo;s
+well-developed and articulated view of AI in medicine (well, his books on
+this topic are quite influential, so there&rsquo;s that), I was struck and inspired
+by the humble gentleness of this impressive intellect. Furthermore, although
+we are not supposed to use twitter anymore (in some circles, it has been
+dubbed &ldquo;road rage of the internet&rdquo;), <a href="https://twitter.com/EricTopol">Prof Topol&rsquo;s tweet
+stream</a> is a shining example of how twitter
+could be used more constructively.</li>
+</ul>
+<h2 id="would-you-like-some-more-emacs-with-that-email">Would you like some more Emacs with that Email?</h2>
+<p>During the past two weeks I published two blog posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2019/07/03/send-queued-mails-in-background-with-mu4e/">Sending queued mails in the background with
+mu4e.</a></li>
+<li><a href="https://vxlabs.com/2019/07/05/mbsync-vs-offlineimap-speed/">Is mbsync really faster than offlineimap? A
+measurement.</a></li>
+</ul>
+<p>Based on these, you might come to the conclusion that I&rsquo;m processing email
+inside of Emacs
+<a href="/2014/05/24/weekly-head-voices-71-vote-for-the-future/">again</a>.</p>
+<p>I can confirm that this is indeed the case.</p>
+<p>Probably for a large part due to the popularity of google&rsquo;s gmail, the growth
+of the rest of the email ecosystem seems to have been stunted to a significant
+degree.</p>
+<p>In this specific case, I am referring to the dearth of really good email
+clients for Windows.</p>
+<p>(By the way, Thunderbird, still my fallback, usually makes the top of any
+Windows email client lists. However, if it weren&rsquo;t for GMail, Thunderbird
+would probably also be miles better than it is today.)</p>
+<p>After losing more hours than I could afford trying to find that perfect email
+client (I would have settled for &ldquo;still has all of its own teeth&rdquo;), I realised
+that I would just have to buckle down and get <a href="/tags/mu4e/">mu4e</a>, my favourite
+Emacs email client, working well enough on Windows, which I currently <em>prefer</em>
+(DID I JUST SAY THAT?!) due to my <a href="/2019/04/27/new-laptop-2019/">ThinkPad X1E
+baby</a>.</p>
+<p>That was of course a whole different wormhole to get sucked into.</p>
+<p>Well, more of those precious hours later, I have a Frankensteined concoction
+consisting of Emacs running on the Windows Subsystem for Linux (WSL),
+displaying to the Windows desktop via <a href="https://token2shell.com/x410/">X410</a>,
+and opening email and orgmode attachments, and dired files, using the native
+Windows handlers via an
+<a href="https://wiki.archlinux.org/index.php/Xdg-utils#xdg-open">xdg-open</a> work-alike
+I coded up in Python.</p>
+<p>(I am planning to release my xdg-open clone along with a more detailed howto
+blog post. Let me know if you would like advanced access.)</p>
+<p>Soooo&hellip;. after all of that effort I am now back more or less to where I
+started in 2014.</p>
+<p>(To be honest, Emacs is near the top of my list of compounding activities. The
+fact that it&rsquo;s back in my email workflow, combined with five years of
+compounded Emacs skills, has resulted in further increased efficiency.)</p>
+<h3 id="sticking-it-to-the-man-gmail-with-fastmail">Sticking it to the Man (GMail) with FastMail.</h3>
+<p>Wrapping up that email workflow reconfiguration frenzy, I did spend some
+minutes doing a quick survey of fastmail alternatives which might have email
+servers somewhat closer to the Southern tip of Africa and hence shave off a few
+seconds of latency.</p>
+<p>I found nothing that came close in terms of features and price. Except for one
+outage, <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">I&rsquo;ve been a really happy fastmail camper for the last three
+years</a>.</p>
+<p>All of that, together with the fact that gmail&rsquo;s continued dominance is
+unhealthy for the world of email, convinced me to stick with fastmail for the
+conceivable future.</p>
+<h2 id="stone-three-healthcare-is-now-a-thing">Stone Three Healthcare is now a thing.</h2>
+<p><a href="http://www.stonethree.com/healthcare/">Stone Three Healthcare</a>, until recently
+a business unit within Stone Three Venture Technology, has now been officially
+spun out.</p>
+<p>In other words, S3HC is now a more-or-less independent company that will
+henceforth have to create its own success.</p>
+<p>As some of you know, this project has been cooking for a few years now.</p>
+<p>We have a really great team, products with customers and a market, and a
+respectable patch of runway.</p>
+<p>There are worse ways for a startup to start up.</p>
+<p>P.S. if you have any golden tips for startup dummies, I (and probably others)
+would be super grateful if you could let &lsquo;em loose in the comments!</p>
+<h2 id="always-be-compounding-the-side-project-edition">Always Be Compounding: The side-project edition.</h2>
+<p>In the previous WHV, I <a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">started going on about the principle of ABC, or Always Be
+Compounding</a>.</p>
+<p>Since then, I&rsquo;ve been spending a great deal of mental cycles on finding more
+ways to ABC.</p>
+<p>Besides the more general examples I mentioned there, another method is to
+design some long-running project that can function as a container for all of
+the work that you&rsquo;ll have to do in any case.</p>
+<p>A perhaps slightly flawed personal example is DeVIDE, an open source
+visualization and image processing tool that started life somewhere in 2001,
+<a href="/2003/12/19/the-visualisation-and-image-processing-platform-formerly-known-as-dscas3/">was renamed to DeVIDE at the end of
+2003</a>,
+open-sourced in 2007 and had its last release in 2012.</p>
+<p>Although it did see some use after that, the project went into hibernation
+(weeeelll&hellip;.) when I left academia.</p>
+<p>My point is that, for about 10 years, I had a single technical <em>artifact</em> with
+a name that became slowly better known (even if it was often by its alias &ldquo;Not
+Responding&rdquo;), into which I could integrate all the other new work I was doing.</p>
+<p>This enabled me to enjoy some of the advantages of compounding effort, in the
+shape of DeVIDE, even although the work I was doing over the years necessarily
+had to change.</p>
+<p>(A really nice additional benefit was that some students sometimes found the
+software useful! I do wish that that part could have continued for a little
+longer.)</p>
+<p>Setting aside my
+<a href="/2019/05/07/weekly-head-voices-170-yeet/#a-strange-thing-happened-this-weekend">DeVIDE-nostalgia</a>
+(and a bit of sadness) for a moment, I would like to apply some of this
+learning to my current (and perhaps your) situation.</p>
+<p>My idea would be to define a new side-project that can act as the slightly
+longer-lived container for some of the smaller side-projects and learnings I
+sometimes manage to spend time on.</p>
+<p>It would have to be a technology / thematic fit for many of my other
+side-projects. It would of course constitute a double-whammy if this
+side-project had commercial potential.</p>
+<p>Well, SURPRISE!</p>
+<p>I do have at least one side-project that ticks a number of these boxes, and
+could <em>potentially</em> serve as such a vehicle.</p>
+<h3 id="aikno">AIKNO</h3>
+<p>The side-project in question is called AIKNO, which is pronounced &ldquo;I know&rdquo;, but
+which somehow expands to <em>AI organizational knowledge base</em>. Magic!</p>
+<p>It eats all of your organization&rsquo;s emails for breakfast, and then uses
+different methods, both algorithmic and crowd/team-sourced, to sort and
+organize those emails and all of their attachments, and then makes those easily
+and attractively (hey, data visualization!) accessible by that organization.</p>
+<p>Think of it as an almost zero-effort always-up-to-date organizational knowledge
+base.</p>
+<p>Besides having slots for various machine learning and visualization techniques,
+it fits nicely into my overgrown knowledge management hobby.</p>
+<p>The first commit in the AIKNO repo was in November of 2017. Oof. The prototype
+is able to import emails and attachments into its structured database, and
+already does funky stuff with similarity searches and whatnot.</p>
+<p>Unfortunately, it has also suffered from my regular technology stack
+changes, and it&rsquo;s currently languishing while I write blog posts.</p>
+<p>My previous failed side-project was called <em>TableTops</em>, or <em>Paradigm Desktop</em> by
+the same people who dubbed DeVIDE &ldquo;Not Responding&rdquo;.</p>
+<p>It was a free-form canvas / whiteboard tool for the free-form storage and
+linking of <em>anything</em>. For example, it had relational data structures for
+linking specific coordinates or regions in photos to centralised concepts, and
+other interesting things that will probably never see the light of day.</p>
+<p>It went through seven tech-stack-change-induced rewrites before being obsoleted
+by <a href="https://vxlabs.com/tags/orgmode/">my growing Emacs Orgmode powers</a>. (first
+commit October 2013, last commit August 2017, now on the backest back
+burner. the one that&rsquo;s not burning.)</p>
+<p>I did learn a <em>tremendous</em> amount.</p>
+<p>Maybe <em>that</em> is the real reason for doing these things?</p>
+<h2 id="always-be-learning">Always Be Learning.</h2>
+<p>Thanks for joining me on that trip folks.</p>
+<p>I hope to see you soon. Until then, make an amazing time!</p>
+<figure>
+<a href="coffee_company_belgian_brownie.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/07/17/weekly-head-voices-173-i-know/coffee_company_belgian_brownie_hu94fbd03beb887ab9d982d192632c7e69_2796738_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+100% amazing Belgian brownie and delectable flat white at the
+Coffee Company on Lourensford this past weekend.
+</figcaption>
+</figure>
+]]></content:encoded></item><item><title>Weekly Head Voices #116: Nothing much to see here, please move on.</title><link>https://cpbotha.net/2017/02/12/weekly-head-voices-116-nothing-much-to-see-here-please-move-on/</link><pubDate>Sun, 12 Feb 2017 19:21:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/12/weekly-head-voices-116-nothing-much-to-see-here-please-move-on/</guid><description> This WHV is all about the weeks from Monday January 30 to Sunday February 12, 2017. I’ve mostly been in heads-down mode on two projects, so this post will be shorter than is usually the case.
+I had my very first beer after the 30-day long Experiment Alcohol Zero (EAZ) on Friday, February 3. It was a good one:
+EAZ has taught me that it would not be the worst idea to limit alcohol consumption slightly more.</description><content:encoded><![CDATA[ <p>This WHV is all about the weeks from Monday January 30 to Sunday February 12, 2017. I’ve mostly been in heads-down mode on two projects, so this post will be shorter than is usually the case.</p>
+<p>I had my very first beer after the 30-day long Experiment Alcohol Zero (EAZ) on Friday, February 3. It was a good one:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/02/cbc_ambe_weiss_number1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/02/cbc_ambe_weiss_number1-768x1024.jpg"
+        /> </a>
+</figure>
+
+<p>EAZ has taught me that it would not be the worst idea to limit alcohol consumption slightly more.</p>
+<p>As with many other enjoyable things, there is a price to be paid for this enjoyment. If paying that price interferes with the other enjoyable habits in your collection, it makes sense to evaluate and adjust the balance.</p>
+<p>That reminds me of one of my favourite electronic music productions of all time: Balance 014 by Joris Voorn. He <a href="https://www.residentadvisor.net/reviews/5988">blew everyone’s minds</a> when he decided to paint these fantastic soundscapes by mixing together more than 100 tracks, often 5 or 6 at a time.</p>
+<iframe allow="autoplay" frameborder="no" height="300" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28875905&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" width="100%"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ukacsukumokacsi" style="color: #cccccc; text-decoration: none;" target="_blank" title="Ukacsuku Mokacsi">Ukacsuku Mokacsi</a> · <a href="https://soundcloud.com/ukacsukumokacsi/joris-voorn-balance-014" style="color: #cccccc; text-decoration: none;" target="_blank" title="Joris Voorn - Balance 014, Mizuiro Mix CD1">Joris Voorn - Balance 014, Mizuiro Mix CD1</a></div>
+<p>Right at this point, just after that not-quite non sequitur, I wrote a far too long section on the relative performance of Android and iPhone, with a big “nerd content ahead” warning on it. Fortunately for you, I came to my senses before publishing and copied it out into its own little blog post: <a href="/2017/02/12/android-vs-iphone-performance-a-quick-note/"><em>Android vs iPhone performance: A quick note</em></a>.</p>
+<p>Last weekend I dusted off my trusty old <a href="https://www.djcbsoftware.nl/code/mu/mu4e.html">mu4e</a>, an unbelievably attractive email client, again. This means I’m reading your mail and sending you beautifully UNformatted plain text emails right from my Emacs. As an additional bonus, I put all of the boring details about my configuration into a completely separate blog post, which you don’t have to read, titled: <em><a href="https://vxlabs.com/2017/02/07/mu4e-0-9-18-e-mailing-with-emacs-now-even-better/">mu4e 0.9.18: E-Mailing with Emacs now even better</a></em>.</p>
+<p>What I will mention here and not in the other post, is that the current situation is subtly different from my previous adventure with mu4e: Where I previously synchronised all 60 thousand emails to process locally with mu4e, I am now following a more mellowed approach where I’m only synchronising the current year (and perhaps the previous year, still considering) of email. I use the fastmail web-app for searching through longer term storage.</p>
+<p>I’m happy to report that so far it’s working out even better than the previous time. I really enjoy converting HTML emails (that’s what everyone sends, thanks GMail!) to well-behaved plain text when I reply.</p>
+<p>Finally, after the Nth time that someone shared a clearly bogus science news post on Facebook, instantly bringing my blood to the boil, I decided to write a handy guide titled: <a href="https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/">Critical Thinking 101: Three super easy steps to spot poppycock on the internet</a>.</p>
+<p>This guide is 100% free, and really easy to send to your friends when you think this is necessary. Please let me know if you have any suggestions for improvement.</p>
+<p>Ok kids, that’s it from me for now. I wish you a great week ahead. In the words of Yo-Play: <em>Come on Mitch, don’t give up. Please try again.</em></p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/ax0MGlIVjiY?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;start=63&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+]]></content:encoded></item><item><title>Weekly Head Voices #89: Xanthohumol.</title><link>https://cpbotha.net/2015/02/01/weekly-head-voices-89-xanthohumol/</link><pubDate>Sun, 01 Feb 2015 17:01:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/02/01/weekly-head-voices-89-xanthohumol/</guid><description> I found myself in Stellenbosch this weekend, so I drove by my old student house. Fifteen odd years ago, the house used to go by the name The Far Side. It was usually inhabited by five fairly attractive yet dangerously intelligent male engineering students, who were, quite unexpectedly, also extremely modest. (In those days, prepending “male” to “engineering student” was mostly redundant.)
+Well, it seems The Far Side has gone through a little transformation of its own:</description><content:encoded><![CDATA[ <p>I found myself in Stellenbosch this weekend, so I drove by my old student house. Fifteen odd years ago, the house used to go by the name <em>The Far Side</em>. It was usually inhabited by five fairly attractive yet <em>dangerously</em> intelligent male engineering students, who were, quite unexpectedly, also extremely modest. (In those days, prepending “male” to “engineering student” was mostly redundant.)</p>
+<p>Well, it seems <em>The Far Side</em> has gone through a little transformation of its own:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/02/wpid-farside-now-venustia.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/02/wpid-farside-now-venustia.jpg"
+        /> </a>
+</figure>
+
+<p>Yes, there are little hearts hanging everywhere, and the little hearts have, probably in some kind of fractal frenzy, been arranged to form even larger hearts. In my mind, <em>The Far Side</em> was still exactly as we had left it, except with a new bunch of unexpectedly modest engineering students, thinking, saying and doing things almost like we used to, except for the occasional interjection of ideas that did not yet exist in our time, like “wifi”, “tablet” and “smartphone”.</p>
+<p>Initial pattern-matching-driven expectations and consequent surprise aside, this was a physical reminder that even mundane matters can change quite significantly given sufficient time. This is a good thing, although the whole fractal cardiac decoration aspect was perhaps not completely called-for.</p>
+<p>On the nerd front:</p>
+<ul class="org-ul">
+<li>
+    I wrote a vxlabs blog post on <a href="http://vxlabs.com/2015/01/28/sending-emails-with-math-and-source-code/">sending pretty emails with math and syntax highlighted source code</a>, of course using emacs, org-mode and mu4e.
+  </li>
+<li>
+    After some emacs-lisp tracing through mu4e and gnus, I finally discovered how to activate <code>format=flowed</code> in the default text/plain emails sent with mu4e, thus enabling reflowing of hard-wrapped emails on receiving (mobile) clients that support this. It occurred to me that the group of nerds affected by this particular behaviour in this particular software setup is <i>extremely</i> small. Read all about it in <a href="https://github.com/djcb/mu/issues/569">my github issue report</a> on the matter.
+  </li>
+<li>
+    I wrote <a href="http://osssa.org.za/2015/01/27/cape-town-open-data-portal-now-live-unfortunately-with-microsoft-file-formats/">an osssa blog post</a> on the opening of the new Cape Town Open Data Portal (fantastic!) using non-open Microsoft file format standards (not so great).
+  </li>
+</ul>
+<p>Blog reader MrK sent me <a href="http://www.sciencedaily.com/releases/2015/01/150128113947.htm">this sciencedaily article</a> with the great news that there is a small but real chance that beer <em>might</em> protect us from neurodegenerative diseases. In lab tests it was found that xanthohumol, a compound found in hops, could <em>potentially</em> protect brain cells against neurodegenerative diseases such as Alzheimer’s and Parkinson’s. Of course we should be very careful jumping to conclusions based on these types of experiments performed on isolated compounds under lab conditions.</p>
+<p>That being said, I do think that careful optimism whilst enjoying beer might be justified. As we all know, the more beer one drinks, the more intelligent one becomes, at least up to a certain optimum:</p>
+<div class="figure">
+<p>
+<img alt="ballmer_peak.png" src="http://imgs.xkcd.com/comics/ballmer_peak.png"/>
+</p>
+</div>
+<p>It seems there’s even a shadowy but very powerful organization built upon this exact principle. They are called <em>The Inebriati</em>:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/-Zj50DmBFp0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Thanks for reading this. I hope that you have a great week, and I hope to see you again soon.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #73: Keystroke megaphone!</title><link>https://cpbotha.net/2014/06/10/weekly-head-voices-73-keystroke-megaphone/</link><pubDate>Tue, 10 Jun 2014 18:42:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/06/10/weekly-head-voices-73-keystroke-megaphone/</guid><description> In week 23 of 2014 I nerded out by writing two Emacs-related blog posts over at the vxlabs, and hacking org2blog to support WordPress image thumbnails:
+Modify Emacs Deft for recursive directory search -- this shows you how you can modify Emacs Deft mode, a Notational Velocity clone, to handle nested directories. Configuring Emacs mu4e with nullmailer, offlineimap and multiple identities -- this post documents my complete Emacs-based mail client setup.</description><content:encoded><![CDATA[ <p>In week 23 of 2014 I nerded out by writing two Emacs-related blog posts over at
+the vxlabs, and hacking org2blog to support WordPress image thumbnails:</p>
+<ul class="org-ul">
+<li>
+<a href="http://vxlabs.com/2014/06/04/modify-emacs-deft-for-recursive-directory-search/">Modify Emacs Deft for recursive directory search</a> -- this shows you how you can modify Emacs Deft mode, a Notational Velocity clone, to handle nested directories.
+  </li>
+<li>
+<a href="http://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">Configuring Emacs mu4e with nullmailer, offlineimap and multiple identities</a> -- this post documents my complete Emacs-based mail client setup.
+  </li>
+<li>
+<a href="https://github.com/cpbotha/org2blog">org2blog image-thumbnail fork</a> on github -- this is my first significant Emacs package hack! Using this, you can configure org2blog to make use of the image thumbnails automatically created by WordPress on image upload. By default, it will insert the 300px thumbnail into your post and link to the full size image, instead of just inserting the full size version.
+  </li>
+</ul>
+<h2 id="conserving-keystrokes">Conserving keystrokes</h2>
+<p>Besides the general Emacs frenzy I&rsquo;m going through at the moment, there is some
+method to my madness, especially the org2blog part. Through <a href="http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">Emacs
+and org2blog</a>, it has become significantly easier for me to publish a blog
+post. I&rsquo;m in Emacs the whole day in any case (email and text notes database),
+so turning any piece of existing text into a blog post now takes no more than a
+minute or two.</p>
+<p>Why is that interesting?</p>
+<p>Well, in 2007, Jon Udell (we&rsquo;ll forget for a while that he works for the enemy,
+because the man talks sense) wrote <a href="http://blog.jonudell.net/2007/04/10/too-busy-to-blog-count-your-keystrokes/">a
+blog post</a> urging his readers to count their keystrokes. Here are three
+selected paragraphs:</p>
+<blockquote>
+<p>When people tell me they’re too busy to blog, I ask them to count up their
+output of keystrokes. How many of those keystrokes flow into email messages?
+Most. How many people receive those email messages? Few. How many people could
+usefully benefit from those messages, now or later? More than a few, maybe a
+lot more.</p>
+<p>From this perspective, blogging is a communication pattern that optimizes for
+the amount of awareness and influence that each keystroke can possibly
+yield. Some topics, of course, are necessarily private and interpersonal. But a
+surprising amount of business communication is potentially broader in scope. If
+your choice is to invest keystrokes in an email to three people, or in a blog
+entry that could be read by those same three people plus more — maybe many more
+— why not choose the latter? Why not make each keystroke work as hard as it
+can?</p>
+<p>[converting an email to a blog post] can have powerful network effects. To
+exploit them, you have to realize that the delivery of a message, and the
+notification of delivery, do not necessarily coincide. Most of the time, in
+email, they do. The message is both notification and payload. But a message can
+also notify and point to a payload which is available to the recipient but also
+to other people and processes in other contexts. That arrangement costs hardly
+any extra keystrokes, and hardly any extra time. But it’s an optimization that
+can radically expand influence and awareness.</p>
+</blockquote>
+<p>I&rsquo;ve reproduced the same paragraphs that Jeff Atwood (co-creator of Stack Overflow, together with Joel Spolsky, I&rsquo;M NOT WORTHY) extracted in <a href="http://blog.codinghorror.com/maximizing-the-value-of-your-keystrokes/">his blog post on the matter</a>, where he exhorted us with the question:</p>
+<blockquote>
+<p>The next time you find yourself typing more than a few sentences on your keyboard, stop and ask: are you maximizing the value of your keystrokes?</p>
+</blockquote>
+<p>(Scott Hanselman, like Udell also with the enemy but again a source of internet wisdom (hey, what&rsquo;s up with that?!), is a strong proponent of this idea, see for example <a href="http://www.hanselman.com/blog/DoTheyDeserveTheGiftOfYourKeystrokes.aspx">his 2010 post on the matter</a>.)</p>
+<h2 id="normal-human-stuff">Normal human stuff</h2>
+<p>I haven&rsquo;t felt this cold in a long long time. Because winter here is usually short and/or mild and the summers are long and, err, <i>summery</i>, houses are not really well geared for the cold season. At night, the temperature inside my house approaches that of outside.</p>
+<p>That&rsquo;s why I&rsquo;m counting down the days until June 21 (sorry Northern Hemisphere friends). It might be the middle of winter over here, but it&rsquo;s also the point after which the days starting getting slowly longer and warmer.</p>
+<p>While me wait, there are sunsets like this one on Friday, at the Stone Three company braai:</p>
+<figure class="wp-caption alignnone" style="width: 300px">
+<a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset.jpg" title="">
+<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-strand_sunset-300x225.jpg"/></a><figcaption class="wp-caption-text">Sunset, seen from the Strand Yacht Club on Friday June 6, 2014.</figcaption></figure> 
+<p>&hellip; and lovely beers like this one:</p>
+<figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold.jpg" title="">
+<img src="http://cpbotha.net/wp-content/uploads/2014/06/wpid-johnny_gold-300x225.jpg"/></a><figcaption class="wp-caption-text">Look how the sun sets ever so artfully on my Johnny Gold!</figcaption></figure> 
+<p>&hellip; to keep me busy.</p>
+<p>Have a great week kids!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #71: Vote for the future.</title><link>https://cpbotha.net/2014/05/24/weekly-head-voices-71-vote-for-the-future/</link><pubDate>Sat, 24 May 2014 20:27:40 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/24/weekly-head-voices-71-vote-for-the-future/</guid><description> On Wednesday May 7, together with just over 18 million other South Africans, I voted. Afterwards, my thumb looked like this: POWER THUMB!
+… and the rest of me felt like a million bucks!
+Some complained about the outcome. I think we’re moving, albeit slowly, in the direction of a healthy democracy. Here are this year’s results, and here are 2009’s results. The opposition has been growing (slowly) at a national level.</description><content:encoded><![CDATA[ <p>On Wednesday May 7, together with just over 18 million other South Africans, I voted. Afterwards, my thumb looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/voting_thumb.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/voting_thumb.jpg"
+        
+            alt="POWER THUMB!"/> </a><figcaption>
+            <p>POWER THUMB!</p>
+        </figcaption>
+</figure>
+</p>
+<p>… and the rest of me felt <strong>like a million bucks</strong>!</p>
+<p>Some complained about the outcome. I think we’re moving, albeit slowly, in the direction of a healthy democracy. Here are <a href="http://www.news24.com/Elections/results">this year’s results</a>, and here are <a href="http://www.news24.com/Elections/results#year=2009">2009’s results</a>. The opposition has been growing (slowly) at a national level. Interestingly, in Gauteng, smallest province with all of the money and power, the opposition is making similar progress.</p>
+<p>Late to the party as per usual, I discovered <a href="http://vagrantup.com/">Vagrant</a>, a fantastic command-line tool to create, use and destroy virtual machines AT A WHIM. I was so happy with this that I created <a data-rel="lightbox-video-0" href="http://youtu.be/sY0wNgTpEOg" title="vagrant screencast">this screencast</a>, which has the added advantage of being an effective component of insomnia treatment. (Yes, I do know about and have even played with Docker. For what I’m doing now (deploying multiple self-contained servers on on-premises servers without direct access), vagrant+virtualbox fits better.)</p>
+<p>On the topic of nerdy software, let’s turn the dial to 11. I’ve started using emacs 24 with <a href="http://www.djcbsoftware.nl/code/mu/mu4e.html">mu4e</a> as my main email client now. It looks like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/05/cpbotha-mu4e-screenie.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/05/cpbotha-mu4e-screenie.png"
+        
+            alt="mu4e screenshot with nvpy search active"/> </a><figcaption>
+            <p>mu4e screenshot with nvpy search active</p>
+        </figcaption>
+</figure>
+</p>
+<p>After leaving GMail, I made do for a while with Thunderbird, but wasn’t really happy with it. (It’s really an awesome email client, but my inner nerd wanted more.) I can honestly say that I’m in email heaven at the moment. My 68 thousand email archive is locally mirrored with <a href="http://offlineimap.org/">offlineimap 0.6.5</a>. mu4e in Emacs is able to perform search requests through the whole archive in milliseconds. It makes GMail seem positively snail-like in comparison. In addition, I can use my crappy elisp-fu to make it do the most silly things with the user interface and my email. Oh yes, and <a href="http://slinky.imukuppi.org/zenburnpage/">zenburn</a>. Gaaaaaaaaaaah…</p>
+<p>Completely accidentally, I saw Star Trek Into Darkness on Netflix the other night (no, we don’t have Netflix over here, really) and was completely BLOWN AWAY. Benedict Cumberbatch as Khan was an awe-inspiring movie villain. According to <a href="http://en.wikipedia.org/wiki/Khan_Noonien_Singh">the Wikipedia page on Khan Noonien Singh</a> (recurring villain in the Star Trek universe), Jonathan Romney of The Independent had the following to say about Cumberbatch’s voice:</p>
+<blockquote>
+<p>[It was] so sepulchrally resonant that it could have been synthesised from the combined timbres of Ian McKellen, Patrick Stewart and Alan Rickman holding an elocution contest down a well.</p>
+</blockquote>
+<p>Dang. If you’ve seen the movie, you’ll know what he’s talking about.</p>
+<p>Just in case you thought that we didn’t live in the future, have a look at this live video stream of the Earth, taken by the cameras of the International Space Station, which is only floating 422km above the Earth’s surface:</p>
+<iframe frameborder="0" height="302" scrolling="no" src="http://www.ustream.tv/embed/17074538?v=3&amp;wmode=direct" style="border: 0px none transparent;" width="480"></iframe>
+<p>(read more <a href="http://www.ustream.tv/channel/iss-hdev-payload">here</a>)</p>
+]]></content:encoded></item></channel></rss>

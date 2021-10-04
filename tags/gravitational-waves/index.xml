@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gravitational waves on voices in my head</title><link>https://cpbotha.net/tags/gravitational-waves/</link><description>Recent content in gravitational waves on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 12 Nov 2019 17:04:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gravitational-waves/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #183: Wave functions wearing lycra.</title><link>https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/</link><pubDate>Tue, 12 Nov 2019 17:04:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/</guid><description> This, the 183d edition of the Weekly Head Voices, looks back at the week from Monday November 4 to Sunday November 10, 2019.
+In this post we have a BLoM, a story about the conflict between a man and a toy and finally some great quantum mechanics visualizations for your meat-based neural network.
+On the way home from a compact but enjoyable Sunday party with built-in family gathering at Skilpadvlei near Stellenbosch.</description><content:encoded><![CDATA[ <p>This, the 183d edition of the Weekly Head Voices, looks back at the week from
+Monday November 4 to Sunday November 10, 2019.</p>
+<p>In this post we have a BLoM, a story about the conflict between a man and a toy
+and finally some great quantum mechanics visualizations for your meat-based
+neural network.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/skilpadvlei_exit.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/skilpadvlei_exit_hu889d67f11708c8e57fb81c04eabccc67_1909149_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/skilpadvlei_exit_hu889d67f11708c8e57fb81c04eabccc67_1909149_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/skilpadvlei_exit_hu889d67f11708c8e57fb81c04eabccc67_1909149_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/skilpadvlei_exit_hu889d67f11708c8e57fb81c04eabccc67_1909149_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/11/12/weekly-head-voices-183-wave-functions-wearing-lycra/skilpadvlei_exit_hu889d67f11708c8e57fb81c04eabccc67_1909149_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+On the way home from a compact but enjoyable Sunday party with
+built-in family gathering at Skilpadvlei near Stellenbosch. 
+</figcaption>
+</figure>
+<h2 id="blom-bullet-list-of-miscellany">BLoM (Bullet List of Miscellany).</h2>
+<ul>
+<li>Thanks to the gentle urging of my friend <a href="https://twitter.com/vogonpoet">the Vogon
+Poet</a>, I finally got around to fixing my
+custom Hugo shortcode for image inclusion so that it would use full path
+names. This will hopefully result in RSS feeds and the subscription email
+correctly displaying images.</li>
+<li>I forgot to mention in the previous WHV that I wrote a post explaining how
+you can <a href="/2019/11/02/forming-and-maintaining-habits-using-orgmode/">use Emacs and Orgmode to form and maintain good
+habits</a>. This has
+really been working quite well for me.</li>
+<li>It is hard to explain how happy I am that the comments on this blog are now
+also <a href="/2019/11/10/we-now-have-self-hosted-isso-comments/">self-hosted using the open-source software
+isso</a>. Of all of the
+advantages, I think I appreciate the lower barrier to entry the most. With
+full markdown support, you should be able to post whole blog posts down below
+in the comment section! (HINT HINT)</li>
+</ul>
+<h2 id="i-should-really-look-where-im-walking">I should really look where I&rsquo;m walking.</h2>
+<p>Picture this:</p>
+<p>On Wednesday evening, as I was walking onto the carpet in our room, feet nicely
+marinated and super soft thanks to the shower I had just taken, senses and
+planning wetware focused on three different non-floor points in the room (I was
+carrying two items that needed to be deposited in two different locations, and
+I spotted genetic relation units on the bed), I managed to step right onto the
+single pink plastic toy my youngest GOU had left on the floor.</p>
+<p>Naturally I did this with the softest part of my soft foot.</p>
+<p>The plastic shattered, and somehow my reflexive foot action only served to
+result in a partial retract followed by an apparently inevitable rejoining of
+the vertical foot-toy-mashup, which on its part served to bring more bits of
+shattered plastic into membrane piercing force levels of contact with the soft
+underside of my foot.</p>
+<p>Are you still picturing?</p>
+<p>Relatively-speaking large floor, unoccupied with one small exception.</p>
+<p>Single highly shatter-friendly toy, made of <em>pink</em> plastic.</p>
+<p>Man manages to angle foot <em>just so</em>, applies copious force, and impales said
+foot on lone toy, not once, but multiple times.</p>
+<p>Anyways people, measuring by the amount of blood and other KPIs, I can in all
+honesty say that this is somewhat worse than stepping on a lego.</p>
+<p>Three days later, we extracted what was hopefully the last bit of plastic from
+the underside of my foot.</p>
+<p>On the bright side, the tweezer from <a href="/2018/02/11/weekly-head-voices-131-function-over-form/#what-a-tool">my Gerber every day carry (EDC)
+micro-tool</a>
+has now shown itself excellent for the purpose of light home surgery.</p>
+<p>Also on the bright side, this will hopefully serve as powerful reminder that I
+should really focus better on where I put my feet down at home, at least until
+the volume of toys starts to diminish in a few years time.</p>
+<p>(On Sunday, I couldn&rsquo;t not, so I did squeeze in a short and careful run. I was
+quite happy that everything did still seem to work, albeit with some extra
+feeling.)</p>
+<h2 id="gravitational-waves-on-the-high-seas-of-curved-spacetime">Gravitational waves on the high seas of curved spacetime.</h2>
+<p>My favourite video showing the idea of how gravity warps (curves; bends)
+spacetime is the one below.</p>
+<p>For those of you who prefer not viewing YouTube videos, let me do another
+&ldquo;picture this&rdquo;.</p>
+<p>Sooooo&hellip; PICTURE THIS:</p>
+<ul>
+<li>The gentleman explaining the idea has a sheet of lycra stretched taut over a
+circular frame. He makes a funny joke about it being an old swimming costume.</li>
+<li>Placing heavy bearings on the sheet stretches the lycra down into a
+funnel-shape, as you would expect. (that reminds me of this tangential thing
+I wanted to tell you at some other point: it turns out your neural network
+had to learn explicitly that model of material stretching as you were growing
+up)</li>
+<li>Throwing more bearings onto the lycra, one can see how the curved surface
+causes them to orbit around the larger bearings!</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MTY1Kje0yLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Well, isn&rsquo;t that just a fabulous image to have in your mind&rsquo;s eye right now?!</p>
+<p>This is exactly how you can visualize the warping of the gravity field in which
+you and I and all of our friends and the Earth and all the planets and
+everything in the whole universe are snugly embedded!</p>
+<p>This more than explains the old <a href="https://en.wikipedia.org/wiki/Action_at_a_distance">&ldquo;action at a
+distance&rdquo;</a> mystery.</p>
+<p>In other words, how is it possible that the Sun is able to exert a force on the
+planet-formerly-knows-as-Pluto?</p>
+<p>Well, as you can visualize now, the Sun, being the baddest mofo in this valley,
+warps the gravitational field (enveloping us all) the most, and this is what
+keeps Pluto in orbit.</p>
+<p>Anyways, as beautiful as this is, it is probably old news to many of you.</p>
+<p>Let&rsquo;s go on to my NEW story!</p>
+<p>During a recent <a href="https://lexfridman.com/sean-carroll/">Lex Fridman podcast</a>
+with the CalTech theoretical physicist <a href="https://en.wikipedia.org/wiki/Sean_M._Carroll">Sean
+Carroll</a>, Carroll non-chalantly
+mentioned that general relativity was simply the extension to the idea of
+warped spacetime of a change at one point of the gravitational field not being
+able to propagate faster than the speed of light to another point!</p>
+<p>BRAIN ASPLODE.</p>
+<p>I had never thought of it this way before.</p>
+<p>When an object accelerates, it emanates a <a href="https://en.wikipedia.org/wiki/Gravitational_wave">gravitational
+wave</a> which travels through
+the gravitational field at the speed of light. (Yes, these <a href="https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves">gravitational waves
+have been
+measured</a>.)</p>
+<p>Going back to our lycra visualization, it made intuitive sense to me that a
+change in the warping of the lycra, for example due to the heaviest bearing
+being moved by a giant hand, would have to travel at finite speed through the
+lycra material for the new warped configuration to have reached all of its
+corners!</p>
+<p>At that point in the podcast, as if my brain was not reeling sufficiently from
+these brilliant new mental images of gravitational waves rippling through
+curved spacetime, just like the patterns formed by small rocks skipping over
+water, Carroll started explaining how we are all just quantum wave functions
+continuously getting entangled with each other the whole time.</p>
+<p>I think I have just convinced myself <a href="https://www.amazon.com/Something-Deeply-Hidden-Emergence-Spacetime-ebook/dp/B07LCP3YRY/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=1573570733&amp;sr=8-1">what I will have to
+read</a>
+right after I finish with <em>Why we sleep</em>&hellip;</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,289 @@
+<!doctype html><html>
+<head>
+<title>Weekly Head Voices #221: The anti-breakfast club // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Weekly Head Voices #221: The anti-breakfast club">
+<meta property="og:description" content="Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
+ Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong.
+  Learn you a tiny bit of Erlang for Great Good! Last week I attended a meetup that turned out to be primarily about Erlang and not so much about automated crypto arbitrage, the other topic of the talk.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/">
+<meta property="og:image" content="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Weekly Head Voices #221: The anti-breakfast club</h1>
+</header>
+<div class=article-meta>
+<a href=/2021/04/20/weekly-head-voices-221-anti-breakfast-club/ class=article-date>
+<time datetime=2021-04-20T08:54:00.000+02:00 itemprop=datePublished>2021-04-20</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2021/04/20/weekly-head-voices-221-anti-breakfast-club/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
+from Monday April 12 to Sunday April 18, 2021, and focusing on the programming
+language Erlang and the evil that is breakfast.</p>
+<figure><a href=vergelegen_entrance_autumn_run_202104.jpg>
+<img sizes="(min-width: 35em) 1200px, 100vw" srcset="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_480x0_resize_q75_box.jpg 480w,
+https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg 800w,
+https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1200x0_resize_q75_box.jpg 1200w,
+https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1500x0_resize_q75_box.jpg 1500w," src=https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong."> </a><figcaption>
+<p>Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong.</p>
+</figcaption>
+</figure>
+<h2 id=learn-you-a-tiny-bit-of-erlang-for-great-good>Learn you a tiny bit of Erlang for Great Good!</h2>
+<p>Last week I attended a meetup that turned out to be primarily about Erlang and
+not so much about automated crypto arbitrage, the other topic of the
+talk. Although it&rsquo;s interesting to me that we have a company right here in
+this town that has been successfully doing automated crypto arbitrage for a few
+years now, using Erlang!</p>
+<p>Like many other folks, I became interested in Erlang back in 2013 (I just
+checked my notes, but it was also <a href=/2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/>mentioned on this blog in 2014</a>, when I
+decided not to learn it) when WhatsApp started becoming well-known. The
+WhatsApp backend was famously implemented in Erlang, enabling them to handle
+hundreds of millions, and now billions, of users with relatively little
+resources.</p>
+<p>The first two hours of the talk was a detailed intro to Erlang that did require
+a substantial amount focus and grit to keep up with.</p>
+<p>However, understanding how light-weight Erlang processes work and talk to each
+other was quite interesting. More importantly the speaker both really knew what
+he was talking about, and spoke really well.</p>
+<p>The last 20 minutes or so after that were great, more about how and why exactly
+Shiftly uses Erlang to do their real-time crypto arbitrage.</p>
+<p>Their Erlang system is self-healing (when one of the light-weight processes
+dies, for whatever reason, its supervisor simply replaces it; there are
+supervisors watching the other supervisors!), and usually runs for years on
+end, keeping all of its state in memory. They usually only have to stop it to
+perform security upgrades on the underlying operating system.</p>
+<p>Erlang processes pull in feeds from forex and various other suppliers, monitor
+order books in real-time, and then execute movements on crypto trading pairs
+that are affected by any order book entry.</p>
+<p>My main take-home was that Erlang seems to combine super light-weight processes
+(you can run millions of them on a single machine) that are fully isolated (a
+process can divide by zero, be killed and a new one takes its place) but can
+still easily share code and data via messages.</p>
+<p>It seems like the antithesis to the sticky and sometimes over-complicated
+micro-services situation we have collectively gotten ourselves into.</p>
+<p>All of that being said, the same caveats apply as using another actor platform
+like akka.net for example: Everything is unicorns and rainbows if you stay
+within the lines (i.e. strict Erlang, or pure .NET managed code in akka&rsquo;s
+case).</p>
+<p>When you start adding native code, things can still go quite badly awry.</p>
+<p>Still, the Erlang actor-based approach to writing highly concurrent and
+fault-tolerant code sure looks amazing!</p>
+<h2 id=i-really-don-t-like-breakfast>I really don&rsquo;t like breakfast</h2>
+<p>Some of my friends know that I&rsquo;ve been quite angry at breakfast for a while
+now.</p>
+<p>I&rsquo;m referring specifically to the idea that has been quite successfully
+propagated by the makers of breakfast cereal for as long as I can remember:</p>
+<blockquote>
+<p>Breakfast is the most important meal of the day.</p>
+</blockquote>
+<p>So they really want you to eat their usually sugar-filled products first thing
+in the morning, and they&rsquo;ve convinced you, and most of the &ldquo;field&rdquo;, that this
+is healthy.</p>
+<h3 id=eating-causes-inflammation>Eating causes inflammation</h3>
+<p>What many people don&rsquo;t realise, is that every single meal causes inflammation.</p>
+<p>Postprandial inflammation, as this is called, is your body&rsquo;s normal response to
+any foreign material entering its systems.</p>
+<p>Refined foods, and especially sugar, cause much more inflammation per volume
+than natural foods, such as fruit and vegetables. Some food types even
+counteract the inflammation to a certain extent.</p>
+<p>Can you see where this is going?</p>
+<p>A few hours after dinner you go to bed, your body still dealing with
+the inflammation caused by that dinner.</p>
+<p>You <em>hopefully</em> sleep for 8 hours or more, and your body finally gets a break.</p>
+<h3 id=the-problem-with-breakfast>The problem with breakfast</h3>
+<p>What do you do when you get up? You eat breakfast, because it&rsquo;s entrenched in
+your brain (thanks to years of marketing) that breakfast is healthy and should
+not be skipped, instead starting up a full day&rsquo;s inflammation again.</p>
+<p><a href=https://nutritionandmetabolism.biomedcentral.com/articles/10.1186/s12986-016-0142-6>This article in Nutrition & Metabolism</a> describes the phenomenon quite nicely:</p>
+<blockquote>
+<p>The typical Western diet is characterized by sizable portions of highly
+processed foods, large amounts of added sugars, and a high total fat
+content. The average fat content of a Western meal is between 20 and 40 g, and
+three to four meals per day are consumed regularly. Therefore, many individuals
+spend the majority of their day in a postprandial state, characterized by
+elevated levels of circulating triglycerides (TRG) following a meal.</p>
+</blockquote>
+<p>Chronic low-grade inflammation is associated with metabolic disorders that
+include obesity, type 2 diabeters and the metabolic syndrome. Furthermore, <a href=https://pubmed.ncbi.nlm.nih.gov/26629551/>low
+inflammation predicts successful ageing</a>.</p>
+<p>In short, we want as little as possible inflammation, not more.</p>
+<p>There are fortunately a few great ways to mitigate feeding&rsquo;s role in
+inflammation: 1. Eat the best food you can find, 2. eat less food and,
+importantly, 3. try not to eat for the whole dang day.</p>
+<p>My anger at breakfast and its cereal-maker proponents is because they have
+sabotaged point 3 above, sending a large part of the western populace into
+glucose metabolism and inflammation every single morning.</p>
+<h3 id=skip-you-some-breakfast-for-great-good>Skip you some breakfast for great good</h3>
+<p>This <a href=https://www.dietdoctor.com/intermittent-fasting/time-restricted-eating>blog post on time-restricted eating</a> is definitely worth your time. Here I
+would like to reproduce what it has to say about breakfast:</p>
+<blockquote>
+<p>We have all been told to eat breakfast. Unfortunately this is inaccurate
+advice.</p>
+<p>When you first wake up in the morning, your insulin level is quite low and most
+people are just starting to enter the fasted state, 12 hours after eating the
+last meal of the previous day. Eating at this time raises insulin and glucose
+and immediately shuts off fat-burning. This is especially true for a high carb
+breakfast. A potentially better choice would be to push the first meal of your
+day out at least a few hours, during which time you can continue in the fasted
+state and burn stored body fat.</p>
+<p>Interestingly, many properly fat-adapted people aren&rsquo;t very hungry in the
+morning and have no problem skipping breakfast.</p>
+</blockquote>
+<p>From personal experience I can confirm this: I usually don&rsquo;t get hungry <em>at
+all</em> until lunch-time, at the earliest.</p>
+<p>(If I&rsquo;m planning to go on a morning run, I will usually eat a few bananas right
+before the outing to be able to keep up a higher pace. I have also run fasted,
+but in that case my pace is automatically more relaxed.)</p>
+<p>In this context, it&rsquo;s interesting to look at <a href=https://peterattiamd.com/my-nutritional-framework/>Peter Attia&rsquo;s nutritional
+framework</a> as well. He refers to eating less, eating specific things and
+restricting when you eat as three levers that have to be regularly
+pulled.</p>
+<p>Pulling these levers helps your body to become metabolically flexible, that is,
+being able to switch easily between glucose burning and fat burning, the latter
+of which many western humans are not capable of anymore.</p>
+<p>It is interesting in this regard that our brains, although they can run on fat
+when required, strongly prefer glucose (source: fascinating podcast episode
+<a href=https://peterattiamd.com/husseinyassine/>&ldquo;Hussein Yassine, M.D.: Deep dive into the &lsquo;Alzheimer’s gene&rsquo; (APOE), brain
+health, and omega-3s&rdquo;</a>). I&rsquo;m still working out the implications of this on my
+personal intellectual requirements.</p>
+<p>Ok friends, thank you for sticking around for this sermon!</p>
+<p>Next week: A whole bunch of information that in fact does constitue financial
+and investment advice that I take full responsibility for. (haha just
+joking. it&rsquo;ll be politics or religion.)</p>
+</div>
+<div class=article-toc>
+<h3>Contents</h3>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#learn-you-a-tiny-bit-of-erlang-for-great-good>Learn you a tiny bit of Erlang for Great Good!</a></li>
+<li><a href=#i-really-don-t-like-breakfast>I really don&rsquo;t like breakfast</a>
+<ul>
+<li><a href=#eating-causes-inflammation>Eating causes inflammation</a></li>
+<li><a href=#the-problem-with-breakfast>The problem with breakfast</a></li>
+<li><a href=#skip-you-some-breakfast-for-great-good>Skip you some breakfast for great good</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/breakfast>breakfast
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/erlang>erlang
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/fasting>fasting
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/health>health
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/time-restricted-eating>time-restricted eating
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/tre>TRE
+</a>
+</li>
+</ul>
+</footer>
+</div>
+<nav id=article-nav>
+<a href=/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Weekly Head Voices #222: Scotty, we need more power!
+</div>
+</a>
+<a href=/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Weekly Head Voices #220: An uncomfortable brainstorm&nbsp;<span>></span></div>
+</a>
+</nav>
+<div class=article-footer>
+Related posts:
+<a href=/2019/12/18/weekly-head-voices-186-helderberg-20/>🌤 Weekly Head Voices #186: Helderberg 20.</a>
+<a href=/2019/12/29/weekly-head-voices-188-exercise-canary/>🌤 Weekly Head Voices #188: Exercise Canary.</a>
+<a href=/2018/12/19/weekly-head-voices-159-extreme/>🌤 Weekly Head Voices #159: Extreme.</a>
+</div>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Weekly Head Voices #221: The anti-breakfast club" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

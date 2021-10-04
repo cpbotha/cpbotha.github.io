@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apple on voices in my head</title><link>https://cpbotha.net/tags/apple/</link><description>Recent content in apple on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 08 May 2021 14:07:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/apple/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #222: Scotty, we need more power!</title><link>https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/</link><pubDate>Sat, 08 May 2021 14:07:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/</guid><description> Welcome back everyone!
+It&amp;rsquo;s now early(ish) Friday morning of the weekend after, but I would like to get the 222d edition of the WHV out, namely the one covering the two weeks from Monday, April 19 to Sunday, May 2, 2021.
+My excuse for skipping a week is that the second week was spent on vacation. Exhibit A is shown below:
+Figure 1: Scene from an unexpected and sublime run on the St Francis beach.</description><content:encoded><![CDATA[ <p>Welcome back everyone!</p>
+<p>It&rsquo;s now early(ish) Friday morning of the weekend after, but I would like to
+get the 222d edition of the WHV out, namely the one covering the two weeks from
+Monday, April 19 to Sunday, May 2, 2021.</p>
+<p>My excuse for skipping a week is that the second week was spent on
+vacation. Exhibit A is shown below:</p>
+
+
+
+
+
+
+
+
+<figure><a href="st_francis_beach_run_202104.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_beach_run_202104_hu56cda6ac1a19ad77b512a8eda60b2857_609367_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from an unexpected and sublime run on the St Francis beach."/> </a><figcaption>
+            <p>Figure 1: Scene from an unexpected and sublime run on the St Francis beach.</p>
+        </figcaption>
+</figure>
+
+<p>The rest of this post has (imagine the following in Bill Hader&rsquo;s Stefon voice):</p>
+<ul>
+<li>migraines and science</li>
+<li>scifi ipads</li>
+<li>VR</li>
+<li>a life tip</li>
+</ul>
+<p>Let&rsquo;s go!</p>
+<h2 id="brain-glitch">Brain glitch</h2>
+<p>I lost almost half a work day to a <a href="https://www.allaboutvision.com/conditions/ocular-migraine.htm">visual migraine</a>.</p>
+<p>Looking at my notes, it seems that these only started during the past few
+years, although it could be that I just didn&rsquo;t record the previous ones.</p>
+<p>It starts out with bright spots in the middle of your field of vision, which
+slowly grow until they form jiggly circles. This is not ideal, but at least you
+can now look through their centres. Haha.</p>
+<p>It looks eerily identical to the illustration on the linked website.</p>
+<p>After half an hour to about an hour, sometimes a headache will hit, and
+sometimes not. This time it was unusually intense, and I had no choice but to
+detach from work for a while.</p>
+<p>Looking back at my notes now, I really appreciate the time-stamped entries as
+the migraine developed all the way to its end.</p>
+<p>Lesson reaffirmed: Take good notes, no matter what.</p>
+<h3 id="fascinating-scientific-review-of-migraine-and-metabolism">Fascinating scientific review of migraine and metabolism</h3>
+<p>After a related chat with a friend who reported that in his case blood sugar
+played a role (he can&rsquo;t skip breakfast, and can&rsquo;t eat too sweet), my
+permanently foraging internet tentacles entirely coincidentally dredged up this
+publication in Nature Reviews Neurology titled &ldquo;The metabolic face of
+migraine - from pathophysiology to treatment&rdquo; (<a href="https://pubmed.ncbi.nlm.nih.gov/31586135/">pubmed</a>, <a href="https://orbi.uliege.be/bitstream/2268/247255/1/Gross%20et%20al%20Metabolic%20face%20of%20migraine-Nat%20Rev%20Neurol%202019.pdf">PDF fulltext</a>).</p>
+<p>The article is pretty dense, but here are some interesting observations:</p>
+<p>The first is from box 1: In some humans, when brain energy demands outstrip
+metabolic reserves, rendering them vulnerable to disruption of cortical
+homeostatis (energy balance), there is a whole cascade of events that,
+according to the article&rsquo;s authors, might be started by the pannexin channels
+in neurons. (These channels act as sensors of cortical homeostasis.)</p>
+<p>It&rsquo;s quite straight-forward then that (haha):</p>
+<blockquote>
+<p>The final result of this cascade is trigeminovascular activation and calcitonin
+gene-related peptide release in the extradural space, which leads to headache.</p>
+</blockquote>
+<p>Following from there, they postulate two alternate pathways that cause
+respectively migraine with and without aura (visual effects).</p>
+<p>In other words, when your brain requires more energy than you have available,
+and you are one of the many genetic variants who suffer from this mechanism,
+you could be in for some migraine when your body reacts to the imbalance.</p>
+<p>On top of that, the authors present one more good reason <a href="/2021/04/20/weekly-head-voices-221-anti-breakfast-club/#skip-you-some-breakfast-for-great-good">to become fat-adapted</a>:</p>
+<blockquote>
+<p>These increases in lipolysis and ketogenesis can also be interpreted as
+counter-​regulatory responses to a cerebral energy deficit. Given that ketone
+bodies are an efficient alternative fuel for the brain when glucose
+availability is low, their elevation would be expected to restore brain energy
+homeostasis. However, the Western carbohydrate-​laden diet means that in most
+people in Western countries the brain is not keto-​adapted so does not have the
+enzymatic composition and transporters to make use of ketone bodies produced
+during an energy crisis.</p>
+</blockquote>
+<p>Box 2 in the article provides the following quite intriguing &ldquo;Suggested
+approach to improving mitochondrial function and energy metabolism in
+migraine&rdquo; (emphasis mine, so that you can skim over if you want):</p>
+<blockquote>
+<ol>
+<li>Individualize supplementation of micronutrients. To ensure that all
+micronutrients needed for mitochondrial function are available, laboratory
+tests can be used to individualize supplementation with minerals,
+hydrophobic and lipophilic vitamins and trace mineralsthat are deficient.</li>
+<li>Reduce oxidative stress and increase antioxidants. Measurement of oxidative
+and/or nitrosative stress levels and antioxidant status in individuals could
+detect a potential mismatch between oxidative stress levels and antioxidant
+capacity and enable therapeutic adjustments to be made, although studies are
+needed to prove that such an approach improves migraine
+management. Strategies to reduce oxidative stress could include <strong><strong>elimination
+or reduction of processed food, food with a high glycaemic index and</strong></strong>
+<strong><strong>alcohol, use of green or blue light filtering glasses, interruption of
+hormone-based contraception, lifestyle changes</strong></strong> and addition of
+antioxidants,such as polyphenols, coenzyme Q10, α-lipoic acid or
+β-hydroxybutyrate mineral salts, to the diet.</li>
+<li><strong><strong>Stabilize blood glucose levels</strong></strong>. An oral glucose tolerance testshould be
+undertaken in patients with migraine and clinical features that suggest
+glucose intolerance or a family history of glucose intolerance. Patients
+with reactive hyperinsulinaemia and reactive hypoglycaemia are likely to
+benefit from stabilization of blood glucose levels, which can often be
+achieved with dietary adjustments.</li>
+<li>Provide an <strong><strong>alternative energy substrate for the brain</strong></strong>. For patients with
+compromised energy metabolism, an alternative source of fuel for the brain,
+in addition to glucose and lactate, might be beneficial. This source can be
+generated with a ketogenic diet and/or use of exogenous ketogenic
+substances, such asmedium-chain triglycerides or exogenous ketone body
+salts. Further placebo-controlled trials are needed to validate ketogenic
+therapies in migraine.</li>
+</ol>
+</blockquote>
+<h2 id="4-20-ipad-pro-supercomputers-straight-outta-scifi">4/20 iPad Pro supercomputers straight outta SciFi</h2>
+<p>On 4/20 I tuned into a liveblog (I think it was <a href="https://live.arstechnica.com/apples-april-20-2021-spring-loaded-event/">the one by Ars Technica</a>) of
+Apple&rsquo;s release event.</p>
+<p>Apple is currently evolving the computing landscape quite substantially, so I
+find it immensely interesting to see what they are bringing next.</p>
+<p>They did a whole bunch this time, but what struck me as the most significant,
+is that they introduced two new iPad Pro tablets with M1 chips.</p>
+<p>You know, that same M1 chip powering <a href="/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/">the super fast and energy-efficient laptop
+on which I&rsquo;m typing up this post</a>.</p>
+<p>In addition to sticking a desktop-class processor (err, desktop-class
+performance, but mobile-level battery efficiency) back into a mobile device
+that you can also buy with 2 terabytes of built-in storage (I find this a bit
+surreal), the <a href="https://www.theverge.com/2021/4/21/22395449/apple-ipad-pro-2021-liquid-retina-xdr-mini-led-explainer">new Liquid Retina XDR display on the top-end iPad Pro</a> has 10000
+of a new kind of micro-led just for the back-lighting and thus is able to offer
+1000 nits of full-screen brightness and adaptively up to 1600 nits on portions
+of the screen, all of that with a contrast ratio of 1 to&hellip;. ONE MILLION.</p>
+<p>As I was reading this, and later listening as the excitement led (&hellip;) me to
+tune in to the video stream, one of my inner voices marvelled at the sheer
+technological innovation on display (sorry can&rsquo;t stop) here.</p>
+<p>I&rsquo;m curious to see how this new class of supercomputer-level tablet device is
+going to change how we humans interact with the digital world.</p>
+<h2 id="oculus-quest-2">Oculus Quest 2</h2>
+<p>On that topic&hellip;</p>
+<p>On the weekend that we returned from vacation, we welcomed an <a href="https://www.theverge.com/21437674/oculus-quest-2-review-features-photos">Oculus Quest 2 VR
+headset</a> into the family.</p>
+<p>In the early 2000s, <a href="https://graphics.tudelft.nl/">the TU Delft Graphics research lab</a> that I was part of had
+an AR / VR research line, so I got some exposure to state-of-the-art equipment
+then.</p>
+<p>Fast-forward 15 years, and the self-contained Oculus Quest 2 at $299 is
+mind-blowingly good.</p>
+<p>Specifically the head tracking is phenomenal.</p>
+<p>Graphics elements in VR are rock-solid in virtual space as you move your head
+(and yourself) around. The resolution is high enough that you could even work
+on a document if you would like. With the most recent firmware update, Quest 2
+now does 120 Hz.</p>
+<p>In short, when you put on the headset, immersion is total.</p>
+<p>No more outside world.</p>
+<p>You can double tap on the side of the helmet to switch on reality (viewing your
+surroundings through the 4 cameras mounted on the outside), and double tap to
+switch reality off and go back into VR.</p>
+<p>Facebook (they own Oculus) has some interesting work-focused ideas with this:</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5_bVkbG1ZCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>When I saw that video for the first time, before having tried out the Quest 2,
+I thought &ldquo;haha look at fb faking VR&rdquo;.</p>
+<p>I was wrong.</p>
+<p>It&rsquo;s pretty much spot-on.</p>
+<p>(We&rsquo;re not playing office-office with the kids though, beat saber is much more
+fun in 3D!)</p>
+<h2 id="flip-it">Flip it</h2>
+<p>During a recent chat with a busy friend, seeing if we could have coffee
+somewhere, I reminded us both (you have to imagine this in Afrikaans, but
+failing that in English with a thick Afrikaans accent):</p>
+<blockquote>
+<p>Remember that the moments of relaxation and humanity are the anchors. All of
+the rest should flow around that.</p>
+</blockquote>
+<p>This is so easy to forget.</p>
+<p>We (and I also mean I) postpone the chat, or the run, or time with the family,
+because of work.</p>
+<p>It should be the other way round!</p>
+
+
+
+
+
+
+
+
+<figure><a href="st_francis_sunset_watch_202104.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/05/08/weekly-head-voices-222-scotty-we-need-more-power/st_francis_sunset_watch_202104_hua10bf591581d94392300ebf8596c4e8a_1503636_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 2: Awesome ritual in St Francis where people make a whole celebration of the sunset. We were there thanks to GOU#1&amp;rsquo;s tip."/> </a><figcaption>
+            <p>Figure 2: Awesome ritual in St Francis where people make a whole celebration of the sunset. We were there thanks to GOU#1&rsquo;s tip.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item><item><title>New Emacs-capable hardware: M1 MacBook Air</title><link>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</link><pubDate>Sun, 21 Mar 2021 21:49:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</guid><description><![CDATA[ You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I usually write a little something about it.
+These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged most of them so that you can see them all in this convenient &ldquo;new computer&rdquo; tag list!
+Fast, cheap and energy efficient: Choose three This time, I, or rather my employer, had difficulty resisting the siren song of the new Apple M1 chip and especially of the entry-level M1 MacBook Air: Great performance and power efficiency in a truly cool and quiet package.]]></description><content:encoded><![CDATA[ <p>You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I
+usually write a little something about it.</p>
+<p>These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged
+most of them so that you can see them all in this convenient <a href="/tags/new-computer/">&ldquo;new computer&rdquo; tag
+list</a>!</p>
+<h2 id="fast-cheap-and-energy-efficient-choose-three">Fast, cheap and energy efficient: Choose three</h2>
+<p>This time, I, or rather my employer, had difficulty resisting the siren song of
+the new <a href="https://en.wikipedia.org/wiki/Apple%5FM1">Apple M1 chip</a> and especially of the entry-level M1 MacBook Air: Great
+performance and power efficiency in a truly cool and quiet package.</p>
+
+
+
+
+
+
+
+
+<figure><a href="m1-macbook-air-about.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_1200x0_resize_box_3.png 1200w,
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>I&rsquo;m still <em>quite</em> happy with the <a href="/2019/04/27/new-laptop-2019/">ThinkPad X1 Extreme Gen1</a> as my main
+workstation, but although classed as thin-and-light it <em>is</em> still a
+workstation.</p>
+<p>Specifically, due to the fact that it takes at least a minute or two to resume
+from sleep, and the fact that its performance on battery is substantially
+slower than on AC, it&rsquo;s not the sort of machine that you can flip open to work
+on when inspiration strikes.</p>
+<p>As if that was not enough, it&rsquo;s a really effective lap warmer, and so gets
+uncomfortable <em>quite</em> quickly.</p>
+<p>In sharp contrast, the performance of this MacBook Air is the same, namely
+&ldquo;super snappy&rdquo;, whether it&rsquo;s on AC or on battery, the laptop resumes from
+standby faster that I&rsquo;m able to open the lid, and it hardly ever gets warm.</p>
+<p>In short, I can bust this out of my bag and be typing on my lap in under 3
+seconds, and this is something that has already started paying off in terms of
+my writing.</p>
+<h2 id="this-might-be-the-best-emacs-host-i-ve-ever-used">This might be the best Emacs-host I&rsquo;ve ever used</h2>
+<p>This very post is currently being typed on <code>GNU Emacs 27.1.91 (build 1, arm-apple-darwin20.3.0, Carbon Version 164 AppKit 2022.3) of 2021-03-15</code> on the
+device in question.</p>
+<p>Have I mentioned &ldquo;super snappy&rdquo;?</p>
+<p>By the way, if you build Emacs like this on the M1:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew tap railwaycat/emacsmacport
+brew install --formula emacs-mac --HEAD
+</code></pre></div><p>&hellip; you should be good to go.</p>
+<h3 id="update-on-2021-04-15">Update on 2021-04-15</h3>
+<p>A few days ago, I started seeing the following error during homebrew Emacs update:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">./temacs --batch  -l loadup --temacs=pbootstrap
+make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
+make: *** [src] Error 2
+</code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
+master.</p>
+<p>It was easiest for me to switch to emacs-plus, which went like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew uninstall emacs-mac
+brew tap d12frosted/emacs-plus
+brew install emacs-plus@28 --with-no-titlebar
+</code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
+<p>It&rsquo;s a pity that the ThinkPad, although powerful enough to satisfy <a href="/2020/05/20/weekly-head-voices-195-pragmatic/#the-story-behind-this-story-one-context-to-rule-them-all">my single
+computing device / single context requirement</a>, and with <a href="/2020/09/16/weekly-head-voices-204-what-is-your-purpose/#wsl2-and-nativecomp-emacs-workflow-update">WSL2 becoming
+increasingly useful</a> and hence addressing the dual-boot issue, does not satisfy
+the <em>instantly available</em> requirement.</p>
+<p>Fortunately the two devices cater for complementary contexts.</p>
+<p>The Air is for instant-on writing, communication, admin and maybe a tiny bit of
+development, whilst the ThinkPad is for all of the heavy lifting, but who knows
+how these lines are going to be blurred in the coming months?</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #205: Real-time sometimes, asynchronous most of the time</title><link>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</link><pubDate>Sun, 20 Sep 2020 19:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</guid><description> This edition of the Weekly Head Voices looks back a the week from Monday September 14 to Sunday September 20 of the year 2020.
+Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!
+For the first time in months, this post is exactly on time. Whatever else happens in the rest of the post, timeousness is in the pocket!</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices looks back a the week from Monday
+September 14 to Sunday September 20 of the year 2020.</p>
+
+
+
+
+
+
+
+
+<figure><a href="jonkershoek_pano_20200918.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!"/> </a><figcaption>
+            <p>Figure 1: Scene from a work get-together. It&rsquo;s really nice when you can get into these mountains any day of the week!</p>
+        </figcaption>
+</figure>
+
+<p>For the first time in months, this post is exactly on time. Whatever else
+happens in the rest of the post, timeousness is in the pocket!</p>
+<h2 id="the-uninformed-vs-privacy-preserving-covid-tracking">The uninformed vs privacy-preserving COVID tracking</h2>
+<p>(I would like to warn you that in this section, I get saltier than I&rsquo;ve been in
+years.</p>
+<p>People who were reading this blog more than 10 years ago will have noticed that
+I used to be salty a whole lot more often back then.</p>
+<p>Hopefully, this specific episode doesn&rsquo;t move this decade&rsquo;s dial by too much.)</p>
+<p>During <a href="https://citizen.co.za/news/covid-19/2359102/full-speech-sa-will-move-to-lockdown-level-1-as-midnight-20-september/">his address of September 16</a>, president Ramaphosa announced the further
+lifting of the national lockdown to level 1.</p>
+<p>Because I had been following the <a href="https://www.wired.com/story/apple-google-bluetooth-contact-tracing-covid-19/">surprising collaboration between Apple and
+Google on the anonymous disease exposure tracing</a> functionality in Android and
+iOS, my ears perked up when he requested that South Africans with smart phones
+install the COVID Alert mobile app:</p>
+<blockquote>
+<p>I want to make a call this evening to everyone who has a smartphone in South
+Africa to download the COVID Alert mobile app from the Apple App Store or
+Google Play Store.</p>
+<p>The app has been zero-rated by mobile networks, so you can download it without
+any data costs.</p>
+<p>Using Bluetooth technology, the app will alert any user if they have been in
+close contact with any other user who has tested positive for coronavirus in
+the past 14 days.</p>
+<p>The app is completely anonymous, it does not gather any personal information,
+nor does it track anybody’s location.</p>
+</blockquote>
+<p>I immediately checked it out on my iPhone, and was gratified to see that the
+app was well put-together, and made use of the privacy-respecting official
+infrastructure designed by Apple and Google.</p>
+<p>(<a href="https://www.theguardian.com/world/2020/jun/18/uk-poised-to-abandon-coronavirus-app-in-favour-of-apple-and-google-models">Some countries</a> wasted millions of euros trying to build this by themselves,
+and then later had to switch gears, instead of just using Google and Apple&rsquo;s
+functionality from the get-go.)</p>
+<p>Because effective contact-tracing requires as many people as possible to
+install the app, I let a number of private chat groups know, and I even got
+back on twitter quite briefly to tweet:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">SA Folks! Please install the COVID Alert South Africa app on your iPhone or Andoid. This 100% anonymous system, developed using the official Apple and Google APIs, helps enormously with contact tracing. iPhone: <a href="https://t.co/EE0J0Cd9ee">https://t.co/EE0J0Cd9ee</a> Android: <a href="https://t.co/HXkMl88oi0">https://t.co/HXkMl88oi0</a></p>&mdash; Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/1306494451460833281?ref_src=twsrc%5Etfw">September 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Imagine my surprise when I noticed a bit later that there was a bit of a furore
+online with people being openly suspicious of the app, up to offering all kinds
+of conspiracy theories as to how exactly the government was going to use this
+to monitor and/or control people.</p>
+<p>Interestingly, there appeared to be a pretty strong inverse correlation between
+technical know-how and level of suspicion.</p>
+<p>(Ironically, a large subset of the highly suspicious camp will experience difficulty
+understanding the above sentence. Probably also this sentence. Not sorry.)</p>
+<p>It is exasperating to me that when the SA government takes on a project like
+this (the tracking app), does it by the book and does a really good job of it,
+people respond this badly.</p>
+<p>While it is unfortunately true that the government has been doing a terrible
+job in terms of engendering confidence in its abilities and especially in its
+honesty, even going so far as to disappear millions of ZAR intended for
+personal protective equipment (!!), using that as an excuse to actively spread
+misinformation, and thereby prevent contact tracing from getting off the
+ground, is pretty hard to defend.</p>
+<p>(More than one of my mom&rsquo;s acquaintances (a term that is pushing the
+definition) have warned her that if she were to install the app, she was to
+remove them from all other contact media. I told her that this is a great way
+to cull her contacts list selectively, rendering a much more erudite address
+book.)</p>
+<p>Sorry folks, but when real scientific and technological progress is held back
+by this level of ignorance, I can get really salty.</p>
+<p>What would have been much better, would have been for said people to get the
+frick informed. It can&rsquo;t be that hard to find someone with the relevant
+know-how in any social circle.</p>
+<p>Fortunately, some local folks have been doing their best making good information
+accessible:</p>
+<ul>
+<li><a href="https://medium.com/@gvrooyen%5F22259/the-masquerade-ball-how-covid-19-bluetooth-tracking-works-b3f5960b8ac8">The Masquerade Ball – How COVID-19 Bluetooth tracking works</a> by Prof G-J van
+Rooyen is a great explanation of the finer details in an easy-to-follow
+format.</li>
+<li><a href="https://www.explain.co.za/2020/09/15/explainer-should-i-download-the-new-contact-tracing-app/">EXPLAINER: Should I download the new contact tracing app?</a> by Aarti Bhana at
+explain.co.za makes clear that you can and should install this app, but also
+discusses the fact that the government should have been doing much better in
+terms of dissemination.</li>
+</ul>
+<p>One could blame this on lacking education, and on the government not doing
+their best either, but a large part of the responsibility comes down to normal
+people, with no excuse not to have educated themselves, simply letting their
+primitive instincts absolve them of any critical thinking.</p>
+<p>I welcome your thoughts in the comments.</p>
+<h2 id="the-future-of-work-episode-23">The future of work, episode 23</h2>
+<p>Just like thousands of other companies, we went from &ldquo;yeah, we&rsquo;ve read about
+remote working and we should look into it more when we can make the time&rdquo; to
+&ldquo;100% fully remote what is this office-thing you speak of?&rdquo; from one day to the
+next when our hard lock-down started back in March.</p>
+<p>A few months in, and it seems that most of the whole 70-person company would
+not be surprised if we remain fully remote.</p>
+<p>I think that many of us, especially the engineers, really appreciate this new
+mode of operation where we have a substantially larger part of the day to work,
+and where it has become theoretically (ahem) easier to cordon off blocks of
+focus time.</p>
+<p>Some of us are thinking about ways to further improve and streamline our remote
+working process.</p>
+<p>During one of my research sessions (or was it me aimlessly browsing because I
+had become distracted during a particularly long afternoon&hellip;), I ran into the
+following post by <a href="https://basecamp.com/">the BaseCamp company</a>, previously known as <a href="https://37signals.com/">37signals</a>:</p>
+<p><a href="https://basecamp.com/guides/group-chat-problems">Group Chat: The Best Way to Totally Stress Out Your Team</a></p>
+<p>As is typical for BaseCamp&rsquo;s writing, this is a really great article, in this
+case looking specifically at the drawbacks of real-time company chat.</p>
+<p>In our case, we migrated from Google&rsquo;s GSuite to Office365 (because much more
+bang for the buck) right when COVID hit, and so we found ourselves in the
+wonderful world of Microsoft Teams.</p>
+<p>So far, we have had a pretty stellar experience.</p>
+<p>As a company-wide real-time chat and video meeting platform, Teams does its job
+well.</p>
+<p>However, real-time chat has a number of fundamental problems, most of which are
+super recognizably (and humorously) discussed in the linked post.</p>
+<p>For example:</p>
+<blockquote>
+<p>Group chat is like being in an all-day meeting, with random participants, and
+no agenda.</p>
+</blockquote>
+<p>Does this ring any bells for any of you?</p>
+<p>I hope that you can make time to read the article, but an important part of
+their answer to the real-time chat problem is:</p>
+<blockquote>
+<p>Real-time sometimes, asynchronous most of the time.</p>
+</blockquote>
+<p>At BaseCamp, they implement this idea with message boards where people post
+longer form messages that can be responded to with longer-form replies. These
+threads are attached to the object where they are most relevant, for example a
+project, or a to-do, and so on.</p>
+<p>The word &ldquo;thoughtful&rdquo; also stuck in my mind.</p>
+<p>Instead of the rapid-fire, often glib, responses you see in real-time chat,
+BaseCamp tries to encourage thoughtful, considered messages and replies that
+are accessible to anyone who might need them (unlike email) when viewing the
+project, to-do or issue in question</p>
+<p>The post further talks about changes both to one&rsquo;s conventions, but also to
+one&rsquo;s tools, as the latter can be effectively used to guide the former.</p>
+<p>In this light, it&rsquo;s interesting to note that many of my most pleasant online
+interactions have recently been taking place on github issues, whereas the
+real-time chat platforms I spend time on sometimes have the tendency to cause
+anxiety.</p>
+<p>I have not yet read and measured enough, but I am very curious as to whether
+some of these techniques could be implemented in my workplace, and how they
+could contribute to a constructive and effective communication environment.</p>
+<p>Please let me know in the comments if you have experience with any of this in
+your environment!</p>
+<h2 id="in-a-while-crocodile">In a while crocodile</h2>
+<p>Friends, have a great week!</p>
+<p>I wish you an abundance of calm, and of effective communication.</p>
+]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
+Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+<p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
+<p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/11/2016-11-02-104946_304x456_scrot.png"
+        
+            alt="Phil Schiller not suiting up."/> </a><figcaption>
+            <p>Phil Schiller not suiting up.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Collectively, the internet <a href="http://www.huffingtonpost.com/entry/new-apple-macbook-pro_us_58123abde4b064e1b4b0fd76">was disappointed</a>. Why no touch screen? Why no new iMac (last refresh a year ago) or Mac Pro (last refresh 3 years ago)? <a href="https://milen.me/writings/mac-platform-decline/">What is happening at Apple</a>?</p>
+<p>The day before, on October 26, 2016, Microsoft revealed the Surface Studio. Watch this introduction:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/BzMLA8YIgG0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>… and also this video with Microsoft partners who have in secret been working with the Studio:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/WMklcdzcNcU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Even if you did not like Microsoft, you can get a good sense of the emotion around this new product.</p>
+<p>They’ve managed to make something that speaks to the imagination. When I see this, as an outspoken Microsoft critic, I do get the distinct feeling that the Surface Studio is a physical artefact of the science fiction dream that my reality is gradually (and very pleasingly) turning into. My less nerdy technology-critical better half’s first reaction was: <strong><em>When can we get this?</em></strong></p>
+<p>It seems that Microsoft has convincingly out-Appled Apple.</p>
+<p>In other words, Microsoft has somehow become sexy whilst Apple seems to have developed strong feelings for the Lada.</p>
+<p>As an interesting related tidbit, a friend, whom I was trying to convince NOT to get Google’s new Pixel XL phone because reasons, recently sent me <a href="http://www.theverge.com/circuitbreaker/2016/10/29/13466786/google-pixel-photo-better-than-iphone">this short post on The Verge</a> by Vlad Savov, a camera phone expert who until recently was of the educated opinion that the iPhone 7 was still the king of the smartphone castle. He writes:</p>
+<blockquote>
+<p>On the basis of my extended experience with Google’s Pixel, I consider it an all-around better phone than the iPhone 7. The final exhilarating straw that broke the camel’s back was the photo below, coming straight out of the Pixel XL’s camera, undoctored other than for a horizon adjustment.</p>
+</blockquote>
+<p>WHAT IN HEAVENS IS HAPPENING?! OUR WHOLE WORLD IS COLLAPSING!</p>
+<p>Perhaps not…</p>
+<p>During a Signal App conversation (you should really use Signal, it now has <a href="https://www.whispersystems.org/blog/giphy-experiment/">privacy-conscious Giphy support</a>) with <a href="http://francoismalan.com/">another friend</a>, I realised that what’s happening here, is in fact <strong>wonderfully capricious human emotion interfering with the machine that is capitalism</strong>.</p>
+<p>Left to its own devices, the nature of capitalism means that successful companies tend to evolve into capitalistically optimal dead ends. In other words, large successful companies lose the will to innovate, because they realise they are able to make more money at less risk by simply not rocking that boat. Instead of investing in innovation, they invest in sales and marketing to milk their large customer-base.</p>
+<p>Ironically, Steve Jobs explained this idea quite eloquently during this interview where he talked about the decline of Xerox:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/_1rXqD6M614?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
+<p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
+<p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #111: A swift hack.</title><link>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</link><pubDate>Mon, 15 Aug 2016 20:04:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</guid><description> Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.
+Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.</description><content:encoded><![CDATA[ <p>Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.</p>
+<p>Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.</p>
+<h2 id="the-hackernews-effect">The HackerNews effect</h2>
+<p>When I submitted my <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">Moving 12 years of email from GMail to Fastmail blog post</a> to HackerNews last Monday, it was after some consideration, and with considerable trepidation. The previous time a similar post of mine was picked up by the HN frontpage (and reddit) in 2013, it resulted in a great number of fairly harsh insults flung my way (the harsh ones seem to hit much harder than the many more constructive ones can compensate for). The problem is not having your work criticised, it’s rather being ad hominem’ed into the ground.</p>
+<p>The internet can unfortunately get quite bad that way.</p>
+<p>However, this time the internet was in a good mood!</p>
+<p>As a Z-list (aka hobbyist) blogger, I already get quite excited when even two people find something entertaining or educational in my blog, so you can imagine my excitement when I saw my blog stats jump into the thousands during the first hour after hitting the HN front page.</p>
+<p>646 upvotes, 365 comments (<a href="https://news.ycombinator.com/item?id=12247401">in the HN discussion</a>) and more than 50 thousand blog post views later (!!), my asbestos suit is still in storage, and the box of kleenex (for drying up my tears) is still unopened. I am very happy with the healthy and mostly happy discussion both on HN and here on the blog.</p>
+<h2 id="a-taste-of-my-secret-beer-notes">A taste of my secret beer notes</h2>
+<p>In my travels around the world (ok, maybe just in a few hundred kilometre radius of where I live) I taste many exotic and strange drinks (okay, maybe just the local craft beers). Here’s an excerpt from my top secret beer notes for your reading and hopefully soon tasting pleasure:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/stellies_bosch_weiss.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/stellies_bosch_weiss-648x1024.jpg"
+        
+            alt="Stellies Bosch Weiss"/> </a><figcaption>
+            <p>Stellies Bosch Weiss</p>
+        </figcaption>
+</figure>
+</p>
+<p>The <strong>Stellies Bosch Weiss</strong> is is a refreshing white beer which I can imagine enjoying much more in 35 celsius. However, I find it way too gassy for my taste and thus give it 0.4 on the Celis White scale. As everyone knows, <a href="https://www.beeradvocate.com/beer/profile/565/5222/">Celis White</a> is the best white beer in the world. I’m also not the biggest fan of CBC’s Krystal Weiss because of its gassiness. This could also be a German vs Belgian thing.</p>
+<p>The <a href="http://www.darlingbrew.co.za/beers.html#/bc">Darling Brew Bone Crusher</a> is probably a 0.8 on the Celis scale, and scores mega bonus points for choosing such a heavy metal name.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/patriot_lager.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/patriot_lager-576x1024.jpg"
+        
+            alt="Citizen Beer’s Patriot Lager"/> </a><figcaption>
+            <p>Citizen Beer’s Patriot Lager</p>
+        </figcaption>
+</figure>
+</p>
+<p>Citizen Beer has a real knack for naming beers; so this weekend I was able to do my patriotic duty (ha ha) by enjoying their <strong>Patriot lager</strong>. Fortunately, they also have a great knack for making lovely beers. This lager is more than hoppy enough to remind you that it’s a craft, but at the same time it is refreshingly light.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/devils_peak_lager.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/devils_peak_lager-576x1024.jpg"
+        
+            alt="Devil’s Peak Lager"/> </a><figcaption>
+            <p>Devil’s Peak Lager</p>
+        </figcaption>
+</figure>
+</p>
+<p>Not completely coincidentally, I also tasted the <strong>Devil’s Peak Lager</strong> this weekend. There are subtle differences between it and the Patriot which I will only be able to describe after more tasting. For now: Same lightness, but with enough hop. Highly enjoyable.
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/devils_peak_pale_ale.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/devils_peak_pale_ale-524x1024.jpg"
+        
+            alt="Devil’s Peak Pale Ale"/> </a><figcaption>
+            <p>Devil’s Peak Pale Ale</p>
+        </figcaption>
+</figure>
+</p>
+<p>As I’ve mentioned before, it’s no coincidence that happiness and hoppiness look so similar. The <strong>Devil’s Peak Pale Ale</strong> was a superbly hoppy (about 239% more hoppy than the lager) and full flavoured conclusion to the weekend. In spite of its full body this Cape Town beer’s alcohol content is lower than I would have expected: Only 4%.</p>
+<h2 id="first-impressions-of-swift-playgrounds">First impressions of Swift Playgrounds</h2>
+<p>I might or might not have acquired a new iPad Air 2 with the primary motivation of being able to test the new <a href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a> on Genetic Offspring Unit #1 (now 10 years old). This is a new and attractive iPad-only app that has been designed by Apple to teach kids how to program in Swift. Note that you’ll have to upgrade to <a href="https://beta.apple.com/sp/betaprogram/">iOS 10 Beta</a> to get the app, at least until <a href="https://www.apple.com/ios/ios10-preview/">iOS 10 is officially released</a>. One of the exercises looks like this (image taken from the website):</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-14-at-6.25.43-PM.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-14-at-6.25.43-PM-1024x729.png"
+        /> </a>
+</figure>
+
+<p>Previous experiments with <a href="https://scratch.mit.edu/">scratch</a> and with <a href="https://processing.org/">processing</a> have met with limited success but no permanence. However, GOU#1 is an iPad fanatic, and the potential of getting her addicted to the programming bug is just too fantastic to let this opportunity go by.</p>
+<p>On the first day, she was already writing functions and for loops in Swift in order to navigate a cute alien solving puzzles on a 3D landscape.  I was looking over her shoulder now and then: The educational content and execution of the app is impressive. Besides the built-in puzzle worlds such as the 3D one pictures above, you can create your own Swift projects from scratch. These projects can use iPad hardware such as bluetooth and the camera, but we’re not quite there yet. Apple has also promised to keep on expanding the educational content.</p>
+<p>I’m really crossing my fingers that GOU#1 will keep at it. If Swift Playgrounds helps to get her programming, I might just have to go full fanboy.</p>
+<h2 id="heading">∞♥</h2>
+<p>This past Friday at the breakfast table, Genetic Offspring Unit #2 asked her mom how much she thought GOU#2 loved the baby GOU#3, upon which the mom asked “How much do you love GOU#3?”.</p>
+<p>GOU#2 answered: Infinitely much!</p>
+<p>My fragile parental unit heart almost exploded with happiness at this point. It’s what I tell GOU#1 and #2 when I put them to bed, and every morning when I drop them at school. (GOU#3 herself does not yet parse our language.)</p>
+<p>Ok kids, it looks like there’s an infinite amount of the good stuff to go around. You know what to do!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/08/bettys_bay_somewhere.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/08/bettys_bay_somewhere-1024x576.jpg"
+        
+            alt="I went jogging (or rather walking with a two-step now and then). Enjoyment of surroundings and physical activity was quite intense at this point in spacetime: 15:55 on August 7, 2016; GPS coordinates in EXIF data."/> </a><figcaption>
+            <p>I went jogging (or rather walking with a two-step now and then). Enjoyment of surroundings and physical activity was quite intense at this point in spacetime: 15:55 on August 7, 2016; GPS coordinates in EXIF data.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item><item><title>Closure expressions in Swift</title><link>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</link><pubDate>Thu, 07 Jan 2016 20:01:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</guid><description> Swift is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.
+Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.
+In this post I’m going to chat about closure expression syntax, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</description><content:encoded><![CDATA[ <p><a href="https://swift.org/">Swift</a> is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.</p>
+<p>Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.</p>
+<p>In this post I’m going to chat about <em>closure expression syntax</em>, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</p>
+<p>Let’s start with a simple example (slightly modified from <a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID95">Apple’s documentation on Swift closures</a>) for sorting a list of strings in reverse alphabetical order:</p>
+<div class="org-src-container">
+<pre class="src src-swift"><span style="color: #7F9F7F;">// names will be constaint, so we use let and not var</span>
+<span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #7F9F7F;">// function taking two parameters and returning boolean</span>
+<span style="color: #F0DFAF; font-weight: bold;">func</span> <span style="color: #93E0E3;">backwards</span>(s1: <span style="color: #7CB8BB;">String</span>, <span style="color: #F0DFAF; font-weight: bold;">_</span> s2: <span style="color: #7CB8BB;">String</span>) -&gt; <span style="color: #7CB8BB;">Bool</span> {
+<span style="color: #F0DFAF; font-weight: bold;">return</span> s1 &gt; s2
+}</p>
+<p><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">reversed </span>= names.sort(backwards)</p>
+<p>print(<span style="color: #CC9393;">&ldquo;Reversed alpha:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>That’s a complete compilable program in Swift, which you can run directly in your browser by clicking <a href="http://swiftlang.ng.bluemix.net/#/repl/6ab18271be682adc2a39c45988978ee92826c41faf70ed4420664fce1cd42bc8">here</a>.</p>
+<p>We use <code>let</code> to define a list of strings. Swift is strongly-typed, but in this case it simply infers the type of the <code>names</code> variable from the value that’s assigned to it. MAGIC!</p>
+<p>If we were planning to change the value of the <code>names</code> list at some point, we would have had to use <code>var</code> (mutable) instead of <code>let</code> (immutable).</p>
+<p>We then define a function called <code>backwards</code> that takes two strings, and returns the true value if the first is larger than the second. In the final let statement, we call the <code>sort()</code> method on the names list, but we pass it the <code>backwards()</code> function, which it will use to compare elements during sorting. Because we have flipped the <code>s1</code> and <code>s2</code> variables, we get our list back in reverse alphabetical order.</p>
+<p><code>sort()</code> can be seen as a higher order function that takes the <code>backwards()</code> function as one of its inputs, and uses it to do its work.</p>
+<p>Since we’re only using the <code>backwards()</code> function once, it would have been pretty convenient if there were some way to define it more compactly and in-place.</p>
+<p>This is exactly what Swift’s <code>closure expression syntax</code> is for. Here’s the above code, with the <code>backwards()</code> function written as a closure expression:</p>
+<div class="org-src-container">
+<pre class="src src-swift"><span style="color: #F0DFAF; font-weight: bold;">let</span> <span style="color: #DFAF8F;">names </span>= [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #7F9F7F;">// closure expression syntax for inline anonymous function:</span>
+<span style="color: #7F9F7F;">// { (args) -&gt; returnType in statements }</span>
+<span style="color: #F0DFAF; font-weight: bold;">var</span> <span style="color: #DFAF8F;">reversed </span>= names.sort({ (s1: <span style="color: #7CB8BB;">String</span>, s2: <span style="color: #7CB8BB;">String</span>) -&gt; <span style="color: #7CB8BB;">Bool</span> <span style="color: #F0DFAF; font-weight: bold;">in</span> <span style="color: #F0DFAF; font-weight: bold;">return</span> s1 &gt; s2})</p>
+<p>print(<span style="color: #CC9393;">&ldquo;Reversed:&quot;</span>, reversed)
+</pre></p>
+</div>
+<p>(You can run this Swift code in your browser by clicking <a href="http://swiftlang.ng.bluemix.net/#/repl/0dbcdef74dfef00da5c7f21878cb5ed42739796116a6fd232ab20f05d6040a81">here</a>.)</p>
+<p>Instead of having to define and name a separate function, we can specify a function in the exact spot where it’s needed, using <em>closure expression syntax</em> i.e.: <code>{ (parameters) -&gt; returnType in statements }</code>.</p>
+<p>For you Python-heads out there (MY PEOPLE!), the above code can be written in Python as follows:</p>
+<div class="org-src-container">
+<pre class="src src-python"><span style="color: #DFAF8F;">names</span> = [<span style="color: #CC9393;">"Chris"</span>, <span style="color: #CC9393;">"Alex"</span>, <span style="color: #CC9393;">"Ewa"</span>, <span style="color: #CC9393;">"Barry"</span>, <span style="color: #CC9393;">"Daniella"</span>]
+<p><span style="color: #DCDCCC; font-weight: bold;">reversed</span> = <span style="color: #DCDCCC; font-weight: bold;">sorted</span>(
+<span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   names,
+<span style="color: #DCDCCC; background-color: #4F4F4F;"> </span>   <span style="color: #DCDCCC; font-weight: bold;">cmp</span>=<span style="color: #F0DFAF; font-weight: bold;">lambda</span> s1, s2: 0 <span style="color: #F0DFAF; font-weight: bold;">if</span> s1 == s2 <span style="color: #F0DFAF; font-weight: bold;">else</span> (-1 <span style="color: #F0DFAF; font-weight: bold;">if</span> s1 &gt; s2 <span style="color: #F0DFAF; font-weight: bold;">else</span> 1))</p>
+<p><span style="color: #F0DFAF; font-weight: bold;">print</span>(<span style="color: #DCDCCC; font-weight: bold;">reversed</span>)
+</pre></p>
+</div>
+<p>In Python, <code>lambda</code> is used to specify anonymous function objects (our closure expression syntax, in other words). The compare function is defined differently, which is why it’s somewhat more complicated, but the principle is the same.</p>
+<p>Whilst typing this blog, I downloaded Swift 2.2 from the <a href="https://swift.org/download/#latest-development-snapshots">open source download site</a> and installed it on my Ubuntu 14.04 laptop (the internet is so slow over here, we have to multi-task to stay sane). After compiling both the examples using <code>swiftc whatever.swift</code>, the resulting binaries are about 21 Kbytes each (they are dynamically linked to a number of system libraries, and the 5M <code>libswiftCore.so</code>).</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/swift-sort-binaries.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/swift-sort-binaries.png"
+        /> </a>
+</figure>
+
+<p>The Swift language is open source, is already available for Linux, has a number of really compelling modern language features of which closure expressions are just one example (other interesting examples include optional types and protocol extensions), is statically typed with good type inference, and has a good compiler. For these reasons, it should be strongly considered for a permanent spot in your compiled language toolbox!</p>
+<p>P.S. Yes, I do know that C++ has <code>lambda</code> and <code>auto</code>. I like them too!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #100: Happy 2016!</title><link>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</link><pubDate>Sun, 03 Jan 2016 09:20:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</guid><description> Cape Town photographed from the top of Table Mountain. Click for high-res.
+I wish you a truly happy 2016, filled with learning and helping other people! Neil deGrasse Tyson, exemplary human, said it best:
+For me, I am driven by two main philosophies, know more today about the world than I knew yesterday. And along the way, lessen the suffering of others. You’d be surprised how far that gets you.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/table_mountain_view.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/table_mountain_view.jpg"
+        
+            alt="Cape Town photographed from the top of Table Mountain. Click for high-res."/> </a><figcaption>
+            <p>Cape Town photographed from the top of Table Mountain. Click for high-res.</p>
+        </figcaption>
+</figure>
+
+<p>I wish you a truly happy 2016, filled with learning and helping other people! Neil deGrasse Tyson, exemplary human, <a href="https://www.reddit.com/r/IAmA/comments/qccer/i_am_neil_degrasse_tyson_ask_me_anything/c3wgffy">said it best</a>:</p>
+<blockquote>
+<p>For me, I am driven by two main philosophies, know more today about the world than I knew yesterday. And along the way, lessen the suffering of others. You’d be surprised how far that gets you.</p>
+</blockquote>
+<p>Time is fun when you&rsquo;re having flies! I can&rsquo;t believe that four months have flown by since <a href="https://cpbotha.net/2015/08/23/weekly-head-voices-99-no-lands/">the previous WHV</a>. Since then, quite a bunch has happened. Some highlights for me:</p>
+<ul>
+<li>I spent a week in The Netherlands, my other home, taking part in a second hackathon with the Evalueserve peeps (the previous one was in Gurgaon in India). This was again loads of fun, and we managed to build a significant new shippable feature (measurable value!) almost from scratch.</li>
+<li>In October, I went back to The Netherlands (it&rsquo;s my other home, remember) for 2.5 days to take part in the Doctorification of <a href="http://francoismalan.com/">a friend</a>. Besides the doctorification process (I&rsquo;ve been out of academia for a while, so my terminology might not be 100%) which went swimmingly, I had so many high-intensity interactions with some of my favourite people that I literally almost missed my flight back. Just picture me waking up in Delft at 8:30 with a flight leaving from Amsterdam at 10:00…</li>
+<li>For a work project,  I started programming in <a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Apple&rsquo;s Swift</a>. As compiled high-performance languages go, this one has a number of modern language features which make it a truly interesting addition to one&rsquo;s programming toolbox.</li>
+<li>Further on the nerd-front, I&rsquo;m trying to get more of us to <a href="https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">use Signal instead of WhatsApp</a> whenever possible.</li>
+<li>We spent so many weekends and the Christmas vacation doing fun outdoorsy stuff (living at the southern tip of Africa has serious perks), not least of which was a trip up Table Mountain for the first time in 15 years. See the photo up top for an impression.</li>
+</ul>
+<p>I have some fun changes in mind for this blog in 2016, but you&rsquo;re going to have to stick around to find out what they are, so… see you later peeps!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #91: They’re back.</title><link>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</link><pubDate>Sun, 14 Jun 2015 14:59:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</guid><description> So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.
+Sunset at AfrikaBurn 2015.
+Again inspired by the information-and-entertainment-dense way that Swimgeek manages to do it, I’m going to try this in bullet form.</description><content:encoded><![CDATA[ <p>So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/06/wpid-afrikaburn-2015-sunset-cpbotha.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/06/wpid-afrikaburn-2015-sunset-cpbotha.jpg"
+        
+            alt="Sunset at AfrikaBurn 2015."/> </a><figcaption>
+            <p>Sunset at AfrikaBurn 2015.</p>
+        </figcaption>
+</figure>
+
+<p>Again inspired by the information-and-entertainment-dense way that <a href="http://www.swimgeek.com/blog/">Swimgeek</a> manages to do it, I’m going to try this in bullet form.</p>
+<ul class="org-ul">
+<li>
+    We, that’s me with friends <a href="http://dewijnrecensent.nl/">DWR</a>, PK, TvD, CvdB, MJ and a Very Flat Cat, spent the whole week (Monday April 25 to Sunday May 1) at <a href="http://afrikaburn.com/">AfrikaBurn</a> 2015. We built (the desert truly is rock hard – try ramming a metre of rebar down into it, then repeat) and ran <i>Pompen en Pimpen</i>, bicycle repair and pimping theme camp extraordinaire, on the corner of 9ish and Binnekring. The experience unfortunately is exactly one of those things that is more or less impossible to explain in words. I’ll try a few keywords nonetheless: Hard labour at the Best Party Ever; music never stops (sleep never really comes); engineered herd humanity; so many people, so much space; gifting really is great. We’re going to have to go again.
+  </li>
+<li>
+    Damnit. I’m not very good at bullets.
+  </li>
+<li>
+    As if fate were a thing that could taunt me, a super interesting project at work has resulted in me: <ul class="org-ul">
+<li>
+        Buying an early 2015 13″ Retina MacBook Pro. It’s super portable and the battery lasts more than 6 hours, but I still like working on my <a href="http://vxlabs.com/2013/03/24/acer-v3-571g-fullhd-ips-superb-priceperformance-linux-development-laptop/">klunky Linux-running Acer laptop</a> more.
+      </li>
+<li>
+        Learning Objective C and X Code (AppCode is miles better).
+      </li>
+<li>
+        Working on an experimental iOS app.
+      </li>
+<li>
+        Learning to program Apple Metal on iOS and on the OSX desktop (way before most other people).
+      </li>
+</ul>
+</li>
+<li>
+    In another project I got my hands dirty with <a href="http://threejs.org/">three.js</a>. What a lovely library for doing WebGL! We’ll soon be shipping a product feature based on this.
+  </li>
+<li>
+    Shortly afer having resigned myself to never ever finding a new house that we all liked, we found a house we all liked! If all goes according to plan, and the various mafia bosses we’re borrowing money from cooperate, we will soon be moving in to a place of our own. I guess this means we are sort of settling down again.
+  </li>
+</ul>
+<p>Have a beautiful week tiny group of readers!</p>
+]]></content:encoded></item></channel></rss>

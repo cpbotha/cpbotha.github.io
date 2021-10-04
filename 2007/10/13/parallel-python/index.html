@@ -1,0 +1,104 @@
+<!doctype html><html>
+<head>
+<title>Parallel Python // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="Parallel Python">
+<meta property="og:description" content="Somehow I missed this when searching for something like it the previous time, but Parallel Python (now found via Bruce Eckel’s blog) is exactly what I’ve been looking for. A simple process pool that can run on multiple cores or on a cluster of machines!
+DeVIDE has recently acquired the ability to run in black-box (gui-less) mode, so that networks can also be executed via some other coordination framework, such as Nimrod (see our paper on this, mail me if you want the fulltext).">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2007/10/13/parallel-python/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>Parallel Python</h1>
+</header>
+<div class=article-meta>
+<a href=/2007/10/13/parallel-python/ class=article-date>
+<time datetime=2007-10-13T12:27:34.000+00:00 itemprop=datePublished>2007-10-13</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2007/10/13/parallel-python/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>Somehow I missed this when searching for something like it the previous time, but <a href=http://www.parallelpython.com/ title="Parallel Python website">Parallel Python</a> (now found via <a href="http://www.artima.com/weblogs/index.jsp?blogger=beckel" title="Bruce Eckel's blog">Bruce Eckel’s blog</a>) is exactly what I’ve been looking for.  A simple process pool that can run on multiple cores or on a cluster of machines!</p>
+<p><a href=http://visualisation.tudelft.nl/Projects/DeVIDE title="DeVIDE website">DeVIDE</a> has recently acquired the ability to run in black-box (gui-less) mode, so that networks can also be executed via some other coordination framework, such as Nimrod (see <a href="http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/proceedings/&toc=comp/proceedings/cbms/2007/2905/00/2905toc.xml&DOI=10.1109/CBMS.2007.87" title="Link to DeVIDE / blackbox paper at computer.org">our paper</a> on this, mail me if you want the fulltext).  However, seeing that I’ve neatly abstracted out the interface part of DeVIDE (you can choose between wxPython, simple xml-rpc, command-line with Python driver script, even PyRo), integrating ParallelPython would be a cinch.</p>
+<p>I can already see it before me: millions of computers running DeVIDE, all crashing in parallel!</p>
+</div>
+</div>
+<nav id=article-nav>
+<a href=/2007/10/21/running-mxit-in-mpowerplayer-on-linux-ubuntu-feisty-704/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Running mxit in mpowerplayer on Linux (Ubuntu 7.04)
+</div>
+</a>
+<a href=/2007/10/12/even-more-gmail-also-for-domains-storage-for-free/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Even more GMail (also for domains) storage for free!&nbsp;<span>></span></div>
+</a>
+</nav>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="Parallel Python" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

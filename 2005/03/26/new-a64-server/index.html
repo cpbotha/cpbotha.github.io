@@ -1,0 +1,108 @@
+<!doctype html><html>
+<head>
+<title>New A64 server // voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="New A64 server">
+<meta property="og:description" content="I finally caved in and upgraded my sweet little Celeron 300A Linux server.
+Yesterday, after a brief planning phase, Paul and I jumped into his souped up Toyota Corolla and tore, Ronin-style, through the streets of Delft on our way to Informatique in Bergschenhoek. Wallets considerably lighter, we returned with several items of brand new hardware.
+My little Celeron server has now been upgraded into a somewhat less timid Athlon 64 2800+ Newcastle core (130nm) on an Asus K8V-X motherboard with 512 MB PC3200 DDR ram.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/2005/03/26/new-a64-server/">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 class=article-title itemprop=name>New A64 server</h1>
+</header>
+<div class=article-meta>
+<a href=/2005/03/26/new-a64-server/ class=article-date>
+<time datetime=2005-03-26T14:52:56.000+00:00 itemprop=datePublished>2005-03-26</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+<div class=article-comment-link-wrap>
+<a href=/2005/03/26/new-a64-server/#isso-thread class=article-comment-link>Comments</a>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>I finally caved in and upgraded my sweet little Celeron 300A Linux server.</p>
+<p>Yesterday, after a brief planning phase, <a href="http://pwdebruin.net/?q=blog">Paul</a> and I jumped into his souped up Toyota Corolla and tore, <a href=http://www.imdb.com/title/tt0122690/>Ronin</a>-style, through the streets of Delft on our way to <a href=http://www.informatique.nl/>Informatique</a> in Bergschenhoek. Wallets considerably lighter, we returned with several items of brand new hardware.</p>
+<p>My little Celeron server has now been upgraded into a somewhat less timid Athlon 64 2800+ Newcastle core (130nm) on an <a href=http://www.asus.com/products/mb/socket754/k8v-x/overview.htm>Asus K8V-X motherboard</a> with 512 MB PC3200 DDR ram. I’ve also installed <a href=http://www.centos.org/>CentOS 4.0 i386</a>, a Redhat Enterprise Linux clone, to better run Oracle. I’m sticking to i386 for now, I’ll try amd64 Linux when I’m really bored.</p>
+<p>The neat thing is that this combination can do <a href=http://www.amd.com/us-en/Processors/ProductInformation/0,,30_118_9485_9487%5E10272,00.html>Cool’n’Quiet</a>, so when the server is not actually doing stuff, the processor clock drops to 1000 MHz from its usual 1800 MHz. This results in a significant drop in thermal design power (TDP): at 1800 MHz the TDP is 89W and at 1000 MHz it’s a very economical 22W, which is almost the same as the old Celeron 300!! AMD measures the TDP at worst case, i.e. a case temperature of 70 degrees Celsius and the maximum possible current draw. See <a href=http://www.amd.com/us-en/assets/content_type/white_papers_and_tech_docs/30430.pdf>this datasheet</a> for more details. To set this up on Linux, the following commands have to be run at startup:</p>
+<p><code>&lt;br/> modprobe powernow_k8&lt;br/> modprobe cpufreq_ondemand&lt;br/> echo -n "ondemand" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor&lt;br/></code></p>
+<p>It doesn’t look like I can change processor fan speed on this specific motherboard; I believe the <a href=http://www.asus.com/products/mb/socket754/k8v-d/overview.htm>K8V Deluxe</a> does make it possible. The idle processor temperature is 25 degrees celsius, so it would have been nice to slow down the fan some more. The system is pleasantly quiet as it is (there’s a Nexus PSU in there, <a href=http://cpbotha.net/weblogs/cpbotha/archives/001495.html>as you will recall</a>), but the CPU fan is audible.</p>
+</div>
+</div>
+<nav id=article-nav>
+<a href=/2005/04/03/secret-bandwith-increase/ id=article-nav-newer class=article-nav-link-wrap>
+<div class=article-nav-title><span>&lt;</span>&nbsp;
+Secret bandwith increase
+</div>
+</a>
+<a href=/2005/03/24/lush-ocaml-and-more-part-deux/ id=article-nav-older class=article-nav-link-wrap>
+<div class=article-nav-title>Lush, OCaml and more, part deux&nbsp;<span>></span></div>
+</a>
+</nav>
+</article>
+<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
+<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
+<section data-title="New A64 server" id=isso-thread></section>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zstd on voices in my head</title><link>https://cpbotha.net/tags/zstd/</link><description>Recent content in zstd on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 29 Mar 2021 21:41:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/zstd/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #218: Back to the future</title><link>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</link><pubDate>Mon, 29 Mar 2021 21:41:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</guid><description> WELL HELLO DERE FRIENDS!
+Welcome to the Weekly Head Voices #218, looking back at the week from Monday March 22 to Sunday March 28 of the year 2021.
+Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine.
+Two worlds collide! On the one hand I do worry about the number of hours I spent on this, but on the other hand it&amp;rsquo;s one of those time investments that should pay off handsomely over the coming years.</description><content:encoded><![CDATA[ <p>WELL HELLO DERE FRIENDS!</p>
+<p>Welcome to the Weekly Head Voices #218, looking back at the week from Monday
+March 22 to Sunday March 28 of the year 2021.</p>
+
+
+
+
+
+
+
+
+<figure><a href="vergelegen_somewhere.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine."/> </a><figcaption>
+            <p>Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine.</p>
+        </figcaption>
+</figure>
+
+<h2 id="two-worlds-collide">Two worlds collide!</h2>
+<p>On the one hand I do worry about the number of hours I spent on this, but on
+the other hand it&rsquo;s one of those time investments that should pay off
+handsomely over the coming years.</p>
+<p>My dream is that one day we&rsquo;ll have an organizational knowledge management
+system in place that will enable the almost effortless creation, maintenance
+and especially the effective retrieval of relevant documentation.</p>
+<p>Because the organization in question lives in the Microsoft ecosystem, the
+first laborious steps I have been taking were figuring out the various ways of
+getting technical documentation from the hands of engineers all the way into
+the company SharePoint.</p>
+<p>(I hope you can forgive me, Charl of the past&hellip; I do have my reasons.)</p>
+<p>Here I would like to share just one of the many dirty tricks I&rsquo;ve learned so
+far: The easiest way to host a static (Hugo) web site on SharePoint, and hence
+having it fully indexed by Microsoft Search, is simply to dump the whole thing
+into any modern site&rsquo;s <code>Site Assets</code> library, but only after renaming all html
+files to aspx.</p>
+<p>As soon as I can get <a href="https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps">PnP PowerShell</a> to push updates to full sites a bit more
+quickly, I&rsquo;ll hopefully be able to hook it up to <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines">Azure pipelines</a>.</p>
+<p>Engineers write markdown, documentation magically appear on company SharePoint!</p>
+<h2 id="let-s-keep-it-compact">Let&rsquo;s keep it compact</h2>
+<p>On Thursday November 14, 2019 at 17:48 I made a mental note, where by &ldquo;mental&rdquo;
+I mean &ldquo;in my Emacs&rdquo;, to prefer <a href="https://en.wikipedia.org/wiki/Zstandard">Zstandard (or zstd) compression</a> for everything,
+based on a number of posts I had read when I was actually intending to look
+into when xz should be preferred over bz2.</p>
+<p>In the meantime, zstd&rsquo;s compression ratios, along with its multi-threaded
+compression speed and especially its decompression speed, have helped me more
+than once, which is why I&rsquo;m mentioning it here.</p>
+<p>Here&rsquo;s the 2 second guide:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#93a1a1;font-style:italic"># compress using as many threads as there are CPU cores</span>
+tar cf - giant_directory | zstd -T0 -o giant_directory.tar.zst
+<span style="color:#93a1a1;font-style:italic"># decompress REALLY TERRIBLY QUICKLY</span>
+zstd -dc giant_directory.tar.zst | tar x
+</code></pre></div><p>You can even get zstd to train on your type of data in order to build up a
+domain-specific compression dictionary!</p>
+<h2 id="can-type-systems-catch-bugs-science-says-yes">Can type systems catch bugs? Science says yes!</h2>
+<p>Thanks to <a href="https://forum.nim-lang.org/t/7705#48894">this forum post by Araq, the creator of the Nim programming language</a>,
+I read <a href="https://earlbarr.com/publications/typestudy.pdf">this conference paper</a> describing this really neat research project where
+the researchers retroactively type-annotated a random selection of publically
+available bugs in un-typed JavaScript code, and then showed that about 15% of
+of those bugs would have been caught.</p>
+<p>In their words:</p>
+<blockquote>
+<p>Evaluating static type systems against public bugs, which have survived testing
+and review, is conservative: it understates their effectiveness at detecting
+bugs during private development, not to mention their other benefits such as
+facilitating code search/completion and serving as documentation. Despite this
+uneven playing field, our central finding is that both static type systems find
+an important percentage of public bugs: both Flow 0.30 and TypeScript 2.0
+successfully detect 15%!</p>
+</blockquote>
+<p>I found the simple but quite solid experimental methodology in the paper
+delightful, over and above the fact that this is a great one to have in my
+database for arguments about the utility of type systems.</p>
+<p>(This would possibly have made dynamic-type-slinging Charl from the past go red
+in the face.)</p>
+<h2 id="science-doesn-t-give-a-s-t-about-my-beliefs-either">Science doesn&rsquo;t give a s***t about my beliefs either</h2>
+<p>That makes for two (2) points in this short blog post that would have caused
+Charl from the past to get <em>quite</em> unhappy.</p>
+<p>That&rsquo;s science for you folks: Reality develops, or it just stands there, really
+really still, and/or observations yield new data, and then all of your models
+have to be updated!</p>
+
+
+
+
+
+
+
+
+<figure><a href="science_and_your_beliefs.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/science_and_your_beliefs.jpg"
+            
+
+        /> </a>
+</figure>
+
+<h2 id="forerunner-hot-takes">Forerunner hot takes</h2>
+<p>The more-or-less free <a href="/2018/07/24/weekly-head-voices-149/#the-apple-watch-vitality-and-you">Apple Watch 3 that I acquired in July of 2018</a> has served
+me really well over the years, but for mysterious reasons that I can&rsquo;t explain,
+the time had come to upgrade to a <em>real</em> running watch.</p>
+<p>After weeks of reading reviews, creating little comparison tables and
+complaining to friend LM about the utterly devious way in which Garmin has
+segmented their market into tiny little pieces with frustrating borders, I
+finally settled on <a href="https://www.dcrainmaker.com/2019/04/garmin-forerunner-245-music-gps-watch-in-depth-review.html">the Garmin Forerunner 245 (without music)</a>.</p>
+<p>I made sure that the watch would be delivered this past Friday so that I could
+take it for a spin or two over the weekend.</p>
+<p>My first observations are:</p>
+<ul>
+<li>One really notices all of the Apple polish when you have to give it up. It&rsquo;s
+clear that the Forerunner is a robust tool for running, but heck is it
+klunky. Every time I push one of the four physical buttons, I imagine the
+watch going &ldquo;hooooonk!&rdquo;.</li>
+<li>The device includes a whole bunch of advanced-looking new-to-me metrics by
+<a href="https://www.firstbeat.com/">FirstBeat</a> (recently acquired by Garmin) like Stress measurement, the Body
+Battery (taking into account sleep and stress to predict how much energy you
+should have), advanced recovery time (this is pretty useful: how many hours
+before my next run, based on how hard the previous one was, stress levels and
+also on sleep quality in the meantime) and so on.
+<ul>
+<li>I knew about FirstBeat because the <a href="/2017/02/03/weekly-head-voices-115/#the-dutch-watch">TomTom Runner 3</a> I had before the Apple
+Watch 3 used <a href="https://www.firstbeat.com/en/science-and-physiology/fitness-level/">their VO2 max estimation algorithm</a>. However, what I <strong>just</strong>
+learned was that specifically <a href="https://www.firstbeat.com/en/blog/what-is-heart-rate-variability-hrv/">heart rate variability (HRV)</a> seems to play an
+important role in much of FirstBeat&rsquo;s work.</li>
+</ul>
+</li>
+<li>I now have an optical <a href="https://www8.garmin.com/manuals/webhelp/forerunner245/EN-US/GUID-2EE28BB8-91F1-4BCE-AE13-6CAEF50AD5C4.html">pulse oximeter</a> on my arm, which, although far from
+accurate, does give at least some estimate of my blood oxygen. This is
+important to me especially to ensure that that aspect of my sleep is also
+going as it should.</li>
+<li>About that sleep tracking&hellip; the sleep onset detection must be a bit of an
+embarrassment for at least some of the folks at Garmin. For example, last
+night the watch detected onset of sleep while it was lying on the bedside
+table during my pre-bedtime shower. Surely with that HR and PulseOx sensor,
+the watch should know that it&rsquo;s not even on my arm? Apple Watch 3 does this
+with 100% accuracy with only its HR sensor. (To add insult to injury, the
+Garmin detected that onset an hour before my configured bedtime.)</li>
+<li>On the other hand, the battery life on this thing is, as is to be expected
+from a Garmin, quite phenomenal. (this is probably partly due to all of the
+half-implemented algorithms haha)</li>
+<li>More generally speaking, I&rsquo;ve disabled most of the notification features, so
+that the thing on my arm is more like an old-fashioned, mild-mannered watch
+that transforms into super-watch when running-related activities have to be
+undertaken. That in itself is an improvement that is not to be sneezed at.</li>
+<li>In summary: Acknowledging the multitude of biases at play, I am really
+enjoying the new device. In addition, my Apple Watch 3 could hereby enter the
+family pool, freeing up another AW3 which now lives on the proud arm of my
+first running GOU.</li>
+</ul>
+<h2 id="pompiedom">Pompiedom</h2>
+<p>Thank you folks for reading these words, and especially for reconstituting
+thoughts that are probably similar to the ones that happened at my end before
+and during the production of said words.</p>
+<p>You&rsquo;re more than welcome to add some words of your own in the comments section
+below. (I literally installed and configured it for you. No pressure
+though. You know me.)</p>
+<p>On that note (specifically the note of adding your own words): A part of my
+brain has been entertaining the idea of setting up a <a href="https://www.businessinsider.com/what-is-discord?IR=T">discord server</a> called <em>The
+Church of Love and Science and/or Friends of Charl</em>.</p>
+<p>The brain part in question claims that it would be a place for friends, and for
+any other fans of Love and Science, to hang out and sometimes make interesting
+new connections, and to enjoy the existing ones.</p>
+<p>What do you think?</p>
+<p>Err, let me know in the comments, or via Signal, or via discord?</p>
+]]></content:encoded></item></channel></rss>

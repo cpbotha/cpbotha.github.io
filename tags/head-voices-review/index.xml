@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>head voices review on voices in my head</title><link>https://cpbotha.net/tags/head-voices-review/</link><description>Recent content in head voices review on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 08 Aug 2018 06:34:27 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/head-voices-review/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #151: We are pleased to meet you.</title><link>https://cpbotha.net/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/</link><pubDate>Wed, 08 Aug 2018 06:34:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/08/08/weekly-head-voices-151-we-are-pleased-to-meet-you/</guid><description> The Weekly Head Voices number 151 are trying to tell you something about the week from Monday July 30 to Sunday August 5.
+Prepare yourself for a slightly stranger than usual post. I have: two short programming ideas, a bad review of an outdoor security passive infrared sensor, using Jupyter Notebook for (GPU-accelerated) numerical computation when you only have a browser, computing device input latency, and an utterly unexpected bit of backyard philosophy from the gut.</description><content:encoded><![CDATA[ <p>The Weekly Head Voices number 151 are trying to tell you something about the week from Monday July 30 to Sunday August 5.</p>
+<p>Prepare yourself for a slightly stranger than usual post. I have: two short programming ideas, a bad review of an outdoor security passive infrared sensor, using Jupyter Notebook for (GPU-accelerated) numerical computation when you only have a browser, computing device input latency, and an utterly unexpected bit of backyard philosophy from the gut.</p>
+<h1 id="two-random-micro-side-project-ideas">Two random micro side-project ideas</h1>
+<p>I would like to start with two hobby / maker ideas that popped up in my head this week. There’s a high probability I will not get around to them, but perhaps they help you to spawn a new set of hopefully more worthwhile ideas.</p>
+<h2 id="chrome-or-firefox-plugin-to-convert-spotify-playlists-to-apple-music-using-the-new-musickit-js-api">Chrome or Firefox plugin to convert Spotify playlists to Apple Music using the new MusicKit JS API</h2>
+<p>I seem to see many more Spotify playlists shared than Apple Music playlists. For example, at this moment I’m listening to the official Lowlands 2018 playlist.</p>
+<p>This is not ideal, as I am an Apple Music subscriber, but not a Spotify subscriber.</p>
+<p>It turns out there are paid apps to convert Spotify playlists to Apple music playlists.</p>
+<p>However, it also turns out that Apple has a new thing (still in beta) called <a href="https://developer.apple.com/documentation/musickitjs">MusicKit JS</a>.</p>
+<p>I briefly dissected the Spotify Playlist website.</p>
+<p>It would be straight-forward for a Chrome or Firefox plugin (WebExtension, so same code. I’ve done this before) to go through this playlist, search for each track using the MusicKit JS API, and then recreate the playlist in the user’s Apple Music account.</p>
+<p>This solution would be much cleaner and simpler than the current app-based ones.</p>
+<h2 id="an-emacs-package-for-displaying-your-rescuetime-productivity-metric-right-on-the-mode-line">An Emacs package for displaying your RescueTime productivity metric right on the mode line</h2>
+<p>I scanned the <a href="https://www.rescuetime.com/apidoc">RescueTime API documentation</a>.</p>
+<p>I was just about to start working on it, when I came up with the bright idea to name the package ironic.el, and so I stopped.</p>
+<p>On that topic: The struggle for practically sustainable focus is real, and it never seems to stop.</p>
+<h1 id="the-head-voices-reviewtm-the-optex-hx-80-outdoor-passive-infrared-security-detector-avoid-at-all-costs">The Head Voices REVIEW(tm) the Optex HX-80 outdoor passive infrared security detector: AVOID AT ALL COSTS</h1>
+<p>From the <a href="https://www.optexamerica.com/security-products/hx-80n">Optex HX-80 outdoor passive infrared security detector’s web-page</a> we have the following:</p>
+<blockquote>
+<p><strong>The most important element in reliable outdoor detector is accuracy to distinguish a human from a small animal</strong>. … In addition, the HX-80N’s dual PIR’s and 20 detection zones utilize the ‘AND’ detection pattern technology … <strong>This technology helps to prevent false alarms caused by a pet or small animal.</strong></p>
+</blockquote>
+<p>Well, I had two of these installed by trained professionals.</p>
+<p>(There are of course interesting discussions to be had about the necessity of devices such as the HX-80, or its mythical actually working counterpart, down here.)</p>
+<p>I can confirm that they excel at one fairly specific function: Triggering the alarm, and thus automatically calling my security company, at the most ungodly hours of the night, whenever a certain small grey cat, looking exceptionally unlike a human, decides to take a stroll outside of our house.</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/8ZXAmMroePI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Oh yes, the cat is not even ours, but belongs to our neighbour.</p>
+<p>The installation and subsequent repeated fine-tuning of our Optex HX-80 have only had the result of me having to punch in an additional key-sequence every evening to bypass the two ‘AND’-detection-pattern-technology-equipped HX-80 devices.</p>
+<p>You will understand that the only reasonable Head Voices REVIEW(tm) of the Optex HX-80 is:</p>
+<ul>
+<li>100% NON-FUNCTIONING THROUGH INFERIOR DESIGN.</li>
+<li>AVOID AT ALL COSTS.</li>
+<li>DON’T TRUST THE MARKETING.</li>
+<li>THE TRUTH IS OUT THERE.</li>
+<li>JUST DON’T.</li>
+</ul>
+<p><img src="data:image/jpeg;base64,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" alt="Image result for just don&rsquo;t meme"></p>
+<h1 id="some-more-odd-but-perhaps-useful-bits">Some more odd but perhaps useful bits</h1>
+<h2 id="google-colaboratory-for-numerical-computation-when-all-you-have-is-a-browser">Google Colaboratory for Numerical Computation when all you have is a browser.</h2>
+<p>I’m late to the party (again), but <a href="https://colab.research.google.com/notebooks/welcome.ipynb">Google Colab</a> is really great if you need a Jupyter Notebook with some GPU power behind it.</p>
+<p>It comes with tensorflow pre-installed (being Google and all), but getting the GPU-accelerated PyTorch 0.4.1 (latest version of the most amazing deep learning tool at the time of writing) going was a cinch.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/08/google_colab_torch_0.4.1.png"
+        /> </a>
+</figure>
+
+<p>To repeat this experiment, create new notebook with File | New Python 3 Notebook, then change Edit | Notebook Settings | Hardware accelerator to GPU.</p>
+<p>You can then install the correct version of PyTorch by executing</p>
+<pre>!pip install http://download.pytorch.org/whl/cu80/torch-0.4.1-cp36-cp36m-linux_x86_64.whl</pre>
+<p>in a notebook cell.</p>
+<p>What a time to be alive!</p>
+<p>P.S. Remember, <a href="/2018/07/17/weekly-head-voices-148-data-stylist/#development-environment-pycharm">under normal (non-Colab) circumstances</a> we keep our Notebooks as empty as possible. Prefer as much as possible of your code in Python modules. The notebooks are only there to act as glue, for visualization and sometimes for long-running jobs.</p>
+<h2 id="dan-luus-computer-and-mobile-device-input-latency-research">Dan Luu’s computer and mobile device input latency research</h2>
+<p><a href="https://danluu.com/input-lag/">This most amazing work</a> was recently brought to my attention by WHV reader <a href="https://matthewbrecher.com/">Matthew Brecher</a> in the comments under my <a href="/2017/02/12/android-vs-iphone-performance-a-quick-note/">2017 Android vs iPhone performance post</a>.</p>
+<p>In it, Dan Luu measured the input latency of various devices, using the 240fps camera on his iPhone SE, or with the 1000 fps  Sony RX100 V camera if the device was too fast.</p>
+<p>For the computers in his study, input latency was defined as the time between keypress and character appearing on the display. For the mobile devices, it was defined as the time between finger movement and display scrolling starting.</p>
+<p>If you have any interest in this sort of technology and also in-depth technology journalism, <a href="https://danluu.com/input-lag/">the full article</a> is definitely worth your time.</p>
+<p>I wanted to mention two interesting points:</p>
+<ol>
+<li>The 1983 Apple 2e, with a CPU running at 1MHz, had significantly lower input latency (30ms between button press and character display) than any modern multi-GHz system. The comparison is of course not completely fair, but it’s still nice to see.</li>
+<li>Amongst the mobile devices, Apple dominates the fast / low latency end of the spectrum. Their devices, in terms of input lag, are ALL faster than all of the Android devices tested, including for example the 2017 Google Pixel 2XL.
+<ul>
+<li>Yes, this is me eating my hat, and some more of that yummy humble pie.</li>
+<li>Android 9, code-name Pie, has just been (will soon be… err) released and has an <a href="https://www.theguardian.com/technology/2018/aug/07/android-9-pie-google-new-mobile-os-everything-you-need-to-know">amazing list of features</a>. I still hope they manage they also manage to catch up with regards to some of the basics like input latency.</li>
+</ul>
+</li>
+</ol>
+<h2 id="yet-another-reason-to-eat-more-fibre">Yet another reason to eat more fibre</h2>
+<p>There are an <a href="https://en.wikipedia.org/wiki/Human_microbiota">estimated 100 trillion (10 to the power of 14; 100 with 12 zeroes) bacterial cells</a> housed in each of our bodies.</p>
+<p>Each adult human consists of on average only 37 trillion human cells, meaning there are on average almost 3 alien cells for every 1 of your own cells.</p>
+<p>I find this a beautiful realisation: All aspects of our lives depend on this multitude of foreign visitors.</p>
+<p>They help us digest our food, and, as it has been turning out more recently, they play a crucial role in our mood,  our behaviour and our thinking.</p>
+<p>We (or at least the clever people) now talk about the <a href="https://en.wikipedia.org/wiki/Gut%E2%80%93brain_axis">microbiome-gut-brain axis</a>, further underlining the importance that our bacterial visitors play in our lives.</p>
+<p>Taking a few more steps back, thinking about the relationship between the 37 trillion human cells, and the 100 trillion visiting cells,  I ask the question:</p>
+<p>Who am I really? Who exactly is thinking this?</p>
+<p>I, or perhaps rather “we”, find this truly fascinating.</p>
+<p>What I was initially planning to mention before going off on this tangent, was a recent paper accepted for publication in the Journal of Physiology, with the title Short-Chain Fatty Acids: <a href="https://physoc.onlinelibrary.wiley.com/doi/epdf/10.1113/JP276431">Microbial Metabolites That Alleviate Stress-induced Brain-Gut Axis Alterations (click for PDF fulltext)</a>.</p>
+<p>The Physiological Society press release is more digestibly (I had to) titled “<a href="http://www.physoc.org/press-release/2018/eat-high-fibre-foods-reduce-effects-stress-gut-and-behaviour">Eat high fibre foods to reduce effects of stress on gut and behaviour</a>“.</p>
+<p>In short, fibre stimulates gut bacteria to produce short-chain fatty acids (SCFA), which, besides being the main source of nutrition for cells in this region of the body, also decrease levels of stress and anxiety, at the very least in mice.</p>
+<h1 id="the-end">The end</h1>
+<p>Thank you for sticking around friends!</p>
+<p>I hope that you found something of value, even if not directly from this post.</p>
+<p>I’ll see you next time! Until then, remember to eat your vegetables.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #114: So you know what I did last summer.</title><link>https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/</link><pubDate>Fri, 20 Jan 2017 07:17:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/</guid><description> WELL HELLO THERE FRIENDS FROM THE BLOGOSPHERE!
+It’s definitely time to get out a Weekly Head Voices, so that we can all feel nicely up to date. This post covers the period from Monday December 5, 2016 to Sunday January 15, 2017, which is ever so slightly *cough* later than average.
+My excuse is: SUMMER HOLIDAY.
+If you have not yet read my 2016 to 2017 transition post, this is a gentle reminder to make some time to do so.</description><content:encoded><![CDATA[ <p>WELL HELLO THERE FRIENDS FROM THE BLOGOSPHERE!</p>
+<p>It’s definitely time to get out a Weekly Head Voices, so that we can all feel nicely up to date. This post covers the period from Monday December 5, 2016 to Sunday January 15, 2017, which is ever so slightly *cough* later than average.</p>
+<p>My excuse is: SUMMER HOLIDAY.</p>
+<p>If you have not yet read <a href="/2017/01/05/the-2016-to-2017-transition-post/">my 2016 to 2017 transition post</a>, this is a gentle reminder to make some time to do so. There’s some backyard philosophy in that post that you might find useful.</p>
+<p><em>(The main reason for writing this post is to satisfy my NO-GAPS-BETWEEN-WEEKLY-HEAD-VOICES-DAMNIT OCD. I’ve added pretty pictures to help us get through it.</em></p>
+<p><em>Godspeed fellow traveller!__)</em></p>
+<h1 id="the-holiday-starts">The holiday starts</h1>
+<p>Below is a photo I have quite surprisingly titled “A scene with a beach, the sea and some fluffy clouds in the brilliant blue sky”. The photo was taken on the beach at Boggomsbaai, a really small sea-side village on the East coast where we spent the first few days of our holiday.</p>
+<p>Up ahead you can see the bustling metropole (well, it has one really expensive minimarket and an impressive gate) of Vleesbaai.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/IMG_20161210_1712298.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/IMG_20161210_1712298-1024x768.jpg"
+        
+            alt="Boggomsbaai beach. Vleesbaai in the distance. This is a really lovely run."/> </a><figcaption>
+            <p>Boggomsbaai beach. Vleesbaai in the distance. This is a really lovely run.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="head-voices-review-surprise">Head Voices Review. SURPRISE!</h1>
+<p>After the truly disappointing <a href="/2016/12/20/review-awei-a990-bl-wireless-sport-bluetooth-earphones-avoid/">final death of my Awei bluetooth headphones</a> whilst running on that very beach, I acquired the Samsung Level Link, a tiny bluetooth transceiver which can turn any old set of cheap wired earphones into bluetooth earphones! It looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/samsung_level_link_1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/samsung_level_link_1-1024x852.jpg"
+        /> </a>
+</figure>
+
+<p>After five or six runs with this device of trouble-free music listening whilst running (Flume’s Skin was the business until recently, but I’ve just switched to the Tron Legacy soundtrack by Daft Punk which I’m enjoying, although I’m missing some of the Underworld-esque dancing in the summer afternoon sunset feels; THEM FEELS), the <strong>Head Voices Review</strong> (we’re baaaa-aaaaack!) is currently considering the following <em>initial review</em>:</p>
+<ul>
+<li>Samsung Level Link: AWESOME.</li>
+</ul>
+<h1 id="surfing">Surfing</h1>
+<p>Shortly before Christmas, some of our Dutch besties arrived for a good old fashioned swap-the-Dutch-winter-for-some-guilt-free-South-African-summer shenanigans.</p>
+<p>It’s a treat being able to show visitors from our other home around our old and now new again home. This often makes me do things which I should have done a long time ago but kept on postponing due to less important matters getting in the way.</p>
+<p>One such thing is taking surfing lessons.</p>
+<p>Funny thing is, there’s a brilliant surfing school (<a href="http://www.surfschools.co.za/">Son in Strand</a>, in case you were wondering) which is just a 15 minute drive away.</p>
+<p>Our instructor was fabulous, and we are now all surfers as you can see:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/windowlicker_takes_surfing_lessons.jpeg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/windowlicker_takes_surfing_lessons-1024x768.jpeg"
+        
+            alt="You can see by my hands doing a strange mix of sign of the horns and the shaka sign that I still have too much metal in me. Faces of the innocent have been evil-ised. Windowlicker. Respect it."/> </a><figcaption>
+            <p>You can see by my hands doing a strange mix of sign of the horns and the shaka sign that I still have too much metal in me. Faces of the innocent have been evil-ised. Windowlicker. Respect it.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="getting-high">Getting high</h1>
+<p>Another favourite local pastime is getting high with friends. Below is a picture of one such occasion. We were only moderately high, in preparation for another planned expedition described further down, but the views were beautiful nonetheless.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/gordon_rock_from_bretagne_rock.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/gordon_rock_from_bretagne_rock-1024x768.jpg"
+        
+            alt="Gordon Rock as seen from the middle part of Bretagne Rock in Paarl. The black blob in the middle is GOU#1 practising her weird stealth mutation."/> </a><figcaption>
+            <p>Gordon Rock as seen from the middle part of Bretagne Rock in Paarl. The black blob in the middle is GOU#1 practising her weird stealth mutation.</p>
+        </figcaption>
+</figure>
+</p>
+<p>At this point I feel it is mention-worthy that a lion ate my hat later that day. Literally.</p>
+<div class="gallery galleryid-2727 gallery-columns-2 gallery-size-medium" data-carousel-extra='{"blog_id":1,"permalink":"https:\/\/cpbotha.net\/2017\/01\/20\/weekly-head-voices-114-so-you-know-what-i-did-last-summer\/"}' id="gallery-5">
+<figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-5" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger.jpg" title=""><img alt="" aria-describedby="gallery-5-2757" class="attachment-medium size-medium" data-attachment-id="2757" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"PRIV","caption":"","created_timestamp":"1482938300","copyright":"","focal_length":"4.75","iso":"50","shutter_speed":"0.00060606060606061","title":"","orientation":"0"}' data-image-title="my_hat_in_danger" data-large-file="https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-1024x790.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-300x232.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger.jpg" data-orig-size="2296,1772" data-permalink="https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/my_hat_in_danger/" height="232" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-300x232.jpg" srcset="https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-300x232.jpg 300w, https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-768x593.jpg 768w, https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-1024x790.jpg 1024w, https://cpbotha.net/wp-content/uploads/2017/01/my_hat_in_danger-1200x926.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-5-2757"> My hat thought it was safe there in the corner. </figcaption></figure><figure class="gallery-item">
+<div class="gallery-icon landscape">
+<a class="rl-gallery-link" data-rel="lightbox-gallery-5" data-rl_caption="" data-rl_title="" href="https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat.jpg" title=""><img alt="" aria-describedby="gallery-5-2758" class="attachment-medium size-medium" data-attachment-id="2758" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"2.2","credit":"","camera":"PRIV","caption":"","created_timestamp":"1482940221","copyright":"","focal_length":"4.75","iso":"50","shutter_speed":"0.00026136957658129","title":"","orientation":"0"}' data-image-title="the_lion_ate_my_hat" data-large-file="https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-1024x746.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-300x219.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat.jpg" data-orig-size="1932,1408" data-permalink="https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/the_lion_ate_my_hat/" height="219" sizes="(max-width: 300px) 85vw, 300px" src="https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-300x219.jpg" srcset="https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-300x219.jpg 300w, https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-768x560.jpg 768w, https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-1024x746.jpg 1024w, https://cpbotha.net/wp-content/uploads/2017/01/the_lion_ate_my_hat-1200x875.jpg 1200w" width="300"/></a>
+</div><figcaption class="wp-caption-text gallery-caption" id="gallery-5-2758"> I’m not sure what the lion thought at this point. </figcaption></figure>
+</div>
+<p>That other planned expedition I mentioned was an absolutely brilliant hike to the top of Table Mountain via <a href="http://www.southafrica.net/za/en/articles/entry/article-platteklip-gorge-hike">Platteklip Gorge</a>, also known as Platties around these parts.</p>
+<p>Platties is the steepest (and probably quickest, if you’re fit enough) walking route up Table Mountain. We were at the starting point before 8 AM in the morning to avoid the morning heat, but it was already quite hot (probably about 25+, it was 30+ later).</p>
+<p>The walk was exhilarating (I could almost hear my mitochondria gnashing their teeth), and the views from the top textbook-spectacular:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/IMG_20161229_0938212-panorama.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/IMG_20161229_0938212-panorama-1024x325.jpg"
+        
+            alt="The view from the top of Table Mountain, photo by cpbotha.net."/> </a><figcaption>
+            <p>The view from the top of Table Mountain, photo by cpbotha.net.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Shortly after having arrived at the top, I saw a man wearing only shorts who had sort of just ran up the mountain barefoot.</p>
+<p>He did not rest, instead choosing to circle around a bush at the top and going straight down again.</p>
+<p>Still barefoot.</p>
+<p>Slap-slap-slap, I could hear his feet hit the rocks.</p>
+<h1 id="the-beach">The Beach</h1>
+<p>Taking a trip along the photogenic coast-hugging <a href="http://www.mountainpassessouthafrica.co.za/find-a-pass/western-cape/item/95-clarence-drive,-gordons-bay.html">Clarence Drive</a>, we stopped to pay a visit to Dappat se Gat, a sort-of-secret beach.</p>
+<p>Once you wade through all the trash from the side of the road :( and cross over a bunch of rocks back in the direction of Gordon’s bay, you find yourself on a beautiful secluded beach with a cave or two.</p>
+<p>One of the photos I took came out with suitably interesting shading:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/IMG_20161229_1857389.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/IMG_20161229_1857389-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>It was hard to ignore the extreme hipness of the young people lounging and playing on the beach as we tried but failed to blend in.</p>
+<p>After a short hike (with the little ‘uns) up Leopard’s Kloof in Betty’s Bay a few days later, we were rewarded by scenes of the <a href="https://en.wikipedia.org/wiki/Disa_uniflora">Disa Uniflora</a>, an orchid which is exceptionally exclusive to our little corner of the planet.</p>
+<p>By the power of the internets, I present you with new, more grainy photos of this pretty flower growing peacefully right next to a waterfall:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/01/IMG_20161231_1227116-1-e1484856373330.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/01/IMG_20161231_1227116-1-e1484856373330-768x1024.jpg"
+        /> </a>
+</figure>
+
+<p>In sharp contrast to last year when I welcomed the new year from the comfort of my bed and a book (hey man, some of us were gestating!), this year a significant number of us entered 2017 in Light Party Mode.</p>
+<p>In fact, as the clock struck 00:00, we found ourselves on a rock formation in the sea, in the dark, with waves crashing around us. Pretty neat now that I think about it.</p>
+<p>That reminds me, I did see for the first time fully <strong>bioluminescent waves</strong>! As each wave broke, the foam had a distinct green light. The fact that we were not able to film this (not enough photons) only served to make it more magical.</p>
+<p>During the day we <em>were</em> able to try out them new-fangled smartphone high speed video functions, yielding pretty slow motion captures of crashing waves, such as this one:</p>
+<div class="wp-video" style="width: 840px;">
+<video class="wp-video-shortcode" controls="controls" height="473" id="video-2727-2" preload="metadata" width="840"><source src="https://cpbotha.net/wp-content/uploads/2017/01/slow_wave.mp4?_=2" type="video/mp4"/><a href="https://cpbotha.net/wp-content/uploads/2017/01/slow_wave.mp4">https://cpbotha.net/wp-content/uploads/2017/01/slow_wave.mp4</a></video>
+</div>
+<h1 id="the-holiday-ends">The holiday ends</h1>
+<p>For the last few work weeks of 2016, I could not help but notice that it was time for a vacation. I had to apply substantial amounts of raw will power (that is, buckling down, hard) every day to maintain my usual levels of production.</p>
+<p>This vacation has been wonderful in the sense of causing total brain switch-off from day one. The surroundings definitely played a role in this, but for a large part I think it was due to the active holiday programme we pursued with our friends.</p>
+<p>This, and previous experiences, further strengthen the observation that <strong>true rest and mental refreshment can be better accomplished by running up and down mountains, swimming in the sea and being generally really busy taking part in new experiences</strong>, rather than, you know, actually resting.</p>
+<p>However, even after this holiday’s mental rejuvenation and renewed energy, I was still not completely happy with the (admittedly less than before the vacation) amount of will power that was required during the first days of work.</p>
+<p>I remembered this to have been much easier in the old days.</p>
+<p>Serendipitously, I read and more or less immediately <a href="/2017/01/09/deep-work-a-welcome-kick-in-the-butt/">absorbed Cal Newport’s Deep Work into my atoms</a> after my first week at work.</p>
+<p>After two weeks of weaving more deepness into my work, it seems that this was indeed the missing piece of the will power puzzle.</p>
+<p>Have fun friends! I hope to see you sooner rather than later.</p>
+<p> </p>
+<p> </p>
+]]></content:encoded></item><item><title>Island Style [Weekly Head Voices #27]</title><link>https://cpbotha.net/2010/07/26/island-style-weekly-head-voices-27/</link><pubDate>Mon, 26 Jul 2010 21:20:54 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/07/26/island-style-weekly-head-voices-27/</guid><description> (This post introduces the new Weekly Head Voices Nerd Index, or WHV-NI, a metric by which you can see if you should read a post or not. See this page for an explanation of the WHV-NI. The NI of the first part of this post is 0/5, whilst the NI of the part starting with the accepted paper is 3/5, also due to the extensive Head Voices Review at the end.</description><content:encoded><![CDATA[ <p><em>(This post introduces the new Weekly Head Voices Nerd Index, or WHV-NI, a metric by which you can see if you should read a post or not. See</em> <a href="http://cpbotha.net/about/weekly-head-voices-nerd-index/" title="WHV-NI explanation"><em>this page for an explanation of the WHV-NI</em></a><em>. The NI of the first part of this post is <strong>0/5</strong><strong>, whilst the NI of the part starting with the accepted paper is <strong>3/5</strong></strong>, also due to the extensive Head Voices Review at the end.)</em></p>
+<p>Kids, I’m still here! It just that the holiday season is here, and I’m feeling all strange, but I’m super-busy, mostly because I have to put oodles of time into a cool new augmented reality project for the new computer science first years that will be arriving in the first week of September. There’s also the complicated issue of WHV-regularity vs. worthwhile content: I really like entering your visual cortex on a weekly basis, but I prefer doing so with at least some kernel of information value.</p>
+<p>We spent some fantastic quality time, perfectly scheduled right in the middle of the Dutch heat-wave (harr harr), on Texel, beautiful little island on the North Sea. Here it is on the map:</p>
+<iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="http://maps.google.nl/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=texel&amp;sll=52.469397,5.509644&amp;sspn=5.221562,9.788818&amp;ie=UTF8&amp;hq=&amp;hnear=Texel,+North+Holland&amp;ll=53.05112,4.905396&amp;spn=0.990595,1.647949&amp;z=8&amp;output=embed" width="300"></iframe>
+<small><a href="http://maps.google.nl/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=texel&amp;sll=52.469397,5.509644&amp;sspn=5.221562,9.788818&amp;ie=UTF8&amp;hq=&amp;hnear=Texel,+North+Holland&amp;ll=53.05112,4.905396&amp;spn=0.990595,1.647949&amp;z=8" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<p>… and here it is in real life:
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/07/sophia_texel_strand_1024.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/07/sophia_texel_strand_1024.jpg"
+        
+            alt="One fabulous unit of my genetic offspring running on what appears to be our private beach on the island, but wasn&#39;t. It was just that nice."/> </a><figcaption>
+            <p>One fabulous unit of my genetic offspring running on what appears to be our private beach on the island, but wasn't. It was just that nice.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Here’s a nice path on that same island, just because I hope it makes you all nostalgic and pensive:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/07/path_less_travelled_texel_1024.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/07/path_less_travelled_texel_1024.jpg"
+        
+            alt="This photo makes you feel like you should go somewhere mystical, right? Photos of mysterious paths on islands do have that tendency. Check out those clouds, man&amp;hellip;"/> </a><figcaption>
+            <p>This photo makes you feel like you should go somewhere mystical, right? Photos of mysterious paths on islands do have that tendency. Check out those clouds, man&hellip;</p>
+        </figcaption>
+</figure>
+</p>
+<p>I can do nothing but very strongly recommend that you visit an island when the weather is perfect.</p>
+<p><em>(WARNING, <strong>NERD INDEX 3/5</strong> starts here!)</em></p>
+<p>In other great news, Stef’s paper on example-based exploration of multi-fields was accepted by the journal Computers &amp; Graphics. Get it, read it, CITE IT:</p>
+<blockquote>
+<p>S. Busking, C. P. Botha, and F. H. Post, <em><a href="http://graphics.tudelft.nl/Publications/Busking2010a" title="Link to Stef's MFE C&amp;C paper">Example-based interactive illustration of multi-field datasets</a></em>, <strong>Computers &amp; Graphics</strong>, 2010.</p>
+</blockquote>
+<p>In spite of the fact that my <a href="http://cpbotha.net/weekly-head-voices-abbreviations/" title="Link to WHV abbreviations">TPN</a> has not yet been able to deliver that jingle he promised, the Head Voices Review simply has to discuss a number of items that have recently been extensively analysed and, err, reviewed. We make use of the proven HVR classification system:</p>
+<ul>
+<li><a href="http://tweakers.net/pricewatch/236702/samsung-syncmaster-p2370.html" title="Tweakers pricewatch link to P2370">Samsung SyncMaster P2370</a> 23 inch 1920×1080 (HD) screen for my home workstation at € 185 including shipping: <strong>AWESOME</strong>. Many many pixels. Two browsers adjacent.</li>
+<li>Philips GoGear Ariaz MP3 player with 8G memory at € 70: <strong>MOSTLY AWESOME</strong>. I can copy music to AND FROM the player on Linux and Windows, no extra software required. Sound quality great, good in-ears. It’s a shame that the slightest perturbation to the ear-phone plug causes audible disturbance, so no carrying this in your super-tight Mika jeans pockets.</li>
+<li><a href="http://tweakers.net/pricewatch/unsorted/66784/sony-eye-camera-ps3-eye-toy-eyetoy.html" title="tweakers page for the ps3 eye">Sony PS3 Eye USB</a> camera at € 40: <strong>AWESOME</strong>. Based on a number of websites, we got this camera at work for doing augmented reality work, and oh my, is it fast! Just to make it an even more attractive deal, the lens is adjustable between 54 and 75 defrees of field of view.</li>
+<li>Nokia E71 at any price: <strong>DIVINELY AWESOME</strong>. Many of you know that I love my phone.  We’ve been together for almost two years now, and I thought that I might be falling out of love, until I ordered a new battery. Once again it manages 4 days on a single charge. Other smartphone users come to me with jumper leads when they run out of juice, and then I just smile as I jump-start their pitiful fruit-themed bricks. I have also temporarily stopped lusting after the latest and greatest Android-running keyboard-toting battery-draining super-phones. Together with the battery life, the keyboard makes this e71 the ideal phone for the socially-adept, attractive nerd with stamina. YEAH.</li>
+</ul>
+<p>So boys and girls, that’s it for this week’s edition. I have to go jump-start some phones, and also do a bit of work on a slightly longer term blog project that I hope to finish sometime in the next few weeks: It’s a post called “The Human Animal Post” and with it I hope to perturb, ever so gently, some of your brain cells.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #18: Refactor my dogfood.</title><link>https://cpbotha.net/2010/03/21/weekly-head-voices-18-refactor-my-dogfood/</link><pubDate>Sun, 21 Mar 2010 16:25:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/03/21/weekly-head-voices-18-refactor-my-dogfood/</guid><description> Welcome all, to this, the 18th edition of the Weekly Head Voices, in which I discuss a number of issues that mostly have nothing specific to do with the 11th week of 2010, but which might or might not have crossed my mind during that time! Issues include good news on the EuroVis 2010 front, a new edition of the Head Voices Review featuring my completely unexpected stay in a 7 Tesla MRI scanner (as a test subject, of course) and finally some nerdy backyard philosophy dealing with the well-known itch to Rewrite Everything From Scratch, Because What’s There Now Sucks.</description><content:encoded><![CDATA[ <p>Welcome all, to this, the 18th edition of the Weekly Head Voices, in which I discuss a number of issues that mostly have nothing specific to do with the 11th week of 2010, but which might or might not have crossed my mind during that time! Issues include good news on the EuroVis 2010 front, a new edition of the Head Voices Review featuring my completely unexpected stay in a 7 Tesla MRI scanner (as a test subject, of course)  and finally some nerdy backyard philosophy dealing with the well-known itch to Rewrite Everything From Scratch, Because What’s There Now Sucks.</p>
+<p>First, because I have no other visual element for this week’s post, and  because I am, as you might have noticed, a method blogger, I present you with probably the best <a href="http://chatroulette.com/" title="chatroulette website">chatroulette.com</a> improv I’ve ever seen so far. For those of you who have been completely asleep the past few weeks, chatroulette is a new site that’s been taking the interwebs by storm. The site pairs up random strangers for webcam chats. One is allowed to move to the next random stranger with the click of a buttom (resulting in the new English verb <a href="http://www.kk.org/thetechnium/archives/2010/02/nexted.php" title="Kevin Kelly's blog post on nexting">“to next”</a> someone..). Random hilarity (and often perversity) ensues! Here’s that mostly SFW and brilliant piano improv:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/JTwJetox_tU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p><em>(The original video had to be pulled, after 4 million views, due to some YouTube issues. Merton, pianist, has posted this new version. Thanks to</em> <a href="http://fpixel.wordpress.com/" title="Link to Francois' photography site"><em>Francois</em></a> <em>for the heads-up!)</em></p>
+<p>Back to business, we have just heard the great news that our two <a href="http://eurovis2010.labri.fr/" title="eurovis 2010 website">EuroVis 2010</a> submissions have been finally accepted for publication.  The articles are:</p>
+<blockquote>
+<ol>
+<li>S. Busking, C.P. Botha, and F.H. Post, <a href="http://graphics.tudelft.nl/Publications/Busking2010" title="Link to Stef's EuroVis 2010 paper page (fulltext available)">“Dynamic Multi-View Exploration of Shape Spaces,”</a> <em>Computer Graphics Forum</em>, 2010.</li>
+<li>P.R. Krekel, E.R. Valstar, J. de Groot, F.H. Post, R.G. Nelissen, and C.P. Botha, <a href="http://graphics.tudelft.nl/Publications/Krekel2010a" title="Link to Krekel EuroVis 2010 Visual Analysis of Human Motion paper">“Visual Analysis of Multi-Joint Kinematic Data,”</a> <em>Computer Graphics Forum</em>, 2010.</li>
+</ol>
+</blockquote>
+<p>Fantastic work you first authors you! Remember people: YOU HAVE TO CITE THESE SOON, AND YOU HAVE TO CITE THEM OFTEN! This also means that a number of us will be going to Bordeaux in June (I can imagine worse places to go to in June) to mingle with other scientists and to drink really good red wine.</p>
+<p>That good news brings us to the influential WHV feature, the <strong>Head Voices Review</strong>! (My TPN is still working on the new jingle.  Hopefully it’ll be on time for our joint Vodka review feature.) In this edition, I’ll be reviewing the Philips 7 Tesla MRI scanner and the JBL Duet-200 computer speakers.</p>
+<p>On Friday, I unexpectedly had the pleasure of trying out a state-of-the-art 7 Tesla Philips MRI scanner, as a test subject. I can report that the bore, although small, is quite comfortable. However, test subjects with claustrophobic tendencies should probably look elsewhere.  Scanning can be quite noisy, especially when a diffusion weighted imaging protocol is applied that involves scanning in 162 different gradient directions (to study the structural connectivity in my brain). However, the music that gets piped in between scanning sessions more than makes up. After scanning, it was scientifically confirmed that there is indeed a brain housed in my skull, an observation that pleasantly surprised me. Soon I hope to be able to post visualisations, made by one of our MedVis ninjas, of the structural connections in my brain.</p>
+<p>All in all, if you have a few million euros lying around, this piece of kit is highly recommended.  To summarise:</p>
+<ul>
+<li>Philips 7T MRI: AWESOME.</li>
+</ul>
+<p>In a <a href="http://cpbotha.net/2010/03/09/weekly-head-voices-16-go-go-gadget/" title="previous review of the Logitechh S3-30 speakes">previous review</a>, I was quite negative about the Logitech S3-30 speakers, for a large part due to the absolute mess of cables that it comes with. This past week I took delivery of the new <a href="http://www.amazon.com/JBL-DUET-200BLKV-Performance-Loudspeaker-Multimedia/dp/B0017XO2R6" title="JBL DUET-200 on amazon">JBL Duet-200</a> speakers I ordered, for the grand amount of 30 eurobucks, to replace it. The JBL is a single unit containing two speakers, something which might be seen as a drawback, but which I consider an advantage. In spite of its compact appearance, it packs quite a base and more than sufficient volume.  In addition, there are exactly two (2) cables: One for the power supply, and one for the audio. I can only hope that Logitech contracts JBL on their next PC speaker product design. My only (minor) gripe is that the JBL-supplied audio cable is only about 40cm long. All in all:</p>
+<ul>
+<li>JBL Duet-200 at € 30 price-point: AWESOME.</li>
+</ul>
+<p>MRI scanners and PC speakers: No product too big, no product too small for the Head Voices Review!</p>
+<p>Finally, it’s time for some backyard philosophy.  This week, it’s a brief point of really nerdy philosophy, although I think the principles apply to some non-nerdy activities as well. Software developers, as well as many other engineering types, often reach a point during working on a project, when they have a hard-to-control urge to trash the whole thing and start from scratch.  There is usually a very strong belief that the project / software / product can be designed much better by starting from scratch.</p>
+<p>It turns out that this is an insidious and mostly incorrect belief, for a large part due to all the knowledge present in the existing “ugly” product that will get thrown out. Engineers easily underestimate the importance of this knowledge. It turns out, much as we don’t like to hear this, that <strong>refactoring</strong> is, nine times out of ten, a far better answer than rewriting from scratch. Experienced developers know this, and are <em>mostly</em> able to suppress the rewrite from scratch itch.</p>
+<p>Joel Spolsky wrote a <a href="http://www.joelonsoftware.com/articles/fog0000000069.html" title="Joel Spolsky on why you shouldn't rewrite software">really good essay</a> on this phenomenon. Go read it!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #16: Go Go Gadget!</title><link>https://cpbotha.net/2010/03/09/weekly-head-voices-16-go-go-gadget/</link><pubDate>Tue, 09 Mar 2010 22:11:16 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/03/09/weekly-head-voices-16-go-go-gadget/</guid><description> This post is dedicated to my man Helmut in Vienna. Your appreciation is much appreciated!
+In this edition, I report on my productivity and activities of the past week, extol the time-saving virtues of iGoogle and conclude with a new WHV feature: The Head Voices Review! Unfortunately, due to a chronic lack of sleep, there will be no backyard philosophical contribution. We hope to be back on track for the next edition.</description><content:encoded><![CDATA[ <p><em>This post is dedicated to my man Helmut in Vienna.  Your appreciation is much appreciated!</em></p>
+<p>In this edition, I report on my productivity and activities of the past week,  extol the time-saving virtues of iGoogle and conclude with a new WHV feature: The Head Voices Review!  Unfortunately, due to a chronic lack of sleep, there will be no backyard philosophical contribution.  We hope to be back on track for the next edition.</p>
+<p>During week 9 of 2010, the temporal context of the sixteenth edition of the Weekly Head Voices, I spent 2 hours preparing for lectures, 3 hours lecturing and 12 hours in scheduled meetings.  I spent a significant amount of time assisting five of our MedVis Ninjas shepherding papers out the door, so now you have to cross your fingers that we get 100% accept rate, else the Ninjas get <em>really</em> angry.  Counting up to the weekend, and without any cheating, I completed 22 GTD tasks, again one task more than last week.  If this continues, I will eventually attain infinite productivity, so you better watch out, ok?</p>
+<p>Noteworthy happenings include two Skype Video meetings, which worked really well and saved me a significant amout of travel time. These meetings would be even better if my correspondents would invest in webcams, allowing me to look at more than just my own face during the discussion. In other news, I’ve been spending even more time futzing around with processing, resulting in a <a href="http://cpbotha.net/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/" title="blog post: installing processing +gsvideo + nyartoolkit on linux x86_64">first blog post detailing the installation of said library with video capture and augmented reality support on 64 bit Linux machines</a>.</p>
+<p>The main topic of this post is gadgets. I’ll be talking about two kinds of gadgets, so first I’d like to start with a screenshot of my iGoogle:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/03/igoogle-screenshot-anon.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/03/igoogle-screenshot-anon-1024x660.jpg"
+        
+            alt="iGoogle your twitter."/> </a><figcaption>
+            <p>iGoogle your twitter.</p>
+        </figcaption>
+</figure>
+</p>
+<p>I’ve been aware of iGoogle, and used it as a poor man’s aggregator before getting addicted to Google Reader, but never really appreciated the possibilities.  In short, you can add all kinds of web applications, called <em>gadgets</em>, to any number of tabs (each tab is a page), thus mixing and matching for example the social networking websites you use on one single web page.  Because I’d recently been wasting far too much time switching between twitter, facebook (everytime someone mentions facebook, I somehow reflexively and compulsively open the site, hence wasting more precious minutes of my life, which at my advanced age is no small matter), gmail and compulsive news checking, I decided to compress my time wasting into a single page visit. So far, it seems to be saving me a number of minutes every day, minutes that I’m saving for later…</p>
+<p>Finally, it pleases me greatly to be able to introduce a new feature on the WHV: <strong>The Head Voices Review!</strong> [As soon as my TPN completely masters Ableton, I’m hoping he’ll make me a nice theme song that I can insert here.] Some of you might know that this blog has a <em>rich</em> history in reviewing gadgets. See for example <a href="http://cpbotha.net/2006/02/10/news-on-the-audio-front/" title="post where I discuss two headsets">this post</a> where, after weeks of investigation, I posted an <em>in-depth</em> review of not one, but TWO cheap-skate headphones.  To summarise:</p>
+<ul>
+<li>Sennheiser PX20: SUCKS.</li>
+<li>Philips HP-200: AWESOME.</li>
+</ul>
+<p>To kick off this first edition, I’m going to discuss three more computer audio gadgets.  First off, the Logitech S3-30 2.1 (that means stereo speakers with sub-woofer to my non-audiophile readers) computer speaker set with built-in amplifier.  I’ve used these extensively for five years now (purely for the purposes of reviewing them of course) and have set out my conclusions in the table below:</p>
+<ul>
+<li>Logitech S3-30: SUCKS BADLY.</li>
+</ul>
+<p>I base my conclusion on the sub-par design of these speakers, especially in terms of the cabling.  Below is an <em>artist’s</em> rendition of the cable design for these speakers:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2010/03/logitech_s3-30_sketch-1024.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2010/03/logitech_s3-30_sketch-1024-933x1024.jpg"
+        
+            alt="Artist’s rendition of Logitech S3-30 speaker set cable design. Note the bird’s nests."/> </a><figcaption>
+            <p>Artist’s rendition of Logitech S3-30 speaker set cable design. Note the bird’s nests.</p>
+        </figcaption>
+</figure>
+</p>
+<p>As you can see, it’s as if the engineers had been challenged to see how much cable they could waste in producing these speakers, and as a side-challenge, how they could ensure that any desk carrying these speakers would instantly turn into an unmanageable mess of cables in various states of entanglement.  Why why why didn’t they read <a href="http://www.livescience.com/strangenews/071003-knots-form.html" title="why knots form">this really important paper</a>?</p>
+<p>I have recently ordered the <a href="http://www.amazon.com/JBL-DUET-200BLKV-Performance-Loudspeaker-Multimedia/dp/B0017XO2R6" title="jbl duet-200">JBL Duet 200</a> to replace the S3-30.  After at least five more years of extensive testing, I will document its performance in a future Head Voices Review.</p>
+<p>On the topic of Logitech, a number of my screencasts up to now have been <em>performed</em> using a <a href="http://www.amazon.co.uk/Logitech-Analog-Desktop-Stick-Microphone/dp/B00097HPHK" title="Link to amazon page on the logitech analog desktop microphone with 3.5mm jack plug.">Logitech Analog Desktop Microphone with 3.5mm jack plug</a>, purchased especially for that purpose.  Now that I’ve also purchased the quite affordable (6 bucks for the <em>whole</em> headset, that means headphone AND microphone!) yet very stylish <a href="http://www.sweex.com/nl/assortiment/sound-vision/headsets/HM400" title="Sweex HM400 headset">Sweex HM400 headset</a>, also for recording screencasts, I can present the following comparative review:</p>
+<ul>
+<li>Logitech Analog Desktop Microphone with 3.mm jack plug: SUCKS.</li>
+<li>Sweex HM400 headset: AWESOME.  Wait till you hear my deep baritone narrating the next screencast.  I expect that it should sound almost exactly like this:</li>
+</ul>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/x0I6mhZ5wMw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Err, that’s it for the first edition of the Head Voices Review! I don’t think that you have to worry too much about the next edition arriving anytime soon.  Here at HVR headquarters we take our sweet time, as we pride ourselves in jumping to <em>all</em> of the wrong conclusions, <em>all</em> of the time.</p>
+]]></content:encoded></item></channel></rss>

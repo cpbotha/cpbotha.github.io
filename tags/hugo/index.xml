@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on voices in my head</title><link>https://cpbotha.net/tags/hugo/</link><description>Recent content in hugo on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 26 Jan 2021 21:50:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #214: One Main Thing</title><link>https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/</link><pubDate>Tue, 26 Jan 2021 21:50:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/</guid><description> WELCOME BACK EVERYONE TO THIS WARM AND WELCOMING CIRCLE OF WEEKLY HEAD VOICES!
+Figure 1: View from a family walk in Hermanus. I was surprised by the beauty here, memories of years ago apparently faded.
+You are reading the 214th edition of the WHV, the first of 2021 (hurrah), and spottily covering the intersections of my consciousness with the period of time from Monday, January 11 to Sunday, January 24 of the year 2021.</description><content:encoded><![CDATA[ <p>WELCOME BACK EVERYONE TO THIS WARM AND WELCOMING CIRCLE OF WEEKLY HEAD VOICES!</p>
+
+
+
+
+
+
+
+
+<figure><a href="hermanus_coastal_walk.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/hermanus_coastal_walk_hu75071808a57a489883adc169fbf8f063_2173875_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/hermanus_coastal_walk_hu75071808a57a489883adc169fbf8f063_2173875_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/hermanus_coastal_walk_hu75071808a57a489883adc169fbf8f063_2173875_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/hermanus_coastal_walk_hu75071808a57a489883adc169fbf8f063_2173875_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2021/01/26/weekly-head-voices-214-one-main-thing/hermanus_coastal_walk_hu75071808a57a489883adc169fbf8f063_2173875_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: View from a family walk in Hermanus. I was surprised by the beauty here, memories of years ago apparently faded."/> </a><figcaption>
+            <p>Figure 1: View from a family walk in Hermanus. I was surprised by the beauty here, memories of years ago apparently faded.</p>
+        </figcaption>
+</figure>
+
+<p>You are reading the 214th edition of the WHV, the first of 2021 (hurrah), and
+spottily covering the intersections of my consciousness with the period of time
+from Monday, January 11 to Sunday, January 24 of the year 2021.</p>
+<p>I&rsquo;m not entirely happy with the water-tightness of this coverage, but <a href="/2021/01/10/the-2020-to-2021-transition-post/">the
+2020-2021 year transition post</a>, which I hope you&rsquo;ve read or at least heard
+about, is probably worth this bit of start-point haziness.</p>
+<h2 id="first-rule-of-blogging-we-don-t-blog-about-blogging">First rule of blogging: We don&rsquo;t blog about blogging</h2>
+<p>As you know, <a href="/2019/03/31/wordpress-to-hugo/">I <strong>really</strong> love Hugo</a>, the software tool with which I can write
+these posts in Emacs (text editor, you heathens) and then convert them to the
+fast static pages that you are now reading.</p>
+<p>The one thing I <em>was</em> a bit disappointed with, was the lack of some form of
+built-in yearly post archives.</p>
+<p>Well, while writing the year transition post, this disappointment spiked into
+action, and so I applied just enough internet and elbow grease to scratch my
+yearly archive itch on this blog.</p>
+<p><a href="/2021/01/10/super-simple-yearly-post-archives-hugo/">This post shows you how to do it</a>, and <a href="/archive/">here you can see the result, yearly
+archives for all of the posts on this blog</a>!</p>
+<p>As a first step on <a href="/2021/01/10/the-2020-to-2021-transition-post/#comms-upgrade">my path to become better at asynchronous communication</a>, I
+wrote <a href="/2021/01/16/intro-asynchronous-communication/">an introductory blog post on the topic</a>.</p>
+<p>I&rsquo;m not as happy with it as I would have liked to be, but it&rsquo;s the line in the
+sand that I really wanted to draw.</p>
+<p>More importantly, I&rsquo;ve been able to get a few people to read it.</p>
+<h2 id="signal-i-told-you-so">Signal: I told you so</h2>
+<p>Thanks to <a href="https://arstechnica.com/tech-policy/2021/01/whatsapp-users-must-share-their-data-with-facebook-or-stop-using-the-app/">WhatsApp recently making clear that they will be sharing increasing
+amounts of the massive amounts of your data at their disposal with all other
+companies in the Facebook family</a>, many folks have been looking for
+alternatives.</p>
+<p>Even more fortunately, many of those folks have been choosing the most
+pragmatically private alternative, namely Signal.</p>
+<p>You might recall that <a href="/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">I started recommending that we use Signal back in January
+of 2016</a>, which is infinity years ago in internet time.</p>
+<p>Telegram does indeed count as an alternative to WhatsApp, but its chats are by
+default not end-to-end encrypted, and it&rsquo;s still backed by a for-profit
+company. There&rsquo;s nothing wrong with this, but if your concern is privacy now
+and in the future, Signal is by far the better choice.</p>
+<p>Anyways, I am happy to see more of my contacts appear in the Signal list.</p>
+<h2 id="one-main-thing">One Main Thing</h2>
+<p>In 2011, <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#pro-tip-2">I wrote about starting the day by writing down concretely the tasks
+one would like to complete by the end of the day</a>.</p>
+<p>A few years later, <a href="/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/#thinking-of-future-you">I picked up a tip from a podcast with Sam Harris and Derren
+Brown that one should explicitly ask the question which tasks would satisfy you
+the most at the end of the day</a>.</p>
+<p>(Interestingly, in the 2018 post above I misquoted my 2011 post as suggesting
+that one writes down &ldquo;the two to three really important tasks for the
+day&rdquo;. That &ldquo;two to three&rdquo; came from some other memory which I can&rsquo;t track down
+right now.)</p>
+<p>Last year <a href="/2020/02/23/weekly-head-voices-189-all-systems-green/#its-what-future-you-would-want-quote-edition">I ran into Lubbock&rsquo;s far more eloquent formulation</a>:</p>
+<blockquote>
+<p>If we are ever in doubt about what to do, it is a good rule to ask ourselves
+what we shall wish on the morrow that we had done. &ndash; John Lubbock</p>
+</blockquote>
+<p>In the comments to that post, friend AJ added the following:</p>
+<blockquote>
+<p>Another iteration of what to do next that I recently heard was Gary Kellers
+version: The One Thing.</p>
+</blockquote>
+<p>I have not yet gotten around to reading <a href="https://en.wikipedia.org/wiki/The%5FOne%5FThing%5F(book)">The One Thing</a>, but I think AJ&rsquo;s comment
+did plant a seed&hellip;</p>
+<p>Fast forward a few months, and I have started to realise that my most
+productive and satisfying days often coincide with the days when I have the
+guts in the morning to commit to one main thing for the day.</p>
+<p>Conversely, when I don&rsquo;t select and commit to One Main Thing, but due to
+deadlines and other expectations put more than two or more bigger items on my
+list, that day has a high probability of leaving me quite frazzled by its end.</p>
+<p>One Main Thing days are scary, because I feel like there is always a long list
+of things I&rsquo;m not going to get to, and people I&rsquo;m going to have to disappoint.</p>
+<p>However, selecting that One Main Thing wisely, explicitly committing to it, and
+then knocking it off after a few hours of focus is undeniably satisfying, and
+will probably help a bunch of people.</p>
+<p>Furthermore, it turns out that even with this commitment, one does still manage
+to get some of the little things done in the scraps of left-over time.</p>
+<p>You know, just after lunch, just before dinner and so on.</p>
+<p>Pay some bills, answer a few emails, and then dive back into your One Main
+Thing.</p>
+<h3 id="interstitial-projects">Interstitial projects</h3>
+<p>In addition to this, it turns out some of my projects can be specifically
+treated as <em>interstitial</em>.</p>
+<p>This is the label I&rsquo;ve chosen for those projects that 1. are supported by
+low-friction tools that are instantly available and 2. benefit from slivers of
+thought.</p>
+<p>For example, I&rsquo;m working on a few blog posts dealing with issues I come across
+during my work.</p>
+<p>During the day, I see something that warrants a section in one of the blog
+posts&hellip;</p>
+<p>Switch to Emacs, hotkey search the relevant notes file, hotkey search the
+relevant section in that file, type the sentence or two in your head, switch
+back to work.</p>
+<p>That took all of a minute or two, but now there are two new sentences, and we
+all know what sentences do, right? They <a href="/tags/compounding/">compound</a> into blog posts!</p>
+<h2 id="do-you-want-to-produce-or-consume">Do you want to produce or consume?</h2>
+<p>I&rsquo;m technically not allowed to write about something that appeared after the
+published timespan of a WHV, but I would be remiss if I did not mention the
+nudge that got WHV #214 off the ground.</p>
+<p>That nudge is <a href="http://noeskasmit.com/recommendations/">this post by Noeska</a>, and specifically these words:</p>
+<blockquote>
+<p>Do I want to produce or consume?</p>
+</blockquote>
+<p>You should really go read the post for context, but if you need to hear that
+sentence, you&rsquo;ll probably understand exactly what it means.</p>
+]]></content:encoded></item><item><title>Super simple yearly post archives for Hugo</title><link>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</link><pubDate>Sun, 10 Jan 2021 15:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</guid><description> I was looking for the most simple way to get automatic yearly archives of all blog posts for the Hugo setup responsible for cpbotha.net (this blog).
+Fortunately I ran into Rohan Verma&amp;rsquo;s template-based solution which I could then simplify into the even more straight-forward shortcode-based solution presented in this post.
+For an example of the output, see the post archives here.
+To make this happen on your Hugo setup is a two step process.</description><content:encoded><![CDATA[ <p>I was looking for the most simple way to get automatic yearly archives of all
+blog posts for the <a href="https://gohugo.io/">Hugo</a> setup responsible for cpbotha.net (this blog).</p>
+<p>Fortunately I ran into <a href="https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/">Rohan Verma&rsquo;s template-based solution</a> which I could then
+simplify into the even more straight-forward shortcode-based solution presented
+in this post.</p>
+<p>For an example of the output, see <a href="/archive/">the post archives here</a>.</p>
+<p>To make this happen on your Hugo setup is a two step process.</p>
+<h2 id="step-1-install-shortcode">Step 1: Install shortcode</h2>
+<p>Save the following snippet as <code>layouts/shortcodes/archive.html</code>.</p>
+<p>Note that you might have to change <code>&quot;posts&quot;</code> in the code below to whatever Hugo
+section contains your blog posts.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#93a1a1;font-style:italic">{{/*
+</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic">simple shortcode to display all posts in yearly sections on your archive page
+</span><span style="color:#93a1a1;font-style:italic">by Charl P. Botha
+</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic">this is a much simplified version of the yearly post archiving template at:
+</span><span style="color:#93a1a1;font-style:italic">https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
+</span><span style="color:#93a1a1;font-style:italic">
+</span><span style="color:#93a1a1;font-style:italic">*/}}</span>
+
+<span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> := <span style="color:#268bd2">3000</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">range</span> <span style="color:#268bd2">where</span> <span style="color:#268bd2">.Site.RegularPages</span> <span style="color:#2aa198">&#34;Section&#34;</span> <span style="color:#2aa198">&#34;posts&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#268bd2">.Date</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#859900">gt</span> <span style="color:#268bd2">$prev</span> (<span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span>)<span style="color:#93a1a1;font-style:italic">}}</span>
+## <span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span> <span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;02 Jan&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span> -- [<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Title</span><span style="color:#93a1a1;font-style:italic">}}</span>](<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Permalink</span><span style="color:#93a1a1;font-style:italic">}}</span>)
+<span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> = <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</code></pre></div><h2 id="step-2-use-shortcode">Step 2: Use shortcode</h2>
+<p>Use the shortcode on any page as <code>{{% archive %}}</code>, as shown in the example below.</p>
+<p>Note here that we&rsquo;re using <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown">the shortcode syntax for markdown shortcodes</a>,
+i.e. <code>%</code> instead of the <code>&lt;</code> you might be more used to for HTML shortcodes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
+title: &#34;Posts Archive&#34;
+slug: &#34;archive&#34;
+date: 2021-01-09T16:17:00+02:00
+type: &#34;page&#34;
+---
+
+Some text that will appear before the archive.
+
+
+
+{{% archive %}}
+</code></pre></div>]]></content:encoded></item><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
+To make a long and interesting story short, srcset enables us to tell the browser that we have for example 5 different resolutions of an image available, and that it should choose the best one based on the user&amp;rsquo;s device.
+Pretty neat actually!
+Anyways, I tweaked the code a bit over time, and most recently I combined it with the stock Hugo figure shortcode.</description><content:encoded><![CDATA[ <p>When <a href="/2019/03/31/wordpress-to-hugo/#bonus-level-bundling-and-automatic-resizing-of-images">I moved this blog over to
+Hugo</a>
+slightly more than a year ago, I started using <a href="https://laurakalbag.com/processing-responsive-images-with-hugo/">Laura Kalbag&rsquo;s special <code>img</code>
+shortcode</a>
+with <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia%5Fand%5Fembedding/Responsive%5Fimages">img srcset
+support</a>.</p>
+<p>To make a long and interesting story short, <code>srcset</code> enables us to tell the
+browser that we have for example 5 different resolutions of an image available,
+and that it should choose the best one based on the user&rsquo;s device.</p>
+<p>Pretty neat actually!</p>
+<p>Anyways, I tweaked the code a bit over time, and most recently I combined it
+with the stock Hugo <code>figure</code> shortcode.</p>
+<p>What this means, is that you can now use just the straight <a href="https://gohugo.io/content-management/shortcodes/#figure">Hugo <code>figure</code>
+shortcode as per the
+documentation</a>, and my
+modified shortcode will do all of image processing and srcset specification
+fully automatically.</p>
+<p>In other words, you only have to refer to your fullest resolution image in the
+figure shortcode, and hugo will take care of creating a number of downscaled
+versions, and offer them to modern browsers in a way that gives the user the
+best experience.</p>
+<h2 id="install-and-use">Install and use</h2>
+<p>To install, simply download <a href="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d">the figure.html
+gist</a>
+(embedded below) into the <code>layouts/shortcodes</code> directory in your hugo blog and
+then rebuild your blog.</p>
+<p><strong>NOTE:</strong> It&rsquo;s <strong>very</strong> important that images have to be in <a href="https://gohugo.io/content-management/page-bundles/">the page
+bundle</a> if you want
+automatic resizing and srcset. The shortcode will fall back to stock Hugo
+behaviour otherwise.</p>
+<script type="application/javascript" src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
+
+<h2 id="example-result">Example result</h2>
+<p>I&rsquo;ve posted the image below so you can see the shortcode in action.</p>
+<p>It started as <code>{{&lt; figure src=&quot;20200324_stillbaai_beach.jpg&quot; link=&quot;20200324_stillbaai_beach.jpg&quot; caption=&quot;...&quot; &gt;}}</code> and ended up as the
+image below.</p>
+<p>If you right click, and then inspect, you&rsquo;ll see the <code>srcset</code>
+specification. Even better if you switch to the network panel in devtools, then
+reload, and note that your browser downloads a lower resolution image if you&rsquo;ve
+narrowed your viewport, or switched devtools to mobile emulation.</p>
+
+
+
+
+
+
+
+
+<figure><a href="20200324_stillbaai_beach.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: A photo taken on the beach in Stilbaai on March 24, 2020."/> </a><figcaption>
+            <p>Figure 1: A photo taken on the beach in Stilbaai on March 24, 2020.</p>
+        </figcaption>
+</figure>
+
+<h2 id="updates">Updates</h2>
+<ul>
+<li>On 2020-05-10 I updated the shortcode to fall back to stock Hugo behaviour
+instead of just breaking when the image was not part of the page
+bundle. However, if you want resizing and srcset (the whole point of this
+post), your images should be in the page bundle. :)</li>
+</ul>
+]]></content:encoded></item><item><title>The 2019 to 2020 transition post.</title><link>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</link><pubDate>Sun, 12 Jan 2020 11:03:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</guid><description> Welcome to 2020 folks!
+In retrospect, I really should have written this post during the vacation, when it is substantially easier to wax all optimistic about the year to come.
+As it stands, we&amp;rsquo;re slightly more than a week of work into the new year, and most of that vacation naiveté has been brought summarily crashing down to earth as part of a sort of planetary body check.
+Perhaps it&amp;rsquo;s better this way after all.</description><content:encoded><![CDATA[ <p>Welcome to 2020 folks!</p>
+<p>In retrospect, I really should have written this post during the vacation, when
+it is substantially easier to wax all optimistic about the year to come.</p>
+<p>As it stands, we&rsquo;re slightly more than a week of work into the new year, and
+most of that vacation naiveté has been brought summarily crashing down to earth
+as part of a sort of planetary body check.</p>
+<p>Perhaps it&rsquo;s better this way after all. Let&rsquo;s keep it real.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+A sample of the view as I was walking to the main beach in Betty's Bay,
+listening to a super entertaining <a
+href="https://www.wnycstudios.org/podcasts/radiolab/articles/man-against-horse">radiolab
+podcast about a recent 50 mile race between humans and horses</a>. (Hint: A human won!)
+</figcaption>
+</figure>
+<p>During the vacation, I did manage to find all (most?) of <a href="/tags/transition/">the previous (year)
+transition posts</a> all the way back to 2010 and retro-tag
+them, for your and my reading pleasure, but mostly because I like to keep
+things orderly around here.</p>
+<p>The rest of this post is a very brief and spotty review of 2019, followed by my
+far-more-grounded-than-usual (see above) hopes and dreams for 2020.</p>
+<h2 id="learnings-and-events-that-i-found-important-through-the-lens-of-this-blog">Learnings and events that I found important, through the lens of this blog.</h2>
+<p>I now find <a href="/tags/sleep/">sleep</a> <em>at least</em> as important as healthy eating (and
+<a href="/2019/12/18/weekly-head-voices-186-helderberg-20/#time-restricted-eating-tre-with-black-coffee-please">not
+eating</a>)
+and exercise for human wellness. I started writing about sleep in the <a href="/2017/12/29/the-2017-to-2018-transition-post/">2017 to
+2018 transition post</a> after
+reading about Matthew Walker for the first time in a Guardian interview.</p>
+<p>In 2019 I got around to reading his book as well, and I now I&rsquo;m even more
+scared of losing sleep over anything.</p>
+<p>(For a giggle, contrast this with <a href="/2019/02/06/weekly-head-voices-161-email-equilibrium/#earlyish-morning-sessions">my early morning work sessions in WHV
+#161</a>. On
+second thought, in Summer time one could probably get this working again.)</p>
+<p>Our home is <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">now solar
+powered</a>. In fact,
+this post is for the largest part made using power directly from the sun!</p>
+<p><a href="/2019/07/17/weekly-head-voices-173-i-know/#stone-three-healthcare-is-now-a-thing">Stone Three
+Healthcare</a>,
+a new med-tech company I am officially part of, was officially launched after
+a great incubation period.</p>
+<p>Exciting times lie ahead.</p>
+<p><a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-boat/#life-is-but-a-dream">Reality is just a different type of
+dreaming</a>,
+and other implications of brain-based reality simulation.</p>
+<p>We are still feeling <a href="/2019/09/01/weekly-head-voices-176-cycle-of-life/#loss">the loss of a clan mother</a>.</p>
+<p><a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">ABC stands for Always Be
+Compounding</a>.</p>
+<p>Maybe <em>that</em> will be my main theme for 2020.</p>
+<h2 id="blogging-stats">Blogging Stats.</h2>
+<p>In 2019 I published 35 posts on this blog, slightly down from 2019&rsquo;s 36 posts.</p>
+<p>(I also published 12 more nerdy posts over on vxlabs, slightly up from 2019&rsquo;s 11 posts.)</p>
+<p>The static log analyzer tool I installed in March of 2019 (awstats, if you have
+to know) reports 37403 unique visitors reading just under 160000 pages between
+them.</p>
+<p>It could be that all of that is due to my small group of friends voraciously
+re-reading everything on here, each time with a new dynamically assigned IP
+address.</p>
+<p>Whatever the case may be (voracious) readers, thank you for reading the things
+I write!</p>
+<h2 id="technical-changes-to-the-site-with-implications-for-the-writing-process">Technical changes to the site, with implications for the writing process.</h2>
+<p>In March of this year, I <a href="/2019/03/31/wordpress-to-hugo/">ported this whole site from wordpress to the Hugo
+static site generator</a>.</p>
+<p>Although this has resulted in a significantly faster and more secure site, the
+real benefits only dawned on me a few weeks in.</p>
+<p>With Hugo, my main input modality is the humble text editor, where I write the
+<a href="https://commonmark.org/help/">markdown</a>, that is semi-structured plaintext
+with a few tricks, of each post before converting it to its final published
+form.</p>
+<p>In contrast to the WYSIWYG of Wordpress and especially of its new-fangled
+Gutenberg visual editor, the latter which was probably the biggest reason for
+me to make the jump, I see only text and the markdown heading structure when I
+write posts, with very few other distractions.</p>
+<p>This has magically resulted in me applying significantly more focus and
+discipline to how I write these posts, which has further resulted in an
+unexpected increase in writing satisfaction.</p>
+<p>(I am carefully optimistic that it might even contribute ever so slightly to
+post quality.)</p>
+<p>In November of 2019, I also moved all 20 years of super valuable (to me) reader
+comments <a href="/2019/11/10/we-now-have-self-hosted-isso-comments/">away from the Disqus silo and into a self-hosted open-source
+commenting system called
+isso</a>.</p>
+<h2 id="running">Running.</h2>
+<p>In 2019, Strava says I ran 1086km, down from over 1200km in 2018.</p>
+<p>I am happy with this.</p>
+<p>At the start of 2019, <a href="/2019/02/06/weekly-head-voices-161-email-equilibrium/#running-inspiration">I slowed down a bit
+(again)</a>
+to help save my ankles.</p>
+<p>That seemed to have worked, because I had no mentionable injuries for the rest
+of the year, and <em>that</em> makes me happier than more distance would have.</p>
+<p>For the sake of this retrospective, I do have to note that I did attain my
+secret-until-unlock extra 2019 running goal, namely <a href="/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/#running">the casual 20km
+jog</a> on one
+not-too-hot Saturday morning in November.</p>
+<p>For 2020, my main goal is simply to continue running throughout the year (see
+ABC above) without injury.</p>
+<p>The secret additional milestone has not yet been formulated.</p>
+<p>(I still enjoy running the most on barefoot or sandals, but for the longer
+runs, I am really happy to have made the <a href="/2019/09/09/weekly-head-voices-177-streakers/#escalante">Altra connection in
+September</a>.)</p>
+<h2 id="plans-and-life-directions-for-2020">Plans and life directions for 2020.</h2>
+<p>The <a href="/2019/01/06/the-2018-to-2019-transition-post/#other-plans-for-2019">January 6, 2019 transition WHV were definitely more
+ambitious</a>
+than I currently feel.</p>
+<p>Traditionally, Experiment Alcohol Zero (EAZ) starts around this time and then
+continues for a month or more.</p>
+<p>That&rsquo;s a great tradition, so Monday, January 6, 2020 marks the date this time
+around.</p>
+<p>Other than EAZ and my humble running goals, it is probably relevant to mention
+my recently started experimental daily list of life directions.</p>
+<p>At the start of 2012, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">I wrote the following about life
+goals</a>:</p>
+<blockquote>
+<p>Don&rsquo;t set life goals, but rather set life directions. Instead of defining the
+point that you want to go towards, define your preferred direction. If you do
+it right, you&rsquo;ll pass those points as you go along in any case, except you
+won&rsquo;t land in the depressing goal vacuum right after reaching the point that
+you&rsquo;ve been moving towards for so long, because you&rsquo;re motoring along in a
+direction, and that&rsquo;s what&rsquo;s important.</p>
+</blockquote>
+<p>(I should have added then that life goals, especially the new year&rsquo;s resolution
+variety, are also incredibly easy to fail at.)</p>
+<p>Finally applying this advice concretely to my <a href="/2019/09/21/note-taking-strategy-2019">note-taking / PKM
+system</a>, I have recently added an
+&ldquo;Experiment: Articulate your directions / systems&rdquo; heading to <a href="/2019/09/21/note-taking-strategy-2019/#daily-review">the daily
+planning template</a>.</p>
+<p>In other words, every(ish) morning during day planning, I <em>attempt</em> to write
+down (again&hellip;) my current life directions.</p>
+<p>This is a neat trick to force me to be reminded multiple times per week of
+these guidelines.</p>
+<p>It also gives me the opportunity to adapt the wording, or even the list
+itself. Your surroundings change continuously, and so do you.</p>
+<p>The most recent version is as follows:</p>
+<ol start="0">
+<li>nurture your clan.</li>
+<li>grow the business.</li>
+<li>keep on writing, also for publication.</li>
+<li>keep on programming, also for publication.</li>
+<li>keep on learning, and sharpen tools.</li>
+<li>optimise physiology.</li>
+</ol>
+<p>All of these are
+<a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding"><em>compounding</em></a>.</p>
+<p>None of them are concrete goals which I can quantitatively attain.</p>
+<p>They are all <em>directions of movement</em>, along which any decision or action can
+be measured.</p>
+<p>If that action furthers one or more of the six directions above, we are good to
+go.</p>
+<p>If not, it&rsquo;s probably time to go to bed.</p>
+<h2 id="wishes-for-2020">Wishes for 2020.</h2>
+<p>Dear readers, <strong>thank you for being here</strong>.</p>
+<p>I wish you a brilliant 2020.</p>
+<p>I look forward to all of our meetings, both here on these pages, and everywhere
+else where they may happen.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #167: Yes, and...</title><link>https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/</link><pubDate>Mon, 01 Apr 2019 09:00:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/</guid><description> (I initially posted this blog with an incorrect slug, so I had no choice but to re-publish with the correct slug and URL. It is possible that you receive the email notification twice. I am really sorry about this! P.S. Yes, it&amp;rsquo;s a dirtly little secret of the blogging industry that slugs are involved.)
+I have posted similar photos before, but this one is special, because it was a crystal clear and almost wind-free Friday afternoon, hosting an almost perfect barefoot run.</description><content:encoded><![CDATA[ <p><em>(I initially posted this blog with an incorrect slug, so I had no choice but
+to re-publish with the correct slug and URL. It is possible that you receive
+the email notification twice. I am really sorry about this! P.S. Yes, it&rsquo;s a
+dirtly little secret of the blogging industry that slugs are involved.)</em></p>
+<figure>
+<a href="strand_crystal_clear.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/strand_crystal_clear_hu426c4e9906be466fca9c3c215ba0523f_2830253_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/strand_crystal_clear_hu426c4e9906be466fca9c3c215ba0523f_2830253_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/strand_crystal_clear_hu426c4e9906be466fca9c3c215ba0523f_2830253_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/strand_crystal_clear_hu426c4e9906be466fca9c3c215ba0523f_2830253_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/04/01/weekly-head-voices-167-yes-and/strand_crystal_clear_hu426c4e9906be466fca9c3c215ba0523f_2830253_800x0_resize_q75_box.jpg"
+  
+
+  alt='photo of strand beach at macassar rheinmetal fence' />
+
+
+
+</a>
+<figcaption>I have posted similar photos before, but this one is special,
+because it was a crystal clear and almost wind-free Friday afternoon, hosting
+an almost perfect barefoot run.  </figcaption>
+</figure>
+<p>Oh hi there friends, from this <a href="/2019/03/31/wordpress-to-hugo/">brand new and quite shiny Hugo blogging
+setup</a>!</p>
+<p>When the novelty wears off, as it invariably does, I expect that I will be
+<em>quite</em> content with this graduation to a more minimalist blogging experience:
+It&rsquo;s just me, and you, and this old text editor.</p>
+<p>I am looking forward.</p>
+<p>At this very moment however, I am also looking back, at the week from Monday
+March 25 to Sunday, March 31, 2019.</p>
+<h2 id="fire-and-motion">Fire and Motion.</h2>
+<p>I don&rsquo;t know how else to describe it, but the thought that came up most often
+last week was: What a silly day.</p>
+<p>It felt like I had to put in three times the energy to get out just a little
+bit of focus. Every morning I returned to the grind, just to continue with
+this Sisyphean struggle.</p>
+<p>On Thursday, co-worker adt (not the security company) sent me <a href="https://www.joelonsoftware.com/2002/01/06/fire-and-motion/">Joel Spolsky&rsquo;s
+&ldquo;Fire and Motion&rdquo;
+essay</a>. (I
+previously thought that I had read all the best of Spolsky, but apparently
+not!)</p>
+<p>Spolsky starts with:</p>
+<blockquote>
+<p>Sometimes I just can’t get anything done.</p>
+<p>Sure, I come into the office, putter around, check my email every ten seconds,
+read the web, even do a few brainless tasks like paying the American Express
+bill. But getting back into the flow of writing code just doesn’t happen.</p>
+<p>These bouts of unproductiveness usually last for a day or two. But there have
+been times in my career as a developer when I went for weeks at a time without
+being able to get anything done. As they say, I’m not in flow. I’m not in the
+zone. I’m not anywhere.</p>
+<p>Everybody has mood swings; for some people they are mild, for others, they can
+be more pronounced or even dysfunctional. And the unproductive periods do seem
+to correlate somewhat with gloomier moods.</p>
+</blockquote>
+<p>Suddenly I felt far less bad, and super grateful that Spolsky had the guts to
+publish this admission.</p>
+<p>If someone as amazing as <a href="https://en.wikipedia.org/wiki/Joel_Spolsky">Joel
+Spolsky</a> can experience these
+bouts of non-productivity, there is hope for me too.</p>
+<p>What really struck a chord is what he writes about the unproductive periods
+seeming to correlate somewhat with gloomier moods.</p>
+<p>I did have a lot on my mind last week.</p>
+<p>Local politics are heating up before the May elections, and so various people,
+including acquaintances and friends, are fighting it out on social (and
+sometimes mainstream) media.</p>
+<p>These fights, apart from their intrinsic violence (ad hominem seems to be in
+vogue), often involve race-directed utterances that can catch one quite badly,
+making one literally question one&rsquo;s place in society.</p>
+<p>Added to this are the regular reminders, including the previously mentioned
+load-shedding and numerous corruption scandals, that the current ANC
+government is an utterly failed mechanism.</p>
+<p>Added to <em>that</em> is at least one other very much related bureaucracy-fueled
+personal existential issue that was both burning up mental cycles <em>and</em> stealing
+sleep cycles.</p>
+<p>Taking stock like this, I can&rsquo;t say anymore that I&rsquo;m surprised that last week
+was not my best focus-wise.</p>
+<p>You should really go read Spolsky&rsquo;s story, but I&rsquo;ll paraphrase his advice
+here.</p>
+<p>Everyone has these difficult days, and that&rsquo;s ok.</p>
+<p>The important thing is to keep on moving forward a little bit, every day.</p>
+<h2 id="yes-and">Yes, and&hellip;</h2>
+<p>The extra mental cycles were fortunately not all in vain.</p>
+<p>Many of them were dedicated to the question of how exactly I should best act
+and react in the current situation.</p>
+<p>One of the conclusions I came to is that we have to make peace with the fact
+that we&rsquo;re all stuck with each other: You, the person you disagree with most
+vehemently, and everyone in between.</p>
+<p>We&rsquo;re probably not going to be able to change each other that much in the
+short term, and especially not if the narrative remains this aggressive.</p>
+<p>At best, people at the fringes of the various groupings might come to new
+conclusions, and gravitate towards friendlier and more humanist pastures.</p>
+<p>Whatever the case may be, attack / defend mode is the worst mode for causing
+positive change.</p>
+<p>It&rsquo;s also extremely tiring.</p>
+<p>I don&rsquo;t know if this is better at the political level, but I do know what my
+personal approach is going to be from here on out.</p>
+<p>There&rsquo;s always some similarity to be found between me and my &ldquo;enemy&rdquo;, for
+varying degrees of &ldquo;enemy&rdquo;. (Remember, &ldquo;enemy&rdquo; is just an extreme point on the
+friendship spectrum. :)</p>
+<p>We&rsquo;re all human. We really do have similar needs. Safety of our families, time
+with our friends, a place in the sun for all our fellow humans.</p>
+<p>We might differ on how we get there, but it can make a huge difference to
+start with all of the needs that we share.</p>
+<p>I have resolved to start every every discussion and every related
+thought-process with the things that we have in common.</p>
+<p>By starting conversations like this, one builds on a platform of similarity,
+instead of trying to break down whatever you see before the conversation has
+even started.</p>
+<p>&ldquo;Yes, and&hellip;&rdquo; is a trick used in improv theater. When it&rsquo;s your turn to take
+the dialogue, you start with &ldquo;Yes, and &hellip;&rdquo; and then build on the creativity
+of the previous actor. The next actor in line also starts with &ldquo;Yes, and&hellip;&rdquo;,
+only further enriching the world of imagination that the previous actors are
+constructing on stage.</p>
+<p>I think we should &ldquo;Yes, and&hellip;&rdquo; much more in real life.</p>
+<p>I&rsquo;ll start.</p>
+<h2 id="what-stands-in-the-way-becomes-the-way">What stands in the way becomes the way.</h2>
+<p>The following was recently used <em>in anger</em> (not actual anger, just in actual
+application) somewhere in my network:</p>
+<blockquote>
+<p>Our actions may be impeded by [obstacles], but there can be no impeding our
+intentions or our dispositions because we can accommodate and adapt. The mind
+adapts and converts to its own purposes the obstacle to our acting.</p>
+<p>The impediment to action advances action.</p>
+<p>What stands in the way becomes the way.</p>
+<p>&ndash; Marcus Aurelius</p>
+</blockquote>
+<p>This could be applied to the story in this post, but one could also go a
+little more meta: Initial embarrassment at not even knowing about Marcus
+Aurelius&rsquo;s Meditations softly transformed into a <a href="https://www.amazon.com/Meditations-New-Translation-Modern-Library-ebook/dp/B000FC1JAI/ref=as_li_ss_tl?s=digital-text&amp;ie=UTF8&amp;qid=1452403537&amp;sr=1-3&amp;keywords=meditations+marcus+aurelius&amp;linkCode=sl1&amp;tag=camdezcom-20&amp;linkId=5a0d37b29a42b5e13ed9bc805aff9456">humble button
+click</a>, and hopefully soon into a studied book.</p>
+<p>Friends, I hope you have a brilliant week. Please remember &ldquo;yes, and&hellip;&rdquo;!</p>
+]]></content:encoded></item><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description> It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
+As can be seen in the history page or rather the first weblog entry dated 2001-02-27, this blog has been around for more than 18 years.
+It started as some CGI script, then spent some time as a LiveJournal, then, thanks to meeting Professor Biella Coleman who was at that point still a grad student, went through a Movable Type phase and then, at some point, converted to Wordpress.</description><content:encoded><![CDATA[ <p>It sounds a bit more involved than it turned out to be, but I have a thing for
+posts titled &ldquo;Moving M years of K from Y to Z&rdquo;.</p>
+<p>As can be seen in the <a href="/about/history/">history page</a> or rather the <a href="/2001/02/27/1469/">first
+weblog entry dated 2001-02-27</a>, this blog has been around
+for more than 18 years.</p>
+<p>It started as some CGI script, then spent some time as a LiveJournal, then,
+thanks to meeting <a href="https://en.wikipedia.org/wiki/Gabriella_Coleman">Professor Biella
+Coleman</a> who was at that
+point still a grad student, went through a Movable Type phase and then, at
+some point, converted to Wordpress.</p>
+<p>I don&rsquo;t know when exactly the Wordpress stage started, but it&rsquo;s probably not
+too long after Wordpress was born in 2003 somewhere.</p>
+<p>Anyways, after many happy years together, our ways are parting.</p>
+<p>The new block-based editor in Wordpress 5, <a href="/tags/gutenberg/">Gutenberg</a>,
+caters more for Wordpress as a CMS, and far less for Wordpress as a platform
+for long-form blogging.</p>
+<p>Personally I have noticed that the new editor gets in my way most of the time,
+where the pre-Gutenberg editor worked just perfectly, for my use case.</p>
+<p>Because life is short, and many more blog posts have to written, I made the
+decision, not easily, to move this blog away from Wordpress, to a different
+and hopefully more suitable platform.</p>
+<p>I ended up choosing Hugo because its native mode of operation involves me
+writing posts in some form of text editor, which is my preferred modality in
+any case, but primarily because of all the static generators, it was the only
+one with a prominent <a href="https://ox-hugo.scripter.co">Emacs Orgmode plugin</a>.</p>
+<p>(Based on what I now know about Hugo, it looks like once again Emacs Orgmode
+helped me make the best decision.)</p>
+<p>In the rest of this post I describe the process of migrating the blog you see
+before you from Wordpress to Hugo.</p>
+<h2 id="export-data-from-wordpress">Export data from Wordpress.</h2>
+<p>I used <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter">SchumacherFM&rsquo;s
+wordpress-to-hugo-exporter</a>
+to export my whole wordpress site to a Hugo-compatible project.</p>
+<p>Following(ish) <a href="https://github.com/SchumacherFM/wordpress-to-hugo-exporter#usage-with-a-self-hosted-wordpress-installation">the
+instructions</a>,
+I git cloned the <code>wordpress-to-hugo-exporter</code> into the <code>wp-content/plugins</code>
+folder of the relevant wordpress installation, and then I invoked the export
+script with <code>php hugo-export-cli.php</code>.</p>
+<p>The end-result was a 600MB <code>/tmp/wp-hugo.zip</code> which I SCP&rsquo;d down to my laptop
+and then unzipped into a directory called <code>hugo-export</code>.</p>
+<h2 id="install-hugo-get-site-up-and-running">Install hugo get site up and running.</h2>
+<p>The main goal here was to get Hugo running with the exported wordpress data.</p>
+<p>After installing hugo with <code>brew install hugo</code>, I continued with Hugo&rsquo;s <a href="https://gohugo.io/getting-started/quick-start/">quick
+start instructions</a>.</p>
+<p>Create the new Hugo site:</p>
+<pre tabindex="0"><code>hugo new site cpbotha.net
+</code></pre><p>Copy the exported contents into the Hugo site:</p>
+<pre tabindex="0"><code>mv hugo-export/* cpbotha.net/content/
+</code></pre><p>I chose <a href="https://themes.gohugo.io/hugo-theme-minos/">the minos theme</a> from the
+great <a href="https://themes.gohugo.io">Hugo Themes repository</a> and installed it into
+the new site like this:</p>
+<pre tabindex="0"><code>cd cpbotha.net/themes
+git clone https://github.com/carsonip/hugo-theme-minos.git
+</code></pre><p>Before starting up the new site for the first time, I edited the top-level
+<code>config.toml</code> so it looked like the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
+<span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
+<span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
+<span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
+<span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
+<span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+
+[<span style="color:#268bd2">permalinks</span>]
+  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
+  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
+  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
+minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
+Components</a> mechanism.</p>
+<h3 id="fire-up-hugo-in-development-mode">Fire up Hugo in development mode!</h3>
+<p>To see your site in all of its new static glory, you can start Hugo in
+development mode from the project&rsquo;s top-level directory:</p>
+<pre tabindex="0"><code>cd cpbotha.net/
+hugo serve -D
+</code></pre><p>By pointing your browser at <code>http://localhost:1313</code>, you&rsquo;ll be able to see a
+dynamic version of your site that automatically refreshes whenever you make
+changes to any of the underlying files.</p>
+<h2 id="transfer-comments-to-disqus">Transfer comments to Disqus.</h2>
+<p>This blog&rsquo;s small but amazing group of commenters, and the comments they have
+written over the years, are super valuable to me. It was important to transfer
+them and their work over to the new blog without a hitch.</p>
+<h3 id="motivation">Motivation.</h3>
+<p>I considered self-hosting comments using something like
+<a href="https://github.com/adtac/commento">Commento</a>, but the fact that I was able to
+get ad-free Disqus for free, as this site does not do advertising, and the
+fact that the conversion from Wordpress to Disqus is well-documented, won me
+over.</p>
+<p>Furthermore, going from Wordpress to Commento often involves a quick stop at
+Disqus in any case. In other words, the option of self-hosting remains.</p>
+<h3 id="procedure">Procedure.</h3>
+<p>The Disqus plugin for Wordpress has an automatic &ldquo;import comments&rdquo; mode which
+promises to transfer all of your wordpress comments to Disqus.</p>
+<p>In my case, this worked for most posts, except those with more than 60 or 70
+comments, in thich no comments were transferred.</p>
+<p>I ended up following the &ldquo;manual import&rdquo; procedure <a href="https://help.disqus.com/import-export-and-syncing/importing-comments-from-wordpress">documented in the Disqus
+help</a>.</p>
+<p>In short, you export your whole wordpress site as XML / WXR, download the
+file, and then import that using the upload functionality of <a href="https://import.disqus.com/">the Disqus
+import site</a>.</p>
+<p>This seemed to have transferred all of my comments.</p>
+<p>In spite of multiple attempts at automatic import, followed by the manual
+import, Disqus was clever enough not to duplicate any comments.</p>
+<h4 id="export-domain-name-should-be-same-as-display-domain-name">Export domain name should be same as display domain name.</h4>
+<p>It is important when you export your Wordpress comments, that the domain-name
+you export from is the same as the domain-name where you&rsquo;ll end up displaying
+the Disqus comments.</p>
+<p>If this is not the case, you will have to edit the exported XML files to
+search and replaced all of the instances of export domain name to display
+domain name.</p>
+<h2 id="build-and-upload-the-new-static-hotness">Build and upload the new static hotness.</h2>
+<p>My workflow now looks like this:</p>
+<ol>
+<li>Write new post in Emacs with <code>hugo serve -D</code> running. The browser window
+adjacent to Emacs updates in real-time showing my changes. (I will eventually look into
+<a href="https://ox-hugo.scripter.co">ox-hugo</a> so I can write posts in orgmode.)</li>
+<li>When I&rsquo;m happy with the post, I build the site with <code>hugo -d ~/Downloads/cpbotha.net</code>
+and sync it up to my web host using <code>rsync</code></li>
+</ol>
+<p>You can build the site by just invoking <code>hugo</code> in the top-level directory, in
+which case the output of the build will end up in a sub-directory named
+<code>public</code>.</p>
+<p>However, I keep the source to this blog in a git repository in my Dropbox, and
+I would prefer not syncing the expendable 600MB+ output directory, instead
+building it and syncing it from <code>~/Downloads</code>.</p>
+<p>The little bash script I used to perform step 2 in one go looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#93a1a1;font-style:italic">#!/bin/bash
+</span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
+<span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
+rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
+</span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+</code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
+<p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
+at least an image or two, an important piece of the puzzle was how to keep
+images together with the markdown post source, instead of in a separate static
+directory.</p>
+<p>In addition, Wordpress has this great feature where it automatically resizes
+images on upload, enabling posts to inline lower resolution versions that can
+be clicked on to see the full resolution.</p>
+<p>I had resigned myself to the reality that this would probably be a manual
+process for Hugo.</p>
+<p>Thanks to a <a href="https://laurakalbag.com/processing-responsive-images-with-hugo/">super useful and detailed post by Laura
+Kalbag</a>, I
+learned that the image-bundling problem had already been addressed by Hugo,
+and that Laura Kalbag had developed a Hugo shortcode which solved the second
+problem using Hugo&rsquo;s built-in image processing and a relatively new browser
+feature called <a href="https://ericportis.com/posts/2014/srcset-sizes/">srcsets</a>.</p>
+<p>With her <code>img</code> shortcode, high-resolution images are automatically resized
+into multiple lower resolution versions at build time, all of which will be
+offered to the client, which will then decide which to download based on the
+client-side display parameters.</p>
+<p>With regard to the image bundling, this is simply a matter of creating a
+directory containing the relevant images and the post contents in a file
+called <code>index.md</code>.</p>
+<p>In my case, I would create a post by invoking the following command in the
+top-level directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new content/posts/2019/some-post-slug/index.md
+</code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
+available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
+to images that are in the same directory using just their relative filenames.</p>
+<h2 id="mailing-lists">Mailing lists.</h2>
+<p>In addition to The Commenters mentioned above, I also treasure The Readers. :)</p>
+<p>On the Wordpress blog, I had already started making use of
+<a href="https://mailchimp.com/">Mailchimp</a> a while back for the daily and the weekly
+post emails, in addition to Wordpress.com&rsquo;s own email subscription which
+services the largest group of readers.</p>
+<p>I briefly looked into <a href="https://tinyletter.com/">tinyletter</a>, but then decided
+that it made the most sense to migrate the Wordpress.com email subscribers
+over to the Mailchimp daily email list.</p>
+<p>It was relatively straight-forward to export a CSV with subscriber address
+from Wordpress.com and then to import that into the Mailchimp list.</p>
+<h2 id="wrapping-up">Wrapping up.</h2>
+<p>Converting this blog from Wordpress to Hugo went significantly more smoothly
+than I expected. In fact, the first Hugo version was online after a single
+evening of work.</p>
+<p>Other than that, Hugo has already impressed me a number of times with its
+speed, and features that have clearly been thought through. Besides the
+built-in image processing and the theme composition, there are smaller but
+still super useful features such as <a href="https://gohugo.io/content-management/archetypes/">the
+archetypes</a> which I have
+configured to help me start a blog post more easily.</p>
+<p>Let me know in the comments if you have any other questions.</p>
+<p>Here&rsquo;s to at least 18 more years of blog posts!</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>thunderbird on voices in my head</title><link>https://cpbotha.net/tags/thunderbird/</link><description>Recent content in thunderbird on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 27 Sep 2016 07:00:25 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/thunderbird/index.xml" rel="self" type="application/rss+xml"/><item><title>ThunderBird support of RFC 3676 format=flowed is half-broken</title><link>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</link><pubDate>Tue, 27 Sep 2016 07:00:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</guid><description> Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
+What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence.</description><content:encoded><![CDATA[ <p>Summary: <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
+<h1 id="what-is-rfc-3676-formatflowed">What is RFC 3676 format=flowed?</h1>
+<p>Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</p>
+<p>I would like to try and summarise very compactly what exactly format=flowed is and how it works.</p>
+<p>Believe it or not, email can still be sent as plain text, i.e. not as HTML. Furthermore, this text is usually wrapped, i.e. newlines are inserted at a comfortable column width, e.g. 72 characters. This used to work wonderfully, until mobile devices came along. Because their screens often aren’t able to show the full 72 character width, the devices would be forced to wrap the text, resulting in a really ugly comb effect:</p>
+<pre>Someone sent me this really interesting
+email. Unfortunately
+it was wrapped so badly that I had difficulty
+reading it. Even worse,
+it made me like the sender of the email less.</pre>
+<p>To solve this problem, RFC 2646 was proposed (later to be superseded by its successor <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a>). All that had to happen, was that the sender could add a “format=flowed” to the outgoing email’s content-type, and wrap the email with both <strong>soft</strong> and <strong>hard</strong> line breaks (a line break in this case is a carriage return followed by a line feed, or CRLF). <strong>Soft line breaks</strong>, consisting of a space followed by CRLF, are used at the end of intra-paragraph lines, i.e. lines that could potentially be reflowed / joined. <strong>Hard line breaks</strong>, consisting of just the CRLF directly following the last character of the line, are used at the end of lines that should not be reflowed.</p>
+<p>This meant that we could continue sending plaintext mails as we always did, with CRLFs exactly where we always had them. However, with format=flowed and a few extra spaces at strategic points, receiving devices that supported this format had the <em>option</em> of reflowing. Older devices would display the email exactly as they always had.</p>
+<h1 id="what-is-thunderbird-doing-wrong">What is Thunderbird doing wrong?</h1>
+<p>In Thunderbird 45.3.0, format=flowed can be activated in <em>Preferences | Advanced | Config Editor</em> by setting <em>mailnews.send_plaintext_flowed</em> to <em>true</em>.</p>
+<p>If you now start sending an email in plaintext mode, you’ll notice that Thunderbird is visually wrapping your text, i.e. it’s not inserting any hard line breaks. However, when you actually send the email, Thunderbird will replace all the visual line breaks with <em>format=flowed</em> <strong>soft</strong> line breaks. Your manually entered hard line breaks are maintained.</p>
+<p>This is really great! Your emails render perfectly, even on smaller devices.</p>
+<p>Unfortunately, when you reply to a correctly formatted format=flowed email, the quoted text is hard wrapped.</p>
+<p>Viewing the message source with Emacs, we can see line breaks as $ characters. In the non-quoted part, the pink blocks are the expected spaces before each line break, meaning they will be treated as reflowable. However, in the quoted reply, there are no spaces before the line breaks, meaning they will be treated as unreflowable hard line breaks:
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png"
+        
+            alt="TB 45.3.0 hard wraps a quoted reply in format=flowed mode. Naughty Thunderbird!"/> </a><figcaption>
+            <p>TB 45.3.0 hard wraps a quoted reply in format=flowed mode. Naughty Thunderbird!</p>
+        </figcaption>
+</figure>
+</p>
+<p>This is really very sad, and also quite unnecessary. When the email arrives on a mobile device, the quoted reply can’t be reflowed, and it looks like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/09/Screenshot_2016-09-27-08-24-55.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/09/Screenshot_2016-09-27-08-24-55-1024x735.png"
+        
+            alt="Incorrectly soft-wrapped quoted reply can’t be reflowed on my mobile device."/> </a><figcaption>
+            <p>Incorrectly soft-wrapped quoted reply can’t be reflowed on my mobile device.</p>
+        </figcaption>
+</figure>
+</p>
+<p>How embarrassing.</p>
+<h1 id="how-ever-will-we-be-able-to-survive-this-catastrophe">How ever will we be able to survive this catastrophe?</h1>
+<p>I have not been able to convince Thunderbird to soft-wrap quoted replies, even going so far as to insert the extra spaces myself. Thunderbird helpfully (not!) removes those spaces before sending the email, resulting in really embarrassing email rendering on receiving mobile devices that fully support format=flowed.</p>
+<p><em>Edit | Rewrap</em> in the compose window simply hard wraps everything, so it will only make things worse in the context of format=flowed.</p>
+<p>I have also experimented with sending the quoted bits as really long lines (Emacs and the <a href="http://globs.org/download.php?lng=en">TB External Editor addon</a> FTW). This displays nicely on modern mobile devices, but will result in infuriatingly long lines on MUAs that do not support flowed text.</p>
+<p>Ideally, someone working on Thunderbird will realise that the current implementation desperately needs fixing, and will just do the job. Alternatively, someone will point me at a Thunderbird addon and source code I could modify to fix this behaviour. (If you’ve seen the multi-year arguments about text wrapping on the Thunderbird bug tracker, you’ll understand why I think an addon is a better bet than an externally suggested code change / pull request.)</p>
+<p>I fear that I may be one of the last people still sending plaintext emails, so it might be that nothing will come of this desperate call for help. :)</p>
+<h1 id="update-on-2019-07-16">Update on 2019-07-16</h1>
+<ul>
+<li>The current GMail web-ui <em>ignores</em> format=flowed and renders such emails with
+hard linebreaks everywhere. Thank you Google for violating yet more email
+standards.</li>
+<li>Apple&rsquo;s iOS Mail App does a <strong>perfect</strong> job of reflowing format=flowed
+emails. This adds to <a href="/2016/11/27/android-security-in-2016-is-a-mess/">the list of
+reasons</a> I have for sticking
+with their mobile devices.</li>
+</ul>
+]]></content:encoded></item></channel></rss>

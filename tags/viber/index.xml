@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>viber on voices in my head</title><link>https://cpbotha.net/tags/viber/</link><description>Recent content in viber on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 02 Jan 2016 09:38:11 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/viber/index.xml" rel="self" type="application/rss+xml"/><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description> (Post updated on January 8, 2021. See section at the end.)
+Signal, the open source messaging and voice calling app that does end-to-end encryption. The whole world is using WhatsApp to message each other. I often do too, because I want to inter-operate with the rest of the world.
+However, WhatsApp belongs to Facebook.
+Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
+<figure>
+<img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
+<figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
+<p>The whole world is using WhatsApp to message each other. I often do too,
+because I want to inter-operate with the rest of the world.</p>
+<p>However, WhatsApp belongs to Facebook.</p>
+<p>Although Facebook <a href="http://www.huffingtonpost.com/2014/02/24/zuckerberg-facebook-whatsapp_n_4848205.html">has promised otherwise</a> (fast-forward a few years: Yes,
+they did break that promise. See updates at the end of this post.), the
+temptation to link all of your WhatsApp messages with Facebook logins (a
+straight-forward process, as they have the mobile phone numbers of a great
+number of their users) must be <strong>quite</strong> tempting to the people at
+Facebook. Imagine how well they would then be able to target their advertising,
+based on their access to both your Facebook profile and your private WhatsApp
+messages!</p>
+<p>Fortunately, we now have an open source app, called <a href="https://signal.org/">Signal</a> (available on
+<a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&amp;hl=en">Android</a>, <a href="https://itunes.apple.com/za/app/signal-private-messenger/id874139669?mt=8">IOS</a> and the desktop), which performs end-to-end encryption
+on all messages and voice calls that go through it. This means that absolutely
+no-one is able to read your messages or eavesdrop on your voice calls, except
+the intended recipients.</p>
+<p>My request is that you get your contacts to install and <a href="https://theintercept.com/2015/03/02/signal-iphones-encrypted-messaging-app-now-supports-text/">start using Signal</a>
+instead of WhatsApp wherever possible. At the very least some of our messages
+will not be accessible to various large corporations and any other prying
+eyes. If the security argument is not enough for you, there is one more
+extremely important topic: Signal handles animated gifs better than WhatsApp,
+at least on Android. (Telegram supports them on both Android on IOS, but it is
+by default less secure than Signal). See here the results of my experiments:</p>
+<blockquote class="twitter-tweet"><p dir="ltr" lang="en">Animated GIF support (most important feature in any messaging app): WhatsApp fail, Viber fail, Telegram pass, Signal pass on Android.</p>— Charl Botha 😷 #Masks4All (@cvoxel) <a href="https://twitter.com/cvoxel/status/682942239463587841?ref_src=twsrc%5Etfw">January 1, 2016</a></blockquote> <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+<h1 id="updates">Updates</h1>
+<h2 id="january-8-2021">January 8, 2021</h2>
+<p>By now, if you use WhatsApp, the app will have forced you to accept the new
+privacy and data sharing agreement.</p>
+<p>As is explained in this <a href="https://arstechnica.com/tech-policy/2021/01/whatsapp-users-must-share-their-data-with-facebook-or-stop-using-the-app/">post on
+arstechnica</a>:</p>
+<blockquote>
+<p>Under the new terms, Facebook reserves the right to share collected data with its family of companies.</p>
+</blockquote>
+<p>In other words, even more of the personal data of 2 billion or so WhatsApp
+users will be integrated with everything Facebook knows about them and about
+you, including all of your connections to each other on all of the facebook
+platforms, including facebook itself, instagram and whatsapp.</p>
+<p>Like many of you, to interoperate with the world I do need to keep WhatsApp,
+but I would greatly prefer chatting with you on Signal.</p>
+<h2 id="august-25-2016">August 25, 2016</h2>
+<p><a href="http://www.theverge.com/2016/8/25/12638698/whatsapp-to-start-sharing-user-data-with-facebook">The Verge reported that WhatsApp will now officially begin sharing data with
+Facebook</a>. They will indeed link up telephone numbers and social networks,
+meaning that both parties will get a tremendous boost in what they know about
+you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
+]]></content:encoded></item></channel></rss>

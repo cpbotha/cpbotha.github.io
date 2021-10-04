@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ethereum on voices in my head</title><link>https://cpbotha.net/tags/ethereum/</link><description>Recent content in ethereum on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 18 Jun 2018 21:24:40 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ethereum/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #146: You too can learn Kung Fu.</title><link>https://cpbotha.net/2018/06/18/weekly-head-voices-146-you-too-can-learn-kung-fu/</link><pubDate>Mon, 18 Jun 2018 21:24:40 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/06/18/weekly-head-voices-146-you-too-can-learn-kung-fu/</guid><description> This post covers the period Monday June 11 to Sunday June 17. Read it to become rich, yawn at Lisp and Emacs, yearn to run free on the wide open plains and to learn Kung Fu. Not ambitious at all. Front door nearby De Waal Park, in Cape Town. Photo taken on Sunday by GOU#1, age 12.
+Social Democracy FTW It turns out that your chances of becoming rich are the greatest if you had the good fortune to have been born in one of the Nordic social democracies, such as Norway, Sweden or Denmark.</description><content:encoded><![CDATA[ <p><em>This post covers the period Monday June 11 to Sunday June 17. Read it to become rich, yawn at Lisp and Emacs, yearn to run free on the wide open plains and to learn Kung Fu. Not ambitious at all.</em>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/06/IMG_2004.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/06/IMG_2004-768x1024.jpg"
+        
+            alt="Front door nearby De Waal Park, in Cape Town. Photo taken on Sunday by GOU#1, age 12."/> </a><figcaption>
+            <p>Front door nearby De Waal Park, in Cape Town. Photo taken on Sunday by GOU#1, age 12.</p>
+        </figcaption>
+</figure>
+</p>
+<h1 id="social-democracy-ftw">Social Democracy FTW</h1>
+<p>It turns out that your chances of becoming rich are the greatest if you had the good fortune to have been born in one of the Nordic social democracies, such as Norway, Sweden or Denmark.</p>
+<p>The US trails these countries, at position 13, in terms of per capita individuals with net worth over $30 million.</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/A9UmdY0E8hU?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>Being a proponent of social democracy as the most humane form of currently practical human government, and often infuriating conservatives   by pointing out that many crucial aspects of social democracies can be described as socialistic, I really enjoyed the linked TEDx talk by Norwegian <a href="https://en.wikipedia.org/wiki/Harald_Eia">Harald Eia</a>.</p>
+<p>This material will serve me well as the source of future mischief.</p>
+<h1 id="paradigms-of-ai-programming-in-common-lisp">Paradigms of AI Programming in Common Lisp</h1>
+<p>I am currently working my way through <a href="https://github.com/norvig/paip-lisp">“Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp”</a>, Peter Norvig’s famous 1992 book an artificial intelligence. Although modern AI has been transformed almost unrecognisably since then (THANKS DEEP LEARNING! <a href="http://norvig.com/Lisp-retro.html">Norvig’s PAIP retrospective</a>) the way in which Norvig uses Lisp to model and solve real-world problems is inspiring and quite foundational.</p>
+<p>It’s not only that though.</p>
+<p>My inconvenient but uncontrollable infatuation with Common Lisp also seems to be pulling the strings. I should study a real language which is not 60 years old, like Rust or something.</p>
+<p>What attracts me about Common Lisp is the liberated and pragmatic way in which it enables one to mix functional, object-oriented and procedural programming, and, perhaps most importantly, how it was designed from the ground up for iterative and interactive programming.</p>
+<p>Tweak the defun, eval the defun, watch the system adapt. This is what I always imagined programming would be like. Except for the Lisps, it really turned out perhaps a bit more boring than it really needs to be.</p>
+<h2 id="interleave-mode-for-working-through-pdf-books">interleave-mode for working through PDF books</h2>
+<p>For the fellow Emacs users, I also wanted to mention the utility of <a href="https://github.com/rudolfochrist/interleave">interleave-mode</a> for working through such a programming book, if you can find it in PDF format.</p>
+<p>In my Emacs I have the PDF on the left, and my interleave-mode-linked orgfile on the right. On any page of the PDF I hit the i-button to add a note in the orgfile, where I can of course insert and execute live code snippets.</p>
+<p>The sections in the orgfile remain linked to the correct pages of the PDF.</p>
+<p>For programming books this is an amazing combination. For studying other books, having your orgfile notes linked will probably also be quite useful.</p>
+<p>On the topic of note-taking: This past week, on Friday June 15 (I made a note of that), I was able to help a colleague solve a technical problem by searching for and retrieving an org-file note, including detailed configuration settings, that I made on May 13, 2014.</p>
+<h1 id="ether-as-currency">Ether as currency</h1>
+<p>Although I acquired a small amount of the Ether cryptocurrency for the first time in July of 2016, I’ve never had the opportunity to actually transact with it.</p>
+<p>Up to now, it has functioned solely as a pretty volatile store of value.</p>
+<p>On Saturday, I used some ether for the first time to straight-up buy something on the internet, which was a pretty exciting but in practice an uneventful procedure, fortunately.</p>
+<p>The vendor used a payment processor which presented me with an address and corresponding QR code. I scanned the QR code with the relevant mobile app (Luno in this case), paid the requested amount, and waited for a few minutes for it to be multiply confirmed by the blockchain. The sending fee was about 0.04% of the transaction.</p>
+<h1 id="barefoot-style-running-update">Barefoot-style running update</h1>
+<p>On Sunday I went for a long(ish) run, bringing my total on the Luna sandals to just over 200km.</p>
+<p>My feet, ankles and calves are much stronger than they used to be, but the barefoot conversion is clearly still has some ways to go. I have to take at the very least two rest days (instead of one) between runs to give my feet some extra time to recover.</p>
+<p>What I have recently started doing, is that instead of trying to micro-manage my form (put your foot down like this, bend your ankle like that, let your achilles tendon shoot back like this, and so on), I am following the advice of some <em>new</em> random person on <a href="https://www.reddit.com/r/BarefootRunning/">reddit/r/BarefootRunning</a> who gave the advice, often echoed elsewhere by barefoot-runners, to try and maintain a cadence (steps-per-minute) of at least 180.</p>
+<p>That sounds pretty high for a normal person like me, but it turns out that when I do that, and I try at the same time to run as silently as possible (I often just APPEAR right beside someone, hehe), my legs and feet figure out their elastic bio-kinematics all by themselves.</p>
+<p>As yet another random reddit expert (I wish I could find the post) quipped:</p>
+<blockquote>
+<p>You can’t overthink proprioception.</p>
+</blockquote>
+<p>(that’s a running nerd joke)</p>
+<h1 id="i-know-kung-fu">I know Kung Fu</h1>
+<p>Do you remember this scene from The Matrix (1999)?</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/V8ZdGmgj0PQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>The other day at the <a href="/2018/06/03/weekly-head-voices-144-eternal-learner/#reunion">Old People Reunion</a>, friend T. Monster, a highly capable pragmatist but also backyard theoretician, talked about how often it happened these days that you had to deal with some DIY issue, tapped or spoke the question into youtube, watched a video or two, and then fixed the issue like a pro.</p>
+<p>This, along with my recent pseudo-expert repair of a number of stripped cabinet hinge screw holes with tooth picks and cold glue (this works, I kid you not), made me think that, although The Matrix version was perhaps far more spectacular, we in fact now find ourselves in a <em>real, shared reality</em> where a large subset of skills can be acquired <em>a la carte</em>.</p>
+<p>Some may take longer than a few minutes, but it still is pretty amazing how far YouTube has managed to democratise so many different forms of modern Kung Fu.</p>
+<p> </p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #122: Thanks Pythagoras.</title><link>https://cpbotha.net/2017/06/11/weekly-head-voices-122/</link><pubDate>Sun, 11 Jun 2017 13:14:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/11/weekly-head-voices-122/</guid><description> Pink sunset, as they do here in my backyard.
+Welcome back everyone!
+During a brilliant breakfast chat with friends who are visiting from afar, friend S (now 16.67% name-dropped) admitted that the WHV, strange unfocused mishmash of thoughts that it is, contributed positively to his information diet.
+In spite of this admission adding to my already considerable posting anxiety, I am enormously grateful for the encouragement. I often worry about this mishmash, as I also aspire to enter the fabled halls of A-list bloggers one day.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/swest_pink_sunset.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/swest_pink_sunset-1024x768.jpg"
+        
+            alt="Pink sunset, as they do here in my backyard."/> </a><figcaption>
+            <p>Pink sunset, as they do here in my backyard.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back everyone!</p>
+<p>During a brilliant breakfast chat with friends who are visiting from afar, friend S (now 16.67% name-dropped) admitted that the WHV, strange unfocused mishmash of thoughts that it is, contributed positively to his information diet.</p>
+<p>In spite of this admission adding to my already considerable posting anxiety, I am enormously grateful for the encouragement. I often worry about this mishmash, as I also aspire to enter the fabled halls of A-list bloggers one day.</p>
+<p>Perhaps I should just embrace the mishmash. Again.</p>
+<p>In this edition of the mishmash, I extremely sparsely review the weeks from Monday May 8 to Sunday June 11.</p>
+<p>During our weekly extra math, science and philosophy lessons, GOU#1 (now 11 years old) and I arrived through serendipity at the topic of Pythagoras. Her mind almost visibly expanded when she discovered the relationship between the 9, 16 and 25 square adjacent squares I drew for her on the 3-4-5 example triangle. Her eyes went wide when I explained that this works for <em>any</em> right-angled triangle.</p>
+<p>She was soon happily squaring, adding (long-form on paper of course) and square-rooting away on geometry problems.</p>
+<p>Seeing your own child discover the beauty that is math is brilliant.</p>
+<p>After complaining about <a href="/2016/11/27/android-security-in-2016-is-a-mess/">subpar android security</a> and <a href="/2017/02/12/android-vs-iphone-performance-a-quick-note/">dismal android performance</a> on this blog, I finally decided to bite the bullet and acquired a second-hand iPhone 6S 64GB on May 10, 2017. The phone is in mint condition, and the price was excellent.</p>
+<p>So far, the performance is substantially better than any of my previous Androids. In fact, so far I’ve never had to wait for anything on this phone, which was my main issue with the Androids. (Google Maps anyone?!) Besides that, when Apple pushes a software update, all phones immediately get that update, without interference from any third parties, including carriers.</p>
+<p>(A word to the wise: There is no official way to transfer your complete WhatsApp message history from Android to iPhone, which was a huge disappointment. There are unofficial, closed-sourced, solutions that require one to connect one’s Android phone in USB debugging mode to the PC. That risk is a bit too great for me.)</p>
+<p>After a period of rest, <a href="http://visible-orbit.org/">the Visible Orbit website</a>, including the <a href="http://visible-orbit.org/the-collection/high-res-section-stacks/">high-resolution microscopic slice data and viewer</a>, is online again! It was quite satisfying getting all of the backed-up data back on the interwebs again.</p>
+<p>Since the previous WHV (well actually mainly during the last week), I’ve published five posts on my nerd blog:</p>
+<ul>
+<li><a href="https://vxlabs.com/2017/06/03/bitcoin-and-the-blockchain-in-10-minutes/">Bitcoin and the blockchain in 10 minutes</a> – I extracted this from <a href="/2016/07/25/weekly-head-voices-110-satoshi/">WHV #110</a>, because I’ve been spending way too much time on various blockchains (read: cryptocurrencies) and was planning more nerdy blog posts over here.</li>
+<li><a href="https://vxlabs.com/2017/06/03/querying-restful-webservices-into-emacs-orgmode-tables/">Querying RESTful webservices into Emacs orgmode tables</a> – Here I combined two of my obsessions, one old (Emacs) and the other new (cryptocurrencies) to show how you could pull live ticker data (prices) into your Emacs.</li>
+<li><a href="https://vxlabs.com/2017/06/06/setting-up-fastcgi-apps-on-webfaction/">Setting up FastCGI apps on WebFaction</a> – I love it when work leads to spin-off blog posts! In this case, to get the visible-orbit high-res slice viewer working on WebFaction, I had to jump some hoops. This post shows you how to jump them too.</li>
+<li><a href="https://vxlabs.com/2017/06/07/adding-page-sidebar-to-wordpress-twenty-seventeen-theme/">Adding page sidebar to WordPress Twenty Seventeen theme</a> – Intellectually the least interesting, but still a visible-orbit spin-off that might help at least one other person. I’m crossing my fingers.</li>
+<li><a href="https://vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/">Extracting the Jaxx 12-word wallet backup phrase</a> – After a few hours of analysis on Saturday (yesterday), I discovered a serious vulnerability in a popular multi-cryptocurrency wallet. The post has been picked up by a number of other blogs, and has caused good discussion on the various social media outlets.</li>
+</ul>
+<p>Three of those five posts have to do with cryptocurrency, which is to a certain extent a reflection of my free-time mental cycles at the moment. Looking at how technology such as <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> and its Smart Contracts (a Smart Contract blog post is currently forming in the back of my head…) seem to be breaking through, I can’t help but be reminded of stories such as those by Charlie Stross in <a href="https://en.wikipedia.org/wiki/Accelerando">Accelerando</a> (at least the first bits).</p>
+<p>Do we find ourselves at the start of something truly significant, or is this just an extremely elegant and high-tech dead-end?</p>
+<p>What a time to be alive!</p>
+<p>P.S. Here, have another outdoorsy photo on the house!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/06/IMG_0109.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/06/IMG_0109-1024x768.jpg"
+        
+            alt="I tricked GOU#1 and GOU#2 to join me on a sneakily long mountain walk. They did a sterling job."/> </a><figcaption>
+            <p>I tricked GOU#1 and GOU#2 to join me on a sneakily long mountain walk. They did a sterling job.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item></channel></rss>

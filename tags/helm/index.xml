@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>helm on voices in my head</title><link>https://cpbotha.net/tags/helm/</link><description>Recent content in helm on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 29 Nov 2020 09:50:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/helm/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #210: MiniBurn 2020</title><link>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</link><pubDate>Sun, 29 Nov 2020 09:50:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</guid><description> Welcome back to the WHV blogging clubhouse, gang!
+Somewhat inspired by Descartes, I can say with a fair amount of confidence that you are now reading these words, and for that I am grateful.
+This post covers the weeks from Monday, November 9 to Sunday, November 22 of the year 2020.
+papercite_static: put some bibtex into your Hugo After languishing for almost a year on my todo list, I finally got around to cleaning up and making available my Python script for embedding your BiBTeX bibliographies in your markdown files.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="dirt_road_to_stanford.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_800x0_resize_q75_box.jpg"
+            
+
+        /> </a>
+</figure>
+
+<p>Welcome back to the WHV blogging clubhouse, gang!</p>
+<p>Somewhat inspired by Descartes, I can say with a fair amount of confidence that
+you are now reading these words, and for that I am grateful.</p>
+<p>This post covers the weeks from Monday, November 9 to Sunday, November 22 of
+the year 2020.</p>
+<h2 id="papercite-static-put-some-bibtex-into-your-hugo">papercite_static: put some bibtex into your Hugo</h2>
+<p>After languishing for almost a year on my todo list, I finally got around to
+cleaning up and making available my Python script for embedding your BiBTeX
+bibliographies in your markdown files.</p>
+<p>The script is called <a href="https://github.com/cpbotha/papercite%5Fstatic">papercite_static</a>, because it was inspired by <a href="https://wordpress.org/plugins/papercite/">the papercite
+Wordpress plugin</a> that I previously used, but it was built for use in static
+websites.</p>
+<p>Catchy right?</p>
+<p>This is pretty useful when you are academically inclined, or just really like
+managing BiBTeX files.</p>
+<p>If you&rsquo;re one of those people, you can go check it out at <a href="https://github.com/cpbotha/papercite%5Fstatic">the papercite_static
+github page</a>.</p>
+<h2 id="save-image-from-clipboard">save_image_from_clipboard</h2>
+<p>From the Department of Catchy Names, the same one that brought you the script
+above, comes <a href="https://github.com/cpbotha/save%5Fimage%5Ffrom%5Fclipboard">save_image_from_clipboard</a>!</p>
+<p>I wrote this to scratch my own extremely niche itch (scranitch-ware!), but it
+could be useful in other slightly less niche contexts.</p>
+<p>My Emacs is configured with the org-download package so that I can use any
+system tool to screenshot an arbitrary region of my screen to the clipboard,
+and then tell Emacs to attach whatever is in the clipboard to the current
+Orgmode heading.</p>
+<p>This is something I use really often during daily note-taking and task
+management.</p>
+<p>The org-download package expects a PNG image to be available on the
+clipboard. When this is not the case, because the screenshotting or other image
+copying workflow instead copied a JPG or a BMP (long story, starts with a W,
+ends with SL&hellip;), I get a blank attachment which makes me sad, and costs me
+more time.</p>
+<p>On macOS, I used <a href="https://github.com/jcsalterego/pngpaste">pngpaste</a> for this, a tool that ensures that whatever image
+format is in the clipboard gets converted to PNG.</p>
+<p>Well, <a href="https://github.com/cpbotha/save%5Fimage%5Ffrom%5Fclipboard">save_image_from_clipboard</a> does exactly this, and a little more by simply
+converting whatever&rsquo;s on the clipboard to the format that you specify.</p>
+<p>This has already saved me countless SECONDS of time, and a substantial amount
+of frustration.</p>
+<p>P.S. I&rsquo;ve again been spending more hobby time with <a href="https://nim-lang.org/">nim</a>, which would have
+resulted in a much smaller and faster binary in this case, but the Python
+version wrote itself fairly quickly, with both of my hands behind my back.</p>
+<p>P.P.S. nim is <em>so</em> hard to resist, in spite of what <a href="/2019/04/15/weekly-head-voices-169-a-cunning-plan/#nimfatuation-is-now-over">I wrote about nimfatuation
+being over, back in WHV #169</a>. It combines much of the expressiveness and some
+of the batteries-included of Python, paired with the generation of tiny
+self-contained binaries.</p>
+<h2 id="my-emacs-is-now-all-in-on-ivy">My Emacs is now all-in on Ivy</h2>
+<p>As you will <em>most probably</em> remember from <a href="/2019/05/22/weekly-head-voices-171-icemirb/#you-can-easily-dired-jump-to-the-currently-ivy-readd-file-in-emacs">WHV #171</a>, my Emacs configuration used
+a mishmash of <a href="https://github.com/emacs-helm/helm">Helm</a> and <a href="https://github.com/abo-abo/swiper">Ivy</a>.</p>
+<p>Helm and Ivy are two great, but different, examples of Emacs completion /
+selection frameworks, something that is really important to any disciple of
+this amazing religion.</p>
+<p>In something that is probably some sort of reflection of my character, I was
+happily using both of them simultaneously for quite a while.</p>
+<p>However, waking up one morning with the realisation that this was yet another
+small context switch that was costing me time and focus, in one of my highest
+ROI tool workflows to boot, I decided that it was time to excise Helm from my
+configuration.</p>
+<p>Fast-forward a few hours of Lisp-driven terraforming, and I was all-in on my
+Ivy.</p>
+<p>During this terraforming I ran into some undesired behaviour in ivy-rich, which
+resulted first in me writing <a href="https://vxlabs.com/2020/11/15/fix-ivy-rich-switch-buffer-directories-display-in-emacs/">a blog post documenting the work-around</a>, then
+noticing that ivy-rich&rsquo;s astute author had subsequently integrated part of my
+fix, and finally authoring a <a href="https://github.com/Yevgnen/ivy-rich/pull/92">github pull request (PR)</a>, merged shortly after to
+fix the remaining issues.</p>
+<p>P.S. I sometimes wonder whether people outside of the open source world
+understand how much github contributed to the software world by streamlining
+the process whereby random developers are able to contribute lines of source
+code into open source projects like this.</p>
+<p>WELL DO YA?!</p>
+<h2 id="mynoise-dot-net-is-an-amazing-soundscape-generator">mynoise.net is an amazing soundscape generator</h2>
+<p>In the past few weeks, Lazar Focus has rescued my days so often.</p>
+<p>What usually happens is that I get distracted&hellip; no wait, I fall down a
+rabbit-hole&hellip; no wait, I actually get violently pulled into a rabbit
+<strong>singularity</strong> from whence no productivity can escape.</p>
+<p>The best I can do at that point, is to pour all will power into my puny arm and
+click on that FOCUS button in Lazar Focus, at which point it instantly kills
+everything that&rsquo;s sapping my attention, and then I again have a chance to save
+the day.</p>
+<p>Thanks to a recommendation by Noeska which ended up languishing in my
+sub-conscious but then fortunately managed to bubble to the top, I found myself
+on a wonderful site called <a href="https://mynoise.net/">myNoise</a>.</p>
+<p>This is the creation of <a href="https://stephanepigeon.com/">Dr. Ir. Stéphane Pigeon</a>, a research engineer &amp; sound
+designer from Belgium, who has combined noise generation as well as a library
+of the highest quality recording of samples from the world over with a system
+for composing these into the most amazing sound-scapes.</p>
+<p>Why is this interesting, you might ask?</p>
+<p>Well, in one&rsquo;s quest to block distractions of all kinds, finding the perfect
+aural stimulus that is pleasant, but does not soak up attention itself, and is
+also able to mask both external and internal (tinnitus, e.g.) sounds, myNoise
+is exactly what the doctor ordered!</p>
+<p>To give you a taste of Dr Pigeon&rsquo;s attention to detail, see for example the
+<a href="https://mynoise.net/NoiseMachines/singingBowlsDroneGenerator.php">singing bowls generator</a>, and then the <a href="https://mynoise.net/NoiseMachines/enliaVocalSoundscape.php">Free-falling with vocalist Enlia
+soundscape</a>.</p>
+<p>Notice that in both cases you are able to customise different elements of each
+soundscape with the sliders, or even press <code>A</code> to have them animate randomly
+over time, morphing the landscape as you work.</p>
+<p>What I only recently learned, is that Dr Pigeon designed the soundscapes to
+work also simultaneously. In other words, keep the two soundscapes above open
+in two browser tabs, and note how wonderfully they mesh.</p>
+<p>It really feels like my brain is starting to associate high attention mode with
+the mynoise soundscapes.</p>
+<p>Between that and LF, we might be going places!</p>
+<p>P.S. Narrator: <em>Yes, he did make a small donation to mynoise, and based on the
+value he has derived since, will probably make another.</em></p>
+<h2 id="what-does-it-mean-for-humanity-when-the-ai-can-derive-your-talking-face-from-your-voice-alone">What does it mean for humanity when the AI can derive your talking face from your voice alone?</h2>
+<p>You might have read about <a href="https://www.theverge.com/2020/10/5/21502003/nvidia-ai-videoconferencing-maxine-platform-face-gaze-alignment-gans-compression-resolution">NVIDIA&rsquo;s new AI-based video conferencing bag of
+tricks, called Maxine</a>.</p>
+<p>An interesting part of this is that they use a technique, similar to deepfakes,
+to send only the pose of your face over the internet, and then reconstruct a
+high quality version of it on the other side.</p>
+<p>From the article:</p>
+<blockquote>
+<p>&ldquo;Instead of streaming the entire screen of pixels, the AI software analyzes the
+key facial points of each person on a call and then intelligently re-animates
+the face in the video on the other side,&rdquo; said the company in a blog
+post. &ldquo;This makes it possible to stream video with far less data flowing back
+and forth across the internet.&rdquo;</p>
+</blockquote>
+<p>This made me think:</p>
+<p>Soon the AI will be good enough that it can reconstruct your face from just the
+audio, or maybe even text that you type.</p>
+<p>This idea started as a half-serious joke, but it does raise really interesting
+questions around the implications of this technology. (BTW, it is technically
+entirely possible.)</p>
+<p>If you&rsquo;re having a conversation with someone, and both of your faces are
+indistinguishable <em>simulations</em> of the real thing, and hence help the quality
+of the conversation, what does that mean for the conversation that&rsquo;s happening?</p>
+<p>In other words, imagine for a second that you&rsquo;re having an intense (emotional)
+conversation with someone, but the faces that both of you are seeing, are 100%
+synthesised.</p>
+<p>They reflect almost exactly how your faces would have looked had you had a
+video link, but they are estimated by the AI.</p>
+<p>Did you really have that intense conversation?</p>
+<h2 id="miniburn-2020">MiniBurn 2020</h2>
+<p>As you might remember from <a href="/2020/03/24/weekly-head-voices-191-covid-19-part-1/#sht-gets-real-in-mzansi">WHV #191</a>, AfrikaBurn 2020 was one of the first group
+events down here that was cancelled by the pandemic.</p>
+<p>Months after that, and with stats looking almost reasonable, the local subset
+of our camp (THE BURNIVERSITY) decided to celebrate life together, as
+responsibly as possible (which mostly comes down to: stay outside, keep your
+distance), by gathering at some secret but beautiful location for the weekend.</p>
+<p>(You might have deduced by now that this is one of those Burny situations where
+I have no choice but to keep things as vague as they are. I still wanted to
+write <strong>something</strong> as a beacon for future me. Future me, when you read this:
+Read our private notes man. I left you something there.)</p>
+<p>We sort of modeled the weekend like a whole Burn: Friday is arrival, setup, and
+first small celebrations. Saturday represents the body of the week: Running,
+workshops, celebration. Sunday is, just like it is for the full Burn, the
+slightly depressing but already nostalgic clean-up, pack-up and leave the
+desert stage. It&rsquo;s surprising how well this whole sequencing worked.</p>
+<p>Thanks to the awe-inspiring talents of specific camp members, the cuisine was
+divine and the music beautiful. Combined with the personalities and shared
+memories of our small ensemble, the resultant experience was nothing short of
+magic.</p>
+<p>P.S. Ironically, <a href="/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/#thank-you-joris">GU43 <strong>is</strong> turning into the 2020 soundtrack that I wanted</a>.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #171: ICEMiRB.</title><link>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</link><pubDate>Wed, 22 May 2019 22:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</guid><description> Down here, you never know what sort of fantastic beasts you could run into. I met this particular fullmetal creature right about here.
+Dear friends,
+In this post, I do a particularly lossy review of my trip through time, from Monday May 6 to Sunday May 19, 2019.
+First we talk about sleep, then a long part on technical tricks, then a slightly more backyard philosophical piece on human tool sharpening, and finally the announcement of a new academic event somewhere in the far or near or medium term future.</description><content:encoded><![CDATA[ <figure>
+<a href="fullmetal_baboon.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+
+
+</a>
+<figcaption>
+<p>Down here, you never know what sort of fantastic beasts you could run into. I
+met this particular fullmetal creature <a
+href="https://goo.gl/maps/KpcQGa6hEcbd87mF7">right about here</a>.</p>
+</figcaption>
+</figure>
+<p>Dear friends,</p>
+<p>In this post, I do a particularly lossy review of my trip through time, from
+Monday May 6 to Sunday May 19, 2019.</p>
+<p>First we talk about sleep, then a long part on technical tricks, then a
+slightly more backyard philosophical piece on human tool sharpening, and
+finally the announcement of a new academic event somewhere in the far or near
+or medium term future.</p>
+<h1 id="sleep">Sleep.</h1>
+<p>If you were one of the people who found themselves in my company for more than
+about 10 nanoseconds during the past weeks, I probably tried to get you to
+listen to <a href="/2019/05/07/weekly-head-voices-170-yeet/#the-easiest-but-most-high-impact-measure-you-can-take-to-not-die-too-soon-go-to-bed-on-time">the 6-hour long podcast between Peter Attia and Matthew Walker on
+the topic of
+sleep</a>.</p>
+<p>Usually I&rsquo;m able to get something sufficiently out of my system by writing
+about here. I do this quite deliberately to try and spare my innocent
+bystanders.</p>
+<p>This time, either it didn&rsquo;t really help, or I underestimate how much I would
+have blabbed about it had I not let off some of the sleep steam here.</p>
+<p>IN ANY CASE&hellip;</p>
+<p>During the past weeks I have been paying more attention than usual to sleep, in
+terms of quality, quantity and consistency.</p>
+<p>Because I also decided to take more notes than usual during the day, I could
+see quite acutely the effects of good sleep vs bad sleep on my performance and
+energy levels the next day.</p>
+<p>If sleep was good the night before, my exercise the next day seemed to take
+much less effort, I still seemed to have more than enough energy at the end of
+the afternoon, and, most importantly, I had almost no trouble with that
+ever-important f-word:</p>
+<blockquote>
+<p>FOCUS.</p>
+</blockquote>
+<p>Conversely, if I let sleep-onset slip by as little as half an hour, my brain
+would be in three thousand pieces by three &lsquo;o clock the next afternoon.</p>
+<p>It is starting to dawn on me that all of those evenings where I tried to borrow
+an hour or even two from my sleep had a far greater cost the day after than I
+ever realised.</p>
+<p><strong>I can only conclude, that to experience the highest quality and intensity
+waking hours, one simply has no choice but to pay the full 33% sleep tax.</strong></p>
+<h2 id="damnit-coffee">Damnit coffee.</h2>
+<p>Caffeine has a quarter life of 12 hours.</p>
+<p>If you&rsquo;re positively buzzing at 1PM, 25% of that caffeine is still active in
+your system at 1AM and absolutely will interfere with your sleep quality.</p>
+<p>I have compromised by having my last shot before lunch, or in extreme cases
+right after.</p>
+<h1 id="til-things-i-learned">TIL: Things I learned.</h1>
+<p>This WHV is one week late, because it seemed like nothing happened in the first week.</p>
+<p>However, it seems I did learn quite few new technical tricks. In the
+subsections below, I share a selection of these with you.</p>
+<h2 id="remarkjs-is-great-for-quickly-building-technical-presentations">remarkjs is great for quickly building technical presentations.</h2>
+<p>At <a href="https://www.meetup.com/Helderberg-Software-Developers-and-Entrepreneurs/">my favourite local
+meetup</a>,
+I was planning to give a talk on <a href="https://gohugo.io/">Hugo</a>, the static website
+generator which is powering this site, and which I&rsquo;m increasingly using instead
+of wordpress.</p>
+<p>Because every new project is an opportunity to check and perhaps upgrade one&rsquo;s
+tools (see below for how this can also sometimes backfire), I set aside the
+trusty <a href="https://revealjs.com/">reveal.js</a> and <a href="https://github.com/yjwen/org-reveal">ox-reveal Emacs orgmode
+interface</a> I usually bust out, and paddled
+out onto rough internet seas, on the lookout for an alternative solution.</p>
+<p>(Now that I think back, I had no good reason to search for an alternative,
+except that my pre-configured reveal.js style and formatting never made me
+really happy.)</p>
+<p>Fortunately, after not too long I ran into <a href="https://remarkjs.com">remark</a>, an
+HTML- and markdown-based presentation tool that seems simpler than reveal, but
+still quite attractive, as you&rsquo;ll be able to see on the demo site above.</p>
+<p>At this point, I was pleasantly surprised that this distraction had not cost
+more than about 30 minutes.</p>
+<p>At least, that <em>was</em> the case until I ran into <a href="https://github.com/torgeir/remark-mode.el">remark-mode for
+Emacs</a>!</p>
+<p>As you can see from the screenshot, this enables a pretty smooth
+generate-as-you-type workflow.</p>
+<p>Also noteworthy, is the great built-in presenter mode. Press <code>C</code> to clone the
+window into a new linked presentation which you can move off to the external
+display, and then press <code>P</code> to switch to presenter mode where you can see all
+of the comments you have left in the markdown.</p>
+<p>I made two small fixes in <a href="https://github.com/cpbotha/remark-mode.el">my own
+fork</a> to enable seeding with your
+own HTML template, and to enable the generate-as-you-type to work also on
+straight <code>.md</code> files. I prefer keeping my presentations as <code>.md</code> (vs <code>.remark</code>)
+as most of the search logic I have built in Emacs assumes <code>.org</code> and <code>.md</code>
+files for my notes.</p>
+<p>By choosing remarkjs instead of my existing revealjs workflow I did manage to
+exhaust the short block of time I had allocated to prepare for the talk, and so
+the talk morphed into a more spontaneous affair, dealing with orgmode, remarkjs
+and in the end, also a bit of hugo.</p>
+<h2 id="pybtex-is-a-pure-python-bibtex-parser-and-renderer">pybtex is a pure-Python bibtex parser and renderer.</h2>
+<p>One of the sites getting the wordpress-to-hugo upgrade treatment was my
+internet persona placeholder, the almost completely unknown
+<a href="https://charlbotha.com/">charlbotha.com</a>.</p>
+<p>The upgrade of this tiny site would have gone quite easily, were it not for the
+fact that I was using the wordpress papercite plugin to publish a list of all
+of the publications, including fulltexts in most cases, that I&rsquo;ve had the
+pleasure to be involved in over the years.</p>
+<p>I could not find any tool which could give me exactly the sort of publication
+lists that papercite was able to.</p>
+<p>To me it was clear that yet another tool was required. (&ldquo;my god, it&rsquo;s full of biases!&quot;)</p>
+<p>Fortunately, <a href="https://mentat.za.net">@stefanvdwalt</a> very quickly pointed me at
+the Python package <a href="https://pybtex.org">pybtex</a> when he saw that I was
+careening off into the dark side with <a href="https://citation.js.org">citation.js</a>.</p>
+<p>A few hours later I had built a script which was able to eat my
+Zotero-generated bibtex file and spit out different lists of publications with
+linked PDFs straight into a Hugo-edible markdown file.</p>
+<p>See <a href="https://charlbotha.com/publications/">charlbotha.com/publications</a> for the
+result.</p>
+<p>P.S. Making it available to a broader audience is on my todo-list.</p>
+<h2 id="asciidoc-is-one-of-your-best-choices-to-write-software-manuals">asciidoc is one of your best choices to write software manuals.</h2>
+<p>We are currently working hard towards the release of version 2.0 of our
+flagship FDA-certified cardiology product,
+<a href="https://www.telesensi.com">TeleSensi</a>.</p>
+<p>Because updating the user manual with every release is not as fun as it could
+be, I had the idea to convert the doc-format source file to some text-based
+document authoring system.</p>
+<p>Again, in spite of past positive experience writing manuals with
+<a href="http://docutils.sourceforge.net">reStructuredText</a> and LaTeX, I made use of
+the opportunity to try out
+<a href="https://asciidoctor.org/docs/what-is-asciidoc/">asciidoc</a>.</p>
+<p>In <em>this</em> case, I am happy to report that the choice of asciidoc ended up
+beating all of the alternatives by a mile.</p>
+<p>I started by <a href="https://pandoc.org">pandoc</a>-ing the docx to asciidoc, and then
+manually (ha ha, it&rsquo;s a joke we writers tell) fine-tuned the document until, in
+a few hours, the new manual looked significantly better than the original.</p>
+<p>Long story short, our manual is now part of the software source repository and
+hence version-locked, it can be automatically built for new releases, and parts
+of the manual can be linked programmatically to form parts of our compliance
+documentation.</p>
+<p>With the manual now essentially being a software construct, there are many more
+tricks we can do (and already do, but I&rsquo;m not allowed to say much more).</p>
+<h2 id="you-can-build-self-contained-installers-with-legacy-non-modular-apps-and-recent-modular-java">You can build self-contained installers with legacy non-modular apps and recent modular Java.</h2>
+<p>In a rather surprising (to me) turn of events, I had to convert some legacy
+(read: non-modular) Java code from a product component to a self-contained
+installer on Windows and macOS so that our users never even have to <em>think</em>
+about JREs.</p>
+<p>It&rsquo;s possible that the following magical recipe could help you, should you ever
+find yourself in a similar predicament:</p>
+<ul>
+<li>Install <a href="https://adoptopenjdk.net">AdoptOpenJDK</a> 11 (LTS)</li>
+<li>Retrieve and extract this <a href="https://mail.openjdk.java.net/pipermail/openjfx-dev/2018-September/022500.html">backport of the new
+javapackager</a>
+from the yet to be released Java 13 into your OpenJDK 11.</li>
+<li>Build your legacy <a href="https://imagej.net/Uber-JAR">uber-JAR</a> with the freshly
+installed OpenJDK11.</li>
+<li>Use <code>jdeps</code> to determine the list of modular dependencies of your uber-JAR.</li>
+<li>Armed with this knowledge, build a mini java-runtime using <code>jlink</code>.</li>
+<li>Now feed your uber-jar and the freshly created java-runtime to <code>jpackager</code> in
+order to construct a fully self-contained executable or platform-specific
+installation package.</li>
+</ul>
+<p>Much, but not all, of that comes from <a href="https://medium.com/@adam_carroll/java-packager-with-jdk11-31b3d620f4a8">this blog
+post</a>.</p>
+<h2 id="you-can-easily-dired-jump-to-the-currently-ivy-readd-file-in-emacs">You can easily dired-jump to the currently ivy-read&rsquo;d file in Emacs.</h2>
+<p>I mix and match <a href="https://github.com/abo-abo/swiper">ivy</a> and
+<a href="https://github.com/emacs-helm/helm">helm</a> in my Emacs.</p>
+<p>When you&rsquo;re helming for a file, you can usually press <code>F5</code> to open dired
+(Emacs&rsquo;s built-in filemanager) on that file&rsquo;s directory.</p>
+<p>This is quite convenient, and something I was missing in ivy, which I use for
+example as part of <code>find-file-in-project</code>.</p>
+<p>Weeeeell, by adding the following to your <code>init.el</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; for any ivy-read, press M-o to get action menu,</span>
+<span style="color:#93a1a1;font-style:italic">;; then &#39;d&#39; to start dired with that file selected</span>
+(<span style="color:#268bd2">ivy-add-actions</span>
+ <span style="color:#268bd2">t</span> <span style="color:#93a1a1;font-style:italic">;; add for all types</span>
+ <span style="color:#93a1a1;font-style:italic">;; (cdr x) gets the full filename, not just relative</span>
+ `((<span style="color:#2aa198">&#34;d&#34;</span> ,(<span style="color:#cb4b16">lambda</span> (<span style="color:#268bd2">x</span>) (<span style="color:#268bd2">dired-jump</span> <span style="color:#268bd2">nil</span> (<span style="color:#268bd2">cdr</span> <span style="color:#268bd2">x</span>))) <span style="color:#2aa198">&#34;dired&#34;</span>)
+   ))
+</code></pre></div><p>&hellip; you get to select <code>d</code> from the <code>M-o</code> action menu to <code>dired-jump</code> (a
+wonderful command by itself, usually bound to <code>C-x C-j</code>) to the currently
+focused file.</p>
+<h1 id="sharpening-these-rocks">Sharpening these rocks.</h1>
+<p>All of that brings us to this.</p>
+<p>I spent quite a few hours last week performing meta-work: That is, not doing
+the work itself, but rather sharpening the tools required to do that work.</p>
+<p>As with all important matters, there&rsquo;s an XKCD comic about this topic too:</p>
+<figure>
+<a href="https://xkcd.com/1205/">
+<img src="https://imgs.xkcd.com/comics/is_it_worth_the_time.png" alt="xkcd on
+tool sharpening">
+</a>
+<figcaption>
+Incredibly useful visualization by XKCD: How much time will your tool
+sharpening save per event, and how frequently does that event occur? The
+cross-indexed block is how much time this could save you over 5 years.
+</figure>
+<p>Besides the mostly defensible tricks mentioned in the previous section, I did
+also invest hours in attempting to update the mobile and email-based parts of
+my personal knowledge management strategy (because
+<a href="/2019/04/27/new-laptop-2019/">Windows</a>), but these hours led to a less than
+satisfactory solution.</p>
+<p>If I have to be honest, it feels like those hours were wasted, although it was
+impossible to say beforehand that the effort to outcome ratio was going to be
+that bad.</p>
+<p>(To make it all a bit more interesting, a few days later some of the dead-ends
+explored during those wasted hours led to coincidental improvements of other
+frequently occurring (on the order of 5 times per day) components of my
+workflow.)</p>
+<p>Some folks double down on their workflows, rather taking the small hits and
+spending the time doing their actual work.</p>
+<p>I find it difficult to resist an opportunity for streamlining.</p>
+<p>Sometimes this pays off, not in the least because of the compounding effects of
+frequently applicable optimisations, and other times I fall down the rabbit
+hole.</p>
+<p>In my dreams, I am able to reach a sort of workflow optimisation pinnacle,
+where all inefficiencies have been excised from the system. In reality, goal
+posts like to move it move it, and so the scramble never ends.</p>
+<p>How do you approach this?</p>
+<h1 id="icemirb">ICEMiRB</h1>
+<p><em>The International Conference on Emacs, Minimal Running and Blogging</em>, or
+ICEMiRB, is a new meeting of minds and legs that the aforementioned and
+indomitable <a href="https://mentat.za.net">@stefanvdwalt</a> and I are currently bouncing
+around.</p>
+<p>I actually just want the t-shirt, but the more I think about this, the more I
+think it&rsquo;s something that one day really has to happen.</p>
+<p>Please let me know in the comments if you would be interested in taking part.</p>
+<p>I imagine we will go all out in terms of the various forms of attendance and
+participation that we accommodate.</p>
+<p>Have a beautiful week folks, I hope to see you again soon!</p>
+<h2 id="ps">P.S.</h2>
+<p>@stefanvdwalt just reminded me that Mindfulness is to be the fourth main topic
+of the ICEMiRB.</p>
+<p>Because the acronym is already of substantial girth (yes, we know that
+Mindfulness and Minimal could co-habit the same part of the
+acronym. coincidence?!), we will try to settle for one of two conference
+taglines:</p>
+<blockquote>
+<p>ICEMiRB - A Mindful(TM) Conference.</p>
+</blockquote>
+<p>or</p>
+<blockquote>
+<p>ICEMiRB - The Mindfulness is silent.</p>
+</blockquote>
+<p>or not.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #138: Born to run.</title><link>https://cpbotha.net/2018/04/02/weekly-head-voices-138-born-to-run/</link><pubDate>Mon, 02 Apr 2018 08:13:12 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/04/02/weekly-head-voices-138-born-to-run/</guid><description> I am currently in a place with no to extremely little internet. Just getting the photo above uploaded was an adventure.
+I briefly debated breaking my current WHV posting streak due to exceptional circumstances, but decided against it, at least for now.
+Anyways, I might have no internet, but the scenery here is phenomenal.
+(It later turned out that just getting this blog post uploaded on Sunday evening was not going to happen.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/04/mystery_place.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/04/mystery_place-1024x575.jpg"
+        /> </a>
+</figure>
+
+<p>I am currently in a place with no to extremely little internet. Just getting the photo above uploaded was an adventure.</p>
+<p>I briefly debated breaking my current WHV posting streak due to exceptional circumstances, but decided against it, at least for now.</p>
+<p>Anyways, I might have no internet, but the scenery here is phenomenal.</p>
+<p>(It later turned out that just getting this blog post uploaded on Sunday evening was not going to happen.)</p>
+<h1 id="sometimes-focus-falls-and-slips-into-emacs">Sometimes focus falls and slips into Emacs</h1>
+<p>During the past week I had a fairly difficult technical puzzle to deal with. It’s one of those puzzles that can only be solved with multiple days of research and concerted focus.</p>
+<p>It’s funny how my mind manages to sort of slip away when faced with these sorts of puzzles where the solution, if it even exists (this is probably the main reason for the continual slippage), seems to be weeks away, instead of a few hours or days.</p>
+<p>It’s like a usually sharp(ish) knife which simply refuses to bite into the thing that I so desperately want to cut with it.</p>
+<p>In my specific case, especially later in the afternoons when prefrontal cortex is long-gone, mindlessly drinking its beer while staring into space somewhere, or even later in the evenings when everyone else is also drinking beer while staring into space, I wake up to find myself working on some obscure Emacs hack.</p>
+<p>This week, primary thought slippage resulted in:</p>
+<ul>
+<li>Hooking up my emacs, via <a href="http://pragmaticemacs.com/emacs/find-and-open-files-from-anywhere-with-helm-for-files/">helm-for-files</a> with mdfind (the command-line interface to spotlight) on macOS and the tracker file indexer on Linux. This means that with a simple press of the <code>C-x c o</code> keys, I can instantly open any file in Emacs which is already open somewhere, which I’ve recently worked on, whose filename faintly resembles what I’m typing, whose contents (or tags) faintly resembles what I’m typing, no matter where that file is hiding in the hundreds of gigabytes on my SSD.</li>
+<li>My efforts getting the above working for Linux are <a href="https://github.com/emacs-helm/helm/pull/2005">now part of helm</a>, via the wonderful system of github pull requests.</li>
+<li>Setting up <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">Emacs dired</a> to do rsync-based network copying in the background, which culminated in <a href="https://github.com/tmtxt/tmtxt-dired-async/pull/6">a github contribution</a> which will hopefully also find its way into the main repository soon. (I do most of my <strong>serious</strong> file management in Emacs dired. You should try it.)</li>
+</ul>
+<h1 id="the-running-people">The Running People</h1>
+<p>I finally bought <a href="http://www.chrismcdougall.com/born-to-run/">Born to Run by Christopher McDougall</a>.</p>
+<p>In between travelling and other activities, I was not able put this book down.</p>
+<p>As I was reading the final pages on Sunday morning, I had trouble keeping my eyes dry. I had connected with the story and all of its nested stories on so many levels.</p>
+<p>One strand of the story makes the case that humans, or more specifically homo sapiens, had evolved to run its prey down on the savannah.</p>
+<p>We are able to cool ourselves down during running thanks to being mostly hairless and sweaty, whereas an antelope is not able to pant while galloping, and has no choice but to stop.</p>
+<p>So the trick is simple: We can run fast enough to keep a galloping antelope in sight. Eventually it will lose the battle, overheat and collapse.</p>
+<p>This is what homo sapiens did for millions of years for food. <a href="https://en.wikipedia.org/wiki/Neanderthal"><em>Homo neanderthalensis</em></a>, our intelligent and stronger competition who used to dominate during colder times, had no chance.</p>
+<p>McDougall connects with a number of scientists and sports trainers to flesh out this part of the story. Below is an interesting (and related) video about Prof Daniel Liebermann and his work on the evolutionary biology and biomechanics of barefoot running:</p>
+<div class="jetpack-video-wrapper">
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7jrnj-7YKZE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
+</div>
+<p>(Being internet-deprived, I’m not currently able to find one of the cited Nature papers discussing other elements of our biology underlining our running heritage. Remind me in the comments so I can update this later.)</p>
+<p>Another strand of the story is about the [Tarahumara of Mexico, also</p>
+<p>known as Rarámuri]<a href="https://en.wikipedia.org/wiki/Rar%C3%A1muri">7</a>, or The Running People, a legendary tribe of natural super athletes who are masters of avoiding other humans (due to past persecution and other shenanigans) and of running 30 miles in the mountains, in sandals.</p>
+<p><em>Even more intriguing than their home-made sandals, is that they run throughout their healthy lives with joy and exuberance.</em></p>
+<p>The final strand I want to mention here, is McDougall’s personal journey from injury-prone runner all the way to finally taking part in the very first edition of a gruelling 50 mile trail race (the centre-piece of the story I would argue), together with the world’s best ultra marathoners and the Taramuhara in the Copper Canyons of Mexico.</p>
+<p>For a large part of this journey, he and a number of other key actors are propelled along by <a href="https://en.wikipedia.org/wiki/Micah_True">Caballo Blanco</a>, the White Horse, a supernaturally gifted runner who lived off the land in the Copper Canyons, and one of the few foreigners who seemed to be completely accepted by the Taramuhara.</p>
+<p>Caballo is the one who managed to bring together, for the first time, the Taramuhara and the best ultra-marathoners in the small town of Urque for this humanity-affirming 50 mile trail run. He did so from his stone hut in the middle of nowhere, from where he would have to run for 30 miles to the closest settlement that had a telephone line that he could use.</p>
+<p>Often that line was down.</p>
+<p>Caballo passed away in 2012, shortly after the first Copper Canyon race. Shortly after, the race was officially dubbed the <a href="https://en.wikipedia.org/wiki/Ultramaraton_Caballo_Blanco">Ultramaraton Caballo Blanco.</a></p>
+<p>Right after I put the book down, I put on my shoes and went for a run</p>
+<p>up the mountain-side and in the valley over here. On the balls of my feet as they landed right under me, really small steps, straight back, trying my best to float over the earth, just like the running people in the book.</p>
+<p>I could not help but smile for most of the way.</p>
+<p> </p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>avocado tree on voices in my head</title><link>https://cpbotha.net/tags/avocado-tree/</link><description>Recent content in avocado tree on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 26 Jan 2019 17:10:31 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/avocado-tree/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.
+Welcome to the first WHV of the year 2019 folks!</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/chicken_potjie_no2.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/chicken_potjie_no2-1024x768.jpg"
+        
+            alt="In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie."/> </a><figcaption>
+            <p>In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to the first WHV of the year 2019 folks!</p>
+<p>In what is hopefully just a minor incident and not a portent of calamitous events to come, we have already skipped the first two weeks of the year, which means this WHV looks back at the three weeks from Monday January 7 to Saturday January 26.</p>
+<p>I guess this would not be the WHV if we did not start off with some sort of awkwardness or miscellaneous embarrassment, so: CHECK!</p>
+<p>Because you are probably thirsty for your WHV now, I tried to write you a long and rambly edition, with pictures! (Because it’s so long and rambly, and because markdown, I have liberally sprinkled with headings and sub-headings, so that those of you with lives outside of blog reading can hop, skip and jump through like the professionals you are.)</p>
+<h2 id="the-future-is-here-long-form-blog-posts-on-the-ipad">The future is here: Long-form blog posts on the iPad.</h2>
+<p>This also would not be the WHV if we did not have some little digital trick to reveal: Today’s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.</p>
+<p>Because I really don’t like the new block-based WordPress 5.0 editor, named in an entirely non-hubristic fashion “Gutenberg”, but it does fortunately support importing markdown formatted blog posts (just make sure you don’t hard-wrap anything), and because I like trying new things, I am typing this on the iPad using the iOS version of <a href="https://www.textasticapp.com/">Textastic</a>.</p>
+<p>A few hours ago, it looked like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/img_0005.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/img_0005-1024x768.png"
+        /> </a>
+</figure>
+</p>
+<p>In contrast to the direct <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">orgmode to wordpress Emacs workflow</a> I normally use, this workflow enables me to copy and paste sections of markdown text into WordPress. Each pasted section is automatically imported as WordPress blocks, based on the markdown structure.</p>
+<p>This means I can position and edit images using the WordPress interface, but author the text using Markdown. With <a href="https://github.com/org2blog/org2blog">org2blog</a> the whole post, including images, has to go through life as an orgmode file, which is brilliant for my more technical posts, but not so much for prose-heavy blog posts such as this one.</p>
+<h3 id="btw-1-why-i-dont-yet-like-the-new-wordpress-editor">BTW 1: Why I don’t (yet) like the new WordPress editor.</h3>
+<p>The old WordPress editor enabled me to focus on the content and just write.</p>
+<p>The new <a href="https://wordpress.org/gutenberg/">Gutenberg editor</a> now wants me to create a bunch of blocks, e.g. paragraph, image, paragraph, bullet list, etc., and then work with those blocks.</p>
+<p>That’s really great if you’re building a site, but not so much when you would just like to get down and write that blog post.</p>
+<p>Although this is now the standard editor in WordPress, there are still bugs, such as the fact that my cursor keeps on jumping to the start of the block while I’m typing, which is not irritating at all, and the not unimportant observation that none of the mobile apps support Gutenberg yet.</p>
+<p>WordPress-using readers, what do you think?</p>
+<p>(P.S. Another just-discovered issue: In Gutenberg, your biggest heading is H2. H1 is not available in the UI normally. When pasting in markdown, H1s do display, but do not show in the type-UI as anything. Here is <a href="https://github.com/WordPress/gutenberg/issues/4234">a confusing Gutenberg bug report</a>.)</p>
+<h3 id="btw-2-why-textastic-aka-at-least-it-will-syntax-highlight-your-orgmode">BTW 2: Why Textastic? (AKA At least it will syntax highlight your Orgmode.)</h3>
+<p>The main reason I found and purchased Textastic, was that I ran into <a href="https://github.com/jezcope/Org.tmbundle">Jez Cope’s github repo</a> with a TextMate Bundle (that’s an editor configuration) that was made for Textastic to support editing Emacs orgmode files.</p>
+<p>As is the age-old open source way, there were a few small bugs which I <a href="https://github.com/jezcope/Org.tmbundle/pull/5">fixed in my fork</a>, which you should definitely get if you are in the same I-want-to-edit-Orgmode-on-my-iOS boat as I am. It’s not a very large boat, but it’s super fun!</p>
+<p>(There is no Emacs on iOS. This is in my view the greatest downside of iOS. It turns out that Apple generally does not allow apps with embedded interpreters on the app store. However, I am still trying to find out why there are no iOS-capable Emacs source code forks available.)</p>
+<h3 id="btw-3-the-ipad-with-keyboard-is-a-shockingly-good-laptop-replacement">BTW 3: The iPad with keyboard is a shockingly good laptop replacement.</h3>
+<p>I recently recommended to a privacy-conscious reader who was searching for an affordable Linux-running laptop in South Africa, that she instead consider buying an iPad with bluetooth keyboard.</p>
+<p>Down here a brand new 2018 iPad costs R5999. A cheap keyboard cover (e.g. Body Glove) can be had for about R860.</p>
+<p>If you compare this to any new laptop of R6900 (about EUR 444) which will probably be sold with Windows included, you get a computing device with a fantastic quality multi-touch screen, great battery life, best-in-class security, almost no maintenance, and a fantastic app ecosystem. To seal the deal, the iPad’s resale value is proportionally probably also much better than that entry-level laptop.</p>
+<p><em>After</em> I sent that email, I started with this iPad + cheap bluetooth keyboard experiment to try it for myself. I have to say that the experience has been way better than I expected.</p>
+<p>For a large subset of laptop users, and for a large subset of workflows and tasks, this is a really great solution.</p>
+<p>Please don’t worry (too much) yet, I am not planning one of those “I switched to an iPad as my main computing device” blog posts. I would not be able to survive without my development tools, and I would especially not be able to survive without my Emacs.</p>
+<h2 id="pv-solar-installation-progress">PV Solar installation progress</h2>
+<p>As I excitedly <a href="/2018/12/19/weekly-head-voices-159-extreme/#extreme-solar">announced in WHV #159</a> (slightly more than a month ago), we had decided that it was time to get a photovoltaic solar power system installed at the house.</p>
+<p>I found a local installer with the required PVGreenCard accreditation and started the consultation process.</p>
+<p>Unfortunately, the installer did not seem to be prepared for a customer that would not stop asking questions. The customer even went so far as to pose questions that challenged the installer’s brand loyalty!</p>
+<p>I really do understand that I’m probably not the easiest end-user, but I don’t think that an expert’s brand loyalty should get in the way of reason, and far more importantly in the way of basic physics.</p>
+<p>To make a long story short, I ended up getting fired by the installer.</p>
+<p>This was probably for the better: He can now continue doing well-practised installs for other clients who don’t ask (so many) questions, and I suddenly had the opportunity to find a new, more engineer-friendly installer, and to continue learning.</p>
+<p>Following are two noteworthy learnings:</p>
+<h3 id="learning-1-you-should-almost-always-try-to-oversize-the-photovoltaic-array">Learning 1: You should almost always try to oversize the photovoltaic array</h3>
+<p>If the equipment states for example 4600kVA, then you are usually quite safe installing from 25% up to 30% more kWp of solar panels.</p>
+<p>Oversizing will mean that on very sunny days you’ll get peaks higher than the maximum rated PV, which can be handled for short periods by the solar equipment, but more importantly, you’ll be able to generate more electricity when there is less sun, which is most of the time.</p>
+<p>In other words, you increase the area under the curve of kW generated per hour.</p>
+<p>By the way, I emailed GoodWe (they make the hybrid inverters I have my eye on) who confirmed that their EM range supports 27.8% oversizing. The ES range advertise 30% PV oversizing on the box.</p>
+<p>It is of course an interesting question what exactly is meant by oversizing. Do they support pumping 30% more power into the inverter for 5 minutes, or for 2 hours?</p>
+<h3 id="learning-2-powerforumcoza-is-a-great-source-of-information">Learning 2: powerforum.co.za is a great source of information.</h3>
+<p><a href="https://powerforum.co.za/">This forum</a> has a surprisingly high signal to noise ratio.</p>
+<p>There are a number of experts hanging around, including one of Victron’s super helpful and knowledgeable R&amp;D engineers, and the archive posts are invaluable as you try to navigate <a href="https://powerforum.co.za/topic/2791-experience-getting-city-of-cape-town-to-sign-off-a-zero-feed-in-system-with-inverter-maximum-output-greater-than-35kva/">the quagmire</a> of often conflicting information.</p>
+<h2 id="avocado-baby-progress-very-much-touch-and-go">Avocado baby progress: Very much touch and go.</h2>
+<p>The baby avocado tree, in spite of being being watered almost every day (thank you rainwater harvest!) does not seem to be doing too well.</p>
+<p>Because the summer sun down here can be quite vicious, the tree has its own little pink umbrella.</p>
+<p>The current plan is to feed it more compost, and, if that fails, to try to transplant it out of the big, wild garden and into a pot with softer, kinder earth.</p>
+<h2 id="how-to-explain-complicated-topics">How to explain complicated topics</h2>
+<p>The international and yearly <a href="https://mlssafrica.com">Machine Learning Summer School took place in Stellenbosch this year</a>, from Monday, January 7 to Friday, January 18.</p>
+<p>As you can see from the programme, there were a bunch of heavy hitting speakers present both physically and virtually, including the super resourceful (failed super resolution pun, su(p)e(r) me) Dr Stefan van der Walt, who gave a talk on good scientific software.</p>
+<p>Anyways, because I am currently in a more commercial configuration, I could not justify taking two weeks out, and instead opted for a day visit at the start of the congress.</p>
+<p>It is a testament to the current prominence of the field that the list of international sponsors included Microsoft, Apple, SAP, Uber <em>and</em> Amazon.</p>
+<p>It was gratifying to experience a sampling of such a well-organized international gathering here in my neck of the woods.</p>
+<p>On the first day, we had a high throughput introduction to causality, probabilistic thinking, and variational inference. All the presenters were clearly good speakers, but they weren’t all equally experienced in teaching such complex material.</p>
+<p>(At one point one of the statisticians I was chatting to in break admitted having difficulty keeping up with the math. I did not feel <strong>that</strong> stupid anymore.)</p>
+<p>“What is the difference between being a good speaker and an experienced teacher?”, you might now ask.</p>
+<p>Great question, I would then say, grateful for the opportunity to explain.</p>
+<p>What I was missing in the one specific case I do not want to be too specific about, was that the presenter did a great job of talking about each of a long list of concepts relevant to his topic, but somehow forgot that one of the most important parts of teaching is communicating the conceptual framework into which all of those concepts fit.</p>
+<p>Conceptual frameworks are also one of those multi-scalar things: Each group of factoids can be gratifyingly embedded into a slightly higher level component, groups of which can be slotted into the overarching “big idea”, or another level of compnonent. (It’s turtles all the way down.)</p>
+<p>As great lecturers talk, they keep on bringing their narrative back up to the higher-level embedding construct.</p>
+<p>It looks something like this:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/teach_complicated_things.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/teach_complicated_things-1024x576.png"
+        
+            alt="Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why."/> </a><figcaption>
+            <p>Yes, I did make this especially for this post, especially for you. No, I am not sure exactly why.</p>
+        </figcaption>
+</figure>
+</p>
+<p>By repeatedly diving deeper into the details, and then following the conceptual link back up to the higher-level constructs and especially your big idea, your listeners will start to see the beautiful fractal of understanding that you are guiding them through.</p>
+<h2 id="what-will-i-be-working-on-this-year">What will I be working on this year?</h2>
+<p>At this moment, 2019 is shaping up to be pretty exciting work-wise.</p>
+<p>We just heard that we will be able to continue for some months more working on the X-Ray based surgical planning project we worked on last year.</p>
+<p>Partly thanks to the great deep learning work of two summer interns (note: Southern Hemisphere means summer interns over December and January, which might be weird if you’re from the Northern Hemisphere) we are in great shape for all of the deep neural network-based image understanding plans we need to execute on.</p>
+<p>This year I will also be spending more time on <a href="https://www.telesensi.com">TeleSensi, our FDA-certified tele-auscultation product</a>. This is less rocket-sciencey than the surgical planning project, but super interesting to work on, as it has many more users on the open market.</p>
+<p>(That being said, we do have plans to increase the level of rocket science significantly. I am not called the science officer for nothing… (well, that and also the fact that I got to choose my own title, and so I chose the same as Spock on the USS Enterprise).)</p>
+<h2 id="do-you-write-stuff-down">Do you write stuff down?</h2>
+<p>You might remember from WHV #155 <a href="https://cpbotha.net/2018/10/12/weekly-head-voices-155-lush/#productivity-pro-tip-fool-yourself-into-doing-a-good-daily-review">my trick of starting the day with a checklist</a>.</p>
+<p>A part of that checklist is a checklist of habits which I try to form and maintain, called The HabitFormer(tm). Every item that I sufficiently address gets a super satisfying little <code>[X]</code> mark, which feels a whole lot better than the sadly empty <code>[ ]</code> construct.</p>
+<p>Here is the current list:</p>
+<ul>
+<li>did you write stuff down?</li>
+<li>are you satisfied with number of pomodori?</li>
+<li>7.5 hrs sleep last night</li>
+<li>meditate &lt;– (WHV <em>hidden</em> pro-tip: Get the <a href="https://wakingup.com/">Waking Up</a> app by Sam Harris. Thanks LM for the fantastic recommendation.)</li>
+<li>stand at desk</li>
+<li>do valuable things</li>
+<li>fruit &amp; veg</li>
+<li>reading</li>
+<li>thinking</li>
+<li>running or other exercise</li>
+</ul>
+<p>Ironically enough, the first item is brand new on the list.</p>
+<p>I somehow forgot my habit of writing, during the day, a little done list / random thoughts lists. After bringing this habit back I noticed what difference it made.</p>
+<p>At regular intervals during the day, I will spend a minute or three writing down what I had completed, or what I was thinking. This moment of introspection would either result in a pleasant bit of satisfaction with some small task taken care of, or, more often, it would reel me back in from a spot of less than deliberate action and enable me to bring back my attention to the point of focus.</p>
+<p>I’m filing this under “101 tricks to get your <a href="https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/">rider back on your elephant</a>“.</p>
+<p>Alright friends, thank you very much for joining me on this part of my journey. I am looking forward to our next interaction!</p>
+]]></content:encoded></item><item><title>The 2018 to 2019 transition post.</title><link>https://cpbotha.net/2019/01/06/the-2018-to-2019-transition-post/</link><pubDate>Sun, 06 Jan 2019 15:39:34 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/06/the-2018-to-2019-transition-post/</guid><description> The sun setting over a lighthouse with a mysterious path in the front. I might just have maxed out my quota of clichéd ending / beginning symbolism, but this situation really just presented itself a few days ago. One previous year as I arrived at this particular lighthouse, it had a rainbow as well. I think the lighthouse itself is, analogously to Mitch Hedberg’s blurry bigfoot, inherently clichéd.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/cape_st_francis_light_house.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/cape_st_francis_light_house-1024x646.jpg"
+        
+            alt="The sun setting over a lighthouse with a mysterious path in the front. I might just have maxed out my quota of clichéd ending / beginning symbolism, but this situation really just presented itself a few days ago. One previous year as I arrived at this particular lighthouse, it had a rainbow as well. I think the lighthouse itself is, analogously to Mitch Hedberg’s blurry bigfoot, inherently clichéd."/> </a><figcaption>
+            <p>The sun setting over a lighthouse with a mysterious path in the front. I might just have maxed out my quota of clichéd ending / beginning symbolism, but this situation really just presented itself a few days ago. One previous year as I arrived at this particular lighthouse, it had a rainbow as well. I think the lighthouse itself is, analogously to Mitch Hedberg’s blurry bigfoot, inherently clichéd.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome to this, the most recent (as of this writing) instance of the venerable WHV year transition post tradition!</p>
+<p>You can find previous editions here:</p>
+<ul>
+<li><a href="/2017/12/29/the-2017-to-2018-transition-post/">2017 to 2018</a> – short post, can be summarised as: “Sorry I stopped blogging for a while, I did run a bit, I’m going to blog more.”</li>
+<li><a href="/2017/01/05/the-2016-to-2017-transition-post/">2016 to 2017</a> – substantial post (1800 words) with: “education will improve stupid politics; running, blogging, meditation; we made a new baby!!; kindness and gratefulness; life changes the whole time, deal with it.”</li>
+<li><a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">2011 to 2012</a> – transition post disguised as WHV with: “stop doing life goals, disconnect more, list of miscellaneous life tips, because in 2011 I am not-even-40-yet Mr Wisdom”.</li>
+<li><a href="/2010/01/10/the-2009-to-2010-transition-post/">2009 to 2010</a> – super short but sweet, I am clearly still new at this.</li>
+</ul>
+<p>Putting that list together just reminded me of an interesting observation: The more I try to take notes and document everything I see, the more I notice the <a href="https://en.wikipedia.org/wiki/Multiscale_modeling">multiscalar</a> nature of my subjective experience being exposed.</p>
+<p>I make detailed daily notes, all of them grouped in monthly text files.</p>
+<p>At a slightly higher scale, the frequency of these WHV blog posts is somewhere between a post per week down to a post every three weeks.</p>
+<p>When I write each blog post, I look back through the previous weeks, at a daily scale, and perform an extremely lossy summarisation.</p>
+<p>When I write the year transitions, I perform an extremely lossy summarisation of the weekly-scale WHV posts.</p>
+<p>The list above links together the various yearly transition posts, thus creating a lovely ball of multi-scalar confusion, which should not be confused with a lemur ball, shown below:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/lemur_ball.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/lemur_ball-1024x682.jpg"
+        
+            alt="At the Monkeyland Primate Sanctuary in Plettenberg Bay, I learned that lemurs huddle together in these aptly called “lemur balls” to share body heat. When it’s cold enough, they even take turns to be in the middle."/> </a><figcaption>
+            <p>At the Monkeyland Primate Sanctuary in Plettenberg Bay, I learned that lemurs huddle together in these aptly called “lemur balls” to share body heat. When it’s cold enough, they even take turns to be in the middle.</p>
+        </figcaption>
+</figure>
+</p>
+<p>WARNING: This post has grown into a long ramble over the past few days. I hope that you enjoy reading the ramble as much as I did thinking of you while writing it.</p>
+<h2 id="focus-quantity-and-quality">Focus: Quantity and Quality.</h2>
+<p>This post has been taking a while.</p>
+<p>I am now back here at the start, after having been almost at the end, because I did not want you to have the idea that my 2018 did not have aspects I am not that happy with, or that I don’t use multiple negations in confusing ways often enough.</p>
+<p><em>(As an aside, a friend and I have been exchanging photos of the less glamorous but entirely normal aspects of our vacations via WhatsApp: Plastic on the beach, the washing line, filthy toilets, truly terrible interior decor, and so on. What started as a joke has turned into an unintended but interesting psychological experiment in</em> <strong><em>reverse image crafting</em></strong><em>, strongly underlining the effect that this sort of communication can have.)</em></p>
+<p>Back to my main story: During retrospection, I have the tendency to focus (sorry, couldn’t resist) on the good parts, because this is what I remember the best.</p>
+<p>However, for the purpose of this post, I did want to spend some words on one of the (multiple!) issues that I struggled with in 2018.</p>
+<p>Either I am getting worse at focusing, or I am getting better at noticing when I lose focus, or a combination of both.</p>
+<p>At the very least <a href="https://cpbotha.net/tag/focus/">five of the posts I wrote in 2018 dealt in some way with</a> <em><a href="https://cpbotha.net/tag/focus/">focus</a></em>.</p>
+<p>The mentioned posts specifically and my thinking generally take the form of some analysis but mostly tools and tricks to try and improve the frequency, intensity and length of periods of focus.</p>
+<p>(What you don’t read in the posts because of above-mentioned memory bias, is that there is usually a significant amount of inwardly-directed regret and disappointment involved.)</p>
+<p>Even more subtle is the problem of selecting That One Most Suitable Thing to focus on. What’s going to have the most impact? What do I have capacity for at the moment? Can I trust my own subjective assessment of my current capacity, or is Lazy-Me being sneaky?</p>
+<p>By the time I have made a decision, it’s probably wrong. <em>Sometimes</em> it’s a good decision, but by then the little block of time I had has flown away or has been blown to smithereens by the latest interruption, and so the quality of the decision is moot.</p>
+<p>I would have expected that at this advanced age focus would come naturally and easily, and that I would know exactly what to do. However, I have had to accept that <a href="/2018/10/12/weekly-head-voices-155-lush/#slippery-slippery-focus">focus will probably remain this slippery</a> and require constant attention (haha I see what I did there) until the very end.</p>
+<p>Besides eating well, sleeping well, exercising regularly and taking time to meditate (just in case!), our old friend <a href="https://cpbotha.net/?s=pomodoro">the pomodoro technique</a> is still the best tool in the box.</p>
+<h2 id="blogging">Blogging.</h2>
+<p>During 2018, 36 blog posts were published here, most of which were Weekly Head Voices. Those of you who have a math degree or two will not need much time to calculate that the “W” in “WHV” is at the moment mostly a little inside joke.</p>
+<p>However, I did publish 14 more posts than I did in 2017, so there is hope for this year!</p>
+<p>The wordpress.com statistics plugin reports just over 19000 visitors (unique IP numbers) who were responsible for just over 26000 page views for the whole year.</p>
+<p>Because many people use some form of ad and/or tracking blocking these days, their visits won’t be counted, as the wordpress.com statistics relies on a tiny image which is hosted by wordpress.com, access to which is (rightfully) blocked by many blocker plugins.</p>
+<p>In order to get a better idea of how many ad-blocker people read my stuff, I installed the <a href="https://wp-statistics.com/">wp-statistics</a> plugin, which locally tallies up all visits and hence is not blocked by blockers, at the start of March. For the period from March 2018 until the end of the year, it is reporting just over 74000 visitors and somewhere north of 390000 page hits.</p>
+<p>Although to me this seems on the high side, I do think we can safely say that there were somewhere between 19000 and 74000 unique hosts, which to me is a very pleasant surprise.</p>
+<p>However, I am by far the happiest due to all of the interactions I had with friends, mostly old and some new, on this blog. Most recently, the comments section of <a href="/2018/10/23/weekly-head-voices-156-karma-chameleon/">WHV #156</a> blew up in such a brilliant way!</p>
+<p>More generally speaking, even when there are no comments, I know that throughout the year I am connecting with various subsets of my peeps through the posts on this blog. This acts as tremendous motivation to keep on writing. If even a single friend reads, it has been more than worth it.</p>
+<p><em>(BTW, there is now a</em> <a href="https://t.me/headvoices"><em>telegram group, quite surprisingly called “headvoices”</em></a><em>, that you can join to receive a summary whenever a new post is published, and for general chitchat. Although so far only two of my most avant-garde friends have joined, this new form of blog-related communication excites me!)</em></p>
+<h3 id="looking-forward">Looking forward:</h3>
+<p>Surprisingly, I again will aim to write one WHV post per week.</p>
+<p>I will probably fail again, but I believe that this is one of those cases of “aim for the stars, reach the moon”.</p>
+<p>As mentioned above, writing these letters and writing them regularly is really important to me.</p>
+<p><em>(BTW, I should probably have declared <strong>email bankruptcy</strong> years ago. I am</em> <strong><em>just</em></strong> <em>managing to keep head above water, but writing letters to friends like we used to do in the old days is becoming increasingly difficult. What is your feeling currently re email and how it has changed over the past few years?)</em></p>
+<h2 id="running">Running.</h2>
+<p>Strava says I ran 1286km in 2018.</p>
+<p>Seeing that I had set myself a private goal of 1000km for 2018 (2016 was 440km and <a href="/2017/12/29/the-2017-to-2018-transition-post/">2017 was 880km</a>), I am quite happy with this.</p>
+<p>(As an aside, I spent 119 hours running, spread out over a total of 149 runs, which means 2.86 runs every week of the year.)</p>
+<p>I did 770 of those 1286 kilometres in sandals, and a further 35km on barefoot.</p>
+<p>More importantly, I had to learn the humbling lesson that no amount of stubborn, brute-force exercise could work around the fact I am flat footed (arch-challenged?), resulting in easily overworked posterior tibial tendons.</p>
+<p>As I pushed my weekly distance up, my feet complained more loudly, until I was forced to go back to normal-person-running-shoes.</p>
+<p>After a few weeks eating humble pie in running shoes, things are going much better, and I recently did my first short and careful run in sandals.</p>
+<p>(Similar to the observation confirmed by <a href="https://veronikach.com/progress-reports/my-goals-for-2018-final-progress-report/">the pattern recognition heroine veronikach in her end-of-2018 post</a>, I too ran slower this year in order to run better. I did this for the largest part due to my temporarily busted ankles, but also because more experienced athletes at work recommended heart rate training. For the past few hundreds of kilometres, I have regulated my running speed to try and keep my heart rate within the 75% to 85% of maximum range, mostly ending up closer to 85% than 80%. This has increased the occurrence of those addictive perfect runs, and it has helped to keep my ankles out of trouble.)</p>
+<h3 id="looking-forward-1">Looking forward:</h3>
+<p>In 2019, I would be happy to <em>maintain</em> my 2018 monthly running quota, to remain injury-free, and to maximise my running zen.</p>
+<p>(“Running slow” explained above can contribute substantially to the latter two goals.)</p>
+<p>I do have an additional concrete (but very humble) running-related resolution for 2019, but I have decided to keep that quiet until it’s in the pocket. :)</p>
+<h2 id="other-plans-for-2019">Other plans for 2019.</h2>
+<h3 id="experiment-alcohol-zero">Experiment Alcohol Zero #2.</h3>
+<p>Yesterday, which at the time of writing is January 4, 2019, was the first day of EAZ #2.</p>
+<p>It has been two years since <a href="/2017/01/05/the-2016-to-2017-transition-post/#experiment-alcohol-zero">the previous EAZ in 2016</a>. The previous experiment coincided with a significant jump in my running performance, the effects of which did not fade away after the end of the experiment.</p>
+<p>This time around, the plan is to run EAZ for at least as long as in 2016, but hopefully a few days or weeks longer.</p>
+<p>(I should probably call this EA&lt;0.5, as that is what my current favourite “alcohol-free” beer, Devil’s Peak Zero to Hero, claims.)</p>
+<h3 id="ship-more-side-projects">Ship more side-projects.</h3>
+<p>Most nerds I know have <em>side-projects</em>.</p>
+<p>These are the technical artifacts, systems and machines one builds, because one can’t stop building stuff, even after work ends.</p>
+<p>Like most nerds, I have a number of these that started with high momentum (new programming language, new tools, new problem, EXCITING! … 3 hours later … NOVELTY COMPLETELY WORN OFF doh.) and are now lying around gathering dust.</p>
+<p>Inspired by a colleague who managed to ship <a href="https://store.steampowered.com/app/656740/Cosmonator/">a brilliant shooter game side-project on Steam</a> last year, I made myself the promise to ship more side-projects.</p>
+<p>After that, I managed to ship two side-projects, one small and the other quite tiny.</p>
+<p>This was a satisfying experience that I would like to continue in 2019.</p>
+<p>(P.S. the problem with shipping side-projects, is that you now have more things that you actually have to look after. Next year I’ll think up a resolution for unmaintained shipped side-projects.)</p>
+<h3 id="mindful-more">Mindful more.</h3>
+<p>This is a simple one.</p>
+<p>I used to spend a few minutes every second morning before work doing simple mindfulness breathing and focus exercises.</p>
+<p>It was worth the modest time investment many times over, in terms of focus, and especially in terms of seeing life in perspective.</p>
+<p>In the second half of 2018 I let this habit slip for some or other reason. I think it’s because I convinced myself that running time could also count as meditation time.</p>
+<p>In 2019, I’m going to #bringbackthemeditation.</p>
+<h3 id="learn-more">Learn more.</h3>
+<p>During 2018, I started taking a more structured approach to the books I wanted to read, and the courses I wanted to follow, by tracking these in my <a href="/2018/10/12/weekly-head-voices-155-lush/#productivity-pro-tip-fool-yourself-into-doing-a-good-daily-review">sneaky longer term goals which form part of my daily planning routine</a>.</p>
+<p>More structure meant more books read to completion, and more courses followed, resulting in an Ever So Slightly Improved Me.</p>
+<p>I am planning to continue and extend this practice in 2019.</p>
+<h3 id="evolve-the-system">Evolve The System.</h3>
+<p>The System.</p>
+<p>The System is Emacs, and orgmode, and multi-scalar note-taking everywhere, and sketching, and daily habits, and a whole bag of tricks to try and keep this creaky old frame moving in the right direction.</p>
+<p>One step, and then another, and then another, until the lights finally go out.</p>
+<h3 id="try-to-grow-a-tree">Try to grow a tree.</h3>
+<p>I grew up with a fuerte avocado tree that gave us hundreds of the divine fruit every season.</p>
+<p>Fast-forward 40 odd years, and my mom (HI MOM!) gave us a beautiful baby fuerte avocado tree for Christmas!
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/baby_avocado_tree.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/baby_avocado_tree-805x1024.jpg"
+        
+            alt="The baby avocado tree, right after we transferred it to its new home, in a little nest of fine compost and bone meal."/> </a><figcaption>
+            <p>The baby avocado tree, right after we transferred it to its new home, in a little nest of fine compost and bone meal.</p>
+        </figcaption>
+</figure>
+</p>
+<p>We are currently trying to nurture it through its first few weeks of life in our garden.</p>
+<p>With the summer sun, and the new environment, it’s a bit touch and go at the moment, but we’re really rooting for that baby tree! (bad pun quota exhausted now?!)</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This is it my friends.</p>
+<p>You have made it to the end, an endeavour for which I am truly grateful.</p>
+<p>I wish you a 2019 filled with growth, health and happiness.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2019/01/bbay_sunset.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2019/01/bbay_sunset-1024x768.jpg"
+        
+            alt="This reminds me of a certain sunset in the Tankwa desert with a rather funny helicopter."/> </a><figcaption>
+            <p>This reminds me of a certain sunset in the Tankwa desert with a rather funny helicopter.</p>
+        </figcaption>
+</figure>
+</p>
+]]></content:encoded></item></channel></rss>

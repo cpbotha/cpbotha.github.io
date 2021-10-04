@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>afrikaburn on voices in my head</title><link>https://cpbotha.net/tags/afrikaburn/</link><description>Recent content in afrikaburn on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 29 Nov 2020 09:50:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/afrikaburn/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #210: MiniBurn 2020</title><link>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</link><pubDate>Sun, 29 Nov 2020 09:50:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</guid><description> Welcome back to the WHV blogging clubhouse, gang!
+Somewhat inspired by Descartes, I can say with a fair amount of confidence that you are now reading these words, and for that I am grateful.
+This post covers the weeks from Monday, November 9 to Sunday, November 22 of the year 2020.
+papercite_static: put some bibtex into your Hugo After languishing for almost a year on my todo list, I finally got around to cleaning up and making available my Python script for embedding your BiBTeX bibliographies in your markdown files.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="dirt_road_to_stanford.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_800x0_resize_q75_box.jpg"
+            
+
+        /> </a>
+</figure>
+
+<p>Welcome back to the WHV blogging clubhouse, gang!</p>
+<p>Somewhat inspired by Descartes, I can say with a fair amount of confidence that
+you are now reading these words, and for that I am grateful.</p>
+<p>This post covers the weeks from Monday, November 9 to Sunday, November 22 of
+the year 2020.</p>
+<h2 id="papercite-static-put-some-bibtex-into-your-hugo">papercite_static: put some bibtex into your Hugo</h2>
+<p>After languishing for almost a year on my todo list, I finally got around to
+cleaning up and making available my Python script for embedding your BiBTeX
+bibliographies in your markdown files.</p>
+<p>The script is called <a href="https://github.com/cpbotha/papercite%5Fstatic">papercite_static</a>, because it was inspired by <a href="https://wordpress.org/plugins/papercite/">the papercite
+Wordpress plugin</a> that I previously used, but it was built for use in static
+websites.</p>
+<p>Catchy right?</p>
+<p>This is pretty useful when you are academically inclined, or just really like
+managing BiBTeX files.</p>
+<p>If you&rsquo;re one of those people, you can go check it out at <a href="https://github.com/cpbotha/papercite%5Fstatic">the papercite_static
+github page</a>.</p>
+<h2 id="save-image-from-clipboard">save_image_from_clipboard</h2>
+<p>From the Department of Catchy Names, the same one that brought you the script
+above, comes <a href="https://github.com/cpbotha/save%5Fimage%5Ffrom%5Fclipboard">save_image_from_clipboard</a>!</p>
+<p>I wrote this to scratch my own extremely niche itch (scranitch-ware!), but it
+could be useful in other slightly less niche contexts.</p>
+<p>My Emacs is configured with the org-download package so that I can use any
+system tool to screenshot an arbitrary region of my screen to the clipboard,
+and then tell Emacs to attach whatever is in the clipboard to the current
+Orgmode heading.</p>
+<p>This is something I use really often during daily note-taking and task
+management.</p>
+<p>The org-download package expects a PNG image to be available on the
+clipboard. When this is not the case, because the screenshotting or other image
+copying workflow instead copied a JPG or a BMP (long story, starts with a W,
+ends with SL&hellip;), I get a blank attachment which makes me sad, and costs me
+more time.</p>
+<p>On macOS, I used <a href="https://github.com/jcsalterego/pngpaste">pngpaste</a> for this, a tool that ensures that whatever image
+format is in the clipboard gets converted to PNG.</p>
+<p>Well, <a href="https://github.com/cpbotha/save%5Fimage%5Ffrom%5Fclipboard">save_image_from_clipboard</a> does exactly this, and a little more by simply
+converting whatever&rsquo;s on the clipboard to the format that you specify.</p>
+<p>This has already saved me countless SECONDS of time, and a substantial amount
+of frustration.</p>
+<p>P.S. I&rsquo;ve again been spending more hobby time with <a href="https://nim-lang.org/">nim</a>, which would have
+resulted in a much smaller and faster binary in this case, but the Python
+version wrote itself fairly quickly, with both of my hands behind my back.</p>
+<p>P.P.S. nim is <em>so</em> hard to resist, in spite of what <a href="/2019/04/15/weekly-head-voices-169-a-cunning-plan/#nimfatuation-is-now-over">I wrote about nimfatuation
+being over, back in WHV #169</a>. It combines much of the expressiveness and some
+of the batteries-included of Python, paired with the generation of tiny
+self-contained binaries.</p>
+<h2 id="my-emacs-is-now-all-in-on-ivy">My Emacs is now all-in on Ivy</h2>
+<p>As you will <em>most probably</em> remember from <a href="/2019/05/22/weekly-head-voices-171-icemirb/#you-can-easily-dired-jump-to-the-currently-ivy-readd-file-in-emacs">WHV #171</a>, my Emacs configuration used
+a mishmash of <a href="https://github.com/emacs-helm/helm">Helm</a> and <a href="https://github.com/abo-abo/swiper">Ivy</a>.</p>
+<p>Helm and Ivy are two great, but different, examples of Emacs completion /
+selection frameworks, something that is really important to any disciple of
+this amazing religion.</p>
+<p>In something that is probably some sort of reflection of my character, I was
+happily using both of them simultaneously for quite a while.</p>
+<p>However, waking up one morning with the realisation that this was yet another
+small context switch that was costing me time and focus, in one of my highest
+ROI tool workflows to boot, I decided that it was time to excise Helm from my
+configuration.</p>
+<p>Fast-forward a few hours of Lisp-driven terraforming, and I was all-in on my
+Ivy.</p>
+<p>During this terraforming I ran into some undesired behaviour in ivy-rich, which
+resulted first in me writing <a href="https://vxlabs.com/2020/11/15/fix-ivy-rich-switch-buffer-directories-display-in-emacs/">a blog post documenting the work-around</a>, then
+noticing that ivy-rich&rsquo;s astute author had subsequently integrated part of my
+fix, and finally authoring a <a href="https://github.com/Yevgnen/ivy-rich/pull/92">github pull request (PR)</a>, merged shortly after to
+fix the remaining issues.</p>
+<p>P.S. I sometimes wonder whether people outside of the open source world
+understand how much github contributed to the software world by streamlining
+the process whereby random developers are able to contribute lines of source
+code into open source projects like this.</p>
+<p>WELL DO YA?!</p>
+<h2 id="mynoise-dot-net-is-an-amazing-soundscape-generator">mynoise.net is an amazing soundscape generator</h2>
+<p>In the past few weeks, Lazar Focus has rescued my days so often.</p>
+<p>What usually happens is that I get distracted&hellip; no wait, I fall down a
+rabbit-hole&hellip; no wait, I actually get violently pulled into a rabbit
+<strong>singularity</strong> from whence no productivity can escape.</p>
+<p>The best I can do at that point, is to pour all will power into my puny arm and
+click on that FOCUS button in Lazar Focus, at which point it instantly kills
+everything that&rsquo;s sapping my attention, and then I again have a chance to save
+the day.</p>
+<p>Thanks to a recommendation by Noeska which ended up languishing in my
+sub-conscious but then fortunately managed to bubble to the top, I found myself
+on a wonderful site called <a href="https://mynoise.net/">myNoise</a>.</p>
+<p>This is the creation of <a href="https://stephanepigeon.com/">Dr. Ir. Stéphane Pigeon</a>, a research engineer &amp; sound
+designer from Belgium, who has combined noise generation as well as a library
+of the highest quality recording of samples from the world over with a system
+for composing these into the most amazing sound-scapes.</p>
+<p>Why is this interesting, you might ask?</p>
+<p>Well, in one&rsquo;s quest to block distractions of all kinds, finding the perfect
+aural stimulus that is pleasant, but does not soak up attention itself, and is
+also able to mask both external and internal (tinnitus, e.g.) sounds, myNoise
+is exactly what the doctor ordered!</p>
+<p>To give you a taste of Dr Pigeon&rsquo;s attention to detail, see for example the
+<a href="https://mynoise.net/NoiseMachines/singingBowlsDroneGenerator.php">singing bowls generator</a>, and then the <a href="https://mynoise.net/NoiseMachines/enliaVocalSoundscape.php">Free-falling with vocalist Enlia
+soundscape</a>.</p>
+<p>Notice that in both cases you are able to customise different elements of each
+soundscape with the sliders, or even press <code>A</code> to have them animate randomly
+over time, morphing the landscape as you work.</p>
+<p>What I only recently learned, is that Dr Pigeon designed the soundscapes to
+work also simultaneously. In other words, keep the two soundscapes above open
+in two browser tabs, and note how wonderfully they mesh.</p>
+<p>It really feels like my brain is starting to associate high attention mode with
+the mynoise soundscapes.</p>
+<p>Between that and LF, we might be going places!</p>
+<p>P.S. Narrator: <em>Yes, he did make a small donation to mynoise, and based on the
+value he has derived since, will probably make another.</em></p>
+<h2 id="what-does-it-mean-for-humanity-when-the-ai-can-derive-your-talking-face-from-your-voice-alone">What does it mean for humanity when the AI can derive your talking face from your voice alone?</h2>
+<p>You might have read about <a href="https://www.theverge.com/2020/10/5/21502003/nvidia-ai-videoconferencing-maxine-platform-face-gaze-alignment-gans-compression-resolution">NVIDIA&rsquo;s new AI-based video conferencing bag of
+tricks, called Maxine</a>.</p>
+<p>An interesting part of this is that they use a technique, similar to deepfakes,
+to send only the pose of your face over the internet, and then reconstruct a
+high quality version of it on the other side.</p>
+<p>From the article:</p>
+<blockquote>
+<p>&ldquo;Instead of streaming the entire screen of pixels, the AI software analyzes the
+key facial points of each person on a call and then intelligently re-animates
+the face in the video on the other side,&rdquo; said the company in a blog
+post. &ldquo;This makes it possible to stream video with far less data flowing back
+and forth across the internet.&rdquo;</p>
+</blockquote>
+<p>This made me think:</p>
+<p>Soon the AI will be good enough that it can reconstruct your face from just the
+audio, or maybe even text that you type.</p>
+<p>This idea started as a half-serious joke, but it does raise really interesting
+questions around the implications of this technology. (BTW, it is technically
+entirely possible.)</p>
+<p>If you&rsquo;re having a conversation with someone, and both of your faces are
+indistinguishable <em>simulations</em> of the real thing, and hence help the quality
+of the conversation, what does that mean for the conversation that&rsquo;s happening?</p>
+<p>In other words, imagine for a second that you&rsquo;re having an intense (emotional)
+conversation with someone, but the faces that both of you are seeing, are 100%
+synthesised.</p>
+<p>They reflect almost exactly how your faces would have looked had you had a
+video link, but they are estimated by the AI.</p>
+<p>Did you really have that intense conversation?</p>
+<h2 id="miniburn-2020">MiniBurn 2020</h2>
+<p>As you might remember from <a href="/2020/03/24/weekly-head-voices-191-covid-19-part-1/#sht-gets-real-in-mzansi">WHV #191</a>, AfrikaBurn 2020 was one of the first group
+events down here that was cancelled by the pandemic.</p>
+<p>Months after that, and with stats looking almost reasonable, the local subset
+of our camp (THE BURNIVERSITY) decided to celebrate life together, as
+responsibly as possible (which mostly comes down to: stay outside, keep your
+distance), by gathering at some secret but beautiful location for the weekend.</p>
+<p>(You might have deduced by now that this is one of those Burny situations where
+I have no choice but to keep things as vague as they are. I still wanted to
+write <strong>something</strong> as a beacon for future me. Future me, when you read this:
+Read our private notes man. I left you something there.)</p>
+<p>We sort of modeled the weekend like a whole Burn: Friday is arrival, setup, and
+first small celebrations. Saturday represents the body of the week: Running,
+workshops, celebration. Sunday is, just like it is for the full Burn, the
+slightly depressing but already nostalgic clean-up, pack-up and leave the
+desert stage. It&rsquo;s surprising how well this whole sequencing worked.</p>
+<p>Thanks to the awe-inspiring talents of specific camp members, the cuisine was
+divine and the music beautiful. Combined with the personalities and shared
+memories of our small ensemble, the resultant experience was nothing short of
+magic.</p>
+<p>P.S. Ironically, <a href="/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/#thank-you-joris">GU43 <strong>is</strong> turning into the 2020 soundtrack that I wanted</a>.</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #191: COVID-19 part 1.</title><link>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</link><pubDate>Tue, 24 Mar 2020 08:16:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</guid><description> Welcome back everyone! I hope all of you are doing as well as possible.
+This edition of the WHV looks back on the two and a bit tumultuous weeks from Monday March 9 to Tuesday March 24.
+I am writing this for us here now, but I&amp;rsquo;m also writing this for readers in a few years' time who might be looking into the more obscure corners of the web for additional impressions of the COVID-19 pandemic.</description><content:encoded><![CDATA[ <figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+</figure>
+<p>Welcome back everyone! I hope all of you are doing as well as possible.</p>
+<p>This edition of the WHV looks back on the two and a bit tumultuous weeks from
+Monday March 9 to Tuesday March 24.</p>
+<p>I am writing this for us here now, but I&rsquo;m also writing this for readers in a
+few years' time who might be looking into the more obscure corners of the web
+for additional impressions of the COVID-19 pandemic.</p>
+<p>(It is now 7:32 on Tuesday morning, March 24, 2020. Last night we had the
+<a href="https://www.iol.co.za/news/politics/sa-on-coronavirus-lockdown-read-president-cyril-ramaphosas-full-speech-45429127">rattling national lockdown
+announcement</a>,
+and now it&rsquo;s the morning after.)</p>
+<h2 id="the-build-up">The build-up.</h2>
+<p>All of this escalated quite quickly.</p>
+<p>It seems like ages ago, but my first covid-related retweet was on
+February 27. It was this tweet of the study of the effect of different
+hand-to-hand configurations on infectious disease transmission (hint: fist bump
+beats handshake by far):</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Adoption of the fist bump as a greeting could substantially reduce the transmission of infectious disease between individuals.&quot;<br><br>I will be doing more fist bumps until the <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> passes. Please RT if you want to make this a social norm. <a href="https://twitter.com/hashtag/SPSP2020?src=hash&amp;ref_src=twsrc%5Etfw">#SPSP2020</a><a href="https://t.co/Fk1ekBr3FP">https://t.co/Fk1ekBr3FP</a> <a href="https://t.co/TlMbB9UWyZ">pic.twitter.com/TlMbB9UWyZ</a></p>&mdash; Jay Van Bavel (@jayvanbavel) <a href="https://twitter.com/jayvanbavel/status/1233133292226064396?ref_src=twsrc%5Etfw">February 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>After that, I started spending more and more time on twitter, which has proven
+to be a fantastic source of up to date information, if, as always, you apply
+discipline to the care and culling of your follows.</p>
+<p>Since then I&rsquo;ve been retweeting as many of the important tidbits as I could:</p>
+<h3 id="lets-first-get-the-naming-right">Let&rsquo;s first get the naming right.</h3>
+<p>The disease is called coronavirus disease (COVID-19) and the virus is called
+severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).</p>
+<p>See <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it">this page on the WHO&rsquo;s
+site</a>.</p>
+<h3 id="flattening-the-curve">Flattening the curve.</h3>
+<p>Flattening the curve was, and still is at this point in time, our best hope to
+get through the pandemic.</p>
+<p>Physical distancing is how we do this.</p>
+<p>That is, we keep enough physical distance between us and other humans that the
+virus has almost no chance of transmitting.</p>
+<p>The media calls this &ldquo;social distancing&rdquo;, but in the age of internet and video
+and smartphones, the distance does not have to be social!</p>
+<p>(March 24, 2018, 7:35: <a href="https://twitter.com/WHO/status/1240312329092444162">It seems that
+the</a> WHO has also been
+using &ldquo;physical distancing&rdquo; instead of &ldquo;social distancing&rdquo;.)</p>
+<p>By doing this, we buy time by ensuring that our hospital systems are not
+overloaded. Time means that we learn more about the virus, time means that
+humanity can discover more methods of prevention and treatment.</p>
+<p>Remote work is, and should be, the new normal for any industries where this is
+at all possible.</p>
+<p>(Even when we&rsquo;re not right in the middle of a pandemic, why is remote working
+NOT the normal-normal?)</p>
+<p>At Stone Three it feels like we went from normal to the new remote-normal in an
+instant.</p>
+<p>We recently migrated from GSuite to Office365. Our migration to Microsoft Teams
+for a large part of the communication has gone pretty well, in spite of Teams
+showing some technical hiccups in that first week when <a href="https://www.businessinsider.com/microsoft-teams-coronavirus-daily-active-users-2020-3?IR=T">they onboarded 12
+MILLION new
+users</a>.</p>
+<h3 id="good-old-fashioned-soap-is-virus-kryptonite">Good old-fashioned soap is virus Kryptonite.</h3>
+<p>See <a href="https://twitter.com/PalliThordarson/status/1236549305189597189">this twitter thread by Palli
+Thordarson</a>.</p>
+<p>Most viruses, including our current nemesis SARS-CoV-2, are &ldquo;self-assembled nanoparticles&rdquo; with a &ldquo;lipid (fatty) bilayer&rdquo; as the outside shell.</p>
+<p>Good old-fashioned soap dissolves the fat membrane and the virus simply falls apart.</p>
+<p>AMAZING!</p>
+<p>We have bars of soap everywhere in my house now, and we vigorously wash hands
+at regular intervals.</p>
+<h2 id="sht-gets-real-in-mzansi">Sh*t gets real in Mzansi.</h2>
+<p>AfrikaBurn was cancelled on Friday March 13.</p>
+<p>This year our theme camp was going to consist of a whole 14 people (9 from NL),
+up from 7 in previous years.</p>
+<p>Everyone on the small BURNIVERSITY WhatsApp group was gutted by this news, but
+it was crystal clear to all of us that cancelling the burn was really the only
+defensible position.</p>
+<h3 id="state-of-disaster-announcement">State of disaster announcement.</h3>
+<p>Then on the evening of Sunday March 15, it got a whole lot more real when our
+president Ramaphosa announced on the television that South Africa was
+officially in a state of disaster.</p>
+<p>The following measures were announced:</p>
+<ul>
+<li>Travel ban of foreign nationals from high risk countries, including USA and the EU.</li>
+<li>All foreign nationals who have recently arrived are to be tested.</li>
+<li>SA citizens returning from high risk countries to be tested and isolated.</li>
+<li>Gatherings of 100 or more prohibited.</li>
+<li>Schools closed from March 18.</li>
+</ul>
+<p>The text of the full speech can be <a href="https://sacoronavirus.co.za/2020/03/15/statement-by-president-cyril-ramaphosa-on-measures-to-combat-covid-19-epidemic/">read on
+sacoronavirus.co.za</a>.</p>
+<p>Before the speech I still had the feeling that I might be over-reacting by
+starting to work remotely, and suggesting strongly that others do so too, and
+by considering taking my children out of school.</p>
+<p>Those feelings were evaporated by Ramaphosa&rsquo;s chilling but necessary speech.</p>
+<h3 id="national-lockdown-announcement">National lockdown announcement.</h3>
+<p>On the evening of Monday, March 23, we were again waiting for an announcement
+by the president.</p>
+<p>Personally, I thought it was going to be all about the measures the government
+was planning to take to safeguard the South African economy during these times.</p>
+<p>Those indeed were announced, and they sound good to me.</p>
+<p>However, the president also <a href="https://www.iol.co.za/news/politics/sa-on-coronavirus-lockdown-read-president-cyril-ramaphosas-full-speech-45429127">announced a <em>national
+lockdown</em></a>
+starting at midnight on Thursday March 26 and continuing for three weeks.</p>
+<p>All businesses, except those involved in essential services, will be closed.</p>
+<p>Everyone, except those involved in essential services, will have to stay at
+home.</p>
+<p>People will be able to leave their homes to buy food or seek medical care.</p>
+<h2 id="outlook">Outlook.</h2>
+<p>At this moment (7:52, day after lockdown announcement evening) I am reeling
+just a little bit.</p>
+<p>I think our government and especially the president have been doing a truly
+stellar job of responding to this crisis. Based on past and recent experience
+with the government, this did come as a bit of a surprise.</p>
+<p>I was pretty happy with how we&rsquo;d adapted to the physical distancing situation,
+but then the lockdown announcement happened.</p>
+<p>Although I am convinced that this too was the best response, I am worried about
+how it&rsquo;s going to impact the economy at large and, far more acutely, how it&rsquo;s
+going to impact the businesses and people right around me.</p>
+<p>(<a href="https://twitter.com/MichaelJordaan/status/1242332234297872384">Like many
+others</a>, I am
+super impressed by Ramaphosa&rsquo;s calm and decisive leadership during this
+crisis.)</p>
+<p>The only thing <em>we</em> can do now, is to do our absolute best.</p>
+<p>On a similar positive note, it seems like COVID-19 is teaching humanity a
+number of important lessons of which I really hope many of them stick:</p>
+<ol>
+<li>We don&rsquo;t really need to travel as much as we do. (sorry airlines, but it&rsquo;s
+true.)</li>
+<li>It is entirely possible for a great deal more of people to work remotely,
+and hence spend less time and carbon output on the road.</li>
+<li>When we focus right, this internet thing we built can be used for so much
+good.</li>
+<li>Now that we&rsquo;re all faced with the same enemy, we look a <em>whole lot</em> more
+similar that we normally do.</li>
+</ol>
+<p>I wish you all the best during these times.</p>
+<p>Remember: From up close to all the way around the globe, kindness is effective
+across all distances!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #141: Albert was Burning really hard.</title><link>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</link><pubDate>Wed, 09 May 2018 21:11:35 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</guid><description> Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz.
+As we were walking back from the ice truck to the BURNIVERSITY, our home away from home, one of our newly-made Canadian friends said:
+Albert is burning really hard.
+Albert (name subtly changed to protect the innocent), who by that time had presented his first improv theater workshop at our camp, had struck me as a brilliant and already open-minded human being.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/afrikaburn2018-clan-orb.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/afrikaburn2018-clan-orb-1024x636.jpg"
+        
+            alt="Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz."/> </a><figcaption>
+            <p>Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz.</p>
+        </figcaption>
+</figure>
+
+<p>As we were walking back from the ice truck to the BURNIVERSITY, our home away from home, one of our newly-made Canadian friends said:</p>
+<blockquote>
+<p>Albert is burning <strong>really</strong> hard.</p>
+</blockquote>
+<p>Albert (name subtly changed to protect the innocent), who by that time had presented his first improv theater workshop at our camp, had struck me as a brilliant and already open-minded human being.</p>
+<p>To me it was surprising that he required any burning, let alone burning of that intensity.</p>
+<p>The last week of April was overflowing with more lessons.</p>
+<p>I learned that even when I try my best because I am at the Burn, I am unable to take part in a kundalini awakening. I am sorry. Science has seeped too far into my atoms.</p>
+<p>I learned that running in the desert is even more amazing than my wildest expectations.</p>
+<p>I spent the whole week in my sandals. Besides the “official” runs, I broke into spontaneous running multiple times per day.</p>
+<p>We ran a lot.</p>
+<p>We learned (again) that people respond superbly to being encouraged to learn together in the desert. The BURNIVERSITY saw many burners pass through its hallowed halls, both as students and as teachers.</p>
+<p>I learned (again) that modern humans yearn for disconnection and focus now and then. I could see their eyes light up as they realised the implications of successfully eating an expensive chocolate with mindful attention, direct experience mode fully activated.</p>
+<p>We learned that people yearn even more to <em>understand</em> happiness. It was clear that BFAM’s workshop on the (neuro-)scientific basis of happiness hit home, quite hard, in spite of its unavoidable information density.</p>
+<p>I learned that our yoga teacher was in fact able to radiate even more serenity than she already did last year. Students leaving her class every morning <em>glowed</em>. Yes, <em>glowed</em>.</p>
+<p>We learned that you can come back more healthy from the burn than when you started. Eat like royalty (thank you D and H, it was amazing to see you create together), do yoga, meditation and exercise every day, <em>connect</em> with other humans and get your sleep every night. The eternal party is just one of the many facets of the Burn, and should be treated as such.</p>
+<p>Maintain balance.</p>
+<p>We learned that it is indeed possible to squeeze so much disconnected experience into a single week that it starts feeling like a micro-lifetime.</p>
+<p>Thank you friends for making all of this happen.</p>
+<h1 id="footnotes">Footnotes</h1>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/05/ab2018_footnote.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/05/ab2018_footnote-1024x498.jpg"
+        /> </a>
+</figure>
+
+]]></content:encoded></item><item><title>Weekly Head Voices #121: Autumn tripping.</title><link>https://cpbotha.net/2017/05/09/weekly-head-voices-121/</link><pubDate>Tue, 09 May 2017 20:22:39 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/05/09/weekly-head-voices-121/</guid><description> This post right here is Monday April 3 to Sunday May 7, according to at least one of the homunculi in my head!
+The first stop on our East Coast autumn break road trip was Storms River Mouth Rest Camp. With the Indian Ocean smashing the rugged rocky shores, one would have to be forgiven if one were to describe the surroundings as epic, because this really is.
+After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FACE YEAH) we family-walked the first few kilometres of the Otter trail, me with GOU#3 on my back.</description><content:encoded><![CDATA[ <p>This post right here is Monday April 3 to Sunday May 7, according to at least one of the homunculi in my head!</p>
+<p>The first stop on our East Coast autumn break road trip was <a href="https://www.sanparks.org/parks/garden_route/camps/storms_river/">Storms River Mouth Rest Camp</a>. With the Indian Ocean smashing the rugged rocky shores, one would have to be forgiven if one were to describe the surroundings as <em>epic</em>, because this really is.</p>
+<p>After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FACE YEAH) we family-walked the first few kilometres of <a href="http://www.otterhiking.com/html/otter_hiking_trail.html">the Otter trail</a>, me with GOU#3 on my back. Here’s one impression of the view we were treated with:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/05/IMG_20170409_1031309-1.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/05/IMG_20170409_1031309-1-1024x768.jpg"
+        /> </a>
+</figure>
+
+<p>After the Otter-trail-taster and a short rest, we hiked through the coastal forest in the other direction, to the mouth of the Storms River. The mouth can be crossed via an awe-inspiring hanging bridge:</p>
+<p>
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/05/IMG_4870.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/05/IMG_4870-1024x768.jpg"
+        /> </a>
+</figure>
+
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/05/IMG_20170409_1237332.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/05/IMG_20170409_1237332-1024x768.jpg"
+        /> </a>
+</figure>
+</p>
+<p>By the time we got there, the longest bridge was blocked by a family of baboons, led by an extremely large male. Except for the promising Darwin-award candidate who thought that he could goad one of the baboons from the bridge and was promptly blocked by an extra baboon who got on the bridge behind him (baboons: 1, human: -9), the humans fortunately realised that these primates were not to be trifled with. (Darwin-award candidate was spared by the baboons, and hence did not win the award, at least not on that day.)</p>
+<p>After a few days with family in St Francis, including a barefoot run on the beach (divine, but foot muscles were toast afterwards), we drove up to the Addo elephant park, and got to spend the night at the <a href="https://dewetswild.com/2017/04/01/nyathi-rest-camp/">new Nyathi rest camp</a>.</p>
+<p>Nyathi is one of those places that gently but forcefully makes you go completely quiet when you arrive. I believe the term “gobsmacked” (by nature) is entirely suitable.</p>
+<p>Surrounded by hills, with grassy plain stretching out before you, families of zebra and baboons going about their business and absolutely no digital connectivity of any kind, the best you can do is let all of that beauty smash inwards through all of your senses.</p>
+<p>Let us drink from the firehose of natural beauty!</p>
+<p>After a substantial amount of the abovementioned smashing, a great beer is in order. My current favourite is the Nine Inch Ale, not only because it reminds me of my favourite musician OF ALL TIME FOR EVER AND EVER, but because it’s really really tasty. Also, <a href="http://www.redrock.co.za/">Red Rock Brewing Company</a> has a genius label designer.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/05/IMG_20170413_1749384.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/05/IMG_20170413_1749384-768x1024.jpg"
+        /> </a>
+</figure>
+
+<p>After the road trip, I tried to squeeze in as many days of work as possible before my Dutch homies arrived for the Burn… the AFRIKABURN.</p>
+<p>With a really small crew of 6+1, this year we built and ran an official themecamp called BURNIVERSITY. The idea was to try and extract the best parts of going to university, namely the delight we experience when learning together, and to transplant them into Tankwa Town.</p>
+<p>It took off absolutely beautifully!
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2017/05/IMG_5284.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2017/05/IMG_5284-1024x768.jpg"
+        
+            alt="After class, the BURNIVERSITY faculty gets to chill in the shade(ish)."/> </a><figcaption>
+            <p>After class, the BURNIVERSITY faculty gets to chill in the shade(ish).</p>
+        </figcaption>
+</figure>
+</p>
+<p>As the week advanced, our small stretch tent filled each morning with visitors, both coming to learn and to teach. Besides our Yoga (best at the Burn so there) and Mindfulness (I gave those, I’m secretly very happy with how they went) classes, we had new and old friends teach Improv Theatre, Jazz Singing (this blew my mind, thank you Max), Non-violent communication, Hip Hop, the Anthropology of AfrikaBurn, and more.</p>
+<p>The quality and depth of interactions we had with Burners from all over were just phenomenal.</p>
+<p>Together with the rest of our adventures, it feels like I spent four weeks together with my besties in the desert, not one.</p>
+<p>Already I look back with much sweet wistfulness.</p>
+<p>(I have the start of a more detailed AfrikaBurn post in the drafts folder. I’m still considering whether I should finish it or not. Let me know in the comments what you would like.)</p>
+<p>There’s still some dust that surprises me every now and then, and still some equipment that needs cleaning up and returning. In the meantime, I’ve sort-of accidentally stopped reading twitter, and I’ve sort of accidentally started checking facebook even less regularly than usual.</p>
+<p>It seems that a week of talking more than usual about Mindfulness, doing more breathing and focus exercises with others, and, most importantly, connecting fully with fellow human beings (partially thanks to complete digital disconnection), might have scrambled my brain a tad.</p>
+<p>Have a great week peeps, I hope to see you again soon!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</title><link>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</link><pubDate>Thu, 05 May 2016 21:19:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</guid><description> From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
+Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.
+I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/05/view_from_paarl_rock.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/05/view_from_paarl_rock-1024x166.jpg"
+        
+            alt="From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together."/> </a><figcaption>
+            <p>From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.</p>
+        </figcaption>
+</figure>
+
+<p>Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.</p>
+<p>I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore. I think this specific seed of discontent was planted when I joined someone’s <a href="https://www.livecoding.tv/livestreams/">livecoding.tv</a> stream, only to have them mangle the in hindsight unpronounceable pronunciation of cpbotha (ku-pu-byooothuh).</p>
+<p>CURSES.</p>
+<p>Nobody told me about this additional requirement in ’99! I will ask for my money back.</p>
+<p>In any case, after some fancy twitter footwork, I now have an additional handle: <a href="https://twitter.com/cvoxel">cvoxel</a>. I realise this is only interesting to me and maybe one or two other nerds, but here we are. There might be some personality fragmentation behind all of this. I’ll have a chat with me later.</p>
+<p>Friends in more advanced countries, when I show them the sun and the beer and the beaches and the mountains and the WILD BEASTS over here, usually simply point at my miserably slow internet connection, thereby restoring their faith in the balance that exists in our world. Due to another recent change, I can now offer this as a retort:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/05/speedtest.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/05/speedtest.png"
+        /> </a>
+</figure>
+
+<p>This kind of bandwidth is pretty respectable for the balmy southern tip of the African continent. (plus that those internet packets are flying about 1km through the air, which is pretty cool!)</p>
+<p>This year I did not go to AfrikaBurn, because reasons (read on…). Fortunately the photos only started showing up after the week (no internets for the burners of course!), but they did cause some really acute feels of nostalgia. It’s strange how <a href="/2015/06/14/weekly-head-voices-91-theyre-back/">last year’s experience</a>, our first (Pompen en Pimpen forever!), has managed to become so deeply ingrained. I really hope to see you there next year.</p>
+<p>My oldest sibling has started an adventure in Kiwi-land. His family will soon follow. I am happy for the adventurers, but I’m also sad to have them so far away.</p>
+<h2 id="a-caffeine-infused-mitochondrial-interlude">A caffeine-infused mitochondrial interlude</h2>
+<p>You probably remember that adenosine triphosphate, or ATP, is the most important form of energy that is produced for the largest part by the mitochondria in the nuclei of all of your cells. ATP is broken down when energy is required. ATP powers things like muscle contraction, cellular metabolism, signaling, and so on. Without it, you would be useless. Dead actually.</p>
+<p>I just learnt from the <a href="https://en.wikipedia.org/wiki/Adenosine_triphosphate">wikipedia article</a> that your body turns over its own weight (!!!) in ATP every day, which is pretty awesome.</p>
+<p>The first factoid I wanted to mention, is the curious link caffeine has with ATP. So as you’re going through the day expending all that energy, ATP gets broken down into its constituents, one of which is of course adenosine. This adenosine binds to the adenosine receptors in your brain. When a certain threshold of adenosine receptors are bound, your body decides that it’s time to rest, so you get sleepy. During sleep, the adenosine is cleared as your body builds up new energy stores.</p>
+<p>Caffeine is, besides being magical, a sort of adenosine impostor. When you drink coffee for example, the caffeine in your tasty drink will go and bind with your adenosine receptors, hence making it impossible for real adenosine to bind, but it will do so without actually activating those receptors. The end result is that your brain does not realise that it should be feeling sleepy, and so you don’t feel so tired.</p>
+<p>I find it interesting that caffeine in fact interferes so fundamentally with this important physiological process.</p>
+<p>What I found slightly more mind-blowing than that however, is the fact that the <a href="https://en.wikipedia.org/wiki/Mitochondrion">mitochondria</a>, the little organelles where most of this ATP production takes place, and which are embedded right in all of your cell nucei, actually contain <em>foreign</em> DNA.</p>
+<p>TUN-TUN-DUUUUUUUUUN!!!</p>
+<p>Yes children, you have your own precious DNA in your cell nucleus, but the mitochondrion, the cell’s powerhouse, has its own separate genome. Long ago, we seem to have started a symbiotic relationship with a bacterial organism. Actually, we flat-out went and merged with them at an extremely intimate level.</p>
+<p>Let us all take a few minutes to say hi to the beautiful little alien endo-symbionts embedded in our cell nuclei, without whom everything falls apart. We are all chaotic but somehow walking cellular mega-cities, and it’s just lovely.</p>
+<h2 id="my-universe-expanded">My universe expanded</h2>
+<p>About those reasons…</p>
+<p>Well, GOU#3 was born a few weeks ago.</p>
+<p>She’s a beautiful pink little not-yet-walking but rapidly expanding cellular mega-city. I and the other more developed cellular mega-cities in this neck of the woods and all of our billions of cells are truly happy to have her with us.</p>
+<p>May your neurotransmitters rejoice.</p>
+<p> </p>
+]]></content:encoded></item><item><title>Weekly Head Voices #91: They’re back.</title><link>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</link><pubDate>Sun, 14 Jun 2015 14:59:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</guid><description> So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.
+Sunset at AfrikaBurn 2015.
+Again inspired by the information-and-entertainment-dense way that Swimgeek manages to do it, I’m going to try this in bullet form.</description><content:encoded><![CDATA[ <p>So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2015/06/wpid-afrikaburn-2015-sunset-cpbotha.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2015/06/wpid-afrikaburn-2015-sunset-cpbotha.jpg"
+        
+            alt="Sunset at AfrikaBurn 2015."/> </a><figcaption>
+            <p>Sunset at AfrikaBurn 2015.</p>
+        </figcaption>
+</figure>
+
+<p>Again inspired by the information-and-entertainment-dense way that <a href="http://www.swimgeek.com/blog/">Swimgeek</a> manages to do it, I’m going to try this in bullet form.</p>
+<ul class="org-ul">
+<li>
+    We, that’s me with friends <a href="http://dewijnrecensent.nl/">DWR</a>, PK, TvD, CvdB, MJ and a Very Flat Cat, spent the whole week (Monday April 25 to Sunday May 1) at <a href="http://afrikaburn.com/">AfrikaBurn</a> 2015. We built (the desert truly is rock hard – try ramming a metre of rebar down into it, then repeat) and ran <i>Pompen en Pimpen</i>, bicycle repair and pimping theme camp extraordinaire, on the corner of 9ish and Binnekring. The experience unfortunately is exactly one of those things that is more or less impossible to explain in words. I’ll try a few keywords nonetheless: Hard labour at the Best Party Ever; music never stops (sleep never really comes); engineered herd humanity; so many people, so much space; gifting really is great. We’re going to have to go again.
+  </li>
+<li>
+    Damnit. I’m not very good at bullets.
+  </li>
+<li>
+    As if fate were a thing that could taunt me, a super interesting project at work has resulted in me: <ul class="org-ul">
+<li>
+        Buying an early 2015 13″ Retina MacBook Pro. It’s super portable and the battery lasts more than 6 hours, but I still like working on my <a href="http://vxlabs.com/2013/03/24/acer-v3-571g-fullhd-ips-superb-priceperformance-linux-development-laptop/">klunky Linux-running Acer laptop</a> more.
+      </li>
+<li>
+        Learning Objective C and X Code (AppCode is miles better).
+      </li>
+<li>
+        Working on an experimental iOS app.
+      </li>
+<li>
+        Learning to program Apple Metal on iOS and on the OSX desktop (way before most other people).
+      </li>
+</ul>
+</li>
+<li>
+    In another project I got my hands dirty with <a href="http://threejs.org/">three.js</a>. What a lovely library for doing WebGL! We’ll soon be shipping a product feature based on this.
+  </li>
+<li>
+    Shortly afer having resigned myself to never ever finding a new house that we all liked, we found a house we all liked! If all goes according to plan, and the various mafia bosses we’re borrowing money from cooperate, we will soon be moving in to a place of our own. I guess this means we are sort of settling down again.
+  </li>
+</ul>
+<p>Have a beautiful week tiny group of readers!</p>
+]]></content:encoded></item><item><title>Weekly Head Voices #87: Good Reads.</title><link>https://cpbotha.net/2014/12/04/weekly-head-voices-87-good-reads/</link><pubDate>Thu, 04 Dec 2014 19:10:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/12/04/weekly-head-voices-87-good-reads/</guid><description> Two days ago, I received this in the mail: For various reasons I was temporarily ever-so-slightly misty-eyed. Well-done boys, I’m SUPER proud of you!
+Other books you might also like. I’ve recently finished reading two other mind-expanding books:
+The Three Body Problem by Liu Cixin: Liu Cixin is a wildly popular Chinese science fiction author. I found this recently translated first edition of a trilogy to be an awesome first peek into modern Chinese science fiction.</description><content:encoded><![CDATA[ <p>Two days ago, I received this in the mail:
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2014/12/wpid-proefschriften_peter_kok_stef_busking.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2014/12/wpid-proefschriften_peter_kok_stef_busking.jpg"
+        /> </a>
+</figure>
+</p>
+<p>For various reasons I was temporarily ever-so-slightly misty-eyed. Well-done boys, I’m <strong>SUPER</strong> proud of you!</p>
+<h2 id="other-books-you-might-also-like">Other books you might also like.</h2>
+<p>I’ve recently finished reading two other mind-expanding books:</p>
+<p><a href="https://www.goodreads.com/book/show/20518872-the-three-body-problem">The Three Body Problem by Liu Cixin</a>: Liu Cixin is a wildly popular Chinese science fiction author. I found this recently translated first edition of a trilogy to be an awesome first peek into modern Chinese science fiction. The translator, Ken Liu, managed to produce an English version of this story that still managed to bring across themes of Chinese history and culture. On top of that, you also get a computer consisting of 30 million soldiers arranged into inter-connected logic gates (think that’s far-fetched?), artificially intelligent quantum entangled photons (told you), and much more. I’ll be lining up as soon as the translations of part 2 and 3 appear.</p>
+<p>I read <a href="http://en.wikipedia.org/wiki/Neuromancer">William Gibson’s Neuromancer</a> probably shortly after it was published in 1984. At that stage, I compensated for lack of internet by working my way through the local library, book by book. Through the succeeding years, as the internet came onto the scene, and cyberspace became more of a reality, I’ve re-read Neuromancer a number of times. Each time, it caused more goose-bumps than the previous.</p>
+<p>In my eyes, Gibson already deserved his status as <i>literary</i> author many times over. With <a href="http://en.wikipedia.org/wiki/The_Peripheral">The Peripheral</a>, he has shown, in an exceptionally suave and absolutely in-control way, that he is the <i>final boss</i> of modern writing. The number of mind-bending ideas that he develops, whilst fleshing out characters that feel more real than some real people, all the while masterfully having the reader ride along with the two protagonists and having us figure out the story along with them, is nothing short of amazing. (Yes people, I am positively gushing. It’s that good.)</p>
+<h2 id="other-news">Other news.</h2>
+<ul>
+<li>The OSSSA core team has recently doubled in size. There are two of us
+now. Thanks to the <a href="https://twitter.com/lgmarincowitz">extremely
+welcome addition</a>, we are now <a href="http://osssa.org.za/2014/12/02/call-for-information-do-you-or-does-your-organization-work-with-open-source-software-please-send-us-your-info/">actively
+busy gathering information</a> on all open source software entities in South
+Africa, so that we can create the go-to resource for this. If you’re in
+SA, and you’re into OSS, please respond!</li>
+<li>Due to a whole team of intrepid Dutch adventurers with fairly concrete plans,
+please look for the Dutch Bicycle Repair and Pimping Shop at <a href="http://afrikaburn.com/the-event/afrikaburn-2014">AfrikaBurn 2015</a>,
+because you might just find <i>us</i>!</li>
+</ul>
+<p>Have a great week people, wherever you are!</p>
+]]></content:encoded></item></channel></rss>

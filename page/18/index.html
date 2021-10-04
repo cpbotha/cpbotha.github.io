@@ -1,0 +1,774 @@
+<!doctype html><html>
+<head>
+<title>voices in my head</title>
+<meta charset=utf-8>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Charl P. Botha">
+<meta property="og:title" content="voices in my head">
+<meta property="og:description" content>
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cpbotha.net/">
+<link href=https://cpbotha.net/index.xml rel=alternate type=application/rss+xml title="voices in my head">
+<link rel="shortcut icon" href=/favicon.ico>
+<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
+<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
+<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
+<link rel=stylesheet href=https://cpbotha.net/css/style.css>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body>
+<div id=container>
+<header id=header>
+<div id=header-outer class=outer>
+<div id=header-inner class=inner>
+<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
+<nav id=main-nav>
+<a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
+</nav>
+<nav id=sub-nav>
+<div id=search-form-wrap>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<section id=main class=outer>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/07/19/weekly-head-voices-109-gaba/>Weekly Head Voices #109: GABA</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/07/19/weekly-head-voices-109-gaba/ class=article-date>
+<time datetime=2016-07-19T11:17:09.000+00:00 itemprop=datePublished>2016-07-19</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT! After a multi-year, completely coincidental, break from medical imaging, I am back to The Real Business since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer.
+</p>
+<p class=article-more-link>
+<a href=/2016/07/19/weekly-head-voices-109-gaba/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/digital-pathology>digital pathology
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/fastmail>fastmail
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gaba>gaba
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/machine-learning>machine learning
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/rochefort>rochefort
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/science>science
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/st-francis-bay>st francis bay
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/trappist-beer>trappist beer
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/>Installing free Let’s Encrypt SSL certificates on webfaction in 3 easy steps</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/ class=article-date>
+<time datetime=2016-07-18T19:31:00.000+00:00 itemprop=datePublished>2016-07-18</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+WARNING on 2020-02-24: webfaction has been bought by godaddy and will soon close down. I have recently moved out and am now keeping all of my Let&rsquo;s Encrypt certificates up to date with the official certbot tool.
+WARNING: High levels of NERD ahead.
+I started using CloudFlare’s free tier on this blog, before Let’s Encrypt burst onto the scene, mostly for their universal SSL. However, as joepie91 recently pointed out, this means that by design, CloudFlare has to decrypt all SSL traffic, and then re-encrypt it to send it to your original site with its self-signed or generic certificate (in my case).
+</p>
+<p class=article-more-link>
+<a href=/2016/07/18/installing-free-lets-encrypt-ssl-certificates-on-webfaction-in-3-easy-steps/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/301>301
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/cloudflare>cloudflare
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/encryption>encryption
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/htaccess>htaccess
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/nerdery>nerdery
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/redirect>redirect
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/ssl>ssl
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/webfaction>webfaction
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/06/24/weekly-head-voices-108-gaga/>Weekly Head Voices #108: Gaga.</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/06/24/weekly-head-voices-108-gaga/ class=article-date>
+<time datetime=2016-06-24T21:55:42.000+00:00 itemprop=datePublished>2016-06-24</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)
+Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.
+</p>
+<p class=article-more-link>
+<a href=/2016/06/24/weekly-head-voices-108-gaga/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/c++>c++
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/flume>flume
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/glsl>glsl
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gou>gou
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/music>music
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/overjustification-effect>overjustification effect
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/psychology>psychology
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/science>science
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/sfml>sfml
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/south-africa>south africa
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/05/22/weekly-head-voices-107-balance/>Weekly Head Voices #107: Balance.</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/05/22/weekly-head-voices-107-balance/ class=article-date>
+<time datetime=2016-05-22T20:01:17.000+00:00 itemprop=datePublished>2016-05-22</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+That’s how the African sun sets in Mpumalanga.
+… and this is more or less what it looks like when a cheetah decides to grace you with its presence. We had it all to ourselves (this is quite unusual in the Kruger National Park with an animal of this level of celebrity) and were able to follow it until it wandered further away from the road, probably on the lookout for some dinner.
+</p>
+<p class=article-more-link>
+<a href=/2016/05/22/weekly-head-voices-107-balance/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/brain-capacity>brain capacity
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/cheetah>cheetah
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/knp>knp
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/kruger-national-park>kruger national park
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/microsoft-sculpt-ergonomic>microsoft sculpt ergonomic
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/mpumalanga>mpumalanga
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/reggie-watts>reggie watts
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/wisdom>wisdom
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/ class=article-date>
+<time datetime=2016-05-05T21:19:18.000+00:00 itemprop=datePublished>2016-05-05</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
+Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.
+I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore.
+</p>
+<p class=article-more-link>
+<a href=/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/adenosine>adenosine
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/afrikaburn>afrikaburn
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/atp>ATP
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/bacteria>bacteria
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/caffeine>caffeine
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/changes>changes
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/coffee>coffee
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/cvoxel>cvoxel
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gou>gou
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gou-3>gou-3
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/symbiosis>symbiosis
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/04/10/dolphins-on-the-r44/>Dolphins on the R44</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/04/10/dolphins-on-the-r44/ class=article-date>
+<time datetime=2016-04-10T15:00:18.000+00:00 itemprop=datePublished>2016-04-10</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/life>life</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+On Sunday, April 10, 2016, as if the day was not already perfect enough, we were super fortunate to see a pod of dolphins speeding along in the sea right next to the R44 coastal road.
+The sight was so spectacular, that we could not spare a second to get our cameras out, so you’re going to have to be satisfied with this photo of me and GOU #1 admiring the pod as they swam out of sight.
+</p>
+<p class=article-more-link>
+<a href=/2016/04/10/dolphins-on-the-r44/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/dolphins>dolphins
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gordons-bay>gordon's bay
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/r44>r44
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/02/15/weekly-head-voices-105/>Weekly Head Voices #105: There will be tears.</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/02/15/weekly-head-voices-105/ class=article-date>
+<time datetime=2016-02-15T20:04:13.000+00:00 itemprop=datePublished>2016-02-15</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
+About 4 seconds after posting previous edition WHV #104 to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:
+So much truth. I have been put back in my place. Sorry vegans. Sorry MBA students. Not sorry Ayn Randers.
+</p>
+<p class=article-more-link>
+<a href=/2016/02/15/weekly-head-voices-105/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/beer>beer
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/braai>braai
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/c++>c++
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/clang>clang
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/craft-beer>craft beer
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gitlab>gitlab
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gou>gou
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/jack-black>jack black
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/lab>lab
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/tears-of-the-hipster>tears of the hipster
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/02/08/weekly-head-voices-104-let-me-update-you/>Weekly Head Voices #104: Let me update you.</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/02/08/weekly-head-voices-104-let-me-update-you/ class=article-date>
+<time datetime=2016-02-08T20:59:23.000+00:00 itemprop=datePublished>2016-02-08</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.
+I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!
+</p>
+<p class=article-more-link>
+<a href=/2016/02/08/weekly-head-voices-104-let-me-update-you/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/ayn-rand>ayn rand
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/beards>beards
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/c++>c++
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/g3>g3
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/kdz>kdz
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/lgg3>lgg3
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/lgup>lgup
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/stl>stl
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/timerank>timerank
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/timescapers>timescapers
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/02/02/weekly-head-voices-103-chips/>Weekly Head Voices #103: Chips!</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/02/02/weekly-head-voices-103-chips/ class=article-date>
+<time datetime=2016-02-02T18:02:59.000+00:00 itemprop=datePublished>2016-02-02</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/weekly-head-voices>weekly head voices</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+I thought that I had nothing for the two weeks from Monday January 18 to Sunday January 31, 2016, but my notes begged to differ. They suggested the following items for your reading, listening and viewing pleasure:
+Party trick If you&rsquo;re like me, you stop two to three chips short of finishing the packet so that you can explain to your conscience that you didn&rsquo;t finish the whole thing. However, once or twice in my life, I&rsquo;ve been faced with the terrifying conundrum of a partially finished packet of chips, but no way to seal the packet for later utilisation.
+</p>
+<p class=article-more-link>
+<a href=/2016/02/02/weekly-head-voices-103-chips/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/backyard-philosophy>backyard philosophy
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/chips>chips
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/english>english
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/generation-y>generation Y
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/jamie-xx>jamie xx
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/language>language
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/mattermost>mattermost
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/millenials>millenials
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/music>music
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/>Fix the unusable window resize border in Gnome Flashback Metacity on Ubuntu</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/ class=article-date>
+<time datetime=2016-01-22T09:04:25.000+00:00 itemprop=datePublished>2016-01-22</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+On Ubuntu I mostly use Gnome Flashback with Metacity, along with the brilliant Synapse app starter / file finder. I do this in spite of having a beefy NVIDIA GPU in this Core i7 workstation, because the OpenGL compositing on this 2560×1440 display makes video conferencing really slow, and because I do OpenGL development and need to have maximum performance for the app I’m working on.
+However, it irritated me to no end that the window borders were so thin that I was not able to grab them for a resize.
+</p>
+<p class=article-more-link>
+<a href=/2016/01/22/fix-the-unusable-window-resize-border-in-gnome-flashback-metacity-on-ubuntu/>Read More</a>
+</p>
+</div>
+<footer class=article-footer>
+<ul class=article-tag-list>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/gnome-flashback>gnome flashback
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/metacity>metacity
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/nerd>nerd
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/thin>thin
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/ubuntu>ubuntu
+</a>
+</li>
+<li class=article-tag-list-item>
+<a class=article-tag-list-link href=https://cpbotha.net//tags/window-border>window border
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</article>
+<nav id=page-nav>
+<a href=/page/17/ rel=prev class="extend prev">&#171; Prev</a>
+<a href=/>1</a>
+<a href=/page/2/>2</a>
+<a href=/page/3/>3</a>
+<a href=/page/4/>4</a>
+<a href=/page/5/>5</a>
+<a href=/page/6/>6</a>
+<a href=/page/7/>7</a>
+<a href=/page/8/>8</a>
+<a href=/page/9/>9</a>
+<a href=/page/10/>10</a>
+<a href=/page/11/>11</a>
+<a href=/page/12/>12</a>
+<a href=/page/13/>13</a>
+<a href=/page/14/>14</a>
+<a href=/page/15/>15</a>
+<a href=/page/16/>16</a>
+<a href=/page/17/>17</a>
+<span class="page-number current">18</span>
+<a href=/page/19/>19</a>
+<a href=/page/20/>20</a>
+<a href=/page/21/>21</a>
+<a href=/page/22/>22</a>
+<a href=/page/23/>23</a>
+<a href=/page/24/>24</a>
+<a href=/page/25/>25</a>
+<a href=/page/26/>26</a>
+<a href=/page/27/>27</a>
+<a href=/page/28/>28</a>
+<a href=/page/29/>29</a>
+<a href=/page/30/>30</a>
+<a href=/page/31/>31</a>
+<a href=/page/32/>32</a>
+<a href=/page/33/>33</a>
+<a href=/page/34/>34</a>
+<a href=/page/35/>35</a>
+<a href=/page/36/>36</a>
+<a href=/page/37/>37</a>
+<a href=/page/38/>38</a>
+<a href=/page/39/>39</a>
+<a href=/page/40/>40</a>
+<a href=/page/41/>41</a>
+<a href=/page/42/>42</a>
+<a href=/page/43/>43</a>
+<a href=/page/44/>44</a>
+<a href=/page/45/>45</a>
+<a href=/page/46/>46</a>
+<a href=/page/47/>47</a>
+<a href=/page/48/>48</a>
+<a href=/page/49/>49</a>
+<a href=/page/50/>50</a>
+<a href=/page/51/>51</a>
+<a href=/page/52/>52</a>
+<a href=/page/53/>53</a>
+<a href=/page/54/>54</a>
+<a href=/page/55/>55</a>
+<a href=/page/56/>56</a>
+<a href=/page/57/>57</a>
+<a href=/page/58/>58</a>
+<a href=/page/59/>59</a>
+<a href=/page/60/>60</a>
+<a href=/page/61/>61</a>
+<a href=/page/62/>62</a>
+<a href=/page/63/>63</a>
+<a href=/page/64/>64</a>
+<a href=/page/65/>65</a>
+<a href=/page/66/>66</a>
+<a href=/page/67/>67</a>
+<a href=/page/68/>68</a>
+<a href=/page/69/>69</a>
+<a href=/page/70/>70</a>
+<a href=/page/19/ rel=next class="extend next">Next &#187;</a>
+</nav>
+</section>
+<footer id=footer>
+<div id=search-form-wrap>
+<form class=search-form method=get action=https://duckduckgo.com/>
+<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden>
+</form>
+</div>
+<div class=outer>
+<div id=footer-info class=inner>
+&copy; 2021 Charl P. Botha
+<br>
+Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
+</div>
+</div>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>simplenote on voices in my head</title><link>https://cpbotha.net/tags/simplenote/</link><description>Recent content in simplenote on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 02 Dec 2016 10:19:40 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/simplenote/index.xml" rel="self" type="application/rss+xml"/><item><title>nvpy 1.0.0 has been released!</title><link>https://cpbotha.net/2016/12/02/nvpy-1-0-0-has-been-released/</link><pubDate>Fri, 02 Dec 2016 10:19:40 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/02/nvpy-1-0-0-has-been-released/</guid><description> Oh happy day!
+Last night I released version 1.0.0 of nvpy, a cross-platform (linux, mac, windows) simplenote-syncing note-taking app. nvpy is also my most popular open source baby, at least by github stars and forks. Screenshot of nvpy 1.0.0 with a demo database of notes.
+Since I first released nvpy in 2012, automattic have released their own official open source desktop app for simplenote. Although the official app is prettier (it is electron-based), nvpy is faster and uses a fraction of the RAM (70MB RSS vs 1000MB+ RSS).</description><content:encoded><![CDATA[ <p>Oh happy day!</p>
+<p>Last night <a href="https://groups.google.com/forum/#!topic/nvpy/9r3ED7w3axs">I released version 1.0.0</a> of <a href="https://github.com/cpbotha/nvpy">nvpy</a>, a cross-platform (linux, mac, windows) simplenote-syncing note-taking app. nvpy is also my most popular open source baby, at least by github stars and forks.
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/12/2016-12-02-115217_1032x679_scrot.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/12/2016-12-02-115217_1032x679_scrot-1024x674.png"
+        
+            alt="Screenshot of nvpy 1.0.0 with a demo database of notes."/> </a><figcaption>
+            <p>Screenshot of nvpy 1.0.0 with a demo database of notes.</p>
+        </figcaption>
+</figure>
+</p>
+<p>Since I first released nvpy in 2012, <a href="https://automattic.com/">automattic</a> have released their own official open source desktop app for simplenote. Although the official app is prettier (it is electron-based), nvpy is faster and uses a fraction of the RAM (70MB RSS vs 1000MB+ RSS). Furthermore, nvpy’s syncing is more deterministic: You can see exactly when and how it syncs.</p>
+<p>Personally, I use nvpy on my Linux and Mac workstations and laptops, and the official simplenote apps on my Android devices for the text-only notes <a href="/2016/01/05/note-taking-strategy-early-2016/">I always need to be with me</a>.</p>
+<p>I am currently planning to write a new sqlite-based storage backend for nvpy, which should greatly speed up its interactive note-searching.</p>
+]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description> I’m probably what one might call an obsessive note-taker.
+I’ve talked in the past about the importance of keeping a lab journal. Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve experimented with a number of different tools (see under “Nerd News”) to do this.</description><content:encoded><![CDATA[ <p>I’m probably what one might call an obsessive note-taker.</p>
+<p>I’ve <a href="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/">talked in the past about the importance of keeping a lab journal.</a> Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve <a href="https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/">experimented with a number of different tools</a> (see under “Nerd News”) to do this.</p>
+<p>This post summarises my current selection of tools.</p>
+<p>For making notes with a visual aspect, for example photos of beers that I’ve tasted, and sometimes screenshots of websites, I use <a href="https://www.google.com/keep/">Google Keep</a>. This has a really great Android app with which you can easily save a website, including screenshot, using the Android “share with” functionality. On the desktop, this has a web-app that looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/keep_screenie.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/keep_screenie-790x1024.jpg"
+        /> </a>
+</figure>
+
+<p>One of the neat features of Keep is that you can easily have it extract and OCR text from images, for example if you’ve taken a photo of a business card. Unfortunately, the web-app is quite sluggish (this could be because I live in a bandwidth-constrained world here at the southern tip of Africa), and there’s no web clipper with which I can easily save web pages whilst on the desktop. Furthermore, I find the layout to be quite chaotic, and therefore I treat it more like my similarly chaotic digital cork board.</p>
+<p>After a two year hiatus, I’ve returned to the <a href="http://simplenote.com/">SimpleNote universe</a> as my <strong>core mobile and desktop note-taking tool</strong>. They have great apps on IOS, Android, Mac and Web. I use the super sleek, some might say austere, <a href="https://play.google.com/store/apps/details?id=com.automattic.simplenote">SimpleNote Android app</a> (recently rewritten when <a href="https://automattic.com/">Automattic</a>, makers of WordPress, bought Simperium, makers of SimpleNote) and on the desktop I mostly use <a href="https://github.com/cpbotha/nvpy">nvpy, my open source SimpleNote client</a>. The latest greatest version (0.10.0, soon to be released) looks like this:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/nvpy_screenie.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/nvpy_screenie.png"
+        /> </a>
+</figure>
+
+<p>Because SimpleNote is text-only, and it’s a fully synced offline-capable tool, it’s nice and fast. This is the tool you want to use to store those small but useful factoids, quotes and code snippets.</p>
+<p>For more in-depth and technical lab journals, I use GNU Emacs with <a href="http://orgmode.org/">Org mode</a>. This enables me to write documents with beautifully typeset math, syntax-highlighted and in some cases even live-evaluated code blocks, and good document structure, all in plain text. Here’s a sample of my November 2015 lab journal where I started reading about and experimenting with a bit of D language:</p>
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png"
+        /> </a>
+</figure>
+
+<p>Parts of these journals <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">can be sent directly to your WordPress blog from within Emacs</a>, and you can generate high quality PDFs at the press of a typical simple 12 key Emacs shortcut combo. This being Emacs, the experience can be easily customised to emulate SimpleNote in terms of interactivity, but this will not easily compete with SimpleNote proper in terms of transparent syncing between all devices and in terms of accessibility on mobile.</p>
+<p>Using these three tools together currently takes good care of my note-taking requirements. However, I think that there might be room for a fourth type of tool that is more visual, supports rich and graphical linking between data items and even between sub-components of such items and, perhaps most importantly, enables us to build note landscapes that are natively as non-linear as our thoughts.</p>
+]]></content:encoded></item></channel></rss>

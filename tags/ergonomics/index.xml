@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ergonomics on voices in my head</title><link>https://cpbotha.net/tags/ergonomics/</link><description>Recent content in ergonomics on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 23 Dec 2019 19:15:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/ergonomics/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #187: Checklists everywhere.</title><link>https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/</link><pubDate>Mon, 23 Dec 2019 19:15:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/</guid><description> Welcome back ANYONE WHO IS READING THIS!
+Fiery sky in Betty's Bay. I&amp;rsquo;m not sure about the situation in the Northern hemisphere, but down here in the South it seems as if just about everyone has disconnected for the Christmas period.
+I decided that I would prefer at least trying to end the year with a few more-or-less on time WHVs, even if they have to slim down a bit to do so.</description><content:encoded><![CDATA[ <p>Welcome back ANYONE WHO IS READING THIS!</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_sky_fire.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_sky_fire_hu184f60bcf431b94c2b4abae030e6edf5_556834_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_sky_fire_hu184f60bcf431b94c2b4abae030e6edf5_556834_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_sky_fire_hu184f60bcf431b94c2b4abae030e6edf5_556834_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_sky_fire_hu184f60bcf431b94c2b4abae030e6edf5_556834_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_sky_fire_hu184f60bcf431b94c2b4abae030e6edf5_556834_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+Fiery sky in Betty's Bay.
+</figcaption>
+</figure>
+<p>I&rsquo;m not sure about the situation in the Northern hemisphere, but down here in
+the South it seems as if just about everyone has disconnected for the Christmas
+period.</p>
+<p>I decided that I would prefer at least trying to end the year with a few
+more-or-less on time WHVs, even if they have to slim down a bit to do so.</p>
+<p>So here we are: Just you and me. Maybe just me.</p>
+<p>This WHV looks back on the week from Monday December 16 to Sunday December 22, 2019.</p>
+<h2 id="the-last-work-week-of-2019-partially-in-bullets">The last work-week of 2019, (partially) in bullets.</h2>
+<p>For me this was the last <em>real</em> work week.</p>
+<p>I did spend most of it working from places other than the office, which was
+nice.</p>
+<p>Other than that, I would like to mention the following noteworthy learnings and
+events:</p>
+<ul>
+<li>Schlepping along my Microsoft Sculpt Ergonomic Desktop keyboard (current
+favourite) and mouse, as well as my collapsible laptop stand (to bring the
+laptop screen up to eye height) made a huge positive difference to my
+ergonomics. 12/10 would do again.</li>
+<li>We had a gratifying 4 day turn-around from the report of a pretty
+obscure and initially irreproducible bug, through analysis and debugging, to
+a new Windows driver release.</li>
+<li><a href="https://github.com/projectstorm/react-diagrams">react-diagrams</a> is an
+amazing TypeScript library for putting together a boxes and lines frontends
+to manipulate graph-based dataflow backends. However, the TypeScript class
+hierarchies and lack of documentation complicate customisation, if that&rsquo;s
+your goal. I had to throw out that work and start over, building everything
+on React (<a href="https://reactjs.org/docs/hooks-intro.html">hooks</a> all the way
+baby!) and little bits of d3 for the spliny bits.</li>
+<li>In the same vein, <a href="https://github.com/tgdwyer/WebCola">Cola.js / WebCola</a> is
+an impressive layout approach for graphs. The force-directed layout in d3 is
+great for interactive demos, but sometimes you want something that, you know,
+lays out the graph. See this <a href="https://js.cytoscape.org/demos/2ebdc40f1c2540de6cf0/">cytoscape
+demo</a> for even more
+fun.</li>
+</ul>
+<h2 id="on-checklists">On checklists.</h2>
+<p>During this last week, as I was fighting to maintain the last islands of focus
+being relentlessly eroded by the persistent seas of vacation-temptation, I was
+helped a great deal by micro-checklists.</p>
+<p>I briefly debated calling them multi-scalar checklists, but they are really
+just normal checklists, except applied to any duration of work or focus time.</p>
+<p>In other words, given an hour in the evening to spend on research, I would
+start the hour by quickly jotting down (in Emacs Orgmode of course) a checklist
+of the 4 to 5 things I would like to get done in that hour.</p>
+<p>It was surprising to me much that 5 minute time investment would return in the
+subsequent 55.</p>
+<p>The lesson that I am taking from this, is that <a href="http://localhost:1313/2019/09/21/note-taking-strategy-2019/#daily-review">my daily planning
+checklist</a>
+is not enough.</p>
+<p>The daily landscape itself, my energy levels and my interest change far too
+much and too quickly for a single daily checklist.</p>
+<p>When you only get a few hours here and there to work, this problem is even more acute.</p>
+<p>I am still figuring out how exactly to cultivate this new habit of making a new
+checklist before every block of work, multiple times per day.</p>
+<p>(What exactly is a block of work? Practically, how can I delineate this during
+the day?)</p>
+<h2 id="on-disconnecting-for-recuperation">On disconnecting for recuperation.</h2>
+<p>During this time of the year I&rsquo;m usually spending a number of mental cycles
+debating how exactly to disconnect from The Network.</p>
+<p>(See <a href="/2014/07/16/a-south-african-state-of-mindful/#you-are-turning-into-a-cyborg">You are turning into a
+cyborg</a>
+from a 2014 Weekly Head Voices, for example.)</p>
+<p>Even longer ago than that, I used to keep my work and personal email separate.</p>
+<p>During vacations, I would temporarily remove the work account from all of my
+devices so that I could only see the mostly social-related personal emails.</p>
+<p>These days, work and personal networks seem to have become even more
+intertwined all by themselves, complicating measures like the above.</p>
+<p>When I re-joined the Exciting World of Business and Great Success in 2013, I
+merged all of my email back into a single account, for better knowledge
+management and especially retrieval.</p>
+<p>Another more important and more current example of this is WhatsApp, which more
+or less dominates all instant messaging and a great deal of general
+communication down here.</p>
+<p>Many people I know use WhatsApp for work.</p>
+<p>However, most of them, probably like most of you, use a single phone with a
+single SIM.</p>
+<p>This means that they will probably see work-related messages and activities
+during their vacation, traditionally, but now perhaps increasingly
+anachronistically, a period of disconnection.</p>
+<p>(By the way, see <a href="/2011/02/05/postmodern-creativity-weekly-head-voices-37/">me in 2011 recommending WhatsApp over
+SMS</a> when WhatsApp
+was still quite small, and see <a href="/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">me in 2016 recommending Signal over
+WhatsApp</a>. Signal
+is still the best choice by far if you value your privacy and security.)</p>
+<p>Personally, it feels like my current adventure in the Exciting World of
+Business and Great Success requires me to be available, just in
+case. Therefore, I am planning only a very few days of &ldquo;offline&rdquo;, which is more
+of a mental state than a technological setting.</p>
+<p>Other than that, my colleagues are all really great about staying off the
+emails and the WhatsApps, partly because they <em>are</em> really great (see above)
+and partly because they are applying similar methods.</p>
+<p>The only question that remains is, how much disconnection, and at which
+intensity, does the disconnecting human require for optimal functioning?</p>
+<p>Friends, whatever your level of disconnect, I wish you maximum rest.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_rocks.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_rocks_hufd20b379848dff4c50dee7269192e3d2_2299980_480x0_resize_q75_box.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_rocks_hufd20b379848dff4c50dee7269192e3d2_2299980_800x0_resize_q75_box.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_rocks_hufd20b379848dff4c50dee7269192e3d2_2299980_1200x0_resize_q75_box.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_rocks_hufd20b379848dff4c50dee7269192e3d2_2299980_1500x0_resize_q75_box.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/12/23/weekly-head-voices-187-checklists-everywhere/bettys_rocks_hufd20b379848dff4c50dee7269192e3d2_2299980_800x0_resize_q75_box.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+</figcaption>
+</figure>
+]]></content:encoded></item></channel></rss>
