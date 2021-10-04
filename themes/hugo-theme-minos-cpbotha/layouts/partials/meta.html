@@ -1,0 +1,12 @@
+{{/* cpbotha: add author */}}
+
+    {{- $description := or (.Description) (.Site.Params.Description) -}}
+{{- $keywords := or (.Keywords) (.Site.Params.Keywords) -}}
+{{- $author := (.Site.Author.name) -}}
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    
+    {{ if $author -}}<meta name="author" content="{{ $author }}">{{- end }}
+    {{ if $description -}} <meta name="description" content="{{ $description }}"> {{- end }}
+    {{ if $keywords -}} <meta name="keywords" content="{{ range $keywords }}{{ . }},{{ end }}"> {{- end }}
