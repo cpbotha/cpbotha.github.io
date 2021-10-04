@@ -1,7 +1,7 @@
 +++
 title = "Weekly Head Voices #232: Side-project Smorgasbord"
 date = 2021-09-13T21:38:00+02:00
-lastmod = 2021-10-04T14:57:18+02:00
+lastmod = 2021-10-04T15:04:38+02:00
 slug = "weekly-head-voices-232-side-project-smorgasbord"
 tags = ["compounding", "covid19", "github", "mrna", "side-projects"]
 categories = ["weekly head voices"]
@@ -86,8 +86,9 @@ now on the github and should remain available for significantly longer in the
 hopefully far future event of my demise.
 
 I'm planning to spend some more hours to get the whole thing also buildable on
-github so that there's a browsable version in addition to just the markdown
-sources.
+github so that there's a browseable version in addition to just the markdown
+sources. (Update on 2021-10-04: There is now a browseable version at
+<https://cpbotha.github.io/>.)
 
 Whatever the case may be, I hope that I can keep this site alive, and maybe even
 kicking, for at least twenty more years!
