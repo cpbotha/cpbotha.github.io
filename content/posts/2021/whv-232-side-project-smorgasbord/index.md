@@ -1,7 +1,7 @@
 +++
 title = "Weekly Head Voices #232: Side-project Smorgasbord"
 date = 2021-09-13T21:38:00+02:00
-lastmod = 2021-09-14T17:15:10+02:00
+lastmod = 2021-10-04T14:57:18+02:00
 slug = "weekly-head-voices-232-side-project-smorgasbord"
 tags = ["compounding", "covid19", "github", "mrna", "side-projects"]
 categories = ["weekly head voices"]
@@ -69,12 +69,12 @@ addition to what [the wonderful Wayback Machine is already doing](https://web.ar
 The solution I decided upon was to spend a great many hours going through 20
 years of cpbotha.net posts, mostly to fix all of the badly linked legacy
 wordpress figure sections, so that the whole thing could be pushed
-to... [github](https://github.com/cpbotha/cpbotha.net)!
+to... [github](https://github.com/cpbotha/cpbotha.github.io)!
 
 Yep, you heard me right...
 
 I've taken care of the bulk of rewriting, mostly through putting together [this
-horrible script](https://github.com/cpbotha/cpbotha.net/blob/main/mine/convert%5Fwp%5Ffigures.py), and manually reviewing the diffs, sometimes applying fixes, to
+horrible script](https://github.com/cpbotha/cpbotha.github.io/blob/main/mine/convert%5Fwp%5Ffigures.py), and manually reviewing the diffs, sometimes applying fixes, to
 over 600 files.
 
 [Beautifulsoup 4](https://www.crummy.com/software/BeautifulSoup/) is amazing by the way. Wordpress on the other hand, or rather
