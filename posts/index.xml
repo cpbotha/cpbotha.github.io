@@ -188,9 +188,9 @@ addition to what <a href="https://web.archive.org/web/*/cpbotha.net">the wonderf
 <p>The solution I decided upon was to spend a great many hours going through 20
 years of cpbotha.net posts, mostly to fix all of the badly linked legacy
 wordpress figure sections, so that the whole thing could be pushed
-to&hellip; <a href="https://github.com/cpbotha/cpbotha.net">github</a>!</p>
+to&hellip; <a href="https://github.com/cpbotha/cpbotha.github.io">github</a>!</p>
 <p>Yep, you heard me right&hellip;</p>
-<p>I&rsquo;ve taken care of the bulk of rewriting, mostly through putting together <a href="https://github.com/cpbotha/cpbotha.net/blob/main/mine/convert%5Fwp%5Ffigures.py">this
+<p>I&rsquo;ve taken care of the bulk of rewriting, mostly through putting together <a href="https://github.com/cpbotha/cpbotha.github.io/blob/main/mine/convert%5Fwp%5Ffigures.py">this
 horrible script</a>, and manually reviewing the diffs, sometimes applying fixes, to
 over 600 files.</p>
 <p><a href="https://www.crummy.com/software/BeautifulSoup/">Beautifulsoup 4</a> is amazing by the way. Wordpress on the other hand, or rather
@@ -200,8 +200,9 @@ years that I&rsquo;m not really sure what to think anymore.</p>
 now on the github and should remain available for significantly longer in the
 hopefully far future event of my demise.</p>
 <p>I&rsquo;m planning to spend some more hours to get the whole thing also buildable on
-github so that there&rsquo;s a browsable version in addition to just the markdown
-sources.</p>
+github so that there&rsquo;s a browseable version in addition to just the markdown
+sources. (Update on 2021-10-04: There is now a browseable version at
+<a href="https://cpbotha.github.io/">https://cpbotha.github.io/</a>.)</p>
 <p>Whatever the case may be, I hope that I can keep this site alive, and maybe even
 kicking, for at least twenty more years!</p>
 <h2 id="on-always-maintaining-a-menu-of-tasty-side-projects">On always maintaining a menu of tasty side-projects</h2>
