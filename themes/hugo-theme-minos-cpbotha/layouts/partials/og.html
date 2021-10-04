@@ -1,6 +1,7 @@
 {{/* cpbotha:
 - expand ogimage base name to 800px resized version of resource image URL!
 - change .Params.ogdescription to .Params.description
+- images frontmatter takes precedence for og:image, as per hugo internal template opengraph
 */}}
 
 <meta property="og:title" content="{{ if .Params.ogtitle }}{{ .Params.ogtitle }}{{ else }}{{ .Title }}{{ end }}" />
@@ -8,6 +9,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="{{ .Permalink }}" />
+{{- with $.Params.images -}}
+{{- range first 6 . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+{{- else -}}
     {{ if .Params.ogimage }}
     {{ $src := .Resources.GetMatch .Params.ogimage }}
     {{ if $src }}
@@ -15,3 +19,4 @@
     <meta property="og:image" content="{{ $small.Permalink }}" />
     {{ end }}
     {{ end }}
+{{ end }}
