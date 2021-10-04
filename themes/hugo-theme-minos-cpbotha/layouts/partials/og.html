@@ -10,6 +10,8 @@
     <meta property="og:url" content="{{ .Permalink }}" />
     {{ if .Params.ogimage }}
     {{ $src := .Resources.GetMatch .Params.ogimage }}
-    {{ $small := ($src.Resize "800x") }}
+    {{ if $src }}
+      {{ $small := ($src.Resize "800x") }}
     <meta property="og:image" content="{{ $small.Permalink }}" />
+    {{ end }}
     {{ end }}
