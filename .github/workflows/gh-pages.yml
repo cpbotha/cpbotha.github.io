@@ -1,4 +1,4 @@
-# from https://gohugo.io/hosting-and-deployment/hosting-on-github/
+# this github workflow from https://gohugo.io/hosting-and-deployment/hosting-on-github/
 name: github pages
 
 on:
@@ -25,6 +25,8 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      # this step will take the public/ subdir (default output dir of Hugo)
+      # and push to gh-pages branch of the repo
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
