@@ -12,6 +12,10 @@ menu:
 
 This is [my](http://charlbotha.com) personal blog.
 
+The canonical location of this blog is https://cpbotha.net/. There is a mirror
+at https://cpbotha.github.io/ in case cpbotha.net ever goes down (see [WHV
+#232](/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/#this-blog-hopefully-immortalised-on-github) for more information).
+
 You will find posts on science, software, general nerdery, privacy and
 [backyard philosophy](/tags/backyard-philosophy/). It also hosts [the Weekly
 Head Voices](/categories/weekly-head-voices/), a weekly (mostly not) personal
