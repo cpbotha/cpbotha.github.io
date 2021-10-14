@@ -43,6 +43,36 @@
 <article class="article article-type-post" itemscope itemprop=blogPost>
 <div class=article-inner>
 <header class=article-header>
+<h1 itemprop=name><a class=article-title href=/2004/07/13/thunderbird-on-linux-and-urls/>Thunderbird on Linux and URLs</a></h1>
+</header>
+<div class=article-meta>
+<a href=/2004/07/13/thunderbird-on-linux-and-urls/ class=article-date>
+<time datetime=2004-07-13T11:17:49.000+00:00 itemprop=datePublished>2004-07-13</time>
+</a>
+<div class=post-categories>
+<div class=article-category>
+<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
+</div>
+</div>
+</div>
+<div class=article-entry itemprop=articleBody>
+<p>
+It seems Mozilla Thunderbird (GREAT mail client, BTW) seems to download and open the downloaded HTML file when you click on a URL in an email. This is usually not what I want… so:
+Exit Thunderbird if it’s running.
+Edit your prefs.js (usually in ~/.mozilla-thunderbird/default/random_characters/prefs.js
+Add this line: user_pref(“network.protocol-handler.app.http”, “/usr/bin/mozilla-firefox”);
+Save (DOH)
+Obviously, if you don’t have an intelligent mozilla-firefox script in /usr/bin that is able to make use of a running instance of firefox, you might have to use the mozilla-firefox-xremote-client or somesuch.
+</p>
+<p class=article-more-link>
+<a href=/2004/07/13/thunderbird-on-linux-and-urls/>Read More</a>
+</p>
+</div>
+</div>
+</article>
+<article class="article article-type-post" itemscope itemprop=blogPost>
+<div class=article-inner>
+<header class=article-header>
 <h1 itemprop=name><a class=article-title href=/2004/06/23/washington-post-style-invitational-2004/>Washington Post Style Invitational 2004</a></h1>
 </header>
 <div class=article-meta>
@@ -279,31 +309,6 @@ This weekend, I started playing around with CoolTabs. This really useful little 
 </p>
 <p class=article-more-link>
 <a href=/2004/04/05/popup-tabs-for-linux/>Read More</a>
-</p>
-</div>
-</div>
-</article>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 itemprop=name><a class=article-title href=/2004/04/01/tik-tik-vrrrooooom/>*tik* *tik* VRRROOOOOM!</a></h1>
-</header>
-<div class=article-meta>
-<a href=/2004/04/01/tik-tik-vrrrooooom/ class=article-date>
-<time datetime=2004-04-01T17:05:46.000+00:00 itemprop=datePublished>2004-04-01</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=https://cpbotha.net//categories/uncategorized>Uncategorized</a>
-</div>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p>
-Today is the day that I officially begin writing up my thesis.
-</p>
-<p class=article-more-link>
-<a href=/2004/04/01/tik-tik-vrrrooooom/>Read More</a>
 </p>
 </div>
 </div>
