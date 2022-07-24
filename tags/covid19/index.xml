@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>covid19 on voices in my head</title><link>https://cpbotha.net/tags/covid19/</link><description>Recent content in covid19 on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 13 Sep 2021 21:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/covid19/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #232: Side-project Smorgasbord</title><link>https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/</link><pubDate>Mon, 13 Sep 2021 21:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/</guid><description> Figure 1: View from a park not too far from my house.
 Welcome back friends to WHV #232, looking back at the two weeks from Monday August 30 to Sunday September 13, both fortunately in the year 2021.
-Give me some more of that mRNA I&amp;rsquo;m happy to report that I got my second Pfizer shot at the start of this month, at the Somerset West Town Hall.</description><content:encoded><![CDATA[ 
+Give me some more of that mRNA I&amp;rsquo;m happy to report that I got my second Pfizer shot at the start of this month, at the Somerset West Town Hall.
+The whole procedure took 30 minutes, from when I entered the front door, until I exited after the 15 minute wait in the side-effect area with friend LM, at which point I unfortunately jammed my shoulder on an inconveniently positioned aloe branch, an event that under normal circumstances would not even have been worth a mention, were it not for the fact that I was wearing my fortunately entry-level puffer jacket, which now sports a gash with stuffing peeking out.</description><content:encoded><![CDATA[ 
 
 
 
@@ -644,9 +645,9 @@ the contents of the much more substantial book it is based on!</p>
 <h3 id="details-for-nerds">Details for nerds</h3>
 <p>This is the invocation I used to generate reports from the nginx log files
 using the <a href="https://goaccess.io/">goaccess</a> tool:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
-</span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
-</code></pre></div><h2 id="running">Running</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
+</span></span></code></pre></div><h2 id="running">Running</h2>
 <p>In 2020 I seem to have run just 100 metres shy of 1100km. (Typical&hellip;)</p>
 <p>More would have been good, but I&rsquo;m happy with this.</p>
 <p>Exercise did take a bit of a hit due to <a href="/2020/04/13/weekly-head-voices-191-covid-19-part-2/#exercise">lockdown</a>, although I could definitely
@@ -1138,7 +1139,8 @@ pillars. The rules are:</p>
 </ol>
 ]]></content:encoded></item><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
 The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.
-This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.</description><content:encoded><![CDATA[ 
+This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.
+If you&amp;rsquo;re in a rush, and can only select one section, I would recommend the one on Niklas Luhmann.</description><content:encoded><![CDATA[ 
 
 
 
@@ -1714,7 +1716,7 @@ experiment where I do try to write some shorter, more focused posts.</p>
 has to offer!</p>
 ]]></content:encoded></item><item><title>Weekly Head Voices #191: COVID-19 part 1.</title><link>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</link><pubDate>Tue, 24 Mar 2020 08:16:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</guid><description> Welcome back everyone! I hope all of you are doing as well as possible.
 This edition of the WHV looks back on the two and a bit tumultuous weeks from Monday March 9 to Tuesday March 24.
-I am writing this for us here now, but I&amp;rsquo;m also writing this for readers in a few years' time who might be looking into the more obscure corners of the web for additional impressions of the COVID-19 pandemic.</description><content:encoded><![CDATA[ <figure>
+I am writing this for us here now, but I&amp;rsquo;m also writing this for readers in a few years&amp;rsquo; time who might be looking into the more obscure corners of the web for additional impressions of the COVID-19 pandemic.</description><content:encoded><![CDATA[ <figure>
 
 
 
@@ -1764,7 +1766,7 @@ I am writing this for us here now, but I&amp;rsquo;m also writing this for reade
 <p>This edition of the WHV looks back on the two and a bit tumultuous weeks from
 Monday March 9 to Tuesday March 24.</p>
 <p>I am writing this for us here now, but I&rsquo;m also writing this for readers in a
-few years' time who might be looking into the more obscure corners of the web
+few years&rsquo; time who might be looking into the more obscure corners of the web
 for additional impressions of the COVID-19 pandemic.</p>
 <p>(It is now 7:32 on Tuesday morning, March 24, 2020. Last night we had the
 <a href="https://www.iol.co.za/news/politics/sa-on-coronavirus-lockdown-read-president-cyril-ramaphosas-full-speech-45429127">rattling national lockdown

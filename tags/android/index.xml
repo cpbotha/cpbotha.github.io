@@ -309,8 +309,8 @@ brute-force cracking approaches.</p>
 Chris Wellons</a> who keeps his encrypted secret keys on a public website
 (!!!), I reconfigured my private key encryption to use 1 million iterations of
 the SHA-512 hash, and to use AES-256 for the encryption itself:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
-</code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
+</span></span></code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
 follow the prompts. You will have to enter your passphrase, and then enter
 your new passphrase twice.</p>
 <p>You can then check that this operation is successful by using the command <code>gpg &ndash;list-packets secring.gpg</code>. My output looks as follows. Most important is that algo is 9 (AES-256), hash is 10 (SHA-512) and protect count in my case is just over 1 million.</p>
@@ -495,7 +495,7 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
 <p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
 <h2 id="a-scary-little-aside">A scary little aside</h2>
-<p>I just tried Check Point Labs' <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+<p>I just tried Check Point Labs&rsquo; <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
 
 
 

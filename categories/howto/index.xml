@@ -12,43 +12,43 @@ in this post.</p>
 <p>Save the following snippet as <code>layouts/shortcodes/archive.html</code>.</p>
 <p>Note that you might have to change <code>&quot;posts&quot;</code> in the code below to whatever Hugo
 section contains your blog posts.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#93a1a1;font-style:italic">{{/*
-</span><span style="color:#93a1a1;font-style:italic">
-</span><span style="color:#93a1a1;font-style:italic">simple shortcode to display all posts in yearly sections on your archive page
-</span><span style="color:#93a1a1;font-style:italic">by Charl P. Botha
-</span><span style="color:#93a1a1;font-style:italic">
-</span><span style="color:#93a1a1;font-style:italic">this is a much simplified version of the yearly post archiving template at:
-</span><span style="color:#93a1a1;font-style:italic">https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
-</span><span style="color:#93a1a1;font-style:italic">
-</span><span style="color:#93a1a1;font-style:italic">*/}}</span>
-
-<span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> := <span style="color:#268bd2">3000</span><span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">range</span> <span style="color:#268bd2">where</span> <span style="color:#268bd2">.Site.RegularPages</span> <span style="color:#2aa198">&#34;Section&#34;</span> <span style="color:#2aa198">&#34;posts&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#268bd2">.Date</span><span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#859900">gt</span> <span style="color:#268bd2">$prev</span> (<span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span>)<span style="color:#93a1a1;font-style:italic">}}</span>
-## <span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span> <span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;02 Jan&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span> -- [<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Title</span><span style="color:#93a1a1;font-style:italic">}}</span>](<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Permalink</span><span style="color:#93a1a1;font-style:italic">}}</span>)
-<span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> = <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
-<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</code></pre></div><h2 id="step-2-use-shortcode">Step 2: Use shortcode</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{/*
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">simple shortcode to display all posts in yearly sections on your archive page
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">by Charl P. Botha
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">this is a much simplified version of the yearly post archiving template at:
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">*/}}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> := <span style="color:#268bd2">3000</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">range</span> <span style="color:#268bd2">where</span> <span style="color:#268bd2">.Site.RegularPages</span> <span style="color:#2aa198">&#34;Section&#34;</span> <span style="color:#2aa198">&#34;posts&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#268bd2">.Date</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#859900">gt</span> <span style="color:#268bd2">$prev</span> (<span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span>)<span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span>## <span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span> <span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;02 Jan&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span> -- [<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Title</span><span style="color:#93a1a1;font-style:italic">}}</span>](<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Permalink</span><span style="color:#93a1a1;font-style:italic">}}</span>)
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> = <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span></code></pre></div><h2 id="step-2-use-shortcode">Step 2: Use shortcode</h2>
 <p>Use the shortcode on any page as <code>{{% archive %}}</code>, as shown in the example below.</p>
 <p>Note here that we&rsquo;re using <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown">the shortcode syntax for markdown shortcodes</a>,
 i.e. <code>%</code> instead of the <code>&lt;</code> you might be more used to for HTML shortcodes.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">---
-title: &#34;Posts Archive&#34;
-slug: &#34;archive&#34;
-date: 2021-01-09T16:17:00+02:00
-type: &#34;page&#34;
----
-
-Some text that will appear before the archive.
-
-
-
-{{% archive %}}
-</code></pre></div>]]></content:encoded></item><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;Posts Archive&#34;
+</span></span><span style="display:flex;"><span>slug: &#34;archive&#34;
+</span></span><span style="display:flex;"><span>date: 2021-01-09T16:17:00+02:00
+</span></span><span style="display:flex;"><span>type: &#34;page&#34;
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Some text that will appear before the archive.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{% archive %}}
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
 To make a long and interesting story short, srcset enables us to tell the browser that we have for example 5 different resolutions of an image available, and that it should choose the best one based on the user&amp;rsquo;s device.
 Pretty neat actually!
 Anyways, I tweaked the code a bit over time, and most recently I combined it with the stock Hugo figure shortcode.</description><content:encoded><![CDATA[ <p>When <a href="/2019/03/31/wordpress-to-hugo/#bonus-level-bundling-and-automatic-resizing-of-images">I moved this blog over to
@@ -358,10 +358,10 @@ isso</a>.</p>
 <p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
 <p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
 the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#859900">[moderation]</span>
-<span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
-<span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
-</code></pre></div><p>When someone leaves a comment, and their email address has had a comment
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#859900">[moderation]</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+</span></span></code></pre></div><p>When someone leaves a comment, and their email address has had a comment
 approved within the last 6 months, the new comment will be automatically
 activated.</p>
 <p>The advantage of this feature is that comment-conversations can happen much
@@ -386,8 +386,8 @@ in the case of no parent, the comment does not show up.</li>
 <li>Isso stores timestamps as seconds since epoch. You can use the following SQL
 to convert a timestring to seconds since epoch:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
-</code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
+</span></span></code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
 <p>That is how much I love this blog and its people. :D</p>
 <h2 id="conclusions">Conclusions.</h2>
 <p>I am happy that all of your comments are now self-hosted on this server using
@@ -508,18 +508,18 @@ importantly, how long you have been streaking a particular habit.</p>
 <h3 id="global-configuration">Global configuration.</h3>
 <p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
 the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp">(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
-</code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+</span></span></code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
 state logging for the task <code>DONE</code> state:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
-<span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
-      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
-<span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
-<span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
-</code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
+</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+</span></span></code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
 <p>Then, start creating the special habit nodes as explained in the following:</p>
 <p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
 journal file</a>:</p>
@@ -642,18 +642,18 @@ the new site like this:</p>
 git clone https://github.com/carsonip/hugo-theme-minos.git
 </code></pre><p>Before starting up the new site for the first time, I edited the top-level
 <code>config.toml</code> so it looked like the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
-<span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
-<span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
-<span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
-<span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
-<span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
-
-[<span style="color:#268bd2">permalinks</span>]
-  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
-  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
-  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
-</code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#268bd2">permalinks</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span></code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
 minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
 Components</a> mechanism.</p>
 <h3 id="fire-up-hugo-in-development-mode">Fire up Hugo in development mode!</h3>
@@ -712,12 +712,12 @@ which case the output of the build will end up in a sub-directory named
 I would prefer not syncing the expendable 600MB+ output directory, instead
 building it and syncing it from <code>~/Downloads</code>.</p>
 <p>The little bash script I used to perform step 2 in one go looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#93a1a1;font-style:italic">#!/bin/bash
-</span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
-<span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
-rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
-</span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
-</code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
+</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+</span></span></code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
 <p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
 at least an image or two, an important piece of the puzzle was how to keep
 images together with the markdown post source, instead of in a separate static
@@ -742,8 +742,8 @@ directory containing the relevant images and the post contents in a file
 called <code>index.md</code>.</p>
 <p>In my case, I would create a post by invoking the following command in the
 top-level directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new content/posts/2019/some-post-slug/index.md
-</code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
+</span></span></code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
 available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
 to images that are in the same directory using just their relative filenames.</p>
 <h2 id="mailing-lists">Mailing lists.</h2>
@@ -773,7 +773,8 @@ configured to help me start a blog post more easily.</p>
 A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes
 (quote not by Mark Twain, origin quite interesting)
 Someone on facebook forwarded an article that was full of badly written and utterly unsubstantiated conspiracy theories about topic X. (topic X could be anything: politics, health, whatever)
-To me, it was instantly clear that the article was 100%, undiluted, hogwash.</description><content:encoded><![CDATA[ <p>Today it happened again.</p>
+To me, it was instantly clear that the article was 100%, undiluted, hogwash.
+Now you probably think that I must have decades of experience separating the internet wheat from the chaff.</description><content:encoded><![CDATA[ <p>Today it happened again.</p>
 <blockquote>
 <p>A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes</p>
 </blockquote>
@@ -890,77 +891,76 @@ Dvorak.</p>
 <p>So, in case it helps anyone, my old <code>karabiner.json</code> is shown below. Yours
 should be at <code>~/.config/karabiner/karabiner.json</code>. You should be able to copy
 over the <code>simple_modifications</code> clause from the example below.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-    <span style="color:#268bd2;font-weight:bold">&#34;global&#34;</span>: {
-        <span style="color:#268bd2;font-weight:bold">&#34;check_for_updates_on_startup&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-        <span style="color:#268bd2;font-weight:bold">&#34;show_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-        <span style="color:#268bd2;font-weight:bold">&#34;show_profile_name_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">false</span>
-    },
-    <span style="color:#268bd2;font-weight:bold">&#34;profiles&#34;</span>: [
-        {
-            <span style="color:#268bd2;font-weight:bold">&#34;devices&#34;</span>: [],
-            <span style="color:#268bd2;font-weight:bold">&#34;fn_function_keys&#34;</span>: {
-                <span style="color:#268bd2;font-weight:bold">&#34;f1&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_decrement&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f10&#34;</span>: <span style="color:#2aa198">&#34;mute&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f11&#34;</span>: <span style="color:#2aa198">&#34;volume_decrement&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f12&#34;</span>: <span style="color:#2aa198">&#34;volume_increment&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f2&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_increment&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f3&#34;</span>: <span style="color:#2aa198">&#34;mission_control&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f4&#34;</span>: <span style="color:#2aa198">&#34;launchpad&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f5&#34;</span>: <span style="color:#2aa198">&#34;illumination_decrement&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f6&#34;</span>: <span style="color:#2aa198">&#34;illumination_increment&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f7&#34;</span>: <span style="color:#2aa198">&#34;rewind&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f8&#34;</span>: <span style="color:#2aa198">&#34;play_or_pause&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f9&#34;</span>: <span style="color:#2aa198">&#34;fastforward&#34;</span>
-            },
-            <span style="color:#268bd2;font-weight:bold">&#34;name&#34;</span>: <span style="color:#2aa198">&#34;Default profile&#34;</span>,
-            <span style="color:#268bd2;font-weight:bold">&#34;selected&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-            <span style="color:#268bd2;font-weight:bold">&#34;simple_modifications&#34;</span>: {
-                <span style="color:#268bd2;font-weight:bold">&#34;a&#34;</span>: <span style="color:#2aa198">&#34;a&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;b&#34;</span>: <span style="color:#2aa198">&#34;x&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;backslash&#34;</span>: <span style="color:#2aa198">&#34;backslash&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;c&#34;</span>: <span style="color:#2aa198">&#34;j&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock&#34;</span>: <span style="color:#2aa198">&#34;left_control&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;close_bracket&#34;</span>: <span style="color:#2aa198">&#34;equal_sign&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;comma&#34;</span>: <span style="color:#2aa198">&#34;w&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;d&#34;</span>: <span style="color:#2aa198">&#34;e&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;e&#34;</span>: <span style="color:#2aa198">&#34;period&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;equal_sign&#34;</span>: <span style="color:#2aa198">&#34;close_bracket&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;f&#34;</span>: <span style="color:#2aa198">&#34;u&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;g&#34;</span>: <span style="color:#2aa198">&#34;i&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;h&#34;</span>: <span style="color:#2aa198">&#34;d&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;hyphen&#34;</span>: <span style="color:#2aa198">&#34;open_bracket&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;i&#34;</span>: <span style="color:#2aa198">&#34;c&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;j&#34;</span>: <span style="color:#2aa198">&#34;h&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;k&#34;</span>: <span style="color:#2aa198">&#34;t&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;l&#34;</span>: <span style="color:#2aa198">&#34;n&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;m&#34;</span>: <span style="color:#2aa198">&#34;m&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;n&#34;</span>: <span style="color:#2aa198">&#34;b&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;non_us_backslash&#34;</span>: <span style="color:#2aa198">&#34;grave_accent_and_tilde&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;o&#34;</span>: <span style="color:#2aa198">&#34;r&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;open_bracket&#34;</span>: <span style="color:#2aa198">&#34;slash&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;p&#34;</span>: <span style="color:#2aa198">&#34;l&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;period&#34;</span>: <span style="color:#2aa198">&#34;v&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;q&#34;</span>: <span style="color:#2aa198">&#34;quote&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;quote&#34;</span>: <span style="color:#2aa198">&#34;hyphen&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;r&#34;</span>: <span style="color:#2aa198">&#34;p&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;s&#34;</span>: <span style="color:#2aa198">&#34;o&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;semicolon&#34;</span>: <span style="color:#2aa198">&#34;s&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;slash&#34;</span>: <span style="color:#2aa198">&#34;z&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;t&#34;</span>: <span style="color:#2aa198">&#34;y&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;u&#34;</span>: <span style="color:#2aa198">&#34;g&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;v&#34;</span>: <span style="color:#2aa198">&#34;k&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;w&#34;</span>: <span style="color:#2aa198">&#34;comma&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;x&#34;</span>: <span style="color:#2aa198">&#34;q&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;y&#34;</span>: <span style="color:#2aa198">&#34;f&#34;</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;z&#34;</span>: <span style="color:#2aa198">&#34;semicolon&#34;</span>
-            },
-            <span style="color:#268bd2;font-weight:bold">&#34;virtual_hid_keyboard&#34;</span>: {
-                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock_delay_milliseconds&#34;</span>: <span style="color:#2aa198;font-weight:bold">0</span>,
-                <span style="color:#268bd2;font-weight:bold">&#34;keyboard_type&#34;</span>: <span style="color:#2aa198">&#34;ansi&#34;</span>
-            }
-        }
-    ]
-}
-
-</code></pre></div>]]></content:encoded></item></channel></rss>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2;font-weight:bold">&#34;global&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;check_for_updates_on_startup&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;show_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;show_profile_name_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">false</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2;font-weight:bold">&#34;profiles&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;devices&#34;</span>: [],
+</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;fn_function_keys&#34;</span>: {
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f1&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_decrement&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f10&#34;</span>: <span style="color:#2aa198">&#34;mute&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f11&#34;</span>: <span style="color:#2aa198">&#34;volume_decrement&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f12&#34;</span>: <span style="color:#2aa198">&#34;volume_increment&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f2&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_increment&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f3&#34;</span>: <span style="color:#2aa198">&#34;mission_control&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f4&#34;</span>: <span style="color:#2aa198">&#34;launchpad&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f5&#34;</span>: <span style="color:#2aa198">&#34;illumination_decrement&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f6&#34;</span>: <span style="color:#2aa198">&#34;illumination_increment&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f7&#34;</span>: <span style="color:#2aa198">&#34;rewind&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f8&#34;</span>: <span style="color:#2aa198">&#34;play_or_pause&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f9&#34;</span>: <span style="color:#2aa198">&#34;fastforward&#34;</span>
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;name&#34;</span>: <span style="color:#2aa198">&#34;Default profile&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;selected&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;simple_modifications&#34;</span>: {
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;a&#34;</span>: <span style="color:#2aa198">&#34;a&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;b&#34;</span>: <span style="color:#2aa198">&#34;x&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;backslash&#34;</span>: <span style="color:#2aa198">&#34;backslash&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;c&#34;</span>: <span style="color:#2aa198">&#34;j&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock&#34;</span>: <span style="color:#2aa198">&#34;left_control&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;close_bracket&#34;</span>: <span style="color:#2aa198">&#34;equal_sign&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;comma&#34;</span>: <span style="color:#2aa198">&#34;w&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;d&#34;</span>: <span style="color:#2aa198">&#34;e&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;e&#34;</span>: <span style="color:#2aa198">&#34;period&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;equal_sign&#34;</span>: <span style="color:#2aa198">&#34;close_bracket&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f&#34;</span>: <span style="color:#2aa198">&#34;u&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;g&#34;</span>: <span style="color:#2aa198">&#34;i&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;h&#34;</span>: <span style="color:#2aa198">&#34;d&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;hyphen&#34;</span>: <span style="color:#2aa198">&#34;open_bracket&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;i&#34;</span>: <span style="color:#2aa198">&#34;c&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;j&#34;</span>: <span style="color:#2aa198">&#34;h&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;k&#34;</span>: <span style="color:#2aa198">&#34;t&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;l&#34;</span>: <span style="color:#2aa198">&#34;n&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;m&#34;</span>: <span style="color:#2aa198">&#34;m&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;n&#34;</span>: <span style="color:#2aa198">&#34;b&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;non_us_backslash&#34;</span>: <span style="color:#2aa198">&#34;grave_accent_and_tilde&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;o&#34;</span>: <span style="color:#2aa198">&#34;r&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;open_bracket&#34;</span>: <span style="color:#2aa198">&#34;slash&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;p&#34;</span>: <span style="color:#2aa198">&#34;l&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;period&#34;</span>: <span style="color:#2aa198">&#34;v&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;q&#34;</span>: <span style="color:#2aa198">&#34;quote&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;quote&#34;</span>: <span style="color:#2aa198">&#34;hyphen&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;r&#34;</span>: <span style="color:#2aa198">&#34;p&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;s&#34;</span>: <span style="color:#2aa198">&#34;o&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;semicolon&#34;</span>: <span style="color:#2aa198">&#34;s&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;slash&#34;</span>: <span style="color:#2aa198">&#34;z&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;t&#34;</span>: <span style="color:#2aa198">&#34;y&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;u&#34;</span>: <span style="color:#2aa198">&#34;g&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;v&#34;</span>: <span style="color:#2aa198">&#34;k&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;w&#34;</span>: <span style="color:#2aa198">&#34;comma&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;x&#34;</span>: <span style="color:#2aa198">&#34;q&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;y&#34;</span>: <span style="color:#2aa198">&#34;f&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;z&#34;</span>: <span style="color:#2aa198">&#34;semicolon&#34;</span>
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;virtual_hid_keyboard&#34;</span>: {
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock_delay_milliseconds&#34;</span>: <span style="color:#2aa198;font-weight:bold">0</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;keyboard_type&#34;</span>: <span style="color:#2aa198">&#34;ansi&#34;</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>]]></content:encoded></item></channel></rss>

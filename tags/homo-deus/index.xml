@@ -77,14 +77,14 @@ special occasion, made it doubly worth it.</p>
 surprise to me that I am quite excited by how our systems of written
 communication are evolving.)</p>
 <p>P.P.P.S. If you too want your Emacs to do this, add the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
-(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
-  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
-  <span style="color:#cb4b16">:config</span>
-  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
-  (<span style="color:#268bd2">global-emojify-mode</span>)
-  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
-</code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:config</span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-emojify-mode</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
+</span></span></code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
 <p>Perhaps unbeknownst to you, I was not completely quiet on the blogging front.</p>
 <p>I produced the following four posts, the latter three of which will have to
 live on the nerdy sister blog:</p>
@@ -238,7 +238,7 @@ wait until he gets back to see.</p>
 ]]></content:encoded></item><item><title>Weekly Head Voices #145: The Narrating Self.</title><link>https://cpbotha.net/2018/06/10/weekly-head-voices-145-the-narrating-self/</link><pubDate>Sun, 10 Jun 2018 20:12:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/06/10/weekly-head-voices-145-the-narrating-self/</guid><description> View of the False Bay from the Helderberg Nature Reserve.
 The work part of the week flew by.
 (I think this is the reason for the shortness of this post. As is often the case, we start with journal stuff, then nerd stuff and, hidden at the end, some backyard philosophy stuff.)
-Dear diary The weekend part on the other hand started with a welcome-back-braai (HI MOM!</description><content:encoded><![CDATA[ 
+Dear diary The weekend part on the other hand started with a welcome-back-braai (HI MOM!) on Friday, followed by a sublime oxtail potjie on Saturday and concluded today with a sublime long(ish, by my standards as always) run in the morning (showing a little solidarity with the Comrades participants whilst not completely busting my barefoot-style-acclimatising feet and ankles) plus Helderberg stroll and lunch, and is now ending with a WHV writing session.</description><content:encoded><![CDATA[ 
 
 
 

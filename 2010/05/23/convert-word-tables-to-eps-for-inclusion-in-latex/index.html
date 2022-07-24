@@ -1,165 +1,20 @@
-<!doctype html><html>
-<head>
-<title>Convert Word tables to EPS for inclusion in LaTeX // voices in my head</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=author content="Charl P. Botha">
-<meta property="og:title" content="Convert Word tables to EPS for inclusion in LaTeX">
-<meta property="og:description" content="You might want to skip this post if any of the following is true:
- You don’t know what LaTeX is. You don’t care about typesetting theses. You’re just generally low on Nerd midi-chlorians.  Recently, we (Mr Cricket and I) helped a good friend (argh, he might already have an acronym assigned, I should make a glossary for this blog…) typeset his PhD thesis in LaTeX. Sounds straight-forward, were it not for the fact that most of the material was in MS Word to start off with.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://cpbotha.net/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
-<link rel=stylesheet href=https://cpbotha.net/css/style.css>
-<meta name=generator content="Hugo 0.88.1">
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about/>About</a>
+<!doctype html><html><head><title>Convert Word tables to EPS for inclusion in LaTeX // voices in my head</title><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=author content="Charl P. Botha"><meta property="og:title" content="Convert Word tables to EPS for inclusion in LaTeX"><meta property="og:description" content="You might want to skip this post if any of the following is true:
+You don’t know what LaTeX is. You don’t care about typesetting theses. You’re just generally low on Nerd midi-chlorians. Recently, we (Mr Cricket and I) helped a good friend (argh, he might already have an acronym assigned, I should make a glossary for this blog…) typeset his PhD thesis in LaTeX. Sounds straight-forward, were it not for the fact that most of the material was in MS Word to start off with."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://cpbotha.net/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/"><link rel="shortcut icon" href=/favicon.ico><link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><style>@import 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap'</style><link rel=stylesheet href=https://cpbotha.net/css/style.css><meta name=generator content="Hugo 0.101.0"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a><nav id=main-nav><a class=main-nav-link href=/about/>About</a>
 <a class=main-nav-link href=/links/>Links</a>
 <a class=main-nav-link href=/archive/>Posts Archive</a>
 <a class=main-nav-link href=/software/>Software</a>
-<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>Convert Word tables to EPS for inclusion in LaTeX</h1>
-</header>
-<div class=article-meta>
-<a href=/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/ class=article-date>
-<time datetime=2010-05-23T13:20:43.000+00:00 itemprop=datePublished>2010-05-23</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
-</div>
-</div>
-<div class=article-comment-link-wrap>
-<a href=/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/#isso-thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p><em>You might want to <strong>skip this post</strong> if any of the following is true:</em></p>
-<ul>
-<li><em>You don’t know what <a href=http://en.wikipedia.org/wiki/LaTeX title="Wikipedia page on LaTeX">LaTeX</a> is.</em></li>
-<li><em>You don’t care about typesetting theses.</em></li>
-<li><em>You’re just generally low on Nerd midi-chlorians.</em></li>
-</ul>
-<p>Recently, we (<a href=http://www.clinicalgraphics.com/ title="Clinical Graphics, BUY THEIR SOFTWARE!">Mr Cricket</a> and I) helped a good friend (argh, he might already have an acronym assigned,  I should make a glossary for this blog…) typeset his PhD thesis in LaTeX. Sounds straight-forward, were it not for the fact that most of the material was in MS Word to start off with. :)</p>
-<p>It mostly comes down to a simple but laborious process of of taking one LaTeX PhD thesis framework (mine) and copy-pasting loads of text from Word into LaTeX, taking care to sprinkle with sufficient amounts of markup.  There are two slightly more complicated issues: The first is correctly converting figures, taking care to save bitmaps as PNGs (these will be converted to EPS via JPG later) and vector graphics as EPS.  I’ve <a href=http://cpbotha.net/2006/09/04/exporting-visio-2003-illustrations-to-eps/ title="Previous post on converting Visio diagrams to EPS for inclusion in LaTeX.">written before</a> about how to convert Visio to EPS for inclusion to LaTeX.</p>
-<p>This quick post is concerned with the second problem: What is the best way to go about converting tables from Word to LaTeX?  Seeing that this was in actual fact the second PhD thesis I had converted from Word to LaTeX, including numerous tables, I have by now burnt my fingers on 68 different occasions, each time in an excruciating new and interesting way!  I’d like to spare you that pain, so here is, without (too much) further ado, the <strong>Best Way to Convert Word Tables to EPS for Inclusion into LaTeX!</strong></p>
-<p>No, we we are definitely NOT going to recode all Word tables in LaTeX markup, because that would be anti-social.  Instead, we are going to print all tables to EPS, then autocrop them and then simply include them into LaTeX via the includegraphics call inside of a normal table float.  Ok?</p>
-<p>Here we go:</p>
-<ol>
-<li>
-<p>Install <a href=http://sourceforge.net/projects/pdfcreator/ title="PDFCreator website">PDFCreator</a>.</p>
-</li>
-<li>
-<p>Select the table you want to convert in Word, then select “Print Selection” and select PDFCreator as the destination printer.</p>
-</li>
-<li>
-<p>Select the “Properties” button on the print dialog, then “Advanced”, “PostScript Options”, set “PostScript Output Option” to “Encapsulated PostScript (EPS)”</p>
-</li>
-<li>
-<p>Now print to file.</p>
-</li>
-<li>
-<p>Copy the output file to a linux machine (or use a live CD with ps2eps) and do the following: <pre class="brush: bash; title: ; notranslate" title>ps2eps -B -C -l &lt; printed_output.prn &gt; result_cropped.eps
-</pre></p>
-</li>
-<li>
-<p>You can now include result_cropped.eps in your LaTeX document with the following code: <pre class="brush: plain; title: ; notranslate" title>\begin{table}
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>Convert Word tables to EPS for inclusion in LaTeX</h1></header><div class=article-meta><a href=/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/ class=article-date><time datetime=2010-05-23T13:20:43.000+00:00 itemprop=datePublished>2010-05-23</time></a><div class=post-categories><div class=article-category><a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a></div></div><div class=article-comment-link-wrap><a href=/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/#isso-thread class=article-comment-link>Comments</a></div></div><div class=article-entry itemprop=articleBody><p><em>You might want to <strong>skip this post</strong> if any of the following is true:</em></p><ul><li><em>You don’t know what <a href=http://en.wikipedia.org/wiki/LaTeX title="Wikipedia page on LaTeX">LaTeX</a> is.</em></li><li><em>You don’t care about typesetting theses.</em></li><li><em>You’re just generally low on Nerd midi-chlorians.</em></li></ul><p>Recently, we (<a href=http://www.clinicalgraphics.com/ title="Clinical Graphics, BUY THEIR SOFTWARE!">Mr Cricket</a> and I) helped a good friend (argh, he might already have an acronym assigned,  I should make a glossary for this blog…) typeset his PhD thesis in LaTeX. Sounds straight-forward, were it not for the fact that most of the material was in MS Word to start off with. :)</p><p>It mostly comes down to a simple but laborious process of of taking one LaTeX PhD thesis framework (mine) and copy-pasting loads of text from Word into LaTeX, taking care to sprinkle with sufficient amounts of markup.  There are two slightly more complicated issues: The first is correctly converting figures, taking care to save bitmaps as PNGs (these will be converted to EPS via JPG later) and vector graphics as EPS.  I’ve <a href=http://cpbotha.net/2006/09/04/exporting-visio-2003-illustrations-to-eps/ title="Previous post on converting Visio diagrams to EPS for inclusion in LaTeX.">written before</a> about how to convert Visio to EPS for inclusion to LaTeX.</p><p>This quick post is concerned with the second problem: What is the best way to go about converting tables from Word to LaTeX?  Seeing that this was in actual fact the second PhD thesis I had converted from Word to LaTeX, including numerous tables, I have by now burnt my fingers on 68 different occasions, each time in an excruciating new and interesting way!  I’d like to spare you that pain, so here is, without (too much) further ado, the <strong>Best Way to Convert Word Tables to EPS for Inclusion into LaTeX!</strong></p><p>No, we we are definitely NOT going to recode all Word tables in LaTeX markup, because that would be anti-social.  Instead, we are going to print all tables to EPS, then autocrop them and then simply include them into LaTeX via the includegraphics call inside of a normal table float.  Ok?</p><p>Here we go:</p><ol><li><p>Install <a href=http://sourceforge.net/projects/pdfcreator/ title="PDFCreator website">PDFCreator</a>.</p></li><li><p>Select the table you want to convert in Word, then select “Print Selection” and select PDFCreator as the destination printer.</p></li><li><p>Select the “Properties” button on the print dialog, then “Advanced”, “PostScript Options”, set “PostScript Output Option” to “Encapsulated PostScript (EPS)”</p></li><li><p>Now print to file.</p></li><li><p>Copy the output file to a linux machine (or use a live CD with ps2eps) and do the following:<pre class="brush: bash; title: ; notranslate" title>ps2eps -B -C -l &lt; printed_output.prn &gt; result_cropped.eps
+</pre></p></li><li><p>You can now include result_cropped.eps in your LaTeX document with the following code:<pre class="brush: plain; title: ; notranslate" title>\begin{table}
 \begin{center}
 \caption{Your table&rsquo;s caption}
 \includegraphics{result_cropped.eps}
 \label{tab:your_label}
 \end{center}
 \end{table}
-</pre></p>
-</li>
-</ol>
-<p>If you took care to match the font you used in Word with your LaTeX font, people will probably not even realise that your tables are not LaTeX-native. That’s a clear-cut case of maximum Nerd street-cred with the minimum of actual fuss…</p>
-</div>
-<footer class=article-footer>
-<ul class=article-tag-list>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/conversion>conversion
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/eps>eps
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/latex>latex
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/word>word
-</a>
-</li>
-</ul>
-</footer>
-</div>
-<nav id=article-nav>
-<a href=/2010/05/24/an-even-more-ultimate-boot-disk/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-An Even More Ultimate Boot Disk!
-</div>
-</a>
-<a href=/2010/05/13/the-next-level-weekly-head-voices-22/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>The Next Level. [Weekly Head Voices #22]&nbsp;<span>></span></div>
-</a>
-</nav>
-<div class=article-footer>
-Related posts:
-<a href=/2006/09/04/exporting-visio-2003-illustrations-to-eps/>🌤 Exporting Visio 2003 illustrations to EPS</a>
-</div>
-</article>
-<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
-<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
-<section data-title="Convert Word tables to EPS for inclusion in LaTeX" id=isso-thread></section>
-</section>
-<footer id=footer>
-<div id=search-form-wrap>
-<form class=search-form method=get action=https://duckduckgo.com/>
-<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+</pre></p></li></ol><p>If you took care to match the font you used in Word with your LaTeX font, people will probably not even realise that your tables are not LaTeX-native. That’s a clear-cut case of maximum Nerd street-cred with the minimum of actual fuss…</p></div><footer class=article-footer><ul class=article-tag-list><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/conversion>conversion</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/eps>eps</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/latex>latex</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/word>word</a></li></ul></footer></div><nav id=article-nav><a href=/2010/05/24/an-even-more-ultimate-boot-disk/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp;
+An Even More Ultimate Boot Disk!</div></a><a href=/2010/05/13/the-next-level-weekly-head-voices-22/ id=article-nav-older class=article-nav-link-wrap><div class=article-nav-title>The Next Level. [Weekly Head Voices #22]&nbsp;<span>></span></div></a></nav><div class=article-footer>Related posts:
+<a href=/2006/09/04/exporting-visio-2003-illustrations-to-eps/>🌤 Exporting Visio 2003 illustrations to EPS</a></div></article><style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style><script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script><section data-title="Convert Word tables to EPS for inclusion in LaTeX" id=isso-thread></section></section><footer id=footer><div id=search-form-wrap><form class=search-form method=get action=https://duckduckgo.com/><input type=search name=q class=search-text placeholder title size=20 maxlength=128>
 <input type=hidden name=sites value=cpbotha.net>
-<input type=submit value="Search site with DDG" class=hidden>
-</form>
-</div>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2021 Charl P. Botha
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+<input type=submit value="Search site with DDG" class=hidden></form></div><div class=outer><div id=footer-info class=inner>&copy; 2022 Charl P. Botha<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>

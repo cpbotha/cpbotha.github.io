@@ -200,21 +200,21 @@ my writing.</p>
 device in question.</p>
 <p>Have I mentioned &ldquo;super snappy&rdquo;?</p>
 <p>By the way, if you build Emacs like this on the M1:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew tap railwaycat/emacsmacport
-brew install --formula emacs-mac --HEAD
-</code></pre></div><p>&hellip; you should be good to go.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap railwaycat/emacsmacport
+</span></span><span style="display:flex;"><span>brew install --formula emacs-mac --HEAD
+</span></span></code></pre></div><p>&hellip; you should be good to go.</p>
 <h3 id="update-on-2021-04-15">Update on 2021-04-15</h3>
 <p>A few days ago, I started seeing the following error during homebrew Emacs update:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">./temacs --batch  -l loadup --temacs=pbootstrap
-make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
-make: *** [src] Error 2
-</code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>./temacs --batch  -l loadup --temacs=pbootstrap
+</span></span><span style="display:flex;"><span>make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
+</span></span><span style="display:flex;"><span>make: *** [src] Error 2
+</span></span></code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
 master.</p>
 <p>It was easiest for me to switch to emacs-plus, which went like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew uninstall emacs-mac
-brew tap d12frosted/emacs-plus
-brew install emacs-plus@28 --with-no-titlebar
-</code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew uninstall emacs-mac
+</span></span><span style="display:flex;"><span>brew tap d12frosted/emacs-plus
+</span></span><span style="display:flex;"><span>brew install emacs-plus@28 --with-no-titlebar
+</span></span></code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
 <p>It&rsquo;s a pity that the ThinkPad, although powerful enough to satisfy <a href="/2020/05/20/weekly-head-voices-195-pragmatic/#the-story-behind-this-story-one-context-to-rule-them-all">my single
 computing device / single context requirement</a>, and with <a href="/2020/09/16/weekly-head-voices-204-what-is-your-purpose/#wsl2-and-nativecomp-emacs-workflow-update">WSL2 becoming
 increasingly useful</a> and hence addressing the dual-boot issue, does not satisfy
@@ -681,7 +681,7 @@ In order to facilitate your reading experience, I have bolded in each paragraph 
 <p>Getting back to the photo above:  Boys and girls, thanks to my generous leader and the TU Delft, I get to join said generous leader and <a href="http://graphics.tudelft.nl/~jorik/" title="Jorik's homepage">Jorik</a> on a trip to <a href="http://vis.computer.org/VisWeek2009/" title="VisWeek 2009"><strong>IEEE Visualization 2009</strong></a> in Atlantic City!  For the socially more well-adjusted readers, this is like Visualisation Nerd Heaven: A whole week of mingling with technically creative colleagues, discussing the latest visualisation tidbits, following paper presentations and Sleeping Much Less(tm).  Brilliant!</p>
 ]]></content:encoded></item><item><title>Pleasure Apparatus 2008</title><link>https://cpbotha.net/2008/07/15/pleasure-apparatus-2008/</link><pubDate>Tue, 15 Jul 2008 21:03:21 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/07/15/pleasure-apparatus-2008/</guid><description> As I mentioned, no lamented on, in this post, it was high time for a new computer in my life. On Saturday June 14, 2008, I managed to acquire the necessary components to construct my latest computer machine. For you viewing pleasure, I took the photo below of the various parts lasciviously arranged:
 Niiiiice!
-After a truly delectable BBQ with Really Good Friends, I set about putting the beast together.</description><content:encoded><![CDATA[ <p>As I mentioned, no lamented on, in <a href="http://cpbotha.net/2008/01/08/lust/" title="Posting detailing my lust for a new computer">this post</a>, it was high time for a new computer in my life.  On Saturday June 14, 2008, I managed to acquire the necessary components to construct my latest computer machine.  For you viewing pleasure, I took the photo below of the various parts lasciviously arranged:</p>
+After a truly delectable BBQ with Really Good Friends, I set about putting the beast together. At 3:00 AM it purred into life with Ubuntu Hardy Heron 8.</description><content:encoded><![CDATA[ <p>As I mentioned, no lamented on, in <a href="http://cpbotha.net/2008/01/08/lust/" title="Posting detailing my lust for a new computer">this post</a>, it was high time for a new computer in my life.  On Saturday June 14, 2008, I managed to acquire the necessary components to construct my latest computer machine.  For you viewing pleasure, I took the photo below of the various parts lasciviously arranged:</p>
 <p><a href="http://picasaweb.google.com/cpbotha/Misc/photo#5214362137405541458" title="photo of new machine at picasaweb"><img alt="Components of the new machine" height="300" src="http://lh3.ggpht.com/cpbotha/SF0ivLJNzFI/AAAAAAAAC7k/d_gsNZKQfYU/s400/IMG_3724.JPG" width="400"/></a></p>
 <p>Niiiiice!</p>
 <p>After a truly delectable BBQ with <a href="http://pwdebruin.net/" title="Link to Really Good Friends :)">Really Good Friends</a>, I set about putting the beast together.  At 3:00 AM it purred into life with Ubuntu Hardy Heron 8.04 x86_64: 45nm Penryn quad-core Q9450 2.6 GHz CPU on a P35-based Asus P5KC, 8 GB of RAM, GeForce 8800 GT with 512 MB, Seagate Barracude 500 GB 7200 RPM HDD, all enclosed in an Antec Sonata III Piano Black case.  All in all quite affordable at 925 eurobucks, but definitely a beast of a machine (probably at least until the end of July!).</p>

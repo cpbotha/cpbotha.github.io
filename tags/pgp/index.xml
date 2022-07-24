@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pgp on voices in my head</title><link>https://cpbotha.net/tags/pgp/</link><description>Recent content in pgp on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 22 Mar 2021 13:44:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/pgp/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #217: Continuum of Consciousness</title><link>https://cpbotha.net/2021/03/22/weekly-head-voices-217-consciousness-continuum/</link><pubDate>Mon, 22 Mar 2021 13:44:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/22/weekly-head-voices-217-consciousness-continuum/</guid><description><![CDATA[ Hey, welcome to the Monthly Weekly Head Voices!
 This one covers the extensive period from Monday Feb 15 to Sunday March 21, 2021.
-  Since we last connected here, much has transpired, a strangely selected subset of which is mentioned below:
+Since we last connected here, much has transpired, a strangely selected subset of which is mentioned below:
 New computer An M1 MacBook Air became part of my computing zoo. See the new computer post if you&rsquo;re into that sort of thing. Short version if you&rsquo;re not: It&rsquo;s the best Emacs-capable device I&rsquo;ve ever used.]]></description><content:encoded><![CDATA[ <p>Hey, welcome to the Monthly Weekly Head Voices!</p>
 <p>This one covers the extensive period from Monday Feb 15 to Sunday March
 21, 2021.</p>
@@ -206,8 +206,8 @@ brute-force cracking approaches.</p>
 Chris Wellons</a> who keeps his encrypted secret keys on a public website
 (!!!), I reconfigured my private key encryption to use 1 million iterations of
 the SHA-512 hash, and to use AES-256 for the encryption itself:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
-</code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
+</span></span></code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
 follow the prompts. You will have to enter your passphrase, and then enter
 your new passphrase twice.</p>
 <p>You can then check that this operation is successful by using the command <code>gpg &ndash;list-packets secring.gpg</code>. My output looks as follows. Most important is that algo is 9 (AES-256), hash is 10 (SHA-512) and protect count in my case is just over 1 million.</p>

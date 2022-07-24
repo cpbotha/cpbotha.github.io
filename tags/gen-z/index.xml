@@ -77,14 +77,14 @@ special occasion, made it doubly worth it.</p>
 surprise to me that I am quite excited by how our systems of written
 communication are evolving.)</p>
 <p>P.P.P.S. If you too want your Emacs to do this, add the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
-(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
-  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
-  <span style="color:#cb4b16">:config</span>
-  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
-  (<span style="color:#268bd2">global-emojify-mode</span>)
-  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
-</code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:config</span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-emojify-mode</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
+</span></span></code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
 <p>Perhaps unbeknownst to you, I was not completely quiet on the blogging front.</p>
 <p>I produced the following four posts, the latter three of which will have to
 live on the nerdy sister blog:</p>

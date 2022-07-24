@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>role-models on voices in my head</title><link>https://cpbotha.net/tags/role-models/</link><description>Recent content in role-models on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 23 Jun 2022 22:26:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/role-models/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #243: Part-time role-model</title><link>https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/</link><pubDate>Thu, 23 Jun 2022 22:26:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/</guid><description> Welcome back friends, welcome back me!
+This WHV covers the multiple weeks from Monday May 23 to Sunday June 19, 2022.
+It is this late, because it has been super busy at work (and at home), and by the time that I get any sort of opportunity to write, I am often too tired to focus.
+I hope to say something about that a bit further down.
+Whatever the case may be, I am happy to be here now, focusing on this post draft right here.</description><content:encoded><![CDATA[ <p>Welcome back friends, welcome back me!</p>
+<p>This WHV covers the <em>multiple</em> weeks from Monday May 23 to Sunday June 19, 2022.</p>
+<p>It is this late, because it has been super busy at work (and at home), and by
+the time that I get any sort of opportunity to write, I am often too tired to
+focus.</p>
+<p>I hope to say something about that a bit further down.</p>
+<p>Whatever the case may be, I am happy to be here now, focusing on this post
+draft right here.</p>
+
+
+
+
+
+
+
+
+<figure><a href="20220616-bettys-walk-famjam.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/20220616-bettys-walk-famjam_huab9c1322188647837626b4904953e60a_3337321_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/20220616-bettys-walk-famjam_huab9c1322188647837626b4904953e60a_3337321_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/20220616-bettys-walk-famjam_huab9c1322188647837626b4904953e60a_3337321_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/20220616-bettys-walk-famjam_huab9c1322188647837626b4904953e60a_3337321_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/06/23/weekly-head-voices-243-part-time-role-model/20220616-bettys-walk-famjam_huab9c1322188647837626b4904953e60a_3337321_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from a walk in Betty&amp;rsquo;s Bay with the fam-jam."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Scene from a walk in Betty&rsquo;s Bay with the fam-jam.</p>
+        </figcaption>
+</figure>
+
+<h2 id="a-drop-in-the-bucket-is-a-drop-in-the-bucket">A drop in the bucket is a drop in the bucket</h2>
+<p>After taking a critical look at my discord subscription (I&rsquo;m too old for
+animated emojis anyways), I decided to cancel that, and rather switch to
+(small) monthly subscriptions to two services I find really important: <a href="/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/">Signal</a>
+(the private messaging app; I activated the sub via Apple) and <a href="https://donate.wikimedia.org/wiki/Ways_to_Give">Wikipedia</a>.</p>
+<p>#feelsgoodman</p>
+<p>It&rsquo;s not that I have piles of cash to give away every month (come back in 6
+months, hopefully that mythical ship will have come in), but I learned at a
+recent course on the topic that it is possible, and even prudent, to review
+critically and design with intent one&rsquo;s strategy of giving.</p>
+<p>What do you find important, and which organizations appear to be applying their
+resources effectively towards the furthering of their (and your) principles?</p>
+<p>In that same vein, I subscribe (at the cheapest tier until ship comes in, see
+above) to one of the <a href="https://www.dailymaverick.co.za/">better local news sources</a>, although their articles are
+available for free online. We live in a society&hellip; where functional and honest
+journalism is crucially important.</p>
+<h2 id="tip-the-tailscale">tip the tailscale</h2>
+<p>Some time back, a friend from work suggested tailscale as a tool to connect
+computers and devices, separated by firewalls, into a virtual private network</p>
+<p>My brain helpfully surfaced this information about three weeks back when I
+wondered if there was a less painful way to connect to my home network from
+work via the OpenVPN server on my home router.</p>
+<p>Well, it turns out that there&rsquo;s a <em>delightfully smooth</em> way to connect the
+devices that you own together into a secure network, no matter behind which
+firewalls they might be hiding.</p>
+<p>It&rsquo;s called <a href="https://tailscale.com/">tailscale</a>.</p>
+<p>Within five minutes (literally) I had five of my devices hooked up, and
+suddenly I was able to make point-to-point wireguard connections from anywhere
+to anywhere, often via two firewalls, without having to click any buttons.</p>
+<p>Each device is automatically assigned a &ldquo;static&rdquo; <code>100.*.*.*</code> IP number, and
+hostnames can even be setup via tailscale MagicDNS, which is currently the
+switching of a single toggle.</p>
+<h2 id="typescript-with-emacs-and-tree-sitter">TypeScript with Emacs and tree-sitter</h2>
+<p>In spite of the fact that I mostly use Visual Studio Code for my programming
+these days (Emacs is for everything else), a question on reddit&rsquo;s <code>/r/emacs</code>
+caused me to go down the Emacs-TypeScript-and-tree-sitter rabbit-hole.</p>
+<p>I wrote up most of the results of this adventure a vxlabs post titled
+<a href="https://vxlabs.com/2022/06/12/typescript-development-with-emacs-tree-sitter-and-lsp-in-2022/">TypeScript development with Emacs, tree-sitter and LSP in 2022</a>.</p>
+<p>After years of hearing its name mentioned, this was my first real contact with
+tree-sitter, which turns out to be a fascinating recent development in
+interactive source code parsing.</p>
+<p>Thanks to tree-sitter, which was developed by the Atom editor team at GitHub,
+and the combination of LSP and Microsoft&rsquo;s typescript compiler, Emacs (just
+like other open source editors), gets access to state-of-the-art code
+intelligence.</p>
+<h2 id="when-the-going-gets-tough-double-down-on-the-side-projects">When the going gets tough, double-down on the side-projects</h2>
+<p>If anything, this is a note to myself, but maybe also to you.</p>
+<p>As evidenced by the lateness of this post and the one before it, the weekly
+head voices had to take a backseat to other priorities.</p>
+<p>However, writing posts on this here blog is one of <a href="/2022/05/23/weekly-head-voices-242-multiplicity-of-me/#learning-at-the-burning">my &ldquo;show up to every day&rdquo;
+things</a>, and so the fact that my frequency is currently reduced probably has
+nothing to do with <a href="/2022/03/01/weekly-head-voices-239-embarrassing-finitude/#the-rickety-raft-of-life-directions-and-priorities">the general rickety raft of shifting life directions and
+priorities</a>, but is indeed due to more urgent work sneakily taking precedence.</p>
+<p>I have deliberately chosen the word &ldquo;sneakily&rdquo;, because when I start actually
+paying attention (an activity the frequency of which is ironically also reduced
+due to above-mentioned business), I realise that under these circumstances it
+becomes even more important to buckle down and make time for the side-projects.</p>
+<p>I could waste time on YouTube and reddit, or I could apply some intent and
+create something interesting that is deliberately outside the broad umbrella of
+work.</p>
+<p>It&rsquo;s not that I don&rsquo;t like work (I love it), but rather spending that
+carved-out time on side-projects is invigorating, and boosts creativity.</p>
+<p>P.S. I like YouTube too, but it&rsquo;s time:leisure ratio (I recently coined that
+term in a discussion with GOU#1 about her instagram usage) is not great.</p>
+<h2 id="part-time--role--model">Part-time (role-)model</h2>
+<p>I&rsquo;ve discussed the following with a small number of friends (some of them my
+mentors; haha who am I kidding, they&rsquo;re all my mentors) over the years, so it
+must be correct.</p>
+<p>What I have learned over time, is that all of us are role models for fellow
+humans at various (hopefully high) points in time, but we won&rsquo;t know when and
+we often won&rsquo;t know for whom.</p>
+<p>This knowledge has more than one important implication.</p>
+<p>Firstly, we can never stop trying to be good humans, because we don&rsquo;t know who
+might be depending on us at that moment.</p>
+<p>This is reminiscent <a href="/2008/11/17/what-i-did-this-err-summer/">one of my favourite quotes, this one by Plato</a>:</p>
+<blockquote>
+<p>Be kind, for everyone you meet is fighting a hard battle.</p>
+</blockquote>
+<p>Secondly, we will always have those ups and those downs, and often it will feel
+like the ratio is hopelessly in the wrong direction.</p>
+<p>I have explained to my children (my most important mentees, also the ones that
+seem to pay the least attention) that athough I often fail, I will always keep
+on trying.</p>
+<p>Finally, even my own amazing mentors are humans who have ups and downs.</p>
+<p>I love them for who they are, but I remember them at their best.</p>
+]]></content:encoded></item></channel></rss>

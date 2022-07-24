@@ -1,106 +1,11 @@
-<!doctype html><html>
-<head>
-<title>ati2evxx is evil. bad_pool_caller evil. // voices in my head</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=author content="Charl P. Botha">
-<meta property="og:title" content="ati2evxx is evil.  bad_pool_caller evil.">
-<meta property="og:description" content="This is really one of those notes to self one leaves all around the show and is later so surprised about when Google finds it in a few years time, thus saving one’s hide. Again. It’s like Back to the Future, only different.
-So today I was plagued by BAD_POOL_CALLER BSODs at every single restart on my XP SP2 HP NC8430 laptop (acronyms rule o.k.). I fired up my windbg, pointed its symbol file path at “SRV* c:\dbgsymbols* http://msdl.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://cpbotha.net/2007/09/26/ati2evxx-is-evil-bad_pool_caller-evil/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
-<link rel=stylesheet href=https://cpbotha.net/css/style.css>
-<meta name=generator content="Hugo 0.88.1">
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about/>About</a>
+<!doctype html><html><head><title>ati2evxx is evil. bad_pool_caller evil. // voices in my head</title><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=author content="Charl P. Botha"><meta property="og:title" content="ati2evxx is evil.  bad_pool_caller evil."><meta property="og:description" content="This is really one of those notes to self one leaves all around the show and is later so surprised about when Google finds it in a few years time, thus saving one’s hide. Again. It’s like Back to the Future, only different.
+So today I was plagued by BAD_POOL_CALLER BSODs at every single restart on my XP SP2 HP NC8430 laptop (acronyms rule o.k.). I fired up my windbg, pointed its symbol file path at “SRV* c:\dbgsymbols* http://msdl."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://cpbotha.net/2007/09/26/ati2evxx-is-evil-bad_pool_caller-evil/"><link rel="shortcut icon" href=/favicon.ico><link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><style>@import 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap'</style><link rel=stylesheet href=https://cpbotha.net/css/style.css><meta name=generator content="Hugo 0.101.0"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a><nav id=main-nav><a class=main-nav-link href=/about/>About</a>
 <a class=main-nav-link href=/links/>Links</a>
 <a class=main-nav-link href=/archive/>Posts Archive</a>
 <a class=main-nav-link href=/software/>Software</a>
-<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>ati2evxx is evil. bad_pool_caller evil.</h1>
-</header>
-<div class=article-meta>
-<a href=/2007/09/26/ati2evxx-is-evil-bad_pool_caller-evil/ class=article-date>
-<time datetime=2007-09-26T22:48:25.000+00:00 itemprop=datePublished>2007-09-26</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
-</div>
-</div>
-<div class=article-comment-link-wrap>
-<a href=/2007/09/26/ati2evxx-is-evil-bad_pool_caller-evil/#isso-thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p>This is really one of those notes to self one leaves all around the show and is later so surprised about when Google finds it in a few years time, thus saving one’s hide. Again. It’s like Back to the Future, only different.</p>
-<p>So today I was plagued by BAD_POOL_CALLER BSODs at every single restart on my XP SP2 HP NC8430 laptop (acronyms rule o.k.). I fired up my windbg, pointed its symbol file path at “SRV* c:\dbgsymbols* <a href=http://msdl.microsoft.com/download/symbols>http://msdl.microsoft.com/download/symbols</a>” (you should probably remove the spaces after the *s) and loaded the latest memory minidump from windows\minidump (XP makes these by default). The backtrace pointed out the culprit: It was ati2evxx.exe, the infamous i’m-not-sure-what-exactly-i’m-doing-on-your-system ATI hotkey poller. First I nuked it with the brilliant sysinternals procexp, and then permanently nuked it with the equally brilliant sysinternals autoruns. My problems are over. I also feel better after nuking ati2evxx. TAKE THAT, YOU SOULLESS STEAMING P.O.S. SOFTWARE!</p>
-<p>P.S. I’m really starting to frighten myself with Windows know-how. I should consider switching primary operating systems again.</p>
-<p>P.P.S. Of course it was not that simple. ati2evxx turns out to be more important than “hot key poller” after all. It’s also responsible for updating PowerPlay settings, especially important for laptop users. So, I had to un-nuke it… after some more crashing and crash dump analysis, “avipbb.sys” rears its ugly head. Turns out this is part of the Avira Anti-Rootkit component. I’ve disabled this and can now reboot again without the BAD_POOL_CALLER BSOD. When I have more time, I’ll analyse this in some more detail and let you know.</p>
-<p>Update on 2007-12-26: Even after having disabled the rootkit scanner in Control Panel | Add or Remove Programs | Avira | Change, I still experienced bad_pool_caller errors every now and then. Based on information in <a href="http://forum.avira.com/thread.php?threadid=26395&sid=1c673688365ac8931aeb6e5b297da506" title="Avira form thread concerning avipbb.sys crashes.">this forum thread</a>, and the fact that crash dump analysis still pointed at avipbb.sys, I then noticed that avipbb.sys was still running as a service. Using sysinternals autoruns, I’ve now disabled this. I’ll keep you posted.</p>
-</div>
-</div>
-<nav id=article-nav>
-<a href=/2007/10/07/my-palmos-based-gtd-setup/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-My PalmOS-based GTD setup
-</div>
-</a>
-<a href=/2007/09/06/bush-knew-that-saddam-had-no-wmds/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>Bush knew that Saddam had no WMDs&nbsp;<span>></span></div>
-</a>
-</nav>
-</article>
-<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
-<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
-<section data-title="ati2evxx is evil.  bad_pool_caller evil." id=isso-thread></section>
-</section>
-<footer id=footer>
-<div id=search-form-wrap>
-<form class=search-form method=get action=https://duckduckgo.com/>
-<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>ati2evxx is evil. bad_pool_caller evil.</h1></header><div class=article-meta><a href=/2007/09/26/ati2evxx-is-evil-bad_pool_caller-evil/ class=article-date><time datetime=2007-09-26T22:48:25.000+00:00 itemprop=datePublished>2007-09-26</time></a><div class=post-categories><div class=article-category><a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a></div></div><div class=article-comment-link-wrap><a href=/2007/09/26/ati2evxx-is-evil-bad_pool_caller-evil/#isso-thread class=article-comment-link>Comments</a></div></div><div class=article-entry itemprop=articleBody><p>This is really one of those notes to self one leaves all around the show and is later so surprised about when Google finds it in a few years time, thus saving one’s hide. Again. It’s like Back to the Future, only different.</p><p>So today I was plagued by BAD_POOL_CALLER BSODs at every single restart on my XP SP2 HP NC8430 laptop (acronyms rule o.k.). I fired up my windbg, pointed its symbol file path at “SRV* c:\dbgsymbols* <a href=http://msdl.microsoft.com/download/symbols>http://msdl.microsoft.com/download/symbols</a>” (you should probably remove the spaces after the *s) and loaded the latest memory minidump from windows\minidump (XP makes these by default). The backtrace pointed out the culprit: It was ati2evxx.exe, the infamous i’m-not-sure-what-exactly-i’m-doing-on-your-system ATI hotkey poller. First I nuked it with the brilliant sysinternals procexp, and then permanently nuked it with the equally brilliant sysinternals autoruns. My problems are over. I also feel better after nuking ati2evxx. TAKE THAT, YOU SOULLESS STEAMING P.O.S. SOFTWARE!</p><p>P.S. I’m really starting to frighten myself with Windows know-how. I should consider switching primary operating systems again.</p><p>P.P.S. Of course it was not that simple. ati2evxx turns out to be more important than “hot key poller” after all. It’s also responsible for updating PowerPlay settings, especially important for laptop users. So, I had to un-nuke it… after some more crashing and crash dump analysis, “avipbb.sys” rears its ugly head. Turns out this is part of the Avira Anti-Rootkit component. I’ve disabled this and can now reboot again without the BAD_POOL_CALLER BSOD. When I have more time, I’ll analyse this in some more detail and let you know.</p><p>Update on 2007-12-26: Even after having disabled the rootkit scanner in Control Panel | Add or Remove Programs | Avira | Change, I still experienced bad_pool_caller errors every now and then. Based on information in <a href="http://forum.avira.com/thread.php?threadid=26395&sid=1c673688365ac8931aeb6e5b297da506" title="Avira form thread concerning avipbb.sys crashes.">this forum thread</a>, and the fact that crash dump analysis still pointed at avipbb.sys, I then noticed that avipbb.sys was still running as a service. Using sysinternals autoruns, I’ve now disabled this. I’ll keep you posted.</p></div></div><nav id=article-nav><a href=/2007/10/07/my-palmos-based-gtd-setup/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp;
+My PalmOS-based GTD setup</div></a><a href=/2007/09/06/bush-knew-that-saddam-had-no-wmds/ id=article-nav-older class=article-nav-link-wrap><div class=article-nav-title>Bush knew that Saddam had no WMDs&nbsp;<span>></span></div></a></nav></article><style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style><script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script><section data-title="ati2evxx is evil.  bad_pool_caller evil." id=isso-thread></section></section><footer id=footer><div id=search-form-wrap><form class=search-form method=get action=https://duckduckgo.com/><input type=search name=q class=search-text placeholder title size=20 maxlength=128>
 <input type=hidden name=sites value=cpbotha.net>
-<input type=submit value="Search site with DDG" class=hidden>
-</form>
-</div>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2021 Charl P. Botha
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+<input type=submit value="Search site with DDG" class=hidden></form></div><div class=outer><div id=footer-info class=inner>&copy; 2022 Charl P. Botha<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>

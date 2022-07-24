@@ -149,7 +149,7 @@ of the publications, including fulltexts in most cases, that I&rsquo;ve had the
 pleasure to be involved in over the years.</p>
 <p>I could not find any tool which could give me exactly the sort of publication
 lists that papercite was able to.</p>
-<p>To me it was clear that yet another tool was required. (&ldquo;my god, it&rsquo;s full of biases!&quot;)</p>
+<p>To me it was clear that yet another tool was required. (&ldquo;my god, it&rsquo;s full of biases!&rdquo;)</p>
 <p>Fortunately, <a href="https://mentat.za.net">@stefanvdwalt</a> very quickly pointed me at
 the Python package <a href="https://pybtex.org">pybtex</a> when he saw that I was
 careening off into the dark side with <a href="https://citation.js.org">citation.js</a>.</p>
@@ -211,14 +211,14 @@ post</a>.</p>
 <p>This is quite convenient, and something I was missing in ivy, which I use for
 example as part of <code>find-file-in-project</code>.</p>
 <p>Weeeeell, by adding the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; for any ivy-read, press M-o to get action menu,</span>
-<span style="color:#93a1a1;font-style:italic">;; then &#39;d&#39; to start dired with that file selected</span>
-(<span style="color:#268bd2">ivy-add-actions</span>
- <span style="color:#268bd2">t</span> <span style="color:#93a1a1;font-style:italic">;; add for all types</span>
- <span style="color:#93a1a1;font-style:italic">;; (cdr x) gets the full filename, not just relative</span>
- `((<span style="color:#2aa198">&#34;d&#34;</span> ,(<span style="color:#cb4b16">lambda</span> (<span style="color:#268bd2">x</span>) (<span style="color:#268bd2">dired-jump</span> <span style="color:#268bd2">nil</span> (<span style="color:#268bd2">cdr</span> <span style="color:#268bd2">x</span>))) <span style="color:#2aa198">&#34;dired&#34;</span>)
-   ))
-</code></pre></div><p>&hellip; you get to select <code>d</code> from the <code>M-o</code> action menu to <code>dired-jump</code> (a
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; for any ivy-read, press M-o to get action menu,</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; then &#39;d&#39; to start dired with that file selected</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#268bd2">ivy-add-actions</span>
+</span></span><span style="display:flex;"><span> <span style="color:#268bd2">t</span> <span style="color:#93a1a1;font-style:italic">;; add for all types</span>
+</span></span><span style="display:flex;"><span> <span style="color:#93a1a1;font-style:italic">;; (cdr x) gets the full filename, not just relative</span>
+</span></span><span style="display:flex;"><span> `((<span style="color:#2aa198">&#34;d&#34;</span> ,(<span style="color:#cb4b16">lambda</span> (<span style="color:#268bd2">x</span>) (<span style="color:#268bd2">dired-jump</span> <span style="color:#268bd2">nil</span> (<span style="color:#268bd2">cdr</span> <span style="color:#268bd2">x</span>))) <span style="color:#2aa198">&#34;dired&#34;</span>)
+</span></span><span style="display:flex;"><span>   ))
+</span></span></code></pre></div><p>&hellip; you get to select <code>d</code> from the <code>M-o</code> action menu to <code>dired-jump</code> (a
 wonderful command by itself, usually bound to <code>C-x C-j</code>) to the currently
 focused file.</p>
 <h1 id="sharpening-these-rocks">Sharpening these rocks.</h1>
@@ -363,14 +363,14 @@ special occasion, made it doubly worth it.</p>
 surprise to me that I am quite excited by how our systems of written
 communication are evolving.)</p>
 <p>P.P.P.S. If you too want your Emacs to do this, add the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
-(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
-  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
-  <span style="color:#cb4b16">:config</span>
-  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
-  (<span style="color:#268bd2">global-emojify-mode</span>)
-  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
-</code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:config</span>
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-emojify-mode</span>)
+</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
+</span></span></code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
 <p>Perhaps unbeknownst to you, I was not completely quiet on the blogging front.</p>
 <p>I produced the following four posts, the latter three of which will have to
 live on the nerdy sister blog:</p>

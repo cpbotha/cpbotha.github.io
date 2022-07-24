@@ -56,10 +56,10 @@ isso</a>.</p>
 <p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
 <p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
 the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ini" data-lang="ini"><span style="color:#859900">[moderation]</span>
-<span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
-<span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
-</code></pre></div><p>When someone leaves a comment, and their email address has had a comment
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#859900">[moderation]</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+</span></span></code></pre></div><p>When someone leaves a comment, and their email address has had a comment
 approved within the last 6 months, the new comment will be automatically
 activated.</p>
 <p>The advantage of this feature is that comment-conversations can happen much
@@ -84,8 +84,8 @@ in the case of no parent, the comment does not show up.</li>
 <li>Isso stores timestamps as seconds since epoch. You can use the following SQL
 to convert a timestring to seconds since epoch:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
-</code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
+</span></span></code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
 <p>That is how much I love this blog and its people. :D</p>
 <h2 id="conclusions">Conclusions.</h2>
 <p>I am happy that all of your comments are now self-hosted on this server using

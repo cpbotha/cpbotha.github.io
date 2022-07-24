@@ -1,4 +1,368 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>running on voices in my head</title><link>https://cpbotha.net/tags/running/</link><description>Recent content in running on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 29 May 2021 08:30:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/running/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #224: Zen machine</title><link>https://cpbotha.net/2021/05/29/weekly-head-voices-224-zen-machine/</link><pubDate>Sat, 29 May 2021 08:30:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/29/weekly-head-voices-224-zen-machine/</guid><description> Dear friends,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>running on voices in my head</title><link>https://cpbotha.net/tags/running/</link><description>Recent content in running on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 23 Jan 2022 09:57:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/running/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2021 to 2022 transition post</title><link>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</link><pubDate>Sun, 23 Jan 2022 09:57:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</guid><description> Welcome to 2022 everyone, and to this, the traditional yearly year transition post!
+Figure 1: Sunset rock in St Francis on December 28, 2021, close to the end of the main event.
+I thought it was the latest ever, but it turns out that that honour goes to 2014 (which had a really good excuse to appear only in March) and 2015 (no real excuse).
+Much later, on Sunday January 23: It could very well still win the Most Fragmented Ever, but at least now it&amp;rsquo;s done.</description><content:encoded><![CDATA[ <p>Welcome to 2022 everyone, and to this, the <a href="/tags/transition/">traditional yearly year transition
+post</a>!</p>
+
+
+
+
+
+
+
+
+<figure><a href="20211228-st-francis-sunset-rock.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Sunset rock in St Francis on December 28, 2021, close to the end of the main event."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Sunset rock in St Francis on December 28, 2021, close to the end of the main event.</p>
+        </figcaption>
+</figure>
+
+<p>I thought it was the latest ever, but it turns out that that honour goes to
+<a href="/2014/03/21/back-in-south-africa/">2014</a> (which had a really good excuse to appear only in March) and <a href="/2015/01/21/weekly-head-voices-88-just-be-yourself-they-said/">2015</a> (no real
+excuse).</p>
+<p><em>Much later, on Sunday January 23:</em> It could very well still win the Most
+Fragmented Ever, but at least now it&rsquo;s done.</p>
+<h2 id="blogging">Blogging</h2>
+<p>Emacs and <code>M-x count-words</code> (on a temporary buffer copied over from <a href="/archive/#2021">the 2021
+blog post archive</a>) tells me that I published 28 posts on this blog, and 8
+technical posts over on <a href="https://vxlabs.com/">vxlabs.com</a>.</p>
+<p>Just like with the running below, but for different reasons, I lost a lot of
+steam during the last few months of the year.</p>
+<p>In a truly surprise twist, in 2022 I will again attempt to write regularly, and
+to write more, and to keep it up until the end.</p>
+<h3 id="stats-addendum">Stats addendum</h3>
+<p>Applying the <a href="https://goaccess.io/">goaccess log analyzer</a> to this blog&rsquo;s log files with the following
+invocation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>(<span style="color:#859900">for</span> i in {2..13..1}; <span style="color:#859900">do</span> <span style="color:#cb4b16">echo</span> cpbotha.net.access.log.<span style="color:#268bd2">$i</span>.gz; <span style="color:#859900">done</span>) | xargs zcat -f -- | goaccess --ignore-crawlers --log-format=COMBINED -
+</span></span></code></pre></div><p>&hellip; tells me that in 2021 cpbotha.net welcomed over 115000 unique visitor IPs.</p>
+<p>The same tool reports that <a href="https://vxlabs.com/">vxlabs.com</a> clocked in at just under 165000 unique visitor IPs.</p>
+<p>Even if the real number of actual human visits is a quarter of what the tool is
+reporting, I am ecstatic!</p>
+<p>The three most popular cpbotha.net posts based on hits during 2021 were:</p>
+<ul>
+<li><a href="https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/">Dear USA, my data has left your building</a></li>
+<li><a href="/2019/09/21/note-taking-strategy-2019/">Note-taking strategy 2019</a></li>
+<li><a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">Moving 12 years of email from GMail to FastMail</a></li>
+</ul>
+<h2 id="running">Running</h2>
+<p>Thanks to Strava&rsquo;s handy training calendar shown below, we can see that I spent
+125 hours last year (mostly, about 4 hours was spent on hiking just over 20km)
+running a bit over 1300km.</p>
+
+
+
+
+
+
+
+
+<figure><a href="images/2022/2022-01-15_13-06-57_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>You can also see quite clearly that I lost steam in November and especially in
+December.</p>
+<p>This was initially due to work getting quite busy, and then later in December a
+bout with Omicron (highly probably) and also less than run-friendly weather in
+St. Francis.</p>
+<p>I am always happy when I manage to average 100km or more per month, and I&rsquo;ll
+probably try to do that again in 2022.</p>
+<h3 id="possibly-tmi-read-on-at-your-own-risk">Possibly TMI, read on at your own risk</h3>
+<p>Those of you who know me, will also know about my giant <a href="https://en.wikipedia.org/wiki/Bunion">bunion</a>, or hallux
+valgus as it prefers to be called.</p>
+
+
+
+
+
+
+
+
+<figure><a href="images/2022/2022-01-15_15-18-44_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   
+            
+                   
+            
+                   
+            
+                   
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_15-18-44_screenshot.png"
+            
+
+        
+            alt="Figure 2: Valgus, Hallux Valgus. License to limp. Relationship status: It&amp;rsquo;s complicated." width="240px"/> </a><figcaption>
+            <p><span class="figure-number">Figure 2: </span>Valgus, Hallux Valgus. License to limp. Relationship status: It&rsquo;s complicated.</p>
+        </figcaption>
+</figure>
+
+<p>Anyways, Mr Valgus is unfortunately playing an increasingly frequent role in my
+attempts at running, often starting to complain at N kilometres where N is
+fortunately still higher than most of my attempts, but still affecting a
+worrying number of them.</p>
+<p>I&rsquo;m planning to push on, until Mr Valgus overstays its welcome, at which point
+it will be time to explore invasive corrective procedures.</p>
+<h2 id="reading">Reading</h2>
+<p>Probably my most redeeming habit of them all, is reading books every night in
+bed until I fall asleep.</p>
+<p>Even if the day has been less than satisfactory, ending it with an entirely
+deliberate and focused reading session tends to make up for quite a lot.</p>
+<p>Although I was planning to do more book summaries in 2021, I managed to
+complete only one. At least it was a good one, namely <a href="/2021/06/05/book-notes-seven-and-a-half-lessons-about-the-brain/">Notes on the book &ldquo;Seven
+and a Half Lessons About the Brain&rdquo; by Lisa Feldman Barrett</a>, which I can
+strongly recommend if you have not checked it out yet.</p>
+<p>Thanks to strong contenders like the one above, the competition was fierce, but
+in the end the <em>WHV non-fiction book of 2021 Award</em> could go to nothing other
+than Oliver Burkeman&rsquo;s <a href="https://www.amazon.com/dp/B08FGV64B1/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1"><em>Four Thousand Weeks: Time Management for Mortals</em></a>.</p>
+<p>Burkeman, he of the <a href="/2021/08/20/weekly-head-voices-230-follow-your-blisters/#know-how-to-put-down-your-work">importance of being able to put <em>down</em> your work</a> and of <a href="/tags/oliver-burkeman/">more
+appearances on this blog</a>, has created a beautifully written ode to our terribly
+limited lifespans (4000 weeks if you&rsquo;re lucky, you can almost hear them ticking
+away&hellip;), and to our terribly limited capacity to make the most of the time
+that we do get, and to really just giving up the fight to <em>get everything done</em>,
+because we will never ever win the battle against the law of perpetually
+filling inboxes of various kinds, and because it&rsquo;s so much better to simply
+<em>disconnect</em> from the firehose (which we can&rsquo;t get rid of completely) in order to
+spend time on no-excuses leisure, and especially on our loved ones.</p>
+<p>My favourite fiction book by far was <em>The Anomaly</em> by Hervé le Tellier, as
+translated by Adriana Hunter.</p>
+<p>After having just grudgingly finished Elizabeth Bear&rsquo;s Ancestral Night (first
+novel in the White Space series; some interesting ideas, but just too pulpy,
+clumsy and exposition-rich for my taste, in spite of space opera being a guilty
+pleasure&hellip;), the light literariness and French cynicism of The Anomaly was a
+<em>delightful</em> and refreshing breeze that I was unable to put down until it was
+done.</p>
+<p>In 2022, I&rsquo;m planning to read more than in 2021, and publish more of those
+summaries.</p>
+<h2 id="mindfulness">Mindfulness</h2>
+<p>The <a href="/2021/01/10/the-2020-to-2021-transition-post/#mindfulness">daily meditation streak that started in 2020</a> continued for most of 2021,
+until the end-of-year school vacation started. I am not yet sure how I&rsquo;ll be
+able to fit this into my new 2022 work-routine.</p>
+<h2 id="worst-habit-of-2021">Worst habit of 2021</h2>
+<p>The WHV Award for Worst Habit of 2021 By Far goes, without a doubt, to my old
+friend TwiFRaF-Yo, although this time around the main culprits were Twitter,
+Reddit and YouTube.</p>
+<p>I don&rsquo;t know exactly when I fell out of <a href="https://cpbotha.net/2020/08/10/weekly-head-voices-201-i-dont-have-to-miss-dr-topol/#yet-another-social-media-fast-because-you-have-to-keep-on-doing-them">the previous social media fast</a>, but I
+fell out with a vengeance.</p>
+<p>Although I subscribe almost entirely to technical communities on reddit (Emacs,
+Orgmode, Org-roam, keyboards, etc.), there are enough of them to keep a person
+busy.</p>
+<p>If you add to that my twitter feed, where I&rsquo;ve also taken care to remove the
+noise, subscribing largerly to high-signal science-, technology- , and
+engineering-related feeds, there&rsquo;s a great deal of valuable-seeming information
+that one feels compelled to get through every day&hellip;</p>
+<p>(It feels like I&rsquo;ve told this story before&hellip;)</p>
+<p>Anyways, every time I manage to disconnect (it&rsquo;s been a few weeks now, I think
+Monday January 3 was the official start date of the current fast), only then am
+I able to recognise (where by &ldquo;recognise&rdquo;, I mean that friends say this to me,
+and this is when I&rsquo;m able to admit that they&rsquo;re right) that the net value for
+me is highly probably negative.</p>
+<p>While there is certainly valuable information that enters via those streams, it
+costs so much attention and emotional energy that it&rsquo;s not really worth it.</p>
+<p>So.</p>
+<p>I&rsquo;m back on the no-social-media cart until next time.</p>
+<p>Just like the previous time, I&rsquo;m limiting myself to the brilliant Inoreader RSS
+subscription service (which I pay for) to keep up to date with 99% long-form
+blogs, and two Twitter accounts that are worth too much to me to disconnect
+from (<a href="https://twitter.com/erictopol">Eric Topol</a> and <a href="https://twitter.com/alper">Alper Çuğun-Gscheidel</a>).</p>
+<p>Although I sometimes think this makes me slower, because I don&rsquo;t have all of
+the current happenings at my fingertips all the time, I&rsquo;m hoping this gives me
+more space and time for reading, thinking and writing.</p>
+<h2 id="systems-and-tools-for-running-this-human--pkm-baby">Systems and tools for running this human (PKM baby)</h2>
+<p>In the <a href="/2019/01/06/the-2018-to-2019-transition-post/#evolve-the-system">2018 to 2019 transition post</a> I mentioned the &ldquo;The System&rdquo;:</p>
+<blockquote>
+<p>The System is Emacs, and orgmode, and multi-scalar note-taking everywhere, and
+sketching, and daily habits, and a whole bag of tricks to try and keep this
+creaky old frame moving in the right direction.</p>
+</blockquote>
+<p>This time, for this section, I would like to limit it to tools for knowledge
+management and task management (this is not my favourite term, but I&rsquo;m erring
+on the side of familiarity here) .</p>
+<p>All of Emacs and Orgmode and Org-roam is still going strong, although I waver
+quite a bit sometimes when I see some of the shiny new things, like <a href="https://obsidian.md/">Obsidian</a>,
+which I would probably be using if it wasn&rsquo;t for Emacs.</p>
+<p>However, when I sometimes dive into my notes, I can see the difference it makes
+when you stick to a single tool for longer than a few years. The amount of
+knowledge keeps on growing, and I am slowly getting better at linking it all
+together and&hellip;  sometimes even using it.</p>
+<p>The picture below shows the graph created, by the <a href="https://github.com/org-roam/org-roam-ui"><code>org-roam-ui</code></a> package, of a
+sub-section of my notes network:</p>
+
+
+
+
+
+
+
+
+<figure><a href="images/2022/2022-01-23_10-10-50_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_800x0_resize_box_3.png"
+            
+
+        /> </a>
+</figure>
+
+<p>Before I got side-tracked by the pretty picture, I was planning to dedicate
+this section to a new WHV award, namely the Award for the Most Unexpectedly
+Useful Software Tool of the Year 2021.</p>
+<p>This year the award goes to&hellip; <a href="https://www.dropbox.com/paper/guide">Dropbox Paper</a>!</p>
+<p>Back in <a href="https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/#dropbox-paper--aka-mobile-note-taking-evolving">WHV #233</a> I listed many of the reasons why. In the few months since then
+it has become only more useful to me as the go-to mobile tool for checklists
+(especially useful when we go on trips), lists of books, movies and music
+recommended by people in person, and so on.</p>
+<p>In addition to the qualifier features, such as its markdown DNA and its
+usability on mobile for idea capturing, the fact that Paper documents show up
+in Dropbox searches, which is how I usually search when I <span class="underline">really</span> need to find a
+specific file (versus ripgrep searches in Orgmode), is the deal maker.</p>
+<p>(My <a href="https://vxlabs.com/2021/09/29/convert-org-mode-files-to-docx-with-cmake-and-pandoc-for-mobile-accessibility/">strange scheme for continuously converting all org files to docx</a> for
+searching and reading on the iPhone is also still going strong.)</p>
+<h2 id="work">Work</h2>
+<p>I had a piece written here with more details about what exactly was happening
+at work, but I decided to nuke that and instead keep it more personal by
+mentioning that thanks to great big dollops of serendipity and people, I find
+myself, with a number of levers at my disposal, right in the middle of an
+organization which, after a few months of reconfiguration and preparation, has
+embarked on a genuinely exciting, and importantly more unified, course.</p>
+<p>I would be remiss if I did not mention the <a href="https://cpbotha.net/2021/06/16/weekly-head-voices-226-stress-practice/#eternal-practice-vs-stress">discomfort and stress</a> I was
+experiencing at the start of the current personal phase, most probably due to
+trying to adapt quickly to my new circumstances and responsibilities.</p>
+<p>In the time since then, my stress levels have returned to more acceptable
+levels, but expectations remain high.</p>
+<h2 id="friends-and-family">Friends and family</h2>
+<p>One of the most positive changes I made in the past year, was to put more
+effort into making regular and active (virtual) contact with friends whom I
+don&rsquo;t see in person regularly enough.</p>
+<p>THANKS INTERNET YOU DA BEST.</p>
+<p>This year, I want to try harder to do more of that.</p>
+<p>More generally, I made a note (yes, again, one has to keep doing this until the
+end) to celebrate any of my peeps and our relationships whenever there&rsquo;s a
+chance.</p>
+<p>Secret message for my innner INNER circle: You are my energy and my joy, I am
+here to be yours.</p>
+<p>Whatever else happens, these precious relationships are all we have.</p>
+<h2 id="even-more-plans-for-2022-continue-trying">Even more plans for 2022: Continue trying</h2>
+<p>First off, I would really like to get this blog post here done and
+published. (it wants to be too much, or rather I want it to be too much, and so
+we sit here staring at each other instead of just getting on with it so I can
+try again to write a good post for once)</p>
+<p>Second, EAZ is back on, since Monday January 10. EAZ means no alcohol until at
+least February 10. As has been the case previously, my sleep quality is
+subjectively better, and it seems like my energy levels are more consistent
+throughout the week.</p>
+<p>I just looked back at last year&rsquo;s transition post, and especially at the <a href="/2021/01/10/the-2020-to-2021-transition-post/#life-systems-2021">final
+sections, including the neatly documented Life Systems 2021</a>. That guy
+(<a href="/2014/05/07/weekly-head-voices-70-patterns-in-the-sand/">apparently we share only about 2% of our atoms</a>) really seemed to have his
+stuff together, on paper at the very least.</p>
+<p>As I write this (22:38 on Saturday, January 22), I have just realised that <em>this</em>
+&ldquo;I&rdquo; definitely needs to spend some more time thinking about &ldquo;WALUE&rdquo; (The WHV
+approach to life, the universe and everything, the one with the pillars (love
+and science, that&rsquo;s the easy and reliable bit) and the rules) and specifically
+if and how to revise the daily life direction clusters.</p>
+<p>I&rsquo;ll have it on your desk by Monday.</p>
+<p>Until then, the one thing I&rsquo;m sure about, is that I wish you and your loved
+ones the best 2022 possible.</p>
+
+
+
+
+
+
+
+
+<figure><a href="stormsriver-mouth.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 3: Our cottage for the night of December 20 at Storms River Mouth."/> </a><figcaption>
+            <p><span class="figure-number">Figure 3: </span>Our cottage for the night of December 20 at Storms River Mouth.</p>
+        </figcaption>
+</figure>
+
+]]></content:encoded></item><item><title>Weekly Head Voices #224: Zen machine</title><link>https://cpbotha.net/2021/05/29/weekly-head-voices-224-zen-machine/</link><pubDate>Sat, 29 May 2021 08:30:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/29/weekly-head-voices-224-zen-machine/</guid><description> Dear friends,
 You are reading the 224th edition of the Weekly Head Voices, covering the week from Monday May 17 to Sunday May 23 of the year 2021.
 Figure 1: Scene from a truly fabulous autumn Sunday lunch with the family. As I&amp;rsquo;ve mentioned before, Autumn weekends down here can be rough.
 Fasted runs are not as scary as I thought At the time of drawing my anti-breakfast line in the sand in WHV #221, I did still make the exception of eating a banana or three before a morning run, with the reasoning that I would burn through much of the resultant glucose during the run, and that runs without all those sweet sweet carbs were probably quite difficult.</description><content:encoded><![CDATA[ <p>Dear friends,</p>
@@ -139,7 +503,8 @@ same way as <a href="/2015/02/15/meepz97-i-haz-a-new-computar-machine/#are-you-h
 <p>Yes.</p>
 ]]></content:encoded></item><item><title>Weekly Head Voices #223: The potjie never left</title><link>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</link><pubDate>Fri, 21 May 2021 22:34:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</guid><description> Welcome friends to the two hundred and twenty third edition of the Weekly Head Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.
 (Hah, by writing out the words like that, I&amp;rsquo;ll get paid even more for this article!)
-Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
+Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.
+vxlabs software development handbook v1 is out Well, it&amp;rsquo;s not really a book, more of a blog post really, but it is chock full of practical guidelines for developers.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
 Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.</p>
 <p>(Hah, by writing out the words like that, I&rsquo;ll get paid even more for this
 article!)</p>
@@ -392,8 +757,8 @@ report that she has, quite routinely if I may add, done another two or three
 <p>Folks I wish you all the best. I look forward to our next connection!</p>
 ]]></content:encoded></item><item><title>Weekly Head Voices #215: Gateway to an unknown universe (aka Taalmonument)</title><link>https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/</link><pubDate>Tue, 02 Feb 2021 09:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/</guid><description><![CDATA[ How do you do, fellow humans? (Sub-vocalise in Steve Buscemi voice for maximum effect.)
 This edition of the Weekly Head Voices covers the week from Monday January 25 to Sunday January 31 of the year 2021.
- Figure 1: Weekend scene from the Afrikaans Language Monument (or &ldquo;Taalmonument&rdquo;, when you speak the lingo). Initially I thought about &lsquo;shopping out the photo-shooting couple, but I&rsquo;ve grown to like them now.
-  My notes for the period don&rsquo;t have much that is WHV-worthy, except for the following two humble offerings:]]></description><content:encoded><![CDATA[ <p>How do you do, fellow humans? (Sub-vocalise in <a href="https://en.wikipedia.org/wiki/Steve%5FBuscemi">Steve Buscemi</a> voice for maximum
+Figure 1: Weekend scene from the Afrikaans Language Monument (or &ldquo;Taalmonument&rdquo;, when you speak the lingo). Initially I thought about &lsquo;shopping out the photo-shooting couple, but I&rsquo;ve grown to like them now.
+My notes for the period don&rsquo;t have much that is WHV-worthy, except for the following two humble offerings:]]></description><content:encoded><![CDATA[ <p>How do you do, fellow humans? (Sub-vocalise in <a href="https://en.wikipedia.org/wiki/Steve%5FBuscemi">Steve Buscemi</a> voice for maximum
 effect.)</p>
 <p>This edition of the Weekly Head Voices covers the week from Monday January 25
 to Sunday January 31 of the year 2021.</p>
@@ -706,9 +1071,9 @@ the contents of the much more substantial book it is based on!</p>
 <h3 id="details-for-nerds">Details for nerds</h3>
 <p>This is the invocation I used to generate reports from the nginx log files
 using the <a href="https://goaccess.io/">goaccess</a> tool:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
-</span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
-</code></pre></div><h2 id="running">Running</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
+</span></span></code></pre></div><h2 id="running">Running</h2>
 <p>In 2020 I seem to have run just 100 metres shy of 1100km. (Typical&hellip;)</p>
 <p>More would have been good, but I&rsquo;m happy with this.</p>
 <p>Exercise did take a bit of a hit due to <a href="/2020/04/13/weekly-head-voices-191-covid-19-part-2/#exercise">lockdown</a>, although I could definitely
@@ -1064,7 +1429,8 @@ consciousness, as the whole of the reality simulation being run over the
 trillions of neural connections in the human brain, were not in vain.</p>
 ]]></content:encoded></item><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
 The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.
-This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.</description><content:encoded><![CDATA[ 
+This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.
+If you&amp;rsquo;re in a rush, and can only select one section, I would recommend the one on Niklas Luhmann.</description><content:encoded><![CDATA[ 
 
 
 
@@ -1638,204 +2004,4 @@ experiment where I do try to write some shorter, more focused posts.</p>
 <p>I will keep you up to date!</p>
 <p>Ok reader, whoever and wherever you are, I wish you the very best that humanity
 has to offer!</p>
-]]></content:encoded></item><item><title>The 2019 to 2020 transition post.</title><link>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</link><pubDate>Sun, 12 Jan 2020 11:03:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</guid><description> Welcome to 2020 folks!
-In retrospect, I really should have written this post during the vacation, when it is substantially easier to wax all optimistic about the year to come.
-As it stands, we&amp;rsquo;re slightly more than a week of work into the new year, and most of that vacation naiveté has been brought summarily crashing down to earth as part of a sort of planetary body check.
-Perhaps it&amp;rsquo;s better this way after all.</description><content:encoded><![CDATA[ <p>Welcome to 2020 folks!</p>
-<p>In retrospect, I really should have written this post during the vacation, when
-it is substantially easier to wax all optimistic about the year to come.</p>
-<p>As it stands, we&rsquo;re slightly more than a week of work into the new year, and
-most of that vacation naiveté has been brought summarily crashing down to earth
-as part of a sort of planetary body check.</p>
-<p>Perhaps it&rsquo;s better this way after all. Let&rsquo;s keep it real.</p>
-<figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano.jpg">
-
-  <img
-
-    sizes="(min-width: 35em) 1200px, 100vw"
-  
-  srcset='
-  
-    https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_480x0_resize_q75_box.jpg 480w
-  
-  
-    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_800x0_resize_q75_box.jpg 800w
-  
-  
-    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_1200x0_resize_q75_box.jpg 1200w
-  
-  
-    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_1500x0_resize_q75_box.jpg 1500w 
-  '
-
-
-
-  
-  src="https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_800x0_resize_q75_box.jpg"
-  
-
-   />
-
-</a>
-
-<figcaption>
-A sample of the view as I was walking to the main beach in Betty's Bay,
-listening to a super entertaining <a
-href="https://www.wnycstudios.org/podcasts/radiolab/articles/man-against-horse">radiolab
-podcast about a recent 50 mile race between humans and horses</a>. (Hint: A human won!)
-</figcaption>
-</figure>
-<p>During the vacation, I did manage to find all (most?) of <a href="/tags/transition/">the previous (year)
-transition posts</a> all the way back to 2010 and retro-tag
-them, for your and my reading pleasure, but mostly because I like to keep
-things orderly around here.</p>
-<p>The rest of this post is a very brief and spotty review of 2019, followed by my
-far-more-grounded-than-usual (see above) hopes and dreams for 2020.</p>
-<h2 id="learnings-and-events-that-i-found-important-through-the-lens-of-this-blog">Learnings and events that I found important, through the lens of this blog.</h2>
-<p>I now find <a href="/tags/sleep/">sleep</a> <em>at least</em> as important as healthy eating (and
-<a href="/2019/12/18/weekly-head-voices-186-helderberg-20/#time-restricted-eating-tre-with-black-coffee-please">not
-eating</a>)
-and exercise for human wellness. I started writing about sleep in the <a href="/2017/12/29/the-2017-to-2018-transition-post/">2017 to
-2018 transition post</a> after
-reading about Matthew Walker for the first time in a Guardian interview.</p>
-<p>In 2019 I got around to reading his book as well, and I now I&rsquo;m even more
-scared of losing sleep over anything.</p>
-<p>(For a giggle, contrast this with <a href="/2019/02/06/weekly-head-voices-161-email-equilibrium/#earlyish-morning-sessions">my early morning work sessions in WHV
-#161</a>. On
-second thought, in Summer time one could probably get this working again.)</p>
-<p>Our home is <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">now solar
-powered</a>. In fact,
-this post is for the largest part made using power directly from the sun!</p>
-<p><a href="/2019/07/17/weekly-head-voices-173-i-know/#stone-three-healthcare-is-now-a-thing">Stone Three
-Healthcare</a>,
-a new med-tech company I am officially part of, was officially launched after
-a great incubation period.</p>
-<p>Exciting times lie ahead.</p>
-<p><a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-boat/#life-is-but-a-dream">Reality is just a different type of
-dreaming</a>,
-and other implications of brain-based reality simulation.</p>
-<p>We are still feeling <a href="/2019/09/01/weekly-head-voices-176-cycle-of-life/#loss">the loss of a clan mother</a>.</p>
-<p><a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding">ABC stands for Always Be
-Compounding</a>.</p>
-<p>Maybe <em>that</em> will be my main theme for 2020.</p>
-<h2 id="blogging-stats">Blogging Stats.</h2>
-<p>In 2019 I published 35 posts on this blog, slightly down from 2019&rsquo;s 36 posts.</p>
-<p>(I also published 12 more nerdy posts over on vxlabs, slightly up from 2019&rsquo;s 11 posts.)</p>
-<p>The static log analyzer tool I installed in March of 2019 (awstats, if you have
-to know) reports 37403 unique visitors reading just under 160000 pages between
-them.</p>
-<p>It could be that all of that is due to my small group of friends voraciously
-re-reading everything on here, each time with a new dynamically assigned IP
-address.</p>
-<p>Whatever the case may be (voracious) readers, thank you for reading the things
-I write!</p>
-<h2 id="technical-changes-to-the-site-with-implications-for-the-writing-process">Technical changes to the site, with implications for the writing process.</h2>
-<p>In March of this year, I <a href="/2019/03/31/wordpress-to-hugo/">ported this whole site from wordpress to the Hugo
-static site generator</a>.</p>
-<p>Although this has resulted in a significantly faster and more secure site, the
-real benefits only dawned on me a few weeks in.</p>
-<p>With Hugo, my main input modality is the humble text editor, where I write the
-<a href="https://commonmark.org/help/">markdown</a>, that is semi-structured plaintext
-with a few tricks, of each post before converting it to its final published
-form.</p>
-<p>In contrast to the WYSIWYG of Wordpress and especially of its new-fangled
-Gutenberg visual editor, the latter which was probably the biggest reason for
-me to make the jump, I see only text and the markdown heading structure when I
-write posts, with very few other distractions.</p>
-<p>This has magically resulted in me applying significantly more focus and
-discipline to how I write these posts, which has further resulted in an
-unexpected increase in writing satisfaction.</p>
-<p>(I am carefully optimistic that it might even contribute ever so slightly to
-post quality.)</p>
-<p>In November of 2019, I also moved all 20 years of super valuable (to me) reader
-comments <a href="/2019/11/10/we-now-have-self-hosted-isso-comments/">away from the Disqus silo and into a self-hosted open-source
-commenting system called
-isso</a>.</p>
-<h2 id="running">Running.</h2>
-<p>In 2019, Strava says I ran 1086km, down from over 1200km in 2018.</p>
-<p>I am happy with this.</p>
-<p>At the start of 2019, <a href="/2019/02/06/weekly-head-voices-161-email-equilibrium/#running-inspiration">I slowed down a bit
-(again)</a>
-to help save my ankles.</p>
-<p>That seemed to have worked, because I had no mentionable injuries for the rest
-of the year, and <em>that</em> makes me happier than more distance would have.</p>
-<p>For the sake of this retrospective, I do have to note that I did attain my
-secret-until-unlock extra 2019 running goal, namely <a href="/2019/11/22/weekly-head-voices-184-the-tai-chi-of-you/#running">the casual 20km
-jog</a> on one
-not-too-hot Saturday morning in November.</p>
-<p>For 2020, my main goal is simply to continue running throughout the year (see
-ABC above) without injury.</p>
-<p>The secret additional milestone has not yet been formulated.</p>
-<p>(I still enjoy running the most on barefoot or sandals, but for the longer
-runs, I am really happy to have made the <a href="/2019/09/09/weekly-head-voices-177-streakers/#escalante">Altra connection in
-September</a>.)</p>
-<h2 id="plans-and-life-directions-for-2020">Plans and life directions for 2020.</h2>
-<p>The <a href="/2019/01/06/the-2018-to-2019-transition-post/#other-plans-for-2019">January 6, 2019 transition WHV were definitely more
-ambitious</a>
-than I currently feel.</p>
-<p>Traditionally, Experiment Alcohol Zero (EAZ) starts around this time and then
-continues for a month or more.</p>
-<p>That&rsquo;s a great tradition, so Monday, January 6, 2020 marks the date this time
-around.</p>
-<p>Other than EAZ and my humble running goals, it is probably relevant to mention
-my recently started experimental daily list of life directions.</p>
-<p>At the start of 2012, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">I wrote the following about life
-goals</a>:</p>
-<blockquote>
-<p>Don&rsquo;t set life goals, but rather set life directions. Instead of defining the
-point that you want to go towards, define your preferred direction. If you do
-it right, you&rsquo;ll pass those points as you go along in any case, except you
-won&rsquo;t land in the depressing goal vacuum right after reaching the point that
-you&rsquo;ve been moving towards for so long, because you&rsquo;re motoring along in a
-direction, and that&rsquo;s what&rsquo;s important.</p>
-</blockquote>
-<p>(I should have added then that life goals, especially the new year&rsquo;s resolution
-variety, are also incredibly easy to fail at.)</p>
-<p>Finally applying this advice concretely to my <a href="/2019/09/21/note-taking-strategy-2019">note-taking / PKM
-system</a>, I have recently added an
-&ldquo;Experiment: Articulate your directions / systems&rdquo; heading to <a href="/2019/09/21/note-taking-strategy-2019/#daily-review">the daily
-planning template</a>.</p>
-<p>In other words, every(ish) morning during day planning, I <em>attempt</em> to write
-down (again&hellip;) my current life directions.</p>
-<p>This is a neat trick to force me to be reminded multiple times per week of
-these guidelines.</p>
-<p>It also gives me the opportunity to adapt the wording, or even the list
-itself. Your surroundings change continuously, and so do you.</p>
-<p>The most recent version is as follows:</p>
-<ol start="0">
-<li>nurture your clan.</li>
-<li>grow the business.</li>
-<li>keep on writing, also for publication.</li>
-<li>keep on programming, also for publication.</li>
-<li>keep on learning, and sharpen tools.</li>
-<li>optimise physiology.</li>
-</ol>
-<p>All of these are
-<a href="/2019/06/30/weekly-head-voices-172-abc/#always-be-compounding"><em>compounding</em></a>.</p>
-<p>None of them are concrete goals which I can quantitatively attain.</p>
-<p>They are all <em>directions of movement</em>, along which any decision or action can
-be measured.</p>
-<p>If that action furthers one or more of the six directions above, we are good to
-go.</p>
-<p>If not, it&rsquo;s probably time to go to bed.</p>
-<h2 id="wishes-for-2020">Wishes for 2020.</h2>
-<p>Dear readers, <strong>thank you for being here</strong>.</p>
-<p>I wish you a brilliant 2020.</p>
-<p>I look forward to all of our meetings, both here on these pages, and everywhere
-else where they may happen.</p>
 ]]></content:encoded></item></channel></rss>

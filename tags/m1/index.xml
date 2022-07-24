@@ -290,21 +290,21 @@ my writing.</p>
 device in question.</p>
 <p>Have I mentioned &ldquo;super snappy&rdquo;?</p>
 <p>By the way, if you build Emacs like this on the M1:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew tap railwaycat/emacsmacport
-brew install --formula emacs-mac --HEAD
-</code></pre></div><p>&hellip; you should be good to go.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap railwaycat/emacsmacport
+</span></span><span style="display:flex;"><span>brew install --formula emacs-mac --HEAD
+</span></span></code></pre></div><p>&hellip; you should be good to go.</p>
 <h3 id="update-on-2021-04-15">Update on 2021-04-15</h3>
 <p>A few days ago, I started seeing the following error during homebrew Emacs update:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">./temacs --batch  -l loadup --temacs=pbootstrap
-make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
-make: *** [src] Error 2
-</code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>./temacs --batch  -l loadup --temacs=pbootstrap
+</span></span><span style="display:flex;"><span>make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
+</span></span><span style="display:flex;"><span>make: *** [src] Error 2
+</span></span></code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
 master.</p>
 <p>It was easiest for me to switch to emacs-plus, which went like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew uninstall emacs-mac
-brew tap d12frosted/emacs-plus
-brew install emacs-plus@28 --with-no-titlebar
-</code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew uninstall emacs-mac
+</span></span><span style="display:flex;"><span>brew tap d12frosted/emacs-plus
+</span></span><span style="display:flex;"><span>brew install emacs-plus@28 --with-no-titlebar
+</span></span></code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
 <p>It&rsquo;s a pity that the ThinkPad, although powerful enough to satisfy <a href="/2020/05/20/weekly-head-voices-195-pragmatic/#the-story-behind-this-story-one-context-to-rule-them-all">my single
 computing device / single context requirement</a>, and with <a href="/2020/09/16/weekly-head-voices-204-what-is-your-purpose/#wsl2-and-nativecomp-emacs-workflow-update">WSL2 becoming
 increasingly useful</a> and hence addressing the dual-boot issue, does not satisfy

@@ -340,46 +340,46 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-         <span style="color:#2aa198">&#34;* Day planning %U
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Done list / thoughts / diary
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">- %?
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Tasks for today [/]
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Focus blocks
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Review [/]
-</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span><span style="color:#2aa198">- [ ] Org sub-projects
-</span><span style="color:#2aa198">- [ ] Calendar
-</span><span style="color:#2aa198">- [ ] ...
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Habits / important [/]
-</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span><span style="color:#2aa198">- [ ] ...
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">&#34;</span>
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
-</code></pre></div><h2 id="updates">Updates</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
 <li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
@@ -431,7 +431,7 @@ but it was a frustrating reminder that for something as important (to me) as
 my collection of references (aka “argument-winning potion”), I was
 at the mercy of someone else, with almost no other recourse.</p>
 <p>This frustrating led me to find an alternative solution, which became&hellip; a big
-ol' bunch of PDFs! (call this JBOP, inspired by <a href="https://en.wikipedia.org/wiki/Non-RAID_drive_architectures">JBOD</a>)</p>
+ol&rsquo; bunch of PDFs! (call this JBOP, inspired by <a href="https://en.wikipedia.org/wiki/Non-RAID_drive_architectures">JBOD</a>)</p>
 <p>In order to do this, we need a method of turning web-pages into readable PDFs,
 and some system for the storage and retrieval of said PDFs.</p>
 <h3 id="use-a-browser-with-ad-blocking-and-reader-mode">Use a browser with ad-blocking and Reader Mode</h3>

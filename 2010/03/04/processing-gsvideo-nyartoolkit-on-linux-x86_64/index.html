@@ -1,113 +1,22 @@
-<!doctype html><html>
-<head>
-<title>Processing + GSVideo + NyARToolkit on Linux x86_64 // voices in my head</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=author content="Charl P. Botha">
-<meta property="og:title" content="Processing + GSVideo + NyARToolkit on Linux x86_64">
-<meta property="og:description" content="Every now and then, I blast out the cruft from my nerd gland’s exit duct by writing a terribly nerdy post. This is just such a post, so if you don’t speak Nerd, i’d highly recommend that you go have some fun elsewhere, at least until my next Weekly Head Voices of course!
-As mentioned around these parts, I’m currently playing with Processing, a beautiful programming stack for making interactive visual, err, thingies.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://cpbotha.net/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
-<link rel=stylesheet href=https://cpbotha.net/css/style.css>
-<meta name=generator content="Hugo 0.88.1">
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about/>About</a>
+<!doctype html><html><head><title>Processing + GSVideo + NyARToolkit on Linux x86_64 // voices in my head</title><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=author content="Charl P. Botha"><meta property="og:title" content="Processing + GSVideo + NyARToolkit on Linux x86_64"><meta property="og:description" content="Every now and then, I blast out the cruft from my nerd gland’s exit duct by writing a terribly nerdy post. This is just such a post, so if you don’t speak Nerd, i’d highly recommend that you go have some fun elsewhere, at least until my next Weekly Head Voices of course!
+As mentioned around these parts, I’m currently playing with Processing, a beautiful programming stack for making interactive visual, err, thingies."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://cpbotha.net/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/"><link rel="shortcut icon" href=/favicon.ico><link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><style>@import 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap'</style><link rel=stylesheet href=https://cpbotha.net/css/style.css><meta name=generator content="Hugo 0.101.0"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a><nav id=main-nav><a class=main-nav-link href=/about/>About</a>
 <a class=main-nav-link href=/links/>Links</a>
 <a class=main-nav-link href=/archive/>Posts Archive</a>
 <a class=main-nav-link href=/software/>Software</a>
-<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>Processing + GSVideo + NyARToolkit on Linux x86_64</h1>
-</header>
-<div class=article-meta>
-<a href=/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/ class=article-date>
-<time datetime=2010-03-04T22:41:48.000+00:00 itemprop=datePublished>2010-03-04</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=https://cpbotha.net//categories/nerd>nerd</a>
-</div>
-</div>
-<div class=article-comment-link-wrap>
-<a href=/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/#isso-thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p>Every now and then, I blast out the cruft from my nerd gland’s exit duct by writing a terribly nerdy post.  This is just such a post, so if you don’t speak Nerd, i’d highly recommend that you go have some fun <a href=http://chatroulette.com/ title="fun random webcam site">elsewhere</a>, at least until my next Weekly Head Voices of course!</p>
-<p>As mentioned around these parts, I’m currently playing with <a href=http://processing.org/ title="Processing website">Processing</a>, a beautiful programming stack for making interactive visual, err, thingies. To be more specific, I’d like to use processing together with something like ARToolkit to do real-time 3D tracking of markers in live video, for augmented reality fun.  To see what this could look like, see this YouTube video:</p>
-<div class=jetpack-video-wrapper>
-<span class=embed-youtube style=text-align:center;display:block><iframe allowfullscreen class=youtube-player height=473 src="https://www.youtube.com/embed/uoncHfnYWHM?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent" style=border:0 type=text/html width=840></iframe></span>
-</div>
-<p>Today’s challenge is getting whole stack, including processing, the GSVideo video capture library for processing and the NyARToolkit augmented reality for processing going on Linux x86_64 (64bit).  On Linux x86 (32bit) this is much more straight-forward, but I wouldn’t write a blog post about straight-forward, now would I?</p>
-<p>Here is the recipe:</p>
-<ol>
-<li>
-<p>Make sure you have the native 64bit Sun JDK installed for your system.  On this Ubuntu 9.10 machine it’s ﻿﻿﻿sun-java6-jdk 6-15-1, on Ubuntu 10.04 (also tested) it’s ﻿6.20dlj-1ubuntu3.</p>
-</li>
-<li>
-<p>Also install the jogl libraries, on this machine called libjogl-java.</p>
-</li>
-<li>
-<p>Make sure you have the whole of gstreamer installed. On ubuntu, all packages containing “gstreamer”.</p>
-</li>
-<li>
-<p>Get and unpack the processing for Linux tarball (I’ve tested this whole procedure with processing 1.0.9, 1.1 and 1.2.1) from the processing <a href=http://processing.org/download/ title="processing download site">download site</a>.</p>
-</li>
-<li>
-<p>In the unpacked processing directory, remove the whole java subdirectory. Now make a symlink pointing to your system java directory (the one containing bin, ext, jre, lib, etc.).  On my system, that was: <pre class="brush: bash; title: ; notranslate" title>cd processing
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>Processing + GSVideo + NyARToolkit on Linux x86_64</h1></header><div class=article-meta><a href=/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/ class=article-date><time datetime=2010-03-04T22:41:48.000+00:00 itemprop=datePublished>2010-03-04</time></a><div class=post-categories><div class=article-category><a class=article-category-link href=https://cpbotha.net//categories/nerd>nerd</a></div></div><div class=article-comment-link-wrap><a href=/2010/03/04/processing-gsvideo-nyartoolkit-on-linux-x86_64/#isso-thread class=article-comment-link>Comments</a></div></div><div class=article-entry itemprop=articleBody><p>Every now and then, I blast out the cruft from my nerd gland’s exit duct by writing a terribly nerdy post.  This is just such a post, so if you don’t speak Nerd, i’d highly recommend that you go have some fun <a href=http://chatroulette.com/ title="fun random webcam site">elsewhere</a>, at least until my next Weekly Head Voices of course!</p><p>As mentioned around these parts, I’m currently playing with <a href=http://processing.org/ title="Processing website">Processing</a>, a beautiful programming stack for making interactive visual, err, thingies. To be more specific, I’d like to use processing together with something like ARToolkit to do real-time 3D tracking of markers in live video, for augmented reality fun.  To see what this could look like, see this YouTube video:</p><div class=jetpack-video-wrapper><span class=embed-youtube style=text-align:center;display:block><iframe allowfullscreen class=youtube-player height=473 src="https://www.youtube.com/embed/uoncHfnYWHM?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent" style=border:0 type=text/html width=840></iframe></span></div><p>Today’s challenge is getting whole stack, including processing, the GSVideo video capture library for processing and the NyARToolkit augmented reality for processing going on Linux x86_64 (64bit).  On Linux x86 (32bit) this is much more straight-forward, but I wouldn’t write a blog post about straight-forward, now would I?</p><p>Here is the recipe:</p><ol><li><p>Make sure you have the native 64bit Sun JDK installed for your system.  On this Ubuntu 9.10 machine it’s ﻿﻿﻿sun-java6-jdk 6-15-1, on Ubuntu 10.04 (also tested) it’s ﻿6.20dlj-1ubuntu3.</p></li><li><p>Also install the jogl libraries, on this machine called libjogl-java.</p></li><li><p>Make sure you have the whole of gstreamer installed. On ubuntu, all packages containing “gstreamer”.</p></li><li><p>Get and unpack the processing for Linux tarball (I’ve tested this whole procedure with processing 1.0.9, 1.1 and 1.2.1) from the processing <a href=http://processing.org/download/ title="processing download site">download site</a>.</p></li><li><p>In the unpacked processing directory, remove the whole java subdirectory. Now make a symlink pointing to your system java directory (the one containing bin, ext, jre, lib, etc.).  On my system, that was:<pre class="brush: bash; title: ; notranslate" title>cd processing
 rm -rf java
 ln -s /usr/lib/jvm/java-6-sun-1.6.0.15﻿ java
-</pre></p>
-</li>
-<li>
-<p>In processing/libraries/opengl/library remove the 3 libjogl*.so files and libgluegen-rt.so. Symlink their replacements from /usr/lib/jni with for example: <pre class="brush: bash; title: ; notranslate" title>cd processing/libraries/opengl/library
+</pre></p></li><li><p>In processing/libraries/opengl/library remove the 3 libjogl*.so files and libgluegen-rt.so. Symlink their replacements from /usr/lib/jni with for example:<pre class="brush: bash; title: ; notranslate" title>cd processing/libraries/opengl/library
 rm lib*.so
 ln -s /usr/lib/jni/libgluegen-rt.so
 ln -s /usr/lib/jni/libjogl_awt.so
 ln -s /usr/lib/jni/libjogl.so
-</pre></p>
-</li>
-<li>
-<p><a href=http://users.design.ucla.edu/~acolubri/processing/gsvideo/home/ title="GSVideo website">Download</a> and unpack gsvideo into processing/libraries.  You should be able to run the examples in processing/libraries/gsvideo/examples/Capture with the PDE (Processing Development Environment).</p>
-</li>
-<li>
-<p><a href=http://nyatla.jp/nyartoolkit/wiki/index.php?NyAR4psg.en title="NyARToolkit for Processing website">Download</a> and unpack the NyARToolkit for Processing library into processing/libraries.</p>
-</li>
-</ol>
-<p>You should now be able to run the NyARToolkit examples by changing replacing the import call as follows:</p>
-<pre class="brush: java; title: ; notranslate" title>// replace this call:
+</pre></p></li><li><p><a href=http://users.design.ucla.edu/~acolubri/processing/gsvideo/home/ title="GSVideo website">Download</a> and unpack gsvideo into processing/libraries.  You should be able to run the examples in processing/libraries/gsvideo/examples/Capture with the PDE (Processing Development Environment).</p></li><li><p><a href=http://nyatla.jp/nyartoolkit/wiki/index.php?NyAR4psg.en title="NyARToolkit for Processing website">Download</a> and unpack the NyARToolkit for Processing library into processing/libraries.</p></li></ol><p>You should now be able to run the NyARToolkit examples by changing replacing the import call as follows:</p><pre class="brush: java; title: ; notranslate" title>// replace this call:
 // import processing.video.*;
 // by this call:
 import codeanticode.gsvideo.*;
-</pre>
-<p>and changing the Capture class (twice) to GSCapture and perhaps also the capture resolution, depending on your camera. The relevant conversions are:</p>
-<pre class="brush: java; title: ; notranslate" title>// Capture cam;
+</pre><p>and changing the Capture class (twice) to GSCapture and perhaps also the capture resolution, depending on your camera. The relevant conversions are:</p><pre class="brush: java; title: ; notranslate" title>// Capture cam;
 // becomes:
 GSCapture cam;
 
@@ -115,82 +24,8 @@ GSCapture cam;
 // cam=new Capture(this,width,height);
 // becomes:
 cam=new GSCapture(this,width,height);
-</pre>
-<p>The major trick in all of this is converting your Processing installation to use your system 64bit JDK instead of its own built-in 32bit JDK.</p>
-<p>Let me know in the comments if this worked (or didn’t) for you!</p>
-</div>
-<footer class=article-footer>
-<ul class=article-tag-list>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/artoolkit>artoolkit
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/gstreamer>gstreamer
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/gsvideo>gsvideo
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/java>java
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/jdk>jdk
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/nyartoolkit>nyartoolkit
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/processing>processing
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/x86_64>x86_64
-</a>
-</li>
-</ul>
-</footer>
-</div>
-<nav id=article-nav>
-<a href=/2010/03/09/weekly-head-voices-16-go-go-gadget/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-Weekly Head Voices #16: Go Go Gadget!
-</div>
-</a>
-<a href=/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>Weekly Head Voices #15: Auto-tune my cloud.&nbsp;<span>></span></div>
-</a>
-</nav>
-</article>
-<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
-<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
-<section data-title="Processing + GSVideo + NyARToolkit on Linux x86_64" id=isso-thread></section>
-</section>
-<footer id=footer>
-<div id=search-form-wrap>
-<form class=search-form method=get action=https://duckduckgo.com/>
-<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+</pre><p>The major trick in all of this is converting your Processing installation to use your system 64bit JDK instead of its own built-in 32bit JDK.</p><p>Let me know in the comments if this worked (or didn’t) for you!</p></div><footer class=article-footer><ul class=article-tag-list><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/artoolkit>artoolkit</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/gstreamer>gstreamer</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/gsvideo>gsvideo</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/java>java</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/jdk>jdk</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/nyartoolkit>nyartoolkit</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/processing>processing</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/x86_64>x86_64</a></li></ul></footer></div><nav id=article-nav><a href=/2010/03/09/weekly-head-voices-16-go-go-gadget/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp;
+Weekly Head Voices #16: Go Go Gadget!</div></a><a href=/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/ id=article-nav-older class=article-nav-link-wrap><div class=article-nav-title>Weekly Head Voices #15: Auto-tune my cloud.&nbsp;<span>></span></div></a></nav></article><style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style><script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script><section data-title="Processing + GSVideo + NyARToolkit on Linux x86_64" id=isso-thread></section></section><footer id=footer><div id=search-form-wrap><form class=search-form method=get action=https://duckduckgo.com/><input type=search name=q class=search-text placeholder title size=20 maxlength=128>
 <input type=hidden name=sites value=cpbotha.net>
-<input type=submit value="Search site with DDG" class=hidden>
-</form>
-</div>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2021 Charl P. Botha
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+<input type=submit value="Search site with DDG" class=hidden></form></div><div class=outer><div id=footer-info class=inner>&copy; 2022 Charl P. Botha<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>

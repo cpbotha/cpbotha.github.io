@@ -29,23 +29,23 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
         </figcaption>
 </figure>
  
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
-    <img
-        
-            
-            src="/wp-content/uploads/2017/02/wpid-example-agenda.png"
-        
-            alt="… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)"/> </a><figcaption>
-            <p>… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)</p>
-        </figcaption>
-</figure>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
+     <img
+         
+             
+             src="/wp-content/uploads/2017/02/wpid-example-agenda.png"
+         
+             alt="… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)"/> </a><figcaption>
+             <p>… to this!! (YOUR LIFE IN PLAINTEXT. DUN DUN DUUUUUN!)</p>
+         </figcaption>
+ </figure>
 </p>
 <p>I had sort of settled with todoist for the past few years. However, my yearly subscription is about to end on March 5, and I’ve realised that with the above-mentioned Emacs-lisp weaving and orgmode, there is almost unlimited flexibility also in managing my todo list.</p>
 <p>Anyways,  I have it setup so that tasks are extracted right from their context in various orgfiles, including my current monthly journal, and shown in a special view. I can add arbitrary metadata, such as attachments and just plain text, and more esoteric tidbits such as live queries into my email database.</p>

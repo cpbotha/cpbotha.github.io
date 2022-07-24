@@ -68,11 +68,11 @@ into when xz should be preferred over bz2.</p>
 compression speed and especially its decompression speed, have helped me more
 than once, which is why I&rsquo;m mentioning it here.</p>
 <p>Here&rsquo;s the 2 second guide:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#93a1a1;font-style:italic"># compress using as many threads as there are CPU cores</span>
-tar cf - giant_directory | zstd -T0 -o giant_directory.tar.zst
-<span style="color:#93a1a1;font-style:italic"># decompress REALLY TERRIBLY QUICKLY</span>
-zstd -dc giant_directory.tar.zst | tar x
-</code></pre></div><p>You can even get zstd to train on your type of data in order to build up a
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># compress using as many threads as there are CPU cores</span>
+</span></span><span style="display:flex;"><span>tar cf - giant_directory | zstd -T0 -o giant_directory.tar.zst
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># decompress REALLY TERRIBLY QUICKLY</span>
+</span></span><span style="display:flex;"><span>zstd -dc giant_directory.tar.zst | tar x
+</span></span></code></pre></div><p>You can even get zstd to train on your type of data in order to build up a
 domain-specific compression dictionary!</p>
 <h2 id="can-type-systems-catch-bugs-science-says-yes">Can type systems catch bugs? Science says yes!</h2>
 <p>Thanks to <a href="https://forum.nim-lang.org/t/7705#48894">this forum post by Araq, the creator of the Nim programming language</a>,

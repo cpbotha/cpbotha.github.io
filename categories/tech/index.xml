@@ -340,46 +340,46 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-         <span style="color:#2aa198">&#34;* Day planning %U
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Done list / thoughts / diary
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">- %?
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Tasks for today [/]
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Focus blocks
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Review [/]
-</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span><span style="color:#2aa198">- [ ] Org sub-projects
-</span><span style="color:#2aa198">- [ ] Calendar
-</span><span style="color:#2aa198">- [ ] ...
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Habits / important [/]
-</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span><span style="color:#2aa198">- [ ] ...
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">&#34;</span>
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
-</code></pre></div><h2 id="updates">Updates</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
 <li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
@@ -474,7 +474,7 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <p>My friend&rsquo;s South African LG G3 is still stuck on Android 5.0 (V20n-ZAF-XX). Most probably this is being blocked due to his carrier (MTN). In any case, 5.0 does not even show the security patch level, so we have no idea how many months of security fixes this phone is missing.</p>
 <p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
 <h2 id="a-scary-little-aside">A scary little aside</h2>
-<p>I just tried Check Point Labs' <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+<p>I just tried Check Point Labs&rsquo; <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
 
 
 
@@ -788,7 +788,7 @@ meaning that both parties will get a tremendous boost in what they know about
 you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
 ]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
 Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
-This seemed like an opportune moment to get something off my chest.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
 <p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
 
 

@@ -256,9 +256,9 @@ the contents of the much more substantial book it is based on!</p>
 <h3 id="details-for-nerds">Details for nerds</h3>
 <p>This is the invocation I used to generate reports from the nginx log files
 using the <a href="https://goaccess.io/">goaccess</a> tool:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
-</span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
-</code></pre></div><h2 id="running">Running</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
+</span></span></code></pre></div><h2 id="running">Running</h2>
 <p>In 2020 I seem to have run just 100 metres shy of 1100km. (Typical&hellip;)</p>
 <p>More would have been good, but I&rsquo;m happy with this.</p>
 <p>Exercise did take a bit of a hit due to <a href="/2020/04/13/weekly-head-voices-191-covid-19-part-2/#exercise">lockdown</a>, although I could definitely

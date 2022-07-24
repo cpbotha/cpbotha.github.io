@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ox-hugo on voices in my head</title><link>https://cpbotha.net/tags/ox-hugo/</link><description>Recent content in ox-hugo on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 03 May 2020 15:33:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/ox-hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
 The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.
-This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.</description><content:encoded><![CDATA[ 
+This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.
+If you&amp;rsquo;re in a rush, and can only select one section, I would recommend the one on Niklas Luhmann.</description><content:encoded><![CDATA[ 
 
 
 
@@ -415,18 +416,18 @@ the new site like this:</p>
 git clone https://github.com/carsonip/hugo-theme-minos.git
 </code></pre><p>Before starting up the new site for the first time, I edited the top-level
 <code>config.toml</code> so it looked like the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
-<span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
-<span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
-<span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
-<span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
-<span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
-
-[<span style="color:#268bd2">permalinks</span>]
-  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
-  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
-  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
-</code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#268bd2">permalinks</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span></code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
 minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
 Components</a> mechanism.</p>
 <h3 id="fire-up-hugo-in-development-mode">Fire up Hugo in development mode!</h3>
@@ -485,12 +486,12 @@ which case the output of the build will end up in a sub-directory named
 I would prefer not syncing the expendable 600MB+ output directory, instead
 building it and syncing it from <code>~/Downloads</code>.</p>
 <p>The little bash script I used to perform step 2 in one go looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#93a1a1;font-style:italic">#!/bin/bash
-</span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
-<span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
-rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
-</span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
-</code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
+</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+</span></span></code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
 <p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
 at least an image or two, an important piece of the puzzle was how to keep
 images together with the markdown post source, instead of in a separate static
@@ -515,8 +516,8 @@ directory containing the relevant images and the post contents in a file
 called <code>index.md</code>.</p>
 <p>In my case, I would create a post by invoking the following command in the
 top-level directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new content/posts/2019/some-post-slug/index.md
-</code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
+</span></span></code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
 available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
 to images that are in the same directory using just their relative filenames.</p>
 <h2 id="mailing-lists">Mailing lists.</h2>

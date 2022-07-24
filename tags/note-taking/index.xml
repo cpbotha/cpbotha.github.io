@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>note-taking on voices in my head</title><link>https://cpbotha.net/tags/note-taking/</link><description>Recent content in note-taking on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 29 Sep 2021 21:53:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/note-taking/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #233: Atomic party sections</title><link>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</link><pubDate>Wed, 29 Sep 2021 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</guid><description> Figure 1: GOU#1 living her best life at in the Betty&amp;rsquo;s Bay water at dusk, accompanied by spectaculour colours.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>note-taking on voices in my head</title><link>https://cpbotha.net/tags/note-taking/</link><description>Recent content in note-taking on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 29 Sep 2021 21:53:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/note-taking/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #233: Atomic party sections</title><link>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</link><pubDate>Wed, 29 Sep 2021 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</guid><description><![CDATA[ Figure 1: GOU#1 living her best life at in the Betty&rsquo;s Bay water at dusk, accompanied by spectaculour colours.
 Welcome friends to this, the 233d edition of the Weekly Head Voices, covering the two weeks from Monday September 14 to Sunday September 26, 2021.
-(Don&amp;rsquo;t) Stress for success (aka 4000 weeks at 60%) It&amp;rsquo;s really quite busy at work, perhaps even verging on the slightly too busy territory.</description><content:encoded><![CDATA[ 
+(Don&rsquo;t) Stress for success (aka 4000 weeks at 60%) It&rsquo;s really quite busy at work, perhaps even verging on the slightly too busy territory.
+I&rsquo;m consistently putting in stretches of focused, high intensity work to help push us into calmer waters.]]></description><content:encoded><![CDATA[ 
 
 
 
@@ -296,7 +297,7 @@ this. If I could only have known&hellip;</li>
 heads-up display bet (at one point right before Google Glass didn&rsquo;t really
 make it, it looked like I could have won) and I&rsquo;m probably going to lose bet
 #2 as well, do take note of <a href="/2009/10/18/futuristic-betting-at-visweek-2009/#bet-3-the-future-of-conferences">&ldquo;Bet #3: In 2029, distributed conferences with
-tele-presence will be common.&quot;</a>  How things have changed in the past few
+tele-presence will be common.&rdquo;</a>  How things have changed in the past few
 months&hellip;</li>
 </ul>
 <p>I left by far the most relevant year 2009 event for last:</p>
@@ -409,7 +410,7 @@ CLIPS WHICH THE YOUTUBE AI <em>KNOWS</em> WILL GET YOU (in my case movie trailer
 movie reviews and analyses, comics, <a href="https://youtu.be/T_rDA-7E_ys">running</a>,
 HOW TO GET CHISELED (no idea how that got in there), <a href="https://www.youtube.com/user/SaturdayNightLive">Saturday Night Live
 clips</a>, running really terribly
-far, some programming or computer thing) and middle-click on about five of &lsquo;em.</p>
+far, some programming or computer thing) and middle-click on about five of &rsquo;em.</p>
 <p>Watch the clips, reload the main page, repeat!</p>
 <p>As entertaining as this was, most of it couldn&rsquo;t really count as a constructive
 use of my time, and so, at the start of October, TwiFraF was summarily upgraded
@@ -829,46 +830,46 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-<span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-         <span style="color:#2aa198">&#34;* Day planning %U
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Done list / thoughts / diary
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">- %?
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Tasks for today [/]
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Focus blocks
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Review [/]
-</span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span><span style="color:#2aa198">- [ ] Org sub-projects
-</span><span style="color:#2aa198">- [ ] Calendar
-</span><span style="color:#2aa198">- [ ] ...
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">** Habits / important [/]
-</span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span><span style="color:#2aa198">- [ ] ...
-</span><span style="color:#2aa198">
-</span><span style="color:#2aa198">&#34;</span>
-         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
-</code></pre></div><h2 id="updates">Updates</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
+</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
+</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+</span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
 <li>Add <a href="#redacted-emacs-orgmode-capture-template">example of orgmode capture template
@@ -931,23 +932,23 @@ That unexpected side-project I mentioned in last week’s post did end up going
 <li>
 <p>On Thursday, some dudes came to my house and, after somehow switching seamlessly from pick-axe to optic fibre splicer and back several times, left me with this (and more):
 
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2018/02/IMG_3241.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2018/02/IMG_3241-1024x819.jpg"
-        
-            alt="Two fibre strands into my house. They tell me one is for backup."/> </a><figcaption>
-            <p>Two fibre strands into my house. They tell me one is for backup.</p>
-        </figcaption>
-</figure>
+  
+  
+  
+  
+  
+  
+  
+  <figure><a href="/wp-content/uploads/2018/02/IMG_3241.jpg">
+      <img
+          
+              
+              src="/wp-content/uploads/2018/02/IMG_3241-1024x819.jpg"
+          
+              alt="Two fibre strands into my house. They tell me one is for backup."/> </a><figcaption>
+              <p>Two fibre strands into my house. They tell me one is for backup.</p>
+          </figcaption>
+  </figure>
 </p>
 </li>
 <li>

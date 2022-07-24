@@ -1,126 +1,23 @@
-<!doctype html><html>
-<head>
-<title>An Even More Ultimate Boot Disk! // voices in my head</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=author content="Charl P. Botha">
-<meta property="og:title" content="An Even More Ultimate Boot Disk!">
-<meta property="og:description" content="In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!
- UBCD is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
-<link rel=stylesheet href=https://cpbotha.net/css/style.css>
-<meta name=generator content="Hugo 0.88.1">
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about/>About</a>
+<!doctype html><html><head><title>An Even More Ultimate Boot Disk! // voices in my head</title><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=author content="Charl P. Botha"><meta property="og:title" content="An Even More Ultimate Boot Disk!"><meta property="og:description" content="In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!
+UBCD is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/"><link rel="shortcut icon" href=/favicon.ico><link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><style>@import 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap'</style><link rel=stylesheet href=https://cpbotha.net/css/style.css><meta name=generator content="Hugo 0.101.0"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a><nav id=main-nav><a class=main-nav-link href=/about/>About</a>
 <a class=main-nav-link href=/links/>Links</a>
 <a class=main-nav-link href=/archive/>Posts Archive</a>
 <a class=main-nav-link href=/software/>Software</a>
-<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>An Even More Ultimate Boot Disk!</h1>
-</header>
-<div class=article-meta>
-<a href=/2010/05/24/an-even-more-ultimate-boot-disk/ class=article-date>
-<time datetime=2010-05-24T14:29:09.000+00:00 itemprop=datePublished>2010-05-24</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>An Even More Ultimate Boot Disk!</h1></header><div class=article-meta><a href=/2010/05/24/an-even-more-ultimate-boot-disk/ class=article-date><time datetime=2010-05-24T14:29:09.000+00:00 itemprop=datePublished>2010-05-24</time></a><div class=post-categories><div class=article-category><a class=article-category-link href=https://cpbotha.net//categories/howto>howto</a>
 <span>></span>
 <a class=article-category-link href=https://cpbotha.net//categories/nerd>nerd</a>
 <span>></span>
-<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a>
-</div>
-</div>
-<div class=article-comment-link-wrap>
-<a href=/2010/05/24/an-even-more-ultimate-boot-disk/#isso-thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p>In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!</p>
-<p style=text-align:center>
-<a data-rel=lightbox-image-0 data-rl_caption data-rl_title href=http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg title><img alt class="aligncenter size-full wp-image-910" data-attachment-id=910 data-comments-opened=1 data-image-description data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title=emubd_logo_400 data-large-file=https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg data-medium-file=https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg data-orig-file=https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg data-orig-size=400,181 data-permalink=https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/emubd_logo_400/ height=181 sizes="(max-width: 400px) 85vw, 400px" src=http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg srcset="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg 400w, https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg 300w" style=border:none title=emubd_logo_400 width=400></a>
-</p>
-<p><a href=http://ultimatebootcd.com/ title="Ultimate Boot CD website">UBCD</a> is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth. It even contains Parted Magic, a compact linux distribution for fixing partitions, amongst others.</p>
-<p><a href=http://www.knoppix.net/ title="Knoppix website">Knoppix</a> is the swiss knife of live linux distributions, and <a href=http://www.ubuntu.com/ title="Ubuntu website">Ubuntu</a> 10.04 is probably the slickest distribution out there at the moment. Both of these can be ran live from your USB disc, so they don’t have to touch your hard drive.  However, both of them are also able to install to your hard disc if you so choose.</p>
-<p>To me it seemed logical to combine <strong>all three of these elements onto the single USB flash drive</strong> that I carry on my keychain, as I know of many grandmas with broken PCs…</p>
-<p>Let’s go!</p>
-<ol>
-<li>
-<p>make sure the single FAT32 partition on your USB stick is bootable (use command ‘a’ in linux fdisk) and large enough (you’ll need just a bit less than 2G).</p>
-</li>
-<li>
-<p>mount your flash drive on a directory, henceforth referred to as FLASH_MNT.</p>
-</li>
-<li>
-<p>copy all files from the ubcd5 iso into a directory, henceforth referred to as CUSTOM_UBCD5.</p>
-</li>
-<li>
-<p>mount the ubuntu 10.04 i386 iso on a directory, henceforth referred to as LUCID_MNT</p>
-</li>
-<li>
-<p>mount the knoppix iso on a directory, henceforth referred to as KNOPPIX_MNT.</p>
-</li>
-<li>
-<p>copy necessary boot files from the ubuntu ISO to UBCD: <pre class="brush: bash; title: ; notranslate" title>mkdir CUSTOM_UBCD5/ubcd/custom/lucid
+<a class=article-category-link href=https://cpbotha.net//categories/tech>tech</a></div></div><div class=article-comment-link-wrap><a href=/2010/05/24/an-even-more-ultimate-boot-disk/#isso-thread class=article-comment-link>Comments</a></div></div><div class=article-entry itemprop=articleBody><p>In this short howto, I show you how to combine the Ultimate Boot CD (UBCD) with both Knoppix 6.2.1 and Ubuntu 10.04 onto a single USB stick to create An Even More Ultimate Boot Disk (EMUBD)!</p><p style=text-align:center><a data-rel=lightbox-image-0 data-rl_caption data-rl_title href=http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg title><img alt class="aligncenter size-full wp-image-910" data-attachment-id=910 data-comments-opened=1 data-image-description data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title=emubd_logo_400 data-large-file=https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg data-medium-file=https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg data-orig-file=https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg data-orig-size=400,181 data-permalink=https://cpbotha.net/2010/05/24/an-even-more-ultimate-boot-disk/emubd_logo_400/ height=181 sizes="(max-width: 400px) 85vw, 400px" src=http://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg srcset="https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400.jpg 400w, https://cpbotha.net/wp-content/uploads/2010/05/emubd_logo_400-300x135.jpg 300w" style=border:none title=emubd_logo_400 width=400></a></p><p><a href=http://ultimatebootcd.com/ title="Ultimate Boot CD website">UBCD</a> is a bootable CD image that’s fantastic if you’re trying to save grandma’s PC from a certain death, as it contains a number of different bootable utilities for testing memory, testing and low-level repair of hard drives, partition repair, antivirus and so forth. It even contains Parted Magic, a compact linux distribution for fixing partitions, amongst others.</p><p><a href=http://www.knoppix.net/ title="Knoppix website">Knoppix</a> is the swiss knife of live linux distributions, and <a href=http://www.ubuntu.com/ title="Ubuntu website">Ubuntu</a> 10.04 is probably the slickest distribution out there at the moment. Both of these can be ran live from your USB disc, so they don’t have to touch your hard drive.  However, both of them are also able to install to your hard disc if you so choose.</p><p>To me it seemed logical to combine <strong>all three of these elements onto the single USB flash drive</strong> that I carry on my keychain, as I know of many grandmas with broken PCs…</p><p>Let’s go!</p><ol><li><p>make sure the single FAT32 partition on your USB stick is bootable (use command ‘a’ in linux fdisk) and large enough (you’ll need just a bit less than 2G).</p></li><li><p>mount your flash drive on a directory, henceforth referred to as FLASH_MNT.</p></li><li><p>copy all files from the ubcd5 iso into a directory, henceforth referred to as CUSTOM_UBCD5.</p></li><li><p>mount the ubuntu 10.04 i386 iso on a directory, henceforth referred to as LUCID_MNT</p></li><li><p>mount the knoppix iso on a directory, henceforth referred to as KNOPPIX_MNT.</p></li><li><p>copy necessary boot files from the ubuntu ISO to UBCD:<pre class="brush: bash; title: ; notranslate" title>mkdir CUSTOM_UBCD5/ubcd/custom/lucid
 cp LUCID_MNT/casper/vmlinuz LUCID_MNT/casper/initrd.lz CUSTOM_UBCD5/ubcd/custom/lucid
-</pre></p>
-</li>
-<li>
-<p>copy ubuntu-10.04-desktop-i386.iso to your flash disk: <pre class="brush: bash; title: ; notranslate" title>mkdir /FLASH_MNT/isos
+</pre></p></li><li><p>copy ubuntu-10.04-desktop-i386.iso to your flash disk:<pre class="brush: bash; title: ; notranslate" title>mkdir /FLASH_MNT/isos
 cp ubuntu-10.04-desktop-386.iso /FLASH_MNT/isos/
-</pre></p>
-</li>
-<li>
-<p>Knoppix can’t be booted directly from its iso like Ubuntu, so we have to copy the actual contents of the ISO to your flash: <pre class="brush: bash; title: ; notranslate" title>cp -r KNOPPIX_MNT/KNOPPIX to FLASH_MNT/
+</pre></p></li><li><p>Knoppix can’t be booted directly from its iso like Ubuntu, so we have to copy the actual contents of the ISO to your flash:<pre class="brush: bash; title: ; notranslate" title>cp -r KNOPPIX_MNT/KNOPPIX to FLASH_MNT/
 cp -r KNOPPIX_MNT/boot/isolinux to FLASH_MNT/KNOPPIX/isolinux
-</pre></p>
-</li>
-<li>
-<p>replace FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg with the isolinux.cfg at the bottom of this post. (It’s the same file, except that “KERNEL linux” is replaced with “KERNEL /KNOPPIX/isolinux/linux”, “initrd=minirt.gz” with “initrd=/KNOPPIX/isolinux/minirt.gz”, F1, F2, F3 and DISPLAY paths all fixed, e.g. “F2 f2” becomes “F2 /KNOPPIX/f2” and finally all instances of “quiet” removed)</p>
-</li>
-<li>
-<p>Now replace CUSTOM_UBCD5/ubcd/custom/custom.cfg with the custom.cfg at the bottom of this post.</p>
-</li>
-<li>
-<p>copy all files from CUSTOM_UBCD5 to your usb flash disk: <pre class="brush: bash; title: ; notranslate" title>cp -r CUSTOM_UBCD5/* FLASH_MNT/
-</pre></p>
-</li>
-<li>
-<p>Finally, make the whole thing bootable with the following invocation. It’s really important that you replace /dev/sdX1 with the correct device for your flash disk. To see what this is, type “mount” and see the device associated with your FLASH_MNT. <pre class="brush: bash; title: ; notranslate" title>cd FLASH_MNT
+</pre></p></li><li><p>replace FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg with the isolinux.cfg at the bottom of this post. (It’s the same file, except that “KERNEL linux” is replaced with “KERNEL /KNOPPIX/isolinux/linux”, “initrd=minirt.gz” with “initrd=/KNOPPIX/isolinux/minirt.gz”, F1, F2, F3 and DISPLAY paths all fixed, e.g. “F2 f2” becomes “F2 /KNOPPIX/f2” and finally all instances of “quiet” removed)</p></li><li><p>Now replace CUSTOM_UBCD5/ubcd/custom/custom.cfg with the custom.cfg at the bottom of this post.</p></li><li><p>copy all files from CUSTOM_UBCD5 to your usb flash disk:<pre class="brush: bash; title: ; notranslate" title>cp -r CUSTOM_UBCD5/* FLASH_MNT/
+</pre></p></li><li><p>Finally, make the whole thing bootable with the following invocation. It’s really important that you replace /dev/sdX1 with the correct device for your flash disk. To see what this is, type “mount” and see the device associated with your FLASH_MNT.<pre class="brush: bash; title: ; notranslate" title>cd FLASH_MNT
 sudo ./ubcd/tools/linux/ubcd2usb/syslinux -s -d /boot/syslinux /dev/sdX1
-</pre></p>
-</li>
-</ol>
-<p>You’re done. You should now be able to boot with your EMUBD! Knoppix and Ubuntu can be found under “User defined”.</p>
-<p>Here are those files that you’ll need. First <strong>FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg</strong>:</p>
-<pre class="brush: bash; title: ; notranslate" title>DEFAULT knoppix
+</pre></p></li></ol><p>You’re done. You should now be able to boot with your EMUBD! Knoppix and Ubuntu can be found under “User defined”.</p><p>Here are those files that you’ll need. First <strong>FLASH_MNT/KNOPPIX/isolinux/isolinux.cfg</strong>:</p><pre class="brush: bash; title: ; notranslate" title>DEFAULT knoppix
 APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 apm=power-off vga=0x311 initrd=/KNOPPIX/isolinux/minirt.gz nomce loglevel=0 tz=localtime
 TIMEOUT 50
 # TOTALTIMEOUT 20
@@ -154,9 +51,7 @@ APPEND initrd=balder.img
 LABEL failsafe
 KERNEL /KNOPPIX/isolinux/linux
 APPEND ramdisk_size=100000 lang=en vt.default_utf8=0 vga=normal atapicd nosound noapic nolapic noacpi pnpbios=off acpi=off nofstab noscsi nodma noapm nousb nopcmcia nofirewire noagp nomce nonetwork nodhcp xmodule=vesa initrd=/KNOPPIX/isolinux/minirt.gz
-</pre>
-<p>… and then <strong>CUSTOM_UBCD5/ubcd/custom/custom.cfg</strong>:</p>
-<pre class="brush: bash; title: ; notranslate" title>MENU INCLUDE /ubcd/menus/syslinux/defaults.cfg
+</pre><p>… and then <strong>CUSTOM_UBCD5/ubcd/custom/custom.cfg</strong>:</p><pre class="brush: bash; title: ; notranslate" title>MENU INCLUDE /ubcd/menus/syslinux/defaults.cfg
 UI /boot/syslinux/menu.c32
 
 # option to be able to go back to the main menu
@@ -176,91 +71,11 @@ APPEND boot=casper iso-scan/filename=/isos/ubuntu-10.04-desktop-i386.iso --
 LABEL knoppix
 MENU LABEL Knoppix 6.2.1 LIVE
 CONFIG /KNOPPIX/isolinux/isolinux.cfg
-</pre>
-<p><strong>Post scriptum</strong></p>
-<ul>
-<li>The instructions in this post are derived from the UBCD linux documentation and various forum posts.  Credits to their authors!</li>
-<li>If you <em>don’t want Knoppix</em> on your bootable USB and you have a Windows computer, you could also use <a href=http://www.pendrivelinux.com/boot-multiple-iso-from-usb-multiboot-usb/ title="Link to post explaining MultiBootISOs">MultiBootISOS</a> to add multiple ISOs to a USB boot disk.</li>
-</ul>
-</div>
-<footer class=article-footer>
-<ul class=article-tag-list>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/boot>boot
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/flash>flash
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/knoppix>knoppix
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/linux>linux
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/ubcd>ubcd
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/ubuntu>ubuntu
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/ultimatebootcd>ultimatebootcd
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=https://cpbotha.net//tags/usb>usb
-</a>
-</li>
-</ul>
-</footer>
-</div>
-<nav id=article-nav>
-<a href=/2010/05/29/augmentation-weekly-head-voices-23/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-Augmentation [Weekly Head Voices #23]
-</div>
-</a>
-<a href=/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>Convert Word tables to EPS for inclusion in LaTeX&nbsp;<span>></span></div>
-</a>
-</nav>
-<div class=article-footer>
-Related posts:
+</pre><p><strong>Post scriptum</strong></p><ul><li>The instructions in this post are derived from the UBCD linux documentation and various forum posts.  Credits to their authors!</li><li>If you <em>don’t want Knoppix</em> on your bootable USB and you have a Windows computer, you could also use <a href=http://www.pendrivelinux.com/boot-multiple-iso-from-usb-multiboot-usb/ title="Link to post explaining MultiBootISOs">MultiBootISOS</a> to add multiple ISOs to a USB boot disk.</li></ul></div><footer class=article-footer><ul class=article-tag-list><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/boot>boot</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/flash>flash</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/knoppix>knoppix</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/linux>linux</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/ubcd>ubcd</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/ubuntu>ubuntu</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/ultimatebootcd>ultimatebootcd</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/usb>usb</a></li></ul></footer></div><nav id=article-nav><a href=/2010/05/29/augmentation-weekly-head-voices-23/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp;
+Augmentation [Weekly Head Voices #23]</div></a><a href=/2010/05/23/convert-word-tables-to-eps-for-inclusion-in-latex/ id=article-nav-older class=article-nav-link-wrap><div class=article-nav-title>Convert Word tables to EPS for inclusion in LaTeX&nbsp;<span>></span></div></a></nav><div class=article-footer>Related posts:
 <a href=/2008/11/22/backport-of-unison-22757-to-ubuntu-710/>🌤 Backport of unison 2.27.57 to Ubuntu 7.10</a>
 <a href=/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/>🌤 a critical look at ubuntu feisty beta on an hp nc8430 laptop</a>
-<a href=/2010/01/31/weekly-head-voices-11-icalmdown/>🌤 Weekly Head Voices #11: iCalmDown.</a>
-</div>
-</article>
-<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
-<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
-<section data-title="An Even More Ultimate Boot Disk!" id=isso-thread></section>
-</section>
-<footer id=footer>
-<div id=search-form-wrap>
-<form class=search-form method=get action=https://duckduckgo.com/>
-<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<a href=/2010/01/31/weekly-head-voices-11-icalmdown/>🌤 Weekly Head Voices #11: iCalmDown.</a></div></article><style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style><script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script><section data-title="An Even More Ultimate Boot Disk!" id=isso-thread></section></section><footer id=footer><div id=search-form-wrap><form class=search-form method=get action=https://duckduckgo.com/><input type=search name=q class=search-text placeholder title size=20 maxlength=128>
 <input type=hidden name=sites value=cpbotha.net>
-<input type=submit value="Search site with DDG" class=hidden>
-</form>
-</div>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2021 Charl P. Botha
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+<input type=submit value="Search site with DDG" class=hidden></form></div><div class=outer><div id=footer-info class=inner>&copy; 2022 Charl P. Botha<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>

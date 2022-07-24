@@ -1,69 +1,11 @@
-<!doctype html><html>
-<head>
-<title>dri_reinit // voices in my head</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=author content="Charl P. Botha">
-<meta property="og:title" content="dri_reinit">
-<meta property="og:description" content="This work evolved into the dri_resume code and was subsequently absorbed into the XFree86 code-base. This page is here for reference purposes.
+<!doctype html><html><head><title>dri_reinit // voices in my head</title><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=author content="Charl P. Botha"><meta property="og:title" content="dri_reinit"><meta property="og:description" content="This work evolved into the dri_resume code and was subsequently absorbed into the XFree86 code-base. This page is here for reference purposes.
 This used to be the home of my driReInitKludge. However, Michel Dänzer made a far better patch based on my work and has since started a new branch in DRI CVS for the development of this functionality.
-So, I’m now using this page to distribute binaries of this XFree86 DRI reinit-0-0-1-branch.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://cpbotha.net/software/dri_reinit/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<style>@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap'</style>
-<link rel=stylesheet href=https://cpbotha.net/css/style.css>
-<meta name=generator content="Hugo 0.88.1">
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about/>About</a>
+So, I’m now using this page to distribute binaries of this XFree86 DRI reinit-0-0-1-branch."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://cpbotha.net/software/dri_reinit/"><link rel="shortcut icon" href=/favicon.ico><link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><style>@import 'https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap'</style><link rel=stylesheet href=https://cpbotha.net/css/style.css><meta name=generator content="Hugo 0.101.0"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a>
+<a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a><nav id=main-nav><a class=main-nav-link href=/about/>About</a>
 <a class=main-nav-link href=/links/>Links</a>
 <a class=main-nav-link href=/archive/>Posts Archive</a>
 <a class=main-nav-link href=/software/>Software</a>
-<a class=main-nav-link href=/following-this-blog/>Following this blog</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>dri_reinit</h1>
-</header>
-<div class=article-meta>
-<a href=/software/dri_reinit/ class=article-date>
-<time datetime=2007-04-10T15:56:32.000+00:00 itemprop=datePublished>2007-04-10</time>
-</a>
-<div class=article-comment-link-wrap>
-<a href=/software/dri_reinit/#isso-thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p><strong>This work evolved into the <a href=/software/dri_resume>dri_resume</a> code and was subsequently absorbed into the XFree86 code-base. This page is here for reference purposes.</strong></p>
-<p>This used to be the home of my driReInitKludge. However, Michel Dänzer made a far better patch based on my work and has since started a new branch in DRI CVS for the development of this functionality.</p>
-<p>So, I’m now using this page to distribute binaries of this XFree86 DRI reinit-0-0-1-branch. What makes these drivers different from the normal DRI Radeon drivers is that they re-initialise DRI across each VT switch, meaning that you can do all kinds of neat tricks with X, including (but not limited to) suspending to disc and resuming whilst running DRI (i.e. 3D-accelerated X). There is only one caveat and that is that you should NOT suspend if X is running a 3D application at the time. This is very easy to check for.</p>
-<p>Before these changes, DRI XFree86 would break if you attempted suspend/resume, with no exceptions.</p>
-<p>In order for suspending/resuming to work, you will have to modify your agpgart driver as well. <a href=/files/dri_reinit/agpgart-i845-resume.patch>agpgart-i845-resume.patch</a>{.external} shows how to do this for the i845 chipset. You’ll have to do something similar for your own chipset. This makes sure that your AGP chipset is in a somewhat sane state when you resume. You might be able to get away without patching your agpgart by adjusting your suspend script so that it removes the radeon and agpgart modules just before suspending (i.e. after chvt’ing away from X) and re-inserts them when resuming, before chvt’ing back to X.</p>
-<p>Get the binary drivers <a href=/files/dre_reinit/radeon-reinit-20020804-linux.i386.tar.bz2>here</a> and install it over an existing XFree86 4.2.0 installation with the included install.sh shell script.</p>
-<p>Once you have the patch installed, check the use-count of the radeon module with lsmod. In X it should be 1, switched away to a VT it should be 0.</p>
-<p>Once you are running with the modified binaries, change your suspend script so that it checks for the use count of the radeon module and does not suspend if it’s more than 0. This would mean that X could not release the DRM because some 3D app was running at the time. Example:</p>
-<pre>OLDCON=`fgconsole`
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>dri_reinit</h1></header><div class=article-meta><a href=/software/dri_reinit/ class=article-date><time datetime=2007-04-10T15:56:32.000+00:00 itemprop=datePublished>2007-04-10</time></a><div class=article-comment-link-wrap><a href=/software/dri_reinit/#isso-thread class=article-comment-link>Comments</a></div></div><div class=article-entry itemprop=articleBody><p><strong>This work evolved into the <a href=/software/dri_resume>dri_resume</a> code and was subsequently absorbed into the XFree86 code-base. This page is here for reference purposes.</strong></p><p>This used to be the home of my driReInitKludge. However, Michel Dänzer made a far better patch based on my work and has since started a new branch in DRI CVS for the development of this functionality.</p><p>So, I’m now using this page to distribute binaries of this XFree86 DRI reinit-0-0-1-branch. What makes these drivers different from the normal DRI Radeon drivers is that they re-initialise DRI across each VT switch, meaning that you can do all kinds of neat tricks with X, including (but not limited to) suspending to disc and resuming whilst running DRI (i.e. 3D-accelerated X). There is only one caveat and that is that you should NOT suspend if X is running a 3D application at the time. This is very easy to check for.</p><p>Before these changes, DRI XFree86 would break if you attempted suspend/resume, with no exceptions.</p><p>In order for suspending/resuming to work, you will have to modify your agpgart driver as well. <a href=/files/dri_reinit/agpgart-i845-resume.patch>agpgart-i845-resume.patch</a>{.external} shows how to do this for the i845 chipset. You’ll have to do something similar for your own chipset. This makes sure that your AGP chipset is in a somewhat sane state when you resume. You might be able to get away without patching your agpgart by adjusting your suspend script so that it removes the radeon and agpgart modules just before suspending (i.e. after chvt’ing away from X) and re-inserts them when resuming, before chvt’ing back to X.</p><p>Get the binary drivers <a href=/files/dre_reinit/radeon-reinit-20020804-linux.i386.tar.bz2>here</a> and install it over an existing XFree86 4.2.0 installation with the included install.sh shell script.</p><p>Once you have the patch installed, check the use-count of the radeon module with lsmod. In X it should be 1, switched away to a VT it should be 0.</p><p>Once you are running with the modified binaries, change your suspend script so that it checks for the use count of the radeon module and does not suspend if it’s more than 0. This would mean that X could not release the DRM because some 3D app was running at the time. Example:</p><pre>OLDCON=`fgconsole`
 # make sure we are on a text VT
 chvt 1
 # we can't go to sleep if the radeon DRM is still in use
@@ -88,45 +30,8 @@ fi
 #modprobe agpgart
 #modprobe radeon
 
-chvt $OLDCON</pre>
-<p>If you’re interested in the source, perhaps for historical reasons, you could browse the <a href=/files/dri_reinit/ title="dri_reinit download dir">download directory</a>.</p>
-</div>
-</div>
-<nav id=article-nav>
-<a href=/software/dri_resume/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-dri_resume
-</div>
-</a>
-<a href=/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>a critical look at ubuntu feisty beta on an hp nc8430 laptop&nbsp;<span>></span></div>
-</a>
-</nav>
-</article>
-<style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style>
-<script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script>
-<section data-title=dri_reinit id=isso-thread></section>
-</section>
-<footer id=footer>
-<div id=search-form-wrap>
-<form class=search-form method=get action=https://duckduckgo.com/>
-<input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+chvt $OLDCON</pre><p>If you’re interested in the source, perhaps for historical reasons, you could browse the <a href=/files/dri_reinit/ title="dri_reinit download dir">download directory</a>.</p></div></div><nav id=article-nav><a href=/software/dri_resume/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp;
+dri_resume</div></a><a href=/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/ id=article-nav-older class=article-nav-link-wrap><div class=article-nav-title>a critical look at ubuntu feisty beta on an hp nc8430 laptop&nbsp;<span>></span></div></a></nav></article><style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style><script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script><section data-title=dri_reinit id=isso-thread></section></section><footer id=footer><div id=search-form-wrap><form class=search-form method=get action=https://duckduckgo.com/><input type=search name=q class=search-text placeholder title size=20 maxlength=128>
 <input type=hidden name=sites value=cpbotha.net>
-<input type=submit value="Search site with DDG" class=hidden>
-</form>
-</div>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2021 Charl P. Botha
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+<input type=submit value="Search site with DDG" class=hidden></form></div><div class=outer><div id=footer-info class=inner>&copy; 2022 Charl P. Botha<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>

@@ -544,7 +544,7 @@ in place that would ensure our independence, we still expected our employees to
 be fearful that the merger would negatively impact our culture.</p>
 <p>I&rsquo;ll say more about the specific steps we took to protect Pixar in a later
 chapter, but here I want to discuss what happened when, in my eagerness to ease
-my colleagues' fears, I stood up and assured them that Pixar would not change.</p>
+my colleagues&rsquo; fears, I stood up and assured them that Pixar would not change.</p>
 <p>It was one of the dumbest things I&rsquo;ve ever said.</p>
 </blockquote>
 <p>Catmull understandably wanted to assuage the fears of his people by promising
@@ -906,7 +906,7 @@ attend.</p>
 <p>Listen:</p>
 <blockquote>
 <p>So what exactly was Pixar getting out of all of this? It wasn&rsquo;t that the class
-material directly enhanced our employees' job performance. Instead, there was
+material directly enhanced our employees&rsquo; job performance. Instead, there was
 something about an apprentice lighting technician sitting alongside an
 experienced animator, who in turn was sitting next to someone who worked in
 legal or accounting or security—that proved immensely valuable. In the
@@ -1459,7 +1459,7 @@ been in quite a while.</p>
 <p>At the end of last year, <a href="/2019/12/08/weekly-head-voices-185-starship-gou-1/#starship-gou-1-taxiing-on-the-runway">I wrote about GOU #1 finishing primary
 school</a>.</p>
 <p>In the meantime, the pace of development seems to have picked up even more.</p>
-<p>GOU #1 is now getting on the bus at Super Early O' Clock every morning to go to
+<p>GOU #1 is now getting on the bus at Super Early O&rsquo; Clock every morning to go to
 her new high school, which sometimes reminds me of a sort of Hogwarts for young
 power women.</p>
 <p>It feels like she is growing more independent by the day, regularly surprising
@@ -1491,32 +1491,32 @@ nginx</a>.</li>
 which I could migrate the other 7 in my sleep, and almost did. See below for
 a Real World Example™.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org"><span style="color:#d33682">**</span><span style="color:#2aa198"> DONE</span> vxuni.com [8/8] [2020-02-22 Sat 15:06]
-<span style="color:#93a1a1;font-style:italic">CLOSED: </span><span style="color:#93a1a1;font-style:italic">[2020-02-22 Sat 15:43]</span>
-
-<span style="color:#859900">- [X]</span> duplicator the site on the source end
-  <span style="color:#859900">- </span>disable jetpack image caching, any other caching, as many plugins as you can
-  <span style="color:#859900">- </span>ensure theme is supported on php 7.x
-<span style="color:#859900">- [X]</span> setup nginx for new wordpress site
-<span style="color:#859900">- [X]</span> rewrite your laptop&#39;s hosts files so you can access the new site
-<span style="color:#859900">- [X]</span> create database and user
-<span style="color:#859900">- [X]</span> install duplicate on destination
-<span style="color:#859900">- [X]</span> redo the DNS
-<span style="color:#859900">- [X]</span> certbot
-<span style="color:#859900">- [X]</span> activate jetpack protect / jetpack -&gt; settings -&gt; security -&gt; brute force
-  attack protection.
-
-<span style="color:#93a1a1;font-style:italic">#+begin_src </span><span style="color:#93a1a1;font-style:italic">sql</span><span style="color:#93a1a1;font-style:italic">
-</span><span style="color:#93a1a1;font-style:italic"></span><span style="color:#859900">create</span> <span style="color:#859900">database</span> <span style="color:#268bd2">wordpress_blabla</span>;
-<span style="color:#859900">GRANT</span> <span style="color:#859900">ALL</span> <span style="color:#859900">PRIVILEGES</span> <span style="color:#859900">ON</span> <span style="color:#268bd2">wordpress_blabla</span>.* <span style="color:#859900">TO</span> <span style="color:#2aa198">&#34;u_blabla&#34;</span>@<span style="color:#2aa198">&#34;localhost&#34;</span> <span style="color:#268bd2">identified</span> <span style="color:#859900">by</span> <span style="color:#2aa198">&#34;difficult password&#34;</span>;
-<span style="color:#268bd2">flush</span> <span style="color:#859900">privileges</span>;
-<span style="color:#268bd2">exit</span>
-<span style="color:#93a1a1;font-style:italic">#+end_src</span>
-
-<span style="color:#93a1a1;font-style:italic">#+begin_src </span><span style="color:#93a1a1;font-style:italic">shell</span><span style="color:#93a1a1;font-style:italic">
-</span><span style="color:#93a1a1;font-style:italic"></span>certbot certonly -d vxuni.com,www.vxuni.com --nginx --dry-run
-<span style="color:#93a1a1;font-style:italic">#+end_src</span>
-</code></pre></div><h2 id="would-you-like-to-split-the-universe-theres-an-app-for-that">Would you like to split the universe? There&rsquo;s an app for that.</h2>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#d33682">**</span><span style="color:#2aa198"> DONE</span> vxuni.com [8/8] [2020-02-22 Sat 15:06]
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">CLOSED: </span><span style="color:#93a1a1;font-style:italic">[2020-02-22 Sat 15:43]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> duplicator the site on the source end
+</span></span><span style="display:flex;"><span>  <span style="color:#859900">- </span>disable jetpack image caching, any other caching, as many plugins as you can
+</span></span><span style="display:flex;"><span>  <span style="color:#859900">- </span>ensure theme is supported on php 7.x
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> setup nginx for new wordpress site
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> rewrite your laptop&#39;s hosts files so you can access the new site
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> create database and user
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> install duplicate on destination
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> redo the DNS
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> certbot
+</span></span><span style="display:flex;"><span><span style="color:#859900">- [X]</span> activate jetpack protect / jetpack -&gt; settings -&gt; security -&gt; brute force
+</span></span><span style="display:flex;"><span>  attack protection.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#+begin_src </span><span style="color:#93a1a1;font-style:italic">sql</span><span style="color:#93a1a1;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span><span style="color:#859900">create</span> <span style="color:#859900">database</span> <span style="color:#268bd2">wordpress_blabla</span>;
+</span></span><span style="display:flex;"><span><span style="color:#859900">GRANT</span> <span style="color:#859900">ALL</span> <span style="color:#859900">PRIVILEGES</span> <span style="color:#859900">ON</span> <span style="color:#268bd2">wordpress_blabla</span>.* <span style="color:#859900">TO</span> <span style="color:#2aa198">&#34;u_blabla&#34;</span>@<span style="color:#2aa198">&#34;localhost&#34;</span> <span style="color:#268bd2">identified</span> <span style="color:#859900">by</span> <span style="color:#2aa198">&#34;difficult password&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">flush</span> <span style="color:#859900">privileges</span>;
+</span></span><span style="display:flex;"><span><span style="color:#268bd2">exit</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#+end_src</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#+begin_src </span><span style="color:#93a1a1;font-style:italic">shell</span><span style="color:#93a1a1;font-style:italic">
+</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span>certbot certonly -d vxuni.com,www.vxuni.com --nginx --dry-run
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#+end_src</span>
+</span></span></code></pre></div><h2 id="would-you-like-to-split-the-universe-theres-an-app-for-that">Would you like to split the universe? There&rsquo;s an app for that.</h2>
 <p>I&rsquo;m currently reading <a href="https://www.npr.org/2019/09/13/760545897/in-something-deeply-hidden-sean-carroll-argues-there-are-infinite-copies-of-you"><em>Something Deeply Hidden: Quantum Worlds and the
 Emergence of Spacetime</em> by Sean
 Carroll</a>.</p>

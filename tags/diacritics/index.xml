@@ -7,18 +7,18 @@ what you try.</p>
 <p>After sacrificing the prerequisite 5 hours to the Linux gods of Ultimate
 Non-Usability, I came up with the following solution. Make the following change
 to your <code>/etc/X11/xkb/symbols/pc/dvorak</code> file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-diff" data-lang="diff"><span style="color:#d33682">--- dvorak.ORIG 2005-09-22 11:28:18.704428504 +0200
-</span><span style="color:#d33682"></span><span style="color:#d33682">+++ dvorak      2005-09-22 11:45:14.296035112 +0200
-</span><span style="color:#d33682"></span><span style="color:#d33682">@@ -16,7 +16,7 @@
-</span><span style="color:#d33682"></span>     key &lt;ae02&gt; { [         2,  at              ]       };
-     key &lt;ae03&gt; { [         3,  numbersign      ]       };
-     key &lt;ae04&gt; { [         4,  dollar          ]       };
-<span style="color:#d33682">-    key &lt;ae05&gt; { [         5,  percent         ]       };
-</span><span style="color:#d33682"></span><span style="color:#d33682">+    key &lt;ae05&gt; { [         5,  percent, EuroSign, EuroSign ] };
-</span><span style="color:#d33682"></span>     key &lt;ae06&gt; { [         6,  asciicircum, dead_circumflex, dead_circumflex ]};
-     key &lt;ae07&gt; { [         7,  ampersand       ]       };
-     key &lt;ae08&gt; { [         8,  asterisk        ]       };
-</code></pre></div><p>Now make sure that your right-ALT generates <code>ISO_Level3_Shift</code> (also known as
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-diff" data-lang="diff"><span style="display:flex;"><span><span style="color:#d33682">--- dvorak.ORIG 2005-09-22 11:28:18.704428504 +0200
+</span></span></span><span style="display:flex;"><span><span style="color:#d33682"></span><span style="color:#d33682">+++ dvorak      2005-09-22 11:45:14.296035112 +0200
+</span></span></span><span style="display:flex;"><span><span style="color:#d33682"></span><span style="color:#d33682">@@ -16,7 +16,7 @@
+</span></span></span><span style="display:flex;"><span><span style="color:#d33682"></span>     key &lt;ae02&gt; { [         2,  at              ]       };
+</span></span><span style="display:flex;"><span>     key &lt;ae03&gt; { [         3,  numbersign      ]       };
+</span></span><span style="display:flex;"><span>     key &lt;ae04&gt; { [         4,  dollar          ]       };
+</span></span><span style="display:flex;"><span><span style="color:#d33682">-    key &lt;ae05&gt; { [         5,  percent         ]       };
+</span></span></span><span style="display:flex;"><span><span style="color:#d33682"></span><span style="color:#d33682">+    key &lt;ae05&gt; { [         5,  percent, EuroSign, EuroSign ] };
+</span></span></span><span style="display:flex;"><span><span style="color:#d33682"></span>     key &lt;ae06&gt; { [         6,  asciicircum, dead_circumflex, dead_circumflex ]};
+</span></span><span style="display:flex;"><span>     key &lt;ae07&gt; { [         7,  ampersand       ]       };
+</span></span><span style="display:flex;"><span>     key &lt;ae08&gt; { [         8,  asterisk        ]       };
+</span></span></code></pre></div><p>Now make sure that your right-ALT generates <code>ISO_Level3_Shift</code> (also known as
 <code>AltGr</code>) by using <code>xev</code>. If your font and roughly 8000 other little settings
 support it, pressing right-alt-5 should make a pretty euro symbol.
 </ae08></ae07></ae06></ae05></ae05></ae04></ae03></ae02></p>

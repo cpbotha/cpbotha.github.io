@@ -109,18 +109,18 @@ importantly, how long you have been streaking a particular habit.</p>
 <h3 id="global-configuration">Global configuration.</h3>
 <p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
 the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp">(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
-</code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+</span></span></code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
 state logging for the task <code>DONE</code> state:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
-<span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
-      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
-<span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
-<span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
-(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
-</code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
+</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
+</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
+</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+</span></span></code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
 <p>Then, start creating the special habit nodes as explained in the following:</p>
 <p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
 journal file</a>:</p>

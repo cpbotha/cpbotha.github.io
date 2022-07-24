@@ -20,12 +20,12 @@ official <a href="https://certbot.eff.org/">certbot tool</a>.</strong></p>
 <p>First we install <a href="https://github.com/Neilpang/acme.sh">the wonderful acme.sh</a> by following the one-liner on its website:</p>
 <p>&lsquo;&lsquo;&lsquo;shell
 curl <a href="https://get.acme.sh">https://get.acme.sh</a> | sh
-'&rsquo;&rsquo;</p>
+&rsquo;&rsquo;&rsquo;</p>
 <p>At this junction, as they say, it’s best to log out and in again, so that the acme.sh alias and environment variable can be setup.</p>
 <h2 id="step-2-issue-shiny-new-ssl-certificate">Step 2: Issue shiny new SSL certificate</h2>
-<p>We then get <code>acme.sh</code> to verify the website using the webroot method, and to request a certificate for the two domains <code>cpbotha.net</code> and <code><a href="http://www.cbbotha.net">www.cbbotha.net</a></code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh --issue -d cpbotha.net -d www.cpbotha.net -w ~/webapps/wp
-</code></pre></div><p>The argument following <code>-w</code> is the directory exposed by the website <code><a href="http://cpbotha.net/">http://cpbotha.net/</a></code>. Note that this is still <code>http</code>; Let’s Encrypt queries a special file left there by acme.sh to confirm that you actually manage the specified domain.</p>
+<p>We then get <code>acme.sh</code> to verify the website using the webroot method, and to request a certificate for the two domains <code>cpbotha.net</code> and <code><a href="https://www.cbbotha.net">www.cbbotha.net</a></code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>acme.sh --issue -d cpbotha.net -d www.cpbotha.net -w ~/webapps/wp
+</span></span></code></pre></div><p>The argument following <code>-w</code> is the directory exposed by the website <code><a href="http://cpbotha.net/">http://cpbotha.net/</a></code>. Note that this is still <code>http</code>; Let’s Encrypt queries a special file left there by acme.sh to confirm that you actually manage the specified domain.</p>
 <p>After a few seconds of progress output, I was left with a shiny certificate (as well as the CSR, key, and so forth) in <code>~/.acme.sh/cpbotha.net/</code></p>
 <h2 id="step-3-install-shiny-new-ssl-certificate">Step 3: Install shiny new SSL certificate</h2>
 <p>On Webfaction, one has to file a support ticket for this. My request was formulated thusly, and was correctly acted upon in about 5 minutes:</p>
@@ -44,8 +44,8 @@ curl <a href="https://get.acme.sh">https://get.acme.sh</a> | sh
 <h2 id="bonus-level-in-90--k-days-simply-re-run-acmesh">Bonus level: In 90 – k days, simply re-run acme.sh</h2>
 <p>At any point, you can request certificates for any other domains that you may be hosting on your webfaction.</p>
 <p>At regular intervals, or in slightly fewer than 90 days, simply run:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">acme.sh --renewAll
-</code></pre></div><p>To have acme.sh renew any of your certificates that are up for renewal. Just remember to create a new support ticket to have the renewed certificates installed for the relevant domains.</p>
+<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>acme.sh --renewAll
+</span></span></code></pre></div><p>To have acme.sh renew any of your certificates that are up for renewal. Just remember to create a new support ticket to have the renewed certificates installed for the relevant domains.</p>
 <h3 id="acmesh-cronjob">acme.sh cronjob</h3>
 <p>Unbeknownst to be (I should have read the docs) acme.sh had cleverly installed a user cronjob to check for renewals. When I attempted to renew two of my certs, I saw that it had already done so automatically, so I only had to install the updated versions.</p>
 <h2 id="boss-level-htaccess-based-redirect-from-http-to-https">Boss level: htaccess-based redirect from HTTP to HTTPS</h2>
