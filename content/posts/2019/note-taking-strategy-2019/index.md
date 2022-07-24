@@ -11,6 +11,7 @@ tags:
   - orgmode
   - personal knowledge management
   - pkb4000
+  - pkm
 categories:
   - tech
 type: "post"

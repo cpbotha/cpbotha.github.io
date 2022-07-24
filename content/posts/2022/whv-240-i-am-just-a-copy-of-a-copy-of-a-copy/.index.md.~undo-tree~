@@ -1,0 +1,524 @@
+(undo-tree-save-format-version . 1)
+"9ac8a1c9b71df45a6012b10954053e24cb3494ce"
+[nil nil nil nil (25144 22604 954623 0) 0 nil]
+([nil nil ((101 . 441) (#("49:34+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Looking back at  the two weeks from Monday February 28 to Sunday March 21" 0 200 (fontified t) 200 201 (fontified t) 201 275 (fontified t)) . 101) (t 25144 22590 480545 995000)) nil (25144 53938 312353 0) 0 nil] [nil nil ((1 . 2) (t 25144 22590 480545 995000)) ((#("=" 0 1 (fontified t)) . 1) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) (25144 22604 954484 0) 0 nil])
+([nil nil ((99 . 1590) (#("2:50:34+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Looking back at  the two weeks from Monday February 28 to Sunday March 21
+
+{{< figure src=\"blood-flowers.jpg\" link=\"blood-flowers.jpg\" >}}
+
+blood flower with info about it from <http://pza.sanbi.org/haemanthus-coccineus>" 381 382 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 382 423 (keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) face markdown-plain-url-face mouse-face markdown-highlight-face font-lock-multiline t) 423 424 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t)) . 99) (t 25144 22650 523295 569000)) nil (25144 53938 312352 0) 0 nil])
+nil
+([nil nil ((102 . 2239) (#("2:17+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Welcome back to another three-weekly edition of the weekly head voices, looking
+back at the period of time from Monday February 28 to Sunday March 21.
+
+I've been so busy at work, that I was unable to create a sufficient amount of
+the right sort of headspace to sit down and write a WHV.
+
+During a recent karma-restoring family beach walk, we came across the following
+pretty striking flowers:
+
+{{< figure src=\"blood-flowers.jpg\" link=\"blood-flowers.jpg\" >}}
+
+The [PlantZAfrica website tells us](http://pza.sanbi.org/haemanthus-coccineus) that these are examples of _Haemanthus
+coccineus_, also known as \"March flower\" (no idea why) or \"blood flower\", the
+latter which is more in line with the meaning of its Greek genus (haima =
+blood, anthos = flower), and its Latin species.
+
+We are not the first or only people to find it quite striking:
+
+> It was probably the first flower to be collected from Table Mountain and,
+> probably also the first illustration of a South African flower to appearin a
+> European publication. The illustration was by the Flemish botanis de L'Obel
+> in 1605. -- PlantZAfrica
+
+Furthermore, it turns out _Haemanthus coccineus_ hides underground in the form of
+a large bulb for the dry summer months, only revealing itself when the rainy
+season is about to start." 0 664 (fontified t) 664 665 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 665 694 (fontified t keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) mouse-face markdown-highlight-face font-lock-multiline t help-echo "http://pza.sanbi.org/haemanthus-coccineus" face markdown-link-face) 694 695 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 695 696 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 696 737 (fontified t keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) face markdown-url-face invisible markdown-markup mouse-face markdown-highlight-face font-lock-multiline t) 737 738 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 738 766 (fontified t) 766 767 (fontified t font-lock-multiline t invisible markdown-markup face (markdown-markup-face)) 767 787 (fontified t font-lock-multiline t face (markdown-italic-face)) 787 788 (fontified t font-lock-multiline t invisible markdown-markup face (markdown-markup-face)) 788 1043 (fontified t) 1043 1044 (fontified t markdown-blockquote (1145 1220 1145 1146 1146 1147 1147 1220 #<buffer index.md>) face (markdown-markup-face markdown-blockquote-face)) 1044 1118 (fontified t markdown-blockquote (1145 1220 1145 1146 1146 1147 1147 1220 #<buffer index.md>) face (markdown-blockquote-face)) 1118 1119 (fontified t font-lock-multiline t) 1119 1120 (fontified t markdown-blockquote (1221 1299 1221 1222 1222 1223 1223 1299 #<buffer index.md>) face (markdown-markup-face markdown-blockquote-face)) 1120 1197 (fontified t markdown-blockquote (1221 1299 1221 1222 1222 1223 1223 1299 #<buffer index.md>) face (markdown-blockquote-face)) 1197 1198 (fontified t font-lock-multiline t) 1198 1199 (fontified t markdown-blockquote (1300 1377 1300 1301 1301 1302 1302 1377 #<buffer index.md>) face (markdown-markup-face markdown-blockquote-face)) 1199 1275 (fontified t markdown-blockquote (1300 1377 1300 1301 1301 1302 1302 1377 #<buffer index.md>) face (markdown-blockquote-face)) 1275 1276 (fontified t font-lock-multiline t) 1276 1277 (fontified t markdown-blockquote (1378 1404 1378 1379 1379 1380 1380 1404 #<buffer index.md>) face (markdown-markup-face markdown-blockquote-face)) 1277 1302 (fontified t markdown-blockquote (1378 1404 1378 1379 1379 1380 1380 1404 #<buffer index.md>) face (markdown-blockquote-face)) 1302 1303 (fontified t font-lock-multiline t) 1303 1330 (fontified t) 1330 1331 (fontified t invisible markdown-markup face (markdown-markup-face)) 1331 1351 (fontified t face (markdown-italic-face)) 1351 1352 (fontified t invisible markdown-markup face (markdown-markup-face)) 1352 1399 (fontified t) 1399 1463 (fontified t)) . 102) (t 25144 23353 892435 915000)) nil (25144 53938 312352 0) 0 nil])
+([nil nil ((101 . 3870) ("09:54+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"work\"]
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Welcome back to another three-weekly edition of the weekly head voices, looking
+back at the period of time from Monday February 28 to Sunday March 21.
+
+I've been so busy at work that I was unable to create a sufficient amount of
+the right sort of headspace to sit down and write a WHV.
+
+I did spend a number of mental cycles (for the Nth time) thinking about
+alternative and more compact post formats that would in theory be more
+resilient to lack of time and headspace, but ironically there was not enough
+time and headspace to come to any sort of conclusion.
+
+(Some more famous bloggers that I follow manage to put out a paragraph or two
+every single day. It would be interesting to try an experiment like that.)
+
+Anyways, switching out of meta mode back to the mishmash of topics for edition
+240:
+
+
+## Blood flowers {#blood-flowers}
+
+During a recent karma-restoring family beach walk, we came across the following
+pretty striking flowers:
+
+{{< figure src=\"blood-flowers.jpg\" link=\"blood-flowers.jpg\" >}}
+
+The [PlantZAfrica website tells us](http://pza.sanbi.org/haemanthus-coccineus) that these are examples of _Haemanthus
+coccineus_, also known as \"March flower\" (no idea why) or \"blood flower\", the
+latter which is more in line with the meaning of its Greek genus (haima =
+blood, anthos = flower), and its Latin species.
+
+We are not the first or only people to find it quite striking:
+
+> It was probably the first flower to be collected from Table Mountain and,
+> probably also the first illustration of a South African flower to appearin a
+> European publication. The illustration was by the Flemish botanis de L'Obel
+> in 1605. -- PlantZAfrica
+
+Furthermore, it turns out _Haemanthus coccineus_ hides underground in the form of
+a large bulb for the dry summer months, only revealing itself when the rainy
+season is about to start.
+
+
+## Fantastic karma and how to destroy it {#fantastic-karma-and-how-to-destroy-it" . 101) (t 25144 23810 278172 124000)) nil (25144 53938 312351 0) 0 nil])
+([nil nil ((98 . 6220) (#("13:23:14+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"work\"]
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Welcome back to another tri-weekly edition of the weekly head voices, looking
+back at the period of time from Monday February 28 to Sunday March 21.
+
+I've been so busy at work that I was unable to create a sufficient amount of
+the right sort of headspace to sit down and write a WHV, hence the gap of three
+weeks instead of one.
+
+I did spend a number of mental cycles (for the Nth time) thinking about
+alternative and more compact post formats that would in theory be more
+resilient to lack of time and headspace, but ironically there was not enough
+time and headspace to come to any sort of conclusion.
+
+(Some more famous bloggers that I follow manage to put out a paragraph or two
+every single day. It would be interesting to try an experiment like that.)
+
+Anyways, switching out of meta mode back to the mishmash of on-topics for edition
+240:
+
+
+## Blood flowers {#blood-flowers}
+
+During a recent karma-restoring family beach walk, we came across the following
+pretty striking flowers:
+
+{{< figure src=\"blood-flowers.jpg\" link=\"blood-flowers.jpg\" >}}
+
+The [PlantZAfrica website tells us](http://pza.sanbi.org/haemanthus-coccineus) that these are examples of _Haemanthus
+coccineus_, also known as \"March flower\" (no idea why) or \"blood flower\", the
+latter which is more in line with the meaning of its Greek genus (haima =
+blood, anthos = flower), and its Latin species.
+
+We are not the first or only people to find it quite striking:
+
+> It was probably the first flower to be collected from Table Mountain and,
+> probably also the first illustration of a South African flower to appearin a
+> European publication. The illustration was by the Flemish botanis de L'Obel
+> in 1605. -- PlantZAfrica
+
+Furthermore, it turns out _Haemanthus coccineus_ hides underground in the form of
+a large bulb for the dry summer months, only revealing itself when the rainy
+season is about to start.
+
+
+## Fantastic karma and how to destroy it {#fantastic-karma-and-how-to-destroy-it}
+
+Picture this:
+
+It's Friday evening. We've just had a brilliant edition of our Friday evening
+family braai tradition, and everyone starts retiring to their various
+individual relaxation activities.
+
+I decide that it's a great idea to forge ahead with the [react-vega](https://github.com/vega/react-vega/tree/master/packages/react-vega) and [RTK
+Query](https://redux-toolkit.js.org/rtk-query/overview) visualization functionality I had ended my work week with.
+
+I'd successfully worked with a previous version of the former, and my
+confidence in RTKQ's quality was trending upwards.
+
+I had already made a start with this new instance, and surely my first fully
+backend-data-driven visualization was only an hour or two away, giving me a
+final Friday evening boost.
+
+Well friends, in hindsight I should have stopped right there and then.
+
+Sure, it was the sort of gamble that had often paid off in the past -- who does
+not like to start their weekend with the dopamine rush that comes with the
+solving of a little technical puzzle, especially one that results in pretty
+pictures?! -- but in this case it was doomed to failure.
+
+The later it got, the less able I was to debug the issue, and the less
+emotional control I was able to exert over my growing frustration (I am still
+less than happy with the new react-vega's limited documentation, error handling
+and examples).
+
+I went to bed far later than normal, frustrated, with no solution in sight.
+
+This continued to affect my Saturday, until I made the conscious decision to
+wholly disconnect.
+
+
+## Permutation City {#permutation-city}
+
+shelly -&gt; apple homekit
+
+consider Emacs font section: automatic setting + Inter font
+
+[Book: Permutation City by Greg Egan]({{< relref \"#d41d8c\" >}})" 0 1 (fontified t) 1 3 (fontified t) 3 1069 (fontified t) 1069 1072 (fontified t markdown-heading (1167 1200 nil nil nil nil nil nil 1167 1170 1170 1200 1200 1200 #<buffer index.md>) markdown-heading-2-atx (1167 1200 nil nil nil nil nil nil 1167 1170 1170 1200 1200 1200 #<buffer index.md>) face markdown-header-delimiter-face) 1072 1085 (fontified t markdown-heading (1167 1200 nil nil nil nil nil nil 1167 1170 1170 1200 1200 1200 #<buffer index.md>) markdown-heading-2-atx (1167 1200 nil nil nil nil nil nil 1167 1170 1170 1200 1200 1200 #<buffer index.md>) face markdown-header-face-2) 1085 1102 (fontified t markdown-heading (1167 1200 nil nil nil nil nil nil 1167 1170 1170 1200 1200 1200 #<buffer index.md>) markdown-heading-2-atx (1167 1200 nil nil nil nil nil nil 1167 1170 1170 1200 1200 1200 #<buffer index.md>) face (markdown-markup-face markdown-header-face-2) invisible markdown-markup) 1102 1103 (fontified t font-lock-multiline t) 1103 1279 (fontified t) 1279 1280 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1280 1309 (fontified t keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) mouse-face markdown-highlight-face font-lock-multiline t help-echo "http://pza.sanbi.org/haemanthus-coccineus" face markdown-link-face) 1309 1310 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1310 1311 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1311 1352 (fontified t keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) face markdown-url-face invisible markdown-markup mouse-face markdown-highlight-face font-lock-multiline t) 1352 1353 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1353 1381 (fontified t) 1381 1382 (fontified t font-lock-multiline t invisible markdown-markup face (markdown-markup-face)) 1382 1402 (fontified t font-lock-multiline t face (markdown-italic-face)) 1402 1403 (fontified t font-lock-multiline t invisible markdown-markup face (markdown-markup-face)) 1403 1471 (fontified t) 3773 3774 (font-lock-multiline t) 3783 3787 (face markdown-html-entity-face) 3864 3865 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 3865 3900 (keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) mouse-face markdown-highlight-face font-lock-multiline t help-echo "\"#d41d8c\"
+{{< relref" face markdown-link-face) 3900 3901 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 3901 3902 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 3902 3912 (keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) face markdown-url-face invisible markdown-markup mouse-face markdown-highlight-face font-lock-multiline t) 3912 3922 (face markdown-link-title-face invisible markdown-markup font-lock-multiline t) 3926 3927 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t)) . 98) (t 25144 24610 927110 70000)) nil (25144 53938 312350 0) 0 nil])
+([nil nil ((101 . 7854) (#("08:37+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"flowers\", \"greg egan\", \"mind uploading\", \"work\", \"backyard philosophy\"]
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Welcome back to another tri-weekly edition of the weekly head voices, looking
+back at the period of time from Monday February 28 to Sunday March 21.
+
+I've been so busy at work that I was unable to create a sufficient amount of
+the right sort of headspace to sit down and write a WHV, hence the gap of three
+weeks instead of one.
+
+I did spend a number of mental cycles (for the Nth time) thinking about
+alternative and more compact post formats that would in theory be more
+resilient to lack of time and headspace, but ironically there was not enough
+time and headspace to come to any sort of conclusion.
+
+(Some more famous bloggers that I follow manage to put out a paragraph or two
+every single day. It would be interesting to try an experiment like that.)
+
+Anyways, switching out of meta mode back to the mishmash of on-topics for edition
+240:
+
+
+## Blood flowers {#blood-flowers}
+
+During a recent karma-restoring family beach walk, we came across the following
+pretty striking flowers:
+
+{{< figure src=\"blood-flowers.jpg\" link=\"blood-flowers.jpg\" >}}
+
+The [PlantZAfrica website tells us](http://pza.sanbi.org/haemanthus-coccineus) that these are examples of _Haemanthus
+coccineus_, also known as \"March flower\" (no idea why) or \"blood flower\", the
+latter which is more in line with the meaning of its Greek genus (haima =
+blood, anthos = flower), and its Latin species.
+
+We are not the first or only people to find it quite striking:
+
+> It was probably the first flower to be collected from Table Mountain and,
+> probably also the first illustration of a South African flower to appearin a
+> European publication. The illustration was by the Flemish botanis de L'Obel
+> in 1605. -- PlantZAfrica
+
+Furthermore, it turns out _Haemanthus coccineus_ hides underground in the form of
+a large bulb for the dry summer months, only revealing itself when the rainy
+season is about to start.
+
+
+## Fantastic karma and how to destroy it {#fantastic-karma-and-how-to-destroy-it}
+
+Picture this:
+
+It's Friday evening. We've just had a brilliant edition of our Friday evening
+family braai tradition, and everyone starts retiring to their various
+individual relaxation activities.
+
+I decide that it's a great idea to forge ahead with the [react-vega](https://github.com/vega/react-vega/tree/master/packages/react-vega) and [RTK
+Query](https://redux-toolkit.js.org/rtk-query/overview) visualization functionality I had ended my work week with.
+
+I'd successfully worked with a previous version of the former, and my
+confidence in RTKQ's quality was trending upwards due to recent experience in
+one of our products.
+
+I had already made a start with this new instance, and surely my first fully
+backend-data-driven visualization was only an hour or two away, giving me a
+final Friday evening boost.
+
+Well friends, in hindsight I should have stopped right there and then.
+
+Sure, it was the sort of gamble that had often paid off in the past -- who does
+not like to start their weekend with the dopamine rush that comes with the
+solving of a little technical puzzle, especially one that results in pretty
+pictures?! -- but in this case it was doomed to failure.
+
+The later it got, the less able I was to debug the issue, and the less
+emotional control I was able to exert over my growing frustration.
+
+(I am still less than happy with the new react-vega's limited documentation,
+error handling and examples.)
+
+I went to bed far later than normal, frustrated, and with no solution in sight.
+
+All of this continued to affect my Saturday (grumpy with capital G... no wait,
+all capitals...), until I finally made the conscious decision to disconnect
+from the technical problem completely.
+
+Anyways, I'm writing this down as a reminder to me to be really, really careful
+with the work-to-weekend transition.
+
+
+## ... {#dot-dot-dot}
+
+I finally got around to hooking up one of the Shelly 1 smart relays I bought
+back at the end of 2020. My whole family is now able to open the main yard gate
+using... THEIR PHONES.
+
+You can read about the how and the what in [this vxlabs post](https://vxlabs.com/2022/03/05/connecting-the-shelly-1-to-an-et-systems-gate-motor-for-apple-homekit-control/).
+
+
+## Techno interlude #2: Make Emacs More Prettier {#techno-interlude-2-make-emacs-more-prettier}
+
+consider Emacs font section: automatic setting + Inter font" 0 1131 (fontified t) 1131 1134 (fontified t markdown-heading (1232 1265 nil nil nil nil nil nil 1232 1235 1235 1265 1265 1265 #<buffer index.md>) markdown-heading-2-atx (1232 1265 nil nil nil nil nil nil 1232 1235 1235 1265 1265 1265 #<buffer index.md>) face markdown-header-delimiter-face) 1134 1147 (fontified t markdown-heading (1232 1265 nil nil nil nil nil nil 1232 1235 1235 1265 1265 1265 #<buffer index.md>) markdown-heading-2-atx (1232 1265 nil nil nil nil nil nil 1232 1235 1235 1265 1265 1265 #<buffer index.md>) face markdown-header-face-2) 1147 1164 (fontified t markdown-heading (1232 1265 nil nil nil nil nil nil 1232 1235 1235 1265 1265 1265 #<buffer index.md>) markdown-heading-2-atx (1232 1265 nil nil nil nil nil nil 1232 1235 1235 1265 1265 1265 #<buffer index.md>) face (markdown-markup-face markdown-header-face-2) invisible markdown-markup) 1164 1165 (fontified t font-lock-multiline t) 1165 1341 (fontified t) 1341 1342 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1342 1371 (fontified t keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) mouse-face markdown-highlight-face font-lock-multiline t help-echo "http://pza.sanbi.org/haemanthus-coccineus" face markdown-link-face) 1371 1372 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1372 1373 (fontified t face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t) 1373 1400 (fontified t keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) face markdown-url-face invisible markdown-markup mouse-face markdown-highlight-face font-lock-multiline t) 1400 1414 (keymap (keymap (mouse-2 . markdown-follow-thing-at-point) (follow-link . mouse-face)) face markdown-url-face invisible markdown-markup mouse-face markdown-highlight-face font-lock-multiline t fontified t) 1414 1415 (face markdown-markup-face invisible markdown-markup rear-nonsticky t font-lock-multiline t fontified t) 1415 1455 (fontified t) 1720 1795 (markdown-blockquote (1821 1896 1821 1822 1822 1823 1823 1896 #<buffer index.md>)) 1796 1874 (markdown-blockquote (1897 1975 1897 1898 1898 1899 1899 1975 #<buffer index.md>)) 1875 1952 (markdown-blockquote (1976 2053 1976 1977 1977 1978 1978 2053 #<buffer index.md>)) 1953 1979 (markdown-blockquote (2054 2080 2054 2055 2055 2056 2056 2080 #<buffer index.md>)) 2168 2249 (markdown-heading (2269 2350 nil nil nil nil nil nil 2269 2272 2272 2350 2350 2350 #<buffer index.md>) markdown-heading-2-atx (2269 2350 nil nil nil nil nil nil 2269 2272 2272 2350 2350 2350 #<buffer index.md>)) 4066 4087 (markdown-heading (4167 4188 nil nil nil nil nil nil 4167 4170 4170 4188 4188 4188 #<buffer index.md>) markdown-heading-2-atx (4167 4188 nil nil nil nil nil nil 4167 4170 4170 4188 4188 4188 #<buffer index.md>)) 4445 4540 (markdown-heading (4546 4641 nil nil nil nil nil nil 4546 4549 4549 4641 4641 4641 #<buffer index.md>) markdown-heading-2-atx (4546 4641 nil nil nil nil nil nil 4546 4549 4549 4641 4641 4641 #<buffer index.md>))) . 101) (t 25144 48933 0 0)) nil (25144 53938 312350 0) 0 nil])
+([nil nil ((102 . 1548) ("6:11+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"flowers\", \"greg egan\", \"mind uploading\", \"work\", \"backyard philosophy\", \"facebook\", \"emacs\"]
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Welcome back to another tri-weekly edition of the weekly head voices, looking
+back at the period of time from Monday February 28 to Sunday March 21.
+
+I've been so busy at work that I was unable to create a sufficient amount of
+the right sort of headspace to sit down and write a WHV, hence the gap of three
+weeks instead of one.
+
+I did spend a number of mental cycles (for the Nth time) thinking about
+alternative and more compact post formats that would in theory be more
+resilient to lack of time and headspace, but ironically there was not enough
+time and headspace to come to any sort of conclusion.
+
+(Some more famous bloggers that I follow manage to put out a paragraph or two
+every single day. It would be interesting to try an experiment like that.)
+
+Anyways, switching out of meta mode back to the mishmash of on-topics for edition
+240:
+
+
+## Blood flowers {#blood-flowers}
+
+During a recent karma-restoring family beach walk, we came across the following
+pretty striking flowers:
+
+{{< figure src=\"blood-flowers.jpg" . 102) (t 25144 51787 935617 37000)) nil (25144 53938 312349 0) 0 nil])
+([nil nil ((102 . 292) ("7:11+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"flowers\", \"greg egan\", \"mind uploading\", \"work\", \"backyard philosophy\", \"facebook\", \"emacs" . 102) (t 25144 51847 277616 417000)) nil (25144 53938 312349 0) 0 nil])
+([nil nil ((102 . 8250) ("8:42+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"flowers\", \"greg egan\", \"mind uploading\", \"work\", \"backyard philosophy\", \"facebook\", \"emacs\", \"orgmode\"]
+categories = [\"weekly head voices\"]
+draft = true
+author = \"Charl P. Botha\"
+ogimage = \"blood-flowers.jpg\"
+org = true
++++
+
+Welcome back to another tri-weekly edition of the weekly head voices, looking
+back at the period of time from Monday February 28 to Sunday March 21.
+
+I've been so busy at work that I was unable to create a sufficient amount of
+the right sort of headspace to sit down and write a WHV, hence the gap of three
+weeks instead of one.
+
+I did spend a number of mental cycles (for the Nth time) thinking about
+alternative and more compact post formats that would in theory be more
+resilient to lack of time and headspace, but ironically there was not enough
+time and headspace to come to any sort of conclusion.
+
+(Some more famous bloggers that I follow manage to put out a paragraph or two
+every single day. It would be interesting to try an experiment like that.)
+
+Anyways, switching out of meta mode back to the mishmash of on-topics for edition
+240:
+
+
+## Blood flowers {#blood-flowers}
+
+During a recent karma-restoring family beach walk, we came across the following
+pretty striking flowers:
+
+{{< figure src=\"blood-flowers.jpg\" caption=\"<span class=\\\"figure-number\\\">Figure 1: </span>Blood flowers in Betty's Bay. See text for (much) more details.\" link=\"blood-flowers.jpg\" >}}
+
+The [PlantZAfrica website tells us](http://pza.sanbi.org/haemanthus-coccineus) that these are examples of _Haemanthus
+coccineus_, also known as \"March flower\" (no idea why) or \"blood flower\", the
+latter which is more in line with the meaning of its Greek genus (haima =
+blood, anthos = flower), and its Latin species.
+
+We are not the first or only people to find it quite striking:
+
+> It was probably the first flower to be collected from Table Mountain and,
+> probably also the first illustration of a South African flower to appearin a
+> European publication. The illustration was by the Flemish botanis de L'Obel
+> in 1605. -- PlantZAfrica
+
+Furthermore, as if the name \"Blood Flower\" is not metal enough, it turns out
+_Haemanthus coccineus_ lives fully underground in the form of a large bulb for
+the dry summer months, only revealing its brilliant red flower when the rainy
+season is about to start.
+
+
+## Fantastic karma and how to destroy it {#fantastic-karma-and-how-to-destroy-it}
+
+Picture this:
+
+It's Friday evening. We've just had a brilliant edition of our Friday evening
+family braai tradition, and everyone starts retiring to their various
+individual relaxation activities.
+
+I decide that it's a great idea to forge ahead with the [react-vega](https://github.com/vega/react-vega/tree/master/packages/react-vega) and [RTK
+Query](https://redux-toolkit.js.org/rtk-query/overview) visualization functionality I had ended my work week with.
+
+I'd successfully worked with a previous version of the former, and my
+confidence in RTKQ's quality was trending upwards due to recent experience in
+one of our products.
+
+I had already made a start with this new instance, and surely my first fully
+backend-data-driven visualization was only an hour or two away, giving me a
+final Friday evening boost.
+
+Well friends, in hindsight I should have stopped right there and then.
+
+Sure, it was the sort of gamble that had often paid off in the past -- who does
+not like to start their weekend with the dopamine rush that comes with the
+solving of a little technical puzzle, especially one that results in pretty
+pictures?! -- but in this case it was doomed to failure.
+
+The later it got, the less able I was to debug the issue, and the less
+emotional control I was able to exert over my growing frustration.
+
+(I am still less than happy with the new react-vega's limited documentation,
+error handling and examples.)
+
+I went to bed far later than normal, frustrated, and with no solution in sight.
+
+All of this continued to affect my Saturday (grumpy with capital G... no wait,
+all capitals...), until I finally made the conscious decision to disconnect
+from the technical problem completely.
+
+Anyways, I'm writing this down as a reminder to me to be really, really careful
+with the work-to-weekend transition.
+
+
+## Techno interlude #1: Make my home smart, but do it really slowly {#techno-interlude-1-make-my-home-smart-but-do-it-really-slowly}
+
+I finally got around to hooking up one (1) of the [Shelly 1 smart relays](https://shelly.cloud/products/shelly-1-smart-home-automation-relay/) I
+bought at the end of 2020.
+
+My whole family is now able to open the main yard gate using... THEIR PHONES.
+
+Noteworthy here is how easily the Shelly switches can be flashed, over the air
+(OTA) no less, with the third party [shelly-homekit firmware](https://github.com/mongoose-os-apps/shelly-homekit) to make them
+natively Apple homekit compatible.
+
+You can read about the how and the what in [this vxlabs post](https://vxlabs.com/2022/03/05/connecting-the-shelly-1-to-an-et-systems-gate-motor-for-apple-homekit-control/).
+
+Shortly after that post appeared, we held a [\"home automation\"-themed Helderberg
+Software Developers and Entrepreneurs meetup](https://fb.me/e/30MWR7Rq3). Thanks to current interest in the
+topic, and the three absolutely brilliant speakers who were willing to take us
+along on their HA adventure, it was the biggest and most active we've had in
+years, by far!
+
+In another probably surprising move, we are currently moving the meetup group
+away from meetup.com and onto facebook as a [group](https://www.facebook.com/groups/helderberg.swdev.entrep.meetups/) (join if you're on fb!) from
+where we can easily setup events.
+
+Since 2019, meetup.com has been charging a pretty ridiculous $50 / 6-months fee
+for a 100% free meetup with 0 commercial intent. In return for that, they
+handle attendance (ish, we ofen had &gt;50% no-shows) and supply a bit of
+discoverability.
+
+Whatever the case may be, we now fortunately also have a snazzy website at
+<https://helderberg.dev/> where you'll always be able to find the meetup, no
+matter the events platform _du jour_.
+
+
+## Techno interlude #2: Make Emacs More Prettier {#techno-interlude-2-make-emacs-more-prettier}
+
+In spite of general business, I did have to make time for some `init.el`
+wrangling, as is the privilege and sworn duty of every Emacs user.
+
+This time, I refined my font and specifically `variable-pitch` setup.
+
+I settled on the [Inter font](https://www.figma.com/blog/the-birth-of-inter/) because I liked the look of [obsidian.md](https://obsidian.md/), where it's
+the default. Then I discovered that it was designed (based on the Roboto font)
+by Figma designer Rasmus Andersson as \"a font meant to make it easier to read
+text on computer screens\" (hey, that's exactly what I need!), and is now also
+the default on github, mozilla, and notion. Pretty good typographic company
+right there.
+
+The other small change I made which was much more satisfying than I expected,
+was setting the default font size based on the estimated pixel density of the
+current screen.
+
+This means that my Emacs will render its default fonts at sizes that make sense
+on whichever display I'm using it.
+
+Yes, I know that we should have been able to specify [resolution invariant font
+sizes by now](https://github.com/kickingvegas/12pt-should-be-the-same-everywhere/blob/master/absoluteMeasurementDPI.md), but until that future arrives, my Emacs config will just have to
+compensate.
+
+The screenshot below shows an example of variable-pitch rendering on the left
+(org-roam entry at the bottom, automatic topic backlinks at the top) and in the
+centre (a slightly earlier draft of this post) and fixed-pitch on the right,
+the relevant parts of my `init.el` showing the font and ([humanoid](https://github.com/humanoid-colors/emacs-humanoid-themes)) theme setup.
+
+{{< figure src=\"images/2022/2022-03-21_20-07-58_screenshot.png" . 102) (t 25144 51938 686812 926000)) nil (25144 53938 312348 0) 0 nil])
+([nil current ((77 . 386) ("lastmod = 2022-03-21T20:59:43+02:00
+slug = \"weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy\"
+tags = [\"flowers\", \"greg egan\", \"mind uploading\", \"work\", \"backyard philosophy\", \"facebook\", \"emacs\", \"orgmode\"]
+categories = [\"weekly head voices\"]
+draft = tru" . 77) (t 25144 51999 933388 283000)) nil (25144 53938 312345 0) 0 nil])
+nil

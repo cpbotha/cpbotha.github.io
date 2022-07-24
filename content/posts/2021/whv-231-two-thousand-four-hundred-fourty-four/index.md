@@ -1,9 +1,9 @@
 +++
 title = "Weekly Head Voices #231: Two thousand four hundred fourty-four"
 date = 2021-09-02T09:08:00+02:00
-lastmod = 2021-09-02T09:15:22+02:00
+lastmod = 2022-01-15T17:21:37+02:00
 slug = "weekly-head-voices-231-two-thousand-four-hundred-fourty-four"
-tags = ["backyard philosophy", "birthday", "friendship", "work"]
+tags = ["backyard philosophy", "birthday", "friendship", "oliver burkeman", "work"]
 categories = ["weekly head voices"]
 draft = false
 author = "Charl P. Botha"
@@ -11,7 +11,7 @@ ogimage = "helderberg_reserve_snowy_mountain_view.jpg"
 org = true
 +++
 
-{{< figure src="pano_from_watsonia.jpg" caption="Figure 1: View from Watsonia (Helderberg) \"run\" with bestie DW" link="pano_from_watsonia.jpg" >}}
+{{< figure src="pano_from_watsonia.jpg" caption="<span class=\"figure-number\">Figure 1: </span>View from Watsonia (Helderberg) \"run\" with bestie DW" link="pano_from_watsonia.jpg" >}}
 
 This edition of the WHV looks back at the two weeks from Monday August 16 to
 Sunday August 29, 2021.
@@ -115,4 +115,4 @@ In the meantime, here's the blurb which is already food  for thought:
 >
 > Confronting our radical finitude  and how little control we really have  is the key to a fulfilling and meaningfully productive life.
 
-{{< figure src="helderberg_reserve_snowy_mountain_view.jpg" caption="Figure 2: View from a family walk in the Helderberg reserve, where you can hopefully see some of the snowy peaks we've been treated with." link="helderberg_reserve_snowy_mountain_view.jpg" >}}
+{{< figure src="helderberg_reserve_snowy_mountain_view.jpg" caption="<span class=\"figure-number\">Figure 2: </span>View from a family walk in the Helderberg reserve, where you can hopefully see some of the snowy peaks we've been treated with." link="helderberg_reserve_snowy_mountain_view.jpg" >}}

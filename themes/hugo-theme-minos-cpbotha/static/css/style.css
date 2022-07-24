@@ -1152,7 +1152,7 @@ pre .php .xml {
 
 #isso-thread pre,
 #isso-thread code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋';
+  font-family: Lucida Console, monospace;
 }
 #isso-thread code {
   background: #f2f2f2;
@@ -1167,18 +1167,16 @@ pre .php .xml {
   padding: 0;
 }
 
-
 /* cpbotha: tuning style on 2020-04-13 using firefox inspector
    - colours: 3-class dark2 from colorbrewer2
-   - georgia + roboto (webfont)
+   - newsreader + roboto (webfont): see @import in head.html
    - I have to use !important quite often to override stuff from the top
    - changed #main-nav up top to float: right
-
 */
 
 body {
     color: #222;
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family: Newsreader, serif;
 
 }
 
@@ -1190,6 +1188,12 @@ body {
 .article-entry {
   line-height: 1.6em !important;
 }
+
+.article-entry pre,
+.article-entry code {
+  font-family: Lucida Console, monospace;
+}
+
 
 h1,h2,h3,h4,h5,h6 {
     font-family: Roboto, sans-serif;

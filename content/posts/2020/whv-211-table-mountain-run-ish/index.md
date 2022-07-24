@@ -1,7 +1,7 @@
 +++
 title = "Weekly Head Voices #211: Table Mountain Run(ish)"
 date = 2020-12-12T15:04:00+02:00
-lastmod = 2020-12-12T15:14:44+02:00
+lastmod = 2021-11-15T21:25:16+02:00
 slug = "weekly-head-voices-211-table-mountain-run-ish"
 tags = ["advent of code", "mom", "nim-lang", "table mountain", "twitter"]
 categories = ["weekly head voices"]
@@ -58,7 +58,7 @@ there's a bit of momentum to help me move on to items 2 and 3.
 
 I sneaked in item 2, because reading is basically cheap but really powerful
 cybernetic upgrades for normal humans, and I found that it nicely completes
-this 30 minutes (or so) of quite time in the morning before I start with work.
+this 30 minutes (or so) of quiet time in the morning before I start with work.
 
 So far, this small addition to my firmware has made quite a positive impact,
 although I have to admit that AoC (see further down) is temporarily interfering

@@ -1,9 +1,9 @@
 +++
 title = "Weekly Head Voices #230: Follow your blisters"
 date = 2021-08-20T09:17:00+02:00
-lastmod = 2021-08-31T06:50:57+02:00
+lastmod = 2022-01-19T21:44:02+02:00
 slug = "weekly-head-voices-230-follow-your-blisters"
-tags = ["backyard philosophy", "dark mode", "emacs", "passion", "practice", "spring", "west coast", "work"]
+tags = ["backyard philosophy", "dark mode", "emacs", "oliver burkeman", "passion", "practice", "spring", "west coast", "work"]
 categories = ["weekly head voices"]
 draft = false
 author = "Charl P. Botha"
@@ -11,7 +11,7 @@ ogimage = "van_breda_cottage_angles.jpg"
 org = true
 +++
 
-{{< figure src="van_breda_cottage_angles.jpg" caption="Figure 1: During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We're sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of \"I just did a photography course and now I have to make photos like this\" (I didn't and I don't). My friends have assured me that it does not look like that (too much)." link="van_breda_cottage_angles.jpg" >}}
+{{< figure src="van_breda_cottage_angles.jpg" caption="<span class=\"figure-number\">Figure 1: </span>During the West Coast sunset worshipping ritual I turned around and entirely coincidentally saw this picture waiting there for me. (We're sitting off to the left on the stoep.) I love the photo, but then started to wonder if it had a bit too much of \"I just did a photography course and now I have to make photos like this\" (I didn't and I don't). My friends have assured me that it does not look like that (too much)." link="van_breda_cottage_angles.jpg" >}}
 
 This edition of the WHV covers the three weeks from Monday July 26 to Sunday August 15.
 
@@ -144,4 +144,4 @@ One can indeed source almost unlimited amounts of energy from one's "blisters",
 but true benefits will for a large part be brought about by a [lifetime of often
 challenging practice](/tags/practice/).
 
-{{< figure src="flowers_everywhere.jpg" caption="Figure 2: A scene from our incredibly fortunately timed (thanks partner!) \"blommetjieskyk\" trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo." link="flowers_everywhere.jpg" >}}
+{{< figure src="flowers_everywhere.jpg" caption="<span class=\"figure-number\">Figure 2: </span>A scene from our incredibly fortunately timed (thanks partner!) \"blommetjieskyk\" trip to the West Coast national Park. This was taken somewhere between Postberg and Tsaarsbank, GPS coords in photo." link="flowers_everywhere.jpg" >}}
