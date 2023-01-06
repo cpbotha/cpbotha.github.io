@@ -1,7 +1,7 @@
 +++
 title = "Weekly Head Voices #236: The surprising power of consistent chipping"
 date = 2021-11-15T21:50:00+02:00
-lastmod = 2021-11-15T21:52:08+02:00
+lastmod = 2022-07-27T14:32:33+02:00
 slug = "weekly-head-voices-236-surprising-power-of-consistent-chipping"
 tags = ["productivity", "programming", "rustlang", "tools"]
 categories = ["weekly head voices"]
@@ -22,7 +22,7 @@ weeks from Monday October 25 to Sunday November 14, 2021.
 First things first: Do you notice something different about me I mean my blog?
 
 I don't know how most readers respond to this sort of a thing, but I can really
-appreciat, in a non-professional way of course, good typography on a personal
+appreciate, in a non-professional way of course, good typography on a personal
 blog.
 
 Over the past few years I've been tweaking the CSS here and there to make small
@@ -117,7 +117,7 @@ embarrassment.
 
 Often there would be no progress (because meetings and other non-maker work),
 but on some days I would excavate the equivalent of a generously filled
-teaspoon of dirt. ([Doctor Flammond's tunnel](https://youtu.be/4%5FC86o5dE%5Fc) anybody?)
+teaspoon of dirt. ([Doctor Flammond's tunnel](https://youtu.be/4_C86o5dE_c) anybody?)
 
 Slowly but surely, the Thing neared completion, until one day (weirdly still to
 my pleasant surprise) it was done, never to be copy-pasted again.
