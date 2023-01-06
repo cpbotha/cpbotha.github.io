@@ -13,6 +13,7 @@ tags:
   - machine learning
   - rochefort
   - science
+  - st francis
   - st francis bay
   - trappist beer
 
