@@ -1,9 +1,9 @@
 +++
 title = "Weekly Head Voices #201: Sunny anniversary"
 date = 2020-07-29T10:12:00+02:00
-lastmod = 2020-07-29T11:26:35+02:00
+lastmod = 2022-08-09T15:25:46+02:00
 slug = "weekly-head-voices-201-sunny-anniversary"
-tags = ["microsoft", "paul graham", "solar", "telesensi"]
+tags = ["goodwe", "microsoft", "paul graham", "solar", "telesensi"]
 categories = ["weekly head voices"]
 draft = false
 ogimage = "la_mountain_pano.jpg"
@@ -31,7 +31,7 @@ That means...
 
 _HAPPY BIRTHDAY DEAR SOLAR POWER AT MY HOUSE HAPPY BIRTHDAY TO YOU WE LOVE YOU!_
 
-{{< figure src="goodwe_sems_sample_20200728.png" caption="Figure 1: Solar production today (2020-07-18, a sunny winter's day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate." width="300" link="goodwe_sems_sample_20200728.png" >}}
+{{< figure src="goodwe_sems_sample_20200728.png" caption="<span class=\"figure-number\">Figure 1: </span>Solar production today (2020-07-18, a sunny winter's day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate." width="300" link="goodwe_sems_sample_20200728.png" >}}
 
 The app reports that since commissioning we have generated and used almost 8
 MWh of solar power, which makes me happy.
