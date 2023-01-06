@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rancher desktop on voices in my head</title><link>https://cpbotha.net/tags/rancher-desktop/</link><description>Recent content in rancher desktop on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 09 Aug 2022 20:18:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/rancher-desktop/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #245: This too shall pass</title><link>https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/</link><pubDate>Tue, 09 Aug 2022 20:18:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/</guid><description> WELL HELLO EVERYONE and welcome back to the Weekly Head Voices, edition #245 to be specific, looking back at the period of time from Monday July 25 to Sunday Aug 7, 2022.
+Figure 1: Scene from a walk after a delicious family Sunday lunch.
+In the spirit of full disclosure, I do seem to be going through a patch of mostly pretty &amp;ldquo;meh&amp;rdquo; WHV attempts.
+However, as they say, a badly written but published blog post is miles better than an unpublished blog post of any quality.</description><content:encoded><![CDATA[ <p>WELL HELLO EVERYONE and welcome back to the Weekly Head Voices, edition #245 to
+be specific, looking back at the period of time from Monday July 25 to Sunday
+Aug 7, 2022.</p>
+
+
+
+
+
+
+
+
+<figure><a href="vergelegen-peekaboo.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/vergelegen-peekaboo_hu7bd2808196bf350df3e0491822c56452_3782443_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/vergelegen-peekaboo_hu7bd2808196bf350df3e0491822c56452_3782443_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/vergelegen-peekaboo_hu7bd2808196bf350df3e0491822c56452_3782443_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/vergelegen-peekaboo_hu7bd2808196bf350df3e0491822c56452_3782443_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/vergelegen-peekaboo_hu7bd2808196bf350df3e0491822c56452_3782443_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Scene from a walk after a delicious family Sunday lunch."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Scene from a walk after a delicious family Sunday lunch.</p>
+        </figcaption>
+</figure>
+
+<p>In the spirit of full disclosure, I do seem to be going through a patch of
+mostly pretty &ldquo;meh&rdquo; WHV attempts.</p>
+<p>However, as they say, a badly written but <em>published</em> blog post is miles better
+than an unpublished blog post of <em>any</em> quality.</p>
+<p>Also, one day when I finally reach <a href="/2017/06/11/weekly-head-voices-122/">the A-list</a> you&rsquo;ll be able to say that you
+were already reading my stuff before it was cool.</p>
+<p>More seriously though, the whole of <a href="/2018/02/25/weekly-head-voices-133-onder-in-my-whiskeyglas/#life-is-continuous-practice">life is continuous practice</a>, which can
+include long stretches of rolling hills of meh.</p>
+<p>(see also <a href="/2018/06/03/weekly-head-voices-144-eternal-learner/#mastery">WHV #144&rsquo;s section on Mastery</a>)</p>
+<h2 id="nerdy-bits">Nerdy bits</h2>
+<h3 id="postel-s-law-and-iso-8601-date-and-time-formatting">Postel&rsquo;s law and ISO 8601 date and time formatting</h3>
+<p>This movie is based on a true story that happened at work.</p>
+<p>I published a short org-roam note to my nerd blog. You can read it here:
+<a href="https://vxlabs.com/2022/08/05/conservative-rendering-and-liberal-parsing-of-iso-8601-timestamps-in-python/">Conservative rendering and liberal parsing of ISO 8601 timestamps in Python</a></p>
+<h3 id="replacing-ddw-with-rd-on-windows-for--wsl--devcontainers">Replacing DDW with RD on Windows for (WSL) devcontainers</h3>
+<p>I have replaced Docker Desktop for Windows with <a href="https://rancherdesktop.io/">Rancher Desktop</a>, with the
+dockerd runtime, on two of my Windows development machines.</p>
+<p>Although you have to create some WSL symlinks manually, configure RD&rsquo;s
+<code>docker-credential-wincred.exe</code> (if you&rsquo;re using private container registries)
+and manually install zsh completions, the end-result is a great and
+fully-functional replacement for my use-case of <a href="https://containers.dev/">devcontainers</a> everywhere.</p>
+<p>Please let me know if you need more detail about the RD config.</p>
+<p>P.S. It might come as a shock to some readers, not to mention me of 10 years
+ago, that I have not only one, but two Windows workstations. My excuse is:
+&ldquo;adaptation&rdquo;.</p>
+<p>P.P.S. There will soon be three of them.</p>
+<h3 id="notes-on-locally-upgrading-the-firmware-of-the-gw5048d-es-inverter">Notes on locally upgrading the firmware of the GW5048D-ES inverter</h3>
+<p>There is a Goodwe GW5048D-ES 4.6 kVA inverter at the heart of the solar system powering my house.</p>
+<p>I love it, because it&rsquo;s reliable, and just does the work 99.7% of the time.</p>
+<p>However, because that 0.3% manifested recently (settings were partially
+scrambled, resulting in a few minutes of darkness during a load shedding
+session; could have been the Home Assistant Goodwe integration; more acutely,
+its wifi access point, needed for configuration, recently disappeared) and the
+OTA firmware I requested via Goodwe support failed, probably due to firmware
+being a bit old already, I had to attempt a local firmware upgrade, with a USB
+cable, like <a href="/2019/07/17/weekly-head-voices-173-i-know/#bullet-list-of-miscellany-blom">I last did three years ago</a> (rocky road then).</p>
+<p>Well, although my inverter is now sporting firmware version 2424G, the upgrade
+definitety went on roads of the more rocky variety.</p>
+<p>Here are some tips to help you if you&rsquo;re in the same boat:</p>
+<ul>
+<li>Follow the instructions to the letter:
+<ul>
+<li>Remove all power sources except for a single DC source. I disconnected grid
+and solar panels, keeping only the batteries connected which were close to
+full.</li>
+<li>Remove the wifi module: 4 screws, and then carefully remove the plastic
+connector.</li>
+</ul>
+</li>
+<li>Get a straight USB-A male to USB-A male cable. None of my USB-C to USB-A
+cables, or my various Frankensteined extensions, could connect (as reported
+by EzFlash.</li>
+</ul>
+<p>In my case, the EzFlash upgrade worked (two bin files), but then right after
+that the DataSend failed.</p>
+<p>I retried DataSend multiple times, but finally lost connection to the
+inverter&rsquo;s USB port.</p>
+<p>After I put everything back together (having resolved to contact support to
+help troubleshoot), the inverter&rsquo;s access point magically appeared, at which
+point I could connect to see that everything was functioning, and inverter
+reported firmware version as 2424G.</p>
+<p>I did contact Goodwe to ask about the implications of DataSend
+failing. Although I&rsquo;m happy with their service, I would have appreciated a bit
+more detail.</p>
+<p>I&rsquo;ve summarised our email thread below:</p>
+<blockquote>
+<p>I asked: &ldquo;When I did the upgrade, the DataSend file did not go through at
+all. Could you help me understand how the upgrade is OK if I only did the
+EzFlash stage, and NOT the DataSend phase?&rdquo;</p>
+<p>They answered: &ldquo;Do note that the datasend file is only for use when updating
+the Armware. When updating firmware its only the EZflash and master bin file
+that is use.&rdquo;</p>
+<p>Then I asked: &ldquo;What is the Armware for then? Why is it not necessary to upgrade
+it, although the upgrade manual gives instructions to upgrade it?&rdquo;</p>
+<p>Upon which they replied: &ldquo;You ARM is already updated that is why i advised not
+to worry about it. There isn&rsquo;t anything technical that i can share on this. The
+arm as we know normally works with communication with the batteries.&rdquo;</p>
+</blockquote>
+<h2 id="school-s-anti-wikipedia-stance-leads-to-lessons-and-pi-hole">School&rsquo;s anti-wikipedia stance leads to lessons and Pi-hole</h2>
+<p>Last week, GOU #2 tried to print a pretty nasty, infinite-scroll, ad-infested
+site with stolen wikipedia content because her school has a far too simplistic
+and strict rule <em>against</em> using wikipedia for school work.</p>
+<p>I then proceeded to:</p>
+<ol>
+<li>have a long talk with her about computers not doing what you intend, but
+rather exactly what you tell them to,</li>
+<li>Do some research and realise to my shock that this anti-wikipedia stance
+seems to be a world-wide teacher thing;</li>
+<li>Write a long but friendly email to the teacher explaining that it&rsquo;s a lot
+more nuanced, and could I please help them to understand the nuances so that
+our kids get better at filtering information rather than just blindly
+avoiding wikipedia and</li>
+<li>At long last get around to installing <a href="https://pi-hole.net/">Pi-hole</a> on this old linux laptop (via
+docker-compose) and sending all DNS requests its way (via my main router&rsquo;s
+DHCP service), all-in-all quite a painless process!</li>
+</ol>
+<p>What this means is that all devices in my household (and there&rsquo;s quite a number
+of them) get all of their ads blocked automatically.</p>
+
+
+
+
+
+
+
+
+<figure><a href="images/2022/2022-08-09_14-53-44_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/images/2022/2022-08-09_14-53-44_screenshot_hu22c6e0332be10ce2204eb6c493735088_294261_480x0_resize_box_3.png 480w,
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/images/2022/2022-08-09_14-53-44_screenshot_hu22c6e0332be10ce2204eb6c493735088_294261_800x0_resize_box_3.png 800w,
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/images/2022/2022-08-09_14-53-44_screenshot_hu22c6e0332be10ce2204eb6c493735088_294261_1200x0_resize_box_3.png 1200w,
+            
+                   https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/images/2022/2022-08-09_14-53-44_screenshot_hu22c6e0332be10ce2204eb6c493735088_294261_1500x0_resize_box_3.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/08/09/weekly-head-voices-245-this-too-shall-pass/images/2022/2022-08-09_14-53-44_screenshot_hu22c6e0332be10ce2204eb6c493735088_294261_800x0_resize_box_3.png"
+            
+
+        
+            alt="Figure 2: The Pi-hole dashboard a few moments ago. The percentage of blocked queries remains around 10%." width="480"/> </a><figcaption>
+            <p><span class="figure-number">Figure 2: </span>The Pi-hole dashboard a few moments ago. The percentage of blocked queries remains around 10%.</p>
+        </figcaption>
+</figure>
+
+<p>I should have done this much earlier. There&rsquo;s really no chance I can install
+ublock origin or equivalent on each of the growing cloud of devices and
+accounts at home. Pi-hole makes 10x more sense.</p>
+<h2 id="this-too-shall-pass">This too shall pass</h2>
+<p>On Saturday July 30, the date of the final interschools clash between Paarl
+Boys&rsquo; High School (my alma mater) and its arch-opponent Paarl Gimnasium, I had
+the privilege of attending the 30th (!!) anniversary of my matriculation year,
+along with about 50 class mates.</p>
+<p>As a bit of context, back then I operated probably at the lowest end of the
+popularity scale, mostly because of my personality. Not that it&rsquo;s that
+important anymore, but I think that I would probably have irritated myself (in
+both ways) to quite an extent.</p>
+<p>As if that was not enough, I had even <em>less</em> ball sense then than I do now.</p>
+<p>In spite of all that, the reunion was a sublime and deeply enjoyable affair.</p>
+<p>It was so great connecting again with the human journeyers I had in many cases
+last seen right before we would all set off on the start of adulthood.</p>
+<p>Back then, we were all bright-eyed, hot-headed, full of plans and with heads
+full of luscious hair.</p>
+<p>Now there was substantially less hair, many hard lessons learned, but wisdom,
+and sometimes peace, in the eyes.</p>
+<p>To me it really felt as if everyone there had this collective, positive
+realisation of:</p>
+<blockquote>
+<p>You know what?</p>
+<p>Everything&rsquo;s OK.</p>
+<p>We know better what&rsquo;s truly important, and it&rsquo;s not what we believed back then.</p>
+<p>All of this? Let us enjoy it without complication.</p>
+<p>Like everything before it, this too shall pass.</p>
+</blockquote>
+<p>Perhaps I am over-projecting.</p>
+<p>Whatever the case may be, the enjoyment was as real as could be.</p>
+<p>Thank you Boys High&rsquo; Class of &lsquo;92!</p>
+]]></content:encoded></item></channel></rss>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>math on voices in my head</title><link>https://cpbotha.net/tags/math/</link><description>Recent content in math on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 11 Nov 2022 17:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/math/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #248: Oh snap</title><link>https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/</link><pubDate>Fri, 11 Nov 2022 17:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/</guid><description> Welcome back everyone to this completely normal and of course utterly on-time edition of the WHV which spans (checks notes&amp;hellip;) the one (1) week from Monday October 31 to Sunday November 6, 2022.
+Figure 1: Watsonia posing in front of mountain. Photo by partner.
+(Yes, I am a little bit excited that for once this post is technically on time enough to cover only that one week. Of course what&amp;rsquo;s in the post does not necessarily have to do anything with the events that transpired in that week, but we won&amp;rsquo;t let that keep us from this little punctuality celebration.</description><content:encoded><![CDATA[ <p>Welcome back everyone to this completely normal and <em>of course</em> utterly on-time
+edition of the WHV which spans (checks notes&hellip;) the one (1) week from Monday
+October 31 to Sunday November 6, 2022.</p>
+
+
+
+
+
+
+
+
+<figure><a href="watsonia.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_480x0_resize_q75_box.jpg 480w,
+            
+                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_800x0_resize_q75_box.jpg 800w,
+            
+                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_1200x0_resize_q75_box.jpg 1200w,
+            
+                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_1500x0_resize_q75_box.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_800x0_resize_q75_box.jpg"
+            
+
+        
+            alt="Figure 1: Watsonia posing in front of mountain. Photo by partner."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Watsonia posing in front of mountain. Photo by partner.</p>
+        </figcaption>
+</figure>
+
+<p>(Yes, I am a little bit excited that for once this post is technically on time
+enough to cover only that one week. Of course what&rsquo;s in the post does not
+necessarily have to do anything with the events that transpired in that week,
+but we won&rsquo;t let that keep us from this little punctuality celebration.)</p>
+<p>On to the post: We have keyboards, file synchronization approaches and some
+surprising mathematical terminology!</p>
+<h2 id="keyboard-never-endgame">Keyboard never-endgame</h2>
+<p>It has been &hellip;9 (nine)&hellip; months since I last talked about <a href="/tags/keyboards/">keyboards on this
+blog</a>.</p>
+<p>At that point, <a href="/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/#womier-k87-keyboard-customization-unlocked">I had just replaced the tactile brown switches in my Womier with
+linear reds</a>, and discovered to my surprise that I do in fact prefer linears.</p>
+<p>Since then, I have again replaced the switches on that board, but this time
+with Kailh Speed Silvers.</p>
+<p>My plan was to get as close as possible to the effortlessly smooth feel of my
+Varmilo VA87m (with Cherry MX Speed Silvers) at work.</p>
+<p>While that board was certainly inching closer, it was still missing a little
+something&hellip;</p>
+<p>&hellip; perhaps, perhaps it was just missing a completely new little new keyboard!</p>
+<p>When respected YouTube reviewers call a keyboard with factory-lubed switches,
+luxury double-shot PBT OSA-profile keycaps and this particular sound the <a href="https://youtu.be/HVphB6RYBaY">&ldquo;The
+Keychron V1 <strong>Bargain</strong>&rdquo;</a>, and other reviewers remark that the only issue with this
+board is that you&rsquo;ll be hard-pressed to find one in stock due to its level of
+bang-for-buck, you could probably predict that I would find it quite hard to
+resist.</p>
+<p>I had to pull some (Aramex) strings to get the keyboard delivered here, but
+wow, it was so worth it!</p>
+<p>Although I was hoping for something close to my Varmilo in terms of feel, this
+V1 with its red switches is at least the Varmilo&rsquo;s equal, if not a little more.</p>
+<h2 id="hell-freezes-over--again">Hell freezes over (again)</h2>
+<p>Readers of this blog know that I&rsquo;ve been <a href="/tags/dropbox/">using (and paying for) Dropbox</a> for
+quite a number of years.</p>
+<p>We&rsquo;ve been together for long enough that we even got to do a <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">break-up-make-up
+cycle back in 2013</a>, and in 2019 I tried and <a href="/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/#my-big-and-stupid-misstep-into-google-drive">failed spectacularly to migrate to
+a cheaper competitor whose name starts with a G</a>.</p>
+<p>One would have thought that I learned my lesson in 2019 (that post even
+explicitly lists the lessons learned&hellip;), but apparently not.</p>
+<p>After I recently discovered how to get the fantastic <a href="https://vxlabs.com/2022/10/22/unison-file-synchronization-directly-via-the-wsl-bridge/">unison bi-directional
+syncing tool to sync between WSL and the Windows host</a>, I decided that it was
+again time to attempt <em>something</em> stupid, this time migrating my whole digital
+life to OneDrive, the cloud file synchronization tool made by Microsoft, our
+erstwhile sworn enemy who later turned out to be pretty cool after all.</p>
+<p>My main reason this time was again cost, and reducing the number of
+subscriptions and cloud systems we use. (we already have OneDrive as part of
+the incredibly reasonably priced Microsoft 365 family)</p>
+<p>About two weeks ago I managed to copy all of my files (more than 500 thousand
+files totalling over 200GB) from Dropbox to OneDrive over a few days, using the
+amazing rclone tool, via my Hetzner VPS in Germany.</p>
+<p>After some initial hiccups as the various OneDrive clients had to catch up to
+the deluge of new files that were coming in, this setup has been working pretty
+well!</p>
+<p>On each of my Windows development machines (2 active, 1 semi-active) I have
+unison running in watch mode under tmux syncing only the subset of the folders
+that I need to be on WSL2, namely source code and my pkb4000 notes
+database. (the same notes database containing the month file that houses this
+blog post draft &ndash; every time I hit <code>C-x C-s</code>, the Emacs hotkey for save, this
+file is synced from WSL to the host drive by Unison, and then from there to the
+OneDrive cloud)</p>
+<p>I also have the OneDrive client on my M1 MBA where it uses more ram than
+Dropbox, but where its RAM for some reason gets compressed much more readily
+than the Dropbox client.</p>
+<p>While the syncing is not as fast as dropbox (in terms of picking up changes and
+zapping them to the cloud and to other machines), it&rsquo;s entirely
+serviceable. unison is blindingly fast for its part of the job.</p>
+<p>As an added bonus, this enabled me to exclude <code>node_modules</code> FOREVER in the
+default unison profile that I use.</p>
+<p>Note that you can configure OneDrive to exclude files BY WILDCARD (see <a href="https://superuser.com/a/1662761/130835">this
+superuser.com answer</a>), something that even the great Dropbox has no way of
+doing.</p>
+<h3 id="yes-you-can-keep-your-checked-out-source-code-in-dropbox-or-onedrive">Yes, you CAN keep your checked-out source code in Dropbox or OneDrive!</h3>
+<p>Finally, hereby I also officially announce that: Why yes, I do keep <em>all</em> of my
+checked out source code projects in OneDrive. Previously, I did the same for
+years and years in Dropbox.</p>
+<p>I have very good reasons for doing this.</p>
+<p>My tweet below and the blog post that I link explain some of these reasons:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every time someone asks about storing git repos in <a href="https://twitter.com/Dropbox?ref_src=twsrc%5Etfw">@Dropbox</a> / <a href="https://twitter.com/onedrive?ref_src=twsrc%5Etfw">@onedrive</a> someone asks &quot;why?! because git already does that!&quot; - well no, it doesn&#39;t instantaneously sync all your work so that you can change workstations on a whim! <a href="https://twitter.com/Lexisomes?ref_src=twsrc%5Etfw">@Lexisomes</a> explains: <a href="https://t.co/UCiNcAGCal">https://t.co/UCiNcAGCal</a></p>&mdash; charlbotha dot com dot net dot org (@cvoxel) <a href="https://twitter.com/cvoxel/status/1582682819037626368?ref_src=twsrc%5Etfw">October 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>&hellip; and here I recently came out about this issue on reddit:</p>
+<blockquote>
+<p>I have been hosting all of my source code in dropbox AND pushing to various git
+repos for years and years now, with nary a hitch. For the past few weeks, I
+have been trying OneDrive, and so far it&rsquo;s been going well.</p>
+<p>I&rsquo;ve been trying to explain to people over the years that there are good
+reasons for doing so, in my case primarily the fact that I work on the same
+projects on various machines and laptops, and I prefer NOT abusing git commits
+for manual syncing</p>
+<p>Furthermore, I&rsquo;m often working on a number of repos, and having to commit all
+of them just to switch ot my laptop does not make any sense.</p>
+</blockquote>
+<p>The next time someone claims that this is what git is for, please send them to
+me, because it&rsquo;s not.</p>
+<h2 id="from-the-departments-of-physics-and-breakfast">From the Departments of Physics and Breakfast</h2>
+<p>I recently learned about the official names of the third to sixth derivates of
+position, from <a href="https://twitter.com/JimPfaendtner/status/1588987738426314752">Twitter of all places</a>.</p>
+<p>(Over the years, I&rsquo;ve actually learned quite a lot from there, but who knows
+how we&rsquo;ll look back at it in a few years time.)</p>
+<p><a href="https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position">Wikipedia confirms</a> that indeed after the pretty unsurprisingly named first and
+second derivatives, namely <em>velocity</em> and <em>acceleration</em>, things started getting just a
+little bit weird, but understandable, with <em>jerk</em> for the third, and <em>snap</em> or <em>jounce</em> for the
+fourth, but then the clown gloves came off with <strong><em>snap</em></strong>, <strong><em>crackle</em></strong> and <strong><em>pop</em></strong> for the
+fourth to the sixth derivatives!</p>
+<p>Isn&rsquo;t that just marvelous?!</p>
+<p>I really wanted to reproduce the list here using the built-in \(\KaTeX\) support
+in this blog, and so I fell down a small rabbit-hole because \(\KaTeX\), while
+amazing and fast, does not have <code>eqnarray</code>, and its <code>aligned</code> environment needs
+some help with vertical spacing (<code>\\[1.5ex]</code> at the end of every line to give it
+a bit of an extra nudge).</p>
+<p>Secondly, I had to update my modification of the <a href="https://github.com/carsonip/hugo-theme-minos">hugo-minos theme</a> so that it
+uses the latest version of \(\KaTeX\), and so that I could add that very <code>aligned</code>
+environment to its default list of <a href="https://katex.org/docs/autorender.html#api">delimiters via the optional <code>options</code>
+argument to <code>renderMathInElement()</code></a>.</p>
+<p>Finally, while Org-mode and the brilliant ox-hugo usually automatically pass
+<a href="https://orgmode.org/manual/LaTeX-fragments.html">\(\LaTeX\) fragments</a> through to Hugo, in this case I had to wrap it in an <code>HTML</code>
+export block and manually specify the correct number (four) of slashes, as it was
+automatically transforming <code>\\[1.5ex]</code> into <code>\\\[1.5ex]</code> (note the three slashes
+instead of four, whilst without the <code>[...]</code> it correctly generates four).</p>
+<p>Anyways, after all that, you get these nicely rendered equations:</p>
+<p>\begin{aligned}
+\bm{r} &amp;= \operatorname{position}\\[1.5ex]
+\frac{d\bm{r}}{dt} &amp;= \operatorname{velocity}\\[1.5ex]
+\frac{d^2\bm{r}}{dt^2} &amp;= \operatorname{acceleration}\\[1.5ex]
+\frac{d^3\bm{r}}{dt^3} &amp;= \operatorname{jerk}\\[1.5ex]
+\frac{d^4\bm{r}}{dt^4} &amp;= \operatorname{snap}\\[1.5ex]
+\frac{d^5\bm{r}}{dt^5} &amp;= \operatorname{crackle}\\[1.5ex]
+\frac{d^6\bm{r}}{dt^6} &amp;= \operatorname{pop}
+\end{aligned}</p>
+<p>Wow, blogging with Org-mode and Hugo sure is easy! :)</p>
+<p>P.S. You might remember that it was also a <a href="https://blogs.scientificamerican.com/news-blog/how-a-fake-word-from-the-simpsons-e/">Physics paper that helped
+main-streaming the word <em>embiggen</em></a> from The Simpsons right into our
+dictionaries.</p>
+]]></content:encoded></item></channel></rss>
