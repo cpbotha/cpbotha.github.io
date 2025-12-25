@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sivers on voices in my head</title><link>https://cpbotha.net/tags/sivers/</link><description>Recent content in Sivers on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 31 Dec 2023 17:29:04 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/sivers/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices on Friday 2023-12-29</title><link>https://cpbotha.net/2023/12/31/daily-head-voices-on-friday-2023-12-29/</link><pubDate>Sun, 31 Dec 2023 12:18:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/31/daily-head-voices-on-friday-2023-12-29/</guid><description> First time back on the Clarence Drive coastal route after the floods. As beautiful as ever. Derek Sivers&amp;rsquo;s walk and talk: 100km through Northern Thailand over 7 days with interesting folks. See https://sive.rs/wt According to my notes, it was 2023-09-23 when I had started giving evil-mode a solid bash again. Last time was&amp;hellip; &amp;lt;checks notes&amp;gt;&amp;hellip; 2017-09-18. Strange that it was also in September! (My previous vim-proper era probably around 2007, but I&amp;rsquo;m guessing). Anyways, it now feels like it was the right choice to try again now. My emacs agility is almost back to what it was before the switch, and with some of the vim interactions now trained into muscle-memory, there are many more places where that&amp;rsquo;s turning out to be useful, which was a large part of the motivation for this experiment. My evil-mode config As per special request by Keegan below, here is my mostly by-the-book evil-mode config, part of my vanilla-Emacs ball-of-config:</description><content:encoded><![CDATA[ <ul>
+<li>First time back on the <a href="https://www.mountainpassessouthafrica.co.za/find-a-pass/western-cape/item/95-clarence-drive,-gordons-bay.html">Clarence Drive coastal route</a> after the floods. As beautiful as ever.</li>
+<li>Derek Sivers&rsquo;s walk and talk: 100km through Northern Thailand over 7 days with interesting folks. See <a href="https://sive.rs/wt">https://sive.rs/wt</a></li>
+<li>According to my notes, it was 2023-09-23 when I had started giving <a href="https://github.com/emacs-evil/evil">evil-mode</a> a solid bash again. Last time was&hellip; &lt;checks notes&gt;&hellip; 2017-09-18. Strange that it was also in September! (My previous vim-proper era probably around 2007, but I&rsquo;m guessing). Anyways, it now feels like it was the right choice to try again now. My emacs agility is almost back to what it was before the switch, and with some of the vim interactions now trained into muscle-memory, there are many more places where that&rsquo;s turning out to be useful, which was a large part of the motivation for this experiment.</li>
+</ul>
+<h2 id="my-evil-mode-config">My evil-mode config</h2>
+<p>As per special request by Keegan below, here is my mostly by-the-book <code>evil-mode</code> config, part of my vanilla-Emacs <em>ball-of-config</em>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">evil</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:ensure</span> <span style="color:#0550ae">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;;:disabled t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:init</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; evil-collection wants this set to nil</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">evil-want-keybinding</span> <span style="color:#0550ae">nil</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; on 2023-10-22 trying out visual-line-mode in orgmode</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; this setting means j/k e.g. will navigate displayed lines not true lines</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">evil-respect-visual-line-mode</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:config</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; use &#39;visual instead of &#39;relative to ignore collapsed / hidden org-mode drawers</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; on 2023-11-20: However, I would like to count visual wrapped lines as a single line, but I need &#39;visual</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; here else it incorrectly handles collapsed drawers, just like some of the folks below:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; https://www.reddit.com/r/emacs/comments/nwwlx0/displaying_relative_line_numbers_over_folds_in/</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; and so I&#39;m forced to evil-respect-visual-line-mode</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">display-line-numbers-type</span> <span style="color:#032f62">&#39;visual</span><span style="color:#1f2328">)</span> <span style="color:#57606a">;; &#39;relative, &#39;visual, &#39;t, nil</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">display-line-numbers-grow-only</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">defun</span> <span style="color:#953800">display-line-numbers--turn-on</span> <span style="color:#1f2328">()</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#0a3069">&#34;Turn on line numbers except for certain major modes. &#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">(</span><span style="color:#6639ba">unless</span> <span style="color:#1f2328">(</span><span style="color:#6639ba">or</span> <span style="color:#1f2328">(</span><span style="color:#6639ba">minibufferp</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#1f2328">(</span><span style="color:#6639ba">member</span> <span style="color:#953800">major-mode</span> <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">(</span><span style="color:#953800">pdf-view-mode</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#1f2328">(</span><span style="color:#953800">display-line-numbers-mode</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">global-display-line-numbers-mode</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">global-display-line-numbers-mode</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">evil-set-undo-system</span> <span style="color:#032f62">&#39;undo-tree</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; set leader key in normal state</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">evil-set-leader</span> <span style="color:#032f62">&#39;normal</span> <span style="color:#0a3069">&#34;,&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; what&#39;s default in the vim world? looks like leader-leader these days</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">evil-define-key</span> <span style="color:#032f62">&#39;normal</span> <span style="color:#032f62">&#39;global</span> <span style="color:#1f2328">(</span><span style="color:#953800">kbd</span> <span style="color:#0a3069">&#34;&lt;leader&gt;l&#34;</span><span style="color:#1f2328">)</span> <span style="color:#032f62">&#39;evil-avy-goto-line</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">evil-mode</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">evil-org</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6639ba">:ensure</span> <span style="color:#0550ae">t</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6639ba">:after</span> <span style="color:#953800">org</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6639ba">:hook</span> <span style="color:#1f2328">(</span><span style="color:#953800">org-mode</span> <span style="color:#0550ae">.</span> <span style="color:#1f2328">(</span><span style="color:#6639ba">lambda</span> <span style="color:#1f2328">()</span> <span style="color:#1f2328">(</span><span style="color:#953800">evil-org-mode</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6639ba">:config</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">(</span><span style="color:#953800">evil-org-set-key-theme</span> <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">(</span><span style="color:#953800">navigation</span> <span style="color:#6639ba">insert</span> <span style="color:#953800">textobjects</span> <span style="color:#953800">additional</span> <span style="color:#953800">calendar</span><span style="color:#1f2328">))</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">(</span><span style="color:#6639ba">require</span> <span style="color:#032f62">&#39;evil-org-agenda</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">(</span><span style="color:#953800">evil-org-agenda-set-keys</span><span style="color:#1f2328">))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; ys&lt;textobj&gt;&lt;surround-delim&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; ysiw~ = surround inner-word with ~</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; in visual state, do: S&lt;surround-delim&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; https://github.com/emacs-evil/evil-surround#examples</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">evil-surround</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6639ba">:ensure</span> <span style="color:#0550ae">t</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6639ba">:config</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">(</span><span style="color:#953800">global-evil-surround-mode</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; not yet working for me -- I need more practise with the &#34;normal&#34; commands</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; (use-package evil-easymotion</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;;   :ensure t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;;   :config</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;;   (evilem-default-keybindings &#34;SPC&#34;))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">evil-collection</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:ensure</span> <span style="color:#0550ae">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:after</span> <span style="color:#953800">evil</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:config</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; this should take care of corfu completion popups, as it&#39;s part of evil-collection</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; however, I still saw wonkiness in completion of [[title]] links in org-roam</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a">;; https://github.com/emacs-evil/evil-collection/commit/ceac1a9681cb47de35aa37d63532b1b92cd58b72</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">evil-collection-init</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#6639ba">with-eval-after-load</span> <span style="color:#032f62">&#39;dired-quick-sort</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">(</span><span style="color:#953800">evil-collection-define-key</span> <span style="color:#032f62">&#39;normal</span> <span style="color:#032f62">&#39;dired-mode-map</span> <span style="color:#0a3069">&#34;S&#34;</span> <span style="color:#032f62">&#39;hydra-dired-quick-sort/body</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; For the motions g; g, and for the last-change-register &#34;.&#34;. goto-chg supplies goto-last-change</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">goto-chg</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:vc</span> <span style="color:#1f2328">(</span><span style="color:#6639ba">:fetcher</span> <span style="color:#0a3069">&#34;https://github.com/emacs-evil/goto-chg&#34;</span><span style="color:#1f2328">))</span>
+</span></span></code></pre></div> ]]></content:encoded></item></channel></rss>

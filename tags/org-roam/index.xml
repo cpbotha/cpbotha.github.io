@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Org-Roam on voices in my head</title><link>https://cpbotha.net/tags/org-roam/</link><description>Recent content in Org-Roam on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 10 Mar 2024 18:52:34 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/org-roam/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 9 of 2024</title><link>https://cpbotha.net/2024/03/10/daily-head-voices-2024-week-9/</link><pubDate>Sun, 10 Mar 2024 18:50:00 +0200</pubDate><guid>https://cpbotha.net/2024/03/10/daily-head-voices-2024-week-9/</guid><description>Monday 2024-02-26 started the morning (and the work week!) with stupid indecision: Had all my work gear in the car, but chose to drive back home after dropping of GOU#3 for a logistical task which one of my other clan members would gladly have taken care of. Indecision irrelevant against the backdrop: We had such a good time in the car first being on time (GOU#3 loves that), then listening to Skrillex together, then talking, and then performing our morning ritual of verbally attesting our super-infinite love for each other as I drop her off at school. During highly technical demo outside of my domains, used perplexity in real-time to lookup various details as the demo was going on, and thus could focus on the really interesting questions for the presenter. Between meetings, struggled a bit to focus in the focusy bits, but managed to do quite a bit of work eventually (with focusapp and some deep house) and even got milestones done. Tuesday 2024-02-27 Super frustrated during the morning rush, because could not find running shoes at the critical moment when we had to leave for school Reverted to backup shoes (old ones, with too many kilometres on them) Good run in L&amp;amp;Z, but it took so long to disconnect from my shoe moment, in spite of really putting my mind to it. Succeeded a little bit at the end, shocked at the mental cost of something this trivial. BTW, it was almost a textbook &amp;ldquo;not inside it&amp;rsquo;s on top!&amp;rdquo; situation. Wednesday 2024-02-28 For once some Waking Up in the morning! (I once had a streak of more than a year. Currently happy if I do just one!) Started the day in pensive mood (before and after the meditation) thinking about what I would like from the future Naturally I wanted to write a note, so then I tapped out a topic in the daily list so that I could use org-roam-node-find-similar to surface similar notes from the past. I did find the correct historic note which I would not have otherwise, but then I got sucked into emacs config&amp;hellip; why has my org-roam-node-find-* never done live preview like other consult commands? &amp;ndash; solved by installing https://github.com/jgru/consult-org-roam/tree/main and then tooting about it: https://emacs.ch/@cpbotha/112008312753264000 During the day I was surprised at the amount of traction that toot got. It seems there are more people who missed this. It seems it can sometimes really help to share the minutiae. realised that org-roam-node-find-similar did not sort the similar nodes by similarity, so fixed that: https://github.com/cpbotha/org-roam-similarity/commit/d940c12e70468adfbc1e41ef997c5f797540ebf7 After extricating myself back out of Emacs config yak shaving, I did spend some quality time writing up my thoughts, helping to clarify them. I don&amp;rsquo;t know the answer yet, but the direction I&amp;rsquo;m moving in feels good. Lunch with inner circle friend and mentor DMW at No Way Jose was great thank you! Thursday 2024-02-29 Run at shortly after 7. Legs did not really want to cooperate. Got distracted by meetings day at work, so almost no writing in the daily. Now, [2024-03-10 Sun 18:35], I&amp;rsquo;m really sorry. Friday 2024-03-01 Pool repair at my house. They are able to pump out all water, repair floor of pool, then pump all water back all in a few hours. I have two ideas for the weekend Build and publish a QRCode contact card generator using marimo and wasm build a telegram bot to manipulate my org-mode database, e.g. adding tasks, searching for existing tasks and notes. I don&amp;rsquo;t like this second idea, but it keeps on coming back to me. Saturday 2024-03-02 12km run with tired legs, so tired that I decided to stop the fast and get Powerade for the last 5km, which felt like it really helped. Super happy that I could get the promised marimo-wasm-qrcode generator online: https://vxlabs.com/2024/03/02/contact-qrcode-generator-with-marimo-and-wasm/ Sunday 2024-03-03 After sunday morning coffee and scrolling, dug into marimo to see if there&amp;rsquo;s some way to create the WASM locally. There does not seem to be. Scanned through https://core.telegram.org/bots to see (again&amp;hellip;) what might be possible. Actually, now I&amp;rsquo;m thinking about the idea of making a telegram bot that sends me random tasks from my org-mode every day. I already have a proof of concept in Python that uses emacsclient to expose org-roam nodes via API (see https://github.com/cpbotha/org-roam-canvas ) so I would probably follow a similar path, probably with something like org-ql. Does anyone know if something like this exists somewhere? Apple&amp;rsquo;s Journal app, that suggests a new journalling possibility now and then, made me think that this could help. In iTerm2, press the Option-Cmd keys together to make a rectangular selection. Sublime lunch at Millhouse Kitchen with inner circle family Back home, tried to get MobileOrg going again; looked promising, but then after successful sync ran into this bug with empty outlines in the app when synced via iCloud. 😥 Configured perplexity via gptel in my Emacs; I am especially interested in using perplexity&amp;rsquo;s sonar-online internet-capable models.</description><content:encoded><![CDATA[ <h2 id="monday-2024-02-26">Monday 2024-02-26</h2>
+<ul>
+<li>started the morning (and the work week!) with stupid indecision: Had all my work gear in the car, but chose to drive back home after dropping of GOU#3 for a logistical task which one of my other clan members would gladly have taken care of.
+<ul>
+<li>Indecision irrelevant against the backdrop: We had such a good time in the car first being on time (GOU#3 loves that), then listening to Skrillex together, then talking, and then performing our morning ritual of verbally attesting our super-infinite love for each other as I drop her off at school.</li>
+</ul>
+</li>
+<li>During highly technical demo outside of my domains, used perplexity in real-time to lookup various details as the demo was going on, and thus could focus on the really interesting questions for the presenter.</li>
+<li>Between meetings, struggled a bit to focus in the focusy bits, but managed to do quite a bit of work eventually (with focusapp and some deep house) and even got milestones done.</li>
+</ul>
+<h2 id="tuesday-2024-02-27">Tuesday 2024-02-27</h2>
+<ul>
+<li>Super frustrated during the morning rush, because could not find running shoes at the critical moment when we had to leave for school
+<ul>
+<li>Reverted to backup shoes (old ones, with too many kilometres on them)</li>
+<li>Good run in L&amp;Z, but it took so  long to disconnect from my shoe moment, in spite of really putting my mind to it. Succeeded a little bit at the end, shocked at the mental cost of something this trivial.</li>
+<li>BTW, it was almost a textbook &ldquo;not inside it&rsquo;s on top!&rdquo; situation.</li>
+</ul>
+</li>
+</ul>
+<h2 id="wednesday-2024-02-28">Wednesday 2024-02-28</h2>
+<ul>
+<li>For once some <a href="https://www.wakingup.com/">Waking Up</a> in the morning! (I once had a streak of more than a year. Currently happy if I do just one!)</li>
+<li>Started the day in pensive mood (before and after the meditation) thinking about what I would like from the future
+<ul>
+<li>Naturally I wanted to write a note, so then I tapped out a topic in the daily list so that I could use <code>org-roam-node-find-similar</code> to surface similar notes from the past. I did find the correct historic note which I would not have otherwise, but then I got sucked into emacs config&hellip;
+<ul>
+<li>why has my <code>org-roam-node-find-*</code> never done live preview like other consult commands? &ndash; solved by installing <a href="https://github.com/jgru/consult-org-roam/tree/main">https://github.com/jgru/consult-org-roam/tree/main</a> and then tooting about it: <a href="https://emacs.ch/@cpbotha/112008312753264000">https://emacs.ch/@cpbotha/112008312753264000</a>
+<ul>
+<li>During the day I was surprised at the amount of traction that toot got. It seems there are more people who missed this. It seems it can sometimes really help to share the minutiae.</li>
+</ul>
+</li>
+<li>realised that <code>org-roam-node-find-similar</code> did not sort the similar nodes by similarity, so fixed that: <a href="https://github.com/cpbotha/org-roam-similarity/commit/d940c12e70468adfbc1e41ef997c5f797540ebf7">https://github.com/cpbotha/org-roam-similarity/commit/d940c12e70468adfbc1e41ef997c5f797540ebf7</a></li>
+</ul>
+</li>
+<li>After extricating myself back out of Emacs config yak shaving, I did spend some quality time writing up my thoughts, helping to clarify them.
+<ul>
+<li>I don&rsquo;t know the answer yet, but the direction I&rsquo;m moving in feels good.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lunch with inner circle friend and mentor DMW at No Way Jose was great thank you!</li>
+</ul>
+<h2 id="thursday-2024-02-29">Thursday 2024-02-29</h2>
+<ul>
+<li>Run at shortly after 7. Legs did not really want to cooperate.</li>
+<li>Got distracted by meetings day at work, so almost no writing in the daily. Now, <span class="timestamp-wrapper"><span class="timestamp">[2024-03-10 Sun 18:35]</span></span>, I&rsquo;m really sorry.</li>
+</ul>
+<h2 id="friday-2024-03-01">Friday 2024-03-01</h2>
+<ul>
+<li>Pool repair at my house. They are able to pump out all water, repair floor of pool, then pump all water back all in a few hours.</li>
+<li>I have two ideas for the weekend
+<ul>
+<li>Build and publish a QRCode contact card generator using marimo and wasm</li>
+<li>build a telegram bot to manipulate my org-mode database, e.g. adding tasks, searching for existing tasks and notes.
+<ul>
+<li>I don&rsquo;t like this second idea, but it keeps on coming back to me.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="saturday-2024-03-02">Saturday 2024-03-02</h2>
+<ul>
+<li>12km run with tired legs, so tired that I decided to stop the fast and get Powerade for the last 5km, which felt like it really helped.</li>
+<li>Super happy that I could get the promised marimo-wasm-qrcode generator online: <a href="https://vxlabs.com/2024/03/02/contact-qrcode-generator-with-marimo-and-wasm/">https://vxlabs.com/2024/03/02/contact-qrcode-generator-with-marimo-and-wasm/</a></li>
+</ul>
+<h2 id="sunday-2024-03-03">Sunday 2024-03-03</h2>
+<ul>
+<li>After sunday morning coffee and scrolling, dug into marimo to see if there&rsquo;s some way to create the WASM locally. There does not seem to be.</li>
+<li>Scanned through <a href="https://core.telegram.org/bots">https://core.telegram.org/bots</a> to see (again&hellip;) what might be possible.</li>
+<li>Actually, now I&rsquo;m thinking about the idea of making a telegram bot that sends me random tasks from my org-mode every day. I already have a proof of concept in Python that uses emacsclient to expose org-roam nodes via API (see <a href="https://github.com/cpbotha/org-roam-canvas">https://github.com/cpbotha/org-roam-canvas</a> ) so I would probably follow a similar path, probably with something like org-ql. Does anyone know if something like this exists somewhere?
+<ul>
+<li>Apple&rsquo;s Journal app, that suggests a new journalling possibility now and then, made me think that this could help.</li>
+</ul>
+</li>
+<li>In iTerm2, press the Option-Cmd keys together to make a rectangular selection.</li>
+<li>Sublime lunch at Millhouse Kitchen with inner circle family</li>
+<li>Back home, tried to get MobileOrg going again; looked promising, but then after successful sync ran into <a href="https://github.com/MobileOrg/mobileorg/issues/292">this bug with empty outlines in the app when synced via iCloud</a>. 😥</li>
+<li>Configured perplexity via gptel in my Emacs; I am especially interested in using perplexity&rsquo;s <a href="https://www.perplexity.ai/hub/blog/introducing-pplx-online-llms"><code>sonar-online</code> internet-capable models</a>.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices for week 2 of 2024</title><link>https://cpbotha.net/2024/01/15/daily-head-voices-2024-01-08_14/</link><pubDate>Mon, 15 Jan 2024 22:40:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/15/daily-head-voices-2024-01-08_14/</guid><description>Inspired by the impressive power (and philosophy) of One Punch Man&amp;rsquo;s Consecutive Normal Punches, I present: A Series of Consecutive Normal Daily Head Voices!
+Monday 2024-01-08 First day back at work 😱 &amp;hellip; but the most lovely lunch run (not literally) and chat with colleague E. Single cable life at work is there, but it&amp;rsquo;s complicated: Thunderbolt3 cable from macbook to Thinkpad dock, dock thunderbolt3 to displayport-mini (adapter), displayport-mini to displayport to monitor. Had blood drawn for my quarterly PSA test. (prostate-specific antigen; regular test to check that prostate cancer stays gone) Double Commander (currently at 1.1.8) on macOS is even better than I remember it, and is only a brew install --cask double-commander away. Tuesday 2024-01-09 marimo looks really good! From the github: a reactive notebook for Python. It allows you to rapidly experiment with data and models, code with confidence in your notebook&amp;rsquo;s correctness, and productionize notebooks as pipelines or interactive web apps. I still have to play with it, but it sounds like an Observable for Python. Wednesday 2024-01-10 Shorter weekday run because hip and because sun. Hip only started complaining by the end, a little later than my last short run. 🎉 Tried to find reclining high-back office chairs with footrest in South Africa, starting from: https://www.wellnessgrit.com/best-reclining-office-chair-with-footrest/ Spectacular failure! Google Bard, Bing Chat, Perplexity come up with plausible looking links that go to different sites, but nowhere any chairs to be found perplexity is probably the least bad because it more often admits to just not finding any links in SA See e.g. https://g.co/bard/share/39071699296c and https://www.perplexity.ai/search/Following-is-a-aMds8_E1SkSAwsHGKNF_tQ?s=c#68c76cf3-f135-4a44-80c2-c1c628d17fb5 Because of work, started to spend some quality time with d3.js again. I hope to be doing some nice interactive visualization soon! Thursday 2024-01-11 PSA is 0.006! 🥳 if you&amp;rsquo;ve ever worked with d3.js, you will have used bl.ocks.org quite often. To my surprise, none of these links work anymore, and instead redirect you to the source gist, where they used to show you the live visualization. I could not find much official news about this sunsetting, but was consoled by the discovery of the open source bl.ocks.org clone at https://blocks.roadtolarissa.com/ via https://stackoverflow.com/a/75351168/532513 Tune of the evening: RÜFÜS DU SOL - On My Knees (Adriatique Remix) Friday 2024-01-12 Short week-day run, no hip issues! Very nice focused day at home: First half wrapping up a code review. Second half diving back into d3.js. So much old memories I have to unearth. In between hacked in an idle mode for org-roam-similarity, in the process discovered that on this M1 Pro, CPU is much faster (2x) and uses much less RAM than the hardware accelerated PyTorch MPS version Lovely weekend-starter braai with family. Ran into the final sections (and private comments the source org file) of WHV #208 &amp;ndash; besides the nostalgic music bits, really enjoyed reading some of the older journals. Publish or not, strong motivation to keep on writing journals. (now-you is often a very different person than then-you. interesting to keep in touch!) Saturday 2024-01-13 one of the highlights of the day was phone-call by and substantial conversation with bestie PK rest of day quite laid-back with the whole family, which was great thinking a lot about stefanv&amp;rsquo;s week planner instead of day planner, and the implications of this seemingly reduced planning effort (my daily planning is mostly only theoretical) greater family braai (GFB) Sunday 2024-01-14 Overslept a bit, woke up at 9 AM. This has not happened in ages. Slightly longer weekend run at 10 with new running hat and SPF50 on me face and neck. Hip issue did not manifest, am touching wood! Because I&amp;rsquo;ve been thinking about more visual ways to plan my week, worked on org-roam-canvas, making it a whole lot faster.</description><content:encoded><![CDATA[ <p>Inspired by the impressive power (and philosophy) of One Punch Man&rsquo;s <em>Consecutive Normal Punches</em>, I present: A Series of Consecutive Normal Daily Head Voices!</p>
+<h2 id="monday-2024-01-08">Monday 2024-01-08</h2>
+<ul>
+<li>First day back at work 😱</li>
+<li>&hellip; but the most lovely lunch run (not literally) and chat with colleague E.</li>
+<li>Single cable life at work is there, but it&rsquo;s complicated: Thunderbolt3 cable from macbook to Thinkpad dock, dock thunderbolt3 to displayport-mini (adapter), displayport-mini to displayport to monitor.</li>
+<li>Had blood drawn for my quarterly PSA test. (prostate-specific antigen; regular test to check that prostate cancer stays gone)</li>
+<li>Double Commander (currently at 1.1.8) on macOS is even better than I remember it, and is only a <code>brew install --cask double-commander</code> away.</li>
+</ul>
+<h2 id="tuesday-2024-01-09">Tuesday 2024-01-09</h2>
+<ul>
+<li><a href="https://github.com/marimo-team/marimo">marimo</a> looks really good! From the github: <em>a reactive notebook for Python. It allows you to rapidly experiment with data and models, code with confidence in your notebook&rsquo;s correctness, and productionize notebooks as pipelines or interactive web apps</em>. I still have to play with it, but it sounds like an <a href="https://observablehq.com/">Observable</a> for Python.</li>
+</ul>
+<h2 id="wednesday-2024-01-10">Wednesday 2024-01-10</h2>
+<ul>
+<li>Shorter weekday run because hip and because sun. Hip only started complaining by the end, a little later than my last short run. 🎉</li>
+<li>Tried to find reclining high-back office chairs with footrest in South Africa, starting from: <a href="https://www.wellnessgrit.com/best-reclining-office-chair-with-footrest/">https://www.wellnessgrit.com/best-reclining-office-chair-with-footrest/</a>
+<ul>
+<li>Spectacular failure! Google Bard, Bing Chat, Perplexity come up with plausible looking links that go to different sites, but nowhere any chairs to be found</li>
+<li>perplexity is probably the least bad because it more often admits to just not finding any links in SA</li>
+<li>See e.g. <a href="https://g.co/bard/share/39071699296c">https://g.co/bard/share/39071699296c</a> and <a href="https://www.perplexity.ai/search/Following-is-a-aMds8_E1SkSAwsHGKNF_tQ?s=c#68c76cf3-f135-4a44-80c2-c1c628d17fb5">https://www.perplexity.ai/search/Following-is-a-aMds8_E1SkSAwsHGKNF_tQ?s=c#68c76cf3-f135-4a44-80c2-c1c628d17fb5</a></li>
+</ul>
+</li>
+<li>Because of work, started to spend some quality time with <a href="https://d3js.org/">d3.js</a> again. I hope to be doing some nice interactive visualization soon!</li>
+</ul>
+<h2 id="thursday-2024-01-11">Thursday 2024-01-11</h2>
+<ul>
+<li>PSA is 0.006! 🥳</li>
+<li>if you&rsquo;ve ever worked with d3.js, you will have used bl.ocks.org quite often. To my surprise, none of these links work anymore, and instead redirect you to the source gist, where they used to show you the live visualization. I could not find much official news about this sunsetting, but was consoled by the discovery of the open source bl.ocks.org clone at <a href="https://blocks.roadtolarissa.com/">https://blocks.roadtolarissa.com/</a> via <a href="https://stackoverflow.com/a/75351168/532513">https://stackoverflow.com/a/75351168/532513</a></li>
+<li>Tune of the evening: <a href="https://youtu.be/IAmmkJZ55vM?si=WjEjD8MLge7sCo0E">RÜFÜS DU SOL - On My Knees (Adriatique Remix)</a></li>
+</ul>
+<h2 id="friday-2024-01-12">Friday 2024-01-12</h2>
+<ul>
+<li>Short week-day run, no hip issues!</li>
+<li>Very nice focused day at home: First half wrapping up a code review. Second half diving back into d3.js. So much old memories I have to unearth.</li>
+<li>In between hacked in an idle mode for <a href="https://github.com/cpbotha/org-roam-similarity">org-roam-similarity</a>, in the process discovered that on this M1 Pro, CPU is much faster (2x) and uses much less RAM than the hardware accelerated PyTorch MPS version</li>
+<li>Lovely weekend-starter braai with family.</li>
+<li>Ran into the final sections (and private comments the source org file) of <a href="https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/#thank-you-joris">WHV #208</a> &ndash; besides the nostalgic music bits, really enjoyed reading some of the older journals. Publish or not, strong motivation to keep on writing journals. (now-you is often a very different person than then-you. interesting to keep in touch!)</li>
+</ul>
+<h2 id="saturday-2024-01-13">Saturday 2024-01-13</h2>
+<ul>
+<li>one of the highlights of the day was phone-call by and substantial conversation with bestie PK</li>
+<li>rest of day quite laid-back with the whole family, which was great</li>
+<li>thinking a lot about stefanv&rsquo;s week planner instead of day planner, and the implications of this <em>seemingly</em> reduced planning effort (my daily planning is mostly only theoretical)</li>
+<li>greater family braai (GFB)</li>
+</ul>
+<h2 id="sunday-2024-01-14">Sunday 2024-01-14</h2>
+<ul>
+<li>Overslept a bit, woke up at 9 AM. This has not happened in ages.</li>
+<li>Slightly longer weekend run at 10 with new running hat and SPF50 on me face and neck. Hip issue did not manifest, am touching wood!</li>
+<li>Because I&rsquo;ve been thinking about more visual ways to plan my week, worked on <a href="https://github.com/cpbotha/org-roam-canvas">org-roam-canvas</a>, making it a <a href="https://github.com/cpbotha/org-roam-canvas/commit/a67ad1ee59c93a2998a0c2975ed7d567e7f02c8d">whole lot faster</a>.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Thursday 2023-12-28</title><link>https://cpbotha.net/2023/12/31/daily-head-voices-on-thursday-2023-12-28/</link><pubDate>Sun, 31 Dec 2023 11:52:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/31/daily-head-voices-on-thursday-2023-12-28/</guid><description> Longer run brought my year target back in reach, at the cost of some hip niggle. 4km in, I decided that this was not the time and place for a fasted run and bought me a powerade. I bought another on the way back from the Vergelegen-to-Reservoir Road section of my route. I have no regrets. Before the run, thought about Values vs Vision vs Sinek&amp;rsquo;s Why. This was brought on by a twitter thread (which I did not bookmark argh) by a person who identified the root cause of a previously resolved mental health challenge to be the fact that at that point they had ill-defined personal values, and that addressing that was a large part of the resolution. I think my previously-mentioned &amp;ldquo;life systems&amp;rdquo; are indeed closely related, but it can&amp;rsquo;t do harm to spend some more mental cycles on listing my values, and then maybe to see how exactly these related to my life systems. Before and during the run, half-designed in my head a software tool for narrating books using OpenAI&amp;rsquo;s text-to-speech API. After the run, took care of some errands: Had car battery replaced Installed new diaphragm for the Zodiac pool cleaner, the current one has a hole in it and did not work at all New brush for the pool pole After errands, built and then published the afore-thought-about prototype https://github.com/cpbotha/audio-my-book &amp;ndash; warning, it&amp;rsquo;s still super rough, but it works nicely chopping up your book text into semantic chunks and then text-to-speeching each chunk into mp3 (the openai tts API has a 4096 character limit, hence the chunking) In the evening, worked on https://github.com/cpbotha/org-roam-similarity fixing bugs, and also showing similarity scores in the *org-roam* buffer.</description><content:encoded><![CDATA[ <ul>
+<li>Longer run brought my year target back in reach, at the cost of some hip niggle. 4km in, I decided that this was not the time and place for a fasted run and bought me a powerade. I bought another on the way back from the Vergelegen-to-Reservoir Road section of my route. I have no regrets.</li>
+<li>Before the run, thought about Values vs Vision vs Sinek&rsquo;s Why. This was brought on by a twitter thread (which I did not bookmark argh) by a person who identified the root cause of a previously resolved mental health challenge to be the fact that at that point they had ill-defined personal values, and that addressing that was a large part of the resolution. I think my previously-mentioned <a href="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/#life-systems-2021">&ldquo;life systems&rdquo;</a> are indeed closely related, but it can&rsquo;t do harm to spend some more mental cycles on listing my values, and then maybe to see how exactly these related to my life systems.</li>
+<li>Before and during the run, half-designed in my head a software tool for narrating books using OpenAI&rsquo;s text-to-speech API.</li>
+<li>After the run, took care of some errands:
+<ul>
+<li>Had car battery replaced</li>
+<li>Installed new diaphragm for the Zodiac pool cleaner, the current one has a hole in it and did not work at all</li>
+<li>New brush for the pool pole</li>
+</ul>
+</li>
+<li>After errands, built and then published the afore-thought-about prototype <a href="https://github.com/cpbotha/audio-my-book">https://github.com/cpbotha/audio-my-book</a> &ndash; warning, it&rsquo;s still super rough, but it works nicely chopping up your book text into semantic chunks and then text-to-speeching each chunk into mp3 (the openai tts API has a 4096 character limit, hence the chunking)</li>
+<li>In the evening, worked on <a href="https://github.com/cpbotha/org-roam-similarity">https://github.com/cpbotha/org-roam-similarity</a> fixing bugs, and also showing similarity scores in the <code>*org-roam*</code> buffer.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Wednesday 2023-12-27</title><link>https://cpbotha.net/2023/12/31/daily-head-voices-on-wednesday-2023-12-27/</link><pubDate>Sun, 31 Dec 2023 11:43:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/31/daily-head-voices-on-wednesday-2023-12-27/</guid><description> Pack up and drive back home Lovely lovely family lunch at The Drydock restaurant in Knysna During the last part of the drive my partner took over, and I could spend some time updating https://github.com/cpbotha/org-roam-similarity to support multi-qa-MiniLM-L6-cos-v1, a much smaller and faster transformer-based similarity model. See https://www.sbert.net/docs/pretrained_models.html for more details. It seems I do always need to be building something. It is one of the building blocks of my well-being. That thought led to me spending some more time thinking about more clearly defining my personal values. You could take a look at the personal life systems I wrote up at the start of 2021. They are the backbone of everything, while my personal values are a list of more concrete priorities that cover different subsets of my life systems.</description><content:encoded><![CDATA[ <ul>
+<li>Pack up and drive back home</li>
+<li>Lovely lovely family lunch at <a href="https://www.drydock.co.za/">The Drydock restaurant</a> in Knysna</li>
+<li>During the last part of the drive my partner took over, and I could spend some time updating <a href="https://github.com/cpbotha/org-roam-similarity">https://github.com/cpbotha/org-roam-similarity</a> to support <code>multi-qa-MiniLM-L6-cos-v1</code>, a much smaller and faster transformer-based similarity model. See <a href="https://www.sbert.net/docs/pretrained_models.html">https://www.sbert.net/docs/pretrained_models.html</a> for more details.</li>
+<li>It seems I do always need to be building something. It is one of the building blocks of my well-being.</li>
+<li>That thought led to me spending some more time thinking about more clearly defining my personal values. You could take a look at the <a href="/2021/01/10/the-2020-to-2021-transition-post/#life-systems-2021">personal life systems</a> I wrote up at the start of 2021. They are the backbone of everything, while my personal values are a list of more concrete priorities that cover different subsets of my life systems.</li>
+</ul>
+ ]]></content:encoded></item></channel></rss>

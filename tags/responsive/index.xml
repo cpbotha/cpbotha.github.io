@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>responsive on voices in my head</title><link>https://cpbotha.net/tags/responsive/</link><description>Recent content in responsive on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 02 May 2020 11:42:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/responsive/index.xml" rel="self" type="application/rss+xml"/><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Responsive on voices in my head</title><link>https://cpbotha.net/tags/responsive/</link><description>Recent content in Responsive on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 May 2020 11:42:57 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/responsive/index.xml" rel="self" type="application/rss+xml"/><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description>When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
 To make a long and interesting story short, srcset enables us to tell the browser that we have for example 5 different resolutions of an image available, and that it should choose the best one based on the user&amp;rsquo;s device.
 Pretty neat actually!
 Anyways, I tweaked the code a bit over time, and most recently I combined it with the stock Hugo figure shortcode.</description><content:encoded><![CDATA[ <p>When <a href="/2019/03/31/wordpress-to-hugo/#bonus-level-bundling-and-automatic-resizing-of-images">I moved this blog over to
@@ -31,7 +31,7 @@ then rebuild your blog.</p>
 bundle</a> if you want
 automatic resizing and srcset. The shortcode will fall back to stock Hugo
 behaviour otherwise.</p>
-<script type="application/javascript" src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
+<script src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
 
 <h2 id="example-result">Example result</h2>
 <p>I&rsquo;ve posted the image below so you can see the shortcode in action.</p>
@@ -49,6 +49,8 @@ narrowed your viewport, or switched devtools to mobile emulation.</p>
 
 
 
+
+
 <figure><a href="20200324_stillbaai_beach.jpg">
     <img
         
@@ -56,18 +58,22 @@ narrowed your viewport, or switched devtools to mobile emulation.</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_d2863eb88a6b09ec.jpg 480w,
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_f97f7d9efd39393a.jpg 800w,
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_cb4e44b92c98bb91.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_3869a0cbb42fa4f6.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_f97f7d9efd39393a.jpg"
             
 
         
@@ -83,4 +89,4 @@ instead of just breaking when the image was not part of the page
 bundle. However, if you want resizing and srcset (the whole point of this
 post), your images should be in the page bundle. :)</li>
 </ul>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

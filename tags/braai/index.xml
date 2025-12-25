@@ -1,10 +1,161 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>braai on voices in my head</title><link>https://cpbotha.net/tags/braai/</link><description>Recent content in braai on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 10 Jun 2021 09:03:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/braai/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #225: Just a perfect weekend</title><link>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</link><pubDate>Thu, 10 Jun 2021 09:03:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</guid><description> Dear reader,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Braai on voices in my head</title><link>https://cpbotha.net/tags/braai/</link><description>Recent content in Braai on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 21 Jan 2024 20:30:31 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/braai/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 3 of 2024</title><link>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</link><pubDate>Sun, 21 Jan 2024 20:21:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</guid><description>Monday 2024-01-15 Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT. Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&amp;rsquo;m doing this in addition to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help. Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 and GOU#2 there, on two very opposite ends of the spectrum. Tuesday 2024-01-16 MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/ Copilot Pro not yet available in South Africa 😥 $20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&amp;rsquo;m not convinced, will stick to my perplexity.ai for now. Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch. In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use webcola again, but this time with d3@latest &amp;ndash; sorta works, but no dragging. Have found work-around, still need to test. Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.) Wednesday 2024-01-17 Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7! Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &amp;ldquo;Hi&amp;hellip;&amp;rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha. Got caught up in GEKKO Optimization Suite due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe. TIL: John Lasseter drew the BSD daemon! See https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html &amp;ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the Creativity Inc. book (the one about Pixar!) notes post on this blog Thursday 2024-01-18 AlphaGeometry from Google DeepMind is great work combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose) News on our in-house GPT-wrapper front: Discovered that I now have to upgrade to the new tool_call api as the old functions one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations Note to self, and to you: The *Params types are TypedDict declarations which you can use to work directly with JSON requests and responses, while the non-*Params types are pydantic models which you can use to (de)serialize JSON. Went to see a really good Mohs surgery dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email. This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. https://t.co/DtREuQK5k7</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-15">Monday 2024-01-15</h2>
+<ul>
+<li>Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT.</li>
+<li>Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&rsquo;m doing this <em>in addition</em> to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help.</li>
+<li>Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 <em>and</em> GOU#2 there, on two very opposite ends of the spectrum.</li>
+</ul>
+<h2 id="tuesday-2024-01-16">Tuesday 2024-01-16</h2>
+<ul>
+<li>MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): <a href="https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/">https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/</a>
+<ul>
+<li>Copilot Pro not yet available in South Africa 😥
+<ul>
+<li>$20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&rsquo;m not convinced, will stick to my <a href="https://www.perplexity.ai/">perplexity.ai</a> for now.</li>
+</ul>
+</li>
+<li>Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch.</li>
+</ul>
+</li>
+<li>In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use <a href="https://ialab.it.monash.edu/webcola/">webcola</a> again, but this time with d3@latest &ndash; sorta works, but no dragging. Have found work-around, still need to test.</li>
+<li>Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.)</li>
+</ul>
+<h2 id="wednesday-2024-01-17">Wednesday 2024-01-17</h2>
+<ul>
+<li>Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7!</li>
+<li>Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &ldquo;Hi&hellip;&rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha.</li>
+<li>Got caught up in <a href="#d41d8c">GEKKO Optimization Suite</a> due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe.</li>
+<li>TIL: John Lasseter drew the BSD daemon! See <a href="https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html">https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html</a> &ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the <a href="/2020/12/22/book-notes-creativity-inc/#the-story-is-more-important-than-the-technology">Creativity Inc.</a> book (the one about Pixar!) notes post on this blog</li>
+</ul>
+<h2 id="thursday-2024-01-18">Thursday 2024-01-18</h2>
+<ul>
+<li><strong>AlphaGeometry from Google DeepMind is great work</strong> combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose)</li>
+<li>News on our in-house GPT-wrapper front:
+<ul>
+<li>Discovered that I now have to upgrade to the new <code>tool_call</code> api as the old <code>functions</code> one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations</li>
+<li>Note to self, and to you: The <code>*Params</code> types are <code>TypedDict</code> declarations which you can use to work directly with JSON requests and responses, while the non-<code>*Params</code> types are pydantic models which you can use to (de)serialize JSON.</li>
+</ul>
+</li>
+<li>Went to see a really good <a href="https://www.mayoclinic.org/tests-procedures/mohs-surgery/about/pac-20385222">Mohs surgery</a> dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email.</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. <a href="https://t.co/DtREuQK5k7">https://t.co/DtREuQK5k7</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1747857845356298739?ref_src=twsrc%5Etfw">January 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="friday-2024-01-19">Friday 2024-01-19</h2>
+<ul>
+<li>Spent most of my working hours wrappng up and deploying the brand new version of our internal GPT. I read somewhere that you should <em>always</em> deploy on a Friday, as late as possible.</li>
+<li>I was stressing quite a bit, as I had a great task before me:</li>
+<li>Braaiing 200 boeries in the 39 degrees Celsius heat at the school in Stellenbosch, in order to feed the new grade 8 learners on the evening of their initiation.
+<ul>
+<li>All thanks to the fellow dad who joined me, the stress transformed completely into an enjoyable few hours taking care of this important duty, and I made a new friend!</li>
+</ul>
+</li>
+<li>The kids, including our very own GOU#2, were facing the challenging night before them&hellip;</li>
+</ul>
+<h2 id="saturday-2024-01-20">Saturday 2024-01-20</h2>
+<ul>
+<li>woke up at 5:40 because was planning to fetch GOU#1 and GOU#2 after their eventful and successful night, but thankfully partner was willing to go!</li>
+<li>me very tired the whole day, just hanging (literally) around with family, and spending too much time on twitter / threads / reddit / inoreader! (brain was not willing to do much else, at least learned new things, some of which are mentioned below)</li>
+<li>Based on <a href="https://news.ycombinator.com/item?id=39055139">this HN discussion</a> about <a href="https://delta.io/blog/delta-lake-vs-parquet-comparison/">this blog post comparing Delta Lake and Parquet</a>, learned that Delta Parquet aka Delta Tables (which I&rsquo;ve read about in the context of Azure) is just a bunch of parquet files with some json metadata!
+<ul>
+<li>I&rsquo;ve been enjoying <a href="https://parquet.apache.org/">parquet</a> for years now, in the context of scipy and specifically pandas.</li>
+<li>Indeed, OneLake, also part of Microsoft Fabric, has Delta Parquet at its core.</li>
+<li>Apache Iceberg is a similar but more open source implemenation: <a href="https://iceberg.apache.org/">https://iceberg.apache.org/</a></li>
+<li>Based on <a href="https://www.dremio.com/blog/exploring-the-architecture-of-apache-iceberg-delta-lake-and-apache-hudi/">this comparison between Iceberg, Delta Lake and Hudi</a> it looks like all of these data lake storage layers are just parquet files with metadata, and then some logic, to give database like semantics over distributed object stores. Neat!</li>
+</ul>
+</li>
+<li>In bed last night, falling asleep, I had the following idea:
+<ul>
+<li><em>My Current Life Canvas</em> is a 3D bubble (off to my right for some reason&hellip; and moving with me as I walk) the interior of which I can view using my phone via AR (have to move phone in space to view inside of bubble, with current topics arranged in familiar spots; I thought having a world map would help, because well-known and memorable locations for your topics / priorities / ideas) or any of these amazing new VR headsets, BUT you can also interact with it via computer because inside of bubble can just be projected to surface using any of the well-known <a href="https://en.wikipedia.org/wiki/Map_projection">map projection techniques</a>.</li>
+<li>CLC does not have a regular cadence like the daily or weekly plan, but is revised or redone a few times per year. It focuses on your major life priorities at any one point in time.</li>
+<li>Although this was just a dreamy idea, I do like that it offers multi-modal interaction on the spectrum from AR/VR to more conventional desktop paradigms</li>
+<li>&hellip; of course there should be some kind of friendly AI floating in the bubble with you :P (Microsoft Bob?)</li>
+</ul>
+</li>
+</ul>
+<h2 id="sunday-2024-01-21">Sunday 2024-01-21</h2>
+<ul>
+<li>Super enjoyable weekend long(ish) run.</li>
+<li>Tried out Omnivore&rsquo;s PDF annotation support, see screenshot below. Pretty impressive, and very cool that the highlights sync into my Emacs-based notes setup via markdown. Have slightly mixed feelings, because now will have to come up with new rule for when a paper goes into Zotero (fully local, full citations, but no automatic highlights sync) and when it goes into Omnivore (good sort of cloud but not local, no full citations, automatic sync into my notes)</li>
+<li>Extended family Sunday lunch at our place was great, but me not at normal energy levels yet.</li>
+<li>One of my goals for this week was &ldquo;Get through the week, especially Friday braai&rdquo;. Mission successful!</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="20240121-screenshot-omnivore-pdf-emacs.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_8552fa2e79f0c31.png 480w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png 800w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_70c21750f4c22771.png 1200w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_3fd7290a1dd605.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png"
+            
+
+        /> </a>
+</figure>
+
+ ]]></content:encoded></item><item><title>Daily Head Voices on Saturday 2024-01-06</title><link>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-06/</link><pubDate>Sun, 07 Jan 2024 22:47:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-06/</guid><description> Researching assault-style airbikes as an alternative cardio modality, for when I would like a workout that&amp;rsquo;s not running (for when my joints need some rest) and that&amp;rsquo;s not in the sun so much An assault-style airbike uses a big fan as the front wheel, and engages your arms and upper body as well. Seems to be an important staple in the crossfit world. I&amp;rsquo;m not sure if I&amp;rsquo;m the right person for it, but it sure looks convincing! Here&amp;rsquo;s a not-too-crazy beginner cardio workout example on youtube: https://youtu.be/6OMfabFyVFI?si=SId44AGsPX9U2YZJ Really special braai with a group of besties, hosted by SnR. According to the highly scientific DHV-scale, the evening has been classified as &amp;ldquo;life-affirming&amp;rdquo; and also &amp;ldquo;the absolute best possible way to spend those hours&amp;rdquo;. So much thank you!</description><content:encoded><![CDATA[ <ul>
+<li>Researching assault-style airbikes as an alternative cardio modality, for when I would like a workout that&rsquo;s not running (for when my joints need some rest) and that&rsquo;s not in the sun so much
+<ul>
+<li>An assault-style airbike uses a big fan as the front wheel, and engages your arms and upper body as well. Seems to be an important staple in the crossfit world. I&rsquo;m not sure if I&rsquo;m the right person for it, but it sure looks convincing!</li>
+<li>Here&rsquo;s a not-too-crazy beginner cardio workout example on youtube: <a href="https://youtu.be/6OMfabFyVFI?si=SId44AGsPX9U2YZJ">https://youtu.be/6OMfabFyVFI?si=SId44AGsPX9U2YZJ</a></li>
+</ul>
+</li>
+<li>Really special braai with a group of besties, hosted by SnR. According to the highly scientific DHV-scale, the evening has been classified as &ldquo;life-affirming&rdquo; and also &ldquo;the absolute best possible way to spend those hours&rdquo;. So much thank you!</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Sunday 2023-12-31</title><link>https://cpbotha.net/2024/01/01/daily-head-voices-on-sunday-2023-12-31/</link><pubDate>Mon, 01 Jan 2024 12:45:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/01/daily-head-voices-on-sunday-2023-12-31/</guid><description> If you&amp;rsquo;re reading this, you&amp;rsquo;ve successfully made it to the last day of 2023. Congratulations! My jokes about successfully not dying for another period of time are unfortunately starting to hit closer and closer to home. The bad jokes will continue until morale improves! (more about this later) The tail-end of yesterday&amp;rsquo;s navel gazing about these daily posts involved looking into this blog&amp;rsquo;s Hugo configuration. I really do like Hugo, but there is a substantial amount of implicitness and magic going on. See for example the logic behind sections: https://gohugo.io/content-management/sections/ My plan was to evaluate whether it would be worth it creating a whole new subsection of the site just for the lifelogs (nope), and also just to see in general what would be involved in addng more structure, with something like https://gwern.net/ being the ultimate form of personal website (a lot of work, and I&amp;rsquo;m not yet at the stage of life where I am able to invest that much time into this, although as I mentioned yesterday, I definitely want to get back to writing more substantial posts again soon). Lovely family hike up to Leopard&amp;rsquo;s Kloof in the Harold Porter botanical gardens Took it easy into 2024 with a family braai and an undisclosed number of craft beers.</description><content:encoded><![CDATA[ <ul>
+<li>If you&rsquo;re reading this, you&rsquo;ve successfully made it to the last day of 2023. Congratulations!
+<ul>
+<li>My jokes about successfully not dying for another period of time are unfortunately starting to hit closer and closer to home. The bad jokes will continue until morale improves! (more about this later)</li>
+</ul>
+</li>
+<li>The tail-end of <a href="/2023/12/31/daily-head-voices-on-saturday-2023-12-30/">yesterday&rsquo;s navel gazing</a> about these daily posts involved looking into this blog&rsquo;s Hugo configuration.
+<ul>
+<li>I really do like Hugo, but there is a substantial amount of implicitness and magic going on. See for example the logic behind sections: <a href="https://gohugo.io/content-management/sections/">https://gohugo.io/content-management/sections/</a></li>
+<li>My plan was to evaluate whether it would be worth it creating a whole new subsection of the site just for the lifelogs (nope), and also just to see in general what would be involved in addng more structure, with something like <a href="https://gwern.net/">https://gwern.net/</a> being the ultimate form of personal website (a <strong>lot</strong> of work, and I&rsquo;m not yet at the stage of life where I am able to invest that much time into this, although as I mentioned yesterday, I definitely want to get back to writing more substantial posts again soon).</li>
+</ul>
+</li>
+<li>Lovely family hike up to Leopard&rsquo;s Kloof in the Harold Porter botanical gardens</li>
+<li>Took it easy into 2024 with a family braai and an undisclosed number of craft beers.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Tuesday 2023-12-26</title><link>https://cpbotha.net/2023/12/31/daily-head-voices-on-tuesday-2023-12-26/</link><pubDate>Sun, 31 Dec 2023 11:26:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/31/daily-head-voices-on-tuesday-2023-12-26/</guid><description> I thought I was done, but no, I had to spend more time chasing corner cases and learning more tricks for https://github.com/cpbotha/org-roam-to-apple-notes If you need to escape a single quote ' within a single-quoted string for bash, zsh and some friends, remember $'-quoting. See https://stackoverflow.com/a/16605140/532513 for more Apple iCloud and Notes have great difficulty with folders suddenly containing 1800 notes. Not yet sure where exactly the comfort threshold is. Had to nuke the org-roam folder in Apple Notes and start over with a smaller subset of my notes. Due to this, implemented optional &amp;ldquo;export only org-roam notes modified within the last N days&amp;rdquo; feature. Lovely day conclusion braaiing with friends.</description><content:encoded><![CDATA[ <ul>
+<li>I thought I was done, but no, I had to spend more time chasing corner cases and learning more tricks for <a href="https://github.com/cpbotha/org-roam-to-apple-notes">https://github.com/cpbotha/org-roam-to-apple-notes</a>
+<ul>
+<li>If you need to escape a single quote <code>'</code> within a single-quoted string for bash, zsh and some friends, remember <code>$'</code>-quoting. See <a href="https://stackoverflow.com/a/16605140/532513">https://stackoverflow.com/a/16605140/532513</a> for more</li>
+<li>Apple iCloud and Notes have great difficulty with folders suddenly containing 1800 notes. Not yet sure where exactly the comfort threshold is. Had to nuke the <code>org-roam</code> folder in Apple Notes and start over with a smaller subset of my notes. Due to this, implemented optional &ldquo;export only org-roam notes modified within the last N days&rdquo; feature.</li>
+</ul>
+</li>
+<li>Lovely day conclusion braaiing with friends.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #225: Just a perfect weekend</title><link>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</link><pubDate>Thu, 10 Jun 2021 09:03:00 +0200</pubDate><guid>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</guid><description>Dear reader,
 Welcome (back) to the Weekly Head Voices, and specifically to the 225th installment, covering the period from Monday May 24 to Sunday June 6, 2021.
 Keyboard update: K1 You&amp;rsquo;ll remember from WHV #204 that my previous keyboard acquisition was the Womier K87 with its all-encompassing RGB and hot-swappable Gateron brown switches.
-That keyboard is so much fun to type on.
-It&amp;rsquo;s hard to describe what leads to all that fun, relative to say the MS Sculpt Ergonomic (which makes a lot more sense as a typing device).</description><content:encoded><![CDATA[ <p>Dear reader,</p>
+That keyboard is so much fun to type on.</description><content:encoded><![CDATA[ <p>Dear reader,</p>
 <p>Welcome (back) to the Weekly Head Voices, and specifically to the 225th
 installment, covering the period from Monday May 24 to Sunday June 6, 2021.</p>
+
+
 
 
 
@@ -20,18 +171,22 @@ installment, covering the period from Monday May 24 to Sunday June 6, 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_efacf2278401042b.jpg 480w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_395a276d16bd5112.jpg 800w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_9b888013a0ce8df0.jpg 1200w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_f05d46bcd41cf24a.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_395a276d16bd5112.jpg"
             
 
         /> </a>
@@ -128,10 +283,12 @@ weekend.</p>
 <p>If you ever run into me before the weekend (it&rsquo;s always before the weekend!), I
 would be grateful if you could remind me that it is in fact now.</p>
 <p>Folks, I wish you much nowness.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description> Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
 About 4 seconds after posting previous edition WHV #104 to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:
 So much truth. I have been put back in my place. Sorry vegans. Sorry MBA students. Not sorry Ayn Randers.</description><content:encoded><![CDATA[ <p>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!</p>
 <p>About 4 seconds after posting previous edition <a href="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/">WHV #104</a> to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:</p>
+
+
 
 
 
@@ -158,6 +315,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/02/jack_black_lager.jpg">
     <img
         
@@ -168,6 +327,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 
 <p>It is indeed a craft beer. If we’ve ever chatted more than 10 minutes in the past (or in the future), you’ll know everything about my braai, and you probably also know that I find craft beer to be one of the greatest inventions ever, along with fire, and the internet.</p>
 <p>Here’s a another beer which I recently had the pleasure of enjoying, at a secret networking meeting (yes, we have secret meetings where we in fact do manage a large number of aspects of your daily life, and where we also orchestrate it so you’ll never suspect that we are behind everything, subtly manipulating reality) where, when the beer arrived at the table, everyone who looked vaguely hipster-like claimed vocally not in fact to be even remotely hipster-like:</p>
+
+
 
 
 
@@ -190,8 +351,10 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 <p><em>Nerd tip #2 of the week:</em> The <a href="http://clang-analyzer.llvm.org/">Clang static C++ analyser</a> is brilliant. If you program in C++, and you need to up your game, integrating this into your workflow is a solid step in the right direction. I’ve been using this via the <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build method</a>. Let me know in the comments if you’d like to know more about this!</p>
 <p>After some <a href="http://www.pcservices.co.za/">professional</a> ethernet cabling down to the sort-of basement of our new house, I have checked off another item from my non-existent bucket list: <em>We now have a lab at our house.</em> So far there are computers, all kinds of DIY supplies and art stuff for the genetic offspring units, and all of this to <em>create</em>. I spent some of the best times of my life in labs of some sort of another. It’s really great bringing some of that back home to my clan.</p>
 <p>Have a great week kids, see you on the other side!</p>
-]]></content:encoded></item><item><title>What a country!</title><link>https://cpbotha.net/2015/05/23/what-a-country/</link><pubDate>Sat, 23 May 2015 13:35:29 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/05/23/what-a-country/</guid><description> Exactly ten minutes after having made a single discreet phone call, a truck arrives at one’s house with thousands of pieces of lovingly chopped braai wood. The amount of one’s choosing is then lovingly yet efficiently stacked right by the holy altar of meat scorching, after which the truck leaves on its next mission.
+ ]]></content:encoded></item><item><title>What a country!</title><link>https://cpbotha.net/2015/05/23/what-a-country/</link><pubDate>Sat, 23 May 2015 13:35:29 +0000</pubDate><guid>https://cpbotha.net/2015/05/23/what-a-country/</guid><description>Exactly ten minutes after having made a single discreet phone call, a truck arrives at one’s house with thousands of pieces of lovingly chopped braai wood. The amount of one’s choosing is then lovingly yet efficiently stacked right by the holy altar of meat scorching, after which the truck leaves on its next mission.
 (P.S. The wood is rooikrans.)</description><content:encoded><![CDATA[ <p>Exactly ten minutes after having made a single discreet phone call, a truck arrives at one’s house with thousands of pieces of lovingly chopped braai wood. The amount of one’s choosing is then lovingly yet efficiently stacked right by the holy altar of meat scorching, after which the truck leaves on its next mission.</p>
+
+
 
 
 
@@ -209,8 +372,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 </figure>
 
 <p>(P.S. The wood is <a href="http://www.wildcard.co.za/blog.htm?action=view-post&amp;id=2945">rooikrans</a>.)</p>
-]]></content:encoded></item><item><title>Time-traveling Danube Dubstep in my BBQ [Weekly Head Voices #58]</title><link>https://cpbotha.net/2011/09/27/time-traveling-danube-dubstep-in-my-bbq-weekly-head-voices-58/</link><pubDate>Tue, 27 Sep 2011 18:29:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/09/27/time-traveling-danube-dubstep-in-my-bbq-weekly-head-voices-58/</guid><description> The title is pretty close to pure gobbledygook, but that’s what you get when the foundations of physics seem to have been rattled every so slightly. Let’s first take a gander at this gentleman, pointed out to me by TNR, as he rattles the foundations of absolutely insane facial expressions. He really gets going at about 23 seconds into the video:
-The insane asylum soundtrack accompanying this artwork belongs to the music genre called Dubstep, music that is notoriously hard to dance well to.</description><content:encoded><![CDATA[ <p>The title is pretty close to pure gobbledygook, but that’s what you get when the foundations of physics seem to have been rattled every so slightly. Let’s first take a gander at this gentleman, pointed out to me by TNR, as he rattles the foundations of absolutely insane facial expressions. He really gets going at about 23 seconds into the video:</p>
+ ]]></content:encoded></item><item><title>Time-traveling Danube Dubstep in my BBQ [Weekly Head Voices #58]</title><link>https://cpbotha.net/2011/09/27/time-traveling-danube-dubstep-in-my-bbq-weekly-head-voices-58/</link><pubDate>Tue, 27 Sep 2011 18:29:00 +0000</pubDate><guid>https://cpbotha.net/2011/09/27/time-traveling-danube-dubstep-in-my-bbq-weekly-head-voices-58/</guid><description>The title is pretty close to pure gobbledygook, but that’s what you get when the foundations of physics seem to have been rattled every so slightly. Let’s first take a gander at this gentleman, pointed out to me by TNR, as he rattles the foundations of absolutely insane facial expressions. He really gets going at about 23 seconds into the video:
+The insane asylum soundtrack accompanying this artwork belongs to the music genre called Dubstep, music that is notoriously hard to dance well to. However, the following gentleman seems to have mastered the art just perfectly (if you’re really pressed for time, start watching at 1:13):</description><content:encoded><![CDATA[ <p>The title is pretty close to pure gobbledygook, but that’s what you get when the foundations of physics seem to have been rattled every so slightly. Let’s first take a gander at this gentleman, pointed out to me by TNR, as he rattles the foundations of absolutely insane facial expressions. He really gets going at about 23 seconds into the video:</p>
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/JEcj2xi9Ctc?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
@@ -232,7 +395,7 @@ The insane asylum soundtrack accompanying this artwork belongs to the music genr
 <blockquote>
 <p>I think the final and perhaps the most profound pacifying force is an “escalator of reason.” As literacy, education, and the intensity of public discourse increase, people are encouraged to think more abstractly and more universally, and that will inevitably push in the direction of a reduction of violence. People will be tempted to rise above their parochial vantage point, making it harder to privilege their own interests over others. <strong>Reason leads to the replacement of a morality based on tribalism, authority and puritanism with a morality based on fairness and universal rules.</strong> And it encourages people to recognize the futility of cycles of violence, and to see violence as a problem to be solved rather than as a contest to be won.</p>
 </blockquote>
-]]></content:encoded></item><item><title>Rebecca Black is OK! [Weekly Head Voices #56]</title><link>https://cpbotha.net/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/</link><pubDate>Wed, 14 Sep 2011 21:35:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/</guid><description> Probably the most brainless song on the whole of YouTube must be “Friday” (don’t click that link, please) by Rebecca Black. At one stage, she’s seriously singing about leaving home and going to the bus stop on Friday. As if that’s not mentally taxing enough for her, her friends arrive in a car, and, wait for it, SHE HAS TO DECIDE IN WHICH SEAT TO SIT. Heavens. Talk about broody teenager angst.</description><content:encoded><![CDATA[ <p>Probably the most brainless song on the whole of YouTube must be <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=_BI0szjpxJs" title="link to the original Friday video. DO NOT CLICK!">“Friday”</a> (don’t click that link, please) by Rebecca Black. At one stage, she’s seriously singing about leaving home and going to the bus stop on Friday. As if that’s not mentally taxing enough for her, her friends arrive in a car, and, wait for it, SHE HAS TO DECIDE IN WHICH SEAT TO SIT. Heavens. Talk about broody teenager angst. DANGIT I MISS GRUNGE!</p>
+ ]]></content:encoded></item><item><title>Rebecca Black is OK! [Weekly Head Voices #56]</title><link>https://cpbotha.net/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/</link><pubDate>Wed, 14 Sep 2011 21:35:44 +0000</pubDate><guid>https://cpbotha.net/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/</guid><description>Probably the most brainless song on the whole of YouTube must be “Friday” (don’t click that link, please) by Rebecca Black. At one stage, she’s seriously singing about leaving home and going to the bus stop on Friday. As if that’s not mentally taxing enough for her, her friends arrive in a car, and, wait for it, SHE HAS TO DECIDE IN WHICH SEAT TO SIT. Heavens. Talk about broody teenager angst. DANGIT I MISS GRUNGE!</description><content:encoded><![CDATA[ <p>Probably the most brainless song on the whole of YouTube must be <a data-rel="lightbox-video-0" href="http://www.youtube.com/watch?v=_BI0szjpxJs" title="link to the original Friday video. DO NOT CLICK!">“Friday”</a> (don’t click that link, please) by Rebecca Black. At one stage, she’s seriously singing about leaving home and going to the bus stop on Friday. As if that’s not mentally taxing enough for her, her friends arrive in a car, and, wait for it, SHE HAS TO DECIDE IN WHICH SEAT TO SIT. Heavens. Talk about broody teenager angst. DANGIT I MISS GRUNGE!</p>
 <p>In any case, I was convinced that Rebecca Black was a portent of the end of the world as we know it, probably due to an unstoppable tsunami of vacuous stupidity crashing through the whole of civilization (you have to admit, there are signs. what signs? well mostly politicians and managers). However, due to a recent instance of such blinding brilliance that I had to don my mental steampunk goggles of total darkness (yes, the ones I’ll be wearing to Burning Man when I go there), I have to revise my opinion of Rebecca. You see, her musical atrocity has acted as a catalyst for the creation of the musical masterpiece that is Braaiday! Seat yourself comfortably, and experience it:</p>
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/gLyLvCXYKUg?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
@@ -257,4 +420,4 @@ The insane asylum soundtrack accompanying this artwork belongs to the music genr
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/50xynq4xmCw?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,6 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apple watch on voices in my head</title><link>https://cpbotha.net/tags/apple-watch/</link><description>Recent content in apple watch on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 24 Jul 2018 20:49:20 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/apple-watch/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #149: I forgot to proof-read this.</title><link>https://cpbotha.net/2018/07/24/weekly-head-voices-149/</link><pubDate>Tue, 24 Jul 2018 20:49:20 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/24/weekly-head-voices-149/</guid><description> Part of the Sunday morning trail. Although I really enjoy these, I’m at my happiest running down antelope on the savannah. Antelope strictly-speaking not required, but those wide open plains on the other hand…
-This, the one hundred and forty ninth edition of the Weekly Head Voices, covers the week from Monday July 16 to Sunday July 22 of the year 2018.
-This week, we have apple watch running adventures, deep learning in production (finally), yet another focus tip and finally a youtube poetry reading.</description><content:encoded><![CDATA[ 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Apple Watch on voices in my head</title><link>https://cpbotha.net/tags/apple-watch/</link><description>Recent content in Apple Watch on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 21:43:04 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/apple-watch/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices on Monday 2023-12-18</title><link>https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/</link><pubDate>Mon, 18 Dec 2023 20:55:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/</guid><description> First day back after two day hike in the Cape of Good Hope Nature reserve (the park containing Cape Point). Day 1 was about 14km, and day two was about 20km. Group of 11 people, so was interesting balancing hiking styles. The double peak crossing at the end of day 2 in the summer heat was challenging! Was really great seeing these particular old friends. We did our previous multi-day hike together, before life and family, in the late 90s at Magoebaskloof! Unpaired and re-paired various Apple Watch units as they waterfall (aka hand-me-down) through my family. We&amp;rsquo;ll soon do a similar action with the new MacBook that has entered the family. You can say many things about Apple, but they do make hardware that is eminently hand-downable. I&amp;rsquo;ve been having more fun than I expected publishing a low-pressure daily #lifelog over on the emacs.ch Mastodon instance emacs.ch. I have just over 30 days covered &amp;ndash; that tag will give you more interesting folks who are also worth checking out. However, more recently I was quite disappointed by my fellow instance users voting to defederate (block) threads.net&amp;rsquo;s attempt to interoperate with the mastodon universe via ActivityPub (the sort of thing ActivityPub was designed for&amp;hellip;) before even giving it a chance. In the end, I am truly happy with whatever the instance admin decides, because him getting overloaded is an entirely valid reason to block pre-emptively, but I am disappointed in the super vocal armchair activist folks who feel that this is their day to exact justice on Meta. You can read my contribution to that discussion if you want (So sorry: Friends stefanv and k0b13 have pointed out that that is not visible to the public, it&amp;rsquo;s an instance-local discussion. I&amp;rsquo;ll copy the contents of only my posts to the subsection below.). This is not my hill to die on by any stretch of the imagination, but it has served as a reminder that even your favourite social media platform (emacs.ch in my case) can go in directions that you don&amp;rsquo;t agree with. And so, I think this is as good a moment as any to move this #lifelog back to where it belongs, namely my blog, 23 years under my control and counting. threads.net users are more than welcome! 😀 Another advantage is that the path that content has to take from my private Emacs notes to Hugo is much more efficient thanks to the amazing Kaushal Modi&amp;rsquo;s ox-hugo. OTOH, I have a bit more setup work to do for each day&amp;rsquo;s post, vs just pasting the plaintext into the mastodon app or website. Hopefully I&amp;rsquo;ll be able to streamline the ox-hugo-lifelog workflow some more after this first edition. Who knows, maybe this is what the Weekly Head Voices wanted to be when it grew up. Whatever the case may be, please do note that #lifelog is an experiment. It could stop or morph or even move back to emacs.ch at any time! During the Christmas break, posting will be more erratic than usual. It&amp;rsquo;s Monday&amp;hellip; have a great week everyone! Figure 1: Panorama of Cape Point, made from one of the last peaks we had to cross at the end of day 2</description><content:encoded><![CDATA[ <ul>
+<li>First day back after <a href="https://www.sanparks.org/parks/table-mountain/what-to-do/activities/hikes-walks-trails">two day hike in the Cape of Good Hope Nature</a> reserve (the park containing Cape Point). Day 1 was about 14km, and day two was about 20km. Group of 11 people, so was interesting balancing hiking styles. The double peak crossing at the end of day 2 in the summer heat was challenging! Was really great seeing these particular old friends. We did our previous multi-day hike together, before life and family, in the late 90s at <a href="https://www.hikingsouthafrica.co.za/magoebaskloof-hiking-trail/">Magoebaskloof</a>!</li>
+<li>Unpaired and re-paired various Apple Watch units as they waterfall (aka hand-me-down) through my family. We&rsquo;ll soon do a similar action with the new MacBook that has entered the family. You can say many things about Apple, but they do make hardware that is eminently hand-downable.</li>
+<li>I&rsquo;ve been having more fun than I expected publishing a low-pressure daily <a href="https://emacs.ch/tags/lifelog">#lifelog over on the emacs.ch Mastodon instance emacs.ch</a>. I have just over 30 days covered &ndash; that tag will give you more interesting folks who are also worth checking out.
+<ul>
+<li><em>However</em>, more recently I was quite disappointed by my fellow instance users voting to defederate (block) <a href="https://daringfireball.net/linked/2023/12/14/threads-has-begun-federating-via-activitypub">threads.net&rsquo;s attempt to interoperate with the mastodon universe via ActivityPub</a> (the sort of thing ActivityPub was designed for&hellip;) before even giving it a chance. In the end, I am truly happy with whatever the instance admin decides, because him getting overloaded is an entirely valid reason to block pre-emptively, but I am disappointed in the super vocal armchair activist folks who feel that this is their day to exact justice on Meta. You can read <a href="https://emacs.ch/@cpbotha/111583241125109210">my contribution to that discussion</a> if you want (So sorry: Friends stefanv and k0b13 have pointed out that that is not visible to the public, it&rsquo;s an instance-local discussion. I&rsquo;ll copy the contents of only my posts to the subsection below.).</li>
+<li>This is not my hill to die on by any stretch of the imagination, but it has served as a reminder that even your favourite social media platform (emacs.ch in my case) can go in directions that you don&rsquo;t agree with.</li>
+<li>And so, I think this is as good a moment as any to move this #lifelog back to where it belongs, namely my blog, 23 years under my control and counting.
+<ul>
+<li>threads.net users are more than welcome! 😀</li>
+</ul>
+</li>
+<li>Another advantage is that the path that <em>content</em> has to take from my private Emacs notes to Hugo is much more efficient thanks to the amazing Kaushal Modi&rsquo;s <a href="https://github.com/kaushalmodi/ox-hugo">ox-hugo</a>.</li>
+<li>OTOH, I have a bit more setup work to do for each day&rsquo;s post, vs just pasting the plaintext into the mastodon app or website. Hopefully I&rsquo;ll be able to streamline the ox-hugo-lifelog workflow some more after this first edition.</li>
+<li>Who knows, maybe this is what the <em>Weekly</em> Head Voices wanted to be when it grew up.</li>
+<li>Whatever the case may be, please do note that #lifelog is an experiment. It could stop or morph or even move back to emacs.ch at any time!
+<ul>
+<li>During the Christmas break, posting will be more erratic than usual.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>It&rsquo;s Monday&hellip; have a great week everyone!</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="20231217-cape-point-panorama-cpbotha.net.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/20231217-cape-point-panorama-cpbotha.net_hu_7df966f5d617f960.jpg 480w,
+            
+                
+                https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/20231217-cape-point-panorama-cpbotha.net_hu_fb0f09c4c2692a7d.jpg 800w,
+            
+                
+                https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/20231217-cape-point-panorama-cpbotha.net_hu_bccc2e91c610a777.jpg 1200w,
+            
+                
+                https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/20231217-cape-point-panorama-cpbotha.net_hu_286ec67b6ef23ec.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/12/18/daily-head-voices-on-monday-2023-12-18/20231217-cape-point-panorama-cpbotha.net_hu_fb0f09c4c2692a7d.jpg"
+            
+
+        
+            alt="Figure 1: Panorama of Cape Point, made from one of the last peaks we had to cross at the end of day 2"/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Panorama of Cape Point, made from one of the last peaks we had to cross at the end of day 2</p>
+        </figcaption>
+</figure>
+
+<h2 id="addendum-my-emacs-dot-ch-discussion-posts-that-you-can-t-access-if-you-re-not-part-of-the-instance">Addendum: My emacs.ch discussion posts that you can&rsquo;t access if you&rsquo;re not part of the instance</h2>
+<blockquote>
+<p>I&rsquo;m super disappointed in the insularity here, but unfortunately not completely surprised.</p>
+<p>There is also a future where threads.net participates, along with a multitude of other instances, in a federated future, as was envisioned with ActivityPub&rsquo;s design.</p>
+<p>The creator of Mastodon is quite supportive of this connection by the way: <a href="https://mastodon.social/@Gargron/111577245779454067">https://mastodon.social/@Gargron/111577245779454067</a></p>
+<p>How about at the very least giving it an honest try instead of shutting the door in someone&rsquo;s face before even trying to reach out?</p>
+<p>Look, I really <strong>really</strong> love this mastodon instance. It has become my home. I was (and still am) one of the first (modest) liberapay supporters. However, if my housemates feel the need to not even give this connection with threads.net an honest shot, I will strongly consider finding a new home.</p>
+<p>Sorry @louis I love it here, but I have a lot of difficulty with shoot first ask questions later.</p>
+<p>Some more reading:</p>
+<ul>
+<li><a href="https://daringfireball.net/linked/2023/12/14/threads-has-begun-federating-via-activitypub">https://daringfireball.net/linked/2023/12/14/threads-has-begun-federating-via-activitypub</a></li>
+<li><a href="https://daringfireball.net/linked/2023/06/19/not-that-kind-of-open">https://daringfireball.net/linked/2023/06/19/not-that-kind-of-open</a></li>
+</ul>
+</blockquote>
+<p>Instance admin gave a very nice and balanced reply (frankly a breath of fresh air between all of the other quite emotive arguments), to which I then replied:</p>
+<blockquote>
+<p>Thank you very much @louis I am grateful that you have provided this instance, and I am grateful for this interaction.</p>
+<p>As a thought experiment:</p>
+<p>As long as threads.net&rsquo;s ActivityPub interaction continues following best intentions, e.g. simply allowing for bi-directional interaction between users on all networks (they are doing one direction now, mosseri promised other direction in the new year) and not loading any part of the system more than is reasonable, why should we not support that interoperation along the technical guidelines of ActivityPub? However, as soon as they jeopardy this relationship in the ways that you have mentioned, <strong>then</strong> one can evaluate defederation just like one would do for any other misbehaving node. However, doing so pre-emptively, based on imagined future violations, is a slippery slope.</p>
+<p>On a more practical note:</p>
+<p>In the end, this is your passion project, and you get to decide how much time and effort you want to put in. I can imagine that you <strong>don&rsquo;t</strong> want to wait and see, because <strong>if</strong> something happens, it will cost you time and energy. That&rsquo;s entirely your right to decide, and the rest of us are welcome to choose your way or the highway. :)</p>
+</blockquote>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #149: I forgot to proof-read this.</title><link>https://cpbotha.net/2018/07/24/weekly-head-voices-149/</link><pubDate>Tue, 24 Jul 2018 20:49:20 +0000</pubDate><guid>https://cpbotha.net/2018/07/24/weekly-head-voices-149/</guid><description> Part of the Sunday morning trail. Although I really enjoy these, I’m at my happiest running down antelope on the savannah. Antelope strictly-speaking not required, but those wide open plains on the other hand…
+This, the one hundred and forty ninth edition of the Weekly Head Voices, covers the week from Monday July 16 to Sunday July 22 of the year 2018.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -66,4 +154,4 @@ This week, we have apple watch running adventures, deep learning in production (
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/OonDPGwAyfQ?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,8 +1,187 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>health on voices in my head</title><link>https://cpbotha.net/tags/health/</link><description>Recent content in health on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 20 Apr 2021 08:54:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/health/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description> Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
-Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.
-Learn you a tiny bit of Erlang for Great Good! Last week I attended a meetup that turned out to be primarily about Erlang and not so much about automated crypto arbitrage, the other topic of the talk.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Health on voices in my head</title><link>https://cpbotha.net/tags/health/</link><description>Recent content in Health on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 12 Feb 2024 07:42:28 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/health/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 6 of 2024: Head Like a Hole</title><link>https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/</link><pubDate>Sun, 11 Feb 2024 18:50:00 +0200</pubDate><guid>https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/</guid><description>Why do I lifelog? One of the reasons to publish these lifelogs is to make available a peek into the minutiae of another life (mine) that could help someone else get out of a rut, or just supply some alternative input that&amp;rsquo;s not form their own mind.
+Put differently, I think that when I see what other people are doing and thinking day to day, it feels like a small, external disturbance (i.e. new information) that will help to nudge me in interesting and new directions.</description><content:encoded><![CDATA[ <h2 id="why-do-i-lifelog">Why do  I lifelog?</h2>
+<p>One of the reasons to publish these lifelogs is to make available a peek into the minutiae of another life (mine) that could help someone else get out of a rut, or just supply some alternative input that&rsquo;s not form their own mind.</p>
+<p>Put differently, I think that when I see what other people are doing and thinking day to day, it feels like a small, external disturbance (i.e. new information) that will help to nudge me in interesting and new directions.</p>
+<h3 id="journalling-vs-lifelogging">Journalling vs lifelogging</h3>
+<p>In my view, <em>journalling</em> is a more developed form of <em>lifelogging</em>. While the latter is just the direct jotting down of happenings and noteworthy items, the former, at least to me, entails more thinking and more processing, i.e. there is more retro- and introspection going on. I would prefer to be <em>journalling</em>, because that has even more benefits, but I&rsquo;ll take <em>lifelogging</em> when I can&rsquo;t make the prerequisite time to think, and really craft my words.</p>
+<p>On to the lifelog:</p>
+<h2 id="monday-2024-02-05">Monday 2024-02-05</h2>
+<ul>
+<li>Friend LM told me about wikitree.org, which is a collaborative online family tree thingy. I tried to import the myheritage.com exported GEDCOM, but wikitree.org wants me to reject or accept each and everyone of the hundreds of people in my database. This is understandable, but it&rsquo;s also a  blocker, exacerbated by the fact that wikitree&rsquo;s matching algorithm is quite bad.</li>
+<li>Casey Neistat&rsquo;s Apple Vision Pro review is insightful. See the bit from 7:20 onwards: <a href="https://youtu.be/UvkgmyfMPks?si=LWAoKBGCsyRZKzbe&amp;t=440">https://youtu.be/UvkgmyfMPks?si=LWAoKBGCsyRZKzbe&amp;t=440</a> &ndash; &ldquo;&hellip; This is it. This is the future of computing&hellip;&rdquo;
+<ul>
+<li>also see my tweet embedded below</li>
+</ul>
+</li>
+<li>NVIDIA&rsquo;s GenAI competition <a href="https://www.nvidia.com/en-us/ai-data-science/generative-ai/rtx-developer-contest/">https://www.nvidia.com/en-us/ai-data-science/generative-ai/rtx-developer-contest/</a>
+<ul>
+<li>Use TensorRT or TensorRT-LLM on Windows to build something cool, submit by Feb 23, win RTX 4090 and GTC conf attendance. EZ PZ!</li>
+</ul>
+</li>
+<li>Remember that life is <em>supposed</em> to be just a long sequence of problems that you need to solve.</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is such a fun &quot;review&quot; of the Apple Vision Pro by Casey Neistat, but his discussion at 7:20 on the significance of the product is so spot on.<br><br>I had similar ideas about ubiquitous face-computing back in 2009: <a href="https://t.co/v5KR0cBQgc">https://t.co/v5KR0cBQgc</a> <a href="https://t.co/au9RBh7as0">https://t.co/au9RBh7as0</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1754421449719193753?ref_src=twsrc%5Etfw">February 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="avp-angry-gf.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/avp-angry-gf_hu_b5f62d2dc15edfd3.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/avp-angry-gf_hu_59e7dd8328751436.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/avp-angry-gf_hu_b31467e1ec255b77.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/avp-angry-gf_hu_c35fee7f6f8120f9.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/02/11/daily-head-voices-2024-02-05_11/avp-angry-gf_hu_59e7dd8328751436.jpg"
+            
+
+        
+            alt="Figure 1: My favourite AVP meme at the moment! (thanks friend Kobie!)"/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>My favourite AVP meme at the moment! (thanks friend Kobie!)</p>
+        </figcaption>
+</figure>
+
+<h2 id="tuesday-2024-01-06">Tuesday 2024-01-06</h2>
+<ul>
+<li>Using inkscape to draw SVG glyphs which can be converted with <a href="https://react-svgr.com/">svgr</a> into React components, for my visualization project. This works so well!</li>
+<li>Definitely a bit stressed about tomorrow&rsquo;s surgery. Also little throat niggle, and as if that was not enough, stomach issues due to droëwors I ate in the afternoon to preload a bit for tomorrow&rsquo;s required fasting.
+<ul>
+<li>Narrator: This would be followed by one of <em>the</em> worst nights in a long time, including fever chills, nausea, and so on.</li>
+</ul>
+</li>
+<li>My brain keeps on jumping on ideas for 3D / VR / AR / AI friendly / native ideas for managing personal knowledge / notes
+<ul>
+<li>on the one hand, it feels like the atomic <a href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten</a> approach could work well here</li>
+<li>on the other, we have chunking techniques to break up documents, so that we can extract the nuggets we want in order to embed them
+<ul>
+<li>this chunking can be dynamic and adaptive, perhaps even going down to sentences and individual diagrams, or dynamically constructed chunks consisting of sub-chunks merged from different sources</li>
+</ul>
+</li>
+<li>in the end, will it help  or even just be interesting to be able to walk / move through / manipulate different projections of your (or someone else&rsquo;s) thoughts, possibly even connected in different ways?</li>
+</ul>
+</li>
+</ul>
+<h2 id="wednesday-2024-01-07">Wednesday 2024-01-07</h2>
+<ul>
+<li>Microsoft Lens makes me login every single time, and is quite temperamental
+<ul>
+<li>alternatives are OneDrive app, then select &ldquo;scan document&rdquo; or Files app, then select &ldquo;scan document&rdquo;</li>
+</ul>
+</li>
+<li>At Summerhill day clinic for the excision of the morpheaform basal cell carcinoma (BCC) on my forehead
+<ul>
+<li>Fortunately, the doctor decided the excision on my back (with clean borders pronounced by pathology lab) does not need to be re-excised.</li>
+<li>Excision of 2cm x 1.5cm patch from my forehead via <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/mohs-surgery">Mohs surgery</a> is successful after first attempt, happiness!</li>
+<li>Reconstructive surgeon however now has a challenge: How to close up hole with no loose skin in sight? (I am a tightly wrapped person)
+<ul>
+<li>problem is solved with step-wise incision from the top middle of my forehead all the way down to my right temple, about 20cm in total.</li>
+<li>I look like I could be the son of Frankenstein and Harry Potter</li>
+<li>The care at Summerhill is beyond excellent. Now I just have to follow instructions, drink many pills, and my new friend-for-life Scar should heal up nicely.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="thursday-2024-01-08">Thursday 2024-01-08</h2>
+<ul>
+<li>Working from home because reasons</li>
+<li>I have to work hard to focus, the medication seems to affect my concentration. I will grit my teeth harder.</li>
+<li>In break time, tried out <a href="https://www.modular.com/blog/mojo-sdk-v0-7-now-available-for-download">Mojo v0.7.0 (released 2024-01-25)</a> through its REPL and also just a simple <code>hello.mojo</code>, which compiled into a nice 300kB binary on this MacBook! Cautiously excited for the future of this. (also&hellip;. <a href="https://en.wikipedia.org/wiki/Chris_Lattner">Chris Lattner</a>! 😍)</li>
+</ul>
+<h2 id="friday-2024-01-09">Friday 2024-01-09</h2>
+<ul>
+<li>In the morning, got mu4e setup and working on the new MacBook, although I thought I was not going to need this mail client
+<ul>
+<li>What is your favourite mail client?</li>
+<li>I use the Fastmail web client, mu4e for Emacs and macOS Mail, but none of them is perfect. mu4e comes close. ;)</li>
+</ul>
+</li>
+<li>Really struggled during the day with drowsiness, although I&rsquo;m sleeping extra well every night.</li>
+<li>By the end, at least was able to make demo video of my in-progress visualization project.</li>
+</ul>
+<h2 id="saturday-2024-01-10">Saturday 2024-01-10</h2>
+<ul>
+<li>head still feeling quite woozy</li>
+<li>happy to have kids at home, and have a pretty relaxed morning</li>
+<li>I would really like to write / create something today. What?</li>
+<li>family tree updates
+<ul>
+<li>tried out ancestris, which is unusably slow on my m1pro. just getting a context menu on a person in the tree, or scrolling around, has too much lag. Tried on my Windows desktop where it&rsquo;s better but still really slow.</li>
+<li>Went back to wikitree (recommended by LM) where I updated some more records (extremely laboriously).</li>
+<li><a href="https://www.familysearch.org/en/">https://www.familysearch.org/en/</a> has been really useful for scans of church registers and so on, confirming more of my earlier findings.
+<ul>
+<li>See for example <a href="https://www.familysearch.org/photos/artifacts/149882910">https://www.familysearch.org/photos/artifacts/149882910</a> which just came in as I was typing this. That&rsquo;s the death notice of my paternal great grandmother in 1919, very shortly after the birth of my grandfather.</li>
+</ul>
+</li>
+<li>I think I might have spent too much time on this today. There&rsquo;s a bit of a dopamine rush every time you solve a mini riddle. Here also I would like to have something shareable and reusable for other members of my family. For that, wikitree, although painful, seems like a good bet.</li>
+</ul>
+</li>
+<li>mind wandered at 13:30ish, of course it ended up in infinite canvases and pkm
+<ul>
+<li>wanted to keep on letting it wander, but also wanted to use laptop to read about freeform
+<ul>
+<li>Apple Freeform looks like the pretty-ok-like-notes canvas solution: <a href="https://youtu.be/y8zekgRCFIA?si=a4ronKU-tBslTIue">https://youtu.be/y8zekgRCFIA?si=a4ronKU-tBslTIue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Instead of going to bed early, experimented with round-tripping markdown to docx and back with pandoc. See tomorrow for results.</li>
+</ul>
+<h2 id="sunday-2024-01-11">Sunday 2024-01-11</h2>
+<ul>
+<li>Briefly tried out the new(ish) built-in <a href="https://support.apple.com/en-za/guide/iphone/iph0e5ca7dd3/ios">iOS Journal app</a>
+<ul>
+<li>Super nice that it taps into your activities (photos, music, workouts, etc.) and makes recommendations for packets of media you could add to a journal, all of this entirely on-device.</li>
+<li>Private, encourages folks to lock the app and so on.</li>
+<li>No export capability, so your journals remain utterly locked in for now.</li>
+<li>Makes it easy to configure reminders that will prompt you to write  a journal at specific moments during the week.</li>
+<li>Minimalistic and well-executed app, will probably get quite a few iPhone users to start journalling, but not for me. I already have too many Apple apps in my personal system that I need to use (e.g. Apple Notes) but that don&rsquo;t interoperate particularly well with other systems.</li>
+</ul>
+</li>
+<li>Spent some more time on familysearch.org creating and attaching person records (from my family) to scans of old archive documents. Also uploaded a PDF of hand-written notes made by one of my family members from the headstones on a farm on which a number of my ancestors were buried.
+<ul>
+<li>Two-world problem. Bringing the physical into the digital.</li>
+<li><strong>familysearch really does work better than wikitree&hellip;</strong></li>
+</ul>
+</li>
+<li>About that Two World Problem. Had some thoughts about it in the context of my personal knowledge management, but it was slightly too much for the bullets I had allocated to it, and so it become a short post titled <a href="/2024/02/11/two-world-problem-and-pkm/">On the two world problem and personal knowledge management</a>.
+<ul>
+<li>In an ideal world, I am able to publish mini posts like that on a weekly basis.</li>
+</ul>
+</li>
+<li>Oh wait, I also made a short post on vxlabs with the results of last night&rsquo;s pandoc experiments, titled <a href="https://vxlabs.com/2024/02/11/pandoc-roundtrip-from-markdown-to-docx-and-back/">Pandoc roundtrip from markdown to docx and back</a>
+<ul>
+<li>In this case, I went direct to Hugo markdown instead of starting in Emacs Orgmode first, in order to further reduce activation energy. This makes sense for posts I want to get published where I don&rsquo;t necessarily need the benefit of having the content integrated with my main notes database.</li>
+</ul>
+</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description>Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
+Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
 from Monday April 12 to Sunday April 18, 2021, and focusing on the programming
 language Erlang and the evil that is breakfast.</p>
+
+
 
 
 
@@ -18,22 +197,26 @@ language Erlang and the evil that is breakfast.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_3f4a51e22e02c3ea.jpg 480w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg 800w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_daf143d3ce11da7b.jpg 1200w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_df2ded2b472dbbe2.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg"
             
 
         
-            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong."/> </a><figcaption>
+            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong."/> </a><figcaption>
             <p>Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong.</p>
         </figcaption>
 </figure>
@@ -160,9 +343,9 @@ personal intellectual requirements.</p>
 <p>Next week: A whole bunch of information that in fact does constitue financial
 and investment advice that I take full responsibility for. (haha just
 joking. it&rsquo;ll be politics or religion.)</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description> Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description>Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
 The passing of time usually seems to be quite a theoretical affair, but at this moment I can really feel the year taking its last few breaths.
-(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10.</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
+(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10. By this reasoning, the end of the current decade is still more than a year away, on December 31, 2020. Yes, the calendar has changed drastically over the years, but the principle of when decades start and end is the same.)</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
 Head Voices!</p>
 <p>The passing of time usually seems to be quite a theoretical affair, but at this
 moment I can really feel the year taking its last few breaths.</p>
@@ -199,22 +382,22 @@ the WHV Monday looks back on the days from Monday December 9 to Sunday December
   
   srcset='
   
-    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_52a86bef4be3fcfe.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_d1925304afd824a7.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_2be7c8e5577b4875.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg"
   
 
    />
@@ -350,22 +533,22 @@ that&rsquo;s ok. The scenery was epic, and getting back home was brilliant.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_f36e0d1f02b2b266.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_898647e673d4e8e8.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_1b01c56de5f46cb7.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg"
   
 
    />
@@ -378,10 +561,11 @@ Helderberg hike to make this lovely panorama. It&rsquo;s better than the panoram
 made by myself, so I&rsquo;m giving you this one. Click for higher resolution.</p>
 </figcaption>
 </figure>
-]]></content:encoded></item><item><title>Weekly Head Voices #159: Extreme.</title><link>https://cpbotha.net/2018/12/19/weekly-head-voices-159-extreme/</link><pubDate>Wed, 19 Dec 2018 21:16:49 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/12/19/weekly-head-voices-159-extreme/</guid><description> The view from Waterkloof Restaurant’s balcony, on a fairly perfect evening.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #159: Extreme.</title><link>https://cpbotha.net/2018/12/19/weekly-head-voices-159-extreme/</link><pubDate>Wed, 19 Dec 2018 21:16:49 +0000</pubDate><guid>https://cpbotha.net/2018/12/19/weekly-head-voices-159-extreme/</guid><description> The view from Waterkloof Restaurant’s balcony, on a fairly perfect evening.
 In theory, this edition should cover the period of time from Monday November 19 to today, Wednesday December 19, 2018.
-I am very late with this post, because down here we were first busy winding down the year with all of the completion-madness that that entails, and then the vacation started starting.
-It hasn’t yet stopped being busy starting.</description><content:encoded><![CDATA[ 
+I am very late with this post, because down here we were first busy winding down the year with all of the completion-madness that that entails, and then the vacation started starting.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -431,6 +615,8 @@ It hasn’t yet stopped being busy starting.</description><content:encoded><![CD
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2018/12/geyserwise_tse.jpg">
     <img
         
@@ -467,6 +653,8 @@ It hasn’t yet stopped being busy starting.</description><content:encoded><![CD
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2018/12/bettys_gravel_running.jpg">
     <img
         
@@ -478,9 +666,9 @@ It hasn’t yet stopped being busy starting.</description><content:encoded><![CD
         </figcaption>
 </figure>
 </p>
-]]></content:encoded></item><item><title>Weekly Head Voices #156: Karma Chameleon.</title><link>https://cpbotha.net/2018/10/23/weekly-head-voices-156-karma-chameleon/</link><pubDate>Tue, 23 Oct 2018 20:56:19 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/10/23/weekly-head-voices-156-karma-chameleon/</guid><description> Scene from a recent lunch with a very flat cat. Whilst appreciating these moments with direct experience mode set to 11, one does have to realise that it’s all much more complicated than it looks.
-Welcome to this, the 156th edition of the Weekly Head Voices, voices who are planning to sing about the two weeks from Monday October 8 to Sunday October 21.
-Summer has arrived, and it’s really very hot down here.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #156: Karma Chameleon.</title><link>https://cpbotha.net/2018/10/23/weekly-head-voices-156-karma-chameleon/</link><pubDate>Tue, 23 Oct 2018 20:56:19 +0000</pubDate><guid>https://cpbotha.net/2018/10/23/weekly-head-voices-156-karma-chameleon/</guid><description> Scene from a recent lunch with a very flat cat. Whilst appreciating these moments with direct experience mode set to 11, one does have to realise that it’s all much more complicated than it looks.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -515,6 +703,8 @@ Summer has arrived, and it’s really very hot down here.</description><content:
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2018/10/strand_run.jpg">
     <img
         
@@ -541,23 +731,23 @@ Summer has arrived, and it’s really very hot down here.</description><content:
 <p>I am slowly increasing my distance, but, more importantly, runs are again characterised by a whole lot of grinning.</p>
 <p>It has not escaped me that a man running on sandals (or barefoot) with a probably fairly unpredictable-looking grin on his big hairy face could give fellow humans pause for thought.</p>
 <h1 id="grab-bag-of-thought--andor-debate-provoking-pieces">Grab bag of thought- and/or debate-provoking pieces.</h1>
-<h2 id="not-exercising-worse-for-your-health-than-smoking-diabetes-and-heart-disease-study-reveals3"><a href="https://edition.cnn.com/2018/10/19/health/study-not-exercising-worse-than-smoking/index.html">Not exercising worse for your health than smoking, diabetes and heart disease, study reveals</a></h2>
+<h2 id="not-exercising-worse-for-your-health-than-smoking-diabetes-and-heart-disease-study-reveals"><a href="https://edition.cnn.com/2018/10/19/health/study-not-exercising-worse-than-smoking/index.html">Not exercising worse for your health than smoking, diabetes and heart disease, study reveals</a></h2>
 <p>Over a period of more than 20 years, 122000 people were put on a treadmill at Cleveland clinic. It turns out that exercise plays a crucial role in not dying.</p>
 <p>Core quote: “Being unfit on a treadmill or in an exercise stress test has a worse prognosis, as far as death, than being hypertensive, being diabetic or being a current smoker”.</p>
-<h2 id="avoiding-meat-and-dairy-is-single-biggest-way-to-reduce-your-impact-on-earth4"><a href="https://www.theguardian.com/environment/2018/may/31/avoiding-meat-and-dairy-is-single-biggest-way-to-reduce-your-impact-on-earth">Avoiding meat and dairy is ‘single biggest way’ to reduce your impact on Earth</a></h2>
+<h2 id="avoiding-meat-and-dairy-is-single-biggest-way-to-reduce-your-impact-on-earth"><a href="https://www.theguardian.com/environment/2018/may/31/avoiding-meat-and-dairy-is-single-biggest-way-to-reduce-your-impact-on-earth">Avoiding meat and dairy is ‘single biggest way’ to reduce your impact on Earth</a></h2>
 <p>I’m really sorry about this one, fellow meat lovers.</p>
 <p>This also looks like a pretty solid study. Core quote: “The new research shows that without meat and dairy consumption, global farmland use could be reduced by more than 75% – an area equivalent to the US, China, European Union and Australia combined – and still feed the world.”</p>
 <p>(I have slowly started to work on the vegetarian recipe section of my notes.)</p>
-<h2 id="worlds-largest-sleep-study-shows-too-much-shut-eye-can-be-bad-for-your-brain5"><a href="https://www.eurekalert.org/pub_releases/2018-10/uowo-wls100918.php">World’s largest sleep study shows too much shut-eye can be bad for your brain</a></h2>
+<h2 id="worlds-largest-sleep-study-shows-too-much-shut-eye-can-be-bad-for-your-brain"><a href="https://www.eurekalert.org/pub_releases/2018-10/uowo-wls100918.php">World’s largest sleep study shows too much shut-eye can be bad for your brain</a></h2>
 <p>It is <a href="/2017/12/29/the-2017-to-2018-transition-post/">well known</a> that we here at The Voices are huge fans of sleep.</p>
 <p>However, now it turns out that lots of sleep is not going to cut it. You have to sleep just the right amount: Not too much and not too little.</p>
 <p>You probably knew this, but this large study confirms it: Between 7 and 8 hours of sleep, no more and no less, is best for optimal mental performance.</p>
 <p>Hard hitting quote: “One startling revelation was that most participants who slept four hours or less performed as if they were almost nine years older.”</p>
 <h1 id="the-end">The End</h1>
 <p>Thank you for connecting with me by reading this post. I am already looking forward to our next encounter, whichever form that may take!</p>
-]]></content:encoded></item><item><title>You must vaccinate</title><link>https://cpbotha.net/2009/05/21/you-must-vaccinate/</link><pubDate>Thu, 21 May 2009 09:02:02 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/05/21/you-must-vaccinate/</guid><description> Image courtesy of dbtechno.com. I was mistakenly under the impression that, at least in my social circles, the whole vaccination issue had been put completely to rest, but based on the number of serious questions that I’ve been asked recently, this unfortunately does not seem to be the case.
+ ]]></content:encoded></item><item><title>You must vaccinate</title><link>https://cpbotha.net/2009/05/21/you-must-vaccinate/</link><pubDate>Thu, 21 May 2009 09:02:02 +0000</pubDate><guid>https://cpbotha.net/2009/05/21/you-must-vaccinate/</guid><description> Image courtesy of dbtechno.com. I was mistakenly under the impression that, at least in my social circles, the whole vaccination issue had been put completely to rest, but based on the number of serious questions that I’ve been asked recently, this unfortunately does not seem to be the case.
 For those of you who don’t have time, I’ll cut to the chase immediately:
-Yes, you simply must vaccinate your children.</description><content:encoded><![CDATA[ <figure>
+Yes, you simply must vaccinate your children. This is the best and safest choice, for both your child and your fellow humans.</description><content:encoded><![CDATA[ <figure>
 <img alt="" src="http://cpbotha.net/wp-content/uploads/2009/05/vaccine_autism_vaccinations.jpg" style="margin-left: 0px;"/>
 <figcaption>Image courtesy of dbtechno.com.</figcaption>
 </figure> 
@@ -642,4 +832,4 @@ and so that I can improve this article.</p>
 <ul>
 <li>July 25, 2012: <a href="http://io9.com/5928722/this-graph-of-whooping-cough-cases-in-washington-state-should-scare-the-crap-out-of-you" title="io9 article with increasing incidence of whooping cough in Washington State in 2012">Whooping Cough incidence in Washington State is up by 1300% in 2012</a> relative to 2011, most probably due to the anti-vaccination movement.</li>
 </ul>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

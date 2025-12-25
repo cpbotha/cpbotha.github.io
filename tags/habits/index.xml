@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>habits on voices in my head</title><link>https://cpbotha.net/tags/habits/</link><description>Recent content in habits on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 01 Jan 2023 16:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/habits/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2022 to 2023 transition post</title><link>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</link><pubDate>Sun, 01 Jan 2023 16:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</guid><description> Welcome to 2023 everyone, and to the traditional yearly year transition post!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Habits on voices in my head</title><link>https://cpbotha.net/tags/habits/</link><description>Recent content in Habits on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 09:55:44 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/habits/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2022 to 2023 transition post</title><link>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</link><pubDate>Sun, 01 Jan 2023 16:17:00 +0200</pubDate><guid>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</guid><description>Welcome to 2023 everyone, and to the traditional yearly year transition post!
 Figure 1: Scene from a recent windy family walk in Cape St Francis
 I wish all of you all of the best for this shiny new year twenty-twenty-three!
-(By the way, this, the first day of the year, is the earliest that the yearly transition post has ever appeared!)
-Blogging Over the past year, I published fifteen posts on this blog, 14 of which were &amp;ldquo;weekly&amp;rdquo; head voices posts (#237 to #250), and one the 2022 transition post.</description><content:encoded><![CDATA[ <p>Welcome to 2023 everyone, and to the <a href="/tags/transition/">traditional yearly year transition post</a>!</p>
+(By the way, this, the first day of the year, is the earliest that the yearly transition post has ever appeared!)</description><content:encoded><![CDATA[ <p>Welcome to 2023 everyone, and to the <a href="/tags/transition/">traditional yearly year transition post</a>!</p>
+
+
 
 
 
@@ -18,18 +19,22 @@ Blogging Over the past year, I published fifteen posts on this blog, 14 of which
               
             srcset='
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_9aeb90d9d01a11e9.jpg 480w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_8678af152961e9a.jpg 800w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_d62854548d79e21e.jpg 1200w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_4e0ce1b965a24760.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_8678af152961e9a.jpg"
             
 
         
@@ -59,8 +64,8 @@ good life.</p>
 <p>Invoking the goaccess log analysis tool using the incantation below reports that
 this site was visited by just over 126 thousand unique visitor IP numbers in
 the year up to December 27.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#cb4b16">export</span> <span style="color:#268bd2">DOMAIN</span>=cpbotha.net
-</span></span><span style="display:flex;"><span>(<span style="color:#859900">for</span> i in {1..11}; <span style="color:#859900">do</span> <span style="color:#cb4b16">echo</span> <span style="color:#268bd2">$DOMAIN</span>.access.log.<span style="color:#268bd2">$i</span>.gz; <span style="color:#859900">done</span>; <span style="color:#cb4b16">echo</span> <span style="color:#268bd2">$DOMAIN</span>.access.log) | xargs zcat -f -- | goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#6639ba">export</span> <span style="color:#953800">DOMAIN</span><span style="color:#0550ae">=</span>cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#0550ae">(</span><span style="color:#cf222e">for</span> i in <span style="color:#0550ae">{</span>1..11<span style="color:#0550ae">}</span><span style="color:#1f2328">;</span> <span style="color:#cf222e">do</span> <span style="color:#6639ba">echo</span> <span style="color:#953800">$DOMAIN</span>.access.log.<span style="color:#953800">$i</span>.gz<span style="color:#1f2328">;</span> <span style="color:#cf222e">done</span><span style="color:#1f2328">;</span> <span style="color:#6639ba">echo</span> <span style="color:#953800">$DOMAIN</span>.access.log<span style="color:#0550ae">)</span> <span style="color:#1f2328">|</span> xargs zcat -f -- <span style="color:#1f2328">|</span> goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><p>The most popular posts also over 2022 were the very old <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">2013 usa my data has
 left your building</a>, the still quite relevant <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">2016 migrating from gmail to
 fastmail</a> and my <a href="/2019/09/21/note-taking-strategy-2019/">2019 note-taking strategy post</a>.</p>
@@ -147,6 +152,8 @@ as well, but this is fine. <em>Any</em> kilometres are better than no kilometres
 
 
 
+
+
 <figure>
     <img
         
@@ -154,18 +161,22 @@ as well, but this is fine. <em>Any</em> kilometres are better than no kilometres
               
             srcset='
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_51b4310156cb6775.png 480w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_9b2d56329fea834b.png 800w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_44ff53ded7296414.png 1200w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_b6f0d925e5348190.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_9b2d56329fea834b.png"
             
 
         
@@ -328,9 +339,9 @@ the moment and its participants.</p>
 <p>For a while, you can truly appreciate the beauty of your surroundings, of the food
 and drink you might be enjoying, and of the humans in your company.</p>
 <p>In 2023, let us be expansive!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #194: 136 words a day</title><link>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</link><pubDate>Sun, 10 May 2020 23:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</guid><description> Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.
-This post quite compactly gazes back at the week from Monday May 4 to Sunday May 10.
-It starts with a short summary of my work week, followed by a story which you will hopefully enjoy.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #194: 136 words a day</title><link>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</link><pubDate>Sun, 10 May 2020 23:19:00 +0200</pubDate><guid>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</guid><description> Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -345,22 +356,26 @@ It starts with a short summary of my work week, followed by a story which you wi
               
             srcset='
             
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu_375a1371e2dd1a54.jpg 480w,
             
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu_fdd86842f9ddcde0.jpg 800w,
             
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu_7249dd9600e79b87.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu_48c0abab619b5985.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu_fdd86842f9ddcde0.jpg"
             
 
         
-            alt="Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies."/> </a><figcaption>
+            alt="Figure 1: From the oldies but goodies photo album, because I haven&rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies."/> </a><figcaption>
             <p>Figure 1: From the oldies but goodies photo album, because I haven&rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.</p>
         </figcaption>
 </figure>
@@ -438,7 +453,7 @@ publication that is intended for public consumption.</p>
 <h2 id="friendly-wishes">Friendly wishes</h2>
 <p>Thank you friends for meeting me here.</p>
 <p>I wish you all health and kindness and contentment.</p>
-]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+ ]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description>In this post, I explain how to get up and running with Emacs Orgmode habits.
 Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
 The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
 <p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
@@ -511,22 +526,22 @@ ago, I somehow kept on letting them slip.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_f5ebe94babcb0c44.png 480w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_a9cc921388380294.png 800w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_678f29c39cc0d732.png 1200w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_8cbade739c4c6438.png 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_a9cc921388380294.png"
   
 
    />
@@ -549,17 +564,17 @@ importantly, how long you have been streaking a particular habit.</p>
 <h3 id="global-configuration">Global configuration.</h3>
 <p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
 the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#953800">add-to-list</span> <span style="color:#032f62">&#39;org-modules</span> <span style="color:#032f62">&#39;org-habit</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
 </span></span></code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
 state logging for the task <code>DONE</code> state:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#57606a">;; each state with ! is recorded as state change</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; in this case I&#39;m logging TODO and DONE states</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-todo-keywords</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#953800">sequence</span> <span style="color:#0a3069">&#34;TODO(t!)&#34;</span> <span style="color:#0a3069">&#34;NEXT(n)&#34;</span> <span style="color:#0a3069">&#34;SOMD(s)&#34;</span> <span style="color:#0a3069">&#34;WAFO(w)&#34;</span> <span style="color:#0a3069">&#34;|&#34;</span> <span style="color:#0a3069">&#34;DONE(d!)&#34;</span> <span style="color:#0a3069">&#34;CANC(c!)&#34;</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; I prefer to log TODO creation also</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; log into LOGBOOK drawer</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-log-into-drawer</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
 </span></span></code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
 <p>Then, start creating the special habit nodes as explained in the following:</p>
 <p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
@@ -626,9 +641,11 @@ try again.</li>
 <li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
 maintain habits, especially non-daily ones.</li>
 </ul>
-]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
 In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
-One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -670,11 +687,13 @@ One more of my org2blog pull requests was merged in: You can now configure the t
 <p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
 <p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
 <p> </p>
-]]></content:encoded></item><item><title>Weekly Head Voices #119: Snowcrash.</title><link>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</link><pubDate>Sun, 26 Mar 2017 20:55:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</guid><description> This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #119: Snowcrash.</title><link>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</link><pubDate>Sun, 26 Mar 2017 20:55:32 +0000</pubDate><guid>https://cpbotha.net/2017/03/26/weekly-head-voices-119-snowcrash/</guid><description>This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.
 As is becoming sort of a tradition around these parts, I get to show you a photo or two of our over-nerding antidote trips into the wild.
 This is the path to the Koppie Alleen beach in the De Hoop Nature Reserve. Paths and photos of paths make me all pensive:</description><content:encoded><![CDATA[ <p>This edition of the not-quite-Weekly Head Voices covers the period of time from Monday March 6 to Sunday March 26, 2017.</p>
 <p>As is becoming sort of a tradition around these parts, I get to show you a photo or two of our over-nerding antidote trips into the wild.</p>
 <p>This is the path to the Koppie Alleen beach in the <a href="http://www.capenature.co.za/reserves/de-hoop-nature-reserve/">De Hoop Nature Reserve</a>. Paths and photos of paths make me all pensive:</p>
+
+
 
 
 
@@ -692,6 +711,8 @@ This is the path to the Koppie Alleen beach in the De Hoop Nature Reserve. Paths
 </figure>
 
 <p>The following impression is of the De Hoopvlei. The short hiking trail along the vlei turned my morning run into an epic one.</p>
+
+
 
 
 
@@ -734,4 +755,4 @@ This is the path to the Koppie Alleen beach in the De Hoop Nature Reserve. Paths
 <p>In any case, I wish you all great success and happiness staring into space!</p>
 <p>P.S. I nominated <a href="https://en.wikipedia.org/wiki/Alexandra_Elbakyan">Alexandra Elbakyan</a> for the brand-new <a href="https://www.media.mit.edu/disobedience/?ref=3c57421c098068c80298fd5fd3e18c74">MIT Media Lab Disobedience Prize</a>. If you have some time, and you feel that publically funded research results should be available to the public, please <a href="https://www.media.mit.edu/disobedience/?ref=3c57421c098068c80298fd5fd3e18c74">add your nomination</a>.</p>
 <p> </p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

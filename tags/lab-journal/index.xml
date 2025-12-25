@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lab journal on voices in my head</title><link>https://cpbotha.net/tags/lab-journal/</link><description>Recent content in lab journal on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 21 Sep 2019 16:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/lab-journal/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
-In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Lab Journal on voices in my head</title><link>https://cpbotha.net/tags/lab-journal/</link><description>Recent content in Lab Journal on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 21 Sep 2019 16:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/lab-journal/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description>At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &amp;ldquo;system&amp;rdquo; has co-evolved to support this.
 Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
-What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+What you&amp;rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &amp;ldquo;keep a lab journal&amp;rdquo;.</description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
 then</a>.</p>
 <p>In the intervening three and a half years, my note-taking has further evolved
 to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
@@ -12,6 +12,8 @@ management</em></a>.</p>
 <p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
 learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
 journal&rdquo;</a>.</p>
+<p><em>Note: You can now also read my more recent post <a href="/2023/04/11/note-taking-strategy-2023/">Note-taking strategy
+2023</a>.</em></p>
 <h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
 <p>My approach consists of four main components:</p>
 <p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
@@ -340,45 +342,45 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;/full/path/to/current/month-journal/&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#0a3069">&#34;t&#34;</span> <span style="color:#0a3069">&#34;Todo&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+headline</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;Tasks&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;j&#34;</span> <span style="color:#0a3069">&#34;Journal&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;p&#34;</span> <span style="color:#0a3069">&#34;Day planning&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)))</span>
 </span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
@@ -389,11 +391,13 @@ Pencil</a>.</li>
 <li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
 contact</a>.</li>
 </ul>
-]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description> I’m probably what one might call an obsessive note-taker.
+ ]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description>I’m probably what one might call an obsessive note-taker.
 I’ve talked in the past about the importance of keeping a lab journal. Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve experimented with a number of different tools (see under “Nerd News”) to do this.</description><content:encoded><![CDATA[ <p>I’m probably what one might call an obsessive note-taker.</p>
 <p>I’ve <a href="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/">talked in the past about the importance of keeping a lab journal.</a> Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve <a href="https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/">experimented with a number of different tools</a> (see under “Nerd News”) to do this.</p>
 <p>This post summarises my current selection of tools.</p>
 <p>For making notes with a visual aspect, for example photos of beers that I’ve tasted, and sometimes screenshots of websites, I use <a href="https://www.google.com/keep/">Google Keep</a>. This has a really great Android app with which you can easily save a website, including screenshot, using the Android “share with” functionality. On the desktop, this has a web-app that looks like this:</p>
+
+
 
 
 
@@ -420,6 +424,8 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/nvpy_screenie.png">
     <img
         
@@ -438,6 +444,8 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png">
     <img
         
@@ -448,10 +456,12 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 <p>Parts of these journals <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">can be sent directly to your WordPress blog from within Emacs</a>, and you can generate high quality PDFs at the press of a typical simple 12 key Emacs shortcut combo. This being Emacs, the experience can be easily customised to emulate SimpleNote in terms of interactivity, but this will not easily compete with SimpleNote proper in terms of transparent syncing between all devices and in terms of accessibility on mobile.</p>
 <p>Using these three tools together currently takes good care of my note-taking requirements. However, I think that there might be room for a fourth type of tool that is more visual, supports rich and graphical linking between data items and even between sub-components of such items and, perhaps most importantly, enables us to build note landscapes that are natively as non-linear as our thoughts.</p>
-]]></content:encoded></item><item><title>On the importance of taking notes. [Weekly Head Voices #38]</title><link>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</link><pubDate>Sat, 19 Feb 2011 22:39:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</guid><description> Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!
-One On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel.</description><content:encoded><![CDATA[ <p><em>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!</em></p>
+ ]]></content:encoded></item><item><title>On the importance of taking notes. [Weekly Head Voices #38]</title><link>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</link><pubDate>Sat, 19 Feb 2011 22:39:52 +0000</pubDate><guid>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</guid><description>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!
+One On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out. Evil School. (Photo by the talented fpixel.wordpress.com.)</description><content:encoded><![CDATA[ <p><em>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!</em></p>
 <h2 id="one">One</h2>
 <p>On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out.
+
+
 
 
 
@@ -492,4 +502,4 @@ terribly busy in all the right directions.</p>
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/In-m2RJw3hE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

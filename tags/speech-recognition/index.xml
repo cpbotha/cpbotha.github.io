@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>speech recognition on voices in my head</title><link>https://cpbotha.net/tags/speech-recognition/</link><description>Recent content in speech recognition on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 18 Feb 2018 20:45:08 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/speech-recognition/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #132: Potato deadline.</title><link>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</link><pubDate>Sun, 18 Feb 2018 20:45:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</guid><description> Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Speech Recognition on voices in my head</title><link>https://cpbotha.net/tags/speech-recognition/</link><description>Recent content in Speech Recognition on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 18 Feb 2018 20:45:08 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/speech-recognition/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #132: Potato deadline.</title><link>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</link><pubDate>Sun, 18 Feb 2018 20:45:08 +0000</pubDate><guid>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</guid><description> Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.
 We have a serious deadline coming up on Tuesday, so I’m going to make these few WHV minutes count.
 BULLET LIST TO THE RESCUE!
 Day zero has again been postponed, this time to June 4. We continue with our water saving efforts.
-That unexpected side-project I mentioned in last week’s post did end up going live that very night.</description><content:encoded><![CDATA[ 
+That unexpected side-project I mentioned in last week’s post did end up going live that very night. Armed with the Django Rest Framework and plenty of battle scars, it took about 17 hours from idea to fully deployed REST API, a large part of which was debugging the paper’s math and spreadsheets.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -58,6 +60,8 @@ That unexpected side-project I mentioned in last week’s post did end up going
   
   
   
+  
+  
   <figure><a href="/wp-content/uploads/2018/02/IMG_3241.jpg">
       <img
           
@@ -81,4 +85,4 @@ That unexpected side-project I mentioned in last week’s post did end up going
 </li>
 </ul>
 <p>Ok peeps, have a wonderful week! I’ll see you NEXT TIME!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TRE on voices in my head</title><link>https://cpbotha.net/tags/tre/</link><description>Recent content in TRE on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 20 Apr 2021 08:54:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/tre/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description> Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
-Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.
-Learn you a tiny bit of Erlang for Great Good! Last week I attended a meetup that turned out to be primarily about Erlang and not so much about automated crypto arbitrage, the other topic of the talk.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>TRE on voices in my head</title><link>https://cpbotha.net/tags/tre/</link><description>Recent content in TRE on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 20 Apr 2021 08:54:56 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/tre/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description>Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
+Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
 from Monday April 12 to Sunday April 18, 2021, and focusing on the programming
 language Erlang and the evil that is breakfast.</p>
+
+
 
 
 
@@ -18,22 +19,26 @@ language Erlang and the evil that is breakfast.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_3f4a51e22e02c3ea.jpg 480w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg 800w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_daf143d3ce11da7b.jpg 1200w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_df2ded2b472dbbe2.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg"
             
 
         
-            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong."/> </a><figcaption>
+            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong."/> </a><figcaption>
             <p>Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong.</p>
         </figcaption>
 </figure>
@@ -160,9 +165,9 @@ personal intellectual requirements.</p>
 <p>Next week: A whole bunch of information that in fact does constitue financial
 and investment advice that I take full responsibility for. (haha just
 joking. it&rsquo;ll be politics or religion.)</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description> Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description>Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
 The passing of time usually seems to be quite a theoretical affair, but at this moment I can really feel the year taking its last few breaths.
-(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10.</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
+(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10. By this reasoning, the end of the current decade is still more than a year away, on December 31, 2020. Yes, the calendar has changed drastically over the years, but the principle of when decades start and end is the same.)</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
 Head Voices!</p>
 <p>The passing of time usually seems to be quite a theoretical affair, but at this
 moment I can really feel the year taking its last few breaths.</p>
@@ -199,22 +204,22 @@ the WHV Monday looks back on the days from Monday December 9 to Sunday December
   
   srcset='
   
-    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_52a86bef4be3fcfe.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_d1925304afd824a7.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_2be7c8e5577b4875.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg"
   
 
    />
@@ -350,22 +355,22 @@ that&rsquo;s ok. The scenery was epic, and getting back home was brilliant.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_f36e0d1f02b2b266.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_898647e673d4e8e8.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_1b01c56de5f46cb7.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg"
   
 
    />
@@ -378,4 +383,4 @@ Helderberg hike to make this lovely panorama. It&rsquo;s better than the panoram
 made by myself, so I&rsquo;m giving you this one. Click for higher resolution.</p>
 </figcaption>
 </figure>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

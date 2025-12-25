@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nimbix on voices in my head</title><link>https://cpbotha.net/tags/nimbix/</link><description>Recent content in nimbix on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 10 Mar 2017 21:14:38 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nimbix/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #118: Accelerando.</title><link>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</link><pubDate>Fri, 10 Mar 2017 21:14:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</guid><description> Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here: The view from the shark lookout all the way to Hangklip.
-bibtex references in orgmode For a technical report, I thought it would be handy going from Emacs orgmode (where all my lab notes live in any case) to PDF via LaTeX.
-This transformation is more or less built-in, but getting the whole machinery to work with citations from a local BibTeX export from my main Zotero database does not work out of the box.</description><content:encoded><![CDATA[ <p>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Nimbix on voices in my head</title><link>https://cpbotha.net/tags/nimbix/</link><description>Recent content in Nimbix on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 10 Mar 2017 21:14:38 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nimbix/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #118: Accelerando.</title><link>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</link><pubDate>Fri, 10 Mar 2017 21:14:38 +0000</pubDate><guid>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</guid><description>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here: The view from the shark lookout all the way to Hangklip.
+bibtex references in orgmode For a technical report, I thought it would be handy going from Emacs orgmode (where all my lab notes live in any case) to PDF via LaTeX.</description><content:encoded><![CDATA[ <p>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here:
+
+
 
 
 
@@ -31,6 +32,8 @@ This transformation is more or less built-in, but getting the whole machinery to
 <p>(That resistance is going to crumble, the question is just when. Having your stuff run locally and interactively for small experiments still beats the 150ms latency from this here tip of the African continent to the EU.)</p>
 <h1 id="nvpy-leaves-the-nest-">nvpy leaves the nest :`(</h1>
 <p>My most successful open source project to date is probably <a href="https://github.com/cpbotha/nvpy">nvpy</a>, the cross-platform (Linux, macOS, Windows) Simplenote client. 600+ stars on github is not A-list, but it’s definitely also nothing to sneeze at.
+
+
 
 
 
@@ -73,4 +76,4 @@ This transformation is more or less built-in, but getting the whole machinery to
 <p>That slowly advancing progress bar seems to be very effective at getting me to take stock of the year so far.</p>
 <p>Am I spending time on the right things? Am I spending just the right amount of effort on prioritising without this cogitation eating into the very resource it’s supposed to be optimising? Are my hobbies optimal?</p>
 <p>I think the answer is: One deliberate step after the other is best.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

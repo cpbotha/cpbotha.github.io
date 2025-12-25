@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>exercise on voices in my head</title><link>https://cpbotha.net/tags/exercise/</link><description>Recent content in exercise on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 29 Dec 2019 20:29:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/exercise/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #188: Exercise Canary.</title><link>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</link><pubDate>Sun, 29 Dec 2019 20:29:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</guid><description> As I mentioned in the last WHV, I am in the midst of trying to end this year on a strong and especially regular note.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Exercise on voices in my head</title><link>https://cpbotha.net/tags/exercise/</link><description>Recent content in Exercise on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 07 Jan 2024 22:50:41 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/exercise/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices on Sunday 2024-01-07</title><link>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-07/</link><pubDate>Sun, 07 Jan 2024 22:48:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-07/</guid><description> Last day of my vacation. 🥹 Accompanied GOU#1 to the gym so that I could test out their assault bikes Did a 42 minute interval-ish workout on the thing. Can get heart-rate up and keep it there quite easily. Intervals do feel quite harsh, and so I spent more time just pedalling harder than rest in the &amp;ldquo;rest&amp;rdquo; periods instead. The assault bike saddles are garbarge. Will probably go back for another airbike session or two to see if / how much it grows on me. Spent the last 30 minutes quite enjoyably running on a &amp;ldquo;normal&amp;rdquo; treadmill after failing to get the motorless (self-powered) treadmill under control. It was either going to fast or too slow for me. &amp;hellip; hip niggle started to make an appearance by the end, but only subtly so. After getting wlziipsrv built as part of an arm64 docker image, decided to cancel the project (for now&amp;hellip;) of porting all of my websites (static, wordpress, more stuff) from the Hetzner CX21 (2 Intel vCores, 4GB RAM, 40GB + 50GB extra) to the CAX21 (4 ARM64 cores, 8GB RAM, 80GB disk) as a neatly dockerized configuration. I pushed my image to dockerhub in case someone else finds its useful: https://hub.docker.com/r/cpbotha/supervisor-wlziipsrv Discovered that karabiner, a tool I used in the past to work around JetBrains shortcuts getting confused with Dvorak, fixes both of my current § vs ` (and ~) button swapping (bug in macOS 17.2) and non-working-ctrl-in-rdp-to-windows issues on macOS! Sublime post-dinner sunset walk with GOU#1 and GOU#2 ❤️</description><content:encoded><![CDATA[ <ul>
+<li>Last day of my vacation. 🥹</li>
+<li>Accompanied GOU#1 to the gym so that I could test out their assault bikes
+<ul>
+<li>Did a 42 minute interval-ish workout on the thing. Can get heart-rate up and keep it there quite easily. Intervals do feel quite harsh, and so I spent more time just pedalling harder  than rest in the &ldquo;rest&rdquo; periods instead.
+<ul>
+<li>The assault bike saddles are garbarge.</li>
+<li>Will probably go back for another airbike session or two to see if / how much it grows on me.</li>
+</ul>
+</li>
+<li>Spent the last 30 minutes quite enjoyably running on a &ldquo;normal&rdquo; treadmill after failing to get the motorless (self-powered) treadmill under control. It was either going to fast or too slow for me.
+<ul>
+<li>&hellip; hip niggle started to make an appearance by the end, but only subtly so.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>After getting <code>wlziipsrv</code> built as part of an arm64 docker image, decided to cancel the project (for now&hellip;) of porting all of my websites (static, wordpress, more stuff) from the Hetzner CX21 (2 Intel vCores, 4GB RAM, 40GB + 50GB extra) to the CAX21 (4 ARM64 cores, 8GB RAM, 80GB disk) as a neatly dockerized configuration. I pushed my image to dockerhub in case someone else finds its useful: <a href="https://hub.docker.com/r/cpbotha/supervisor-wlziipsrv">https://hub.docker.com/r/cpbotha/supervisor-wlziipsrv</a></li>
+<li>Discovered that karabiner, a tool I used in the past to work around JetBrains shortcuts getting confused with Dvorak, fixes both of my current § vs ` (and ~) button swapping (<a href="https://www.reddit.com/r/MacOS/comments/18g4vxn/cannot_remap_keys_on_macbook_pro_with_hidutils_in/">bug in macOS 17.2</a>) and non-working-ctrl-in-rdp-to-windows issues on macOS!</li>
+<li>Sublime post-dinner sunset walk with GOU#1 <em>and</em> GOU#2 ❤️</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Saturday 2024-01-06</title><link>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-06/</link><pubDate>Sun, 07 Jan 2024 22:47:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-06/</guid><description> Researching assault-style airbikes as an alternative cardio modality, for when I would like a workout that&amp;rsquo;s not running (for when my joints need some rest) and that&amp;rsquo;s not in the sun so much An assault-style airbike uses a big fan as the front wheel, and engages your arms and upper body as well. Seems to be an important staple in the crossfit world. I&amp;rsquo;m not sure if I&amp;rsquo;m the right person for it, but it sure looks convincing! Here&amp;rsquo;s a not-too-crazy beginner cardio workout example on youtube: https://youtu.be/6OMfabFyVFI?si=SId44AGsPX9U2YZJ Really special braai with a group of besties, hosted by SnR. According to the highly scientific DHV-scale, the evening has been classified as &amp;ldquo;life-affirming&amp;rdquo; and also &amp;ldquo;the absolute best possible way to spend those hours&amp;rdquo;. So much thank you!</description><content:encoded><![CDATA[ <ul>
+<li>Researching assault-style airbikes as an alternative cardio modality, for when I would like a workout that&rsquo;s not running (for when my joints need some rest) and that&rsquo;s not in the sun so much
+<ul>
+<li>An assault-style airbike uses a big fan as the front wheel, and engages your arms and upper body as well. Seems to be an important staple in the crossfit world. I&rsquo;m not sure if I&rsquo;m the right person for it, but it sure looks convincing!</li>
+<li>Here&rsquo;s a not-too-crazy beginner cardio workout example on youtube: <a href="https://youtu.be/6OMfabFyVFI?si=SId44AGsPX9U2YZJ">https://youtu.be/6OMfabFyVFI?si=SId44AGsPX9U2YZJ</a></li>
+</ul>
+</li>
+<li>Really special braai with a group of besties, hosted by SnR. According to the highly scientific DHV-scale, the evening has been classified as &ldquo;life-affirming&rdquo; and also &ldquo;the absolute best possible way to spend those hours&rdquo;. So much thank you!</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #188: Exercise Canary.</title><link>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</link><pubDate>Sun, 29 Dec 2019 20:29:00 +0200</pubDate><guid>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</guid><description>As I mentioned in the last WHV, I am in the midst of trying to end this year on a strong and especially regular note.
 So, more on time than the rest of the rest of the year, you are now reading the 188th edition of the Weekly Head Voices. This will most probably be the last WHV of the year 2019, looking back at the week from Monday December 23 to Sunday December 29.</description><content:encoded><![CDATA[ <p>As <a href="/2019/12/23/weekly-head-voices-187-checklists-everywhere/">I mentioned in the last
 WHV</a>, I am in the
 midst of trying to end this year on a strong and especially <em>regular</em> note.</p>
@@ -29,22 +59,22 @@ Sunday December 29.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_59397d04b7c51d36.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_15f2b94a18ffd728.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_ed5374261cfa5852.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_e250dd95cfe03186.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_15f2b94a18ffd728.jpg"
   
 
    />
@@ -55,7 +85,7 @@ Sunday December 29.</p>
 Vacation oscillates between lazing and running.
 </figcaption>
 </figure>
-<h2 id="topol-tweetstrade-for-your-vacation">Topol-Tweets™ for your vacation.</h2>
+<h2 id="topol-tweets-for-your-vacation">Topol-Tweets™ for your vacation.</h2>
 <p><a href="/2019/07/17/weekly-head-voices-173-i-know/#bullet-list-of-miscellany-blom">I may have implied before that Prof. Eric Topol&rsquo;s twitter stream is
 brilliant</a>.</p>
 <p>During the past few days he posted two high impact (meta-)analyses on topics
@@ -135,7 +165,7 @@ levels of activity (ie, 30 v0 MET hours/week).</p>
 protective effect from colon and endometrial cancer relative to no exercise, or
 that the data in this case (n = 309881) is still somehow misleading the
 analysis.</p>
-<h2 id="the-middle-aged-exercise-canarytrade">The (middle-aged) Exercise Canary™.</h2>
+<h2 id="the-middle-aged-exercise-canary">The (middle-aged) Exercise Canary™.</h2>
 <p>On Friday, during the second part of my morning run, the first part being
 together with GOU #1 (running with your genetic offspring is amazing on more
 than one level), I had an exercise-related realisation which I thought was
@@ -164,10 +194,9 @@ the last few days of 2019, and usher in the brave new 2020.</p>
 <p>I look forward to our next meeting, either on this blog in the
 soon-to-be-written traditional 2019-2020 transition post, or at whichever
 other point we might become entangled.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #135: It’s all rainbows and unicorns, no really!</title><link>https://cpbotha.net/2018/03/11/weekly-head-voices-135-its-all-rainbows-and-unicorns-no-really/</link><pubDate>Sun, 11 Mar 2018 20:04:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/11/weekly-head-voices-135-its-all-rainbows-and-unicorns-no-really/</guid><description> This rainbow unicorn, floating serenely on a cloudy background, is winking right at you. Down below, we are celebrating GOU #3’s second birthday. Photo taken with the expert assistance of GOU#1, age 11 going on 32.
-Hi there friends, welcome back to the weekly (!!!) head voices! I missed you.
-Software Release Frazzle Releasing desktop software, even for a small group of people, can get tricky quickly yo!
-Yes, people still write desktop software, and we do love doing it.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #135: It’s all rainbows and unicorns, no really!</title><link>https://cpbotha.net/2018/03/11/weekly-head-voices-135-its-all-rainbows-and-unicorns-no-really/</link><pubDate>Sun, 11 Mar 2018 20:04:08 +0000</pubDate><guid>https://cpbotha.net/2018/03/11/weekly-head-voices-135-its-all-rainbows-and-unicorns-no-really/</guid><description> This rainbow unicorn, floating serenely on a cloudy background, is winking right at you. Down below, we are celebrating GOU #3’s second birthday. Photo taken with the expert assistance of GOU#1, age 11 going on 32.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -223,4 +252,4 @@ Yes, people still write desktop software, and we do love doing it.</description>
 <h1 id="à-bientôt">À bientôt</h1>
 <p>Thank you very much for stopping by! Have a productive week, and don’t forget to exercise.</p>
 <p>I look forward to our next meeting.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

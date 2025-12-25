@@ -1,7 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>c++ on voices in my head</title><link>https://cpbotha.net/tags/c++/</link><description>Recent content in c++ on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 04 Mar 2018 20:47:46 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>C++ on voices in my head</title><link>https://cpbotha.net/tags/c++/</link><description>Recent content in C++ on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 10 Aug 2024 23:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/c++/index.xml" rel="self" type="application/rss+xml"/><item><title>Hivemind / Proximity: Distributed interactive personal lighting art project at AfrikaBurn 2018</title><link>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</link><pubDate>Sat, 10 Aug 2024 23:10:00 +0200</pubDate><guid>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</guid><description>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&amp;rsquo;s us!) was again present and active with a range of workshops and other learning experiences.
+(Strangely, although I wrote vaguely about our AB 2018 experience on this blog shortly after the event, I did not even mention this electronics project, and now it&amp;rsquo;s only taken 6 years to get around to the nerdy bits.)
+That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium, each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated helium balloons floating above their humans as they were roaming over the Binnekring.)</description><content:encoded><![CDATA[ <p>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&rsquo;s us!) was again present and active with a
+range of workshops and other learning experiences.</p>
+<p>(Strangely, although <a href="/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/">I wrote vaguely about our AB 2018 experience on this blog shortly after the
+event</a>, I did not even mention this electronics
+project, and now it&rsquo;s only taken 6 years to get around to the nerdy bits.)</p>
+<p>That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had
+in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of
+helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium,
+each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated
+helium balloons floating above their humans as they were roaming over the Binnekring.)</p>
+<p>I was the main hardware and software designer of our 2018 electronic artwork, eventually titled &ldquo;Hivemind / Proximity&rdquo;,
+and now the main topic of this post. Friend PK helped a lot in the earlier stages coming up with ideas, and building
+test versions of my hardware and software designs, and later constructing the 7 production (haha) units, both at home
+and in the desert, where we got additional help from more of our AfrikaBurn besties.</p>
+<p>For some or other reason, we were less interested in taking photos and making movies, so I&rsquo;ve had to scratch around to
+find illustrative media for this post.</p>
+<h2 id="the-final-product">The final product</h2>
+<p>In the end we had seven people (that&rsquo;s all of us) walking around the desert, each with a 25cm diameter circle of
+coloured leds on their chest and a battery-powered arduino based controller on their waist that was in wireless
+communication with all of the other units, with a range of a few hundred metres.</p>
+<p>On each of the chest circles, each of the other team members was represented by a globally consistently coloured light
+orbiting at a rate correlating with how close that team member was. The further away that team member went, the slower
+their colour would rotate, until the units lost communication, at which point that member&rsquo;s light would start rotating
+faster and faster in the opposite direction.</p>
+<p>Once that team member came back in range, their light would start orbiting in the &ldquo;right&rdquo; direction, and would orbit
+faster as they got closer.</p>
+<p>This proximity visualization worked independently for each pair of team members, and hence for the group as a whole, as
+you can hopefully imagine.</p>
+<p>This early demo gives a good idea of what the animation looked like:
+<video src="circling-leds.mp4" controls=yes /></p>
+<p>The following extremely shaky video shows the assembled units, all happy as they are close to each other, shortly after
+we did the final assembly in the raging Tankwa desert winds and dust. Here you can also see the effect of the diffuse
+tubing that we put the leds in: <video src="circling-leds-assembled.mp4" controls=yes /></p>
+<p>Finally, the following photo shows a partially assembled unit consisting of arduino, xbee shield, xbee radio and the
+battery pack on the side with 4 x 1.5V AA batteries. Friend PK sourced a number of nylon dog treat bags, which were just
+big enough to take the boards + battery pack and thus serve as our super professional production packaging. 
+
+
+
+
+
+
+
+
+
+<figure><a href="assembly.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_d2beac0d5222f3b6.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_8d680cadefcc37a.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_732c04b6a231f405.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg"
+            
+
+        /> </a>
+</figure>
+</p>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><a href="https://robotdyn.com/samd21-m0.html">Robotdyn SAMD21 M0</a>: ARM Cortex M0 32bit Arduino clone. Fast enough to animate the LEDs while communicating with all other units and keeping track of their proximity.</li>
+<li><a href="https://www.digi.com/products/models/xb24cawit-001">XBee S2C XB24CAWIT-001 radio for 802.15.4</a>: For wireless communication comms and RSSI feedback between units</li>
+<li><a href="https://vxlabs.com/2018/03/23/which-jumper-to-set-on-the-itead-xbee-shield-v1-1-for-use-with-a-3-3v-arduino/">ITEAD Studio XBee shield v1.1</a>: To mount XBee onto the Arduino. I&rsquo;ve linked to my vxlabs blog post about this unit, because it has important info re jumper configuration which can save you much time.</li>
+<li><a href="https://www.amazon.com/icever-WS2812B-MagicRGB-LED-Strip/dp/B0CFTP3S41/">A few metres of 60/m WS2812B programmable LED strips (5V, 3 wire)</a></li>
+<li><a href="https://www.robotics.org.za/LEVEL-4P">4 channel 3.3V to 5V logic level shifter (LEVEL-4P, BOB-12009)</a>: Convert 3.3V SAMD21 output to 5V required for programmable LEDs data line (durn&hellip;)</li>
+</ul>
+<p>Getting all 7 of these units built and programmed, the final few in the desert at dusk of day 2 at the Burn, was quite a
+challenge, requiring a gas powered soldering iron and liberal application of WvdL&rsquo;s (aka Broken Pipe) glue gun.</p>
+<p>Especially the 3.3V to 5V level shifter added unnecessary complexity to the already precarious connection from power supply and controller board to the LED circle.</p>
+<h3 id="the-rssi-proximity-trick">The RSSI proximity &ldquo;trick&rdquo;</h3>
+<p>The SAMD21 is the electronic heart of the system.</p>
+<p>It runs a special programme (see next section) that uses the XBee radio to broadcast a packet to the 802.15.4 wireless private area network (PAN), consisting of all of the units, every 1.5 seconds. It also listens, via the XBee radio, for any incoming packets.</p>
+<p>Each incoming packet contains its sending ID.</p>
+<p>Along with that packet, we also get the RSSI, which is an indicator of signal strength.</p>
+<p>That RSSI is also a pretty good measurement of the <em>proximity</em> of the two units, and by proxy of their wearers.</p>
+<p>If we are standing facing each other, the RSSI will be high. If I turn my back to you, the RSSI will be a bit lower. If I walk away from you, it will become lower still.</p>
+<p>So, each unit maintains a list of IDs with the last known RSSI, and also when it last received a packet from that ID. It uses the RSSI to visualize proximity (that person&rsquo;s colour orbits faster the closer they are), and the age to detect person lost contact (orbits faster and faster in the other direction).</p>
+<h2 id="software">Software</h2>
+<p>You can find the full commented <a href="https://github.com/cpbotha/ab-hivemind">C++ source code for this project on my github</a>.</p>
+<p>Please do take a quick browse through the code as well, but here are some noteworthy learnings and observations:</p>
+<ul>
+<li>You can use this code for any number of wearable units (people), just remember to set <code>XBEE_SWARM_SIZE</code>.</li>
+<li>It took me so much time to get 100% reliable communication from the SAMD21 with the XBee. This was probably the
+biggest technical stumbling block. Besides documentation issues (see ITEAD linked post above), it the solution was to
+be super patient with the XBee. You&rsquo;ll see in the code, function <code>addressRead()</code>, that we just keep on trying, with
+generous waits, until we get a successful link.</li>
+<li>Like any good datavis practitioner, I opted for a color scheme from <a href="https://colorbrewer2.org/">ColorBrewer2</a>.</li>
+<li>As you can see in the main <code>loop()</code>, the paint loop is <em>lazy</em> and hence efficient, with three main event handlers
+triggering at different intervals of the arduino clock. This includes the 60fps LED animator, obviously triggering at
+the notorious 16ms interval. I used the fantastic <code>EVERY_N_MILLIS</code> macro from the even more fantastic <a href="https://fastled.io/">FastLED
+animation library</a>.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>In spite of desert soldering, glue-gun glue and duct tape holding everything together, all units worked in the pitch
+dark of the desert, and were at times even used, quite effectively, to locate <em>utterly</em> lost team members in the
+otherwise utterly reception-free environment.</p>
+<p>If we ever do a v2 of this, we would produce a single board, with the smallest possible number of connections to
+lighting and power.</p>
+<p>Taking all of this into account, but especially thanks to our Burniversity peeps who were so positively curious and
+willing to pour their energy into the difficult performance part, this was such a beautiful and worthwhile endeavour.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
 I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.
 The WHV visual element lives to fight another day!
-The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists.</description><content:encoded><![CDATA[ 
+The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists. Feel free to pick and choose!</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -48,9 +167,11 @@ The rest of this post is divided into three parts: One for the programming nerds
 <h1 id="the-end">The end</h1>
 <p>Have a great week friends, I hope to see you again soon!</p>
 <p>P.S. if there are any arduino uno -&gt; hardware serial -&gt; xbee experts in the audience, I would like to have a word. (<a href="https://www.sparkfun.com/products/12847">sparkfun shield</a>. with software serial can talk to xbee. with hardware serial, and sparkfun switch in the right position, xbee won’t respond. <a href="https://medium.com/@phurl/robotdyn-uno-vs-arduino-genuino-uno-a9ac3b17a96f">uno is a robotdyn clone</a>.)</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #123: A semblance of a cadence.</title><link>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</link><pubDate>Wed, 28 Jun 2017 19:29:59 +0000</pubDate><guid>https://cpbotha.net/2017/06/28/weekly-head-voices-123-a-semblance-of-a-cadence/</guid><description> Yes, we ended up in the mountains again.
 In the period from Monday June 12 to Sunday June 25 we were mostly trying to get through the winter, fighting off a virus or three (the kind that invades biological organisms you nerd) and generally nerding out.
-One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images.</description><content:encoded><![CDATA[ 
+One more of my org2blog pull requests was merged in: You can now configure the thumbnail sizes your blog will automatically show of your uploaded images. Getting my own itch scratches merged merged into open source projects never fails to makes me happy, even although in this case there can’t be more than 5 other people who will ever use this particular functionality.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -92,8 +213,10 @@ One more of my org2blog pull requests was merged in: You can now configure the t
 <p>Us humans being so dependent on habits to make real progress in life leads me to the conclusion that this is a clever trick to acquire behaviour that is not habitual: Work on an auxiliary behaviour that is habitual, e.g. the regular review, that encourages / reinforces behaviour that is perhaps not habitual, e.g. taking care of randomly scheduled heterogeneous tasks (GTD) or fitting in randomly scheduled focus periods (Deep Work of the journalistic variant).</p>
 <p>As an aside, cadence in this context is just a really elegant synonym for habit. I suggest we use it more, especially at cocktail parties.</p>
 <p> </p>
-]]></content:encoded></item><item><title>Weekly Head Voices #108: Gaga.</title><link>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</link><pubDate>Fri, 24 Jun 2016 21:55:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</guid><description> I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)
+ ]]></content:encoded></item><item><title>Weekly Head Voices #108: Gaga.</title><link>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</link><pubDate>Fri, 24 Jun 2016 21:55:42 +0000</pubDate><guid>https://cpbotha.net/2016/06/24/weekly-head-voices-108-gaga/</guid><description>I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)
 Actually present me also enjoys this, but creating sufficient amounts of time to do so is often challenging. I have most recently convinced myself that I should see this as practice so that I will later be able to write really entertaining posts in minimal time. Until then my two readers, I hope to compensate with edification.</description><content:encoded><![CDATA[ <p>I was reminded that future me really enjoys having written these things. (Present me knows about extrapolation.)</p>
+
+
 
 
 
@@ -125,10 +248,12 @@ Actually present me also enjoys this, but creating sufficient amounts of time to
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/7HKVvcNOQb0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 <p>Have a fun week listeners!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description> Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
 About 4 seconds after posting previous edition WHV #104 to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:
 So much truth. I have been put back in my place. Sorry vegans. Sorry MBA students. Not sorry Ayn Randers.</description><content:encoded><![CDATA[ <p>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!</p>
 <p>About 4 seconds after posting previous edition <a href="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/">WHV #104</a> to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:</p>
+
+
 
 
 
@@ -155,6 +280,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/02/jack_black_lager.jpg">
     <img
         
@@ -165,6 +292,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 
 <p>It is indeed a craft beer. If we’ve ever chatted more than 10 minutes in the past (or in the future), you’ll know everything about my braai, and you probably also know that I find craft beer to be one of the greatest inventions ever, along with fire, and the internet.</p>
 <p>Here’s a another beer which I recently had the pleasure of enjoying, at a secret networking meeting (yes, we have secret meetings where we in fact do manage a large number of aspects of your daily life, and where we also orchestrate it so you’ll never suspect that we are behind everything, subtly manipulating reality) where, when the beer arrived at the table, everyone who looked vaguely hipster-like claimed vocally not in fact to be even remotely hipster-like:</p>
+
+
 
 
 
@@ -187,14 +316,16 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 <p><em>Nerd tip #2 of the week:</em> The <a href="http://clang-analyzer.llvm.org/">Clang static C++ analyser</a> is brilliant. If you program in C++, and you need to up your game, integrating this into your workflow is a solid step in the right direction. I’ve been using this via the <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build method</a>. Let me know in the comments if you’d like to know more about this!</p>
 <p>After some <a href="http://www.pcservices.co.za/">professional</a> ethernet cabling down to the sort-of basement of our new house, I have checked off another item from my non-existent bucket list: <em>We now have a lab at our house.</em> So far there are computers, all kinds of DIY supplies and art stuff for the genetic offspring units, and all of this to <em>create</em>. I spent some of the best times of my life in labs of some sort of another. It’s really great bringing some of that back home to my clan.</p>
 <p>Have a great week kids, see you on the other side!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #104: Let me update you.</title><link>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</link><pubDate>Mon, 08 Feb 2016 20:59:23 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</guid><description> This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.
-I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!</description><content:encoded><![CDATA[ <p>This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #104: Let me update you.</title><link>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</link><pubDate>Mon, 08 Feb 2016 20:59:23 +0000</pubDate><guid>https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/</guid><description>This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.
+I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!), that he had never found much use for inheritance. In those days, nerd celebrities mailed you back. Also, poor old C++ inheritance…</description><content:encoded><![CDATA[ <p>This post is about things that I noticed in the week of Monday February 1 to Sunday February 7, 2016.</p>
 <p>I dug up an email I wrote to <a href="https://en.wikipedia.org/wiki/Alexander_Stepanov">Alex Stepanov</a> and Meng Lee, authors of the C++ Standard Template Library on Monday August 3, 1998, to ask them if they would have written a matrix template, if they would have derived it from the vector template. Stepanov answered, the next day (!), <em>that he had never found much use for inheritance</em>. In those days, nerd celebrities mailed you back. Also, poor old C++ inheritance…</p>
 <p>A few years later, but still back in the day, <a href="https://twitter.com/gerwindehaan">@gerwindehaan</a> and I wrote a time management web-app which could automatically schedule all of your tasks. In other words, it would decide exactly <em>what</em> you needed to do <em>when</em> in order to hit all of your deadlines, your appointments and your priorities. It had an ugly UI (story of my life), but it worked (story of my life?). That whole adventure marked the start of our downward spiral away from academia and into the sea of money and debauchery we currently find ourselves in. In any case, I resurrected the old TimeScapers website and wrote a <a href="http://timescapers.com/2016/02/07/timescapers-and-timerank-retrospective/">short little retrospective blog post</a> if you’re interested.</p>
 <p>I got tired of waiting for the OTA (over the air) update to Marshmallow (that’s Android 6.0) for my LG G3, so I booted into Windows 10 (yes, I have a partition with that also), and used <a href="http://forum.xda-developers.com/g4/help/lgup-install-kdz-mm-lp-t3249803">LGUP</a> with the <a href="http://forum.xda-developers.com/lg-g3/help/downgrade-mm-to-lp-using-lg-t3283912/post64597779#post64597779">8974 DLL</a>  (very important to use this and NOT the 8994, else you WILL FAIL) and the official <a href="http://csmgdl.lgmobile.com/dn/downloader.dev?fileKey=FW4DYI8332GOAME9EB45Q8B/D85530B_00_1217.kdz">LG G3 Marshmallow KDZ</a> (1.3GB md5sum 711d91254f5e3e02536395b35e1d534f) to upgrade the phone. After one day I can say the following: Looks mildly prettier and feels slightly smoother, but battery life has improved phenomenally. Let me know in the comments if you need help with doing this on your own phone.</p>
 <p>The graphical warning below is why I’m not ready to shave my beard quite yet (click for imgur source):</p>
 <p><a href="https://imgur.com/gallery/4KjqlTh" rel="attachment wp-att-2362"><img alt="what happens when you shave" class="alignnone size-large wp-image-2362" data-attachment-id="2362" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="what happens when you shave" data-large-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-300x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur.jpg" data-orig-size="1936,1936" data-permalink="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/my-husband-shaved-his-awesome-beard-turned-into-a-little-girl-imgur/" height="660" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" src="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-1024x1024.jpg 1024w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-150x150.jpg 150w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-300x300.jpg 300w, https://cpbotha.net/wp-content/uploads/2016/02/My-husband-shaved-his-awesome-beard-turned-into-a-little-girl.-Imgur-768x768.jpg 768w" width="660"/></a></p>
 <p>As you might or might not have heard, our currency has recently taken quite a serious knock. Fortunately, it’s still extremely good for exchanging for meaty pleasures, such as the almost 2.5kg of rib-eye and t-bone you see in the photo below. Prepared and enjoyed with good friends, this was as beautiful as it looks. The hand you see in the picture belongs to my friend, who is a giant.</p>
+
+
 
 
 
@@ -215,8 +346,10 @@ I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Stan
 <p><a href="http://imgur.com/gallery/bmyBQBE" rel="attachment wp-att-2365"><img alt="bmyBQBE - Imgur" class="alignnone size-full wp-image-2365" data-attachment-id="2365" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="bmyBQBE – Imgur" data-large-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur-224x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" data-orig-size="500,671" data-permalink="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/bmybqbe-imgur/" height="671" sizes="(max-width: 500px) 85vw, 500px" src="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur.jpg 500w, https://cpbotha.net/wp-content/uploads/2016/02/bmyBQBE-Imgur-224x300.jpg 224w" width="500"/></a></p>
 <p>(It’s almost just like when someone is doing their MBA! Have I offended enough people yet? I was also planning to insult people who manage to take <a href="http://www.cracked.com/funny-304-ayn-rand/">Ayn Rand</a> seriously, but <a href="http://www.alternet.org/story/150680/the_truth_about_gop_hero_ayn_rand">they’re not very good</a> with multi-syllabic words, or reading in general. Furthermore, my beef with vegans (I’m on the roll here) and with MBA students is actually just good-natured teasing, a tone I would prefer to maintain. For now.)</p>
 <p>Have a great week kids, I hope to see you on the other side!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #102: High on life.</title><link>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</link><pubDate>Wed, 20 Jan 2016 07:21:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</guid><description> The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a business lunch at Bodega, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:
-… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar. The company might be different every time, but so far its level of awesomeness has been quite consistent.</description><content:encoded><![CDATA[ <p>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a <em>business</em> lunch at <a href="http://www.dornier.co.za/restaurant">Bodega</a>, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #102: High on life.</title><link>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</link><pubDate>Wed, 20 Jan 2016 07:21:17 +0000</pubDate><guid>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</guid><description>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a business lunch at Bodega, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:
+… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar. The company might be different every time, but so far its level of awesomeness has been quite consistent.)</description><content:encoded><![CDATA[ <p>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a <em>business</em> lunch at <a href="http://www.dornier.co.za/restaurant">Bodega</a>, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:</p>
+
+
 
 
 
@@ -245,6 +378,8 @@ I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Stan
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/20160116_100314-PANO.jpg">
     <img
         
@@ -255,7 +390,7 @@ I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Stan
 
 <p>I’ve often wondered about the effect of one’s surroundings on one’s mindfulness. This was one of those cases where mother nature, without asking for permission or anything like that, simply brute-forced the <em>being</em> switch with her astonishing beauty. Very grateful I was.</p>
 <p>Have a great week friends, see you on the other side!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #78: Aeroimpressed.</title><link>https://cpbotha.net/2014/07/22/weekly-head-voices-78-aeroimpressed/</link><pubDate>Tue, 22 Jul 2014 19:53:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/07/22/weekly-head-voices-78-aeroimpressed/</guid><description> Up in the North, temperatures were in the mid to high twenties every day (yes, it’s the middle of Winter, and that’s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that’s how we roll!</description><content:encoded><![CDATA[ <p><a href="http://cpbotha.net/2014/07/16/a-south-african-state-of-mindful/">Up in the North</a>, temperatures were in the mid to high twenties every day (yes, it’s the middle of Winter, and that’s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that’s how we roll! <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire_in_the_office.jpg" title=""></p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #78: Aeroimpressed.</title><link>https://cpbotha.net/2014/07/22/weekly-head-voices-78-aeroimpressed/</link><pubDate>Tue, 22 Jul 2014 19:53:00 +0000</pubDate><guid>https://cpbotha.net/2014/07/22/weekly-head-voices-78-aeroimpressed/</guid><description>Up in the North, temperatures were in the mid to high twenties every day (yes, it’s the middle of Winter, and that’s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that’s how we roll!</description><content:encoded><![CDATA[ <p><a href="http://cpbotha.net/2014/07/16/a-south-african-state-of-mindful/">Up in the North</a>, temperatures were in the mid to high twenties every day (yes, it’s the middle of Winter, and that’s how they roll in the North). Back home we had to deal with mid to high tens (sometimes in the twenties!), and then, because the houses are not built for winter and sport similar temperatures inside and outside, you resort to making a fire in yer office, because that’s how we roll! <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire_in_the_office.jpg" title=""></p>
 <p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-fire_in_the_office-300x186.jpg" alt=""></a><figcaption class="wp-caption-text">My office is on fire! Note the interrogation lamp.</figcaption></figure></p>
 <p>(don’t worry, our friendly electrician managed to get the underfloor heating working and now I don’t have to make fire in the office anymore. you can send donations towards my electricity bill via paypal.)</p>
 <p>On Tuesday evening (after the fire), I decided to go to my <a href="http://www.meetup.com/Helderberg-Software-Developers-and-Entrepeneurs/events/191133432/">first MeetUp</a>. Although my main goal was to meet fellow software developers and entrepreneurs from my neighbourhood, I had a super enjoyable evening meeting said people, and learning about <a href="https://en.wikipedia.org/wiki/Construct_(game_engine)">Construct 2</a> (the topic of the presentation). Now while I’m not into gaming at all, this did lead to evenings of reading about the various mobile game development libraries; there’s a whole universe of interesting cross-platform code out there! My search finally ended with <a href="http://getmoai.com/">Moai SDK</a>, an open source C++ engine with Lua bindings (Lua is awesome, before Moai I integrated it with my secret hobby project; for 200kBytes you get a whole super fast dynamic language in your C++ application!) that can be used to write 2D games for all of the desktop platforms, as well as for iOS and for Android.</p>
@@ -274,4 +409,4 @@ I dug up an email I wrote to Alex Stepanov and Meng Lee, authors of the C++ Stan
 <p>I could not resist its call anymore. <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-3" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-aeropress_action2.jpg" title=""></p>
 <p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-aeropress_action2-184x300.jpg" alt=""></a><figcaption class="wp-caption-text">Giant coffee injection. Air-tight seal, column of air pushes water through coffee in 30 seconds. I haz it.</figcaption></figure></p>
 <p>I can now report that with freshly ground Bugisu Arabica coffee, the liquid black gold emerging from this wondrous device is indeed some of the purest and best coffee that I’ve ever had. If you’re into coffee, get one of these. You can thank me at the next hipster meetup.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac on voices in my head</title><link>https://cpbotha.net/tags/mac/</link><description>Recent content in mac on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 16 Dec 2016 09:46:38 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>Dvorak remapping with Karabiner-Elements on macOS Sierra works!</title><link>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</link><pubDate>Fri, 16 Dec 2016 09:46:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</guid><description> With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.
-I have been using Karabiner for a while now to remap my keyboard to Dvorak, as the OSX system Dvorak keyboard mapping exposes a bug in many Java apps, including all of the JetBrains development environment tools I use intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are Qwerty, which is of course tremendously confusing.</description><content:encoded><![CDATA[ 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Mac on voices in my head</title><link>https://cpbotha.net/tags/mac/</link><description>Recent content in Mac on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 16 Dec 2016 09:46:38 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>Dvorak remapping with Karabiner-Elements on macOS Sierra works!</title><link>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</link><pubDate>Fri, 16 Dec 2016 09:46:38 +0000</pubDate><guid>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</guid><description> With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.
+I have been using Karabiner for a while now to remap my keyboard to Dvorak, as the OSX system Dvorak keyboard mapping exposes a bug in many Java apps, including all of the JetBrains development environment tools I use intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are Qwerty, which is of course tremendously confusing. You can read more about the issue in this StackOverflow answer.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -51,76 +53,76 @@ Dvorak.</p>
 <p>So, in case it helps anyone, my old <code>karabiner.json</code> is shown below. Yours
 should be at <code>~/.config/karabiner/karabiner.json</code>. You should be able to copy
 over the <code>simple_modifications</code> clause from the example below.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#268bd2;font-weight:bold">&#34;global&#34;</span>: {
-</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;check_for_updates_on_startup&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;show_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;show_profile_name_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">false</span>
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    <span style="color:#268bd2;font-weight:bold">&#34;profiles&#34;</span>: [
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;devices&#34;</span>: [],
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;fn_function_keys&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f1&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_decrement&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f10&#34;</span>: <span style="color:#2aa198">&#34;mute&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f11&#34;</span>: <span style="color:#2aa198">&#34;volume_decrement&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f12&#34;</span>: <span style="color:#2aa198">&#34;volume_increment&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f2&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_increment&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f3&#34;</span>: <span style="color:#2aa198">&#34;mission_control&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f4&#34;</span>: <span style="color:#2aa198">&#34;launchpad&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f5&#34;</span>: <span style="color:#2aa198">&#34;illumination_decrement&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f6&#34;</span>: <span style="color:#2aa198">&#34;illumination_increment&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f7&#34;</span>: <span style="color:#2aa198">&#34;rewind&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f8&#34;</span>: <span style="color:#2aa198">&#34;play_or_pause&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f9&#34;</span>: <span style="color:#2aa198">&#34;fastforward&#34;</span>
-</span></span><span style="display:flex;"><span>            },
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;name&#34;</span>: <span style="color:#2aa198">&#34;Default profile&#34;</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;selected&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;simple_modifications&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;a&#34;</span>: <span style="color:#2aa198">&#34;a&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;b&#34;</span>: <span style="color:#2aa198">&#34;x&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;backslash&#34;</span>: <span style="color:#2aa198">&#34;backslash&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;c&#34;</span>: <span style="color:#2aa198">&#34;j&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock&#34;</span>: <span style="color:#2aa198">&#34;left_control&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;close_bracket&#34;</span>: <span style="color:#2aa198">&#34;equal_sign&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;comma&#34;</span>: <span style="color:#2aa198">&#34;w&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;d&#34;</span>: <span style="color:#2aa198">&#34;e&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;e&#34;</span>: <span style="color:#2aa198">&#34;period&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;equal_sign&#34;</span>: <span style="color:#2aa198">&#34;close_bracket&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f&#34;</span>: <span style="color:#2aa198">&#34;u&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;g&#34;</span>: <span style="color:#2aa198">&#34;i&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;h&#34;</span>: <span style="color:#2aa198">&#34;d&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;hyphen&#34;</span>: <span style="color:#2aa198">&#34;open_bracket&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;i&#34;</span>: <span style="color:#2aa198">&#34;c&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;j&#34;</span>: <span style="color:#2aa198">&#34;h&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;k&#34;</span>: <span style="color:#2aa198">&#34;t&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;l&#34;</span>: <span style="color:#2aa198">&#34;n&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;m&#34;</span>: <span style="color:#2aa198">&#34;m&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;n&#34;</span>: <span style="color:#2aa198">&#34;b&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;non_us_backslash&#34;</span>: <span style="color:#2aa198">&#34;grave_accent_and_tilde&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;o&#34;</span>: <span style="color:#2aa198">&#34;r&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;open_bracket&#34;</span>: <span style="color:#2aa198">&#34;slash&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;p&#34;</span>: <span style="color:#2aa198">&#34;l&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;period&#34;</span>: <span style="color:#2aa198">&#34;v&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;q&#34;</span>: <span style="color:#2aa198">&#34;quote&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;quote&#34;</span>: <span style="color:#2aa198">&#34;hyphen&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;r&#34;</span>: <span style="color:#2aa198">&#34;p&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;s&#34;</span>: <span style="color:#2aa198">&#34;o&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;semicolon&#34;</span>: <span style="color:#2aa198">&#34;s&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;slash&#34;</span>: <span style="color:#2aa198">&#34;z&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;t&#34;</span>: <span style="color:#2aa198">&#34;y&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;u&#34;</span>: <span style="color:#2aa198">&#34;g&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;v&#34;</span>: <span style="color:#2aa198">&#34;k&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;w&#34;</span>: <span style="color:#2aa198">&#34;comma&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;x&#34;</span>: <span style="color:#2aa198">&#34;q&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;y&#34;</span>: <span style="color:#2aa198">&#34;f&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;z&#34;</span>: <span style="color:#2aa198">&#34;semicolon&#34;</span>
-</span></span><span style="display:flex;"><span>            },
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;virtual_hid_keyboard&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock_delay_milliseconds&#34;</span>: <span style="color:#2aa198;font-weight:bold">0</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;keyboard_type&#34;</span>: <span style="color:#2aa198">&#34;ansi&#34;</span>
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    ]
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>]]></content:encoded></item></channel></rss>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#0550ae">&#34;global&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0550ae">&#34;check_for_updates_on_startup&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">true</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0550ae">&#34;show_in_menu_bar&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">true</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0550ae">&#34;show_profile_name_in_menu_bar&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">},</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#0550ae">&#34;profiles&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">[</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;devices&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">[],</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;fn_function_keys&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f1&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;display_brightness_decrement&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f10&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;mute&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f11&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;volume_decrement&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f12&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;volume_increment&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f2&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;display_brightness_increment&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f3&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;mission_control&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f4&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;launchpad&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f5&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;illumination_decrement&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f6&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;illumination_increment&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f7&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;rewind&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f8&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;play_or_pause&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f9&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;fastforward&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#1f2328">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;name&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;Default profile&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;selected&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">true</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;simple_modifications&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;a&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;a&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;b&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;x&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;backslash&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;backslash&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;c&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;j&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;caps_lock&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;left_control&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;close_bracket&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;equal_sign&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;comma&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;w&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;d&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;e&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;e&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;period&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;equal_sign&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;close_bracket&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;u&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;g&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;i&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;h&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;d&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;hyphen&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;open_bracket&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;i&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;c&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;j&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;h&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;k&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;t&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;l&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;n&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;m&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;m&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;n&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;b&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;non_us_backslash&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;grave_accent_and_tilde&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;o&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;r&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;open_bracket&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;slash&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;p&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;l&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;period&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;v&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;q&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;quote&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;quote&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;hyphen&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;r&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;p&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;s&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;o&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;semicolon&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;s&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;slash&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;z&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;t&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;y&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;u&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;g&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;v&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;k&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;w&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;comma&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;x&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;q&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;y&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;f&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;z&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;semicolon&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#1f2328">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;virtual_hid_keyboard&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;caps_lock_delay_milliseconds&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0550ae">0</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;keyboard_type&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;ansi&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#1f2328">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">}</span>
+</span></span></code></pre></div> ]]></content:encoded></item></channel></rss>

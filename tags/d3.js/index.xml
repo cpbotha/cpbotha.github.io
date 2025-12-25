@@ -1,6 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>d3.js on voices in my head</title><link>https://cpbotha.net/tags/d3.js/</link><description>Recent content in d3.js on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 17 Jul 2018 07:22:30 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/d3.js/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #148: Data stylist.</title><link>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</link><pubDate>Tue, 17 Jul 2018 07:22:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</guid><description> Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>D3.js on voices in my head</title><link>https://cpbotha.net/tags/d3.js/</link><description>Recent content in D3.js on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 15 Jan 2024 22:40:37 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/d3.js/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 2 of 2024</title><link>https://cpbotha.net/2024/01/15/daily-head-voices-2024-01-08_14/</link><pubDate>Mon, 15 Jan 2024 22:40:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/15/daily-head-voices-2024-01-08_14/</guid><description>Inspired by the impressive power (and philosophy) of One Punch Man&amp;rsquo;s Consecutive Normal Punches, I present: A Series of Consecutive Normal Daily Head Voices!
+Monday 2024-01-08 First day back at work 😱 &amp;hellip; but the most lovely lunch run (not literally) and chat with colleague E. Single cable life at work is there, but it&amp;rsquo;s complicated: Thunderbolt3 cable from macbook to Thinkpad dock, dock thunderbolt3 to displayport-mini (adapter), displayport-mini to displayport to monitor. Had blood drawn for my quarterly PSA test. (prostate-specific antigen; regular test to check that prostate cancer stays gone) Double Commander (currently at 1.1.8) on macOS is even better than I remember it, and is only a brew install --cask double-commander away. Tuesday 2024-01-09 marimo looks really good! From the github: a reactive notebook for Python. It allows you to rapidly experiment with data and models, code with confidence in your notebook&amp;rsquo;s correctness, and productionize notebooks as pipelines or interactive web apps. I still have to play with it, but it sounds like an Observable for Python. Wednesday 2024-01-10 Shorter weekday run because hip and because sun. Hip only started complaining by the end, a little later than my last short run. 🎉 Tried to find reclining high-back office chairs with footrest in South Africa, starting from: https://www.wellnessgrit.com/best-reclining-office-chair-with-footrest/ Spectacular failure! Google Bard, Bing Chat, Perplexity come up with plausible looking links that go to different sites, but nowhere any chairs to be found perplexity is probably the least bad because it more often admits to just not finding any links in SA See e.g. https://g.co/bard/share/39071699296c and https://www.perplexity.ai/search/Following-is-a-aMds8_E1SkSAwsHGKNF_tQ?s=c#68c76cf3-f135-4a44-80c2-c1c628d17fb5 Because of work, started to spend some quality time with d3.js again. I hope to be doing some nice interactive visualization soon! Thursday 2024-01-11 PSA is 0.006! 🥳 if you&amp;rsquo;ve ever worked with d3.js, you will have used bl.ocks.org quite often. To my surprise, none of these links work anymore, and instead redirect you to the source gist, where they used to show you the live visualization. I could not find much official news about this sunsetting, but was consoled by the discovery of the open source bl.ocks.org clone at https://blocks.roadtolarissa.com/ via https://stackoverflow.com/a/75351168/532513 Tune of the evening: RÜFÜS DU SOL - On My Knees (Adriatique Remix) Friday 2024-01-12 Short week-day run, no hip issues! Very nice focused day at home: First half wrapping up a code review. Second half diving back into d3.js. So much old memories I have to unearth. In between hacked in an idle mode for org-roam-similarity, in the process discovered that on this M1 Pro, CPU is much faster (2x) and uses much less RAM than the hardware accelerated PyTorch MPS version Lovely weekend-starter braai with family. Ran into the final sections (and private comments the source org file) of WHV #208 &amp;ndash; besides the nostalgic music bits, really enjoyed reading some of the older journals. Publish or not, strong motivation to keep on writing journals. (now-you is often a very different person than then-you. interesting to keep in touch!) Saturday 2024-01-13 one of the highlights of the day was phone-call by and substantial conversation with bestie PK rest of day quite laid-back with the whole family, which was great thinking a lot about stefanv&amp;rsquo;s week planner instead of day planner, and the implications of this seemingly reduced planning effort (my daily planning is mostly only theoretical) greater family braai (GFB) Sunday 2024-01-14 Overslept a bit, woke up at 9 AM. This has not happened in ages. Slightly longer weekend run at 10 with new running hat and SPF50 on me face and neck. Hip issue did not manifest, am touching wood! Because I&amp;rsquo;ve been thinking about more visual ways to plan my week, worked on org-roam-canvas, making it a whole lot faster.</description><content:encoded><![CDATA[ <p>Inspired by the impressive power (and philosophy) of One Punch Man&rsquo;s <em>Consecutive Normal Punches</em>, I present: A Series of Consecutive Normal Daily Head Voices!</p>
+<h2 id="monday-2024-01-08">Monday 2024-01-08</h2>
+<ul>
+<li>First day back at work 😱</li>
+<li>&hellip; but the most lovely lunch run (not literally) and chat with colleague E.</li>
+<li>Single cable life at work is there, but it&rsquo;s complicated: Thunderbolt3 cable from macbook to Thinkpad dock, dock thunderbolt3 to displayport-mini (adapter), displayport-mini to displayport to monitor.</li>
+<li>Had blood drawn for my quarterly PSA test. (prostate-specific antigen; regular test to check that prostate cancer stays gone)</li>
+<li>Double Commander (currently at 1.1.8) on macOS is even better than I remember it, and is only a <code>brew install --cask double-commander</code> away.</li>
+</ul>
+<h2 id="tuesday-2024-01-09">Tuesday 2024-01-09</h2>
+<ul>
+<li><a href="https://github.com/marimo-team/marimo">marimo</a> looks really good! From the github: <em>a reactive notebook for Python. It allows you to rapidly experiment with data and models, code with confidence in your notebook&rsquo;s correctness, and productionize notebooks as pipelines or interactive web apps</em>. I still have to play with it, but it sounds like an <a href="https://observablehq.com/">Observable</a> for Python.</li>
+</ul>
+<h2 id="wednesday-2024-01-10">Wednesday 2024-01-10</h2>
+<ul>
+<li>Shorter weekday run because hip and because sun. Hip only started complaining by the end, a little later than my last short run. 🎉</li>
+<li>Tried to find reclining high-back office chairs with footrest in South Africa, starting from: <a href="https://www.wellnessgrit.com/best-reclining-office-chair-with-footrest/">https://www.wellnessgrit.com/best-reclining-office-chair-with-footrest/</a>
+<ul>
+<li>Spectacular failure! Google Bard, Bing Chat, Perplexity come up with plausible looking links that go to different sites, but nowhere any chairs to be found</li>
+<li>perplexity is probably the least bad because it more often admits to just not finding any links in SA</li>
+<li>See e.g. <a href="https://g.co/bard/share/39071699296c">https://g.co/bard/share/39071699296c</a> and <a href="https://www.perplexity.ai/search/Following-is-a-aMds8_E1SkSAwsHGKNF_tQ?s=c#68c76cf3-f135-4a44-80c2-c1c628d17fb5">https://www.perplexity.ai/search/Following-is-a-aMds8_E1SkSAwsHGKNF_tQ?s=c#68c76cf3-f135-4a44-80c2-c1c628d17fb5</a></li>
+</ul>
+</li>
+<li>Because of work, started to spend some quality time with <a href="https://d3js.org/">d3.js</a> again. I hope to be doing some nice interactive visualization soon!</li>
+</ul>
+<h2 id="thursday-2024-01-11">Thursday 2024-01-11</h2>
+<ul>
+<li>PSA is 0.006! 🥳</li>
+<li>if you&rsquo;ve ever worked with d3.js, you will have used bl.ocks.org quite often. To my surprise, none of these links work anymore, and instead redirect you to the source gist, where they used to show you the live visualization. I could not find much official news about this sunsetting, but was consoled by the discovery of the open source bl.ocks.org clone at <a href="https://blocks.roadtolarissa.com/">https://blocks.roadtolarissa.com/</a> via <a href="https://stackoverflow.com/a/75351168/532513">https://stackoverflow.com/a/75351168/532513</a></li>
+<li>Tune of the evening: <a href="https://youtu.be/IAmmkJZ55vM?si=WjEjD8MLge7sCo0E">RÜFÜS DU SOL - On My Knees (Adriatique Remix)</a></li>
+</ul>
+<h2 id="friday-2024-01-12">Friday 2024-01-12</h2>
+<ul>
+<li>Short week-day run, no hip issues!</li>
+<li>Very nice focused day at home: First half wrapping up a code review. Second half diving back into d3.js. So much old memories I have to unearth.</li>
+<li>In between hacked in an idle mode for <a href="https://github.com/cpbotha/org-roam-similarity">org-roam-similarity</a>, in the process discovered that on this M1 Pro, CPU is much faster (2x) and uses much less RAM than the hardware accelerated PyTorch MPS version</li>
+<li>Lovely weekend-starter braai with family.</li>
+<li>Ran into the final sections (and private comments the source org file) of <a href="https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/#thank-you-joris">WHV #208</a> &ndash; besides the nostalgic music bits, really enjoyed reading some of the older journals. Publish or not, strong motivation to keep on writing journals. (now-you is often a very different person than then-you. interesting to keep in touch!)</li>
+</ul>
+<h2 id="saturday-2024-01-13">Saturday 2024-01-13</h2>
+<ul>
+<li>one of the highlights of the day was phone-call by and substantial conversation with bestie PK</li>
+<li>rest of day quite laid-back with the whole family, which was great</li>
+<li>thinking a lot about stefanv&rsquo;s week planner instead of day planner, and the implications of this <em>seemingly</em> reduced planning effort (my daily planning is mostly only theoretical)</li>
+<li>greater family braai (GFB)</li>
+</ul>
+<h2 id="sunday-2024-01-14">Sunday 2024-01-14</h2>
+<ul>
+<li>Overslept a bit, woke up at 9 AM. This has not happened in ages.</li>
+<li>Slightly longer weekend run at 10 with new running hat and SPF50 on me face and neck. Hip issue did not manifest, am touching wood!</li>
+<li>Because I&rsquo;ve been thinking about more visual ways to plan my week, worked on <a href="https://github.com/cpbotha/org-roam-canvas">org-roam-canvas</a>, making it a <a href="https://github.com/cpbotha/org-roam-canvas/commit/a67ad1ee59c93a2998a0c2975ed7d567e7f02c8d">whole lot faster</a>.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #148: Data stylist.</title><link>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</link><pubDate>Tue, 17 Jul 2018 07:22:30 +0000</pubDate><guid>https://cpbotha.net/2018/07/17/weekly-head-voices-148-data-stylist/</guid><description> Ridiculously fun trail in Paarl somewhere. (Photo taken by Trail Friend #1. Trail Friend #2 cropped from picture, because no permission to appear on the internets!)
 This post covers the week from Monday July 9 to Sunday July 15.
 The business part of my week was unfairly dominated by far too much after-work obsessing over programming languages, with which I seem to have an unhealthy (or perhaps not) obsession.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -115,8 +170,10 @@ The business part of my week was unfairly dominated by far too much after-work o
 <h1 id="the-end">The End</h1>
 <p>Let me know in the comments what you think about any of this, or anything else.</p>
 <p>I hope to meet you again in a few days, here or elsewhere.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #102: High on life.</title><link>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</link><pubDate>Wed, 20 Jan 2016 07:21:17 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</guid><description> The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a business lunch at Bodega, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:
-… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar. The company might be different every time, but so far its level of awesomeness has been quite consistent.</description><content:encoded><![CDATA[ <p>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a <em>business</em> lunch at <a href="http://www.dornier.co.za/restaurant">Bodega</a>, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #102: High on life.</title><link>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</link><pubDate>Wed, 20 Jan 2016 07:21:17 +0000</pubDate><guid>https://cpbotha.net/2016/01/20/weekly-head-voices-102-high-on-life/</guid><description>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a business lunch at Bodega, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:
+… and the company was suitably awesome. (This is not the first time that Bodega makes its appearance on this blog, or in the blog-free suburbs of my social calendar. The company might be different every time, but so far its level of awesomeness has been quite consistent.)</description><content:encoded><![CDATA[ <p>The week of Monday January 11 to Sunday January 17, 2016 got off to a brilliant start with a <em>business</em> lunch at <a href="http://www.dornier.co.za/restaurant">Bodega</a>, a restaurant that finds itself on the Dornier Wine Estate. The view looked something like this:</p>
+
+
 
 
 
@@ -145,6 +202,8 @@ The business part of my week was unfairly dominated by far too much after-work o
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/20160116_100314-PANO.jpg">
     <img
         
@@ -155,4 +214,4 @@ The business part of my week was unfairly dominated by far too much after-work o
 
 <p>I’ve often wondered about the effect of one’s surroundings on one’s mindfulness. This was one of those cases where mother nature, without asking for permission or anything like that, simply brute-forced the <em>being</em> switch with her astonishing beauty. Very grateful I was.</p>
 <p>Have a great week friends, see you on the other side!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>forerunner on voices in my head</title><link>https://cpbotha.net/tags/forerunner/</link><description>Recent content in forerunner on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 29 Mar 2021 21:41:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/forerunner/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #218: Back to the future</title><link>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</link><pubDate>Mon, 29 Mar 2021 21:41:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</guid><description> WELL HELLO DERE FRIENDS!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Forerunner on voices in my head</title><link>https://cpbotha.net/tags/forerunner/</link><description>Recent content in Forerunner on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 29 Mar 2021 22:00:05 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/forerunner/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #218: Back to the future</title><link>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</link><pubDate>Mon, 29 Mar 2021 21:41:00 +0200</pubDate><guid>https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/</guid><description>WELL HELLO DERE FRIENDS!
 Welcome to the Weekly Head Voices #218, looking back at the week from Monday March 22 to Sunday March 28 of the year 2021.
-Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine.
-Two worlds collide! On the one hand I do worry about the number of hours I spent on this, but on the other hand it&amp;rsquo;s one of those time investments that should pay off handsomely over the coming years.</description><content:encoded><![CDATA[ <p>WELL HELLO DERE FRIENDS!</p>
+Figure 1: A little forest on Vergelegen farm, close to where we had just enjoyed an absolutely fabulous Sunday lunch, with wine.</description><content:encoded><![CDATA[ <p>WELL HELLO DERE FRIENDS!</p>
 <p>Welcome to the Weekly Head Voices #218, looking back at the week from Monday
 March 22 to Sunday March 28 of the year 2021.</p>
+
+
 
 
 
@@ -19,18 +20,22 @@ March 22 to Sunday March 28 of the year 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu_24d3a75a08bba2e0.jpg 480w,
             
-                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu_b26d03a2071cc9f4.jpg 800w,
             
-                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu_3a2c7f0493b32378.jpg 1200w,
             
-                   https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu_2928f7b46bee31d8.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu7d3336573ad6644e60e8f43ed6c46ca5_4647322_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/03/29/weekly-head-voices-218-back-to-the-future/vergelegen_somewhere_hu_b26d03a2071cc9f4.jpg"
             
 
         
@@ -68,10 +73,10 @@ into when xz should be preferred over bz2.</p>
 compression speed and especially its decompression speed, have helped me more
 than once, which is why I&rsquo;m mentioning it here.</p>
 <p>Here&rsquo;s the 2 second guide:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># compress using as many threads as there are CPU cores</span>
-</span></span><span style="display:flex;"><span>tar cf - giant_directory | zstd -T0 -o giant_directory.tar.zst
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># decompress REALLY TERRIBLY QUICKLY</span>
-</span></span><span style="display:flex;"><span>zstd -dc giant_directory.tar.zst | tar x
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#57606a"># compress using as many threads as there are CPU cores</span>
+</span></span><span style="display:flex;"><span>tar cf - giant_directory <span style="color:#1f2328">|</span> zstd -T0 -o giant_directory.tar.zst
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># decompress REALLY TERRIBLY QUICKLY</span>
+</span></span><span style="display:flex;"><span>zstd -dc giant_directory.tar.zst <span style="color:#1f2328">|</span> tar x
 </span></span></code></pre></div><p>You can even get zstd to train on your type of data in order to build up a
 domain-specific compression dictionary!</p>
 <h2 id="can-type-systems-catch-bugs-science-says-yes">Can type systems catch bugs? Science says yes!</h2>
@@ -109,6 +114,8 @@ have to be updated!</p>
 
 
 
+
+
 <figure><a href="science_and_your_beliefs.jpg">
     <img
         
@@ -116,13 +123,17 @@ have to be updated!</p>
               
             srcset='
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
@@ -200,4 +211,4 @@ any other fans of Love and Science, to hang out and sometimes make interesting
 new connections, and to enjoy the existing ones.</p>
 <p>What do you think?</p>
 <p>Err, let me know in the comments, or via Signal, or via discord?</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

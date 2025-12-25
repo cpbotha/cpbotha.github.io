@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>swift on voices in my head</title><link>https://cpbotha.net/tags/swift/</link><description>Recent content in swift on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 07 Jan 2016 20:01:00 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/swift/index.xml" rel="self" type="application/rss+xml"/><item><title>Closure expressions in Swift</title><link>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</link><pubDate>Thu, 07 Jan 2016 20:01:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</guid><description> Swift is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Swift on voices in my head</title><link>https://cpbotha.net/tags/swift/</link><description>Recent content in Swift on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 07 Jan 2016 20:01:00 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/swift/index.xml" rel="self" type="application/rss+xml"/><item><title>Closure expressions in Swift</title><link>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</link><pubDate>Thu, 07 Jan 2016 20:01:00 +0000</pubDate><guid>https://cpbotha.net/2016/01/07/closure-expressions-in-swift/</guid><description>Swift is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.
 Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.
 In this post I’m going to chat about closure expression syntax, in the process showing you IBM’s Swift Sandbox, an online tool for experimenting with Swift.</description><content:encoded><![CDATA[ <p><a href="https://swift.org/">Swift</a> is a new high-performance compiled language designed by Apple. I’ve had some experience using it for an IOS development project, but the language is open source and is already available for Linux.</p>
 <p>Some of you are probably able to appreciate the irony of me writing a blog post about Apple’s new programming language Swift, but here we are. :) I am, grudgingly, really impressed by Apple’s good work.</p>
@@ -51,6 +51,8 @@ In this post I’m going to chat about closure expression syntax, in the process
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/swift-sort-binaries.png">
     <img
         
@@ -61,9 +63,11 @@ In this post I’m going to chat about closure expression syntax, in the process
 
 <p>The Swift language is open source, is already available for Linux, has a number of really compelling modern language features of which closure expressions are just one example (other interesting examples include optional types and protocol extensions), is statically typed with good type inference, and has a good compiler. For these reasons, it should be strongly considered for a permanent spot in your compiled language toolbox!</p>
 <p>P.S. Yes, I do know that C++ has <code>lambda</code> and <code>auto</code>. I like them too!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #100: Happy 2016!</title><link>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</link><pubDate>Sun, 03 Jan 2016 09:20:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</guid><description> Cape Town photographed from the top of Table Mountain. Click for high-res.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #100: Happy 2016!</title><link>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</link><pubDate>Sun, 03 Jan 2016 09:20:26 +0000</pubDate><guid>https://cpbotha.net/2016/01/03/weekly-head-voices-100-happy-2016/</guid><description> Cape Town photographed from the top of Table Mountain. Click for high-res.
 I wish you a truly happy 2016, filled with learning and helping other people! Neil deGrasse Tyson, exemplary human, said it best:
 For me, I am driven by two main philosophies, know more today about the world than I knew yesterday. And along the way, lessen the suffering of others. You’d be surprised how far that gets you.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -95,4 +99,4 @@ For me, I am driven by two main philosophies, know more today about the world th
 <li>We spent so many weekends and the Christmas vacation doing fun outdoorsy stuff (living at the southern tip of Africa has serious perks), not least of which was a trip up Table Mountain for the first time in 15 years. See the photo up top for an impression.</li>
 </ul>
 <p>I have some fun changes in mind for this blog in 2016, but you&rsquo;re going to have to stick around to find out what they are, so… see you later peeps!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

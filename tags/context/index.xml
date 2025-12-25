@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>context on voices in my head</title><link>https://cpbotha.net/tags/context/</link><description>Recent content in context on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 21 Mar 2021 21:49:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/context/index.xml" rel="self" type="application/rss+xml"/><item><title>New Emacs-capable hardware: M1 MacBook Air</title><link>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</link><pubDate>Sun, 21 Mar 2021 21:49:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</guid><description><![CDATA[ You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I usually write a little something about it.
-These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged most of them so that you can see them all in this convenient &ldquo;new computer&rdquo; tag list!
-Fast, cheap and energy efficient: Choose three This time, I, or rather my employer, had difficulty resisting the siren song of the new Apple M1 chip and especially of the entry-level M1 MacBook Air: Great performance and power efficiency in a truly cool and quiet package.]]></description><content:encoded><![CDATA[ <p>You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Context on voices in my head</title><link>https://cpbotha.net/tags/context/</link><description>Recent content in Context on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Jun 2021 12:57:05 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/context/index.xml" rel="self" type="application/rss+xml"/><item><title>New Emacs-capable hardware: M1 MacBook Air</title><link>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</link><pubDate>Sun, 21 Mar 2021 21:49:00 +0200</pubDate><guid>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</guid><description>You know the drill here at the WHV: If there&amp;rsquo;s a new computer in the family, I usually write a little something about it.
+These mentions and posts go back to at least 2002, and now I&amp;rsquo;ve back-tagged most of them so that you can see them all in this convenient &amp;ldquo;new computer&amp;rdquo; tag list!
+Fast, cheap and energy efficient: Choose three This time, I, or rather my employer, had difficulty resisting the siren song of the new Apple M1 chip and especially of the entry-level M1 MacBook Air: Great performance and power efficiency in a truly cool and quiet package.</description><content:encoded><![CDATA[ <p>You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I
 usually write a little something about it.</p>
 <p>These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged
 most of them so that you can see them all in this convenient <a href="/tags/new-computer/">&ldquo;new computer&rdquo; tag
@@ -17,6 +17,8 @@ performance and power efficiency in a truly cool and quiet package.</p>
 
 
 
+
+
 <figure><a href="m1-macbook-air-about.png">
     <img
         
@@ -24,18 +26,22 @@ performance and power efficiency in a truly cool and quiet package.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_de2f1e5efc3aadf2.png 480w,
             
-                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_6c2a206fdadbba4.png 800w,
             
-                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_2a184c7768aa3ee0.png 1200w,
             
-                   
+                
+                
             '
 
             
             
-            src="https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_6c2a206fdadbba4.png"
             
 
         /> </a>
@@ -61,18 +67,18 @@ my writing.</p>
 device in question.</p>
 <p>Have I mentioned &ldquo;super snappy&rdquo;?</p>
 <p>By the way, if you build Emacs like this on the M1:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap railwaycat/emacsmacport
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap railwaycat/emacsmacport
 </span></span><span style="display:flex;"><span>brew install --formula emacs-mac --HEAD
 </span></span></code></pre></div><p>&hellip; you should be good to go.</p>
 <h3 id="update-on-2021-04-15">Update on 2021-04-15</h3>
 <p>A few days ago, I started seeing the following error during homebrew Emacs update:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>./temacs --batch  -l loadup --temacs=pbootstrap
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>./temacs --batch  -l loadup --temacs=pbootstrap
 </span></span><span style="display:flex;"><span>make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
 </span></span><span style="display:flex;"><span>make: *** [src] Error 2
 </span></span></code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
 master.</p>
 <p>It was easiest for me to switch to emacs-plus, which went like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew uninstall emacs-mac
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew uninstall emacs-mac
 </span></span><span style="display:flex;"><span>brew tap d12frosted/emacs-plus
 </span></span><span style="display:flex;"><span>brew install emacs-plus@28 --with-no-titlebar
 </span></span></code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
@@ -84,9 +90,9 @@ the <em>instantly available</em> requirement.</p>
 <p>The Air is for instant-on writing, communication, admin and maybe a tiny bit of
 development, whilst the ThinkPad is for all of the heavy lifting, but who knows
 how these lines are going to be blurred in the coming months?</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #195: Pragmatic</title><link>https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/</link><pubDate>Wed, 20 May 2020 23:06:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/</guid><description> Figure 1: Photo from a walk with the fam jam up the mountain a little while out from our backyard, all within the sanctioned exercise hours between 6 and 9 in the mornings.
-This edition of the Weekly Head Voices looks back at the week from Monday May 11 to Sunday May 17, 2020.
-The rest of this post consists of a part about keyboards, a part chock full of ways to waste your time with WSL and f#, a part about why you might be wasting your time with aforementioned, and then finally a part about a really interesting book.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #195: Pragmatic</title><link>https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/</link><pubDate>Wed, 20 May 2020 23:06:00 +0200</pubDate><guid>https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/</guid><description> Figure 1: Photo from a walk with the fam jam up the mountain a little while out from our backyard, all within the sanctioned exercise hours between 6 and 9 in the mornings.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -101,18 +107,22 @@ The rest of this post consists of a part about keyboards, a part chock full of w
               
             srcset='
             
-                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_hu_43802c1131658bd6.jpg 480w,
             
-                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_hu_e78148222b5a7439.jpg 800w,
             
-                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_hu_2ac63fe7a4f19ddc.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_hu_4caf7a66660fef21.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_huf2970f51c94e01f85b4e747c8808a4c0_1666878_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/20/weekly-head-voices-195-pragmatic/nbh_mountain_walk_pano_hu_e78148222b5a7439.jpg"
             
 
         
@@ -268,6 +278,8 @@ and manage interruptions.</li>
 
 
 
+
+
 <figure><a href="pragmatic_screenshot.png">
     <img
         
@@ -292,4 +304,4 @@ trying.</p>
 create a little more space around the small victories and pleasures that one
 experiences even on <em>those</em> days.</p>
 <p>See you around friends!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

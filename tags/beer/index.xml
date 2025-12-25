@@ -1,6 +1,231 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>beer on voices in my head</title><link>https://cpbotha.net/tags/beer/</link><description>Recent content in beer on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 17 Oct 2019 19:47:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/beer/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #181: The Slow Ones.</title><link>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</link><pubDate>Thu, 17 Oct 2019 19:47:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</guid><description> Welcome back everyone!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Beer on voices in my head</title><link>https://cpbotha.net/tags/beer/</link><description>Recent content in Beer on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2024 21:27:48 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/beer/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 4 of 2024</title><link>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</link><pubDate>Sun, 28 Jan 2024 21:27:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</guid><description>Monday 2024-01-22 As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &amp;ldquo;When you&amp;rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&amp;rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS! At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&amp;hellip; Short but really nice streamlit demo during a work meeting. I knew about streamlit, but I&amp;rsquo;ve never actually played with it. Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3. In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&amp;hellip; &amp;hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola. Tuesday 2024-01-23 At the office nice and early (7:30). Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at react-flow and comfyui react-flow looks like it could work pretty well for this new project. Also: SO SHINY! streamlit app life cycle: script re-runs every time user interacts, see https://docs.streamlit.io/get-started/fundamentals/summary it does have caching mechanisms to make this go faster marimo, although much newer, approaches this issue with its reactive cell pattern Idea: We should write focused technical memos at work. This is now howto, but rather &amp;ldquo;things I learned&amp;rdquo; formulated to teach not just to document. Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&amp;rsquo;s a zero day vulnerability in previous versions that can be exploited via malicious websites. Wednesday 2024-01-24 8km run at just after 7 AM before it really got hot dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW! Remember kids: Our spine&amp;rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally. This is also the reason why I&amp;rsquo;m still searching for a long enough reclining chair. Lovely working lunch with friend S at No Way José Some random ideas that popped into my head as I was trying to work: idea: make github so that people can pipx install marimo-turbo to get install with pandas, altair, matplotlib, and so on. idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets in the end, probably better to do this on my own VPS &amp;hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See https://emacs.ch/@cpbotha/111811547009420844 (post is also embedded below) idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&amp;gt; nginx -&amp;gt; supervisord -&amp;gt; tornado systemd can partially do something like this using socket activation: https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation I would prefer to use supervisord for this This will remain on the todo list for now, unless one of you knows a trick? ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &amp;ldquo;crystal vs nim-lang&amp;rdquo; googling blog post: https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/ the kubernetes thing: https://github.com/vitobotta/hetzner-k3s TIL: mastodon embeds are not as durable as twitter embeds As I pasted the above embed, I saw to my disappointment that it&amp;rsquo;s just pulling in the mastodon post URL via iframe.</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-22">Monday 2024-01-22</h2>
+<ul>
+<li>As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &ldquo;When you&rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS!</li>
+<li>At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&hellip;</li>
+<li>Short but really nice <a href="https://streamlit.io/">streamlit</a> demo during a work meeting. I knew about streamlit, but I&rsquo;ve never actually played with it.</li>
+<li>Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3.
+<ul>
+<li>In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&hellip;</li>
+<li>&hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola.</li>
+</ul>
+</li>
+</ul>
+<h2 id="tuesday-2024-01-23">Tuesday 2024-01-23</h2>
+<ul>
+<li>At the office nice and early (7:30).</li>
+<li>Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at <a href="https://reactflow.dev/">react-flow</a> and comfyui
+<ul>
+<li>react-flow looks like it could work pretty well for this new project. Also: SO SHINY!</li>
+</ul>
+</li>
+<li>streamlit app life cycle: script re-runs every time user interacts, see <a href="https://docs.streamlit.io/get-started/fundamentals/summary">https://docs.streamlit.io/get-started/fundamentals/summary</a>
+<ul>
+<li>it does have caching mechanisms to make this go faster</li>
+<li>marimo, although much newer, approaches this issue with its reactive cell pattern</li>
+</ul>
+</li>
+<li>Idea: We should write focused technical memos at work. This is now howto, but rather &ldquo;things I learned&rdquo; formulated to teach not just to document.</li>
+<li>Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&rsquo;s a <a href="https://www.tomsguide.com/news/apple-issues-urgent-security-updates-to-fix-zero-day-flaw-update-your-iphone-and-mac-right-now">zero day vulnerability</a> in previous versions that can be exploited via malicious websites.</li>
+</ul>
+<h2 id="wednesday-2024-01-24">Wednesday 2024-01-24</h2>
+<ul>
+<li>8km run at just after 7 AM before it really got hot</li>
+<li>dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work</li>
+<li>right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW!
+<ul>
+<li>Remember kids: Our spine&rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally.</li>
+<li>This is also the reason why I&rsquo;m still searching for a long enough reclining chair.</li>
+</ul>
+</li>
+<li>Lovely working lunch with friend S at <a href="https://www.facebook.com/NoWayJoseSomerset">No Way José</a></li>
+<li>Some random ideas that popped into my head as I was trying to work:
+<ul>
+<li>idea: make github so that people can <code>pipx install marimo-turbo</code> to get install with pandas, altair, matplotlib, and so on.</li>
+<li>idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap
+<ul>
+<li>sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets</li>
+<li>in the end, probably better to do this on my own VPS
+<ul>
+<li>&hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See <a href="https://emacs.ch/@cpbotha/111811547009420844">https://emacs.ch/@cpbotha/111811547009420844</a> (post is also embedded below)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&gt; nginx -&gt; supervisord -&gt; tornado
+<ul>
+<li>systemd can partially do something like this using socket activation: <a href="https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation">https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation</a></li>
+<li>I would prefer to use supervisord for this</li>
+<li>This will remain on the todo list for now, unless one of you knows a trick?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &ldquo;crystal vs nim-lang&rdquo; googling
+<ul>
+<li>blog post: <a href="https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/">https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/</a></li>
+<li>the kubernetes thing: <a href="https://github.com/vitobotta/hetzner-k3s">https://github.com/vitobotta/hetzner-k3s</a></li>
+</ul>
+</li>
+</ul>
+<iframe src="https://emacs.ch/@cpbotha/111811547009420844/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://emacs.ch/embed.js" async="async"></script>
+<h3 id="til-mastodon-embeds-are-not-as-durable-as-twitter-embeds">TIL: mastodon embeds are not as durable as twitter embeds</h3>
+<p>As I pasted the above embed, I saw to my disappointment that it&rsquo;s just pulling in the mastodon post URL via <code>iframe</code>.</p>
+<p>With twitter, you get more self-contained HTML which will render even when twitter or just the original tweet don&rsquo;t exist anymore.</p>
+<p>This is probably just another reason to figure out how I can get more low-friction microblogging going on my own websites so that the embedding implementations of other microblogging sites become irrelevant.</p>
+<h2 id="thursday-2024-01-25">Thursday 2024-01-25</h2>
+<ul>
+<li>Took a look at <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/">cloudflare tunnels</a> to expose marimo and other dashboards to the internet
+<ul>
+<li>great that I can use my existing domains for this, and I can route between multiple domains to multiple locally running services</li>
+<li>some more steps to setup, but it did not take more than about 5 minutes, and gives me even more options than tailscale funnels. OPTIONS MAN!</li>
+</ul>
+</li>
+<li>At work, quickly got react-flow&hellip; flowing. SHINY!</li>
+<li>In the evening, found <a href="https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/">https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/</a> which is the new Shortcuts based way, based on the old AppleScript way, of getting a <code>message://</code> link onto the clipboard.
+<ul>
+<li>You <a href="/2023/04/11/note-taking-strategy-2023/#email-linking">might recall from this blog</a> that <code>message://</code> are the most durable and cross-platform way to link to emails from your notes (or anywhere else)</li>
+</ul>
+</li>
+</ul>
+<h2 id="friday-2024-01-26">Friday 2024-01-26</h2>
+<ul>
+<li>Woke up to cool, overcast weather, a big change from a series of 30℃ + days. Really had to resist going out for a run (normal run day + that amazing coolness), because of Wednesday&rsquo;s partially pulled back muscle not being 100% yet.</li>
+<li>Worked on mystery visualization project (react-flow)</li>
+<li>Lovely and energising lunch with previous colleague and friend. Happy that I reached out on Thursday although they have a packed schedule because only in country for limited time. I guess this is quite related to <a href="/2022/09/25/weekly-head-voices-246-call-up-your-friends/#call-up-your-friends">calling up your friends</a>, with a ping of serendipity salt.</li>
+<li>I was shocked by how well and fast <a href="https://ollama.ai/">ollama</a> worked on my MacBook. See embedded tweet below.</li>
+<li>Almost at the end of the afternoon, friend S and I went to some more friends for the first Weiss-off, that is, a Weiss beer tasting contest. It was huge fun blind-tasting 10 different Weiss beers, ranking them, trying to identify them (so much harder than I thought!), and then having them revealed at the end.
+<ul>
+<li>Between the experts there (read: us), Stangen Weiss Bier came out on top, followed by Weisbier No5 and Jack Black Atlantic Weiss. The fourth place was shared by Erdinger and CBC Amber Weiss.</li>
+<li>My favourite, Stellenbrau Jonkersweiss, is glaringly absent from the top. I&rsquo;ll live, probably consoled by just such a Jonkersweiss. Super happy that Amber Weiss and Atlantic are both present!</li>
+<li>There was a trophy (for the taster who could blind-identify the most beers in the Weiss-off), which we have christened the <em>David Weisselhoff wisseltrofee</em>.</li>
+</ul>
+</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With <a href="https://twitter.com/MistralAI?ref_src=twsrc%5Etfw">@MistralAI</a>&#39;s Mistral 7B at Q4_0 on this MacBook M1 Pro 10C / 16C, <a href="https://twitter.com/ollama?ref_src=twsrc%5Etfw">@ollama</a> looks like it&#39;s easily 3 times faster than the new MLX 0.0.11 (with GGUF support).<br><br>It&#39;s subjectively (visually) faster, and the tokens/s measurements confirm this. <a href="https://t.co/9vyluimLKK">pic.twitter.com/9vyluimLKK</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1750824125419942036?ref_src=twsrc%5Etfw">January 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="saturday-2024-01-27">Saturday 2024-01-27</h2>
+<ul>
+<li>Yesterday&rsquo;s Wonderful Weiss-off also had some, thankfully quite minor, effect the next morning, but I went out for a careful weekday distance run, which fortunately went without a hitch. Just very hot thanks.</li>
+<li>Went to Buco and then to <a href="https://appletoolandgas.com/">Apple Tool and Gas</a> to find the rest of the screws I needed to repair the shower door. Friendly gentleman at Apple even sawed some of my screws to size! Shower door back in operation.</li>
+<li>Updated my &ldquo;old&rdquo; M1 MBA to macOS 14.3 and then reset to transfer to GOU#1&rsquo;s iCloud. Say what you want about Apple, but that part of their stuff works <em>really</em> well.</li>
+<li>Left for Betty&rsquo;s Bay at about 16:00 with GOUs #1 and #2. The rest of the family already there.</li>
+</ul>
+<h2 id="sunday-2024-01-28">Sunday 2024-01-28</h2>
+<ul>
+<li>Woke up in Betty&rsquo;s Bay after a longer than normal night of sleep, but Garmin body battery was still not completely happy.</li>
+<li>In spite of having run yesterday and still feeling a bit tired (see body battery above), I had the best run of the month so far in Betty&rsquo;s. Go figure.</li>
+<li>Spent some time with Canva &ndash; what a great resource for doing nice designs, even flow charts &ndash; but not sure where I could use this.</li>
+<li>Background thought through the past weeks, and mentioned on Tuesday: I would really like to do (and promite) more TIL-style writing at work and at home. See <a href="https://til.simonwillison.net/">Simon Willison&rsquo;s amazing TIL collection</a> for inspiration.</li>
+<li>Ran into <a href="https://github.com/outlines-dev/outlines">https://github.com/outlines-dev/outlines</a> a Python library that can guarantee structured text generation from many LLMs, e.g. 100% valid JSON according to a specified schema. What makes it different from similar libraries? &ldquo;Unlike other libraries, regex-guided generation in Outlines is almost as fast as non-guided generation.&rdquo;</li>
+<li>I already had <a href="https://github.com/microsoft/autogen">AutoGen</a> on my list for experimenting with multi-agent LLM applications, but now it has been joined by <a href="https://github.com/joaomdmoura/crewAI">crewAI</a> which I have also just ran into (thanks reddit!) and which seems to have significant support online.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #251: Week one fun</title><link>https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/</link><pubDate>Sun, 08 Jan 2023 22:23:00 +0200</pubDate><guid>https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/</guid><description>Welcome to the first regular Weekly Head Voices of the year folks!
+This, the 251st edition, looks back at the week from Monday, January 2 to Sunday, January 8 of the brand new year 2023.
+Figure 1: Blue waters of Betty&amp;rsquo;s Bay main beach. The weather was amazing.</description><content:encoded><![CDATA[ <p>Welcome to the first regular Weekly Head Voices of the year folks!</p>
+<p>This, the 251st edition, looks back at the week from Monday, January 2 to
+Sunday, January 8 of the brand new year 2023.</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="bettys-main-beach.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_2001f4641f2248f6.jpg 480w,
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_6b5efddaf37b8a25.jpg 800w,
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_93e7039947b520c1.jpg 1200w,
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_159f0e0ac8efaa4e.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_6b5efddaf37b8a25.jpg"
+            
+
+        
+            alt="Figure 1: Blue waters of Betty&rsquo;s Bay main beach. The weather was amazing."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Blue waters of Betty&rsquo;s Bay main beach. The weather was amazing.</p>
+        </figcaption>
+</figure>
+
+<p>You might recall from the 2023 transition post that appeared a mere week ago,
+that <a href="/2023/01/01/the-2022-to-2023-transition-post/#quo-vadis-2023">I really wanted to try to post more regularly here</a>, even if it meant that
+the posts might be less substantial.</p>
+<p>Well here we are: A short post that is on time!</p>
+<p>(The proposed blogging pipeline improvements that were also mentioned are still in progress (AKA I have
+not yet started).)</p>
+<h2 id="gou-1-is-back-from-dot-de">GOU #1 is back from .de!</h2>
+<p>The biggest news of the week is that GOU #1 has returned from a month-long
+<a href="https://fsa-youthexchange.co.za/">FSA exchange</a> visit to Essen, in Germany.</p>
+<p>We really missed her, but she&rsquo;s back after an experience-packed four weeks with
+an amazing host family, living her best life as she has this obvious talent to
+do.</p>
+<h2 id="a-tonne-of-fun-in-week-one">A tonne of fun in week one</h2>
+<p>Due to possibly debatable life decisions, I returned to work on Monday,
+January 3.</p>
+<p>There are perks to starting up so early in the year, primarily that it&rsquo;s quite
+peaceful, and there&rsquo;s a bit more headspace than normal to think about bigger
+plans for the year ahead.</p>
+<p>Sadly, I have not yet made any break-throughs in this regard.</p>
+<p>Partially this is due to a substantial number of my mental cycles having to go
+into a data-science project that requires my attention, and partially because I
+have not yet taken that deep-thinking-walk.</p>
+<p>I&rsquo;ll get on that walk tomorrow!</p>
+<p>In spite of work, we did manage to fit in a whole bunch of fun in this first
+week:</p>
+<ul>
+<li>We squeezed in a sneaky but sublime school night sunset dinner at Millhouse
+Kitchen on Lourensford Farm to celebrate our anticipation of GOU #1&rsquo;s return
+the next day.</li>
+<li>We made a family outing of a trip to the V&amp;A Waterfront on Saturday to return
+an Adoozy powerbank that they saved abovementioned GOU&rsquo;s phone with at OR
+Tambo airport in Johannesburg. Their rental powerbank concept looks
+interesting, and the people were really super helpful, but their network in
+Cape Town is a bit anaemic with the main issue that you can&rsquo;t return your
+powerbank at Cape Town airport!
+<ul>
+<li>During this outing, we had lunch at <a href="https://denanker.co.za/">Den Anker</a> where we always enjoy
+culinary and cultural echoes of our other home. In my case, this includes
+the taste of my favourite Trappist beer, namely <a href="/tags/rochefort/">the Rochefort</a>. On this
+beautiful sunny day, I opted for and limited myself to the lighter #6. (I
+and some of my friends have been known to enjoy all of those even numbers
+in sequence.)</li>
+</ul>
+</li>
+<li>On Sunday, we (famjam) made use of the absolutely fabulous weather and spent
+a glorious day in Betty&rsquo;s Bay, mostly on its main beach. I&rsquo;m currently
+reading <a href="https://www.goodreads.com/book/show/43263225-supernova-era">Liu
+Cixin&rsquo;s Supernova Era</a> and the story, with its pretty inventive premise, has
+just switched up a few gears.
+<ul>
+<li>The ocean views from <a href="/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/">Clarence Drive</a> were truly breath-taking today. They
+were so over-the-top beautiful that GOU #1 exclaimed at least once that
+they &ldquo;look like a rendering&rdquo;, which struck me as a really remarkable
+compliment. (This was followed by some joking in the car about all of <em>this</em>
+<a href="https://www.simulation-argument.com/">being a simulation</a>.)</li>
+</ul>
+</li>
+</ul>
+<p>Have a great week friends, I hope to see you again on the other side!</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #181: The Slow Ones.</title><link>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</link><pubDate>Thu, 17 Oct 2019 19:47:00 +0200</pubDate><guid>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</guid><description>Welcome back everyone!
 This edition of the WHV, #181, looks back at the period of time from Monday October 7 to Sunday October 13, 2019.
-Compulsory running shot: Looking at Gordon's Bay from the Strand. This was on Thursday. I squeezed in another short run on Friday, which my legs definitely did not appreciate. Note to self: Laziness earlier in the week leads to skipped rest days and sore legs later.</description><content:encoded><![CDATA[ <p>Welcome back everyone!</p>
+Compulsory running shot: Looking at Gordon's Bay from the Strand. This was on Thursday. I squeezed in another short run on Friday, which my legs definitely did not appreciate. Note to self: Laziness earlier in the week leads to skipped rest days and sore legs later. (cf. "A stitch in time saves nine." Also cf. Always Be Compounding.) Alternative WHV notification modalities. Shortly after publishing WHV #180, I decided (bolstered by the advice of my, err, advisor) to return to announcing new WHVs on Facebook and perhaps even on Twitter, in spite of TwiFRaF-YT.</description><content:encoded><![CDATA[ <p>Welcome back everyone!</p>
 <p>This edition of the WHV, #181, looks back at the period of time from Monday
 October 7 to Sunday October 13, 2019.</p>
 <figure>
@@ -26,22 +251,22 @@ October 7 to Sunday October 13, 2019.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_77e9f02865b47207.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_668df39896270fff.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_b72391f5381e5a66.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_2ae12fc41c639bc1.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_668df39896270fff.jpg"
   
 
    />
@@ -109,22 +334,22 @@ pages</a>.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_9df3cb3833e72e2f.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_6fcb5215693ddb6e.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_9d9262709756aa9c.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_64c6f6f1a80190f0.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_6fcb5215693ddb6e.jpg"
   
 
    />
@@ -162,22 +387,22 @@ re-opened Long Table restaurant at Haskell Winery.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_286fa91df2fcb999.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_36c973590ec6c78b.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_260eab87618f8b58.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_7f478114624e5f24.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_36c973590ec6c78b.jpg"
   
 
    />
@@ -239,7 +464,7 @@ thing happened on Saturday morning at 7:18:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/solar24_huc0e0be8262e3fdc02622910aa5b89973_156000_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/solar24_hu_3849a9dd8612a7a7.png 480w
   
   
   
@@ -298,7 +523,7 @@ forgotten art of focusing intently on a single thing for hours on end, without
 swiping in any direction.</p>
 <p>Communication between the two groups will become increasingly difficult.</p>
 <p>Will this remain the stuff of fiction?</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #179: Direct Experience Trigonometry.</title><link>https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/</link><pubDate>Thu, 03 Oct 2019 22:18:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/</guid><description> (WARNING: not your typical WHV post ahead. CONTINUE AT YOUR OWN RISK.)
+ ]]></content:encoded></item><item><title>Weekly Head Voices #179: Direct Experience Trigonometry.</title><link>https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/</link><pubDate>Thu, 03 Oct 2019 22:18:00 +0200</pubDate><guid>https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/</guid><description>(WARNING: not your typical WHV post ahead. CONTINUE AT YOUR OWN RISK.)
 In this, the 179th edition of the WHV, I look back at the week from Monday, September 24 to Sunday, September 29, 2019.
 We spent slightly more than half of this time on vacation in the Cederberg mountains.
 This Cederberg mountains frame and support a truly beautiful place, with as one of its many additional features the fact that mobile phone reception and other forms of modern digital communication have not managed to penetrate all that much.</description><content:encoded><![CDATA[ <p>(WARNING: not your typical WHV post ahead. CONTINUE AT YOUR OWN RISK.)</p>
@@ -346,22 +571,22 @@ Driehoek.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu9af1903cef05127802e67c8c870e2648_3434953_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu_eb682f3abf97d419.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu9af1903cef05127802e67c8c870e2648_3434953_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu_d48578fe00ac08fe.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu9af1903cef05127802e67c8c870e2648_3434953_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu_cfaf57d19f67df63.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu9af1903cef05127802e67c8c870e2648_3434953_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu_7ce0c125a80bd2c1.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu9af1903cef05127802e67c8c870e2648_3434953_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/driehoek_back_entrance_hu_d48578fe00ac08fe.jpg"
   
 
    />
@@ -402,22 +627,22 @@ wonderfully preserved San rock art:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu44b4e3c62978480e8bb223f6f9c4a80d_4110601_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu_98b03c3ac78915af.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu44b4e3c62978480e8bb223f6f9c4a80d_4110601_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu_ee188d93019cf89d.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu44b4e3c62978480e8bb223f6f9c4a80d_4110601_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu_b68822ef78a81d8.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu44b4e3c62978480e8bb223f6f9c4a80d_4110601_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu_86fb30a02c82f0d2.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu44b4e3c62978480e8bb223f6f9c4a80d_4110601_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/stadsaal_rock_art_hu_ee188d93019cf89d.jpg"
   
 
    />
@@ -452,22 +677,22 @@ reminded me strongly of the composition of a Star Wars poster:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_huff15912ee09372914e774428dec214c2_2013911_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_hu_838c1115afb648f8.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_huff15912ee09372914e774428dec214c2_2013911_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_hu_e292033b9ebfe400.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_huff15912ee09372914e774428dec214c2_2013911_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_hu_3a1424940c8b24cc.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_huff15912ee09372914e774428dec214c2_2013911_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_hu_cb1e83cf08a72d5e.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_huff15912ee09372914e774428dec214c2_2013911_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/star_wars_stadsaal_hu_e292033b9ebfe400.jpg"
   
 
    />
@@ -507,22 +732,22 @@ locally brewed <a href="http://www.nieuwbrew.co.za/">NieuwBrew</a> craft beer.</
   
   srcset='
   
-    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu8fb1fd06edae8b3aa28343116fa562c2_1929755_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu_41689a365f0252f7.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu8fb1fd06edae8b3aa28343116fa562c2_1929755_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu_5c0ac5e998db832.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu8fb1fd06edae8b3aa28343116fa562c2_1929755_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu_d747c46ffa869c54.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu8fb1fd06edae8b3aa28343116fa562c2_1929755_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu_d7c45648e2a3a8c9.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu8fb1fd06edae8b3aa28343116fa562c2_1929755_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/nieuw_brew_sandfish_weiss_hu_5c0ac5e998db832.jpg"
   
 
    />
@@ -566,22 +791,22 @@ Nel</a>.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu7af7c2c60a35d164443be38d22899489_1379166_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu_6ccb610a7946b22f.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu7af7c2c60a35d164443be38d22899489_1379166_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu_a5855f4f3e96d03f.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu7af7c2c60a35d164443be38d22899489_1379166_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu_935f270173011f0.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu7af7c2c60a35d164443be38d22899489_1379166_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu_5de8030a7b22b9b4.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu7af7c2c60a35d164443be38d22899489_1379166_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/cederberg_voertsek_beer_hu_a5855f4f3e96d03f.jpg"
   
 
    />
@@ -627,22 +852,22 @@ much nothingness as possible.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu2e1df59f0d5db384ccbcdfca76de0cb3_2640128_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu_a26d131c96189856.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu2e1df59f0d5db384ccbcdfca76de0cb3_2640128_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu_5530517a2defd34b.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu2e1df59f0d5db384ccbcdfca76de0cb3_2640128_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu_cd084f54059c5825.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu2e1df59f0d5db384ccbcdfca76de0cb3_2640128_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu_59afeb4aa946b646.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu2e1df59f0d5db384ccbcdfca76de0cb3_2640128_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/03/weekly-head-voices-179-direct-experience-trigonometry/gravel_road_run_hu_5530517a2defd34b.jpg"
   
 
    />
@@ -684,12 +909,13 @@ best.</p>
 <p>The run itself was a whole lot easier than writing a satisfying ending to this
 piece of text, a task that has me convincingly stumped.</p>
 <p>P.S. I&rsquo;m keeping this post here. It&rsquo;ll be fun to read in a few years.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #112: Emergency Smörgåsbord.</title><link>https://cpbotha.net/2016/11/12/weekly-head-voices-112-emergency-smorgasbord/</link><pubDate>Sat, 12 Nov 2016 12:48:57 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/12/weekly-head-voices-112-emergency-smorgasbord/</guid><description> (This blog post documents snippets of time taken from the period starting on Monday August 15 and ending on Tuesday November 8, 2016.)
+ ]]></content:encoded></item><item><title>Weekly Head Voices #112: Emergency Smörgåsbord.</title><link>https://cpbotha.net/2016/11/12/weekly-head-voices-112-emergency-smorgasbord/</link><pubDate>Sat, 12 Nov 2016 12:48:57 +0000</pubDate><guid>https://cpbotha.net/2016/11/12/weekly-head-voices-112-emergency-smorgasbord/</guid><description>(This blog post documents snippets of time taken from the period starting on Monday August 15 and ending on Tuesday November 8, 2016.)
 My longing simply became too great.
-For an epic few days in August, I found myself in The Netherlands (my other home) mixing business and pleasure like a boss. Thank you besties, my cup has not stopped running over. Photo by Bestie DJ Fiasco.
-Shortly after returning from NL, my year counter ticked over one more time.</description><content:encoded><![CDATA[ <p><em>(This blog post documents snippets of time taken from the period starting on Monday August 15 and ending on Tuesday November 8, 2016.)</em></p>
+For an epic few days in August, I found myself in The Netherlands (my other home) mixing business and pleasure like a boss. Thank you besties, my cup has not stopped running over. Photo by Bestie DJ Fiasco.</description><content:encoded><![CDATA[ <p><em>(This blog post documents snippets of time taken from the period starting on Monday August 15 and ending on Tuesday November 8, 2016.)</em></p>
 <p>My longing simply became too great.</p>
 <p>For an epic few days in August, I found myself in The Netherlands (my other home) mixing business and pleasure like a boss. Thank you besties, my cup has not stopped running over.
+
+
 
 
 
@@ -751,6 +977,8 @@ Shortly after returning from NL, my year counter ticked over one more time.</des
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/11/20161102_192034.jpg">
     <img
         
@@ -760,7 +988,7 @@ Shortly after returning from NL, my year counter ticked over one more time.</des
 </figure>
 
 <p>Have fun peeps, I hope to see you soon!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #111: A swift hack.</title><link>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</link><pubDate>Mon, 15 Aug 2016 20:04:30 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</guid><description> Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #111: A swift hack.</title><link>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</link><pubDate>Mon, 15 Aug 2016 20:04:30 +0000</pubDate><guid>https://cpbotha.net/2016/08/15/weekly-head-voices-111-a-swift-hack/</guid><description>Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.
 Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.</description><content:encoded><![CDATA[ <p>Well hello friends! In this here,the one hundred and eleventh edition of the Weekly Head Voices, I present a personal view of selected events that took place in the time between Monday, July 25 and Sunday, August 14 of 2016.</p>
 <p>Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT), Craft Beer tips, Swift Playgrounds (teach your kids to code!) and a tiny bit of backyard philosophy at the end.</p>
 <h2 id="the-hackernews-effect">The HackerNews effect</h2>
@@ -771,6 +999,8 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
 <p>646 upvotes, 365 comments (<a href="https://news.ycombinator.com/item?id=12247401">in the HN discussion</a>) and more than 50 thousand blog post views later (!!), my asbestos suit is still in storage, and the box of kleenex (for drying up my tears) is still unopened. I am very happy with the healthy and mostly happy discussion both on HN and here on the blog.</p>
 <h2 id="a-taste-of-my-secret-beer-notes">A taste of my secret beer notes</h2>
 <p>In my travels around the world (ok, maybe just in a few hundred kilometre radius of where I live) I taste many exotic and strange drinks (okay, maybe just the local craft beers). Here’s an excerpt from my top secret beer notes for your reading and hopefully soon tasting pleasure:
+
+
 
 
 
@@ -799,6 +1029,8 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/08/patriot_lager.jpg">
     <img
         
@@ -811,6 +1043,8 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
 </figure>
 </p>
 <p>Citizen Beer has a real knack for naming beers; so this weekend I was able to do my patriotic duty (ha ha) by enjoying their <strong>Patriot lager</strong>. Fortunately, they also have a great knack for making lovely beers. This lager is more than hoppy enough to remind you that it’s a craft, but at the same time it is refreshingly light.
+
+
 
 
 
@@ -837,6 +1071,8 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/08/devils_peak_pale_ale.jpg">
     <img
         
@@ -851,6 +1087,8 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
 <p>As I’ve mentioned before, it’s no coincidence that happiness and hoppiness look so similar. The <strong>Devil’s Peak Pale Ale</strong> was a superbly hoppy (about 239% more hoppy than the lager) and full flavoured conclusion to the weekend. In spite of its full body this Cape Town beer’s alcohol content is lower than I would have expected: Only 4%.</p>
 <h2 id="first-impressions-of-swift-playgrounds">First impressions of Swift Playgrounds</h2>
 <p>I might or might not have acquired a new iPad Air 2 with the primary motivation of being able to test the new <a href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a> on Genetic Offspring Unit #1 (now 10 years old). This is a new and attractive iPad-only app that has been designed by Apple to teach kids how to program in Swift. Note that you’ll have to upgrade to <a href="https://beta.apple.com/sp/betaprogram/">iOS 10 Beta</a> to get the app, at least until <a href="https://www.apple.com/ios/ios10-preview/">iOS 10 is officially released</a>. One of the exercises looks like this (image taken from the website):</p>
+
+
 
 
 
@@ -883,6 +1121,8 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/08/bettys_bay_somewhere.jpg">
     <img
         
@@ -894,10 +1134,12 @@ Post summary: HackerNews FastMail to Gmail retrospective (WARNING NERD CONTENT),
         </figcaption>
 </figure>
 </p>
-]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description> Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #105: There will be tears.</title><link>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</link><pubDate>Mon, 15 Feb 2016 20:04:13 +0000</pubDate><guid>https://cpbotha.net/2016/02/15/weekly-head-voices-105/</guid><description>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!
 About 4 seconds after posting previous edition WHV #104 to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:
 So much truth. I have been put back in my place. Sorry vegans. Sorry MBA students. Not sorry Ayn Randers.</description><content:encoded><![CDATA[ <p>Congratulations, you have successfully completed the week of Monday February 8 to Sunday February 14, 2016!</p>
 <p>About 4 seconds after posting previous edition <a href="https://cpbotha.net/2016/02/08/weekly-head-voices-104-let-me-update-you/">WHV #104</a> to Facebook with the “When you’re a vegan and haven’t told anyone in 10 minutes” meme image included, friend Ivo T. zinged me with this reply:</p>
+
+
 
 
 
@@ -924,6 +1166,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/02/jack_black_lager.jpg">
     <img
         
@@ -934,6 +1178,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 
 <p>It is indeed a craft beer. If we’ve ever chatted more than 10 minutes in the past (or in the future), you’ll know everything about my braai, and you probably also know that I find craft beer to be one of the greatest inventions ever, along with fire, and the internet.</p>
 <p>Here’s a another beer which I recently had the pleasure of enjoying, at a secret networking meeting (yes, we have secret meetings where we in fact do manage a large number of aspects of your daily life, and where we also orchestrate it so you’ll never suspect that we are behind everything, subtly manipulating reality) where, when the beer arrived at the table, everyone who looked vaguely hipster-like claimed vocally not in fact to be even remotely hipster-like:</p>
+
+
 
 
 
@@ -956,8 +1202,8 @@ So much truth. I have been put back in my place. Sorry vegans. Sorry MBA student
 <p><em>Nerd tip #2 of the week:</em> The <a href="http://clang-analyzer.llvm.org/">Clang static C++ analyser</a> is brilliant. If you program in C++, and you need to up your game, integrating this into your workflow is a solid step in the right direction. I’ve been using this via the <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build method</a>. Let me know in the comments if you’d like to know more about this!</p>
 <p>After some <a href="http://www.pcservices.co.za/">professional</a> ethernet cabling down to the sort-of basement of our new house, I have checked off another item from my non-existent bucket list: <em>We now have a lab at our house.</em> So far there are computers, all kinds of DIY supplies and art stuff for the genetic offspring units, and all of this to <em>create</em>. I spent some of the best times of my life in labs of some sort of another. It’s really great bringing some of that back home to my clan.</p>
 <p>Have a great week kids, see you on the other side!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #97: Beerbow.</title><link>https://cpbotha.net/2015/08/10/weekly-head-voices-97-beerbow/</link><pubDate>Mon, 10 Aug 2015 19:59:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/08/10/weekly-head-voices-97-beerbow/</guid><description> This, the ninety seventh edition of the WHV, looks back at the week of Monday August 3 to Sunday August 9, 2015.
-John Scalzi (famous and successful SciFi author) describes how he works in this post on lifehacker. What I found really interesting was that when he’s working on a book or other project, he switches off the internet between 8 and noon. I just discovered that Four Tet’s mom is South African-born.</description><content:encoded><![CDATA[ <p>This, the ninety seventh edition of the WHV, looks back at the week of Monday August 3 to Sunday August 9, 2015.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #97: Beerbow.</title><link>https://cpbotha.net/2015/08/10/weekly-head-voices-97-beerbow/</link><pubDate>Mon, 10 Aug 2015 19:59:00 +0000</pubDate><guid>https://cpbotha.net/2015/08/10/weekly-head-voices-97-beerbow/</guid><description>This, the ninety seventh edition of the WHV, looks back at the week of Monday August 3 to Sunday August 9, 2015.
+John Scalzi (famous and successful SciFi author) describes how he works in this post on lifehacker. What I found really interesting was that when he’s working on a book or other project, he switches off the internet between 8 and noon. I just discovered that Four Tet’s mom is South African-born. This week my work time was divided between having to analyse someone else’s quite complex application and bits of their domain in order to implement new features on the one hand, and designing a new relational data representation for workflow provenance on the other. I perceived both of these activities as challenging, and hence (I think) my work week as very satisfying. After the whole day programming at work, I often relax at home in the evenings by programming some more. I’ve noticed that the after-dinner beer (or two) make architectural and design-level work more challenging. On the topic of programming for relaxation, this weekend I had the feeling that my longest-running side-project was finally getting off the ground, at least technically. When it grows up, it really wants to be a non-linear graphical personal knowledge management tool – the crazy and colourful glue linking together all of your digital stuff. On the topic of beer, I made you a photo of my weekend craft beer (the Skeleton Coast IPA by Jack Black) with a rainbow in the background. I call it a beerbow: Have a great week everyone!</description><content:encoded><![CDATA[ <p>This, the ninety seventh edition of the WHV, looks back at the week of Monday August 3 to Sunday August 9, 2015.</p>
 <div class="figure">
 <p>
 <img alt="Brainbow_(Lichtman_2008).jpg" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Brainbow_(Lichtman_2008).jpg"/>
@@ -991,6 +1237,8 @@ John Scalzi (famous and successful SciFi author) describes how he works in this 
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2015/08/wpid-skeleton_coast_ipa_rainbow.jpg">
     <img
         
@@ -1002,10 +1250,12 @@ John Scalzi (famous and successful SciFi author) describes how he works in this 
 <p>Have a great week everyone!</p>
 <p>P.S. I could not help adding that <em>beerbow</em> was partly inspired by the <em>brainbow</em>, a technique for making individual neurons (brain cells!) fluoresce with different colours. This technique has played a major role in the study of neural connections in the brain (this study is also called <em>connectomics</em>). Read more about the technique in <a href="https://en.wikipedia.org/wiki/Brainbow">its wikipedia article</a>, and see the pretty examples I have now added to the top of this post!</p>
 <p>P.P.S. I just saw that a book chapter called <em>Visualization in Connectomics</em> that we put <a href="http://arxiv.org/abs/1206.1428">on arxiv (FREE fulltext!!)</a> whilst waiting for the rest of the book to happen, did eventually get <a href="http://link.springer.com/chapter/10.1007/978-1-4471-6497-5_21">published by Springer</a>.</p>
-]]></content:encoded></item><item><title>A blacksmith and a lumberjack walk into a bar</title><link>https://cpbotha.net/2015/05/18/a-blacksmith-and-a-lumberjack-walk-into-a-bar/</link><pubDate>Mon, 18 May 2015 17:21:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/05/18/a-blacksmith-and-a-lumberjack-walk-into-a-bar/</guid><description> Jack Black brewery’s Lumberjack is an amber ale craft brewed in Cape Town. As bottle designs go, this one is pretty metal:
+ ]]></content:encoded></item><item><title>A blacksmith and a lumberjack walk into a bar</title><link>https://cpbotha.net/2015/05/18/a-blacksmith-and-a-lumberjack-walk-into-a-bar/</link><pubDate>Mon, 18 May 2015 17:21:42 +0000</pubDate><guid>https://cpbotha.net/2015/05/18/a-blacksmith-and-a-lumberjack-walk-into-a-bar/</guid><description>Jack Black brewery’s Lumberjack is an amber ale craft brewed in Cape Town. As bottle designs go, this one is pretty metal:
 Amongst a number of impressive-sounding statements, the back of the bottle concludes with:
 Lumberjack has a sturdy malt driven backbone packed with loads of roasted malt. Huge hop additions intensify the piney-citrus aromas of this full flavoured ale. A beer for the brave.
-After reading that, who does not want to drink this beer for the brave?</description><content:encoded><![CDATA[ <p>Jack Black brewery’s Lumberjack is an amber ale craft brewed in Cape Town. As bottle designs go, this one is pretty <em>metal</em>:</p>
+After reading that, who does not want to drink this beer for the brave?! Based on extensive testing, I can report that this is indeed a full-bodied beer that deserves and rewards your full attention.</description><content:encoded><![CDATA[ <p>Jack Black brewery’s Lumberjack is an amber ale craft brewed in Cape Town. As bottle designs go, this one is pretty <em>metal</em>:</p>
+
+
 
 
 
@@ -1036,6 +1286,8 @@ After reading that, who does not want to drink this beer for the brave?</descrip
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2015/05/blacksmiths_kitchen.jpg">
     <img
         
@@ -1053,6 +1305,8 @@ After reading that, who does not want to drink this beer for the brave?</descrip
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2015/05/blacksmiths_kitchen_view.jpg">
     <img
         
@@ -1062,9 +1316,11 @@ After reading that, who does not want to drink this beer for the brave?</descrip
 </figure>
 
 <p>Weather permitting (which is very often in Paarl), this kitchen is absolutely worth a visit.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #89: Xanthohumol.</title><link>https://cpbotha.net/2015/02/01/weekly-head-voices-89-xanthohumol/</link><pubDate>Sun, 01 Feb 2015 17:01:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/02/01/weekly-head-voices-89-xanthohumol/</guid><description> I found myself in Stellenbosch this weekend, so I drove by my old student house. Fifteen odd years ago, the house used to go by the name The Far Side. It was usually inhabited by five fairly attractive yet dangerously intelligent male engineering students, who were, quite unexpectedly, also extremely modest. (In those days, prepending “male” to “engineering student” was mostly redundant.)
+ ]]></content:encoded></item><item><title>Weekly Head Voices #89: Xanthohumol.</title><link>https://cpbotha.net/2015/02/01/weekly-head-voices-89-xanthohumol/</link><pubDate>Sun, 01 Feb 2015 17:01:00 +0000</pubDate><guid>https://cpbotha.net/2015/02/01/weekly-head-voices-89-xanthohumol/</guid><description>I found myself in Stellenbosch this weekend, so I drove by my old student house. Fifteen odd years ago, the house used to go by the name The Far Side. It was usually inhabited by five fairly attractive yet dangerously intelligent male engineering students, who were, quite unexpectedly, also extremely modest. (In those days, prepending “male” to “engineering student” was mostly redundant.)
 Well, it seems The Far Side has gone through a little transformation of its own:</description><content:encoded><![CDATA[ <p>I found myself in Stellenbosch this weekend, so I drove by my old student house. Fifteen odd years ago, the house used to go by the name <em>The Far Side</em>. It was usually inhabited by five fairly attractive yet <em>dangerously</em> intelligent male engineering students, who were, quite unexpectedly, also extremely modest. (In those days, prepending “male” to “engineering student” was mostly redundant.)</p>
 <p>Well, it seems <em>The Far Side</em> has gone through a little transformation of its own:</p>
+
+
 
 
 
@@ -1107,182 +1363,4 @@ Well, it seems The Far Side has gone through a little transformation of its own:
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/-Zj50DmBFp0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 <p>Thanks for reading this. I hope that you have a great week, and I hope to see you again soon.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #76: Someone is wrong on the internet.</title><link>https://cpbotha.net/2014/07/01/weekly-head-voices-76-someone-is-wrong-on-the-internet/</link><pubDate>Tue, 01 Jul 2014 19:11:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/07/01/weekly-head-voices-76-someone-is-wrong-on-the-internet/</guid><description> I must be getting older.
-During the past week, there were at least three or four occasions where someone was clearly wrong on the internet, and I dutifully started carefully crafting that brilliant corrective response which would inevitably spiral downward into the fiery depths of idiocy.
-However, each time I stopped mid-answer, long before clicking the post button or sending the email, and switched to some other more valuable and less pointless activity.</description><content:encoded><![CDATA[ <div class="figure">
-<p>
-<a href="http://xkcd.com/386/"><img alt="duty_calls.png" src="http://imgs.xkcd.com/comics/duty_calls.png"/></a>
-</p>
-</div>
-<p>I must be getting older.</p>
-<p>During the past week, there were at least three or four occasions where someone was clearly <em>wrong</em> on the internet, and I dutifully started carefully crafting that <em>brilliant</em> corrective response which would inevitably spiral downward into the fiery depths of idiocy.</p>
-<p>However, each time I stopped mid-answer, long before clicking the post button or sending the email, and switched to some other more valuable and less pointless activity. It was a strange feeling, but the eerie sense of having saved a bunch of time made up for it generously.</p>
-<p>(I have to admit that there was one occasion, call it the fifth, where I couldn’t help myself and briefly took part in a Facebook discussion around a photo of a young man with some rather extreme facial piercings. I felt that I really needed to <em>correct</em> the other participants: I might not have any of my own body modifications, but I feel strongly about encouraging self-expression, and I think that the variety that it brings is important. There are <em>other</em> things that unify us, like love, respect and intellect. Yes, I’m a Vulcan Hippie. LLAP you fools!)</p>
-<p>On the topic of age and the inevitable mid-life crisis, it seems technology has brought us the cure. GIANT WATER-JET-POWERED HOVERBOARDS!!</p>
-<div class="jetpack-video-wrapper">
-<span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/gMaDhkNJA2g?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
-</div>
-<p>After a week of not-correcting-the-internet (good), lots of Python (good) and much face-palming at the South African Reserve Bank’s archaic view on intellectual property and exchange control (hopefully much more on that later), my weekend was of the fabulous middle-of-the-Cape-winter variety.</p>
-<p>It started with some of this on Friday: <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-jack_black_skeleton_coast_ipa.jpg" title=""></p>
-<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-jack_black_skeleton_coast_ipa-225x300.jpg" alt=""></a><figcaption class="wp-caption-text">Skeleton Coast IPA, brewed by Jack Black in Cape Town. Highly recommended! Fire and wine not too bad either.</figcaption></figure></p>
-<p>On Saturday, a completely unplanned and somewhat impulsive turnoff from the R44 right before Stellenbosch brought us to the <a href="http://www.dornier.co.za/">vineyard Dornier</a>. Some of it looks like this: <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier_20140629.jpg" title=""></p>
-<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier_20140629-300x225.jpg" alt=""></a><figcaption class="wp-caption-text">In the Cape, the summer is always trying to break through, even in the middle of winter.</figcaption></figure></p>
-<p>Having <em>arrived</em> there, it doesn’t take much convincing to end up dining in restaurant Bodega, where the wine is <strong>very</strong> local (hey, it says Dornier on the bottles!) and is artfully paired with the delicious food. My lunch ended with these delectable cheeses, preserves and the <a href="http://www.dornier.co.za/wines/donatus-white">Dornier Donatus White</a>. I can’t remember the year, but it was a fabulous Chenin Blanc and Semillon blend which <a href="http://dewijnrecensent.nl/">the DWR</a> will hopefully soon be able to judge. I fortunately <em>just</em> managed to snap this picture in the midst of a gorgonzola-induced mini pleasure seizure: <figure class="wp-caption alignnone" style="width: 300px"><a data-rel="lightbox-image-2" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier_20140629_cheese.jpg" title=""></p>
-<p><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-dornier_20140629_cheese-300x225.jpg" alt=""></a><figcaption class="wp-caption-text">Gorgonzola is my kryptonite.</figcaption></figure></p>
-<p>(We spent the rest of the seemingly endless weekend scorching various types of meat, drinking craft beer and baking in the winter sun in Paarl. You can say many things about Paarl, but you can’t deny that it has a most <em>excellent</em> climate.)</p>
-<p>Apparently, a few of this blog’s readers have been wondering what I really look like. (Well, actually no-one has. Ever. But they could have!) Clamour no more, small group of fictitious readers! This week, my youngest genetic offspring unit, or GOU#1 as we lovingly call her, brought me a drawing that she made. Internet, I give you <em>me</em>, through my daughter’s eyes:</p>
-<div class="figure">
-<p>
-<a data-rel="lightbox-image-3" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2014/07/wpid-sylvia_draws_charl_2014061.jpg" title=""><img src="http://cpbotha.net/wp-content/uploads/2014/07/wpid-sylvia_draws_charl_2014061-300x205.jpg"/></a>
-</p>
-</div>
-]]></content:encoded></item><item><title>Weekly Head Voices #68: Harsh Autumn Weekends.</title><link>https://cpbotha.net/2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/</link><pubDate>Mon, 21 Apr 2014 20:32:59 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/</guid><description> Noeska’s new weekly status update blog posts inspired me to get mine back on the road again. To be more precise, the observation that I really enjoyed being updated in this fashion with a far-away friend’s exploits hints at the possibility that, somewhere out there, there might be someone who finds it similarly enjoyable to read mine! (Long ago I learnt the trick from Swimgeek, who is still going strong with his weekly updates.</description><content:encoded><![CDATA[ <p><a href="http://noeskasmit.com/weekly-status-update-1/" title="Noeska's weekly status updates">Noeska’s new weekly status update blog posts</a> inspired me to get mine back on the road again. To be more precise, the observation that I really enjoyed being updated in this fashion with a far-away friend’s exploits hints at the possibility that, somewhere out there, there might be someone who finds it similarly enjoyable to read mine! (Long ago I learnt the trick from <a href="http://www.swimgeek.com/blog/" title="Swimgeek's blog">Swimgeek</a>, who is still going strong with his weekly updates.)</p>
-<p>You know the rules: We write short summaries of our week’s activities, often in the form of bullet lists. I’m going to break both rules this time by rambling on about the past three weeks, and by showing you a bunch of photos I took on the weekends.</p>
-<p>I’d like to show you how the autumn weekends here in SA can be quite harsh, but first I need to geek out for a bit (do not fear non-nerds, there are pictures after this brief interlude!):</p>
-<ul>
-<li>I’m back with Emacs. &lt;3 &lt;3 &lt;3 On my continuous search for the ultimate information organizing system I have now arrived editing the Markdown files contained in a git-backed <a href="https://github.com/gollum/gollum" title="Gollum github page">Gollum wiki</a> with my Emacs 24.3. I even wrote a (nerdy) <a href="http://vxlabs.com/2014/04/08/syntax-highlighting-markdown-fenced-code-blocks-in-emacs/" title="vxlabs blog post on emacs fenced code block highlighting">blog post explaining how you to can configure your Emacs to do language-specific fenced code-block syntax highlighting</a>. Somehow Emacs and I are just getting along much better than we did before my Vim period (dark dark days). I think it’s because I’ve decided to embrace the Lisp, which brings me to:</li>
-<li>In my copious amounts of free time, I was searching for a functional language to learn. The <a href="http://www.erlang.org/doc/getting_started/users_guide.html" title="Erlang tutorial">Erlang tutorial</a> was enjoyable, but I was not too crazy about what I read about the details of deploying Erlang systems. I bought <a href="http://learnyouahaskell.com/" title="Learn you a Haskell, man!">Learn you a Haskell for Great Good</a> and started reading it, but somehow Haskell didn’t tickle me enough. Then, probably infected by having to look at Emacs Lisp again, I picked up the <a href="http://www.clojurebook.com/" title="Clojure Programming">Clojure Programming book</a>. Now that pushed all of the right buttons! I haven’t this much fun with a new language since I picked up Python, and my mind has been expanded at a few points as well (what do you mean the code that I write <strong>IS</strong> the AST?! (Picture my Neo face saying: “Whoa.”)). <a href="http://clojure.org/" title="clojure website">Clojure</a> is a <a href="http://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a> dialect that does a pretty good job of walking the line between beauty and pragmatism. Built on the JVM (and having full interop with the rest of Java) it also has STM (software transactional memory), agents, and async channels all built-in. As if that wasn’t enough, I get to use Emacs with the CIDER package to play with it. (<code>M-x cider-jack-in</code> starts up the Clojure REPL and then… JACKS ME IN.)</li>
-</ul>
-<p>Err, I might have exhausted my nerd quota for the week. Let’s do the rest of the Weekly Head Voices in pictures!</p>
-<p>Three weekends ago I went to visit the Spice Route farm in the Paarl with family and friends. Besides the coffee roastery, the chocolatier, the winery and the two restaurants, this farm also houses the Cape Brewing Company, a magical place that produces delicious craft beers, which you can taste, and take home with you. The view is not too shabby either:
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/spice_route_panorama.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/spice_route_panorama-1024x318.jpg"
-        
-            alt="The view from the Spice Route farm is Not Too Shabby(tm)"/> </a><figcaption>
-            <p>The view from the Spice Route farm is Not Too Shabby(tm)</p>
-        </figcaption>
-</figure>
-</p>
-<p>On the topic of delicious craft beers, THIS, my dear readers, is The Darling Bone Crusher, another super tasty white beer constructed with much love in the town called Darling:
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/darling_bone_crusher.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/darling_bone_crusher-1024x768.jpg"
-        
-            alt="The Darling Bone Crusher white craft beer"/> </a><figcaption>
-            <p>The Darling Bone Crusher white craft beer</p>
-        </figcaption>
-</figure>
-</p>
-<p>… and this is the sun setting on some Milk and Honey, crafted in Knysna (this one is quite good, but their other ale called the Old Wobbly is even nicer):
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/sunset_and_milk_and_honey.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/sunset_and_milk_and_honey-1024x768.jpg"
-        
-            alt="Craft beer from the land of milk and honey"/> </a><figcaption>
-            <p>Craft beer from the land of milk and honey</p>
-        </figcaption>
-</figure>
-</p>
-<p>Lest you think all we do is drink craft beers around here, here’s a photo of the vicious river delta I had to cross during my afternoon fitness activity (this was before we started drinking craft beers again):
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/jogging_delta.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/jogging_delta-1024x768.jpg"
-        
-            alt="Vicious river delta"/> </a><figcaption>
-            <p>Vicious river delta</p>
-        </figcaption>
-</figure>
-</p>
-<p>… and here’s a pretty <del>butterfly</del> moth (thanks <a href="http://mentat.za.net/">Stéfan</a>) I just had to take a photo of:
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/pretty_butterfly.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/pretty_butterfly-1024x768.jpg"
-        
-            alt="Pretty butterfly in Betty’s Bay"/> </a><figcaption>
-            <p>Pretty butterfly in Betty’s Bay</p>
-        </figcaption>
-</figure>
-</p>
-<p>On the way back home after another harsh weekend, we were stuck in some sort of traffic jam. After a few minutes inching ahead, we ran into the culprits causing our delay:
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/baboons_on_cars.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/baboons_on_cars-1024x504.jpg"
-        
-            alt="Baboons on cars!"/> </a><figcaption>
-            <p>Baboons on cars!</p>
-        </figcaption>
-</figure>
-</p>
-<p>(Yes, those are baboons sitting on people’s cars. “Oh, were you planning to drive that sir? You’re going to have to wait until the baboon decides it’s time to go home.”)</p>
-<p>The road we were on (the R44 between Gordon’s Bay and Betty’s Bay) is one of the prettiest I know. On another of these autumn weekends, it looked like this:
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/04/r44_to_bettys.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/04/r44_to_bettys-1024x768.jpg"
-        
-            alt="R44 between Gordon’s Bay and Betty’s Bay."/> </a><figcaption>
-            <p>R44 between Gordon’s Bay and Betty’s Bay.</p>
-        </figcaption>
-</figure>
-</p>
-<p>The End.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

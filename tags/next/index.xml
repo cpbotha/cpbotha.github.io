@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>next on voices in my head</title><link>https://cpbotha.net/tags/next/</link><description>Recent content in next on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 23 Jan 2022 09:57:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/next/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2021 to 2022 transition post</title><link>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</link><pubDate>Sun, 23 Jan 2022 09:57:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</guid><description> Welcome to 2022 everyone, and to this, the traditional yearly year transition post!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Next on voices in my head</title><link>https://cpbotha.net/tags/next/</link><description>Recent content in Next on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 04 Feb 2022 16:25:48 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/next/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2021 to 2022 transition post</title><link>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</link><pubDate>Sun, 23 Jan 2022 09:57:00 +0200</pubDate><guid>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</guid><description>Welcome to 2022 everyone, and to this, the traditional yearly year transition post!
 Figure 1: Sunset rock in St Francis on December 28, 2021, close to the end of the main event.
-I thought it was the latest ever, but it turns out that that honour goes to 2014 (which had a really good excuse to appear only in March) and 2015 (no real excuse).
-Much later, on Sunday January 23: It could very well still win the Most Fragmented Ever, but at least now it&amp;rsquo;s done.</description><content:encoded><![CDATA[ <p>Welcome to 2022 everyone, and to this, the <a href="/tags/transition/">traditional yearly year transition
+I thought it was the latest ever, but it turns out that that honour goes to 2014 (which had a really good excuse to appear only in March) and 2015 (no real excuse).</description><content:encoded><![CDATA[ <p>Welcome to 2022 everyone, and to this, the <a href="/tags/transition/">traditional yearly year transition
 post</a>!</p>
+
+
 
 
 
@@ -18,18 +19,22 @@ post</a>!</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_43b7cf87c31b21c0.jpg 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_fc6e5e937f90c6a9.jpg 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_12a18d122cde4000.jpg 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_5b0c7558e9575.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_fc6e5e937f90c6a9.jpg"
             
 
         
@@ -54,7 +59,7 @@ to write more, and to keep it up until the end.</p>
 <h3 id="stats-addendum">Stats addendum</h3>
 <p>Applying the <a href="https://goaccess.io/">goaccess log analyzer</a> to this blog&rsquo;s log files with the following
 invocation:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>(<span style="color:#859900">for</span> i in {2..13..1}; <span style="color:#859900">do</span> <span style="color:#cb4b16">echo</span> cpbotha.net.access.log.<span style="color:#268bd2">$i</span>.gz; <span style="color:#859900">done</span>) | xargs zcat -f -- | goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#0550ae">(</span><span style="color:#cf222e">for</span> i in <span style="color:#0550ae">{</span>2..13..1<span style="color:#0550ae">}</span><span style="color:#1f2328">;</span> <span style="color:#cf222e">do</span> <span style="color:#6639ba">echo</span> cpbotha.net.access.log.<span style="color:#953800">$i</span>.gz<span style="color:#1f2328">;</span> <span style="color:#cf222e">done</span><span style="color:#0550ae">)</span> <span style="color:#1f2328">|</span> xargs zcat -f -- <span style="color:#1f2328">|</span> goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><p>&hellip; tells me that in 2021 cpbotha.net welcomed over 115000 unique visitor IPs.</p>
 <p>The same tool reports that <a href="https://vxlabs.com/">vxlabs.com</a> clocked in at just under 165000 unique visitor IPs.</p>
 <p>Even if the real number of actual human visits is a quarter of what the tool is
@@ -77,6 +82,8 @@ running a bit over 1300km.</p>
 
 
 
+
+
 <figure><a href="images/2022/2022-01-15_13-06-57_screenshot.png">
     <img
         
@@ -84,18 +91,22 @@ running a bit over 1300km.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_d8797d3ae69f2074.png 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_bcb23928a764c751.png 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_71b26fe22f2669f7.png 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_fd426be487962b7e.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_bcb23928a764c751.png"
             
 
         /> </a>
@@ -119,6 +130,8 @@ valgus as it prefers to be called.</p>
 
 
 
+
+
 <figure><a href="images/2022/2022-01-15_15-18-44_screenshot.png">
     <img
         
@@ -126,13 +139,17 @@ valgus as it prefers to be called.</p>
               
             srcset='
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
@@ -141,7 +158,7 @@ valgus as it prefers to be called.</p>
             
 
         
-            alt="Figure 2: Valgus, Hallux Valgus. License to limp. Relationship status: It&amp;rsquo;s complicated." width="240px"/> </a><figcaption>
+            alt="Figure 2: Valgus, Hallux Valgus. License to limp. Relationship status: It&rsquo;s complicated." width="240px"/> </a><figcaption>
             <p><span class="figure-number">Figure 2: </span>Valgus, Hallux Valgus. License to limp. Relationship status: It&rsquo;s complicated.</p>
         </figcaption>
 </figure>
@@ -244,6 +261,8 @@ sub-section of my notes network:</p>
 
 
 
+
+
 <figure><a href="images/2022/2022-01-23_10-10-50_screenshot.png">
     <img
         
@@ -251,18 +270,22 @@ sub-section of my notes network:</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_d1209fe41888514f.png 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_31ce23bcfd961e9f.png 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_950ec103a8bb11b5.png 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_df618e90e2d265e3.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_31ce23bcfd961e9f.png"
             
 
         /> </a>
@@ -335,6 +358,8 @@ ones the best 2022 possible.</p>
 
 
 
+
+
 <figure><a href="stormsriver-mouth.jpg">
     <img
         
@@ -342,18 +367,22 @@ ones the best 2022 possible.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_9489d85cd70e5f2e.jpg 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_ebadf81992f9fe5e.jpg 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_f4dbd9f895343922.jpg 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_cfb4aaba0c7a1dbd.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_ebadf81992f9fe5e.jpg"
             
 
         
@@ -362,4 +391,4 @@ ones the best 2022 possible.</p>
         </figcaption>
 </figure>
 
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

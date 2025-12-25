@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RFC 2646 on voices in my head</title><link>https://cpbotha.net/tags/rfc-2646/</link><description>Recent content in RFC 2646 on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 27 Sep 2016 07:00:25 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/rfc-2646/index.xml" rel="self" type="application/rss+xml"/><item><title>ThunderBird support of RFC 3676 format=flowed is half-broken</title><link>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</link><pubDate>Tue, 27 Sep 2016 07:00:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</guid><description> Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
-What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence.</description><content:encoded><![CDATA[ <p>Summary: <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>RFC 2646 on voices in my head</title><link>https://cpbotha.net/tags/rfc-2646/</link><description>Recent content in RFC 2646 on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 27 Sep 2016 07:00:25 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/rfc-2646/index.xml" rel="self" type="application/rss+xml"/><item><title>ThunderBird support of RFC 3676 format=flowed is half-broken</title><link>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</link><pubDate>Tue, 27 Sep 2016 07:00:25 +0000</pubDate><guid>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</guid><description>Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
+What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through RFC 3676 (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</description><content:encoded><![CDATA[ <p>Summary: <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
 <h1 id="what-is-rfc-3676-formatflowed">What is RFC 3676 format=flowed?</h1>
 <p>Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</p>
 <p>I would like to try and summarise very compactly what exactly format=flowed is and how it works.</p>
@@ -24,6 +24,8 @@ it made me like the sender of the email less.</pre>
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png">
     <img
         
@@ -36,6 +38,8 @@ it made me like the sender of the email less.</pre>
 </figure>
 </p>
 <p>This is really very sad, and also quite unnecessary. When the email arrives on a mobile device, the quoted reply can’t be reflowed, and it looks like this:
+
+
 
 
 
@@ -72,4 +76,4 @@ emails. This adds to <a href="/2016/11/27/android-security-in-2016-is-a-mess/">t
 reasons</a> I have for sticking
 with their mobile devices.</li>
 </ul>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

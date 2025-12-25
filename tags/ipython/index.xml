@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ipython on voices in my head</title><link>https://cpbotha.net/tags/ipython/</link><description>Recent content in ipython on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 24 Feb 2017 20:14:15 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ipython/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description> The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ipython on voices in my head</title><link>https://cpbotha.net/tags/ipython/</link><description>Recent content in Ipython on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Feb 2017 20:14:15 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/ipython/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description>The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
 (I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. As far as I know, nobody watched.)
-I just went through my orgmode journals.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
+I just went through my orgmode journals. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
 <p>(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. <em>As far as I know</em>, nobody watched.)</p>
 <p>I just went through <a href="/2016/01/05/note-taking-strategy-early-2016/">my orgmode journals</a>. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</p>
 <p><em><strong>Warning:</strong> If you’re not an emacs, python or machine learning nerd, there is a high probability that you might not enjoy this post. Please feel free to skip to the pretty mountain at the end!</em></p>
@@ -10,6 +10,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 <p>However, it’s a sort of rite of passage constructing one’s own Emacs configuration from scratch, and my time had come.</p>
 <p>In parallel with Day Job, I extricated Prelude from my configuration, and filled up the gaps it left with my own constructs. There is something quite addictive using emacs-lisp to weave together whatever you need in your computing environment.</p>
 <p>To celebrate, I decided that it was also <strong>time to move my todo system away from <a href="http://todoist.com/">todoist</a></strong> (a really great ecosystem) and into Emacs orgmode.
+
+
 
 
 
@@ -36,6 +38,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
  
  
  
+ 
+ 
  <figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
      <img
          
@@ -54,6 +58,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 <h1 id="jupyter-notebook-usage">Jupyter Notebook usage</h1>
 <p>Due to an interesting machine learning project at work, I had a great excuse to spend some quality time with the <a href="http://jupyter.org/">Jupyter Notebook</a> (formerly known as IPython Notebook) and the scipy family of packages.</p>
 <p>Because Far Too Much Muscle-Memory, I tried interfacing to my notebook server using <a href="https://github.com/millejoh/emacs-ipython-notebook">Emacs IPython Notebook (EIN)</a>, which looked like this:</p>
+
+
 
 
 
@@ -97,6 +103,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama.jpg">
     <img
         
@@ -112,4 +120,4 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 <p>I was really only planning to go up and down in brisk hike mode due to a whiny knee, but I could not help turning parts of the up and the largest part of the down into an exhilarating lope.</p>
 <p>When I grow up, I’m going to be a trail runner.</p>
 <p>Have fun (nerdy) kids, I hope to see you soon!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>laptop on voices in my head</title><link>https://cpbotha.net/tags/laptop/</link><description>Recent content in laptop on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 07 May 2019 22:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/laptop/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #170: Yeet.</title><link>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</link><pubDate>Tue, 07 May 2019 22:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</guid><description> Hello there friends!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Laptop on voices in my head</title><link>https://cpbotha.net/tags/laptop/</link><description>Recent content in Laptop on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 07 May 2019 22:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/laptop/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #170: Yeet.</title><link>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</link><pubDate>Tue, 07 May 2019 22:02:00 +0200</pubDate><guid>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</guid><description>Hello there friends!
 This edition of the WHV, number 170, is how I choose look back at the three weeks from Monday April 15 to Sunday May 5, 2019.
 This period was host to whooshing-by-deadline-induced stress, one amazing and thought-provoking wedding, the birthdays of two of my GOUs, and, a bit strangely part of this list, the acquisition of a new computing device.
 At least we were able to pause everything for a sublime afternoon at a favourite vineyard close to my backyard:</description><content:encoded><![CDATA[ <p>Hello there friends!</p>
@@ -33,22 +33,22 @@ favourite vineyard close to my backyard:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_20b2c5ad8d092c5e.jpg 480w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_d6f7ceb2c7fd7b01.jpg 800w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_6e561138cc326ce3.jpg 1200w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_6e7ba6ca8a4e13aa.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_d6f7ceb2c7fd7b01.jpg"
   
 
    />
@@ -77,13 +77,13 @@ special occasion, made it doubly worth it.</p>
 surprise to me that I am quite excited by how our systems of written
 communication are evolving.)</p>
 <p>P.P.P.S. If you too want your Emacs to do this, add the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:config</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
-</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-emojify-mode</span>)
-</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; 💪💪💪</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">emojify</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:ensure</span> <span style="color:#0550ae">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:config</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">emojify-set-emoji-styles</span> <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">(</span><span style="color:#953800">unicode</span><span style="color:#1f2328">))</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">global-emojify-mode</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">global-set-key</span> <span style="color:#1f2328">(</span><span style="color:#953800">kbd</span> <span style="color:#0a3069">&#34;C-x 8 e&#34;</span><span style="color:#1f2328">)</span> <span style="color:#032f62">&#39;emojify-insert-emoji</span><span style="color:#1f2328">))</span>
 </span></span></code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
 <p>Perhaps unbeknownst to you, I was not completely quiet on the blogging front.</p>
 <p>I produced the following four posts, the latter three of which will have to
@@ -205,20 +205,20 @@ was staring at the DeVIDE UI, all prettied up with Python 3 and VTK 8.2:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_e2661da33963fa84.png 480w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_800x0_resize_box_3.png 800w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_9a4ca26d37fe4833.png 800w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_1200x0_resize_box_3.png 1200w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_2d6809a082ccbefd.png 1200w
   
   '
 
 
 
   
-  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_800x0_resize_box_3.png"
+  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_9a4ca26d37fe4833.png"
   
 
    />
@@ -235,10 +235,8 @@ wait until he gets back to see.</p>
 <h1 id="heading">🙏🙏🙏</h1>
 <p>Friends, thank you for connecting with me here in these words and symbols.</p>
 <p>I am already looking forward to the next time that we meet!</p>
-]]></content:encoded></item><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description> WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
-Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.
-Some examples from the past include:
-Hacking Radeon suspend / resume support into the Linux kernel and the X-Server in 2002, so that my cheap clone laptop could too.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
+ ]]></content:encoded></item><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description>WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
+Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
 <figure>
 <a href="x1_skulking_in_bush.jpg">
 
@@ -263,22 +261,22 @@ Hacking Radeon suspend / resume support into the Linux kernel and the X-Server i
   
   srcset='
   
-    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_dfb8210ffe3d3c9d.jpg 480w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_1c301f9c1d303da5.jpg 800w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_55e451adb5cfb1bb.jpg 1200w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_2fd34a2e53339f9c.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_1c301f9c1d303da5.jpg"
   
 
    />
@@ -364,22 +362,22 @@ supplier!</p>
   
   srcset='
   
-    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_3bbbd16ef3b780a1.jpg 480w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_a9b9d86ef187aabe.jpg 800w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_d5a5091712d37555.jpg 1200w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_5f009f74df0b80cf.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_a9b9d86ef187aabe.jpg"
   
 
    />
@@ -450,13 +448,15 @@ Laptop To Do Something Real Quick tests.</p>
 SSDs at boot using my fingerprint, are really quite neat.</p>
 <h1 id="do-you-have-anything-else-to-say">Do you have anything else to say?</h1>
 <p>No.</p>
-]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+ ]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description>When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
 Well, yesterday I ate my hat.
 If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
 <p>Well, yesterday I ate my hat.</p>
 <p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
-]]></content:encoded></item><item><title>New Samsung NP300V3A laptop is welcomed into the family!</title><link>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</link><pubDate>Tue, 16 Aug 2011 11:03:53 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</guid><description> It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In July of 2002 it was Dr. Evil, more a brick than a laptop, in May of 2004 it was my beloved 14″ HP NC6000 laptop, in July of 2006 I met my 15.4″ HP NC8430 (employer-supplied, thank you employer!), which in turn led to this Ubuntu-critical blog post of mine that attracted 50000 (yes, fifty thousand) readers over 2 days, in July of 2008 I splurged on a lovely quad core desktop machine, in September of 2009 I acquired an Asus 1005HA-H netbook, and in November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop.</description><content:encoded><![CDATA[ <p>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/" title="dr evil laptop">July of 2002 it was Dr. Evil</a>, more a brick than a laptop, in <a href="http://cpbotha.net/2004/05/26/laptop-no-2/" title="NC6000 post">May of 2004 it was my beloved 14″ HP NC6000 laptop</a>, in <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/" title="nc8430 post">July of 2006 I met my 15.4″ HP NC8430</a> (employer-supplied, thank you employer!), which in turn led to <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="15 seconds of blog fame">this Ubuntu-critical blog post of mine</a> that attracted 50000 (yes, fifty thousand) readers over 2 days, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="bees blog post">in July of 2008 I splurged on a lovely quad core desktop machine</a>, in <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/" title="asus 1005HA-H netbook">September of 2009 I acquired an Asus 1005HA-H netbook</a>, and in <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/" title="dell e6410 post">November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop</a>.</p>
+ ]]></content:encoded></item><item><title>New Samsung NP300V3A laptop is welcomed into the family!</title><link>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</link><pubDate>Tue, 16 Aug 2011 11:03:53 +0000</pubDate><guid>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</guid><description>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In July of 2002 it was Dr. Evil, more a brick than a laptop, in May of 2004 it was my beloved 14″ HP NC6000 laptop, in July of 2006 I met my 15.4″ HP NC8430 (employer-supplied, thank you employer!), which in turn led to this Ubuntu-critical blog post of mine that attracted 50000 (yes, fifty thousand) readers over 2 days, in July of 2008 I splurged on a lovely quad core desktop machine, in September of 2009 I acquired an Asus 1005HA-H netbook, and in November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop.</description><content:encoded><![CDATA[ <p>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/" title="dr evil laptop">July of 2002 it was Dr. Evil</a>, more a brick than a laptop, in <a href="http://cpbotha.net/2004/05/26/laptop-no-2/" title="NC6000 post">May of 2004 it was my beloved 14″ HP NC6000 laptop</a>, in <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/" title="nc8430 post">July of 2006 I met my 15.4″ HP NC8430</a> (employer-supplied, thank you employer!), which in turn led to <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="15 seconds of blog fame">this Ubuntu-critical blog post of mine</a> that attracted 50000 (yes, fifty thousand) readers over 2 days, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="bees blog post">in July of 2008 I splurged on a lovely quad core desktop machine</a>, in <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/" title="asus 1005HA-H netbook">September of 2009 I acquired an Asus 1005HA-H netbook</a>, and in <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/" title="dell e6410 post">November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop</a>.</p>
 <p>Today I welcomed the latest and probably prettiest laptop so far into the family:
+
+
 
 
 
@@ -484,8 +484,10 @@ If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all 
 <li>When spring comes around, hide my credit card.</li>
 </ol>
 <p><em>Update on May 2, 2012:</em> I have just eaten my hat. Ubuntu Linux 12.04 with Bumblebee runs just wonderfully on this laptop. Read all about it in <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="vxlabs blog post reviewing ubuntu 12.04 on the samsung np300v3a">my VXLabs blog post</a>.</p>
-]]></content:encoded></item><item><title>New work laptop</title><link>https://cpbotha.net/2008/04/27/new-work-laptop/</link><pubDate>Sun, 27 Apr 2008 10:53:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/04/27/new-work-laptop/</guid><description> I think I just might have found my next work laptop. Imagine the surprised and definitely jealous expressions as you plonk down your new Hello Kitty laptop at that next power meeting or important research discussion. Marvelous!
+ ]]></content:encoded></item><item><title>New work laptop</title><link>https://cpbotha.net/2008/04/27/new-work-laptop/</link><pubDate>Sun, 27 Apr 2008 10:53:46 +0000</pubDate><guid>https://cpbotha.net/2008/04/27/new-work-laptop/</guid><description>I think I just might have found my next work laptop. Imagine the surprised and definitely jealous expressions as you plonk down your new Hello Kitty laptop at that next power meeting or important research discussion. Marvelous!
 Click on the image for the accompanying site (found via engadget.com).</description><content:encoded><![CDATA[ <p>I think I just might have found my next work laptop. Imagine the surprised and definitely jealous expressions as you plonk down your new Hello Kitty laptop at that next power meeting or important research discussion. Marvelous!</p>
+
+
 
 
 
@@ -503,7 +505,7 @@ Click on the image for the accompanying site (found via engadget.com).</descript
 </figure>
 
 <p>Click on the image for the accompanying site (found via <a href="http://engadget.com/" title="Engadget Website">engadget.com</a>).</p>
-]]></content:encoded></item><item><title>a critical look at ubuntu feisty beta on an hp nc8430 laptop</title><link>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</link><pubDate>Tue, 10 Apr 2007 14:37:41 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</guid><description> I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.
+ ]]></content:encoded></item><item><title>a critical look at ubuntu feisty beta on an hp nc8430 laptop</title><link>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</link><pubDate>Tue, 10 Apr 2007 14:37:41 +0000</pubDate><guid>https://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/</guid><description>I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.
 So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, good power management, full support for modern GPUs, etc) is a different story.</description><content:encoded><![CDATA[ <p>I’ve been running Linux since 1993 (kernel 0.99-pl13 if I remember correctly) on most of my workstations and servers. I’ve had my idiot-zealot phase (“nothing but Linux is good enough”), but fortunately have left that far behind me. Now I like teasing idiot-zealots with comments about that shareware Loonix thing.</p>
 <p>So for the past few laptops, I’ve been running Windows XP, mostly because this Just Works(tm) on modern laptop hardware. Linux really didn’t cut it when compared to XP: yes, you could install it without too much trouble, but getting 100% out of your laptop (suspend/resume, <strong>good</strong> power management, full support for modern GPUs, etc) is a different story.</p>
 <p>Because XP is getting more scary by the day (WGA things, licensing issues) and Vista promises to be even more scary (binding itself to your motherboard) and because I’ve been hearing many good things about Ubuntu Feisty (the soon-to-be-released 7.04), I decided to give this a shot on my HP NC8430 laptop (Core Duo 2GHz, ATI X1600, 2G RAM, etc.). Initially I was determined to do this like a “normal” user, i.e. no tweaking config files and especially no script writing. I wanted to see how far your average user could get with a state of the art Linux installation on a laptop.</p>
@@ -557,7 +559,7 @@ So for the past few laptops, I’ve been running Windows XP, mostly because this
 </ul>
 <p><strong>PS</strong></p>
 <p>Please comment away, but keep it civilised. I’ll update the post as we go along, and give credit where credit’s due.</p>
-]]></content:encoded></item><item><title>Whoohooo, XFree86 + DRI hacked to suspend/resume</title><link>https://cpbotha.net/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/</link><pubDate>Fri, 26 Jul 2002 04:57:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/</guid><description> Yes, dear reader(s), I have hacked the radeon drivers so that I can suspend from and resume to an XFree86 server running with active DRI. You can read the low-down here. There is probably going to be some resistance from the developers, as this is still a kludge. It’s quite a good kludge though, don’t you think?
+ ]]></content:encoded></item><item><title>Whoohooo, XFree86 + DRI hacked to suspend/resume</title><link>https://cpbotha.net/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/</link><pubDate>Fri, 26 Jul 2002 04:57:00 +0000</pubDate><guid>https://cpbotha.net/2002/07/26/whoohooo-xfree86-dri-hacked-to-suspendresume/</guid><description>Yes, dear reader(s), I have hacked the radeon drivers so that I can suspend from and resume to an XFree86 server running with active DRI. You can read the low-down here. There is probably going to be some resistance from the developers, as this is still a kludge. It’s quite a good kludge though, don’t you think?
 By the way, please read the posting carefully. Some people haven’t and got the wrong idea…</description><content:encoded><![CDATA[ <p>Yes, dear reader(s), I have hacked the radeon drivers so that I can suspend from and resume to an XFree86 server running with active DRI. You can read the low-down <a href="http://sourceforge.net/mailarchive/message.php?msg_id=1874234">here</a>. There is probably going to be some resistance from the developers, as this is still a kludge. It’s quite a good kludge though, don’t you think?</p>
 <p>By the way, please read the posting carefully. Some people haven’t and got the wrong idea…</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

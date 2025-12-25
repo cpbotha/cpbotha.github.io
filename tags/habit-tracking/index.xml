@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>habit tracking on voices in my head</title><link>https://cpbotha.net/tags/habit-tracking/</link><description>Recent content in habit tracking on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 02 Nov 2019 16:48:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/habit-tracking/index.xml" rel="self" type="application/rss+xml"/><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Habit Tracking on voices in my head</title><link>https://cpbotha.net/tags/habit-tracking/</link><description>Recent content in Habit Tracking on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 Nov 2019 16:48:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/habit-tracking/index.xml" rel="self" type="application/rss+xml"/><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description>In this post, I explain how to get up and running with Emacs Orgmode habits.
 Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
 The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
 <p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
@@ -71,22 +71,22 @@ ago, I somehow kept on letting them slip.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_f5ebe94babcb0c44.png 480w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_a9cc921388380294.png 800w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_678f29c39cc0d732.png 1200w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_8cbade739c4c6438.png 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_a9cc921388380294.png"
   
 
    />
@@ -109,17 +109,17 @@ importantly, how long you have been streaking a particular habit.</p>
 <h3 id="global-configuration">Global configuration.</h3>
 <p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
 the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#953800">add-to-list</span> <span style="color:#032f62">&#39;org-modules</span> <span style="color:#032f62">&#39;org-habit</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
 </span></span></code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
 state logging for the task <code>DONE</code> state:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#57606a">;; each state with ! is recorded as state change</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; in this case I&#39;m logging TODO and DONE states</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-todo-keywords</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#953800">sequence</span> <span style="color:#0a3069">&#34;TODO(t!)&#34;</span> <span style="color:#0a3069">&#34;NEXT(n)&#34;</span> <span style="color:#0a3069">&#34;SOMD(s)&#34;</span> <span style="color:#0a3069">&#34;WAFO(w)&#34;</span> <span style="color:#0a3069">&#34;|&#34;</span> <span style="color:#0a3069">&#34;DONE(d!)&#34;</span> <span style="color:#0a3069">&#34;CANC(c!)&#34;</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; I prefer to log TODO creation also</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; log into LOGBOOK drawer</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-log-into-drawer</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
 </span></span></code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
 <p>Then, start creating the special habit nodes as explained in the following:</p>
 <p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
@@ -186,4 +186,4 @@ try again.</li>
 <li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
 maintain habits, especially non-daily ones.</li>
 </ul>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

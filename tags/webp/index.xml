@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Webp on voices in my head</title><link>https://cpbotha.net/tags/webp/</link><description>Recent content in Webp on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Dec 2025 14:41:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/webp/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #263: High Dynamic Life</title><link>https://cpbotha.net/2025/12/25/weekly-head-voices-263-high-dynamic-life/</link><pubDate>Thu, 25 Dec 2025 14:41:00 +0200</pubDate><guid>https://cpbotha.net/2025/12/25/weekly-head-voices-263-high-dynamic-life/</guid><description>Well will you look at that date&amp;hellip; Merry Christmas everyone!
+I would also like to welcome you to the 263d edition of the Weekly Head Voices, a surprise even to me that it managed to get this far!
+26th wedding anniversary hike, this time a forbidden route starting from Rooi Els
+I was partially inspired by Martin Fowler&amp;rsquo;s &amp;ldquo;writing fragments&amp;rdquo; to just get this post out there. In his post, he makes the case that social media comes and goes, something I&amp;rsquo;ve seen happen more than once during the 25 year existence of this blog, and so he just plonks together a bunch of things that he found interesting and publishes that as a blog post.</description><content:encoded><![CDATA[ <p>Well will you look at that date&hellip; Merry Christmas everyone!</p>
+<p>I would also like to welcome you to the 263d edition of the Weekly Head Voices, a surprise even to me that it managed to get this far!</p>
+<figure><a href="rooi_els_anniversary_hike_5996.jpg"><img src="/2025/12/25/weekly-head-voices-263-high-dynamic-life/rooi_els_anniversary_hike_5996_1280.jpg"
+    alt="26th wedding anniversary hike, this time a forbidden route starting from Rooi Els"></a><figcaption>
+      <p>26th wedding anniversary hike, this time a forbidden route starting from Rooi Els</p>
+    </figcaption>
+</figure>
+
+<p>I was partially inspired by Martin Fowler&rsquo;s <a href="https://martinfowler.com/articles/writing-fragments.html">&ldquo;writing fragments&rdquo;</a> to just get this post out there. In his post, he makes the case that social media comes and goes, something I&rsquo;ve seen happen more than once during the 25 year existence of this blog, and so he just plonks together a bunch of things that he found interesting and publishes that as a blog post.</p>
+<p>Plonking together a bunch of things and calling it a post sounds like a robust approach to me, and so I&rsquo;m adopting it as of now.</p>
+<p>I also thought that it would feel good publishing one more normal WHV for 2025 before the <a href="/tags/transition/">traditional year transition post</a> which will hopefully also happen on time(ish).</p>
+<h2 id="boox-go-6-e-ink-reader-micro-review">Boox Go 6 e-ink reader micro review</h2>
+<p>My fourth Kindle e-reader, a 2018 Paperwhite, has this irritating issue where it will hard crash after some amount of reading, at which point one has to hard reboot, a process that takes some number of minutes.</p>
+<p>This is of course not great when you&rsquo;re reading in bed, in the dark, before going to sleep. I tried all of the recommended remedies, including the factor reset, all to no avail. (see <a href="https://www.amazon.com/review/RRA4LVNPHE0TE/ref=cm_cr_srp_d_rdp_perm?ie=UTF8">my Amazon review</a>)</p>
+<p>It&rsquo;s too late to return this unit, and so I decided to invest in the Boox Go 6 e-ink reader, a more generic Android device that is able to run the official Android apps of all the retailers, including Kindle, Kobo and more.</p>
+<p>I&rsquo;ve now been using this for about four months (it arrived on August 21) and I can say that it&rsquo;s a keeper.</p>
+<p>Here are some observations, but please let me know in the comments if you would like to know anything else:</p>
+<ul>
+<li>I bought my unit through <a href="https://www.dynamiccom.co.za/products/boox-go-6-e-ink-reader/1123586000024646701">DynamicCom</a>, the local distributor, who were super helpful and send regular emails to inform me of shipment progress. Down here the unit is slightly more expensive than the equivalent Kindle. I also bought the Boox magnetic cover, highly recommended!</li>
+<li>By default, the power setting on this device does a full shutdown after 15 minutes! This was super irritating, because I had to wait for it to boot up every time. Fortunately, by changing <code>settings -&gt; power -&gt; power-off timeout</code> from 15 minutes to 2 days, I now have instant on, returning to the page I was reading.</li>
+<li>It is indeed great that I can now buy and read books from Kobo as well. I&rsquo;m currently binging <a href="https://adriantchaikovsky.com/">Adrian Tchaikovsy</a>, and the two most recent books I bought were substantially cheaper on Kobo than on Amazon.</li>
+<li>The Kobo app&rsquo;s maximum font size is not big enough so that I can read without my spectacles at night. This is only an issue if you are &gt;50 (welcome to the club!) or have other vision challenges. I have submitted a support request with Kobo. In the meantime, I am reading the DRM-free epubs that Kobo supplied with my purchase in the Boox&rsquo;s built-in e-reader.</li>
+<li>Battery life, even with my 2 day power off timeout, is practically a week or more. The unit charges with USB-C which is great.</li>
+<li>As far as I can see, the Boox uses the Carta 1300 e-ink screen. It is a pleasure to read from. The backlight brightness and colour temperature can be adjusted to your liking.</li>
+</ul>
+<h2 id="hugo-0153-with-libwebp-via-wasm">Hugo 0.153 with libwebp via wasm</h2>
+<p>You might remember from <a href="/2024/12/08/weekly-head-voices-257-untitled49-ipynb/#webp-ftw">WHV #257</a> about the long-standing Golang bug that darkens webp images, which I worked around by using an auxiliary non-webp image as the source.</p>
+<p>Thanks to github notifications on <a href="https://github.com/gohugoio/hugo/issues/8879">the relevant Hugo bug</a>, I saw that bep (Bjørn Erik Pedersen, the amazing creator of Hugo) had just merged a <a href="https://github.com/gohugoio/hugo/pull/14234">PR switching to libwebp via WASM</a> (!!) instead of the built-in Go libraries.</p>
+<p>This update uses libwebp, a C-library, compiled to wasm via the wazero.io pure-go runtime.</p>
+<p>Based on what I read, in the <a href="https://github.com/gohugoio/hugo/issues/12843">relevant github issue</a> and elsewhere, this is a really neat trick for Hugo to have pure Go builds that can use native libraries because they&rsquo;ve been compiled to wasm! In this specific case, it means that in hugo 0.153, I can webp all the things without the work-around I am using at the moment.</p>
+<p>I was really excited by this update, and thus also reloading the <a href="https://github.com/gohugoio/hugo/milestone/349">hugo 0.153 release milestone</a> multiple times per day, until the release of 0.153 and 0.153.1 shortly after on December 20.</p>
+<p>The Hugo release was the additional fuel needed to get this post off the ground, but alas, my enthusiasm for WebP was just about snuffed out when I discovered that it has 0 (zero) support for HDR&hellip;</p>
+<h2 id="the-surprising-trickiness-of-hdr-photos-on-this-blog">The surprising trickiness of HDR photos on this blog</h2>
+<p>As I was putting this post together, I selected a number of candidate photos, as I usually do.</p>
+<p>However, this time I could not help but notice the HDR (high dynamic range) adding some extra brightness to the highlights: In this particular case, brighter parts in sunny photos, and night lights in night photos.</p>
+<p>As is often the case with my brain, multiple multi-hour research sessions ensued, some of the notes of which you can see <a href="https://charlbotha.com/til/Convert-iPhone-HDR-.heic-photos-to-web-compatible-HDR-images">at my TiL site</a>.</p>
+<p>Long story short, many iPhones and Androids can add HDR information to their photos when the scene requires it. Apple does it in their .HEIC images (mostly extra HDR gainmap, but could also be in a single image), and Google adds the HDR gainmap as part of the JPG metadata, a format dubbed <a href="https://github.com/google/libultrahdr">Ultra HDR</a>.</p>
+<p>You can see some <a href="https://gregbenzphotography.com/hdr-gain-map-gallery/">examples of web-compatible HDR photos</a> at Greg Benz&rsquo;s site. (If you dig into this, you&rsquo;ll run into Greg Benz in many places &ndash; he has been working hard campaigning for web-compatible gainmap-based HDR image support in various places.)</p>
+<p>Currently most of the main browsers support <em>subsets of</em> Ultra HDR (you have to know which subset!), and hopefully in the slightly further future, we&rsquo;ll be able to use <a href="https://caniuse.com/?search=avif">AVIF</a> for HDR and also all other web-facing images.</p>
+<p><em>Note: WebP has no support for HDR. My new hope for the future is AVIF.</em></p>
+<p>In my case, I had to figure out how to convert my iPhone&rsquo;s .HEIC images into UltraHDR JPGs. After more hours of failed experiments (no, none of Gimp, ImageMagick, libvips, Affinity Photo, GraphicConverter 12 do this correctly), I landed on a rather obscure bit of macOS / Swift open-source called <a href="https://github.com/chemharuka/toGainMapHDR">toGainMapHDR</a> which is able to convert HDR .HEIC files to Ultra HDR with the particular Apple gainmap format (<code>-g</code>) currently supported by Edge and Chrome on macOS.</p>
+<p>Alernatively, Graphic Converter 12 can convert from HDR .HEIC images to single image HDR AVIF, which are substantially smaller than the corresponding Ultra HDR JPG files. The problem is that these AVIFs have no built-in fallback to standard SDR like Ultra HDR has by design. Soon there will be more support for HDR AVIF via included gainmap, which will have similar fallback behaviour to Ultra HDR.</p>
+<p>So after all that, the Ultra HDR photos in this post should show up with HDR highlights if your display system and browser (Chrome, Edge, Safari do, Firefox not yet) support it, and gracefully fall back to the non HDR versions if they do not!</p>
+<p>Because neither Hugo or Golang support processing the HDR metadata in these images correctly, I have to manually resize them, instead of using <a href="/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/">my otherwise convenient srcsets figure shortcode</a> that automatically creates all the scaled versions.</p>
+<h3 id="ps-a-taste-of-the-avif-future">P.S. A taste of the AVIF future</h3>
+<p>Below I have embedded the same photo as the Ultra HDR (JPG) shown in the next section, but here as a high(er)-bitdepth single image HDR AVIF.</p>
+<figure><a href="cape_town_from_overseers_5775.avif"><img src="/2025/12/25/weekly-head-voices-263-high-dynamic-life/cape_town_from_overseers_5775_640.avif"></a>
+</figure>
+
+<p>You should see the AVIF image above these words, and your browser should show the full resolution version if you click on the image. If you don&rsquo;t, please let me know in the comments below, or via any other means, along with details of your web-browser.</p>
+<p>For interest&rsquo;s sake, here are the file sizes:</p>
+<ul>
+<li>original .heic 4032x2268: 1 MB</li>
+<li>Ultra HDR JPG 85% quality: 2 MB</li>
+<li>HDR AVIF 12-bit depth 85% quality: 422 kB</li>
+</ul>
+<h2 id="significant-life-events">Significant life events</h2>
+<p>My SO completed a significant but undisclosed number of orbits around the sun. We celebrated with friends by spending the night at the Overseers Cottage on top of Table Mountain, which felt like a pretty spectacular way to celebrate this special birthday. The party fully lived up to this standard (and then some).</p>
+<figure><a href="cape_town_from_overseers_5775.jpg"><img src="/2025/12/25/weekly-head-voices-263-high-dynamic-life/cape_town_from_overseers_5775_1280.jpg"
+    alt="Cape Town at night as seen from the overseers cottage on top of Table Mountain"></a><figcaption>
+      <p>Cape Town at night as seen from the overseers cottage on top of Table Mountain</p>
+    </figcaption>
+</figure>
+
+<p>Somewhat later, we celebrated my mom&rsquo;s 80th at home, with a great group of her close friends. It was such a beautiful day to celebrate such a beautiful human&rsquo;s vitality. In addition to being in great shape in spite of her limits and to being mentally sharp (did your 80 year old figure out Apple Pay by herself?!), my mom is an example to us all of how to celebrate life, and how to celebrate one&rsquo;s people.</p>
+<p>(Hi Mom!)</p>
+<p>Somewhat later than that, above-mentioned SO and I celebrated our 26th year of marriage with our traditional anniversary hike, this time on a forbidden route (no jokes) starting from Rooi Els.</p>
+<p>The hike was absolutely brilliant, even although we both had more than one near-faceplant coming back down the mountain on loose rocks. This is what happens when you get a bit tired, and you need to work extra hard to focus on the footwork. In Rooi Els, there were some ice-cold Stellas waiting, after which we had an early celebratory dinner with the family.</p>
+<p>There&rsquo;s a lot more that I&rsquo;m not going to talk about here, but I do need to mention that these past few weeks I&rsquo;ve really been experiencing those moments of <a href="/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/#happiness-is-a-joke">durable, blissful contentment</a> with my family and my friends, and it&rsquo;s brilliant.</p>
+<p>Thank you for reading this fellow human! I hope to see you soon, either here, or on the road somewhere&hellip;</p>
+<blockquote>
+<p>There is no way to happiness, happiness is the way. There is no way to peace, peace is the way. There is no way to enlightenment, enlightenment is the way.</p>
+<p>&ndash; Thich Nhat Hanh</p>
+</blockquote>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #257: Untitled49.ipynb</title><link>https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/</link><pubDate>Sun, 08 Dec 2024 17:57:35 +0200</pubDate><guid>https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/</guid><description>This, the 257th edition of the WHV, covers the period of time from Monday November 25 to Sunday December 8, 2024.
+The view right from our lunch table at Stellenbosch Reserve, Haskell Vineyard
+Haskell vineyard has made previous appearances on this blog in WHV #99 in 2015, in WHV #181 in 2019 and perhaps in other posts. I strongly suspect that some of the good friends mentioned there were the same good friends we were so fortunate to spend this Sunday lunch with!</description><content:encoded><![CDATA[ <p>This, the 257th edition of the WHV, covers the period of time from Monday November 25 to Sunday December 8, 2024.</p>
+
+
+
+
+
+
+
+
+    
+
+
+<figure><a href="stellenbosch_reserve_view_from_table.webp">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/stellenbosch_reserve_view_from_table_hu_628aabaa4fc4deb1.webp 480w,
+            
+                
+                https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/stellenbosch_reserve_view_from_table_hu_26e1903f953321e3.webp 800w,
+            
+                
+                https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/stellenbosch_reserve_view_from_table_hu_fba80af0d08785ec.webp 1200w,
+            
+                
+                https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/stellenbosch_reserve_view_from_table_hu_cdf93c7de6ffbf4b.webp 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/12/08/weekly-head-voices-257-untitled49-ipynb/stellenbosch_reserve_view_from_table_hu_26e1903f953321e3.webp"
+            
+
+        
+            alt="The view right from our lunch table at Stellenbosch Reserve, Haskell Vineyard"/> </a><figcaption>
+            <p>The view right from our lunch table at Stellenbosch Reserve, Haskell Vineyard</p>
+        </figcaption>
+</figure>
+
+<p>Haskell vineyard has made previous appearances on this blog in <a href="/2015/08/23/weekly-head-voices-99-no-lands/">WHV #99 in 2015</a>, in <a href="/2019/10/17/weekly-head-voices-181-the-slow-ones/">WHV #181 in 2019</a> and perhaps in other posts. I strongly suspect that some of the good friends mentioned there were the same good friends we were so fortunate to spend this Sunday lunch with!</p>
+<h2 id="why-im-definitely-not-taking-part-in-advent-of-code-2024">Why I&rsquo;m definitely not taking part in Advent of Code 2024</h2>
+<p>I tried to <a href="/2020/12/12/weekly-head-voices-211-table-mountain-run-ish/#advent-of-code-2020">explain The Advent of Code in WHV #211</a>, back in December of 2020 when I took part for the first time.</p>
+<p>An extract from that explanation pertinent to this discussion is:</p>
+<blockquote>
+<p>To my non-programmer friends: Solving puzzles is like concentrated cat nip to programmers. In the case of AoC, you get unadulterated puzzle solving, and none of the other complications of writing production software.</p>
+</blockquote>
+<p>The dark side of that property is that as the puzzles get more difficult and take up increasing amounts of time, the cat nip enjoyer can get locked in and have great difficulty even noticing that they are spending hours every day writing computer programmes when at first other people are working and later, down here, they are outside enjoying their summer vacation.</p>
+<p>In 2020, I think it was on day 21 that I noticed after more than four hours on that day&rsquo;s puzzle that it was probably time to put down the keyboard.</p>
+<p>Since then I have been carefully enjoying the first few days of each year&rsquo;s AoC, taking care to walk away when the cat nip becomes too strong.</p>
+<p>This year I had resolved not to take part at all, as there are a number of important work projects and personal obligations to take care of.</p>
+<p>However, my resolve broke on the first day when I thought &ldquo;What could be the harm in just taking a little peek?&rdquo;. That little peek led to a little solution, and then another, and then another day, and so on.</p>
+<p>Anyways, as you can see from my <a href="https://bsky.app/hashtag/AdventOfCode?author=charlbotha.com">#AdventOfCode tagged posts on Bluesky</a>, I am not officially taking part, I&rsquo;m just submitting solutions every day.</p>
+<p>On a more serious note: I am happy not to miss out on the AoC loads of fun, especially the banter and comparisons and learning on various chat groups, but I am really trying to keep a critical eye on the daily time expense. If it gets out of hand, I will walk away from the programmer cat nip.</p>
+<p>P.S. Today was particularly fun, precisely because I managed to squeeze the puzzle in between more important activities. The little rush when I submitted part 2&rsquo;s solution minutes before we had to leave for lunch was exquisite.</p>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:oy5vmr2vnff6yxs65hwgk5xq/app.bsky.feed.post/3lcsengeop22r" data-bluesky-cid="bafyreic3sip7ko7ice6gssjd5e57i7l7mbzkghwzp6dy24bee3m2texiza"><p lang="en">Today I was planning on extra vigorously NOT taking part in AoC because it&#x27;s Sunday: planning a long run followed by lunch with some of our best friends.
+<p>Plans all happened, but in between I completed &quot;Resonant Collinearity&quot; - Day 8 - Advent of Code 2024 #AdventOfCode adventofcode.com/2024/day/8<br><br><a href="https://bsky.app/profile/did:plc:oy5vmr2vnff6yxs65hwgk5xq/post/3lcsengeop22r?ref_src=embed">[image or embed]</a></p>— Charl P. Botha | code, data-*, Emacs, running, humans (<a href="https://bsky.app/profile/did:plc:oy5vmr2vnff6yxs65hwgk5xq?ref_src=embed">@charlbotha.com</a>) <a href="https://bsky.app/profile/did:plc:oy5vmr2vnff6yxs65hwgk5xq/post/3lcsengeop22r?ref_src=embed">December 8, 2024 at 3:59 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script></p>
+<h2 id="webp-ftw">WebP FTW</h2>
+<p>Back in 2020, friend <a href="https://mentat.za.net/">Stéfan</a> and I <a href="/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/">hacked and slashed together a Hugo shortcode to render srcset images</a>.</p>
+<p>In short, this adds multiple resolutions of each image in such a way that users download only what makes sense on their displays, often leading to faster page loading.</p>
+<p>Fast forward 4 years as I try out <a href="https://en.wikipedia.org/wiki/WebP">WebP</a> format images on this website (always for faster loading!) and run into a disappointingly long-standing bug in the Go standard library&hellip;</p>
+<p>Another long story short, our <a href="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d?permalink_comment_id=5299293">figure shortcode can now work around this bug</a> by displaying webp, but using png/jpg behind the scenes for all conversions, meaning most images should load faster for you.</p>
+<p>The photo at the top of this post should have the WebP format, and thanks to srcset it should download lower resolution versions if you are on a smaller display.</p>
+<h2 id="why-im-starting-to-write-these-more-regularly-in-hugo-vs-orgmode">Why I&rsquo;m starting to write these more regularly in Hugo vs Orgmode</h2>
+<p>This is just a quick note to me, and perhaps others who occupy this same nanoscopic technical niche.</p>
+<p>For the past few years, <a href="/2020/05/03/weekly-head-voices-193-covid-19-part-3/#fantastic-blogging-tools-and-where-to-find-them">since May of 2020</a>, I&rsquo;ve been writing most of the WHV posts, and posts for my other blogs, in Emacs Orgmode, exporting them with the wonderful ox-hugo tool.</p>
+<p>It made a great deal of sense to me (and it still does!) that my WHV entries were just entries in my monthly orgmode file.</p>
+<p>However, sometimes when I go back to update a post from a few years back, some evolution in my orgmode configuration over the years complicates the orgmode to Hugo markdown process, and I&rsquo;m relegated to debugging the issue before I can get down to the actual update.</p>
+<p>A year or two back, to lessen the impact of this problem, I started creating standalone org files for the WHVs. Whilst this certainly reduces the error surface, it&rsquo;s not as robust as editing the markdown directly, which I&rsquo;m doing right now.</p>
+<p>Thanks for coming to my TED talk.</p>
+<h2 id="on-waiting">On waiting</h2>
+<blockquote>
+<p>There&rsquo;s no such thing as waiting &ndash; only unexpected extra time to practice being present. &ndash; <a href="https://en.wikipedia.org/wiki/Jan_Chozen_Bays">Jan Chozen Bays</a></p>
+</blockquote>
+<p>P.S. In American English, practice is used both as verb and as noun, unlike British English which uses practice as a noun, and practise as the verb. Dr Bays is American, so I&rsquo;m keeping the spelling.</p>
+ ]]></content:encoded></item></channel></rss>

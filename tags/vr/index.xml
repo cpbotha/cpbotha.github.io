@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Vr on voices in my head</title><link>https://cpbotha.net/tags/vr/</link><description>Recent content in Vr on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Feb 2024 13:10:12 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/vr/index.xml" rel="self" type="application/rss+xml"/><item><title>On the two world problem and personal knowledge management</title><link>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</link><pubDate>Sun, 11 Feb 2024 12:52:00 +0200</pubDate><guid>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</guid><description> Figure 1: Photo by Igor Omilaev on Unsplash
+In this recent Mojo community blog post, I came across the term &amp;ldquo;two-world problem&amp;rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.
+As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<figure><a href="igor-omilaev-p059oXBEWe4-unsplash.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_4816191a2dae1d67.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_aa120e91e6d1f8dd.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_fc88fb9c84cc0c4d.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg"
+            
+
+        
+            alt="Figure 1: Photo by Igor Omilaev on Unsplash"/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Photo by <a href="https://unsplash.com/@omilaev">Igor Omilaev</a> on <a href="https://unsplash.com/photos/a-pair-of-virtual-glasses-on-a-pink-and-yellow-background-p059oXBEWe4">Unsplash</a></p>
+        </figcaption>
+</figure>
+
+<p>In this recent <a href="https://www.modular.com/blog/outperforming-rust-benchmarks-with-mojo">Mojo community blog post</a>, I came across the term &ldquo;two-world problem&rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.</p>
+<p>As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</p>
+<p>I could not find any canonical sources for its use in this context. The closest was a blog post or two talking about the digital vs the physical world.</p>
+<p>However, I think this is also what I&rsquo;m going to use to describe the continuous tension I experience between the Apple and non-Apple personal data ecosystems in my life. For various good reasons, I use some Apple tools like Apple Notes, which have limited or no interoperability with the rest of my slightly more open data environment. See <a href="/2023/04/11/note-taking-strategy-2023/">my 2023 note-taking mega-post</a> if you&rsquo;re interested in the details.</p>
+<p>In addition to the Apple boundary, there are additional boundaries between for example the Google cloud (which my family uses) and the plain files on my filesystems.</p>
+<p>For how long will there still be room for &ldquo;files on someone&rsquo;s disc&rdquo;, currently my preference?</p>
+<p>In an ideal world, my data environment is fully unified. Everything I ingest or process lives in the same happy data universe and can be re-used and re-combined by me and my AIs. Interop with other folks must also be transparent and with low friction.</p>
+<p>This vision is quite far from my current reality.</p>
+<p>I think this problem is going to become a lot more prominent with new computing modalities like the Apple Vision Pro. Folks using the AVP will have their whole data universe inside the Apple garden in order to have access to their stuff in the AVP virtualities.</p>
+<p>What is the Meta (Quest) tribe going to do? Where is their data going to live?</p>
+<p>Furthermore, how are our personal AI assistants going to get unified access to our personal data in order to become more useful?</p>
+<p>At this point, it looks like it&rsquo;s going to become an extremely interesting and quite treacherous question of pick-your-cloud. The coice of personal cloud, AI and XR systems becomes inextricably intertwined, with lock-in almost guaranteed. The already existing problem of silos will probably become only more challenging.</p>
+<p>It feels like some (many?) folks are already there; they are happy to have selected one and one only of Apple, or Google, or Microsoft for everything that they do. Staying exclusive to that single ecosystem has many benefits, but one clearly also risks creating a reality where no other choice will be possible.</p>
+<p>What does your data landscape look like at this moment? Where do you think we&rsquo;re going to end up?</p>
+ ]]></content:encoded></item></channel></rss>

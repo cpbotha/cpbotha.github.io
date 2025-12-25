@@ -1,0 +1,209 @@
+<!doctype html><html><head><title>Note-taking strategy 2023 // voices in my head</title><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta property="og:title" content="Note-taking strategy 2023"><meta property="og:description" content="
+     
+
+
+I wrote about my note-taking approach for the first time in 2016 (read for
+fun), and then pretty expansively about its evolved version  in 2019.
+In spite of the title of these posts, already in 2019 it had become more a
+system for personal knowledge management than just for note-taking."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/"><meta property="og:image" content="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_7b3d6e3805931d3f.webp"><link rel="shortcut icon" href=/favicon.ico><link href=https://cpbotha.net/webfonts/ptserif/main.css rel=stylesheet type=text/css><link href=https://cpbotha.net/webfonts/source-code-pro/main.css rel=stylesheet type=text/css><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"><link rel=stylesheet href=https://cpbotha.net/css/style.css><meta name=generator content="Hugo 0.153.2"></head><body><div id=container><header id=header><div id=header-outer class=outer><div id=header-inner class=inner><a id=main-nav-toggle class=nav-icon href=javascript:;></a><a id=logo class=logo-text href=https://cpbotha.net/>voices in my head</a><nav id=main-nav><a class=main-nav-link href=/about/>About</a>
+<a class=main-nav-link href=/links/>Links</a>
+<a class=main-nav-link href=/archive/>Posts Archive</a>
+<a class=main-nav-link href=/software/>Software</a>
+<a class=main-nav-link href=/following-this-blog/>Following this blog</a></nav><nav id=sub-nav><div id=search-form-wrap></div></nav></div></div></header><section id=main class=outer><article class="article article-type-post" itemscope itemprop=blogPost><div class=article-inner><header class=article-header><h1 class=article-title itemprop=name>Note-taking strategy 2023</h1></header><div class=article-meta><a href=/2023/04/11/note-taking-strategy-2023/ class=article-date><time datetime=2023-04-11T13:48:00.000+02:00 itemprop=datePublished>2023-04-11</time></a><div class=article-comment-link-wrap><a href=/2023/04/11/note-taking-strategy-2023/#isso-thread class=article-comment-link>Comments</a></div></div><div class=article-entry itemprop=articleBody><figure class=flush-left><a href=emacs-user-dalle.jpg><img sizes="(min-width: 35em) 1200px, 100vw" srcset='https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_e56ee92c05542946.jpg 480w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_fedc46e03857ec89.jpg 800w,' src=https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_fedc46e03857ec89.jpg alt="Painting of an Emacs user making notes using Emacs with Org mode (dall-e via chatgpt.el)" width=320px></a></figure><p>I wrote about my note-taking approach for <a href=/2016/01/05/note-taking-strategy-early-2016/>the first time in 2016</a> (read for
+fun), and <a href=/2019/09/21/note-taking-strategy-2019/>then pretty expansively about its evolved version in 2019</a>.</p><p>In spite of the title of these posts, already in 2019 it had become more a
+system for <em>personal knowledge management</em> than just for note-taking.</p><p>It is now again three years later (3.5 to be slightly more accurate), and the
+system has continued on its path of steady evolution.</p><p>It currently contains thousands of interlinked notes, as well as hundreds of
+saved articles and web-pages. It also tracks of all of my projects and tasks,
+both work and personal.</p><p>The purpose of this post is to document the <em>current</em> state of the system. You
+don&rsquo;t need any prior knowledge from the other posts; this post should be
+self-contained.</p><h2 id=high-level-overview>High level overview</h2><p>The system has to satisfy the following functional requirements:</p><ol><li>Fast capture of any information on desktop and mobile, including free-form
+notes, web-pages and other media.</li><li>Tracking of projects, tasks and metadata such as due dates and schedules.</li><li>Fast and accurate retrieval of any information relevant to the current
+situation.</li><li>Potentially serendipitous surfacing of assets that might be relevant to the
+main search focus, for example through linking or through search.</li></ol><p>The system should have the following two characteristics:</p><ol><li>There should be a single search interface that can in theory find everything
+that was ever stored in the system. This is to prevent the situation where
+you urgently need some document and can&rsquo;t remember into <em>which</em> notes app you
+stored it so many years ago. (True story)</li><li>As far as possible, the canonical source of everything should be plain old
+files on local drives, and be synchronized with a tool like Dropbox or
+OneDrive. In this way, the system is robust to the whims of a note-taking
+SaaS. The litmus test for this is that you are able to change out sync
+services and still remain with a working system. (True story)</li></ol><p>At the highest level, my system, which satisfies the requirements and
+characteristics above, consists of the following components:</p><dl><dt>Emacs with Org-mode and Org-roam</dt><dd>This is the nexus of the whole thing. It
+tracks projects, tasks and notes, spread out over just over a thousand
+org-files, each of them containing one or more (org-roam) notes, all linked
+together.</dd><dt>Mobile device for capturing and access</dt><dd>In my case that&rsquo;s an iPhone with a
+number of additional apps for the capturing into and accessing of my notes
+database. See figure below, and explanation further down.</dd><dt>Reproducible digital filing system</dt><dd>This just refers to the fact that over
+the years I&rsquo;ve evolved a recipe for &ldquo;where to put that file&rdquo; which is
+reproducible in the sense that if I receive the same file a year later, my
+brain will automatically follow the same logic and end up in the same
+spot. Over the past year or two, I have started applying aspects of the <a href=https://fortelabs.com/blog/para/>PARA
+method</a> to a subset of my files, and a heavily modified <a href=https://johnnydecimal.com/>Johnny•Decimal</a> to
+the &ldquo;areas&rdquo; in PARA. I am happy with the results so far.</dd><dt>PDF&rsquo;d web-pages and articles (JBOP)</dt><dd>Locally stored PDF versions of
+reference-worthy web-pages and articles can be annotated, linked and shared,
+and they remain usable long after the source website has disappeared.</dd><dt>Academic articles managed with Zotero</dt><dd>Zotero is one of the best ways to
+manage all of your academic literature and metadata. As if that&rsquo;s not enough,
+it&rsquo;s fully open source. Since I&rsquo;m doing less academia these days, this is
+seeing minimal use.</dd><dt>OneDrive (previously Dropbox) for cloud synchronization and searching</dt><dd>This
+infrastructural component is critical. It ensures that all of the files are
+synced and available on all devices that I use, and, quite importantly, it
+indexes everything so that I can interactively search through the contents of
+hundreds of thousands of files. There are some work-arounds and caveats which
+I will get into further down.</dd><dt>SyncThing</dt><dd>Having a local version of my whole notes database, both in its
+native Org format as well as an automatically updated Obsidian Vault version,
+gives the best experience on mobile.</dd></dl><p>The following figure is a different view of the Rube Goldberg machine described
+above:</p><figure><a href=cpbotha-pkm-2023.excalidraw.png><img sizes="(min-width: 35em) 1200px, 100vw" srcset='https://cpbotha.net/2023/04/11/note-taking-strategy-2023/cpbotha-pkm-2023.excalidraw_hu_befb16bc9676e148.png 480w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/cpbotha-pkm-2023.excalidraw_hu_c5b4472c7e72470.png 800w,' src=https://cpbotha.net/2023/04/11/note-taking-strategy-2023/cpbotha-pkm-2023.excalidraw_hu_c5b4472c7e72470.png alt="Figure 1: Selected apps forming my note-taking approach on desktop and mobile."></a><figcaption><p><span class=figure-number>Figure 1: </span>Selected apps forming my note-taking approach on desktop and mobile.</p></figcaption></figure><h2 id=some-of-the-components-in-more-detail>Some of the components in more detail</h2><h3 id=emacs-with-org-mode-and-org-roam>Emacs with Org-mode and Org-roam</h3><p>At the <strong>heart of my knowledge management system</strong>, let&rsquo;s call it <code>pkb4000</code>, is
+<a href=https://www.gnu.org/software/emacs/>Emacs</a>, together with the venerable <a href=https://orgmode.org/>Org mode</a> package, its more recent
+augmentation <a href=https://www.orgroam.com/>Org-roam</a>, and a whole zoo of finely tuned packages.</p><p>Org mode, or &ldquo;Your life in plaintext&rdquo;, is a powerful text-file-based system for
+managing notes, task lists, projects and even authoring documents.</p><p>Once you get used to the programmable flexibility that it and especially Emacs
+itself are able to offer, you will find it hard to go back to any conventional
+system.</p><p>After some years of trial and error, I have settled on using the following main
+Org-mode sub-components:</p><dl><dt>monthly journal files</dt><dd>a diary-like setup where I try to document every
+single day, and where I keep track of personal tasks and projects.</dd><dt>notes database</dt><dd>consisting of hundreds of interlinked notes about people,
+things and tricks. Thanks to the magic of org roam, notes can live as files
+or as headings in a month or project file.</dd><dt>project / area of responsibility files</dt><dd>where each org-file contains or
+links all information related to a specific project, product or area of
+responsibility.</dd><dt>org-agenda</dt><dd>This Org mode feature dynamically creates a view of all of my
+projects and tasks, extracted from a subset of the files mentioned above.</dd></dl><h4 id=monthly-journal-files>Monthly journal files</h4><p>In my main Org mode directory, I have a subdirectory named <code>journals</code>, which
+contains a directory for each year.</p><p>Each of these year directories contains an <code>.org</code> file for each month, so we
+would have for example <code>journals/2022/2022-06-Jun.org</code>.</p><p>Each month file follows the structure showed in the following redacted version
+of my current journal file:</p><figure><a href=2023-04-09_19-28-05_screenshot.png><img sizes="(min-width: 35em) 1200px, 100vw" srcset='https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_33a64c0e5a682456.png 480w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_3725d935171f0730.png 800w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_e610321c99d9886.png 1200w,' src=https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_3725d935171f0730.png alt="Figure 2: A simplified example of a month journal file"></a><figcaption><p><span class=figure-number>Figure 2: </span>A simplified example of a month journal file</p></figcaption></figure><p>Aside from the Hugo properties which mean I&rsquo;m ready to publish any heading as a
+blog post (this is usually how <a href=/categories/weekly-head-voices/>WHVs</a> are done), my Life Systems 2022 aka
+personal philosophy reminder, and the clock table where I get a complete
+break-down of all work-time spent, I would like to mention the following two
+aspects of the month journal.</p><ul><li><p>Day planning</p><p>When I start the day, I instantiate a new org-capture &ldquo;day planning&rdquo; template
+by pressing <code>C-c c p</code>.</p><p>This creates the <em>Day planning</em> subsection with all of its subsections and
+checklists. As you will see, this guides me through the morning review, which
+in turn has me check each of those additional sources of incoming information
+and tasks.</p><p>New bits of information are filed into their correct place, whilst the
+org-agenda-powered task review shows me a list of tasks, extracted from the
+month file and the list of current project files, so that I can decide which
+ones should be taken on.</p><p>I list tasks which should preferably be taken care of today under <em>Tasks for
+today</em>, whilst any really high-value high-satisfaction tasks go under <em>One Main
+Thing and Task(s) that will satisfy end-of-day Charl</em>.</p></li></ul><ul><li><p>Kill your darlings (during the monthly review).</p><p>I&rsquo;ve mentioned this before, but it&rsquo;s just an important aspect of my &ldquo;system&rdquo;
+that I would like to mention it again.</p><p>When I still used primitive task management systems such as <strong>everything else</strong>
+that&rsquo;s not Org mode, the collection of more mature tasks would soon grow out of
+control.</p><p>However, because I create a new Org mode file for every month, I have to copy
+across manually any tasks that have not been completed yet.</p><p>&ldquo;WHY IS THAT NOT AUTOMATED YET?!&rdquo; you are probably thinking.</p><p>Well, the advantage of having to copy each task over manually is that it is the
+ideal opportunity to evaluate the task and ask some hard questions as to its
+continued relevance&mldr;</p><p>When a task gets too old, I will often make the decision to change its status
+to <code>CANC</code> (for cancelled), sometimes with the reason for the cancellation
+explained in the task body, and then just leave it there in the old month file.</p><p>With most of these task systems, regular reviews are of crucial importance. The
+monthly start-over is a great, almost enforced, opportunity for review, as is
+the morning routine when I instantiate the day planner template.</p></li></ul><h4 id=org-agenda>Org-agenda</h4><p>Org-agenda is a standard Org mode feature which extracts, filters and then
+shows a dynamic summary of projects and tasks from an arbitrary subset of org
+files that you specify.</p><p>In my case, there are currently 15 org files that are consulted. This
+collection evolves over time as projects and areas of responsibility come and
+go.</p><p>I use <a href=https://github.com/alphapapa/org-super-agenda>org-super-agenda</a> for additional filtering and grouping, so that on an
+average weekend day my agenda looks like this:</p><figure><a href=2023-04-08_17-22-50_screenshot.png><img sizes="(min-width: 35em) 1200px, 100vw" srcset='https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_21c3c5c773b616f5.png 480w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_a1ad2b977f25ead1.png 800w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_bcc9819fd36978b5.png 1200w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_3ebda4b9a037d53e.png 1500w,' src=https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_a1ad2b977f25ead1.png alt="Figure 3: Semi-anonymised screenshot of my org-agenda on 2023-04-09"></a><figcaption><p><span class=figure-number>Figure 3: </span>Semi-anonymised screenshot of my org-agenda on 2023-04-09</p></figcaption></figure><p>One noteworthy extra here is that I have two lists of respectively my highest
+level work and personal projects or areas of responsibility.</p><p>Sometimes when I get lost in the weeds, it helps to pull back to that level to
+get a summary of <em>everything</em>.</p><p>Also, it really helped me to distinguish between projects (something with a
+clear end and expected end date) vs areas of responsibility, something that
+could continue indefinitely.</p><p>This distinction was inspired by the <a href=https://fortelabs.com/blog/para/>PARA method</a>, which has also influenced how
+I organise a large subset of my filesystem.</p><p>On my better days, I manage to start work with a few minutes of active task and
+project review (see <a href=#day-planning>Day planning</a>), and then Org agenda is incredibly useful.</p><h4 id=core-notes-database>Core notes database</h4><p>With &ldquo;database&rdquo; I of course refer to just over a thousand org (and a few
+markdown, which form part of my org-roam database via <a href=https://vxlabs.com/2022/09/24/modify-md-roam-for-frontmatter-less-operation/>my md-roam changes</a>)
+files, most of which find themselves in the top-level <code>pkb4000/pages</code> directory
+(for logseq compatibility, story for a different time), adjacent to the
+<code>journals</code> directory containing all of the monthly journal files.</p><p>There are files on various <code>rsync</code> and <code>ffmpeg</code> invocations, files on programming
+languages, software tools, note-taking strategies, personal information on each
+of my kids, and much more.</p><p>Org mode enables me to combine document structure, math, vector and bitmap
+images and executable source code in many different languages.</p><p>I have configured my Emacs (where by &ldquo;configured&rdquo; I mean &ldquo;coded up the emacs
+lisp for&rdquo;) to invoke ripgrep on different subsets of my notes database, and to
+proffer up the results in different ways.</p><p>I can usually find anything that went in to this database at any point.</p><p>What I really like, is also being able to tell you on which day, and during
+which hour, I learned this or that, or experimented with something or the
+other.</p><p>On <a href=/2019/09/21/note-taking-strategy-2019/#isso-2654>February 26, 2020, a commenter on the 2019 post asked if I&rsquo;d taken a look at
+org-roam</a>, a question to which my answer at that point was that I had looked
+but not really gotten into it yet.</p><p>I just checked my notes (an <code>org-roam</code> buffer with backlinks, which sort of gives
+away the story), and it turns out that a week later on March 3 of 2020 I indeed
+got <code>org-roam</code> configured and running.</p><p>From that point on, it pretty much took over the <a href=/2019/09/21/note-taking-strategy-2019/#core-notes-database>core notes database</a> function
+of my PKM.</p><p>Fortunately <code>org-roam</code> relies as much as possible on standard Org-mode
+functionality while adding all of the instantaneous note searching, creation
+and linking that has succeeded in drastically upgrading my Org-mode
+implementation to a increasingly densely linked, tagged and far more useful
+exocortex.</p><p>Although I <em>can</em> use <a href=https://github.com/org-roam/org-roam-ui><code>org-roam-ui</code></a> to visualize graphically the linkage in my
+notes database, as shown below, I don&rsquo;t often do it. However, I <em>do</em> really often
+follow internal links around, so I do my best to create them when and where I
+can.</p><figure><a href=2022-02-26_22-16-07_screenshot.png><img sizes="(min-width: 35em) 1200px, 100vw" srcset='https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_40728afff6cb72c1.png 480w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_e5f7f59d0dd72b3f.png 800w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_731f5640e231f1ed.png 1200w,
+https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_7c90998ffb6d57fd.png 1500w,' src=https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_e5f7f59d0dd72b3f.png alt="Figure 4: A screenshot of org-roam-ui showing a part of my knowledge base in February of 2022."></a><figcaption><p><span class=figure-number>Figure 4: </span>A screenshot of org-roam-ui showing a part of my knowledge base in February of 2022.</p></figcaption></figure><p>I really appreciate and use the flexibility that org-roam offers in having
+notes either be complete files, or headings within larger files.</p><h4 id=project-files>Project files</h4><p>Work and personal projects, and areas of responsibility, each get their own Org
+file. Some projects even get a whole directory to themselves, in cases where
+the project will have many more files than just the main Org file.</p><p>Each project / area org file has its own <code>Tasks</code> and datetree sections, similar
+to the month journal.</p><h4 id=email-linking>Email linking</h4><p>An important part of knowledge and task management is one&rsquo;s emails.</p><p>Although I currently prefer processing my email using <a href=/2019/07/17/weekly-head-voices-173-i-know/#would-you-like-some-more-emacs-with-that-email><code>mu4e</code></a>, an email client
+which lives inside of Emacs, I have used other tools in the past, and will
+probably use new tools in the future.</p><p>Even at this moment I alternate between <code>mu4e</code> and the <a href=/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/>FastMail</a> web-interface.</p><p>Long story short, I have it setup so that I can easily convert any email in
+<code>mu4e</code> into a universal <code>message://message-id</code> link to be integrated with a new
+task or note entry.</p><p>When I later open that link using a shortcut, I have programmed it so that <code>mu4e</code>
+will open the relevant email if it is active, or the <code>FastMail</code> webmail when it
+is not. From here I can either review the email to see what the associated task
+requires, or respond to it, if the task has been completed.</p><p>Some of these <code>message://</code> links were created using macOS mail and they still
+work. In future, if I add a new mail client to the mix, I will still be able to
+jump to specific old emails, no matter where they find themselves inside of my
+FastMail mailboxes.</p><h3 id=mobile>Mobile</h3><p>My workflow on mobile can be summarised as:</p><ul><li>Rapidly find info that I need from my notes using the converted Obsidian
+Vault (see below).</li><li>Very occasionally I edit org files using <a href=https://plainorg.com/>PlainOrg</a>. Once this app gets the
+<a href=https://www.reddit.com/r/plainorg/comments/rfivtn/feature_request_search_directory/>often-requested directory search function</a>, I hope to use it more for
+retrieval as well.</li><li>Keep up to date with online material via paid-for <a href=https://www.inoreader.com/>InoReader</a> (RSS), <a href=https://emacs.ch/@cpbotha>Mastodon</a>,
+and reddit (tiny &ldquo;argh&rdquo; there).</li><li>Either save interesting articles as PDF into <code>03-Resources/refs/YEAR</code> via the OneDrive
+Files integration, or send the link into
+<code>pkb4000/journals/YEAR/inbox-mobile.org</code> via <a href=https://orgmode-exocortex.com/2020/04/30/voice-capture-org-mode-notes-and-more-using-siri-shortcuts-on-ios/>my Siri shortcut</a> automation,
+slightly modified to write to the local org file which will be synced via
+SyncThing.<ul><li>On mobile, I strongly recommend the <a href=https://www.printfriendly.com/extensions/safari>Print Friendly & PDF bookmarklet</a> to
+strip out all of the cruft, yielding PDFs that focus on the content.</li></ul></li><li>Scan and OCR any invoices and other physical documents to PDF using
+<a href=https://support.microsoft.com/en-us/office/microsoft-lens-for-ios-fbdca5f4-1b1b-4391-a931-dc1c2582397b>Microsoft Lens</a>. Previously I used the Dropbox scan app for this.</li><li>There are a small number of markdown files which I mostly need to edit on
+mobile. <a href=https://1writerapp.com/>1writer</a> is great for this, thanks to preview, directory search,
+favourited directories and files.</li><li>I keep a small subset of ephemeral notes (think loyalty cards, shopping
+lists) in Apple Notes because it&rsquo;s still the quickest to open up to the note
+that I need, almost in one action.</li></ul><h4 id=syncthing>SyncThing</h4><p>An important improvement here over my 2019 setup is the addition of the
+paid-for <a href=https://www.mobiussync.com/>Möbius Sync</a> iPhone app in order to keep full copies of my read/write
+org database and its read-only Obsidian Vault version (see below) on the phone.</p><p>Apps like <a href=https://plainorg.com/>PlainOrg</a> and <a href=https://1writerapp.com/>1writer</a> work really well, even rendering image
+attachments (which I use often), when you have a fully local copy of the files.</p><h4 id=obsidian-for-efficient-notes-access-on-mobile>Obsidian for efficient notes access on mobile</h4><p>Recently, inspired by Jethro Kuan&rsquo;s braindump scripts, I created <a href=https://github.com/cpbotha/braindump4000>braindump4000</a>,
+which I have hooked up to a cronjob to convert (incrementally of course) my
+whole org mode database into an Obsidian Vault.</p><p>This vault is synced to the correct location on my phone using the Möbius Sync
+SyncThing app so that I can use the Obsidian mobile app to access my whole
+database.</p><p>Due to much better UX, this has (fortunately) almost completely replaced the
+use of <a href=https://vxlabs.com/2021/09/29/convert-org-mode-files-to-docx-with-cmake-and-pandoc-for-mobile-accessibility/>my slightly strange system for converting my org database into docx
+files</a>, although said strange system is still useful to ensure that OneDrive&rsquo;s
+lacklustre search is able to find notes when I do a global search.</p><h2 id=noteworthy-changes-since-the-2019-version>Noteworthy changes since the 2019 version</h2><h3 id=replacing-dropbox-with-onedrive>Replacing Dropbox with OneDrive</h3><p>After more than a decade, I switched out Dropbox for OneDrive. You can <a href=/2023/01/01/the-2022-to-2023-transition-post/#byeeeeee-dropbox>read
+more about the switch in this post</a>, but in short:</p><ul><li>I <strong>really</strong> enjoyed using Dropbox Paper, but it meant I had a bunch of info
+stuck in the Dropbox cloud (not synced file on disk).</li><li>Dropbox were really dragging their feet migrating us loyal customers to the
+2020 Paper version, and they were being <em>frustratingly</em> opaque about it. This
+was a reminder to take and maintain control of one&rsquo;s own files.</li><li>For the record, Dropbox&rsquo;s syncing is substantially faster (lower latency)
+than OneDrive, and, although I have not yet had any issues with OneDrive,
+Dropbox has been extremely solid for me for over a decade, in spite of my
+over half a million files, <a href=/2022/11/11/weekly-head-voices-248-oh-snap/#yes-you-can-keep-your-checked-out-source-code-in-dropbox-or-onedrive>including many active git repos</a>.</li><li>However, I was already paying $80 / year for Microsoft 365 Family, which
+includes Office software licenses for the whole family (initially the main
+reason to get it) and 6 x 1 TB OneDrive accounts vs. a minimum of $120 / year
+for Dropbox for me only&mldr; Currently, the difference in practical functioning
+does not justify that extra money, plus that I felt I had to vote with my
+wallet re the frustrating Dropbox Paper situation.</li><li>On the bright side, being able to switch out the main cloud sync layer of my
+system ensures that it&rsquo;s just a sync layer, and not sync-layer plus services
+which subtly lock you in.</li></ul><h3 id=org-roam-for-interlinked-atomic-notes>org-roam for interlinked atomic notes</h3><p>I have already written about this, but org-roam more than deserves a place on
+this list for the drastic way in which it improved how I take and use notes.</p><h3 id=braindump4000-obsidian-to-access-notes-on-the-go>braindump4000: Obsidian to access notes on the go</h3><p>Over the years I have attempted to compensate for the lack of a worthy Emacs
+representative on the iPhone first by <a href=https://vxlabs.com/2018/10/29/importing-orgmode-notes-into-apple-notes/>importing my database to Apple Notes</a>
+(updates are very tricky), then through <a href=https://vxlabs.com/2021/09/29/convert-org-mode-files-to-docx-with-cmake-and-pandoc-for-mobile-accessibility/>a bulk docx conversion</a> (klunky and
+ugly, but updates work, and I <em>can</em> find stuff in a pinch) and now finally using
+<a href=https://github.com/cpbotha/braindump4000>braindump4000</a>, in obsidian mode, to convert to and update an Obsidian Vault
+which is synced to my phone via SyncThing.</p><p>Note that you can also use braindump4000 to generate a Hugo website with all of
+your notes, which was initially the main motivation to build it!</p><h2 id=closing-thoughts>Closing thoughts</h2><p>One of the aspects which has convincingly remained the same in my whole
+personal knowledge management setup is&mldr;</p><p>Emacs.</p><p>Over the years I have seen, and sometimes been thoroughly tempted, by all of
+the brilliant new tools that have gone by: Roam, Notion, Dendron, LogSeq,
+Obsidian and many more.</p><p>However, the power of a tool which can be so thoroughly shaped as Emacs should
+not be under-estimated.</p><p>The more I use it, the more I learn how to make it sing in new and interesting
+ways.</p><p>The other advantage of this constant in particular, is that the utility of a
+knowledge base can grow tremendously when you can consistently work on that
+same system, accruing knowledge whilst all the while evolving the system itself
+to remain useful in an ever-changing environment.</p></div><div class=article-toc><h3>Contents</h3><nav id=TableOfContents><ul><li><ul><li><a href=#high-level-overview>High level overview</a></li><li><a href=#some-of-the-components-in-more-detail>Some of the components in more detail</a><ul><li><a href=#emacs-with-org-mode-and-org-roam>Emacs with Org-mode and Org-roam</a><ul><li><a href=#monthly-journal-files>Monthly journal files</a></li><li><a href=#org-agenda>Org-agenda</a></li><li><a href=#core-notes-database>Core notes database</a></li><li><a href=#project-files>Project files</a></li><li><a href=#email-linking>Email linking</a></li></ul></li><li><a href=#mobile>Mobile</a><ul><li><a href=#syncthing>SyncThing</a></li><li><a href=#obsidian-for-efficient-notes-access-on-mobile>Obsidian for efficient notes access on mobile</a></li></ul></li></ul></li><li><a href=#noteworthy-changes-since-the-2019-version>Noteworthy changes since the 2019 version</a><ul><li><a href=#replacing-dropbox-with-onedrive>Replacing Dropbox with OneDrive</a></li><li><a href=#org-roam-for-interlinked-atomic-notes>org-roam for interlinked atomic notes</a></li><li><a href=#braindump4000-obsidian-to-access-notes-on-the-go>braindump4000: Obsidian to access notes on the go</a></li></ul></li><li><a href=#closing-thoughts>Closing thoughts</a></li></ul></li></ul></nav></div><footer class=article-footer><ul class=article-tag-list><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/emacs>emacs</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/note-taking>note-taking</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/orgmode>orgmode</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/personal-knowledge-management>personal knowledge management</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/pkb4000>pkb4000</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/pkm>pkm</a></li><li class=article-tag-list-item><a class=article-tag-list-link href=https://cpbotha.net//tags/my-selection>my selection</a></li></ul></footer></div><nav id=article-nav><a href=/2023/07/01/weekly-head-voices-252-prostate-cancer/ id=article-nav-newer class=article-nav-link-wrap><div class=article-nav-title><span>&lt;</span>&nbsp; Weekly Head Voices #252: My prostate cancer post</div></a><a href=/2023/01/08/weekly-head-voices-251-week-one-fun/ id=article-nav-older class=article-nav-link-wrap><div class=article-nav-title>Weekly Head Voices #251: Week one fun&nbsp;<span>></span></div></a></nav><div class=article-footer>Related posts:
+<a href=/2019/09/21/note-taking-strategy-2019/>🌤 Note-taking strategy 2019.</a>
+<a href=/2022/01/23/the-2021-to-2022-transition-post/>🌤 The 2021 to 2022 transition post</a>
+<a href=/2022/03/21/weekly-head-voices-240-i-am-just-a-copy-of-a-copy-of-a-copy/>🌤 Weekly Head Voices #240: I am just a copy of a copy of a copy</a></div></article><style>.isso-comment .avatar img{max-width:100%}.isso-comment>div.text-wrapper>div.text p{margin-top:1em}</style><script data-isso=/isso/cpbotha.net/ data-isso-reply-notifications=true data-isso-avatar=false data-isso-gravatar=true data-isso-max-comments-nested=inf data-isso-max-comments-top=inf data-isso-require-email=true data-isso-vote=false src=/isso/cpbotha.net/js/embed.min.js></script><section data-title="Note-taking strategy 2023" id=isso-thread></section></section><footer id=footer><div id=search-form-wrap><form class=search-form method=get action=https://duckduckgo.com/><input type=search name=q class=search-text placeholder title size=20 maxlength=128>
+<input type=hidden name=sites value=cpbotha.net>
+<input type=submit value="Search site with DDG" class=hidden></form></div><div class=outer><div id=footer-info class=inner>&copy; 2025 voices in my head<br>Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme
+<a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a></div></div><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/solarized-light.min.css integrity=sha384-bFKDPkG3geCujYJIbPornilfOgmYQoPS45Oh/8daqqo1SUwNY06OeHorpgnNvx82 crossorigin=anonymous><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script><script>hljs.initHighlightingOnLoad()</script><script>document.getElementById("main-nav-toggle").addEventListener("click",function(){var e=document.getElementById("header");e.classList.contains("mobile-on")?e.classList.remove("mobile-on"):e.classList.add("mobile-on")})</script></footer></div></body></html>

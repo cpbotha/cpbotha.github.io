@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machine learning on voices in my head</title><link>https://cpbotha.net/tags/machine-learning/</link><description>Recent content in machine learning on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 06 Dec 2022 22:29:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #250: Durable, blissful contentment</title><link>https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/</link><pubDate>Tue, 06 Dec 2022 22:29:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/</guid><description> This, the quarter-thousandth edition of the Weekly Head Voices, covers two weeks from Monday November 21 to Sunday December 4, 2022.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Machine Learning on voices in my head</title><link>https://cpbotha.net/tags/machine-learning/</link><description>Recent content in Machine Learning on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 10 Dec 2022 14:27:22 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #250: Durable, blissful contentment</title><link>https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0200</pubDate><guid>https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/</guid><description>This, the quarter-thousandth edition of the Weekly Head Voices, covers two weeks from Monday November 21 to Sunday December 4, 2022.
 Figure 1: The sunset colours in Betty&amp;rsquo;s were beautiful that day.
 I am happy that my ever-evolving life philosophy (as well as my approach to health and wellness) includes a growing section on the importance of hard and challenging work with great colleagues, because these past few weeks have really been delivering in that respect.</description><content:encoded><![CDATA[ <p>This, the quarter-thousandth edition of the Weekly Head Voices, covers two
 weeks from Monday November 21 to Sunday December 4, 2022.</p>
+
+
 
 
 
@@ -17,22 +19,26 @@ weeks from Monday November 21 to Sunday December 4, 2022.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu7b1dbb48e547631cc63340847f0e1193_1297113_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu_a09edddaf6a6df4a.jpg 480w,
             
-                   https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu7b1dbb48e547631cc63340847f0e1193_1297113_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu_39610f53f587196.jpg 800w,
             
-                   https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu7b1dbb48e547631cc63340847f0e1193_1297113_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu_e3e0971653768c4c.jpg 1200w,
             
-                   https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu7b1dbb48e547631cc63340847f0e1193_1297113_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu_fb66bbfa779dd4.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu7b1dbb48e547631cc63340847f0e1193_1297113_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/bettys-sunset-colours_hu_39610f53f587196.jpg"
             
 
         
-            alt="Figure 1: The sunset colours in Betty&amp;rsquo;s were beautiful that day."/> </a><figcaption>
+            alt="Figure 1: The sunset colours in Betty&rsquo;s were beautiful that day."/> </a><figcaption>
             <p><span class="figure-number">Figure 1: </span>The sunset colours in Betty&rsquo;s were beautiful that day.</p>
         </figcaption>
 </figure>
@@ -83,24 +89,24 @@ transcribe the 6.5 minutes into absolutely <em>flawless</em>, timestamped Englis
 and then to use that model to transcribe automatically any number of spoken
 languages, optionally also translating in the process.</p>
 <h3 id="environment-dot-yml-for-mamba">environment.yml for mamba</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># mamba env update</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># conda activate whisper</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># whisper --language English name_of_your.mp3</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2;font-weight:bold">name</span>: <span style="color:#2aa198">whisper</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2;font-weight:bold">channels</span>:
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">pytorch</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">nvidia</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2;font-weight:bold">dependencies</span>:
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">python=3.10</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">pip</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">pytorch</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">torchvision</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">torchaudio</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#2aa198">pytorch-cuda=11.7</span>
-</span></span><span style="display:flex;"><span>  - <span style="color:#268bd2;font-weight:bold">pip</span>:
-</span></span><span style="display:flex;"><span>    - <span style="color:#2aa198">git+https://github.com/openai/whisper.git</span>
-</span></span></code></pre></div><h2 id="happiness-is-a-joke">Happiness is a joke</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#57606a"># mamba env update</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a"># conda activate whisper</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a"># whisper --language English name_of_your.mp3</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#0550ae">name</span><span style="color:#1f2328">:</span><span style="color:#fff"> </span>whisper<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#0550ae">channels</span><span style="color:#1f2328">:</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- pytorch<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- nvidia<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#0550ae">dependencies</span><span style="color:#1f2328">:</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- python=3.10<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- pip<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- pytorch<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- torchvision<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- torchaudio<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- pytorch-cuda=11.7<span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">  </span>- <span style="color:#0550ae">pip</span><span style="color:#1f2328">:</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">    </span>- git+https://github.com/openai/whisper.git<span style="color:#fff">
+</span></span></span></code></pre></div><h2 id="happiness-is-a-joke">Happiness is a joke</h2>
 <p>The section that really hit home for me is the one in response to this
 statement by Morgan Housel, the interview guest:</p>
 <blockquote>
@@ -168,9 +174,9 @@ ends up writing these words.</p>
 <p>These distinctions are already quite blurry.</p>
 <p>With the technology and its context evolving so rapidly, there&rsquo;s no telling
 where this journey will take us.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #196: Get focused</title><link>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</link><pubDate>Sun, 31 May 2020 22:27:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</guid><description> Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here.
-Well hello there folks, please make yourself at home!
-This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the extremely strange year of 2020.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #196: Get focused</title><link>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</link><pubDate>Sun, 31 May 2020 22:27:00 +0200</pubDate><guid>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</guid><description> Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -185,22 +191,26 @@ This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the 
               
             srcset='
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_hu_a45ab388b85c4527.jpg 480w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_hu_9e67ca7a19e8a10b.jpg 800w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_hu_9bdc60a70b4a330a.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_hu_e95086249cbd6c5.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_hu_9e67ca7a19e8a10b.jpg"
             
 
         
-            alt="Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here."/> </a><figcaption>
+            alt="Figure 1: Our house clan, as drawn by GOU #2. I&rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&rsquo;s who. Readers might also notice that I&rsquo;m slightly outnumbered here."/> </a><figcaption>
             <p>Figure 1: Our house clan, as drawn by GOU #2. I&rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&rsquo;s who. Readers might also notice that I&rsquo;m slightly outnumbered here.</p>
         </figcaption>
 </figure>
@@ -261,6 +271,8 @@ this brand new super tiny but super effective app and website blocker:</p>
 
 
 
+
+
 <figure><a href="lazar_focused_screenshot.jpg">
     <img
         
@@ -268,18 +280,22 @@ this brand new super tiny but super effective app and website blocker:</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hu_3ea9d753f10fd2a4.jpg 480w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hu_71d14bfb18afecb6.jpg 800w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hu_cc5f57817664d11a.jpg 1200w,
             
-                   
+                
+                
             '
 
             
             
-            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hu_71d14bfb18afecb6.jpg"
             
 
         
@@ -331,6 +347,8 @@ funny faces:</p>
 
 
 
+
+
 <figure><a href="charl_portraitai.jpg">
     <img
         
@@ -338,25 +356,29 @@ funny faces:</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu_60b307dd03ff58c.jpg 480w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu_4ac89d1f2179bf4f.jpg 800w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu_298bd39ecfd5cd80.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu_b291b94c239595d1.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu_4ac89d1f2179bf4f.jpg"
             
 
         /> </a>
 </figure>
 
 <p>With that, dear friends, I bid you kindness, happiness and health.</p>
-]]></content:encoded></item><item><title>Can machine learning or algorithms be used in an electoral process?</title><link>https://cpbotha.net/2020/02/24/can-machine-learning-or-algorithms-be-used-in-an-electoral-process/</link><pubDate>Mon, 24 Feb 2020 14:04:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/02/24/can-machine-learning-or-algorithms-be-used-in-an-electoral-process/</guid><description> Guided by the &amp;ldquo;keystroke megaphone&amp;rdquo; principle, I decided to post this email reply I just sent.
+ ]]></content:encoded></item><item><title>Can machine learning or algorithms be used in an electoral process?</title><link>https://cpbotha.net/2020/02/24/can-machine-learning-or-algorithms-be-used-in-an-electoral-process/</link><pubDate>Mon, 24 Feb 2020 14:04:00 +0200</pubDate><guid>https://cpbotha.net/2020/02/24/can-machine-learning-or-algorithms-be-used-in-an-electoral-process/</guid><description>Guided by the &amp;ldquo;keystroke megaphone&amp;rdquo; principle, I decided to post this email reply I just sent.
 An anonymous reader emailed me the following question:
 Is it possible to use machine learning or algorithms in a campaign or in an electoral process?
 I wrote the following reply:
@@ -407,8 +429,10 @@ I mean for all ideas that align with <em>my</em> perfect worldview?</p>
 <p>P.S. <a href="https://cpbotha.net/2017/03/25/fake-news-is-just-the-beginning/">Fake news is just the beginning,
 2017.</a> is
 quite relevant.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #127: Readers are leaders.</title><link>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</link><pubDate>Sun, 14 Jan 2018 10:28:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</guid><description> Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.
-This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project. Had to make screencast to demonstrate milestone deliverable of above-mentioned main project.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #127: Readers are leaders.</title><link>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</link><pubDate>Sun, 14 Jan 2018 10:28:18 +0000</pubDate><guid>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</guid><description> Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.
+This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project. Had to make screencast to demonstrate milestone deliverable of above-mentioned main project. Making screencasts is an obscure but longstanding hobby of mine, but I needed to level up slightly, so the business bought me ScreenFlow 7.2. For the first time ever, I recorded the screencast in multiple segments and did the voice-over later. Soon these new skillz will trickle down to my publically available screencasts. On that topic, having a good microphone is crucial, not only for screen recordings but also for video meetings. I recently acquired the Samson Go Mic to complement my larger Samson C01U. The Go is brilliant: Recorded voice quality comes close to the C01U in spite of the Go’s compact form factor, and it has a hardware switch to select either of the the built-in omni-directional, for meetings, or cardioid, for more dedicated voice recording, microphone elements. Ironically, an ex-colleague posted “How to Fix Facebook—Before It Fixes Us” on Facebook, a long and worthwhile read on how FB is used to spread fake news that effectively manipulates public opinion, and what should be done to remedy this. Here is a choice quote to get you started: We still don’t know the exact degree of collusion between the Russians and the Trump campaign. But the debate over collusion, while important, risks missing what should be an obvious point: Facebook, Google, Twitter, and other platforms were manipulated by the Russians to shift outcomes in Brexit and the U.S. presidential election, and unless major changes are made, they will be manipulated again. Next time, there is no telling who the manipulators will be.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -449,9 +473,9 @@ This week I worked on automated email analysis and storage for side-project #384
 <p>Readers are leaders!</p>
 </blockquote>
 <p>Have a great week readers, I hope to see you again really soon!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description> The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #117: Dissimilar.</title><link>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</link><pubDate>Fri, 24 Feb 2017 20:14:15 +0000</pubDate><guid>https://cpbotha.net/2017/02/24/weekly-head-voices-117-dissimilar/</guid><description>The week of Monday February 13 to Sunday February 19, 2017 might have appeared to be really pretty boring to any inter-dimensional and also more mundane onlookers.
 (I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. As far as I know, nobody watched.)
-I just went through my orgmode journals.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
+I just went through my orgmode journals. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</description><content:encoded><![CDATA[ <p>The week of Monday February 13 to Sunday February 19, 2017 might have <em>appeared</em> to be really pretty boring to any inter-dimensional and also more mundane onlookers.</p>
 <p>(I mention both groups, because I’m almost sure I would have detected the second group watching, whereas the first group, being interdimensional, would probably have been able to escape detection. <em>As far as I know</em>, nobody watched.)</p>
 <p>I just went through <a href="/2016/01/05/note-taking-strategy-early-2016/">my orgmode journals</a>. They are filled with a mix of notes on the following mostly very nerdy and quite boring topics.</p>
 <p><em><strong>Warning:</strong> If you’re not an emacs, python or machine learning nerd, there is a high probability that you might not enjoy this post. Please feel free to skip to the pretty mountain at the end!</em></p>
@@ -461,6 +485,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 <p>However, it’s a sort of rite of passage constructing one’s own Emacs configuration from scratch, and my time had come.</p>
 <p>In parallel with Day Job, I extricated Prelude from my configuration, and filled up the gaps it left with my own constructs. There is something quite addictive using emacs-lisp to weave together whatever you need in your computing environment.</p>
 <p>To celebrate, I decided that it was also <strong>time to move my todo system away from <a href="http://todoist.com/">todoist</a></strong> (a really great ecosystem) and into Emacs orgmode.
+
+
 
 
 
@@ -487,6 +513,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
  
  
  
+ 
+ 
  <figure><a href="/wp-content/uploads/2017/02/wpid-example-agenda.png">
      <img
          
@@ -505,6 +533,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 <h1 id="jupyter-notebook-usage">Jupyter Notebook usage</h1>
 <p>Due to an interesting machine learning project at work, I had a great excuse to spend some quality time with the <a href="http://jupyter.org/">Jupyter Notebook</a> (formerly known as IPython Notebook) and the scipy family of packages.</p>
 <p>Because Far Too Much Muscle-Memory, I tried interfacing to my notebook server using <a href="https://github.com/millejoh/emacs-ipython-notebook">Emacs IPython Notebook (EIN)</a>, which looked like this:</p>
+
+
 
 
 
@@ -548,6 +578,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/02/IMG_20170219_1434219-panorama.jpg">
     <img
         
@@ -563,7 +595,7 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 <p>I was really only planning to go up and down in brisk hike mode due to a whiny knee, but I could not help turning parts of the up and the largest part of the down into an exhilarating lope.</p>
 <p>When I grow up, I’m going to be a trail runner.</p>
 <p>Have fun (nerdy) kids, I hope to see you soon!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #109: GABA</title><link>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</link><pubDate>Tue, 19 Jul 2016 11:17:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</guid><description> From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT! After a multi-year, completely coincidental, break from medical imaging, I am back to The Real Business since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer.</description><content:encoded><![CDATA[ <ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #109: GABA</title><link>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</link><pubDate>Tue, 19 Jul 2016 11:17:09 +0000</pubDate><guid>https://cpbotha.net/2016/07/19/weekly-head-voices-109-gaba/</guid><description> From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT! After a multi-year, completely coincidental, break from medical imaging, I am back to The Real Business since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer. I think I am allowed to mention digital pathology and machine learning and beer. Last week we road-tripped up the East Coast to St Francis Bay, via Oudtshoorn and the Cango Caves. Pro tip: When road tripping with more than 0 (zero) children (babies count double; sick babies +5 hit points), and you have to stay overnight somewhere, invest extra in the biggest suite you (or your children’s college fund) can afford. On the beach in St Francis Bay (right in the middle of winter, you still seem to get these lovely balmy beach days), it seemed that everybody was surfing. Whole families, with the mom, the dad, all the kids, and grandma and grandpa, were all on various sizes of surfboards in the sea catching some waves. Here’s a photo from the furthest point on what I call “Not The Ugliest Jogging Route in The World” (in St Francis Bay): Last night I accidentally discovered that I can pinpoint the exact weekend and location when and where I first tasted my favourite trappist beer (EVER), namely Rochefort #8. It’s all written up in this 2003 post. When Google send me an email this weekend asking me exactly how I would like them to use my email (yes, a few months ago I migrated my mail empire back to Google because my self-hosting experiment had started to cost me time and money) to show me custom advertisements, I was reminded that I do actually find the machine learning models they’re building about me quite creepy, and that perhaps I would prefer not also handing them 12 years of emails to make their models more accurate. There and then I migrated said 12 years of emails from GMail to FastMail. So far I’m really impressed by the product, mostly due to the speed and the user experience of the web-app. There might be a more detailed post in the near future, let me know if you’re interested. Most surprising and interesting (to me) new scientific discovery of the week: A team of scientists at Northeastern University in Boston have shown that one of the many kinds of bacteria living in your stomach eats exclusively GABA, a really important brain chemical (neurotransmitter) that plays a role in keeping you calm. Based on this and other work, it looks like the bacteria in your tummy, also known as your gastrointestinal microbiota, besides being crucially important to your digestive system and your general survival, probably also play quite an important role in your psyche. I find this slightly mind-blowing. Have a great week kids, I hope to see you on the other side.</description><content:encoded><![CDATA[ <ul>
 <li>From now on, I would like to limit WHVs to bullets (really) or to named sections, to ease reading. DOWN WITH WALLS OF TEXT!</li>
 <li>After a multi-year, completely coincidental, break from <strong>medical imaging</strong>, I am back to <em>The Real Business</em> since the start of July. I am super excited about the plans we’re cooking up and executing. I can obviously not say too much, unless beer is involved, or you hang around here for muuuuuch longer. I think I am allowed to mention <strong>digital pathology</strong> and <strong>machine learning</strong> and beer.</li>
 <li>Last week we <strong>road-tripped up the East Coast to <a href="https://en.wikipedia.org/wiki/St_Francis_Bay">St Francis Bay</a></strong>, via Oudtshoorn and the <a href="https://en.wikipedia.org/wiki/Cango_Caves">Cango Caves</a>.
@@ -574,6 +606,8 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 </ul>
 </li>
 </ul>
+
+
 
 
 
@@ -597,4 +631,4 @@ I just went through my orgmode journals.</description><content:encoded><![CDATA[
 </ul>
 <p>Have a great week kids, I hope to see you on the other side.</p>
 <p>P.S. Those bullets made for quite an impressive wall of text, didn’t they?</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

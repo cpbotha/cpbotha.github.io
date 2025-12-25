@@ -1,5 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>planning on voices in my head</title><link>https://cpbotha.net/tags/planning/</link><description>Recent content in planning on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 07 Jan 2018 13:39:32 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/planning/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #126: Fleur-de-lis.</title><link>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</link><pubDate>Sun, 07 Jan 2018 13:39:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</guid><description> Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme.
-Happy new year everyone, and welcome to the first Weekly (truly?! will this be the year?) Head Voices of 2018! I ended 2017 with a longish (by my standards) run in the morning, followed by a laid-back mini-party and finally by struggling really hard to stay awake until midnight. In contrast, returning to the office on January 2 was a pretty good way to ease gradually into work in 2018.</description><content:encoded><![CDATA[ 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Planning on voices in my head</title><link>https://cpbotha.net/tags/planning/</link><description>Recent content in Planning on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 21 Jan 2024 20:30:31 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/planning/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 3 of 2024</title><link>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</link><pubDate>Sun, 21 Jan 2024 20:21:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</guid><description>Monday 2024-01-15 Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT. Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&amp;rsquo;m doing this in addition to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help. Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 and GOU#2 there, on two very opposite ends of the spectrum. Tuesday 2024-01-16 MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/ Copilot Pro not yet available in South Africa 😥 $20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&amp;rsquo;m not convinced, will stick to my perplexity.ai for now. Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch. In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use webcola again, but this time with d3@latest &amp;ndash; sorta works, but no dragging. Have found work-around, still need to test. Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.) Wednesday 2024-01-17 Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7! Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &amp;ldquo;Hi&amp;hellip;&amp;rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha. Got caught up in GEKKO Optimization Suite due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe. TIL: John Lasseter drew the BSD daemon! See https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html &amp;ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the Creativity Inc. book (the one about Pixar!) notes post on this blog Thursday 2024-01-18 AlphaGeometry from Google DeepMind is great work combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose) News on our in-house GPT-wrapper front: Discovered that I now have to upgrade to the new tool_call api as the old functions one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations Note to self, and to you: The *Params types are TypedDict declarations which you can use to work directly with JSON requests and responses, while the non-*Params types are pydantic models which you can use to (de)serialize JSON. Went to see a really good Mohs surgery dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email. This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. https://t.co/DtREuQK5k7</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-15">Monday 2024-01-15</h2>
+<ul>
+<li>Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT.</li>
+<li>Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&rsquo;m doing this <em>in addition</em> to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help.</li>
+<li>Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 <em>and</em> GOU#2 there, on two very opposite ends of the spectrum.</li>
+</ul>
+<h2 id="tuesday-2024-01-16">Tuesday 2024-01-16</h2>
+<ul>
+<li>MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): <a href="https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/">https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/</a>
+<ul>
+<li>Copilot Pro not yet available in South Africa 😥
+<ul>
+<li>$20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&rsquo;m not convinced, will stick to my <a href="https://www.perplexity.ai/">perplexity.ai</a> for now.</li>
+</ul>
+</li>
+<li>Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch.</li>
+</ul>
+</li>
+<li>In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use <a href="https://ialab.it.monash.edu/webcola/">webcola</a> again, but this time with d3@latest &ndash; sorta works, but no dragging. Have found work-around, still need to test.</li>
+<li>Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.)</li>
+</ul>
+<h2 id="wednesday-2024-01-17">Wednesday 2024-01-17</h2>
+<ul>
+<li>Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7!</li>
+<li>Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &ldquo;Hi&hellip;&rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha.</li>
+<li>Got caught up in <a href="#d41d8c">GEKKO Optimization Suite</a> due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe.</li>
+<li>TIL: John Lasseter drew the BSD daemon! See <a href="https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html">https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html</a> &ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the <a href="/2020/12/22/book-notes-creativity-inc/#the-story-is-more-important-than-the-technology">Creativity Inc.</a> book (the one about Pixar!) notes post on this blog</li>
+</ul>
+<h2 id="thursday-2024-01-18">Thursday 2024-01-18</h2>
+<ul>
+<li><strong>AlphaGeometry from Google DeepMind is great work</strong> combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose)</li>
+<li>News on our in-house GPT-wrapper front:
+<ul>
+<li>Discovered that I now have to upgrade to the new <code>tool_call</code> api as the old <code>functions</code> one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations</li>
+<li>Note to self, and to you: The <code>*Params</code> types are <code>TypedDict</code> declarations which you can use to work directly with JSON requests and responses, while the non-<code>*Params</code> types are pydantic models which you can use to (de)serialize JSON.</li>
+</ul>
+</li>
+<li>Went to see a really good <a href="https://www.mayoclinic.org/tests-procedures/mohs-surgery/about/pac-20385222">Mohs surgery</a> dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email.</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. <a href="https://t.co/DtREuQK5k7">https://t.co/DtREuQK5k7</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1747857845356298739?ref_src=twsrc%5Etfw">January 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="friday-2024-01-19">Friday 2024-01-19</h2>
+<ul>
+<li>Spent most of my working hours wrappng up and deploying the brand new version of our internal GPT. I read somewhere that you should <em>always</em> deploy on a Friday, as late as possible.</li>
+<li>I was stressing quite a bit, as I had a great task before me:</li>
+<li>Braaiing 200 boeries in the 39 degrees Celsius heat at the school in Stellenbosch, in order to feed the new grade 8 learners on the evening of their initiation.
+<ul>
+<li>All thanks to the fellow dad who joined me, the stress transformed completely into an enjoyable few hours taking care of this important duty, and I made a new friend!</li>
+</ul>
+</li>
+<li>The kids, including our very own GOU#2, were facing the challenging night before them&hellip;</li>
+</ul>
+<h2 id="saturday-2024-01-20">Saturday 2024-01-20</h2>
+<ul>
+<li>woke up at 5:40 because was planning to fetch GOU#1 and GOU#2 after their eventful and successful night, but thankfully partner was willing to go!</li>
+<li>me very tired the whole day, just hanging (literally) around with family, and spending too much time on twitter / threads / reddit / inoreader! (brain was not willing to do much else, at least learned new things, some of which are mentioned below)</li>
+<li>Based on <a href="https://news.ycombinator.com/item?id=39055139">this HN discussion</a> about <a href="https://delta.io/blog/delta-lake-vs-parquet-comparison/">this blog post comparing Delta Lake and Parquet</a>, learned that Delta Parquet aka Delta Tables (which I&rsquo;ve read about in the context of Azure) is just a bunch of parquet files with some json metadata!
+<ul>
+<li>I&rsquo;ve been enjoying <a href="https://parquet.apache.org/">parquet</a> for years now, in the context of scipy and specifically pandas.</li>
+<li>Indeed, OneLake, also part of Microsoft Fabric, has Delta Parquet at its core.</li>
+<li>Apache Iceberg is a similar but more open source implemenation: <a href="https://iceberg.apache.org/">https://iceberg.apache.org/</a></li>
+<li>Based on <a href="https://www.dremio.com/blog/exploring-the-architecture-of-apache-iceberg-delta-lake-and-apache-hudi/">this comparison between Iceberg, Delta Lake and Hudi</a> it looks like all of these data lake storage layers are just parquet files with metadata, and then some logic, to give database like semantics over distributed object stores. Neat!</li>
+</ul>
+</li>
+<li>In bed last night, falling asleep, I had the following idea:
+<ul>
+<li><em>My Current Life Canvas</em> is a 3D bubble (off to my right for some reason&hellip; and moving with me as I walk) the interior of which I can view using my phone via AR (have to move phone in space to view inside of bubble, with current topics arranged in familiar spots; I thought having a world map would help, because well-known and memorable locations for your topics / priorities / ideas) or any of these amazing new VR headsets, BUT you can also interact with it via computer because inside of bubble can just be projected to surface using any of the well-known <a href="https://en.wikipedia.org/wiki/Map_projection">map projection techniques</a>.</li>
+<li>CLC does not have a regular cadence like the daily or weekly plan, but is revised or redone a few times per year. It focuses on your major life priorities at any one point in time.</li>
+<li>Although this was just a dreamy idea, I do like that it offers multi-modal interaction on the spectrum from AR/VR to more conventional desktop paradigms</li>
+<li>&hellip; of course there should be some kind of friendly AI floating in the bubble with you :P (Microsoft Bob?)</li>
+</ul>
+</li>
+</ul>
+<h2 id="sunday-2024-01-21">Sunday 2024-01-21</h2>
+<ul>
+<li>Super enjoyable weekend long(ish) run.</li>
+<li>Tried out Omnivore&rsquo;s PDF annotation support, see screenshot below. Pretty impressive, and very cool that the highlights sync into my Emacs-based notes setup via markdown. Have slightly mixed feelings, because now will have to come up with new rule for when a paper goes into Zotero (fully local, full citations, but no automatic highlights sync) and when it goes into Omnivore (good sort of cloud but not local, no full citations, automatic sync into my notes)</li>
+<li>Extended family Sunday lunch at our place was great, but me not at normal energy levels yet.</li>
+<li>One of my goals for this week was &ldquo;Get through the week, especially Friday braai&rdquo;. Mission successful!</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="20240121-screenshot-omnivore-pdf-emacs.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_8552fa2e79f0c31.png 480w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png 800w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_70c21750f4c22771.png 1200w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_3fd7290a1dd605.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png"
+            
+
+        /> </a>
+</figure>
+
+ ]]></content:encoded></item><item><title>Weekly Head Voices #126: Fleur-de-lis.</title><link>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</link><pubDate>Sun, 07 Jan 2018 13:39:32 +0000</pubDate><guid>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</guid><description> Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme.
+Happy new year everyone, and welcome to the first Weekly (truly?! will this be the year?) Head Voices of 2018! I ended 2017 with a longish (by my standards) run in the morning, followed by a laid-back mini-party and finally by struggling really hard to stay awake until midnight. In contrast, returning to the office on January 2 was a pretty good way to ease gradually into work in 2018. Many colleagues were still on vacation, so the week felt a bit like work with training wheels. Pro-tip #1 for the new year: In the last few weeks of 2017 I started (again…) explicitly making quiet time at the start of the day to think about what I want to take care of. These take the form of a small number of Org mode “- [ ] Do this thing” checklist items that are usually related to but separate from my main tasks. I find it amazing to which extent these few minutes are able to shape my day. (In my org mode monthly journal, I also usually start by listing out manually the tasks I want to complete during that month, as well as the ideas / thoughts / principles I want to keep in my sights.) Pro-tip #2 for the new year: After years of resisting these types of software tools due to my belief that I should simply apply more grit and will power to squeeze out more focus hours, I finally broke down and purchased the macOS app called Focus. You click its pretty icon, and then your computer goes into focus mode: The Mail application and a bunch of other non-focus-related apps all get killed, and a bunch of websites (reddit, youtube, work chat, etc) are blocked for a user-configurable block of time. I rationalised this purchase with the following reasoning: It usually takes a single moment of weakness for a distraction to terminate a valuable block of focus. It takes a single moment of strength for this tool to start a valuable block of focus. Although I’m having fun, I really don’t think I’m supposed to use bullets like this. Thank you very much for spending time here with me. I wish you a week of value and focus, followed by a visit to the next WHV! The Huguenot Monument in Franschhoek, where we found ourselves an hour or two ago. Immediacy FTW.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -34,6 +153,8 @@ Happy new year everyone, and welcome to the first Weekly (truly?! will this be 
   
   
   
+  
+  
   <figure><a href="/wp-content/uploads/2018/01/huguenot_monument_franschhoek.jpg">
       <img
           
@@ -47,10 +168,12 @@ Happy new year everyone, and welcome to the first Weekly (truly?! will this be 
 </li>
 </ul>
 <p>P.S. This post was finished during a 30 minute FocusApp block. Background music: <a href="https://www.residentadvisor.net/reviews/5988">Balance 014</a> by Joris Voorn, one of my favourite music creations ever.</p>
-]]></content:encoded></item><item><title>On the importance of taking notes. [Weekly Head Voices #38]</title><link>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</link><pubDate>Sat, 19 Feb 2011 22:39:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</guid><description> Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!
-One On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel.</description><content:encoded><![CDATA[ <p><em>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!</em></p>
+ ]]></content:encoded></item><item><title>On the importance of taking notes. [Weekly Head Voices #38]</title><link>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</link><pubDate>Sat, 19 Feb 2011 22:39:52 +0000</pubDate><guid>https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/</guid><description>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!
+One On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out. Evil School. (Photo by the talented fpixel.wordpress.com.)</description><content:encoded><![CDATA[ <p><em>Post summary: Part one is about friends graduating from Evil School, part two is rather short mentioning vague bits of good news and part three is 100% time management and productivity boosting goodness! Feel free to skip, skim or reorder!</em></p>
 <h2 id="one">One</h2>
 <p>On Thursday, February 10, 2011, my dear friend Mister Krekel graduated from Evil School after years of hard work and evil-doing, and will henceforth go through life as the formidable Doctor Krekel. Please do watch out.
+
+
 
 
 
@@ -91,4 +214,4 @@ terribly busy in all the right directions.</p>
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/In-m2RJw3hE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,10 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>microsoft on voices in my head</title><link>https://cpbotha.net/tags/microsoft/</link><description>Recent content in microsoft on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 15 Apr 2021 09:11:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/microsoft/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #220: An uncomfortable brainstorm</title><link>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</link><pubDate>Thu, 15 Apr 2021 09:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</guid><description> Welcome to Weekly Head Voices number Two Twenny!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Microsoft on voices in my head</title><link>https://cpbotha.net/tags/microsoft/</link><description>Recent content in Microsoft on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Feb 2024 13:10:12 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/microsoft/index.xml" rel="self" type="application/rss+xml"/><item><title>On the two world problem and personal knowledge management</title><link>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</link><pubDate>Sun, 11 Feb 2024 12:52:00 +0200</pubDate><guid>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</guid><description> Figure 1: Photo by Igor Omilaev on Unsplash
+In this recent Mojo community blog post, I came across the term &amp;ldquo;two-world problem&amp;rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.
+As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<figure><a href="igor-omilaev-p059oXBEWe4-unsplash.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_4816191a2dae1d67.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_aa120e91e6d1f8dd.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_fc88fb9c84cc0c4d.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg"
+            
+
+        
+            alt="Figure 1: Photo by Igor Omilaev on Unsplash"/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Photo by <a href="https://unsplash.com/@omilaev">Igor Omilaev</a> on <a href="https://unsplash.com/photos/a-pair-of-virtual-glasses-on-a-pink-and-yellow-background-p059oXBEWe4">Unsplash</a></p>
+        </figcaption>
+</figure>
+
+<p>In this recent <a href="https://www.modular.com/blog/outperforming-rust-benchmarks-with-mojo">Mojo community blog post</a>, I came across the term &ldquo;two-world problem&rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.</p>
+<p>As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</p>
+<p>I could not find any canonical sources for its use in this context. The closest was a blog post or two talking about the digital vs the physical world.</p>
+<p>However, I think this is also what I&rsquo;m going to use to describe the continuous tension I experience between the Apple and non-Apple personal data ecosystems in my life. For various good reasons, I use some Apple tools like Apple Notes, which have limited or no interoperability with the rest of my slightly more open data environment. See <a href="/2023/04/11/note-taking-strategy-2023/">my 2023 note-taking mega-post</a> if you&rsquo;re interested in the details.</p>
+<p>In addition to the Apple boundary, there are additional boundaries between for example the Google cloud (which my family uses) and the plain files on my filesystems.</p>
+<p>For how long will there still be room for &ldquo;files on someone&rsquo;s disc&rdquo;, currently my preference?</p>
+<p>In an ideal world, my data environment is fully unified. Everything I ingest or process lives in the same happy data universe and can be re-used and re-combined by me and my AIs. Interop with other folks must also be transparent and with low friction.</p>
+<p>This vision is quite far from my current reality.</p>
+<p>I think this problem is going to become a lot more prominent with new computing modalities like the Apple Vision Pro. Folks using the AVP will have their whole data universe inside the Apple garden in order to have access to their stuff in the AVP virtualities.</p>
+<p>What is the Meta (Quest) tribe going to do? Where is their data going to live?</p>
+<p>Furthermore, how are our personal AI assistants going to get unified access to our personal data in order to become more useful?</p>
+<p>At this point, it looks like it&rsquo;s going to become an extremely interesting and quite treacherous question of pick-your-cloud. The coice of personal cloud, AI and XR systems becomes inextricably intertwined, with lock-in almost guaranteed. The already existing problem of silos will probably become only more challenging.</p>
+<p>It feels like some (many?) folks are already there; they are happy to have selected one and one only of Apple, or Google, or Microsoft for everything that they do. Staying exclusive to that single ecosystem has many benefits, but one clearly also risks creating a reality where no other choice will be possible.</p>
+<p>What does your data landscape look like at this moment? Where do you think we&rsquo;re going to end up?</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #220: An uncomfortable brainstorm</title><link>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</link><pubDate>Thu, 15 Apr 2021 09:11:00 +0200</pubDate><guid>https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/</guid><description>Welcome to Weekly Head Voices number Two Twenny!
 This edition covers the week from Monday April 5 to Sunday April 11, of which thankfully only 57.1% of the days (vs the usual 71.4%) were officially dedicated to work!
-Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful.
-The work week was indeed shorter (thanks week!) but perhaps just a bit too high intensity.</description><content:encoded><![CDATA[ <p>Welcome to Weekly Head Voices number Two Twenny!</p>
+Figure 1: A scene from Sunday lunch at Mont Marie in Stellenbosch. Previous visit in WHV #182. Still beautiful.</description><content:encoded><![CDATA[ <p>Welcome to Weekly Head Voices number Two Twenny!</p>
 <p>This edition covers the week from Monday April 5 to Sunday April 11, of which
 thankfully only 57.1% of the days (vs the usual 71.4%) were officially
 dedicated to work!</p>
+
+
 
 
 
@@ -20,18 +78,22 @@ dedicated to work!</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu_8587e4ce175300e2.jpg 480w,
             
-                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu_451e392b061a11c9.jpg 800w,
             
-                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu_76670335e0d97d1f.jpg 1200w,
             
-                   https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu_32fa613b2ccb6fbe.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu83d6800be4c6ad8cdcfd39124b709c99_2594425_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/04/15/weekly-head-voices-220-uncomfortable-brainstorm/mont-marie-pano-20210411_hu_451e392b061a11c9.jpg"
             
 
         
@@ -187,8 +249,10 @@ taking the advice in that particular moment turned a cliché into a mantra.</p>
 <p>Folks, I can&rsquo;t think of a better way to wrap up this post, than just planting
 the hopefully well-timed advice above in your head.</p>
 <p>Here it is again, for easier eye-ball insertion: <strong><strong>There&rsquo;s no time like the present.</strong></strong></p>
-]]></content:encoded></item><item><title>Weekly Head Voices #201: Sunny anniversary</title><link>https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/</link><pubDate>Wed, 29 Jul 2020 10:12:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/</guid><description> I could feel this one almost slipping through to the two week group, but then I thought to myself: It feels like I have nothing to write about, but future me will probably still want to know what sort of nothing exactly happened in that week.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #201: Sunny anniversary</title><link>https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/</link><pubDate>Wed, 29 Jul 2020 10:12:00 +0200</pubDate><guid>https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/</guid><description> I could feel this one almost slipping through to the two week group, but then I thought to myself: It feels like I have nothing to write about, but future me will probably still want to know what sort of nothing exactly happened in that week.
 The 201st edition of the Weekly Head Voices looks back at the week from Moday July 20 to Sunday July 26, 2020, which since last week I&amp;rsquo;m calling Cray-cray 20.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -203,18 +267,22 @@ The 201st edition of the Weekly Head Voices looks back at the week from Moday Ju
               
             srcset='
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_hu_75b28e3b2c9b8d10.jpg 480w,
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_hu_10a5e6d8bf136c76.jpg 800w,
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_hu_400947b51e22fa14.jpg 1200w,
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_hu_6cd20a51d667eb1c.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_huf95566e1297f83153e178c9a2f08e1bb_1060884_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/la_mountain_pano_hu_10a5e6d8bf136c76.jpg"
             
 
         /> </a>
@@ -241,6 +309,8 @@ inverter) which <a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-b
 
 
 
+
+
 <figure><a href="goodwe_sems_sample_20200728.png">
     <img
         
@@ -248,13 +318,17 @@ inverter) which <a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-b
               
             srcset='
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_sems_sample_20200728_hu35d0223f8e68ff6d32894f184e2e6abf_38291_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_sems_sample_20200728_hu_18e728b7e5d75a00.png 480w,
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
@@ -263,7 +337,7 @@ inverter) which <a href="/2019/07/25/weekly-head-voices-174-i-row-row-row-your-b
             
 
         
-            alt="Figure 1: Solar production today (2020-07-18, a sunny winter&amp;rsquo;s day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate." width="300"/> </a><figcaption>
+            alt="Figure 1: Solar production today (2020-07-18, a sunny winter&rsquo;s day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate." width="300"/> </a><figcaption>
             <p><span class="figure-number">Figure 1: </span>Solar production today (2020-07-18, a sunny winter&rsquo;s day) was 24.4kWh and total production since commissioning just under 8MWh. Cost saving is an estimate.</p>
         </figcaption>
 </figure>
@@ -289,6 +363,8 @@ like this:</p>
 
 
 
+
+
 <figure><a href="goodwe_monthly_generation_202007.png">
     <img
         
@@ -296,18 +372,22 @@ like this:</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_hu_85d77e677685e806.png 480w,
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_hu_bb82dad0ace4fa81.png 800w,
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_hu_536bfe7e3ea1ea45.png 1200w,
             
-                   https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_hu_a4b37269603c2728.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_huc6f7a551d8f2e84dcd203e589430f9b5_118019_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2020/07/29/weekly-head-voices-201-sunny-anniversary/goodwe_monthly_generation_202007_hu_bb82dad0ace4fa81.png"
             
 
         /> </a>
@@ -382,10 +462,10 @@ make that call.</p>
 <p>And then&hellip;</p>
 <p><em>You&rsquo;ve got to ask yourself one question: &ldquo;Do I feel lucky?&rdquo;</em></p>
 <p><em>Well, do you, punk?</em></p>
-]]></content:encoded></item><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
-The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.
-This post has a strong nerd flavour. If that is not your inclination, please use the table of contents (to your right) to navigate to the bits that you do find interesting.
-If you&amp;rsquo;re in a rush, and can only select one section, I would recommend the one on Niklas Luhmann.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #193: COVID-19 part 3.</title><link>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</link><pubDate>Sun, 03 May 2020 15:33:00 +0200</pubDate><guid>https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/</guid><description> Another Stilbaai beach scene, this time in panaroma format, taken a day before the SA lockdown.
+The Weekly Head Voices #193 looks back at the three weeks from Monday April 12 to Sunday May 2.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -400,18 +480,22 @@ If you&amp;rsquo;re in a rush, and can only select one section, I would recommen
               
             srcset='
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu_7d89392b07c58b4d.jpg 480w,
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu_753d6f0ee79aeca5.jpg 800w,
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu_3d00f1f7a662d933.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu_b5ad8d4373cf7a35.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu73502fd35e27f9d31902eaf7617a9c24_1947631_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/stilbaai-preekstoel-panorama_hu_753d6f0ee79aeca5.jpg"
             
 
         
@@ -474,6 +558,8 @@ masks:</p>
 
 
 
+
+
 <figure><a href="cpbotha_running_with_buff_mask.jpg">
     <img
         
@@ -481,13 +567,17 @@ masks:</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/cpbotha_running_with_buff_mask_hu815c169f7dc006fef835eddef66e09fe_118854_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/cpbotha_running_with_buff_mask_hu_5873ed277714d934.jpg 480w,
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
@@ -679,6 +769,8 @@ single idea written on it.</p>
 
 
 
+
+
 <figure><a href="https://niklas-luhmann-archiv.de/">
     <img
         
@@ -686,22 +778,26 @@ single idea written on it.</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu_25876075ce4fd140.jpg 480w,
             
-                   https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu_516f4a1013e82a40.jpg 800w,
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
             
-            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu61195ac08eb6003207b1b95bfe6dfa0b_91461_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/03/weekly-head-voices-193-covid-19-part-3/zettelkasten_hu_516f4a1013e82a40.jpg"
             
 
         
-            alt="Photo of Luhmann&amp;rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv."/> </a><figcaption>
+            alt="Photo of Luhmann&rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv."/> </a><figcaption>
             <p>Photo of Luhmann&rsquo;s Zettelkasten. Click to go to the fully online Niklas Luhmann-Archiv.</p>
         </figcaption>
 </figure>
@@ -743,11 +839,13 @@ his Zettelkasten.</p>
 <h2 id="uitzwaaien">Uitzwaaien</h2>
 <p>Thank you friends for reading this and connecting with me here!</p>
 <p>I look forward to our next meeting.</p>
-]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+ ]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description>Last week Apple announced their new Macbook Pro laptops.
 Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
-Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man! Phil Schiller not suiting up.</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
 <p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
 <p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
 
 
 
@@ -795,10 +893,12 @@ Was Apple, in the form of the Phil Schiller really trying to sell this?</descrip
 <p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
 <p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
 <p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
-]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
+ ]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
 Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
-This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
+This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
 <p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
+
+
 
 
 
@@ -838,9 +938,9 @@ This seemed like an opportune moment to get something off my chest. I’m trying
 <h2 id="conclusion">Conclusion</h2>
 <p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
 <p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
-]]></content:encoded></item><item><title>The Microsoft and I</title><link>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</link><pubDate>Tue, 13 May 2003 14:22:34 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</guid><description> I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. This section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with some standard. :)</description><content:encoded><![CDATA[ <p>I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">This</a> section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with <em>some</em> standard. :)</p>
-]]></content:encoded></item><item><title>Where should that dang button go?</title><link>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</link><pubDate>Sun, 04 May 2003 14:59:54 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</guid><description> So, here we have the Aqua Human Interface Guidelines (i.e. the MacOS-X user interface guidelines), the GNOME Human Interface Guidelines, the KDE User Interface Guidelines and of course the Microsoft Windows Official Guidelines for User Interface Developers and Designers (I came back in January of 2018 to fix this link — also interesting is the section on margins and spacing).
-Apple says that “The default button for dismissing a dialog should go in the lower-right corner.</description><content:encoded><![CDATA[ <p>So, here we have the <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/index.html">Aqua Human Interface Guidelines</a> (i.e. the MacOS-X user interface guidelines), the <a href="http://developer.gnome.org/projects/gup/hig/">GNOME Human Interface Guidelines</a>, the <a href="http://developer.kde.org/documentation/standards/kde/style/basics/index.html">KDE User Interface Guidelines</a> and of course the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn688964(v=vs.85).aspx">Microsoft Windows Official Guidelines for User Interface Developers and Designers</a> (I came back in January of 2018 to fix this link — also interesting is the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">section on margins and spacing</a>).</p>
+ ]]></content:encoded></item><item><title>The Microsoft and I</title><link>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</link><pubDate>Tue, 13 May 2003 14:22:34 +0000</pubDate><guid>https://cpbotha.net/2003/05/13/the-microsoft-and-i/</guid><description>I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. This section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with some standard. :)</description><content:encoded><![CDATA[ <p>I’m reading some more juicy bits from the Microsoft Windows Official Guidelines for User Interface Developers and Designers. <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">This</a> section details the specific layout of controls in windows and dialog boxes. At least now the dialogs I design are more or less consistent with <em>some</em> standard. :)</p>
+ ]]></content:encoded></item><item><title>Where should that dang button go?</title><link>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</link><pubDate>Sun, 04 May 2003 14:59:54 +0000</pubDate><guid>https://cpbotha.net/2003/05/04/where-should-that-dang-button-go/</guid><description>So, here we have the Aqua Human Interface Guidelines (i.e. the MacOS-X user interface guidelines), the GNOME Human Interface Guidelines, the KDE User Interface Guidelines and of course the Microsoft Windows Official Guidelines for User Interface Developers and Designers (I came back in January of 2018 to fix this link — also interesting is the section on margins and spacing).
+Apple says that “The default button for dismissing a dialog should go in the lower-right corner. If there’s a Cancel button, it should be to the left of the default button.”. Gnome seems to imply that the default button should be on the bottom right, with other buttons to its left, which is more or less consistent with the Apple guidelines.</description><content:encoded><![CDATA[ <p>So, here we have the <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/index.html">Aqua Human Interface Guidelines</a> (i.e. the MacOS-X user interface guidelines), the <a href="http://developer.gnome.org/projects/gup/hig/">GNOME Human Interface Guidelines</a>, the <a href="http://developer.kde.org/documentation/standards/kde/style/basics/index.html">KDE User Interface Guidelines</a> and of course the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn688964(v=vs.85).aspx">Microsoft Windows Official Guidelines for User Interface Developers and Designers</a> (I came back in January of 2018 to fix this link — also interesting is the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dn742486(v=vs.85).aspx">section on margins and spacing</a>).</p>
 <p>Apple <a href="http://developer.apple.com/techpubs/macosx/Essentials/AquaHIGuidelines/AHIGLayout/chapter_8_section_2.html">says</a> that “The default button for dismissing a dialog should go in the lower-right corner. If there’s a Cancel button, it should be to the left of the default button.”. Gnome <a href="http://developer.gnome.org/projects/gup/hig/1.0/windows.html#alert-button-order">seems to imply</a> that the default button should be on the bottom right, with other buttons to its left, which is more or less consistent with the Apple guidelines.</p>
 <p>Microsoft <a href="http://msdn.microsoft.com/library/default.asp?url=https://cpbotha.net/library/en-us/dnwue/html/ch09d.asp">says</a>: “Lay out the major command buttons either stacked along the upper right border of the dialog box or lined up across the bottom of the dialog box. Position the most important button — typically the default command — as the first button in the set.” The KDE User Interface Guidelines don’t seem to set specific constraints on this kind of button placement, but judging by many of the standard KDE 3.1 applications, the dialogs seem to follow the Windows convention.</p>
 <p>more</p>
@@ -848,4 +948,4 @@ Apple says that “The default button for dismissing a dialog should go in the l
 <p>I’m afraid that I’m going to have to opt for the Windows/KDE convention. Linux users have learnt to live with the inconsistency (KDE vs Gnome conventions in this case) and will probably not notice. Windows users on the other hand, are quite used to the relative position of their buttons. I confirmed this by conducting a survey amongst a large group consisting of one novice Windows user. How’s that for solid research?</p>
 <p>Seriously though, the application in question will mostly be used by two kinds of users: Doctors or non-geek professionals using Windows and Super-Geeks Using Linux. The former group will probably be significantly larger than the latter group.</p>
 <p>What do you think?</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Life Partner on voices in my head</title><link>https://cpbotha.net/tags/life-partner/</link><description>Recent content in Life Partner on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Dec 2025 14:41:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/life-partner/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #263: High Dynamic Life</title><link>https://cpbotha.net/2025/12/25/weekly-head-voices-263-high-dynamic-life/</link><pubDate>Thu, 25 Dec 2025 14:41:00 +0200</pubDate><guid>https://cpbotha.net/2025/12/25/weekly-head-voices-263-high-dynamic-life/</guid><description>Well will you look at that date&amp;hellip; Merry Christmas everyone!
+I would also like to welcome you to the 263d edition of the Weekly Head Voices, a surprise even to me that it managed to get this far!
+26th wedding anniversary hike, this time a forbidden route starting from Rooi Els
+I was partially inspired by Martin Fowler&amp;rsquo;s &amp;ldquo;writing fragments&amp;rdquo; to just get this post out there. In his post, he makes the case that social media comes and goes, something I&amp;rsquo;ve seen happen more than once during the 25 year existence of this blog, and so he just plonks together a bunch of things that he found interesting and publishes that as a blog post.</description><content:encoded><![CDATA[ <p>Well will you look at that date&hellip; Merry Christmas everyone!</p>
+<p>I would also like to welcome you to the 263d edition of the Weekly Head Voices, a surprise even to me that it managed to get this far!</p>
+<figure><a href="rooi_els_anniversary_hike_5996.jpg"><img src="/2025/12/25/weekly-head-voices-263-high-dynamic-life/rooi_els_anniversary_hike_5996_1280.jpg"
+    alt="26th wedding anniversary hike, this time a forbidden route starting from Rooi Els"></a><figcaption>
+      <p>26th wedding anniversary hike, this time a forbidden route starting from Rooi Els</p>
+    </figcaption>
+</figure>
+
+<p>I was partially inspired by Martin Fowler&rsquo;s <a href="https://martinfowler.com/articles/writing-fragments.html">&ldquo;writing fragments&rdquo;</a> to just get this post out there. In his post, he makes the case that social media comes and goes, something I&rsquo;ve seen happen more than once during the 25 year existence of this blog, and so he just plonks together a bunch of things that he found interesting and publishes that as a blog post.</p>
+<p>Plonking together a bunch of things and calling it a post sounds like a robust approach to me, and so I&rsquo;m adopting it as of now.</p>
+<p>I also thought that it would feel good publishing one more normal WHV for 2025 before the <a href="/tags/transition/">traditional year transition post</a> which will hopefully also happen on time(ish).</p>
+<h2 id="boox-go-6-e-ink-reader-micro-review">Boox Go 6 e-ink reader micro review</h2>
+<p>My fourth Kindle e-reader, a 2018 Paperwhite, has this irritating issue where it will hard crash after some amount of reading, at which point one has to hard reboot, a process that takes some number of minutes.</p>
+<p>This is of course not great when you&rsquo;re reading in bed, in the dark, before going to sleep. I tried all of the recommended remedies, including the factor reset, all to no avail. (see <a href="https://www.amazon.com/review/RRA4LVNPHE0TE/ref=cm_cr_srp_d_rdp_perm?ie=UTF8">my Amazon review</a>)</p>
+<p>It&rsquo;s too late to return this unit, and so I decided to invest in the Boox Go 6 e-ink reader, a more generic Android device that is able to run the official Android apps of all the retailers, including Kindle, Kobo and more.</p>
+<p>I&rsquo;ve now been using this for about four months (it arrived on August 21) and I can say that it&rsquo;s a keeper.</p>
+<p>Here are some observations, but please let me know in the comments if you would like to know anything else:</p>
+<ul>
+<li>I bought my unit through <a href="https://www.dynamiccom.co.za/products/boox-go-6-e-ink-reader/1123586000024646701">DynamicCom</a>, the local distributor, who were super helpful and send regular emails to inform me of shipment progress. Down here the unit is slightly more expensive than the equivalent Kindle. I also bought the Boox magnetic cover, highly recommended!</li>
+<li>By default, the power setting on this device does a full shutdown after 15 minutes! This was super irritating, because I had to wait for it to boot up every time. Fortunately, by changing <code>settings -&gt; power -&gt; power-off timeout</code> from 15 minutes to 2 days, I now have instant on, returning to the page I was reading.</li>
+<li>It is indeed great that I can now buy and read books from Kobo as well. I&rsquo;m currently binging <a href="https://adriantchaikovsky.com/">Adrian Tchaikovsy</a>, and the two most recent books I bought were substantially cheaper on Kobo than on Amazon.</li>
+<li>The Kobo app&rsquo;s maximum font size is not big enough so that I can read without my spectacles at night. This is only an issue if you are &gt;50 (welcome to the club!) or have other vision challenges. I have submitted a support request with Kobo. In the meantime, I am reading the DRM-free epubs that Kobo supplied with my purchase in the Boox&rsquo;s built-in e-reader.</li>
+<li>Battery life, even with my 2 day power off timeout, is practically a week or more. The unit charges with USB-C which is great.</li>
+<li>As far as I can see, the Boox uses the Carta 1300 e-ink screen. It is a pleasure to read from. The backlight brightness and colour temperature can be adjusted to your liking.</li>
+</ul>
+<h2 id="hugo-0153-with-libwebp-via-wasm">Hugo 0.153 with libwebp via wasm</h2>
+<p>You might remember from <a href="/2024/12/08/weekly-head-voices-257-untitled49-ipynb/#webp-ftw">WHV #257</a> about the long-standing Golang bug that darkens webp images, which I worked around by using an auxiliary non-webp image as the source.</p>
+<p>Thanks to github notifications on <a href="https://github.com/gohugoio/hugo/issues/8879">the relevant Hugo bug</a>, I saw that bep (Bjørn Erik Pedersen, the amazing creator of Hugo) had just merged a <a href="https://github.com/gohugoio/hugo/pull/14234">PR switching to libwebp via WASM</a> (!!) instead of the built-in Go libraries.</p>
+<p>This update uses libwebp, a C-library, compiled to wasm via the wazero.io pure-go runtime.</p>
+<p>Based on what I read, in the <a href="https://github.com/gohugoio/hugo/issues/12843">relevant github issue</a> and elsewhere, this is a really neat trick for Hugo to have pure Go builds that can use native libraries because they&rsquo;ve been compiled to wasm! In this specific case, it means that in hugo 0.153, I can webp all the things without the work-around I am using at the moment.</p>
+<p>I was really excited by this update, and thus also reloading the <a href="https://github.com/gohugoio/hugo/milestone/349">hugo 0.153 release milestone</a> multiple times per day, until the release of 0.153 and 0.153.1 shortly after on December 20.</p>
+<p>The Hugo release was the additional fuel needed to get this post off the ground, but alas, my enthusiasm for WebP was just about snuffed out when I discovered that it has 0 (zero) support for HDR&hellip;</p>
+<h2 id="the-surprising-trickiness-of-hdr-photos-on-this-blog">The surprising trickiness of HDR photos on this blog</h2>
+<p>As I was putting this post together, I selected a number of candidate photos, as I usually do.</p>
+<p>However, this time I could not help but notice the HDR (high dynamic range) adding some extra brightness to the highlights: In this particular case, brighter parts in sunny photos, and night lights in night photos.</p>
+<p>As is often the case with my brain, multiple multi-hour research sessions ensued, some of the notes of which you can see <a href="https://charlbotha.com/til/Convert-iPhone-HDR-.heic-photos-to-web-compatible-HDR-images">at my TiL site</a>.</p>
+<p>Long story short, many iPhones and Androids can add HDR information to their photos when the scene requires it. Apple does it in their .HEIC images (mostly extra HDR gainmap, but could also be in a single image), and Google adds the HDR gainmap as part of the JPG metadata, a format dubbed <a href="https://github.com/google/libultrahdr">Ultra HDR</a>.</p>
+<p>You can see some <a href="https://gregbenzphotography.com/hdr-gain-map-gallery/">examples of web-compatible HDR photos</a> at Greg Benz&rsquo;s site. (If you dig into this, you&rsquo;ll run into Greg Benz in many places &ndash; he has been working hard campaigning for web-compatible gainmap-based HDR image support in various places.)</p>
+<p>Currently most of the main browsers support <em>subsets of</em> Ultra HDR (you have to know which subset!), and hopefully in the slightly further future, we&rsquo;ll be able to use <a href="https://caniuse.com/?search=avif">AVIF</a> for HDR and also all other web-facing images.</p>
+<p><em>Note: WebP has no support for HDR. My new hope for the future is AVIF.</em></p>
+<p>In my case, I had to figure out how to convert my iPhone&rsquo;s .HEIC images into UltraHDR JPGs. After more hours of failed experiments (no, none of Gimp, ImageMagick, libvips, Affinity Photo, GraphicConverter 12 do this correctly), I landed on a rather obscure bit of macOS / Swift open-source called <a href="https://github.com/chemharuka/toGainMapHDR">toGainMapHDR</a> which is able to convert HDR .HEIC files to Ultra HDR with the particular Apple gainmap format (<code>-g</code>) currently supported by Edge and Chrome on macOS.</p>
+<p>Alernatively, Graphic Converter 12 can convert from HDR .HEIC images to single image HDR AVIF, which are substantially smaller than the corresponding Ultra HDR JPG files. The problem is that these AVIFs have no built-in fallback to standard SDR like Ultra HDR has by design. Soon there will be more support for HDR AVIF via included gainmap, which will have similar fallback behaviour to Ultra HDR.</p>
+<p>So after all that, the Ultra HDR photos in this post should show up with HDR highlights if your display system and browser (Chrome, Edge, Safari do, Firefox not yet) support it, and gracefully fall back to the non HDR versions if they do not!</p>
+<p>Because neither Hugo or Golang support processing the HDR metadata in these images correctly, I have to manually resize them, instead of using <a href="/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/">my otherwise convenient srcsets figure shortcode</a> that automatically creates all the scaled versions.</p>
+<h3 id="ps-a-taste-of-the-avif-future">P.S. A taste of the AVIF future</h3>
+<p>Below I have embedded the same photo as the Ultra HDR (JPG) shown in the next section, but here as a high(er)-bitdepth single image HDR AVIF.</p>
+<figure><a href="cape_town_from_overseers_5775.avif"><img src="/2025/12/25/weekly-head-voices-263-high-dynamic-life/cape_town_from_overseers_5775_640.avif"></a>
+</figure>
+
+<p>You should see the AVIF image above these words, and your browser should show the full resolution version if you click on the image. If you don&rsquo;t, please let me know in the comments below, or via any other means, along with details of your web-browser.</p>
+<p>For interest&rsquo;s sake, here are the file sizes:</p>
+<ul>
+<li>original .heic 4032x2268: 1 MB</li>
+<li>Ultra HDR JPG 85% quality: 2 MB</li>
+<li>HDR AVIF 12-bit depth 85% quality: 422 kB</li>
+</ul>
+<h2 id="significant-life-events">Significant life events</h2>
+<p>My SO completed a significant but undisclosed number of orbits around the sun. We celebrated with friends by spending the night at the Overseers Cottage on top of Table Mountain, which felt like a pretty spectacular way to celebrate this special birthday. The party fully lived up to this standard (and then some).</p>
+<figure><a href="cape_town_from_overseers_5775.jpg"><img src="/2025/12/25/weekly-head-voices-263-high-dynamic-life/cape_town_from_overseers_5775_1280.jpg"
+    alt="Cape Town at night as seen from the overseers cottage on top of Table Mountain"></a><figcaption>
+      <p>Cape Town at night as seen from the overseers cottage on top of Table Mountain</p>
+    </figcaption>
+</figure>
+
+<p>Somewhat later, we celebrated my mom&rsquo;s 80th at home, with a great group of her close friends. It was such a beautiful day to celebrate such a beautiful human&rsquo;s vitality. In addition to being in great shape in spite of her limits and to being mentally sharp (did your 80 year old figure out Apple Pay by herself?!), my mom is an example to us all of how to celebrate life, and how to celebrate one&rsquo;s people.</p>
+<p>(Hi Mom!)</p>
+<p>Somewhat later than that, above-mentioned SO and I celebrated our 26th year of marriage with our traditional anniversary hike, this time on a forbidden route (no jokes) starting from Rooi Els.</p>
+<p>The hike was absolutely brilliant, even although we both had more than one near-faceplant coming back down the mountain on loose rocks. This is what happens when you get a bit tired, and you need to work extra hard to focus on the footwork. In Rooi Els, there were some ice-cold Stellas waiting, after which we had an early celebratory dinner with the family.</p>
+<p>There&rsquo;s a lot more that I&rsquo;m not going to talk about here, but I do need to mention that these past few weeks I&rsquo;ve really been experiencing those moments of <a href="/2022/12/06/weekly-head-voices-250-durable-blissful-contentment/#happiness-is-a-joke">durable, blissful contentment</a> with my family and my friends, and it&rsquo;s brilliant.</p>
+<p>Thank you for reading this fellow human! I hope to see you soon, either here, or on the road somewhere&hellip;</p>
+<blockquote>
+<p>There is no way to happiness, happiness is the way. There is no way to peace, peace is the way. There is no way to enlightenment, enlightenment is the way.</p>
+<p>&ndash; Thich Nhat Hanh</p>
+</blockquote>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #258: Kogelberg 25</title><link>https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/</link><pubDate>Thu, 19 Dec 2024 16:38:35 +0200</pubDate><guid>https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/</guid><description>Welcome everyone to one of the final WHVs of the year!
+This one covers the period of time from Monday 9 December to Friday December 20 of the year 2024.
+Scene from an extremely special hike up the Palmiet river.
+Kogelberg Anniversary My life partner and I very recently achieved a quarter century of official togetherness.</description><content:encoded><![CDATA[ <p>Welcome everyone to one of the final WHVs of the year!</p>
+<p>This one covers the period of time from Monday 9 December to Friday December 20 of the year 2024.</p>
+
+
+
+
+
+
+
+
+    
+
+
+<figure><a href="palmiet_route.webp">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/palmiet_route_hu_99359b113c7c5d28.webp 480w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/palmiet_route_hu_fe0e89c4c0fa4495.webp 800w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/palmiet_route_hu_234e816251779990.webp 1200w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/palmiet_route_hu_8af5a97389c9c9d.webp 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/palmiet_route_hu_fe0e89c4c0fa4495.webp"
+            
+
+        
+            alt="Scene from an extremely special hike up the Palmiet river."/> </a><figcaption>
+            <p>Scene from an extremely special hike up the Palmiet river.</p>
+        </figcaption>
+</figure>
+
+<h2 id="kogelberg-anniversary">Kogelberg Anniversary</h2>
+<p>My life partner and I very recently achieved a quarter century of official togetherness.</p>
+<p>While we usually do like to do some sort of <a href="/2019/12/18/weekly-head-voices-186-helderberg-20/#anniversary-walk-up-the-mountain">hike together to celebrate</a>, this time due to the significance of the number we wanted to do something a little more special.</p>
+<p>After a search to the West, in the direction of Cape Town, did not yield anything special enough that would not require us to re-mortgage our house, we looked to the East, and soon landed on <a href="https://en.wikipedia.org/wiki/Kogelberg_Nature_Reserve">the Kogelberg Nature Reserve</a> and more specifically the <a href="https://www.capenature.co.za/accommodation/oudebosch-eco-cabins">Oudebosch Eco Cabins</a>, and even more specifically the cabin named <em>Everlasting Daisy</em>, off to the side, right on top of the Kogelberg trail.</p>
+<p>After the mad rush to get there before the very strict 16:00 cut-off (note!), during which I went into substantial good karma debt navigating slow traffic and stop-n-go situations on the otherwise beautiful <a href="/tags/clarence-drive/">Clarence drive</a>, the arrival inside Kogelberg, after losing all cell phone reception as we descended into the valley, was positively serene.</p>
+
+
+
+
+
+
+
+
+    
+
+
+<figure><a href="everlasting_daisy.webp">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/everlasting_daisy_hu_a8fc91504dcec18b.webp 480w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/everlasting_daisy_hu_8f7a819cf9d437e7.webp 800w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/everlasting_daisy_hu_236b3acb78e48306.webp 1200w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/everlasting_daisy_hu_80ac40475c49c75e.webp 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/everlasting_daisy_hu_8f7a819cf9d437e7.webp"
+            
+
+        
+            alt="A small part of the view from the Everlasting Daisy eco-cabin"/> </a><figcaption>
+            <p>A small part of the view from the Everlasting Daisy eco-cabin</p>
+        </figcaption>
+</figure>
+
+<p>It bears repeating here that the switch-over into serenity was almost instant, and it was complete.</p>
+<p>I guess being &ldquo;forcibly&rdquo; disconnected from the information highway and then being so gently but utterly enfolded by the majesty of nature might have that effect&hellip; we will have to go back.</p>
+<p>After an absolutely brilliant sunset together, and then falling asleep with the stars and the moon and the quiet pouring in through the large windows, we woke up to some light rain.</p>
+<p>This was perfect for our laid-back breakfast,  and it meant that the first part of our hike up the Palmiet river was pleasantly cool.</p>
+<p>The views up the river, and then back down with the jeep track were stunning.</p>
+<p>In the end, that hike was also <em>just right</em>.</p>
+<p>When we finally left for home (with a lunch stop at <a href="/2024/01/07/daily-head-voices-2024-01-05/">Café Zest</a> of course), it really felt like we had spent much more time than that single night and day in the Kogelberg state of calm.</p>
+<h2 id="similar-blog-posts-based-on-chunk-embedding-similarity">Similar blog posts based on chunk embedding similarity</h2>
+<p>Probably due to a much delayed echo of my experience writing the <a href="/2024/11/24/weekly-head-voices-256-word/#shielding-you-from-the-equal-odds-rule">WHV #256</a> bit about why most of these posts were always going to be just average:</p>
+<blockquote>
+<p>(Now that I write this, I’m sure I must have mentioned this before on this blog… can you help me find the post(s) in question?)</p>
+</blockquote>
+<p>&hellip; on Monday December 9 I briefly looked into finding existing tools that could rummage through the whole WHV post archive, but through the actual sections and not the complete posts, in order to find previous writings that are thematically similar to something I&rsquo;m currently working on.</p>
+<p>After a brief search did not turn up a ready-made tool, I wisely opted to write up the idea in a note titled <em>Idea: Hugo blog post similarity search</em> and then walked away from that text analysis catnip.</p>
+<p>&hellip; until Monday December 16, a vacation day, when I could &ldquo;quickly&rdquo; dive in!</p>
+<p>You can see <a href="https://bsky.app/profile/charlbotha.com/post/3ldfrgk6hik2z">the bluesky thread</a> as I got into it, or just <a href="https://github.com/cpbotha/md-similarity">the finished product, named <em>md-similarity</em>, on github</a>.</p>
+<p>Trying this out on my original question, namely where and in what blog post did I maybe also talk about the general idea of having to produce a bunch of average output in order to have a few winners, we get the following output:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell-session" data-lang="shell-session"><span style="display:flex;"><span>$ mdsim list-similar 2024/whv-256-word/index.md --section-regex <span style="color:#0a3069">&#34;Shielding&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">0.765 - 2020/whv-197-on-shipping-a-side-project/index.md - Weekly Head Voices #197: How to ship side-projects - Hello friends! 👉 ## Shielding you from the equal-odds rule
+</span></span></span><span style="display:flex;"><span><span style="color:#1f2328">0.776 - 2019-02-06-weekly-head-voices-161-email-equilibrium.md - Weekly Head Voices #161: Email Equilibrium. - {&lt; figure src=&#34;https://cpbotha.net/wp-content/uploads/2019/02/screenshot_2019-01-31_06-16-47.png&#34; link=&#34;/wp-content/uploads/2019/02/screenshot_2019-01-31_06-16-47.png&#34; &gt;}  👉 ## Shielding you from the equal-odds rule
+</span></span></span><span style="display:flex;"><span><span style="color:#1f2328">0.780 - 2022/whv-245-this-too-shall-pass/index.md - Weekly Head Voices #245: This too shall pass - WELL HELLO EVERYONE and welcome back to the Weekly Head Voices, edition #245 to 👉 ## Shielding you from the equal-odds rule
+</span></span></span><span style="display:flex;"><span><span style="color:#1f2328">0.785 - 2021/whv-236-surprising-power-of-consistent-chipping/index.md - Weekly Head Voices #236: The surprising power of consistent chipping - This 236th edition of the Weekly Head Voices looks back at the three (sorry!) 👉 ## Shielding you from the equal-odds rule
+</span></span></span></code></pre></div><p>Of those four results, the third one, namely <a href="/2022/08/09/weekly-head-voices-245-this-too-shall-pass/">the introductory section of WHV #256</a> from 2022, is exactly the sort of similar thought I was after.</p>
+<p>I was not able to find that post without having to search many different key phrases.</p>
+<p>This is one of the situations where modern embedding models shine: Retrieving text that&rsquo;s vaguely about the same idea. For my purpose here, I am more interested in serendipitous association rather than retrieval precision.</p>
+<p>Rather serendipitously (I&rsquo;m pushing it&hellip;), two days later <a href="https://bsky.app/profile/howard.fm/post/3ldod2afps62x">Jeremy Howard announced their new ModernBERT encoder-only model on Bluesky</a>. You can <a href="https://huggingface.co/blog/modernbert">read more on the huggingface blog</a>, but I find this development pretty exciting!</p>
+<h2 id="the-beginning-of-the-end">The beginning of the end</h2>
+<p>I am currently in the extremely fortunate situation that every run day can be a long<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> run day.</p>
+<p>Although I now know that I&rsquo;m not going to be able to hit my yearly distance goal, I am still planning to use the above-mentioned good fortune to get as close as I can before the brand new year release &ldquo;2025&rdquo; drops.</p>
+
+
+
+
+
+
+
+
+    
+
+
+<figure><a href="bettys_run.webp">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/bettys_run_hu_d92fb3c5307a3190.webp 480w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/bettys_run_hu_7202582c0f1bb617.webp 800w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/bettys_run_hu_46dc8b7d71d276a4.webp 1200w,
+            
+                
+                https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/bettys_run_hu_b631b02ab597eb8a.webp 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/12/19/weekly-head-voices-258-kogelberg-25/bettys_run_hu_7202582c0f1bb617.webp"
+            
+
+        /> </a>
+</figure>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Ok ok I mean weekend-length!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description>Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
+The passing of time usually seems to be quite a theoretical affair, but at this moment I can really feel the year taking its last few breaths.
+(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10. By this reasoning, the end of the current decade is still more than a year away, on December 31, 2020. Yes, the calendar has changed drastically over the years, but the principle of when decades start and end is the same.)</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
+Head Voices!</p>
+<p>The passing of time usually seems to be quite a theoretical affair, but at this
+moment I can really feel the year taking its last few breaths.</p>
+<p>(People even seem to think of this as the last year of the decade, which makes
+it all the more dramatic, but <a href="https://www.withum.com/resources/end-of-the-decade/">not everyone is
+convinced</a>. If the first
+day of the first year was January 1, year 1, the end of the first year was
+December 31, year 1, and the end of that first decade was on December 31,
+year 10. By this reasoning, the end of the current decade is still more than a
+year away, on December 31, 2020. Yes, the calendar has changed drastically over the years, but the principle of when decades start and end is the same.)</p>
+<p>Anyways, one thing I am only slightly more sure about is that this edition of
+the WHV Monday looks back on the days from Monday December 9 to Sunday December
+15, 2019!</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_52a86bef4be3fcfe.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_d1925304afd824a7.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_2be7c8e5577b4875.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+<p>There&rsquo;s a buck (a sort of goat), probably of the duiker variety, really showing
+off its camouflage on one of the ledges in this photo taken along the West Peak
+/ Woody&rsquo;s Walk route on Helderberg mountain. See if you can find it!</p>
+</figcaption>
+</figure>
+<h2 id="we-are-load-shedding-again">We are load shedding again.</h2>
+<p>So yeah, there&rsquo;s that.</p>
+<p>We&rsquo;re load shedding again.</p>
+<p>Everything I wrote &ldquo;<a href="/2019/03/24/weekly-head-voices-166-morgan-bay/#on-being-powerless">on being
+powerless</a>&rdquo;
+in March of this year is again happening, down to me spending more time on
+Twitter again (DANG IT) searching for voices that might indicate justice
+eventually being served.</p>
+<p>In spite of the fact that our home is now more or less load-shedding-proof due
+to it being for the largest part <a href="/2019/06/30/weekly-head-voices-172-abc/#solar-powerrrrrrrr">solar
+powered</a> this time
+around, the rotating power outages (we had a week or two of stage 4, i.e. 3 x
+2.5 hour outages per day, and one evening of escalation to stage 6) are an
+upsetting reminder of the decades-long and now continuing incompetence and
+corruption of the country&rsquo;s leadership.</p>
+<p>Apart from the numerous mental cycles this phenomenon has been <em>stealing</em> (see
+what I did there) from my work focus, it is hard not to notice how businesses,
+colleagues and friends are being hit by this.</p>
+<p>What&rsquo;s perhaps new this time, is that <a href="https://www.timeslive.co.za/politics/2019-10-29-eskom-board-member-slams-interference-says-there-should-be-load-shedding/">it has been confirmed by an Eskom board
+member</a>
+that the same politicians who have caused this mess, are <em>still</em> meddling in
+technical affairs they have no idea about, for all of the wrong reasons.</p>
+<p>To put it quite bluntly, instead of trying to address the almost insurmountable
+technical problems at the electricity supplier, it seems that the ruling party
+(the ANC of course) for example insisted that the electricity be kept on at all
+costs during the elections.</p>
+<p>Numerous incidences of this sort of interference helped them to save face over
+the years, at the cost of further debilitating the already fragile South
+African economy.</p>
+<p>At this moment, as large parts of industry are shutting down for the Christmas
+period, we are enjoying a respite from load shedding.</p>
+<p>We will see what happens in the new year.</p>
+<p>The board member quoted above stated that if meddling had not been such a
+concern, and they could face the technical problems head-on, we were looking at
+at least 8 months of load shedding.</p>
+<p>I&rsquo;m sure that the people would be able to deal with it if those cards were
+simply laid on the table, without all of the political meddling and backroom
+dealings.</p>
+<p>As was the case the previous time, I do remain hopeful that the number of
+spines in power grows, and that the electricity provider is able to focus all
+of its energy on addressing the significant problems that it faces.</p>
+<h2 id="time-restricted-eating-tre-with-black-coffee-please">Time-restricted Eating (TRE) with Black Coffee please.</h2>
+<p>I think it was Reader K who introduced me to the idea of time-restricted
+eating, or TRE, a year or two ago.</p>
+<p>(Together we tried to figure out on which medium this happened, because under
+normal circumstances I would have wanted to look up the exact time and contents
+of the messages.</p>
+<p>Unfortunately, we discovered that it must have been via Facebook Messenger, and
+somewhere between then and now Reader K had expunged their whole Facebook
+history.</p>
+<p>I think there&rsquo;s a lesson in here somewhere, but we have to forge ahead, so
+we&rsquo;re going to have to side-step it.)</p>
+<p>Time-restricted eating, or TRE, is a sort of intermittent fasting where the
+eating window is deliberately limited to an as short as possible duration
+during the daytime.</p>
+<p>The theory behind it is that our metabolism is in fact also ruled by the
+all-powerful circadian clock.</p>
+<p>During our long evolution, we would have been foraging and feeding during
+daylight, and resting during the night.</p>
+<p>With artificial light and the ubiquitousness of food of modern times, we easily
+fall into the habit of starting to eat when we wake up, and having the last
+snack shortly before going to sleep, hours after sunset.</p>
+<p>In short, we really do eat too much, and to make it even worse, we eat at all
+the wrong times.</p>
+<p>With research around TRE, science, as is its wont, is showing us the way back
+to redemption.</p>
+<p>It&rsquo;s starting to look like limiting one&rsquo;s feeding window to a few hours during
+daylight could have a number of health advantages.</p>
+<p>See for example:</p>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255155/">Time-restricted feeding is a preventative and therapeutic intervention
+against diverse nutritional
+challenges</a> - a 2014
+Cell Biology study with mice.</li>
+<li><a href="https://www.sciencedaily.com/releases/2019/12/191205141731.htm">Clinical study finds eating within 10-hour window may help stave off
+diabetes, heart
+disease</a> - a 2019 Science Daily summary.</li>
+<li><a href="https://m2performancenutrition.com/blog/can-time-restricted-feeding-make-you-fitter">Can time restricted feeding make you
+fitter</a> -
+a reasonable overview.</li>
+</ul>
+<p>After a debate with friend LM about whether black sugarless coffee constituted
+a break of the TRE fast (I thought that it did due to <a href="https://www.youtube.com/watch?v=m6KClPkotxM">this conversation
+between Rhonda Patrick and Joe
+Rogan</a>, friend LM did not, so I
+initially did not even try TRE because I am unable to operate without black
+coffee in the mornings), I have been dipping my toes in the TRE pool.</p>
+<p>I have never been a breakfast person (&ldquo;Breakfast is the most important meal of
+the day&rdquo; ??! TRUST NO ONE.), so sticking to black coffee in the mornings until
+as late as possible, which is in many cases lunch, and not eating anything
+after dark, has subjectively worked out pretty well so far.</p>
+<p>Sometimes, shortly before lunch, there seems to be a slight delusional quality
+to my seemingly enhanced mental clarity, but let&rsquo;s keep that between you and
+me.</p>
+<h2 id="anniversary-walk-up-the-mountain">Anniversary walk up the mountain.</h2>
+<p>Recently, my life partner and I celebrated two decades of official
+togetherness by walking up the Helderberg mountain.</p>
+<p>We did not quite make West Peak, and we were pretty bushed by the end, but
+that&rsquo;s ok. The scenery was epic, and getting back home was brilliant.</p>
+<p>We will try again in 2029.</p>
+<figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano.jpg">
+
+  <img
+
+    sizes="(min-width: 35em) 1200px, 100vw"
+  
+  srcset='
+  
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_f36e0d1f02b2b266.jpg 480w
+  
+  
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg 800w
+  
+  
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_898647e673d4e8e8.jpg 1200w
+  
+  
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_1b01c56de5f46cb7.jpg 1500w 
+  '
+
+
+
+  
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg"
+  
+
+   />
+
+</a>
+
+<figcaption>
+<p>All by itself, Google&rsquo;s AI stitched together a bunch of my photos of the
+Helderberg hike to make this lovely panorama. It&rsquo;s better than the panorama I
+made by myself, so I&rsquo;m giving you this one. Click for higher resolution.</p>
+</figcaption>
+</figure>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #136: Slightly more than nothing much.</title><link>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</link><pubDate>Sun, 18 Mar 2018 20:53:28 +0000</pubDate><guid>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</guid><description> The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.
+Welcome back peeps! Make yourselves at home.
+It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/IMG_3359.jpg">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/IMG_3359-1024x768.jpg"
+        
+            alt="The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it."/> </a><figcaption>
+            <p>The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.</p>
+        </figcaption>
+</figure>
+
+<p>Welcome back peeps! Make yourselves at home.</p>
+<p>It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.</p>
+<h1 id="vimium">vimium</h1>
+<p>Pro-tip of the week: Install <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en">vimium</a>. It’s a chrome extension which enables you to SURF THE INFORMATION HIGHWAY with just a bunch of keyboard shortcuts.</p>
+<p>I avoided this for the longest time because it has the word “vim” in its name, but I was wrong.</p>
+<p>I can now waste time on reddit, twitch and youtube 73% more efficiently, every day.</p>
+<h1 id="nerd-works">nerd works</h1>
+<p>As far as I can remember, my work week was pretty straight-forward.</p>
+<p>I started implementing PDF reports again, but for a different application. <a href="https://wkhtmltopdf.org/">wkhtmltopdf</a> is now magically broken in different ways from <a href="/2015/06/21/weekly-head-voices-92-the-cake-is-a-lie/">the previous time</a>. Compared to bundling and maintaining a stripped-down <a href="https://www.tug.org/texlive/">TeXLive</a>, or paying the $995 license for <a href="https://www.pdflabs.com/tools/pdftk-server/">pdftk</a> with which PDF forms can be programmatically filled in, this is the best choice at the moment.</p>
+<p>Remember, <a href="/2016/02/02/weekly-head-voices-103-chips/#inspiring-quotes-that-you-can-repost-if-you-want">there are no answers, only choices</a>, even when baking PDFs.</p>
+<p>For Most Major Sideproject (MMS) I unfortunately had to do some front-end programming. I say unfortunately, because the back-end is all machine learning and cleverness, and then I smash my little programming clown car into the idiot brick wall that is web frontends. At least react makes the crash slightly less painful, and this time <a href="https://github.com/ReactTraining/react-router">react-router</a> helped me to get my URLs synchronised with app state fairly easily.</p>
+<p>Ok maybe it’s not <em>that</em> bad.</p>
+<p>My new <a href="https://robotdyn.com/samd21-m0.html">Robotdyn Arduino SAMD21 M0</a> boards arrived! This is arduino, but with a 32bit ARM Cortex M0+ instead of the Atmel 328p on the UNO boards. After some more hours of struggling to get Arduinos talking to each other via XBEE radios, I now know much more about programming these gadgets than I ever wanted to.</p>
+<p>Mostly due to the very-badly-documented-and-seemingly-unsupported <a href="https://www.itead.cc/wiki/XBee_Shield">itead arduino-xbee interface boards</a> I’m using, I am closer but have not yet received any cigars. (pro-tip: That extra top 3.3V jumper does more than just control level shifting. It also connects A0, RTS and DIN together. If you think you’re going to use A0 for RTS, your xbee will mysteriously hardware reset every 5 seconds. However, if you disconnect the jumper, your board will hardware reset every 5 seconds no matter what you do. Pro-tip: Don’t buy itead.)</p>
+<h1 id="new-beer-warlord">new beer warlord</h1>
+<p>On Wednesday I tasted a new craft beer (this does not happen very often anymore, as I’ve had almost all of them) during a Top Secret Business Meeting. It’s the War Lord IPA by Darling Brew:</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="/wp-content/uploads/2018/03/warlord_beer_cutout.png">
+    <img
+        
+            
+            src="/wp-content/uploads/2018/03/warlord_beer_cutout-441x1024.png"
+        /> </a>
+</figure>
+
+<p>This might even be more metal than their <a href="/2014/04/21/weekly-head-voices-68-harsh-autumn-weekends/">Bone Crusher</a> &lt;INSERT HEAVY METAL GUITAR RIFF HERE&gt;, which is extremely high praise. As IPAs go, I will definitely make this choice again, perhaps  even in the very near future.</p>
+<h1 id="part-of-the-weekend-never-dies">part of the weekend never dies</h1>
+<p>On Saturday and Sunday morning (overnight parties are the BEST parties) we had long-time friends over for a dinner party.</p>
+<p>Something like 25 years ago we did the <a href="https://www.sa-venues.com/things-to-do/limpopo/magoebaskloof-hiking-trail/">Magoebaskloof hiking trail</a> together. There’s nothing like sharing meals of dried soya (just add water, INDISTINGUISHABLE from meat the packet said), dried mash (“smash” I believe) and dried vegetables during days of hiking through the forest for getting to know each other better.</p>
+<p>Besides the hiking, and many student parties, there was also the little matter of me meeting my life partner through this connection. Not unimportant.</p>
+<p>Anyways, craft beer (<a href="https://www.devilspeakbrewing.co.za/kings-blockhouse-ipa/">King’s Blockhouse IPA</a>, nice and strong), great local wine (a Chardonnay-Pinot Noir blend which more or less satisfies my “expensive Chardonnay” criterion) and brilliant food (chicken, extremely slow over the fire) acted as the culinary backdrop for naturally flowing and energising conversation.</p>
+<p>Thank you long-time friends!</p>
+<p>Late morning Sunday we left for a family lunch at Bodega, restaurant at Dornier vineyard. This restaurant has made previous appearances in <a href="/2014/07/01/weekly-head-voices-76-someone-is-wrong-on-the-internet/">WHV #76 (July 1, 2014)</a> and <a href="/2016/01/20/weekly-head-voices-102-high-on-life/">WHV #102 (January 20, 2016)</a>.</p>
+<p>Again I can do nothing other than award it the WHV three thumbs up award! Wine-food-scenery-climate combinations really are amazing.</p>
+<p>(I just noticed that the wine which was paired with my Mauritian (no, no Martian fish yet) seabass, and blew me away, also blew me away in 2014. It’s the Donatus White, Semillon-Chenin Blanc blend. External memories FTW.)</p>
+<h1 id="let-us-ponder-wa">let us ponder: wa</h1>
+<p>Westerners are often very individualistic.</p>
+<p>We are brought up with the mission to “be yourself”.</p>
+<p>In Japan, there is “wa” (和) which <a href="https://en.wikipedia.org/wiki/Wa_(Japanese_culture)">wikipedia describes as</a>: <em>… harmony. It implies a peaceful unity and conformity within a social group, in which members prefer the continuation of a harmonious community <strong>over their personal interests</strong></em>. (emphasis mine)</p>
+<p>I understand that this has a different set of downsides to our individualism, but group harmony sure sounds nice. Perhaps in the future society we are going to start building soon, we could somehow combine “wa” with a deep respect for the scientific method, and in this way finally transform into the Star Trek Federation that we were promised.</p>
+<h1 id="bises">bises</h1>
+<p>Have a productive but especially harmonious week kids! I hope to see you again soon.</p>
+<p> </p>
+ ]]></content:encoded></item></channel></rss>

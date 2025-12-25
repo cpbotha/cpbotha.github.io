@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Openai on voices in my head</title><link>https://cpbotha.net/tags/openai/</link><description>Recent content in Openai on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 21 Jan 2024 20:30:31 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/openai/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 3 of 2024</title><link>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</link><pubDate>Sun, 21 Jan 2024 20:21:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</guid><description>Monday 2024-01-15 Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT. Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&amp;rsquo;m doing this in addition to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help. Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 and GOU#2 there, on two very opposite ends of the spectrum. Tuesday 2024-01-16 MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/ Copilot Pro not yet available in South Africa 😥 $20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&amp;rsquo;m not convinced, will stick to my perplexity.ai for now. Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch. In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use webcola again, but this time with d3@latest &amp;ndash; sorta works, but no dragging. Have found work-around, still need to test. Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.) Wednesday 2024-01-17 Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7! Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &amp;ldquo;Hi&amp;hellip;&amp;rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha. Got caught up in GEKKO Optimization Suite due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe. TIL: John Lasseter drew the BSD daemon! See https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html &amp;ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the Creativity Inc. book (the one about Pixar!) notes post on this blog Thursday 2024-01-18 AlphaGeometry from Google DeepMind is great work combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose) News on our in-house GPT-wrapper front: Discovered that I now have to upgrade to the new tool_call api as the old functions one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations Note to self, and to you: The *Params types are TypedDict declarations which you can use to work directly with JSON requests and responses, while the non-*Params types are pydantic models which you can use to (de)serialize JSON. Went to see a really good Mohs surgery dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email. This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. https://t.co/DtREuQK5k7</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-15">Monday 2024-01-15</h2>
+<ul>
+<li>Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT.</li>
+<li>Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&rsquo;m doing this <em>in addition</em> to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help.</li>
+<li>Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 <em>and</em> GOU#2 there, on two very opposite ends of the spectrum.</li>
+</ul>
+<h2 id="tuesday-2024-01-16">Tuesday 2024-01-16</h2>
+<ul>
+<li>MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): <a href="https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/">https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/</a>
+<ul>
+<li>Copilot Pro not yet available in South Africa 😥
+<ul>
+<li>$20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&rsquo;m not convinced, will stick to my <a href="https://www.perplexity.ai/">perplexity.ai</a> for now.</li>
+</ul>
+</li>
+<li>Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch.</li>
+</ul>
+</li>
+<li>In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use <a href="https://ialab.it.monash.edu/webcola/">webcola</a> again, but this time with d3@latest &ndash; sorta works, but no dragging. Have found work-around, still need to test.</li>
+<li>Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.)</li>
+</ul>
+<h2 id="wednesday-2024-01-17">Wednesday 2024-01-17</h2>
+<ul>
+<li>Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7!</li>
+<li>Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &ldquo;Hi&hellip;&rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha.</li>
+<li>Got caught up in <a href="#d41d8c">GEKKO Optimization Suite</a> due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe.</li>
+<li>TIL: John Lasseter drew the BSD daemon! See <a href="https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html">https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html</a> &ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the <a href="/2020/12/22/book-notes-creativity-inc/#the-story-is-more-important-than-the-technology">Creativity Inc.</a> book (the one about Pixar!) notes post on this blog</li>
+</ul>
+<h2 id="thursday-2024-01-18">Thursday 2024-01-18</h2>
+<ul>
+<li><strong>AlphaGeometry from Google DeepMind is great work</strong> combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose)</li>
+<li>News on our in-house GPT-wrapper front:
+<ul>
+<li>Discovered that I now have to upgrade to the new <code>tool_call</code> api as the old <code>functions</code> one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations</li>
+<li>Note to self, and to you: The <code>*Params</code> types are <code>TypedDict</code> declarations which you can use to work directly with JSON requests and responses, while the non-<code>*Params</code> types are pydantic models which you can use to (de)serialize JSON.</li>
+</ul>
+</li>
+<li>Went to see a really good <a href="https://www.mayoclinic.org/tests-procedures/mohs-surgery/about/pac-20385222">Mohs surgery</a> dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email.</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. <a href="https://t.co/DtREuQK5k7">https://t.co/DtREuQK5k7</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1747857845356298739?ref_src=twsrc%5Etfw">January 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="friday-2024-01-19">Friday 2024-01-19</h2>
+<ul>
+<li>Spent most of my working hours wrappng up and deploying the brand new version of our internal GPT. I read somewhere that you should <em>always</em> deploy on a Friday, as late as possible.</li>
+<li>I was stressing quite a bit, as I had a great task before me:</li>
+<li>Braaiing 200 boeries in the 39 degrees Celsius heat at the school in Stellenbosch, in order to feed the new grade 8 learners on the evening of their initiation.
+<ul>
+<li>All thanks to the fellow dad who joined me, the stress transformed completely into an enjoyable few hours taking care of this important duty, and I made a new friend!</li>
+</ul>
+</li>
+<li>The kids, including our very own GOU#2, were facing the challenging night before them&hellip;</li>
+</ul>
+<h2 id="saturday-2024-01-20">Saturday 2024-01-20</h2>
+<ul>
+<li>woke up at 5:40 because was planning to fetch GOU#1 and GOU#2 after their eventful and successful night, but thankfully partner was willing to go!</li>
+<li>me very tired the whole day, just hanging (literally) around with family, and spending too much time on twitter / threads / reddit / inoreader! (brain was not willing to do much else, at least learned new things, some of which are mentioned below)</li>
+<li>Based on <a href="https://news.ycombinator.com/item?id=39055139">this HN discussion</a> about <a href="https://delta.io/blog/delta-lake-vs-parquet-comparison/">this blog post comparing Delta Lake and Parquet</a>, learned that Delta Parquet aka Delta Tables (which I&rsquo;ve read about in the context of Azure) is just a bunch of parquet files with some json metadata!
+<ul>
+<li>I&rsquo;ve been enjoying <a href="https://parquet.apache.org/">parquet</a> for years now, in the context of scipy and specifically pandas.</li>
+<li>Indeed, OneLake, also part of Microsoft Fabric, has Delta Parquet at its core.</li>
+<li>Apache Iceberg is a similar but more open source implemenation: <a href="https://iceberg.apache.org/">https://iceberg.apache.org/</a></li>
+<li>Based on <a href="https://www.dremio.com/blog/exploring-the-architecture-of-apache-iceberg-delta-lake-and-apache-hudi/">this comparison between Iceberg, Delta Lake and Hudi</a> it looks like all of these data lake storage layers are just parquet files with metadata, and then some logic, to give database like semantics over distributed object stores. Neat!</li>
+</ul>
+</li>
+<li>In bed last night, falling asleep, I had the following idea:
+<ul>
+<li><em>My Current Life Canvas</em> is a 3D bubble (off to my right for some reason&hellip; and moving with me as I walk) the interior of which I can view using my phone via AR (have to move phone in space to view inside of bubble, with current topics arranged in familiar spots; I thought having a world map would help, because well-known and memorable locations for your topics / priorities / ideas) or any of these amazing new VR headsets, BUT you can also interact with it via computer because inside of bubble can just be projected to surface using any of the well-known <a href="https://en.wikipedia.org/wiki/Map_projection">map projection techniques</a>.</li>
+<li>CLC does not have a regular cadence like the daily or weekly plan, but is revised or redone a few times per year. It focuses on your major life priorities at any one point in time.</li>
+<li>Although this was just a dreamy idea, I do like that it offers multi-modal interaction on the spectrum from AR/VR to more conventional desktop paradigms</li>
+<li>&hellip; of course there should be some kind of friendly AI floating in the bubble with you :P (Microsoft Bob?)</li>
+</ul>
+</li>
+</ul>
+<h2 id="sunday-2024-01-21">Sunday 2024-01-21</h2>
+<ul>
+<li>Super enjoyable weekend long(ish) run.</li>
+<li>Tried out Omnivore&rsquo;s PDF annotation support, see screenshot below. Pretty impressive, and very cool that the highlights sync into my Emacs-based notes setup via markdown. Have slightly mixed feelings, because now will have to come up with new rule for when a paper goes into Zotero (fully local, full citations, but no automatic highlights sync) and when it goes into Omnivore (good sort of cloud but not local, no full citations, automatic sync into my notes)</li>
+<li>Extended family Sunday lunch at our place was great, but me not at normal energy levels yet.</li>
+<li>One of my goals for this week was &ldquo;Get through the week, especially Friday braai&rdquo;. Mission successful!</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="20240121-screenshot-omnivore-pdf-emacs.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_8552fa2e79f0c31.png 480w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png 800w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_70c21750f4c22771.png 1200w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_3fd7290a1dd605.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png"
+            
+
+        /> </a>
+</figure>
+
+ ]]></content:encoded></item><item><title>Daily Head Voices on Thursday 2023-12-28</title><link>https://cpbotha.net/2023/12/31/daily-head-voices-on-thursday-2023-12-28/</link><pubDate>Sun, 31 Dec 2023 11:52:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/31/daily-head-voices-on-thursday-2023-12-28/</guid><description> Longer run brought my year target back in reach, at the cost of some hip niggle. 4km in, I decided that this was not the time and place for a fasted run and bought me a powerade. I bought another on the way back from the Vergelegen-to-Reservoir Road section of my route. I have no regrets. Before the run, thought about Values vs Vision vs Sinek&amp;rsquo;s Why. This was brought on by a twitter thread (which I did not bookmark argh) by a person who identified the root cause of a previously resolved mental health challenge to be the fact that at that point they had ill-defined personal values, and that addressing that was a large part of the resolution. I think my previously-mentioned &amp;ldquo;life systems&amp;rdquo; are indeed closely related, but it can&amp;rsquo;t do harm to spend some more mental cycles on listing my values, and then maybe to see how exactly these related to my life systems. Before and during the run, half-designed in my head a software tool for narrating books using OpenAI&amp;rsquo;s text-to-speech API. After the run, took care of some errands: Had car battery replaced Installed new diaphragm for the Zodiac pool cleaner, the current one has a hole in it and did not work at all New brush for the pool pole After errands, built and then published the afore-thought-about prototype https://github.com/cpbotha/audio-my-book &amp;ndash; warning, it&amp;rsquo;s still super rough, but it works nicely chopping up your book text into semantic chunks and then text-to-speeching each chunk into mp3 (the openai tts API has a 4096 character limit, hence the chunking) In the evening, worked on https://github.com/cpbotha/org-roam-similarity fixing bugs, and also showing similarity scores in the *org-roam* buffer.</description><content:encoded><![CDATA[ <ul>
+<li>Longer run brought my year target back in reach, at the cost of some hip niggle. 4km in, I decided that this was not the time and place for a fasted run and bought me a powerade. I bought another on the way back from the Vergelegen-to-Reservoir Road section of my route. I have no regrets.</li>
+<li>Before the run, thought about Values vs Vision vs Sinek&rsquo;s Why. This was brought on by a twitter thread (which I did not bookmark argh) by a person who identified the root cause of a previously resolved mental health challenge to be the fact that at that point they had ill-defined personal values, and that addressing that was a large part of the resolution. I think my previously-mentioned <a href="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/#life-systems-2021">&ldquo;life systems&rdquo;</a> are indeed closely related, but it can&rsquo;t do harm to spend some more mental cycles on listing my values, and then maybe to see how exactly these related to my life systems.</li>
+<li>Before and during the run, half-designed in my head a software tool for narrating books using OpenAI&rsquo;s text-to-speech API.</li>
+<li>After the run, took care of some errands:
+<ul>
+<li>Had car battery replaced</li>
+<li>Installed new diaphragm for the Zodiac pool cleaner, the current one has a hole in it and did not work at all</li>
+<li>New brush for the pool pole</li>
+</ul>
+</li>
+<li>After errands, built and then published the afore-thought-about prototype <a href="https://github.com/cpbotha/audio-my-book">https://github.com/cpbotha/audio-my-book</a> &ndash; warning, it&rsquo;s still super rough, but it works nicely chopping up your book text into semantic chunks and then text-to-speeching each chunk into mp3 (the openai tts API has a 4096 character limit, hence the chunking)</li>
+<li>In the evening, worked on <a href="https://github.com/cpbotha/org-roam-similarity">https://github.com/cpbotha/org-roam-similarity</a> fixing bugs, and also showing similarity scores in the <code>*org-roam*</code> buffer.</li>
+</ul>
+ ]]></content:encoded></item></channel></rss>

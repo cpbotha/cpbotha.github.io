@@ -1,7 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>google on voices in my head</title><link>https://cpbotha.net/tags/google/</link><description>Recent content in google on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 20 Sep 2020 19:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #205: Real-time sometimes, asynchronous most of the time</title><link>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</link><pubDate>Sun, 20 Sep 2020 19:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</guid><description> This edition of the Weekly Head Voices looks back a the week from Monday September 14 to Sunday September 20 of the year 2020.
-Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!
-For the first time in months, this post is exactly on time. Whatever else happens in the rest of the post, timeousness is in the pocket!</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices looks back a the week from Monday
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Google on voices in my head</title><link>https://cpbotha.net/tags/google/</link><description>Recent content in Google on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Feb 2024 13:10:12 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>On the two world problem and personal knowledge management</title><link>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</link><pubDate>Sun, 11 Feb 2024 12:52:00 +0200</pubDate><guid>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</guid><description> Figure 1: Photo by Igor Omilaev on Unsplash
+In this recent Mojo community blog post, I came across the term &amp;ldquo;two-world problem&amp;rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.
+As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<figure><a href="igor-omilaev-p059oXBEWe4-unsplash.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_4816191a2dae1d67.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_aa120e91e6d1f8dd.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_fc88fb9c84cc0c4d.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg"
+            
+
+        
+            alt="Figure 1: Photo by Igor Omilaev on Unsplash"/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Photo by <a href="https://unsplash.com/@omilaev">Igor Omilaev</a> on <a href="https://unsplash.com/photos/a-pair-of-virtual-glasses-on-a-pink-and-yellow-background-p059oXBEWe4">Unsplash</a></p>
+        </figcaption>
+</figure>
+
+<p>In this recent <a href="https://www.modular.com/blog/outperforming-rust-benchmarks-with-mojo">Mojo community blog post</a>, I came across the term &ldquo;two-world problem&rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.</p>
+<p>As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</p>
+<p>I could not find any canonical sources for its use in this context. The closest was a blog post or two talking about the digital vs the physical world.</p>
+<p>However, I think this is also what I&rsquo;m going to use to describe the continuous tension I experience between the Apple and non-Apple personal data ecosystems in my life. For various good reasons, I use some Apple tools like Apple Notes, which have limited or no interoperability with the rest of my slightly more open data environment. See <a href="/2023/04/11/note-taking-strategy-2023/">my 2023 note-taking mega-post</a> if you&rsquo;re interested in the details.</p>
+<p>In addition to the Apple boundary, there are additional boundaries between for example the Google cloud (which my family uses) and the plain files on my filesystems.</p>
+<p>For how long will there still be room for &ldquo;files on someone&rsquo;s disc&rdquo;, currently my preference?</p>
+<p>In an ideal world, my data environment is fully unified. Everything I ingest or process lives in the same happy data universe and can be re-used and re-combined by me and my AIs. Interop with other folks must also be transparent and with low friction.</p>
+<p>This vision is quite far from my current reality.</p>
+<p>I think this problem is going to become a lot more prominent with new computing modalities like the Apple Vision Pro. Folks using the AVP will have their whole data universe inside the Apple garden in order to have access to their stuff in the AVP virtualities.</p>
+<p>What is the Meta (Quest) tribe going to do? Where is their data going to live?</p>
+<p>Furthermore, how are our personal AI assistants going to get unified access to our personal data in order to become more useful?</p>
+<p>At this point, it looks like it&rsquo;s going to become an extremely interesting and quite treacherous question of pick-your-cloud. The coice of personal cloud, AI and XR systems becomes inextricably intertwined, with lock-in almost guaranteed. The already existing problem of silos will probably become only more challenging.</p>
+<p>It feels like some (many?) folks are already there; they are happy to have selected one and one only of Apple, or Google, or Microsoft for everything that they do. Staying exclusive to that single ecosystem has many benefits, but one clearly also risks creating a reality where no other choice will be possible.</p>
+<p>What does your data landscape look like at this moment? Where do you think we&rsquo;re going to end up?</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #205: Real-time sometimes, asynchronous most of the time</title><link>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</link><pubDate>Sun, 20 Sep 2020 19:17:00 +0200</pubDate><guid>https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/</guid><description>This edition of the Weekly Head Voices looks back a the week from Monday September 14 to Sunday September 20 of the year 2020.
+Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!</description><content:encoded><![CDATA[ <p>This edition of the Weekly Head Voices looks back a the week from Monday
 September 14 to Sunday September 20 of the year 2020.</p>
+
+
 
 
 
@@ -17,22 +75,26 @@ September 14 to Sunday September 20 of the year 2020.</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu_83b4929e56d2f13b.jpg 480w,
             
-                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu_e6f63de4834dd81a.jpg 800w,
             
-                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu_944507bf69fb2650.jpg 1200w,
             
-                   https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu_9b44619bafefcd90.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu3c4d7b44a3f6f35cf74ba5bd77c19362_2731826_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/09/20/weekly-head-voices-205-real-time-sometimes-async-most-of-the-time/jonkershoek_pano_20200918_hu_e6f63de4834dd81a.jpg"
             
 
         
-            alt="Figure 1: Scene from a work get-together. It&amp;rsquo;s really nice when you can get into these mountains any day of the week!"/> </a><figcaption>
+            alt="Figure 1: Scene from a work get-together. It&rsquo;s really nice when you can get into these mountains any day of the week!"/> </a><figcaption>
             <p>Figure 1: Scene from a work get-together. It&rsquo;s really nice when you can get into these mountains any day of the week!</p>
         </figcaption>
 </figure>
@@ -177,9 +239,10 @@ your environment!</p>
 <h2 id="in-a-while-crocodile">In a while crocodile</h2>
 <p>Friends, have a great week!</p>
 <p>I wish you an abundance of calm, and of effective communication.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #118: Accelerando.</title><link>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</link><pubDate>Fri, 10 Mar 2017 21:14:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</guid><description> Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here: The view from the shark lookout all the way to Hangklip.
-bibtex references in orgmode For a technical report, I thought it would be handy going from Emacs orgmode (where all my lab notes live in any case) to PDF via LaTeX.
-This transformation is more or less built-in, but getting the whole machinery to work with citations from a local BibTeX export from my main Zotero database does not work out of the box.</description><content:encoded><![CDATA[ <p>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here:
+ ]]></content:encoded></item><item><title>Weekly Head Voices #118: Accelerando.</title><link>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</link><pubDate>Fri, 10 Mar 2017 21:14:38 +0000</pubDate><guid>https://cpbotha.net/2017/03/10/weekly-head-voices-118-accelerando/</guid><description>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here: The view from the shark lookout all the way to Hangklip.
+bibtex references in orgmode For a technical report, I thought it would be handy going from Emacs orgmode (where all my lab notes live in any case) to PDF via LaTeX.</description><content:encoded><![CDATA[ <p>Too much nerdery took place from Monday February 20 to Sunday March 5. Fortunately, be the end of that period, we found ourselves here:
+
+
 
 
 
@@ -210,6 +273,8 @@ This transformation is more or less built-in, but getting the whole machinery to
 <p>(That resistance is going to crumble, the question is just when. Having your stuff run locally and interactively for small experiments still beats the 150ms latency from this here tip of the African continent to the EU.)</p>
 <h1 id="nvpy-leaves-the-nest-">nvpy leaves the nest :`(</h1>
 <p>My most successful open source project to date is probably <a href="https://github.com/cpbotha/nvpy">nvpy</a>, the cross-platform (Linux, macOS, Windows) Simplenote client. 600+ stars on github is not A-list, but it’s definitely also nothing to sneeze at.
+
+
 
 
 
@@ -252,11 +317,13 @@ This transformation is more or less built-in, but getting the whole machinery to
 <p>That slowly advancing progress bar seems to be very effective at getting me to take stock of the year so far.</p>
 <p>Am I spending time on the right things? Am I spending just the right amount of effort on prioritising without this cogitation eating into the very resource it’s supposed to be optimising? Are my hobbies optimal?</p>
 <p>I think the answer is: One deliberate step after the other is best.</p>
-]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+ ]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description>Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
 Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
 <p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
 <p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
 <p>Read on for more.
+
+
 
 
 
@@ -292,6 +359,8 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
 <h2 id="a-scary-little-aside">A scary little aside</h2>
 <p>I just tried Check Point Labs&rsquo; <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
 
 
 
@@ -344,8 +413,10 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <ul>
 <li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
 </ul>
-]]></content:encoded></item><item><title>Google’s 0-shot neural machine translation system shows intriguing evidence of an interlingua</title><link>https://cpbotha.net/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/</link><pubDate>Wed, 23 Nov 2016 06:16:06 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/</guid><description> In recent research (full paper also available), researchers from the Google Brain and Google Translate teams have shown intriguing evidence of a so-called interlingua, that is, a language-agnostic common representation of sentences with the same meaning from different languages.
+ ]]></content:encoded></item><item><title>Google’s 0-shot neural machine translation system shows intriguing evidence of an interlingua</title><link>https://cpbotha.net/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/</link><pubDate>Wed, 23 Nov 2016 06:16:06 +0000</pubDate><guid>https://cpbotha.net/2016/11/23/googles-0-shot-neural-machine-translation-system-shows-intriguing-evidence-of-an-interlingua/</guid><description>In recent research (full paper also available), researchers from the Google Brain and Google Translate teams have shown intriguing evidence of a so-called interlingua, that is, a language-agnostic common representation of sentences with the same meaning from different languages.
 What I also found interesting about this work (and related to the above finding), is that they’re able to perform translations between language pairs that the system has never trained on.</description><content:encoded><![CDATA[ <p>In <a href="https://research.googleblog.com/2016/11/zero-shot-translation-with-googles.html">recent research</a> (<a href="https://arxiv.org/abs/1611.04558">full paper also available</a>), researchers from the Google Brain and Google Translate teams have shown intriguing evidence of a so-called <em>interlingua,</em> that is, a language-agnostic common representation of sentences with the same meaning from different languages.</p>
+
+
 
 
 
@@ -364,11 +435,13 @@ What I also found interesting about this work (and related to the above finding)
 
 <p>What I also found interesting about this work (and related to the above finding), is that they’re able to perform translations between language pairs that the system has never trained on.</p>
 <p>A further pleasant surprise was seeing how they used the <a href="https://lvdmaaten.github.io/tsne/">t-SNE visualization</a> technique to embed the high-dimensionally represented sentences in 2D, in order to study the interlingua phenomenon.</p>
-]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+ ]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description>Last week Apple announced their new Macbook Pro laptops.
 Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
-Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man! Phil Schiller not suiting up.</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
 <p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
 <p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
 
 
 
@@ -416,10 +489,12 @@ Was Apple, in the form of the Phil Schiller really trying to sell this?</descrip
 <p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
 <p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
 <p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
-]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description> HEY!
-I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however.</description><content:encoded><![CDATA[ <p>HEY!</p>
+ ]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description>HEY!
+I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a post about my EuroVis 2011 and my Schloss Dagstuhl SciVis seminar adventures.</description><content:encoded><![CDATA[ <p>HEY!</p>
 <p>I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a <a href="/2011/06/26/eurovis-2011/" title="eurovis 2011 post">post about my EuroVis 2011</a> and my <a href="/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/" title="dagstuhl scivis 2011 post">Schloss Dagstuhl SciVis seminar</a> adventures.</p>
 <p>Before the blasting commences, I would like to present some relaxing visual input brought to you via my cell phone camera, which at the time of capturing found itself in my hand, itself being inside the chapel in <a href="http://maps.google.nl/maps?q=Herberg+Op+Hodenpijl,+Rijksstraatweg,+Schipluiden&amp;hl=en%E2%89%AA=51.987252,4.321012&amp;spn=0.002355,0.005348&amp;sll=51.986948,4.321007&amp;sspn=0.004711,0.010697&amp;t=h&amp;z=18" title="google maps of herberg op hodenpijl">Herberg op Hodenpijl</a>, a short westward cycle from my house:
+
+
 
 
 
@@ -440,6 +515,8 @@ I’m still here, and it seems I really have to catch up on my backlog of WHVs, 
 </figure>
 </p>
 <p>The picturesque surroundings are home to the chapel, which hosted an art exhibition at that point, and an organic restaurant and grocer. Most (all?) of the produce comes from a small farm across the road that you can also visit. The goats are really friendly. You could do worse than popping by on a sunny day.
+
+
 
 
 
@@ -483,10 +560,12 @@ I’m still here, and it seems I really have to catch up on my backlog of WHVs, 
 <p>To you I might appear fickle, but I guarantee that it’s just hyperactivity. I’ve since adjusted my note-taking strategy again. As you will have seen in the comments, Pieter Kitslaar subtly influenced me to go searching for a note-taking solution that syncs between phone and everywhere else. Fortunately, I ran into the <a href="http://simplenoteapp.com/" title="simplenote universe">SimpleNote universe</a> and I’m now officially in <strong>note-taking heaven</strong>. I have <a href="https://market.android.com/details?id=com.teragadgets.android.notes" title="flick note market page">Flick Note</a> on my Android, the SyncPad extension on Chrome (for sometimes) and <a href="http://www.resoph.com/" title="resoph notes website">ResophNotes</a> on Windows and on Linux with Wine. All apps work exactly as I would expect a super-fast and efficient note-taking app to work, with real-time incremental searching, hotkeys <strong>everywhere</strong>, and best of all, offline use and transparent syncing. <strong>ResophNotes is especially cool, definitely give it a shot.</strong></p>
 <p>So I’m using this SimpleNote setup for all my personal knowledge base and general note-taking needs. For detailed work and lab journaling, I’m now using linear OpenDocument files on my Dropbox, which solves the offline problem I had with Google Docs, which I do still adore for collaborative work.</p>
 <p>Lemme know in the comments what you think!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #5: Google Docs, Bad Netbook Karma, Cold does not cause cold.</title><link>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</link><pubDate>Sun, 27 Sep 2009 16:47:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</guid><description> It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.
-Speaking of shortness, I did get some off-blog (yes, face-to-face!</description><content:encoded><![CDATA[ <p>It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #5: Google Docs, Bad Netbook Karma, Cold does not cause cold.</title><link>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</link><pubDate>Sun, 27 Sep 2009 16:47:36 +0000</pubDate><guid>https://cpbotha.net/2009/09/27/weekly-head-voices-5-google-docs-netbook-karma-common-cold/</guid><description>It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.
+Speaking of shortness, I did get some off-blog (yes, face-to-face!) feedback on the previous edition of the WHV. Said (highly appreciated) feedback concerned the length of these posts, more specifically, that there was too much of it. It’s important to remember that I in fact do write these things with the chronically time-challenged in mind. One of the measures I take is to bold the most important themes in each paragraph, so that one can easily skip on to the next paragraph if the mentioned theme does not take one’s fancy. This week, I’m going even further by employing section headings! As always, please feel free to skip paragraphs and sections.</description><content:encoded><![CDATA[ <p>It’s been a terribly quiet week blog-wise, but I did make that promise four weeks ago, and, seeing that I want to be a columnist when I grow up (hint hint employers of columnists) and those guys and girls simply HAVE to think up something interesting every single week, I too am going to do my best to add sweetness to the shortness that you see before you.</p>
 <p>Speaking of shortness, I did get some off-blog (yes, face-to-face!) feedback on the previous edition of the WHV. Said (highly appreciated) feedback concerned the length of these posts, more specifically, that there was too much of it. It’s important to remember that I in fact do write these things with the chronically time-challenged in mind. One of the measures I take is to bold the most important themes in each paragraph, so that one can easily skip on to the next paragraph if the mentioned theme does not take one’s fancy. This week, I’m going even further by employing section headings! As always, <strong>please feel free to skip paragraphs and sections.</strong></p>
 <p>Before jumping in, I give you the traditional WHV photo, this time of my little Weber doing its thing (thanks to some crucial material supplied by <a href="http://tokkiebytes.wordpress.com/" title="My friendly neighbour's blog.  He is in fact my only neighbour with a blog, as far as I know.">my friendly neighbour</a>) on the most brilliant of all South African celebrations: <a href="http://braai4heritage.co.za/" title="more info on national braai day">National Braai day!</a>
+
+
 
 
 
@@ -510,6 +589,8 @@ Speaking of shortness, I did get some off-blog (yes, face-to-face!</description>
 <p><a href="http://docs.google.com/" title="Link to Google Docs">Google Docs</a> is Google’s fantastic attempt (well, it was initially developed by Writely, which was soon assimilated by and has since been happily functioning inside of The Google Supermind) at an office suite. The whole thing, including Documents, Spreadsheets, and Presentations, runs in your web browser. This means that you always have access to your stuff from anywhere, and you never have to install any extra software. With the offline functionality, you can continue working even without an internet connection.</p>
 <p>This was already pretty neat, but then they had to go and make it even neater. In my line of business, one of the coolest features is the fact that you can <strong>concurrently edit the same document with any number of collaborators</strong>. I’ve written research proposals together with colleagues before, where at a number of occasions we were actually editing the same paragraph of text from two different cities, and Docs didn’t break a sweat merging our edits in real-time. This functionality also eliminates the very irritating “Could you send me the latest version of the proposal” emails, the subsequent waiting and then the infuriating expired time window when the latest version finally arrives in the email.</p>
 <p>A recent feature which is admittedly less impressive to the public at large, but made my geek heart miss several beats, was the built-in equation editor. Imagine my surprise when I tried this out for the first time and realised that it is in fact a <strong>real-time LaTeX math typesetter</strong>: You type your incredibly complex formula in standard LaTeX, and Google Docs shows the typeset math updated in real-time. This is even useful if you’re NOT using Google Docs but just want to fine-tune the formulas in your LaTeX article.  Check the screenshot below:
+
+
 
 
 
@@ -553,4 +634,4 @@ Speaking of shortness, I did get some off-blog (yes, face-to-face!</description>
 </blockquote>
 <p>Just to ram that point home: <strong>Going outside in the cold, or being exposed to cold weather or direct chilling, very probably does not increase your chances of catching the common cold!</strong> Similar to this is the work on influenza. It turns out that there’s a <a href="http://www.sciencedaily.com/releases/2009/02/090209205148.htm" title="article on link between flu and absolute humidity">link between the flu and absolute humidity</a>: The <em>lower</em> the humidity, the higher the chance of getting the flu. It’s quite probable that you catch the flu virus not from going outside in winter, but from staying inside your heated and hence slightly drier home.  Chalk one up for all the kids getting told, unfairly and without scientific basis, to dress up before going out or risk getting ill.</p>
 <p>On that rebellious note, have a super duper week!  (… and please do your thing in the comments below …)</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>remarkjs on voices in my head</title><link>https://cpbotha.net/tags/remarkjs/</link><description>Recent content in remarkjs on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 22 May 2019 22:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/remarkjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #171: ICEMiRB.</title><link>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</link><pubDate>Wed, 22 May 2019 22:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</guid><description> Down here, you never know what sort of fantastic beasts you could run into. I met this particular fullmetal creature right about here.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Remarkjs on voices in my head</title><link>https://cpbotha.net/tags/remarkjs/</link><description>Recent content in Remarkjs on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 22 May 2019 22:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/remarkjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #171: ICEMiRB.</title><link>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</link><pubDate>Wed, 22 May 2019 22:38:00 +0200</pubDate><guid>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</guid><description> Down here, you never know what sort of fantastic beasts you could run into. I met this particular fullmetal creature right about here.
 Dear friends,
 In this post, I do a particularly lossy review of my trip through time, from Monday May 6 to Sunday May 19, 2019.
 First we talk about sleep, then a long part on technical tricks, then a slightly more backyard philosophical piece on human tool sharpening, and finally the announcement of a new academic event somewhere in the far or near or medium term future.</description><content:encoded><![CDATA[ <figure>
@@ -25,22 +25,22 @@ First we talk about sleep, then a long part on technical tricks, then a slightly
   
   srcset='
   
-    https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_bcd57a5072bf9e1b.jpg 480w
   
   
-    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_69a49565a53a1413.jpg 800w
   
   
-    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_fb9cdec0b4146e63.jpg 1200w
   
   
-    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_14aacecae2fd7902.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_69a49565a53a1413.jpg"
   
 
    />
@@ -211,13 +211,13 @@ post</a>.</p>
 <p>This is quite convenient, and something I was missing in ivy, which I use for
 example as part of <code>find-file-in-project</code>.</p>
 <p>Weeeeell, by adding the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; for any ivy-read, press M-o to get action menu,</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; then &#39;d&#39; to start dired with that file selected</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#268bd2">ivy-add-actions</span>
-</span></span><span style="display:flex;"><span> <span style="color:#268bd2">t</span> <span style="color:#93a1a1;font-style:italic">;; add for all types</span>
-</span></span><span style="display:flex;"><span> <span style="color:#93a1a1;font-style:italic">;; (cdr x) gets the full filename, not just relative</span>
-</span></span><span style="display:flex;"><span> `((<span style="color:#2aa198">&#34;d&#34;</span> ,(<span style="color:#cb4b16">lambda</span> (<span style="color:#268bd2">x</span>) (<span style="color:#268bd2">dired-jump</span> <span style="color:#268bd2">nil</span> (<span style="color:#268bd2">cdr</span> <span style="color:#268bd2">x</span>))) <span style="color:#2aa198">&#34;dired&#34;</span>)
-</span></span><span style="display:flex;"><span>   ))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; for any ivy-read, press M-o to get action menu,</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; then &#39;d&#39; to start dired with that file selected</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#953800">ivy-add-actions</span>
+</span></span><span style="display:flex;"><span> <span style="color:#0550ae">t</span> <span style="color:#57606a">;; add for all types</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;; (cdr x) gets the full filename, not just relative</span>
+</span></span><span style="display:flex;"><span> <span style="color:#0550ae">`</span><span style="color:#1f2328">((</span><span style="color:#0a3069">&#34;d&#34;</span> <span style="color:#0550ae">,</span><span style="color:#1f2328">(</span><span style="color:#6639ba">lambda</span> <span style="color:#1f2328">(</span><span style="color:#953800">x</span><span style="color:#1f2328">)</span> <span style="color:#1f2328">(</span><span style="color:#953800">dired-jump</span> <span style="color:#0550ae">nil</span> <span style="color:#1f2328">(</span><span style="color:#6639ba">cdr</span> <span style="color:#953800">x</span><span style="color:#1f2328">)))</span> <span style="color:#0a3069">&#34;dired&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#1f2328">))</span>
 </span></span></code></pre></div><p>&hellip; you get to select <code>d</code> from the <code>M-o</code> action menu to <code>dired-jump</code> (a
 wonderful command by itself, usually bound to <code>C-x C-j</code>) to the currently
 focused file.</p>
@@ -284,4 +284,4 @@ taglines:</p>
 <p>ICEMiRB - The Mindfulness is silent.</p>
 </blockquote>
 <p>or not.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

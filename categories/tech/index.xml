@@ -1,7 +1,181 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on voices in my head</title><link>https://cpbotha.net/categories/tech/</link><description>Recent content in tech on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 21 Sep 2019 16:19:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
-In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tech on voices in my head</title><link>https://cpbotha.net/categories/tech/</link><description>Recent content in Tech on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 10 Aug 2024 23:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Hivemind / Proximity: Distributed interactive personal lighting art project at AfrikaBurn 2018</title><link>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</link><pubDate>Sat, 10 Aug 2024 23:10:00 +0200</pubDate><guid>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</guid><description>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&amp;rsquo;s us!) was again present and active with a range of workshops and other learning experiences.
+(Strangely, although I wrote vaguely about our AB 2018 experience on this blog shortly after the event, I did not even mention this electronics project, and now it&amp;rsquo;s only taken 6 years to get around to the nerdy bits.)
+That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium, each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated helium balloons floating above their humans as they were roaming over the Binnekring.)</description><content:encoded><![CDATA[ <p>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&rsquo;s us!) was again present and active with a
+range of workshops and other learning experiences.</p>
+<p>(Strangely, although <a href="/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/">I wrote vaguely about our AB 2018 experience on this blog shortly after the
+event</a>, I did not even mention this electronics
+project, and now it&rsquo;s only taken 6 years to get around to the nerdy bits.)</p>
+<p>That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had
+in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of
+helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium,
+each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated
+helium balloons floating above their humans as they were roaming over the Binnekring.)</p>
+<p>I was the main hardware and software designer of our 2018 electronic artwork, eventually titled &ldquo;Hivemind / Proximity&rdquo;,
+and now the main topic of this post. Friend PK helped a lot in the earlier stages coming up with ideas, and building
+test versions of my hardware and software designs, and later constructing the 7 production (haha) units, both at home
+and in the desert, where we got additional help from more of our AfrikaBurn besties.</p>
+<p>For some or other reason, we were less interested in taking photos and making movies, so I&rsquo;ve had to scratch around to
+find illustrative media for this post.</p>
+<h2 id="the-final-product">The final product</h2>
+<p>In the end we had seven people (that&rsquo;s all of us) walking around the desert, each with a 25cm diameter circle of
+coloured leds on their chest and a battery-powered arduino based controller on their waist that was in wireless
+communication with all of the other units, with a range of a few hundred metres.</p>
+<p>On each of the chest circles, each of the other team members was represented by a globally consistently coloured light
+orbiting at a rate correlating with how close that team member was. The further away that team member went, the slower
+their colour would rotate, until the units lost communication, at which point that member&rsquo;s light would start rotating
+faster and faster in the opposite direction.</p>
+<p>Once that team member came back in range, their light would start orbiting in the &ldquo;right&rdquo; direction, and would orbit
+faster as they got closer.</p>
+<p>This proximity visualization worked independently for each pair of team members, and hence for the group as a whole, as
+you can hopefully imagine.</p>
+<p>This early demo gives a good idea of what the animation looked like:
+<video src="circling-leds.mp4" controls=yes /></p>
+<p>The following extremely shaky video shows the assembled units, all happy as they are close to each other, shortly after
+we did the final assembly in the raging Tankwa desert winds and dust. Here you can also see the effect of the diffuse
+tubing that we put the leds in: <video src="circling-leds-assembled.mp4" controls=yes /></p>
+<p>Finally, the following photo shows a partially assembled unit consisting of arduino, xbee shield, xbee radio and the
+battery pack on the side with 4 x 1.5V AA batteries. Friend PK sourced a number of nylon dog treat bags, which were just
+big enough to take the boards + battery pack and thus serve as our super professional production packaging. 
+
+
+
+
+
+
+
+
+
+<figure><a href="assembly.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_d2beac0d5222f3b6.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_8d680cadefcc37a.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_732c04b6a231f405.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg"
+            
+
+        /> </a>
+</figure>
+</p>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><a href="https://robotdyn.com/samd21-m0.html">Robotdyn SAMD21 M0</a>: ARM Cortex M0 32bit Arduino clone. Fast enough to animate the LEDs while communicating with all other units and keeping track of their proximity.</li>
+<li><a href="https://www.digi.com/products/models/xb24cawit-001">XBee S2C XB24CAWIT-001 radio for 802.15.4</a>: For wireless communication comms and RSSI feedback between units</li>
+<li><a href="https://vxlabs.com/2018/03/23/which-jumper-to-set-on-the-itead-xbee-shield-v1-1-for-use-with-a-3-3v-arduino/">ITEAD Studio XBee shield v1.1</a>: To mount XBee onto the Arduino. I&rsquo;ve linked to my vxlabs blog post about this unit, because it has important info re jumper configuration which can save you much time.</li>
+<li><a href="https://www.amazon.com/icever-WS2812B-MagicRGB-LED-Strip/dp/B0CFTP3S41/">A few metres of 60/m WS2812B programmable LED strips (5V, 3 wire)</a></li>
+<li><a href="https://www.robotics.org.za/LEVEL-4P">4 channel 3.3V to 5V logic level shifter (LEVEL-4P, BOB-12009)</a>: Convert 3.3V SAMD21 output to 5V required for programmable LEDs data line (durn&hellip;)</li>
+</ul>
+<p>Getting all 7 of these units built and programmed, the final few in the desert at dusk of day 2 at the Burn, was quite a
+challenge, requiring a gas powered soldering iron and liberal application of WvdL&rsquo;s (aka Broken Pipe) glue gun.</p>
+<p>Especially the 3.3V to 5V level shifter added unnecessary complexity to the already precarious connection from power supply and controller board to the LED circle.</p>
+<h3 id="the-rssi-proximity-trick">The RSSI proximity &ldquo;trick&rdquo;</h3>
+<p>The SAMD21 is the electronic heart of the system.</p>
+<p>It runs a special programme (see next section) that uses the XBee radio to broadcast a packet to the 802.15.4 wireless private area network (PAN), consisting of all of the units, every 1.5 seconds. It also listens, via the XBee radio, for any incoming packets.</p>
+<p>Each incoming packet contains its sending ID.</p>
+<p>Along with that packet, we also get the RSSI, which is an indicator of signal strength.</p>
+<p>That RSSI is also a pretty good measurement of the <em>proximity</em> of the two units, and by proxy of their wearers.</p>
+<p>If we are standing facing each other, the RSSI will be high. If I turn my back to you, the RSSI will be a bit lower. If I walk away from you, it will become lower still.</p>
+<p>So, each unit maintains a list of IDs with the last known RSSI, and also when it last received a packet from that ID. It uses the RSSI to visualize proximity (that person&rsquo;s colour orbits faster the closer they are), and the age to detect person lost contact (orbits faster and faster in the other direction).</p>
+<h2 id="software">Software</h2>
+<p>You can find the full commented <a href="https://github.com/cpbotha/ab-hivemind">C++ source code for this project on my github</a>.</p>
+<p>Please do take a quick browse through the code as well, but here are some noteworthy learnings and observations:</p>
+<ul>
+<li>You can use this code for any number of wearable units (people), just remember to set <code>XBEE_SWARM_SIZE</code>.</li>
+<li>It took me so much time to get 100% reliable communication from the SAMD21 with the XBee. This was probably the
+biggest technical stumbling block. Besides documentation issues (see ITEAD linked post above), it the solution was to
+be super patient with the XBee. You&rsquo;ll see in the code, function <code>addressRead()</code>, that we just keep on trying, with
+generous waits, until we get a successful link.</li>
+<li>Like any good datavis practitioner, I opted for a color scheme from <a href="https://colorbrewer2.org/">ColorBrewer2</a>.</li>
+<li>As you can see in the main <code>loop()</code>, the paint loop is <em>lazy</em> and hence efficient, with three main event handlers
+triggering at different intervals of the arduino clock. This includes the 60fps LED animator, obviously triggering at
+the notorious 16ms interval. I used the fantastic <code>EVERY_N_MILLIS</code> macro from the even more fantastic <a href="https://fastled.io/">FastLED
+animation library</a>.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>In spite of desert soldering, glue-gun glue and duct tape holding everything together, all units worked in the pitch
+dark of the desert, and were at times even used, quite effectively, to locate <em>utterly</em> lost team members in the
+otherwise utterly reception-free environment.</p>
+<p>If we ever do a v2 of this, we would produce a single board, with the smallest possible number of connections to
+lighting and power.</p>
+<p>Taking all of this into account, but especially thanks to our Burniversity peeps who were so positively curious and
+willing to pour their energy into the difficult performance part, this was such a beautiful and worthwhile endeavour.</p>
+ ]]></content:encoded></item><item><title>On the two world problem and personal knowledge management</title><link>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</link><pubDate>Sun, 11 Feb 2024 12:52:00 +0200</pubDate><guid>https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/</guid><description> Figure 1: Photo by Igor Omilaev on Unsplash
+In this recent Mojo community blog post, I came across the term &amp;ldquo;two-world problem&amp;rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.
+As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<figure><a href="igor-omilaev-p059oXBEWe4-unsplash.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_4816191a2dae1d67.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_aa120e91e6d1f8dd.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_fc88fb9c84cc0c4d.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/02/11/two-world-problem-and-pkm/igor-omilaev-p059oXBEWe4-unsplash_hu_207a5fc72d4fd5bf.jpg"
+            
+
+        
+            alt="Figure 1: Photo by Igor Omilaev on Unsplash"/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Photo by <a href="https://unsplash.com/@omilaev">Igor Omilaev</a> on <a href="https://unsplash.com/photos/a-pair-of-virtual-glasses-on-a-pink-and-yellow-background-p059oXBEWe4">Unsplash</a></p>
+        </figcaption>
+</figure>
+
+<p>In this recent <a href="https://www.modular.com/blog/outperforming-rust-benchmarks-with-mojo">Mojo community blog post</a>, I came across the term &ldquo;two-world problem&rdquo;, describing the disconnect in bio-informatics between the high-performance, low-level (often C++) and the more expressive, high-level (often Python) software layers.</p>
+<p>As someone who has experienced this first-hand in scientific visualization and image processing, also between C++ and Python (quite acutely with VTK and ITK, less so but still relevant with SciPy), I really like this term.</p>
+<p>I could not find any canonical sources for its use in this context. The closest was a blog post or two talking about the digital vs the physical world.</p>
+<p>However, I think this is also what I&rsquo;m going to use to describe the continuous tension I experience between the Apple and non-Apple personal data ecosystems in my life. For various good reasons, I use some Apple tools like Apple Notes, which have limited or no interoperability with the rest of my slightly more open data environment. See <a href="/2023/04/11/note-taking-strategy-2023/">my 2023 note-taking mega-post</a> if you&rsquo;re interested in the details.</p>
+<p>In addition to the Apple boundary, there are additional boundaries between for example the Google cloud (which my family uses) and the plain files on my filesystems.</p>
+<p>For how long will there still be room for &ldquo;files on someone&rsquo;s disc&rdquo;, currently my preference?</p>
+<p>In an ideal world, my data environment is fully unified. Everything I ingest or process lives in the same happy data universe and can be re-used and re-combined by me and my AIs. Interop with other folks must also be transparent and with low friction.</p>
+<p>This vision is quite far from my current reality.</p>
+<p>I think this problem is going to become a lot more prominent with new computing modalities like the Apple Vision Pro. Folks using the AVP will have their whole data universe inside the Apple garden in order to have access to their stuff in the AVP virtualities.</p>
+<p>What is the Meta (Quest) tribe going to do? Where is their data going to live?</p>
+<p>Furthermore, how are our personal AI assistants going to get unified access to our personal data in order to become more useful?</p>
+<p>At this point, it looks like it&rsquo;s going to become an extremely interesting and quite treacherous question of pick-your-cloud. The coice of personal cloud, AI and XR systems becomes inextricably intertwined, with lock-in almost guaranteed. The already existing problem of silos will probably become only more challenging.</p>
+<p>It feels like some (many?) folks are already there; they are happy to have selected one and one only of Apple, or Google, or Microsoft for everything that they do. Staying exclusive to that single ecosystem has many benefits, but one clearly also risks creating a reality where no other choice will be possible.</p>
+<p>What does your data landscape look like at this moment? Where do you think we&rsquo;re going to end up?</p>
+ ]]></content:encoded></item><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description>At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &amp;ldquo;system&amp;rdquo; has co-evolved to support this.
 Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
-What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+What you&amp;rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &amp;ldquo;keep a lab journal&amp;rdquo;.</description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
 then</a>.</p>
 <p>In the intervening three and a half years, my note-taking has further evolved
 to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
@@ -12,6 +186,8 @@ management</em></a>.</p>
 <p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
 learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
 journal&rdquo;</a>.</p>
+<p><em>Note: You can now also read my more recent post <a href="/2023/04/11/note-taking-strategy-2023/">Note-taking strategy
+2023</a>.</em></p>
 <h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
 <p>My approach consists of four main components:</p>
 <p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
@@ -340,45 +516,45 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;/full/path/to/current/month-journal/&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#0a3069">&#34;t&#34;</span> <span style="color:#0a3069">&#34;Todo&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+headline</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;Tasks&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;j&#34;</span> <span style="color:#0a3069">&#34;Journal&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;p&#34;</span> <span style="color:#0a3069">&#34;Day planning&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)))</span>
 </span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
@@ -389,7 +565,7 @@ Pencil</a>.</li>
 <li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
 contact</a>.</li>
 </ul>
-]]></content:encoded></item><item><title>Android vs iPhone performance: A quick note.</title><link>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</link><pubDate>Sun, 12 Feb 2017 13:40:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</guid><description> I&amp;rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&amp;rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.
+ ]]></content:encoded></item><item><title>Android vs iPhone performance: A quick note.</title><link>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</link><pubDate>Sun, 12 Feb 2017 13:40:28 +0000</pubDate><guid>https://cpbotha.net/2017/02/12/android-vs-iphone-performance-a-quick-note/</guid><description>I&amp;rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&amp;rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.
 I would still like to leave you with some interesting reading material. Hence this quick note.
 From this discussion post (December 2016) by CodingHorror, aka Jeff Atwood, one of the two founders of the whole StackOverflow empire, where he measures the relative performance of his discourse web-app, the following choice quote:</description><content:encoded><![CDATA[ <p>I&rsquo;ve been spending some time doing research on the relative (perceived) performance of flagship Android phones compared to iPhones. I will probably not write the extended post I was planning to, as it seems that it&rsquo;s hard to answer this question scientifically, and, perhaps more importantly, it makes people Very Very Angry.</p>
 <p>I would still like to leave you with some interesting reading material. Hence this quick note.</p>
@@ -400,6 +576,8 @@ devices, depending on the vagaries of the browser used. Still below the 2013
 iPhone 5s which can be purchased used for about $150 these days.</p>
 </blockquote>
 <p>That&rsquo;s pretty amazing: Based on the <a href="http://browserbench.org/Speedometer/">browserbench speedtest</a>, which is supposed to reflect quite realistically real-world web-browsing performance, <strong>the 2013 iPhone 5s outperforms 2016 Android flagships</strong>. Ouch.</p>
+
+
 
 
 
@@ -435,11 +613,13 @@ designs validated, but we also find practical benefits of using 8-core
 &ldquo;little&rdquo; designs over similar single-cluster 4-core SoCs.</p>
 </blockquote>
 <p>My personal experience with the Snapdragon 808 (6 core big.LITTLE) in my <a href="http://www.gsmarena.com/blackberry_priv-7587.php">BlackBerry PRIV</a> (late 2015 flagship) has been less than stellar. I love the phone for its screen, physical keyboard and other little idiosyncrasies, but the fact that I often have to wait more than a second after tapping an icon or a button before it responds, combined with <a href="/2016/11/27/android-security-in-2016-is-a-mess/">the terrible Android security story</a> (where the PRIV paradoxically does quite well), makes me wonder about the future smartphone landscape for Android enthusiasts.</p>
-]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+ ]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description>Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
 Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
 <p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
 <p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
 <p>Read on for more.
+
+
 
 
 
@@ -475,6 +655,8 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
 <h2 id="a-scary-little-aside">A scary little aside</h2>
 <p>I just tried Check Point Labs&rsquo; <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
 
 
 
@@ -527,11 +709,13 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <ul>
 <li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
 </ul>
-]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description> Last week Apple announced their new Macbook Pro laptops.
+ ]]></content:encoded></item><item><title>Why it’s healthy that Microsoft and Google are eating Apple’s lunch</title><link>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</link><pubDate>Wed, 02 Nov 2016 08:41:44 +0000</pubDate><guid>https://cpbotha.net/2016/11/02/why-its-healthy-that-microsoft-and-google-are-eating-apples-lunch/</guid><description>Last week Apple announced their new Macbook Pro laptops.
 Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.
-Was Apple, in the form of the Phil Schiller really trying to sell this?</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
+Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man! Phil Schiller not suiting up.</description><content:encoded><![CDATA[ <p>Last week Apple announced their new Macbook Pro laptops.</p>
 <p>Their great innovation (a “game-changer” in their words) was a sliver of a touch screen above the keyboard which is able to show touchable context-specific buttons. They’ve dubbed this the TouchBar. Although the OLED technology is certainly pretty, one could almost hear the enormously disappointed collective “MEH” uttered by millions of users and suddenly erstwhile Apple fans world-wide.</p>
 <p>Was Apple, in the form of the Phil Schiller really trying to sell this? By the way, if you represent Apple, a company traditionally known for its great design sensibilities, should you not spend just a little more money to dress a little better than the couture equivalent of an old Lada? Suit up man!
+
+
 
 
 
@@ -579,8 +763,8 @@ Was Apple, in the form of the Phil Schiller really trying to sell this?</descrip
 <p>Fortunately, when a company like Microsoft throws an innovation curve-ball that appeals to our emotion and to our imagination, they can rock the boat for everyone.</p>
 <p>Even although we’re talking about three absolute behemoths, it’s gratifying that they, as well as their smaller competitors, keep each other on their toes through the fickle wonder that is human behaviour.</p>
 <p>Here’s to hoping that AI never manages to model or predict our precious caprice. :)</p>
-]]></content:encoded></item><item><title>ThunderBird support of RFC 3676 format=flowed is half-broken</title><link>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</link><pubDate>Tue, 27 Sep 2016 07:00:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</guid><description> Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
-What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence.</description><content:encoded><![CDATA[ <p>Summary: <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
+ ]]></content:encoded></item><item><title>ThunderBird support of RFC 3676 format=flowed is half-broken</title><link>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</link><pubDate>Tue, 27 Sep 2016 07:00:25 +0000</pubDate><guid>https://cpbotha.net/2016/09/27/thunderbird-support-of-rfc-3676-formatflowed-is-half-broken/</guid><description>Summary: RFC 3676 format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.
+What is RFC 3676 format=flowed? Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through RFC 3676 (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</description><content:encoded><![CDATA[ <p>Summary: <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> format=flowed is an elegant and backwards-compatible method to have plaintext emails reflowed on (mobile) devices that support this feature. Although this standard has been around for more than 10 years, and Thunderbird 45.3.0 reports supporting it, it only does so on non-quoted text. Most unfortunately, it wraps quoted text incorrectly, disabling reflowing on receiving devices, resulting in embarrassingly ugly email rendering.</p>
 <h1 id="what-is-rfc-3676-formatflowed">What is RFC 3676 format=flowed?</h1>
 <p>Half of the people on the internet are of less than average intelligence. This is especially evident in discussions around format=flowed. To exacerbate matters, participants in most cases have not taken the time to actually read through <a href="http://www.ietf.org/rfc/rfc3676.txt">RFC 3676</a> (go on, click the link!) and instead prefer to argue on the basis of their very strong emotions and opinions around text wrapping.</p>
 <p>I would like to try and summarise very compactly what exactly format=flowed is and how it works.</p>
@@ -605,6 +789,8 @@ it made me like the sender of the email less.</pre>
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/09/2016-09-27-091622_761x286_scrot.png">
     <img
         
@@ -617,6 +803,8 @@ it made me like the sender of the email less.</pre>
 </figure>
 </p>
 <p>This is really very sad, and also quite unnecessary. When the email arrives on a mobile device, the quoted reply can’t be reflowed, and it looks like this:
+
+
 
 
 
@@ -653,8 +841,10 @@ emails. This adds to <a href="/2016/11/27/android-security-in-2016-is-a-mess/">t
 reasons</a> I have for sticking
 with their mobile devices.</li>
 </ul>
-]]></content:encoded></item><item><title>User interface boo-boo #1: Disabled controls without explanations!</title><link>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</link><pubDate>Wed, 06 Jan 2016 20:24:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</guid><description> Today as I was configuring some build settings in Qt Creator, an otherwise really great product, I was faced with this extremely frustrating situation:
+ ]]></content:encoded></item><item><title>User interface boo-boo #1: Disabled controls without explanations!</title><link>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</link><pubDate>Wed, 06 Jan 2016 20:24:38 +0000</pubDate><guid>https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/</guid><description>Today as I was configuring some build settings in Qt Creator, an otherwise really great product, I was faced with this extremely frustrating situation:
 I absolutely, definitely needed to configure the debugger. However, the controls required to do so were disabled, as can be seen by their greyed out visual state. Although it was easy to find the controls for configuring the debugger (good discoverability), it was impossible to find out exactly why the software would not allow me to do so.</description><content:encoded><![CDATA[ <p>Today as I was configuring some build settings in <a href="http://www.qt.io/ide/">Qt Creator</a>, an otherwise really great product, I was faced with this extremely frustrating situation:</p>
+
+
 
 
 
@@ -676,11 +866,13 @@ I absolutely, definitely needed to configure the debugger. However, the controls
 <p>If you have or you were planning to use disabled controls in your next project without an easily discoverable (read: right on the disabled control itself) explanation of the reason (and fix) for having disabled them, I would like to say this:</p>
 <img alt="JUST... JUST STOP." class="alignnone wp-image-2317 size-full" data-attachment-id="2317" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"Picasa","camera":"","caption":"","created_timestamp":"1339193494","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"1"}' data-image-title="stop-just-stop" data-large-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-300x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" data-orig-size="358,358" data-permalink="https://cpbotha.net/2016/01/06/user-interface-boo-boo-1-disabled-controls/stop-just-stop/" height="358" sizes="(max-width: 358px) 85vw, 358px" src="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg" srcset="https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop.jpg 358w, https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-150x150.jpg 150w, https://cpbotha.net/wp-content/uploads/2016/01/stop-just-stop-300x300.jpg 300w" width="358"/>
 <p>I’ve singled out Qt Creator due to my experience today, but there are too many examples of this in modern user interfaces. <strong>Hooking up discoverable explanations to disabled controls</strong> is a small effort on the part of the programmer which multiplies to a significant time-saving and thus <strong>value-add for your users</strong>.</p>
-]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description> I’m probably what one might call an obsessive note-taker.
+ ]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description>I’m probably what one might call an obsessive note-taker.
 I’ve talked in the past about the importance of keeping a lab journal. Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve experimented with a number of different tools (see under “Nerd News”) to do this.</description><content:encoded><![CDATA[ <p>I’m probably what one might call an obsessive note-taker.</p>
 <p>I’ve <a href="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/">talked in the past about the importance of keeping a lab journal.</a> Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve <a href="https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/">experimented with a number of different tools</a> (see under “Nerd News”) to do this.</p>
 <p>This post summarises my current selection of tools.</p>
 <p>For making notes with a visual aspect, for example photos of beers that I’ve tasted, and sometimes screenshots of websites, I use <a href="https://www.google.com/keep/">Google Keep</a>. This has a really great Android app with which you can easily save a website, including screenshot, using the Android “share with” functionality. On the desktop, this has a web-app that looks like this:</p>
+
+
 
 
 
@@ -707,6 +899,8 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/nvpy_screenie.png">
     <img
         
@@ -725,6 +919,8 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png">
     <img
         
@@ -735,10 +931,10 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 <p>Parts of these journals <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">can be sent directly to your WordPress blog from within Emacs</a>, and you can generate high quality PDFs at the press of a typical simple 12 key Emacs shortcut combo. This being Emacs, the experience can be easily customised to emulate SimpleNote in terms of interactivity, but this will not easily compete with SimpleNote proper in terms of transparent syncing between all devices and in terms of accessibility on mobile.</p>
 <p>Using these three tools together currently takes good care of my note-taking requirements. However, I think that there might be room for a fourth type of tool that is more visual, supports rich and graphical linking between data items and even between sub-components of such items and, perhaps most importantly, enables us to build note landscapes that are natively as non-linear as our thoughts.</p>
-]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description> (Post updated on January 8, 2021. See section at the end.)
+ ]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description>(Post updated on January 8, 2021. See section at the end.)
 Signal, the open source messaging and voice calling app that does end-to-end encryption. The whole world is using WhatsApp to message each other. I often do too, because I want to inter-operate with the rest of the world.
 However, WhatsApp belongs to Facebook.
-Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
+Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.), the temptation to link all of your WhatsApp messages with Facebook logins (a straight-forward process, as they have the mobile phone numbers of a great number of their users) must be quite tempting to the people at Facebook. Imagine how well they would then be able to target their advertising, based on their access to both your Facebook profile and your private WhatsApp messages!</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
 <figure>
 <img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
 <figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
@@ -786,100 +982,4 @@ but I would greatly prefer chatting with you on Signal.</p>
 Facebook</a>. They will indeed link up telephone numbers and social networks,
 meaning that both parties will get a tremendous boost in what they know about
 you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
-]]></content:encoded></item><item><title>South Africa, why are you not running Linux?</title><link>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</link><pubDate>Sat, 31 May 2014 15:30:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/05/31/south-africa-why-are-you-not-running-linux/</guid><description> Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.
-Trusty Tahr, as 14.04 is known, is beautiful, functional and still free. Ubuntu means “humanity to others”. It also means pretty desktop!
-This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux.</description><content:encoded><![CDATA[ <p>Ubuntu, my personal favourite Linux distribution, has recently released version 14.04 LTS. LTS stands for Long Term Support: LTS releases are supported for 5 years, meaning that with 14.04 you are covered until 2019.</p>
-<p>Trusty Tahr, as 14.04 is known, is beautiful, functional and still free.
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2014/05/wpid-screenie-ubuntu-1404-1024x576.jpg"
-        
-            alt="Ubuntu means “humanity to others”. It also means pretty desktop!"/> </a><figcaption>
-            <p>Ubuntu means “humanity to others”. It also means pretty desktop!</p>
-        </figcaption>
-</figure>
-</p>
-<p>This seemed like an opportune moment to get something off my chest. I’m trying to understand why South Africa, my current home, is not running more Linux. In this post, I’m going to summarise the reasons why I think that, especially in SA, we should move away from proprietary solutions such as those offered by Microsoft and Apple, to solutions that are technically at least as good, are completely open and free, and, perhaps most importantly, better empower us to stimulate our local technology ecosystem and the national economy.</p>
-<h2 id="cost-to-the-national-economy">Cost to the national economy</h2>
-<p>Every year, I and a few million other South Africans pay a boat load of income and other taxes. Because in SA not everyone is able to pay tax, it is <i>especially</i> important that this money is used for the common good, for issues such as health-care, education and job creation.</p>
-<p>However, instead of using my hard-earned tax to stimulate local industry, the South African government is sending millions of rands, each and every year, to Microsoft, a fantastically rich company in the USA, a fantastically rich country in comparison to South Africa.</p>
-<p>The majority of government workstations absolutely don’t need MS Windows, MS Office or Outlook. The majority of government employees would be able to do their job (email, reports, spreadsheets, forms, use of web-apps) better and more securely using Linux.</p>
-<p>Furthermore, the use of Linux and open source software encourages the use of open standards for public documentation. In 2007, the SA government <a href="http://en.wikipedia.org/wiki/OpenDocument_adoption#South_Africa">officially standardised on the OpenDocument format</a>. However, MS Office use is still rife, and encourages people to use Microsoft’s own XML formats. Although MS standardised these in a bid to stay in the global government game, OpenDocument should be preferred, as it’s better supported by more free and open packages that are available to all citizens, not just those with money for MS Windows and MS Office.</p>
-<p>As an added but very important advantage, some of the considerable funds that would have been sent to the USA for MS licensing and support would then be injected into the local Linux support economy, stimulating local skills and creating more high-tech jobs.</p>
-<p>Don’t you find it strange that South Africa, a developing country, is sending that much money to the USA when better solutions exist? Don’t you too think that it would be great to have a thriving and more independent Linux-based operating system and application industry right here in SA?</p>
-<h2 id="personal-cost">Personal cost</h2>
-<p>I <a href="http://mygaming.co.za/news/news/46487-windows-8-versions-sa-pricing-detailed.html">just</a> checked, it looks like the cost for an OEM license of Windows 8 in SA is R1000. We want as many as possible South Africans to have access to computers and to have access to internet. You can get a cheap PC for R3000 to R4000. It really makes absolutely no sense to spend R1000 on Windows, when Linux would work perfectly well on that same PC hardware.</p>
-<p>It gets even more silly when you add in the price of MS Office. For 95% of personal users, packages like OpenOffice or LibreOffice, completely free and even open source, or Google Docs, not open but free, are more than sufficient.</p>
-<p>A part of the problem here is simply momentum. Because everyone is still using Microsoft products, everyone thinks that that’s what you need to have. Imagine that the government standardised on Linux, it would not take long before people would then evaluate this as a serious choice when acquiring a new PC.</p>
-<h2 id="security">Security</h2>
-<p>For the largest part due to Edward Snowden’s actions, and great journalism by The Guardian, it is now widely known (and much has been corroborated), that the NSA and other intelligence agencies around the world have been eavesdropping on everyone and everything.</p>
-<p>An important part of this practice, is the working relationships that these intelligence agencies have built up with software vendors around the world. When you run MS Windows or Mac OSX, or any other prioprietary software, you have absolutely no way of knowing, or checking, what your computer is doing with your information. It sounds like something from a spy movie, but <a href="http://arstechnica.com/security/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">the NSA works closely with Microsoft to be able to hack into computers running Windows</a>.</p>
-<p>In the case of personal use, this may not be such a problem, but in the case of the South African government and the whole corporate world, it’s slightly crazy that everyone is willing to take the risk that all of their information is being snooped on by cooperating intelligence agencies.</p>
-<p>With open source systems one can’t be 100% sure either, but one is able to check and modify and part of the system, at the source code level, that one is working on. Based on this openness, I have personally in the past programmed kernel drivers to support new hardware, and fixed low-level driver bugs. This was possible only because I have access to the source code of everything on my system.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>There you have at least three reasons why we here in SA should be running more Linux. Not doing so is costing our national economy money, and it’s costing our people money. More importantly, we’re missing a huge opportunity of technologically and economically empowering South Africans.</p>
-<p>A more general point I would like to make, is the following. It turns out that the whole world is <a href="file:///2013/06/16/dont-dream-big/">actually running Linux already</a>: android telephones, tablets, TVs, zillions of servers, and so on. When you teach people how to use this open and free Linux system instead of the proprietary alternatives, you are in fact teaching them how to control the world.</p>
-]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
-After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
-It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
-<p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
-
-
-
-
-
-
-
-
-<figure><a href="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg">
-    <img
-        
-            
-            src="/wp-content/uploads/2013/09/tumblr_mp3xgwYLsi1qz82gvo1_1280.jpg"
-        
-            alt="Image by BLOGGING via TYPEWRITER"/> </a><figcaption>
-            <p>Image by BLOGGING via TYPEWRITER</p>
-        </figcaption>
-</figure>
-</p>
-<p>It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), <em>especially</em> if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they <em>say</em> that you shouldn’t worry, <em>you can never be entirely sure</em>.</p>
-<p>Furthermore, it has also been revealed that the NSA has for years being acquiring encryption keys via legal (secretly forcing companies to give them the keys) and extra-legal (simply hacking into company servers) means. Even worse, they have for years been deliberately introducing security weaknesses into software products and encryption software in order to be able to crack open your data even more easily.</p>
-<p>You can read more about this state of affairs in <a href="http://www.theguardian.com/world/the-nsa-files" title="The Guardian NSA files">The Guardian’s NSA files</a>. The Guardian has been doing a sterling job of analysing and bringing to light the depths to which our governments have sunk. There’s a whole lot of information, and most of it is quite upsetting.</p>
-<p>For me the final straw was when secure email service <a href="http://lavabit.com/" title="lavabit website with close-down message">lavabit</a> voluntarily shut itself down, when faced with the prospect of being forced to leak user information to the US government without being allowed to tell anyone. The message on the site is quite chilling, and concludes with the following:</p>
-<blockquote>
-<p>This experience has taught me one very important lesson: without congressional action or a strong judicial precedent, I would <em>strongly</em> recommend against anyone trusting their private data to a company with physical ties to the United States.</p>
-</blockquote>
-<p>At this point, I was a super happy and pretty heavy user of a number of US-based services, including GMail (all my email, about 40000 conversations consisting of 60000 mails, that’s excluding my work email which I also hosted on GMail), Google+ Photos (all my photos, about 21000 of ’em), Google Drive, Dropbox (50G of data spread out over 120000 files). <em>In all cases, I still consider these to be best of class services.</em> In putting my money where my mouth is, I was paying both Google and Dropbox for extra storage.</p>
-<p>I also had no problem with Google filtering through my email to show me targeted advertising. This is the deal I had with them. I also had no problem with the possibility of someone getting my data after due legal process. However, the idea that some NSA or other government agency flunky could quite easily stick their grubby paws into my data, and that I would never know about this, was too much.</p>
-<p>There’s probably nothing much of interest in my data. However, it has become a matter of principle; Privacy is a basic human right. <a href="http://www.wired.com/politics/security/commentary/securitymatters/2006/05/70886" title="value of privacy by Bruce Schneier">Here’s an old essay by Bruce Schneier</a> if you need to read more about why privacy is so important.</p>
-<p>In short: <strong>It was time to extricate all of my lovely data from probably well-meaning US companies, thanks to the ridiculously powerful and secretive NSA, and thanks to all of its shadowy counterparts around the world.</strong></p>
-<p>Here’s how I did it:</p>
-<ul>
-<li>Considered building another low-cost Linux server, or even a Raspberry Pi. Decided against this due to time required for configuration and acquired a Synology DS213j NAS, which is at this moment standing on the desk about 1 metre to my left. My recommendation: Just get this, you won’t be sorry.</li>
-<li>Downloaded 60000 emails to Synology using Thunderbird mail client. Deleted everything from GMail. Google engineers assure me that after a few months, data will <em>really</em> be gone.</li>
-<li>My webhoster (<a href="https://www.webfaction.com/">WebFaction</a>) receives mail for all my domains. My Synology retrieves mail every 5 minutes via POP (you can set this up via Roundcube on the Synology) and deletes it from WebFaction.</li>
-<li>Outgoing mail is relayed by the Synology via the WebFaction SMTP server. I don’t have to worry too much about blacklisting and whatnot, my hoster does this.</li>
-<li>I’m back to interacting with my mail using Thunderbird and IMAP SSL. The loss of GMail conversation view was initially really REALLY painful. People have forgotten the ancient art of quoting. However, I’ve configured Thunderbird to archive all mail to year-stamped archive folders, and to put my sent mail there. Poor-man’s Conversation View! (the <a href="https://addons.mozilla.org/en-us/thunderbird/addon/gmail-conversation-view/">conversations plugin</a> is wonky. it’s shocking how much the availability of GMail, which works really well, has stunted the development of alternative email clients) Importantly, I am now able to use <a href="http://www.openpgp.org/">OpenPGP</a> again for the strong encryption and cryptographic signing of my emails.</li>
-<li>On my Android telephone (whoops…) I am using <a href="https://play.google.com/store/apps/details?id=com.kaitenmail&amp;hl=en" title="Kaiten email on the Google Play store">the Kaiten IMAP client</a>.</li>
-<li>All the data I had in Dropbox is now being synced between the Synology, two laptops and a workstation using <a href="http://labs.bittorrent.com/experiments/sync.html" title="bittorrent sync">BitTorrent Sync</a>. This peer-to-peer syncing system is still a little rough around the edges, but falls squarely in the category of “Best Things Since Sliced Bread”, and it’s <em>FAST</em>. CloudStation, Synology’s dropbox-inspired solution, was just far too slow on my Synology model.</li>
-<li>My photos (21000 of them) have been downloaded from Google+ Photos (thank you <a href="https://www.google.com/takeout/" title="Google Takeout">Google Takeout</a>) and are now being served from the Synology using PhotoStation.</li>
-<li>My music (5400+ tracks) is downloading from Google Music as we speak, and will be served from the Synology using AudioStation.</li>
-<li>I make incremental backups of everything to an encrypted external USB drive, using <a href="http://www.dirvish.org/" title="dirvish website">dirvish</a>. I will probably add an extra external drive to the mix and try to keep that off site.</li>
-</ul>
-<p>It’s been an interesting process moving my stuff out, and getting used to these alternative systems is sometimes slightly uncomfortable, but I am quite happy with the end result. I hope that more people will take this step, and I really hope that more and easier-to-use alternatives for secure email (such as <a href="http://www.mailpile.is/" title="mailpile website">mailpile</a>) and for ubiquitous private data will become available.</p>
-<h1 id="addendum-2013-09-16">Addendum 2013-09-16</h1>
-<p>My <a href="https://news.ycombinator.com/item?id=6392322">submission of this post</a> spent some time on the Hacker News front page, and from there was <a href="http://www.reddit.com/r/technology/comments/1mhpqj/dear_usa_my_data_has_left_your_building/">picked up by reddit</a> as well. This brought many comments, a number of which were positive and thoughtful, and a number of which that were far less so. It’s amazing how anonymity and comment sections can bring out the worst in people. (if you have to know, the Hacker News community is generally MILES more polite than reddit)</p>
-<p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
-<p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
-<p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

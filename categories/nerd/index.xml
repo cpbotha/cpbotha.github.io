@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nerd on voices in my head</title><link>https://cpbotha.net/categories/nerd/</link><description>Recent content in nerd on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 21 Mar 2021 21:49:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/nerd/index.xml" rel="self" type="application/rss+xml"/><item><title>New Emacs-capable hardware: M1 MacBook Air</title><link>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</link><pubDate>Sun, 21 Mar 2021 21:49:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</guid><description><![CDATA[ You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I usually write a little something about it.
-These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged most of them so that you can see them all in this convenient &ldquo;new computer&rdquo; tag list!
-Fast, cheap and energy efficient: Choose three This time, I, or rather my employer, had difficulty resisting the siren song of the new Apple M1 chip and especially of the entry-level M1 MacBook Air: Great performance and power efficiency in a truly cool and quiet package.]]></description><content:encoded><![CDATA[ <p>You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Nerd on voices in my head</title><link>https://cpbotha.net/categories/nerd/</link><description>Recent content in Nerd on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 15 Apr 2021 08:29:29 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/nerd/index.xml" rel="self" type="application/rss+xml"/><item><title>New Emacs-capable hardware: M1 MacBook Air</title><link>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</link><pubDate>Sun, 21 Mar 2021 21:49:00 +0200</pubDate><guid>https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/</guid><description>You know the drill here at the WHV: If there&amp;rsquo;s a new computer in the family, I usually write a little something about it.
+These mentions and posts go back to at least 2002, and now I&amp;rsquo;ve back-tagged most of them so that you can see them all in this convenient &amp;ldquo;new computer&amp;rdquo; tag list!
+Fast, cheap and energy efficient: Choose three This time, I, or rather my employer, had difficulty resisting the siren song of the new Apple M1 chip and especially of the entry-level M1 MacBook Air: Great performance and power efficiency in a truly cool and quiet package.</description><content:encoded><![CDATA[ <p>You know the drill here at the WHV: If there&rsquo;s a new computer in the family, I
 usually write a little something about it.</p>
 <p>These mentions and posts go back to at least 2002, and now I&rsquo;ve back-tagged
 most of them so that you can see them all in this convenient <a href="/tags/new-computer/">&ldquo;new computer&rdquo; tag
@@ -17,6 +17,8 @@ performance and power efficiency in a truly cool and quiet package.</p>
 
 
 
+
+
 <figure><a href="m1-macbook-air-about.png">
     <img
         
@@ -24,18 +26,22 @@ performance and power efficiency in a truly cool and quiet package.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_de2f1e5efc3aadf2.png 480w,
             
-                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_6c2a206fdadbba4.png 800w,
             
-                   https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_2a184c7768aa3ee0.png 1200w,
             
-                   
+                
+                
             '
 
             
             
-            src="https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_huf0cf78004650233083ccbdd28c330650_588664_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2021/03/21/new-emacs-capable-hardware-m1-macbook-air/m1-macbook-air-about_hu_6c2a206fdadbba4.png"
             
 
         /> </a>
@@ -61,18 +67,18 @@ my writing.</p>
 device in question.</p>
 <p>Have I mentioned &ldquo;super snappy&rdquo;?</p>
 <p>By the way, if you build Emacs like this on the M1:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap railwaycat/emacsmacport
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap railwaycat/emacsmacport
 </span></span><span style="display:flex;"><span>brew install --formula emacs-mac --HEAD
 </span></span></code></pre></div><p>&hellip; you should be good to go.</p>
 <h3 id="update-on-2021-04-15">Update on 2021-04-15</h3>
 <p>A few days ago, I started seeing the following error during homebrew Emacs update:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>./temacs --batch  -l loadup --temacs=pbootstrap
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>./temacs --batch  -l loadup --temacs=pbootstrap
 </span></span><span style="display:flex;"><span>make[1]: *** [bootstrap-emacs.pdmp] Killed: 9
 </span></span><span style="display:flex;"><span>make: *** [src] Error 2
 </span></span></code></pre></div><p>This looks similar to <a href="https://github.com/d12frosted/homebrew-emacs-plus/issues/292">this github issue on emacs-plus</a>, which was fixed on emacs
 master.</p>
 <p>It was easiest for me to switch to emacs-plus, which went like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew uninstall emacs-mac
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew uninstall emacs-mac
 </span></span><span style="display:flex;"><span>brew tap d12frosted/emacs-plus
 </span></span><span style="display:flex;"><span>brew install emacs-plus@28 --with-no-titlebar
 </span></span></code></pre></div><h2 id="quo-vadis-one-device-to-rule-them-all">Quo vadis, one device to rule them all?</h2>
@@ -84,10 +90,8 @@ the <em>instantly available</em> requirement.</p>
 <p>The Air is for instant-on writing, communication, admin and maybe a tiny bit of
 development, whilst the ThinkPad is for all of the heavy lifting, but who knows
 how these lines are going to be blurred in the coming months?</p>
-]]></content:encoded></item><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description> WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
-Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.
-Some examples from the past include:
-Hacking Radeon suspend / resume support into the Linux kernel and the X-Server in 2002, so that my cheap clone laptop could too.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
+ ]]></content:encoded></item><item><title>meepx1e: I haz new laptop!</title><link>https://cpbotha.net/2019/04/27/new-laptop-2019/</link><pubDate>Sat, 27 Apr 2019 14:02:00 +0200</pubDate><guid>https://cpbotha.net/2019/04/27/new-laptop-2019/</guid><description>WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
+Just the new laptop, skulking in the bush. It is tradition around these parts that the welcoming of new computer machines is celebrated by, amongst many other rituals, a sometimes incomprehensible amount of customisation-related labour and a mention (or two) in these pages.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
 <figure>
 <a href="x1_skulking_in_bush.jpg">
 
@@ -112,22 +116,22 @@ Hacking Radeon suspend / resume support into the Linux kernel and the X-Server i
   
   srcset='
   
-    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_dfb8210ffe3d3c9d.jpg 480w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_1c301f9c1d303da5.jpg 800w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_55e451adb5cfb1bb.jpg 1200w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_2fd34a2e53339f9c.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hucc4f1dd7c04ce38f9433032922073901_1607520_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1_skulking_in_bush_hu_1c301f9c1d303da5.jpg"
   
 
    />
@@ -213,22 +217,22 @@ supplier!</p>
   
   srcset='
   
-    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_3bbbd16ef3b780a1.jpg 480w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_a9b9d86ef187aabe.jpg 800w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_d5a5091712d37555.jpg 1200w
   
   
-    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_5f009f74df0b80cf.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hua94385e7b7a7f2b00c868afbf8f5c2ba_1021475_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/04/27/new-laptop-2019/x1e_180_hu_a9b9d86ef187aabe.jpg"
   
 
    />
@@ -299,15 +303,18 @@ Laptop To Do Something Real Quick tests.</p>
 SSDs at boot using my fingerprint, are really quite neat.</p>
 <h1 id="do-you-have-anything-else-to-say">Do you have anything else to say?</h1>
 <p>No.</p>
-]]></content:encoded></item><item><title>(more) music for programming</title><link>https://cpbotha.net/2015/05/19/more-music-for-programming/</link><pubDate>Tue, 19 May 2015 12:38:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/05/19/more-music-for-programming/</guid><description> Currently listening to Chris Sneddon’s mix on musicForProgramming();
+ ]]></content:encoded></item><item><title>(more) music for programming</title><link>https://cpbotha.net/2015/05/19/more-music-for-programming/</link><pubDate>Tue, 19 May 2015 12:38:44 +0000</pubDate><guid>https://cpbotha.net/2015/05/19/more-music-for-programming/</guid><description>Currently listening to Chris Sneddon’s mix on musicForProgramming();
 For this last hour it has been exactly the right levels of everything to drown out distractions from my surroundings whilst not acting as a distraction in itself.
 (Yes, I’m doing small status updates here now. It’s an experiment.)</description><content:encoded><![CDATA[ <p>Currently listening to <a href="http://datashat.net/music_for_programming_32-chris_seddon.mp3">Chris Sneddon’s mix</a> on <a href="http://musicforprogramming.net/">musicForProgramming();</a></p>
 <p>For this last hour it has been exactly the right levels of everything to drown out distractions from my surroundings whilst not acting as a distraction in itself.</p>
 <p>(Yes, I’m doing small status updates here now. It’s an experiment.)</p>
-]]></content:encoded></item><item><title>meepz97: I haz a new computar machine!</title><link>https://cpbotha.net/2015/02/15/meepz97-i-haz-a-new-computar-machine/</link><pubDate>Sun, 15 Feb 2015 07:36:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/02/15/meepz97-i-haz-a-new-computar-machine/</guid><description> WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
-My most awesome employer to date (that’s the vxlabs of course!) decided to treat me with a brand new workstation. On Tuesday, February 10 of the year 2015 the new desktop PC arrived. (Around these parts, we have a long tradition of writing about new computer acquisitions, see for example 2002, 2004, 2006, 2008, 2009, 2010, 2011 or 2013.)</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
+ ]]></content:encoded></item><item><title>meepz97: I haz a new computar machine!</title><link>https://cpbotha.net/2015/02/15/meepz97-i-haz-a-new-computar-machine/</link><pubDate>Sun, 15 Feb 2015 07:36:00 +0000</pubDate><guid>https://cpbotha.net/2015/02/15/meepz97-i-haz-a-new-computar-machine/</guid><description>WARNING: EXTREME PC hardware-related nerdiness ahead. Read at your own risk.
+My most awesome employer to date (that’s the vxlabs of course!) decided to treat me with a brand new workstation. On Tuesday, February 10 of the year 2015 the new desktop PC arrived. (Around these parts, we have a long tradition of writing about new computer acquisitions, see for example 2002, 2004, 2006, 2008, 2009, 2010, 2011 or 2013.)
+Because this event has sparked quite some interest amongst the various groups reading this blog, management has decided to present workstation-related information in a Q and A format.</description><content:encoded><![CDATA[ <p><em>WARNING: <strong>EXTREME</strong> PC hardware-related nerdiness ahead. Read at your own risk.</em></p>
 <p>My most awesome employer to date (that’s <a href="http://www.vxlabs.com/">the vxlabs</a> of course!) decided to treat me with a brand new workstation. On Tuesday, February 10 of the year 2015 the new desktop PC arrived. (Around these parts, we have a long tradition of writing about new computer acquisitions, see for example <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/">2002</a>, <a href="http://cpbotha.net/2004/05/26/laptop-no-2/">2004</a>, <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/">2006</a>, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/">2008</a>, <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/">2009</a>, <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/">2010</a>, <a href="http://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/">2011</a> or <a href="http://vxlabs.com/2013/03/24/acer-v3-571g-fullhd-ips-superb-priceperformance-linux-development-laptop/">2013</a>.)</p>
 <p>Because this event has sparked quite some interest amongst the various groups reading this blog, management has decided to present workstation-related information in a Q and A format.</p>
+
+
 
 
 
@@ -359,10 +366,12 @@ charts.</p>
 <p>If you’re interested, you can find much more detail about how this works, and I how I configured it using open source tools, in <a href="http://vxlabs.com/2015/02/11/use-the-hardware-based-full-disk-encryption-your-tcg-opal-ssd-with-msed/">this other post I wrote over at vxlabs.com</a>.</p>
 <h2 id="are-you-happy-now">Are you happy now?</h2>
 <p>Yes.</p>
-]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
+ ]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
 After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
-It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
+It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), especially if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they say that you shouldn’t worry, you can never be entirely sure.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
 <p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
+
+
 
 
 
@@ -412,12 +421,12 @@ It turns out that government agencies are allowed to extract, at a whim, your an
 <p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
 <p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
 <p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
-]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+ ]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description>When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
 Well, yesterday I ate my hat.
 If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
 <p>Well, yesterday I ate my hat.</p>
 <p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
-]]></content:encoded></item><item><title>You have beautiful ize. [Weekly Head Voices #62]</title><link>https://cpbotha.net/2011/11/19/you-have-beautiful-ize-weekly-head-voices-62/</link><pubDate>Sat, 19 Nov 2011 21:29:09 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/11/19/you-have-beautiful-ize-weekly-head-voices-62/</guid><description> I completely lack the genes that usually cause human males to have a thing for cars, but I do love Top Gear. This trailer for a fictional 60s detective show, made by Jeremy Clarkson, James May and Richard Hammond, encapsulates many of the reasons why:
+ ]]></content:encoded></item><item><title>You have beautiful ize. [Weekly Head Voices #62]</title><link>https://cpbotha.net/2011/11/19/you-have-beautiful-ize-weekly-head-voices-62/</link><pubDate>Sat, 19 Nov 2011 21:29:09 +0000</pubDate><guid>https://cpbotha.net/2011/11/19/you-have-beautiful-ize-weekly-head-voices-62/</guid><description>I completely lack the genes that usually cause human males to have a thing for cars, but I do love Top Gear. This trailer for a fictional 60s detective show, made by Jeremy Clarkson, James May and Richard Hammond, encapsulates many of the reasons why:
 Moustaches, guns, girls, cars and Hammond karate-chopping the porter at Playboy Club London for absolutely no reason whatsoever at 41 seconds can be nothing but 100% pure AWESOME.</description><content:encoded><![CDATA[ <p>I completely lack the genes that usually cause human males to have a thing for cars, but I do love Top Gear. This trailer for a fictional 60s detective show, made by Jeremy Clarkson, James May and Richard Hammond, encapsulates many of the reasons why:</p>
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/qLp4FhDAfQk?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
@@ -433,8 +442,10 @@ Moustaches, guns, girls, cars and Hammond karate-chopping the porter at Playboy 
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/zn7-fVtT16k?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 <p>Ok kids, thank you for tuning in again. Have a great week, I hope to see you again soon!</p>
-]]></content:encoded></item><item><title>New Samsung NP300V3A laptop is welcomed into the family!</title><link>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</link><pubDate>Tue, 16 Aug 2011 11:03:53 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</guid><description> It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In July of 2002 it was Dr. Evil, more a brick than a laptop, in May of 2004 it was my beloved 14″ HP NC6000 laptop, in July of 2006 I met my 15.4″ HP NC8430 (employer-supplied, thank you employer!), which in turn led to this Ubuntu-critical blog post of mine that attracted 50000 (yes, fifty thousand) readers over 2 days, in July of 2008 I splurged on a lovely quad core desktop machine, in September of 2009 I acquired an Asus 1005HA-H netbook, and in November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop.</description><content:encoded><![CDATA[ <p>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/" title="dr evil laptop">July of 2002 it was Dr. Evil</a>, more a brick than a laptop, in <a href="http://cpbotha.net/2004/05/26/laptop-no-2/" title="NC6000 post">May of 2004 it was my beloved 14″ HP NC6000 laptop</a>, in <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/" title="nc8430 post">July of 2006 I met my 15.4″ HP NC8430</a> (employer-supplied, thank you employer!), which in turn led to <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="15 seconds of blog fame">this Ubuntu-critical blog post of mine</a> that attracted 50000 (yes, fifty thousand) readers over 2 days, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="bees blog post">in July of 2008 I splurged on a lovely quad core desktop machine</a>, in <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/" title="asus 1005HA-H netbook">September of 2009 I acquired an Asus 1005HA-H netbook</a>, and in <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/" title="dell e6410 post">November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop</a>.</p>
+ ]]></content:encoded></item><item><title>New Samsung NP300V3A laptop is welcomed into the family!</title><link>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</link><pubDate>Tue, 16 Aug 2011 11:03:53 +0000</pubDate><guid>https://cpbotha.net/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/</guid><description>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In July of 2002 it was Dr. Evil, more a brick than a laptop, in May of 2004 it was my beloved 14″ HP NC6000 laptop, in July of 2006 I met my 15.4″ HP NC8430 (employer-supplied, thank you employer!), which in turn led to this Ubuntu-critical blog post of mine that attracted 50000 (yes, fifty thousand) readers over 2 days, in July of 2008 I splurged on a lovely quad core desktop machine, in September of 2009 I acquired an Asus 1005HA-H netbook, and in November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop.</description><content:encoded><![CDATA[ <p>It’s traditional around these parts that I write a post whenever I get to welcome a new computer into the family. In <a href="http://cpbotha.net/2002/07/17/toe-matj-toe-sei-not-enaf-taim/" title="dr evil laptop">July of 2002 it was Dr. Evil</a>, more a brick than a laptop, in <a href="http://cpbotha.net/2004/05/26/laptop-no-2/" title="NC6000 post">May of 2004 it was my beloved 14″ HP NC6000 laptop</a>, in <a href="http://cpbotha.net/2006/07/22/new-new-laptop-laptop/" title="nc8430 post">July of 2006 I met my 15.4″ HP NC8430</a> (employer-supplied, thank you employer!), which in turn led to <a href="http://cpbotha.net/2007/04/10/a-critical-look-at-ubuntu-feisty-beta-on-an-hp-nc8430-laptop/" title="15 seconds of blog fame">this Ubuntu-critical blog post of mine</a> that attracted 50000 (yes, fifty thousand) readers over 2 days, <a href="http://cpbotha.net/2008/07/15/pleasure-apparatus-2008/" title="bees blog post">in July of 2008 I splurged on a lovely quad core desktop machine</a>, in <a href="http://cpbotha.net/2009/09/05/weekly-head-voices-for-week-36/" title="asus 1005HA-H netbook">September of 2009 I acquired an Asus 1005HA-H netbook</a>, and in <a href="http://cpbotha.net/2010/11/21/an-inside-job-weekly-head-voices-33/" title="dell e6410 post">November of 2010 my employer got me a super-strong Dell Latitude E6410 laptop</a>.</p>
 <p>Today I welcomed the latest and probably prettiest laptop so far into the family:
+
+
 
 
 
@@ -462,7 +473,9 @@ Moustaches, guns, girls, cars and Hammond karate-chopping the porter at Playboy 
 <li>When spring comes around, hide my credit card.</li>
 </ol>
 <p><em>Update on May 2, 2012:</em> I have just eaten my hat. Ubuntu Linux 12.04 with Bumblebee runs just wonderfully on this laptop. Read all about it in <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="vxlabs blog post reviewing ubuntu 12.04 on the samsung np300v3a">my VXLabs blog post</a>.</p>
-]]></content:encoded></item><item><title>Schloss Dagstuhl: Computer Scientist Heaven</title><link>https://cpbotha.net/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/</link><pubDate>Sun, 19 Jun 2011 19:56:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/</guid><description> Somewhere in a remote but picturesque location in southern Germany, there’s a special castle called Schloss Dagstuhl. Every week, the castle fills up with a smallish group of Exceptionally Privileged Computer Scientists, who can only go there Because They Have Been Invited. Every week hosts a different field; In my case this was the Scientific Visualization seminar, one of the oldest participating groups. Everything has been setup just so to guarantee a perfect computer sciencey week for all guests.</description><content:encoded><![CDATA[ <p>Somewhere in a remote but picturesque location in southern Germany, there’s a special castle called Schloss Dagstuhl. Every week, the castle fills up with a smallish group of Exceptionally Privileged Computer Scientists, who can only go there Because They Have Been Invited. Every week hosts a different field; In my case this was the Scientific Visualization seminar, one of the oldest participating groups. Everything has been setup <em>just so</em> to guarantee a perfect computer sciencey week for all guests. Because I’ve already been boring too many people with this story in person, I thought it prudent to write it up. Let’s hope it’s not a first (and second!) rule of Fight Club situation, in which case posting frequency over here might drop <em>quite</em> drastically.
+ ]]></content:encoded></item><item><title>Schloss Dagstuhl: Computer Scientist Heaven</title><link>https://cpbotha.net/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/</link><pubDate>Sun, 19 Jun 2011 19:56:43 +0000</pubDate><guid>https://cpbotha.net/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/</guid><description>Somewhere in a remote but picturesque location in southern Germany, there’s a special castle called Schloss Dagstuhl. Every week, the castle fills up with a smallish group of Exceptionally Privileged Computer Scientists, who can only go there Because They Have Been Invited. Every week hosts a different field; In my case this was the Scientific Visualization seminar, one of the oldest participating groups. Everything has been setup just so to guarantee a perfect computer sciencey week for all guests. Because I’ve already been boring too many people with this story in person, I thought it prudent to write it up. Let’s hope it’s not a first (and second!) rule of Fight Club situation, in which case posting frequency over here might drop quite drastically. Schloss Dagstuhl, picture courtesy of Wikipedia.</description><content:encoded><![CDATA[ <p>Somewhere in a remote but picturesque location in southern Germany, there’s a special castle called Schloss Dagstuhl. Every week, the castle fills up with a smallish group of Exceptionally Privileged Computer Scientists, who can only go there Because They Have Been Invited. Every week hosts a different field; In my case this was the Scientific Visualization seminar, one of the oldest participating groups. Everything has been setup <em>just so</em> to guarantee a perfect computer sciencey week for all guests. Because I’ve already been boring too many people with this story in person, I thought it prudent to write it up. Let’s hope it’s not a first (and second!) rule of Fight Club situation, in which case posting frequency over here might drop <em>quite</em> drastically.
+
+
 
 
 
@@ -487,9 +500,9 @@ Moustaches, guns, girls, cars and Hammond karate-chopping the porter at Playboy 
 <p>After a full day of quite intensive discussion, there were breakout sessions during which four subgroups started working on the various chapters of a new Springer book that should appear sometime early in next year. The book will deal with multi-field, uncertainty, biomedical and scalable visualization, and it has the makings of being a keeper.</p>
 <p>The other extremely important magic bit about this castle is the abundance of real coffee machines (ones that grind coffee beans for every cup), snack corners and, uhm, beer fridges. You can’t really go anywhere, as you’re in the middle of nowhere, so after dinner the conversations tend to continue till late in the night, conversant stamina enhanced by said coffee and beer facilities. Evil science plans were made, good old-fashioned deep conversations were had and the early next morning consequences were flatly ignored. I haven’t laughed quite so much in a long time, but <em>that</em> part of the programme prefers, and has the right, to remain completely silent.</p>
 <p>If you ever get <em>the</em> invitation, don’t hesitate for a second to accept: You shall return an exhausted but terribly happy computer nerd.</p>
-]]></content:encoded></item><item><title>I crushed the GSVideo problematic frame error!</title><link>https://cpbotha.net/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/</link><pubDate>Fri, 04 Mar 2011 20:44:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/</guid><description> Nerd warning: This post really belongs on my nerd blog VXLabs.com, but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here.
+ ]]></content:encoded></item><item><title>I crushed the GSVideo problematic frame error!</title><link>https://cpbotha.net/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/</link><pubDate>Fri, 04 Mar 2011 20:44:27 +0000</pubDate><guid>https://cpbotha.net/2011/03/04/i-crushed-the-gsvideo-problematic-frame-error/</guid><description>Nerd warning: This post really belongs on my nerd blog VXLabs.com, but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here.
 [][3]
-[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it’s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn’t last for very long before unceremoniously crashing the application.</description><content:encoded><![CDATA[ <p><em>Nerd warning: This post really belongs on my nerd blog <a href="http://vxlabs.com/" title="VXLabs.com, my favourite nerd blog!">VXLabs.com</a>, but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here.</em></p>
+[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it’s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn’t last for very long before unceremoniously crashing the application. Error info and stack trace look something like the following (edited for brevity):</description><content:encoded><![CDATA[ <p><em>Nerd warning: This post really belongs on my nerd blog <a href="http://vxlabs.com/" title="VXLabs.com, my favourite nerd blog!">VXLabs.com</a>, but as this blog has a rich tradition of popular [processing posts][2], I’m posting it here.</em></p>
 <p>[<img alt="Debugging" height="180" src="http://farm3.static.flickr.com/2676/4047355843_0fd2fa0036_m.jpg" width="240"/>][3]</p>
 <p>[GSVideo][4] is a brilliant library that you can use in [processing][5] to capture live video, on Windows, Linux and OSX, and it’s a huge improvement over the built-in capturing support. Unfortunately, a number of us (including some of the 123 students we got to build augmented reality music instruments this September) have been running into a problematic frame error crash that meant captures didn’t last for very long before unceremoniously crashing the application. Error info and stack trace look something like the following (edited for brevity):</p>
 <pre class="brush: plain; title: ; notranslate" title=""># A fatal error has been detected by the Java Runtime Environment:
@@ -532,4 +545,4 @@ j  CathetAR.draw()V+22
 [8]: <a href="http://cpbotha.net/files/gsvideo-20110203-patch-20110304/GSVideo.jar">http://cpbotha.net/files/gsvideo-20110203-patch-20110304/GSVideo.jar</a> &ldquo;patched and built GSVideo.jar&rdquo;
 [9]: <a href="http://gsvideo.svn.sourceforge.net/viewvc/gsvideo/trunk/src/codeanticode/gsvideo/GSCapture.java?r1=152&amp;r2=151&amp;pathrev=152">http://gsvideo.svn.sourceforge.net/viewvc/gsvideo/trunk/src/codeanticode/gsvideo/GSCapture.java?r1=152&amp;r2=151&amp;pathrev=152</a> &ldquo;gsvideo changeset integrating crash fix&rdquo;
 [10]: <a href="http://codeanticode.wordpress.com/2011/03/15/gsvideo-0-8/">http://codeanticode.wordpress.com/2011/03/15/gsvideo-0-8/</a> &ldquo;gsvideo 0.8 release post&rdquo;</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blog on voices in my head</title><link>https://cpbotha.net/tags/blog/</link><description>Recent content in blog on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 10 Nov 2019 16:28:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description> As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blog on voices in my head</title><link>https://cpbotha.net/tags/blog/</link><description>Recent content in Blog on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 16:28:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
 TL;DR: Comments on this blog are now managed by self-hosted, open-source isso that I control. Commenting should be much faster and more fun, so have at it!
 Why I recommend strongly against Disqus. You might recall, or you could just check the relevant blog post, that I ported all comments from wordpress to disqus (grrr&amp;hellip;) in March of this year, when I upgraded to the Hugo static site generator.</description><content:encoded><![CDATA[ <p>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+
 of the comments on this site to isso, an open-source self-hosted commenting
@@ -56,9 +56,9 @@ isso</a>.</p>
 <p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
 <p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
 the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#859900">[moderation]</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#cf222e">[moderation]</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">enabled</span> <span style="color:#0550ae">=</span> <span style="color:#0a3069">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">activate-if-email-previously-approved</span> <span style="color:#0550ae">=</span> <span style="color:#0a3069">true</span>
 </span></span></code></pre></div><p>When someone leaves a comment, and their email address has had a comment
 approved within the last 6 months, the new comment will be automatically
 activated.</p>
@@ -84,8 +84,8 @@ in the case of no parent, the comment does not show up.</li>
 <li>Isso stores timestamps as seconds since epoch. You can use the following SQL
 to convert a timestring to seconds since epoch:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
-</span></span></code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#cf222e">select</span><span style="color:#fff"> </span>strftime<span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;%s&#34;</span><span style="color:#1f2328">,</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;2019-08-22 14:11&#34;</span><span style="color:#1f2328">);</span><span style="color:#fff">
+</span></span></span></code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
 <p>That is how much I love this blog and its people. :D</p>
 <h2 id="conclusions">Conclusions.</h2>
 <p>I am happy that all of your comments are now self-hosted on this server using
@@ -95,4 +95,4 @@ open-source software that I have a good grasp of.</p>
 <p>(Also: MARKDOWN!)</p>
 <p>Ok folks, I hope this further diminishes any barriers that there might have
 been to you leaving us a message now and then!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

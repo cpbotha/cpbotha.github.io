@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>software development on voices in my head</title><link>https://cpbotha.net/tags/software-development/</link><description>Recent content in software development on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Fri, 21 May 2021 22:34:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/software-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #223: The potjie never left</title><link>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</link><pubDate>Fri, 21 May 2021 22:34:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</guid><description> Welcome friends to the two hundred and twenty third edition of the Weekly Head Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Software Development on voices in my head</title><link>https://cpbotha.net/tags/software-development/</link><description>Recent content in Software Development on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 May 2021 22:34:38 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/software-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #223: The potjie never left</title><link>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</link><pubDate>Fri, 21 May 2021 22:34:00 +0200</pubDate><guid>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</guid><description>Welcome friends to the two hundred and twenty third edition of the Weekly Head Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.
 (Hah, by writing out the words like that, I&amp;rsquo;ll get paid even more for this article!)
-Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.
-vxlabs software development handbook v1 is out Well, it&amp;rsquo;s not really a book, more of a blog post really, but it is chock full of practical guidelines for developers.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
+Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
 Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.</p>
 <p>(Hah, by writing out the words like that, I&rsquo;ll get paid even more for this
 article!)</p>
+
+
 
 
 
@@ -20,18 +21,22 @@ article!)</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_7cbec36f66f46ce9.jpg 480w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_9c00e99c7ebe6317.jpg 800w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_5b4904a8b92c6eb0.jpg 1200w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_2059833eebfe1bf7.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_9c00e99c7ebe6317.jpg"
             
 
         
@@ -117,6 +122,8 @@ a potjie.</p>
 
 
 
+
+
 <figure><a href="chicken-curry-potjie-2021.jpg">
     <img
         
@@ -124,22 +131,26 @@ a potjie.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_851d8ef19cf3be22.jpg 480w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_a6e81b0fbea9949a.jpg 800w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_c7468ed7bcf7e946.jpg 1200w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_e029c5f2d370256.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_a6e81b0fbea9949a.jpg"
             
 
         
-            alt="Figure 2: From this photo, it&amp;rsquo;s also quite clear that I have become much taller."/> </a><figcaption>
+            alt="Figure 2: From this photo, it&rsquo;s also quite clear that I have become much taller."/> </a><figcaption>
             <p>Figure 2: From this photo, it&rsquo;s also quite clear that I have become much taller.</p>
         </figcaption>
 </figure>
@@ -151,4 +162,4 @@ the same recipe.</p>
 acting as a sort of reliable cast iron backdrop (with enamel coating!) for our
 family and friendship rituals.</p>
 <p>On this day, the ritual was indeed sublime.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

@@ -1,5 +1,308 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>betty's bay on voices in my head</title><link>https://cpbotha.net/tags/bettys-bay/</link><description>Recent content in betty's bay on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 14 Jan 2018 10:28:18 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/bettys-bay/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #127: Readers are leaders.</title><link>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</link><pubDate>Sun, 14 Jan 2018 10:28:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</guid><description> Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.
-This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project. Had to make screencast to demonstrate milestone deliverable of above-mentioned main project.</description><content:encoded><![CDATA[ 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Betty's Bay on voices in my head</title><link>https://cpbotha.net/tags/bettys-bay/</link><description>Recent content in Betty's Bay on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2024 21:27:48 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/bettys-bay/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 4 of 2024</title><link>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</link><pubDate>Sun, 28 Jan 2024 21:27:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</guid><description>Monday 2024-01-22 As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &amp;ldquo;When you&amp;rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&amp;rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS! At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&amp;hellip; Short but really nice streamlit demo during a work meeting. I knew about streamlit, but I&amp;rsquo;ve never actually played with it. Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3. In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&amp;hellip; &amp;hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola. Tuesday 2024-01-23 At the office nice and early (7:30). Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at react-flow and comfyui react-flow looks like it could work pretty well for this new project. Also: SO SHINY! streamlit app life cycle: script re-runs every time user interacts, see https://docs.streamlit.io/get-started/fundamentals/summary it does have caching mechanisms to make this go faster marimo, although much newer, approaches this issue with its reactive cell pattern Idea: We should write focused technical memos at work. This is now howto, but rather &amp;ldquo;things I learned&amp;rdquo; formulated to teach not just to document. Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&amp;rsquo;s a zero day vulnerability in previous versions that can be exploited via malicious websites. Wednesday 2024-01-24 8km run at just after 7 AM before it really got hot dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW! Remember kids: Our spine&amp;rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally. This is also the reason why I&amp;rsquo;m still searching for a long enough reclining chair. Lovely working lunch with friend S at No Way José Some random ideas that popped into my head as I was trying to work: idea: make github so that people can pipx install marimo-turbo to get install with pandas, altair, matplotlib, and so on. idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets in the end, probably better to do this on my own VPS &amp;hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See https://emacs.ch/@cpbotha/111811547009420844 (post is also embedded below) idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&amp;gt; nginx -&amp;gt; supervisord -&amp;gt; tornado systemd can partially do something like this using socket activation: https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation I would prefer to use supervisord for this This will remain on the todo list for now, unless one of you knows a trick? ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &amp;ldquo;crystal vs nim-lang&amp;rdquo; googling blog post: https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/ the kubernetes thing: https://github.com/vitobotta/hetzner-k3s TIL: mastodon embeds are not as durable as twitter embeds As I pasted the above embed, I saw to my disappointment that it&amp;rsquo;s just pulling in the mastodon post URL via iframe.</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-22">Monday 2024-01-22</h2>
+<ul>
+<li>As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &ldquo;When you&rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS!</li>
+<li>At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&hellip;</li>
+<li>Short but really nice <a href="https://streamlit.io/">streamlit</a> demo during a work meeting. I knew about streamlit, but I&rsquo;ve never actually played with it.</li>
+<li>Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3.
+<ul>
+<li>In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&hellip;</li>
+<li>&hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola.</li>
+</ul>
+</li>
+</ul>
+<h2 id="tuesday-2024-01-23">Tuesday 2024-01-23</h2>
+<ul>
+<li>At the office nice and early (7:30).</li>
+<li>Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at <a href="https://reactflow.dev/">react-flow</a> and comfyui
+<ul>
+<li>react-flow looks like it could work pretty well for this new project. Also: SO SHINY!</li>
+</ul>
+</li>
+<li>streamlit app life cycle: script re-runs every time user interacts, see <a href="https://docs.streamlit.io/get-started/fundamentals/summary">https://docs.streamlit.io/get-started/fundamentals/summary</a>
+<ul>
+<li>it does have caching mechanisms to make this go faster</li>
+<li>marimo, although much newer, approaches this issue with its reactive cell pattern</li>
+</ul>
+</li>
+<li>Idea: We should write focused technical memos at work. This is now howto, but rather &ldquo;things I learned&rdquo; formulated to teach not just to document.</li>
+<li>Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&rsquo;s a <a href="https://www.tomsguide.com/news/apple-issues-urgent-security-updates-to-fix-zero-day-flaw-update-your-iphone-and-mac-right-now">zero day vulnerability</a> in previous versions that can be exploited via malicious websites.</li>
+</ul>
+<h2 id="wednesday-2024-01-24">Wednesday 2024-01-24</h2>
+<ul>
+<li>8km run at just after 7 AM before it really got hot</li>
+<li>dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work</li>
+<li>right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW!
+<ul>
+<li>Remember kids: Our spine&rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally.</li>
+<li>This is also the reason why I&rsquo;m still searching for a long enough reclining chair.</li>
+</ul>
+</li>
+<li>Lovely working lunch with friend S at <a href="https://www.facebook.com/NoWayJoseSomerset">No Way José</a></li>
+<li>Some random ideas that popped into my head as I was trying to work:
+<ul>
+<li>idea: make github so that people can <code>pipx install marimo-turbo</code> to get install with pandas, altair, matplotlib, and so on.</li>
+<li>idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap
+<ul>
+<li>sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets</li>
+<li>in the end, probably better to do this on my own VPS
+<ul>
+<li>&hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See <a href="https://emacs.ch/@cpbotha/111811547009420844">https://emacs.ch/@cpbotha/111811547009420844</a> (post is also embedded below)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&gt; nginx -&gt; supervisord -&gt; tornado
+<ul>
+<li>systemd can partially do something like this using socket activation: <a href="https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation">https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation</a></li>
+<li>I would prefer to use supervisord for this</li>
+<li>This will remain on the todo list for now, unless one of you knows a trick?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &ldquo;crystal vs nim-lang&rdquo; googling
+<ul>
+<li>blog post: <a href="https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/">https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/</a></li>
+<li>the kubernetes thing: <a href="https://github.com/vitobotta/hetzner-k3s">https://github.com/vitobotta/hetzner-k3s</a></li>
+</ul>
+</li>
+</ul>
+<iframe src="https://emacs.ch/@cpbotha/111811547009420844/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://emacs.ch/embed.js" async="async"></script>
+<h3 id="til-mastodon-embeds-are-not-as-durable-as-twitter-embeds">TIL: mastodon embeds are not as durable as twitter embeds</h3>
+<p>As I pasted the above embed, I saw to my disappointment that it&rsquo;s just pulling in the mastodon post URL via <code>iframe</code>.</p>
+<p>With twitter, you get more self-contained HTML which will render even when twitter or just the original tweet don&rsquo;t exist anymore.</p>
+<p>This is probably just another reason to figure out how I can get more low-friction microblogging going on my own websites so that the embedding implementations of other microblogging sites become irrelevant.</p>
+<h2 id="thursday-2024-01-25">Thursday 2024-01-25</h2>
+<ul>
+<li>Took a look at <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/">cloudflare tunnels</a> to expose marimo and other dashboards to the internet
+<ul>
+<li>great that I can use my existing domains for this, and I can route between multiple domains to multiple locally running services</li>
+<li>some more steps to setup, but it did not take more than about 5 minutes, and gives me even more options than tailscale funnels. OPTIONS MAN!</li>
+</ul>
+</li>
+<li>At work, quickly got react-flow&hellip; flowing. SHINY!</li>
+<li>In the evening, found <a href="https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/">https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/</a> which is the new Shortcuts based way, based on the old AppleScript way, of getting a <code>message://</code> link onto the clipboard.
+<ul>
+<li>You <a href="/2023/04/11/note-taking-strategy-2023/#email-linking">might recall from this blog</a> that <code>message://</code> are the most durable and cross-platform way to link to emails from your notes (or anywhere else)</li>
+</ul>
+</li>
+</ul>
+<h2 id="friday-2024-01-26">Friday 2024-01-26</h2>
+<ul>
+<li>Woke up to cool, overcast weather, a big change from a series of 30℃ + days. Really had to resist going out for a run (normal run day + that amazing coolness), because of Wednesday&rsquo;s partially pulled back muscle not being 100% yet.</li>
+<li>Worked on mystery visualization project (react-flow)</li>
+<li>Lovely and energising lunch with previous colleague and friend. Happy that I reached out on Thursday although they have a packed schedule because only in country for limited time. I guess this is quite related to <a href="/2022/09/25/weekly-head-voices-246-call-up-your-friends/#call-up-your-friends">calling up your friends</a>, with a ping of serendipity salt.</li>
+<li>I was shocked by how well and fast <a href="https://ollama.ai/">ollama</a> worked on my MacBook. See embedded tweet below.</li>
+<li>Almost at the end of the afternoon, friend S and I went to some more friends for the first Weiss-off, that is, a Weiss beer tasting contest. It was huge fun blind-tasting 10 different Weiss beers, ranking them, trying to identify them (so much harder than I thought!), and then having them revealed at the end.
+<ul>
+<li>Between the experts there (read: us), Stangen Weiss Bier came out on top, followed by Weisbier No5 and Jack Black Atlantic Weiss. The fourth place was shared by Erdinger and CBC Amber Weiss.</li>
+<li>My favourite, Stellenbrau Jonkersweiss, is glaringly absent from the top. I&rsquo;ll live, probably consoled by just such a Jonkersweiss. Super happy that Amber Weiss and Atlantic are both present!</li>
+<li>There was a trophy (for the taster who could blind-identify the most beers in the Weiss-off), which we have christened the <em>David Weisselhoff wisseltrofee</em>.</li>
+</ul>
+</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With <a href="https://twitter.com/MistralAI?ref_src=twsrc%5Etfw">@MistralAI</a>&#39;s Mistral 7B at Q4_0 on this MacBook M1 Pro 10C / 16C, <a href="https://twitter.com/ollama?ref_src=twsrc%5Etfw">@ollama</a> looks like it&#39;s easily 3 times faster than the new MLX 0.0.11 (with GGUF support).<br><br>It&#39;s subjectively (visually) faster, and the tokens/s measurements confirm this. <a href="https://t.co/9vyluimLKK">pic.twitter.com/9vyluimLKK</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1750824125419942036?ref_src=twsrc%5Etfw">January 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="saturday-2024-01-27">Saturday 2024-01-27</h2>
+<ul>
+<li>Yesterday&rsquo;s Wonderful Weiss-off also had some, thankfully quite minor, effect the next morning, but I went out for a careful weekday distance run, which fortunately went without a hitch. Just very hot thanks.</li>
+<li>Went to Buco and then to <a href="https://appletoolandgas.com/">Apple Tool and Gas</a> to find the rest of the screws I needed to repair the shower door. Friendly gentleman at Apple even sawed some of my screws to size! Shower door back in operation.</li>
+<li>Updated my &ldquo;old&rdquo; M1 MBA to macOS 14.3 and then reset to transfer to GOU#1&rsquo;s iCloud. Say what you want about Apple, but that part of their stuff works <em>really</em> well.</li>
+<li>Left for Betty&rsquo;s Bay at about 16:00 with GOUs #1 and #2. The rest of the family already there.</li>
+</ul>
+<h2 id="sunday-2024-01-28">Sunday 2024-01-28</h2>
+<ul>
+<li>Woke up in Betty&rsquo;s Bay after a longer than normal night of sleep, but Garmin body battery was still not completely happy.</li>
+<li>In spite of having run yesterday and still feeling a bit tired (see body battery above), I had the best run of the month so far in Betty&rsquo;s. Go figure.</li>
+<li>Spent some time with Canva &ndash; what a great resource for doing nice designs, even flow charts &ndash; but not sure where I could use this.</li>
+<li>Background thought through the past weeks, and mentioned on Tuesday: I would really like to do (and promite) more TIL-style writing at work and at home. See <a href="https://til.simonwillison.net/">Simon Willison&rsquo;s amazing TIL collection</a> for inspiration.</li>
+<li>Ran into <a href="https://github.com/outlines-dev/outlines">https://github.com/outlines-dev/outlines</a> a Python library that can guarantee structured text generation from many LLMs, e.g. 100% valid JSON according to a specified schema. What makes it different from similar libraries? &ldquo;Unlike other libraries, regex-guided generation in Outlines is almost as fast as non-guided generation.&rdquo;</li>
+<li>I already had <a href="https://github.com/microsoft/autogen">AutoGen</a> on my list for experimenting with multi-agent LLM applications, but now it has been joined by <a href="https://github.com/joaomdmoura/crewAI">crewAI</a> which I have also just ran into (thanks reddit!) and which seems to have significant support online.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Friday 2024-01-05: Café Zest</title><link>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-05/</link><pubDate>Sun, 07 Jan 2024 21:24:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/07/daily-head-voices-2024-01-05/</guid><description> Woke up to gorgeous day in Betty&amp;rsquo;s Bay, spent first half on the beach Spent second half of the day slowly packing up all of our stuff (not my favourite vacation phase), some drinks, and working in-between on stuffing the archaic wlziipsrv.fcgi into a debian bookworm aarch64 image. Mostly bunches of ugly new hacks to work around some of the ugly old hacks in wlziipsrv. Scenic Clarence Drive route home, stopped at Café Zest in Gordon&amp;rsquo;s Bay for dinner. Yellowtail there was absolutely amazing! (thanks to GOU#1 who picked this jewel of a restaurant and made a reservation for us, all from the car) At home, finally got wlziipsrv built. Am secretly hopeful it might even work. (need to hook it up to supervisord, then nginx, then all of the microscopy data)</description><content:encoded><![CDATA[ <ul>
+<li>Woke up to gorgeous day in Betty&rsquo;s Bay, spent first half on the beach</li>
+<li>Spent second half of the day slowly packing up all of our stuff (not my favourite vacation phase), some drinks, and working in-between on stuffing the archaic <a href="https://github.com/ma-tech/WlzIIPSrv">wlziipsrv.fcgi</a> into a debian bookworm aarch64 image. Mostly bunches of ugly new hacks to work around some of the ugly old hacks in wlziipsrv.</li>
+<li>Scenic Clarence Drive route home, stopped at <a href="https://zestdining.co.za/">Café Zest in Gordon&rsquo;s Bay</a> for dinner. Yellowtail there was absolutely amazing! (thanks to GOU#1 who picked this jewel of a restaurant and made a reservation for us, all from the car)</li>
+<li>At home, finally got wlziipsrv built. Am secretly hopeful it might even work. (need to hook it up to supervisord, then nginx, then all of the microscopy data)</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Tuesday 2024-01-02: Culture of doubt</title><link>https://cpbotha.net/2024/01/03/daily-head-voices-on-tuesday-2024-01-02/</link><pubDate>Wed, 03 Jan 2024 21:50:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/03/daily-head-voices-on-tuesday-2024-01-02/</guid><description> Religion is a culture of faith; science is a culture of doubt. &amp;ndash; Richard Feynman
+Went to the beach at just after 11:00. Brilliant weather which for Betty&amp;rsquo;s is quite special, so the place was absolutely packed. Finally created org-capture-template to do the Daily Head Voices post setup more easily and more consistently, see below for the relevant element. Thought a bit about writing and then self-hosting the tool that scans the cpbotha.net RSS feed and then performs actions, e.g. sending to Telegram, when new posts appear Initial thought was Go, because small and self-contained (like my discord scihub bot and my eureka-alert RSS feed generator), but Python means much higher development velocity. Because it&amp;rsquo;s a script that will run every few minutes and then stop, RAM is less of an issue, and the official docker images https://hub.docker.com/_/python/ mean I don&amp;rsquo;t yet have to upgrade the ancient Ubuntu 18.04 on my VPS. Next thought was rather to spend this time writing. Zapier free tier is working fine for now, will get back to self-hosting it later. org-roam-node-find calls org-roam-node-read calls org-roam-node-read--completions calls org-roam-node-list, which always reads the full list of nodes from the sqlite database. Whyyyyy? When I do a semantic search using org-roam-similarity, I already have the small list of IDs. I only want to offer the user this small list, I don&amp;rsquo;t want to read the full list every time, and then remove everything except the list I already have &amp;ndash; so much wasted effort. I&amp;rsquo;m really hoping d12frosted&amp;rsquo;s vulpea has something better&amp;hellip; org-capture-template to create DHV after prompting for date ;; select region around your private day notes, then C-c c l (&amp;#34;l&amp;#34; &amp;#34;Lifelog&amp;#34; entry (file+olp+datetree lifelog-org) &amp;#34;* TODO Daily Head Voices on %&amp;lt;%A&amp;gt; %&amp;lt;%Y-%m-%d&amp;gt; :PROPERTIES: :EXPORT_FILE_NAME: index.md :EXPORT_HUGO_BUNDLE: lifelog-%&amp;lt;%Y%m%d&amp;gt; :EXPORT_HUGO_TAGS: lifelog :END: :LOGBOOK: - Created \&amp;#34;TODO\&amp;#34; %U :END: %i &amp;#34; ;; - with org 9.6.6 :time-prompt is only honoured when target is ;; &amp;#34;file+olp+datetree&amp;#34; ;; - I would have preferred just target &amp;#34;file&amp;#34; for this, but need ;; time-prompt as I often only create post after the day :empty-lines 1 :jump-to-captured &amp;#39;t :time-prompt &amp;#39;t :tree-type &amp;#39;month)</description><content:encoded><![CDATA[ <blockquote>
+<p>Religion is a culture of faith; science is a culture of doubt. &ndash; Richard Feynman</p>
+</blockquote>
+<ul>
+<li>Went to the beach at just after 11:00. Brilliant weather which for Betty&rsquo;s is quite special, so the place was absolutely packed.</li>
+<li>Finally created <code>org-capture-template</code> to do the Daily Head Voices post setup more easily and more consistently, see below for the relevant element.</li>
+<li>Thought a bit about writing and then self-hosting the tool that scans the cpbotha.net RSS feed and then performs actions, e.g. sending to Telegram, when new posts appear
+<ul>
+<li>Initial thought was Go, because small and self-contained (like my discord scihub bot and my eureka-alert RSS feed generator), but Python means much higher development velocity. Because it&rsquo;s a script that will run every few minutes and then stop, RAM is less of an issue, and the official docker images <a href="https://hub.docker.com/_/python/">https://hub.docker.com/_/python/</a> mean I don&rsquo;t yet have to upgrade the ancient Ubuntu 18.04 on my VPS.</li>
+<li>Next thought was rather to spend this time writing. Zapier free tier is working fine for now, will get back to self-hosting it later.</li>
+</ul>
+</li>
+<li><code>org-roam-node-find</code> calls <code>org-roam-node-read</code> calls <code>org-roam-node-read--completions</code> calls <code>org-roam-node-list</code>, which always reads the full list of nodes from the sqlite database. Whyyyyy? When I do a semantic search using <code>org-roam-similarity</code>, I already have the small list of IDs. I only want to offer the user this small list, I <strong>don&rsquo;t</strong> want to read the full list every time, and then remove everything except the list I already have &ndash; so much wasted effort. I&rsquo;m really hoping d12frosted&rsquo;s <a href="https://github.com/d12frosted/vulpea">vulpea</a> has something better&hellip;</li>
+</ul>
+<h2 id="org-capture-template-to-create-dhv-after-prompting-for-date">org-capture-template to create DHV after prompting for date</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; select region around your private day notes, then C-c c l</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;l&#34;</span> <span style="color:#0a3069">&#34;Lifelog&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">lifelog-org</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span> <span style="color:#0a3069">&#34;* TODO Daily Head Voices on %&lt;%A&gt; %&lt;%Y-%m-%d&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:PROPERTIES:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:EXPORT_FILE_NAME: index.md
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:EXPORT_HUGO_BUNDLE: lifelog-%&lt;%Y%m%d&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:EXPORT_HUGO_TAGS: lifelog
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:END:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:LOGBOOK:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- Created \&#34;TODO\&#34; %U
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:END:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">%i
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">&#34;</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;; - with org 9.6.6 :time-prompt is only honoured when target is</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;;   &#34;file+olp+datetree&#34;</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;; - I would have preferred just target &#34;file&#34; for this, but need</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;;   time-prompt as I often only create post after the day</span>
+</span></span><span style="display:flex;"><span> <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span> <span style="color:#6639ba">:jump-to-captured</span> <span style="color:#032f62">&#39;t</span> <span style="color:#6639ba">:time-prompt</span> <span style="color:#032f62">&#39;t</span> <span style="color:#6639ba">:tree-type</span> <span style="color:#032f62">&#39;month</span><span style="color:#1f2328">)</span>
+</span></span></code></pre></div> ]]></content:encoded></item><item><title>Daily Head Voices on Sunday 2023-12-31</title><link>https://cpbotha.net/2024/01/01/daily-head-voices-on-sunday-2023-12-31/</link><pubDate>Mon, 01 Jan 2024 12:45:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/01/daily-head-voices-on-sunday-2023-12-31/</guid><description> If you&amp;rsquo;re reading this, you&amp;rsquo;ve successfully made it to the last day of 2023. Congratulations! My jokes about successfully not dying for another period of time are unfortunately starting to hit closer and closer to home. The bad jokes will continue until morale improves! (more about this later) The tail-end of yesterday&amp;rsquo;s navel gazing about these daily posts involved looking into this blog&amp;rsquo;s Hugo configuration. I really do like Hugo, but there is a substantial amount of implicitness and magic going on. See for example the logic behind sections: https://gohugo.io/content-management/sections/ My plan was to evaluate whether it would be worth it creating a whole new subsection of the site just for the lifelogs (nope), and also just to see in general what would be involved in addng more structure, with something like https://gwern.net/ being the ultimate form of personal website (a lot of work, and I&amp;rsquo;m not yet at the stage of life where I am able to invest that much time into this, although as I mentioned yesterday, I definitely want to get back to writing more substantial posts again soon). Lovely family hike up to Leopard&amp;rsquo;s Kloof in the Harold Porter botanical gardens Took it easy into 2024 with a family braai and an undisclosed number of craft beers.</description><content:encoded><![CDATA[ <ul>
+<li>If you&rsquo;re reading this, you&rsquo;ve successfully made it to the last day of 2023. Congratulations!
+<ul>
+<li>My jokes about successfully not dying for another period of time are unfortunately starting to hit closer and closer to home. The bad jokes will continue until morale improves! (more about this later)</li>
+</ul>
+</li>
+<li>The tail-end of <a href="/2023/12/31/daily-head-voices-on-saturday-2023-12-30/">yesterday&rsquo;s navel gazing</a> about these daily posts involved looking into this blog&rsquo;s Hugo configuration.
+<ul>
+<li>I really do like Hugo, but there is a substantial amount of implicitness and magic going on. See for example the logic behind sections: <a href="https://gohugo.io/content-management/sections/">https://gohugo.io/content-management/sections/</a></li>
+<li>My plan was to evaluate whether it would be worth it creating a whole new subsection of the site just for the lifelogs (nope), and also just to see in general what would be involved in addng more structure, with something like <a href="https://gwern.net/">https://gwern.net/</a> being the ultimate form of personal website (a <strong>lot</strong> of work, and I&rsquo;m not yet at the stage of life where I am able to invest that much time into this, although as I mentioned yesterday, I definitely want to get back to writing more substantial posts again soon).</li>
+</ul>
+</li>
+<li>Lovely family hike up to Leopard&rsquo;s Kloof in the Harold Porter botanical gardens</li>
+<li>Took it easy into 2024 with a family braai and an undisclosed number of craft beers.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices on Saturday 2023-12-30</title><link>https://cpbotha.net/2023/12/31/daily-head-voices-on-saturday-2023-12-30/</link><pubDate>Sun, 31 Dec 2023 12:29:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/31/daily-head-voices-on-saturday-2023-12-30/</guid><description> Woke up to overcast, rainy and windy day in Betty&amp;rsquo;s Bay 11.4km run with hip niggle brought me to exactly X.0 kilometres for the year, where X was my modest kilometre goal. I was not sure about that .4 until after I had recorded the run. Whoohooo! 🥳 Hip niggle is currently not happy with me. Will deal. Helped the electrician debug a non-functioning lights circuit, which turned out to be due to two disconnected load wires hiding behind the rail plate in the DB. My current thoughts about this daily lifelog experiment here on this blog are: it&amp;rsquo;s great having a daily logging habit; anything that encourages that is positive posting on mastodon felt like the right mix of low (tech) friction and semi-ephemerality and obscurity (= low stakes) which really helped decrease the barrier to daily publication there Although I worry a bit about the impact of these smaller, slightly more chaotic outputs on existing readers who are waiting for more substantial posts, which I do hope to start producing again soon, cpbotha.net is fortunately probably more than obscure enough to host these daily logs. In other words: For now I&amp;rsquo;m just going to keep on keeping on.</description><content:encoded><![CDATA[ <ul>
+<li>Woke up to overcast, rainy and windy day in Betty&rsquo;s Bay</li>
+<li>11.4km run with hip niggle brought me to exactly X.0 kilometres for the year, where X was my modest kilometre goal. I was not sure about that .4 until after I had recorded the run. Whoohooo! 🥳
+<ul>
+<li>Hip niggle is currently <strong>not</strong> happy with me. Will deal.</li>
+</ul>
+</li>
+<li>Helped the electrician debug a non-functioning lights circuit, which turned out to be due to two disconnected load wires hiding behind the rail plate in the DB.</li>
+<li>My current thoughts about this daily lifelog experiment here on this blog are:
+<ul>
+<li>it&rsquo;s great having a daily logging habit; anything that encourages that is positive</li>
+<li>posting on mastodon felt like the right mix of low (tech) friction and semi-ephemerality and obscurity (= low stakes) which really helped decrease the barrier to daily publication there</li>
+<li>Although I worry a bit about the impact of these smaller, slightly more chaotic outputs on existing readers who are waiting for more substantial posts, which I do hope to start producing again soon, cpbotha.net is fortunately probably more than obscure enough to host these daily logs.
+<ul>
+<li>In other words: For now I&rsquo;m just going to keep on keeping on.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #251: Week one fun</title><link>https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/</link><pubDate>Sun, 08 Jan 2023 22:23:00 +0200</pubDate><guid>https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/</guid><description>Welcome to the first regular Weekly Head Voices of the year folks!
+This, the 251st edition, looks back at the week from Monday, January 2 to Sunday, January 8 of the brand new year 2023.
+Figure 1: Blue waters of Betty&amp;rsquo;s Bay main beach. The weather was amazing.</description><content:encoded><![CDATA[ <p>Welcome to the first regular Weekly Head Voices of the year folks!</p>
+<p>This, the 251st edition, looks back at the week from Monday, January 2 to
+Sunday, January 8 of the brand new year 2023.</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="bettys-main-beach.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_2001f4641f2248f6.jpg 480w,
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_6b5efddaf37b8a25.jpg 800w,
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_93e7039947b520c1.jpg 1200w,
+            
+                
+                https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_159f0e0ac8efaa4e.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/01/08/weekly-head-voices-251-week-one-fun/bettys-main-beach_hu_6b5efddaf37b8a25.jpg"
+            
+
+        
+            alt="Figure 1: Blue waters of Betty&rsquo;s Bay main beach. The weather was amazing."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Blue waters of Betty&rsquo;s Bay main beach. The weather was amazing.</p>
+        </figcaption>
+</figure>
+
+<p>You might recall from the 2023 transition post that appeared a mere week ago,
+that <a href="/2023/01/01/the-2022-to-2023-transition-post/#quo-vadis-2023">I really wanted to try to post more regularly here</a>, even if it meant that
+the posts might be less substantial.</p>
+<p>Well here we are: A short post that is on time!</p>
+<p>(The proposed blogging pipeline improvements that were also mentioned are still in progress (AKA I have
+not yet started).)</p>
+<h2 id="gou-1-is-back-from-dot-de">GOU #1 is back from .de!</h2>
+<p>The biggest news of the week is that GOU #1 has returned from a month-long
+<a href="https://fsa-youthexchange.co.za/">FSA exchange</a> visit to Essen, in Germany.</p>
+<p>We really missed her, but she&rsquo;s back after an experience-packed four weeks with
+an amazing host family, living her best life as she has this obvious talent to
+do.</p>
+<h2 id="a-tonne-of-fun-in-week-one">A tonne of fun in week one</h2>
+<p>Due to possibly debatable life decisions, I returned to work on Monday,
+January 3.</p>
+<p>There are perks to starting up so early in the year, primarily that it&rsquo;s quite
+peaceful, and there&rsquo;s a bit more headspace than normal to think about bigger
+plans for the year ahead.</p>
+<p>Sadly, I have not yet made any break-throughs in this regard.</p>
+<p>Partially this is due to a substantial number of my mental cycles having to go
+into a data-science project that requires my attention, and partially because I
+have not yet taken that deep-thinking-walk.</p>
+<p>I&rsquo;ll get on that walk tomorrow!</p>
+<p>In spite of work, we did manage to fit in a whole bunch of fun in this first
+week:</p>
+<ul>
+<li>We squeezed in a sneaky but sublime school night sunset dinner at Millhouse
+Kitchen on Lourensford Farm to celebrate our anticipation of GOU #1&rsquo;s return
+the next day.</li>
+<li>We made a family outing of a trip to the V&amp;A Waterfront on Saturday to return
+an Adoozy powerbank that they saved abovementioned GOU&rsquo;s phone with at OR
+Tambo airport in Johannesburg. Their rental powerbank concept looks
+interesting, and the people were really super helpful, but their network in
+Cape Town is a bit anaemic with the main issue that you can&rsquo;t return your
+powerbank at Cape Town airport!
+<ul>
+<li>During this outing, we had lunch at <a href="https://denanker.co.za/">Den Anker</a> where we always enjoy
+culinary and cultural echoes of our other home. In my case, this includes
+the taste of my favourite Trappist beer, namely <a href="/tags/rochefort/">the Rochefort</a>. On this
+beautiful sunny day, I opted for and limited myself to the lighter #6. (I
+and some of my friends have been known to enjoy all of those even numbers
+in sequence.)</li>
+</ul>
+</li>
+<li>On Sunday, we (famjam) made use of the absolutely fabulous weather and spent
+a glorious day in Betty&rsquo;s Bay, mostly on its main beach. I&rsquo;m currently
+reading <a href="https://www.goodreads.com/book/show/43263225-supernova-era">Liu
+Cixin&rsquo;s Supernova Era</a> and the story, with its pretty inventive premise, has
+just switched up a few gears.
+<ul>
+<li>The ocean views from <a href="/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/">Clarence Drive</a> were truly breath-taking today. They
+were so over-the-top beautiful that GOU #1 exclaimed at least once that
+they &ldquo;look like a rendering&rdquo;, which struck me as a really remarkable
+compliment. (This was followed by some joking in the car about all of <em>this</em>
+<a href="https://www.simulation-argument.com/">being a simulation</a>.)</li>
+</ul>
+</li>
+</ul>
+<p>Have a great week friends, I hope to see you again on the other side!</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #127: Readers are leaders.</title><link>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</link><pubDate>Sun, 14 Jan 2018 10:28:18 +0000</pubDate><guid>https://cpbotha.net/2018/01/14/weekly-head-voices-127-readers-are-leaders/</guid><description> Betty’s Bay Beach impression by Genetic Offspring Unit #1, age 11.
+This week I worked on automated email analysis and storage for side-project #38465 (more on this in future editions) and on bits of UI for a wxPython desktop app (yes desktop app! some of us fortunately still get to make them!) for my current main work project. Had to make screencast to demonstrate milestone deliverable of above-mentioned main project. Making screencasts is an obscure but longstanding hobby of mine, but I needed to level up slightly, so the business bought me ScreenFlow 7.2. For the first time ever, I recorded the screencast in multiple segments and did the voice-over later. Soon these new skillz will trickle down to my publically available screencasts. On that topic, having a good microphone is crucial, not only for screen recordings but also for video meetings. I recently acquired the Samson Go Mic to complement my larger Samson C01U. The Go is brilliant: Recorded voice quality comes close to the C01U in spite of the Go’s compact form factor, and it has a hardware switch to select either of the the built-in omni-directional, for meetings, or cardioid, for more dedicated voice recording, microphone elements. Ironically, an ex-colleague posted “How to Fix Facebook—Before It Fixes Us” on Facebook, a long and worthwhile read on how FB is used to spread fake news that effectively manipulates public opinion, and what should be done to remedy this. Here is a choice quote to get you started: We still don’t know the exact degree of collusion between the Russians and the Trump campaign. But the debate over collusion, while important, risks missing what should be an obvious point: Facebook, Google, Twitter, and other platforms were manipulated by the Russians to shift outcomes in Brexit and the U.S. presidential election, and unless major changes are made, they will be manipulated again. Next time, there is no telling who the manipulators will be.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -40,8 +343,10 @@ This week I worked on automated email analysis and storage for side-project #384
 <p>Readers are leaders!</p>
 </blockquote>
 <p>Have a great week readers, I hope to see you again really soon!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #126: Fleur-de-lis.</title><link>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</link><pubDate>Sun, 07 Jan 2018 13:39:32 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</guid><description> Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme.
-Happy new year everyone, and welcome to the first Weekly (truly?! will this be the year?) Head Voices of 2018! I ended 2017 with a longish (by my standards) run in the morning, followed by a laid-back mini-party and finally by struggling really hard to stay awake until midnight. In contrast, returning to the office on January 2 was a pretty good way to ease gradually into work in 2018.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #126: Fleur-de-lis.</title><link>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</link><pubDate>Sun, 07 Jan 2018 13:39:32 +0000</pubDate><guid>https://cpbotha.net/2018/01/07/weekly-head-voices-126-fleur-de-lis/</guid><description> Betty’s Bay’s Crepuscular Rays. An apostrophe in time saves rhyme.
+Happy new year everyone, and welcome to the first Weekly (truly?! will this be the year?) Head Voices of 2018! I ended 2017 with a longish (by my standards) run in the morning, followed by a laid-back mini-party and finally by struggling really hard to stay awake until midnight. In contrast, returning to the office on January 2 was a pretty good way to ease gradually into work in 2018. Many colleagues were still on vacation, so the week felt a bit like work with training wheels. Pro-tip #1 for the new year: In the last few weeks of 2017 I started (again…) explicitly making quiet time at the start of the day to think about what I want to take care of. These take the form of a small number of Org mode “- [ ] Do this thing” checklist items that are usually related to but separate from my main tasks. I find it amazing to which extent these few minutes are able to shape my day. (In my org mode monthly journal, I also usually start by listing out manually the tasks I want to complete during that month, as well as the ideas / thoughts / principles I want to keep in my sights.) Pro-tip #2 for the new year: After years of resisting these types of software tools due to my belief that I should simply apply more grit and will power to squeeze out more focus hours, I finally broke down and purchased the macOS app called Focus. You click its pretty icon, and then your computer goes into focus mode: The Mail application and a bunch of other non-focus-related apps all get killed, and a bunch of websites (reddit, youtube, work chat, etc) are blocked for a user-configurable block of time. I rationalised this purchase with the following reasoning: It usually takes a single moment of weakness for a distraction to terminate a valuable block of focus. It takes a single moment of strength for this tool to start a valuable block of focus. Although I’m having fun, I really don’t think I’m supposed to use bullets like this. Thank you very much for spending time here with me. I wish you a week of value and focus, followed by a visit to the next WHV! The Huguenot Monument in Franschhoek, where we found ourselves an hour or two ago. Immediacy FTW.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -76,6 +381,8 @@ Happy new year everyone, and welcome to the first Weekly (truly?! will this be 
   
   
   
+  
+  
   <figure><a href="/wp-content/uploads/2018/01/huguenot_monument_franschhoek.jpg">
       <img
           
@@ -89,10 +396,10 @@ Happy new year everyone, and welcome to the first Weekly (truly?! will this be 
 </li>
 </ul>
 <p>P.S. This post was finished during a 30 minute FocusApp block. Background music: <a href="https://www.residentadvisor.net/reviews/5988">Balance 014</a> by Joris Voorn, one of my favourite music creations ever.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #114: So you know what I did last summer.</title><link>https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/</link><pubDate>Fri, 20 Jan 2017 07:17:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/</guid><description> WELL HELLO THERE FRIENDS FROM THE BLOGOSPHERE!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #114: So you know what I did last summer.</title><link>https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/</link><pubDate>Fri, 20 Jan 2017 07:17:10 +0000</pubDate><guid>https://cpbotha.net/2017/01/20/weekly-head-voices-114-so-you-know-what-i-did-last-summer/</guid><description>WELL HELLO THERE FRIENDS FROM THE BLOGOSPHERE!
 It’s definitely time to get out a Weekly Head Voices, so that we can all feel nicely up to date. This post covers the period from Monday December 5, 2016 to Sunday January 15, 2017, which is ever so slightly *cough* later than average.
 My excuse is: SUMMER HOLIDAY.
-If you have not yet read my 2016 to 2017 transition post, this is a gentle reminder to make some time to do so.</description><content:encoded><![CDATA[ <p>WELL HELLO THERE FRIENDS FROM THE BLOGOSPHERE!</p>
+If you have not yet read my 2016 to 2017 transition post, this is a gentle reminder to make some time to do so. There’s some backyard philosophy in that post that you might find useful.</description><content:encoded><![CDATA[ <p>WELL HELLO THERE FRIENDS FROM THE BLOGOSPHERE!</p>
 <p>It’s definitely time to get out a Weekly Head Voices, so that we can all feel nicely up to date. This post covers the period from Monday December 5, 2016 to Sunday January 15, 2017, which is ever so slightly *cough* later than average.</p>
 <p>My excuse is: SUMMER HOLIDAY.</p>
 <p>If you have not yet read <a href="/2017/01/05/the-2016-to-2017-transition-post/">my 2016 to 2017 transition post</a>, this is a gentle reminder to make some time to do so. There’s some backyard philosophy in that post that you might find useful.</p>
@@ -101,6 +408,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 <h1 id="the-holiday-starts">The holiday starts</h1>
 <p>Below is a photo I have quite surprisingly titled “A scene with a beach, the sea and some fluffy clouds in the brilliant blue sky”. The photo was taken on the beach at Boggomsbaai, a really small sea-side village on the East coast where we spent the first few days of our holiday.</p>
 <p>Up ahead you can see the bustling metropole (well, it has one really expensive minimarket and an impressive gate) of Vleesbaai.
+
+
 
 
 
@@ -122,6 +431,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 </p>
 <h1 id="head-voices-review-surprise">Head Voices Review. SURPRISE!</h1>
 <p>After the truly disappointing <a href="/2016/12/20/review-awei-a990-bl-wireless-sport-bluetooth-earphones-avoid/">final death of my Awei bluetooth headphones</a> whilst running on that very beach, I acquired the Samsung Level Link, a tiny bluetooth transceiver which can turn any old set of cheap wired earphones into bluetooth earphones! It looks like this:</p>
+
+
 
 
 
@@ -156,6 +467,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/01/windowlicker_takes_surfing_lessons.jpeg">
     <img
         
@@ -169,6 +482,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 </p>
 <h1 id="getting-high">Getting high</h1>
 <p>Another favourite local pastime is getting high with friends. Below is a picture of one such occasion. We were only moderately high, in preparation for another planned expedition described further down, but the views were beautiful nonetheless.
+
+
 
 
 
@@ -209,6 +524,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/01/IMG_20161229_0938212-panorama.jpg">
     <img
         
@@ -236,6 +553,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/01/IMG_20161229_1857389.jpg">
     <img
         
@@ -247,6 +566,8 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 <p>It was hard to ignore the extreme hipness of the young people lounging and playing on the beach as we tried but failed to blend in.</p>
 <p>After a short hike (with the little ‘uns) up Leopard’s Kloof in Betty’s Bay a few days later, we were rewarded by scenes of the <a href="https://en.wikipedia.org/wiki/Disa_uniflora">Disa Uniflora</a>, an orchid which is exceptionally exclusive to our little corner of the planet.</p>
 <p>By the power of the internets, I present you with new, more grainy photos of this pretty flower growing peacefully right next to a waterfall:</p>
+
+
 
 
 
@@ -281,4 +602,4 @@ If you have not yet read my 2016 to 2017 transition post, this is a gentle remin
 <p>Have fun friends! I hope to see you sooner rather than later.</p>
 <p> </p>
 <p> </p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

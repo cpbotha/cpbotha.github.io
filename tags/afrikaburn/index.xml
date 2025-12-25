@@ -1,11 +1,129 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>afrikaburn on voices in my head</title><link>https://cpbotha.net/tags/afrikaburn/</link><description>Recent content in afrikaburn on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Mon, 23 May 2022 20:51:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/afrikaburn/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #242: Multiplicity of me</title><link>https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/</link><pubDate>Mon, 23 May 2022 20:51:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/</guid><description> This, the 242nd edition of the Weekly Head Voices, looks back at the weeks from Monday April 18 to Sunday May 22 of the year 2022.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Afrikaburn on voices in my head</title><link>https://cpbotha.net/tags/afrikaburn/</link><description>Recent content in Afrikaburn on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 10 Aug 2024 23:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/afrikaburn/index.xml" rel="self" type="application/rss+xml"/><item><title>Hivemind / Proximity: Distributed interactive personal lighting art project at AfrikaBurn 2018</title><link>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</link><pubDate>Sat, 10 Aug 2024 23:10:00 +0200</pubDate><guid>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</guid><description>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&amp;rsquo;s us!) was again present and active with a range of workshops and other learning experiences.
+(Strangely, although I wrote vaguely about our AB 2018 experience on this blog shortly after the event, I did not even mention this electronics project, and now it&amp;rsquo;s only taken 6 years to get around to the nerdy bits.)
+That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium, each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated helium balloons floating above their humans as they were roaming over the Binnekring.)</description><content:encoded><![CDATA[ <p>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&rsquo;s us!) was again present and active with a
+range of workshops and other learning experiences.</p>
+<p>(Strangely, although <a href="/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/">I wrote vaguely about our AB 2018 experience on this blog shortly after the
+event</a>, I did not even mention this electronics
+project, and now it&rsquo;s only taken 6 years to get around to the nerdy bits.)</p>
+<p>That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had
+in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of
+helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium,
+each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated
+helium balloons floating above their humans as they were roaming over the Binnekring.)</p>
+<p>I was the main hardware and software designer of our 2018 electronic artwork, eventually titled &ldquo;Hivemind / Proximity&rdquo;,
+and now the main topic of this post. Friend PK helped a lot in the earlier stages coming up with ideas, and building
+test versions of my hardware and software designs, and later constructing the 7 production (haha) units, both at home
+and in the desert, where we got additional help from more of our AfrikaBurn besties.</p>
+<p>For some or other reason, we were less interested in taking photos and making movies, so I&rsquo;ve had to scratch around to
+find illustrative media for this post.</p>
+<h2 id="the-final-product">The final product</h2>
+<p>In the end we had seven people (that&rsquo;s all of us) walking around the desert, each with a 25cm diameter circle of
+coloured leds on their chest and a battery-powered arduino based controller on their waist that was in wireless
+communication with all of the other units, with a range of a few hundred metres.</p>
+<p>On each of the chest circles, each of the other team members was represented by a globally consistently coloured light
+orbiting at a rate correlating with how close that team member was. The further away that team member went, the slower
+their colour would rotate, until the units lost communication, at which point that member&rsquo;s light would start rotating
+faster and faster in the opposite direction.</p>
+<p>Once that team member came back in range, their light would start orbiting in the &ldquo;right&rdquo; direction, and would orbit
+faster as they got closer.</p>
+<p>This proximity visualization worked independently for each pair of team members, and hence for the group as a whole, as
+you can hopefully imagine.</p>
+<p>This early demo gives a good idea of what the animation looked like:
+<video src="circling-leds.mp4" controls=yes /></p>
+<p>The following extremely shaky video shows the assembled units, all happy as they are close to each other, shortly after
+we did the final assembly in the raging Tankwa desert winds and dust. Here you can also see the effect of the diffuse
+tubing that we put the leds in: <video src="circling-leds-assembled.mp4" controls=yes /></p>
+<p>Finally, the following photo shows a partially assembled unit consisting of arduino, xbee shield, xbee radio and the
+battery pack on the side with 4 x 1.5V AA batteries. Friend PK sourced a number of nylon dog treat bags, which were just
+big enough to take the boards + battery pack and thus serve as our super professional production packaging. 
+
+
+
+
+
+
+
+
+
+<figure><a href="assembly.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_d2beac0d5222f3b6.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_8d680cadefcc37a.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_732c04b6a231f405.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg"
+            
+
+        /> </a>
+</figure>
+</p>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><a href="https://robotdyn.com/samd21-m0.html">Robotdyn SAMD21 M0</a>: ARM Cortex M0 32bit Arduino clone. Fast enough to animate the LEDs while communicating with all other units and keeping track of their proximity.</li>
+<li><a href="https://www.digi.com/products/models/xb24cawit-001">XBee S2C XB24CAWIT-001 radio for 802.15.4</a>: For wireless communication comms and RSSI feedback between units</li>
+<li><a href="https://vxlabs.com/2018/03/23/which-jumper-to-set-on-the-itead-xbee-shield-v1-1-for-use-with-a-3-3v-arduino/">ITEAD Studio XBee shield v1.1</a>: To mount XBee onto the Arduino. I&rsquo;ve linked to my vxlabs blog post about this unit, because it has important info re jumper configuration which can save you much time.</li>
+<li><a href="https://www.amazon.com/icever-WS2812B-MagicRGB-LED-Strip/dp/B0CFTP3S41/">A few metres of 60/m WS2812B programmable LED strips (5V, 3 wire)</a></li>
+<li><a href="https://www.robotics.org.za/LEVEL-4P">4 channel 3.3V to 5V logic level shifter (LEVEL-4P, BOB-12009)</a>: Convert 3.3V SAMD21 output to 5V required for programmable LEDs data line (durn&hellip;)</li>
+</ul>
+<p>Getting all 7 of these units built and programmed, the final few in the desert at dusk of day 2 at the Burn, was quite a
+challenge, requiring a gas powered soldering iron and liberal application of WvdL&rsquo;s (aka Broken Pipe) glue gun.</p>
+<p>Especially the 3.3V to 5V level shifter added unnecessary complexity to the already precarious connection from power supply and controller board to the LED circle.</p>
+<h3 id="the-rssi-proximity-trick">The RSSI proximity &ldquo;trick&rdquo;</h3>
+<p>The SAMD21 is the electronic heart of the system.</p>
+<p>It runs a special programme (see next section) that uses the XBee radio to broadcast a packet to the 802.15.4 wireless private area network (PAN), consisting of all of the units, every 1.5 seconds. It also listens, via the XBee radio, for any incoming packets.</p>
+<p>Each incoming packet contains its sending ID.</p>
+<p>Along with that packet, we also get the RSSI, which is an indicator of signal strength.</p>
+<p>That RSSI is also a pretty good measurement of the <em>proximity</em> of the two units, and by proxy of their wearers.</p>
+<p>If we are standing facing each other, the RSSI will be high. If I turn my back to you, the RSSI will be a bit lower. If I walk away from you, it will become lower still.</p>
+<p>So, each unit maintains a list of IDs with the last known RSSI, and also when it last received a packet from that ID. It uses the RSSI to visualize proximity (that person&rsquo;s colour orbits faster the closer they are), and the age to detect person lost contact (orbits faster and faster in the other direction).</p>
+<h2 id="software">Software</h2>
+<p>You can find the full commented <a href="https://github.com/cpbotha/ab-hivemind">C++ source code for this project on my github</a>.</p>
+<p>Please do take a quick browse through the code as well, but here are some noteworthy learnings and observations:</p>
+<ul>
+<li>You can use this code for any number of wearable units (people), just remember to set <code>XBEE_SWARM_SIZE</code>.</li>
+<li>It took me so much time to get 100% reliable communication from the SAMD21 with the XBee. This was probably the
+biggest technical stumbling block. Besides documentation issues (see ITEAD linked post above), it the solution was to
+be super patient with the XBee. You&rsquo;ll see in the code, function <code>addressRead()</code>, that we just keep on trying, with
+generous waits, until we get a successful link.</li>
+<li>Like any good datavis practitioner, I opted for a color scheme from <a href="https://colorbrewer2.org/">ColorBrewer2</a>.</li>
+<li>As you can see in the main <code>loop()</code>, the paint loop is <em>lazy</em> and hence efficient, with three main event handlers
+triggering at different intervals of the arduino clock. This includes the 60fps LED animator, obviously triggering at
+the notorious 16ms interval. I used the fantastic <code>EVERY_N_MILLIS</code> macro from the even more fantastic <a href="https://fastled.io/">FastLED
+animation library</a>.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>In spite of desert soldering, glue-gun glue and duct tape holding everything together, all units worked in the pitch
+dark of the desert, and were at times even used, quite effectively, to locate <em>utterly</em> lost team members in the
+otherwise utterly reception-free environment.</p>
+<p>If we ever do a v2 of this, we would produce a single board, with the smallest possible number of connections to
+lighting and power.</p>
+<p>Taking all of this into account, but especially thanks to our Burniversity peeps who were so positively curious and
+willing to pour their energy into the difficult performance part, this was such a beautiful and worthwhile endeavour.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #242: Multiplicity of me</title><link>https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/</link><pubDate>Mon, 23 May 2022 20:51:00 +0200</pubDate><guid>https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/</guid><description>This, the 242nd edition of the Weekly Head Voices, looks back at the weeks from Monday April 18 to Sunday May 22 of the year 2022.
 If you like backyard philosophy, you&amp;rsquo;re in the right place.
 Even if you only like bullet lists, you&amp;rsquo;re going to be ok.
-Figure 1: Photo by friend WvdL.
-Learning at the Burning There&amp;rsquo;s an unwritten rule that you should not make any life decisions for at least three weeks after the (Afrika)Burn.</description><content:encoded><![CDATA[ <p>This, the 242nd edition of the Weekly Head Voices, looks back at the weeks from
+Figure 1: Photo by friend WvdL.</description><content:encoded><![CDATA[ <p>This, the 242nd edition of the Weekly Head Voices, looks back at the weeks from
 Monday April 18 to Sunday May 22 of the year 2022.</p>
 <p>If you like backyard philosophy, you&rsquo;re in the right place.</p>
 <p>Even if you only like bullet lists, you&rsquo;re going to be ok.</p>
+
+
 
 
 
@@ -21,18 +139,22 @@ Monday April 18 to Sunday May 22 of the year 2022.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu7277cd24f1de9911fddc15a072d08f47_9215095_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu_41bd9f5429550d06.jpg 480w,
             
-                   https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu7277cd24f1de9911fddc15a072d08f47_9215095_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu_cd29c721e76c2270.jpg 800w,
             
-                   https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu7277cd24f1de9911fddc15a072d08f47_9215095_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu_968c3008cb01b577.jpg 1200w,
             
-                   https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu7277cd24f1de9911fddc15a072d08f47_9215095_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu_454f8c3e3a4ec58f.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu7277cd24f1de9911fddc15a072d08f47_9215095_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/05/23/weekly-head-voices-242-multiplicity-of-me/afrikaburn-2022-dmv-wvdl_hu_cd29c721e76c2270.jpg"
             
 
         
@@ -173,10 +295,12 @@ forgive, and you have to be kind.</li>
 </ul>
 <p>Folks, I wish you all (and all the yous), and all of your people, peace and
 love.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #210: MiniBurn 2020</title><link>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</link><pubDate>Sun, 29 Nov 2020 09:50:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</guid><description> Welcome back to the WHV blogging clubhouse, gang!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #210: MiniBurn 2020</title><link>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</link><pubDate>Sun, 29 Nov 2020 09:50:00 +0200</pubDate><guid>https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/</guid><description> Welcome back to the WHV blogging clubhouse, gang!
 Somewhat inspired by Descartes, I can say with a fair amount of confidence that you are now reading these words, and for that I am grateful.
 This post covers the weeks from Monday, November 9 to Sunday, November 22 of the year 2020.
 papercite_static: put some bibtex into your Hugo After languishing for almost a year on my todo list, I finally got around to cleaning up and making available my Python script for embedding your BiBTeX bibliographies in your markdown files.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -191,18 +315,22 @@ papercite_static: put some bibtex into your Hugo After languishing for almost a 
               
             srcset='
             
-                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu_df55c8c205226d65.jpg 480w,
             
-                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu_a5dd115f6b641bf5.jpg 800w,
             
-                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu_f1f04ca55337507f.jpg 1200w,
             
-                   https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu_c61b320f51f08f68.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu0d74330c058446a99ca5dd87a0591421_1983338_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/11/29/weekly-head-voices-210-miniburn-2020/dirt_road_to_stanford_hu_a5dd115f6b641bf5.jpg"
             
 
         /> </a>
@@ -363,7 +491,7 @@ divine and the music beautiful. Combined with the personalities and shared
 memories of our small ensemble, the resultant experience was nothing short of
 magic.</p>
 <p>P.S. Ironically, <a href="/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/#thank-you-joris">GU43 <strong>is</strong> turning into the 2020 soundtrack that I wanted</a>.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #191: COVID-19 part 1.</title><link>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</link><pubDate>Tue, 24 Mar 2020 08:16:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</guid><description> Welcome back everyone! I hope all of you are doing as well as possible.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #191: COVID-19 part 1.</title><link>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</link><pubDate>Tue, 24 Mar 2020 08:16:00 +0200</pubDate><guid>https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/</guid><description> Welcome back everyone! I hope all of you are doing as well as possible.
 This edition of the WHV looks back on the two and a bit tumultuous weeks from Monday March 9 to Tuesday March 24.
 I am writing this for us here now, but I&amp;rsquo;m also writing this for readers in a few years&amp;rsquo; time who might be looking into the more obscure corners of the web for additional impressions of the COVID-19 pandemic.</description><content:encoded><![CDATA[ <figure>
 
@@ -388,22 +516,22 @@ I am writing this for us here now, but I&amp;rsquo;m also writing this for reade
   
   srcset='
   
-    https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_hu_a219218797244fe5.jpg 480w
   
   
-    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_hu_398898b4458d6b00.jpg 800w
   
   
-    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_hu_782c4eacb112cb96.jpg 1200w
   
   
-    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_hu_d2860af2cc82a69a.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_huaf780a1c8196bf01f31d4ef3dfa9e53f_4296750_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2020/03/24/weekly-head-voices-191-covid-19-part-1/jongensfontein_fishing_spot_hu_398898b4458d6b00.jpg"
   
 
    />
@@ -539,10 +667,12 @@ similar that we normally do.</li>
 <p>I wish you all the best during these times.</p>
 <p>Remember: From up close to all the way around the globe, kindness is effective
 across all distances!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #141: Albert was Burning really hard.</title><link>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</link><pubDate>Wed, 09 May 2018 21:11:35 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</guid><description> Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #141: Albert was Burning really hard.</title><link>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</link><pubDate>Wed, 09 May 2018 21:11:35 +0000</pubDate><guid>https://cpbotha.net/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/</guid><description> Impression of AfrikaBurn 2018 by the Tall Philosophical Neighbour, aka DJ Fiasco, aka Super Hanz.
 As we were walking back from the ice truck to the BURNIVERSITY, our home away from home, one of our newly-made Canadian friends said:
 Albert is burning really hard.
 Albert (name subtly changed to protect the innocent), who by that time had presented his first improv theater workshop at our camp, had struck me as a brilliant and already open-minded human being.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -589,6 +719,8 @@ Albert (name subtly changed to protect the innocent), who by that time had prese
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2018/05/ab2018_footnote.jpg">
     <img
         
@@ -597,11 +729,13 @@ Albert (name subtly changed to protect the innocent), who by that time had prese
         /> </a>
 </figure>
 
-]]></content:encoded></item><item><title>Weekly Head Voices #121: Autumn tripping.</title><link>https://cpbotha.net/2017/05/09/weekly-head-voices-121/</link><pubDate>Tue, 09 May 2017 20:22:39 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/05/09/weekly-head-voices-121/</guid><description> This post right here is Monday April 3 to Sunday May 7, according to at least one of the homunculi in my head!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #121: Autumn tripping.</title><link>https://cpbotha.net/2017/05/09/weekly-head-voices-121/</link><pubDate>Tue, 09 May 2017 20:22:39 +0000</pubDate><guid>https://cpbotha.net/2017/05/09/weekly-head-voices-121/</guid><description>This post right here is Monday April 3 to Sunday May 7, according to at least one of the homunculi in my head!
 The first stop on our East Coast autumn break road trip was Storms River Mouth Rest Camp. With the Indian Ocean smashing the rugged rocky shores, one would have to be forgiven if one were to describe the surroundings as epic, because this really is.
-After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FACE YEAH) we family-walked the first few kilometres of the Otter trail, me with GOU#3 on my back.</description><content:encoded><![CDATA[ <p>This post right here is Monday April 3 to Sunday May 7, according to at least one of the homunculi in my head!</p>
+After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FACE YEAH) we family-walked the first few kilometres of the Otter trail, me with GOU#3 on my back. Here’s one impression of the view we were treated with:</description><content:encoded><![CDATA[ <p>This post right here is Monday April 3 to Sunday May 7, according to at least one of the homunculi in my head!</p>
 <p>The first stop on our East Coast autumn break road trip was <a href="https://www.sanparks.org/parks/garden_route/camps/storms_river/">Storms River Mouth Rest Camp</a>. With the Indian Ocean smashing the rugged rocky shores, one would have to be forgiven if one were to describe the surroundings as <em>epic</em>, because this really is.</p>
 <p>After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FACE YEAH) we family-walked the first few kilometres of <a href="http://www.otterhiking.com/html/otter_hiking_trail.html">the Otter trail</a>, me with GOU#3 on my back. Here’s one impression of the view we were treated with:</p>
+
+
 
 
 
@@ -627,6 +761,8 @@ After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FA
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/05/IMG_4870.jpg">
     <img
         
@@ -634,6 +770,8 @@ After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FA
             src="/wp-content/uploads/2017/05/IMG_4870-1024x768.jpg"
         /> </a>
 </figure>
+
+
 
 
 
@@ -665,6 +803,8 @@ After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FA
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/05/IMG_20170413_1749384.jpg">
     <img
         
@@ -676,6 +816,8 @@ After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FA
 <p>After the road trip, I tried to squeeze in as many days of work as possible before my Dutch homies arrived for the Burn… the AFRIKABURN.</p>
 <p>With a really small crew of 6+1, this year we built and ran an official themecamp called BURNIVERSITY. The idea was to try and extract the best parts of going to university, namely the delight we experience when learning together, and to transplant them into Tankwa Town.</p>
 <p>It took off absolutely beautifully!
+
+
 
 
 
@@ -703,9 +845,10 @@ After a FOMO run in the rest camp itself (PRIMAL INDIAN OCEAN SEA WIND IN THE FA
 <p>There’s still some dust that surprises me every now and then, and still some equipment that needs cleaning up and returning. In the meantime, I’ve sort-of accidentally stopped reading twitter, and I’ve sort of accidentally started checking facebook even less regularly than usual.</p>
 <p>It seems that a week of talking more than usual about Mindfulness, doing more breathing and focus exercises with others, and, most importantly, connecting fully with fellow human beings (partially thanks to complete digital disconnection), might have scrambled my brain a tad.</p>
 <p>Have a great week peeps, I hope to see you again soon!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</title><link>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</link><pubDate>Thu, 05 May 2016 21:19:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</guid><description> From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
-Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.
-I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</title><link>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</link><pubDate>Thu, 05 May 2016 21:19:18 +0000</pubDate><guid>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</guid><description> From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
+Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -730,6 +873,8 @@ I woke up one day and decided that the super-inventive internet handle I had ch
 <p>Nobody told me about this additional requirement in ’99! I will ask for my money back.</p>
 <p>In any case, after some fancy twitter footwork, I now have an additional handle: <a href="https://twitter.com/cvoxel">cvoxel</a>. I realise this is only interesting to me and maybe one or two other nerds, but here we are. There might be some personality fragmentation behind all of this. I’ll have a chat with me later.</p>
 <p>Friends in more advanced countries, when I show them the sun and the beer and the beaches and the mountains and the WILD BEASTS over here, usually simply point at my miserably slow internet connection, thereby restoring their faith in the balance that exists in our world. Due to another recent change, I can now offer this as a retort:</p>
+
+
 
 
 
@@ -765,9 +910,11 @@ I woke up one day and decided that the super-inventive internet handle I had ch
 <p>She’s a beautiful pink little not-yet-walking but rapidly expanding cellular mega-city. I and the other more developed cellular mega-cities in this neck of the woods and all of our billions of cells are truly happy to have her with us.</p>
 <p>May your neurotransmitters rejoice.</p>
 <p> </p>
-]]></content:encoded></item><item><title>Weekly Head Voices #91: They’re back.</title><link>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</link><pubDate>Sun, 14 Jun 2015 14:59:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</guid><description> So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #91: They’re back.</title><link>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</link><pubDate>Sun, 14 Jun 2015 14:59:00 +0000</pubDate><guid>https://cpbotha.net/2015/06/14/weekly-head-voices-91-theyre-back/</guid><description>So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.
 Sunset at AfrikaBurn 2015.
 Again inspired by the information-and-entertainment-dense way that Swimgeek manages to do it, I’m going to try this in bullet form.</description><content:encoded><![CDATA[ <p>So after exactly no-one asked me when the Weekly Head Voices would be back, or why they stopped, I decided to reverse my almost-decision of quitting. This hiatus made me realise that the WHV are one of the few tenuous connecting lines between me and a tiny group of readers, people I am quite fond of, dotted around the world.</p>
+
+
 
 
 
@@ -819,9 +966,11 @@ Again inspired by the information-and-entertainment-dense way that Swimgeek mana
   </li>
 </ul>
 <p>Have a beautiful week tiny group of readers!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #87: Good Reads.</title><link>https://cpbotha.net/2014/12/04/weekly-head-voices-87-good-reads/</link><pubDate>Thu, 04 Dec 2014 19:10:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2014/12/04/weekly-head-voices-87-good-reads/</guid><description> Two days ago, I received this in the mail: For various reasons I was temporarily ever-so-slightly misty-eyed. Well-done boys, I’m SUPER proud of you!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #87: Good Reads.</title><link>https://cpbotha.net/2014/12/04/weekly-head-voices-87-good-reads/</link><pubDate>Thu, 04 Dec 2014 19:10:00 +0000</pubDate><guid>https://cpbotha.net/2014/12/04/weekly-head-voices-87-good-reads/</guid><description>Two days ago, I received this in the mail: For various reasons I was temporarily ever-so-slightly misty-eyed. Well-done boys, I’m SUPER proud of you!
 Other books you might also like. I’ve recently finished reading two other mind-expanding books:
-The Three Body Problem by Liu Cixin: Liu Cixin is a wildly popular Chinese science fiction author. I found this recently translated first edition of a trilogy to be an awesome first peek into modern Chinese science fiction.</description><content:encoded><![CDATA[ <p>Two days ago, I received this in the mail:
+The Three Body Problem by Liu Cixin: Liu Cixin is a wildly popular Chinese science fiction author. I found this recently translated first edition of a trilogy to be an awesome first peek into modern Chinese science fiction. The translator, Ken Liu, managed to produce an English version of this story that still managed to bring across themes of Chinese history and culture. On top of that, you also get a computer consisting of 30 million soldiers arranged into inter-connected logic gates (think that’s far-fetched?), artificially intelligent quantum entangled photons (told you), and much more. I’ll be lining up as soon as the translations of part 2 and 3 appear.</description><content:encoded><![CDATA[ <p>Two days ago, I received this in the mail:
+
+
 
 
 
@@ -857,4 +1006,4 @@ please look for the Dutch Bicycle Repair and Pimping Shop at <a href="http://afr
 because you might just find <i>us</i>!</li>
 </ul>
 <p>Have a great week people, wherever you are!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

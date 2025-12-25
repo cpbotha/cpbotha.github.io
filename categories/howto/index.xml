@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>howto on voices in my head</title><link>https://cpbotha.net/categories/howto/</link><description>Recent content in howto on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 10 Jan 2021 15:48:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/howto/index.xml" rel="self" type="application/rss+xml"/><item><title>Super simple yearly post archives for Hugo</title><link>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</link><pubDate>Sun, 10 Jan 2021 15:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</guid><description> I was looking for the most simple way to get automatic yearly archives of all blog posts for the Hugo setup responsible for cpbotha.net (this blog).
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Howto on voices in my head</title><link>https://cpbotha.net/categories/howto/</link><description>Recent content in Howto on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 10 Jan 2021 15:49:45 +0200</lastBuildDate><atom:link href="https://cpbotha.net/categories/howto/index.xml" rel="self" type="application/rss+xml"/><item><title>Super simple yearly post archives for Hugo</title><link>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</link><pubDate>Sun, 10 Jan 2021 15:48:00 +0200</pubDate><guid>https://cpbotha.net/2021/01/10/super-simple-yearly-post-archives-hugo/</guid><description>I was looking for the most simple way to get automatic yearly archives of all blog posts for the Hugo setup responsible for cpbotha.net (this blog).
 Fortunately I ran into Rohan Verma&amp;rsquo;s template-based solution which I could then simplify into the even more straight-forward shortcode-based solution presented in this post.
 For an example of the output, see the post archives here.
 To make this happen on your Hugo setup is a two step process.</description><content:encoded><![CDATA[ <p>I was looking for the most simple way to get automatic yearly archives of all
@@ -12,31 +12,31 @@ in this post.</p>
 <p>Save the following snippet as <code>layouts/shortcodes/archive.html</code>.</p>
 <p>Note that you might have to change <code>&quot;posts&quot;</code> in the code below to whatever Hugo
 section contains your blog posts.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{/*
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">simple shortcode to display all posts in yearly sections on your archive page
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">by Charl P. Botha
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">this is a much simplified version of the yearly post archiving template at:
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">*/}}</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#57606a">{{/*
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">simple shortcode to display all posts in yearly sections on your archive page
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">by Charl P. Botha
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">this is a much simplified version of the yearly post archiving template at:
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">https://rohanverma.net/blog/2019/11/15/archive-pages-group-by-year-hugo/
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">
+</span></span></span><span style="display:flex;"><span><span style="color:#57606a">*/}}</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> := <span style="color:#2aa198;font-weight:bold">3000</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">range</span> <span style="color:#268bd2">where</span> <span style="color:#268bd2">.Site.RegularPages</span> <span style="color:#2aa198">&#34;Section&#34;</span> <span style="color:#2aa198">&#34;posts&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#268bd2">.Date</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">if</span> <span style="color:#859900">gt</span> <span style="color:#268bd2">$prev</span> (<span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span>)<span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span>## <span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span> <span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;02 Jan&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span> -- [<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Title</span><span style="color:#93a1a1;font-style:italic">}}</span>](<span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#268bd2">.Permalink</span><span style="color:#93a1a1;font-style:italic">}}</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span> <span style="color:#268bd2">$prev</span> = <span style="color:#268bd2">.Date.Format</span> <span style="color:#2aa198">&#34;2006&#34;</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">{{</span><span style="color:#859900">end</span><span style="color:#93a1a1;font-style:italic">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#fff"> </span><span style="color:#1f2328">$prev</span><span style="color:#fff"> </span><span style="color:#0550ae">:=</span><span style="color:#fff"> </span><span style="color:#1f2328">3000</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#cf222e">range</span><span style="color:#fff"> </span><span style="color:#1f2328">where</span><span style="color:#fff"> </span><span style="color:#1f2328">.Site.RegularPages</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;Section&#34;</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;posts&#34;</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#cf222e">if</span><span style="color:#fff"> </span><span style="color:#1f2328">.Date</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#cf222e">if</span><span style="color:#fff"> </span><span style="color:#cf222e">gt</span><span style="color:#fff"> </span><span style="color:#1f2328">$prev</span><span style="color:#fff"> </span><span style="color:#0550ae">(</span><span style="color:#1f2328">.Date.Format</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;2006&#34;</span><span style="color:#0550ae">)</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span>## <span style="color:#57606a">{{</span><span style="color:#fff"> </span><span style="color:#1f2328">.Date.Format</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;2006&#34;</span><span style="color:#fff"> </span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#cf222e">end</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#1f2328">.Date.Format</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;02 Jan&#34;</span><span style="color:#57606a">}}</span> -- [<span style="color:#57606a">{{</span><span style="color:#1f2328">.Title</span><span style="color:#57606a">}}</span>](<span style="color:#57606a">{{</span><span style="color:#1f2328">.Permalink</span><span style="color:#57606a">}}</span>)
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#fff"> </span><span style="color:#1f2328">$prev</span><span style="color:#fff"> </span><span style="color:#0550ae">=</span><span style="color:#fff"> </span><span style="color:#1f2328">.Date.Format</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;2006&#34;</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#cf222e">end</span><span style="color:#57606a">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">{{</span><span style="color:#cf222e">end</span><span style="color:#57606a">}}</span>
 </span></span></code></pre></div><h2 id="step-2-use-shortcode">Step 2: Use shortcode</h2>
 <p>Use the shortcode on any page as <code>{{% archive %}}</code>, as shown in the example below.</p>
 <p>Note here that we&rsquo;re using <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown">the shortcode syntax for markdown shortcodes</a>,
 i.e. <code>%</code> instead of the <code>&lt;</code> you might be more used to for HTML shortcodes.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>title: &#34;Posts Archive&#34;
 </span></span><span style="display:flex;"><span>slug: &#34;archive&#34;
 </span></span><span style="display:flex;"><span>date: 2021-01-09T16:17:00+02:00
@@ -48,7 +48,7 @@ i.e. <code>%</code> instead of the <code>&lt;</code> you might be more used to f
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>{{% archive %}}
-</span></span></code></pre></div>]]></content:encoded></item><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description> When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
+</span></span></code></pre></div> ]]></content:encoded></item><item><title>Drop-in replacement for Hugo figure shortcode with responsive img srcset</title><link>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</link><pubDate>Sat, 02 May 2020 11:42:00 +0200</pubDate><guid>https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/</guid><description>When I moved this blog over to Hugo slightly more than a year ago, I started using Laura Kalbag&amp;rsquo;s special img shortcode with img srcset support.
 To make a long and interesting story short, srcset enables us to tell the browser that we have for example 5 different resolutions of an image available, and that it should choose the best one based on the user&amp;rsquo;s device.
 Pretty neat actually!
 Anyways, I tweaked the code a bit over time, and most recently I combined it with the stock Hugo figure shortcode.</description><content:encoded><![CDATA[ <p>When <a href="/2019/03/31/wordpress-to-hugo/#bonus-level-bundling-and-automatic-resizing-of-images">I moved this blog over to
@@ -81,7 +81,7 @@ then rebuild your blog.</p>
 bundle</a> if you want
 automatic resizing and srcset. The shortcode will fall back to stock Hugo
 behaviour otherwise.</p>
-<script type="application/javascript" src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
+<script src="https://gist.github.com/cpbotha/deb310eed14308fe26f7b7d0fabeb34d.js"></script>
 
 <h2 id="example-result">Example result</h2>
 <p>I&rsquo;ve posted the image below so you can see the shortcode in action.</p>
@@ -99,6 +99,8 @@ narrowed your viewport, or switched devtools to mobile emulation.</p>
 
 
 
+
+
 <figure><a href="20200324_stillbaai_beach.jpg">
     <img
         
@@ -106,18 +108,22 @@ narrowed your viewport, or switched devtools to mobile emulation.</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_d2863eb88a6b09ec.jpg 480w,
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_f97f7d9efd39393a.jpg 800w,
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_cb4e44b92c98bb91.jpg 1200w,
             
-                   https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_3869a0cbb42fa4f6.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu5cb26fe1d9f946c4e246a456961c0c88_490318_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-responsive-img-srcset/20200324_stillbaai_beach_hu_f97f7d9efd39393a.jpg"
             
 
         
@@ -133,7 +139,7 @@ instead of just breaking when the image was not part of the page
 bundle. However, if you want resizing and srcset (the whole point of this
 post), your images should be in the page bundle. :)</li>
 </ul>
-]]></content:encoded></item><item><title>The Morgan McGuire Markdeep project Management Method: MMMMM.</title><link>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</link><pubDate>Tue, 24 Mar 2020 21:37:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</guid><description> This weekend, Morgan McGuire, graphics and game programming god, tweeted a thread about his text journal based method of software development project management.
+ ]]></content:encoded></item><item><title>The Morgan McGuire Markdeep project Management Method: MMMMM.</title><link>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</link><pubDate>Tue, 24 Mar 2020 21:37:00 +0200</pubDate><guid>https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/</guid><description>This weekend, Morgan McGuire, graphics and game programming god, tweeted a thread about his text journal based method of software development project management.
 Here I single out three of the tweets, but you should really read the whole thread:
 When coding, I always maintain a journal in the repo (I happen to use Markdeep for this now) with a TODO list.
 Tasks are at the level of one hour for &amp;ldquo;today&amp;rdquo; stuff, one day for next week, and then week- or longer level tasks.</description><content:encoded><![CDATA[ <p>This weekend, Morgan McGuire, graphics and game programming god, <a href="https://twitter.com/CasualEffects/status/1241329539902570498">tweeted a
@@ -186,22 +192,22 @@ about the big picture.</p>
   
   srcset='
   
-    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu_162ec717a58bc7a3.jpg 480w
   
   
-    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu_477852253ca41e9f.jpg 800w
   
   
-    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu_d3fb471b9cdda860.jpg 1200w
   
   
-    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu_1e0a459edcc48ed2.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu708b383afffb5b210387c092519a5f71_284523_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/mmmmm_example_journal_hu_477852253ca41e9f.jpg"
   
 
    />
@@ -274,22 +280,22 @@ terms of its interactivity and just general prettiness.</p>
   
   srcset='
   
-    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu_602ff8910945529d.png 480w
   
   
-    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png 800w
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu_4e81ff4afd99816.png 800w
   
   
-    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1200x0_resize_box_3.png 1200w
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu_b0457714a248643f.png 1200w
   
   
-    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_1500x0_resize_box_3.png 1500w 
+    , https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu_b1c1116c66cc939f.png 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu6d6bf869dea808897c5bb056b398e0ba_271138_800x0_resize_box_3.png"
+  src="https://cpbotha.net/2020/03/24/the-morgan-mcguire-markdeep-project-management-method-mmmmm/iphone5-large_hu_4e81ff4afd99816.png"
   
 
    />
@@ -300,7 +306,7 @@ terms of its interactivity and just general prettiness.</p>
 <p>I bought the web version not because I currently need a graphics reference, but
 rather because it is a thing of beauty, and because I wanted to be able to see
 better how it all works.</p>
-]]></content:encoded></item><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description> As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
+ ]]></content:encoded></item><item><title>We now have self-hosted isso comments</title><link>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</link><pubDate>Sun, 10 Nov 2019 16:28:00 +0200</pubDate><guid>https://cpbotha.net/2019/11/10/we-now-have-self-hosted-isso-comments/</guid><description>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+ of the comments on this site to isso, an open-source self-hosted commenting system.
 TL;DR: Comments on this blog are now managed by self-hosted, open-source isso that I control. Commenting should be much faster and more fun, so have at it!
 Why I recommend strongly against Disqus. You might recall, or you could just check the relevant blog post, that I ported all comments from wordpress to disqus (grrr&amp;hellip;) in March of this year, when I upgraded to the Hugo static site generator.</description><content:encoded><![CDATA[ <p>As one is prone to do on a Saturday, I decided yesterday to migrate all 2500+
 of the comments on this site to isso, an open-source self-hosted commenting
@@ -358,9 +364,9 @@ isso</a>.</p>
 <p>I will soon create a PR into the main repo. It might or might not get accepted.</p>
 <p>Simply edit the <code>moderation</code> section of your <code>isso.cfg</code> to look something like
 the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#859900">[moderation]</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">enabled</span> = <span style="color:#2aa198">true</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">activate-if-email-previously-approved</span> = <span style="color:#2aa198">true</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#cf222e">[moderation]</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">enabled</span> <span style="color:#0550ae">=</span> <span style="color:#0a3069">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">activate-if-email-previously-approved</span> <span style="color:#0550ae">=</span> <span style="color:#0a3069">true</span>
 </span></span></code></pre></div><p>When someone leaves a comment, and their email address has had a comment
 approved within the last 6 months, the new comment will be automatically
 activated.</p>
@@ -386,8 +392,8 @@ in the case of no parent, the comment does not show up.</li>
 <li>Isso stores timestamps as seconds since epoch. You can use the following SQL
 to convert a timestring to seconds since epoch:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#859900">select</span> <span style="color:#268bd2">strftime</span>(<span style="color:#2aa198">&#34;%s&#34;</span>, <span style="color:#2aa198">&#34;2019-08-22 14:11&#34;</span>);
-</span></span></code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#cf222e">select</span><span style="color:#fff"> </span>strftime<span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;%s&#34;</span><span style="color:#1f2328">,</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;2019-08-22 14:11&#34;</span><span style="color:#1f2328">);</span><span style="color:#fff">
+</span></span></span></code></pre></div><p>I was up until 01:00 getting all of this running smoothly.</p>
 <p>That is how much I love this blog and its people. :D</p>
 <h2 id="conclusions">Conclusions.</h2>
 <p>I am happy that all of your comments are now self-hosted on this server using
@@ -397,7 +403,7 @@ open-source software that I have a good grasp of.</p>
 <p>(Also: MARKDOWN!)</p>
 <p>Ok folks, I hope this further diminishes any barriers that there might have
 been to you leaving us a message now and then!</p>
-]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description> In this post, I explain how to get up and running with Emacs Orgmode habits.
+ ]]></content:encoded></item><item><title>Forming and maintaining habits using Orgmode.</title><link>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</link><pubDate>Sat, 02 Nov 2019 16:48:00 +0200</pubDate><guid>https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/</guid><description>In this post, I explain how to get up and running with Emacs Orgmode habits.
 Even if you&amp;rsquo;re not planning to use Emacs for this, it might be interesting context for the development of other ideas for habit tracking tricks and tools.
 The importance of habits. If you have some experience being, you know, alive, and perhaps even trying to get just that little bit better at it every day, you will have realised by now that being able to form and maintain good habits is almost a super power.</description><content:encoded><![CDATA[ <p>In this post, I explain how to get up and running with Emacs Orgmode habits.</p>
 <p>Even if you&rsquo;re not planning to use Emacs for this, it might be interesting
@@ -470,22 +476,22 @@ ago, I somehow kept on letting them slip.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_f5ebe94babcb0c44.png 480w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png 800w
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_a9cc921388380294.png 800w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1200x0_resize_box_3.png 1200w
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_678f29c39cc0d732.png 1200w
   
   
-    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_1500x0_resize_box_3.png 1500w 
+    , https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_8cbade739c4c6438.png 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu66c0ac3ba129dae999c7a15c38ad8dc3_53878_800x0_resize_box_3.png"
+  src="https://cpbotha.net/2019/11/02/forming-and-maintaining-habits-using-orgmode/org-habits-screenshot_hu_a9cc921388380294.png"
   
 
    />
@@ -508,17 +514,17 @@ importantly, how long you have been streaking a particular habit.</p>
 <h3 id="global-configuration">Global configuration.</h3>
 <p>Firstly, ensure that the <code>org-habit</code> Orgmode extension is activated by adding
 the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(<span style="color:#268bd2">add-to-list</span> <span style="color:#2aa198">&#39;org-modules</span> <span style="color:#2aa198">&#39;org-habit</span> <span style="color:#268bd2">t</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#953800">add-to-list</span> <span style="color:#032f62">&#39;org-modules</span> <span style="color:#032f62">&#39;org-habit</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
 </span></span></code></pre></div><p>Whilst your in your <code>init.el</code>, add something like the following to activate
 state logging for the task <code>DONE</code> state:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; each state with ! is recorded as state change</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; in this case I&#39;m logging TODO and DONE states</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-todo-keywords</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#268bd2">sequence</span> <span style="color:#2aa198">&#34;TODO(t!)&#34;</span> <span style="color:#2aa198">&#34;NEXT(n)&#34;</span> <span style="color:#2aa198">&#34;SOMD(s)&#34;</span> <span style="color:#2aa198">&#34;WAFO(w)&#34;</span> <span style="color:#2aa198">&#34;|&#34;</span> <span style="color:#2aa198">&#34;DONE(d!)&#34;</span> <span style="color:#2aa198">&#34;CANC(c!)&#34;</span>)))
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; I prefer to log TODO creation also</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#268bd2">t</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; log into LOGBOOK drawer</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-log-into-drawer</span> <span style="color:#268bd2">t</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span><span style="color:#57606a">;; each state with ! is recorded as state change</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; in this case I&#39;m logging TODO and DONE states</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-todo-keywords</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#953800">sequence</span> <span style="color:#0a3069">&#34;TODO(t!)&#34;</span> <span style="color:#0a3069">&#34;NEXT(n)&#34;</span> <span style="color:#0a3069">&#34;SOMD(s)&#34;</span> <span style="color:#0a3069">&#34;WAFO(w)&#34;</span> <span style="color:#0a3069">&#34;|&#34;</span> <span style="color:#0a3069">&#34;DONE(d!)&#34;</span> <span style="color:#0a3069">&#34;CANC(c!)&#34;</span><span style="color:#1f2328">)))</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; I prefer to log TODO creation also</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-treat-insert-todo-heading-as-state-change</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; log into LOGBOOK drawer</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-log-into-drawer</span> <span style="color:#0550ae">t</span><span style="color:#1f2328">)</span>
 </span></span></code></pre></div><h3 id="per-habit-configuration">Per-habit configuration.</h3>
 <p>Then, start creating the special habit nodes as explained in the following:</p>
 <p>Below is what the &ldquo;running&rdquo; habit currently looks like in my <a href="/2019/09/21/note-taking-strategy-2019/#monthly-journal-files">current monthly
@@ -585,7 +591,7 @@ try again.</li>
 <li>Emacs Orgmode habit tracking is a great tool for Emacs users to help form and
 maintain habits, especially non-daily ones.</li>
 </ul>
-]]></content:encoded></item><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description> It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
+ ]]></content:encoded></item><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description>It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
 As can be seen in the history page or rather the first weblog entry dated 2001-02-27, this blog has been around for more than 18 years.
 It started as some CGI script, then spent some time as a LiveJournal, then, thanks to meeting Professor Biella Coleman who was at that point still a grad student, went through a Movable Type phase and then, at some point, converted to Wordpress.</description><content:encoded><![CDATA[ <p>It sounds a bit more involved than it turned out to be, but I have a thing for
 posts titled &ldquo;Moving M years of K from Y to Z&rdquo;.</p>
@@ -642,17 +648,17 @@ the new site like this:</p>
 git clone https://github.com/carsonip/hugo-theme-minos.git
 </code></pre><p>Before starting up the new site for the first time, I edited the top-level
 <code>config.toml</code> so it looked like the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#1f2328">baseURL</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;https://cpbotha.net/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">languageCode</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">title</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;voices in my head&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">theme</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;hugo-theme-minos&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># required for disqus comments, see next section</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">disqusShortname</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;cpbotha&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[<span style="color:#268bd2">permalinks</span>]
-</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">[</span><span style="color:#1f2328">permalinks</span><span style="color:#1f2328">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a"># mimic wordpress permalink configuration for future posts</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a"># exported wordpress posts have `url` correctly set which overrides everything</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">posts</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;/:year/:month/:day/:slug/&#34;</span>
 </span></span></code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
 minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
 Components</a> mechanism.</p>
@@ -712,11 +718,11 @@ which case the output of the build will end up in a sub-directory named
 I would prefer not syncing the expendable 600MB+ output directory, instead
 building it and syncing it from <code>~/Downloads</code>.</p>
 <p>The little bash script I used to perform step 2 in one go looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
-</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#57606a">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>hugo -d ~/Downloads/cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># sync contents of public dir into static_cpbothanet/</span>
+</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#0a3069">\
+</span></span></span><span style="display:flex;"><span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
 </span></span></code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
 <p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
 at least an image or two, an important piece of the puzzle was how to keep
@@ -742,7 +748,7 @@ directory containing the relevant images and the post contents in a file
 called <code>index.md</code>.</p>
 <p>In my case, I would create a post by invoking the following command in the
 top-level directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
 </span></span></code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
 available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
 to images that are in the same directory using just their relative filenames.</p>
@@ -769,7 +775,7 @@ archetypes</a> which I have
 configured to help me start a blog post more easily.</p>
 <p>Let me know in the comments if you have any other questions.</p>
 <p>Here&rsquo;s to at least 18 more years of blog posts!</p>
-]]></content:encoded></item><item><title>Critical Thinking 101: Three super easy steps to spot poppycock on the internet.</title><link>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</link><pubDate>Fri, 10 Feb 2017 20:44:03 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</guid><description> Today it happened again.
+ ]]></content:encoded></item><item><title>Critical Thinking 101: Three super easy steps to spot poppycock on the internet.</title><link>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</link><pubDate>Fri, 10 Feb 2017 20:44:03 +0000</pubDate><guid>https://cpbotha.net/2017/02/10/critical-thinking-101-three-super-easy-steps-to-spot-poppycock-on-the-internet/</guid><description>Today it happened again.
 A Lie Can Travel Halfway Around the World While the Truth Is Putting On Its Shoes
 (quote not by Mark Twain, origin quite interesting)
 Someone on facebook forwarded an article that was full of badly written and utterly unsubstantiated conspiracy theories about topic X. (topic X could be anything: politics, health, whatever)
@@ -808,7 +814,7 @@ Now you probably think that I must have decades of experience separating the int
 <li>2017-02-11: <a href="https://www.theguardian.com/technology/2017/feb/11/fake-news-is-killing-peoples-minds-says-apple-boss-tim-cook"><em>Fake news is “killing people’s minds”, says Apple boss Tim Cook</em></a> (The Guardian) –</li>
 </ul>
 <p> </p>
-]]></content:encoded></item><item><title>Samsung Gear Fit 2 voice guide at intervals not working at all: The Fix.</title><link>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</link><pubDate>Sat, 21 Jan 2017 13:05:42 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</guid><description> Update 2017-05-02: As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.
+ ]]></content:encoded></item><item><title>Samsung Gear Fit 2 voice guide at intervals not working at all: The Fix.</title><link>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</link><pubDate>Sat, 21 Jan 2017 13:05:42 +0000</pubDate><guid>https://cpbotha.net/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/</guid><description>Update 2017-05-02: As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.
 This is a really short note to help other people trying to get their broken Samsung Gear Fit 2 voice “guide at intervals” to work.</description><content:encoded><![CDATA[ <p><strong>Update 2017-05-02:</strong> <em>As reported by Kjetil in the comments, if you update the Health apps in the GEAR category of Galaxy Apps, this should fix the problem without having to change your phone’s language. I’m keeping the rest of the post here as a record of events.</em></p>
 <p>This is a really short note to help other people trying to get their broken Samsung Gear Fit 2 voice “guide at intervals” to work.</p>
 <p>In short, by activating the “guide at intervals” function on the Gear Fit 2, you can get a synthesised voice to give you all kinds of stats while you are running with bluetooth earphones. In my case, I set it up to give me distance, pacing and heart rate information every 0.5 km. This helps me to control my pace and extend my run.</p>
@@ -819,7 +825,7 @@ This is a really short note to help other people trying to get their broken Sams
 <p>I switched my phone from “English (South African)” to “English (US)”, rebooted the phone, then rebooted the Gear Fit 2, and finally went out for a quick test walk.</p>
 <p>Samsung Gear Fit 2 voice guide at intervals was back!</p>
 <p>I am really happy to have this core feature back, and to have the exercise app stay active until the end of my run. However, this undocumented behaviour, as well as the fact that the watch, which has more than enough processing power and a beautiful display, does not give any kind of feedback to help the user correct the issue, makes for an extremely frustrating experience.</p>
-]]></content:encoded></item><item><title>Fixing the Samsung Gear Fit 2 GPS lock delay when running without phone</title><link>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</link><pubDate>Sun, 15 Jan 2017 08:37:51 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</guid><description> For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.
+ ]]></content:encoded></item><item><title>Fixing the Samsung Gear Fit 2 GPS lock delay when running without phone</title><link>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</link><pubDate>Sun, 15 Jan 2017 08:37:51 +0000</pubDate><guid>https://cpbotha.net/2017/01/15/fixing-the-samsung-gear-fit-2-gps-lock-delay-when-running-without-phone/</guid><description>For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.
 Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</description><content:encoded><![CDATA[ <p>For the past few runs, I noticed that my Gear Fit 2 would only lock onto GPS after more than 0.5 km. By “noticed”, I of course mean “got super frustrated with and considered briefly throwing the gadget onto the ground and arranging for its utter disintegration through repeated jumping on it”.</p>
 <p>Besides losing the first 0.5 km of my run data, the pacing information, delivered via synthesised voice, would be wildly inaccurate for the rest of my run.</p>
 <p>Judging by <a href="https://us.community.samsung.com/t5/forums/v3_1/forumtopicpage/board-id/wearabletech/thread-id/464/page/1">this 22 page thread on the Samsung community forums</a>, there are other users who were also less than happy that the Gear Fit 2 built-in GPS does not seem to work as advertised. Understandably, people bought the gadget in order to be able to go running without having to lug their smartphones along.</p>
@@ -838,8 +844,10 @@ Besides losing the first 0.5 km of my run data, the pacing information, delivere
 <h1 id="samsung-gear-fit-2-even-casual-runners-should-think-twice">Samsung Gear Fit 2: Even casual runners should think twice.</h1>
 <p>For the price, the Samsung Gear Fit 2 packs a lot of features.</p>
 <p>However, between this undocumented (as far as I can see) and sometimes plain frustrating GPS behaviour, the voice guidance which breaks easily and mysteriously (see <a href="/2017/01/21/samsung-gear-fit-2-voice-guide-at-intervals-not-working-at-all-the-fix/">another post of mine on that issue and how to fix it</a>), and the battery life (a 40 minute run with music and GPS can use up 30% to 40% of the battery), slightly more serious casual runners (strange category, I know) might want to consider carefully their alternatives.</p>
-]]></content:encoded></item><item><title>Dvorak remapping with Karabiner-Elements on macOS Sierra works!</title><link>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</link><pubDate>Fri, 16 Dec 2016 09:46:38 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</guid><description> With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.
-I have been using Karabiner for a while now to remap my keyboard to Dvorak, as the OSX system Dvorak keyboard mapping exposes a bug in many Java apps, including all of the JetBrains development environment tools I use intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are Qwerty, which is of course tremendously confusing.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Dvorak remapping with Karabiner-Elements on macOS Sierra works!</title><link>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</link><pubDate>Fri, 16 Dec 2016 09:46:38 +0000</pubDate><guid>https://cpbotha.net/2016/12/16/dvorak-remapping-with-karabiner-elements-on-macos-sierra-works/</guid><description> With some config file elbow grease, Karabiner-Elements works wonderfully on macOS Sierra to remap your keyboard to Dvorak.
+I have been using Karabiner for a while now to remap my keyboard to Dvorak, as the OSX system Dvorak keyboard mapping exposes a bug in many Java apps, including all of the JetBrains development environment tools I use intensively, whereby the keyboard is in fact Dvorak, but all shortcut keys are Qwerty, which is of course tremendously confusing. You can read more about the issue in this StackOverflow answer.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -891,76 +899,76 @@ Dvorak.</p>
 <p>So, in case it helps anyone, my old <code>karabiner.json</code> is shown below. Yours
 should be at <code>~/.config/karabiner/karabiner.json</code>. You should be able to copy
 over the <code>simple_modifications</code> clause from the example below.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#268bd2;font-weight:bold">&#34;global&#34;</span>: {
-</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;check_for_updates_on_startup&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;show_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#268bd2;font-weight:bold">&#34;show_profile_name_in_menu_bar&#34;</span>: <span style="color:#859900;font-weight:bold">false</span>
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    <span style="color:#268bd2;font-weight:bold">&#34;profiles&#34;</span>: [
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;devices&#34;</span>: [],
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;fn_function_keys&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f1&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_decrement&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f10&#34;</span>: <span style="color:#2aa198">&#34;mute&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f11&#34;</span>: <span style="color:#2aa198">&#34;volume_decrement&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f12&#34;</span>: <span style="color:#2aa198">&#34;volume_increment&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f2&#34;</span>: <span style="color:#2aa198">&#34;display_brightness_increment&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f3&#34;</span>: <span style="color:#2aa198">&#34;mission_control&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f4&#34;</span>: <span style="color:#2aa198">&#34;launchpad&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f5&#34;</span>: <span style="color:#2aa198">&#34;illumination_decrement&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f6&#34;</span>: <span style="color:#2aa198">&#34;illumination_increment&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f7&#34;</span>: <span style="color:#2aa198">&#34;rewind&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f8&#34;</span>: <span style="color:#2aa198">&#34;play_or_pause&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f9&#34;</span>: <span style="color:#2aa198">&#34;fastforward&#34;</span>
-</span></span><span style="display:flex;"><span>            },
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;name&#34;</span>: <span style="color:#2aa198">&#34;Default profile&#34;</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;selected&#34;</span>: <span style="color:#859900;font-weight:bold">true</span>,
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;simple_modifications&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;a&#34;</span>: <span style="color:#2aa198">&#34;a&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;b&#34;</span>: <span style="color:#2aa198">&#34;x&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;backslash&#34;</span>: <span style="color:#2aa198">&#34;backslash&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;c&#34;</span>: <span style="color:#2aa198">&#34;j&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock&#34;</span>: <span style="color:#2aa198">&#34;left_control&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;close_bracket&#34;</span>: <span style="color:#2aa198">&#34;equal_sign&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;comma&#34;</span>: <span style="color:#2aa198">&#34;w&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;d&#34;</span>: <span style="color:#2aa198">&#34;e&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;e&#34;</span>: <span style="color:#2aa198">&#34;period&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;equal_sign&#34;</span>: <span style="color:#2aa198">&#34;close_bracket&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;f&#34;</span>: <span style="color:#2aa198">&#34;u&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;g&#34;</span>: <span style="color:#2aa198">&#34;i&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;h&#34;</span>: <span style="color:#2aa198">&#34;d&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;hyphen&#34;</span>: <span style="color:#2aa198">&#34;open_bracket&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;i&#34;</span>: <span style="color:#2aa198">&#34;c&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;j&#34;</span>: <span style="color:#2aa198">&#34;h&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;k&#34;</span>: <span style="color:#2aa198">&#34;t&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;l&#34;</span>: <span style="color:#2aa198">&#34;n&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;m&#34;</span>: <span style="color:#2aa198">&#34;m&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;n&#34;</span>: <span style="color:#2aa198">&#34;b&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;non_us_backslash&#34;</span>: <span style="color:#2aa198">&#34;grave_accent_and_tilde&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;o&#34;</span>: <span style="color:#2aa198">&#34;r&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;open_bracket&#34;</span>: <span style="color:#2aa198">&#34;slash&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;p&#34;</span>: <span style="color:#2aa198">&#34;l&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;period&#34;</span>: <span style="color:#2aa198">&#34;v&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;q&#34;</span>: <span style="color:#2aa198">&#34;quote&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;quote&#34;</span>: <span style="color:#2aa198">&#34;hyphen&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;r&#34;</span>: <span style="color:#2aa198">&#34;p&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;s&#34;</span>: <span style="color:#2aa198">&#34;o&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;semicolon&#34;</span>: <span style="color:#2aa198">&#34;s&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;slash&#34;</span>: <span style="color:#2aa198">&#34;z&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;t&#34;</span>: <span style="color:#2aa198">&#34;y&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;u&#34;</span>: <span style="color:#2aa198">&#34;g&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;v&#34;</span>: <span style="color:#2aa198">&#34;k&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;w&#34;</span>: <span style="color:#2aa198">&#34;comma&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;x&#34;</span>: <span style="color:#2aa198">&#34;q&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;y&#34;</span>: <span style="color:#2aa198">&#34;f&#34;</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;z&#34;</span>: <span style="color:#2aa198">&#34;semicolon&#34;</span>
-</span></span><span style="display:flex;"><span>            },
-</span></span><span style="display:flex;"><span>            <span style="color:#268bd2;font-weight:bold">&#34;virtual_hid_keyboard&#34;</span>: {
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;caps_lock_delay_milliseconds&#34;</span>: <span style="color:#2aa198;font-weight:bold">0</span>,
-</span></span><span style="display:flex;"><span>                <span style="color:#268bd2;font-weight:bold">&#34;keyboard_type&#34;</span>: <span style="color:#2aa198">&#34;ansi&#34;</span>
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    ]
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>]]></content:encoded></item></channel></rss>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#0550ae">&#34;global&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0550ae">&#34;check_for_updates_on_startup&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">true</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0550ae">&#34;show_in_menu_bar&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">true</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#0550ae">&#34;show_profile_name_in_menu_bar&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">},</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#0550ae">&#34;profiles&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">[</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;devices&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">[],</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;fn_function_keys&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f1&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;display_brightness_decrement&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f10&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;mute&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f11&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;volume_decrement&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f12&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;volume_increment&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f2&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;display_brightness_increment&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f3&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;mission_control&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f4&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;launchpad&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f5&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;illumination_decrement&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f6&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;illumination_increment&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f7&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;rewind&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f8&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;play_or_pause&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f9&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;fastforward&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#1f2328">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;name&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;Default profile&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;selected&#34;</span><span style="color:#1f2328">:</span> <span style="color:#cf222e">true</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;simple_modifications&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;a&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;a&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;b&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;x&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;backslash&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;backslash&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;c&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;j&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;caps_lock&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;left_control&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;close_bracket&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;equal_sign&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;comma&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;w&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;d&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;e&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;e&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;period&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;equal_sign&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;close_bracket&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;f&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;u&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;g&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;i&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;h&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;d&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;hyphen&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;open_bracket&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;i&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;c&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;j&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;h&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;k&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;t&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;l&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;n&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;m&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;m&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;n&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;b&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;non_us_backslash&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;grave_accent_and_tilde&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;o&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;r&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;open_bracket&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;slash&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;p&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;l&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;period&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;v&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;q&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;quote&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;quote&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;hyphen&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;r&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;p&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;s&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;o&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;semicolon&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;s&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;slash&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;z&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;t&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;y&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;u&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;g&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;v&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;k&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;w&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;comma&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;x&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;q&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;y&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;f&#34;</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;z&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;semicolon&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#1f2328">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#0550ae">&#34;virtual_hid_keyboard&#34;</span><span style="color:#1f2328">:</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;caps_lock_delay_milliseconds&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0550ae">0</span><span style="color:#1f2328">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#0550ae">&#34;keyboard_type&#34;</span><span style="color:#1f2328">:</span> <span style="color:#0a3069">&#34;ansi&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#1f2328">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#1f2328">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">}</span>
+</span></span></code></pre></div> ]]></content:encoded></item></channel></rss>

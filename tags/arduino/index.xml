@@ -1,10 +1,130 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>arduino on voices in my head</title><link>https://cpbotha.net/tags/arduino/</link><description>Recent content in arduino on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 25 Mar 2018 20:42:29 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #137: Let me mine your metadata.</title><link>https://cpbotha.net/2018/03/25/weekly-head-voices-137/</link><pubDate>Sun, 25 Mar 2018 20:42:29 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/25/weekly-head-voices-137/</guid><description> Winter is coming, somewhere on the R44 between Betty’s Bay and Gordon’s Bay.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Arduino on voices in my head</title><link>https://cpbotha.net/tags/arduino/</link><description>Recent content in Arduino on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 10 Aug 2024 23:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Hivemind / Proximity: Distributed interactive personal lighting art project at AfrikaBurn 2018</title><link>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</link><pubDate>Sat, 10 Aug 2024 23:10:00 +0200</pubDate><guid>https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/</guid><description>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&amp;rsquo;s us!) was again present and active with a range of workshops and other learning experiences.
+(Strangely, although I wrote vaguely about our AB 2018 experience on this blog shortly after the event, I did not even mention this electronics project, and now it&amp;rsquo;s only taken 6 years to get around to the nerdy bits.)
+That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium, each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated helium balloons floating above their humans as they were roaming over the Binnekring.)</description><content:encoded><![CDATA[ <p>At AfrikaBurn 2018, the South African / Dutch theme camp Burniversity (that&rsquo;s us!) was again present and active with a
+range of workshops and other learning experiences.</p>
+<p>(Strangely, although <a href="/2018/05/09/weekly-head-voices-141-albert-was-burning-really-hard/">I wrote vaguely about our AB 2018 experience on this blog shortly after the
+event</a>, I did not even mention this electronics
+project, and now it&rsquo;s only taken 6 years to get around to the nerdy bits.)</p>
+<p>That year, we had perhaps a bit too much energy and decided to design an electronic artwork, inspired by the fun we had
+in 2017 with a giant bottle of helium, a bag of CR2032 button cell batteries and leds, and another bag full of
+helium-grade balloons. (In short: On the less windy nights, we would inflate clusters of 4 to 5 balloons with helium,
+each with a burning led inside, and attach the cluster to a theme camp member. Picture little clouds of illuminated
+helium balloons floating above their humans as they were roaming over the Binnekring.)</p>
+<p>I was the main hardware and software designer of our 2018 electronic artwork, eventually titled &ldquo;Hivemind / Proximity&rdquo;,
+and now the main topic of this post. Friend PK helped a lot in the earlier stages coming up with ideas, and building
+test versions of my hardware and software designs, and later constructing the 7 production (haha) units, both at home
+and in the desert, where we got additional help from more of our AfrikaBurn besties.</p>
+<p>For some or other reason, we were less interested in taking photos and making movies, so I&rsquo;ve had to scratch around to
+find illustrative media for this post.</p>
+<h2 id="the-final-product">The final product</h2>
+<p>In the end we had seven people (that&rsquo;s all of us) walking around the desert, each with a 25cm diameter circle of
+coloured leds on their chest and a battery-powered arduino based controller on their waist that was in wireless
+communication with all of the other units, with a range of a few hundred metres.</p>
+<p>On each of the chest circles, each of the other team members was represented by a globally consistently coloured light
+orbiting at a rate correlating with how close that team member was. The further away that team member went, the slower
+their colour would rotate, until the units lost communication, at which point that member&rsquo;s light would start rotating
+faster and faster in the opposite direction.</p>
+<p>Once that team member came back in range, their light would start orbiting in the &ldquo;right&rdquo; direction, and would orbit
+faster as they got closer.</p>
+<p>This proximity visualization worked independently for each pair of team members, and hence for the group as a whole, as
+you can hopefully imagine.</p>
+<p>This early demo gives a good idea of what the animation looked like:
+<video src="circling-leds.mp4" controls=yes /></p>
+<p>The following extremely shaky video shows the assembled units, all happy as they are close to each other, shortly after
+we did the final assembly in the raging Tankwa desert winds and dust. Here you can also see the effect of the diffuse
+tubing that we put the leds in: <video src="circling-leds-assembled.mp4" controls=yes /></p>
+<p>Finally, the following photo shows a partially assembled unit consisting of arduino, xbee shield, xbee radio and the
+battery pack on the side with 4 x 1.5V AA batteries. Friend PK sourced a number of nylon dog treat bags, which were just
+big enough to take the boards + battery pack and thus serve as our super professional production packaging. 
+
+
+
+
+
+
+
+
+
+<figure><a href="assembly.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_d2beac0d5222f3b6.jpg 480w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg 800w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_8d680cadefcc37a.jpg 1200w,
+            
+                
+                https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_732c04b6a231f405.jpg 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/08/10/afrikaburn-2018-hivemind-proximity/assembly_hu_eec59e2a25d30800.jpg"
+            
+
+        /> </a>
+</figure>
+</p>
+<h2 id="hardware">Hardware</h2>
+<ul>
+<li><a href="https://robotdyn.com/samd21-m0.html">Robotdyn SAMD21 M0</a>: ARM Cortex M0 32bit Arduino clone. Fast enough to animate the LEDs while communicating with all other units and keeping track of their proximity.</li>
+<li><a href="https://www.digi.com/products/models/xb24cawit-001">XBee S2C XB24CAWIT-001 radio for 802.15.4</a>: For wireless communication comms and RSSI feedback between units</li>
+<li><a href="https://vxlabs.com/2018/03/23/which-jumper-to-set-on-the-itead-xbee-shield-v1-1-for-use-with-a-3-3v-arduino/">ITEAD Studio XBee shield v1.1</a>: To mount XBee onto the Arduino. I&rsquo;ve linked to my vxlabs blog post about this unit, because it has important info re jumper configuration which can save you much time.</li>
+<li><a href="https://www.amazon.com/icever-WS2812B-MagicRGB-LED-Strip/dp/B0CFTP3S41/">A few metres of 60/m WS2812B programmable LED strips (5V, 3 wire)</a></li>
+<li><a href="https://www.robotics.org.za/LEVEL-4P">4 channel 3.3V to 5V logic level shifter (LEVEL-4P, BOB-12009)</a>: Convert 3.3V SAMD21 output to 5V required for programmable LEDs data line (durn&hellip;)</li>
+</ul>
+<p>Getting all 7 of these units built and programmed, the final few in the desert at dusk of day 2 at the Burn, was quite a
+challenge, requiring a gas powered soldering iron and liberal application of WvdL&rsquo;s (aka Broken Pipe) glue gun.</p>
+<p>Especially the 3.3V to 5V level shifter added unnecessary complexity to the already precarious connection from power supply and controller board to the LED circle.</p>
+<h3 id="the-rssi-proximity-trick">The RSSI proximity &ldquo;trick&rdquo;</h3>
+<p>The SAMD21 is the electronic heart of the system.</p>
+<p>It runs a special programme (see next section) that uses the XBee radio to broadcast a packet to the 802.15.4 wireless private area network (PAN), consisting of all of the units, every 1.5 seconds. It also listens, via the XBee radio, for any incoming packets.</p>
+<p>Each incoming packet contains its sending ID.</p>
+<p>Along with that packet, we also get the RSSI, which is an indicator of signal strength.</p>
+<p>That RSSI is also a pretty good measurement of the <em>proximity</em> of the two units, and by proxy of their wearers.</p>
+<p>If we are standing facing each other, the RSSI will be high. If I turn my back to you, the RSSI will be a bit lower. If I walk away from you, it will become lower still.</p>
+<p>So, each unit maintains a list of IDs with the last known RSSI, and also when it last received a packet from that ID. It uses the RSSI to visualize proximity (that person&rsquo;s colour orbits faster the closer they are), and the age to detect person lost contact (orbits faster and faster in the other direction).</p>
+<h2 id="software">Software</h2>
+<p>You can find the full commented <a href="https://github.com/cpbotha/ab-hivemind">C++ source code for this project on my github</a>.</p>
+<p>Please do take a quick browse through the code as well, but here are some noteworthy learnings and observations:</p>
+<ul>
+<li>You can use this code for any number of wearable units (people), just remember to set <code>XBEE_SWARM_SIZE</code>.</li>
+<li>It took me so much time to get 100% reliable communication from the SAMD21 with the XBee. This was probably the
+biggest technical stumbling block. Besides documentation issues (see ITEAD linked post above), it the solution was to
+be super patient with the XBee. You&rsquo;ll see in the code, function <code>addressRead()</code>, that we just keep on trying, with
+generous waits, until we get a successful link.</li>
+<li>Like any good datavis practitioner, I opted for a color scheme from <a href="https://colorbrewer2.org/">ColorBrewer2</a>.</li>
+<li>As you can see in the main <code>loop()</code>, the paint loop is <em>lazy</em> and hence efficient, with three main event handlers
+triggering at different intervals of the arduino clock. This includes the 60fps LED animator, obviously triggering at
+the notorious 16ms interval. I used the fantastic <code>EVERY_N_MILLIS</code> macro from the even more fantastic <a href="https://fastled.io/">FastLED
+animation library</a>.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>In spite of desert soldering, glue-gun glue and duct tape holding everything together, all units worked in the pitch
+dark of the desert, and were at times even used, quite effectively, to locate <em>utterly</em> lost team members in the
+otherwise utterly reception-free environment.</p>
+<p>If we ever do a v2 of this, we would produce a single board, with the smallest possible number of connections to
+lighting and power.</p>
+<p>Taking all of this into account, but especially thanks to our Burniversity peeps who were so positively curious and
+willing to pour their energy into the difficult performance part, this was such a beautiful and worthwhile endeavour.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #137: Let me mine your metadata.</title><link>https://cpbotha.net/2018/03/25/weekly-head-voices-137/</link><pubDate>Sun, 25 Mar 2018 20:42:29 +0000</pubDate><guid>https://cpbotha.net/2018/03/25/weekly-head-voices-137/</guid><description> Winter is coming, somewhere on the R44 between Betty’s Bay and Gordon’s Bay.
 Wisdom from the Twitters Let me start this week’s edition with something that a friend forwarded, quite ironically, from the dark underbelly of the internet, also known as “twitter”:
 Daily activities to avoid:
 - Consuming endless (news) feeds
 - Discussion w/ anyone with a big ego
 - Thinking without pen &amp;amp; paper
-- Arguing on Twitter</description><content:encoded><![CDATA[ 
+- Arguing on Twitter
+- Mindlessly saying yes to meetings</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -60,10 +180,11 @@ Daily activities to avoid:
 <p>Over the past few weeks, these blog posts have played a small but necessary role in more than one high quality human connection.</p>
 <p>Each time this happens, the time I spend here feels like it has been rewarded 100 times over.</p>
 <p>I thank you, and I look forward to the next time that we may meet.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #136: Slightly more than nothing much.</title><link>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</link><pubDate>Sun, 18 Mar 2018 20:53:28 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</guid><description> The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #136: Slightly more than nothing much.</title><link>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</link><pubDate>Sun, 18 Mar 2018 20:53:28 +0000</pubDate><guid>https://cpbotha.net/2018/03/18/weekly-head-voices-136-slightly-more-than-nothing-much/</guid><description> The majestic view from Bodega onto the Dornier cellar and the Hottentots-Holland mountain behind it.
 Welcome back peeps! Make yourselves at home.
-It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.
-vimium Pro-tip of the week: Install vimium. It’s a chrome extension which enables you to SURF THE INFORMATION HIGHWAY with just a bunch of keyboard shortcuts.</description><content:encoded><![CDATA[ 
+It seemed that nothing much happened during most of the week, but I started writing anyway. It turns out there was slightly more than nothing much. Writing stuff down does have its perks.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -106,6 +227,8 @@ vimium Pro-tip of the week: Install vimium. It’s a chrome extension which enab
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2018/03/warlord_beer_cutout.png">
     <img
         
@@ -132,10 +255,12 @@ vimium Pro-tip of the week: Install vimium. It’s a chrome extension which enab
 <h1 id="bises">bises</h1>
 <p>Have a productive but especially harmonious week kids! I hope to see you again soon.</p>
 <p> </p>
-]]></content:encoded></item><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #134: SCARF.</title><link>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</link><pubDate>Sun, 04 Mar 2018 20:47:46 +0000</pubDate><guid>https://cpbotha.net/2018/03/04/weekly-head-voices-134/</guid><description> Untitled artwork by GOU#2 (age 7), who is also known as My Most Favourite Middle Child.
 I somehow forgot to take photos this past week. At the very last moment, GOU#2 delivered, as if commissioned, the piece shown above.
 The WHV visual element lives to fight another day!
-The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists.</description><content:encoded><![CDATA[ 
+The rest of this post is divided into three parts: One for the programming nerds, one for the running nerds and one for the arm-chair psychologists. Feel free to pick and choose!</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -182,4 +307,4 @@ The rest of this post is divided into three parts: One for the programming nerds
 <h1 id="the-end">The end</h1>
 <p>Have a great week friends, I hope to see you again soon!</p>
 <p>P.S. if there are any arduino uno -&gt; hardware serial -&gt; xbee experts in the audience, I would like to have a word. (<a href="https://www.sparkfun.com/products/12847">sparkfun shield</a>. with software serial can talk to xbee. with hardware serial, and sparkfun switch in the right position, xbee won’t respond. <a href="https://medium.com/@phurl/robotdyn-uno-vs-arduino-genuino-uno-a9ac3b17a96f">uno is a robotdyn clone</a>.)</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

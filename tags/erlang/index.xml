@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>erlang on voices in my head</title><link>https://cpbotha.net/tags/erlang/</link><description>Recent content in erlang on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 20 Apr 2021 08:54:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/erlang/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description> Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
-Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.
-Learn you a tiny bit of Erlang for Great Good! Last week I attended a meetup that turned out to be primarily about Erlang and not so much about automated crypto arbitrage, the other topic of the talk.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Erlang on voices in my head</title><link>https://cpbotha.net/tags/erlang/</link><description>Recent content in Erlang on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 20 Apr 2021 08:54:56 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/erlang/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description>Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
+Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
 from Monday April 12 to Sunday April 18, 2021, and focusing on the programming
 language Erlang and the evil that is breakfast.</p>
+
+
 
 
 
@@ -18,22 +19,26 @@ language Erlang and the evil that is breakfast.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_3f4a51e22e02c3ea.jpg 480w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg 800w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_daf143d3ce11da7b.jpg 1200w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_df2ded2b472dbbe2.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg"
             
 
         
-            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong."/> </a><figcaption>
+            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong."/> </a><figcaption>
             <p>Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong.</p>
         </figcaption>
 </figure>
@@ -160,4 +165,4 @@ personal intellectual requirements.</p>
 <p>Next week: A whole bunch of information that in fact does constitue financial
 and investment advice that I take full responsibility for. (haha just
 joking. it&rsquo;ll be politics or religion.)</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

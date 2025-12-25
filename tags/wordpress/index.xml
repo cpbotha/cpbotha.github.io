@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on voices in my head</title><link>https://cpbotha.net/tags/wordpress/</link><description>Recent content in wordpress on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 31 Mar 2019 00:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description> It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Wordpress on voices in my head</title><link>https://cpbotha.net/tags/wordpress/</link><description>Recent content in Wordpress on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 31 Mar 2019 00:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description>It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
 As can be seen in the history page or rather the first weblog entry dated 2001-02-27, this blog has been around for more than 18 years.
 It started as some CGI script, then spent some time as a LiveJournal, then, thanks to meeting Professor Biella Coleman who was at that point still a grad student, went through a Movable Type phase and then, at some point, converted to Wordpress.</description><content:encoded><![CDATA[ <p>It sounds a bit more involved than it turned out to be, but I have a thing for
 posts titled &ldquo;Moving M years of K from Y to Z&rdquo;.</p>
@@ -55,17 +55,17 @@ the new site like this:</p>
 git clone https://github.com/carsonip/hugo-theme-minos.git
 </code></pre><p>Before starting up the new site for the first time, I edited the top-level
 <code>config.toml</code> so it looked like the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#1f2328">baseURL</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;https://cpbotha.net/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">languageCode</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">title</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;voices in my head&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">theme</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;hugo-theme-minos&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># required for disqus comments, see next section</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">disqusShortname</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;cpbotha&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[<span style="color:#268bd2">permalinks</span>]
-</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">[</span><span style="color:#1f2328">permalinks</span><span style="color:#1f2328">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a"># mimic wordpress permalink configuration for future posts</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a"># exported wordpress posts have `url` correctly set which overrides everything</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">posts</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;/:year/:month/:day/:slug/&#34;</span>
 </span></span></code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
 minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
 Components</a> mechanism.</p>
@@ -125,11 +125,11 @@ which case the output of the build will end up in a sub-directory named
 I would prefer not syncing the expendable 600MB+ output directory, instead
 building it and syncing it from <code>~/Downloads</code>.</p>
 <p>The little bash script I used to perform step 2 in one go looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
-</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#57606a">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>hugo -d ~/Downloads/cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># sync contents of public dir into static_cpbothanet/</span>
+</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#0a3069">\
+</span></span></span><span style="display:flex;"><span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
 </span></span></code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
 <p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
 at least an image or two, an important piece of the puzzle was how to keep
@@ -155,7 +155,7 @@ directory containing the relevant images and the post contents in a file
 called <code>index.md</code>.</p>
 <p>In my case, I would create a post by invoking the following command in the
 top-level directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
 </span></span></code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
 available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
 to images that are in the same directory using just their relative filenames.</p>
@@ -182,13 +182,15 @@ archetypes</a> which I have
 configured to help me start a blog post more easily.</p>
 <p>Let me know in the comments if you have any other questions.</p>
 <p>Here&rsquo;s to at least 18 more years of blog posts!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #115: So much Dutch.</title><link>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</link><pubDate>Fri, 03 Feb 2017 07:07:05 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</guid><description> Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:
+ ]]></content:encoded></item><item><title>Weekly Head Voices #115: So much Dutch.</title><link>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</link><pubDate>Fri, 03 Feb 2017 07:07:05 +0000</pubDate><guid>https://cpbotha.net/2017/02/03/weekly-head-voices-115/</guid><description>Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:
 On Saturday, January 21, we had the privilege of seeing Herman van Veen perform live at the Oude Libertas Theatre. The previous time was a magical night many years ago in the Royal Theatre Carré in Amsterdam.
 Herman van Veen is a living, extremely active and up to date legend. To most Dutch people you’ll ever meet he is a formidable part of their rich cultural landscape.</description><content:encoded><![CDATA[ <p>Monday January 16 to Sunday January 29 of the year 2017 yielded the following possibly mention-worthy tidbits:</p>
 <p>On Saturday, January 21, we had the privilege of seeing Herman van Veen perform live at the Oude Libertas Theatre. The previous time was a magical night many years ago in the <a href="https://en.wikipedia.org/wiki/Carr%C3%A9_Theatre">Royal Theatre Carré in Amsterdam</a>.</p>
 <p>Herman van Veen is a living, extremely active and up to date <em>legend</em>. To most Dutch people you’ll ever meet he is a formidable part of their rich cultural landscape.</p>
 <p>That evening, we heard so much Dutch spoken in the audience around us, it was easy to imagine that we had been teleported to a strange midsummer night’s performance, all the way back in The Netherlands.</p>
 <p>Whatever the case may be, at 72 this artist and superb human being seems to have energy and magic flowing from every limb.</p>
+
+
 
 
 
@@ -214,6 +216,8 @@ Herman van Veen is a living, extremely active and up to date legend. To most Dut
 <p>It has a less pretty monochrome display that manages to be highly visible even in direct sunlight. It does not have a touch screen, instead opting for a less pretty directional control beneath the screen that always manages to select the correct menu option. The menu options remind me of the first TomTom car navigation we bought years ago: Not pretty, but with exactly the right functions, in this case for runs and hikes.</p>
 <p>Most importantly, the watch has an explicit function for syncing so-called QuickGPSFix data, so that when you want to start running, it is able to acquire a GPS lock almost immediately. Importantly, the device keeps you informed of its progress via the ugly user interface.</p>
 <p>Also, I am now able to pre-load GPX routes. Below you can see me navigating my local mountain like a pro with a sense of direction, when in reality I am an amateur with pathological absence of sense of direction:
+
+
 
 
 
@@ -256,6 +260,8 @@ Herman van Veen is a living, extremely active and up to date legend. To most Dut
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/02/Screenshot_20170116-151204.png">
     <img
         
@@ -280,15 +286,17 @@ Herman van Veen is a living, extremely active and up to date legend. To most Dut
 <p>(I am still hopeful that one day Gene Roddenberry’s dream of the <a href="https://en.wikipedia.org/wiki/United_Federation_of_Planets">United Federation of Planets</a> will be realised.</p>
 <p>LLAP!)</p>
 <p> </p>
-]]></content:encoded></item><item><title>Microblog posts will NOT email subscribers anymore</title><link>https://cpbotha.net/2016/11/21/microblog-posts-will-not-email-subscribers/</link><pubDate>Mon, 21 Nov 2016 06:12:58 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/21/microblog-posts-will-not-email-subscribers/</guid><description> One of my three subscribers was understandably less than happy about receiving email for every microblog-style post here.
+ ]]></content:encoded></item><item><title>Microblog posts will NOT email subscribers anymore</title><link>https://cpbotha.net/2016/11/21/microblog-posts-will-not-email-subscribers/</link><pubDate>Mon, 21 Nov 2016 06:12:58 +0000</pubDate><guid>https://cpbotha.net/2016/11/21/microblog-posts-will-not-email-subscribers/</guid><description>One of my three subscribers was understandably less than happy about receiving email for every microblog-style post here.
 Using the Code Snippets plugin and the jetpack subscriptions exclude categories filter, I have now configured the blog so that in theory it should not mail subscribers when I post in the microblog category.
 In short: Email subscribers won’t receive any microblog post emails. I hope this helps!</description><content:encoded><![CDATA[ <p>One of my three subscribers was understandably less than happy about receiving email for every microblog-style post here.</p>
 <p>Using <a href="https://wordpress.org/plugins/code-snippets/">the Code Snippets plugin</a> and <a href="https://jetpack.com/support/subscriptions/">the jetpack subscriptions exclude categories filter</a>, I have now configured the blog so that in theory it should not mail subscribers when I post in the microblog category.</p>
 <p>In short: Email subscribers won’t receive any microblog post emails. I hope this helps!</p>
-]]></content:encoded></item><item><title>Let’s replace Twitter with something much better.</title><link>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</link><pubDate>Sat, 19 Nov 2016 10:05:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</guid><description> (There is also a Russian language version of this post available, translated and published by SoftDroid on 2017-04-12.)
+ ]]></content:encoded></item><item><title>Let’s replace Twitter with something much better.</title><link>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</link><pubDate>Sat, 19 Nov 2016 10:05:10 +0000</pubDate><guid>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</guid><description>(There is also a Russian language version of this post available, translated and published by SoftDroid on 2017-04-12.)
 I love Twitter. I love that by following certain people, my timeline has become a stream of interesting and entertaining information. I love that sometimes I am able to fit my little publication just so into the 140 characters given to me. I found The Trumpocalypse truly depressing, but the joke tweets were golden:</description><content:encoded><![CDATA[ <p><em>(There is also a <a href="http://softdroid.net/chem-zamenit-twitter-alternativa">Russian language version of this post available</a>, translated and published by <a href="http://softdroid.net/">SoftDroid</a> on 2017-04-12.)</em></p>
 <h1 id="i-love-twitter">I love Twitter.</h1>
 <p>I love that by following certain people, my timeline has become a stream of interesting and entertaining information. I love that sometimes I am able to fit my little publication just <em>so</em> into the 140 characters given to me. I found The Trumpocalypse truly depressing, but the joke tweets were golden:</p>
+
+
 
 
 
@@ -326,7 +334,9 @@ I love Twitter. I love that by following certain people, my timeline has become 
 <p>Furthermore, we definitely need a good discovery platform. This is the thing where Twitter will recommend new accounts to follow based on your existing subscriptions. WordPress does something similar, but it has to be much more discoverable.</p>
 <p>In the coming weeks, I will be running a little experiment by trying to post even my short, previously twitter-only blurbs to this blog. I will have to cross-tweet these, but at least the primary source will be right here in my own database.</p>
 <p>What do you think? Is this possible? Is it something you would like?</p>
-]]></content:encoded></item><item><title>Taxing but fun. [Weekly Head Voices #43]</title><link>https://cpbotha.net/2011/03/28/taxing-but-fun-weekly-head-voices-43/</link><pubDate>Mon, 28 Mar 2011 20:42:48 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/03/28/taxing-but-fun-weekly-head-voices-43/</guid><description> With every edition I claim that I have no time to post, but this time, I have even less time than usual. However, here I am to bring you a super-duper compact time-saving edition of the Weekly Head Voices, filled with the highlights of week 12 of 2011. I’ll start this edition with some church: Pretty spring photo of the back of the New Church in Delft, taken whilst I was waiting for my guest (Our Man in Vienna, temporarily in Delft!</description><content:encoded><![CDATA[ <p>With every edition I claim that I have no time to post, but this time, I have even less time than usual. However, here I am to bring you a super-duper compact time-saving edition of the Weekly Head Voices, filled with the highlights of week 12 of 2011. I’ll start this edition with some church:
+ ]]></content:encoded></item><item><title>Taxing but fun. [Weekly Head Voices #43]</title><link>https://cpbotha.net/2011/03/28/taxing-but-fun-weekly-head-voices-43/</link><pubDate>Mon, 28 Mar 2011 20:42:48 +0000</pubDate><guid>https://cpbotha.net/2011/03/28/taxing-but-fun-weekly-head-voices-43/</guid><description>With every edition I claim that I have no time to post, but this time, I have even less time than usual. However, here I am to bring you a super-duper compact time-saving edition of the Weekly Head Voices, filled with the highlights of week 12 of 2011. I’ll start this edition with some church: Pretty spring photo of the back of the New Church in Delft, taken whilst I was waiting for my guest (Our Man in Vienna, temporarily in Delft!) to exit his hotel.</description><content:encoded><![CDATA[ <p>With every edition I claim that I have no time to post, but this time, I have even less time than usual. However, here I am to bring you a super-duper compact time-saving edition of the Weekly Head Voices, filled with the highlights of week 12 of 2011. I’ll start this edition with some church:
+
+
 
 
 
@@ -363,6 +373,8 @@ I love Twitter. I love that by following certain people, my timeline has become 
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2011/03/oude_kerk_snachts.jpg">
     <img
         
@@ -375,11 +387,11 @@ I love Twitter. I love that by following certain people, my timeline has become 
 </figure>
 </p>
 <p>Have a great week everyone! Over here, we’ll be chasing deadlines, and many of ’em. WATCH OUT YOU DEADLINES!</p>
-]]></content:encoded></item><item><title>Facebook Like, Share and Retweet buttons in your WordPress</title><link>https://cpbotha.net/2010/06/02/facebook-like-share-and-retweet-buttons-in-your-wordpress/</link><pubDate>Wed, 02 Jun 2010 21:09:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/06/02/facebook-like-share-and-retweet-buttons-in-your-wordpress/</guid><description> Hey man, I’m really busy at the moment, but it took me unnecessarily long to get those really hip facebook like, facebook share and retweet buttons everywhere on my blog, so I thought I’d try and save you some time by dropping a quick note on how I did it.
-Adding the Facebook Like button functionality wasted the most time, because there are far too many plugins and howtos that claim to work and don’t quite.</description><content:encoded><![CDATA[ <p>Hey man, I’m really busy at the moment, but it took me unnecessarily long to get those really hip facebook like, facebook share and retweet buttons everywhere on my blog, so I thought I’d try and save you some time by dropping a quick note on how I did it.</p>
+ ]]></content:encoded></item><item><title>Facebook Like, Share and Retweet buttons in your WordPress</title><link>https://cpbotha.net/2010/06/02/facebook-like-share-and-retweet-buttons-in-your-wordpress/</link><pubDate>Wed, 02 Jun 2010 21:09:36 +0000</pubDate><guid>https://cpbotha.net/2010/06/02/facebook-like-share-and-retweet-buttons-in-your-wordpress/</guid><description>Hey man, I’m really busy at the moment, but it took me unnecessarily long to get those really hip facebook like, facebook share and retweet buttons everywhere on my blog, so I thought I’d try and save you some time by dropping a quick note on how I did it.
+Adding the Facebook Like button functionality wasted the most time, because there are far too many plugins and howtos that claim to work and don’t quite. I ended up using the Like plugin (official wordpress page and plugin website), because it has the best documentation that includes details on all the ways in which things can go wrong, and there are many. I’m using the IFRAME option, also because that seems to work most of the time. I had a hard time finding this plugin in the built-in directory, so I downloaded and installed it manually.</description><content:encoded><![CDATA[ <p>Hey man, I’m really busy at the moment, but it took me unnecessarily long to get those really hip facebook like, facebook share and retweet buttons everywhere on my blog, so I thought I’d try and save you some time by dropping a quick note on how I did it.</p>
 <p>Adding the Facebook Like button functionality wasted the most time, because there are far too many plugins and howtos that claim to work and don’t quite. I ended up using the Like plugin (<a href="http://wordpress.org/extend/plugins/like/" title="Wordpress page for like plugin">official wordpress page</a> and <a href="http://blog.bottomlessinc.com/2010/04/creating-a-wordpress-plugin-add-the-new-facebook-like-button-to-your-posts/" title="Like plugin website">plugin website</a>), because it has the best documentation that includes details on <a href="http://wordpress.org/extend/plugins/like/faq/" title="Like plugin FAQ">all the ways in which things can go wrong</a>, and there are many.  I’m using the IFRAME option, also because that seems to work most of the time.  I had a hard time finding this plugin in the built-in directory, so I downloaded and installed it manually.</p>
 <p>For the facebook share button, I use the <a href="http://wordpress.org/extend/plugins/facebook-share-new/" title="facebook share (new) button plugin homepage"><em>Facebook Share (New) Button</em> plugin</a>, and for the retweet button, I’m using the <a href="http://wordpress.org/extend/plugins/topsy/" title="Topsy Retweet Button plugin homepage"><em>Topsy Retweet Button</em> plugin</a>.  I installed both of them from the built-in “Plugins | Add New” directory.</p>
 <p>In all three cases, I made use of the plugin options to have the buttons placed all over my blog, instead of manually editing the theme.</p>
 <p>I hope that you enjoy your shiny buttons, and I look forward to seeing you for the next <a href="http://cpbotha.net/category/weekly-head-voices/" title="Weekly Head Voices category">Weekly Head Voices</a>!</p>
 <p><em>P.S. feel free to click on my buttons, right below this post.</em></p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

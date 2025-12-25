@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gen z on voices in my head</title><link>https://cpbotha.net/tags/gen-z/</link><description>Recent content in gen z on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 07 May 2019 22:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gen-z/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #170: Yeet.</title><link>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</link><pubDate>Tue, 07 May 2019 22:02:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</guid><description> Hello there friends!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Gen Z on voices in my head</title><link>https://cpbotha.net/tags/gen-z/</link><description>Recent content in Gen Z on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 07 May 2019 22:02:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gen-z/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #170: Yeet.</title><link>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</link><pubDate>Tue, 07 May 2019 22:02:00 +0200</pubDate><guid>https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/</guid><description>Hello there friends!
 This edition of the WHV, number 170, is how I choose look back at the three weeks from Monday April 15 to Sunday May 5, 2019.
 This period was host to whooshing-by-deadline-induced stress, one amazing and thought-provoking wedding, the birthdays of two of my GOUs, and, a bit strangely part of this list, the acquisition of a new computing device.
 At least we were able to pause everything for a sublime afternoon at a favourite vineyard close to my backyard:</description><content:encoded><![CDATA[ <p>Hello there friends!</p>
@@ -33,22 +33,22 @@ favourite vineyard close to my backyard:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_20b2c5ad8d092c5e.jpg 480w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_d6f7ceb2c7fd7b01.jpg 800w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_6e561138cc326ce3.jpg 1200w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_6e7ba6ca8a4e13aa.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_huffcdbbb9c64acf5548d0ca5276abe491_2769760_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/lourensford_cellar_skies_hu_d6f7ceb2c7fd7b01.jpg"
   
 
    />
@@ -77,13 +77,13 @@ special occasion, made it doubly worth it.</p>
 surprise to me that I am quite excited by how our systems of written
 communication are evolving.)</p>
 <p>P.P.P.S. If you too want your Emacs to do this, add the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; 💪💪💪</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">use-package</span> <span style="color:#268bd2">emojify</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:ensure</span> <span style="color:#268bd2">t</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#cb4b16">:config</span>
-</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">emojify-set-emoji-styles</span> &#39;(<span style="color:#268bd2">unicode</span>))
-</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-emojify-mode</span>)
-</span></span><span style="display:flex;"><span>  (<span style="color:#268bd2">global-set-key</span> (<span style="color:#268bd2">kbd</span> <span style="color:#2aa198">&#34;C-x 8 e&#34;</span>) <span style="color:#2aa198">&#39;emojify-insert-emoji</span>))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; 💪💪💪</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">use-package</span> <span style="color:#953800">emojify</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:ensure</span> <span style="color:#0550ae">t</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6639ba">:config</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">emojify-set-emoji-styles</span> <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">(</span><span style="color:#953800">unicode</span><span style="color:#1f2328">))</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">global-emojify-mode</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">(</span><span style="color:#953800">global-set-key</span> <span style="color:#1f2328">(</span><span style="color:#953800">kbd</span> <span style="color:#0a3069">&#34;C-x 8 e&#34;</span><span style="color:#1f2328">)</span> <span style="color:#032f62">&#39;emojify-insert-emoji</span><span style="color:#1f2328">))</span>
 </span></span></code></pre></div><h1 id="the-other-blog-posts-i-did-get-around-to-writing">The other blog posts I did get around to writing.</h1>
 <p>Perhaps unbeknownst to you, I was not completely quiet on the blogging front.</p>
 <p>I produced the following four posts, the latter three of which will have to
@@ -205,20 +205,20 @@ was staring at the DeVIDE UI, all prettied up with Python 3 and VTK 8.2:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_e2661da33963fa84.png 480w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_800x0_resize_box_3.png 800w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_9a4ca26d37fe4833.png 800w
   
   
-    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_1200x0_resize_box_3.png 1200w
+    , https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_2d6809a082ccbefd.png 1200w
   
   '
 
 
 
   
-  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hude98aed5ec064e93d609fc8a6d5e9b53_378650_800x0_resize_box_3.png"
+  src="https://cpbotha.net/2019/05/07/weekly-head-voices-170-yeet/devide2019-screenshot-20190505_hu_9a4ca26d37fe4833.png"
   
 
    />
@@ -235,4 +235,4 @@ wait until he gets back to see.</p>
 <h1 id="heading">🙏🙏🙏</h1>
 <p>Friends, thank you for connecting with me here in these words and symbols.</p>
 <p>I am already looking forward to the next time that we meet!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

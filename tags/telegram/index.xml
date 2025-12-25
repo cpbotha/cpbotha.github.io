@@ -1,8 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>telegram on voices in my head</title><link>https://cpbotha.net/tags/telegram/</link><description>Recent content in telegram on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 22 Nov 2018 20:20:39 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/telegram/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #158: Charlie and the Chocolate Factory.</title><link>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</link><pubDate>Thu, 22 Nov 2018 20:20:39 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</guid><description> (Note that there’s now a Telegram group that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Telegram on voices in my head</title><link>https://cpbotha.net/tags/telegram/</link><description>Recent content in Telegram on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 21:50:50 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/telegram/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices on Tuesday 2024-01-02: Culture of doubt</title><link>https://cpbotha.net/2024/01/03/daily-head-voices-on-tuesday-2024-01-02/</link><pubDate>Wed, 03 Jan 2024 21:50:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/03/daily-head-voices-on-tuesday-2024-01-02/</guid><description> Religion is a culture of faith; science is a culture of doubt. &amp;ndash; Richard Feynman
+Went to the beach at just after 11:00. Brilliant weather which for Betty&amp;rsquo;s is quite special, so the place was absolutely packed. Finally created org-capture-template to do the Daily Head Voices post setup more easily and more consistently, see below for the relevant element. Thought a bit about writing and then self-hosting the tool that scans the cpbotha.net RSS feed and then performs actions, e.g. sending to Telegram, when new posts appear Initial thought was Go, because small and self-contained (like my discord scihub bot and my eureka-alert RSS feed generator), but Python means much higher development velocity. Because it&amp;rsquo;s a script that will run every few minutes and then stop, RAM is less of an issue, and the official docker images https://hub.docker.com/_/python/ mean I don&amp;rsquo;t yet have to upgrade the ancient Ubuntu 18.04 on my VPS. Next thought was rather to spend this time writing. Zapier free tier is working fine for now, will get back to self-hosting it later. org-roam-node-find calls org-roam-node-read calls org-roam-node-read--completions calls org-roam-node-list, which always reads the full list of nodes from the sqlite database. Whyyyyy? When I do a semantic search using org-roam-similarity, I already have the small list of IDs. I only want to offer the user this small list, I don&amp;rsquo;t want to read the full list every time, and then remove everything except the list I already have &amp;ndash; so much wasted effort. I&amp;rsquo;m really hoping d12frosted&amp;rsquo;s vulpea has something better&amp;hellip; org-capture-template to create DHV after prompting for date ;; select region around your private day notes, then C-c c l (&amp;#34;l&amp;#34; &amp;#34;Lifelog&amp;#34; entry (file+olp+datetree lifelog-org) &amp;#34;* TODO Daily Head Voices on %&amp;lt;%A&amp;gt; %&amp;lt;%Y-%m-%d&amp;gt; :PROPERTIES: :EXPORT_FILE_NAME: index.md :EXPORT_HUGO_BUNDLE: lifelog-%&amp;lt;%Y%m%d&amp;gt; :EXPORT_HUGO_TAGS: lifelog :END: :LOGBOOK: - Created \&amp;#34;TODO\&amp;#34; %U :END: %i &amp;#34; ;; - with org 9.6.6 :time-prompt is only honoured when target is ;; &amp;#34;file+olp+datetree&amp;#34; ;; - I would have preferred just target &amp;#34;file&amp;#34; for this, but need ;; time-prompt as I often only create post after the day :empty-lines 1 :jump-to-captured &amp;#39;t :time-prompt &amp;#39;t :tree-type &amp;#39;month)</description><content:encoded><![CDATA[ <blockquote>
+<p>Religion is a culture of faith; science is a culture of doubt. &ndash; Richard Feynman</p>
+</blockquote>
+<ul>
+<li>Went to the beach at just after 11:00. Brilliant weather which for Betty&rsquo;s is quite special, so the place was absolutely packed.</li>
+<li>Finally created <code>org-capture-template</code> to do the Daily Head Voices post setup more easily and more consistently, see below for the relevant element.</li>
+<li>Thought a bit about writing and then self-hosting the tool that scans the cpbotha.net RSS feed and then performs actions, e.g. sending to Telegram, when new posts appear
+<ul>
+<li>Initial thought was Go, because small and self-contained (like my discord scihub bot and my eureka-alert RSS feed generator), but Python means much higher development velocity. Because it&rsquo;s a script that will run every few minutes and then stop, RAM is less of an issue, and the official docker images <a href="https://hub.docker.com/_/python/">https://hub.docker.com/_/python/</a> mean I don&rsquo;t yet have to upgrade the ancient Ubuntu 18.04 on my VPS.</li>
+<li>Next thought was rather to spend this time writing. Zapier free tier is working fine for now, will get back to self-hosting it later.</li>
+</ul>
+</li>
+<li><code>org-roam-node-find</code> calls <code>org-roam-node-read</code> calls <code>org-roam-node-read--completions</code> calls <code>org-roam-node-list</code>, which always reads the full list of nodes from the sqlite database. Whyyyyy? When I do a semantic search using <code>org-roam-similarity</code>, I already have the small list of IDs. I only want to offer the user this small list, I <strong>don&rsquo;t</strong> want to read the full list every time, and then remove everything except the list I already have &ndash; so much wasted effort. I&rsquo;m really hoping d12frosted&rsquo;s <a href="https://github.com/d12frosted/vulpea">vulpea</a> has something better&hellip;</li>
+</ul>
+<h2 id="org-capture-template-to-create-dhv-after-prompting-for-date">org-capture-template to create DHV after prompting for date</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; select region around your private day notes, then C-c c l</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;l&#34;</span> <span style="color:#0a3069">&#34;Lifelog&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">lifelog-org</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span> <span style="color:#0a3069">&#34;* TODO Daily Head Voices on %&lt;%A&gt; %&lt;%Y-%m-%d&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:PROPERTIES:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:EXPORT_FILE_NAME: index.md
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:EXPORT_HUGO_BUNDLE: lifelog-%&lt;%Y%m%d&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:EXPORT_HUGO_TAGS: lifelog
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:END:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:LOGBOOK:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- Created \&#34;TODO\&#34; %U
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">:END:
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">%i
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">&#34;</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;; - with org 9.6.6 :time-prompt is only honoured when target is</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;;   &#34;file+olp+datetree&#34;</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;; - I would have preferred just target &#34;file&#34; for this, but need</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;;   time-prompt as I often only create post after the day</span>
+</span></span><span style="display:flex;"><span> <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span> <span style="color:#6639ba">:jump-to-captured</span> <span style="color:#032f62">&#39;t</span> <span style="color:#6639ba">:time-prompt</span> <span style="color:#032f62">&#39;t</span> <span style="color:#6639ba">:tree-type</span> <span style="color:#032f62">&#39;month</span><span style="color:#1f2328">)</span>
+</span></span></code></pre></div> ]]></content:encoded></item><item><title>Daily Head Voices on Tuesday 2023-12-19</title><link>https://cpbotha.net/2023/12/20/daily-head-voices-on-tuesday-2023-12-19/</link><pubDate>Wed, 20 Dec 2023 17:27:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/20/daily-head-voices-on-tuesday-2023-12-19/</guid><description> Made a Zapier Zap to send new cpbotha.net posts (picked up via RSS) to a Telegram bot called HeadVoices who lives on a Telegram (announce-only) channel named &amp;ldquo;cpbotha.net blog&amp;rdquo;. I have not (yet) been able to pipe the post&amp;rsquo;s HTML to the telegram API so you can read more of the post there, because Telegram&amp;rsquo;s HTML mode is quite limited, and I would have to figure out to sanitise my post&amp;rsquo;s HTML. Don&amp;rsquo;t think it&amp;rsquo;s worth the effort. My idea here was to show more ways in which folks can get cpbotha.net content, if they really want to, on the communication channel of their choice. RSS and email remain first class citizens, but people do like their social apps! It looks like RSS to Mastodon is also doable, although the Zapier way would not be as free as IFTTT or just running curl from cron. BTW, IFTTT seems to support only two active applets in the free version. I&amp;rsquo;m getting serious rabbit hole feelings here, but do let me know if there are other channels where you would like to be notified of new posts. After a few hours of driving, we ended up in Wilderness, one of our favourite places in the world. Braai with long time great friends.</description><content:encoded><![CDATA[ <ul>
+<li>Made a Zapier <em>Zap</em> to send new cpbotha.net posts (picked up via RSS) to a Telegram bot called HeadVoices who lives on <a href="https://t.me/cpbothanet">a Telegram (announce-only) channel named &ldquo;cpbotha.net blog&rdquo;</a>.
+<ul>
+<li>I have not (yet) been able to pipe the post&rsquo;s HTML to the telegram API so you can read more of the post there, because <a href="https://core.telegram.org/bots/api#html-style">Telegram&rsquo;s HTML mode</a> is quite limited, and I would have to figure out to sanitise my post&rsquo;s HTML. Don&rsquo;t think it&rsquo;s worth the effort.</li>
+<li>My idea here was to show more ways in which folks can get cpbotha.net content, if they really want to, on the communication channel of their choice.
+<ul>
+<li>RSS and email remain first class citizens, but people do like their social apps!</li>
+<li>It looks like <a href="https://www.jessesquires.com/blog/2022/12/15/rss-to-mastodon/">RSS to Mastodon is also doable</a>, although the Zapier way would not be as free as IFTTT or just running curl from cron. BTW, IFTTT seems to support only two active applets in the free version.</li>
+<li>I&rsquo;m getting serious rabbit hole feelings here, but do let me know if there are other channels where you would like to be notified of new posts.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>After a few hours of driving, we ended up in Wilderness, one of our favourite places in the world.
+<ul>
+<li>Braai with long time great friends.</li>
+</ul>
+</li>
+</ul>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #158: Charlie and the Chocolate Factory.</title><link>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</link><pubDate>Thu, 22 Nov 2018 20:20:39 +0000</pubDate><guid>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</guid><description>(Note that there’s now a Telegram group that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)
 This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.
-The following action scene happened exactly halfway through: Pre-requisite running photo, this one taken in Paarl.</description><content:encoded><![CDATA[ <p><em>(Note that there’s now a <a href="https://t.me/headvoices">Telegram group</a> that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)</em></p>
+The following action scene happened exactly halfway through: Pre-requisite running photo, this one taken in Paarl. It was already quite hot. Getting really hot really early in the morning is Paarl’s thing.</description><content:encoded><![CDATA[ <p><em>(Note that there’s now a <a href="https://t.me/headvoices">Telegram group</a> that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)</em></p>
 <p>This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.</p>
 <p>The following action scene happened exactly halfway through:
+
+
 
 
 
@@ -24,6 +80,8 @@ The following action scene happened exactly halfway through: Pre-requisite runni
 </p>
 <h1 id="running-aka-irony-update">Running aka Irony update</h1>
 <p>Seeing that you’ve made me talk about running again, have a look at this photo of one Luna Mono 2.0 after about 700 km of (mostly road) running in about seven months, and one brand new Luna Mono 2.0:</p>
+
+
 
 
 
@@ -70,10 +128,12 @@ The following action scene happened exactly halfway through: Pre-requisite runni
 <blockquote>
 <p>… and finally passing through the gate of wishlessness (apranihita) – realizing that nirvana is the state of not even wishing for nirvana.</p>
 </blockquote>
-]]></content:encoded></item><item><title>You can now also join the special head voices telegram group to stay up to date with this blog!</title><link>https://cpbotha.net/2018/11/18/you-can-now-also-join-the-special-head-voices-telegram-group-to-stay-up-to-date-with-this-blog/</link><pubDate>Sun, 18 Nov 2018 10:52:57 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/11/18/you-can-now-also-join-the-special-head-voices-telegram-group-to-stay-up-to-date-with-this-blog/</guid><description> As an alternative to the email list, I have just setup a telegram group which you could join if you’d like to be kept up to date with posts from this blog via instant messenger!
+ ]]></content:encoded></item><item><title>You can now also join the special head voices telegram group to stay up to date with this blog!</title><link>https://cpbotha.net/2018/11/18/you-can-now-also-join-the-special-head-voices-telegram-group-to-stay-up-to-date-with-this-blog/</link><pubDate>Sun, 18 Nov 2018 10:52:57 +0000</pubDate><guid>https://cpbotha.net/2018/11/18/you-can-now-also-join-the-special-head-voices-telegram-group-to-stay-up-to-date-with-this-blog/</guid><description>As an alternative to the email list, I have just setup a telegram group which you could join if you’d like to be kept up to date with posts from this blog via instant messenger!
 If all goes according to plan, a notification should be sent to the group automatically whenever I publish a post over here.
-P.S. I first did this with IFTTT’s Telegram applet, but its post preview was pretty bad.</description><content:encoded><![CDATA[ <p>As an alternative to the email list, I have just setup a <a href="https://t.me/headvoices">telegram group</a> which you could join if you’d like to be kept up to date with posts from this blog via instant messenger!</p>
+P.S. I first did this with IFTTT’s Telegram applet, but its post preview was pretty bad. TheFeedReaderBot seems to do a much better job!</description><content:encoded><![CDATA[ <p>As an alternative to the email list, I have just setup a <a href="https://t.me/headvoices">telegram group</a> which you could join if you’d like to be kept up to date with posts from this blog via instant messenger!</p>
 <p>If all goes according to plan, a notification should be sent to the group automatically whenever I publish a post over here.</p>
+
+
 
 
 
@@ -92,11 +152,13 @@ P.S. I first did this with IFTTT’s Telegram applet, but its post preview was p
 </figure>
 
 <p>P.S. I first did this with <a href="https://ifttt.com/applets/RXm2WDyZ-send-new-feed-items-to-a-telegram-chat">IFTTT’s Telegram applet</a>, but its post preview was pretty bad. <a href="http://thefeedreaderbot.com/">TheFeedReaderBot</a> seems to do a much better job!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #142: Theory of mind.</title><link>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</link><pubDate>Sun, 13 May 2018 20:27:27 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</guid><description> Autumn is really pretty down here.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #142: Theory of mind.</title><link>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</link><pubDate>Sun, 13 May 2018 20:27:27 +0000</pubDate><guid>https://cpbotha.net/2018/05/13/weekly-head-voices-142-theory-of-mind/</guid><description> Autumn is really pretty down here.
 We’re getting back on track with the WHVs friends!
 In the hardly started tradition of writing blog posts in music-backed focus blocks, I have my “upbeat thinking” playlist teed up and ready to go. The outline of this post formed itself as a Real Bullet List(tm) in my Emacs about an hour ago.
 Let’s go.
 They grow up so fast Theory of Mind, or ToM, is an important mental capability that we use to model and predict the thoughts and desires of fellow humans.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -129,6 +191,8 @@ They grow up so fast Theory of Mind, or ToM, is an important mental capability t
 <p>I am still suitably impressed.</p>
 <h1 id="sketchnote-your-life">Sketchnote your life</h1>
 <p><a href="http://rohdesign.com/sketchnotes/">Sketchotes</a> refer to a type of hand-written notes that employs both writing and drawing techniques. Here’s an example by Emacs guru and famous internet person <a href="http://sachachua.com/blog/">Sacha Chua</a>:</p>
+
+
 
 
 
@@ -173,10 +237,10 @@ They grow up so fast Theory of Mind, or ToM, is an important mental capability t
 <p>What is your approach in situations like this? Do side-projects have to satisfy any kind of utility requirement? Which criteria do you use to select your next side-project?</p>
 <h1 id="bhayi-bhayi">Bhayi bhayi</h1>
 <p>Thanks for reading this far peeps! I hope you have a beautiful week, and that we might meet again at the end.</p>
-]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description> (Post updated on January 8, 2021. See section at the end.)
+ ]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description>(Post updated on January 8, 2021. See section at the end.)
 Signal, the open source messaging and voice calling app that does end-to-end encryption. The whole world is using WhatsApp to message each other. I often do too, because I want to inter-operate with the rest of the world.
 However, WhatsApp belongs to Facebook.
-Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
+Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.), the temptation to link all of your WhatsApp messages with Facebook logins (a straight-forward process, as they have the mobile phone numbers of a great number of their users) must be quite tempting to the people at Facebook. Imagine how well they would then be able to target their advertising, based on their access to both your Facebook profile and your private WhatsApp messages!</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
 <figure>
 <img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
 <figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
@@ -224,4 +288,4 @@ but I would greatly prefer chatting with you on Signal.</p>
 Facebook</a>. They will indeed link up telephone numbers and social networks,
 meaning that both parties will get a tremendous boost in what they know about
 you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

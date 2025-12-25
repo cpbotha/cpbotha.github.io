@@ -1,8 +1,224 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>time-restricted eating on voices in my head</title><link>https://cpbotha.net/tags/time-restricted-eating/</link><description>Recent content in time-restricted eating on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Tue, 20 Apr 2021 08:54:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/time-restricted-eating/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description> Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
-Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.
-Learn you a tiny bit of Erlang for Great Good! Last week I attended a meetup that turned out to be primarily about Erlang and not so much about automated crypto arbitrage, the other topic of the talk.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Time-Restricted Eating on voices in my head</title><link>https://cpbotha.net/tags/time-restricted-eating/</link><description>Recent content in Time-Restricted Eating on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2025 20:04:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/time-restricted-eating/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2024 to 2025 transition post</title><link>https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/</link><pubDate>Sun, 19 Jan 2025 20:04:00 +0200</pubDate><guid>https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/</guid><description>Welcome to the year 2025!
+We are all still waiting for our flying cars, but if you don&amp;rsquo;t like the indistinguishable-from-human talking AIs you got instead, you can have this traditional yearly transition blog post here to keep you busy in the meantime.
+The Seal Point Lighthouse in Cape St. Francis</description><content:encoded><![CDATA[ <p>Welcome to the year 2025!</p>
+<p>We are all still waiting for our flying cars, but if you don&rsquo;t like the indistinguishable-from-human talking AIs you got instead, you can have this <a href="/tags/transition">traditional yearly transition blog post</a> here to keep you busy in the meantime.</p>
+
+
+
+
+
+
+
+
+    
+
+
+<figure><a href="20241228-st-francis-light-house.webp">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20241228-st-francis-light-house_hu_a7c8fad0a4fb3336.webp 480w,
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20241228-st-francis-light-house_hu_a8fd52cf169879c1.webp 800w,
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20241228-st-francis-light-house_hu_c471bba5b301f4e3.webp 1200w,
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20241228-st-francis-light-house_hu_7e36ecc6dd88d868.webp 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20241228-st-francis-light-house_hu_a8fd52cf169879c1.webp"
+            
+
+        
+            alt="The Seal Point Lighthouse in Cape St. Francis"/> </a><figcaption>
+            <p>The Seal Point Lighthouse in Cape St. Francis</p>
+        </figcaption>
+</figure>
+
+<p>For those of you who are new here, 1) welcome! and 2) the traditional yearly transition post is where I both ramble semi-coherently on about the year that is closest to its conclusion and also speculate a bit about the year that is closest to its inception.</p>
+<p>The main audience for this post is me &ndash; writing this up and the concomitant thinking and formulating bits form an important part of my maintenance process &ndash; but to anyone else who is reading this, there is hopefully something of value (or just a bit of entertainment) for you in these words. In any case, I am super happy that you&rsquo;re here!</p>
+<h2 id="life-events">Life events</h2>
+<p>In 2024, <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/#i-turned-50">I turned 50</a> while <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/#gou-1-turned-18">GOU#1 turned 18</a>, finished high school and is now on her way to university.</p>
+<p>I mention these two in the same breath, because looking back it feels like the 5 years of her high school, a substantial chunk of time in terms of her development, went by in a flash.</p>
+<p>It&rsquo;s almost like we blinked <a href="/2019/12/08/weekly-head-voices-185-starship-gou-1/#starship-gou-1-taxiing-on-the-runway">when she was still our little girl going to high school</a> and now suddenly she is an adult, and we finally feel like actual adults (aka old people) ourselves.</p>
+<p>Although these have been amazing years for us, this experience of a whole period of life flashing by, through the lense of our children&rsquo;s development into adults, is a stark reminder to strive even harder to experience the living daylights out of every single moment that we are blessed with.</p>
+<p>If all goes according to plan, we will have two more blink-blink-another-high-school-journey-is-complete experiences (GOU#2 is now in her second year of that journey, GOU#3 has a few years to go before she can start) so we should probably try to blink far less often.</p>
+<h2 id="writing">Writing</h2>
+<p>After the dip both this blog and I went through in 2023 (total of 3 WHV posts&hellip;) and a very slow blogging start in 2024, it does feel like I might slowly be getting my WHV groove back, which seems to be evidenced by 66% more WHV posting in 2024, i.e. a whole 5 WHV posts! (Contrast this with the historic average of one post every two weeks.)</p>
+<p>In the introduction to <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/">WHV #255 You lift me up</a> I speculate a bit about the reasons for my hiatus (I didn&rsquo;t mention there that maybe 2023 was actually just a real downer for me) and the current potential revival.</p>
+<p>In addition to the posts here, I published <a href="https://vxlabs.com/">12 technical posts over on at the vxlabs</a> and a whole bunch of short howtos / recipes in the <a href="https://charlbotha.com/til/">brand new TiL section of my other-OTHER website</a>. WHV #255 <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/#there-is-a-til-section-on-my-other-website">explains the motivation behind the TiL section</a>.</p>
+<p>I am also quite happy about the fact that I wrote a daily entry in my private diary for a large part of 2024, and this is something that I would like to continue, hopefully for an even larger part of 2025.</p>
+<p>Spending some time every day to review that day, where the review is enriched by the deliberate activitity of trying to formulate everything into a story that I can write down, helps me to make sense of everything.</p>
+<p>Writing in general seems to modulate positively my experience of reality.</p>
+<p>There&rsquo;s a lot about this idea in various posts on this blog, but allow me to surface <a href="/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/#the-describers">two relevant sections from WHV 180</a>, and especially the quote below (but you should go read those two sections):</p>
+<blockquote>
+<p>Writing is the multi-purpose thread that runs backwards and forwards through time to connect the various different versions of me into a slightly less faulty entity.</p>
+</blockquote>
+<h2 id="running-and-exercise">Running and exercise</h2>
+<p>My secret running goal for 2024 was to do 25km of running every week. In my head this was auto-simplified to 1200km for the year (you know, the way one often calculates a month as 4 weeks), but of course we&rsquo;re talking 1300km.</p>
+<p>Well, I failed at all of these goals!</p>
+<p>However, I did manage to run a total of 1149.7km over the year, which comes to an average of 22.1km per week, which I am pretty OK with. I had over 100 hours of fun (I truly enjoy running) and no injuries that I can remember.</p>
+<p>The training calendar below shows that August was my laziest month, but that&rsquo;s because August has the worst weather, and because I was away for a week visiting my Dutch family and getting many tens of thousands of dancing steps instead. The calendar also shows how I made a last ditch effort in December to close the gap with my goal as much as possible.</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="20250101-strava-training-calendar.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20250101-strava-training-calendar_hu_e13adc1c4101c63a.png 480w,
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20250101-strava-training-calendar_hu_9e69575ede352940.png 800w,
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20250101-strava-training-calendar_hu_2caa5fcc1a219359.png 1200w,
+            
+                
+                https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20250101-strava-training-calendar_hu_57229ed99a10234e.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2025/01/19/the-2024-to-2025-transition-post/20250101-strava-training-calendar_hu_9e69575ede352940.png"
+            
+
+        /> </a>
+</figure>
+
+<p>You might remember <a href="/2024/01/04/the-2023-to-2024-transition-post/#running-and-exercise">my three metrics-focused goals from last year&rsquo;s post</a>, namely 50 consecutive push-ups, VO<sub>2</sub> Max of at least 50 and a resting state heart rate of 50 or under&hellip;</p>
+<p>Well, 50 consecutive push-ups was not that hard, Apple Health reports my average resting state heart rate for 2024 as 48 BPM (this would be mostly via my Garmin Forerunner 245 and more recently 265) but my VO<sub>2</sub> briefly peaked at 49 (some time after I turned 50) before settling back on 48. I  would have loved that 50, but <a href="https://www.garmin.com/en-US/blog/fitness/whats-a-good-vo2-max-for-me/">48 is not the worst for a man of my age</a>.</p>
+<p>My real goal for the coming year is the same as last year: I want to be able to continue running.</p>
+<p>The older I get and the more I learn, the more I understand that with exercise, the more hours I can spend every week doing it, of course maintaining balance with the rest of my life (see life systems further down), the better my meat-coated skeleton will work, and the happier the ghost driving it will be.</p>
+<blockquote>
+<p>You’re a ghost driving a meat-coated skeleton made from stardust; what do you have to be scared of?</p>
+<p>&ndash; <a href="https://quoteinvestigator.com/2022/10/13/ghost-stardust/">@rat_sandwich on twitter, January 31, 2013</a></p>
+</blockquote>
+<p>P.S. of course I will again go for 25km of running per week. I think logging substantially more than 120 hours of activities in Strava will be good. I might even give that VO<sub>2</sub> Max goal another shot.</p>
+<p>P.P.S. I read <a href="https://peterattiamd.com/outlive/">Peter Attia&rsquo;s book Outlive</a> a few months ago. This is a detailed and practical manual for healthy living. There&rsquo;s a lot in there, but at the core he wants you, while you still have any say in the matter, to become as fit (measured by our friend VO<sub>2</sub> Max) and as strong (measured by grip strength) as you possibly can. You see, from middle age we&rsquo;re all on a downward curve, and there&rsquo;s not much we can do about it, except ensuring that we start as high as possible.</p>
+<p>P.P.P.S. It&rsquo;s funny; back in school, I thought little of athleticism, because it was a jock thing, and the jocks were generally not very kind to nerd-kind (my people). Now that I&rsquo;m older and quite ironically due to my nerdy lifelong learning habits, I strive for us much athleticism as I can &ldquo;fit&rdquo; in (jock joke harr harr).</p>
+<h3 id="diet">Diet</h3>
+<p>During this post&rsquo;s generously long incubation, I thought it worth adding here my approach to eating.</p>
+<p>I&rsquo;ve been practising 16-8 time-restricted eating (intermittent fasting in some circles) about 95% of the time since somewhere in 2019. I first <a href="/2019/12/18/weekly-head-voices-186-helderberg-20/#time-restricted-eating-tre-with-black-coffee-please">wrote about it in WHV 186</a>, and then in <a href="/2021/04/20/weekly-head-voices-221-anti-breakfast-club/#i-really-don-t-like-breakfast">WHV 221 I came out and stated the beef I have with breakfast</a> (that pun might be too heavy for this post).</p>
+<p>Anyways, while I still believe that breakfast is bad for most people, I know that the scientific world has not yet reached consensus on time-restricted eating for healthy folks.</p>
+<p>However, there is considerably more consensus that lowering daily caloric intake is good for most people.</p>
+<p>For me, 16-8 TRE, where I simply don&rsquo;t ingest anything besides water and black coffee from about 7 in the evening until about noon the next day, is an extremely practical and especially low-effort way to reduce caloric intake.</p>
+<p>When I do eat, the portions are modest, I try to stick to natural and unprocessed where I can and I keep an eye on protein.</p>
+<p>When I do break these rules, I do so with deliberation. Great food, great wine, great beer and the company of friends and family, especially when combined, constitute a perfect reason to break all of these rules.</p>
+<p>In short, reduce caloric intake, increase per-calorie value and/or enjoyment!</p>
+<h2 id="systems-and-tools">Systems and Tools</h2>
+<p>This is the place where I summarise (read: ramble on about) the current state of my digital tools and systems. If you&rsquo;re going to skip a (nerdy) section, this is the one! You can dive back in at <a href="#life-systems-2025">Life Systems 2025</a>.</p>
+<p>I am one of those people who <em>regularly</em> finds and uses information from notes that I made.</p>
+<p>If I have the note, and I often do because I make an effort to write stuff down with the lowest possible friction but the highest possible chance of being found again, this is generally miles faster than finding the information online, even with tools like the <a href="https://kagi.com/">premium search engine Kagi</a> which I have been using regularly for a few weeks now.</p>
+<h3 id="emacs-and-obsidian">Emacs and Obsidian</h3>
+<p>A year ago I <a href="/2024/01/04/the-2023-to-2024-transition-post/#systems-and-tools">experienced a bit of a crisis of (Emacs) faith</a>.</p>
+<p>Whilst that was more of a clash between the either-or poles of Emacs and Obsidian, I am now at a place where I&rsquo;m finding increasing uses for Obisidian as an <em>additional</em> note-taking tool, working on the same collection of hundreds of org-mode and a growing number of markdown files.</p>
+<p>Emacs and org-roam treat <a href="https://vxlabs.com/2022/09/24/modify-md-roam-for-frontmatter-less-operation/">markdown files as if they are native org-roam nodes</a>. Thanks to <a href="https://github.com/BBazard/obsidian-orgmode-cm6">Benoit Bazard&rsquo;s fantastic new CodeMirror 6 org-mode plugin for Obsidian</a> and my <a href="https://charlbotha.com/til/Monitor-rclone-cron-job-with-Home-Assistant">rclone + syncthing syncing setup for iPhone</a>, I have semi-usable org database support on my phone.</p>
+<p><a href="https://plainorg.com/">Plain Org</a> and since recently <a href="https://orgro.org/">Orgro</a> are great for editing org files in the iPhone, but they are missing the searching and discovery, let&rsquo;s call it <em>note management</em>, aspects of a tool like Obsidian.</p>
+<p>Long but quite important-to-me story short, it looks like for the time being I&rsquo;ll continue to use both Emacs and Obsidian for note-taking. Because interoperability is not perfect, there will be some natural gravitational pull towards the one or the other which I have decided to explore.</p>
+<p>At the moment, it looks like I might be writing more of my atomic notes as markdown files, whilst using org for the lab journal / logbook and project management type of notes.</p>
+<p>On a deeper note, the Obsidian team is doing fantastic work.</p>
+<p>Apart from their <a href="https://stephango.com/file-over-app"><em>file over app</em> philosophy</a>, Obsidian is <em>programmable</em> as can be witnessed by the thriving extension ecosystem.</p>
+<p>I&rsquo;ve also <a href="https://obsidian.md/plugins?id=ai-chat-as-md">written a modest extension</a> to test this out from the inside. The programmability is not as extensive as that of Emacs, but it runs everywhere, even on mobile devices, and it might be extensive enough for the note-taking platform that Obsidian has become.</p>
+<p>I&rsquo;ve been using Emacs on and off since the late 90s, but for the past 10 years it has become an always-running and integral part of my life. It feels really strange, disconcerting if I&rsquo;m being honest, that it seems to be losing its core spot.</p>
+<p>I console myself in these moments with the observation that science must trump dogma, always.</p>
+<p>P.S. I&rsquo;m writing this post in Emacs.</p>
+<h4 id="til">TiL</h4>
+<p>Thanks to Obsidian, my other, OTHER website <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/#there-is-a-til-section-on-my-other-website">now has a &ldquo;today I learned&rdquo; (TIL) section</a> at <a href="https://charlbotha.com/til/">charlbotha.com/til</a>, published directly from a sub-directory of my main notes directory.</p>
+<p>The benefit is that there is even less friction than usual and, perhaps more importantly, the psychological friction has also been reduced because I have convinced myself that the posts there are just notes and not true blog posts.</p>
+<h3 id="honorable-tool-mentions-zotero-and-quarto">Honorable tool mentions: Zotero and Quarto</h3>
+<p>After <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/#omnivore-is-no-more">my distastrous recommendation of Omnivore turned into a disaster</a>, it is with some emotional trepidation but intellectual confidence (thanks to file over app and its staunchly open source nature) that I can re-recommend Zotero as a reference (of all kinds!) management tool for the long term.</p>
+<p>After I last mentioned it on my blog, I have been using it quite intensively, and <a href="https://bsky.app/hashtag/zotero?author=charlbotha.com">I keep on running into delightful features</a>, like the built-in PDF reader&rsquo;s pop-up visualization of citations and image references.</p>
+<p>A more recent but high power entry into my toolbelt is <a href="https://quarto.org/">Quarto</a>, which I will contend strikes a fantastic usability-power balance in the world of technical document and presentation authoring. I&rsquo;ve now used it, in anger, to write a fairly extensive technical document, along with the afore-mentioned Zotero and <a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX</a> for reference management, and the experience was magically smooth. To seal the deal, by the end I used Quarto to generate an attractive-looking docx for interoperability with the other stakeholders, but my contact time with Word was mercifully minimised.</p>
+<h3 id="my-micro-blogging-history-2008---2025">My micro-blogging history 2008 - 2025</h3>
+<p>Twitter says I created my account there in December of 2008. However, <a href="/2009/04/04/when-the-going-gets-tough/">this blog here says I only started using it in April of 2009</a>. (Twitter first launched in July of 2006.)</p>
+<p>Some years later in 2016, coincidentally right before the previous Trumpocalypse, I wrote a post naively suggesting that we should <a href="/2016/11/19/lets-replace-twitter-with-something-much-better/">replace twitter with something better (blogs&hellip;)</a> due to the risk of Twitter possibly going bad (ahem) and to the observation then that it was (then already) doing a crappy job keeping out abusive users (AHEM).</p>
+<p>That post <a href="/2016/11/20/look-mom-hacker-news-front-page/">reached the front page of Hacker News</a>, and was thus read and discussed over there (and probably in the comments here) by tens of thousands of nerds, and a surprisingly small share of the usual &ldquo;Ackchyually&rdquo;-Bros.</p>
+<p>(Please allow me this little tangent: A mental model that will really ease your time on sites like HN and reddit, is that the person on the other side, especially when they come across as super confident and assertive, is probably <strong>not</strong> an expert, not even by a long shot, on the topic that they are so confidently mansplaining. In fact, they are probably the least qualified to say anything. ChatGPT avant le lettre one might say. Ok back to your regular programming&hellip;)</p>
+<p>Needless to say, my specific idea of replacing twitter with&hellip; blogs and rss was not implemented by the internet, at least not at that point&hellip;</p>
+<p>When Musk acquired Twitter in October of 2022, the writing started appearing on the wall, at first vaguely, but with more and more definition as the months went on. I started looking for micro-blogging alternatives that were not twitter.</p>
+<p>At first Mastodon looked too complicated, but then someone setup a <a href="/2022/11/20/weekly-head-voices-249-self-discipline/#emacs-mastodon-server-was-irresistible">mastodon server dedicated to Emacs and I was immediately sold</a>.</p>
+<p>However, Mastodon indeed turned out to be too complex and fundamentally quite fragile (all but the larger instances have a just a volunteer human or two behind them), leading to the owner of my favourite instance bascially being harassed to such an extent that it was better for him to get out of this business and <a href="https://mastodon.social/@cpbotha/113340325817581254">shut the Emacs mastodon server down</a>.</p>
+<p>When I saw this announcement, I was disheartened.</p>
+<p>When I read that Mastodon supports message export, but not message import, meaning that my posts would languish in a sad archive file somewhere, I was convinced that I had to try something out that was not Mastodon.</p>
+<p>In parallel to my Mastodon efforts, I did also try Threads and was quite enthusiastic about its scale, and the speed with which Meta managed to build it, but I didn&rsquo;t manage to get any sort of interaction there. I think that it might be more geared for the Instagram model of influencers broadcasting to large groups of followers, in contrast to a more collaborative setup. (Urgh, the recent news about Meta&rsquo;s new &ldquo;free speech&rdquo; overhaul is additional motivation for me to spend even less energy there.)</p>
+<p>ANYWAYS, it turns out that the newer and shinier microblogging service Bluesky was conceived in 2019 with the goal <a href="https://en.wikipedia.org/wiki/Bluesky">&ldquo;to find or develop an open and decentralized standard for social media that would give users more control over their data and experience&rdquo;</a>, precisely the sort of thing that has suddenly become even more painfully relevant with the advent of the Trumpocalypse part deux, now with more Musk-power.</p>
+<p>Long story short, in a very short time, Bluesky has proven to be almost exactly the microblogging platform that I enjoy participating in. Lots of human interaction, no ads, many different user-contributed algorithms to choose from, including just seeing the stuff your people post, in the order that they post it &ndash; it really feels like the thing was put together with semi-normal human interaction as the central concern.</p>
+<p>Up to now, it also feels like <a href="/2024/11/17/weekly-head-voices-255-you-lift-me-up/#bluesky-is-my-new-micro-blogging-thing-of-choice">many folks on there prefer being decent to each other</a>, something I militantly (haha) support.</p>
+<p>Some mastodon folks are downright unhappy with bluesky, because they feel that it&rsquo;s not truly decentralized like mastodon.</p>
+<p>Thing is, Bluesky has chosen a different spot on the usability - decentralization spectrum, and and my opinion is exactly usable and decentralised enough for what it needs to be and do at this moment in time.</p>
+<p>Looking slightly further into the future, there are well-funded initiatives like <a href="https://www.theverge.com/2025/1/13/24342799/free-our-feeds-social-media-ecosystem-at-protocol-bluesky">Free our feeds</a>, ideologically and technologically supported by the Bluesky company but otherwise unconnected, which has amongst its <a href="https://freeourfeeds.com/">goals to &ldquo;build independently hosted infrastructure (a second &lsquo;relay&rsquo;) so that Bluesky users, developers and researchers always have full access to the stream of content and data no matter what the company decides to do in future&rdquo;</a>.</p>
+<p>If you would like to know more, Faine Greenwood has written <a href="https://little-flying-robots.ghost.io/the-great-bluesky-migration-i-answer-some-of-your-questions/">this great Bluesky explainer</a>.</p>
+<h2 id="life-systems-2025">Life Systems 2025</h2>
+<p>My Life Systems are the guiding principles, rules, personal values and bags of tips that I have explicitly defined and refined over the years to help me be the best human that I can be.</p>
+<p>Note: I write these up primarily as a reminder to myself. If it comes across as prescriptive, please remember that I&rsquo;m telling <em>me</em> how to live my life. I can do this, because I <em>am</em> the boss of me.</p>
+<h3 id="core">Core</h3>
+<p>You&rsquo;ll be happy to hear that the core of my Life Systems 2025 is exactly the same as the previous edition <a href="/2024/01/04/the-2023-to-2024-transition-post/#life-systems-2024">Life Systems 2024</a>, except for the version number increase, and the concomitant price increase. (taking a leaf here from the Intel playbook!)</p>
+<p>If you don&rsquo;t want to read <a href="/2024/01/04/the-2023-to-2024-transition-post/#life-systems-2024">the 2024 write-up</a>, here is the compressed version:</p>
+<p><em>Guiding principles:</em> 1. Love 2. Science. <em>Two no three rules for achieving great success in life, or just surviving, whichever comes first:</em> 1. Be useful. 2. be likable and 3. evolve. <em>Personal values:</em> 1. Be kind. 2. Be grateful. 3. Attend fully to the now. 4. Enjoy life with family and with my friends. 5. Help my children on their journey to becoming useful, likeable and evolving life enjoyers. 6. Be there for my family. 7. Add value through work. 8. Be healthy: Sleep, diet, exercise. 9. Build and/or fix something. 10. Learn new things. 11. Commit to lifelong practice of the good things.</p>
+<h3 id="balance">Balance</h3>
+<p>What I have been thinking about this year, especially when things get quite busy, is the sometimes tricky practice of applying balance to one&rsquo;s personal values.</p>
+<p>A straight-forward example is when important work obligations start impacting my sleep or exercise schedule, in which case I have to apply balance and tone down slightly the ambition to fulfil personal value no 7.</p>
+<p>It can easily get more tricky however; when something on that list of personal values, which is important to you, starts taking up more than its fair share of energy, that will come at the cost of all of the other endeavours that you value.</p>
+<p>I don&rsquo;t have a hard and fast rule for this, only the measure of remembering to <em>pay attention</em> also at that meta-level so that one can make suitable balancing adjustments when required.</p>
+<h3 id="work-hard-party-hard-rest-hard">Work hard. Party hard. Rest hard.</h3>
+<p>A lesson that has only become clearer for me over the years is that we humans function best when we are able to focus on one thing at a time, and when we have as few things as possible on the list that we select from.</p>
+<p>This works at all scales of life, from what task do I work on during this half-hour all the way up to my main priority for today, or my three main priorities for this year.</p>
+<p>The challenge in applying this lesson is three-fold:</p>
+<ol>
+<li>Know which thing to focus on at any time,</li>
+<li>reduce switching between things and yet</li>
+<li>get to all of the things that you should get to.</li>
+</ol>
+<p>Once you have all three of these covered, then comes the truly difficult part: <strong>Attend fully to the now.</strong></p>
+<p>Those of us who are lucky get about 4000 weeks of life.</p>
+<p>If you&rsquo;re not truly present in the thing that you&rsquo;ve chosen at this moment, you are not using that allotted time to its fullest extent.</p>
+<p>You can never ever get that time back.</p>
+<p>It&rsquo;s like you&rsquo;re in a Michelin-starred restaurant, and instead of going power level 9000 with all of your senses and your thoughts and your whole being into <em>experiencing</em> that food with your favourite human(s), you&rsquo;re scrolling on your phone, absent-mindedly shovelling forkfuls into your mouth.</p>
+<p>Do the opposite.</p>
+<p>Pick your battles, but sometimes also choose a party if you can and don&rsquo;t forget to rest like your life depends on it. Whatever you do, be the most maximally present in the thing you&rsquo;ve chosen. Presence and attention improve with regular practice.</p>
+<p>In short: Work hard, party hard, rest hard.</p>
+<!-- be maximally present to use that time right; do everything HARD -- came during my 2025-01-11 morning run -->
+<h2 id="my-2024-to-2025-transition-wishes">My 2024 to 2025 transition wishes</h2>
+<p>Humans<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <em>at their peak</em> are a thing of beauty.</p>
+<p>Above all they are truly kind.  They live and breathe the knowledge that we <em>homo sapiens</em> are at our absolute best when we connect with each other.</p>
+<p>Peak humans are graceful, and they are elegant, and they are in harmony &ndash; the best sort of balance &ndash; with their surroundings, with those around them and with themselves.</p>
+<p>Attaining this peak is hard. Maintaining it is nigh impossible. Best we can go for is <a href="/2018/06/03/weekly-head-voices-144-eternal-learner/#mastery">the never-ending practice</a> of these characteristics, and an eternal striving for moments to <em>become them</em>.</p>
+<p>Friends, I wish you and your connected ones the willpower to strive for grace and elegance and harmony, and the presence of mind to attend fully to those perfect moments when they occur.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>If you&rsquo;re reading this, you might be one of these&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #221: The anti-breakfast club</title><link>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</link><pubDate>Tue, 20 Apr 2021 08:54:00 +0200</pubDate><guid>https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/</guid><description>Hello there friends, and welcome to Weekly Head Voices #221, covering the week from Monday April 12 to Sunday April 18, 2021, and focusing on the programming language Erlang and the evil that is breakfast.
+Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong.</description><content:encoded><![CDATA[ <p>Hello there friends, and welcome to Weekly Head Voices #221, covering the week
 from Monday April 12 to Sunday April 18, 2021, and focusing on the programming
 language Erlang and the evil that is breakfast.</p>
+
+
 
 
 
@@ -18,22 +234,26 @@ language Erlang and the evil that is breakfast.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_3f4a51e22e02c3ea.jpg 480w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg 800w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_daf143d3ce11da7b.jpg 1200w,
             
-                   https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_df2ded2b472dbbe2.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu34d054cef3d84f48b45613c50210897a_4326347_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/04/20/weekly-head-voices-221-anti-breakfast-club/vergelegen_entrance_autumn_run_202104_hu_4410996cb8883e35.jpg"
             
 
         
-            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&amp;rsquo;m three bananas strong."/> </a><figcaption>
+            alt="Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong."/> </a><figcaption>
             <p>Figure 1: Entrance to Vergelegen and Morgenster, taken during an Autumn morning long(er) run. I&rsquo;m three bananas strong.</p>
         </figcaption>
 </figure>
@@ -160,7 +380,7 @@ personal intellectual requirements.</p>
 <p>Next week: A whole bunch of information that in fact does constitue financial
 and investment advice that I take full responsibility for. (haha just
 joking. it&rsquo;ll be politics or religion.)</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #188: Exercise Canary.</title><link>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</link><pubDate>Sun, 29 Dec 2019 20:29:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</guid><description> As I mentioned in the last WHV, I am in the midst of trying to end this year on a strong and especially regular note.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #188: Exercise Canary.</title><link>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</link><pubDate>Sun, 29 Dec 2019 20:29:00 +0200</pubDate><guid>https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/</guid><description>As I mentioned in the last WHV, I am in the midst of trying to end this year on a strong and especially regular note.
 So, more on time than the rest of the rest of the year, you are now reading the 188th edition of the Weekly Head Voices. This will most probably be the last WHV of the year 2019, looking back at the week from Monday December 23 to Sunday December 29.</description><content:encoded><![CDATA[ <p>As <a href="/2019/12/23/weekly-head-voices-187-checklists-everywhere/">I mentioned in the last
 WHV</a>, I am in the
 midst of trying to end this year on a strong and especially <em>regular</em> note.</p>
@@ -191,22 +411,22 @@ Sunday December 29.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_59397d04b7c51d36.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_15f2b94a18ffd728.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_ed5374261cfa5852.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_e250dd95cfe03186.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu0ed55996a616d56625dcb4d544ca900e_2086984_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/29/weekly-head-voices-188-exercise-canary/bettys_beach_path_hu_15f2b94a18ffd728.jpg"
   
 
    />
@@ -217,7 +437,7 @@ Sunday December 29.</p>
 Vacation oscillates between lazing and running.
 </figcaption>
 </figure>
-<h2 id="topol-tweetstrade-for-your-vacation">Topol-Tweets™ for your vacation.</h2>
+<h2 id="topol-tweets-for-your-vacation">Topol-Tweets™ for your vacation.</h2>
 <p><a href="/2019/07/17/weekly-head-voices-173-i-know/#bullet-list-of-miscellany-blom">I may have implied before that Prof. Eric Topol&rsquo;s twitter stream is
 brilliant</a>.</p>
 <p>During the past few days he posted two high impact (meta-)analyses on topics
@@ -297,7 +517,7 @@ levels of activity (ie, 30 v0 MET hours/week).</p>
 protective effect from colon and endometrial cancer relative to no exercise, or
 that the data in this case (n = 309881) is still somehow misleading the
 analysis.</p>
-<h2 id="the-middle-aged-exercise-canarytrade">The (middle-aged) Exercise Canary™.</h2>
+<h2 id="the-middle-aged-exercise-canary">The (middle-aged) Exercise Canary™.</h2>
 <p>On Friday, during the second part of my morning run, the first part being
 together with GOU #1 (running with your genetic offspring is amazing on more
 than one level), I had an exercise-related realisation which I thought was
@@ -326,9 +546,9 @@ the last few days of 2019, and usher in the brave new 2020.</p>
 <p>I look forward to our next meeting, either on this blog in the
 soon-to-be-written traditional 2019-2020 transition post, or at whichever
 other point we might become entangled.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description> Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #186: Helderberg 20.</title><link>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</link><pubDate>Wed, 18 Dec 2019 16:08:00 +0200</pubDate><guid>https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/</guid><description>Friends, it is with great pleasure that I welcome you back here to the Weekly Head Voices!
 The passing of time usually seems to be quite a theoretical affair, but at this moment I can really feel the year taking its last few breaths.
-(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10.</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
+(People even seem to think of this as the last year of the decade, which makes it all the more dramatic, but not everyone is convinced. If the first day of the first year was January 1, year 1, the end of the first year was December 31, year 1, and the end of that first decade was on December 31, year 10. By this reasoning, the end of the current decade is still more than a year away, on December 31, 2020. Yes, the calendar has changed drastically over the years, but the principle of when decades start and end is the same.)</description><content:encoded><![CDATA[ <p>Friends, it is with great pleasure that I welcome you back here to the Weekly
 Head Voices!</p>
 <p>The passing of time usually seems to be quite a theoretical affair, but at this
 moment I can really feel the year taking its last few breaths.</p>
@@ -365,22 +585,22 @@ the WHV Monday looks back on the days from Monday December 9 to Sunday December
   
   srcset='
   
-    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_52a86bef4be3fcfe.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_d1925304afd824a7.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_2be7c8e5577b4875.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu980e3d28ebd8f0404c770613f1ce21d8_2899568_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/im_on_a_goat_hu_84eff41eefa5f3d0.jpg"
   
 
    />
@@ -516,22 +736,22 @@ that&rsquo;s ok. The scenery was epic, and getting back home was brilliant.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_f36e0d1f02b2b266.jpg 480w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg 800w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_898647e673d4e8e8.jpg 1200w
   
   
-    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_1b01c56de5f46cb7.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_huc4bb1951375ad5886434a63b8e273f0b_2731244_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/12/18/weekly-head-voices-186-helderberg-20/helderberg_pano_hu_21e6cad14eb163f8.jpg"
   
 
    />
@@ -544,4 +764,4 @@ Helderberg hike to make this lovely panorama. It&rsquo;s better than the panoram
 made by myself, so I&rsquo;m giving you this one. Click for higher resolution.</p>
 </figcaption>
 </figure>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

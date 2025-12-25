@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blogging on voices in my head</title><link>https://cpbotha.net/tags/blogging/</link><description>Recent content in blogging on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 01 Jan 2023 16:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/blogging/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2022 to 2023 transition post</title><link>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</link><pubDate>Sun, 01 Jan 2023 16:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</guid><description> Welcome to 2023 everyone, and to the traditional yearly year transition post!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blogging on voices in my head</title><link>https://cpbotha.net/tags/blogging/</link><description>Recent content in Blogging on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 09:55:44 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/blogging/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2022 to 2023 transition post</title><link>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</link><pubDate>Sun, 01 Jan 2023 16:17:00 +0200</pubDate><guid>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</guid><description>Welcome to 2023 everyone, and to the traditional yearly year transition post!
 Figure 1: Scene from a recent windy family walk in Cape St Francis
 I wish all of you all of the best for this shiny new year twenty-twenty-three!
-(By the way, this, the first day of the year, is the earliest that the yearly transition post has ever appeared!)
-Blogging Over the past year, I published fifteen posts on this blog, 14 of which were &amp;ldquo;weekly&amp;rdquo; head voices posts (#237 to #250), and one the 2022 transition post.</description><content:encoded><![CDATA[ <p>Welcome to 2023 everyone, and to the <a href="/tags/transition/">traditional yearly year transition post</a>!</p>
+(By the way, this, the first day of the year, is the earliest that the yearly transition post has ever appeared!)</description><content:encoded><![CDATA[ <p>Welcome to 2023 everyone, and to the <a href="/tags/transition/">traditional yearly year transition post</a>!</p>
+
+
 
 
 
@@ -18,18 +19,22 @@ Blogging Over the past year, I published fifteen posts on this blog, 14 of which
               
             srcset='
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_9aeb90d9d01a11e9.jpg 480w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_8678af152961e9a.jpg 800w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_d62854548d79e21e.jpg 1200w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_4e0ce1b965a24760.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_8678af152961e9a.jpg"
             
 
         
@@ -59,8 +64,8 @@ good life.</p>
 <p>Invoking the goaccess log analysis tool using the incantation below reports that
 this site was visited by just over 126 thousand unique visitor IP numbers in
 the year up to December 27.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#cb4b16">export</span> <span style="color:#268bd2">DOMAIN</span>=cpbotha.net
-</span></span><span style="display:flex;"><span>(<span style="color:#859900">for</span> i in {1..11}; <span style="color:#859900">do</span> <span style="color:#cb4b16">echo</span> <span style="color:#268bd2">$DOMAIN</span>.access.log.<span style="color:#268bd2">$i</span>.gz; <span style="color:#859900">done</span>; <span style="color:#cb4b16">echo</span> <span style="color:#268bd2">$DOMAIN</span>.access.log) | xargs zcat -f -- | goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#6639ba">export</span> <span style="color:#953800">DOMAIN</span><span style="color:#0550ae">=</span>cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#0550ae">(</span><span style="color:#cf222e">for</span> i in <span style="color:#0550ae">{</span>1..11<span style="color:#0550ae">}</span><span style="color:#1f2328">;</span> <span style="color:#cf222e">do</span> <span style="color:#6639ba">echo</span> <span style="color:#953800">$DOMAIN</span>.access.log.<span style="color:#953800">$i</span>.gz<span style="color:#1f2328">;</span> <span style="color:#cf222e">done</span><span style="color:#1f2328">;</span> <span style="color:#6639ba">echo</span> <span style="color:#953800">$DOMAIN</span>.access.log<span style="color:#0550ae">)</span> <span style="color:#1f2328">|</span> xargs zcat -f -- <span style="color:#1f2328">|</span> goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><p>The most popular posts also over 2022 were the very old <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">2013 usa my data has
 left your building</a>, the still quite relevant <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">2016 migrating from gmail to
 fastmail</a> and my <a href="/2019/09/21/note-taking-strategy-2019/">2019 note-taking strategy post</a>.</p>
@@ -147,6 +152,8 @@ as well, but this is fine. <em>Any</em> kilometres are better than no kilometres
 
 
 
+
+
 <figure>
     <img
         
@@ -154,18 +161,22 @@ as well, but this is fine. <em>Any</em> kilometres are better than no kilometres
               
             srcset='
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_51b4310156cb6775.png 480w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_9b2d56329fea834b.png 800w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_44ff53ded7296414.png 1200w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_b6f0d925e5348190.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_9b2d56329fea834b.png"
             
 
         
@@ -328,11 +339,12 @@ the moment and its participants.</p>
 <p>For a while, you can truly appreciate the beauty of your surroundings, of the food
 and drink you might be enjoying, and of the humans in your company.</p>
 <p>In 2023, let us be expansive!</p>
-]]></content:encoded></item><item><title>The 2021 to 2022 transition post</title><link>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</link><pubDate>Sun, 23 Jan 2022 09:57:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</guid><description> Welcome to 2022 everyone, and to this, the traditional yearly year transition post!
+ ]]></content:encoded></item><item><title>The 2021 to 2022 transition post</title><link>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</link><pubDate>Sun, 23 Jan 2022 09:57:00 +0200</pubDate><guid>https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/</guid><description>Welcome to 2022 everyone, and to this, the traditional yearly year transition post!
 Figure 1: Sunset rock in St Francis on December 28, 2021, close to the end of the main event.
-I thought it was the latest ever, but it turns out that that honour goes to 2014 (which had a really good excuse to appear only in March) and 2015 (no real excuse).
-Much later, on Sunday January 23: It could very well still win the Most Fragmented Ever, but at least now it&amp;rsquo;s done.</description><content:encoded><![CDATA[ <p>Welcome to 2022 everyone, and to this, the <a href="/tags/transition/">traditional yearly year transition
+I thought it was the latest ever, but it turns out that that honour goes to 2014 (which had a really good excuse to appear only in March) and 2015 (no real excuse).</description><content:encoded><![CDATA[ <p>Welcome to 2022 everyone, and to this, the <a href="/tags/transition/">traditional yearly year transition
 post</a>!</p>
+
+
 
 
 
@@ -348,18 +360,22 @@ post</a>!</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_43b7cf87c31b21c0.jpg 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_fc6e5e937f90c6a9.jpg 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_12a18d122cde4000.jpg 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_5b0c7558e9575.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu65833b55380b189423c4687e135f9921_1379772_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/20211228-st-francis-sunset-rock_hu_fc6e5e937f90c6a9.jpg"
             
 
         
@@ -384,7 +400,7 @@ to write more, and to keep it up until the end.</p>
 <h3 id="stats-addendum">Stats addendum</h3>
 <p>Applying the <a href="https://goaccess.io/">goaccess log analyzer</a> to this blog&rsquo;s log files with the following
 invocation:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>(<span style="color:#859900">for</span> i in {2..13..1}; <span style="color:#859900">do</span> <span style="color:#cb4b16">echo</span> cpbotha.net.access.log.<span style="color:#268bd2">$i</span>.gz; <span style="color:#859900">done</span>) | xargs zcat -f -- | goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#0550ae">(</span><span style="color:#cf222e">for</span> i in <span style="color:#0550ae">{</span>2..13..1<span style="color:#0550ae">}</span><span style="color:#1f2328">;</span> <span style="color:#cf222e">do</span> <span style="color:#6639ba">echo</span> cpbotha.net.access.log.<span style="color:#953800">$i</span>.gz<span style="color:#1f2328">;</span> <span style="color:#cf222e">done</span><span style="color:#0550ae">)</span> <span style="color:#1f2328">|</span> xargs zcat -f -- <span style="color:#1f2328">|</span> goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><p>&hellip; tells me that in 2021 cpbotha.net welcomed over 115000 unique visitor IPs.</p>
 <p>The same tool reports that <a href="https://vxlabs.com/">vxlabs.com</a> clocked in at just under 165000 unique visitor IPs.</p>
 <p>Even if the real number of actual human visits is a quarter of what the tool is
@@ -407,6 +423,8 @@ running a bit over 1300km.</p>
 
 
 
+
+
 <figure><a href="images/2022/2022-01-15_13-06-57_screenshot.png">
     <img
         
@@ -414,18 +432,22 @@ running a bit over 1300km.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_d8797d3ae69f2074.png 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_bcb23928a764c751.png 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_71b26fe22f2669f7.png 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_fd426be487962b7e.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu72429ca752d1368a15874ecdecfff6fd_66071_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-15_13-06-57_screenshot_hu_bcb23928a764c751.png"
             
 
         /> </a>
@@ -449,6 +471,8 @@ valgus as it prefers to be called.</p>
 
 
 
+
+
 <figure><a href="images/2022/2022-01-15_15-18-44_screenshot.png">
     <img
         
@@ -456,13 +480,17 @@ valgus as it prefers to be called.</p>
               
             srcset='
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
@@ -471,7 +499,7 @@ valgus as it prefers to be called.</p>
             
 
         
-            alt="Figure 2: Valgus, Hallux Valgus. License to limp. Relationship status: It&amp;rsquo;s complicated." width="240px"/> </a><figcaption>
+            alt="Figure 2: Valgus, Hallux Valgus. License to limp. Relationship status: It&rsquo;s complicated." width="240px"/> </a><figcaption>
             <p><span class="figure-number">Figure 2: </span>Valgus, Hallux Valgus. License to limp. Relationship status: It&rsquo;s complicated.</p>
         </figcaption>
 </figure>
@@ -574,6 +602,8 @@ sub-section of my notes network:</p>
 
 
 
+
+
 <figure><a href="images/2022/2022-01-23_10-10-50_screenshot.png">
     <img
         
@@ -581,18 +611,22 @@ sub-section of my notes network:</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_d1209fe41888514f.png 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_31ce23bcfd961e9f.png 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_950ec103a8bb11b5.png 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_df618e90e2d265e3.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu88e327303594d9cd1b697465f29419ec_1953767_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/images/2022/2022-01-23_10-10-50_screenshot_hu_31ce23bcfd961e9f.png"
             
 
         /> </a>
@@ -665,6 +699,8 @@ ones the best 2022 possible.</p>
 
 
 
+
+
 <figure><a href="stormsriver-mouth.jpg">
     <img
         
@@ -672,18 +708,22 @@ ones the best 2022 possible.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_9489d85cd70e5f2e.jpg 480w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_ebadf81992f9fe5e.jpg 800w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_f4dbd9f895343922.jpg 1200w,
             
-                   https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_cfb4aaba0c7a1dbd.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu5c3e6efe76845b8cafe3f5d409cdccae_3461485_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/01/23/the-2021-to-2022-transition-post/stormsriver-mouth_hu_ebadf81992f9fe5e.jpg"
             
 
         
@@ -692,13 +732,14 @@ ones the best 2022 possible.</p>
         </figcaption>
 </figure>
 
-]]></content:encoded></item><item><title>Weekly Head Voices #225: Just a perfect weekend</title><link>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</link><pubDate>Thu, 10 Jun 2021 09:03:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</guid><description> Dear reader,
+ ]]></content:encoded></item><item><title>Weekly Head Voices #225: Just a perfect weekend</title><link>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</link><pubDate>Thu, 10 Jun 2021 09:03:00 +0200</pubDate><guid>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</guid><description>Dear reader,
 Welcome (back) to the Weekly Head Voices, and specifically to the 225th installment, covering the period from Monday May 24 to Sunday June 6, 2021.
 Keyboard update: K1 You&amp;rsquo;ll remember from WHV #204 that my previous keyboard acquisition was the Womier K87 with its all-encompassing RGB and hot-swappable Gateron brown switches.
-That keyboard is so much fun to type on.
-It&amp;rsquo;s hard to describe what leads to all that fun, relative to say the MS Sculpt Ergonomic (which makes a lot more sense as a typing device).</description><content:encoded><![CDATA[ <p>Dear reader,</p>
+That keyboard is so much fun to type on.</description><content:encoded><![CDATA[ <p>Dear reader,</p>
 <p>Welcome (back) to the Weekly Head Voices, and specifically to the 225th
 installment, covering the period from Monday May 24 to Sunday June 6, 2021.</p>
+
+
 
 
 
@@ -714,18 +755,22 @@ installment, covering the period from Monday May 24 to Sunday June 6, 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_efacf2278401042b.jpg 480w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_395a276d16bd5112.jpg 800w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_9b888013a0ce8df0.jpg 1200w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_f05d46bcd41cf24a.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_395a276d16bd5112.jpg"
             
 
         /> </a>
@@ -822,11 +867,11 @@ weekend.</p>
 <p>If you ever run into me before the weekend (it&rsquo;s always before the weekend!), I
 would be grateful if you could remind me that it is in fact now.</p>
 <p>Folks, I wish you much nowness.</p>
-]]></content:encoded></item><item><title>The 2020 to 2021 transition post</title><link>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</link><pubDate>Sun, 10 Jan 2021 15:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</guid><description><![CDATA[ Welcome to the year 2021 friends.
+ ]]></content:encoded></item><item><title>The 2020 to 2021 transition post</title><link>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</link><pubDate>Sun, 10 Jan 2021 15:19:00 +0200</pubDate><guid>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</guid><description>Welcome to the year 2021 friends.
 Every year around about this time, I try to write a transition post like this one.
-You can get a list of all of the transition posts by going to the &ldquo;transition&rdquo; tag page.
-If you don&rsquo;t have time to read them all (haha), you could just scan through last year&rsquo;s 2019 to 2020 edition.
-This transition tradition started at the end of 2009, which coincidentally is also the year that the Weekly Head Voices was born.]]></description><content:encoded><![CDATA[ <p>Welcome to the year 2021 friends.</p>
+You can get a list of all of the transition posts by going to the &amp;ldquo;transition&amp;rdquo; tag page.
+If you don&amp;rsquo;t have time to read them all (haha), you could just scan through last year&amp;rsquo;s 2019 to 2020 edition.
+This transition tradition started at the end of 2009, which coincidentally is also the year that the Weekly Head Voices was born.</description><content:encoded><![CDATA[ <p>Welcome to the year 2021 friends.</p>
 <p>Every year around about this time, I try to write a transition post like this one.</p>
 <p>You can get a list of all of the transition posts by going to <a href="/tags/transition/">the &ldquo;transition&rdquo;
 tag page</a>.</p>
@@ -844,6 +889,8 @@ to gaze unsuccessfully into the future.</p>
 
 
 
+
+
 <figure><a href="leopards_kloof.jpg">
     <img
         
@@ -851,22 +898,26 @@ to gaze unsuccessfully into the future.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_a5029f88e36e0460.jpg 480w,
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_335ac2d3414debe5.jpg 800w,
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_2a0689e34a9c502a.jpg 1200w,
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_dd9b132d68990a15.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_335ac2d3414debe5.jpg"
             
 
         
-            alt="Figure 1: A scene from a hike up Leopard&amp;rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&amp;rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021."/> </a><figcaption>
+            alt="Figure 1: A scene from a hike up Leopard&rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021."/> </a><figcaption>
             <p>Figure 1: A scene from a hike up Leopard&rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021.</p>
         </figcaption>
 </figure>
@@ -967,8 +1018,8 @@ the contents of the much more substantial book it is based on!</p>
 <h3 id="details-for-nerds">Details for nerds</h3>
 <p>This is the invocation I used to generate reports from the nginx log files
 using the <a href="https://goaccess.io/">goaccess</a> tool:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz <span style="color:#1f2328">|</span><span style="color:#0a3069">\
+</span></span></span><span style="display:flex;"><span>    goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><h2 id="running">Running</h2>
 <p>In 2020 I seem to have run just 100 metres shy of 1100km. (Typical&hellip;)</p>
 <p>More would have been good, but I&rsquo;m happy with this.</p>
@@ -1079,10 +1130,10 @@ game-changing firmware upgrade&hellip;</p>
 <p>Quite concretely, we can all help to make this happen by being as kind as we
 possibly can to as many fellow humans as we possibly can.</p>
 <p>In the words of a fellow traveller: SMÉAGOL OUT!</p>
-]]></content:encoded></item><item><title>The 2019 to 2020 transition post.</title><link>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</link><pubDate>Sun, 12 Jan 2020 11:03:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</guid><description> Welcome to 2020 folks!
+ ]]></content:encoded></item><item><title>The 2019 to 2020 transition post.</title><link>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</link><pubDate>Sun, 12 Jan 2020 11:03:00 +0200</pubDate><guid>https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/</guid><description>Welcome to 2020 folks!
 In retrospect, I really should have written this post during the vacation, when it is substantially easier to wax all optimistic about the year to come.
 As it stands, we&amp;rsquo;re slightly more than a week of work into the new year, and most of that vacation naiveté has been brought summarily crashing down to earth as part of a sort of planetary body check.
-Perhaps it&amp;rsquo;s better this way after all.</description><content:encoded><![CDATA[ <p>Welcome to 2020 folks!</p>
+Perhaps it&amp;rsquo;s better this way after all. Let&amp;rsquo;s keep it real.</description><content:encoded><![CDATA[ <p>Welcome to 2020 folks!</p>
 <p>In retrospect, I really should have written this post during the vacation, when
 it is substantially easier to wax all optimistic about the year to come.</p>
 <p>As it stands, we&rsquo;re slightly more than a week of work into the new year, and
@@ -1112,22 +1163,22 @@ as part of a sort of planetary body check.</p>
   
   srcset='
   
-    https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu_7ae0711e1ec24e44.jpg 480w
   
   
-    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu_9fec7f25ff8c1eda.jpg 800w
   
   
-    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu_b51b8f872c372a04.jpg 1200w
   
   
-    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu_c9178771c548d66e.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu6ac8123094a27124c09a4d85d8cf5b05_1834769_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2020/01/12/the-2019-to-2020-transition-post/bettys_walk_pano_hu_9fec7f25ff8c1eda.jpg"
   
 
    />
@@ -1279,9 +1330,9 @@ go.</p>
 <p>I wish you a brilliant 2020.</p>
 <p>I look forward to all of our meetings, both here on these pages, and everywhere
 else where they may happen.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #181: The Slow Ones.</title><link>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</link><pubDate>Thu, 17 Oct 2019 19:47:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</guid><description> Welcome back everyone!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #181: The Slow Ones.</title><link>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</link><pubDate>Thu, 17 Oct 2019 19:47:00 +0200</pubDate><guid>https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/</guid><description>Welcome back everyone!
 This edition of the WHV, #181, looks back at the period of time from Monday October 7 to Sunday October 13, 2019.
-Compulsory running shot: Looking at Gordon's Bay from the Strand. This was on Thursday. I squeezed in another short run on Friday, which my legs definitely did not appreciate. Note to self: Laziness earlier in the week leads to skipped rest days and sore legs later.</description><content:encoded><![CDATA[ <p>Welcome back everyone!</p>
+Compulsory running shot: Looking at Gordon's Bay from the Strand. This was on Thursday. I squeezed in another short run on Friday, which my legs definitely did not appreciate. Note to self: Laziness earlier in the week leads to skipped rest days and sore legs later. (cf. "A stitch in time saves nine." Also cf. Always Be Compounding.) Alternative WHV notification modalities. Shortly after publishing WHV #180, I decided (bolstered by the advice of my, err, advisor) to return to announcing new WHVs on Facebook and perhaps even on Twitter, in spite of TwiFRaF-YT.</description><content:encoded><![CDATA[ <p>Welcome back everyone!</p>
 <p>This edition of the WHV, #181, looks back at the period of time from Monday
 October 7 to Sunday October 13, 2019.</p>
 <figure>
@@ -1307,22 +1358,22 @@ October 7 to Sunday October 13, 2019.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_77e9f02865b47207.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_668df39896270fff.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_b72391f5381e5a66.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_2ae12fc41c639bc1.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu75e13b317c3046d4c0a670365b52da6d_2256592_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/gbay_running_hu_668df39896270fff.jpg"
   
 
    />
@@ -1390,22 +1441,22 @@ pages</a>.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_9df3cb3833e72e2f.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_6fcb5215693ddb6e.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_9d9262709756aa9c.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_64c6f6f1a80190f0.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu8547bac2bf22040485a698e616ed2557_2139205_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/warlord_bone_crusher_phear_me_rawr_hu_6fcb5215693ddb6e.jpg"
   
 
    />
@@ -1443,22 +1494,22 @@ re-opened Long Table restaurant at Haskell Winery.</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_286fa91df2fcb999.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_36c973590ec6c78b.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_260eab87618f8b58.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_7f478114624e5f24.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu75e13b317c3046d4c0a670365b52da6d_4319041_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/long_table_lunch_view_hu_36c973590ec6c78b.jpg"
   
 
    />
@@ -1520,7 +1571,7 @@ thing happened on Saturday morning at 7:18:</p>
   
   srcset='
   
-    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/solar24_huc0e0be8262e3fdc02622910aa5b89973_156000_480x0_resize_box_3.png 480w
+    https://cpbotha.net/2019/10/17/weekly-head-voices-181-the-slow-ones/solar24_hu_3849a9dd8612a7a7.png 480w
   
   
   
@@ -1579,8 +1630,8 @@ forgotten art of focusing intently on a single thing for hours on end, without
 swiping in any direction.</p>
 <p>Communication between the two groups will become increasingly difficult.</p>
 <p>Will this remain the stuff of fiction?</p>
-]]></content:encoded></item><item><title>The 2016 to 2017 transition post.</title><link>https://cpbotha.net/2017/01/05/the-2016-to-2017-transition-post/</link><pubDate>Thu, 05 Jan 2017 11:05:01 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2017/01/05/the-2016-to-2017-transition-post/</guid><description> Following the rich tradition over here of year transition posts, having just rounded off a brilliant outdoorsy take-your-mind-off-of-everything vacation with friends, and also inspired by wogan.blog’s nicely personal 2016 review post, I decided that a farewell-2016 how-you-doin’-2017 post was in order.
-By the way, by rich tradition I mean that I wrote the grand total of one (1) similarly titled post previously, as the year ticked from 2009 to 2010, and at least one other, disguised as a weekly head voices, as we entered 2012.</description><content:encoded><![CDATA[ <p>Following the rich tradition over here of year transition posts, having just rounded off a brilliant outdoorsy take-your-mind-off-of-everything vacation with friends, and also inspired by <a href="https://wogan.blog/2017/01/01/2016-in-review/">wogan.blog’s nicely personal 2016 review post</a>, I decided that a farewell-2016 how-you-doin’-2017 post was in order.</p>
+ ]]></content:encoded></item><item><title>The 2016 to 2017 transition post.</title><link>https://cpbotha.net/2017/01/05/the-2016-to-2017-transition-post/</link><pubDate>Thu, 05 Jan 2017 11:05:01 +0000</pubDate><guid>https://cpbotha.net/2017/01/05/the-2016-to-2017-transition-post/</guid><description>Following the rich tradition over here of year transition posts, having just rounded off a brilliant outdoorsy take-your-mind-off-of-everything vacation with friends, and also inspired by wogan.blog’s nicely personal 2016 review post, I decided that a farewell-2016 how-you-doin’-2017 post was in order.
+By the way, by rich tradition I mean that I wrote the grand total of one (1) similarly titled post previously, as the year ticked from 2009 to 2010, and at least one other, disguised as a weekly head voices, as we entered 2012. That last one is worth another read, early 2012 cpbotha had some really good tips. There might be more such posts, this blog has been around for more than 15 years and much of what I’ve written is not available from my short-term memory, which is nice.</description><content:encoded><![CDATA[ <p>Following the rich tradition over here of year transition posts, having just rounded off a brilliant outdoorsy take-your-mind-off-of-everything vacation with friends, and also inspired by <a href="https://wogan.blog/2017/01/01/2016-in-review/">wogan.blog’s nicely personal 2016 review post</a>, I decided that a farewell-2016 how-you-doin’-2017 post was in order.</p>
 <p>By the way, by <em>rich tradition</em> I mean that I wrote the grand total of one (1) similarly titled post previously, <a href="/2010/01/10/the-2009-to-2010-transition-post/">as the year ticked from 2009 to 2010</a>, and at least one other, disguised as a weekly head voices, <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">as we entered 2012</a>. <a href="/2012/01/28/slow-philosophy-weekly-head-voices-64/">That last one</a> is worth another read, early 2012 cpbotha had some really good tips. There might be more such posts, <a href="/about/history/">this blog has been around for more than 15 years</a> and much of what I’ve written is not available from my short-term memory, which is nice.</p>
 <p><em><strong>Warning:</strong> This post is long (1800 words+), rambly and sometimes even a bit mushy. I hope you enjoy it!</em></p>
 <h1 id="2016-the-review">2016: The Review</h1>
@@ -1593,6 +1644,8 @@ By the way, by rich tradition I mean that I wrote the grand total of one (1) sim
 <p>I understand that there were many other factors at play. However, these voters were either throwing out the baby with the bath water, or, much much  worse, agreeing with the abhorrent sentiments mentioned above. Especially this second possibility depressed me greatly after the US election.</p>
 <p>After such setbacks, one needs to look for solutions.</p>
 <p>After Brexit, <a href="http://www.theatlantic.com/international/archive/2016/06/brexit-vote-statistics-united-kingdom-european-union/488780/">analysis showed that education level was the strongest indicator of a vote for leave or remain</a>. Higher education was strongly associated with remain, whilst the opposite was the case for leave.
+
+
 
 
 
@@ -1678,6 +1731,8 @@ By the way, by rich tradition I mean that I wrote the grand total of one (1) sim
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2017/01/IMG_20161229_0938212-panorama.jpg">
     <img
         
@@ -1689,7 +1744,9 @@ By the way, by rich tradition I mean that I wrote the grand total of one (1) sim
         </figcaption>
 </figure>
 </p>
-]]></content:encoded></item><item><title>Look mom, Hacker News front page!</title><link>https://cpbotha.net/2016/11/20/look-mom-hacker-news-front-page/</link><pubDate>Sun, 20 Nov 2016 20:11:57 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/20/look-mom-hacker-news-front-page/</guid><description> (In my previous post, I promised I was going to micro-blog from here. That post is now on the HN frontpage, which makes for a perfect first micro-blog!)</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Look mom, Hacker News front page!</title><link>https://cpbotha.net/2016/11/20/look-mom-hacker-news-front-page/</link><pubDate>Sun, 20 Nov 2016 20:11:57 +0000</pubDate><guid>https://cpbotha.net/2016/11/20/look-mom-hacker-news-front-page/</guid><description> (In my previous post, I promised I was going to micro-blog from here. That post is now on the HN frontpage, which makes for a perfect first micro-blog!)</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -1706,10 +1763,12 @@ By the way, by rich tradition I mean that I wrote the grand total of one (1) sim
 </figure>
 
 <p>(In <a href="/2016/11/19/lets-replace-twitter-with-something-much-better/">my previous post</a>, I promised I was going to micro-blog from here. That post is now on the HN frontpage, which makes for a perfect first micro-blog!)</p>
-]]></content:encoded></item><item><title>Let’s replace Twitter with something much better.</title><link>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</link><pubDate>Sat, 19 Nov 2016 10:05:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</guid><description> (There is also a Russian language version of this post available, translated and published by SoftDroid on 2017-04-12.)
+ ]]></content:encoded></item><item><title>Let’s replace Twitter with something much better.</title><link>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</link><pubDate>Sat, 19 Nov 2016 10:05:10 +0000</pubDate><guid>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</guid><description>(There is also a Russian language version of this post available, translated and published by SoftDroid on 2017-04-12.)
 I love Twitter. I love that by following certain people, my timeline has become a stream of interesting and entertaining information. I love that sometimes I am able to fit my little publication just so into the 140 characters given to me. I found The Trumpocalypse truly depressing, but the joke tweets were golden:</description><content:encoded><![CDATA[ <p><em>(There is also a <a href="http://softdroid.net/chem-zamenit-twitter-alternativa">Russian language version of this post available</a>, translated and published by <a href="http://softdroid.net/">SoftDroid</a> on 2017-04-12.)</em></p>
 <h1 id="i-love-twitter">I love Twitter.</h1>
 <p>I love that by following certain people, my timeline has become a stream of interesting and entertaining information. I love that sometimes I am able to fit my little publication just <em>so</em> into the 140 characters given to me. I found The Trumpocalypse truly depressing, but the joke tweets were golden:</p>
+
+
 
 
 
@@ -1747,4 +1806,4 @@ I love Twitter. I love that by following certain people, my timeline has become 
 <p>Furthermore, we definitely need a good discovery platform. This is the thing where Twitter will recommend new accounts to follow based on your existing subscriptions. WordPress does something similar, but it has to be much more discoverable.</p>
 <p>In the coming weeks, I will be running a little experiment by trying to post even my short, previously twitter-only blurbs to this blog. I will have to cross-tweet these, but at least the primary source will be right here in my own database.</p>
 <p>What do you think? Is this possible? Is it something you would like?</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

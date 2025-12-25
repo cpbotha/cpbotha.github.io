@@ -1,7 +1,548 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>note-taking on voices in my head</title><link>https://cpbotha.net/tags/note-taking/</link><description>Recent content in note-taking on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 29 Sep 2021 21:53:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/note-taking/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #233: Atomic party sections</title><link>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</link><pubDate>Wed, 29 Sep 2021 21:53:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</guid><description><![CDATA[ Figure 1: GOU#1 living her best life at in the Betty&rsquo;s Bay water at dusk, accompanied by spectaculour colours.
-Welcome friends to this, the 233d edition of the Weekly Head Voices, covering the two weeks from Monday September 14 to Sunday September 26, 2021.
-(Don&rsquo;t) Stress for success (aka 4000 weeks at 60%) It&rsquo;s really quite busy at work, perhaps even verging on the slightly too busy territory.
-I&rsquo;m consistently putting in stretches of focused, high intensity work to help push us into calmer waters.]]></description><content:encoded><![CDATA[ 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Note-Taking on voices in my head</title><link>https://cpbotha.net/tags/note-taking/</link><description>Recent content in Note-Taking on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2024 12:58:37 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/note-taking/index.xml" rel="self" type="application/rss+xml"/><item><title>Note-taking strategy 2023</title><link>https://cpbotha.net/2023/04/11/note-taking-strategy-2023/</link><pubDate>Tue, 11 Apr 2023 13:48:00 +0200</pubDate><guid>https://cpbotha.net/2023/04/11/note-taking-strategy-2023/</guid><description> I wrote about my note-taking approach for the first time in 2016 (read for fun), and then pretty expansively about its evolved version in 2019.
+In spite of the title of these posts, already in 2019 it had become more a system for personal knowledge management than just for note-taking.</description><content:encoded><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<figure class="flush-left"><a href="emacs-user-dalle.jpg">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_e56ee92c05542946.jpg 480w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_fedc46e03857ec89.jpg 800w,
+            
+                
+                
+            
+                
+                
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/emacs-user-dalle_hu_fedc46e03857ec89.jpg"
+            
+
+        
+            alt="Painting of an Emacs user making notes using Emacs with Org mode (dall-e via chatgpt.el)" width="320px"/> </a>
+</figure>
+
+<p>I wrote about my note-taking approach for <a href="/2016/01/05/note-taking-strategy-early-2016/">the first time in 2016</a> (read for
+fun), and <a href="/2019/09/21/note-taking-strategy-2019/">then pretty expansively about its evolved version  in 2019</a>.</p>
+<p>In spite of the title of these posts, already in 2019 it had become more a
+system for <em>personal knowledge management</em> than just for note-taking.</p>
+<p>It is now again three years later (3.5 to be slightly more accurate), and the
+system has continued on its path of steady evolution.</p>
+<p>It currently contains thousands of interlinked notes, as well as hundreds of
+saved articles and web-pages. It also tracks of all of my projects and tasks,
+both work and personal.</p>
+<p>The purpose of this post is to document the <em>current</em> state of the system. You
+don&rsquo;t need any prior knowledge from the other posts; this post should be
+self-contained.</p>
+<h2 id="high-level-overview">High level overview</h2>
+<p>The system has to satisfy the following functional requirements:</p>
+<ol>
+<li>Fast capture of any information on desktop and mobile, including free-form
+notes, web-pages and other media.</li>
+<li>Tracking of projects, tasks and metadata such as due dates and schedules.</li>
+<li>Fast and accurate retrieval of any information relevant to the current
+situation.</li>
+<li>Potentially serendipitous surfacing of assets that might be relevant to the
+main search focus, for example through linking or through search.</li>
+</ol>
+<p>The system should have the following two characteristics:</p>
+<ol>
+<li>There should be a single search interface that can in theory find everything
+that was ever stored in the system. This is to prevent the situation where
+you urgently need some document and can&rsquo;t remember into <em>which</em> notes app you
+stored it so many years ago. (True story)</li>
+<li>As far as possible, the canonical source of everything should be plain old
+files on local drives, and be synchronized with a tool like Dropbox or
+OneDrive. In this way, the system is robust to the whims of a note-taking
+SaaS. The litmus test for this is that you are able to change out sync
+services and still remain with a working system. (True story)</li>
+</ol>
+<p>At the highest level, my system, which satisfies the requirements and
+characteristics above, consists of the following components:</p>
+<dl>
+<dt>Emacs with Org-mode and Org-roam</dt>
+<dd>This is the nexus of the whole thing. It
+tracks projects, tasks and notes, spread out over just over a thousand
+org-files, each of them containing one or more (org-roam) notes, all linked
+together.</dd>
+<dt>Mobile device for capturing and access</dt>
+<dd>In my case that&rsquo;s an iPhone with a
+number of additional apps for the capturing into and accessing of my notes
+database. See figure below, and explanation further down.</dd>
+<dt>Reproducible digital filing system</dt>
+<dd>This just refers to the fact that over
+the years I&rsquo;ve evolved a recipe for &ldquo;where to put that file&rdquo; which is
+reproducible in the sense that if I receive the same file a year later, my
+brain will automatically follow the same logic and end up in the same
+spot. Over the past year or two, I have started applying aspects of the <a href="https://fortelabs.com/blog/para/">PARA
+method</a> to a subset of my files, and a heavily modified <a href="https://johnnydecimal.com/">Johnny•Decimal</a> to
+the &ldquo;areas&rdquo; in PARA. I am happy with the results so far.</dd>
+<dt>PDF&rsquo;d web-pages and articles (JBOP)</dt>
+<dd>Locally stored PDF versions of
+reference-worthy web-pages and articles can be annotated, linked and shared,
+and they remain usable long after the source website has disappeared.</dd>
+<dt>Academic articles managed with Zotero</dt>
+<dd>Zotero is one of the best ways to
+manage all of your academic literature and metadata. As if that&rsquo;s not enough,
+it&rsquo;s fully open source. Since I&rsquo;m doing less academia these days, this is
+seeing minimal use.</dd>
+<dt>OneDrive (previously Dropbox) for cloud synchronization and searching</dt>
+<dd>This
+infrastructural component is critical. It ensures that all of the files are
+synced and available on all devices that I use, and, quite importantly, it
+indexes everything so that I can interactively search through the contents of
+hundreds of thousands of files. There are some work-arounds and caveats which
+I will get into further down.</dd>
+<dt>SyncThing</dt>
+<dd>Having a local version of my whole notes database, both in its
+native Org format as well as an automatically updated Obsidian Vault version,
+gives the best experience on mobile.</dd>
+</dl>
+<p>The following figure is a different view of the Rube Goldberg machine described
+above:</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="cpbotha-pkm-2023.excalidraw.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/cpbotha-pkm-2023.excalidraw_hu_befb16bc9676e148.png 480w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/cpbotha-pkm-2023.excalidraw_hu_c5b4472c7e72470.png 800w,
+            
+                
+                
+            
+                
+                
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/cpbotha-pkm-2023.excalidraw_hu_c5b4472c7e72470.png"
+            
+
+        
+            alt="Figure 1: Selected apps forming my note-taking approach on desktop and mobile."/> </a><figcaption>
+            <p><span class="figure-number">Figure 1: </span>Selected apps forming my note-taking approach on desktop and mobile.</p>
+        </figcaption>
+</figure>
+
+<h2 id="some-of-the-components-in-more-detail">Some of the components in more detail</h2>
+<h3 id="emacs-with-org-mode-and-org-roam">Emacs with Org-mode and Org-roam</h3>
+<p>At the <strong>heart of my knowledge management system</strong>, let&rsquo;s call it <code>pkb4000</code>, is
+<a href="https://www.gnu.org/software/emacs/">Emacs</a>, together with the venerable <a href="https://orgmode.org/">Org mode</a> package, its more recent
+augmentation <a href="https://www.orgroam.com/">Org-roam</a>, and a whole zoo of finely tuned packages.</p>
+<p>Org mode, or &ldquo;Your life in plaintext&rdquo;, is a powerful text-file-based system for
+managing notes, task lists, projects and even authoring documents.</p>
+<p>Once you get used to the programmable flexibility that it and especially Emacs
+itself are able to offer, you will find it hard to go back to any conventional
+system.</p>
+<p>After some years of trial and error, I have settled on using the following main
+Org-mode sub-components:</p>
+<dl>
+<dt>monthly journal files</dt>
+<dd>a diary-like setup where I try to document every
+single day, and where I keep track of personal tasks and projects.</dd>
+<dt>notes database</dt>
+<dd>consisting of hundreds of interlinked notes about people,
+things and tricks. Thanks to the magic of org roam, notes can live as files
+or as headings in a month or project file.</dd>
+<dt>project / area of responsibility files</dt>
+<dd>where each org-file contains or
+links all information related to a specific project, product or area of
+responsibility.</dd>
+<dt>org-agenda</dt>
+<dd>This Org mode feature dynamically creates a view of all of my
+projects and tasks, extracted from a subset of the files mentioned above.</dd>
+</dl>
+<h4 id="monthly-journal-files">Monthly journal files</h4>
+<p>In my main Org mode directory, I have a subdirectory named <code>journals</code>, which
+contains a directory for each year.</p>
+<p>Each of these year directories contains an <code>.org</code> file for each month, so we
+would have for example <code>journals/2022/2022-06-Jun.org</code>.</p>
+<p>Each month file follows the structure showed in the following redacted version
+of my current journal file:</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="2023-04-09_19-28-05_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_33a64c0e5a682456.png 480w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_3725d935171f0730.png 800w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_e610321c99d9886.png 1200w,
+            
+                
+                
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-09_19-28-05_screenshot_hu_3725d935171f0730.png"
+            
+
+        
+            alt="Figure 2: A simplified example of a month journal file"/> </a><figcaption>
+            <p><span class="figure-number">Figure 2: </span>A simplified example of a month journal file</p>
+        </figcaption>
+</figure>
+
+<p>Aside from the Hugo properties which mean I&rsquo;m ready to publish any heading as a
+blog post (this is usually how <a href="/categories/weekly-head-voices/">WHVs</a> are done), my Life Systems 2022 aka
+personal philosophy reminder, and the clock table where I get a complete
+break-down of all work-time spent, I would like to mention the following two
+aspects of the month journal.</p>
+<!--list-separator-->
+<ul>
+<li>
+<p>Day planning</p>
+<p>When I start the day, I instantiate a new org-capture &ldquo;day planning&rdquo; template
+by pressing <code>C-c c p</code>.</p>
+<p>This creates the <em>Day planning</em> subsection with all of its subsections and
+checklists. As you will see, this guides me through the morning review, which
+in turn has me check each of those additional sources of incoming information
+and tasks.</p>
+<p>New bits of information are filed into their correct place, whilst the
+org-agenda-powered task review shows me a list of tasks, extracted from the
+month file and the list of current project files, so that I can decide which
+ones should be taken on.</p>
+<p>I list tasks which should preferably be taken care of today under <em>Tasks for
+today</em>, whilst any really high-value high-satisfaction tasks go under <em>One Main
+Thing and Task(s) that will satisfy end-of-day Charl</em>.</p>
+</li>
+</ul>
+<!--list-separator-->
+<ul>
+<li>
+<p>Kill your darlings (during the monthly review).</p>
+<p>I&rsquo;ve mentioned this before, but it&rsquo;s just an important aspect of my &ldquo;system&rdquo;
+that I would like to mention it again.</p>
+<p>When I still used primitive task management systems such as <strong>everything else</strong>
+that&rsquo;s not Org mode, the collection of more mature tasks would soon grow out of
+control.</p>
+<p>However, because I create a new Org mode file for every month, I have to copy
+across manually any tasks that have not been completed yet.</p>
+<p>&ldquo;WHY IS THAT NOT AUTOMATED YET?!&rdquo; you are probably thinking.</p>
+<p>Well, the advantage of having to copy each task over manually is that it is the
+ideal opportunity to evaluate the task and ask some hard questions as to its
+continued relevance&hellip;</p>
+<p>When a task gets too old, I will often make the decision to change its status
+to <code>CANC</code> (for cancelled), sometimes with the reason for the cancellation
+explained in the task body, and then just leave it there in the old month file.</p>
+<p>With most of these task systems, regular reviews are of crucial importance. The
+monthly start-over is a great, almost enforced, opportunity for review, as is
+the morning routine when I instantiate the day planner template.</p>
+</li>
+</ul>
+<h4 id="org-agenda">Org-agenda</h4>
+<p>Org-agenda is a standard Org mode feature which extracts, filters and then
+shows a dynamic summary of projects and tasks from an arbitrary subset of org
+files that you specify.</p>
+<p>In my case, there are currently 15 org files that are consulted. This
+collection evolves over time as projects and areas of responsibility come and
+go.</p>
+<p>I use <a href="https://github.com/alphapapa/org-super-agenda">org-super-agenda</a> for additional filtering and grouping, so that on an
+average weekend day my agenda looks like this:</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="2023-04-08_17-22-50_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_21c3c5c773b616f5.png 480w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_a1ad2b977f25ead1.png 800w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_bcc9819fd36978b5.png 1200w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_3ebda4b9a037d53e.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2023-04-08_17-22-50_screenshot_hu_a1ad2b977f25ead1.png"
+            
+
+        
+            alt="Figure 3: Semi-anonymised screenshot of my org-agenda on 2023-04-09"/> </a><figcaption>
+            <p><span class="figure-number">Figure 3: </span>Semi-anonymised screenshot of my org-agenda on 2023-04-09</p>
+        </figcaption>
+</figure>
+
+<p>One noteworthy extra here is that I have two lists of respectively my highest
+level work and personal projects or areas of responsibility.</p>
+<p>Sometimes when I get lost in the weeds, it helps to pull back to that level to
+get a summary of <em>everything</em>.</p>
+<p>Also, it really helped me to distinguish between projects (something with a
+clear end and expected end date) vs areas of responsibility, something that
+could continue indefinitely.</p>
+<p>This distinction was inspired by the <a href="https://fortelabs.com/blog/para/">PARA method</a>, which has also influenced how
+I organise a large subset of my filesystem.</p>
+<p>On my better days, I manage to start work with a few minutes of active task and
+project review (see <a href="#day-planning">Day planning</a>), and then Org agenda is incredibly useful.</p>
+<h4 id="core-notes-database">Core notes database</h4>
+<p>With &ldquo;database&rdquo; I of course refer to just over a thousand org (and a few
+markdown, which form part of my org-roam database via <a href="https://vxlabs.com/2022/09/24/modify-md-roam-for-frontmatter-less-operation/">my md-roam changes</a>)
+files, most of which find themselves in the top-level <code>pkb4000/pages</code> directory
+(for logseq compatibility, story for a different time), adjacent to the
+<code>journals</code> directory containing all of the monthly journal files.</p>
+<p>There are files on various <code>rsync</code> and <code>ffmpeg</code> invocations, files on programming
+languages, software tools, note-taking strategies, personal information on each
+of my kids, and much more.</p>
+<p>Org mode enables me to combine document structure, math, vector and bitmap
+images and executable source code in many different languages.</p>
+<p>I have configured my Emacs (where by &ldquo;configured&rdquo; I mean &ldquo;coded up the emacs
+lisp for&rdquo;) to invoke ripgrep on different subsets of my notes database, and to
+proffer up the results in different ways.</p>
+<p>I can usually find anything that went in to this database at any point.</p>
+<p>What I really like, is also being able to tell you on which day, and during
+which hour, I learned this or that, or experimented with something or the
+other.</p>
+<p>On <a href="/2019/09/21/note-taking-strategy-2019/#isso-2654">February 26, 2020, a commenter on the 2019 post asked if I&rsquo;d taken a look at
+org-roam</a>, a question to which my answer at that point was that I had looked
+but not really gotten into it yet.</p>
+<p>I just checked my notes (an <code>org-roam</code> buffer with backlinks, which sort of gives
+away the story), and it turns out that a week later on March 3 of 2020 I indeed
+got <code>org-roam</code> configured and running.</p>
+<p>From that point on, it pretty much took over the <a href="/2019/09/21/note-taking-strategy-2019/#core-notes-database">core notes database</a> function
+of my PKM.</p>
+<p>Fortunately <code>org-roam</code> relies as much as possible on standard Org-mode
+functionality while adding all of the instantaneous note searching, creation
+and linking that has succeeded in drastically upgrading my Org-mode
+implementation to a increasingly densely linked, tagged and far more useful
+exocortex.</p>
+<p>Although I <em>can</em> use <a href="https://github.com/org-roam/org-roam-ui"><code>org-roam-ui</code></a> to visualize graphically the linkage in my
+notes database, as shown below, I don&rsquo;t often do it. However, I <em>do</em> really often
+follow internal links around, so I do my best to create them when and where I
+can.</p>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="2022-02-26_22-16-07_screenshot.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_40728afff6cb72c1.png 480w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_e5f7f59d0dd72b3f.png 800w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_731f5640e231f1ed.png 1200w,
+            
+                
+                https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_7c90998ffb6d57fd.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2023/04/11/note-taking-strategy-2023/2022-02-26_22-16-07_screenshot_hu_e5f7f59d0dd72b3f.png"
+            
+
+        
+            alt="Figure 4: A screenshot of org-roam-ui showing a part of my knowledge base in February of 2022."/> </a><figcaption>
+            <p><span class="figure-number">Figure 4: </span>A screenshot of org-roam-ui showing a part of my knowledge base in February of 2022.</p>
+        </figcaption>
+</figure>
+
+<p>I really appreciate and use the flexibility that org-roam offers in having
+notes either be complete files, or headings within larger files.</p>
+<h4 id="project-files">Project files</h4>
+<p>Work and personal projects, and areas of responsibility, each get their own Org
+file. Some projects even get a whole directory to themselves, in cases where
+the project will have many more files than just the main Org file.</p>
+<p>Each project / area org file has its own <code>Tasks</code> and datetree sections, similar
+to the month journal.</p>
+<h4 id="email-linking">Email linking</h4>
+<p>An important part of knowledge and task management is one&rsquo;s emails.</p>
+<p>Although I currently prefer processing my email using <a href="/2019/07/17/weekly-head-voices-173-i-know/#would-you-like-some-more-emacs-with-that-email"><code>mu4e</code></a>, an email client
+which lives inside of Emacs, I have used other tools in the past, and will
+probably use new tools in the future.</p>
+<p>Even at this moment I alternate between <code>mu4e</code> and the <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">FastMail</a> web-interface.</p>
+<p>Long story short, I have it setup so that I can easily convert any email in
+<code>mu4e</code> into a universal <code>message://message-id</code> link to be integrated with a new
+task or note entry.</p>
+<p>When I later open that link using a shortcut, I have programmed it so that <code>mu4e</code>
+will open the relevant email if it is active, or the <code>FastMail</code> webmail when it
+is not. From here I can either review the email to see what the associated task
+requires, or respond to it, if the task has been completed.</p>
+<p>Some of these <code>message://</code> links were created using macOS mail and they still
+work. In future, if I add a new mail client to the mix, I will still be able to
+jump to specific old emails, no matter where they find themselves inside of my
+FastMail mailboxes.</p>
+<h3 id="mobile">Mobile</h3>
+<p>My workflow  on mobile can be summarised as:</p>
+<ul>
+<li>Rapidly find info that I need from my notes using the converted Obsidian
+Vault (see below).</li>
+<li>Very occasionally I edit org files using <a href="https://plainorg.com/">PlainOrg</a>. Once this app gets the
+<a href="https://www.reddit.com/r/plainorg/comments/rfivtn/feature_request_search_directory/">often-requested directory search function</a>, I hope to use it more for
+retrieval as well.</li>
+<li>Keep up to date with online material via paid-for <a href="https://www.inoreader.com/">InoReader</a> (RSS), <a href="https://emacs.ch/@cpbotha">Mastodon</a>,
+and reddit (tiny &ldquo;argh&rdquo; there).</li>
+<li>Either save interesting articles as PDF into <code>03-Resources/refs/YEAR</code> via the OneDrive
+Files integration, or send the link into
+<code>pkb4000/journals/YEAR/inbox-mobile.org</code> via <a href="https://orgmode-exocortex.com/2020/04/30/voice-capture-org-mode-notes-and-more-using-siri-shortcuts-on-ios/">my Siri shortcut</a> automation,
+slightly modified to write to the local org file which will be synced via
+SyncThing.
+<ul>
+<li>On mobile, I strongly recommend the <a href="https://www.printfriendly.com/extensions/safari">Print Friendly &amp; PDF bookmarklet</a> to
+strip out all of the cruft, yielding PDFs that focus on the content.</li>
+</ul>
+</li>
+<li>Scan and OCR any invoices and other physical documents to PDF using
+<a href="https://support.microsoft.com/en-us/office/microsoft-lens-for-ios-fbdca5f4-1b1b-4391-a931-dc1c2582397b">Microsoft Lens</a>. Previously I used the Dropbox scan app for this.</li>
+<li>There are a small number of markdown files which I mostly need to edit on
+mobile. <a href="https://1writerapp.com/">1writer</a> is great for this, thanks to preview, directory search,
+favourited directories and files.</li>
+<li>I keep a small subset of ephemeral notes (think loyalty cards, shopping
+lists) in Apple Notes because it&rsquo;s still the quickest to open up to the note
+that I need, almost in one action.</li>
+</ul>
+<h4 id="syncthing">SyncThing</h4>
+<p>An important improvement here over my 2019 setup is the addition of the
+paid-for <a href="https://www.mobiussync.com/">Möbius Sync</a> iPhone app in order to keep full copies of my read/write
+org database and its read-only Obsidian Vault version (see below) on the phone.</p>
+<p>Apps like <a href="https://plainorg.com/">PlainOrg</a> and <a href="https://1writerapp.com/">1writer</a> work really well, even rendering image
+attachments (which I use often), when you have a fully local copy of the files.</p>
+<h4 id="obsidian-for-efficient-notes-access-on-mobile">Obsidian for efficient notes access on mobile</h4>
+<p>Recently, inspired by Jethro Kuan&rsquo;s braindump scripts, I created <a href="https://github.com/cpbotha/braindump4000">braindump4000</a>,
+which I have hooked up to a cronjob to convert (incrementally of course) my
+whole org mode database into an Obsidian Vault.</p>
+<p>This vault is synced to the correct location on my phone using the Möbius Sync
+SyncThing app so that I can use the Obsidian mobile app to access my whole
+database.</p>
+<p>Due to much better UX, this has (fortunately) almost completely replaced the
+use of <a href="https://vxlabs.com/2021/09/29/convert-org-mode-files-to-docx-with-cmake-and-pandoc-for-mobile-accessibility/">my slightly strange system for converting my org database into docx
+files</a>, although said strange system is still useful to ensure that OneDrive&rsquo;s
+lacklustre search is able to find notes when I do a global search.</p>
+<h2 id="noteworthy-changes-since-the-2019-version">Noteworthy changes since the 2019 version</h2>
+<h3 id="replacing-dropbox-with-onedrive">Replacing Dropbox with OneDrive</h3>
+<p>After more than a decade, I switched out Dropbox for OneDrive. You can <a href="/2023/01/01/the-2022-to-2023-transition-post/#byeeeeee-dropbox">read
+more about the switch in this post</a>, but in short:</p>
+<ul>
+<li>I <strong>really</strong> enjoyed using Dropbox Paper, but it meant I had a bunch of info
+stuck in the Dropbox cloud (not synced file on disk).</li>
+<li>Dropbox were really dragging their feet migrating us loyal customers to the
+2020 Paper version, and they were being <em>frustratingly</em> opaque about it. This
+was a reminder to take and maintain control of one&rsquo;s own files.</li>
+<li>For the record, Dropbox&rsquo;s syncing is substantially faster (lower latency)
+than OneDrive, and, although I have not yet had any issues with OneDrive,
+Dropbox has been extremely solid for me for over a decade, in spite of my
+over half a million files, <a href="/2022/11/11/weekly-head-voices-248-oh-snap/#yes-you-can-keep-your-checked-out-source-code-in-dropbox-or-onedrive">including many active git repos</a>.</li>
+<li>However, I was already paying $80 / year for Microsoft 365 Family, which
+includes Office software licenses for the whole family (initially the main
+reason to get it) and 6 x 1 TB OneDrive accounts vs. a minimum of $120 / year
+for Dropbox for me only&hellip; Currently, the difference in practical functioning
+does not justify that extra money, plus that I felt I had to vote with my
+wallet re the frustrating Dropbox Paper situation.</li>
+<li>On the bright side, being able to switch out the main cloud sync layer of my
+system ensures that it&rsquo;s just a sync layer, and not sync-layer plus services
+which subtly lock you in.</li>
+</ul>
+<h3 id="org-roam-for-interlinked-atomic-notes">org-roam for interlinked atomic notes</h3>
+<p>I have already written about this, but org-roam more than deserves a place on
+this list for the drastic way in which it improved how I take and use notes.</p>
+<h3 id="braindump4000-obsidian-to-access-notes-on-the-go">braindump4000: Obsidian to access notes on the go</h3>
+<p>Over the years I have attempted to compensate for the lack of a worthy Emacs
+representative on the iPhone first by <a href="https://vxlabs.com/2018/10/29/importing-orgmode-notes-into-apple-notes/">importing my database to Apple Notes</a>
+(updates are very tricky), then through <a href="https://vxlabs.com/2021/09/29/convert-org-mode-files-to-docx-with-cmake-and-pandoc-for-mobile-accessibility/">a bulk docx conversion</a> (klunky and
+ugly, but updates work, and I <em>can</em> find stuff in a pinch) and now finally using
+<a href="https://github.com/cpbotha/braindump4000">braindump4000</a>, in obsidian mode, to convert to and update an Obsidian Vault
+which is synced to my phone via SyncThing.</p>
+<p>Note that you can also use braindump4000 to generate a Hugo website with all of
+your notes, which was initially the main motivation to build it!</p>
+<h2 id="closing-thoughts">Closing thoughts</h2>
+<p>One of the aspects which has convincingly remained the same in my whole
+personal knowledge management setup is&hellip;</p>
+<p>Emacs.</p>
+<p>Over the years I have seen, and sometimes been thoroughly tempted, by all of
+the brilliant new tools that have gone by: Roam, Notion, Dendron, LogSeq,
+Obsidian and many more.</p>
+<p>However, the power of a tool which can be so thoroughly shaped as Emacs should
+not be under-estimated.</p>
+<p>The more I use it, the more I learn how to make it sing in new and interesting
+ways.</p>
+<p>The other advantage of this constant in particular, is that the utility of a
+knowledge base can grow tremendously when you can consistently work on that
+same system, accruing knowledge whilst all the while evolving the system itself
+to remain useful in an ever-changing environment.</p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #233: Atomic party sections</title><link>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</link><pubDate>Wed, 29 Sep 2021 21:53:00 +0200</pubDate><guid>https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/</guid><description> Figure 1: GOU#1 living her best life at in the Betty&amp;rsquo;s Bay water at dusk, accompanied by spectaculour colours.
+Welcome friends to this, the 233d edition of the Weekly Head Voices, covering the two weeks from Monday September 14 to Sunday September 26, 2021.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -16,22 +557,26 @@ I&rsquo;m consistently putting in stretches of focused, high intensity work to h
               
             srcset='
             
-                   https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hue1fbfac4e9ab5bc6c3eb81c97a752dce_10617605_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hu_b43453af35cff7b1.jpg 480w,
             
-                   https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hue1fbfac4e9ab5bc6c3eb81c97a752dce_10617605_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hu_f377c56d7e1c1f0d.jpg 800w,
             
-                   https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hue1fbfac4e9ab5bc6c3eb81c97a752dce_10617605_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hu_afbc71f86a8d1b07.jpg 1200w,
             
-                   https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hue1fbfac4e9ab5bc6c3eb81c97a752dce_10617605_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hu_5accfc89c195f3c8.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hue1fbfac4e9ab5bc6c3eb81c97a752dce_10617605_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/09/29/weekly-head-voices-233-atomic-party-sections/bettys_bay_spectacular_colours_pano_hu_f377c56d7e1c1f0d.jpg"
             
 
         
-            alt="Figure 1: GOU#1 living her best life at in the Betty&amp;rsquo;s Bay water at dusk, accompanied by spectaculour colours."/> </a><figcaption>
+            alt="Figure 1: GOU#1 living her best life at in the Betty&rsquo;s Bay water at dusk, accompanied by spectaculour colours."/> </a><figcaption>
             <p>Figure 1: GOU#1 living her best life at in the Betty&rsquo;s Bay water at dusk, accompanied by spectaculour colours.</p>
         </figcaption>
 </figure>
@@ -113,11 +658,13 @@ that it deserves its own section in this blog post.</p>
 <h2 id="the-section-at-the-end">The section at the end</h2>
 <p>Thank you for reading this.</p>
 <p>I wish you continuous and consistent atomic party moments.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #216: Sup?</title><link>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</link><pubDate>Fri, 19 Feb 2021 09:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</guid><description> Hello everyone, and welcome to WHV #216, the one looking back at the two weeks from Monday February 1 to Sunday February 14, 2021.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #216: Sup?</title><link>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</link><pubDate>Fri, 19 Feb 2021 09:08:00 +0200</pubDate><guid>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</guid><description>Hello everyone, and welcome to WHV #216, the one looking back at the two weeks from Monday February 1 to Sunday February 14, 2021.
 Figure 1: Sup?
 The two weeks in question can be characterised by Somehow Working Really Hard with Lots of Focus.
 I would like to say that it has something to do with the liberal daily application of the One Main Thing idea, but experience has taught me that it&amp;rsquo;s probably some other unexpected and hidden interaction of a number of obscure factors that I will never ever understand, and that next week I&amp;rsquo;ll be solidly back in the arms of my old friend the really slippery eel.</description><content:encoded><![CDATA[ <p>Hello everyone, and welcome to WHV #216, the one looking back at the two weeks
 from Monday February 1 to Sunday February 14, 2021.</p>
+
+
 
 
 
@@ -133,18 +680,22 @@ from Monday February 1 to Sunday February 14, 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_fb2d17c10710e237.jpg 480w,
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_44250e253e07a2d6.jpg 800w,
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_f280c2aa6b5952a1.jpg 1200w,
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_229a3bd50666e81d.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_44250e253e07a2d6.jpg"
             
 
         
@@ -214,9 +765,10 @@ technical reasons.</p>
 report that she has, quite routinely if I may add, done another two or three
 10k runs, one of them even up to eleven by accident.</p>
 <p>Folks I wish you all the best. I look forward to our next connection!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #209: Blogging like it's 2009</title><link>https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/</link><pubDate>Thu, 12 Nov 2020 10:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/</guid><description> Figure 1: Surprise sun in the second half of a rainy run
-Two days ago, as I pressed the &amp;ldquo;publish&amp;rdquo; button on WHV #208 (well, it&amp;rsquo;s actually more me doing the t d C-c C-e H H shortcut key sequence in Emacs, but OK), I knew that #209 was going to be a problem.
-Although the past week, from Monday November 2 to Sunday November 8, certainly had its share of events quite important to me, none of them are fit for publication, and none of the concomitant observations can be abstracted concretely enough (yes, I see what I did there :) to appear here.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #209: Blogging like it's 2009</title><link>https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/</link><pubDate>Thu, 12 Nov 2020 10:08:00 +0200</pubDate><guid>https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/</guid><description> Figure 1: Surprise sun in the second half of a rainy run
+Two days ago, as I pressed the &amp;ldquo;publish&amp;rdquo; button on WHV #208 (well, it&amp;rsquo;s actually more me doing the t d C-c C-e H H shortcut key sequence in Emacs, but OK), I knew that #209 was going to be a problem.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -231,18 +783,22 @@ Although the past week, from Monday November 2 to Sunday November 8, certainly h
               
             srcset='
             
-                   https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu18a9bc37e0f88b5e42231c143e2d4168_1980349_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu_f935d35d84ea853.jpg 480w,
             
-                   https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu18a9bc37e0f88b5e42231c143e2d4168_1980349_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu_636d933e0af96445.jpg 800w,
             
-                   https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu18a9bc37e0f88b5e42231c143e2d4168_1980349_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu_b9e0af4cdb5ea75c.jpg 1200w,
             
-                   https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu18a9bc37e0f88b5e42231c143e2d4168_1980349_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu_c5fec5f8df53cd0e.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu18a9bc37e0f88b5e42231c143e2d4168_1980349_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/11/12/weekly-head-voices-208-blogging-like-its-2009/lourensford_sun_peeking_out_hu_636d933e0af96445.jpg"
             
 
         
@@ -336,7 +892,7 @@ waiting for new adventures.</p>
 <p>Memory neurons fire pleasantly, until they are repurposed for new experiences,
 forever forgetting their history.</p>
 <p>I am grateful for the music, both for remembering, and for forgetting.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #180: EnsembleYou and The Describers.</title><link>https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/</link><pubDate>Mon, 07 Oct 2019 22:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/</guid><description> Dear friends,
+ ]]></content:encoded></item><item><title>Weekly Head Voices #180: EnsembleYou and The Describers.</title><link>https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/</link><pubDate>Mon, 07 Oct 2019 22:08:00 +0200</pubDate><guid>https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/</guid><description> Dear friends,
 Welcome to this, the 180th edition of the Weekly Head Voices, in which I perform retrospection on the week from Monday September 30 to Sunday October 6, 2019.
 To be more specific, this is mostly indirect retrospection, meaning that I think about and attempt to describe the thoughts I had about topics and events that might or might not have occurred in the period of time that this post is ostensibly looking back on.</description><content:encoded><![CDATA[ <figure>
 <a href="vergelegen_running_shot.jpg">
@@ -362,22 +918,22 @@ To be more specific, this is mostly indirect retrospection, meaning that I think
   
   srcset='
   
-    https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu6b4d272f392b4315b9f56c90756220eb_1916909_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu_5bcfc02c2265e1df.jpg 480w
   
   
-    , https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu6b4d272f392b4315b9f56c90756220eb_1916909_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu_4c46c4ed0b003324.jpg 800w
   
   
-    , https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu6b4d272f392b4315b9f56c90756220eb_1916909_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu_b5c11d35c063a837.jpg 1200w
   
   
-    , https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu6b4d272f392b4315b9f56c90756220eb_1916909_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu_9f8c2d4bb52b3f6.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu6b4d272f392b4315b9f56c90756220eb_1916909_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/10/07/weekly-head-voices-180-ensembleyou-and-the-describers/vergelegen_running_shot_hu_4c46c4ed0b003324.jpg"
   
 
    />
@@ -488,10 +1044,10 @@ like to give the <em>idea</em> to you, <em>that</em> will go through life as Ens
 <h2 id="friendly-wishes">Friendly Wishes.</h2>
 <p>Friends(es), I wish you effortless connectivity, and great wisdom in your
 multiplicity.</p>
-]]></content:encoded></item><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
-In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+ ]]></content:encoded></item><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description>At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &amp;ldquo;system&amp;rdquo; has co-evolved to support this.
 Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
-What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+What you&amp;rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &amp;ldquo;keep a lab journal&amp;rdquo;.</description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
 then</a>.</p>
 <p>In the intervening three and a half years, my note-taking has further evolved
 to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
@@ -502,6 +1058,8 @@ management</em></a>.</p>
 <p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
 learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
 journal&rdquo;</a>.</p>
+<p><em>Note: You can now also read my more recent post <a href="/2023/04/11/note-taking-strategy-2023/">Note-taking strategy
+2023</a>.</em></p>
 <h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
 <p>My approach consists of four main components:</p>
 <p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
@@ -830,45 +1388,45 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;/full/path/to/current/month-journal/&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#0a3069">&#34;t&#34;</span> <span style="color:#0a3069">&#34;Todo&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+headline</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;Tasks&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;j&#34;</span> <span style="color:#0a3069">&#34;Journal&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;p&#34;</span> <span style="color:#0a3069">&#34;Day planning&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)))</span>
 </span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
@@ -879,11 +1437,13 @@ Pencil</a>.</li>
 <li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
 contact</a>.</li>
 </ul>
-]]></content:encoded></item><item><title>Weekly Head Voices #132: Potato deadline.</title><link>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</link><pubDate>Sun, 18 Feb 2018 20:45:08 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</guid><description> Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #132: Potato deadline.</title><link>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</link><pubDate>Sun, 18 Feb 2018 20:45:08 +0000</pubDate><guid>https://cpbotha.net/2018/02/18/weekly-head-voices-132/</guid><description> Fragment of potato skin, taken with phone camera through GOU#2’s microscope at 100x.
 We have a serious deadline coming up on Tuesday, so I’m going to make these few WHV minutes count.
 BULLET LIST TO THE RESCUE!
 Day zero has again been postponed, this time to June 4. We continue with our water saving efforts.
-That unexpected side-project I mentioned in last week’s post did end up going live that very night.</description><content:encoded><![CDATA[ 
+That unexpected side-project I mentioned in last week’s post did end up going live that very night. Armed with the Django Rest Framework and plenty of battle scars, it took about 17 hours from idea to fully deployed REST API, a large part of which was debugging the paper’s math and spreadsheets.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -939,6 +1499,8 @@ That unexpected side-project I mentioned in last week’s post did end up going
   
   
   
+  
+  
   <figure><a href="/wp-content/uploads/2018/02/IMG_3241.jpg">
       <img
           
@@ -962,10 +1524,12 @@ That unexpected side-project I mentioned in last week’s post did end up going
 </li>
 </ul>
 <p>Ok peeps, have a wonderful week! I’ll see you NEXT TIME!</p>
-]]></content:encoded></item><item><title>nvpy 1.0.0 has been released!</title><link>https://cpbotha.net/2016/12/02/nvpy-1-0-0-has-been-released/</link><pubDate>Fri, 02 Dec 2016 10:19:40 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/02/nvpy-1-0-0-has-been-released/</guid><description> Oh happy day!
+ ]]></content:encoded></item><item><title>nvpy 1.0.0 has been released!</title><link>https://cpbotha.net/2016/12/02/nvpy-1-0-0-has-been-released/</link><pubDate>Fri, 02 Dec 2016 10:19:40 +0000</pubDate><guid>https://cpbotha.net/2016/12/02/nvpy-1-0-0-has-been-released/</guid><description>Oh happy day!
 Last night I released version 1.0.0 of nvpy, a cross-platform (linux, mac, windows) simplenote-syncing note-taking app. nvpy is also my most popular open source baby, at least by github stars and forks. Screenshot of nvpy 1.0.0 with a demo database of notes.
-Since I first released nvpy in 2012, automattic have released their own official open source desktop app for simplenote. Although the official app is prettier (it is electron-based), nvpy is faster and uses a fraction of the RAM (70MB RSS vs 1000MB+ RSS).</description><content:encoded><![CDATA[ <p>Oh happy day!</p>
+Since I first released nvpy in 2012, automattic have released their own official open source desktop app for simplenote. Although the official app is prettier (it is electron-based), nvpy is faster and uses a fraction of the RAM (70MB RSS vs 1000MB+ RSS). Furthermore, nvpy’s syncing is more deterministic: You can see exactly when and how it syncs.</description><content:encoded><![CDATA[ <p>Oh happy day!</p>
 <p>Last night <a href="https://groups.google.com/forum/#!topic/nvpy/9r3ED7w3axs">I released version 1.0.0</a> of <a href="https://github.com/cpbotha/nvpy">nvpy</a>, a cross-platform (linux, mac, windows) simplenote-syncing note-taking app. nvpy is also my most popular open source baby, at least by github stars and forks.
+
+
 
 
 
@@ -988,11 +1552,13 @@ Since I first released nvpy in 2012, automattic have released their own official
 <p>Since I first released nvpy in 2012, <a href="https://automattic.com/">automattic</a> have released their own official open source desktop app for simplenote. Although the official app is prettier (it is electron-based), nvpy is faster and uses a fraction of the RAM (70MB RSS vs 1000MB+ RSS). Furthermore, nvpy’s syncing is more deterministic: You can see exactly when and how it syncs.</p>
 <p>Personally, I use nvpy on my Linux and Mac workstations and laptops, and the official simplenote apps on my Android devices for the text-only notes <a href="/2016/01/05/note-taking-strategy-early-2016/">I always need to be with me</a>.</p>
 <p>I am currently planning to write a new sqlite-based storage backend for nvpy, which should greatly speed up its interactive note-searching.</p>
-]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description> I’m probably what one might call an obsessive note-taker.
+ ]]></content:encoded></item><item><title>Note-taking strategy early 2016</title><link>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</link><pubDate>Tue, 05 Jan 2016 20:23:48 +0000</pubDate><guid>https://cpbotha.net/2016/01/05/note-taking-strategy-early-2016/</guid><description>I’m probably what one might call an obsessive note-taker.
 I’ve talked in the past about the importance of keeping a lab journal. Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve experimented with a number of different tools (see under “Nerd News”) to do this.</description><content:encoded><![CDATA[ <p>I’m probably what one might call an obsessive note-taker.</p>
 <p>I’ve <a href="https://cpbotha.net/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/">talked in the past about the importance of keeping a lab journal.</a> Initially I produced a stack of books filled with hand-scribbled notes. Although this is my favourite authoring modality, the fact that such notes can’t be easily indexed and queried (maybe one day?!) soon leads one to try electronic solutions. Over the years I’ve <a href="https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/">experimented with a number of different tools</a> (see under “Nerd News”) to do this.</p>
 <p>This post summarises my current selection of tools.</p>
 <p>For making notes with a visual aspect, for example photos of beers that I’ve tasted, and sometimes screenshots of websites, I use <a href="https://www.google.com/keep/">Google Keep</a>. This has a really great Android app with which you can easily save a website, including screenshot, using the Android “share with” functionality. On the desktop, this has a web-app that looks like this:</p>
+
+
 
 
 
@@ -1019,6 +1585,8 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/nvpy_screenie.png">
     <img
         
@@ -1037,6 +1605,8 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/01/emacs_orgmode_screenie.png">
     <img
         
@@ -1047,10 +1617,12 @@ I’ve talked in the past about the importance of keeping a lab journal. Initial
 
 <p>Parts of these journals <a href="https://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/">can be sent directly to your WordPress blog from within Emacs</a>, and you can generate high quality PDFs at the press of a typical simple 12 key Emacs shortcut combo. This being Emacs, the experience can be easily customised to emulate SimpleNote in terms of interactivity, but this will not easily compete with SimpleNote proper in terms of transparent syncing between all devices and in terms of accessibility on mobile.</p>
 <p>Using these three tools together currently takes good care of my note-taking requirements. However, I think that there might be room for a fourth type of tool that is more visual, supports rich and graphical linking between data items and even between sub-components of such items and, perhaps most importantly, enables us to build note landscapes that are natively as non-linear as our thoughts.</p>
-]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description> HEY!
-I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however.</description><content:encoded><![CDATA[ <p>HEY!</p>
+ ]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description>HEY!
+I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a post about my EuroVis 2011 and my Schloss Dagstuhl SciVis seminar adventures.</description><content:encoded><![CDATA[ <p>HEY!</p>
 <p>I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a <a href="/2011/06/26/eurovis-2011/" title="eurovis 2011 post">post about my EuroVis 2011</a> and my <a href="/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/" title="dagstuhl scivis 2011 post">Schloss Dagstuhl SciVis seminar</a> adventures.</p>
 <p>Before the blasting commences, I would like to present some relaxing visual input brought to you via my cell phone camera, which at the time of capturing found itself in my hand, itself being inside the chapel in <a href="http://maps.google.nl/maps?q=Herberg+Op+Hodenpijl,+Rijksstraatweg,+Schipluiden&amp;hl=en%E2%89%AA=51.987252,4.321012&amp;spn=0.002355,0.005348&amp;sll=51.986948,4.321007&amp;sspn=0.004711,0.010697&amp;t=h&amp;z=18" title="google maps of herberg op hodenpijl">Herberg op Hodenpijl</a>, a short westward cycle from my house:
+
+
 
 
 
@@ -1071,6 +1643,8 @@ I’m still here, and it seems I really have to catch up on my backlog of WHVs, 
 </figure>
 </p>
 <p>The picturesque surroundings are home to the chapel, which hosted an art exhibition at that point, and an organic restaurant and grocer. Most (all?) of the produce comes from a small farm across the road that you can also visit. The goats are really friendly. You could do worse than popping by on a sunny day.
+
+
 
 
 
@@ -1114,4 +1688,4 @@ I’m still here, and it seems I really have to catch up on my backlog of WHVs, 
 <p>To you I might appear fickle, but I guarantee that it’s just hyperactivity. I’ve since adjusted my note-taking strategy again. As you will have seen in the comments, Pieter Kitslaar subtly influenced me to go searching for a note-taking solution that syncs between phone and everywhere else. Fortunately, I ran into the <a href="http://simplenoteapp.com/" title="simplenote universe">SimpleNote universe</a> and I’m now officially in <strong>note-taking heaven</strong>. I have <a href="https://market.android.com/details?id=com.teragadgets.android.notes" title="flick note market page">Flick Note</a> on my Android, the SyncPad extension on Chrome (for sometimes) and <a href="http://www.resoph.com/" title="resoph notes website">ResophNotes</a> on Windows and on Linux with Wine. All apps work exactly as I would expect a super-fast and efficient note-taking app to work, with real-time incremental searching, hotkeys <strong>everywhere</strong>, and best of all, offline use and transparent syncing. <strong>ResophNotes is especially cool, definitely give it a shot.</strong></p>
 <p>So I’m using this SimpleNote setup for all my personal knowledge base and general note-taking needs. For detailed work and lab journaling, I’m now using linear OpenDocument files on my Dropbox, which solves the offline problem I had with Google Docs, which I do still adore for collaborative work.</p>
 <p>Lemme know in the comments what you think!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

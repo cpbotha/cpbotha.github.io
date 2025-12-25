@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>carddav on voices in my head</title><link>https://cpbotha.net/tags/carddav/</link><description>Recent content in carddav on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 06 Aug 2016 20:22:04 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/carddav/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 12 years of email from GMail to FastMail</title><link>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</link><pubDate>Sat, 06 Aug 2016 20:22:04 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</guid><description> In 2013, when it became clear, primarily through Edward Snowden&amp;rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course blogged about it (that blog post has been read almost 70000 times; I think for many people this is an important issue).
-This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from The Vogon Poet on August 24, 2004.</description><content:encoded><![CDATA[ <p>In 2013, when it became clear, primarily through Edward Snowden&rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">blogged about it</a> (that blog post has been read almost 70000 times; I think for many people this is an important issue).</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Carddav on voices in my head</title><link>https://cpbotha.net/tags/carddav/</link><description>Recent content in Carddav on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 06 Aug 2016 20:22:04 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/carddav/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 12 years of email from GMail to FastMail</title><link>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</link><pubDate>Sat, 06 Aug 2016 20:22:04 +0000</pubDate><guid>https://cpbotha.net/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/</guid><description>In 2013, when it became clear, primarily through Edward Snowden&amp;rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course blogged about it (that blog post has been read almost 70000 times; I think for many people this is an important issue).
+This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from The Vogon Poet on August 24, 2004. At that time, you could only get GMail by invitation. It was pretty exciting! (I have emails from before 2004, back to &amp;lsquo;93 or &amp;lsquo;94, but those are in a backup archive somewhere.)) to the little Synology DS213j standing next to my desk at the time. This was all well and good behind the stable Dutch 100 Mbit/s down / 10 Mbit/s up cable connection I had, but when we decided to move back to South Africa, where home internet is a few years behind The Netherlands, I ended up having to pay for a virtual private server in Cape Town (to keep latency between me and my mail server manageable) and having to admin my own dovecot IMAP and postfix SMTP server.</description><content:encoded><![CDATA[ <p>In 2013, when it became clear, primarily through Edward Snowden&rsquo;s heroic actions, that the level of snooping by the US and other governments was far greater than any of us would have thought, I moved all of my data out of the US and of course <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">blogged about it</a> (that blog post has been read almost 70000 times; I think for many people this is an important issue).</p>
 <p>This included migrating 60000 emails away from my beloved GMail (I got my GMail invite from <a href="https://twitter.com/vogonpoet">The Vogon Poet</a> on August 24, 2004. At that time, you could only get GMail by invitation. It was pretty exciting! (I have emails from before 2004, back to &lsquo;93 or &lsquo;94, but those are in a backup archive somewhere.)) to the little <a href="https://www.engadget.com/products/synology/ds213j/">Synology DS213j</a> standing next to my desk at the time.  This was all well and good behind the stable Dutch 100 Mbit/s <em>down</em> / 10 Mbit/s <em>up</em> cable connection I had, but when we decided to move back to South Africa, where home internet is a few years behind The Netherlands, I ended up having to pay for a virtual private server in Cape Town (to keep latency between me and my mail server manageable) and having to admin my own dovecot IMAP and postfix SMTP server.</p>
 <p>Initially this was workable, until the Nth time that I had to interrupt my real job (which has nothing to do with mail servers) to apply a security patch or get the VPS booting again after a botched kernel upgrade. Besides that, I had to deal with keeping my server out of over-enthusiastic spam blacklists and whatnot. Also, inspite of <a href="https://vxlabs.com/2014/06/06/configuring-emacs-mu4e-with-nullmailer-offlineimap-and-multiple-identities/">mu4e</a>, I did end up missing the fast graphical GMail web interface.</p>
 <p>So, it was with a great deal of tail between my legs that on June 10, 2015 (<a href="/2016/01/05/note-taking-strategy-early-2016/">I have a lab journal, remember</a>) I went right back back to GMail. My mail setup, although pleasingly decentralised, was costing me too much time and hence actual money.</p>
@@ -15,16 +15,20 @@ This included migrating 60000 emails away from my beloved GMail (I got my GMail 
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-10.50.45-AM.png">
     <img
         
             
             src="/wp-content/uploads/2016/08/Screen-Shot-2016-08-06-at-10.50.45-AM-1024x594.png"
         
-            alt="The main import &amp;amp; export window"/> </a><figcaption>
+            alt="The main import &amp; export window"/> </a><figcaption>
             <p>The main import &amp; export window</p>
         </figcaption>
 </figure>
+
+
 
 
 
@@ -62,6 +66,8 @@ Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Error migrating remote fo
 <p>The web-app has full support for keyboard shortcuts, which increases the subjective perception of speed.</p>
 <h3 id="webmail-search">Webmail search</h3>
 <p>For my purposes, search in FastMail is on par with that of GMail. I can dig up any of my emails, back up to 2004, in seconds.
+
+
 
 
 
@@ -108,6 +114,8 @@ Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Error migrating remote fo
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/08/fastmail_calendar_google_play.png">
     <img
         
@@ -127,6 +135,8 @@ Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Error migrating remote fo
 <h2 id="other-noteworthy-points">Other noteworthy points</h2>
 <h3 id="domain-setup">Domain setup</h3>
 <p>For my most important domains, I have set FastMail to be the MX. I have also performed the necessary <a href="https://blog.fastmail.com/2014/12/09/email-authentication/">SPF and DKIM</a> setup: FastMail gives super useful feedback in its configuration screens to help you with this. For these domains, I send mail directly via the FastMail SMTP servers, and mail is delivered directly to FastMail servers. Nice and simple.
+
+
 
 
 
@@ -155,4 +165,4 @@ Log: Fri Jul 15 17:49:17 2016; cpbotha/imap.gmail.com; Error migrating remote fo
 <p>So far, my conclusion is that this is a service that is technically more than capable of replacing GMail, even for power users. Furthermore, FastMail&rsquo;s primary (and in fact only) business model is to charge you money for making sure that you can keep on emailing like a boss. Together, this makes for an offer that I could not refuse.</p>
 <p><em>P.S. Let me know in the comments if you would like me to add anything else to this post.</em></p>
 <p><em>P.P.S. You can also join the lively <a href="https://news.ycombinator.com/item?id=12247401">Hacker News discussion of this post</a>!</em></p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

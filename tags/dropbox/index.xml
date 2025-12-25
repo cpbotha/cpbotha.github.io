@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dropbox on voices in my head</title><link>https://cpbotha.net/tags/dropbox/</link><description>Recent content in dropbox on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 01 Jan 2023 16:17:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/dropbox/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2022 to 2023 transition post</title><link>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</link><pubDate>Sun, 01 Jan 2023 16:17:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</guid><description> Welcome to 2023 everyone, and to the traditional yearly year transition post!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Dropbox on voices in my head</title><link>https://cpbotha.net/tags/dropbox/</link><description>Recent content in Dropbox on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 06 Jan 2023 09:55:44 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/dropbox/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2022 to 2023 transition post</title><link>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</link><pubDate>Sun, 01 Jan 2023 16:17:00 +0200</pubDate><guid>https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/</guid><description>Welcome to 2023 everyone, and to the traditional yearly year transition post!
 Figure 1: Scene from a recent windy family walk in Cape St Francis
 I wish all of you all of the best for this shiny new year twenty-twenty-three!
-(By the way, this, the first day of the year, is the earliest that the yearly transition post has ever appeared!)
-Blogging Over the past year, I published fifteen posts on this blog, 14 of which were &amp;ldquo;weekly&amp;rdquo; head voices posts (#237 to #250), and one the 2022 transition post.</description><content:encoded><![CDATA[ <p>Welcome to 2023 everyone, and to the <a href="/tags/transition/">traditional yearly year transition post</a>!</p>
+(By the way, this, the first day of the year, is the earliest that the yearly transition post has ever appeared!)</description><content:encoded><![CDATA[ <p>Welcome to 2023 everyone, and to the <a href="/tags/transition/">traditional yearly year transition post</a>!</p>
+
+
 
 
 
@@ -18,18 +19,22 @@ Blogging Over the past year, I published fifteen posts on this blog, 14 of which
               
             srcset='
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_9aeb90d9d01a11e9.jpg 480w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_8678af152961e9a.jpg 800w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_d62854548d79e21e.jpg 1200w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_4e0ce1b965a24760.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu2d005302446bf031ef99125e8456ac72_1082053_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/20221220-cape-st-francis-walk_hu_8678af152961e9a.jpg"
             
 
         
@@ -59,8 +64,8 @@ good life.</p>
 <p>Invoking the goaccess log analysis tool using the incantation below reports that
 this site was visited by just over 126 thousand unique visitor IP numbers in
 the year up to December 27.</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#cb4b16">export</span> <span style="color:#268bd2">DOMAIN</span>=cpbotha.net
-</span></span><span style="display:flex;"><span>(<span style="color:#859900">for</span> i in {1..11}; <span style="color:#859900">do</span> <span style="color:#cb4b16">echo</span> <span style="color:#268bd2">$DOMAIN</span>.access.log.<span style="color:#268bd2">$i</span>.gz; <span style="color:#859900">done</span>; <span style="color:#cb4b16">echo</span> <span style="color:#268bd2">$DOMAIN</span>.access.log) | xargs zcat -f -- | goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#6639ba">export</span> <span style="color:#953800">DOMAIN</span><span style="color:#0550ae">=</span>cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#0550ae">(</span><span style="color:#cf222e">for</span> i in <span style="color:#0550ae">{</span>1..11<span style="color:#0550ae">}</span><span style="color:#1f2328">;</span> <span style="color:#cf222e">do</span> <span style="color:#6639ba">echo</span> <span style="color:#953800">$DOMAIN</span>.access.log.<span style="color:#953800">$i</span>.gz<span style="color:#1f2328">;</span> <span style="color:#cf222e">done</span><span style="color:#1f2328">;</span> <span style="color:#6639ba">echo</span> <span style="color:#953800">$DOMAIN</span>.access.log<span style="color:#0550ae">)</span> <span style="color:#1f2328">|</span> xargs zcat -f -- <span style="color:#1f2328">|</span> goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><p>The most popular posts also over 2022 were the very old <a href="/2013/09/15/dear-usa-my-data-has-left-your-building/">2013 usa my data has
 left your building</a>, the still quite relevant <a href="/2016/08/06/moving-12-years-of-email-from-gmail-to-fastmail/">2016 migrating from gmail to
 fastmail</a> and my <a href="/2019/09/21/note-taking-strategy-2019/">2019 note-taking strategy post</a>.</p>
@@ -147,6 +152,8 @@ as well, but this is fine. <em>Any</em> kilometres are better than no kilometres
 
 
 
+
+
 <figure>
     <img
         
@@ -154,18 +161,22 @@ as well, but this is fine. <em>Any</em> kilometres are better than no kilometres
               
             srcset='
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_480x0_resize_box_3.png 480w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_51b4310156cb6775.png 480w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_800x0_resize_box_3.png 800w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_9b2d56329fea834b.png 800w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_1200x0_resize_box_3.png 1200w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_44ff53ded7296414.png 1200w,
             
-                   https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_1500x0_resize_box_3.png 1500w,
+                
+                https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_b6f0d925e5348190.png 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hua32545cc66be13d0a43b81fe5cb74757_125351_800x0_resize_box_3.png"
+            src="https://cpbotha.net/2023/01/01/the-2022-to-2023-transition-post/images/Tasks/2022-12-31_16-17-19_screenshot_hu_9b2d56329fea834b.png"
             
 
         
@@ -328,11 +339,13 @@ the moment and its participants.</p>
 <p>For a while, you can truly appreciate the beauty of your surroundings, of the food
 and drink you might be enjoying, and of the humans in your company.</p>
 <p>In 2023, let us be expansive!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #248: Oh snap</title><link>https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/</link><pubDate>Fri, 11 Nov 2022 17:11:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/</guid><description> Welcome back everyone to this completely normal and of course utterly on-time edition of the WHV which spans (checks notes&amp;hellip;) the one (1) week from Monday October 31 to Sunday November 6, 2022.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #248: Oh snap</title><link>https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/</link><pubDate>Fri, 11 Nov 2022 17:11:00 +0200</pubDate><guid>https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/</guid><description>Welcome back everyone to this completely normal and of course utterly on-time edition of the WHV which spans (checks notes&amp;hellip;) the one (1) week from Monday October 31 to Sunday November 6, 2022.
 Figure 1: Watsonia posing in front of mountain. Photo by partner.
-(Yes, I am a little bit excited that for once this post is technically on time enough to cover only that one week. Of course what&amp;rsquo;s in the post does not necessarily have to do anything with the events that transpired in that week, but we won&amp;rsquo;t let that keep us from this little punctuality celebration.</description><content:encoded><![CDATA[ <p>Welcome back everyone to this completely normal and <em>of course</em> utterly on-time
+(Yes, I am a little bit excited that for once this post is technically on time enough to cover only that one week. Of course what&amp;rsquo;s in the post does not necessarily have to do anything with the events that transpired in that week, but we won&amp;rsquo;t let that keep us from this little punctuality celebration.)</description><content:encoded><![CDATA[ <p>Welcome back everyone to this completely normal and <em>of course</em> utterly on-time
 edition of the WHV which spans (checks notes&hellip;) the one (1) week from Monday
 October 31 to Sunday November 6, 2022.</p>
+
+
 
 
 
@@ -348,18 +361,22 @@ October 31 to Sunday November 6, 2022.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_hu_debc42276bb7bad6.jpg 480w,
             
-                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_hu_489cb78722af20c0.jpg 800w,
             
-                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_hu_98048fffdfaecbb4.jpg 1200w,
             
-                   https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_hu_6905e08d387e7840.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_huef767bf2060e191b6c90438c5e9a0359_2981596_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/11/11/weekly-head-voices-248-oh-snap/watsonia_hu_489cb78722af20c0.jpg"
             
 
         
@@ -496,10 +513,10 @@ instead of four, whilst without the <code>[...]</code> it correctly generates fo
 <p>P.S. You might remember that it was also a <a href="https://blogs.scientificamerican.com/news-blog/how-a-fake-word-from-the-simpsons-e/">Physics paper that helped
 main-streaming the word <em>embiggen</em></a> from The Simpsons right into our
 dictionaries.</p>
-]]></content:encoded></item><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description><![CDATA[ At the start of 2016, I published an overview of my note-taking strategy then.
-In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved to support this.
+ ]]></content:encoded></item><item><title>Note-taking strategy 2019.</title><link>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</link><pubDate>Sat, 21 Sep 2019 16:19:00 +0200</pubDate><guid>https://cpbotha.net/2019/09/21/note-taking-strategy-2019/</guid><description>At the start of 2016, I published an overview of my note-taking strategy then.
+In the intervening three and a half years, my note-taking has further evolved to adapt to my changing environment, and the underlying &amp;ldquo;system&amp;rdquo; has co-evolved to support this.
 Although note-taking is at the core of the system, a more accurate description of its current purpose would be personal knowledge management.
-What you&rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &ldquo;keep a lab journal&rdquo;.]]></description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
+What you&amp;rsquo;ll also find in this post, is the culmination of many years of lessons learned trying to &amp;ldquo;keep a lab journal&amp;rdquo;.</description><content:encoded><![CDATA[ <p>At the start of 2016, I published an <a href="/2016/01/05/note-taking-strategy-early-2016/">overview of my note-taking strategy
 then</a>.</p>
 <p>In the intervening three and a half years, my note-taking has further evolved
 to adapt to my changing environment, and the underlying &ldquo;system&rdquo; has co-evolved
@@ -510,6 +527,8 @@ management</em></a>.</p>
 <p>What you&rsquo;ll also find in this post, is the culmination of many years of lessons
 learned trying to <a href="/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three">&ldquo;keep a lab
 journal&rdquo;</a>.</p>
+<p><em>Note: You can now also read my more recent post <a href="/2023/04/11/note-taking-strategy-2023/">Note-taking strategy
+2023</a>.</em></p>
 <h2 id="highest-level-overview-of-note-taking-system">Highest level overview of note-taking system.</h2>
 <p>My approach consists of four main components:</p>
 <p>At the core of everything is <a href="https://orgmode.org/"><strong>1. Emacs Org mode</strong></a>.</p>
@@ -838,45 +857,45 @@ us to build note landscapes that are natively as non-linear as our thoughts.</p>
 <p>Let&rsquo;s see what happens over the next few years!</p>
 <h2 id="appendix">Appendix</h2>
 <h3 id="redacted-emacs-orgmode-capture-template">Redacted Emacs Orgmode capture template</h3>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;/full/path/to/current/month-journal/&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#cb4b16">setq</span> <span style="color:#268bd2">org-capture-templates</span>
-</span></span><span style="display:flex;"><span>      &#39;((<span style="color:#2aa198">&#34;t&#34;</span> <span style="color:#2aa198">&#34;Todo&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+headline</span> <span style="color:#268bd2">current-journal-filename</span> <span style="color:#2aa198">&#34;Tasks&#34;</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;j&#34;</span> <span style="color:#2aa198">&#34;Journal&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* %? %T\n&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)
-</span></span><span style="display:flex;"><span>        (<span style="color:#2aa198">&#34;p&#34;</span> <span style="color:#2aa198">&#34;Day planning&#34;</span> <span style="color:#268bd2">entry</span> (<span style="color:#268bd2">file+olp+datetree</span> <span style="color:#268bd2">current-journal-filename</span>)
-</span></span><span style="display:flex;"><span>         <span style="color:#2aa198">&#34;* Day planning %U
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Done list / thoughts / diary
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- %?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks for today [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Experiment: Articulate your directions / systems.
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Tasks that will satisfy end-of-the-day Charl [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Focus blocks
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Review [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] [[*Vitals][Month vitals]]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Org sub-projects
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] Calendar
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">** Habits / important [/]
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] 7.5 hrs sleep last night
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] are you satisfied with number of pomodori? = 0 (v R)
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] did you write stuff down?
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- [ ] ...
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#cb4b16">:empty-lines</span> <span style="color:#2aa198;font-weight:bold">1</span>)))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; normally I construct current-journal-filename using mix of expand-file-name and concat</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;/full/path/to/current/month-journal/&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; %i = selected text, %a org-store-link, %U created timestamp, %? place cursor here</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#6639ba">setq</span> <span style="color:#953800">org-capture-templates</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#0550ae">&#39;</span><span style="color:#1f2328">((</span><span style="color:#0a3069">&#34;t&#34;</span> <span style="color:#0a3069">&#34;Todo&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+headline</span> <span style="color:#953800">current-journal-filename</span> <span style="color:#0a3069">&#34;Tasks&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* TODO %?\n:LOGBOOK:\n- Created \&#34;TODO\&#34; %U\n:END:\n%i\n%a\n\n&#34;</span> 
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;j&#34;</span> <span style="color:#0a3069">&#34;Journal&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* %? %T\n&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;p&#34;</span> <span style="color:#0a3069">&#34;Day planning&#34;</span> <span style="color:#953800">entry</span> <span style="color:#1f2328">(</span><span style="color:#953800">file+olp+datetree</span> <span style="color:#953800">current-journal-filename</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#0a3069">&#34;* Day planning %U
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Done list / thoughts / diary
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- %?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks for today [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Experiment: Articulate your directions / systems.
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Tasks that will satisfy end-of-the-day Charl [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Focus blocks
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Review [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] [[*Vitals][Month vitals]]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Org sub-projects
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] Calendar
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">** Habits / important [/]
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] 7.5 hrs sleep last night
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] are you satisfied with number of pomodori? = 0 (v R)
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] did you write stuff down?
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">- [ ] ...
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">
+</span></span></span><span style="display:flex;"><span><span style="color:#0a3069">&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#6639ba">:empty-lines</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)))</span>
 </span></span></code></pre></div><h2 id="updates">Updates</h2>
 <h3 id="sunday-2020-01-12">Sunday 2020-01-12</h3>
 <ul>
@@ -887,7 +906,7 @@ Pencil</a>.</li>
 <li>Add <a href="#signal-messaging-apps-brilliant-note-to-self-contact">section about Signal&rsquo;s Note to Self
 contact</a>.</li>
 </ul>
-]]></content:encoded></item><item><title>Weekly Head Voices #165: Get in my Pocket.</title><link>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</link><pubDate>Thu, 21 Mar 2019 15:01:20 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</guid><description> This short WHV looks back at the week from Monday March 4 to Sunday March 10.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #165: Get in my Pocket.</title><link>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</link><pubDate>Thu, 21 Mar 2019 15:01:20 +0000</pubDate><guid>https://cpbotha.net/2019/03/21/weekly-head-voices-165-get-in-my-pocket/</guid><description>This short WHV looks back at the week from Monday March 4 to Sunday March 10.
 In the week after that, I had actually decided not to publish this one, instead folding whatever I wanted to say into the next edition.
 However, fear of yet another much-too-long WHV, along with my current preference for a short warming-up of the writing pipes, have led me to change my mind, and so here we are!</description><content:encoded><![CDATA[ <p>This short WHV looks back at the week from Monday March 4 to Sunday March 10.</p>
 <p>In the week after that, I had actually decided not to publish this one,
@@ -975,9 +994,11 @@ highlights.</p>
 <p>I hope that they will not have cooled down too much before I find another bit
 of time to start on WHV #166.</p>
 <p>There will be pretty pictures!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #164: It’s what future you would want.</title><link>https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/</link><pubDate>Sat, 09 Mar 2019 14:53:44 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/</guid><description> Pre-work not-too-shabby running route.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #164: It’s what future you would want.</title><link>https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/</link><pubDate>Sat, 09 Mar 2019 14:53:44 +0000</pubDate><guid>https://cpbotha.net/2019/03/09/weekly-head-voices-164-its-what-future-you-would-want/</guid><description> Pre-work not-too-shabby running route.
 Welcome back friends! This WHV looks back at the two weeks from Monday February 18 to Sunday March 3, 2019. I was planning to release the edition of the WHV on time, but my need for a break was greater.
 Because I’ve given up on ever mastering the art of the bullet-list form of the weekly(ish) status update, I am going to double-down on the old-fashioned sectioned prose form that you see before you.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -1073,10 +1094,12 @@ Because I’ve given up on ever mastering the art of the bullet-list form of the
 <p><em>When writing those tasks down, try to predict the two to three tasks the completion of which will satisfy future you the most at the end of the day.</em></p>
 <p>It sounds like a small tweak, but this is a great way to encourage deeper (almost meta-)consideration of tasks that will really matter.</p>
 <p>Additionally and more straight-forward than that, with this exercise you increase the chances that you end the day with that great feeling of closure that comes with getting important stuff done.</p>
-]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
+ ]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
 After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
-It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
+It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), especially if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they say that you shouldn’t worry, you can never be entirely sure.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
 <p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
+
+
 
 
 
@@ -1126,7 +1149,7 @@ It turns out that government agencies are allowed to extract, at a whim, your an
 <p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
 <p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
 <p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
-]]></content:encoded></item><item><title>Google Drive: Not reliable yet, but potential.</title><link>https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/</link><pubDate>Fri, 27 Apr 2012 20:47:56 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/</guid><description> I’ve been a Dropbox Pro (50G) user for more than two years now, and in this time it has never let me down, not even by a little bit. Still, when Google announced its new Google Drive syncing service, I had to take it for a spin.
+ ]]></content:encoded></item><item><title>Google Drive: Not reliable yet, but potential.</title><link>https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/</link><pubDate>Fri, 27 Apr 2012 20:47:56 +0000</pubDate><guid>https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/</guid><description>I’ve been a Dropbox Pro (50G) user for more than two years now, and in this time it has never let me down, not even by a little bit. Still, when Google announced its new Google Drive syncing service, I had to take it for a spin.
 For those of you with short attention spans, my conclusion is: Google Drive has great promise due to its price-point, Google’s great infrastructure and the integration with Google Docs, but you shouldn’t yet trust this service with your critical files.</description><content:encoded><![CDATA[ <p>I’ve been a Dropbox Pro (50G) user for <a href="/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/" title="me gets a dropbox pro account">more than two years now</a>, and in this time it has never let me down, not even by a little bit. Still, when Google <a href="http://googleblog.blogspot.com/2012/04/introducing-google-drive-yes-really.html" title="google drive announcement">announced its new Google Drive syncing service</a>, I had to take it for a spin.</p>
 <p>For those of you with short attention spans, my conclusion is: <em>Google Drive has great promise due to its price-point, Google’s great infrastructure and the integration with Google Docs, but you shouldn’t yet trust this service with your critical files.</em></p>
 <p>To summarise: Google Drive is Google’s answer to Dropbox (and 50 other inferior syncing services). You install a small app on your Windows or Mac (no Linux yet, although <a href="http://www.pcworld.com/businesscenter/article/254488/google_drive_for_linux_is_on_the_way.html" title="Google Drive for Linux should come">it has been promised</a>), and then it’ll keep a folder of your choosing in sync with Google Drive in the cloud. You can access your files via the website <a href="http://drive.google.com/" title="google drive website">drive.google.com</a> (google docs, but slightly updated), any computer with the Google Drive software, or via the Google Drive mobile apps.  You can also share files through authorizing the relevant google accounts, or via URL. Google Drive has a number of built-in viewers, meaning that users will not have to install PowerPoint to view your PowerPoint presentation for example.</p>
@@ -1134,6 +1157,8 @@ For those of you with short attention spans, my conclusion is: Google Drive has 
 <p><a data-rel="lightbox-image-0" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg" title=""><img alt="" class="aligncenter size-medium wp-image-1654" data-attachment-id="1654" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="gdrive_storage_plans" data-large-file="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans-300x86.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg" data-orig-size="744,215" data-permalink="https://cpbotha.net/2012/04/27/google-drive-not-reliable-yet-but-potential/gdrive_storage_plans/" height="86" sizes="(max-width: 300px) 85vw, 300px" src="http://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans-300x86.jpg" srcset="https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans-300x86.jpg 300w, https://cpbotha.net/wp-content/uploads/2012/04/gdrive_storage_plans.jpg 744w" title="gdrive_storage_plans" width="300"/></a></p>
 <p>You get 5G for free. For a measly $2.49 per month, you get 25G of storage, and 30G of GMail storage as a bonus, and for $5 per month you get 100G! Compare this with the $10 / month Dropbox wants for 50G. This, together with the fact that you <em>could</em> go up to 16 TERABYTES if you would want to, makes you at least think for a bit.</p>
 <p>I installed the client on this Windows laptop. For you screenshot-freaks, here’s the context menu for the systray icon:
+
+
 
 
 
@@ -1155,6 +1180,8 @@ For those of you with short attention spans, my conclusion is: Google Drive has 
 </p>
 <p>Note that because I pay a measly $5 / year for 25G of extra GMail space, I’ve been <em>grandfathered</em> into 25G of Google Drive space. Heh, I also only just learnt the term grandfathered. It means I could get this because of my previous price plan that doesn’t exist anymore.</p>
 <p>Here’s the preferences dialog, nothing special really, unless you have a screenshot fetish:
+
+
 
 
 
@@ -1186,6 +1213,8 @@ For those of you with short attention spans, my conclusion is: Google Drive has 
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2012/04/gdrive_sync_huh.jpg">
     <img
         
@@ -1198,6 +1227,8 @@ For those of you with short attention spans, my conclusion is: Google Drive has 
 </figure>
 </p>
 <p>As you can see, on the server is my text file, on the client nothing. I expect of a syncing solution to actually, uhm, synchronise my files. I did notice a sync error message in the systray context menu. After clicking, I got this dialog:
+
+
 
 
 
@@ -1219,10 +1250,12 @@ For those of you with short attention spans, my conclusion is: Google Drive has 
 </p>
 <p>Yes, thank you Google Drive, you have an unknown issue. That’s just great.</p>
 <p>So, in spite of the really attractive offering, this type of wonkiness (multiple files due to stupid create-new-rename saves, sync errors soon after), even after a few minutes of playing around, does not instil confidence or trust. If there’s one thing a good sync service should do, it’s instil confidence and trust. Dropbox has never failed me, and I’ve thrown some pretty strange things at it. Until Google Drive is able to do the same, I’ll continue coughing up 10 bucks a month for Dropbox.</p>
-]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description> HEY!
-I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however.</description><content:encoded><![CDATA[ <p>HEY!</p>
+ ]]></content:encoded></item><item><title>The Monthly [Weekly Head Voices #50]</title><link>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</link><pubDate>Sat, 02 Jul 2011 15:00:43 +0000</pubDate><guid>https://cpbotha.net/2011/07/02/the-monthly-weekly-head-voices-50/</guid><description>HEY!
+I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a post about my EuroVis 2011 and my Schloss Dagstuhl SciVis seminar adventures.</description><content:encoded><![CDATA[ <p>HEY!</p>
 <p>I’m still here, and it seems I really have to catch up on my backlog of WHVs, all the more as I was starting to notice the beginnings of BPP (Backlogged Posting Paralysis, of course). So I’ve spent a few minutes gathering a selection of life snippets of the past six weeks (week 21 through week 26) and will now proceed blasting them out this old Web 1.0 exhaust. I wasn’t completely idle blog-wise, however. I did write a <a href="/2011/06/26/eurovis-2011/" title="eurovis 2011 post">post about my EuroVis 2011</a> and my <a href="/2011/06/19/schloss-dagstuhl-computer-scientist-heaven/" title="dagstuhl scivis 2011 post">Schloss Dagstuhl SciVis seminar</a> adventures.</p>
 <p>Before the blasting commences, I would like to present some relaxing visual input brought to you via my cell phone camera, which at the time of capturing found itself in my hand, itself being inside the chapel in <a href="http://maps.google.nl/maps?q=Herberg+Op+Hodenpijl,+Rijksstraatweg,+Schipluiden&amp;hl=en%E2%89%AA=51.987252,4.321012&amp;spn=0.002355,0.005348&amp;sll=51.986948,4.321007&amp;sspn=0.004711,0.010697&amp;t=h&amp;z=18" title="google maps of herberg op hodenpijl">Herberg op Hodenpijl</a>, a short westward cycle from my house:
+
+
 
 
 
@@ -1243,6 +1276,8 @@ I’m still here, and it seems I really have to catch up on my backlog of WHVs, 
 </figure>
 </p>
 <p>The picturesque surroundings are home to the chapel, which hosted an art exhibition at that point, and an organic restaurant and grocer. Most (all?) of the produce comes from a small farm across the road that you can also visit. The goats are really friendly. You could do worse than popping by on a sunny day.
+
+
 
 
 
@@ -1286,9 +1321,11 @@ I’m still here, and it seems I really have to catch up on my backlog of WHVs, 
 <p>To you I might appear fickle, but I guarantee that it’s just hyperactivity. I’ve since adjusted my note-taking strategy again. As you will have seen in the comments, Pieter Kitslaar subtly influenced me to go searching for a note-taking solution that syncs between phone and everywhere else. Fortunately, I ran into the <a href="http://simplenoteapp.com/" title="simplenote universe">SimpleNote universe</a> and I’m now officially in <strong>note-taking heaven</strong>. I have <a href="https://market.android.com/details?id=com.teragadgets.android.notes" title="flick note market page">Flick Note</a> on my Android, the SyncPad extension on Chrome (for sometimes) and <a href="http://www.resoph.com/" title="resoph notes website">ResophNotes</a> on Windows and on Linux with Wine. All apps work exactly as I would expect a super-fast and efficient note-taking app to work, with real-time incremental searching, hotkeys <strong>everywhere</strong>, and best of all, offline use and transparent syncing. <strong>ResophNotes is especially cool, definitely give it a shot.</strong></p>
 <p>So I’m using this SimpleNote setup for all my personal knowledge base and general note-taking needs. For detailed work and lab journaling, I’m now using linear OpenDocument files on my Dropbox, which solves the offline problem I had with Google Docs, which I do still adore for collaborative work.</p>
 <p>Lemme know in the comments what you think!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #19: The time-traveller’s BBQ.</title><link>https://cpbotha.net/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/</link><pubDate>Mon, 29 Mar 2010 22:13:52 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/</guid><description> This one is dedicated to the memory of DB.
-In this slightly introspective 19th edition of the Weekly Head Voices, looking in all directions in time simultaneously, but slightly ever so slightly more in the direction of week 12 of 2010, I do the usual week time break-down, win a fight with my ISP, go all out on Dropbox and Chrome, and smash through my yearly internet shopping quota, before arriving at the more extensive than usual backyard philosophy section, which today will dwell on the very much related themes of time-travel, perspective, stress and BBQs.</description><content:encoded><![CDATA[ <p><em>This one is dedicated to the memory of DB.</em></p>
+ ]]></content:encoded></item><item><title>Weekly Head Voices #19: The time-traveller’s BBQ.</title><link>https://cpbotha.net/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/</link><pubDate>Mon, 29 Mar 2010 22:13:52 +0000</pubDate><guid>https://cpbotha.net/2010/03/29/weekly-head-voices-19-the-time-travellers-bbq/</guid><description>This one is dedicated to the memory of DB.
+In this slightly introspective 19th edition of the Weekly Head Voices, looking in all directions in time simultaneously, but slightly ever so slightly more in the direction of week 12 of 2010, I do the usual week time break-down, win a fight with my ISP, go all out on Dropbox and Chrome, and smash through my yearly internet shopping quota, before arriving at the more extensive than usual backyard philosophy section, which today will dwell on the very much related themes of time-travel, perspective, stress and BBQs. My time machine. Fuel on the left.</description><content:encoded><![CDATA[ <p><em>This one is dedicated to the memory of DB.</em></p>
 <p>In this slightly introspective 19th edition of the Weekly Head Voices, looking in all directions in time simultaneously, but slightly ever so slightly more in the direction of week 12 of 2010, I do the usual week time break-down, win a fight with my ISP, go all out on Dropbox and Chrome, and smash through my yearly internet shopping quota, before arriving at the more extensive than usual backyard philosophy section, which today will dwell on the very much related themes of time-travel, perspective, stress and BBQs.
+
+
 
 
 
@@ -1319,7 +1356,7 @@ In this slightly introspective 19th edition of the Weekly Head Voices, looking i
 <p><strong>Epilogue</strong></p>
 <p>Today I received the terribly sad news that a colleague, with whom I’d been working closely together for the past months, had unexpectedly passed away on Sunday, leaving behind a young family.</p>
 <p>One has to learn how to <em>keep</em> things in perspective. Life is too short not to.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #15: Auto-tune my cloud.</title><link>https://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/</link><pubDate>Sun, 28 Feb 2010 15:50:25 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/</guid><description> In this 15th edition of my weekly head voices, I move yet more of my life into the cloud, discover (years after everyone else) the delightful auto-tune internet meme and finally go all backyard-psychological whilst staring into the distance, obviously defocused, and waxing on about the purpose of this weblog.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #15: Auto-tune my cloud.</title><link>https://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/</link><pubDate>Sun, 28 Feb 2010 15:50:25 +0000</pubDate><guid>https://cpbotha.net/2010/02/28/weekly-head-voices-15-auto-tune-my-cloud/</guid><description>In this 15th edition of my weekly head voices, I move yet more of my life into the cloud, discover (years after everyone else) the delightful auto-tune internet meme and finally go all backyard-psychological whilst staring into the distance, obviously defocused, and waxing on about the purpose of this weblog.
 Before continuing, you might like to watch this clip explaining why you shall build a turtle fence (I’ll get back to the clip after my dropbox story):</description><content:encoded><![CDATA[ <p>In this 15th edition of my weekly head voices, I move yet more of my life into the cloud, discover (years after everyone else) the delightful auto-tune internet meme and finally go all backyard-psychological whilst staring into the distance, obviously defocused, and waxing on about the purpose of this weblog.</p>
 <p>Before continuing, you might like to watch this clip explaining why you shall build a turtle fence (I’ll get back to the clip after my dropbox story):</p>
 <div class="jetpack-video-wrapper">
@@ -1339,4 +1376,4 @@ Before continuing, you might like to watch this clip explaining why you shall bu
 <p>Finally, back to the purpose of this weblog… Good blogs all seem to have some central theme, such as <a href="http://francoism.wordpress.com/" title="francoism's photography blog">photography</a>, environmental issues, science or pokemon. I seem to recall that I’d also seen this in more than one “how to become an A-list blogger” guides.  I don’t find it hard to believe that this is very important.  However, this blog has never had a central theme, it’s always been me blabbing about the various things that I find blab-worthy.  I’ve never been able to come up with something better, and it was definitely not for lack of trying.  The Weekly Head Voices, by focusing my blabbing into slightly more coherent episodes, have finally helped me to come to a conclusion.  Besides acting as a creative outlet, sitting down every week and carefully externalising a specific subset of my experiences with the express purpose of having it read by a small number of people, is an important ritual during which I am forced to distance myself from the events of the week, and to self-reflect.  By formally concluding the previous period in this way, one has the mental room to manoeuvre in preparation for the next. If you by any chance find any of it entertaining, or at least you just can’t look away, it’s a win-win situation!</p>
 <p>In other words: Theme-schmeme! The voices in my head will continue to be the many and various topics of this weblog, thank you very much. :)</p>
 <p>Have a great week kids!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

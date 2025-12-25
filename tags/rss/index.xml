@@ -1,7 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rss on voices in my head</title><link>https://cpbotha.net/tags/rss/</link><description>Recent content in rss on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sat, 19 Nov 2016 10:05:10 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/rss/index.xml" rel="self" type="application/rss+xml"/><item><title>Let’s replace Twitter with something much better.</title><link>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</link><pubDate>Sat, 19 Nov 2016 10:05:10 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</guid><description> (There is also a Russian language version of this post available, translated and published by SoftDroid on 2017-04-12.)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Rss on voices in my head</title><link>https://cpbotha.net/tags/rss/</link><description>Recent content in Rss on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 20 Dec 2023 17:28:05 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/rss/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices on Tuesday 2023-12-19</title><link>https://cpbotha.net/2023/12/20/daily-head-voices-on-tuesday-2023-12-19/</link><pubDate>Wed, 20 Dec 2023 17:27:00 +0200</pubDate><guid>https://cpbotha.net/2023/12/20/daily-head-voices-on-tuesday-2023-12-19/</guid><description> Made a Zapier Zap to send new cpbotha.net posts (picked up via RSS) to a Telegram bot called HeadVoices who lives on a Telegram (announce-only) channel named &amp;ldquo;cpbotha.net blog&amp;rdquo;. I have not (yet) been able to pipe the post&amp;rsquo;s HTML to the telegram API so you can read more of the post there, because Telegram&amp;rsquo;s HTML mode is quite limited, and I would have to figure out to sanitise my post&amp;rsquo;s HTML. Don&amp;rsquo;t think it&amp;rsquo;s worth the effort. My idea here was to show more ways in which folks can get cpbotha.net content, if they really want to, on the communication channel of their choice. RSS and email remain first class citizens, but people do like their social apps! It looks like RSS to Mastodon is also doable, although the Zapier way would not be as free as IFTTT or just running curl from cron. BTW, IFTTT seems to support only two active applets in the free version. I&amp;rsquo;m getting serious rabbit hole feelings here, but do let me know if there are other channels where you would like to be notified of new posts. After a few hours of driving, we ended up in Wilderness, one of our favourite places in the world. Braai with long time great friends.</description><content:encoded><![CDATA[ <ul>
+<li>Made a Zapier <em>Zap</em> to send new cpbotha.net posts (picked up via RSS) to a Telegram bot called HeadVoices who lives on <a href="https://t.me/cpbothanet">a Telegram (announce-only) channel named &ldquo;cpbotha.net blog&rdquo;</a>.
+<ul>
+<li>I have not (yet) been able to pipe the post&rsquo;s HTML to the telegram API so you can read more of the post there, because <a href="https://core.telegram.org/bots/api#html-style">Telegram&rsquo;s HTML mode</a> is quite limited, and I would have to figure out to sanitise my post&rsquo;s HTML. Don&rsquo;t think it&rsquo;s worth the effort.</li>
+<li>My idea here was to show more ways in which folks can get cpbotha.net content, if they really want to, on the communication channel of their choice.
+<ul>
+<li>RSS and email remain first class citizens, but people do like their social apps!</li>
+<li>It looks like <a href="https://www.jessesquires.com/blog/2022/12/15/rss-to-mastodon/">RSS to Mastodon is also doable</a>, although the Zapier way would not be as free as IFTTT or just running curl from cron. BTW, IFTTT seems to support only two active applets in the free version.</li>
+<li>I&rsquo;m getting serious rabbit hole feelings here, but do let me know if there are other channels where you would like to be notified of new posts.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>After a few hours of driving, we ended up in Wilderness, one of our favourite places in the world.
+<ul>
+<li>Braai with long time great friends.</li>
+</ul>
+</li>
+</ul>
+ ]]></content:encoded></item><item><title>Let’s replace Twitter with something much better.</title><link>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</link><pubDate>Sat, 19 Nov 2016 10:05:10 +0000</pubDate><guid>https://cpbotha.net/2016/11/19/lets-replace-twitter-with-something-much-better/</guid><description>(There is also a Russian language version of this post available, translated and published by SoftDroid on 2017-04-12.)
 I love Twitter. I love that by following certain people, my timeline has become a stream of interesting and entertaining information. I love that sometimes I am able to fit my little publication just so into the 140 characters given to me. I found The Trumpocalypse truly depressing, but the joke tweets were golden:</description><content:encoded><![CDATA[ <p><em>(There is also a <a href="http://softdroid.net/chem-zamenit-twitter-alternativa">Russian language version of this post available</a>, translated and published by <a href="http://softdroid.net/">SoftDroid</a> on 2017-04-12.)</em></p>
 <h1 id="i-love-twitter">I love Twitter.</h1>
 <p>I love that by following certain people, my timeline has become a stream of interesting and entertaining information. I love that sometimes I am able to fit my little publication just <em>so</em> into the 140 characters given to me. I found The Trumpocalypse truly depressing, but the joke tweets were golden:</p>
+
+
 
 
 
@@ -39,10 +60,10 @@ I love Twitter. I love that by following certain people, my timeline has become 
 <p>Furthermore, we definitely need a good discovery platform. This is the thing where Twitter will recommend new accounts to follow based on your existing subscriptions. WordPress does something similar, but it has to be much more discoverable.</p>
 <p>In the coming weeks, I will be running a little experiment by trying to post even my short, previously twitter-only blurbs to this blog. I will have to cross-tweet these, but at least the primary source will be right here in my own database.</p>
 <p>What do you think? Is this possible? Is it something you would like?</p>
-]]></content:encoded></item><item><title>Please update your email and RSS subscriptions (cpbotha.net)</title><link>https://cpbotha.net/2012/12/24/please-update-your-email-and-rss-subscriptions-cpbotha-net/</link><pubDate>Mon, 24 Dec 2012 13:56:49 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/12/24/please-update-your-email-and-rss-subscriptions-cpbotha-net/</guid><description> Dear readers,
+ ]]></content:encoded></item><item><title>Please update your email and RSS subscriptions (cpbotha.net)</title><link>https://cpbotha.net/2012/12/24/please-update-your-email-and-rss-subscriptions-cpbotha-net/</link><pubDate>Mon, 24 Dec 2012 13:56:49 +0000</pubDate><guid>https://cpbotha.net/2012/12/24/please-update-your-email-and-rss-subscriptions-cpbotha-net/</guid><description>Dear readers,
 I will soon be starting a new life adventure. In fact, maybe even two of them. Hence, there is a significant probability that this weblog will again be updated more frequently in 2013.
 Also, I have just changed the email and RSS subscription system:
-If you were subscribed via email, please subscribe anew via the subscribe button to the right. If you still receive emails from feedburner concerning this blog, please unsubscribe using the instructions in those emails.</description><content:encoded><![CDATA[ <p>Dear readers,</p>
+If you were subscribed via email, please subscribe anew via the subscribe button to the right. If you still receive emails from feedburner concerning this blog, please unsubscribe using the instructions in those emails. The idea is to stop using the feedburner email subscription (which was active for the past few years) and to start using wordpress.com for this (the new system). If you were subscribed via RSS reader, double check that your feed address is http://cpbotha.net/feed and NOT anything to do with feedburner anymore. The feedburner feed should redirect to my own feed in any case. I hope that you have a fabulous vacation, and a happy and healthy 2013! I look forward to seeing you then.</description><content:encoded><![CDATA[ <p>Dear readers,</p>
 <p>I will soon be starting a new life adventure. In fact, maybe even two of
 them. Hence, there is a significant probability that this weblog will again be
 updated more frequently in 2013.</p>
@@ -60,4 +81,4 @@ anymore. The feedburner feed should redirect to my own feed in any case.</li>
 </ul>
 <p>I hope that you have a fabulous vacation, and a happy and healthy 2013! I look
 forward to seeing you then.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

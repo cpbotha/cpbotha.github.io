@@ -1,10 +1,249 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gou on voices in my head</title><link>https://cpbotha.net/tags/gou/</link><description>Recent content in gou on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 09 Feb 2022 21:24:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gou/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #238: Live deep and suck out all the marrow of life</title><link>https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/</link><pubDate>Wed, 09 Feb 2022 21:24:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/</guid><description> Welcome everyone to the 238th edition of the Weekly Head Voices, this one covering the week from Monday, January 31 to Sunday, February 6, 2022.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Gou on voices in my head</title><link>https://cpbotha.net/tags/gou/</link><description>Recent content in Gou on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2024 21:27:48 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gou/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 4 of 2024</title><link>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</link><pubDate>Sun, 28 Jan 2024 21:27:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</guid><description>Monday 2024-01-22 As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &amp;ldquo;When you&amp;rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&amp;rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS! At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&amp;hellip; Short but really nice streamlit demo during a work meeting. I knew about streamlit, but I&amp;rsquo;ve never actually played with it. Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3. In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&amp;hellip; &amp;hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola. Tuesday 2024-01-23 At the office nice and early (7:30). Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at react-flow and comfyui react-flow looks like it could work pretty well for this new project. Also: SO SHINY! streamlit app life cycle: script re-runs every time user interacts, see https://docs.streamlit.io/get-started/fundamentals/summary it does have caching mechanisms to make this go faster marimo, although much newer, approaches this issue with its reactive cell pattern Idea: We should write focused technical memos at work. This is now howto, but rather &amp;ldquo;things I learned&amp;rdquo; formulated to teach not just to document. Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&amp;rsquo;s a zero day vulnerability in previous versions that can be exploited via malicious websites. Wednesday 2024-01-24 8km run at just after 7 AM before it really got hot dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW! Remember kids: Our spine&amp;rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally. This is also the reason why I&amp;rsquo;m still searching for a long enough reclining chair. Lovely working lunch with friend S at No Way José Some random ideas that popped into my head as I was trying to work: idea: make github so that people can pipx install marimo-turbo to get install with pandas, altair, matplotlib, and so on. idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets in the end, probably better to do this on my own VPS &amp;hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See https://emacs.ch/@cpbotha/111811547009420844 (post is also embedded below) idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&amp;gt; nginx -&amp;gt; supervisord -&amp;gt; tornado systemd can partially do something like this using socket activation: https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation I would prefer to use supervisord for this This will remain on the todo list for now, unless one of you knows a trick? ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &amp;ldquo;crystal vs nim-lang&amp;rdquo; googling blog post: https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/ the kubernetes thing: https://github.com/vitobotta/hetzner-k3s TIL: mastodon embeds are not as durable as twitter embeds As I pasted the above embed, I saw to my disappointment that it&amp;rsquo;s just pulling in the mastodon post URL via iframe.</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-22">Monday 2024-01-22</h2>
+<ul>
+<li>As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &ldquo;When you&rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS!</li>
+<li>At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&hellip;</li>
+<li>Short but really nice <a href="https://streamlit.io/">streamlit</a> demo during a work meeting. I knew about streamlit, but I&rsquo;ve never actually played with it.</li>
+<li>Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3.
+<ul>
+<li>In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&hellip;</li>
+<li>&hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola.</li>
+</ul>
+</li>
+</ul>
+<h2 id="tuesday-2024-01-23">Tuesday 2024-01-23</h2>
+<ul>
+<li>At the office nice and early (7:30).</li>
+<li>Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at <a href="https://reactflow.dev/">react-flow</a> and comfyui
+<ul>
+<li>react-flow looks like it could work pretty well for this new project. Also: SO SHINY!</li>
+</ul>
+</li>
+<li>streamlit app life cycle: script re-runs every time user interacts, see <a href="https://docs.streamlit.io/get-started/fundamentals/summary">https://docs.streamlit.io/get-started/fundamentals/summary</a>
+<ul>
+<li>it does have caching mechanisms to make this go faster</li>
+<li>marimo, although much newer, approaches this issue with its reactive cell pattern</li>
+</ul>
+</li>
+<li>Idea: We should write focused technical memos at work. This is now howto, but rather &ldquo;things I learned&rdquo; formulated to teach not just to document.</li>
+<li>Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&rsquo;s a <a href="https://www.tomsguide.com/news/apple-issues-urgent-security-updates-to-fix-zero-day-flaw-update-your-iphone-and-mac-right-now">zero day vulnerability</a> in previous versions that can be exploited via malicious websites.</li>
+</ul>
+<h2 id="wednesday-2024-01-24">Wednesday 2024-01-24</h2>
+<ul>
+<li>8km run at just after 7 AM before it really got hot</li>
+<li>dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work</li>
+<li>right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW!
+<ul>
+<li>Remember kids: Our spine&rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally.</li>
+<li>This is also the reason why I&rsquo;m still searching for a long enough reclining chair.</li>
+</ul>
+</li>
+<li>Lovely working lunch with friend S at <a href="https://www.facebook.com/NoWayJoseSomerset">No Way José</a></li>
+<li>Some random ideas that popped into my head as I was trying to work:
+<ul>
+<li>idea: make github so that people can <code>pipx install marimo-turbo</code> to get install with pandas, altair, matplotlib, and so on.</li>
+<li>idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap
+<ul>
+<li>sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets</li>
+<li>in the end, probably better to do this on my own VPS
+<ul>
+<li>&hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See <a href="https://emacs.ch/@cpbotha/111811547009420844">https://emacs.ch/@cpbotha/111811547009420844</a> (post is also embedded below)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&gt; nginx -&gt; supervisord -&gt; tornado
+<ul>
+<li>systemd can partially do something like this using socket activation: <a href="https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation">https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation</a></li>
+<li>I would prefer to use supervisord for this</li>
+<li>This will remain on the todo list for now, unless one of you knows a trick?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &ldquo;crystal vs nim-lang&rdquo; googling
+<ul>
+<li>blog post: <a href="https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/">https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/</a></li>
+<li>the kubernetes thing: <a href="https://github.com/vitobotta/hetzner-k3s">https://github.com/vitobotta/hetzner-k3s</a></li>
+</ul>
+</li>
+</ul>
+<iframe src="https://emacs.ch/@cpbotha/111811547009420844/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://emacs.ch/embed.js" async="async"></script>
+<h3 id="til-mastodon-embeds-are-not-as-durable-as-twitter-embeds">TIL: mastodon embeds are not as durable as twitter embeds</h3>
+<p>As I pasted the above embed, I saw to my disappointment that it&rsquo;s just pulling in the mastodon post URL via <code>iframe</code>.</p>
+<p>With twitter, you get more self-contained HTML which will render even when twitter or just the original tweet don&rsquo;t exist anymore.</p>
+<p>This is probably just another reason to figure out how I can get more low-friction microblogging going on my own websites so that the embedding implementations of other microblogging sites become irrelevant.</p>
+<h2 id="thursday-2024-01-25">Thursday 2024-01-25</h2>
+<ul>
+<li>Took a look at <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/">cloudflare tunnels</a> to expose marimo and other dashboards to the internet
+<ul>
+<li>great that I can use my existing domains for this, and I can route between multiple domains to multiple locally running services</li>
+<li>some more steps to setup, but it did not take more than about 5 minutes, and gives me even more options than tailscale funnels. OPTIONS MAN!</li>
+</ul>
+</li>
+<li>At work, quickly got react-flow&hellip; flowing. SHINY!</li>
+<li>In the evening, found <a href="https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/">https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/</a> which is the new Shortcuts based way, based on the old AppleScript way, of getting a <code>message://</code> link onto the clipboard.
+<ul>
+<li>You <a href="/2023/04/11/note-taking-strategy-2023/#email-linking">might recall from this blog</a> that <code>message://</code> are the most durable and cross-platform way to link to emails from your notes (or anywhere else)</li>
+</ul>
+</li>
+</ul>
+<h2 id="friday-2024-01-26">Friday 2024-01-26</h2>
+<ul>
+<li>Woke up to cool, overcast weather, a big change from a series of 30℃ + days. Really had to resist going out for a run (normal run day + that amazing coolness), because of Wednesday&rsquo;s partially pulled back muscle not being 100% yet.</li>
+<li>Worked on mystery visualization project (react-flow)</li>
+<li>Lovely and energising lunch with previous colleague and friend. Happy that I reached out on Thursday although they have a packed schedule because only in country for limited time. I guess this is quite related to <a href="/2022/09/25/weekly-head-voices-246-call-up-your-friends/#call-up-your-friends">calling up your friends</a>, with a ping of serendipity salt.</li>
+<li>I was shocked by how well and fast <a href="https://ollama.ai/">ollama</a> worked on my MacBook. See embedded tweet below.</li>
+<li>Almost at the end of the afternoon, friend S and I went to some more friends for the first Weiss-off, that is, a Weiss beer tasting contest. It was huge fun blind-tasting 10 different Weiss beers, ranking them, trying to identify them (so much harder than I thought!), and then having them revealed at the end.
+<ul>
+<li>Between the experts there (read: us), Stangen Weiss Bier came out on top, followed by Weisbier No5 and Jack Black Atlantic Weiss. The fourth place was shared by Erdinger and CBC Amber Weiss.</li>
+<li>My favourite, Stellenbrau Jonkersweiss, is glaringly absent from the top. I&rsquo;ll live, probably consoled by just such a Jonkersweiss. Super happy that Amber Weiss and Atlantic are both present!</li>
+<li>There was a trophy (for the taster who could blind-identify the most beers in the Weiss-off), which we have christened the <em>David Weisselhoff wisseltrofee</em>.</li>
+</ul>
+</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With <a href="https://twitter.com/MistralAI?ref_src=twsrc%5Etfw">@MistralAI</a>&#39;s Mistral 7B at Q4_0 on this MacBook M1 Pro 10C / 16C, <a href="https://twitter.com/ollama?ref_src=twsrc%5Etfw">@ollama</a> looks like it&#39;s easily 3 times faster than the new MLX 0.0.11 (with GGUF support).<br><br>It&#39;s subjectively (visually) faster, and the tokens/s measurements confirm this. <a href="https://t.co/9vyluimLKK">pic.twitter.com/9vyluimLKK</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1750824125419942036?ref_src=twsrc%5Etfw">January 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="saturday-2024-01-27">Saturday 2024-01-27</h2>
+<ul>
+<li>Yesterday&rsquo;s Wonderful Weiss-off also had some, thankfully quite minor, effect the next morning, but I went out for a careful weekday distance run, which fortunately went without a hitch. Just very hot thanks.</li>
+<li>Went to Buco and then to <a href="https://appletoolandgas.com/">Apple Tool and Gas</a> to find the rest of the screws I needed to repair the shower door. Friendly gentleman at Apple even sawed some of my screws to size! Shower door back in operation.</li>
+<li>Updated my &ldquo;old&rdquo; M1 MBA to macOS 14.3 and then reset to transfer to GOU#1&rsquo;s iCloud. Say what you want about Apple, but that part of their stuff works <em>really</em> well.</li>
+<li>Left for Betty&rsquo;s Bay at about 16:00 with GOUs #1 and #2. The rest of the family already there.</li>
+</ul>
+<h2 id="sunday-2024-01-28">Sunday 2024-01-28</h2>
+<ul>
+<li>Woke up in Betty&rsquo;s Bay after a longer than normal night of sleep, but Garmin body battery was still not completely happy.</li>
+<li>In spite of having run yesterday and still feeling a bit tired (see body battery above), I had the best run of the month so far in Betty&rsquo;s. Go figure.</li>
+<li>Spent some time with Canva &ndash; what a great resource for doing nice designs, even flow charts &ndash; but not sure where I could use this.</li>
+<li>Background thought through the past weeks, and mentioned on Tuesday: I would really like to do (and promite) more TIL-style writing at work and at home. See <a href="https://til.simonwillison.net/">Simon Willison&rsquo;s amazing TIL collection</a> for inspiration.</li>
+<li>Ran into <a href="https://github.com/outlines-dev/outlines">https://github.com/outlines-dev/outlines</a> a Python library that can guarantee structured text generation from many LLMs, e.g. 100% valid JSON according to a specified schema. What makes it different from similar libraries? &ldquo;Unlike other libraries, regex-guided generation in Outlines is almost as fast as non-guided generation.&rdquo;</li>
+<li>I already had <a href="https://github.com/microsoft/autogen">AutoGen</a> on my list for experimenting with multi-agent LLM applications, but now it has been joined by <a href="https://github.com/joaomdmoura/crewAI">crewAI</a> which I have also just ran into (thanks reddit!) and which seems to have significant support online.</li>
+</ul>
+ ]]></content:encoded></item><item><title>Daily Head Voices for week 3 of 2024</title><link>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</link><pubDate>Sun, 21 Jan 2024 20:21:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/</guid><description>Monday 2024-01-15 Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT. Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&amp;rsquo;m doing this in addition to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help. Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 and GOU#2 there, on two very opposite ends of the spectrum. Tuesday 2024-01-16 MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/ Copilot Pro not yet available in South Africa 😥 $20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&amp;rsquo;m not convinced, will stick to my perplexity.ai for now. Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch. In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use webcola again, but this time with d3@latest &amp;ndash; sorta works, but no dragging. Have found work-around, still need to test. Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.) Wednesday 2024-01-17 Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7! Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &amp;ldquo;Hi&amp;hellip;&amp;rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha. Got caught up in GEKKO Optimization Suite due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe. TIL: John Lasseter drew the BSD daemon! See https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html &amp;ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the Creativity Inc. book (the one about Pixar!) notes post on this blog Thursday 2024-01-18 AlphaGeometry from Google DeepMind is great work combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose) News on our in-house GPT-wrapper front: Discovered that I now have to upgrade to the new tool_call api as the old functions one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations Note to self, and to you: The *Params types are TypedDict declarations which you can use to work directly with JSON requests and responses, while the non-*Params types are pydantic models which you can use to (de)serialize JSON. Went to see a really good Mohs surgery dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email. This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. https://t.co/DtREuQK5k7</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-15">Monday 2024-01-15</h2>
+<ul>
+<li>Discovered that we (at work) now have access to GPT-4 Turbo via Azure OpenAI: 128K context and much cheaper than the old GPT-4. Will have to upgrade our private internal assistant, code name StoneGPT.</li>
+<li>Inspired by stefanv, carefully trying out weekly planning, but in a slight deviation I&rsquo;m doing this <em>in addition</em> to my daily planning, which I only get around to a fraction of the time in any case. I think that this sort of multi-scalar examination and planning will help.</li>
+<li>Went to Bloemhof for the welcoming of the new grade 8 learners. Was really great to see GOU#1 <em>and</em> GOU#2 there, on two very opposite ends of the spectrum.</li>
+</ul>
+<h2 id="tuesday-2024-01-16">Tuesday 2024-01-16</h2>
+<ul>
+<li>MS Copilot Pro ($20) has been announced, and also Copilot 365 is now available for businesses of all sizes (not just enterprises who can commit to 300 seats): <a href="https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/">https://blogs.microsoft.com/blog/2024/01/15/bringing-the-full-power-of-copilot-to-more-people-and-businesses/</a>
+<ul>
+<li>Copilot Pro not yet available in South Africa 😥
+<ul>
+<li>$20 per month for integration with some Office apps (which could be useful, will have to see), priority access to latest models such as GPT-4 Turbo, and custom Copilots. I&rsquo;m not convinced, will stick to my <a href="https://www.perplexity.ai/">perplexity.ai</a> for now.</li>
+</ul>
+</li>
+<li>Copilot for 365 can be purchased per seat, but minimum 1 year commitment which is $360 per person per year. Ouch.</li>
+</ul>
+</li>
+<li>In addition to many meetings (Tuesday = meetings day), did manage to spend some quality time with a new visualization project. Slowly starting to use <a href="https://ialab.it.monash.edu/webcola/">webcola</a> again, but this time with d3@latest &ndash; sorta works, but no dragging. Have found work-around, still need to test.</li>
+<li>Went to bed really early, because must be up at 5:30 to help GOU#2 get ready for school and get to the bus stop on time. (Slept super badly thanks.)</li>
+</ul>
+<h2 id="wednesday-2024-01-17">Wednesday 2024-01-17</h2>
+<ul>
+<li>Up at 5:30 after a pretty restless night. GOU#2 on the bus at 6 after some serious morning prep multi-tasking, GOU#3 (age 7) so organized and independent, ready to leave for school at 7!</li>
+<li>Nice and early(ish) slightly longer weekday run before work. My hip sent me a Teams message &ldquo;Hi&hellip;&rdquo; at about 80% of the route somewhere, but fortunately no follow-up. Colleagues on chat, haha.</li>
+<li>Got caught up in <a href="#d41d8c">GEKKO Optimization Suite</a> due to meetings with colleagues about various simulations. My initial enthusiasm was somewhat dampened upon learning that behind the Python API lies an admittedly useful but quite black-box compiled binary called apm.exe.</li>
+<li>TIL: John Lasseter drew the BSD daemon! See <a href="https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html">https://www.jacobelder.com/2024/01/17/director-of-toy-story-also-drew-bsd-daemon.html</a> &ndash; I remember that daemon from the time when I had FreeBSD on my machine at home instead of Linux (somewhere in the 90s). You might remember that name from the <a href="/2020/12/22/book-notes-creativity-inc/#the-story-is-more-important-than-the-technology">Creativity Inc.</a> book (the one about Pixar!) notes post on this blog</li>
+</ul>
+<h2 id="thursday-2024-01-18">Thursday 2024-01-18</h2>
+<ul>
+<li><strong>AlphaGeometry from Google DeepMind is great work</strong> combining a symbolic math engine with a language model to solve Olympiad geometry math problems at just under gold-medalist level. See below for my breathless tweet. (twitter is still the uncontested ML firehose)</li>
+<li>News on our in-house GPT-wrapper front:
+<ul>
+<li>Discovered that I now have to upgrade to the new <code>tool_call</code> api as the old <code>functions</code> one has been deprecated. Made use of the opportunity to improve our implementation of the supplied OpenAI type annotations</li>
+<li>Note to self, and to you: The <code>*Params</code> types are <code>TypedDict</code> declarations which you can use to work directly with JSON requests and responses, while the non-<code>*Params</code> types are pydantic models which you can use to (de)serialize JSON.</li>
+</ul>
+</li>
+<li>Went to see a really good <a href="https://www.mayoclinic.org/tests-procedures/mohs-surgery/about/pac-20385222">Mohs surgery</a> dermatologist who will soon be removing my basal cell carcinomas. As always, AMA in the comments or via email.</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is such fantastic work! Symbolic engine + language model working together to solve Olympiad geometry math problems at just under gold-medalist level. Also, beautiful illustrations in the paper and posts. <a href="https://t.co/DtREuQK5k7">https://t.co/DtREuQK5k7</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1747857845356298739?ref_src=twsrc%5Etfw">January 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="friday-2024-01-19">Friday 2024-01-19</h2>
+<ul>
+<li>Spent most of my working hours wrappng up and deploying the brand new version of our internal GPT. I read somewhere that you should <em>always</em> deploy on a Friday, as late as possible.</li>
+<li>I was stressing quite a bit, as I had a great task before me:</li>
+<li>Braaiing 200 boeries in the 39 degrees Celsius heat at the school in Stellenbosch, in order to feed the new grade 8 learners on the evening of their initiation.
+<ul>
+<li>All thanks to the fellow dad who joined me, the stress transformed completely into an enjoyable few hours taking care of this important duty, and I made a new friend!</li>
+</ul>
+</li>
+<li>The kids, including our very own GOU#2, were facing the challenging night before them&hellip;</li>
+</ul>
+<h2 id="saturday-2024-01-20">Saturday 2024-01-20</h2>
+<ul>
+<li>woke up at 5:40 because was planning to fetch GOU#1 and GOU#2 after their eventful and successful night, but thankfully partner was willing to go!</li>
+<li>me very tired the whole day, just hanging (literally) around with family, and spending too much time on twitter / threads / reddit / inoreader! (brain was not willing to do much else, at least learned new things, some of which are mentioned below)</li>
+<li>Based on <a href="https://news.ycombinator.com/item?id=39055139">this HN discussion</a> about <a href="https://delta.io/blog/delta-lake-vs-parquet-comparison/">this blog post comparing Delta Lake and Parquet</a>, learned that Delta Parquet aka Delta Tables (which I&rsquo;ve read about in the context of Azure) is just a bunch of parquet files with some json metadata!
+<ul>
+<li>I&rsquo;ve been enjoying <a href="https://parquet.apache.org/">parquet</a> for years now, in the context of scipy and specifically pandas.</li>
+<li>Indeed, OneLake, also part of Microsoft Fabric, has Delta Parquet at its core.</li>
+<li>Apache Iceberg is a similar but more open source implemenation: <a href="https://iceberg.apache.org/">https://iceberg.apache.org/</a></li>
+<li>Based on <a href="https://www.dremio.com/blog/exploring-the-architecture-of-apache-iceberg-delta-lake-and-apache-hudi/">this comparison between Iceberg, Delta Lake and Hudi</a> it looks like all of these data lake storage layers are just parquet files with metadata, and then some logic, to give database like semantics over distributed object stores. Neat!</li>
+</ul>
+</li>
+<li>In bed last night, falling asleep, I had the following idea:
+<ul>
+<li><em>My Current Life Canvas</em> is a 3D bubble (off to my right for some reason&hellip; and moving with me as I walk) the interior of which I can view using my phone via AR (have to move phone in space to view inside of bubble, with current topics arranged in familiar spots; I thought having a world map would help, because well-known and memorable locations for your topics / priorities / ideas) or any of these amazing new VR headsets, BUT you can also interact with it via computer because inside of bubble can just be projected to surface using any of the well-known <a href="https://en.wikipedia.org/wiki/Map_projection">map projection techniques</a>.</li>
+<li>CLC does not have a regular cadence like the daily or weekly plan, but is revised or redone a few times per year. It focuses on your major life priorities at any one point in time.</li>
+<li>Although this was just a dreamy idea, I do like that it offers multi-modal interaction on the spectrum from AR/VR to more conventional desktop paradigms</li>
+<li>&hellip; of course there should be some kind of friendly AI floating in the bubble with you :P (Microsoft Bob?)</li>
+</ul>
+</li>
+</ul>
+<h2 id="sunday-2024-01-21">Sunday 2024-01-21</h2>
+<ul>
+<li>Super enjoyable weekend long(ish) run.</li>
+<li>Tried out Omnivore&rsquo;s PDF annotation support, see screenshot below. Pretty impressive, and very cool that the highlights sync into my Emacs-based notes setup via markdown. Have slightly mixed feelings, because now will have to come up with new rule for when a paper goes into Zotero (fully local, full citations, but no automatic highlights sync) and when it goes into Omnivore (good sort of cloud but not local, no full citations, automatic sync into my notes)</li>
+<li>Extended family Sunday lunch at our place was great, but me not at normal energy levels yet.</li>
+<li>One of my goals for this week was &ldquo;Get through the week, especially Friday braai&rdquo;. Mission successful!</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<figure><a href="20240121-screenshot-omnivore-pdf-emacs.png">
+    <img
+        
+            sizes="(min-width: 35em) 1200px, 100vw"
+              
+            srcset='
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_8552fa2e79f0c31.png 480w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png 800w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_70c21750f4c22771.png 1200w,
+            
+                
+                https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_3fd7290a1dd605.png 1500w,
+            '
+
+            
+            
+            src="https://cpbotha.net/2024/01/21/daily-head-voices-2024-01-15_21/20240121-screenshot-omnivore-pdf-emacs_hu_d562277b8133fec1.png"
+            
+
+        /> </a>
+</figure>
+
+ ]]></content:encoded></item><item><title>Weekly Head Voices #238: Live deep and suck out all the marrow of life</title><link>https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/</link><pubDate>Wed, 09 Feb 2022 21:24:00 +0200</pubDate><guid>https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/</guid><description>Welcome everyone to the 238th edition of the Weekly Head Voices, this one covering the week from Monday, January 31 to Sunday, February 6, 2022.
 I would like to get you started with some flowers, after which there is a possibly boring bit about improving my keyboard, followed by a final bit with a quote which I think is a bit more than just a two-bit quote.
 Figure 1: Photo taken by GOU #1 at Vergelegen Wine Estate during a solidly Thing-level (see WHV #237) Sunday lunch with my inner inner circle.</description><content:encoded><![CDATA[ <p>Welcome everyone to the 238th edition of the Weekly Head Voices, this one
 covering the week from Monday, January 31 to Sunday, February 6, 2022.</p>
 <p>I would like to get you started with some flowers, after which there is a
 possibly boring bit about improving my keyboard, followed by a final bit with a
 quote which I think is a bit more than just a two-bit quote.</p>
+
+
 
 
 
@@ -20,18 +259,22 @@ quote which I think is a bit more than just a two-bit quote.</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu9fead7a3f6340f98938310326f8faad7_3059019_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu_cff9b84a441a8d3c.jpg 480w,
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu9fead7a3f6340f98938310326f8faad7_3059019_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu_45e4d73a0aaf9605.jpg 800w,
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu9fead7a3f6340f98938310326f8faad7_3059019_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu_61885087f6b5e926.jpg 1200w,
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu9fead7a3f6340f98938310326f8faad7_3059019_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu_2bb4fa6891102c00.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu9fead7a3f6340f98938310326f8faad7_3059019_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/vergelegen-sunflowers_hu_45e4d73a0aaf9605.jpg"
             
 
         
@@ -73,6 +316,8 @@ about.)</p>
 
 
 
+
+
 <figure><a href="womier-red-switches-in-progress.jpg">
     <img
         
@@ -80,18 +325,22 @@ about.)</p>
               
             srcset='
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu06a89d3565099197aa98ca55e791c386_3364266_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu_eba9a6586102a618.jpg 480w,
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu06a89d3565099197aa98ca55e791c386_3364266_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu_27e3122ab60fc9ac.jpg 800w,
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu06a89d3565099197aa98ca55e791c386_3364266_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu_f1dd48997b47cbb3.jpg 1200w,
             
-                   https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu06a89d3565099197aa98ca55e791c386_3364266_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu_bf48cb92009d142a.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu06a89d3565099197aa98ca55e791c386_3364266_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/02/09/weekly-head-voices-238-live-deep-and-suck-out-all-the-marrow-of-life/womier-red-switches-in-progress_hu_27e3122ab60fc9ac.jpg"
             
 
         
@@ -134,9 +383,11 @@ corner, and reduce it to its lowest terms&hellip; &ndash; Henry David Thoreau (<
 <p>(I just spent some time on <a href="https://en.wikipedia.org/wiki/Henry_David_Thoreau">Thoreau&rsquo;s wikipedia page</a>. It turns out it was not
 just this quote, he was an impressive human.)</p>
 <p>Folks, remember to squeeze out every last drop from <em>your</em> experience!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #237: Don't step over the thing</title><link>https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/</link><pubDate>Thu, 03 Feb 2022 22:29:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/</guid><description> Well hello there and welcome to the first Weekly Head Voices of the year 2022!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #237: Don't step over the thing</title><link>https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/</link><pubDate>Thu, 03 Feb 2022 22:29:00 +0200</pubDate><guid>https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/</guid><description>Well hello there and welcome to the first Weekly Head Voices of the year 2022!
 Figure 1: So many penguins at Stone Point in Betty&amp;rsquo;s Bay.
 Where we usually pretend that a WHV covers a certain period of time since the previous one, this one will simply engage in some excessive but pretty skillful hand-waving and say that if you read it and the 2021 to 2022 year transition post, you should be more or less up to date with the state of this nation up to Sunday, January 30, 2022.</description><content:encoded><![CDATA[ <p>Well hello there and welcome to the first Weekly Head Voices of the year 2022!</p>
+
+
 
 
 
@@ -152,22 +403,26 @@ Where we usually pretend that a WHV covers a certain period of time since the pr
               
             srcset='
             
-                   https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu52ea6b72fcd7443fb0538e6c2d985b60_2006719_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu_9866263410c58c6b.jpg 480w,
             
-                   https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu52ea6b72fcd7443fb0538e6c2d985b60_2006719_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu_9f59b96960f2cf8f.jpg 800w,
             
-                   https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu52ea6b72fcd7443fb0538e6c2d985b60_2006719_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu_ce1bc52f149811aa.jpg 1200w,
             
-                   https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu52ea6b72fcd7443fb0538e6c2d985b60_2006719_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu_e4ea40aad9c981ff.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu52ea6b72fcd7443fb0538e6c2d985b60_2006719_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2022/02/03/weekly-head-voices-237-dont-step-over-the-thing/stony_point_penguins_2022-01-07_hu_9f59b96960f2cf8f.jpg"
             
 
         
-            alt="Figure 1: So many penguins at Stone Point in Betty&amp;rsquo;s Bay."/> </a><figcaption>
+            alt="Figure 1: So many penguins at Stone Point in Betty&rsquo;s Bay."/> </a><figcaption>
             <p><span class="figure-number">Figure 1: </span>So many penguins at Stone Point in Betty&rsquo;s Bay.</p>
         </figcaption>
 </figure>
@@ -261,13 +516,14 @@ act of seeking it.</strong> [ed: my emphasis. I loved this bit]</p>
 <p>His words hit home for me.</p>
 <p>Dear readers, I truly wish you an abundance of recognizing the thing, and of
 <em>being</em> happy.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #225: Just a perfect weekend</title><link>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</link><pubDate>Thu, 10 Jun 2021 09:03:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</guid><description> Dear reader,
+ ]]></content:encoded></item><item><title>Weekly Head Voices #225: Just a perfect weekend</title><link>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</link><pubDate>Thu, 10 Jun 2021 09:03:00 +0200</pubDate><guid>https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/</guid><description>Dear reader,
 Welcome (back) to the Weekly Head Voices, and specifically to the 225th installment, covering the period from Monday May 24 to Sunday June 6, 2021.
 Keyboard update: K1 You&amp;rsquo;ll remember from WHV #204 that my previous keyboard acquisition was the Womier K87 with its all-encompassing RGB and hot-swappable Gateron brown switches.
-That keyboard is so much fun to type on.
-It&amp;rsquo;s hard to describe what leads to all that fun, relative to say the MS Sculpt Ergonomic (which makes a lot more sense as a typing device).</description><content:encoded><![CDATA[ <p>Dear reader,</p>
+That keyboard is so much fun to type on.</description><content:encoded><![CDATA[ <p>Dear reader,</p>
 <p>Welcome (back) to the Weekly Head Voices, and specifically to the 225th
 installment, covering the period from Monday May 24 to Sunday June 6, 2021.</p>
+
+
 
 
 
@@ -283,18 +539,22 @@ installment, covering the period from Monday May 24 to Sunday June 6, 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_efacf2278401042b.jpg 480w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_395a276d16bd5112.jpg 800w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_9b888013a0ce8df0.jpg 1200w,
             
-                   https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_f05d46bcd41cf24a.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu2c92717c03fbdd0baeaf04b9d5a0a258_4865461_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/06/10/weekly-head-voices-225-just-a-perfect-weekend/la_autumn_tree_hu_395a276d16bd5112.jpg"
             
 
         /> </a>
@@ -391,13 +651,14 @@ weekend.</p>
 <p>If you ever run into me before the weekend (it&rsquo;s always before the weekend!), I
 would be grateful if you could remind me that it is in fact now.</p>
 <p>Folks, I wish you much nowness.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #223: The potjie never left</title><link>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</link><pubDate>Fri, 21 May 2021 22:34:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</guid><description> Welcome friends to the two hundred and twenty third edition of the Weekly Head Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #223: The potjie never left</title><link>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</link><pubDate>Fri, 21 May 2021 22:34:00 +0200</pubDate><guid>https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/</guid><description>Welcome friends to the two hundred and twenty third edition of the Weekly Head Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.
 (Hah, by writing out the words like that, I&amp;rsquo;ll get paid even more for this article!)
-Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.
-vxlabs software development handbook v1 is out Well, it&amp;rsquo;s not really a book, more of a blog post really, but it is chock full of practical guidelines for developers.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
+Figure 1: Scene from the perfect first half of a run, right before that sublime experience was sunk by a catastrophic audio hardware fault.</description><content:encoded><![CDATA[ <p>Welcome friends to the two hundred and twenty third edition of the Weekly Head
 Voices, covering the period of time from Monday May 3 to Sunday May 16, 2021.</p>
 <p>(Hah, by writing out the words like that, I&rsquo;ll get paid even more for this
 article!)</p>
+
+
 
 
 
@@ -413,18 +674,22 @@ article!)</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_7cbec36f66f46ce9.jpg 480w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_9c00e99c7ebe6317.jpg 800w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_5b4904a8b92c6eb0.jpg 1200w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_2059833eebfe1bf7.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu2af5629a3a1a06676bdc87f622145d11_479381_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/verg_just_before_endurance_broke_hu_9c00e99c7ebe6317.jpg"
             
 
         
@@ -510,6 +775,8 @@ a potjie.</p>
 
 
 
+
+
 <figure><a href="chicken-curry-potjie-2021.jpg">
     <img
         
@@ -517,22 +784,26 @@ a potjie.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_851d8ef19cf3be22.jpg 480w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_a6e81b0fbea9949a.jpg 800w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_c7468ed7bcf7e946.jpg 1200w,
             
-                   https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_e029c5f2d370256.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu4ef2407d2d9072b862053f2bb470f814_1889922_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/05/21/weekly-head-voices-223-the-potjie-never-left/chicken-curry-potjie-2021_hu_a6e81b0fbea9949a.jpg"
             
 
         
-            alt="Figure 2: From this photo, it&amp;rsquo;s also quite clear that I have become much taller."/> </a><figcaption>
+            alt="Figure 2: From this photo, it&rsquo;s also quite clear that I have become much taller."/> </a><figcaption>
             <p>Figure 2: From this photo, it&rsquo;s also quite clear that I have become much taller.</p>
         </figcaption>
 </figure>
@@ -544,11 +815,13 @@ the same recipe.</p>
 acting as a sort of reliable cast iron backdrop (with enamel coating!) for our
 family and friendship rituals.</p>
 <p>On this day, the ritual was indeed sublime.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #216: Sup?</title><link>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</link><pubDate>Fri, 19 Feb 2021 09:08:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</guid><description> Hello everyone, and welcome to WHV #216, the one looking back at the two weeks from Monday February 1 to Sunday February 14, 2021.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #216: Sup?</title><link>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</link><pubDate>Fri, 19 Feb 2021 09:08:00 +0200</pubDate><guid>https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/</guid><description>Hello everyone, and welcome to WHV #216, the one looking back at the two weeks from Monday February 1 to Sunday February 14, 2021.
 Figure 1: Sup?
 The two weeks in question can be characterised by Somehow Working Really Hard with Lots of Focus.
 I would like to say that it has something to do with the liberal daily application of the One Main Thing idea, but experience has taught me that it&amp;rsquo;s probably some other unexpected and hidden interaction of a number of obscure factors that I will never ever understand, and that next week I&amp;rsquo;ll be solidly back in the arms of my old friend the really slippery eel.</description><content:encoded><![CDATA[ <p>Hello everyone, and welcome to WHV #216, the one looking back at the two weeks
 from Monday February 1 to Sunday February 14, 2021.</p>
+
+
 
 
 
@@ -564,18 +837,22 @@ from Monday February 1 to Sunday February 14, 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_fb2d17c10710e237.jpg 480w,
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_44250e253e07a2d6.jpg 800w,
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_f280c2aa6b5952a1.jpg 1200w,
             
-                   https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_229a3bd50666e81d.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hua6953280791f991e1fffdd9f82837fa6_1293397_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/02/19/weekly-head-voices-216-sup/sup_bettys_hu_44250e253e07a2d6.jpg"
             
 
         
@@ -645,13 +922,14 @@ technical reasons.</p>
 report that she has, quite routinely if I may add, done another two or three
 10k runs, one of them even up to eleven by accident.</p>
 <p>Folks I wish you all the best. I look forward to our next connection!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #215: Gateway to an unknown universe (aka Taalmonument)</title><link>https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/</link><pubDate>Tue, 02 Feb 2021 09:48:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/</guid><description><![CDATA[ How do you do, fellow humans? (Sub-vocalise in Steve Buscemi voice for maximum effect.)
+ ]]></content:encoded></item><item><title>Weekly Head Voices #215: Gateway to an unknown universe (aka Taalmonument)</title><link>https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/</link><pubDate>Tue, 02 Feb 2021 09:48:00 +0200</pubDate><guid>https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/</guid><description>How do you do, fellow humans? (Sub-vocalise in Steve Buscemi voice for maximum effect.)
 This edition of the Weekly Head Voices covers the week from Monday January 25 to Sunday January 31 of the year 2021.
-Figure 1: Weekend scene from the Afrikaans Language Monument (or &ldquo;Taalmonument&rdquo;, when you speak the lingo). Initially I thought about &lsquo;shopping out the photo-shooting couple, but I&rsquo;ve grown to like them now.
-My notes for the period don&rsquo;t have much that is WHV-worthy, except for the following two humble offerings:]]></description><content:encoded><![CDATA[ <p>How do you do, fellow humans? (Sub-vocalise in <a href="https://en.wikipedia.org/wiki/Steve%5FBuscemi">Steve Buscemi</a> voice for maximum
+Figure 1: Weekend scene from the Afrikaans Language Monument (or &amp;ldquo;Taalmonument&amp;rdquo;, when you speak the lingo). Initially I thought about &amp;lsquo;shopping out the photo-shooting couple, but I&amp;rsquo;ve grown to like them now.</description><content:encoded><![CDATA[ <p>How do you do, fellow humans? (Sub-vocalise in <a href="https://en.wikipedia.org/wiki/Steve%5FBuscemi">Steve Buscemi</a> voice for maximum
 effect.)</p>
 <p>This edition of the Weekly Head Voices covers the week from Monday January 25
 to Sunday January 31 of the year 2021.</p>
+
+
 
 
 
@@ -667,22 +945,26 @@ to Sunday January 31 of the year 2021.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_huf555a7e5629744fbb3029a2fc07d9227_878259_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_hu_56d2d9410a542bc.jpg 480w,
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_huf555a7e5629744fbb3029a2fc07d9227_878259_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_hu_fb830f9db10ec984.jpg 800w,
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_huf555a7e5629744fbb3029a2fc07d9227_878259_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_hu_255c99c30488c851.jpg 1200w,
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_huf555a7e5629744fbb3029a2fc07d9227_878259_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_hu_903056072088df79.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_huf555a7e5629744fbb3029a2fc07d9227_878259_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_front_hu_fb830f9db10ec984.jpg"
             
 
         
-            alt="Figure 1: Weekend scene from the Afrikaans Language Monument (or &amp;ldquo;Taalmonument&amp;rdquo;, when you speak the lingo). Initially I thought about &amp;lsquo;shopping out the photo-shooting couple, but I&amp;rsquo;ve grown to like them now."/> </a><figcaption>
+            alt="Figure 1: Weekend scene from the Afrikaans Language Monument (or &ldquo;Taalmonument&rdquo;, when you speak the lingo). Initially I thought about &lsquo;shopping out the photo-shooting couple, but I&rsquo;ve grown to like them now."/> </a><figcaption>
             <p>Figure 1: Weekend scene from the Afrikaans Language Monument (or &ldquo;Taalmonument&rdquo;, when you speak the lingo). Initially I thought about &lsquo;shopping out the photo-shooting couple, but I&rsquo;ve grown to like them now.</p>
         </figcaption>
 </figure>
@@ -745,6 +1027,8 @@ the series.</p>
 
 
 
+
+
 <figure><a href="taalmonument_from_below_gateway.jpg">
     <img
         
@@ -752,13 +1036,17 @@ the series.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_from_below_gateway_hu88e74d0b4c5604d2173bc986e54e3230_23704_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_from_below_gateway_hu_192e65103cafa30.jpg 480w,
             
-                   
+                
+                
             
-                   
+                
+                
             
-                   
+                
+                
             '
 
             
@@ -787,6 +1075,8 @@ science fiction productions. I think its time will come.</p>
 
 
 
+
+
 <figure><a href="taalmonument_spheres.jpg">
     <img
         
@@ -794,18 +1084,22 @@ science fiction productions. I think its time will come.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu4617c819c490892dad6b6e6b5c5a3674_562233_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu_2bc16d4a3cfdf780.jpg 480w,
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu4617c819c490892dad6b6e6b5c5a3674_562233_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu_eb9741118d840b77.jpg 800w,
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu4617c819c490892dad6b6e6b5c5a3674_562233_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu_33abdc1c8c6cd863.jpg 1200w,
             
-                   https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu4617c819c490892dad6b6e6b5c5a3674_562233_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu_e8f6a8e6ebb74a7f.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu4617c819c490892dad6b6e6b5c5a3674_562233_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/02/02/weekly-head-voices-215-gateway-universe-taalmonument/taalmonument_spheres_hu_eb9741118d840b77.jpg"
             
 
         
@@ -816,11 +1110,11 @@ science fiction productions. I think its time will come.</p>
 
 <p>With that my friends, and my wish that you are really able to shine this week,
 I declare this post concluded.</p>
-]]></content:encoded></item><item><title>The 2020 to 2021 transition post</title><link>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</link><pubDate>Sun, 10 Jan 2021 15:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</guid><description><![CDATA[ Welcome to the year 2021 friends.
+ ]]></content:encoded></item><item><title>The 2020 to 2021 transition post</title><link>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</link><pubDate>Sun, 10 Jan 2021 15:19:00 +0200</pubDate><guid>https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/</guid><description>Welcome to the year 2021 friends.
 Every year around about this time, I try to write a transition post like this one.
-You can get a list of all of the transition posts by going to the &ldquo;transition&rdquo; tag page.
-If you don&rsquo;t have time to read them all (haha), you could just scan through last year&rsquo;s 2019 to 2020 edition.
-This transition tradition started at the end of 2009, which coincidentally is also the year that the Weekly Head Voices was born.]]></description><content:encoded><![CDATA[ <p>Welcome to the year 2021 friends.</p>
+You can get a list of all of the transition posts by going to the &amp;ldquo;transition&amp;rdquo; tag page.
+If you don&amp;rsquo;t have time to read them all (haha), you could just scan through last year&amp;rsquo;s 2019 to 2020 edition.
+This transition tradition started at the end of 2009, which coincidentally is also the year that the Weekly Head Voices was born.</description><content:encoded><![CDATA[ <p>Welcome to the year 2021 friends.</p>
 <p>Every year around about this time, I try to write a transition post like this one.</p>
 <p>You can get a list of all of the transition posts by going to <a href="/tags/transition/">the &ldquo;transition&rdquo;
 tag page</a>.</p>
@@ -838,6 +1132,8 @@ to gaze unsuccessfully into the future.</p>
 
 
 
+
+
 <figure><a href="leopards_kloof.jpg">
     <img
         
@@ -845,22 +1141,26 @@ to gaze unsuccessfully into the future.</p>
               
             srcset='
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_a5029f88e36e0460.jpg 480w,
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_335ac2d3414debe5.jpg 800w,
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_2a0689e34a9c502a.jpg 1200w,
             
-                   https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_dd9b132d68990a15.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu5764d9b19d63464c70ccbed24cb90bd6_4357448_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2021/01/10/the-2020-to-2021-transition-post/leopards_kloof_hu_335ac2d3414debe5.jpg"
             
 
         
-            alt="Figure 1: A scene from a hike up Leopard&amp;rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&amp;rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021."/> </a><figcaption>
+            alt="Figure 1: A scene from a hike up Leopard&rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021."/> </a><figcaption>
             <p>Figure 1: A scene from a hike up Leopard&rsquo;s Kloof. I chose this one, because it deviates nicely from the usual cloudy skies images in my posts. Also, it&rsquo;s just intriguing and perhaps foreboding enough to accompany any predictions for 2021.</p>
         </figcaption>
 </figure>
@@ -961,8 +1261,8 @@ the contents of the much more substantial book it is based on!</p>
 <h3 id="details-for-nerds">Details for nerds</h3>
 <p>This is the invocation I used to generate reports from the nginx log files
 using the <a href="https://goaccess.io/">goaccess</a> tool:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz |<span style="color:#2aa198">\
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>    goaccess --ignore-crawlers --log-format=COMBINED -
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zcat -f -- /var/log/nginx/cpbotha.net.access.log.*.gz <span style="color:#1f2328">|</span><span style="color:#0a3069">\
+</span></span></span><span style="display:flex;"><span>    goaccess --ignore-crawlers --log-format<span style="color:#0550ae">=</span>COMBINED -
 </span></span></code></pre></div><h2 id="running">Running</h2>
 <p>In 2020 I seem to have run just 100 metres shy of 1100km. (Typical&hellip;)</p>
 <p>More would have been good, but I&rsquo;m happy with this.</p>
@@ -1073,14 +1373,15 @@ game-changing firmware upgrade&hellip;</p>
 <p>Quite concretely, we can all help to make this happen by being as kind as we
 possibly can to as many fellow humans as we possibly can.</p>
 <p>In the words of a fellow traveller: SMÉAGOL OUT!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #208: Stilbaai</title><link>https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/</link><pubDate>Sat, 07 Nov 2020 10:59:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/</guid><description> Welcome back folks!
+ ]]></content:encoded></item><item><title>Weekly Head Voices #208: Stilbaai</title><link>https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/</link><pubDate>Sat, 07 Nov 2020 10:59:00 +0200</pubDate><guid>https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/</guid><description>Welcome back folks!
 Although my weeks have been quite full, this post is short.
 It covers a few noteworthy (to me) events and observations from the period Monday October 12 to Sunday November 1, 2020.
-Figure 1: Skulpiesbaai, taken from the halfway-point of a coastal run in Stilbaai.
-Running and reading I am super chuffed that on Sunday October 18, 2020, GOU #1 (14) completed her first (virtual) 10km race.</description><content:encoded><![CDATA[ <p>Welcome back folks!</p>
+Figure 1: Skulpiesbaai, taken from the halfway-point of a coastal run in Stilbaai.</description><content:encoded><![CDATA[ <p>Welcome back folks!</p>
 <p>Although my weeks have been quite full, this post is short.</p>
 <p>It covers a few noteworthy (to me) events and observations from the period
 Monday October 12 to Sunday November 1, 2020.</p>
+
+
 
 
 
@@ -1096,18 +1397,22 @@ Monday October 12 to Sunday November 1, 2020.</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu_46acf3c3f678d550.jpg 480w,
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu_f7f6cdf435a7c4d9.jpg 800w,
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu_1614c582d184de22.jpg 1200w,
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu_f29fa82170a547c1.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu691bf885d730239611b633c8d1dd37a3_1806431_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/skulpiesbaai_pano_hu_f7f6cdf435a7c4d9.jpg"
             
 
         
@@ -1166,6 +1471,8 @@ getting off the ground.</p>
 
 
 
+
+
 <figure><a href="stilbaai_0181.jpg">
     <img
         
@@ -1173,18 +1480,22 @@ getting off the ground.</p>
               
             srcset='
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_480x0_resize_q75_box.jpg 480w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_hu_307c06ace4a2e073.jpg 480w,
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_800x0_resize_q75_box.jpg 800w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_hu_6d9a3153824ea304.jpg 800w,
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_1200x0_resize_q75_box.jpg 1200w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_hu_a412f99424343cec.jpg 1200w,
             
-                   https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_1500x0_resize_q75_box.jpg 1500w,
+                
+                https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_hu_9b81c80d3a5894ee.jpg 1500w,
             '
 
             
             
-            src="https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_huc9c81152ace165d41ebdfc6e1f30e49b_533893_800x0_resize_q75_box.jpg"
+            src="https://cpbotha.net/2020/11/07/weekly-head-voices-208-stilbaai/stilbaai_0181_hu_6d9a3153824ea304.jpg"
             
 
         /> </a>
@@ -1227,302 +1538,4 @@ widely known but great tips for running your work days more efficiently.</p>
 <p>The comments section below is ready for your thoughts, if you would like to
 externalise them.</p>
 <p>I look forward to our next meeting.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #196: Get focused</title><link>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</link><pubDate>Sun, 31 May 2020 22:27:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/</guid><description> Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here.
-Well hello there folks, please make yourself at home!
-This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the extremely strange year of 2020.</description><content:encoded><![CDATA[ 
-
-
-
-
-
-
-
-<figure><a href="sylvia_draws_family_20200531.jpg">
-    <img
-        
-            sizes="(min-width: 35em) 1200px, 100vw"
-              
-            srcset='
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_480x0_resize_q75_box.jpg 480w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg 800w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1200x0_resize_q75_box.jpg 1200w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_1500x0_resize_q75_box.jpg 1500w,
-            '
-
-            
-            
-            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/sylvia_draws_family_20200531_huca2519a06503f1c6214cd27e29fdc471_13081135_800x0_resize_q75_box.jpg"
-            
-
-        
-            alt="Figure 1: Our house clan, as drawn by GOU #2. I&amp;rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&amp;rsquo;s who. Readers might also notice that I&amp;rsquo;m slightly outnumbered here."/> </a><figcaption>
-            <p>Figure 1: Our house clan, as drawn by GOU #2. I&rsquo;ve blurred out the names of everyone else, but those of you who know us should be able to figure out who&rsquo;s who. Readers might also notice that I&rsquo;m slightly outnumbered here.</p>
-        </figcaption>
-</figure>
-
-<p>Well hello there folks, please make yourself at home!</p>
-<p>This WHV looks back at the two weeks from Monday May 18 to Sunday May 31 of the
-extremely strange year of 2020.</p>
-<p>That effort of looking back has resulted in the following three items.</p>
-<h2 id="when-building-automatic-analysis-pipelines-get-your-batch-accuracy-testing-up-as-soon-as-you-can">When building automatic analysis pipelines, get your batch accuracy testing up as soon as you can</h2>
-<p>A substantial part of my work hours these past two weeks went into working on a
-automatic medical image analysis pipeline, with machine learning
-inside™. (I mean &ldquo;AI&rdquo;, of course. And drones.)</p>
-<p>I really do love this stuff, but sometimes it ends up coming down to putting
-your head down and keeping it down, in order to grind out every percent or two
-in improved accuracy.</p>
-<p>The tip I wanted to offer here is the following: Even when you think your
-pipeline is way too far from &ldquo;done&rdquo;™, get your batch accuracy testing up
-and running.</p>
-<p>It&rsquo;s a double whammy:</p>
-<ol>
-<li>You and your team get early and regular feedback on how your performance is
-going.</li>
-<li>You are forced to have the whole concept working from end-to-end. It can be
-surprising how many little issues you still need to solve, and running into
-them sooner rather than later is only good.</li>
-</ol>
-<p>By the way, the practical machine learning icon <a href="https://en.wikipedia.org/wiki/Andrew%5FNg">Professor Andrew Ng&rsquo;s</a> free book
-<a href="https://www.deeplearning.ai/machine-learning-yearning/">Machine Learning Yearning</a> is filled to the brim with practical tips for
-implementing ML in practice.</p>
-<h2 id="lazar-focus-the-super-tiny-windows-app-and-website-distraction-blocker-that-you-ve-always-wanted">Lazar Focus: The super tiny Windows app and website distraction blocker that you&rsquo;ve always wanted</h2>
-<p>Back at the <a href="/2018/01/07/weekly-head-voices-126-fleur-de-lis/">start of 2018 I wrote the following about the macOS app and website
-distraction blocker called Focus</a>:</p>
-<blockquote>
-<p>After years of resisting these types of software tools due to my belief that I
-should simply apply more grit and will power to squeeze out more focus hours,
-I finally broke down and purchased the macOS app called Focus. You click its
-pretty icon, and then your computer goes into focus mode: The Mail application
-and a bunch of other non-focus-related apps all get killed, and a bunch of
-websites (reddit, youtube, work chat, etc) are blocked for a user-configurable
-block of time.</p>
-</blockquote>
-<p>Even if you skipped that extract, please read the following one about the
-<em>idea</em> behind such a focus app:</p>
-<blockquote>
-<p>It usually takes a single moment of weakness for a distraction to terminate a
-valuable block of focus. It takes a single moment of strength for this tool to
-start a valuable block of focus.</p>
-</blockquote>
-<p>Anyways, I was really missing this functionality on Windows, and so I busted
-out my trusty <a href="https://www.lazarus-ide.org/">Lazarus IDE</a> (who <em>didn&rsquo;t</em> make apps back in the day with the old
-win32 Delphi?!) and figured out the various required Windows APIs to create
-this brand new super tiny but super effective app and website blocker:</p>
-
-
-
-
-
-
-
-
-<figure><a href="lazar_focused_screenshot.jpg">
-    <img
-        
-            sizes="(min-width: 35em) 1200px, 100vw"
-              
-            srcset='
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_480x0_resize_q75_box.jpg 480w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg 800w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_1200x0_resize_q75_box.jpg 1200w,
-            
-                   
-            '
-
-            
-            
-            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/lazar_focused_screenshot_hue09d8364f67da37dd1b1e7072b20e694_168782_800x0_resize_q75_box.jpg"
-            
-
-        
-            alt="Figure 2: Screenshot of Lazar Focus 1.0.0.beta1, main window on the left, settings dialog on the right."/> </a><figcaption>
-            <p>Figure 2: Screenshot of Lazar Focus 1.0.0.beta1, main window on the left, settings dialog on the right.</p>
-        </figcaption>
-</figure>
-
-<p>As shown in the screenshot, it&rsquo;s sitting at 5 MB of memory use. In the age of
-Electron apps, that&rsquo;s really small.</p>
-<p>When you activate focus mode, it&rsquo;ll prevent your browser (Chrome, Brave,
-Firefox or Edge) from viewing any distracting website (you get to configure the
-list) by redirecting to a local web page with an inspiring quote, e.g.:</p>
-<blockquote>
-<p>Concentration can be cultivated. One can learn to exercise willpower,
-discipline one&rsquo;s body and train one&rsquo;s mind. &ndash; Anil Ambani</p>
-</blockquote>
-<p>It will also terminate any distracting apps, and helpfully prevent you from
-starting them up during your focus session.</p>
-<p>The convenient progress bar shows how far you are on your way to a 25 minute
-pomodoro, but that is purely for motivation, and not enforced.</p>
-<p>The total focus blocks and hours at the top should also help to keep us
-motivated and&hellip; <strong>LAZAR FOCUSED!</strong></p>
-<p>So, because there are probably (hopefully?) at least two other people who&rsquo;ll
-find this as useful as I do, and because shipping and selling software that you
-made yourself is awesome especially when it&rsquo;s a hobby project, I have decided
-to try and sell Lazar Focus using something like <a href="https://gumroad.com/">gumroad</a>.</p>
-<p>Hopefully soon with a hobby hour or three I can finish the installer and the
-website, and then make the beta available at a reduced rate.</p>
-<p>Because I prefer it for apps like this when I am the buyer, I have decided to
-make it available as a one-time purchase, no eval but money-back, with
-time-limited upgrades (probably a year?), but with your last licensed version
-obviously remaining fully functional until the end of The Windows API.</p>
-<h2 id="art-fun-with-portrait-ai">Art fun with Portrait AI</h2>
-<p>Ever since I spent a bit of time better curating my twitter subscriptions,
-getting rid of the vitriol and adding much more STEM (shout out to <a href="https://twitter.com/EricTopol">Eric Topol</a>
-&ndash; you could install twitter <em>just</em> for him and you would be great), they often
-bring me shiny treasures.</p>
-<p>Recently, it was <a href="https://portraitai.com/">portraitai.com</a> which brought a great deal of mirth to my home
-as we made authentic looking portraits of each other. (We&rsquo;re just a bunch of
-silly primates with amazing gadgets.)</p>
-<p>It didn&rsquo;t seem to work all that well on me however, until I started pulling
-funny faces:</p>
-
-
-
-
-
-
-
-
-<figure><a href="charl_portraitai.jpg">
-    <img
-        
-            sizes="(min-width: 35em) 1200px, 100vw"
-              
-            srcset='
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_480x0_resize_q75_box.jpg 480w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg 800w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1200x0_resize_q75_box.jpg 1200w,
-            
-                   https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_1500x0_resize_q75_box.jpg 1500w,
-            '
-
-            
-            
-            src="https://cpbotha.net/2020/05/31/weekly-head-voices-196-get-focused/charl_portraitai_hu52de41eab52d80ae9174daa293863901_294774_800x0_resize_q75_box.jpg"
-            
-
-        /> </a>
-</figure>
-
-<p>With that, dear friends, I bid you kindness, happiness and health.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #194: 136 words a day</title><link>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</link><pubDate>Sun, 10 May 2020 23:19:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/</guid><description> Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.
-This post quite compactly gazes back at the week from Monday May 4 to Sunday May 10.
-It starts with a short summary of my work week, followed by a story which you will hopefully enjoy.</description><content:encoded><![CDATA[ 
-
-
-
-
-
-
-
-<figure><a href="afrikaburn2017-sunset.jpg">
-    <img
-        
-            sizes="(min-width: 35em) 1200px, 100vw"
-              
-            srcset='
-            
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_480x0_resize_q75_box.jpg 480w,
-            
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_800x0_resize_q75_box.jpg 800w,
-            
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_1200x0_resize_q75_box.jpg 1200w,
-            
-                   https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_1500x0_resize_q75_box.jpg 1500w,
-            '
-
-            
-            
-            src="https://cpbotha.net/2020/05/10/weekly-head-voices-194-136-words-a-day/afrikaburn2017-sunset_hu0c5b1ac7828618d845e256b9a3c7840a_802509_800x0_resize_q75_box.jpg"
-            
-
-        
-            alt="Figure 1: From the oldies but goodies photo album, because I haven&amp;rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&amp;rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies."/> </a><figcaption>
-            <p>Figure 1: From the oldies but goodies photo album, because I haven&rsquo;t been getting out much: Sunset at AfrikaBurn 2017. Also due to nostalgia, as our AB 2020 adventure was utterly understandably cancelled (UUC). There&rsquo;s nothing quite like ambulating amicably across that piece of desert with your homies.</p>
-        </figcaption>
-</figure>
-
-<p>This post quite compactly gazes back at the week from Monday May 4 to Sunday
-May 10.</p>
-<p>It starts with a short summary of my work week, followed by a story which you
-will hopefully enjoy.</p>
-<h2 id="how-was-your-week-honey">How was your week honey?</h2>
-<p>I hacked on and fixed iPad microphone support in our direct-to-patient
-TeleMedicine app.</p>
-<p>If you are a programmer, or you have programmers in your life, you&rsquo;ll hopefully
-understand the absolute catnip of technical rabbit holes that suck you in for
-hours on end, only to eject you on a beautiful but extremely short-lived
-dopamine deluge of discovery.</p>
-<p>We integrated <a href="https://casual-effects.com/markdeep/">markdeep</a> into the performance tracking component of one of our
-medical image processing pipelines.</p>
-<p>Having a format, namely .md.html, which is this easy to generate
-programmatically from some computational pipeline, yet results in such
-attractive output documents is a great boon.</p>
-<h2 id="gou-1-reveals-her-plans-and-makes-us-think--more">GOU #1 reveals her plans and makes us think (more)</h2>
-<p><a href="/about/weekly-head-voices-abbreviations/">GOU #1</a> turned another year older.</p>
-<p>At the dinner table on the big day, we were having a conversation about further
-education in general and about postgraduate studies and PhDs in particular.</p>
-<p>(She is now in high school, so these conversations are happening more often.)</p>
-<p>I said that she will have to get a PhD in Physics or Math, but that I would
-probably be able to make peace with a PhD in Engineering also.</p>
-<p>She asked us how the PhD works, and so we explained the background as well as
-we could.</p>
-<p>We spent quite some time on the observation that the most important part of a
-successful PhD is just never giving up.</p>
-<p>Although never giving up is a chronic aspect, many PhD-veterans will tell you
-that this adventure often includes a fairly acute existential crisis, mostly at
-about the halfway mark.</p>
-<p>This is when the candidate asks pertinent questions like:</p>
-<ul>
-<li>Why, oh why did I ever think this was a good idea?</li>
-<li>Is this work really worth <em>anything</em>?</li>
-<li>Does anyone really care about this?</li>
-<li>I wonder what the non-academic job market is like at this moment?!</li>
-</ul>
-<p>Fortunately in many cases, the candidate gets through this process and emerges
-from the other side of the ordeal ever so slightly stronger and wiser.</p>
-<p>(For those of you who have been paying attention, this crisis is like the super
-deluxe version of the <a href="/2013/11/11/creative-process-stage-5-whv-67/">5-stage Creative Process</a>.)</p>
-<p>I digress&hellip;</p>
-<p>Talking more about the mechanics, GOU #1 asked how long a PhD thesis usually
-is.</p>
-<p>Off the top of my head I said: &ldquo;Around 50 thousand words, but there is of
-course huge variation&rdquo;.</p>
-<p>At that point she got out her phone (well, it&rsquo;s actually never not out) and
-made a quick calculation, after which she quipped: &ldquo;Well, that&rsquo;s
-straight-forward then. I&rsquo;ll spend one year planning, then I&rsquo;ll spend the year
-after that writing only 136 words per day, and the year after that revising
-everything to make it perfect.&rdquo;</p>
-<p>This was a simply lovely and humorous conversation to have at that moment, but
-what a great point she made: If you can manage to write 136 words per day for a
-year, you&rsquo;ll have 50000 words.</p>
-<h3 id="the-slightly-modified-136-word-plan">The slightly modified 136 word plan</h3>
-<p>136 words is really not that much if you look at it in isolation. The text
-above, from right after &ldquo;I digress&hellip;&rdquo; until right before the heading above, is
-exactly 136 words (if Emacs can be trusted).</p>
-<p>To me the <a href="/tags/compounding/">compounding</a> nature of this act of writing such a paltry number of
-words every day, but simply keeping at it for months and years, is quite
-amazing.</p>
-<p>So, thanks to my daughter&rsquo;s inspiration, I added a daily item to <a href="/2019/11/02/forming-and-maintaining-habits-using-orgmode/">my habit
-tracker</a> that says <em>Write 100 words towards publication</em>.</p>
-<p>I hope she won&rsquo;t mind that I changed the limit to 100, simply because I would
-like to increase my chances of being consistent and maintaining those <a href="/2019/09/09/weekly-head-voices-177-streakers/#life-optimisation-tip-73-streak-more">streaks</a>.</p>
-<p>I have added the explicit qualifier that the 100 words I write should be
-towards publication: This means that my intention should be for them to end up
-either in a blog post, or perhaps a future book project, or any other form of
-publication that is intended for public consumption.</p>
-<p>Wish me luck folks! Even better, why not join me on this journey?!</p>
-<h2 id="friendly-wishes">Friendly wishes</h2>
-<p>Thank you friends for meeting me here.</p>
-<p>I wish you all health and kindness and contentment.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

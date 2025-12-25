@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nvidia on voices in my head</title><link>https://cpbotha.net/tags/nvidia/</link><description>Recent content in nvidia on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Thu, 22 Nov 2018 20:20:39 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #158: Charlie and the Chocolate Factory.</title><link>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</link><pubDate>Thu, 22 Nov 2018 20:20:39 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</guid><description> (Note that there’s now a Telegram group that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Nvidia on voices in my head</title><link>https://cpbotha.net/tags/nvidia/</link><description>Recent content in Nvidia on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 Nov 2018 20:20:39 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nvidia/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #158: Charlie and the Chocolate Factory.</title><link>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</link><pubDate>Thu, 22 Nov 2018 20:20:39 +0000</pubDate><guid>https://cpbotha.net/2018/11/22/weekly-head-voices-158-charlie-and-the-chocolate-factory/</guid><description>(Note that there’s now a Telegram group that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)
 This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.
-The following action scene happened exactly halfway through: Pre-requisite running photo, this one taken in Paarl.</description><content:encoded><![CDATA[ <p><em>(Note that there’s now a <a href="https://t.me/headvoices">Telegram group</a> that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)</em></p>
+The following action scene happened exactly halfway through: Pre-requisite running photo, this one taken in Paarl. It was already quite hot. Getting really hot really early in the morning is Paarl’s thing.</description><content:encoded><![CDATA[ <p><em>(Note that there’s now a <a href="https://t.me/headvoices">Telegram group</a> that you can join to be kept up to date with these posts. I’m never going to make the A-List, but at least I haz the gimmicks!)</em></p>
 <p>This edition of the weekly (haha) head voices attempts to reflect on the period of time from Monday November 5 to Sunday November 18, 2018.</p>
 <p>The following action scene happened exactly halfway through:
+
+
 
 
 
@@ -24,6 +26,8 @@ The following action scene happened exactly halfway through: Pre-requisite runni
 </p>
 <h1 id="running-aka-irony-update">Running aka Irony update</h1>
 <p>Seeing that you’ve made me talk about running again, have a look at this photo of one Luna Mono 2.0 after about 700 km of (mostly road) running in about seven months, and one brand new Luna Mono 2.0:</p>
+
+
 
 
 
@@ -70,9 +74,9 @@ The following action scene happened exactly halfway through: Pre-requisite runni
 <blockquote>
 <p>… and finally passing through the gate of wishlessness (apranihita) – realizing that nirvana is the state of not even wishing for nirvana.</p>
 </blockquote>
-]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description> When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
+ ]]></content:encoded></item><item><title>Nerd-alert: Ubuntu Linux 12.04 on my NVIDIA Optimus Samsung NP300V3A laptop</title><link>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</link><pubDate>Wed, 02 May 2012 08:01:14 +0000</pubDate><guid>https://cpbotha.net/2012/05/02/nerd-alert-ubuntu-linux-12-04-on-my-nvidia-optimus-samsung-np300v3a-laptop/</guid><description>When I acquired my pre-ultrabook-era but still pretty Samsung NP300V3A laptop some nine months ago, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.
 Well, yesterday I ate my hat.
 If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to read all about it.</description><content:encoded><![CDATA[ <p>When I acquired my pre-ultrabook-era but still pretty <a href="/2011/08/16/new-samsung-np300v3a-laptop-is-welcomed-into-the-family/" title="samsung np300v3a welcome post">Samsung NP300V3A laptop some nine months ago</a>, I lamented that I’d probably never be able to put Linux on there due to the NVIDIA Optimus graphics switching thingamagoo.</p>
 <p>Well, yesterday I ate my hat.</p>
 <p>If you have nerdy tendencies, head on over to VXLabs, my nerd blog, to <a href="http://vxlabs.com/2012/05/01/review-of-ubuntu-linux-12-04-on-the-samsung-np300v3a-core-i5-nvidia-optimus-laptop/" title="ubuntu 12.04 on Samsung NP300V3A post on VXLabs">read all about it</a>.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

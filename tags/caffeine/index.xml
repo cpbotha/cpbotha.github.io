@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>caffeine on voices in my head</title><link>https://cpbotha.net/tags/caffeine/</link><description>Recent content in caffeine on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Wed, 22 May 2019 22:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/caffeine/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #171: ICEMiRB.</title><link>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</link><pubDate>Wed, 22 May 2019 22:38:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</guid><description> Down here, you never know what sort of fantastic beasts you could run into. I met this particular fullmetal creature right about here.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Caffeine on voices in my head</title><link>https://cpbotha.net/tags/caffeine/</link><description>Recent content in Caffeine on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 22 May 2019 22:38:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/caffeine/index.xml" rel="self" type="application/rss+xml"/><item><title>Weekly Head Voices #171: ICEMiRB.</title><link>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</link><pubDate>Wed, 22 May 2019 22:38:00 +0200</pubDate><guid>https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/</guid><description> Down here, you never know what sort of fantastic beasts you could run into. I met this particular fullmetal creature right about here.
 Dear friends,
 In this post, I do a particularly lossy review of my trip through time, from Monday May 6 to Sunday May 19, 2019.
 First we talk about sleep, then a long part on technical tricks, then a slightly more backyard philosophical piece on human tool sharpening, and finally the announcement of a new academic event somewhere in the far or near or medium term future.</description><content:encoded><![CDATA[ <figure>
@@ -25,22 +25,22 @@ First we talk about sleep, then a long part on technical tricks, then a slightly
   
   srcset='
   
-    https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_480x0_resize_q75_box.jpg 480w
+    https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_bcd57a5072bf9e1b.jpg 480w
   
   
-    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg 800w
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_69a49565a53a1413.jpg 800w
   
   
-    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1200x0_resize_q75_box.jpg 1200w
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_fb9cdec0b4146e63.jpg 1200w
   
   
-    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_1500x0_resize_q75_box.jpg 1500w 
+    , https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_14aacecae2fd7902.jpg 1500w 
   '
 
 
 
   
-  src="https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu11350bd797bb1be412e08418b0ebf08a_3967777_800x0_resize_q75_box.jpg"
+  src="https://cpbotha.net/2019/05/22/weekly-head-voices-171-icemirb/fullmetal_baboon_hu_69a49565a53a1413.jpg"
   
 
    />
@@ -211,13 +211,13 @@ post</a>.</p>
 <p>This is quite convenient, and something I was missing in ivy, which I use for
 example as part of <code>find-file-in-project</code>.</p>
 <p>Weeeeell, by adding the following to your <code>init.el</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; for any ivy-read, press M-o to get action menu,</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">;; then &#39;d&#39; to start dired with that file selected</span>
-</span></span><span style="display:flex;"><span>(<span style="color:#268bd2">ivy-add-actions</span>
-</span></span><span style="display:flex;"><span> <span style="color:#268bd2">t</span> <span style="color:#93a1a1;font-style:italic">;; add for all types</span>
-</span></span><span style="display:flex;"><span> <span style="color:#93a1a1;font-style:italic">;; (cdr x) gets the full filename, not just relative</span>
-</span></span><span style="display:flex;"><span> `((<span style="color:#2aa198">&#34;d&#34;</span> ,(<span style="color:#cb4b16">lambda</span> (<span style="color:#268bd2">x</span>) (<span style="color:#268bd2">dired-jump</span> <span style="color:#268bd2">nil</span> (<span style="color:#268bd2">cdr</span> <span style="color:#268bd2">x</span>))) <span style="color:#2aa198">&#34;dired&#34;</span>)
-</span></span><span style="display:flex;"><span>   ))
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span><span style="color:#57606a">;; for any ivy-read, press M-o to get action menu,</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a">;; then &#39;d&#39; to start dired with that file selected</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">(</span><span style="color:#953800">ivy-add-actions</span>
+</span></span><span style="display:flex;"><span> <span style="color:#0550ae">t</span> <span style="color:#57606a">;; add for all types</span>
+</span></span><span style="display:flex;"><span> <span style="color:#57606a">;; (cdr x) gets the full filename, not just relative</span>
+</span></span><span style="display:flex;"><span> <span style="color:#0550ae">`</span><span style="color:#1f2328">((</span><span style="color:#0a3069">&#34;d&#34;</span> <span style="color:#0550ae">,</span><span style="color:#1f2328">(</span><span style="color:#6639ba">lambda</span> <span style="color:#1f2328">(</span><span style="color:#953800">x</span><span style="color:#1f2328">)</span> <span style="color:#1f2328">(</span><span style="color:#953800">dired-jump</span> <span style="color:#0550ae">nil</span> <span style="color:#1f2328">(</span><span style="color:#6639ba">cdr</span> <span style="color:#953800">x</span><span style="color:#1f2328">)))</span> <span style="color:#0a3069">&#34;dired&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#1f2328">))</span>
 </span></span></code></pre></div><p>&hellip; you get to select <code>d</code> from the <code>M-o</code> action menu to <code>dired-jump</code> (a
 wonderful command by itself, usually bound to <code>C-x C-j</code>) to the currently
 focused file.</p>
@@ -284,9 +284,10 @@ taglines:</p>
 <p>ICEMiRB - The Mindfulness is silent.</p>
 </blockquote>
 <p>or not.</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</title><link>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</link><pubDate>Thu, 05 May 2016 21:19:18 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</guid><description> From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
-Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.
-I woke up one day and decided that the super-inventive internet handle I had chosen when registering my first personal domain in 1999 somewhere, namely cpbotha, was not cutting it anymore.</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #106: Ch-ch-ch-ch-changes.</title><link>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</link><pubDate>Thu, 05 May 2016 21:19:18 +0000</pubDate><guid>https://cpbotha.net/2016/05/05/weekly-head-voices-106-ch-ch-ch-ch-changes/</guid><description> From me to you: The view from the top of Paarl Rock as seen through my telephone and google’s megamind going through all my photos and trying to stitch them together.
+Well hello everyone! I missed you, but due to reasons (read on…), this is the first time I’ve been able to get around to a weekly head voices.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -311,6 +312,8 @@ I woke up one day and decided that the super-inventive internet handle I had ch
 <p>Nobody told me about this additional requirement in ’99! I will ask for my money back.</p>
 <p>In any case, after some fancy twitter footwork, I now have an additional handle: <a href="https://twitter.com/cvoxel">cvoxel</a>. I realise this is only interesting to me and maybe one or two other nerds, but here we are. There might be some personality fragmentation behind all of this. I’ll have a chat with me later.</p>
 <p>Friends in more advanced countries, when I show them the sun and the beer and the beaches and the mountains and the WILD BEASTS over here, usually simply point at my miserably slow internet connection, thereby restoring their faith in the balance that exists in our world. Due to another recent change, I can now offer this as a retort:</p>
+
+
 
 
 
@@ -346,7 +349,7 @@ I woke up one day and decided that the super-inventive internet handle I had ch
 <p>She’s a beautiful pink little not-yet-walking but rapidly expanding cellular mega-city. I and the other more developed cellular mega-cities in this neck of the woods and all of our billions of cells are truly happy to have her with us.</p>
 <p>May your neurotransmitters rejoice.</p>
 <p> </p>
-]]></content:encoded></item><item><title>Astropsychonaut. [Weekly Head Voices #63]</title><link>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</link><pubDate>Sat, 03 Dec 2011 21:41:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</guid><description> I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):
+ ]]></content:encoded></item><item><title>Astropsychonaut. [Weekly Head Voices #63]</title><link>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</link><pubDate>Sat, 03 Dec 2011 21:41:00 +0000</pubDate><guid>https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/</guid><description>I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):
 Watching this, my nostalgia flared up. You see, I’ve been addicted to science fiction ever since I can remember. It started with Buck Rogers, and the original Star Trek, and only got much worse when I discovered Arthur C. Clarke, Ray Bradbury, Isaac Asimov and Douglas Hill. I find Kubrick’s 2001 and even the sequel movie 2010 beautiful.</description><content:encoded><![CDATA[ <p>I recently came across this hauntingly beatiful time-lapse view of Earth made from the ISS (the International Space Station! Yes, we have one!):</p>
 <div class="jetpack-video-wrapper">
 <div class="embed-vimeo" style="text-align: center;">
@@ -356,6 +359,8 @@ Watching this, my nostalgia flared up. You see, I’ve been addicted to science 
 <p>Watching this, my nostalgia flared up. You see, I’ve been addicted to science fiction ever since I can remember. It started with Buck Rogers, and the original Star Trek, and only got much worse when I discovered Arthur C. Clarke, Ray Bradbury, Isaac Asimov and Douglas Hill. I find Kubrick’s 2001 and even the sequel movie 2010 beautiful.</p>
 <p>For the longest time, I wanted to be an astronaut. I think I still do.</p>
 <p>I believe I might have thought that my career plans would be seen as childish when I wrote this short piece for school detailing my life plans when I was 7 or 8 (late eighties, not saying anymore):
+
+
 
 
 
@@ -392,7 +397,7 @@ Watching this, my nostalgia flared up. You see, I’ve been addicted to science 
 <span class="Apple-style-span" style="font-size: 14px; line-height: 23px;">If this new bill manages to make it through the constitutional court as well, the country is going to take a giant step backwards. At least we’ll have <a href="http://drinkfacedrink.com/">facedrink</a> to cheer us up again!<a data-rel="lightbox-image-1" data-rl_caption="" data-rl_title="" href="http://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" title=""><img alt="" class="aligncenter size-medium wp-image-1579" data-attachment-id="1579" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}' data-image-title="facedrink1" data-large-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" data-medium-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg" data-orig-file="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg" data-orig-size="152,400" data-permalink="https://cpbotha.net/2011/12/03/astropsychonaut-weekly-head-voices-63/facedrink1/" height="300" sizes="(max-width: 114px) 85vw, 114px" src="http://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg" srcset="https://cpbotha.net/wp-content/uploads/2011/12/facedrink1-114x300.jpg 114w, https://cpbotha.net/wp-content/uploads/2011/12/facedrink1.jpg 152w" title="facedrink1" width="114"/></a></span>
 </p>
 </div>
-]]></content:encoded></item><item><title>Coffee addiction potpourri. [Weekly Head Voices #57]</title><link>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</link><pubDate>Sun, 18 Sep 2011 12:38:43 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</guid><description> Yes boys and girls, I was keeping back writing that Rebecca Black post, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</description><content:encoded><![CDATA[ <p>Yes boys and girls, I was keeping back writing <a href="/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/" title="Rebecca Black post">that Rebecca Black post</a>, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</p>
+ ]]></content:encoded></item><item><title>Coffee addiction potpourri. [Weekly Head Voices #57]</title><link>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</link><pubDate>Sun, 18 Sep 2011 12:38:43 +0000</pubDate><guid>https://cpbotha.net/2011/09/18/coffee-addiction-potpourri-weekly-head-voices-57/</guid><description>Yes boys and girls, I was keeping back writing that Rebecca Black post, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</description><content:encoded><![CDATA[ <p>Yes boys and girls, I was keeping back writing <a href="/2011/09/14/rebecca-black-is-ok-weekly-head-voices-56/" title="Rebecca Black post">that Rebecca Black post</a>, but now it’s 4 days later and I can let ‘er rip again, like I promised. This week’s post sort of reflects my week 37: Chock-full of super-dense life nuggets. Hmmm, sounds like a brilliant new high energy meta-physical chocolate bar that would probably be immediately declared illegal by the current conservative and non-thinking (excuse the tautology) batch of spineless politicians (excuse the tautology).</p>
 <p>Let’s get today’s life lessons started with Mitch Hedberg, Comic Genius (note the captital C, and the capital G):</p>
 <div class="jetpack-video-wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/u6xaj2fC1jI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
@@ -405,6 +410,8 @@ Watching this, my nostalgia flared up. You see, I’ve been addicted to science 
 <li>It’s amazing what such a change of working environment does for one’s creativity.</li>
 </ol>
 <p>On the topic of startups, Dr Jorik Blaas, ex PhDer, full-time genius and friend, is now the director of research and development at <a href="http://synerscope.com/" title="synerscope website">Synerscope</a> (probably no relation with sinister, but my subconscious is just not behaving today), a high-potential startup that makes visualisation-based tools for fraud detection in big data (big money, IOW). Synerscope has brought together some of the top visualisation brains in the country. Personally, I can’t help but imagine it like this:
+
+
 
 
 
@@ -425,6 +432,8 @@ Watching this, my nostalgia flared up. You see, I’ve been addicted to science 
 </p>
 <p>On Tuesday and Wednesday, we made a quick train trip (*cough* 9 hours there due to delay thank you NS, 7+ hours back) to Magdeburg for the <a href="http://www.fg-medvis.de/" title="link to German MedVis group site">bi-annual German MedVis meeting</a>. You’ll recall that I spent <a href="/2009/04/25/my-first-sabbatical/" title="my magdeburg sabbatical">my first micro-sabbatical there</a>. The city almost feels like home, and it was really great seeing many of the Magdeburg peeps again. The meeting itself was of high quality, with a number of VisWeek contributions being presented. Thomas Kroes (should I start using fictitious names and acronyms again?) presented his <a href="http://exposure-render.googlecode.com/" title="exposure render website">interactive photo-realistic volume renderer</a> too! By the way, download it, use it (it makes fantastically beautiful renderings), spread it, and do cite the soon-to-appear article.</p>
 <p>On Saturday, it rained (again, or still, I forget), so I decided to flip Mother Nature the bird by BBQing four juicy rib-eye steaks outside. Take that Mother Nature! The steaks were delicious, thank you. Mother Nature is not all bad though… Check this out: The Southern Lights. FROM SPACE!
+
+
 
 
 
@@ -454,4 +463,4 @@ Watching this, my nostalgia flared up. You see, I’ve been addicted to science 
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/GnwNGNOv19A?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div>
 <p>I’ll be off now. Please do have an epic week, and think of me when your level of enjoyment is at a local maximum. At these points, you might also consider jumping around randomly.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

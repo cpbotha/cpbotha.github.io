@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gutenberg on voices in my head</title><link>https://cpbotha.net/tags/gutenberg/</link><description>Recent content in gutenberg on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 31 Mar 2019 00:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gutenberg/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description> It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Gutenberg on voices in my head</title><link>https://cpbotha.net/tags/gutenberg/</link><description>Recent content in Gutenberg on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 31 Mar 2019 00:10:00 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/gutenberg/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving 18 years of this personal blog from Wordpress to Hugo</title><link>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</link><pubDate>Sun, 31 Mar 2019 00:10:00 +0200</pubDate><guid>https://cpbotha.net/2019/03/31/wordpress-to-hugo/</guid><description>It sounds a bit more involved than it turned out to be, but I have a thing for posts titled &amp;ldquo;Moving M years of K from Y to Z&amp;rdquo;.
 As can be seen in the history page or rather the first weblog entry dated 2001-02-27, this blog has been around for more than 18 years.
 It started as some CGI script, then spent some time as a LiveJournal, then, thanks to meeting Professor Biella Coleman who was at that point still a grad student, went through a Movable Type phase and then, at some point, converted to Wordpress.</description><content:encoded><![CDATA[ <p>It sounds a bit more involved than it turned out to be, but I have a thing for
 posts titled &ldquo;Moving M years of K from Y to Z&rdquo;.</p>
@@ -55,17 +55,17 @@ the new site like this:</p>
 git clone https://github.com/carsonip/hugo-theme-minos.git
 </code></pre><p>Before starting up the new site for the first time, I edited the top-level
 <code>config.toml</code> so it looked like the following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#268bd2">baseURL</span> = <span style="color:#2aa198">&#34;https://cpbotha.net/&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">languageCode</span> = <span style="color:#2aa198">&#34;en-us&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">title</span> = <span style="color:#2aa198">&#34;voices in my head&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">theme</span> = <span style="color:#2aa198">&#34;hugo-theme-minos&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># required for disqus comments, see next section</span>
-</span></span><span style="display:flex;"><span><span style="color:#268bd2">disqusShortname</span> = <span style="color:#2aa198">&#34;cpbotha&#34;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#1f2328">baseURL</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;https://cpbotha.net/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">languageCode</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">title</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;voices in my head&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">theme</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;hugo-theme-minos&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># required for disqus comments, see next section</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">disqusShortname</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;cpbotha&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[<span style="color:#268bd2">permalinks</span>]
-</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># mimic wordpress permalink configuration for future posts</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#93a1a1;font-style:italic"># exported wordpress posts have `url` correctly set which overrides everything</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#268bd2">posts</span> = <span style="color:#2aa198">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">[</span><span style="color:#1f2328">permalinks</span><span style="color:#1f2328">]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a"># mimic wordpress permalink configuration for future posts</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#57606a"># exported wordpress posts have `url` correctly set which overrides everything</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#1f2328">posts</span> <span style="color:#1f2328">=</span> <span style="color:#0a3069">&#34;/:year/:month/:day/:slug/&#34;</span>
 </span></span></code></pre></div><p>Note: The theme that you currently see on this site is a modified version of
 minos, implemented using Hugo&rsquo;s <a href="https://gohugo.io/themes/theme-components/">Theme
 Components</a> mechanism.</p>
@@ -125,11 +125,11 @@ which case the output of the build will end up in a sub-directory named
 I would prefer not syncing the expendable 600MB+ output directory, instead
 building it and syncing it from <code>~/Downloads</code>.</p>
 <p>The little bash script I used to perform step 2 in one go looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"></span>hugo -d ~/Downloads/cpbotha.net
-</span></span><span style="display:flex;"><span><span style="color:#93a1a1;font-style:italic"># sync contents of public dir into static_cpbothanet/</span>
-</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#2aa198">\
-</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"></span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#57606a">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>hugo -d ~/Downloads/cpbotha.net
+</span></span><span style="display:flex;"><span><span style="color:#57606a"># sync contents of public dir into static_cpbothanet/</span>
+</span></span><span style="display:flex;"><span>rsync -av --progress ~/Downloads/cpbotha.net/ <span style="color:#0a3069">\
+</span></span></span><span style="display:flex;"><span>cpbotha@my.webhost.com:~/webapps/static_cpbothanet
 </span></span></code></pre></div><h2 id="bonus-level-bundling-and-automatic-resizing-of-images">Bonus level: Bundling and automatic resizing of images.</h2>
 <p>As each edition of <a href="categories/weekly-head-voices/">the WHV</a> usually contains
 at least an image or two, an important piece of the puzzle was how to keep
@@ -155,7 +155,7 @@ directory containing the relevant images and the post contents in a file
 called <code>index.md</code>.</p>
 <p>In my case, I would create a post by invoking the following command in the
 top-level directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new content/posts/2019/some-post-slug/index.md
 </span></span></code></pre></div><p>Based on the <code>permalinks</code> setting in the <code>config.toml</code>, this post will be
 available at <code>/year/month/day/slug-in-frontmatter/</code>. The <code>index.md</code> can refer
 to images that are in the same directory using just their relative filenames.</p>
@@ -182,9 +182,11 @@ archetypes</a> which I have
 configured to help me start a blog post more easily.</p>
 <p>Let me know in the comments if you have any other questions.</p>
 <p>Here&rsquo;s to at least 18 more years of blog posts!</p>
-]]></content:encoded></item><item><title>Weekly Head Voices #166: Morgan Bay</title><link>https://cpbotha.net/2019/03/24/weekly-head-voices-166-morgan-bay/</link><pubDate>Sun, 24 Mar 2019 20:29:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/03/24/weekly-head-voices-166-morgan-bay/</guid><description> Amazing view from a rather precariously installed bench on the hills above Morgan Bay.
+ ]]></content:encoded></item><item><title>Weekly Head Voices #166: Morgan Bay</title><link>https://cpbotha.net/2019/03/24/weekly-head-voices-166-morgan-bay/</link><pubDate>Sun, 24 Mar 2019 20:29:11 +0000</pubDate><guid>https://cpbotha.net/2019/03/24/weekly-head-voices-166-morgan-bay/</guid><description> Amazing view from a rather precariously installed bench on the hills above Morgan Bay.
 In this, the 166th edition of the WHV, I attempt to peer back at the two weeks from Sunday March 11 to Sunday March 24, 2019.
 If you like, you may imagine that this looks like somewhat like the photo above, although the photo above was in fact just me peering out over the sea, while I generally just sit hunched over some form of keyboard when writing these posts.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -234,6 +236,8 @@ If you like, you may imagine that this looks like somewhat like the photo above,
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2019/03/view_from_mbh_room.jpg">
     <img
         
@@ -243,6 +247,8 @@ If you like, you may imagine that this looks like somewhat like the photo above,
 </figure>
 </p>
 <p>Morning runs, on barefoot, often looked like this:
+
+
 
 
 
@@ -267,6 +273,8 @@ If you like, you may imagine that this looks like somewhat like the photo above,
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2019/03/morgan_bay_run_too_technical.jpg">
     <img
         
@@ -278,6 +286,8 @@ If you like, you may imagine that this looks like somewhat like the photo above,
 <h3 id="experiment-alcohol-zero-2-is-briefly-interrupted">Experiment Alcohol Zero #2 is briefly interrupted.</h3>
 <p>Under immense beer peer pressure, and in the presence of locally brewed craft beer on tap, I finally broke my 2.5 month long alcohol fast with an Emerald Vale Amber Ale.</p>
 <p>The beer was tasty, and the moment was suitably bittersweet.
+
+
 
 
 
@@ -312,6 +322,8 @@ If you like, you may imagine that this looks like somewhat like the photo above,
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2019/03/bettys_burnt_pano.jpg">
     <img
         
@@ -325,8 +337,9 @@ If you like, you may imagine that this looks like somewhat like the photo above,
 <div class="wp-block-embed__wrapper">
 <span class="embed-youtube" style="text-align:center; display: block;"><iframe allowfullscreen="true" class="youtube-player" height="473" src="https://www.youtube.com/embed/brZ_WBEzw6E?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" style="border:0;" type="text/html" width="840"></iframe></span>
 </div></figure>
-]]></content:encoded></item><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.
-Welcome to the first WHV of the year 2019 folks!</description><content:encoded><![CDATA[ 
+ ]]></content:encoded></item><item><title>Weekly Head Voices #160: Write stuff down.</title><link>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</link><pubDate>Sat, 26 Jan 2019 17:10:31 +0000</pubDate><guid>https://cpbotha.net/2019/01/26/weekly-head-voices-160-write-stuff-down/</guid><description> In the foreground, the mortar and pestle I used to mash together garlic, ginger, a serenade chilli, green cardamom pods, a whole cinnamon quill, one bay leaf, some curry powder for even more oomf, turmeric, coriander, salt and a few cloves. This paste ended up in that blurry red cast iron pot on the coals to result, a few hours later, in a delectable chicken curry potjie.</description><content:encoded><![CDATA[ 
+
+
 
 
 
@@ -353,6 +366,8 @@ Welcome to the first WHV of the year 2019 folks!</description><content:encoded><
 <p>This also would not be the WHV if we did not have some little digital trick to reveal: Today’s attempt is that this post is being written, for the largest part, on a 2018 iPad (the cheapest one) with an old (also very cheap) bluetooth keyboard.</p>
 <p>Because I really don’t like the new block-based WordPress 5.0 editor, named in an entirely non-hubristic fashion “Gutenberg”, but it does fortunately support importing markdown formatted blog posts (just make sure you don’t hard-wrap anything), and because I like trying new things, I am typing this on the iPad using the iOS version of <a href="https://www.textasticapp.com/">Textastic</a>.</p>
 <p>A few hours ago, it looked like this:
+
+
 
 
 
@@ -432,6 +447,8 @@ Welcome to the first WHV of the year 2019 folks!</description><content:encoded><
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2019/01/teach_complicated_things.png">
     <img
         
@@ -471,4 +488,4 @@ Welcome to the first WHV of the year 2019 folks!</description><content:encoded><
 <p>At regular intervals during the day, I will spend a minute or three writing down what I had completed, or what I was thinking. This moment of introspection would either result in a pleasant bit of satisfaction with some small task taken care of, or, more often, it would reel me back in from a spot of less than deliberate action and enable me to bring back my attention to the point of focus.</p>
 <p>I’m filing this under “101 tricks to get your <a href="https://cpbotha.net/2018/05/20/weekly-head-voices-143-the-rider-and-the-elephant/">rider back on your elephant</a>“.</p>
 <p>Alright friends, thank you very much for joining me on this part of my journey. I am looking forward to our next interaction!</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

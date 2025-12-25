@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nougat on voices in my head</title><link>https://cpbotha.net/tags/nougat/</link><description>Recent content in nougat on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 27 Nov 2016 11:41:36 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nougat/index.xml" rel="self" type="application/rss+xml"/><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Nougat on voices in my head</title><link>https://cpbotha.net/tags/nougat/</link><description>Recent content in Nougat on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2016 11:41:36 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/nougat/index.xml" rel="self" type="application/rss+xml"/><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description>Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
 Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
 <p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
 <p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
 <p>Read on for more.
+
+
 
 
 
@@ -38,6 +40,8 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
 <h2 id="a-scary-little-aside">A scary little aside</h2>
 <p>I just tried Check Point Labs&rsquo; <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
 
 
 
@@ -90,4 +94,4 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <ul>
 <li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
 </ul>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

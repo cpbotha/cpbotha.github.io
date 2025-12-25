@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>openpgp on voices in my head</title><link>https://cpbotha.net/tags/openpgp/</link><description>Recent content in openpgp on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 11 Dec 2016 15:34:26 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/openpgp/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Never Gonna Give You Up</title><link>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</link><pubDate>Sun, 11 Dec 2016 15:34:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</guid><description> (Summary: Cryptographically signing messages with my long-term PGP keys is too important to give up. Doing this on my Android telephone is easier than I thought. You should strengthen your secret key encryption if you&amp;rsquo;re also going to do this.)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Openpgp on voices in my head</title><link>https://cpbotha.net/tags/openpgp/</link><description>Recent content in Openpgp on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2016 15:34:26 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/openpgp/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Never Gonna Give You Up</title><link>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</link><pubDate>Sun, 11 Dec 2016 15:34:26 +0000</pubDate><guid>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</guid><description>(Summary: Cryptographically signing messages with my long-term PGP keys is too important to give up. Doing this on my Android telephone is easier than I thought. You should strengthen your secret key encryption if you&amp;rsquo;re also going to do this.)
 Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare, wrote that he was giving up on PGP, or at least on long term PGP keys.
-I agree with many of his points, especially the complexity of managing those keys, lack of forward secrecy (if someone were to steal my keys, they could decrypt all past conversations, unlike for example Signal) and accessibility (how do you verify a message with a baby on your left arm and your telephone in your right?</description><content:encoded><![CDATA[ <p><em>(Summary: Cryptographically signing messages with my long-term PGP keys is
+I agree with many of his points, especially the complexity of managing those keys, lack of forward secrecy (if someone were to steal my keys, they could decrypt all past conversations, unlike for example Signal) and accessibility (how do you verify a message with a baby on your left arm and your telephone in your right?). More generally, it makes a great deal of sense to make your security a moving target, as one of the Ars Technica commenters astutely summarised Filippo&amp;rsquo;s ideas.</description><content:encoded><![CDATA[ <p><em>(Summary: Cryptographically signing messages with my long-term PGP keys is
 too important to give up. Doing this on my Android telephone is easier than I
 thought. You should strengthen your secret key encryption if you&rsquo;re also
 going to do this.)</em></p>
@@ -56,7 +56,7 @@ brute-force cracking approaches.</p>
 Chris Wellons</a> who keeps his encrypted secret keys on a public website
 (!!!), I reconfigured my private key encryption to use 1 million iterations of
 the SHA-512 hash, and to use AES-256 for the encryption itself:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#0550ae">3</span> --s2k-count <span style="color:#0550ae">1000000</span> --edit-key 384435C7E77A4564
 </span></span></code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
 follow the prompts. You will have to enter your passphrase, and then enter
 your new passphrase twice.</p>
@@ -94,6 +94,8 @@ the UI looked like this:</p>
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/12/Screenshot_20161209-075007.png">
     <img
         
@@ -107,6 +109,8 @@ activities, and the 4096 bit key I currently use.</p>
 <p>After importing your secret and public keyring, you are able to encrypt,
 decrypt, sign and verify any files or clipboard contents on your Android
 phone:</p>
+
+
 
 
 
@@ -154,6 +158,8 @@ everything checks out, shows me the following message:</p>
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-202817.png">
     <img
         
@@ -169,6 +175,8 @@ down.</p>
 have to enter that long passphrase of yours. OpenKeychain will then make the
 signed and optionally encrypted text text available for sharing to any app, or
 for copying and pasting:</p>
+
+
 
 
 
@@ -203,4 +211,4 @@ rotating like this in the future.</p>
 <p>Let me know in the comments what you think. Do you know of a better
 alternative for remotely verifying the identity and messages of your
 correspondents?</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

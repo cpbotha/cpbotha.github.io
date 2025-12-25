@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>security on voices in my head</title><link>https://cpbotha.net/tags/security/</link><description>Recent content in security on voices in my head</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>cpbotha@cpbotha.net (Charl P. Botha)</managingEditor><webMaster>cpbotha@cpbotha.net (Charl P. Botha)</webMaster><lastBuildDate>Sun, 11 Dec 2016 15:34:26 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Never Gonna Give You Up</title><link>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</link><pubDate>Sun, 11 Dec 2016 15:34:26 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</guid><description> (Summary: Cryptographically signing messages with my long-term PGP keys is too important to give up. Doing this on my Android telephone is easier than I thought. You should strengthen your secret key encryption if you&amp;rsquo;re also going to do this.)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Security on voices in my head</title><link>https://cpbotha.net/tags/security/</link><description>Recent content in Security on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2016 15:34:26 +0000</lastBuildDate><atom:link href="https://cpbotha.net/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Never Gonna Give You Up</title><link>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</link><pubDate>Sun, 11 Dec 2016 15:34:26 +0000</pubDate><guid>https://cpbotha.net/2016/12/11/pgp-never-gonna-give-you-up/</guid><description>(Summary: Cryptographically signing messages with my long-term PGP keys is too important to give up. Doing this on my Android telephone is easier than I thought. You should strengthen your secret key encryption if you&amp;rsquo;re also going to do this.)
 Recently, Filippo Valsorda, cryptography expert and TLS guy at Cloudflare, wrote that he was giving up on PGP, or at least on long term PGP keys.
-I agree with many of his points, especially the complexity of managing those keys, lack of forward secrecy (if someone were to steal my keys, they could decrypt all past conversations, unlike for example Signal) and accessibility (how do you verify a message with a baby on your left arm and your telephone in your right?</description><content:encoded><![CDATA[ <p><em>(Summary: Cryptographically signing messages with my long-term PGP keys is
+I agree with many of his points, especially the complexity of managing those keys, lack of forward secrecy (if someone were to steal my keys, they could decrypt all past conversations, unlike for example Signal) and accessibility (how do you verify a message with a baby on your left arm and your telephone in your right?). More generally, it makes a great deal of sense to make your security a moving target, as one of the Ars Technica commenters astutely summarised Filippo&amp;rsquo;s ideas.</description><content:encoded><![CDATA[ <p><em>(Summary: Cryptographically signing messages with my long-term PGP keys is
 too important to give up. Doing this on my Android telephone is easier than I
 thought. You should strengthen your secret key encryption if you&rsquo;re also
 going to do this.)</em></p>
@@ -56,7 +56,7 @@ brute-force cracking approaches.</p>
 Chris Wellons</a> who keeps his encrypted secret keys on a public website
 (!!!), I reconfigured my private key encryption to use 1 million iterations of
 the SHA-512 hash, and to use AES-256 for the encryption itself:</p>
-<div class="highlight"><pre tabindex="0" style="color:#586e75;background-color:#eee8d5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#2aa198;font-weight:bold">3</span> --s2k-count <span style="color:#2aa198;font-weight:bold">1000000</span> --edit-key 384435C7E77A4564
+<div class="highlight"><pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gpg --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-mode <span style="color:#0550ae">3</span> --s2k-count <span style="color:#0550ae">1000000</span> --edit-key 384435C7E77A4564
 </span></span></code></pre></div><p>After typing that command, enter <code>passwd</code> at the prompt, then
 follow the prompts. You will have to enter your passphrase, and then enter
 your new passphrase twice.</p>
@@ -94,6 +94,8 @@ the UI looked like this:</p>
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/12/Screenshot_20161209-075007.png">
     <img
         
@@ -107,6 +109,8 @@ activities, and the 4096 bit key I currently use.</p>
 <p>After importing your secret and public keyring, you are able to encrypt,
 decrypt, sign and verify any files or clipboard contents on your Android
 phone:</p>
+
+
 
 
 
@@ -154,6 +158,8 @@ everything checks out, shows me the following message:</p>
 
 
 
+
+
 <figure><a href="/wp-content/uploads/2016/12/Screenshot_20161211-202817.png">
     <img
         
@@ -169,6 +175,8 @@ down.</p>
 have to enter that long passphrase of yours. OpenKeychain will then make the
 signed and optionally encrypted text text available for sharing to any app, or
 for copying and pasting:</p>
+
+
 
 
 
@@ -203,11 +211,13 @@ rotating like this in the future.</p>
 <p>Let me know in the comments what you think. Do you know of a better
 alternative for remotely verifying the identity and messages of your
 correspondents?</p>
-]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description> Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
+ ]]></content:encoded></item><item><title>Android security in 2016 is a mess.</title><link>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</link><pubDate>Sun, 27 Nov 2016 11:41:36 +0000</pubDate><guid>https://cpbotha.net/2016/11/27/android-security-in-2016-is-a-mess/</guid><description>Summary Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.
 Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&amp;rsquo;s software up to date with Google&amp;rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</description><content:encoded><![CDATA[ <h1 id="summary">Summary</h1>
 <p>Your phone probably contains banking, payment and personal information that can be remotely stolen via numerous known and unknown bugs in the Android software. This is attractive to criminals.</p>
 <p>Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no incentive to keep your phone&rsquo;s software up to date with Google&rsquo;s fixes. Your Android phone is probably out of date and therefore a gaping security hole through which attackers can steal your stuff from the safety of their own laptops.</p>
 <p>Read on for more.
+
+
 
 
 
@@ -243,6 +253,8 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <p>(<a href="https://lgsecurity.lge.com/security_updates.html">LG seems to be tracking Google&rsquo;s security updates quite well</a>, but somehow these updates are not reaching phones.)</p>
 <h2 id="a-scary-little-aside">A scary little aside</h2>
 <p>I just tried Check Point Labs&rsquo; <a href="https://www.checkpoint.com/resources/quadrooter-vulnerability-consumer/">QuadRooter Scanner app</a> on my “updated” LG G3, and this is what I saw:
+
+
 
 
 
@@ -295,10 +307,10 @@ Vendors (LG, Samsung, Xiaomi, etc.), after selling you their phone, have no ince
 <ul>
 <li><a href="https://securityboulevard.com/2019/03/android-security-is-a-hot-mess-yet-again/">Android Security is a Hot Mess (yet Again)</a>, March 15, 2019.</li>
 </ul>
-]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description> (Post updated on January 8, 2021. See section at the end.)
+ ]]></content:encoded></item><item><title>When we can, let’s use Signal instead of WhatsApp.</title><link>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</link><pubDate>Sat, 02 Jan 2016 09:38:11 +0000</pubDate><guid>https://cpbotha.net/2016/01/02/when-we-can-lets-use-signal-instead-of-whatsapp/</guid><description>(Post updated on January 8, 2021. See section at the end.)
 Signal, the open source messaging and voice calling app that does end-to-end encryption. The whole world is using WhatsApp to message each other. I often do too, because I want to inter-operate with the rest of the world.
 However, WhatsApp belongs to Facebook.
-Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
+Although Facebook has promised otherwise (fast-forward a few years: Yes, they did break that promise. See updates at the end of this post.), the temptation to link all of your WhatsApp messages with Facebook logins (a straight-forward process, as they have the mobile phone numbers of a great number of their users) must be quite tempting to the people at Facebook. Imagine how well they would then be able to target their advertising, based on their access to both your Facebook profile and your private WhatsApp messages!</description><content:encoded><![CDATA[ <p><em>(Post updated on January 8, 2021. See section at the end.)</em></p>
 <figure>
 <img alt="Screenshot of Signal." src="https://whispersystems.org/blog/images/signal-new.jpg"/>
 <figcaption>Signal, the open source messaging and voice calling app that does end-to-end encryption.</figcaption></figure> 
@@ -346,10 +358,12 @@ but I would greatly prefer chatting with you on Signal.</p>
 Facebook</a>. They will indeed link up telephone numbers and social networks,
 meaning that both parties will get a tremendous boost in what they know about
 you. I don&rsquo;t want to say I told you so, but I told you so. ;)</p>
-]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description> NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
+ ]]></content:encoded></item><item><title>Dear USA, my data has left your building.</title><link>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</link><pubDate>Sun, 15 Sep 2013 18:02:00 +0000</pubDate><guid>https://cpbotha.net/2013/09/15/dear-usa-my-data-has-left-your-building/</guid><description>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.
 After Edward Snowden, former CIA and NSA employee, started revealing how massively, intensely and easily we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media. Image by BLOGGING via TYPEWRITER
-It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
+It turns out that government agencies are allowed to extract, at a whim, your and my data from service providers, such as Google, Microsoft and Yahoo. There is no real legal process (unless you can call a secret judge in a secret court giving a secret order a real legal process), especially if you’re not a US citizen, and the providers that have been forced to give up your data in this way are not allowed to notify you about your digital self being violated. So even if they say that you shouldn’t worry, you can never be entirely sure.</description><content:encoded><![CDATA[ <p>NSA, GCHQ, Prism, FISA, Project Bullrun, Sigint.</p>
 <p>After <a href="http://en.wikipedia.org/wiki/Edward_Snowden" title="Edward Snowden wikipedia page">Edward Snowden</a>, former CIA and NSA employee, started revealing how massively, intensely and <em>easily</em> we are all being spied upon by the intelligence agencies of various governments, the terms above have suddenly been spending a great deal more time in the media.
+
+
 
 
 
@@ -399,8 +413,8 @@ It turns out that government agencies are allowed to extract, at a whim, your an
 <p>In any case, I wanted to clarify an issue or two: After moving my data away from GMail and Dropbox, I am not under any impression that my data is now secure. I can still be hacked. My hardware and software could be full of backdoors. My email will still be read as it jumps from server to server, probably ending up in someone else’s GMail. :) However, if more people were to move their data out to their own premises, it becomes more complicated and costly for government agencies to monitor us all. At the moment, the NSA cuts deals with a few large email and other cloud service providers, and with that they’re able to monitor large swathes of users. However, if more of those users were to move away, many more deals have to be cut and servers hacked, costing more time and more money. Add to that increased used of OpenPGP (which I do use, and mention in my post), and it becomes even more difficult. I know that I’m just a drop in a bucket, but hey, at least I am a drop in a bucket!</p>
 <p>My goal with posting this was to show that it’s relatively easy to move much of your data away. I have the feeling that many of the most impolite anonymous commenters still store their data with cloud providers, and would really prefer to believe that there are no worthwhile alternatives, hence all the ad hominem attacks.</p>
 <p>Fortunately, each polite and humane comment makes up for a whole pile of bad ones. :)</p>
-]]></content:encoded></item><item><title>What I did this, err, summer</title><link>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</link><pubDate>Mon, 17 Nov 2008 21:20:15 +0000</pubDate><author>cpbotha@cpbotha.net (Charl P. Botha)</author><guid>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</guid><description> Taking a hint from Joe, aka Swimgeek, here’s a summary of my life since the previous time we spoke:
-The VCBM 2008 workshop, my first attempt at playing the organising conference chair, went swimmingly. Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends. I stopped stressing during the conference dinner. I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats.</description><content:encoded><![CDATA[ <p>Taking a hint from Joe, aka <a href="http://www.swimgeek.com/blog/" title="Link to Swimgeek's blog">Swimgeek</a>, here’s a summary of my life since the previous time we spoke:</p>
+ ]]></content:encoded></item><item><title>What I did this, err, summer</title><link>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</link><pubDate>Mon, 17 Nov 2008 21:20:15 +0000</pubDate><guid>https://cpbotha.net/2008/11/17/what-i-did-this-err-summer/</guid><description>Taking a hint from Joe, aka Swimgeek, here’s a summary of my life since the previous time we spoke:
+The VCBM 2008 workshop, my first attempt at playing the organising conference chair, went swimmingly. Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends. I stopped stressing during the conference dinner. I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats. Can’t find the stats? Go figure out how to copy and paste, then get back to me. :) ) and acquired a Nokia E71. Best. Gadget. EVAR. Had a fan-tas-tic holiday in South Africa. Had profound conversations and the most raucous get-togethers with best friends and family. Realised again how extremely lucky I am with people I’m this close with, on two different continents. Linked up with my dad for the first time in too many years, which was cool. Migrated my extremely complex todo system (I’m a foaming-at-the-mouth GTD follower) from todoist to a local installation of the open-source RoR-based Tracks software. Todoist is really cool, but it’s very much deadline-oriented, whilst in the GTD world deadlines are just so passé. DAMN I’m with it. My laptop was sort of stolen and then returned 5 minutes later. Besides the acute trauma that this caused, it got me wondering about the security of the Windows XP Encrypted File System thingy that I use to encrypt some of the more sensitive, err, documents on my laptop. On Windows 2000, the fact that on a local install the administrator was the default data recovery agent (DRA), made it possible to decrypt a user’s files without having to crack that user’s password. On a local install of XP, this is fortunately NOT the case. I repeat, on a local install of XP there is no default recovery policy. In other words, a laptop thief needs to crack your password to decrypt your EFS encryption. You can double check this by downloading efsinfo and running it on your files with “efsinfo /u /r your_files”. It should confirm that there’s no recovery agent. You should also check the strength of your Windows passwords with ophcrack. Your EFS is only as strong as the user password protecting it. After my little episode, I’ve deleted most of those sensitive, err, documents from my laptop (they’re duplicated on a server at home) and encrypted even larger parts of my laptop hard drive, just in case. Now I’m supposed to conclude this blow-by-blow with something profound. I know, I’ll end with a quote attributed to Plato that I first saw in the PhD thesis of a friendly colleague. At the time it made quite an impression on me:</description><content:encoded><![CDATA[ <p>Taking a hint from Joe, aka <a href="http://www.swimgeek.com/blog/" title="Link to Swimgeek's blog">Swimgeek</a>, here’s a summary of my life since the previous time we spoke:</p>
 <ul>
 <li>The <a href="http://vcbm.org/2008" title="Link to VCBM 2008 website">VCBM 2008 workshop</a>, my first attempt at playing the organising conference chair, went swimmingly.  Two days of solid presentations, a lovely dinner at Van der Dussen (no Ronald McDonald in sight!) and meeting up with many old friends.  I stopped stressing during the conference dinner.</li>
 <li>I joined the ranks of the intelligentsia (As opposed to the millions of plebs with iPhones – oh stop whining and look at the stats.  Can’t find the stats?  Go figure out how to copy and paste, then get back to me. :) ) and acquired a Nokia E71.  <em>Best. Gadget. EVAR.</em></li>
@@ -413,4 +427,4 @@ The VCBM 2008 workshop, my first attempt at playing the organising conference ch
 <p><span class="huge">Be kind, for everyone you meet is fighting a hard battle.</span></p>
 </blockquote>
 <p>Heck, it still does.</p>
-]]></content:encoded></item></channel></rss>
+ ]]></content:encoded></item></channel></rss>

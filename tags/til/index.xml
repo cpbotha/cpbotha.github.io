@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Til on voices in my head</title><link>https://cpbotha.net/tags/til/</link><description>Recent content in Til on voices in my head</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2024 21:27:48 +0200</lastBuildDate><atom:link href="https://cpbotha.net/tags/til/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Head Voices for week 4 of 2024</title><link>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</link><pubDate>Sun, 28 Jan 2024 21:27:00 +0200</pubDate><guid>https://cpbotha.net/2024/01/28/daily-head-voices-2024-01-22_28/</guid><description>Monday 2024-01-22 As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &amp;ldquo;When you&amp;rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&amp;rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS! At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&amp;hellip; Short but really nice streamlit demo during a work meeting. I knew about streamlit, but I&amp;rsquo;ve never actually played with it. Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3. In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&amp;hellip; &amp;hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola. Tuesday 2024-01-23 At the office nice and early (7:30). Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at react-flow and comfyui react-flow looks like it could work pretty well for this new project. Also: SO SHINY! streamlit app life cycle: script re-runs every time user interacts, see https://docs.streamlit.io/get-started/fundamentals/summary it does have caching mechanisms to make this go faster marimo, although much newer, approaches this issue with its reactive cell pattern Idea: We should write focused technical memos at work. This is now howto, but rather &amp;ldquo;things I learned&amp;rdquo; formulated to teach not just to document. Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&amp;rsquo;s a zero day vulnerability in previous versions that can be exploited via malicious websites. Wednesday 2024-01-24 8km run at just after 7 AM before it really got hot dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW! Remember kids: Our spine&amp;rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally. This is also the reason why I&amp;rsquo;m still searching for a long enough reclining chair. Lovely working lunch with friend S at No Way José Some random ideas that popped into my head as I was trying to work: idea: make github so that people can pipx install marimo-turbo to get install with pandas, altair, matplotlib, and so on. idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets in the end, probably better to do this on my own VPS &amp;hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See https://emacs.ch/@cpbotha/111811547009420844 (post is also embedded below) idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&amp;gt; nginx -&amp;gt; supervisord -&amp;gt; tornado systemd can partially do something like this using socket activation: https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation I would prefer to use supervisord for this This will remain on the todo list for now, unless one of you knows a trick? ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &amp;ldquo;crystal vs nim-lang&amp;rdquo; googling blog post: https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/ the kubernetes thing: https://github.com/vitobotta/hetzner-k3s TIL: mastodon embeds are not as durable as twitter embeds As I pasted the above embed, I saw to my disappointment that it&amp;rsquo;s just pulling in the mastodon post URL via iframe.</description><content:encoded><![CDATA[ <h2 id="monday-2024-01-22">Monday 2024-01-22</h2>
+<ul>
+<li>As GOU#1 and GOU#2 were busy leaving for school, #3 came in to #2 for a hug but #2 was a bit too focused on getting all of her things ready to go in the car. Good Charl, in his only appearance of the day, spontaneously interjected with: &ldquo;When you&rsquo;re in a hug, for that moment, you put your full attention into that hug. For that moment, nothing else exists but the hug.&rdquo;. I could really see the message hitting home with #2, and she vocalised as much. Monday: BIG SUCCESS!</li>
+<li>At work, managed to spill black coffee all over meself as I was just doing step 1 of living the one cable dream (read: attaching usb-c cable to my macbook). Clumsy Charl clearly at the wheel&hellip;</li>
+<li>Short but really nice <a href="https://streamlit.io/">streamlit</a> demo during a work meeting. I knew about streamlit, but I&rsquo;ve never actually played with it.</li>
+<li>Spent the rest of the day fighting trying, without success, to update the webcola d3 adapter to the latest version of d3.
+<ul>
+<li>In bed that night, had light-bulb that React was probably a better solution for this visualization in any case&hellip;</li>
+<li>&hellip; and then realised that few years back I built something similar for work, and had a similar evolution of ideas which ended up with react + webcola.</li>
+</ul>
+</li>
+</ul>
+<h2 id="tuesday-2024-01-23">Tuesday 2024-01-23</h2>
+<ul>
+<li>At the office nice and early (7:30).</li>
+<li>Chatted with colleague about the abovementioned React + webcola thing we worked on together, at which point he pointed me at <a href="https://reactflow.dev/">react-flow</a> and comfyui
+<ul>
+<li>react-flow looks like it could work pretty well for this new project. Also: SO SHINY!</li>
+</ul>
+</li>
+<li>streamlit app life cycle: script re-runs every time user interacts, see <a href="https://docs.streamlit.io/get-started/fundamentals/summary">https://docs.streamlit.io/get-started/fundamentals/summary</a>
+<ul>
+<li>it does have caching mechanisms to make this go faster</li>
+<li>marimo, although much newer, approaches this issue with its reactive cell pattern</li>
+</ul>
+</li>
+<li>Idea: We should write focused technical memos at work. This is now howto, but rather &ldquo;things I learned&rdquo; formulated to teach not just to document.</li>
+<li>Upgaded phone to iOS 17.3 and MacBook to macOS 14.3. Apparently there&rsquo;s a <a href="https://www.tomsguide.com/news/apple-issues-urgent-security-updates-to-fix-zero-day-flaw-update-your-iphone-and-mac-right-now">zero day vulnerability</a> in previous versions that can be exploited via malicious websites.</li>
+</ul>
+<h2 id="wednesday-2024-01-24">Wednesday 2024-01-24</h2>
+<ul>
+<li>8km run at just after 7 AM before it really got hot</li>
+<li>dip in the pool (friend LM says we must but pool is probably not cold enough due to +30℃ temps), then started to work</li>
+<li>right after dip in pool, partially pulled back muscle. Partial, because two warning spasms, but not complete lock like many previous times. PHEW!
+<ul>
+<li>Remember kids: Our spine&rsquo;s vertical operation is a major evolutionary hack job and a mechanical disaster just waiting to happen. My advice: Spend more time horizontally.</li>
+<li>This is also the reason why I&rsquo;m still searching for a long enough reclining chair.</li>
+</ul>
+</li>
+<li>Lovely working lunch with friend S at <a href="https://www.facebook.com/NoWayJoseSomerset">No Way José</a></li>
+<li>Some random ideas that popped into my head as I was trying to work:
+<ul>
+<li>idea: make github so that people can <code>pipx install marimo-turbo</code> to get install with pandas, altair, matplotlib, and so on.</li>
+<li>idea: figure out way to publish marimo dashboard to HTTPS url somewhere, for really really cheap
+<ul>
+<li>sounds like AWS API gateway + lambdas can do something complicated to host streamlit, which also uses websockets</li>
+<li>in the end, probably better to do this on my own VPS
+<ul>
+<li>&hellip; or even better, on my own machine behind tailscale funnel! This was straight-forward and seems to work well. See <a href="https://emacs.ch/@cpbotha/111811547009420844">https://emacs.ch/@cpbotha/111811547009420844</a> (post is also embedded below)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>idea: (which has been active for a bit longer) A reliable pattern to lazy start upstream processes only when the first request comes in, and to stop them when no-one is connected. Client -&gt; nginx -&gt; supervisord -&gt; tornado
+<ul>
+<li>systemd can partially do something like this using socket activation: <a href="https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation">https://serverfault.com/questions/1121584/start-apache-on-demand-using-systemd-socket-activation</a></li>
+<li>I would prefer to use supervisord for this</li>
+<li>This will remain on the todo list for now, unless one of you knows a trick?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ran into dude who built kubernetes thing for Hetzner using Crystal, a programming language of which I remembered that it just had a release, so quickly lost some more time on &ldquo;crystal vs nim-lang&rdquo; googling
+<ul>
+<li>blog post: <a href="https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/">https://vitobotta.com/2023/01/07/kubernetes-on-hetzner-cloud-the-easiest-way/</a></li>
+<li>the kubernetes thing: <a href="https://github.com/vitobotta/hetzner-k3s">https://github.com/vitobotta/hetzner-k3s</a></li>
+</ul>
+</li>
+</ul>
+<iframe src="https://emacs.ch/@cpbotha/111811547009420844/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://emacs.ch/embed.js" async="async"></script>
+<h3 id="til-mastodon-embeds-are-not-as-durable-as-twitter-embeds">TIL: mastodon embeds are not as durable as twitter embeds</h3>
+<p>As I pasted the above embed, I saw to my disappointment that it&rsquo;s just pulling in the mastodon post URL via <code>iframe</code>.</p>
+<p>With twitter, you get more self-contained HTML which will render even when twitter or just the original tweet don&rsquo;t exist anymore.</p>
+<p>This is probably just another reason to figure out how I can get more low-friction microblogging going on my own websites so that the embedding implementations of other microblogging sites become irrelevant.</p>
+<h2 id="thursday-2024-01-25">Thursday 2024-01-25</h2>
+<ul>
+<li>Took a look at <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/">cloudflare tunnels</a> to expose marimo and other dashboards to the internet
+<ul>
+<li>great that I can use my existing domains for this, and I can route between multiple domains to multiple locally running services</li>
+<li>some more steps to setup, but it did not take more than about 5 minutes, and gives me even more options than tailscale funnels. OPTIONS MAN!</li>
+</ul>
+</li>
+<li>At work, quickly got react-flow&hellip; flowing. SHINY!</li>
+<li>In the evening, found <a href="https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/">https://www.macstories.net/stories/generating-markdown-links-to-mail-messages-with-shortcuts-and-applescript/</a> which is the new Shortcuts based way, based on the old AppleScript way, of getting a <code>message://</code> link onto the clipboard.
+<ul>
+<li>You <a href="/2023/04/11/note-taking-strategy-2023/#email-linking">might recall from this blog</a> that <code>message://</code> are the most durable and cross-platform way to link to emails from your notes (or anywhere else)</li>
+</ul>
+</li>
+</ul>
+<h2 id="friday-2024-01-26">Friday 2024-01-26</h2>
+<ul>
+<li>Woke up to cool, overcast weather, a big change from a series of 30℃ + days. Really had to resist going out for a run (normal run day + that amazing coolness), because of Wednesday&rsquo;s partially pulled back muscle not being 100% yet.</li>
+<li>Worked on mystery visualization project (react-flow)</li>
+<li>Lovely and energising lunch with previous colleague and friend. Happy that I reached out on Thursday although they have a packed schedule because only in country for limited time. I guess this is quite related to <a href="/2022/09/25/weekly-head-voices-246-call-up-your-friends/#call-up-your-friends">calling up your friends</a>, with a ping of serendipity salt.</li>
+<li>I was shocked by how well and fast <a href="https://ollama.ai/">ollama</a> worked on my MacBook. See embedded tweet below.</li>
+<li>Almost at the end of the afternoon, friend S and I went to some more friends for the first Weiss-off, that is, a Weiss beer tasting contest. It was huge fun blind-tasting 10 different Weiss beers, ranking them, trying to identify them (so much harder than I thought!), and then having them revealed at the end.
+<ul>
+<li>Between the experts there (read: us), Stangen Weiss Bier came out on top, followed by Weisbier No5 and Jack Black Atlantic Weiss. The fourth place was shared by Erdinger and CBC Amber Weiss.</li>
+<li>My favourite, Stellenbrau Jonkersweiss, is glaringly absent from the top. I&rsquo;ll live, probably consoled by just such a Jonkersweiss. Super happy that Amber Weiss and Atlantic are both present!</li>
+<li>There was a trophy (for the taster who could blind-identify the most beers in the Weiss-off), which we have christened the <em>David Weisselhoff wisseltrofee</em>.</li>
+</ul>
+</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With <a href="https://twitter.com/MistralAI?ref_src=twsrc%5Etfw">@MistralAI</a>&#39;s Mistral 7B at Q4_0 on this MacBook M1 Pro 10C / 16C, <a href="https://twitter.com/ollama?ref_src=twsrc%5Etfw">@ollama</a> looks like it&#39;s easily 3 times faster than the new MLX 0.0.11 (with GGUF support).<br><br>It&#39;s subjectively (visually) faster, and the tokens/s measurements confirm this. <a href="https://t.co/9vyluimLKK">pic.twitter.com/9vyluimLKK</a></p>&mdash; @cpbotha@emacs.ch (@cvoxel) <a href="https://twitter.com/cvoxel/status/1750824125419942036?ref_src=twsrc%5Etfw">January 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="saturday-2024-01-27">Saturday 2024-01-27</h2>
+<ul>
+<li>Yesterday&rsquo;s Wonderful Weiss-off also had some, thankfully quite minor, effect the next morning, but I went out for a careful weekday distance run, which fortunately went without a hitch. Just very hot thanks.</li>
+<li>Went to Buco and then to <a href="https://appletoolandgas.com/">Apple Tool and Gas</a> to find the rest of the screws I needed to repair the shower door. Friendly gentleman at Apple even sawed some of my screws to size! Shower door back in operation.</li>
+<li>Updated my &ldquo;old&rdquo; M1 MBA to macOS 14.3 and then reset to transfer to GOU#1&rsquo;s iCloud. Say what you want about Apple, but that part of their stuff works <em>really</em> well.</li>
+<li>Left for Betty&rsquo;s Bay at about 16:00 with GOUs #1 and #2. The rest of the family already there.</li>
+</ul>
+<h2 id="sunday-2024-01-28">Sunday 2024-01-28</h2>
+<ul>
+<li>Woke up in Betty&rsquo;s Bay after a longer than normal night of sleep, but Garmin body battery was still not completely happy.</li>
+<li>In spite of having run yesterday and still feeling a bit tired (see body battery above), I had the best run of the month so far in Betty&rsquo;s. Go figure.</li>
+<li>Spent some time with Canva &ndash; what a great resource for doing nice designs, even flow charts &ndash; but not sure where I could use this.</li>
+<li>Background thought through the past weeks, and mentioned on Tuesday: I would really like to do (and promite) more TIL-style writing at work and at home. See <a href="https://til.simonwillison.net/">Simon Willison&rsquo;s amazing TIL collection</a> for inspiration.</li>
+<li>Ran into <a href="https://github.com/outlines-dev/outlines">https://github.com/outlines-dev/outlines</a> a Python library that can guarantee structured text generation from many LLMs, e.g. 100% valid JSON according to a specified schema. What makes it different from similar libraries? &ldquo;Unlike other libraries, regex-guided generation in Outlines is almost as fast as non-guided generation.&rdquo;</li>
+<li>I already had <a href="https://github.com/microsoft/autogen">AutoGen</a> on my list for experimenting with multi-agent LLM applications, but now it has been joined by <a href="https://github.com/joaomdmoura/crewAI">crewAI</a> which I have also just ran into (thanks reddit!) and which seems to have significant support online.</li>
+</ul>
+ ]]></content:encoded></item></channel></rss>
