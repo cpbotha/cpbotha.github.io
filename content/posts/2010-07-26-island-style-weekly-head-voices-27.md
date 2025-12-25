@@ -14,6 +14,8 @@ tags:
   - head voices review
   - texel
   - vacation
+  - gou-1
+  - gou
 
 ---
 _(This post introduces the new Weekly Head Voices Nerd Index, or WHV-NI, a metric by which you can see if you should read a post or not. See_ [_this page for an explanation of the WHV-NI_][1]_. The NI of the first part of this post is **0/5**__, whilst the NI of the part starting with the accepted paper is **3/5**__, also due to the extensive Head Voices Review at the end.)_

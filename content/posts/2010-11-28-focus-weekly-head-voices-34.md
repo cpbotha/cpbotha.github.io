@@ -14,6 +14,8 @@ tags:
   - mindfulness
   - perspective
   - poetry
+  - gou
+  - gou-2
 
 ---
 On Monday, I took a stroll in the autumn with genetic offspring #2.

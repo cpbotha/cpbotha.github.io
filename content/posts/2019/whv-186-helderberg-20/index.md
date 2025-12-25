@@ -6,6 +6,7 @@ tags:
   - fasting
   - health
   - helderberg
+  - life partner
   - load shedding
   - solar
   - time-restricted eating

@@ -1,9 +1,11 @@
 +++
-title = "Notes on the book \"Seven and a Half Lessons About the Brain\" by Lisa Feldman Barrett"
+title = """
+  Notes on the book "Seven and a Half Lessons About the Brain" by Lisa Feldman Barrett
+  """
 date = 2021-06-05T23:16:00+02:00
-lastmod = 2021-06-08T19:28:36+02:00
+lastmod = 2024-11-26T13:50:11+02:00
 slug = "book-notes-seven-and-a-half-lessons-about-the-brain"
-tags = ["book", "brain", "neuroscience"]
+tags = ["book", "brain", "neuroscience", "my selection"]
 categories = ["book notes"]
 draft = false
 author = "Charl P. Botha"

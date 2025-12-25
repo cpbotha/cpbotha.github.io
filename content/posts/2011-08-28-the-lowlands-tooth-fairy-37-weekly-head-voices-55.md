@@ -16,6 +16,8 @@ tags:
   - lowlands
   - milk tooth
   - tooth fairy
+  - gou
+  - gou-1
 
 ---
 In this week’s Weekly Head Voices, looking back at weeks 33 and 34 of 2011, there are three important topics that I’d like to discuss. For your convenience, I’ve arranged them in order of increasing significance. This has the added advantage of guaranteeing that this post ends, at least technically speaking, with a sort of climax. Oh yes, the theme of today’s post is _dry_.

@@ -15,6 +15,7 @@ tags:
   - dornier
   - itead
   - japan
+  - life partner
   - robotdyn
   - wa
   - warlord

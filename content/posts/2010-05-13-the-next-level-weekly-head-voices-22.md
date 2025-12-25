@@ -14,6 +14,7 @@ tags:
   - mindfulness
   - next level
   - robots
+  - gou-2
 
 ---
 Due to the sleep- and concentration disrupting side-effects of a recent fantastic and life-changing event, I have skipped two editions of the Weekly Head Voices.  You’re going to have to bear with me, as it might happen again more than once in the coming months, whilst the ramification of aforementioned event matures some more and finally decides that those funny hairy creatures often occupying the same spaces that she does do deserve some rest.  Sometimes.

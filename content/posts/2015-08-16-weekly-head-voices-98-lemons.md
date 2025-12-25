@@ -12,6 +12,8 @@ tags:
   - facebook
   - glia
   - glymphatic system
+  - gou
+  - gou-1
   - lemon battery
   - neuroscience
   - physics

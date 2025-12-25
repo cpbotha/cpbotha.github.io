@@ -32,6 +32,9 @@ What you'll also find in this post, is the culmination of many years of lessons
 learned trying to ["keep a lab
 journal"](/2011/02/19/on-the-importance-of-taking-notes-weekly-head-voices-38/#three).
 
+*Note: You can now also read my more recent post [Note-taking strategy
+2023](/2023/04/11/note-taking-strategy-2023/).*
+
 ## Highest level overview of note-taking system.
 
 My approach consists of four main components:

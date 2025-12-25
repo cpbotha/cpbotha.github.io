@@ -1,9 +1,9 @@
 +++
 title = "Weekly Head Voices #247: Precious moments"
 date = 2022-11-01T22:00:00+02:00
-lastmod = 2022-11-02T21:31:38+02:00
+lastmod = 2024-11-24T13:11:57+02:00
 slug = "weekly-head-voices-247-precious-moments"
-tags = ["backyard philosophy", "coffee", "gou-2", "knysna", "moka", "st francis", "wilderness"]
+tags = ["backyard philosophy", "coffee", "gou-2", "knysna", "moka", "st francis", "wilderness", "my selection"]
 categories = ["weekly head voices"]
 draft = false
 author = "Charl P. Botha"

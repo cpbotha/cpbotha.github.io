@@ -1,9 +1,11 @@
 +++
-title = "Notes on the book \"Creativity, Inc.\" by Ed Catmull with Amy Wallace"
+title = """
+  Notes on the book "Creativity, Inc." by Ed Catmull with Amy Wallace
+  """
 date = 2020-12-22T14:57:00+02:00
-lastmod = 2021-01-12T13:31:26+02:00
+lastmod = 2024-11-26T13:51:10+02:00
 slug = "book-notes-creativity-inc"
-tags = ["book", "Ed Catmull", "love", "notes", "science", "Steve Jobs"]
+tags = ["book", "Ed Catmull", "love", "notes", "science", "Steve Jobs", "my selection"]
 categories = ["book notes"]
 draft = false
 author = "Charl P. Botha"
@@ -38,10 +40,10 @@ itself.
 
 ## Who is Ed Catmull? {#who-is-ed-catmull}
 
--   [Dr Edward Catmull](https://en.wikipedia.org/wiki/Edwin%5FCatmull) is one of the most important pioneers of making films with
+-   [Dr Edward Catmull](https://en.wikipedia.org/wiki/Edwin_Catmull) is one of the most important pioneers of making films with
     computer graphics.
 -   He was one of the three founders of Pixar, together with Steve Jobs and [John
-    Lasseter](https://en.wikipedia.org/wiki/John%5FLasseter).
+    Lasseter](https://en.wikipedia.org/wiki/John_Lasseter).
 -   You might recall that Pixar released the movie Toy Story in 1995, a
     fantastically successful movie that revolutionised film-making with computer
     graphics.
@@ -51,7 +53,7 @@ itself.
     award-winning and, more importantly, culture defining films. Besides the Toy
     Story series, think about Monsters, Inc., Finding Nemo and The Incredibles.
 
-He made the first digitally rendered 3D movie, called [A Computer Animated Hand](https://en.wikipedia.org/wiki/A%5FComputer%5FAnimated%5FHand),
+He made the first digitally rendered 3D movie, called [A Computer Animated Hand](https://en.wikipedia.org/wiki/A_Computer_Animated_Hand),
 in the spring of 1972, by laboriously and manually recording the surface of his
 hand as 3D triangles, and then using computers to animate and render this
 surface.
@@ -173,7 +175,7 @@ Catmull's lab mates were themselves pretty legendary:
 
 -   Jim Clark, who later founded Silicon Graphics and Netscape
 -   John Warnock, who later co-found Adobe
--   [Alan Kay](https://en.wikipedia.org/wiki/Alan%5FKay), a pioneer in object-oriented programming and windowing GUIs
+-   [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay), a pioneer in object-oriented programming and windowing GUIs
 
 He also writes about the culture and the group dynamics in the lab:
 
@@ -783,7 +785,7 @@ In short, they were able to make mistakes on these relatively small projects,
 "miniature trains" as Catmull calls them, that helped them avoid "train wrecks
 with real trains"
 
-In software development, there is a related concept called [a spike](https://en.wikipedia.org/wiki/Spike%5F(software%5Fdevelopment)).
+In software development, there is a related concept called [a spike](https://en.wikipedia.org/wiki/Spike_(software_development)).
 
 
 ### Learning to see {#learning-to-see}

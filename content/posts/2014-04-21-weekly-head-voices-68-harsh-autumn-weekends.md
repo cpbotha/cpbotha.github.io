@@ -8,6 +8,7 @@ categories:
   - weekly head voices
 tags:
   - autumn
+  - bullet lists
   - baboons
   - beer
   - cbc
