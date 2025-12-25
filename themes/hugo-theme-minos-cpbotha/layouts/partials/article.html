@@ -22,11 +22,6 @@
                 </div>
             </div>
             {{ end }}
-            {{ if .Site.DisqusShortname }}
-            <div class="article-comment-link-wrap">
-                <a href="{{ .RelPermalink }}#disqus_thread" class="article-comment-link">Comments</a>
-            </div>
-            {{ end }}
             {{ if and .IsPage (ne .Params.comment false) -}}
             {{/* cpbotha is using isso comments here */}}
             <div class="article-comment-link-wrap">

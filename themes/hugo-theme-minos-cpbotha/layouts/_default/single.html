@@ -5,9 +5,6 @@
     {{ partial "header.html" . }}
     <section id="main" class="outer">
         {{ partial "article.html" . }}
-        {{ if and (not .Params.nocomment) .Site.DisqusShortname }}
-            {{ template "_internal/disqus.html" . }}
-        {{ end }}
 
 
 {{/* cpbotha isso comments: see https://posativ.org/isso/docs/configuration/client/ */}}
