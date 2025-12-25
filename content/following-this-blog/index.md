@@ -10,8 +10,7 @@ menu:
 
 You can use any combination of the below options to follow this blog.
 
-If you're not sure, subscribe via email! (each email has an
-unsubscribe link at the bottom, so that's easy)
+If you're not sure, subscribe via email! (each email has an unsubscribe link at the bottom, so that's easy)
 
 ## Subscribe via email
 
@@ -22,9 +21,9 @@ box below, click the **subscribe** button, and then follow the instructions:
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+ #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+ /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
 <form action="https://cpbotha.us14.list-manage.com/subscribe/post?u=721d39fa86f169c8e86838fa5&amp;id=6082535aac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -39,14 +38,16 @@ box below, click the **subscribe** button, and then follow the instructions:
 
 <!--End mc_embed_signup-->
 
-## Twitter
-
-You could also consider [following @cvoxel on twitter][2] (that's me). I tweet
-some, but not all, of the posts I make.
-
 ## RSS / Atom
 
 You're a power user! You can add [this blog's atom feed](/posts/index.xml) to your reader.
 
-[1]: https://cpbotha.net/category/microblog/
-[2]: https://twitter.com/cvoxel
+## Subscribe via Signal
+
+Of course I put together [a thingy](https://github.com/cpbotha/rss-to-signal) that can automatically send new post notifications to any number of Signal groups or usernames:
+
+If you prefer **not** to be on the group, but to receive your notifications directly to your Signal username, [send cpbotha.01 (me) a message by tapping here](https://signal.me/#eu/1KU-ml4TML4BrDR2jL7YAtDjXe4WzPBFlJPZuOxsAh3bXjyPpdxEyZJz_kYsO0IY).
+
+If you do want to join the Weekly Head Voices Signal notification group, please scan the QRCode below or [tap the group link here](https://signal.group/#CjQKIM6UuTNjrzWvNjAmQS_sMSqiICGmQk6BKUY47zgpCQG0EhDprPov_WeMHt6QnUJ0hzfw). The benefit is that you can join or leave at any time. The drawback is that other folks on the group can see your username. **REMEMBER TO CONFIGURE**: Signal settings - privacy - phone number - who can see my number: NOBODY.
+
+{{< figure src="7E1354FB-7D54-45D4-8093-175D68B2CEDC.png" link="7E1354FB-7D54-45D4-8093-175D68B2CEDC.png" caption="Weekly Head Voices GROUP" >}}

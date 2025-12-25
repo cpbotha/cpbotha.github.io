@@ -22,6 +22,8 @@ Head Voices](/categories/weekly-head-voices/), a weekly (mostly not) personal
 diary, in which I usually also try to include something entertaining and/or
 educational.
 
+Since December of 2023, it also hosts [The Daily Head Voices](/about/daily-head-voices/).
+
 My **personal, non-work e-mail** address is [cpbotha@cpbotha.net][2], although
 I much prefer if you leave a comment on the relevant blog post.
 
