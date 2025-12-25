@@ -1,8 +1,8 @@
 {{/*
 
-figure with auto-resizing and srcset v2020-05-10
+figure with auto-resizing and srcset v2024-11-24
 
-Drop-in replacement for Hugo's figure shortcode as of 2020-05-02 that uses img srcset
+Drop-in replacement for Hugo's figure shortcode which uses img srcset
 to enable browsers to download only the resolution that they need.
 
 The resizing and srcset magic only works for images that are part of the page
@@ -21,6 +21,7 @@ See https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode
 - mashing together and srcset logic fixes by Charl P. Botha https://cpbotha.net/
 
 Changes:
+- 2024-11-24 work-around for bug in golang where it breaks webp images during resizing. Please add png or jpg version of your webp.
 - 2020-05-10 fall back to stock Hugo behaviour when no page bundle found
 - 2020-05-04 no unnecessary resizes, sizes in array
 - 2020-05-02 initial release
@@ -28,10 +29,28 @@ Changes:
 */}}
 
 {{/* hugo will resize to all of these sizes that are smaller than your original. configure if you like! */}}
-{{ $sizes := (slice "480" "800" "1200" "1500") }}
+{{- $sizes := (slice "480" "800" "1200" "1500") }}
 
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
-{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{- $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+
+{{/* work-around for bug in golang where webp images are degraded during decoding / processing: 
+     https://github.com/golang/go/issues/40173 
+     in short: use .webp as src, but also add a png or jpg version. This code will link webp files everywhere,
+     but it will use the jpg/png as the image processing source */}}
+{{- $srcIP := $src }}
+{{- if and $src (strings.HasSuffix $src.Name ".webp") }}
+    {{/* use .jpg if that exists, else .png */}}
+    {{- $srcPNG := .Page.Resources.GetMatch (printf "*%s*" (replace (.Get "src") ".webp" ".png")) }}
+    {{- $srcJPG := .Page.Resources.GetMatch (printf "*%s*" (replace (.Get "src") ".webp" ".jpg")) }}
+    {{- if $srcPNG }}
+        {{- $srcIP = $srcPNG }}
+    {{- else if $srcJPG }}
+        {{- $srcIP = $srcJPG }}
+    {{- end }}
+{{- end }}
+
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
@@ -43,12 +62,13 @@ Changes:
             {{/* only srcset images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}  
             srcset='
             {{ range $sizes }}
-                   {{ if ge $src.Width . }}{{ ($src.Resize (printf "%sx" .)).Permalink }} {{ (printf "%sw" .) }},{{ end }}
+                {{/* explicit MediaType.SubType to support our webp work-around without affecting non-webp use */}}
+                {{ if ge $src.Width . }}{{ ($srcIP.Resize (printf "%sx %s" . $src.MediaType.SubType)).Permalink }} {{ (printf "%sw" .) }},{{ end }}
             {{ end }}'
 
             {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
             {{/* if image smaller than 800, then load the image itself */}}
-            {{ if ge $src.Width "800" }}src="{{ ($src.Resize "800x").Permalink }}"
+            {{ if ge $src.Width "800" }}src="{{ ($srcIP.Resize (printf "800x %s" $src.MediaType.SubType)).Permalink }}"
             {{ else }}src="{{ $src.Permalink }}"
             {{ end }}
 
