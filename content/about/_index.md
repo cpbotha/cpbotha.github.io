@@ -14,8 +14,7 @@ This is [my](http://charlbotha.com) personal blog.
 
 The canonical location of this blog is <https://cpbotha.net/>. There is a mirror
 at <https://cpbotha.github.io/> in case cpbotha.net ever goes down (see [WHV
-
-# 232](/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/#this-blog-hopefully-immortalised-on-github) for more information)
+\#232](/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/#this-blog-hopefully-immortalised-on-github) for more information)
 
 You will find posts on science, software, general nerdery, privacy and
 [backyard philosophy](/tags/backyard-philosophy/). It also hosts [the Weekly
@@ -38,9 +37,7 @@ spread out over 20 years of life) should be mirrored on
 
 You can browse a static mirror of the canonical <https://cpbotha.net/> by going to <https://cpbotha.github.io/>.
 
-You can read more about why and how in [WHV
-
-# 232](/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/#this-blog-hopefully-immortalised-on-github)
+You can read more about why and how in [WHV \#232](/2021/09/13/weekly-head-voices-232-side-project-smorgasbord/#this-blog-hopefully-immortalised-on-github)
 
  [2]: mailto:cpbotha@cpbotha.net "my personal non-work e-mail address."
  [3]: /about/history "cpbotha.net blog history page"
