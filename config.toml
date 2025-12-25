@@ -5,9 +5,12 @@ theme = ["hugo-theme-minos-cpbotha", "hugo-theme-minos"]
 rssLimit = 10
 # we only need this for minos to get disqus going.
 #disqusShortname = "cpbotha"
-pygmentsCodeFences = true
-pygmentsStyle = "solarized-light"
+
+#pygmentsCodeFences = true
+#pygmentsStyle = "solarized-light"
 #pygmentsOptions = "linenos=table"
+
+resourceDir = "/tmp/hugo-resources-cpbotha.net/"
 
 # see https://gohugo.io/news/0.60.0-relnotes/
 [markup]
@@ -21,6 +24,8 @@ pygmentsStyle = "solarized-light"
     # default is 2, but set to 1 until we've converted all posts to start at 2
     # 1 was the default before goldmark (i.e. with blackdown)
     startLevel = 1
+  [markup.highlight]
+    style = 'github'
 
 # we need email and name for this to appear in the standard RSS feed
 # however, in https://gohugo.io/variables/site/#example-siteparams I see both Site.author AND
