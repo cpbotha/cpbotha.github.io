@@ -2,6 +2,7 @@
 - expand ogimage base name to 800px resized version of resource image URL!
 - change .Params.ogdescription to .Params.description
 - images frontmatter takes precedence for og:image, as per hugo internal template opengraph
+- convert to webp for ogimage. HOWEVER, due to golang webp bug DO NOT use webp for ogimage
 */}}
 
 <meta property="og:title" content="{{ if .Params.ogtitle }}{{ .Params.ogtitle }}{{ else }}{{ .Title }}{{ end }}" />
@@ -15,7 +16,7 @@
     {{ if .Params.ogimage }}
     {{ $src := .Resources.GetMatch .Params.ogimage }}
     {{ if $src }}
-      {{ $small := ($src.Resize "800x") }}
+      {{ $small := ($src.Resize "800x webp") }}
     <meta property="og:image" content="{{ $small.Permalink }}" />
     {{ end }}
     {{ end }}

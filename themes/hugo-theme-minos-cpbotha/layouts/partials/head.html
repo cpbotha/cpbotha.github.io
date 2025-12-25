@@ -15,9 +15,7 @@
     <link href="{{ "webfonts/source-code-pro/main.css" | absURL }}" rel="stylesheet" type="text/css">
 
     {{/* cpbotha overriding head.html only for this font. did not work directly in style.css */}}
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 
     <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
     {{ range .Site.Params.customCss -}}
